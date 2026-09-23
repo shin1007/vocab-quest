@@ -20265,5 +20265,1207 @@
       { "word": "target", "meaning": "目標", "nuance": "達成すべき数字。", "etymology": "古フランス語 targe「盾」" },
       { "word": "allocation", "meaning": "割り当て", "nuance": "配分。", "etymology": "ラテン語 allocāre" }
     ]
+  },
+  {
+    "id": "philosophy", "word": "philosophy", "katakana": "フィロソフィー", "pos": "名詞", "cefr": "B2", "level": 9,
+    "meaning": "哲学、考え方",
+    "scene": "経営フィロソフィー、人生哲学。",
+    "example": { "en": "My philosophy is to enjoy every day.", "ja": "毎日を楽しむのが私の信条だ。" },
+    "etymology": {
+      "origin": "ギリシャ語 philosophia「知恵を愛すること」← philos「愛する」+ sophia「知恵」",
+      "story": "philanthropy（博愛）、Philadelphia（兄弟愛の町）も philos の家族。sophisticated（洗練された）は sophia から。"
+    },
+    "roots": [],
+    "family": ["philosopher（哲学者）、sophisticated（洗練された）"],
+    "synonyms": [
+      { "word": "ideology", "meaning": "イデオロギー", "nuance": "思想体系。", "etymology": "フランス語 idéologie" },
+      { "word": "belief", "meaning": "信念", "nuance": "信じていること。", "etymology": "古英語 gelēafa" }
+    ]
+  },
+  {
+    "id": "metaphor", "word": "metaphor", "katakana": "メタファー", "pos": "名詞", "cefr": "C1", "level": 9,
+    "meaning": "隠喩、たとえ",
+    "scene": "「人生は旅だ」のような比喩。",
+    "example": { "en": "\"Time is money\" is a common metaphor.", "ja": "「時は金なり」はよくある隠喩だ。" },
+    "etymology": {
+      "origin": "ギリシャ語 metaphora「移し替え」← meta-「越えて」+ pherein「運ぶ」",
+      "story": "意味を別のものに「運び移す」表現。like や as を使うたとえは simile（直喩）。"
+    },
+    "roots": [],
+    "family": ["metaphorical（比喩的な）"],
+    "synonyms": [
+      { "word": "simile", "meaning": "直喩", "nuance": "like を使うたとえ。", "etymology": "ラテン語 similis「似た」" },
+      { "word": "symbol", "meaning": "象徴", "nuance": "何かを表すもの。", "etymology": "ギリシャ語 symbolon" }
+    ]
+  },
+  {
+    "id": "thesis", "word": "thesis", "katakana": "テーゼ", "pos": "名詞", "cefr": "C1", "level": 9,
+    "meaning": "論文、命題、主張",
+    "scene": "卒業論文、テーゼとアンチテーゼ。",
+    "example": { "en": "She wrote her thesis on climate change.", "ja": "彼女は気候変動について卒業論文を書いた。" },
+    "etymology": {
+      "origin": "ギリシャ語 thesis「置くこと、主張」← tithenai「置く」",
+      "story": "議論の場に「置かれた主張」。theme（テーマ）と同じ語根。「テーゼ」はドイツ語 These の読み。複数形は theses。"
+    },
+    "roots": [],
+    "family": ["theme（テーマ）、hypothesis（仮説）"],
+    "synonyms": [
+      { "word": "dissertation", "meaning": "博士論文", "nuance": "長い学術論文。", "etymology": "ラテン語 dissertāre" },
+      { "word": "argument", "meaning": "主張", "nuance": "論じる内容。", "etymology": "ラテン語 arguere" }
+    ]
+  },
+  {
+    "id": "antithesis", "word": "antithesis", "katakana": "アンチテーゼ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "正反対、対立命題",
+    "scene": "〜へのアンチテーゼ、真逆。",
+    "example": { "en": "Her style is the antithesis of his.", "ja": "彼女のやり方は彼とまったく正反対だ。" },
+    "etymology": {
+      "origin": "ギリシャ語 antithesis「反対に置くこと」← anti-「反対に」+ thesis",
+      "story": "ヘーゲルの弁証法の「正・反・合」の「反」。英語では「正反対のもの」の意味でよく使う。"
+    },
+    "roots": [],
+    "family": ["thesis（命題）"],
+    "synonyms": [
+      { "word": "opposite", "meaning": "反対", "nuance": "逆のもの。", "etymology": "ラテン語 oppōnere" },
+      { "word": "contrast", "meaning": "対照", "nuance": "はっきりした違い。", "etymology": "イタリア語 contrastare" }
+    ]
+  },
+  {
+    "id": "narrative", "word": "narrative", "katakana": "ナラティブ", "pos": "名詞・形容詞", "cefr": "C1", "level": 9,
+    "meaning": "物語、語り、ものの見方",
+    "scene": "企業のナラティブ、物語の語り口。",
+    "example": { "en": "The film has a powerful narrative.", "ja": "その映画には力強い物語がある。" },
+    "etymology": {
+      "origin": "ラテン語 narrātīvus ← narrāre「語る」← gnārus「知っている」",
+      "story": "「知っていることを語る」。narrator（語り手）も同じ語。最近は「出来事の意味づけ・物語」の意味でも使われる。"
+    },
+    "roots": [],
+    "family": ["narrate（語る）、narrator（語り手）"],
+    "synonyms": [
+      { "word": "story", "meaning": "物語", "nuance": "お話。", "etymology": "ラテン語 historia" },
+      { "word": "account", "meaning": "説明、話", "nuance": "出来事の報告。", "etymology": "古フランス語 aconter" }
+    ]
+  },
+  {
+    "id": "realism", "word": "realism", "katakana": "リアリズム", "pos": "名詞", "cefr": "C1", "level": 9,
+    "meaning": "現実主義、写実主義",
+    "scene": "リアリズム小説、現実路線。",
+    "example": { "en": "The painting is known for its realism.", "ja": "その絵は写実性で知られている。" },
+    "etymology": {
+      "origin": "real「現実の」+ -ism ← ラテン語 rēs「もの」",
+      "story": "「ありのままのもの」を描く・考える立場。real、reality、republic（公のもの）も rēs の家族。"
+    },
+    "roots": [],
+    "family": ["real（本物の）、reality（現実）"],
+    "synonyms": [
+      { "word": "naturalism", "meaning": "自然主義", "nuance": "ありのままに描く立場。", "etymology": "nature + -ism" },
+      { "word": "pragmatism", "meaning": "実用主義", "nuance": "実際に役立つかを重視。", "etymology": "ギリシャ語 pragma「行い」" }
+    ]
+  },
+  {
+    "id": "modernism", "word": "modernism", "katakana": "モダニズム", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "近代主義、モダニズム",
+    "scene": "モダニズム建築、近代芸術。",
+    "example": { "en": "Modernism changed architecture in the 20th century.", "ja": "モダニズムは20世紀の建築を変えた。" },
+    "etymology": {
+      "origin": "modern「現代の」+ -ism ← 後期ラテン語 modernus「ちょうど今の」← modo「たった今」",
+      "story": "「今の」。19世紀末〜20世紀の、伝統を離れた新しい芸術運動。"
+    },
+    "roots": [],
+    "family": ["modern（現代の）"],
+    "synonyms": [
+      { "word": "avant-garde", "meaning": "前衛", "nuance": "最先端の芸術。", "etymology": "フランス語「前衛部隊」" },
+      { "word": "innovation", "meaning": "革新", "nuance": "新しくすること。", "etymology": "ラテン語 innovāre" }
+    ]
+  },
+  {
+    "id": "surreal", "word": "surreal", "katakana": "シュール", "pos": "形容詞", "cefr": "C2", "level": 9,
+    "meaning": "超現実的な、夢のような",
+    "scene": "「シュールな笑い」、シュールレアリスム。",
+    "example": { "en": "Meeting my hero was a surreal experience.", "ja": "憧れの人に会えたのは夢のような体験だった。" },
+    "etymology": {
+      "origin": "surrealism「超現実主義」から ← フランス語 sur-「超えた」+ réalisme",
+      "story": "1920年代の芸術運動シュールレアリスム（ダリなど）から。日本語の「シュール」はここから来た語。"
+    },
+    "roots": [],
+    "family": ["surrealism（シュールレアリスム）、real（現実の）"],
+    "synonyms": [
+      { "word": "dreamlike", "meaning": "夢のような", "nuance": "現実離れした。", "etymology": "dream + like" },
+      { "word": "bizarre", "meaning": "奇妙な", "nuance": "とても変わった。", "etymology": "イタリア語 bizzarro「怒りっぽい」" }
+    ]
+  },
+  {
+    "id": "minimalism", "word": "minimalism", "katakana": "ミニマリズム", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "最小限主義、ミニマリズム",
+    "scene": "ミニマリズムのデザイン、ミニマル・ミュージック。",
+    "example": { "en": "The room is decorated in the style of minimalism.", "ja": "その部屋はミニマリズムの様式で飾られている。" },
+    "etymology": {
+      "origin": "minimal「最小限の」+ -ism",
+      "story": "1960年代の美術・音楽で、要素を削ぎ落とした作風。menu、minute と同じ「小さい」の家族。"
+    },
+    "roots": ["min"],
+    "family": ["minimalist（ミニマリスト）、minimum（最小限）"],
+    "synonyms": [
+      { "word": "simplicity", "meaning": "簡素さ", "nuance": "シンプルなこと。", "etymology": "simple + -ity" },
+      { "word": "austerity", "meaning": "質素さ、緊縮", "nuance": "ぜいたくをしないこと。", "etymology": "ギリシャ語 austēros「厳しい」" }
+    ]
+  },
+  {
+    "id": "baroque", "word": "baroque", "katakana": "バロック", "pos": "形容詞・名詞", "cefr": "C2", "level": 9,
+    "meaning": "バロック様式（の）、飾りすぎた",
+    "scene": "バロック音楽、バロック建築。",
+    "example": { "en": "Bach is a famous baroque composer.", "ja": "バッハは有名なバロックの作曲家だ。" },
+    "etymology": {
+      "origin": "フランス語 baroque ← ポルトガル語 barroco「いびつな真珠」",
+      "story": "もとは形のいびつな真珠。17〜18世紀の豪華で装飾の多い芸術様式を、批判的に「いびつ」と呼んだのが始まりとされる。"
+    },
+    "roots": [],
+    "family": ["barocco（イタリア語のバロック）"],
+    "synonyms": [
+      { "word": "ornate", "meaning": "装飾の多い", "nuance": "ごてごてした。", "etymology": "ラテン語 ōrnāre「飾る」" },
+      { "word": "classical", "meaning": "古典派の", "nuance": "バロックの次の時代の様式。", "etymology": "ラテン語 classicus" }
+    ]
+  },
+  {
+    "id": "gothic", "word": "gothic", "katakana": "ゴシック", "pos": "形容詞", "cefr": "C2", "level": 9,
+    "meaning": "ゴシック様式の、怪奇的な",
+    "scene": "ゴシック建築、ゴシック体、ゴスロリ。",
+    "example": { "en": "The cathedral is a fine example of Gothic architecture.", "ja": "その大聖堂はゴシック建築の見事な例だ。" },
+    "etymology": {
+      "origin": "ラテン語 Gothicus「ゴート人の」",
+      "story": "ルネサンス期の人々が中世の建築を「野蛮なゴート人のもの」と見下して呼んだのが始まり。のちに怪奇小説や、暗い服装のスタイルにも使われる。"
+    },
+    "roots": [],
+    "family": ["Goth（ゴート人、ゴス）"],
+    "synonyms": [
+      { "word": "medieval", "meaning": "中世の", "nuance": "中世の時代の。", "etymology": "ラテン語 medium aevum「中間の時代」" },
+      { "word": "dark", "meaning": "暗い", "nuance": "陰気な。", "etymology": "古英語 deorc" }
+    ]
+  },
+  {
+    "id": "dystopia", "word": "dystopia", "katakana": "ディストピア", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "暗黒郷、ディストピア",
+    "scene": "ディストピア小説、管理社会。",
+    "example": { "en": "The novel describes a dystopia controlled by AI.", "ja": "その小説はAIに支配された暗黒の未来社会を描いている。" },
+    "etymology": {
+      "origin": "dys-「悪い」+ utopia「理想郷」（19世紀）",
+      "story": "utopia の反対。dys- は dysfunction（機能不全）の「悪い」。『1984年』などの作品で有名。"
+    },
+    "roots": [],
+    "family": ["utopia（理想郷）"],
+    "synonyms": [
+      { "word": "nightmare", "meaning": "悪夢", "nuance": "こわい夢のような状況。", "etymology": "night + mare" },
+      { "word": "apocalypse", "meaning": "世界の終末", "nuance": "破滅。", "etymology": "ギリシャ語 apokalypsis「啓示」" }
+    ]
+  },
+  {
+    "id": "nationalism", "word": "nationalism", "katakana": "ナショナリズム", "pos": "名詞", "cefr": "C1", "level": 9,
+    "meaning": "国家主義、民族主義",
+    "scene": "ナショナリズムの高まり、愛国心。",
+    "example": { "en": "Nationalism grew stronger during the war.", "ja": "戦争中に国家主義が強まった。" },
+    "etymology": {
+      "origin": "national「国の」+ -ism ← ラテン語 nātiō「生まれ、民族」",
+      "story": "同じ「生まれ」の人々のまとまり。nation、native、nature と同じ nāscī の家族。"
+    },
+    "roots": ["nat"],
+    "family": ["nation（国家）、native（出身の）"],
+    "synonyms": [
+      { "word": "patriotism", "meaning": "愛国心", "nuance": "国を愛する気持ち。", "etymology": "ギリシャ語 patris「祖国」" },
+      { "word": "chauvinism", "meaning": "排他的愛国主義", "nuance": "自国第一の極端な考え。", "etymology": "ナポレオン軍の兵士 Chauvin の名から" }
+    ]
+  },
+  {
+    "id": "populism", "word": "populism", "katakana": "ポピュリズム", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "大衆迎合主義",
+    "scene": "ポピュリズム政治、人気取り政策。",
+    "example": { "en": "Some politicians use populism to win votes.", "ja": "票を得るために大衆迎合的な主張をする政治家もいる。" },
+    "etymology": {
+      "origin": "ラテン語 populus「民衆」+ -ism",
+      "story": "19世紀アメリカの人民党（Populist Party）から。popular、people と同じ家族。"
+    },
+    "roots": ["popul"],
+    "family": ["popular（人気のある）、people（人々）"],
+    "synonyms": [
+      { "word": "demagogy", "meaning": "扇動政治", "nuance": "大衆を感情であおること。", "etymology": "ギリシャ語 dēmagōgos「民衆の指導者」" },
+      { "word": "crowd-pleasing", "meaning": "人気取りの", "nuance": "大衆を喜ばせる。", "etymology": "crowd + please" }
+    ]
+  },
+  {
+    "id": "fascism", "word": "fascism", "katakana": "ファシズム", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "ファシズム、全体主義",
+    "scene": "20世紀のファシズム、独裁。",
+    "example": { "en": "Fascism rose in Europe in the 1920s and 1930s.", "ja": "1920〜30年代にヨーロッパでファシズムが台頭した。" },
+    "etymology": {
+      "origin": "イタリア語 fascismo ← fascio「束」← ラテン語 fascēs「束ねた棒」",
+      "story": "古代ローマで権力の象徴だった「棒の束」から。ムッソリーニの政党がこの名を使った。"
+    },
+    "roots": [],
+    "family": ["fascist（ファシスト）"],
+    "synonyms": [
+      { "word": "dictatorship", "meaning": "独裁", "nuance": "一人が支配する体制。", "etymology": "ラテン語 dictātor" },
+      { "word": "totalitarianism", "meaning": "全体主義", "nuance": "国がすべてを管理する体制。", "etymology": "total + -itarian" }
+    ]
+  },
+  {
+    "id": "anarchy", "word": "anarchy", "katakana": "アナーキー", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "無政府状態、混乱",
+    "scene": "アナーキーなパンク、無秩序。",
+    "example": { "en": "After the war, the country fell into anarchy.", "ja": "戦後、その国は無政府状態に陥った。" },
+    "etymology": {
+      "origin": "ギリシャ語 anarkhia「指導者のいないこと」← an-「ない」+ arkhos「支配者」",
+      "story": "monarchy（君主制）、hierarchy と同じ arkhein「支配する」の家族。"
+    },
+    "roots": [],
+    "family": ["monarchy（君主制）、hierarchy（階層）"],
+    "synonyms": [
+      { "word": "chaos", "meaning": "混沌", "nuance": "大混乱。", "etymology": "ギリシャ語 khaos" },
+      { "word": "disorder", "meaning": "無秩序", "nuance": "乱れた状態。", "etymology": "dis- + order" }
+    ]
+  },
+  {
+    "id": "elite", "word": "elite", "katakana": "エリート", "pos": "名詞・形容詞", "cefr": "C1", "level": 9,
+    "meaning": "えり抜きの人々、エリート",
+    "scene": "エリート社員、エリート校。",
+    "example": { "en": "He went to an elite university.", "ja": "彼はエリート大学に通っていた。" },
+    "etymology": {
+      "origin": "フランス語 élite「選ばれた者」← élire「選ぶ」← ラテン語 ēligere",
+      "story": "elect（選ぶ）と同じ語。英語では集団を指すことが多い（the elite）。"
+    },
+    "roots": ["leg"],
+    "family": ["elect（選ぶ）、eligible（資格のある）"],
+    "synonyms": [
+      { "word": "upper class", "meaning": "上流階級", "nuance": "社会の上層。", "etymology": "upper + class" },
+      { "word": "best", "meaning": "最良のもの", "nuance": "選りすぐり。", "etymology": "古英語 betst" }
+    ]
+  },
+  {
+    "id": "intellectual", "word": "intellectual", "katakana": "インテリ", "pos": "名詞・形容詞", "cefr": "C1", "level": 9,
+    "meaning": "知識人、知的な",
+    "scene": "「インテリ」、知的な会話。",
+    "example": { "en": "She enjoys intellectual discussions.", "ja": "彼女は知的な議論を楽しむ。" },
+    "etymology": {
+      "origin": "ラテン語 intellēctuālis ← intellegere「理解する」← inter-「間を」+ legere「選ぶ」",
+      "story": "「ものの間を見分けて選ぶ力」。intelligent（頭のよい）も同じ語。「インテリ」はロシア語 intelligentsia（知識階級）の略とされる。"
+    },
+    "roots": ["leg"],
+    "family": ["intelligence（知性）、intelligent（知的な）"],
+    "synonyms": [
+      { "word": "scholar", "meaning": "学者", "nuance": "学問をする人。", "etymology": "ラテン語 schola" },
+      { "word": "thinker", "meaning": "思想家", "nuance": "深く考える人。", "etymology": "think + -er" }
+    ]
+  },
+  {
+    "id": "ego", "word": "ego", "katakana": "エゴ", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "自我、うぬぼれ",
+    "scene": "「エゴが強い」、エゴサーチ。",
+    "example": { "en": "He has a big ego.", "ja": "彼はうぬぼれが強い。" },
+    "etymology": {
+      "origin": "ラテン語 ego「私」",
+      "story": "心理学者フロイトの用語（自我）の英訳から広まった。egoist（利己主義者）、egocentric（自己中心的な）も同じ語。"
+    },
+    "roots": [],
+    "family": ["egoist（利己主義者）、egocentric（自己中心的な）"],
+    "synonyms": [
+      { "word": "self", "meaning": "自己", "nuance": "自分自身。", "etymology": "古英語 self" },
+      { "word": "pride", "meaning": "プライド", "nuance": "自尊心。", "etymology": "古英語 prȳde" }
+    ]
+  },
+  {
+    "id": "complex", "word": "complex", "katakana": "コンプレックス", "pos": "名詞・形容詞", "cefr": "B2", "level": 7,
+    "meaning": "複雑な、複合施設、（心理的な）こだわり",
+    "scene": "「コンプレックスがある」、商業施設（complex）。",
+    "gap": "日本語の「コンプレックス」は「劣等感」の意味だが、英語で complex だけでは通じにくい。劣等感なら inferiority complex / insecurity。形容詞 complex は「複雑な」。",
+    "trapQuiz": {"question": "「背が低いのがコンプレックスだ」に近い英語は？", "answer": "I'm insecure about being short.", "wrong": ["I have a complex about short.", "My complex is short.", "I'm complex of short."]},
+    "example": { "en": "This is a very complex problem.", "ja": "これはとても複雑な問題だ。" },
+    "etymology": {
+      "origin": "ラテン語 complexus「編み合わされた」← com- + plectere「編む」",
+      "story": "「いくつも編み合わさった」→ 複雑な、複合体。心理学では「絡み合った感情のかたまり」。simple（一重の）の反対。"
+    },
+    "roots": [],
+    "family": ["complexity（複雑さ）"],
+    "synonyms": [
+      { "word": "complicated", "meaning": "ややこしい", "nuance": "入り組んだ。", "etymology": "ラテン語 complicāre" },
+      { "word": "insecurity", "meaning": "劣等感、不安", "nuance": "自信のなさ。", "etymology": "in- + security" }
+    ]
+  },
+  {
+    "id": "sympathy", "word": "sympathy", "katakana": "シンパシー", "pos": "名詞", "cefr": "B2", "level": 9,
+    "meaning": "同情、共感",
+    "scene": "「シンパシーを感じる」、お悔やみ。",
+    "example": { "en": "You have my deepest sympathy.", "ja": "心からお悔やみ申し上げます。" },
+    "etymology": {
+      "origin": "ギリシャ語 sympatheia「共に苦しむこと」← syn-「共に」+ pathos「感情、苦しみ」",
+      "story": "相手と「同じ感情を持つ」。empathy（共感＝相手の中に入って感じる）とは少し違う。pathetic（哀れな）も pathos の家族。"
+    },
+    "roots": [],
+    "family": ["sympathize（同情する）、empathy（共感）"],
+    "synonyms": [
+      { "word": "empathy", "meaning": "共感", "nuance": "相手の立場で感じること。", "etymology": "ギリシャ語 empatheia" },
+      { "word": "compassion", "meaning": "思いやり", "nuance": "苦しむ人を助けたい気持ち。", "etymology": "ラテン語 compatī" }
+    ]
+  },
+  {
+    "id": "moral", "word": "moral", "katakana": "モラル", "pos": "名詞・形容詞", "cefr": "B2", "level": 7,
+    "meaning": "道徳（の）、教訓",
+    "scene": "「モラルがない」、物語の教訓。",
+    "example": { "en": "The moral of the story is \"never give up.\"", "ja": "その物語の教訓は「決してあきらめるな」だ。" },
+    "etymology": {
+      "origin": "ラテン語 mōrālis「習慣の」← mōs「習慣」",
+      "story": "社会の「習わし」→ 道徳。「モラルが低い」は英語では have no morals / lack ethics。morale（モラール＝士気）は別の語。"
+    },
+    "roots": [],
+    "family": ["morality（道徳）、morale（士気）"],
+    "synonyms": [
+      { "word": "ethics", "meaning": "倫理", "nuance": "正しさの基準。", "etymology": "ギリシャ語 ēthikos" },
+      { "word": "lesson", "meaning": "教訓", "nuance": "学んだこと。", "etymology": "ラテン語 lēctiō" }
+    ]
+  },
+  {
+    "id": "cosmopolitan", "word": "cosmopolitan", "katakana": "コスモポリタン", "pos": "形容詞・名詞", "cefr": "C2", "level": 9,
+    "meaning": "国際的な、世界主義者",
+    "scene": "コスモポリタンな都市、世界市民。",
+    "example": { "en": "New York is a cosmopolitan city.", "ja": "ニューヨークは国際色豊かな都市だ。" },
+    "etymology": {
+      "origin": "ギリシャ語 kosmopolitēs「世界市民」← kosmos「世界」+ politēs「市民」",
+      "story": "哲学者ディオゲネスが「どこの出身か」と聞かれて「世界市民だ」と答えた話が有名。cosmos、politics と同じ語根。"
+    },
+    "roots": [],
+    "family": ["cosmos（宇宙）、politics（政治）"],
+    "synonyms": [
+      { "word": "international", "meaning": "国際的な", "nuance": "国をまたぐ。", "etymology": "inter- + national" },
+      { "word": "multicultural", "meaning": "多文化の", "nuance": "いろいろな文化が混じる。", "etymology": "multi- + cultural" }
+    ]
+  },
+  {
+    "id": "exotic", "word": "exotic", "katakana": "エキゾチック", "pos": "形容詞", "cefr": "C1", "level": 7,
+    "meaning": "異国風の、珍しい",
+    "scene": "エキゾチックな顔立ち、南国のフルーツ。",
+    "example": { "en": "We tried some exotic fruits in Thailand.", "ja": "タイで珍しい果物を食べてみた。" },
+    "etymology": {
+      "origin": "ギリシャ語 exōtikos「外の」← exō「外に」",
+      "story": "「外から来た」→ 外国の、珍しい。exterior、external と近い ex- の仲間。"
+    },
+    "roots": [],
+    "family": ["exterior（外部）"],
+    "synonyms": [
+      { "word": "foreign", "meaning": "外国の", "nuance": "よその国の。", "etymology": "ラテン語 forīs「外に」" },
+      { "word": "unusual", "meaning": "珍しい", "nuance": "ふつうでない。", "etymology": "un- + usual" }
+    ]
+  },
+  {
+    "id": "ethnic", "word": "ethnic", "katakana": "エスニック", "pos": "形容詞", "cefr": "C1", "level": 7,
+    "meaning": "民族の、民族料理の",
+    "scene": "エスニック料理、少数民族。",
+    "example": { "en": "The city has many ethnic restaurants.", "ja": "その都市にはいろいろな民族料理の店がある。" },
+    "etymology": {
+      "origin": "ギリシャ語 ethnikos「民族の、異教徒の」← ethnos「民族」",
+      "story": "もとは「（ユダヤ教徒・キリスト教徒でない）異教徒の」。今は民族の文化に関する語。「エスニック料理」は英語では ethnic food のほか、国名を使って言うことも多い。"
+    },
+    "roots": [],
+    "family": ["ethnicity（民族性）"],
+    "synonyms": [
+      { "word": "cultural", "meaning": "文化の", "nuance": "文化に関する。", "etymology": "ラテン語 cultūra" },
+      { "word": "national", "meaning": "国の", "nuance": "国家の。", "etymology": "ラテン語 nātiō" }
+    ]
+  },
+  {
+    "id": "folklore", "word": "folklore", "katakana": "フォークロア", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "民間伝承、民俗",
+    "scene": "民話、フォークロア調のデザイン。",
+    "example": { "en": "The story comes from Japanese folklore.", "ja": "その話は日本の民間伝承から来ている。" },
+    "etymology": {
+      "origin": "folk「民衆」+ lore「知識、言い伝え」（1846年に作られた語）",
+      "story": "学者トムズが古い英語の語を組み合わせて作った。lore は learn（学ぶ）と同じ語根。"
+    },
+    "roots": [],
+    "family": ["folk（人々）"],
+    "synonyms": [
+      { "word": "legend", "meaning": "伝説", "nuance": "語り継がれる話。", "etymology": "ラテン語 legenda" },
+      { "word": "myth", "meaning": "神話", "nuance": "神々の物語。", "etymology": "ギリシャ語 mythos" }
+    ]
+  },
+  {
+    "id": "saga", "word": "saga", "katakana": "サーガ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "長い物語、大河小説、北欧の英雄伝説",
+    "scene": "スター・ウォーズ・サーガ、一族の物語。",
+    "example": { "en": "The movie is part of a long space saga.", "ja": "その映画は長い宇宙叙事詩の一部だ。" },
+    "etymology": {
+      "origin": "古ノルド語 saga「語られたもの」",
+      "story": "アイスランドの中世の英雄物語。英語の say（言う）と同じ語根。今は長く続く物語全般に使う。"
+    },
+    "roots": [],
+    "family": ["say（言う）"],
+    "synonyms": [
+      { "word": "epic", "meaning": "叙事詩", "nuance": "英雄の長い物語。", "etymology": "ギリシャ語 epos「言葉」" },
+      { "word": "chronicle", "meaning": "年代記", "nuance": "出来事を順に記した記録。", "etymology": "ギリシャ語 khronika" }
+    ]
+  },
+  {
+    "id": "chronicle", "word": "chronicle", "katakana": "クロニクル", "pos": "名詞・動詞", "cefr": "C2", "level": 9,
+    "meaning": "年代記、記録する",
+    "scene": "〇〇クロニクル、歴史の記録。",
+    "example": { "en": "The book chronicles the history of the city.", "ja": "その本は市の歴史を年代順に記している。" },
+    "etymology": {
+      "origin": "ギリシャ語 khronika「時の出来事の記録」← khronos「時」",
+      "story": "出来事を「時の順に」記したもの。chronic（慢性の）、synchronize と同じ khronos の家族。"
+    },
+    "roots": [],
+    "family": ["chronic（慢性の）、chronological（年代順の）"],
+    "synonyms": [
+      { "word": "history", "meaning": "歴史", "nuance": "過去の出来事。", "etymology": "ギリシャ語 historia" },
+      { "word": "record", "meaning": "記録", "nuance": "書き残したもの。", "etymology": "ラテン語 recordārī" }
+    ]
+  },
+  {
+    "id": "archive", "word": "archive", "katakana": "アーカイブ", "pos": "名詞・動詞", "cefr": "C1", "level": 9,
+    "meaning": "記録保管所、保存記録、保存する",
+    "scene": "配信のアーカイブ、過去記事。",
+    "example": { "en": "You can watch the archive of the live stream.", "ja": "ライブ配信のアーカイブを見られます。" },
+    "etymology": {
+      "origin": "フランス語 archives ← ギリシャ語 arkheion「役所」← arkhē「政府、始まり」",
+      "story": "役所の公文書をしまう場所 → 記録の保管 → ネットの過去データ。"
+    },
+    "roots": [],
+    "family": ["archaeology（考古学・arkhē を含む）"],
+    "synonyms": [
+      { "word": "record", "meaning": "記録", "nuance": "残されたもの。", "etymology": "ラテン語 recordārī" },
+      { "word": "library", "meaning": "図書館、資料室", "nuance": "資料を集めた所。", "etymology": "ラテン語 librārium" }
+    ]
+  },
+  {
+    "id": "anthology", "word": "anthology", "katakana": "アンソロジー", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "選集、作品集",
+    "scene": "詩のアンソロジー、短編集。",
+    "example": { "en": "This anthology has poems by 50 poets.", "ja": "この選集には50人の詩人の詩が収められている。" },
+    "etymology": {
+      "origin": "ギリシャ語 anthologia「花を集めること」← anthos「花」+ legein「集める」",
+      "story": "美しい「花」を摘み集めるように、よい作品を集めたもの。"
+    },
+    "roots": ["log"],
+    "family": ["anthologist（選集の編者）"],
+    "synonyms": [
+      { "word": "collection", "meaning": "作品集", "nuance": "集めたもの。", "etymology": "ラテン語 collēctiō" },
+      { "word": "compilation", "meaning": "編集物", "nuance": "まとめて編んだもの。", "etymology": "ラテン語 compīlāre" }
+    ]
+  },
+  {
+    "id": "prologue", "word": "prologue", "katakana": "プロローグ", "pos": "名詞", "cefr": "C1", "level": 9,
+    "meaning": "序章、前置き",
+    "scene": "物語のプロローグ、序幕。",
+    "example": { "en": "The story begins with a short prologue.", "ja": "物語は短い序章から始まる。" },
+    "etymology": {
+      "origin": "ギリシャ語 prologos ← pro-「前に」+ logos「言葉」",
+      "story": "本編の「前の言葉」。反対は epilogue。catalog、dialogue と同じ logos の家族。"
+    },
+    "roots": ["log"],
+    "family": ["epilogue（エピローグ）、dialogue（対話）"],
+    "synonyms": [
+      { "word": "introduction", "meaning": "序論", "nuance": "はじめの説明。", "etymology": "ラテン語 intrōdūcere" },
+      { "word": "preface", "meaning": "前書き", "nuance": "本の序文。", "etymology": "ラテン語 praefātiō" }
+    ]
+  },
+  {
+    "id": "epilogue", "word": "epilogue", "katakana": "エピローグ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "終章、後日談",
+    "scene": "映画のエピローグ、その後の話。",
+    "example": { "en": "The epilogue shows the characters ten years later.", "ja": "終章では10年後の登場人物が描かれる。" },
+    "etymology": {
+      "origin": "ギリシャ語 epilogos「結びの言葉」← epi-「後に」+ logos「言葉」",
+      "story": "本編の「あとの言葉」。"
+    },
+    "roots": ["log"],
+    "family": ["prologue（序章）"],
+    "synonyms": [
+      { "word": "conclusion", "meaning": "結び", "nuance": "締めくくり。", "etymology": "ラテン語 conclūsiō" },
+      { "word": "afterword", "meaning": "あとがき", "nuance": "本の後書き。", "etymology": "after + word" }
+    ]
+  },
+  {
+    "id": "climax", "word": "climax", "katakana": "クライマックス", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "最高潮、山場",
+    "scene": "物語のクライマックス、盛り上がり。",
+    "example": { "en": "The movie reaches its climax in the final battle.", "ja": "映画は最後の戦いで最高潮に達する。" },
+    "etymology": {
+      "origin": "ギリシャ語 klimax「はしご」",
+      "story": "「はしご」→ だんだん高まっていくこと → 頂点。"
+    },
+    "roots": [],
+    "family": ["climactic（最高潮の）"],
+    "synonyms": [
+      { "word": "peak", "meaning": "頂点", "nuance": "いちばん高いところ。", "etymology": "pike の変形" },
+      { "word": "highlight", "meaning": "見せ場", "nuance": "最もよいところ。", "etymology": "high + light" }
+    ]
+  },
+  {
+    "id": "finale", "word": "finale", "katakana": "フィナーレ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "終曲、最終場面、大詰め",
+    "scene": "グランドフィナーレ、シーズン最終回。",
+    "example": { "en": "The show ended with a spectacular finale.", "ja": "ショーは華やかなフィナーレで幕を閉じた。" },
+    "etymology": {
+      "origin": "イタリア語 finale「最後の」← ラテン語 fīnālis ← fīnis「終わり」",
+      "story": "final（最後の）、finish（終える）、fine（罰金＝決着）も fīnis の家族。"
+    },
+    "roots": [],
+    "family": ["final（最後の）、finish（終える）"],
+    "synonyms": [
+      { "word": "ending", "meaning": "結末", "nuance": "終わり方。", "etymology": "end + -ing" },
+      { "word": "conclusion", "meaning": "結び", "nuance": "締めくくり。", "etymology": "ラテン語 conclūsiō" }
+    ]
+  },
+  {
+    "id": "parody", "word": "parody", "katakana": "パロディ", "pos": "名詞", "cefr": "C1", "level": 9,
+    "meaning": "もじり、パロディ",
+    "scene": "名作のパロディ、替え歌。",
+    "example": { "en": "The comedy is a parody of spy movies.", "ja": "そのコメディはスパイ映画のパロディだ。" },
+    "etymology": {
+      "origin": "ギリシャ語 parōidia「そばで歌う歌」← para-「そばに、反して」+ ōidē「歌」",
+      "story": "もとの歌を「まねて変えた歌」。melody、comedy の -ody と同じ ōidē の家族。"
+    },
+    "roots": [],
+    "family": ["parodist（パロディ作者）"],
+    "synonyms": [
+      { "word": "satire", "meaning": "風刺", "nuance": "笑いで批判すること。", "etymology": "ラテン語 satura" },
+      { "word": "imitation", "meaning": "まね", "nuance": "模倣。", "etymology": "ラテン語 imitārī" }
+    ]
+  },
+  {
+    "id": "homage", "word": "homage", "katakana": "オマージュ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "敬意、敬意をこめた作品",
+    "scene": "名作へのオマージュ、先人への敬意。",
+    "example": { "en": "The film is a homage to classic horror movies.", "ja": "その映画は古典ホラー映画へのオマージュだ。" },
+    "etymology": {
+      "origin": "古フランス語 homage ← homme「人、家臣」← ラテン語 homō",
+      "story": "中世の家臣が主君に「あなたの家臣（homme）です」と誓う儀式。そこから「敬意」に。human と同じ homō の家族。英語の発音は「ホミジ」または「オマージュ」。"
+    },
+    "roots": [],
+    "family": ["human（人間）"],
+    "synonyms": [
+      { "word": "tribute", "meaning": "賛辞、トリビュート", "nuance": "敬意を表すもの。", "etymology": "ラテン語 tribūtum「貢ぎ物」" },
+      { "word": "respect", "meaning": "尊敬", "nuance": "敬う気持ち。", "etymology": "ラテン語 respectus" }
+    ]
+  },
+  {
+    "id": "motif", "word": "motif", "katakana": "モチーフ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "主題、模様、モチーフ",
+    "scene": "花のモチーフ、作品のモチーフ。",
+    "example": { "en": "The dress has a flower motif.", "ja": "そのドレスには花柄のモチーフがある。" },
+    "etymology": {
+      "origin": "フランス語 motif「動機、主題」← ラテン語 mōtīvus「動かす」",
+      "story": "作品を「動かす」中心となるもの。motive（動機）と同じ語。movēre の家族。"
+    },
+    "roots": ["mov"],
+    "family": ["motive（動機）"],
+    "synonyms": [
+      { "word": "theme", "meaning": "テーマ", "nuance": "主題。", "etymology": "ギリシャ語 thema" },
+      { "word": "pattern", "meaning": "模様", "nuance": "くり返しの柄。", "etymology": "patron の変形" }
+    ]
+  },
+  {
+    "id": "aura", "word": "aura", "katakana": "オーラ", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "雰囲気、オーラ",
+    "scene": "「オーラがある」、スターのオーラ。",
+    "example": { "en": "She has an aura of confidence.", "ja": "彼女には自信に満ちた雰囲気がある。" },
+    "etymology": {
+      "origin": "ギリシャ語 aura「そよ風、息」",
+      "story": "「そよ風」→ 人や物のまわりにただよう空気、雰囲気。"
+    },
+    "roots": [],
+    "family": ["auratic（オーラのある）"],
+    "synonyms": [
+      { "word": "atmosphere", "meaning": "雰囲気", "nuance": "その場の空気。", "etymology": "ギリシャ語 atmos「蒸気」+ sphaira" },
+      { "word": "presence", "meaning": "存在感", "nuance": "人の迫力。", "etymology": "ラテン語 praesentia" }
+    ]
+  },
+  {
+    "id": "elegant", "word": "elegant", "katakana": "エレガント", "pos": "形容詞", "cefr": "B2", "level": 6,
+    "meaning": "上品な、優雅な",
+    "scene": "エレガントなドレス、エレガントな解法。",
+    "example": { "en": "She looked elegant in her black dress.", "ja": "彼女は黒いドレスで上品に見えた。" },
+    "etymology": {
+      "origin": "ラテン語 ēlegāns「えり好みする、趣味のよい」← ēligere「選ぶ」",
+      "story": "「よく選ぶ」→ 趣味がよい。elect、elite と同じ家族。数学の「エレガントな証明」は「むだのない美しい」。"
+    },
+    "roots": ["leg"],
+    "family": ["elegance（優雅さ）、elect（選ぶ）"],
+    "synonyms": [
+      { "word": "graceful", "meaning": "優美な", "nuance": "動きが美しい。", "etymology": "grace + -ful" },
+      { "word": "stylish", "meaning": "おしゃれな", "nuance": "洗練された。", "etymology": "style + -ish" }
+    ]
+  },
+  {
+    "id": "chic", "word": "chic", "katakana": "シック", "pos": "形容詞", "cefr": "C2", "level": 9,
+    "meaning": "洗練された、あか抜けた",
+    "scene": "シックな装い、大人っぽいファッション。",
+    "example": { "en": "She always looks chic.", "ja": "彼女はいつもあか抜けて見える。" },
+    "etymology": {
+      "origin": "フランス語 chic「上品さ」（ドイツ語 Schick「手際のよさ」とする説）",
+      "story": "発音は「シーク」。日本語の「シック（落ち着いた色）」とは少しずれ、英語では「おしゃれで洗練された」。sick（病気の）と混同しないように。"
+    },
+    "roots": [],
+    "family": ["chicly（しゃれて）"],
+    "synonyms": [
+      { "word": "stylish", "meaning": "おしゃれな", "nuance": "流行を押さえた。", "etymology": "style + -ish" },
+      { "word": "sophisticated", "meaning": "洗練された", "nuance": "あか抜けた。", "etymology": "ギリシャ語 sophistēs" }
+    ]
+  },
+  {
+    "id": "retro", "word": "retro", "katakana": "レトロ", "pos": "形容詞", "cefr": "C1", "level": 6,
+    "meaning": "懐古調の、昔風の",
+    "scene": "レトロな喫茶店、レトロゲーム。",
+    "example": { "en": "I love the retro design of this radio.", "ja": "このラジオのレトロなデザインが大好きだ。" },
+    "etymology": {
+      "origin": "フランス語 rétro ← rétrospectif「回顧の」← ラテン語 retrō「後ろへ」",
+      "story": "「後ろを振り返る」。retrospect（回顧）、retreat（退く）と同じ retrō の仲間。"
+    },
+    "roots": [],
+    "family": ["retrospective（回顧の）"],
+    "synonyms": [
+      { "word": "vintage", "meaning": "ヴィンテージ", "nuance": "年代物の上質なもの。", "etymology": "古フランス語 vendange" },
+      { "word": "old-fashioned", "meaning": "昔風の", "nuance": "古くさい。", "etymology": "old + fashioned" }
+    ]
+  },
+  {
+    "id": "chaos", "word": "chaos", "katakana": "カオス", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "混沌、大混乱",
+    "scene": "「カオスな状況」、カオス理論。",
+    "example": { "en": "The station was in chaos after the accident.", "ja": "事故のあと駅は大混乱だった。" },
+    "etymology": {
+      "origin": "ギリシャ語 khaos「大きく口を開けた空間、混沌」",
+      "story": "天地ができる前の「何もない空間」。gas（気体）はこの語をもとに作られた。発音は「ケイオス」。"
+    },
+    "roots": [],
+    "family": ["chaotic（混沌とした）、gas（気体）"],
+    "synonyms": [
+      { "word": "disorder", "meaning": "無秩序", "nuance": "乱れた状態。", "etymology": "dis- + order" },
+      { "word": "mess", "meaning": "ごちゃごちゃ", "nuance": "散らかった状態。", "etymology": "古フランス語 mes「料理の一皿」" }
+    ]
+  },
+  {
+    "id": "cosmos", "word": "cosmos", "katakana": "コスモス", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "宇宙、秩序、（花の）コスモス",
+    "scene": "宇宙（コスモス）、秋桜。",
+    "example": { "en": "Humans have always wondered about the cosmos.", "ja": "人類はいつも宇宙について思いをめぐらせてきた。" },
+    "etymology": {
+      "origin": "ギリシャ語 kosmos「秩序、飾り、宇宙」",
+      "story": "秩序ある美しい世界 → 宇宙。cosmetics（化粧品＝飾り）も同じ語。花のコスモスは花びらが整って並ぶことから。"
+    },
+    "roots": [],
+    "family": ["cosmetics（化粧品）、cosmic（宇宙の）"],
+    "synonyms": [
+      { "word": "universe", "meaning": "宇宙", "nuance": "すべてを含む世界。", "etymology": "ラテン語 ūniversum" },
+      { "word": "order", "meaning": "秩序", "nuance": "整った状態。", "etymology": "ラテン語 ōrdō" }
+    ]
+  },
+  {
+    "id": "universe", "word": "universe", "katakana": "ユニバース", "pos": "名詞", "cefr": "B1", "level": 6,
+    "meaning": "宇宙、全世界",
+    "scene": "ユニバーサルデザイン、映画のユニバース（作品世界）。",
+    "example": { "en": "How big is the universe?", "ja": "宇宙はどのくらい大きいの？" },
+    "etymology": {
+      "origin": "ラテン語 ūniversum「一つにまとまったもの」← ūnus「一つ」+ vertere「回す」",
+      "story": "「一つの方向に回された全体」。university（大学＝教師と学生の全体）、universal（普遍的な）も同じ語。"
+    },
+    "roots": ["vert"],
+    "family": ["universal（普遍的な）、university（大学）"],
+    "synonyms": [
+      { "word": "space", "meaning": "宇宙空間", "nuance": "地球の外の空間。", "etymology": "ラテン語 spatium" },
+      { "word": "world", "meaning": "世界", "nuance": "私たちの世界。", "etymology": "古英語 weorold" }
+    ]
+  },
+  {
+    "id": "parameter", "word": "parameter", "katakana": "パラメーター", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "媒介変数、条件",
+    "scene": "ゲームのパラメーター、設定値。",
+    "example": { "en": "We need to set the parameters for the experiment.", "ja": "実験の条件を設定する必要がある。" },
+    "etymology": {
+      "origin": "ギリシャ語 para-「そばに」+ metron「尺度」",
+      "story": "数学で「補助の尺度（媒介変数）」。今は「決められた範囲・条件」の意味で広く使う。"
+    },
+    "roots": [],
+    "family": ["meter（メートル）"],
+    "synonyms": [
+      { "word": "limit", "meaning": "限度", "nuance": "範囲の限界。", "etymology": "ラテン語 līmes" },
+      { "word": "variable", "meaning": "変数", "nuance": "変わる値。", "etymology": "ラテン語 variāre" }
+    ]
+  },
+  {
+    "id": "matrix", "word": "matrix", "katakana": "マトリックス", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "行列、基盤、母体",
+    "scene": "数学の行列、マトリックス表、映画『マトリックス』。",
+    "example": { "en": "We organized the data in a matrix.", "ja": "データを表（マトリックス）にまとめた。" },
+    "etymology": {
+      "origin": "ラテン語 mātrix「子宮、母体」← māter「母」",
+      "story": "「生み出すもの」→ 何かが生まれ育つ土台 → 数学の行列。mother、material と同じ māter の家族。"
+    },
+    "roots": [],
+    "family": ["material（材料）、maternal（母の）"],
+    "synonyms": [
+      { "word": "grid", "meaning": "格子", "nuance": "縦横の線。", "etymology": "gridiron の略" },
+      { "word": "framework", "meaning": "枠組み", "nuance": "骨組み。", "etymology": "frame + work" }
+    ]
+  },
+  {
+    "id": "vector", "word": "vector", "katakana": "ベクトル", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "ベクトル、方向性、（病気の）媒介生物",
+    "scene": "数学のベクトル、「ベクトルが違う」。",
+    "example": { "en": "Mosquitoes are vectors of disease.", "ja": "蚊は病気を運ぶ媒介生物だ。" },
+    "etymology": {
+      "origin": "ラテン語 vector「運ぶ人」← vehere「運ぶ」",
+      "story": "「運ぶもの」→ 向きと大きさをもつ量。vehicle（乗り物）と同じ vehere の家族。「ベクトル」はドイツ語 Vektor の読み。"
+    },
+    "roots": [],
+    "family": ["vehicle（乗り物）"],
+    "synonyms": [
+      { "word": "direction", "meaning": "方向", "nuance": "向き。", "etymology": "ラテン語 dīrēctiō" },
+      { "word": "carrier", "meaning": "運び手", "nuance": "病気を運ぶもの。", "etymology": "carry + -er" }
+    ]
+  },
+  {
+    "id": "spiral", "word": "spiral", "katakana": "スパイラル", "pos": "名詞・形容詞", "cefr": "C1", "level": 7,
+    "meaning": "らせん（の）、悪循環",
+    "scene": "デフレスパイラル、らせん階段。",
+    "example": { "en": "The staircase goes up in a spiral.", "ja": "その階段はらせん状に上っていく。" },
+    "etymology": {
+      "origin": "中世ラテン語 spīrālis ← ラテン語 spīra「巻いたもの」",
+      "story": "「巻き」→ らせん。spiral out of control は「どんどん悪化する」。"
+    },
+    "roots": [],
+    "family": ["spire（尖塔・別語源とする説も）"],
+    "synonyms": [
+      { "word": "coil", "meaning": "巻いたもの", "nuance": "ぐるぐる巻き。", "etymology": "古フランス語 coillir「集める」" },
+      { "word": "vicious circle", "meaning": "悪循環", "nuance": "悪いことがくり返されること。", "etymology": "vicious + circle" }
+    ]
+  },
+  {
+    "id": "cycle", "word": "cycle", "katakana": "サイクル", "pos": "名詞・動詞", "cefr": "B1", "level": 5,
+    "meaning": "周期、循環、自転車に乗る",
+    "scene": "ライフサイクル、サイクリング。",
+    "example": { "en": "The washing machine has a quick cycle.", "ja": "その洗濯機には短時間のコースがある。" },
+    "etymology": {
+      "origin": "後期ラテン語 cyclus ← ギリシャ語 kyklos「輪」",
+      "story": "「輪」→ ぐるっと一周する周期。bicycle、recycle と同じ kyklos の家族。"
+    },
+    "roots": ["cycl"],
+    "family": ["bicycle（自転車）、recycle（リサイクルする）"],
+    "synonyms": [
+      { "word": "circle", "meaning": "円", "nuance": "丸い輪。", "etymology": "ラテン語 circulus" },
+      { "word": "period", "meaning": "周期", "nuance": "一定の期間。", "etymology": "ギリシャ語 periodos" }
+    ]
+  },
+  {
+    "id": "symmetry", "word": "symmetry", "katakana": "シンメトリー", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "左右対称、つり合い",
+    "scene": "シンメトリーなデザイン、対称。",
+    "example": { "en": "Butterflies have perfect symmetry.", "ja": "チョウは完璧な左右対称をしている。" },
+    "etymology": {
+      "origin": "ギリシャ語 symmetria「つり合い」← syn-「共に」+ metron「尺度」",
+      "story": "「同じ尺度をもつ」→ つり合いがとれた。反対は asymmetry（非対称）。"
+    },
+    "roots": [],
+    "family": ["symmetrical（対称的な）、meter（メートル）"],
+    "synonyms": [
+      { "word": "balance", "meaning": "つり合い", "nuance": "バランス。", "etymology": "後期ラテン語 bilanx" },
+      { "word": "harmony", "meaning": "調和", "nuance": "全体がそろうこと。", "etymology": "ギリシャ語 harmonia" }
+    ]
+  },
+  {
+    "id": "contrast", "word": "contrast", "katakana": "コントラスト", "pos": "名詞・動詞", "cefr": "B2", "level": 6,
+    "meaning": "対照、対比（する）",
+    "scene": "色のコントラスト、画面のコントラスト。",
+    "example": { "en": "There's a sharp contrast between the two cities.", "ja": "2つの都市にはくっきりとした違いがある。" },
+    "etymology": {
+      "origin": "イタリア語 contrastare「対立する」← ラテン語 contrā-「反対に」+ stāre「立つ」",
+      "story": "「向かい合って立つ」→ 対比、違いが際立つこと。contrary（反対の）も contrā の仲間。"
+    },
+    "roots": ["sta"],
+    "family": ["contrary（反対の）"],
+    "synonyms": [
+      { "word": "difference", "meaning": "違い", "nuance": "差。", "etymology": "ラテン語 differre" },
+      { "word": "comparison", "meaning": "比較", "nuance": "比べること。", "etymology": "ラテン語 comparāre" }
+    ]
+  },
+  {
+    "id": "gradation", "word": "gradation", "katakana": "グラデーション", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "段階的な変化、濃淡",
+    "scene": "色のグラデーション、夕焼けのグラデーション。",
+    "example": { "en": "The sky showed a beautiful gradation of colors.", "ja": "空は美しい色のグラデーションを見せていた。" },
+    "etymology": {
+      "origin": "ラテン語 gradātiō「段をつけること」← gradus「段」",
+      "story": "色が「一段ずつ」変わっていくこと。grade、gradual と同じ gradus の家族。"
+    },
+    "roots": [],
+    "family": ["gradual（徐々の）、grade（段階）"],
+    "synonyms": [
+      { "word": "shading", "meaning": "陰影", "nuance": "明暗をつけること。", "etymology": "shade + -ing" },
+      { "word": "transition", "meaning": "移り変わり", "nuance": "移行。", "etymology": "ラテン語 trānsitiō" }
+    ]
+  },
+  {
+    "id": "tone", "word": "tone", "katakana": "トーン", "pos": "名詞", "cefr": "B1", "level": 5,
+    "meaning": "調子、口調、色調、音色",
+    "scene": "声のトーン、トーンダウン。",
+    "example": { "en": "Don't speak to me in that tone!", "ja": "そんな口調で話さないで！" },
+    "etymology": {
+      "origin": "ギリシャ語 tonos「張ること、音の高さ」← teinein「張る」",
+      "story": "弦を「張る」強さで音の高さが決まることから。tune（曲）も tone の変形。tension と同じ「張る」の語根。"
+    },
+    "roots": [],
+    "family": ["tune（曲）、intonation（抑揚）"],
+    "synonyms": [
+      { "word": "voice", "meaning": "声", "nuance": "話し声。", "etymology": "ラテン語 vōx" },
+      { "word": "shade", "meaning": "色合い", "nuance": "色の濃淡。", "etymology": "古英語 sceadu" }
+    ]
+  },
+  {
+    "id": "texture", "word": "texture", "katakana": "テクスチャー", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "手ざわり、質感、食感",
+    "scene": "布のテクスチャー、ふわふわの食感。",
+    "example": { "en": "I love the soft texture of this bread.", "ja": "このパンのふんわりした食感が大好きだ。" },
+    "etymology": {
+      "origin": "ラテン語 textūra「織り方」← texere「織る」",
+      "story": "「織り方」→ 手ざわり、質感。text、textile、context と同じ texere の家族。"
+    },
+    "roots": ["text"],
+    "family": ["textile（織物）、text（本文）"],
+    "synonyms": [
+      { "word": "feel", "meaning": "手ざわり", "nuance": "触った感じ。", "etymology": "古英語 fēlan" },
+      { "word": "consistency", "meaning": "固さ、濃さ", "nuance": "食べ物のとろみ。", "etymology": "ラテン語 cōnsistere" }
+    ]
+  },
+  {
+    "id": "silhouette", "word": "silhouette", "katakana": "シルエット", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "影絵、輪郭、シルエット",
+    "scene": "夕日のシルエット、服のシルエット。",
+    "example": { "en": "We saw the silhouette of a cat on the wall.", "ja": "壁に猫のシルエットが映っていた。" },
+    "etymology": {
+      "origin": "18世紀フランスの財務大臣エティエンヌ・ド・シルエット（Silhouette）の名から",
+      "story": "倹約家の大臣が、安上がりな黒い横顔の切り絵を好んだから、節約政策が「安っぽい」と皮肉られたから、など由来は諸説。"
+    },
+    "roots": [],
+    "family": ["silhouetted（影絵のように浮かんだ）"],
+    "synonyms": [
+      { "word": "outline", "meaning": "輪郭", "nuance": "外側の線。", "etymology": "out + line" },
+      { "word": "shadow", "meaning": "影", "nuance": "光がさえぎられた暗い部分。", "etymology": "古英語 sceadwe" }
+    ]
+  },
+  {
+    "id": "perspective", "word": "perspective", "katakana": "パースペクティブ", "pos": "名詞", "cefr": "C1", "level": 9,
+    "meaning": "視点、遠近法、見通し",
+    "scene": "絵のパース（遠近法）、長期的な視点。",
+    "example": { "en": "Try to see it from a different perspective.", "ja": "別の視点から見てみて。" },
+    "etymology": {
+      "origin": "中世ラテン語 perspectīva「光学」← perspicere「見通す」← per-「通して」+ specere「見る」",
+      "story": "「見通すこと」→ 遠近法、ものの見方。inspect、respect と同じ specere の家族。"
+    },
+    "roots": ["spec"],
+    "family": ["inspect（検査する）"],
+    "synonyms": [
+      { "word": "viewpoint", "meaning": "観点", "nuance": "見方。", "etymology": "view + point" },
+      { "word": "outlook", "meaning": "見通し", "nuance": "将来の見込み。", "etymology": "out + look" }
+    ]
+  },
+  {
+    "id": "focus", "word": "focus", "katakana": "フォーカス", "pos": "名詞・動詞", "cefr": "B1", "level": 5,
+    "meaning": "焦点（を合わせる）、集中する",
+    "scene": "オートフォーカス、目標にフォーカスする。",
+    "example": { "en": "I can't focus on my homework.", "ja": "宿題に集中できない。" },
+    "etymology": {
+      "origin": "ラテン語 focus「かまど、炉」",
+      "story": "家の中心の「かまど」→ 光が集まる点（焦点）→ 注意を集める。17世紀の天文学者ケプラーが「焦点」の意味で使った。"
+    },
+    "roots": [],
+    "family": ["focal（焦点の）"],
+    "synonyms": [
+      { "word": "concentrate", "meaning": "集中する", "nuance": "意識を集める。", "etymology": "con- + center" },
+      { "word": "center", "meaning": "中心", "nuance": "真ん中。", "etymology": "ギリシャ語 kentron" }
+    ]
+  },
+  {
+    "id": "zoom", "word": "zoom", "katakana": "ズーム", "pos": "動詞・名詞", "cefr": "B1", "level": 5,
+    "meaning": "拡大・縮小する、ビューンと走る",
+    "scene": "ズームイン、オンライン会議のズーム。",
+    "example": { "en": "Zoom in to see the details.", "ja": "細部を見るには拡大して。" },
+    "etymology": {
+      "origin": "擬音語（ブーンという音）",
+      "story": "車や飛行機が「ビューン」と勢いよく進む音から。カメラで一気に寄る・引くこともこう呼ぶようになった。"
+    },
+    "roots": [],
+    "family": ["zoom lens（ズームレンズ）"],
+    "synonyms": [
+      { "word": "magnify", "meaning": "拡大する", "nuance": "大きくする。", "etymology": "ラテン語 magnificāre" },
+      { "word": "speed", "meaning": "疾走する", "nuance": "速く進む。", "etymology": "古英語 spēd" }
+    ]
+  },
+  {
+    "id": "mentality", "word": "mentality", "katakana": "メンタリティ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "考え方、精神構造",
+    "scene": "日本人のメンタリティ、勝者のメンタリティ。",
+    "example": { "en": "He has a winning mentality.", "ja": "彼は勝者の考え方をしている。" },
+    "etymology": {
+      "origin": "mental「心の」+ -ity ← ラテン語 mēns「心」",
+      "story": "集団や個人に共通する「ものの考え方のくせ」。mental、mention と同じ mēns の家族。"
+    },
+    "roots": ["ment"],
+    "family": ["mental（心の）"],
+    "synonyms": [
+      { "word": "mindset", "meaning": "考え方", "nuance": "ものの見方。", "etymology": "mind + set" },
+      { "word": "attitude", "meaning": "態度", "nuance": "姿勢。", "etymology": "イタリア語 attitudine" }
+    ]
+  },
+  {
+    "id": "maestro", "word": "maestro", "katakana": "マエストロ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "巨匠、名指揮者",
+    "scene": "マエストロ（指揮者）、料理の巨匠。",
+    "example": { "en": "The maestro conducted the orchestra brilliantly.", "ja": "巨匠はオーケストラを見事に指揮した。" },
+    "etymology": {
+      "origin": "イタリア語 maestro「先生、名人」← ラテン語 magister",
+      "story": "master（名人）と同じ語。特に偉大な指揮者や音楽家を呼ぶ。"
+    },
+    "roots": [],
+    "family": ["master（名人）"],
+    "synonyms": [
+      { "word": "master", "meaning": "名人", "nuance": "極めた人。", "etymology": "ラテン語 magister" },
+      { "word": "conductor", "meaning": "指揮者", "nuance": "楽団を指揮する人。", "etymology": "ラテン語 condūcere" }
+    ]
+  },
+  {
+    "id": "optimism", "word": "optimism", "katakana": "オプティミズム", "pos": "名詞", "cefr": "C1", "level": 9,
+    "meaning": "楽観主義",
+    "scene": "オプティミスト、楽天家。",
+    "example": { "en": "She faced the future with optimism.", "ja": "彼女は楽観的に未来に向き合った。" },
+    "etymology": {
+      "origin": "フランス語 optimisme ← ラテン語 optimum「最良のもの」",
+      "story": "哲学者ライプニッツの「この世は最善の世界だ」という考えから。option（選ぶ）とは別語源。"
+    },
+    "roots": [],
+    "family": ["optimist（楽観主義者）、optimal（最適な）"],
+    "synonyms": [
+      { "word": "hope", "meaning": "希望", "nuance": "望み。", "etymology": "古英語 hopa" },
+      { "word": "positivity", "meaning": "前向きさ", "nuance": "ポジティブさ。", "etymology": "positive + -ity" }
+    ]
+  },
+  {
+    "id": "pessimism", "word": "pessimism", "katakana": "ペシミズム", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "悲観主義",
+    "scene": "ペシミスト、悲観論。",
+    "example": { "en": "There is a lot of pessimism about the economy.", "ja": "経済については悲観的な見方が多い。" },
+    "etymology": {
+      "origin": "ラテン語 pessimus「最悪の」+ -ism",
+      "story": "optimism の反対として18世紀に作られた語。"
+    },
+    "roots": [],
+    "family": ["pessimist（悲観主義者）"],
+    "synonyms": [
+      { "word": "despair", "meaning": "絶望", "nuance": "望みを失うこと。", "etymology": "ラテン語 dēspērāre" },
+      { "word": "negativity", "meaning": "後ろ向きさ", "nuance": "ネガティブさ。", "etymology": "negative + -ity" }
+    ]
+  },
+  {
+    "id": "cynical", "word": "cynical", "katakana": "シニカル", "pos": "形容詞", "cefr": "C2", "level": 9,
+    "meaning": "冷笑的な、皮肉な",
+    "scene": "シニカルな笑い、皮肉屋。",
+    "example": { "en": "He's cynical about politicians.", "ja": "彼は政治家を冷めた目で見ている。" },
+    "etymology": {
+      "origin": "ギリシャ語 kynikos「犬のような」← kyōn「犬」",
+      "story": "古代ギリシャのキュニコス派（犬儒派）の哲学者が、犬のように世間のしきたりを無視して暮らしたことから。"
+    },
+    "roots": [],
+    "family": ["cynic（皮肉屋）"],
+    "synonyms": [
+      { "word": "skeptical", "meaning": "疑い深い", "nuance": "信じない。", "etymology": "ギリシャ語 skeptikos" },
+      { "word": "sarcastic", "meaning": "いやみな", "nuance": "人を傷つける皮肉を言う。", "etymology": "ギリシャ語 sarkazein" }
+    ]
+  },
+  {
+    "id": "sentimental", "word": "sentimental", "katakana": "センチメンタル", "pos": "形容詞", "cefr": "C1", "level": 7,
+    "meaning": "感傷的な、涙もろい",
+    "scene": "「センチメンタルな気分」、「センチになる」。",
+    "example": { "en": "I feel sentimental when I look at old photos.", "ja": "古い写真を見ると感傷的になる。" },
+    "etymology": {
+      "origin": "sentiment「感情」+ -al ← ラテン語 sentīre「感じる」",
+      "story": "sense、consent と同じ sentīre の家族。"
+    },
+    "roots": ["sent"],
+    "family": ["sentiment（感情）"],
+    "synonyms": [
+      { "word": "emotional", "meaning": "感情的な", "nuance": "心を動かされた。", "etymology": "emotion + -al" },
+      { "word": "nostalgic", "meaning": "懐かしい", "nuance": "昔を恋しく思う。", "etymology": "nostalgia + -ic" }
+    ]
+  },
+  {
+    "id": "hysterical", "word": "hysterical", "katakana": "ヒステリック", "pos": "形容詞", "cefr": "C2", "level": 9,
+    "meaning": "取り乱した、大笑いの",
+    "scene": "「ヒステリックに叫ぶ」。",
+    "example": { "en": "The movie was hysterical!", "ja": "あの映画、めちゃくちゃおかしかった！" },
+    "etymology": {
+      "origin": "ギリシャ語 hysterikos「子宮の」← hystera「子宮」",
+      "story": "古代医学で、女性の感情の乱れは子宮が原因だと誤って考えられたことから。今は偏見を含む語源として知られる。口語では「死ぬほどおかしい」の意味もある。"
+    },
+    "roots": [],
+    "family": ["hysteria（ヒステリー）"],
+    "synonyms": [
+      { "word": "frantic", "meaning": "半狂乱の", "nuance": "取り乱した。", "etymology": "ギリシャ語 phrenitis" },
+      { "word": "hilarious", "meaning": "大笑いの", "nuance": "とてもおかしい。", "etymology": "ギリシャ語 hilaros「陽気な」" }
+    ]
+  },
+  {
+    "id": "humanism", "word": "humanism", "katakana": "ヒューマニズム", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "人間主義、人文主義",
+    "scene": "ルネサンスのヒューマニズム、人道主義。",
+    "example": { "en": "Renaissance humanism focused on human abilities.", "ja": "ルネサンスの人文主義は人間の能力に目を向けた。" },
+    "etymology": {
+      "origin": "human「人間の」+ -ism ← ラテン語 hūmānus",
+      "story": "ルネサンス期に古典を学び人間の尊さを重んじた運動。human、humble（謙虚な＝地面に近い）も同じ語根とされる。"
+    },
+    "roots": [],
+    "family": ["human（人間）、humanity（人間性）"],
+    "synonyms": [
+      { "word": "humanitarianism", "meaning": "人道主義", "nuance": "人を助ける考え。", "etymology": "humanitarian + -ism" },
+      { "word": "philanthropy", "meaning": "博愛", "nuance": "人類愛。", "etymology": "ギリシャ語 philanthrōpia" }
+    ]
+  },
+  {
+    "id": "sanctuary", "word": "sanctuary", "katakana": "サンクチュアリ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "聖域、保護区、避難所",
+    "scene": "野鳥のサンクチュアリ、心の聖域。",
+    "example": { "en": "The island is a bird sanctuary.", "ja": "その島は野鳥の保護区だ。" },
+    "etymology": {
+      "origin": "ラテン語 sānctuārium「聖なる場所」← sānctus「神聖な」",
+      "story": "教会の聖域に逃げこんだ人は捕まえられなかったことから「避難所」に。saint（聖人）も sānctus から。"
+    },
+    "roots": [],
+    "family": ["saint（聖人）"],
+    "synonyms": [
+      { "word": "refuge", "meaning": "避難所", "nuance": "逃げこむ場所。", "etymology": "ラテン語 refugium" },
+      { "word": "reserve", "meaning": "保護区", "nuance": "自然の保護地域。", "etymology": "ラテン語 reservāre" }
+    ]
+  },
+  {
+    "id": "oasis", "word": "oasis", "katakana": "オアシス", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "オアシス、憩いの場",
+    "scene": "砂漠のオアシス、都会のオアシス。",
+    "example": { "en": "The park is an oasis in the busy city.", "ja": "その公園はにぎやかな都会の憩いの場だ。" },
+    "etymology": {
+      "origin": "ギリシャ語 oasis ← エジプト語（コプト語 ouahe「住む場所」）",
+      "story": "砂漠の中の水と緑のある場所。複数形は oases。"
+    },
+    "roots": [],
+    "family": ["oases（oasis の複数形）"],
+    "synonyms": [
+      { "word": "haven", "meaning": "安息の場", "nuance": "安全な場所。", "etymology": "古英語 hæfen「港」" },
+      { "word": "retreat", "meaning": "隠れ家", "nuance": "静かな場所。", "etymology": "古フランス語 retrait" }
+    ]
+  },
+  {
+    "id": "paradise", "word": "paradise", "katakana": "パラダイス", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "楽園、天国",
+    "scene": "南国の楽園、「〜天国」。",
+    "example": { "en": "This island is a paradise for divers.", "ja": "この島はダイバーにとって楽園だ。" },
+    "etymology": {
+      "origin": "ギリシャ語 paradeisos ← 古代ペルシャ語 pairidaēza「囲まれた庭」",
+      "story": "王の「壁で囲まれた庭園」が、聖書の翻訳で「エデンの園」→ 天国に。"
+    },
+    "roots": [],
+    "family": ["paradisal（楽園の）"],
+    "synonyms": [
+      { "word": "heaven", "meaning": "天国", "nuance": "神のいる所。", "etymology": "古英語 heofon" },
+      { "word": "utopia", "meaning": "理想郷", "nuance": "理想の社会。", "etymology": "ギリシャ語 ou + topos" }
+    ]
+  },
+  {
+    "id": "labyrinth", "word": "labyrinth", "katakana": "ラビリンス", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "迷宮、迷路",
+    "scene": "ラビリンス（迷宮）、迷路。",
+    "example": { "en": "The old town is a labyrinth of narrow streets.", "ja": "旧市街は細い道が迷路のように入り組んでいる。" },
+    "etymology": {
+      "origin": "ギリシャ語 labyrinthos（ギリシャ語以前の言語から）",
+      "story": "ギリシャ神話でミノタウロスを閉じこめた迷宮。クレタ島の宮殿の名前とされ、「両刃の斧（labrys）の館」という説もある。"
+    },
+    "roots": [],
+    "family": ["labyrinthine（迷路のような）"],
+    "synonyms": [
+      { "word": "maze", "meaning": "迷路", "nuance": "抜け出しにくい道。", "etymology": "中英語 masen「惑わせる」" },
+      { "word": "puzzle", "meaning": "なぞ", "nuance": "難問。", "etymology": "16世紀の語" }
+    ]
+  },
+  {
+    "id": "mirage", "word": "mirage", "katakana": "ミラージュ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "蜃気楼、幻",
+    "scene": "砂漠の蜃気楼、幻想。",
+    "example": { "en": "The lake in the desert was just a mirage.", "ja": "砂漠の湖はただの蜃気楼だった。" },
+    "etymology": {
+      "origin": "フランス語 mirage ← mirer「見る、映す」← ラテン語 mīrārī「驚いて見る」",
+      "story": "mirror、miracle と同じ mīrārī の家族。"
+    },
+    "roots": ["mir"],
+    "family": ["mirror（鏡）、miracle（奇跡）"],
+    "synonyms": [
+      { "word": "illusion", "meaning": "錯覚、幻", "nuance": "実際とちがって見えるもの。", "etymology": "ラテン語 illūsiō" },
+      { "word": "hallucination", "meaning": "幻覚", "nuance": "ないものが見えること。", "etymology": "ラテン語 hallūcinārī" }
+    ]
+  },
+  {
+    "id": "phantom", "word": "phantom", "katakana": "ファントム", "pos": "名詞・形容詞", "cefr": "C2", "level": 9,
+    "meaning": "幽霊、幻（の）",
+    "scene": "『オペラ座の怪人（The Phantom of the Opera）』。",
+    "example": { "en": "People say a phantom haunts the castle.", "ja": "その城には幽霊が出ると言われている。" },
+    "etymology": {
+      "origin": "古フランス語 fantosme ← ギリシャ語 phantasma「幻、姿」← phainein「見せる」",
+      "story": "fantasy、phase と同じ phainein の家族。phantom pain は「幻肢痛」。"
+    },
+    "roots": [],
+    "family": ["fantasy（空想）"],
+    "synonyms": [
+      { "word": "ghost", "meaning": "幽霊", "nuance": "死者の霊。", "etymology": "古英語 gāst" },
+      { "word": "specter", "meaning": "亡霊", "nuance": "不気味な幽霊。", "etymology": "ラテン語 spectrum" }
+    ]
+  },
+  {
+    "id": "illusion", "word": "illusion", "katakana": "イリュージョン", "pos": "名詞", "cefr": "C1", "level": 9,
+    "meaning": "錯覚、幻想、奇術",
+    "scene": "目の錯覚、イリュージョンマジック。",
+    "example": { "en": "The picture creates an optical illusion.", "ja": "その絵は目の錯覚を起こす。" },
+    "etymology": {
+      "origin": "ラテン語 illūsiō「あざけり、だまし」← illūdere「からかう」← in- + lūdere「遊ぶ」",
+      "story": "「目をからかうもの」。ludicrous（ばかげた）も lūdere の家族。"
+    },
+    "roots": [],
+    "family": ["illusionist（奇術師）"],
+    "synonyms": [
+      { "word": "delusion", "meaning": "妄想", "nuance": "間違った思いこみ。", "etymology": "ラテン語 dēlūdere" },
+      { "word": "trick", "meaning": "手品、たくらみ", "nuance": "だますこと。", "etymology": "古北フランス語 trique" }
+    ]
+  },
+  {
+    "id": "symphony", "word": "symphony", "katakana": "シンフォニー", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "交響曲、交響楽団",
+    "scene": "ベートーヴェンの第九交響曲。",
+    "example": { "en": "The orchestra played Beethoven's Fifth Symphony.", "ja": "オーケストラはベートーヴェンの交響曲第5番を演奏した。" },
+    "etymology": {
+      "origin": "ギリシャ語 symphōnia「音の調和」← syn-「共に」+ phōnē「音」",
+      "story": "「一緒に鳴る音」。phone、microphone と同じ phōnē の家族。"
+    },
+    "roots": ["phon"],
+    "family": ["phone（電話）、microphone（マイク）"],
+    "synonyms": [
+      { "word": "orchestra", "meaning": "オーケストラ", "nuance": "管弦楽団。", "etymology": "ギリシャ語 orkhēstra" },
+      { "word": "concerto", "meaning": "協奏曲", "nuance": "独奏楽器と楽団の曲。", "etymology": "イタリア語 concerto" }
+    ]
+  },
+  {
+    "id": "opera", "word": "opera", "katakana": "オペラ", "pos": "名詞", "cefr": "B2", "level": 6,
+    "meaning": "歌劇、オペラ",
+    "scene": "オペラ歌手、ソープオペラ（昼ドラ）。",
+    "example": { "en": "We went to see an opera in Vienna.", "ja": "ウィーンでオペラを見に行った。" },
+    "etymology": {
+      "origin": "イタリア語 opera「作品」← ラテン語 opera「仕事（opus の複数形）」",
+      "story": "「作品」。operation（作業）と同じ opus の家族。soap opera（昼のメロドラマ）は石けん会社がスポンサーだったことから。"
+    },
+    "roots": [],
+    "family": ["operation（作業）、opus（作品）"],
+    "synonyms": [
+      { "word": "musical", "meaning": "ミュージカル", "nuance": "歌と踊りの劇。", "etymology": "music + -al" },
+      { "word": "play", "meaning": "劇", "nuance": "舞台の芝居。", "etymology": "古英語 plega" }
+    ]
   }
 ]

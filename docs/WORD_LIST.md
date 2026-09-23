@@ -2,9 +2,9 @@
 
 > このファイルは `data/words.json` と `data/roots.json` から `python3 scripts/build_wordlist.py` で自動生成されています。直接編集しないでください。
 
-収録語数: **1249 語**（類義語 2596 語） / 語根ファミリー: **56 種**
+収録語数: **1324 語**（類義語 2746 語） / 語根ファミリー: **56 種**
 
-レベル別: Lv.1 149語 / Lv.2 161語 / Lv.3 164語 / Lv.4 157語 / Lv.5 166語 / Lv.6 146語 / Lv.7 149語 / Lv.8 125語 / Lv.9 14語 / Lv.10 18語
+レベル別: Lv.1 149語 / Lv.2 161語 / Lv.3 164語 / Lv.4 157語 / Lv.5 171語 / Lv.6 154語 / Lv.7 160語 / Lv.8 125語 / Lv.9 65語 / Lv.10 18語
 
 > レベルはこのアプリ独自の分け方です（カタカナとしてのなじみやすさと、英語の難しさで決めています）。
 
@@ -16,11 +16,11 @@
 - Lv.2 くらしの定番 — [mouse](#mouse), [lion](#lion), [tiger](#tiger), [banana](#banana), [orange](#orange), [lemon](#lemon), [tomato](#tomato), [coffee](#coffee), [bread](#bread), [chocolate](#chocolate), [window](#window), [kitchen](#kitchen), [key](#key), [taxi](#taxi), [hotel](#hotel), [bank](#bank), [pencil](#pencil), [note](#note), [school](#school), [test](#test), [family](#family), [friend](#friend), [baby](#baby), [star](#star), [flower](#flower), [tree](#tree), [camera](#camera), [phone](#phone), [team](#team), [tennis](#tennis), [soccer](#soccer), [hobby](#hobby), [menu](#menu), [salad](#salad), [bike](#bike), [party](#party), [card](#card), [birthday](#birthday), [morning](#morning), [guitar](#guitar), [baseball](#baseball), [swimming](#swimming), [map](#map), [plan](#plan), [dream](#dream), [smile](#smile), [shop](#shop), [fruit](#fruit), [lunch](#lunch), [camp](#camp), [beach](#beach), [river](#river), [size](#size), [hamburger](#hamburger), [monkey](#monkey), [calendar](#calendar), [racket](#racket), [volleyball](#volleyball), [basketball](#basketball), [violin](#violin), [summer](#summer), [winter](#winter), [town](#town), [city](#city), [speed](#speed), [power](#power), [point](#point), [rule](#rule), [club](#club), [drink](#drink), [cream](#cream), [sugar](#sugar), [spoon](#spoon), [fork](#fork), [knife](#knife), [glass](#glass), [plate](#plate), [farm](#farm), [tower](#tower), [boat](#boat), [lucky](#lucky), [easy](#easy), [hard](#hard), [slow](#slow), [short](#short), [top](#top), [skirt](#skirt), [dress](#dress), [coat](#coat), [glove](#glove), [ring](#ring), [strawberry](#strawberry), [pineapple](#pineapple), [avocado](#avocado), [broccoli](#broccoli), [cabbage](#cabbage), [lettuce](#lettuce), [pumpkin](#pumpkin), [popcorn](#popcorn), [vanilla](#vanilla), [pancake](#pancake), [omelet](#omelet), [stew](#stew), [sausage](#sausage), [yogurt](#yogurt), [mayonnaise](#mayonnaise), [ketchup](#ketchup), [dressing](#dressing), [cereal](#cereal), [cocoa](#cocoa), [kangaroo](#kangaroo), [cheetah](#cheetah), [hamster](#hamster), [flamingo](#flamingo), [oven](#oven), [heater](#heater), [closet](#closet), [blanket](#blanket), [cushion](#cushion), [veranda](#veranda), [garage](#garage), [fence](#fence), [gate](#gate), [supermarket](#supermarket), [convenience](#convenience), [bakery](#bakery), [cafe](#cafe), [parking](#parking), [subway](#subway), [tunnel](#tunnel), [drugstore](#drugstore), [cable](#cable), [plug](#plug), [outlet](#outlet), [remote](#remote), [speaker](#speaker), [headphones](#headphones), [keyboard](#keyboard), [printer](#printer), [nurse](#nurse), [chef](#chef), [driver](#driver), [singer](#singer), [free](#free), [sunglasses](#sunglasses), [necktie](#necktie), [parka](#parka), [sneakers](#sneakers), [backpack](#backpack), [mug](#mug), [kettle](#kettle), [napkin](#napkin), [candle](#candle), [poster](#poster), [sticker](#sticker), [handkerchief](#handkerchief), [slippers](#slippers), [lotion](#lotion), [cooking](#cooking), [barbecue](#barbecue), [buffet](#buffet)
 - Lv.3 よく使う — [dragon](#dragon), [level](#level), [hero](#hero), [boss](#boss), [stage](#stage), [fan](#fan), [rabbit](#rabbit), [cookie](#cookie), [cheese](#cheese), [sandwich](#sandwich), [butter](#butter), [hospital](#hospital), [restaurant](#restaurant), [station](#station), [season](#season), [television](#television), [computer](#computer), [robot](#robot), [goal](#goal), [sauce](#sauce), [sign](#sign), [fight](#fight), [event](#event), [present](#present), [idea](#idea), [news](#news), [doctor](#doctor), [animal](#animal), [pants](#pants), [museum](#museum), [library](#library), [concert](#concert), [ticket](#ticket), [vegetable](#vegetable), [dinner](#dinner), [picnic](#picnic), [island](#island), [mountain](#mountain), [jacket](#jacket), [nature](#nature), [future](#future), [simple](#simple), [speech](#speech), [member](#member), [chance](#chance), [airport](#airport), [street](#street), [building](#building), [elevator](#elevator), [letter](#letter), [bottle](#bottle), [garden](#garden), [bridge](#bridge), [rocket](#rocket), [sweater](#sweater), [answer](#answer), [action](#action), [album](#album), [bench](#bench), [button](#button), [center](#center), [change](#change), [check](#check), [choice](#choice), [design](#design), [guide](#guide), [guest](#guest), [group](#group), [jump](#jump), [keep](#keep), [magic](#magic), [mark](#mark), [memory](#memory), [model](#model), [open](#open), [order](#order), [page](#page), [pair](#pair), [pass](#pass), [photo](#photo), [print](#print), [report](#report), [score](#score), [set](#set), [shower](#shower), [skill](#skill), [space](#space), [start](#start), [style](#style), [title](#title), [tour](#tour), [type](#type), [lesson](#lesson), [hiking](#hiking), [stadium](#stadium), [arena](#arena), [gym](#gym), [hall](#hall), [lobby](#lobby), [front](#front), [tent](#tent), [cottage](#cottage), [resort](#resort), [cruise](#cruise), [passport](#passport), [suitcase](#suitcase), [notebook](#notebook), [homeroom](#homeroom), [band](#band), [chorus](#chorus), [orchestra](#orchestra), [melody](#melody), [harmony](#harmony), [cartoon](#cartoon), [character](#character), [story](#story), [novel](#novel), [diary](#diary), [sketch](#sketch), [paint](#paint), [craft](#craft), [yoga](#yoga), [fitness](#fitness), [training](#training), [trophy](#trophy), [medal](#medal), [champion](#champion), [record](#record), [pitcher](#pitcher), [goalkeeper](#goalkeeper), [referee](#referee), [penalty](#penalty), [foul](#foul), [tackle](#tackle), [shoot](#shoot), [serve](#serve), [smash](#smash), [rally](#rally), [relay](#relay), [course](#course), [lane](#lane), [costume](#costume), [makeup](#makeup), [nail](#nail), [accessory](#accessory), [necklace](#necklace), [bracelet](#bracelet), [pouch](#pouch), [drive](#drive), [trip](#trip), [gift](#gift), [surprise](#surprise), [balloon](#balloon), [snack](#snack), [dessert](#dessert), [sweets](#sweets), [takeout](#takeout), [coupon](#coupon), [rental](#rental), [store](#store), [mall](#mall), [rush](#rush), [timing](#timing), [pace](#pace)
 - Lv.4 話が広がる — [monster](#monster), [knight](#knight), [rare](#rare), [attack](#attack), [guard](#guard), [damage](#damage), [challenge](#challenge), [system](#system), [penguin](#penguin), [dolphin](#dolphin), [recipe](#recipe), [fashion](#fashion), [shampoo](#shampoo), [pajamas](#pajamas), [holiday](#holiday), [culture](#culture), [history](#history), [volunteer](#volunteer), [festival](#festival), [message](#message), [communication](#communication), [popular](#popular), [special](#special), [perfect](#perfect), [contest](#contest), [captain](#captain), [uniform](#uniform), [coach](#coach), [trouble](#trouble), [image](#image), [advice](#advice), [schedule](#schedule), [sale](#sale), [online](#online), [drama](#drama), [hint](#hint), [interview](#interview), [marathon](#marathon), [pose](#pose), [program](#program), [sample](#sample), [support](#support), [zone](#zone), [host](#host), [comic](#comic), [cycling](#cycling), [chat](#chat), [clear](#clear), [cost](#cost), [cover](#cover), [follow](#follow), [item](#item), [miss](#miss), [percent](#percent), [plus](#plus), [quiz](#quiz), [repeat](#repeat), [share](#share), [sound](#sound), [stamp](#stamp), [step](#step), [topic](#topic), [video](#video), [emotional](#emotional), [romantic](#romantic), [relax](#relax), [healthy](#healthy), [calorie](#calorie), [vitamin](#vitamin), [protein](#protein), [supplement](#supplement), [allergy](#allergy), [virus](#virus), [vaccine](#vaccine), [care](#care), [clinic](#clinic), [massage](#massage), [sauna](#sauna), [smartphone](#smartphone), [app](#app), [internet](#internet), [website](#website), [blog](#blog), [login](#login), [update](#update), [wireless](#wireless), [selfie](#selfie), [streaming](#streaming), [podcast](#podcast), [keyword](#keyword), [icon](#icon), [tap](#tap), [click](#click), [scroll](#scroll), [copy](#copy), [cloud](#cloud), [server](#server), [drone](#drone), [plastic](#plastic), [solar](#solar), [gas](#gas), [oil](#oil), [engine](#engine), [motor](#motor), [brake](#brake), [tire](#tire), [gasoline](#gasoline), [manner](#manner), [etiquette](#etiquette), [pet](#pet), [boom](#boom), [ranking](#ranking), [best](#best), [number](#number), [count](#count), [rank](#rank), [grade](#grade), [class](#class), [coordinate](#coordinate), [denim](#denim), [leather](#leather), [cotton](#cotton), [silk](#silk), [wool](#wool), [rubber](#rubber), [metal](#metal), [concrete](#concrete), [paper](#paper), [vinyl](#vinyl), [aluminum](#aluminum), [steel](#steel), [diamond](#diamond), [crystal](#crystal), [pearl](#pearl), [jewel](#jewel), [purple](#purple), [brown](#brown), [gray](#gray), [beige](#beige), [navy](#navy), [yellow](#yellow), [square](#square), [triangle](#triangle), [cross](#cross), [curve](#curve), [angle](#angle), [corner](#corner), [side](#side), [back](#back), [weight](#weight), [meter](#meter), [dozen](#dozen), [pack](#pack), [master](#master), [tempo](#tempo), [palette](#palette), [canvas](#canvas)
-- Lv.5 よく見聞きする — [spell](#spell), [legend](#legend), [treasure](#treasure), [equipment](#equipment), [critical](#critical), [counter](#counter), [barrier](#barrier), [rival](#rival), [escape](#escape), [mission](#mission), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [smart](#smart), [claim](#claim), [ace](#ace), [spirit](#spirit), [miracle](#miracle), [brave](#brave), [battery](#battery), [energy](#energy), [service](#service), [handle](#handle), [talent](#talent), [diet](#diet), [jungle](#jungle), [stove](#stove), [recycle](#recycle), [balance](#balance), [career](#career), [delivery](#delivery), [password](#password), [data](#data), [technology](#technology), [trainer](#trainer), [cooler](#cooler), [viking](#viking), [bargain](#bargain), [cider](#cider), [comment](#comment), [stress](#stress), [risk](#risk), [professional](#professional), [campaign](#campaign), [brand](#brand), [quality](#quality), [security](#security), [routine](#routine), [license](#license), [gap](#gap), [trend](#trend), [access](#access), [account](#account), [arrange](#arrange), [cancel](#cancel), [catalog](#catalog), [channel](#channel), [charge](#charge), [classic](#classic), [collection](#collection), [download](#download), [entry](#entry), [error](#error), [fake](#fake), [file](#file), [filter](#filter), [frame](#frame), [goods](#goods), [graph](#graph), [impact](#impact), [label](#label), [limit](#limit), [link](#link), [mask](#mask), [media](#media), [mode](#mode), [monitor](#monitor), [option](#option), [original](#original), [pattern](#pattern), [post](#post), [project](#project), [reset](#reset), [rhythm](#rhythm), [seal](#seal), [shock](#shock), [studio](#studio), [total](#total), [pierce](#pierce), [approach](#approach), [benefit](#benefit), [community](#community), [content](#content), [debate](#debate), [device](#device), [digital](#digital), [document](#document), [economy](#economy), [feature](#feature), [global](#global), [humor](#humor), [issue](#issue), [material](#material), [method](#method), [network](#network), [official](#official), [partner](#partner), [performance](#performance), [policy](#policy), [positive](#positive), [negative](#negative), [pressure](#pressure), [public](#public), [rescue](#rescue), [research](#research), [respect](#respect), [series](#series), [source](#source), [symbol](#symbol), [theme](#theme), [theory](#theory), [unique](#unique), [value](#value), [variety](#variety), [live](#live), [talk](#talk), [comedy](#comedy), [episode](#episode), [genre](#genre), [fantasy](#fantasy), [horror](#horror), [mystery](#mystery), [suspense](#suspense), [documentary](#documentary), [cast](#cast), [producer](#producer), [audition](#audition), [debut](#debut), [encore](#encore), [release](#release), [chart](#chart), [remix](#remix), [playlist](#playlist), [influencer](#influencer), [follower](#follower), [hashtag](#hashtag), [buzz](#buzz), [review](#review), [meme](#meme), [caption](#caption), [thumbnail](#thumbnail), [highlight](#highlight), [replay](#replay), [announcer](#announcer), [reporter](#reporter), [caster](#caster), [commentator](#commentator), [scoop](#scoop), [headline](#headline), [press](#press), [column](#column), [magazine](#magazine), [celebrity](#celebrity), [gossip](#gossip)
-- Lv.6 社会の話題 — [manual](#manual), [amateur](#amateur), [privacy](#privacy), [mental](#mental), [concept](#concept), [context](#context), [crisis](#crisis), [factor](#factor), [flexible](#flexible), [function](#function), [identity](#identity), [logic](#logic), [luxury](#luxury), [marketing](#marketing), [minority](#minority), [operation](#operation), [organic](#organic), [profile](#profile), [scandal](#scandal), [sponsor](#sponsor), [status](#status), [survival](#survival), [trial](#trial), [virtual](#virtual), [vision](#vision), [democracy](#democracy), [demonstration](#demonstration), [leader](#leader), [summit](#summit), [conference](#conference), [forum](#forum), [symposium](#symposium), [inflation](#inflation), [deflation](#deflation), [bubble](#bubble), [market](#market), [stock](#stock), [trade](#trade), [import](#import), [export](#export), [local](#local), [urban](#urban), [gender](#gender), [harassment](#harassment), [charity](#charity), [terrorism](#terrorism), [patrol](#patrol), [hazard](#hazard), [pandemic](#pandemic), [lockdown](#lockdown), [cluster](#cluster), [ecology](#ecology), [carbon](#carbon), [cyber](#cyber), [hacker](#hacker), [spam](#spam), [phishing](#phishing), [science](#science), [laboratory](#laboratory), [genome](#genome), [bacteria](#bacteria), [calcium](#calcium), [ion](#ion), [galaxy](#galaxy), [satellite](#satellite), [sensor](#sensor), [chip](#chip), [laser](#laser), [radar](#radar), [hybrid](#hybrid), [company](#company), [office](#office), [business](#business), [manager](#manager), [staff](#staff), [salary](#salary), [bonus](#bonus), [freelance](#freelance), [startup](#startup), [venture](#venture), [deadline](#deadline), [meeting](#meeting), [presentation](#presentation), [task](#task), [sales](#sales), [customer](#customer), [tourism](#tourism), [visa](#visa), [border](#border), [army](#army), [missile](#missile), [union](#union), [strike](#strike), [boycott](#boycott), [revolution](#revolution), [liberal](#liberal), [journalist](#journalist), [editor](#editor), [survey](#survey), [consumer](#consumer), [cashless](#cashless), [credit](#credit), [loan](#loan), [cash](#cash), [receipt](#receipt), [discount](#discount), [price](#price), [return](#return), [fund](#fund), [factory](#factory), [safari](#safari), [therapy](#therapy), [counseling](#counseling), [rehabilitation](#rehabilitation), [capsule](#capsule), [tablet](#tablet), [metabolism](#metabolism), [campus](#campus), [seminar](#seminar), [lecture](#lecture), [essay](#essay), [internship](#internship), [recruit](#recruit), [curriculum](#curriculum), [syllabus](#syllabus), [athlete](#athlete), [doping](#doping), [fair](#fair), [lifestyle](#lifestyle), [leisure](#leisure), [outdoor](#outdoor), [indoor](#indoor), [vacation](#vacation), [single](#single), [couple](#couple), [senior](#senior), [junior](#junior), [teen](#teen), [generation](#generation), [apartment](#apartment), [interior](#interior), [exterior](#exterior), [renovation](#renovation), [shelter](#shelter), [hostel](#hostel), [mosaic](#mosaic)
-- Lv.7 大人の日常語 — [potion](#potion), [quest](#quest), [dungeon](#dungeon), [inventory](#inventory), [avatar](#avatar), [combo](#combo), [revive](#revive), [ultimate](#ultimate), [villain](#villain), [launch](#launch), [android](#android), [gravity](#gravity), [evolution](#evolution), [dimension](#dimension), [portal](#portal), [beam](#beam), [tension](#tension), [rookie](#rookie), [destiny](#destiny), [trigger](#trigger), [sacrifice](#sacrifice), [mentor](#mentor), [mansion](#mansion), [idol](#idol), [motivation](#motivation), [potential](#potential), [priority](#priority), [resource](#resource), [capacity](#capacity), [innovation](#innovation), [evidence](#evidence), [agenda](#agenda), [strategy](#strategy), [veteran](#veteran), [commitment](#commitment), [consultant](#consultant), [diversity](#diversity), [dynamic](#dynamic), [mechanism](#mechanism), [phase](#phase), [scenario](#scenario), [solution](#solution), [feedback](#feedback), [appointment](#appointment), [memo](#memo), [reminder](#reminder), [margin](#margin), [commission](#commission), [royalty](#royalty), [negotiation](#negotiation), [deal](#deal), [client](#client), [user](#user), [vendor](#vendor), [supplier](#supplier), [maker](#maker), [product](#product), [control](#control), [management](#management), [leadership](#leadership), [teamwork](#teamwork), [format](#format), [template](#template), [layout](#layout), [font](#font), [draft](#draft), [telework](#telework), [invoice](#invoice), [promotion](#promotion), [headhunting](#headhunting), [resume](#resume), [specialist](#specialist), [generalist](#generalist), [expert](#expert), [analyst](#analyst), [engineer](#engineer), [designer](#designer), [architect](#architect), [programmer](#programmer), [creator](#creator), [artist](#artist), [musician](#musician), [director](#director), [writer](#writer), [photographer](#photographer), [stylist](#stylist), [sommelier](#sommelier), [barista](#barista), [counselor](#counselor), [gardening](#gardening), [wine](#wine), [beer](#beer), [whiskey](#whiskey), [cocktail](#cocktail), [champagne](#champagne), [alcohol](#alcohol), [caffeine](#caffeine), [gourmet](#gourmet), [casual](#casual), [formal](#formal), [suit](#suit), [cardigan](#cardigan), [vest](#vest), [fleece](#fleece), [auction](#auction), [minimalist](#minimalist), [healing](#healing), [aroma](#aroma), [meditation](#meditation), [mindfulness](#mindfulness), [detox](#detox), [stretch](#stretch), [workout](#workout), [triathlon](#triathlon), [snowboard](#snowboard), [surfing](#surfing), [diving](#diving), [climbing](#climbing), [casino](#casino), [gamble](#gamble), [wedding](#wedding), [bridal](#bridal), [propose](#propose), [romance](#romance), [date](#date), [anniversary](#anniversary), [ceremony](#ceremony), [reception](#reception), [banquet](#banquet), [catering](#catering), [hospitality](#hospitality), [concierge](#concierge), [suite](#suite), [lounge](#lounge), [amenity](#amenity), [spa](#spa), [glamping](#glamping), [package](#package), [airline](#airline), [flight](#flight), [transit](#transit), [terminal](#terminal), [cabin](#cabin), [crew](#crew), [mileage](#mileage), [upgrade](#upgrade), [shuttle](#shuttle), [navigation](#navigation), [express](#express)
+- Lv.5 よく見聞きする — [spell](#spell), [legend](#legend), [treasure](#treasure), [equipment](#equipment), [critical](#critical), [counter](#counter), [barrier](#barrier), [rival](#rival), [escape](#escape), [mission](#mission), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [smart](#smart), [claim](#claim), [ace](#ace), [spirit](#spirit), [miracle](#miracle), [brave](#brave), [battery](#battery), [energy](#energy), [service](#service), [handle](#handle), [talent](#talent), [diet](#diet), [jungle](#jungle), [stove](#stove), [recycle](#recycle), [balance](#balance), [career](#career), [delivery](#delivery), [password](#password), [data](#data), [technology](#technology), [trainer](#trainer), [cooler](#cooler), [viking](#viking), [bargain](#bargain), [cider](#cider), [comment](#comment), [stress](#stress), [risk](#risk), [professional](#professional), [campaign](#campaign), [brand](#brand), [quality](#quality), [security](#security), [routine](#routine), [license](#license), [gap](#gap), [trend](#trend), [access](#access), [account](#account), [arrange](#arrange), [cancel](#cancel), [catalog](#catalog), [channel](#channel), [charge](#charge), [classic](#classic), [collection](#collection), [download](#download), [entry](#entry), [error](#error), [fake](#fake), [file](#file), [filter](#filter), [frame](#frame), [goods](#goods), [graph](#graph), [impact](#impact), [label](#label), [limit](#limit), [link](#link), [mask](#mask), [media](#media), [mode](#mode), [monitor](#monitor), [option](#option), [original](#original), [pattern](#pattern), [post](#post), [project](#project), [reset](#reset), [rhythm](#rhythm), [seal](#seal), [shock](#shock), [studio](#studio), [total](#total), [pierce](#pierce), [approach](#approach), [benefit](#benefit), [community](#community), [content](#content), [debate](#debate), [device](#device), [digital](#digital), [document](#document), [economy](#economy), [feature](#feature), [global](#global), [humor](#humor), [issue](#issue), [material](#material), [method](#method), [network](#network), [official](#official), [partner](#partner), [performance](#performance), [policy](#policy), [positive](#positive), [negative](#negative), [pressure](#pressure), [public](#public), [rescue](#rescue), [research](#research), [respect](#respect), [series](#series), [source](#source), [symbol](#symbol), [theme](#theme), [theory](#theory), [unique](#unique), [value](#value), [variety](#variety), [live](#live), [talk](#talk), [comedy](#comedy), [episode](#episode), [genre](#genre), [fantasy](#fantasy), [horror](#horror), [mystery](#mystery), [suspense](#suspense), [documentary](#documentary), [cast](#cast), [producer](#producer), [audition](#audition), [debut](#debut), [encore](#encore), [release](#release), [chart](#chart), [remix](#remix), [playlist](#playlist), [influencer](#influencer), [follower](#follower), [hashtag](#hashtag), [buzz](#buzz), [review](#review), [meme](#meme), [caption](#caption), [thumbnail](#thumbnail), [highlight](#highlight), [replay](#replay), [announcer](#announcer), [reporter](#reporter), [caster](#caster), [commentator](#commentator), [scoop](#scoop), [headline](#headline), [press](#press), [column](#column), [magazine](#magazine), [celebrity](#celebrity), [gossip](#gossip), [cycle](#cycle), [tone](#tone), [focus](#focus), [zoom](#zoom), [paradise](#paradise)
+- Lv.6 社会の話題 — [manual](#manual), [amateur](#amateur), [privacy](#privacy), [mental](#mental), [concept](#concept), [context](#context), [crisis](#crisis), [factor](#factor), [flexible](#flexible), [function](#function), [identity](#identity), [logic](#logic), [luxury](#luxury), [marketing](#marketing), [minority](#minority), [operation](#operation), [organic](#organic), [profile](#profile), [scandal](#scandal), [sponsor](#sponsor), [status](#status), [survival](#survival), [trial](#trial), [virtual](#virtual), [vision](#vision), [democracy](#democracy), [demonstration](#demonstration), [leader](#leader), [summit](#summit), [conference](#conference), [forum](#forum), [symposium](#symposium), [inflation](#inflation), [deflation](#deflation), [bubble](#bubble), [market](#market), [stock](#stock), [trade](#trade), [import](#import), [export](#export), [local](#local), [urban](#urban), [gender](#gender), [harassment](#harassment), [charity](#charity), [terrorism](#terrorism), [patrol](#patrol), [hazard](#hazard), [pandemic](#pandemic), [lockdown](#lockdown), [cluster](#cluster), [ecology](#ecology), [carbon](#carbon), [cyber](#cyber), [hacker](#hacker), [spam](#spam), [phishing](#phishing), [science](#science), [laboratory](#laboratory), [genome](#genome), [bacteria](#bacteria), [calcium](#calcium), [ion](#ion), [galaxy](#galaxy), [satellite](#satellite), [sensor](#sensor), [chip](#chip), [laser](#laser), [radar](#radar), [hybrid](#hybrid), [company](#company), [office](#office), [business](#business), [manager](#manager), [staff](#staff), [salary](#salary), [bonus](#bonus), [freelance](#freelance), [startup](#startup), [venture](#venture), [deadline](#deadline), [meeting](#meeting), [presentation](#presentation), [task](#task), [sales](#sales), [customer](#customer), [tourism](#tourism), [visa](#visa), [border](#border), [army](#army), [missile](#missile), [union](#union), [strike](#strike), [boycott](#boycott), [revolution](#revolution), [liberal](#liberal), [journalist](#journalist), [editor](#editor), [survey](#survey), [consumer](#consumer), [cashless](#cashless), [credit](#credit), [loan](#loan), [cash](#cash), [receipt](#receipt), [discount](#discount), [price](#price), [return](#return), [fund](#fund), [factory](#factory), [safari](#safari), [therapy](#therapy), [counseling](#counseling), [rehabilitation](#rehabilitation), [capsule](#capsule), [tablet](#tablet), [metabolism](#metabolism), [campus](#campus), [seminar](#seminar), [lecture](#lecture), [essay](#essay), [internship](#internship), [recruit](#recruit), [curriculum](#curriculum), [syllabus](#syllabus), [athlete](#athlete), [doping](#doping), [fair](#fair), [lifestyle](#lifestyle), [leisure](#leisure), [outdoor](#outdoor), [indoor](#indoor), [vacation](#vacation), [single](#single), [couple](#couple), [senior](#senior), [junior](#junior), [teen](#teen), [generation](#generation), [apartment](#apartment), [interior](#interior), [exterior](#exterior), [renovation](#renovation), [shelter](#shelter), [hostel](#hostel), [mosaic](#mosaic), [climax](#climax), [elegant](#elegant), [retro](#retro), [chaos](#chaos), [universe](#universe), [contrast](#contrast), [texture](#texture), [opera](#opera)
+- Lv.7 大人の日常語 — [potion](#potion), [quest](#quest), [dungeon](#dungeon), [inventory](#inventory), [avatar](#avatar), [combo](#combo), [revive](#revive), [ultimate](#ultimate), [villain](#villain), [launch](#launch), [android](#android), [gravity](#gravity), [evolution](#evolution), [dimension](#dimension), [portal](#portal), [beam](#beam), [tension](#tension), [rookie](#rookie), [destiny](#destiny), [trigger](#trigger), [sacrifice](#sacrifice), [mentor](#mentor), [mansion](#mansion), [idol](#idol), [motivation](#motivation), [potential](#potential), [priority](#priority), [resource](#resource), [capacity](#capacity), [innovation](#innovation), [evidence](#evidence), [agenda](#agenda), [strategy](#strategy), [veteran](#veteran), [commitment](#commitment), [consultant](#consultant), [diversity](#diversity), [dynamic](#dynamic), [mechanism](#mechanism), [phase](#phase), [scenario](#scenario), [solution](#solution), [feedback](#feedback), [appointment](#appointment), [memo](#memo), [reminder](#reminder), [margin](#margin), [commission](#commission), [royalty](#royalty), [negotiation](#negotiation), [deal](#deal), [client](#client), [user](#user), [vendor](#vendor), [supplier](#supplier), [maker](#maker), [product](#product), [control](#control), [management](#management), [leadership](#leadership), [teamwork](#teamwork), [format](#format), [template](#template), [layout](#layout), [font](#font), [draft](#draft), [telework](#telework), [invoice](#invoice), [promotion](#promotion), [headhunting](#headhunting), [resume](#resume), [specialist](#specialist), [generalist](#generalist), [expert](#expert), [analyst](#analyst), [engineer](#engineer), [designer](#designer), [architect](#architect), [programmer](#programmer), [creator](#creator), [artist](#artist), [musician](#musician), [director](#director), [writer](#writer), [photographer](#photographer), [stylist](#stylist), [sommelier](#sommelier), [barista](#barista), [counselor](#counselor), [gardening](#gardening), [wine](#wine), [beer](#beer), [whiskey](#whiskey), [cocktail](#cocktail), [champagne](#champagne), [alcohol](#alcohol), [caffeine](#caffeine), [gourmet](#gourmet), [casual](#casual), [formal](#formal), [suit](#suit), [cardigan](#cardigan), [vest](#vest), [fleece](#fleece), [auction](#auction), [minimalist](#minimalist), [healing](#healing), [aroma](#aroma), [meditation](#meditation), [mindfulness](#mindfulness), [detox](#detox), [stretch](#stretch), [workout](#workout), [triathlon](#triathlon), [snowboard](#snowboard), [surfing](#surfing), [diving](#diving), [climbing](#climbing), [casino](#casino), [gamble](#gamble), [wedding](#wedding), [bridal](#bridal), [propose](#propose), [romance](#romance), [date](#date), [anniversary](#anniversary), [ceremony](#ceremony), [reception](#reception), [banquet](#banquet), [catering](#catering), [hospitality](#hospitality), [concierge](#concierge), [suite](#suite), [lounge](#lounge), [amenity](#amenity), [spa](#spa), [glamping](#glamping), [package](#package), [airline](#airline), [flight](#flight), [transit](#transit), [terminal](#terminal), [cabin](#cabin), [crew](#crew), [mileage](#mileage), [upgrade](#upgrade), [shuttle](#shuttle), [navigation](#navigation), [express](#express), [ego](#ego), [complex](#complex), [moral](#moral), [exotic](#exotic), [ethnic](#ethnic), [aura](#aura), [spiral](#spiral), [silhouette](#silhouette), [sentimental](#sentimental), [oasis](#oasis), [symphony](#symphony)
 - Lv.8 ビジネス — [naive](#naive), [cunning](#cunning), [consent](#consent), [reform](#reform), [incentive](#incentive), [literacy](#literacy), [bias](#bias), [dilemma](#dilemma), [nuance](#nuance), [sustainable](#sustainable), [stoic](#stoic), [inclusion](#inclusion), [infrastructure](#infrastructure), [initiative](#initiative), [leverage](#leverage), [nostalgia](#nostalgia), [portfolio](#portfolio), [premium](#premium), [prototype](#prototype), [resilience](#resilience), [segment](#segment), [stakeholder](#stakeholder), [stereotype](#stereotype), [subscription](#subscription), [synergy](#synergy), [trauma](#trauma), [utopia](#utopia), [vintage](#vintage), [charisma](#charisma), [propaganda](#propaganda), [irony](#irony), [paradox](#paradox), [manicure](#manicure), [mania](#mania), [outsourcing](#outsourcing), [benchmark](#benchmark), [tactics](#tactics), [platform](#platform), [branding](#branding), [persona](#persona), [conversion](#conversion), [engagement](#engagement), [retention](#retention), [metrics](#metrics), [analytics](#analytics), [dashboard](#dashboard), [insight](#insight), [simulation](#simulation), [workflow](#workflow), [process](#process), [pipeline](#pipeline), [roadmap](#roadmap), [milestone](#milestone), [sprint](#sprint), [agile](#agile), [kickoff](#kickoff), [brainstorming](#brainstorming), [workshop](#workshop), [facilitator](#facilitator), [moderator](#moderator), [panel](#panel), [session](#session), [keynote](#keynote), [pitch](#pitch), [proposal](#proposal), [summary](#summary), [executive](#executive), [wellbeing](#wellbeing), [burnout](#burnout), [workaholic](#workaholic), [onboarding](#onboarding), [offshore](#offshore), [alliance](#alliance), [holdings](#holdings), [franchise](#franchise), [incubator](#incubator), [pivot](#pivot), [scale](#scale), [monetize](#monetize), [ecosystem](#ecosystem), [database](#database), [algorithm](#algorithm), [interface](#interface), [backup](#backup), [legacy](#legacy), [patent](#patent), [copyright](#copyright), [logo](#logo), [slogan](#slogan), [catchphrase](#catchphrase), [capital](#capital), [asset](#asset), [hedge](#hedge), [index](#index), [ownership](#ownership), [empowerment](#empowerment), [assessment](#assessment), [spec](#spec), [beta](#beta), [version](#version), [maintenance](#maintenance), [bug](#bug), [patch](#patch), [code](#code), [hardware](#hardware), [software](#software), [gadget](#gadget), [wearable](#wearable), [blockchain](#blockchain), [metaverse](#metaverse), [hologram](#hologram), [clone](#clone), [logistics](#logistics), [container](#container), [cargo](#cargo), [tracking](#tracking), [barcode](#barcode), [payment](#payment), [fintech](#fintech), [debit](#debit), [firewall](#firewall), [guideline](#guideline), [protocol](#protocol), [standard](#standard), [quota](#quota)
-- Lv.9 教養 — [guild](#guild), [summon](#summon), [relic](#relic), [mana](#mana), [stealth](#stealth), [berserk](#berserk), [compliance](#compliance), [consensus](#consensus), [hierarchy](#hierarchy), [scheme](#scheme), [aesthetic](#aesthetic), [ideology](#ideology), [renaissance](#renaissance), [entrepreneur](#entrepreneur)
+- Lv.9 教養 — [guild](#guild), [summon](#summon), [relic](#relic), [mana](#mana), [stealth](#stealth), [berserk](#berserk), [compliance](#compliance), [consensus](#consensus), [hierarchy](#hierarchy), [scheme](#scheme), [aesthetic](#aesthetic), [ideology](#ideology), [renaissance](#renaissance), [entrepreneur](#entrepreneur), [philosophy](#philosophy), [metaphor](#metaphor), [thesis](#thesis), [antithesis](#antithesis), [narrative](#narrative), [realism](#realism), [modernism](#modernism), [surreal](#surreal), [minimalism](#minimalism), [baroque](#baroque), [gothic](#gothic), [dystopia](#dystopia), [nationalism](#nationalism), [populism](#populism), [fascism](#fascism), [anarchy](#anarchy), [elite](#elite), [intellectual](#intellectual), [sympathy](#sympathy), [cosmopolitan](#cosmopolitan), [folklore](#folklore), [saga](#saga), [chronicle](#chronicle), [archive](#archive), [anthology](#anthology), [prologue](#prologue), [epilogue](#epilogue), [finale](#finale), [parody](#parody), [homage](#homage), [motif](#motif), [chic](#chic), [cosmos](#cosmos), [parameter](#parameter), [matrix](#matrix), [vector](#vector), [symmetry](#symmetry), [gradation](#gradation), [perspective](#perspective), [mentality](#mentality), [maestro](#maestro), [optimism](#optimism), [pessimism](#pessimism), [cynical](#cynical), [hysterical](#hysterical), [humanism](#humanism), [sanctuary](#sanctuary), [labyrinth](#labyrinth), [mirage](#mirage), [phantom](#phantom), [illusion](#illusion)
 - Lv.10 マスター — [governance](#governance), [paradigm](#paradigm), [accountability](#accountability), [anachronism](#anachronism), [cliche](#cliche), [melancholy](#melancholy), [narcissist](#narcissist), [sabotage](#sabotage), [taboo](#taboo), [catharsis](#catharsis), [ambivalent](#ambivalent), [rhetoric](#rhetoric), [dogma](#dogma), [hegemony](#hegemony), [epoch](#epoch), [bourgeois](#bourgeois), [nihilism](#nihilism), [euphoria](#euphoria)
 - [語根ファミリー一覧](#語根ファミリー一覧)
 
@@ -12974,6 +12974,87 @@
 | **rumor** | うわさ | 確かでない話。 | ラテン語 rūmor |
 | **chatter** | おしゃべり | たわいない話。 | 擬音語 |
 
+<a id="cycle"></a>
+### cycle（サイクル）
+
+**名詞・動詞** / Lv.5 よく見聞きする / CEFR B1 — 周期、循環、自転車に乗る
+
+- 📍 シーン: ライフサイクル、サイクリング。
+- 💬 例文: *The washing machine has a quick cycle.* — その洗濯機には短時間のコースがある。
+- 📜 語源: 後期ラテン語 cyclus ← ギリシャ語 kyklos「輪」
+  - 「輪」→ ぐるっと一周する周期。bicycle、recycle と同じ kyklos の家族。
+- 💎 語根: `cycl`（輪・円）
+- 🌳 同じ語源の仲間: bicycle（自転車）、recycle（リサイクルする）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **circle** | 円 | 丸い輪。 | ラテン語 circulus |
+| **period** | 周期 | 一定の期間。 | ギリシャ語 periodos |
+
+<a id="tone"></a>
+### tone（トーン）
+
+**名詞** / Lv.5 よく見聞きする / CEFR B1 — 調子、口調、色調、音色
+
+- 📍 シーン: 声のトーン、トーンダウン。
+- 💬 例文: *Don't speak to me in that tone!* — そんな口調で話さないで！
+- 📜 語源: ギリシャ語 tonos「張ること、音の高さ」← teinein「張る」
+  - 弦を「張る」強さで音の高さが決まることから。tune（曲）も tone の変形。tension と同じ「張る」の語根。
+- 🌳 同じ語源の仲間: tune（曲）、intonation（抑揚）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **voice** | 声 | 話し声。 | ラテン語 vōx |
+| **shade** | 色合い | 色の濃淡。 | 古英語 sceadu |
+
+<a id="focus"></a>
+### focus（フォーカス）
+
+**名詞・動詞** / Lv.5 よく見聞きする / CEFR B1 — 焦点（を合わせる）、集中する
+
+- 📍 シーン: オートフォーカス、目標にフォーカスする。
+- 💬 例文: *I can't focus on my homework.* — 宿題に集中できない。
+- 📜 語源: ラテン語 focus「かまど、炉」
+  - 家の中心の「かまど」→ 光が集まる点（焦点）→ 注意を集める。17世紀の天文学者ケプラーが「焦点」の意味で使った。
+- 🌳 同じ語源の仲間: focal（焦点の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **concentrate** | 集中する | 意識を集める。 | con- + center |
+| **center** | 中心 | 真ん中。 | ギリシャ語 kentron |
+
+<a id="zoom"></a>
+### zoom（ズーム）
+
+**動詞・名詞** / Lv.5 よく見聞きする / CEFR B1 — 拡大・縮小する、ビューンと走る
+
+- 📍 シーン: ズームイン、オンライン会議のズーム。
+- 💬 例文: *Zoom in to see the details.* — 細部を見るには拡大して。
+- 📜 語源: 擬音語（ブーンという音）
+  - 車や飛行機が「ビューン」と勢いよく進む音から。カメラで一気に寄る・引くこともこう呼ぶようになった。
+- 🌳 同じ語源の仲間: zoom lens（ズームレンズ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **magnify** | 拡大する | 大きくする。 | ラテン語 magnificāre |
+| **speed** | 疾走する | 速く進む。 | 古英語 spēd |
+
+<a id="paradise"></a>
+### paradise（パラダイス）
+
+**名詞** / Lv.5 よく見聞きする / CEFR B2 — 楽園、天国
+
+- 📍 シーン: 南国の楽園、「〜天国」。
+- 💬 例文: *This island is a paradise for divers.* — この島はダイバーにとって楽園だ。
+- 📜 語源: ギリシャ語 paradeisos ← 古代ペルシャ語 pairidaēza「囲まれた庭」
+  - 王の「壁で囲まれた庭園」が、聖書の翻訳で「エデンの園」→ 天国に。
+- 🌳 同じ語源の仲間: paradisal（楽園の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **heaven** | 天国 | 神のいる所。 | 古英語 heofon |
+| **utopia** | 理想郷 | 理想の社会。 | ギリシャ語 ou + topos |
+
 ## Lv.6 社会の話題
 
 <a id="manual"></a>
@@ -15350,6 +15431,138 @@
 |---|---|---|---|
 | **collage** | コラージュ | 貼り合わせた作品。 | フランス語 coller「貼る」 |
 | **patchwork** | パッチワーク | 布の寄せ集め。 | patch + work |
+
+<a id="climax"></a>
+### climax（クライマックス）
+
+**名詞** / Lv.6 社会の話題 / CEFR C1 — 最高潮、山場
+
+- 📍 シーン: 物語のクライマックス、盛り上がり。
+- 💬 例文: *The movie reaches its climax in the final battle.* — 映画は最後の戦いで最高潮に達する。
+- 📜 語源: ギリシャ語 klimax「はしご」
+  - 「はしご」→ だんだん高まっていくこと → 頂点。
+- 🌳 同じ語源の仲間: climactic（最高潮の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **peak** | 頂点 | いちばん高いところ。 | pike の変形 |
+| **highlight** | 見せ場 | 最もよいところ。 | high + light |
+
+<a id="elegant"></a>
+### elegant（エレガント）
+
+**形容詞** / Lv.6 社会の話題 / CEFR B2 — 上品な、優雅な
+
+- 📍 シーン: エレガントなドレス、エレガントな解法。
+- 💬 例文: *She looked elegant in her black dress.* — 彼女は黒いドレスで上品に見えた。
+- 📜 語源: ラテン語 ēlegāns「えり好みする、趣味のよい」← ēligere「選ぶ」
+  - 「よく選ぶ」→ 趣味がよい。elect、elite と同じ家族。数学の「エレガントな証明」は「むだのない美しい」。
+- 💎 語根: `leg / lect / lig`（読む・集める・選ぶ）
+- 🌳 同じ語源の仲間: elegance（優雅さ）、elect（選ぶ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **graceful** | 優美な | 動きが美しい。 | grace + -ful |
+| **stylish** | おしゃれな | 洗練された。 | style + -ish |
+
+<a id="retro"></a>
+### retro（レトロ）
+
+**形容詞** / Lv.6 社会の話題 / CEFR C1 — 懐古調の、昔風の
+
+- 📍 シーン: レトロな喫茶店、レトロゲーム。
+- 💬 例文: *I love the retro design of this radio.* — このラジオのレトロなデザインが大好きだ。
+- 📜 語源: フランス語 rétro ← rétrospectif「回顧の」← ラテン語 retrō「後ろへ」
+  - 「後ろを振り返る」。retrospect（回顧）、retreat（退く）と同じ retrō の仲間。
+- 🌳 同じ語源の仲間: retrospective（回顧の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **vintage** | ヴィンテージ | 年代物の上質なもの。 | 古フランス語 vendange |
+| **old-fashioned** | 昔風の | 古くさい。 | old + fashioned |
+
+<a id="chaos"></a>
+### chaos（カオス）
+
+**名詞** / Lv.6 社会の話題 / CEFR C1 — 混沌、大混乱
+
+- 📍 シーン: 「カオスな状況」、カオス理論。
+- 💬 例文: *The station was in chaos after the accident.* — 事故のあと駅は大混乱だった。
+- 📜 語源: ギリシャ語 khaos「大きく口を開けた空間、混沌」
+  - 天地ができる前の「何もない空間」。gas（気体）はこの語をもとに作られた。発音は「ケイオス」。
+- 🌳 同じ語源の仲間: chaotic（混沌とした）、gas（気体）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **disorder** | 無秩序 | 乱れた状態。 | dis- + order |
+| **mess** | ごちゃごちゃ | 散らかった状態。 | 古フランス語 mes「料理の一皿」 |
+
+<a id="universe"></a>
+### universe（ユニバース）
+
+**名詞** / Lv.6 社会の話題 / CEFR B1 — 宇宙、全世界
+
+- 📍 シーン: ユニバーサルデザイン、映画のユニバース（作品世界）。
+- 💬 例文: *How big is the universe?* — 宇宙はどのくらい大きいの？
+- 📜 語源: ラテン語 ūniversum「一つにまとまったもの」← ūnus「一つ」+ vertere「回す」
+  - 「一つの方向に回された全体」。university（大学＝教師と学生の全体）、universal（普遍的な）も同じ語。
+- 💎 語根: `vert / vers`（向ける・回す）
+- 🌳 同じ語源の仲間: universal（普遍的な）、university（大学）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **space** | 宇宙空間 | 地球の外の空間。 | ラテン語 spatium |
+| **world** | 世界 | 私たちの世界。 | 古英語 weorold |
+
+<a id="contrast"></a>
+### contrast（コントラスト）
+
+**名詞・動詞** / Lv.6 社会の話題 / CEFR B2 — 対照、対比（する）
+
+- 📍 シーン: 色のコントラスト、画面のコントラスト。
+- 💬 例文: *There's a sharp contrast between the two cities.* — 2つの都市にはくっきりとした違いがある。
+- 📜 語源: イタリア語 contrastare「対立する」← ラテン語 contrā-「反対に」+ stāre「立つ」
+  - 「向かい合って立つ」→ 対比、違いが際立つこと。contrary（反対の）も contrā の仲間。
+- 💎 語根: `sta / stat / sist`（立つ）
+- 🌳 同じ語源の仲間: contrary（反対の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **difference** | 違い | 差。 | ラテン語 differre |
+| **comparison** | 比較 | 比べること。 | ラテン語 comparāre |
+
+<a id="texture"></a>
+### texture（テクスチャー）
+
+**名詞** / Lv.6 社会の話題 / CEFR C1 — 手ざわり、質感、食感
+
+- 📍 シーン: 布のテクスチャー、ふわふわの食感。
+- 💬 例文: *I love the soft texture of this bread.* — このパンのふんわりした食感が大好きだ。
+- 📜 語源: ラテン語 textūra「織り方」← texere「織る」
+  - 「織り方」→ 手ざわり、質感。text、textile、context と同じ texere の家族。
+- 💎 語根: `text / tex`（織る）
+- 🌳 同じ語源の仲間: textile（織物）、text（本文）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **feel** | 手ざわり | 触った感じ。 | 古英語 fēlan |
+| **consistency** | 固さ、濃さ | 食べ物のとろみ。 | ラテン語 cōnsistere |
+
+<a id="opera"></a>
+### opera（オペラ）
+
+**名詞** / Lv.6 社会の話題 / CEFR B2 — 歌劇、オペラ
+
+- 📍 シーン: オペラ歌手、ソープオペラ（昼ドラ）。
+- 💬 例文: *We went to see an opera in Vienna.* — ウィーンでオペラを見に行った。
+- 📜 語源: イタリア語 opera「作品」← ラテン語 opera「仕事（opus の複数形）」
+  - 「作品」。operation（作業）と同じ opus の家族。soap opera（昼のメロドラマ）は石けん会社がスポンサーだったことから。
+- 🌳 同じ語源の仲間: operation（作業）、opus（作品）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **musical** | ミュージカル | 歌と踊りの劇。 | music + -al |
+| **play** | 劇 | 舞台の芝居。 | 古英語 plega |
 
 ## Lv.7 大人の日常語
 
@@ -17801,6 +18014,185 @@
 | **rapid** | 快速の | 速い。 | ラテン語 rapidus |
 | **convey** | 伝える | 考えを伝える。 | ラテン語 convehere |
 
+<a id="ego"></a>
+### ego（エゴ）
+
+**名詞** / Lv.7 大人の日常語 / CEFR C1 — 自我、うぬぼれ
+
+- 📍 シーン: 「エゴが強い」、エゴサーチ。
+- 💬 例文: *He has a big ego.* — 彼はうぬぼれが強い。
+- 📜 語源: ラテン語 ego「私」
+  - 心理学者フロイトの用語（自我）の英訳から広まった。egoist（利己主義者）、egocentric（自己中心的な）も同じ語。
+- 🌳 同じ語源の仲間: egoist（利己主義者）、egocentric（自己中心的な）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **self** | 自己 | 自分自身。 | 古英語 self |
+| **pride** | プライド | 自尊心。 | 古英語 prȳde |
+
+<a id="complex"></a>
+### complex（コンプレックス） ⚠️
+
+**名詞・形容詞** / Lv.7 大人の日常語 / CEFR B2 — 複雑な、複合施設、（心理的な）こだわり
+
+- 📍 シーン: 「コンプレックスがある」、商業施設（complex）。
+- ⚠️ カタカナの罠: 日本語の「コンプレックス」は「劣等感」の意味だが、英語で complex だけでは通じにくい。劣等感なら inferiority complex / insecurity。形容詞 complex は「複雑な」。
+- 💬 例文: *This is a very complex problem.* — これはとても複雑な問題だ。
+- 📜 語源: ラテン語 complexus「編み合わされた」← com- + plectere「編む」
+  - 「いくつも編み合わさった」→ 複雑な、複合体。心理学では「絡み合った感情のかたまり」。simple（一重の）の反対。
+- 🌳 同じ語源の仲間: complexity（複雑さ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **complicated** | ややこしい | 入り組んだ。 | ラテン語 complicāre |
+| **insecurity** | 劣等感、不安 | 自信のなさ。 | in- + security |
+
+<a id="moral"></a>
+### moral（モラル）
+
+**名詞・形容詞** / Lv.7 大人の日常語 / CEFR B2 — 道徳（の）、教訓
+
+- 📍 シーン: 「モラルがない」、物語の教訓。
+- 💬 例文: *The moral of the story is "never give up."* — その物語の教訓は「決してあきらめるな」だ。
+- 📜 語源: ラテン語 mōrālis「習慣の」← mōs「習慣」
+  - 社会の「習わし」→ 道徳。「モラルが低い」は英語では have no morals / lack ethics。morale（モラール＝士気）は別の語。
+- 🌳 同じ語源の仲間: morality（道徳）、morale（士気）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **ethics** | 倫理 | 正しさの基準。 | ギリシャ語 ēthikos |
+| **lesson** | 教訓 | 学んだこと。 | ラテン語 lēctiō |
+
+<a id="exotic"></a>
+### exotic（エキゾチック）
+
+**形容詞** / Lv.7 大人の日常語 / CEFR C1 — 異国風の、珍しい
+
+- 📍 シーン: エキゾチックな顔立ち、南国のフルーツ。
+- 💬 例文: *We tried some exotic fruits in Thailand.* — タイで珍しい果物を食べてみた。
+- 📜 語源: ギリシャ語 exōtikos「外の」← exō「外に」
+  - 「外から来た」→ 外国の、珍しい。exterior、external と近い ex- の仲間。
+- 🌳 同じ語源の仲間: exterior（外部）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **foreign** | 外国の | よその国の。 | ラテン語 forīs「外に」 |
+| **unusual** | 珍しい | ふつうでない。 | un- + usual |
+
+<a id="ethnic"></a>
+### ethnic（エスニック）
+
+**形容詞** / Lv.7 大人の日常語 / CEFR C1 — 民族の、民族料理の
+
+- 📍 シーン: エスニック料理、少数民族。
+- 💬 例文: *The city has many ethnic restaurants.* — その都市にはいろいろな民族料理の店がある。
+- 📜 語源: ギリシャ語 ethnikos「民族の、異教徒の」← ethnos「民族」
+  - もとは「（ユダヤ教徒・キリスト教徒でない）異教徒の」。今は民族の文化に関する語。「エスニック料理」は英語では ethnic food のほか、国名を使って言うことも多い。
+- 🌳 同じ語源の仲間: ethnicity（民族性）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cultural** | 文化の | 文化に関する。 | ラテン語 cultūra |
+| **national** | 国の | 国家の。 | ラテン語 nātiō |
+
+<a id="aura"></a>
+### aura（オーラ）
+
+**名詞** / Lv.7 大人の日常語 / CEFR C2 — 雰囲気、オーラ
+
+- 📍 シーン: 「オーラがある」、スターのオーラ。
+- 💬 例文: *She has an aura of confidence.* — 彼女には自信に満ちた雰囲気がある。
+- 📜 語源: ギリシャ語 aura「そよ風、息」
+  - 「そよ風」→ 人や物のまわりにただよう空気、雰囲気。
+- 🌳 同じ語源の仲間: auratic（オーラのある）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **atmosphere** | 雰囲気 | その場の空気。 | ギリシャ語 atmos「蒸気」+ sphaira |
+| **presence** | 存在感 | 人の迫力。 | ラテン語 praesentia |
+
+<a id="spiral"></a>
+### spiral（スパイラル）
+
+**名詞・形容詞** / Lv.7 大人の日常語 / CEFR C1 — らせん（の）、悪循環
+
+- 📍 シーン: デフレスパイラル、らせん階段。
+- 💬 例文: *The staircase goes up in a spiral.* — その階段はらせん状に上っていく。
+- 📜 語源: 中世ラテン語 spīrālis ← ラテン語 spīra「巻いたもの」
+  - 「巻き」→ らせん。spiral out of control は「どんどん悪化する」。
+- 🌳 同じ語源の仲間: spire（尖塔・別語源とする説も）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **coil** | 巻いたもの | ぐるぐる巻き。 | 古フランス語 coillir「集める」 |
+| **vicious circle** | 悪循環 | 悪いことがくり返されること。 | vicious + circle |
+
+<a id="silhouette"></a>
+### silhouette（シルエット）
+
+**名詞** / Lv.7 大人の日常語 / CEFR C2 — 影絵、輪郭、シルエット
+
+- 📍 シーン: 夕日のシルエット、服のシルエット。
+- 💬 例文: *We saw the silhouette of a cat on the wall.* — 壁に猫のシルエットが映っていた。
+- 📜 語源: 18世紀フランスの財務大臣エティエンヌ・ド・シルエット（Silhouette）の名から
+  - 倹約家の大臣が、安上がりな黒い横顔の切り絵を好んだから、節約政策が「安っぽい」と皮肉られたから、など由来は諸説。
+- 🌳 同じ語源の仲間: silhouetted（影絵のように浮かんだ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **outline** | 輪郭 | 外側の線。 | out + line |
+| **shadow** | 影 | 光がさえぎられた暗い部分。 | 古英語 sceadwe |
+
+<a id="sentimental"></a>
+### sentimental（センチメンタル）
+
+**形容詞** / Lv.7 大人の日常語 / CEFR C1 — 感傷的な、涙もろい
+
+- 📍 シーン: 「センチメンタルな気分」、「センチになる」。
+- 💬 例文: *I feel sentimental when I look at old photos.* — 古い写真を見ると感傷的になる。
+- 📜 語源: sentiment「感情」+ -al ← ラテン語 sentīre「感じる」
+  - sense、consent と同じ sentīre の家族。
+- 💎 語根: `sent / sens`（感じる）
+- 🌳 同じ語源の仲間: sentiment（感情）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **emotional** | 感情的な | 心を動かされた。 | emotion + -al |
+| **nostalgic** | 懐かしい | 昔を恋しく思う。 | nostalgia + -ic |
+
+<a id="oasis"></a>
+### oasis（オアシス）
+
+**名詞** / Lv.7 大人の日常語 / CEFR C1 — オアシス、憩いの場
+
+- 📍 シーン: 砂漠のオアシス、都会のオアシス。
+- 💬 例文: *The park is an oasis in the busy city.* — その公園はにぎやかな都会の憩いの場だ。
+- 📜 語源: ギリシャ語 oasis ← エジプト語（コプト語 ouahe「住む場所」）
+  - 砂漠の中の水と緑のある場所。複数形は oases。
+- 🌳 同じ語源の仲間: oases（oasis の複数形）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **haven** | 安息の場 | 安全な場所。 | 古英語 hæfen「港」 |
+| **retreat** | 隠れ家 | 静かな場所。 | 古フランス語 retrait |
+
+<a id="symphony"></a>
+### symphony（シンフォニー）
+
+**名詞** / Lv.7 大人の日常語 / CEFR C1 — 交響曲、交響楽団
+
+- 📍 シーン: ベートーヴェンの第九交響曲。
+- 💬 例文: *The orchestra played Beethoven's Fifth Symphony.* — オーケストラはベートーヴェンの交響曲第5番を演奏した。
+- 📜 語源: ギリシャ語 symphōnia「音の調和」← syn-「共に」+ phōnē「音」
+  - 「一緒に鳴る音」。phone、microphone と同じ phōnē の家族。
+- 💎 語根: `phon`（音・声）
+- 🌳 同じ語源の仲間: phone（電話）、microphone（マイク）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **orchestra** | オーケストラ | 管弦楽団。 | ギリシャ語 orkhēstra |
+| **concerto** | 協奏曲 | 独奏楽器と楽団の曲。 | イタリア語 concerto |
+
 ## Lv.8 ビジネス
 
 <a id="naive"></a>
@@ -20070,6 +20462,834 @@
 | **founder** | 創業者 | 会社を作った人。 | ラテン語 fundāre「基礎を置く」 |
 | **businessperson** | 実業家 | 事業をする人。 | business + person |
 
+<a id="philosophy"></a>
+### philosophy（フィロソフィー）
+
+**名詞** / Lv.9 教養 / CEFR B2 — 哲学、考え方
+
+- 📍 シーン: 経営フィロソフィー、人生哲学。
+- 💬 例文: *My philosophy is to enjoy every day.* — 毎日を楽しむのが私の信条だ。
+- 📜 語源: ギリシャ語 philosophia「知恵を愛すること」← philos「愛する」+ sophia「知恵」
+  - philanthropy（博愛）、Philadelphia（兄弟愛の町）も philos の家族。sophisticated（洗練された）は sophia から。
+- 🌳 同じ語源の仲間: philosopher（哲学者）、sophisticated（洗練された）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **ideology** | イデオロギー | 思想体系。 | フランス語 idéologie |
+| **belief** | 信念 | 信じていること。 | 古英語 gelēafa |
+
+<a id="metaphor"></a>
+### metaphor（メタファー）
+
+**名詞** / Lv.9 教養 / CEFR C1 — 隠喩、たとえ
+
+- 📍 シーン: 「人生は旅だ」のような比喩。
+- 💬 例文: *"Time is money" is a common metaphor.* — 「時は金なり」はよくある隠喩だ。
+- 📜 語源: ギリシャ語 metaphora「移し替え」← meta-「越えて」+ pherein「運ぶ」
+  - 意味を別のものに「運び移す」表現。like や as を使うたとえは simile（直喩）。
+- 🌳 同じ語源の仲間: metaphorical（比喩的な）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **simile** | 直喩 | like を使うたとえ。 | ラテン語 similis「似た」 |
+| **symbol** | 象徴 | 何かを表すもの。 | ギリシャ語 symbolon |
+
+<a id="thesis"></a>
+### thesis（テーゼ）
+
+**名詞** / Lv.9 教養 / CEFR C1 — 論文、命題、主張
+
+- 📍 シーン: 卒業論文、テーゼとアンチテーゼ。
+- 💬 例文: *She wrote her thesis on climate change.* — 彼女は気候変動について卒業論文を書いた。
+- 📜 語源: ギリシャ語 thesis「置くこと、主張」← tithenai「置く」
+  - 議論の場に「置かれた主張」。theme（テーマ）と同じ語根。「テーゼ」はドイツ語 These の読み。複数形は theses。
+- 🌳 同じ語源の仲間: theme（テーマ）、hypothesis（仮説）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **dissertation** | 博士論文 | 長い学術論文。 | ラテン語 dissertāre |
+| **argument** | 主張 | 論じる内容。 | ラテン語 arguere |
+
+<a id="antithesis"></a>
+### antithesis（アンチテーゼ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 正反対、対立命題
+
+- 📍 シーン: 〜へのアンチテーゼ、真逆。
+- 💬 例文: *Her style is the antithesis of his.* — 彼女のやり方は彼とまったく正反対だ。
+- 📜 語源: ギリシャ語 antithesis「反対に置くこと」← anti-「反対に」+ thesis
+  - ヘーゲルの弁証法の「正・反・合」の「反」。英語では「正反対のもの」の意味でよく使う。
+- 🌳 同じ語源の仲間: thesis（命題）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **opposite** | 反対 | 逆のもの。 | ラテン語 oppōnere |
+| **contrast** | 対照 | はっきりした違い。 | イタリア語 contrastare |
+
+<a id="narrative"></a>
+### narrative（ナラティブ）
+
+**名詞・形容詞** / Lv.9 教養 / CEFR C1 — 物語、語り、ものの見方
+
+- 📍 シーン: 企業のナラティブ、物語の語り口。
+- 💬 例文: *The film has a powerful narrative.* — その映画には力強い物語がある。
+- 📜 語源: ラテン語 narrātīvus ← narrāre「語る」← gnārus「知っている」
+  - 「知っていることを語る」。narrator（語り手）も同じ語。最近は「出来事の意味づけ・物語」の意味でも使われる。
+- 🌳 同じ語源の仲間: narrate（語る）、narrator（語り手）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **story** | 物語 | お話。 | ラテン語 historia |
+| **account** | 説明、話 | 出来事の報告。 | 古フランス語 aconter |
+
+<a id="realism"></a>
+### realism（リアリズム）
+
+**名詞** / Lv.9 教養 / CEFR C1 — 現実主義、写実主義
+
+- 📍 シーン: リアリズム小説、現実路線。
+- 💬 例文: *The painting is known for its realism.* — その絵は写実性で知られている。
+- 📜 語源: real「現実の」+ -ism ← ラテン語 rēs「もの」
+  - 「ありのままのもの」を描く・考える立場。real、reality、republic（公のもの）も rēs の家族。
+- 🌳 同じ語源の仲間: real（本物の）、reality（現実）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **naturalism** | 自然主義 | ありのままに描く立場。 | nature + -ism |
+| **pragmatism** | 実用主義 | 実際に役立つかを重視。 | ギリシャ語 pragma「行い」 |
+
+<a id="modernism"></a>
+### modernism（モダニズム）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 近代主義、モダニズム
+
+- 📍 シーン: モダニズム建築、近代芸術。
+- 💬 例文: *Modernism changed architecture in the 20th century.* — モダニズムは20世紀の建築を変えた。
+- 📜 語源: modern「現代の」+ -ism ← 後期ラテン語 modernus「ちょうど今の」← modo「たった今」
+  - 「今の」。19世紀末〜20世紀の、伝統を離れた新しい芸術運動。
+- 🌳 同じ語源の仲間: modern（現代の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **avant-garde** | 前衛 | 最先端の芸術。 | フランス語「前衛部隊」 |
+| **innovation** | 革新 | 新しくすること。 | ラテン語 innovāre |
+
+<a id="surreal"></a>
+### surreal（シュール）
+
+**形容詞** / Lv.9 教養 / CEFR C2 — 超現実的な、夢のような
+
+- 📍 シーン: 「シュールな笑い」、シュールレアリスム。
+- 💬 例文: *Meeting my hero was a surreal experience.* — 憧れの人に会えたのは夢のような体験だった。
+- 📜 語源: surrealism「超現実主義」から ← フランス語 sur-「超えた」+ réalisme
+  - 1920年代の芸術運動シュールレアリスム（ダリなど）から。日本語の「シュール」はここから来た語。
+- 🌳 同じ語源の仲間: surrealism（シュールレアリスム）、real（現実の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **dreamlike** | 夢のような | 現実離れした。 | dream + like |
+| **bizarre** | 奇妙な | とても変わった。 | イタリア語 bizzarro「怒りっぽい」 |
+
+<a id="minimalism"></a>
+### minimalism（ミニマリズム）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 最小限主義、ミニマリズム
+
+- 📍 シーン: ミニマリズムのデザイン、ミニマル・ミュージック。
+- 💬 例文: *The room is decorated in the style of minimalism.* — その部屋はミニマリズムの様式で飾られている。
+- 📜 語源: minimal「最小限の」+ -ism
+  - 1960年代の美術・音楽で、要素を削ぎ落とした作風。menu、minute と同じ「小さい」の家族。
+- 💎 語根: `min`（小さい）
+- 🌳 同じ語源の仲間: minimalist（ミニマリスト）、minimum（最小限）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **simplicity** | 簡素さ | シンプルなこと。 | simple + -ity |
+| **austerity** | 質素さ、緊縮 | ぜいたくをしないこと。 | ギリシャ語 austēros「厳しい」 |
+
+<a id="baroque"></a>
+### baroque（バロック）
+
+**形容詞・名詞** / Lv.9 教養 / CEFR C2 — バロック様式（の）、飾りすぎた
+
+- 📍 シーン: バロック音楽、バロック建築。
+- 💬 例文: *Bach is a famous baroque composer.* — バッハは有名なバロックの作曲家だ。
+- 📜 語源: フランス語 baroque ← ポルトガル語 barroco「いびつな真珠」
+  - もとは形のいびつな真珠。17〜18世紀の豪華で装飾の多い芸術様式を、批判的に「いびつ」と呼んだのが始まりとされる。
+- 🌳 同じ語源の仲間: barocco（イタリア語のバロック）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **ornate** | 装飾の多い | ごてごてした。 | ラテン語 ōrnāre「飾る」 |
+| **classical** | 古典派の | バロックの次の時代の様式。 | ラテン語 classicus |
+
+<a id="gothic"></a>
+### gothic（ゴシック）
+
+**形容詞** / Lv.9 教養 / CEFR C2 — ゴシック様式の、怪奇的な
+
+- 📍 シーン: ゴシック建築、ゴシック体、ゴスロリ。
+- 💬 例文: *The cathedral is a fine example of Gothic architecture.* — その大聖堂はゴシック建築の見事な例だ。
+- 📜 語源: ラテン語 Gothicus「ゴート人の」
+  - ルネサンス期の人々が中世の建築を「野蛮なゴート人のもの」と見下して呼んだのが始まり。のちに怪奇小説や、暗い服装のスタイルにも使われる。
+- 🌳 同じ語源の仲間: Goth（ゴート人、ゴス）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **medieval** | 中世の | 中世の時代の。 | ラテン語 medium aevum「中間の時代」 |
+| **dark** | 暗い | 陰気な。 | 古英語 deorc |
+
+<a id="dystopia"></a>
+### dystopia（ディストピア）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 暗黒郷、ディストピア
+
+- 📍 シーン: ディストピア小説、管理社会。
+- 💬 例文: *The novel describes a dystopia controlled by AI.* — その小説はAIに支配された暗黒の未来社会を描いている。
+- 📜 語源: dys-「悪い」+ utopia「理想郷」（19世紀）
+  - utopia の反対。dys- は dysfunction（機能不全）の「悪い」。『1984年』などの作品で有名。
+- 🌳 同じ語源の仲間: utopia（理想郷）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **nightmare** | 悪夢 | こわい夢のような状況。 | night + mare |
+| **apocalypse** | 世界の終末 | 破滅。 | ギリシャ語 apokalypsis「啓示」 |
+
+<a id="nationalism"></a>
+### nationalism（ナショナリズム）
+
+**名詞** / Lv.9 教養 / CEFR C1 — 国家主義、民族主義
+
+- 📍 シーン: ナショナリズムの高まり、愛国心。
+- 💬 例文: *Nationalism grew stronger during the war.* — 戦争中に国家主義が強まった。
+- 📜 語源: national「国の」+ -ism ← ラテン語 nātiō「生まれ、民族」
+  - 同じ「生まれ」の人々のまとまり。nation、native、nature と同じ nāscī の家族。
+- 💎 語根: `nat / nai`（生まれる）
+- 🌳 同じ語源の仲間: nation（国家）、native（出身の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **patriotism** | 愛国心 | 国を愛する気持ち。 | ギリシャ語 patris「祖国」 |
+| **chauvinism** | 排他的愛国主義 | 自国第一の極端な考え。 | ナポレオン軍の兵士 Chauvin の名から |
+
+<a id="populism"></a>
+### populism（ポピュリズム）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 大衆迎合主義
+
+- 📍 シーン: ポピュリズム政治、人気取り政策。
+- 💬 例文: *Some politicians use populism to win votes.* — 票を得るために大衆迎合的な主張をする政治家もいる。
+- 📜 語源: ラテン語 populus「民衆」+ -ism
+  - 19世紀アメリカの人民党（Populist Party）から。popular、people と同じ家族。
+- 💎 語根: `popul / publ`（民衆）
+- 🌳 同じ語源の仲間: popular（人気のある）、people（人々）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **demagogy** | 扇動政治 | 大衆を感情であおること。 | ギリシャ語 dēmagōgos「民衆の指導者」 |
+| **crowd-pleasing** | 人気取りの | 大衆を喜ばせる。 | crowd + please |
+
+<a id="fascism"></a>
+### fascism（ファシズム）
+
+**名詞** / Lv.9 教養 / CEFR C2 — ファシズム、全体主義
+
+- 📍 シーン: 20世紀のファシズム、独裁。
+- 💬 例文: *Fascism rose in Europe in the 1920s and 1930s.* — 1920〜30年代にヨーロッパでファシズムが台頭した。
+- 📜 語源: イタリア語 fascismo ← fascio「束」← ラテン語 fascēs「束ねた棒」
+  - 古代ローマで権力の象徴だった「棒の束」から。ムッソリーニの政党がこの名を使った。
+- 🌳 同じ語源の仲間: fascist（ファシスト）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **dictatorship** | 独裁 | 一人が支配する体制。 | ラテン語 dictātor |
+| **totalitarianism** | 全体主義 | 国がすべてを管理する体制。 | total + -itarian |
+
+<a id="anarchy"></a>
+### anarchy（アナーキー）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 無政府状態、混乱
+
+- 📍 シーン: アナーキーなパンク、無秩序。
+- 💬 例文: *After the war, the country fell into anarchy.* — 戦後、その国は無政府状態に陥った。
+- 📜 語源: ギリシャ語 anarkhia「指導者のいないこと」← an-「ない」+ arkhos「支配者」
+  - monarchy（君主制）、hierarchy と同じ arkhein「支配する」の家族。
+- 🌳 同じ語源の仲間: monarchy（君主制）、hierarchy（階層）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **chaos** | 混沌 | 大混乱。 | ギリシャ語 khaos |
+| **disorder** | 無秩序 | 乱れた状態。 | dis- + order |
+
+<a id="elite"></a>
+### elite（エリート）
+
+**名詞・形容詞** / Lv.9 教養 / CEFR C1 — えり抜きの人々、エリート
+
+- 📍 シーン: エリート社員、エリート校。
+- 💬 例文: *He went to an elite university.* — 彼はエリート大学に通っていた。
+- 📜 語源: フランス語 élite「選ばれた者」← élire「選ぶ」← ラテン語 ēligere
+  - elect（選ぶ）と同じ語。英語では集団を指すことが多い（the elite）。
+- 💎 語根: `leg / lect / lig`（読む・集める・選ぶ）
+- 🌳 同じ語源の仲間: elect（選ぶ）、eligible（資格のある）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **upper class** | 上流階級 | 社会の上層。 | upper + class |
+| **best** | 最良のもの | 選りすぐり。 | 古英語 betst |
+
+<a id="intellectual"></a>
+### intellectual（インテリ）
+
+**名詞・形容詞** / Lv.9 教養 / CEFR C1 — 知識人、知的な
+
+- 📍 シーン: 「インテリ」、知的な会話。
+- 💬 例文: *She enjoys intellectual discussions.* — 彼女は知的な議論を楽しむ。
+- 📜 語源: ラテン語 intellēctuālis ← intellegere「理解する」← inter-「間を」+ legere「選ぶ」
+  - 「ものの間を見分けて選ぶ力」。intelligent（頭のよい）も同じ語。「インテリ」はロシア語 intelligentsia（知識階級）の略とされる。
+- 💎 語根: `leg / lect / lig`（読む・集める・選ぶ）
+- 🌳 同じ語源の仲間: intelligence（知性）、intelligent（知的な）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **scholar** | 学者 | 学問をする人。 | ラテン語 schola |
+| **thinker** | 思想家 | 深く考える人。 | think + -er |
+
+<a id="sympathy"></a>
+### sympathy（シンパシー）
+
+**名詞** / Lv.9 教養 / CEFR B2 — 同情、共感
+
+- 📍 シーン: 「シンパシーを感じる」、お悔やみ。
+- 💬 例文: *You have my deepest sympathy.* — 心からお悔やみ申し上げます。
+- 📜 語源: ギリシャ語 sympatheia「共に苦しむこと」← syn-「共に」+ pathos「感情、苦しみ」
+  - 相手と「同じ感情を持つ」。empathy（共感＝相手の中に入って感じる）とは少し違う。pathetic（哀れな）も pathos の家族。
+- 🌳 同じ語源の仲間: sympathize（同情する）、empathy（共感）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **empathy** | 共感 | 相手の立場で感じること。 | ギリシャ語 empatheia |
+| **compassion** | 思いやり | 苦しむ人を助けたい気持ち。 | ラテン語 compatī |
+
+<a id="cosmopolitan"></a>
+### cosmopolitan（コスモポリタン）
+
+**形容詞・名詞** / Lv.9 教養 / CEFR C2 — 国際的な、世界主義者
+
+- 📍 シーン: コスモポリタンな都市、世界市民。
+- 💬 例文: *New York is a cosmopolitan city.* — ニューヨークは国際色豊かな都市だ。
+- 📜 語源: ギリシャ語 kosmopolitēs「世界市民」← kosmos「世界」+ politēs「市民」
+  - 哲学者ディオゲネスが「どこの出身か」と聞かれて「世界市民だ」と答えた話が有名。cosmos、politics と同じ語根。
+- 🌳 同じ語源の仲間: cosmos（宇宙）、politics（政治）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **international** | 国際的な | 国をまたぐ。 | inter- + national |
+| **multicultural** | 多文化の | いろいろな文化が混じる。 | multi- + cultural |
+
+<a id="folklore"></a>
+### folklore（フォークロア）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 民間伝承、民俗
+
+- 📍 シーン: 民話、フォークロア調のデザイン。
+- 💬 例文: *The story comes from Japanese folklore.* — その話は日本の民間伝承から来ている。
+- 📜 語源: folk「民衆」+ lore「知識、言い伝え」（1846年に作られた語）
+  - 学者トムズが古い英語の語を組み合わせて作った。lore は learn（学ぶ）と同じ語根。
+- 🌳 同じ語源の仲間: folk（人々）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **legend** | 伝説 | 語り継がれる話。 | ラテン語 legenda |
+| **myth** | 神話 | 神々の物語。 | ギリシャ語 mythos |
+
+<a id="saga"></a>
+### saga（サーガ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 長い物語、大河小説、北欧の英雄伝説
+
+- 📍 シーン: スター・ウォーズ・サーガ、一族の物語。
+- 💬 例文: *The movie is part of a long space saga.* — その映画は長い宇宙叙事詩の一部だ。
+- 📜 語源: 古ノルド語 saga「語られたもの」
+  - アイスランドの中世の英雄物語。英語の say（言う）と同じ語根。今は長く続く物語全般に使う。
+- 🌳 同じ語源の仲間: say（言う）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **epic** | 叙事詩 | 英雄の長い物語。 | ギリシャ語 epos「言葉」 |
+| **chronicle** | 年代記 | 出来事を順に記した記録。 | ギリシャ語 khronika |
+
+<a id="chronicle"></a>
+### chronicle（クロニクル）
+
+**名詞・動詞** / Lv.9 教養 / CEFR C2 — 年代記、記録する
+
+- 📍 シーン: 〇〇クロニクル、歴史の記録。
+- 💬 例文: *The book chronicles the history of the city.* — その本は市の歴史を年代順に記している。
+- 📜 語源: ギリシャ語 khronika「時の出来事の記録」← khronos「時」
+  - 出来事を「時の順に」記したもの。chronic（慢性の）、synchronize と同じ khronos の家族。
+- 🌳 同じ語源の仲間: chronic（慢性の）、chronological（年代順の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **history** | 歴史 | 過去の出来事。 | ギリシャ語 historia |
+| **record** | 記録 | 書き残したもの。 | ラテン語 recordārī |
+
+<a id="archive"></a>
+### archive（アーカイブ）
+
+**名詞・動詞** / Lv.9 教養 / CEFR C1 — 記録保管所、保存記録、保存する
+
+- 📍 シーン: 配信のアーカイブ、過去記事。
+- 💬 例文: *You can watch the archive of the live stream.* — ライブ配信のアーカイブを見られます。
+- 📜 語源: フランス語 archives ← ギリシャ語 arkheion「役所」← arkhē「政府、始まり」
+  - 役所の公文書をしまう場所 → 記録の保管 → ネットの過去データ。
+- 🌳 同じ語源の仲間: archaeology（考古学・arkhē を含む）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **record** | 記録 | 残されたもの。 | ラテン語 recordārī |
+| **library** | 図書館、資料室 | 資料を集めた所。 | ラテン語 librārium |
+
+<a id="anthology"></a>
+### anthology（アンソロジー）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 選集、作品集
+
+- 📍 シーン: 詩のアンソロジー、短編集。
+- 💬 例文: *This anthology has poems by 50 poets.* — この選集には50人の詩人の詩が収められている。
+- 📜 語源: ギリシャ語 anthologia「花を集めること」← anthos「花」+ legein「集める」
+  - 美しい「花」を摘み集めるように、よい作品を集めたもの。
+- 💎 語根: `log / logy`（言葉・理性）
+- 🌳 同じ語源の仲間: anthologist（選集の編者）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **collection** | 作品集 | 集めたもの。 | ラテン語 collēctiō |
+| **compilation** | 編集物 | まとめて編んだもの。 | ラテン語 compīlāre |
+
+<a id="prologue"></a>
+### prologue（プロローグ）
+
+**名詞** / Lv.9 教養 / CEFR C1 — 序章、前置き
+
+- 📍 シーン: 物語のプロローグ、序幕。
+- 💬 例文: *The story begins with a short prologue.* — 物語は短い序章から始まる。
+- 📜 語源: ギリシャ語 prologos ← pro-「前に」+ logos「言葉」
+  - 本編の「前の言葉」。反対は epilogue。catalog、dialogue と同じ logos の家族。
+- 💎 語根: `log / logy`（言葉・理性）
+- 🌳 同じ語源の仲間: epilogue（エピローグ）、dialogue（対話）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **introduction** | 序論 | はじめの説明。 | ラテン語 intrōdūcere |
+| **preface** | 前書き | 本の序文。 | ラテン語 praefātiō |
+
+<a id="epilogue"></a>
+### epilogue（エピローグ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 終章、後日談
+
+- 📍 シーン: 映画のエピローグ、その後の話。
+- 💬 例文: *The epilogue shows the characters ten years later.* — 終章では10年後の登場人物が描かれる。
+- 📜 語源: ギリシャ語 epilogos「結びの言葉」← epi-「後に」+ logos「言葉」
+  - 本編の「あとの言葉」。
+- 💎 語根: `log / logy`（言葉・理性）
+- 🌳 同じ語源の仲間: prologue（序章）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **conclusion** | 結び | 締めくくり。 | ラテン語 conclūsiō |
+| **afterword** | あとがき | 本の後書き。 | after + word |
+
+<a id="finale"></a>
+### finale（フィナーレ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 終曲、最終場面、大詰め
+
+- 📍 シーン: グランドフィナーレ、シーズン最終回。
+- 💬 例文: *The show ended with a spectacular finale.* — ショーは華やかなフィナーレで幕を閉じた。
+- 📜 語源: イタリア語 finale「最後の」← ラテン語 fīnālis ← fīnis「終わり」
+  - final（最後の）、finish（終える）、fine（罰金＝決着）も fīnis の家族。
+- 🌳 同じ語源の仲間: final（最後の）、finish（終える）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **ending** | 結末 | 終わり方。 | end + -ing |
+| **conclusion** | 結び | 締めくくり。 | ラテン語 conclūsiō |
+
+<a id="parody"></a>
+### parody（パロディ）
+
+**名詞** / Lv.9 教養 / CEFR C1 — もじり、パロディ
+
+- 📍 シーン: 名作のパロディ、替え歌。
+- 💬 例文: *The comedy is a parody of spy movies.* — そのコメディはスパイ映画のパロディだ。
+- 📜 語源: ギリシャ語 parōidia「そばで歌う歌」← para-「そばに、反して」+ ōidē「歌」
+  - もとの歌を「まねて変えた歌」。melody、comedy の -ody と同じ ōidē の家族。
+- 🌳 同じ語源の仲間: parodist（パロディ作者）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **satire** | 風刺 | 笑いで批判すること。 | ラテン語 satura |
+| **imitation** | まね | 模倣。 | ラテン語 imitārī |
+
+<a id="homage"></a>
+### homage（オマージュ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 敬意、敬意をこめた作品
+
+- 📍 シーン: 名作へのオマージュ、先人への敬意。
+- 💬 例文: *The film is a homage to classic horror movies.* — その映画は古典ホラー映画へのオマージュだ。
+- 📜 語源: 古フランス語 homage ← homme「人、家臣」← ラテン語 homō
+  - 中世の家臣が主君に「あなたの家臣（homme）です」と誓う儀式。そこから「敬意」に。human と同じ homō の家族。英語の発音は「ホミジ」または「オマージュ」。
+- 🌳 同じ語源の仲間: human（人間）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **tribute** | 賛辞、トリビュート | 敬意を表すもの。 | ラテン語 tribūtum「貢ぎ物」 |
+| **respect** | 尊敬 | 敬う気持ち。 | ラテン語 respectus |
+
+<a id="motif"></a>
+### motif（モチーフ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 主題、模様、モチーフ
+
+- 📍 シーン: 花のモチーフ、作品のモチーフ。
+- 💬 例文: *The dress has a flower motif.* — そのドレスには花柄のモチーフがある。
+- 📜 語源: フランス語 motif「動機、主題」← ラテン語 mōtīvus「動かす」
+  - 作品を「動かす」中心となるもの。motive（動機）と同じ語。movēre の家族。
+- 💎 語根: `mov / mot / mob`（動かす）
+- 🌳 同じ語源の仲間: motive（動機）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **theme** | テーマ | 主題。 | ギリシャ語 thema |
+| **pattern** | 模様 | くり返しの柄。 | patron の変形 |
+
+<a id="chic"></a>
+### chic（シック）
+
+**形容詞** / Lv.9 教養 / CEFR C2 — 洗練された、あか抜けた
+
+- 📍 シーン: シックな装い、大人っぽいファッション。
+- 💬 例文: *She always looks chic.* — 彼女はいつもあか抜けて見える。
+- 📜 語源: フランス語 chic「上品さ」（ドイツ語 Schick「手際のよさ」とする説）
+  - 発音は「シーク」。日本語の「シック（落ち着いた色）」とは少しずれ、英語では「おしゃれで洗練された」。sick（病気の）と混同しないように。
+- 🌳 同じ語源の仲間: chicly（しゃれて）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **stylish** | おしゃれな | 流行を押さえた。 | style + -ish |
+| **sophisticated** | 洗練された | あか抜けた。 | ギリシャ語 sophistēs |
+
+<a id="cosmos"></a>
+### cosmos（コスモス）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 宇宙、秩序、（花の）コスモス
+
+- 📍 シーン: 宇宙（コスモス）、秋桜。
+- 💬 例文: *Humans have always wondered about the cosmos.* — 人類はいつも宇宙について思いをめぐらせてきた。
+- 📜 語源: ギリシャ語 kosmos「秩序、飾り、宇宙」
+  - 秩序ある美しい世界 → 宇宙。cosmetics（化粧品＝飾り）も同じ語。花のコスモスは花びらが整って並ぶことから。
+- 🌳 同じ語源の仲間: cosmetics（化粧品）、cosmic（宇宙の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **universe** | 宇宙 | すべてを含む世界。 | ラテン語 ūniversum |
+| **order** | 秩序 | 整った状態。 | ラテン語 ōrdō |
+
+<a id="parameter"></a>
+### parameter（パラメーター）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 媒介変数、条件
+
+- 📍 シーン: ゲームのパラメーター、設定値。
+- 💬 例文: *We need to set the parameters for the experiment.* — 実験の条件を設定する必要がある。
+- 📜 語源: ギリシャ語 para-「そばに」+ metron「尺度」
+  - 数学で「補助の尺度（媒介変数）」。今は「決められた範囲・条件」の意味で広く使う。
+- 🌳 同じ語源の仲間: meter（メートル）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **limit** | 限度 | 範囲の限界。 | ラテン語 līmes |
+| **variable** | 変数 | 変わる値。 | ラテン語 variāre |
+
+<a id="matrix"></a>
+### matrix（マトリックス）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 行列、基盤、母体
+
+- 📍 シーン: 数学の行列、マトリックス表、映画『マトリックス』。
+- 💬 例文: *We organized the data in a matrix.* — データを表（マトリックス）にまとめた。
+- 📜 語源: ラテン語 mātrix「子宮、母体」← māter「母」
+  - 「生み出すもの」→ 何かが生まれ育つ土台 → 数学の行列。mother、material と同じ māter の家族。
+- 🌳 同じ語源の仲間: material（材料）、maternal（母の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **grid** | 格子 | 縦横の線。 | gridiron の略 |
+| **framework** | 枠組み | 骨組み。 | frame + work |
+
+<a id="vector"></a>
+### vector（ベクトル）
+
+**名詞** / Lv.9 教養 / CEFR C2 — ベクトル、方向性、（病気の）媒介生物
+
+- 📍 シーン: 数学のベクトル、「ベクトルが違う」。
+- 💬 例文: *Mosquitoes are vectors of disease.* — 蚊は病気を運ぶ媒介生物だ。
+- 📜 語源: ラテン語 vector「運ぶ人」← vehere「運ぶ」
+  - 「運ぶもの」→ 向きと大きさをもつ量。vehicle（乗り物）と同じ vehere の家族。「ベクトル」はドイツ語 Vektor の読み。
+- 🌳 同じ語源の仲間: vehicle（乗り物）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **direction** | 方向 | 向き。 | ラテン語 dīrēctiō |
+| **carrier** | 運び手 | 病気を運ぶもの。 | carry + -er |
+
+<a id="symmetry"></a>
+### symmetry（シンメトリー）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 左右対称、つり合い
+
+- 📍 シーン: シンメトリーなデザイン、対称。
+- 💬 例文: *Butterflies have perfect symmetry.* — チョウは完璧な左右対称をしている。
+- 📜 語源: ギリシャ語 symmetria「つり合い」← syn-「共に」+ metron「尺度」
+  - 「同じ尺度をもつ」→ つり合いがとれた。反対は asymmetry（非対称）。
+- 🌳 同じ語源の仲間: symmetrical（対称的な）、meter（メートル）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **balance** | つり合い | バランス。 | 後期ラテン語 bilanx |
+| **harmony** | 調和 | 全体がそろうこと。 | ギリシャ語 harmonia |
+
+<a id="gradation"></a>
+### gradation（グラデーション）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 段階的な変化、濃淡
+
+- 📍 シーン: 色のグラデーション、夕焼けのグラデーション。
+- 💬 例文: *The sky showed a beautiful gradation of colors.* — 空は美しい色のグラデーションを見せていた。
+- 📜 語源: ラテン語 gradātiō「段をつけること」← gradus「段」
+  - 色が「一段ずつ」変わっていくこと。grade、gradual と同じ gradus の家族。
+- 🌳 同じ語源の仲間: gradual（徐々の）、grade（段階）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **shading** | 陰影 | 明暗をつけること。 | shade + -ing |
+| **transition** | 移り変わり | 移行。 | ラテン語 trānsitiō |
+
+<a id="perspective"></a>
+### perspective（パースペクティブ）
+
+**名詞** / Lv.9 教養 / CEFR C1 — 視点、遠近法、見通し
+
+- 📍 シーン: 絵のパース（遠近法）、長期的な視点。
+- 💬 例文: *Try to see it from a different perspective.* — 別の視点から見てみて。
+- 📜 語源: 中世ラテン語 perspectīva「光学」← perspicere「見通す」← per-「通して」+ specere「見る」
+  - 「見通すこと」→ 遠近法、ものの見方。inspect、respect と同じ specere の家族。
+- 💎 語根: `spec / spic`（見る）
+- 🌳 同じ語源の仲間: inspect（検査する）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **viewpoint** | 観点 | 見方。 | view + point |
+| **outlook** | 見通し | 将来の見込み。 | out + look |
+
+<a id="mentality"></a>
+### mentality（メンタリティ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 考え方、精神構造
+
+- 📍 シーン: 日本人のメンタリティ、勝者のメンタリティ。
+- 💬 例文: *He has a winning mentality.* — 彼は勝者の考え方をしている。
+- 📜 語源: mental「心の」+ -ity ← ラテン語 mēns「心」
+  - 集団や個人に共通する「ものの考え方のくせ」。mental、mention と同じ mēns の家族。
+- 💎 語根: `ment / mind`（心）
+- 🌳 同じ語源の仲間: mental（心の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **mindset** | 考え方 | ものの見方。 | mind + set |
+| **attitude** | 態度 | 姿勢。 | イタリア語 attitudine |
+
+<a id="maestro"></a>
+### maestro（マエストロ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 巨匠、名指揮者
+
+- 📍 シーン: マエストロ（指揮者）、料理の巨匠。
+- 💬 例文: *The maestro conducted the orchestra brilliantly.* — 巨匠はオーケストラを見事に指揮した。
+- 📜 語源: イタリア語 maestro「先生、名人」← ラテン語 magister
+  - master（名人）と同じ語。特に偉大な指揮者や音楽家を呼ぶ。
+- 🌳 同じ語源の仲間: master（名人）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **master** | 名人 | 極めた人。 | ラテン語 magister |
+| **conductor** | 指揮者 | 楽団を指揮する人。 | ラテン語 condūcere |
+
+<a id="optimism"></a>
+### optimism（オプティミズム）
+
+**名詞** / Lv.9 教養 / CEFR C1 — 楽観主義
+
+- 📍 シーン: オプティミスト、楽天家。
+- 💬 例文: *She faced the future with optimism.* — 彼女は楽観的に未来に向き合った。
+- 📜 語源: フランス語 optimisme ← ラテン語 optimum「最良のもの」
+  - 哲学者ライプニッツの「この世は最善の世界だ」という考えから。option（選ぶ）とは別語源。
+- 🌳 同じ語源の仲間: optimist（楽観主義者）、optimal（最適な）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **hope** | 希望 | 望み。 | 古英語 hopa |
+| **positivity** | 前向きさ | ポジティブさ。 | positive + -ity |
+
+<a id="pessimism"></a>
+### pessimism（ペシミズム）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 悲観主義
+
+- 📍 シーン: ペシミスト、悲観論。
+- 💬 例文: *There is a lot of pessimism about the economy.* — 経済については悲観的な見方が多い。
+- 📜 語源: ラテン語 pessimus「最悪の」+ -ism
+  - optimism の反対として18世紀に作られた語。
+- 🌳 同じ語源の仲間: pessimist（悲観主義者）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **despair** | 絶望 | 望みを失うこと。 | ラテン語 dēspērāre |
+| **negativity** | 後ろ向きさ | ネガティブさ。 | negative + -ity |
+
+<a id="cynical"></a>
+### cynical（シニカル）
+
+**形容詞** / Lv.9 教養 / CEFR C2 — 冷笑的な、皮肉な
+
+- 📍 シーン: シニカルな笑い、皮肉屋。
+- 💬 例文: *He's cynical about politicians.* — 彼は政治家を冷めた目で見ている。
+- 📜 語源: ギリシャ語 kynikos「犬のような」← kyōn「犬」
+  - 古代ギリシャのキュニコス派（犬儒派）の哲学者が、犬のように世間のしきたりを無視して暮らしたことから。
+- 🌳 同じ語源の仲間: cynic（皮肉屋）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **skeptical** | 疑い深い | 信じない。 | ギリシャ語 skeptikos |
+| **sarcastic** | いやみな | 人を傷つける皮肉を言う。 | ギリシャ語 sarkazein |
+
+<a id="hysterical"></a>
+### hysterical（ヒステリック）
+
+**形容詞** / Lv.9 教養 / CEFR C2 — 取り乱した、大笑いの
+
+- 📍 シーン: 「ヒステリックに叫ぶ」。
+- 💬 例文: *The movie was hysterical!* — あの映画、めちゃくちゃおかしかった！
+- 📜 語源: ギリシャ語 hysterikos「子宮の」← hystera「子宮」
+  - 古代医学で、女性の感情の乱れは子宮が原因だと誤って考えられたことから。今は偏見を含む語源として知られる。口語では「死ぬほどおかしい」の意味もある。
+- 🌳 同じ語源の仲間: hysteria（ヒステリー）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **frantic** | 半狂乱の | 取り乱した。 | ギリシャ語 phrenitis |
+| **hilarious** | 大笑いの | とてもおかしい。 | ギリシャ語 hilaros「陽気な」 |
+
+<a id="humanism"></a>
+### humanism（ヒューマニズム）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 人間主義、人文主義
+
+- 📍 シーン: ルネサンスのヒューマニズム、人道主義。
+- 💬 例文: *Renaissance humanism focused on human abilities.* — ルネサンスの人文主義は人間の能力に目を向けた。
+- 📜 語源: human「人間の」+ -ism ← ラテン語 hūmānus
+  - ルネサンス期に古典を学び人間の尊さを重んじた運動。human、humble（謙虚な＝地面に近い）も同じ語根とされる。
+- 🌳 同じ語源の仲間: human（人間）、humanity（人間性）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **humanitarianism** | 人道主義 | 人を助ける考え。 | humanitarian + -ism |
+| **philanthropy** | 博愛 | 人類愛。 | ギリシャ語 philanthrōpia |
+
+<a id="sanctuary"></a>
+### sanctuary（サンクチュアリ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 聖域、保護区、避難所
+
+- 📍 シーン: 野鳥のサンクチュアリ、心の聖域。
+- 💬 例文: *The island is a bird sanctuary.* — その島は野鳥の保護区だ。
+- 📜 語源: ラテン語 sānctuārium「聖なる場所」← sānctus「神聖な」
+  - 教会の聖域に逃げこんだ人は捕まえられなかったことから「避難所」に。saint（聖人）も sānctus から。
+- 🌳 同じ語源の仲間: saint（聖人）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **refuge** | 避難所 | 逃げこむ場所。 | ラテン語 refugium |
+| **reserve** | 保護区 | 自然の保護地域。 | ラテン語 reservāre |
+
+<a id="labyrinth"></a>
+### labyrinth（ラビリンス）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 迷宮、迷路
+
+- 📍 シーン: ラビリンス（迷宮）、迷路。
+- 💬 例文: *The old town is a labyrinth of narrow streets.* — 旧市街は細い道が迷路のように入り組んでいる。
+- 📜 語源: ギリシャ語 labyrinthos（ギリシャ語以前の言語から）
+  - ギリシャ神話でミノタウロスを閉じこめた迷宮。クレタ島の宮殿の名前とされ、「両刃の斧（labrys）の館」という説もある。
+- 🌳 同じ語源の仲間: labyrinthine（迷路のような）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **maze** | 迷路 | 抜け出しにくい道。 | 中英語 masen「惑わせる」 |
+| **puzzle** | なぞ | 難問。 | 16世紀の語 |
+
+<a id="mirage"></a>
+### mirage（ミラージュ）
+
+**名詞** / Lv.9 教養 / CEFR C2 — 蜃気楼、幻
+
+- 📍 シーン: 砂漠の蜃気楼、幻想。
+- 💬 例文: *The lake in the desert was just a mirage.* — 砂漠の湖はただの蜃気楼だった。
+- 📜 語源: フランス語 mirage ← mirer「見る、映す」← ラテン語 mīrārī「驚いて見る」
+  - mirror、miracle と同じ mīrārī の家族。
+- 💎 語根: `mir / marv`（驚く・見つめる）
+- 🌳 同じ語源の仲間: mirror（鏡）、miracle（奇跡）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **illusion** | 錯覚、幻 | 実際とちがって見えるもの。 | ラテン語 illūsiō |
+| **hallucination** | 幻覚 | ないものが見えること。 | ラテン語 hallūcinārī |
+
+<a id="phantom"></a>
+### phantom（ファントム）
+
+**名詞・形容詞** / Lv.9 教養 / CEFR C2 — 幽霊、幻（の）
+
+- 📍 シーン: 『オペラ座の怪人（The Phantom of the Opera）』。
+- 💬 例文: *People say a phantom haunts the castle.* — その城には幽霊が出ると言われている。
+- 📜 語源: 古フランス語 fantosme ← ギリシャ語 phantasma「幻、姿」← phainein「見せる」
+  - fantasy、phase と同じ phainein の家族。phantom pain は「幻肢痛」。
+- 🌳 同じ語源の仲間: fantasy（空想）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **ghost** | 幽霊 | 死者の霊。 | 古英語 gāst |
+| **specter** | 亡霊 | 不気味な幽霊。 | ラテン語 spectrum |
+
+<a id="illusion"></a>
+### illusion（イリュージョン）
+
+**名詞** / Lv.9 教養 / CEFR C1 — 錯覚、幻想、奇術
+
+- 📍 シーン: 目の錯覚、イリュージョンマジック。
+- 💬 例文: *The picture creates an optical illusion.* — その絵は目の錯覚を起こす。
+- 📜 語源: ラテン語 illūsiō「あざけり、だまし」← illūdere「からかう」← in- + lūdere「遊ぶ」
+  - 「目をからかうもの」。ludicrous（ばかげた）も lūdere の家族。
+- 🌳 同じ語源の仲間: illusionist（奇術師）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **delusion** | 妄想 | 間違った思いこみ。 | ラテン語 dēlūdere |
+| **trick** | 手品、たくらみ | だますこと。 | 古北フランス語 trique |
+
 ## Lv.10 マスター
 
 <a id="governance"></a>
@@ -20369,11 +21589,11 @@
 | `dom / domin` | 主人・家 | ラテン語 dominus | [dungeon](#dungeon) | dominate, domain, danger, domestic |
 | `mon / monstr` | 警告する・示す | ラテン語 monēre | [summon](#summon), [monster](#monster), [monitor](#monitor), [demonstration](#demonstration) | demonstrate, admonish |
 | `linqu / lic` | 後に残す | ラテン語 linquere | [relic](#relic) | relinquish, delinquent |
-| `leg / lect / lig` | 読む・集める・選ぶ | ラテン語 legere | [legend](#legend), [lesson](#lesson), [collection](#collection), [lecture](#lecture) | legible, collect, elect, intelligent |
+| `leg / lect / lig` | 読む・集める・選ぶ | ラテン語 legere | [legend](#legend), [lesson](#lesson), [collection](#collection), [lecture](#lecture), [elite](#elite), [intellectual](#intellectual), [elegant](#elegant) | legible, collect, elect, intelligent |
 | `ven / vent` | 来る | ラテン語 venīre | [inventory](#inventory), [event](#event), [convenience](#convenience), [venture](#venture) | invent, adventure, convention, prevent |
 | `cri / crit` | 分ける・判断する | ギリシャ語 krīnein | [critical](#critical), [crisis](#crisis) | critic, criterion |
 | `viv / vit` | 生きる | ラテン語 vīvere / vīta | [revive](#revive), [survival](#survival), [vitamin](#vitamin) | survive, vivid, vital |
-| `sta / stat / sist` | 立つ | ラテン語 stāre / ギリシャ語 histanai | [stage](#stage), [system](#system), [station](#station), [cost](#cost), [status](#status) | stable, obstacle, assist |
+| `sta / stat / sist` | 立つ | ラテン語 stāre / ギリシャ語 histanai | [stage](#stage), [system](#system), [station](#station), [cost](#cost), [status](#status), [contrast](#contrast) | stable, obstacle, assist |
 | `mit / miss` | 送る | ラテン語 mittere | [mission](#mission), [message](#message), [commitment](#commitment), [missile](#missile), [commission](#commission) | transmit, dismiss, submit |
 | `volv / volu` | 巻く・転がる | ラテン語 volvere | [evolution](#evolution), [revolution](#revolution) | evolve, revolve, involve, volume |
 | `sign` | 印 | ラテン語 signum | [signal](#signal), [sign](#sign), [design](#design), [seal](#seal), [designer](#designer) | signature, assign |
@@ -20381,9 +21601,9 @@
 | `merg / mers` | 沈む・浸す | ラテン語 mergere | [emergency](#emergency) | emerge, merge, submerge, immerse |
 | `tend / tens / tent` | 張る・伸ばす | ラテン語 tendere | [tension](#tension), [tent](#tent) | tense, extend, attention, intend |
 | `claim / clam` | 叫ぶ | ラテン語 clāmāre | [claim](#claim) | exclaim, proclaim, clamor |
-| `nat / nai` | 生まれる | ラテン語 nāscī / nātus | [naive](#naive), [nature](#nature), [renaissance](#renaissance) | native, nation, innate |
+| `nat / nai` | 生まれる | ラテン語 nāscī / nātus | [naive](#naive), [nature](#nature), [renaissance](#renaissance), [nationalism](#nationalism) | native, nation, innate |
 | `spir` | 息をする | ラテン語 spīrāre | [spirit](#spirit) | inspire, expire, respiration, conspire |
-| `mir / marv` | 驚く・見つめる | ラテン語 mīrārī | [miracle](#miracle), [mirror](#mirror) | marvel, admire, mirage |
+| `mir / marv` | 驚く・見つめる | ラテン語 mīrārī | [miracle](#miracle), [mirror](#mirror), [mirage](#mirage) | marvel, admire |
 | `fac / fic / fact / feit` | 作る・行う | ラテン語 facere | [sacrifice](#sacrifice), [fashion](#fashion), [perfect](#perfect), [benefit](#benefit), [factor](#factor), [feature](#feature), [official](#official), [office](#office), [factory](#factory) | artifact, forfeit, effect, difficult |
 | `coqu / coc / cook` | 料理する・煮る | ラテン語 coquere | [kitchen](#kitchen), [cooking](#cooking) | cook, biscuit, precocious, concoct |
 | `man / main` | とどまる | ラテン語 manēre | [mansion](#mansion) | remain, permanent, manor |
@@ -20392,31 +21612,31 @@
 | `astr / aster / star` | 星 | ギリシャ語 astēr / 古英語 steorra | [star](#star) | astronaut, asterisk, disaster, astronomy |
 | `tele` | 遠く | ギリシャ語 tēle | [television](#television), [phone](#phone), [telework](#telework) | telescope, telegram, telepathy |
 | `vid / vis / id` | 見る | ラテン語 vidēre / ギリシャ語 eidos（同じ印欧語根） | [television](#television), [idol](#idol), [idea](#idea), [advice](#advice), [evidence](#evidence), [interview](#interview), [video](#video), [vision](#vision), [review](#review), [visa](#visa), [survey](#survey) | visit |
-| `phon` | 音・声 | ギリシャ語 phōnē | [phone](#phone), [headphones](#headphones), [smartphone](#smartphone) | microphone, symphony, saxophone, phonics |
-| `min` | 小さい | ラテン語 minuere / minor | [menu](#menu), [minority](#minority), [minimalist](#minimalist) | minute, minor, minimum, mini |
+| `phon` | 音・声 | ギリシャ語 phōnē | [phone](#phone), [headphones](#headphones), [smartphone](#smartphone), [symphony](#symphony) | microphone, saxophone, phonics |
+| `min` | 小さい | ラテン語 minuere / minor | [menu](#menu), [minority](#minority), [minimalist](#minimalist), [minimalism](#minimalism) | minute, minor, minimum, mini |
 | `cap / cep / cip / ceiv` | 取る・受け取る | ラテン語 capere | [recipe](#recipe), [concept](#concept), [capacity](#capacity), [caption](#caption), [receipt](#receipt), [reception](#reception) | receive, accept, capture |
 | `sal / sau` | 塩 | ラテン語 sal | [salad](#salad), [sauce](#sauce), [sausage](#sausage), [salary](#salary) | salt, salsa |
-| `sent / sens` | 感じる | ラテン語 sentīre | [consent](#consent), [consensus](#consensus), [sensor](#sensor) | sense, sentence, sentiment, sensitive |
-| `cycl` | 輪・円 | ギリシャ語 kyklos | [bike](#bike), [recycle](#recycle), [cycling](#cycling) | cycle, encyclopedia, cyclone |
+| `sent / sens` | 感じる | ラテン語 sentīre | [consent](#consent), [consensus](#consensus), [sensor](#sensor), [sentimental](#sentimental) | sense, sentence, sentiment, sensitive |
+| `cycl` | 輪・円 | ギリシャ語 kyklos | [bike](#bike), [recycle](#recycle), [cycling](#cycling), [cycle](#cycle) | encyclopedia, cyclone |
 | `form` | 形 | ラテン語 fōrma | [reform](#reform), [uniform](#uniform), [format](#format), [formal](#formal), [platform](#platform) | form, transform, inform |
 | `part` | 部分・分ける | ラテン語 pars / partīre | [party](#party), [partner](#partner), [apartment](#apartment) | part, particle, department |
 | `anim` | 息・魂 | ラテン語 anima | [animal](#animal) | animation, animate, unanimous |
 | `port` | 運ぶ | ラテン語 portāre | [sport](#sport), [report](#report), [support](#support), [portfolio](#portfolio), [reporter](#reporter), [import](#import), [export](#export) | transport, portable |
 | `col / cult` | 耕す・住む | ラテン語 colere | [culture](#culture) | agriculture, cultivate, colony |
-| `popul / publ` | 民衆 | ラテン語 populus | [popular](#popular), [public](#public) | people, population |
-| `spec / spic` | 見る | ラテン語 specere | [special](#special), [respect](#respect), [specialist](#specialist), [spec](#spec) | species, inspect, spectacle |
-| `ment / mind` | 心 | ラテン語 mēns | [comment](#comment), [mental](#mental), [commentator](#commentator) | mention, mind, dementia |
+| `popul / publ` | 民衆 | ラテン語 populus | [popular](#popular), [public](#public), [populism](#populism) | people, population |
+| `spec / spic` | 見る | ラテン語 specere | [special](#special), [respect](#respect), [specialist](#specialist), [spec](#spec), [perspective](#perspective) | species, inspect, spectacle |
+| `ment / mind` | 心 | ラテン語 mēns | [comment](#comment), [mental](#mental), [commentator](#commentator), [mentality](#mentality) | mention, mind, dementia |
 | `manu / man / main` | 手 | ラテン語 manus | [manual](#manual), [manicure](#manicure), [manner](#manner), [manager](#manager), [management](#management), [maintenance](#maintenance) | manufacture, manage, maintain |
 | `camp / champ` | 野原 | ラテン語 campus | [camp](#camp), [campaign](#campaign), [champion](#champion), [campus](#campus), [champagne](#champagne) |  |
-| `mov / mot / mob` | 動かす | ラテン語 movēre | [motivation](#motivation), [remote](#remote), [emotional](#emotional), [motor](#motor), [promotion](#promotion) | move, motion, emotion, mobile |
+| `mov / mot / mob` | 動かす | ラテン語 movēre | [motivation](#motivation), [remote](#remote), [emotional](#emotional), [motor](#motor), [promotion](#promotion), [motif](#motif) | move, motion, emotion, mobile |
 | `nov` | 新しい | ラテン語 novus | [innovation](#innovation), [novel](#novel), [renovation](#renovation) | novice, renovate, nova |
 | `ten / tain / tin` | 保つ | ラテン語 tenēre | [sustainable](#sustainable), [content](#content), [retention](#retention), [maintenance](#maintenance), [container](#container) | contain, maintain, tenant, continue |
 | `ag / act` | 行う・動かす | ラテン語 agere | [action](#action), [agile](#agile) | act, agent, agenda, active |
 | `graph / gram` | 書く・描く | ギリシャ語 graphein | [photo](#photo), [program](#program), [graph](#graph), [photographer](#photographer), [hologram](#hologram) | autograph, paragraph, telegram, biography |
 | `press / print` | 押す | ラテン語 premere / pressāre | [print](#print), [pressure](#pressure), [printer](#printer), [press](#press), [express](#express) | impress, depress |
 | `ced / cess / ceed` | 行く・譲る | ラテン語 cēdere | [access](#access), [accessory](#accessory), [process](#process) | exceed, succeed, proceed |
-| `log / logy` | 言葉・理性 | ギリシャ語 logos / legein | [catalog](#catalog), [logic](#logic), [ideology](#ideology) | dialogue, biology, apology, prologue |
+| `log / logy` | 言葉・理性 | ギリシャ語 logos / legein | [catalog](#catalog), [logic](#logic), [ideology](#ideology), [anthology](#anthology), [prologue](#prologue), [epilogue](#epilogue) | dialogue, biology, apology |
 | `ject` | 投げる | ラテン語 iacere | [project](#project) | reject, object, inject, subject |
-| `text / tex` | 織る | ラテン語 texere | [context](#context), [tissue](#tissue) | text, textile, texture |
-| `vert / vers` | 向ける・回す | ラテン語 vertere | [diversity](#diversity), [anniversary](#anniversary), [conversion](#conversion), [version](#version) | reverse, convert, advertise |
+| `text / tex` | 織る | ラテン語 texere | [context](#context), [tissue](#tissue), [texture](#texture) | text, textile |
+| `vert / vers` | 向ける・回す | ラテン語 vertere | [diversity](#diversity), [anniversary](#anniversary), [conversion](#conversion), [version](#version), [universe](#universe) | reverse, convert, advertise |
 | `scrib / script` | 書く | ラテン語 scrībere | [subscription](#subscription) | describe, script, manuscript, prescribe |
