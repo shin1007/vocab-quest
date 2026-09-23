@@ -17145,5 +17145,1715 @@
       { "word": "collage", "meaning": "コラージュ", "nuance": "貼り合わせた作品。", "etymology": "フランス語 coller「貼る」" },
       { "word": "patchwork", "meaning": "パッチワーク", "nuance": "布の寄せ集め。", "etymology": "patch + work" }
     ]
+  },
+  {
+    "id": "appointment", "word": "appointment", "katakana": "アポイントメント", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "約束、予約",
+    "scene": "「アポを取る」、歯医者の予約。",
+    "example": { "en": "I have a dentist appointment at three.", "ja": "3時に歯医者の予約がある。" },
+    "etymology": {
+      "origin": "古フランス語 apointement「取り決め」← apointer「決める」← point「点」",
+      "story": "日時の「点」を決めること。appoint（任命する）も同じ語。「アポ」は日本での略。"
+    },
+    "roots": [],
+    "family": ["appoint（任命する）、point（点）"],
+    "synonyms": [
+      { "word": "reservation", "meaning": "予約", "nuance": "席や部屋の予約。", "etymology": "ラテン語 reservāre" },
+      { "word": "meeting", "meaning": "会う約束", "nuance": "打ち合わせ。", "etymology": "meet + -ing" }
+    ]
+  },
+  {
+    "id": "memo", "word": "memo", "katakana": "メモ", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "社内連絡、覚え書き",
+    "scene": "メモ帳、業務連絡のメモ。",
+    "example": { "en": "The manager sent a memo to all staff.", "ja": "部長が全社員に連絡文書を送った。" },
+    "etymology": {
+      "origin": "memorandum「覚えておくべきこと」の略 ← ラテン語 memorāre「思い出させる」",
+      "story": "memory、remember と同じ memor の家族。英語の memo は主に会社の「連絡文書」。ちょっとした書き留めは note。"
+    },
+    "roots": [],
+    "family": ["memory（記憶）、memorandum（覚え書き）"],
+    "synonyms": [
+      { "word": "note", "meaning": "メモ", "nuance": "短い書き留め。", "etymology": "ラテン語 nota" },
+      { "word": "notice", "meaning": "通知", "nuance": "お知らせ。", "etymology": "ラテン語 nōtitia" }
+    ]
+  },
+  {
+    "id": "reminder", "word": "reminder", "katakana": "リマインダー", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "思い出させるもの、催促",
+    "scene": "リマインダーメール、スマホのリマインダー。",
+    "example": { "en": "I set a reminder on my phone.", "ja": "スマホにリマインダーを設定した。" },
+    "etymology": {
+      "origin": "remind「思い出させる」+ -er ← re- + mind「心」",
+      "story": "「もう一度心に入れるもの」。"
+    },
+    "roots": [],
+    "family": ["remind（思い出させる）、mind（心）"],
+    "synonyms": [
+      { "word": "alert", "meaning": "通知、警告", "nuance": "注意を促すもの。", "etymology": "イタリア語 all'erta「見張りに」" },
+      { "word": "notification", "meaning": "通知", "nuance": "お知らせ。", "etymology": "ラテン語 nōtificāre" }
+    ]
+  },
+  {
+    "id": "margin", "word": "margin", "katakana": "マージン", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "余白、差、利ざや",
+    "scene": "利益のマージン、ページの余白。",
+    "example": { "en": "We won by a narrow margin.", "ja": "僅差で勝った。" },
+    "etymology": {
+      "origin": "ラテン語 margō「縁、境」",
+      "story": "「ふち」→ 余白、余裕、利益の幅。marginal（わずかな、周辺の）も同じ語。"
+    },
+    "roots": [],
+    "family": ["marginal（わずかな）"],
+    "synonyms": [
+      { "word": "edge", "meaning": "縁", "nuance": "はし。", "etymology": "古英語 ecg" },
+      { "word": "profit", "meaning": "利益", "nuance": "もうけ。", "etymology": "ラテン語 prōficere" }
+    ]
+  },
+  {
+    "id": "commission", "word": "commission", "katakana": "コミッション", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "手数料、委員会、委託",
+    "scene": "販売手数料、コミッション制。",
+    "example": { "en": "He gets a commission on every car he sells.", "ja": "彼は車を1台売るごとに歩合をもらう。" },
+    "etymology": {
+      "origin": "ラテン語 commissiō「ゆだねること」← committere「ゆだねる」",
+      "story": "「仕事をゆだねること」→ 委託、その報酬。commit、mission と同じ mittere の家族。"
+    },
+    "roots": ["mit"],
+    "family": ["commit（ゆだねる）、committee（委員会）"],
+    "synonyms": [
+      { "word": "fee", "meaning": "料金", "nuance": "手数料。", "etymology": "アングロ・フランス語 fe" },
+      { "word": "committee", "meaning": "委員会", "nuance": "任された人の集まり。", "etymology": "commit + -ee" }
+    ]
+  },
+  {
+    "id": "royalty", "word": "royalty", "katakana": "ロイヤリティ", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "使用料、印税、王族",
+    "scene": "ロイヤリティ収入、印税。",
+    "example": { "en": "The author receives royalties from her books.", "ja": "その作家は本の印税を受け取っている。" },
+    "etymology": {
+      "origin": "古フランス語 roialte「王の身分」← roial「王の」← ラテン語 rēgālis",
+      "story": "もとは「王の権利」。王が与えた特権の使用料 → 著作権などの使用料。「忠誠（loyalty）」とは別の語。"
+    },
+    "roots": [],
+    "family": ["royal（王の）"],
+    "synonyms": [
+      { "word": "fee", "meaning": "料金", "nuance": "支払う代金。", "etymology": "アングロ・フランス語 fe" },
+      { "word": "loyalty", "meaning": "忠誠", "nuance": "つづりが似た別の語。", "etymology": "ラテン語 lēgālis" }
+    ]
+  },
+  {
+    "id": "negotiation", "word": "negotiation", "katakana": "ネゴシエーション", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "交渉",
+    "scene": "「ネゴる」、価格交渉。",
+    "example": { "en": "After long negotiations, they signed the contract.", "ja": "長い交渉の末、彼らは契約を結んだ。" },
+    "etymology": {
+      "origin": "ラテン語 negōtiātiō「商売」← negōtium「仕事」← neg-「〜でない」+ ōtium「ひま」",
+      "story": "「ひまではないこと」＝仕事。仕事の取り引き → 交渉。"
+    },
+    "roots": [],
+    "family": ["negotiate（交渉する）"],
+    "synonyms": [
+      { "word": "discussion", "meaning": "話し合い", "nuance": "意見の交換。", "etymology": "ラテン語 discutere" },
+      { "word": "bargaining", "meaning": "駆け引き", "nuance": "値段の交渉。", "etymology": "bargain + -ing" }
+    ]
+  },
+  {
+    "id": "deal", "word": "deal", "katakana": "ディール", "pos": "名詞・動詞", "cefr": "B1", "level": 7,
+    "meaning": "取引、扱う、配る",
+    "scene": "ビッグディール、トランプを配る。",
+    "example": { "en": "It's a deal!", "ja": "それで決まり！" },
+    "etymology": {
+      "origin": "古英語 dǣl「分け前」",
+      "story": "「分ける」→ 配る → 分け合う取引。a great deal of は「たくさんの」。deal with は「扱う、対処する」。"
+    },
+    "roots": [],
+    "family": ["dealer（販売業者）"],
+    "synonyms": [
+      { "word": "agreement", "meaning": "合意", "nuance": "取り決め。", "etymology": "古フランス語 agreer" },
+      { "word": "bargain", "meaning": "お買い得", "nuance": "安い買い物。", "etymology": "古フランス語 bargaigne" }
+    ]
+  },
+  {
+    "id": "client", "word": "client", "katakana": "クライアント", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "依頼人、顧客",
+    "scene": "クライアント企業、顧客対応。",
+    "example": { "en": "The lawyer met with her client.", "ja": "弁護士は依頼人と会った。" },
+    "etymology": {
+      "origin": "ラテン語 cliēns「保護を受ける人」",
+      "story": "古代ローマで有力者の保護を受けた人。そこから専門家のサービスを受ける「依頼人」に。"
+    },
+    "roots": [],
+    "family": ["clientele（顧客層）"],
+    "synonyms": [
+      { "word": "customer", "meaning": "客", "nuance": "店の客。", "etymology": "custom + -er" },
+      { "word": "patron", "meaning": "ひいき客", "nuance": "常連。", "etymology": "ラテン語 patrōnus" }
+    ]
+  },
+  {
+    "id": "user", "word": "user", "katakana": "ユーザー", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "使用者、利用者",
+    "scene": "ユーザー名、ユーザー登録。",
+    "example": { "en": "The app has over a million users.", "ja": "そのアプリには100万人以上の利用者がいる。" },
+    "etymology": {
+      "origin": "use「使う」+ -er ← ラテン語 ūsus",
+      "story": "useful、usual（ふだんの＝使い慣れた）も ūsus の家族。"
+    },
+    "roots": [],
+    "family": ["use（使う）、usual（ふつうの）"],
+    "synonyms": [
+      { "word": "consumer", "meaning": "消費者", "nuance": "物を買う人。", "etymology": "ラテン語 cōnsūmere" },
+      { "word": "member", "meaning": "会員", "nuance": "登録した人。", "etymology": "ラテン語 membrum" }
+    ]
+  },
+  {
+    "id": "vendor", "word": "vendor", "katakana": "ベンダー", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "売り手、納入業者",
+    "scene": "ITベンダー、露天商。",
+    "example": { "en": "The street vendor sold hot dogs.", "ja": "露店の売り手がホットドッグを売っていた。" },
+    "etymology": {
+      "origin": "フランス語 vendeur ← ラテン語 vēndere「売る」",
+      "story": "vending machine は「自動販売機」。"
+    },
+    "roots": [],
+    "family": ["vending machine（自動販売機）"],
+    "synonyms": [
+      { "word": "seller", "meaning": "売り手", "nuance": "売る人。", "etymology": "sell + -er" },
+      { "word": "supplier", "meaning": "供給業者", "nuance": "物を納める会社。", "etymology": "supply + -er" }
+    ]
+  },
+  {
+    "id": "supplier", "word": "supplier", "katakana": "サプライヤー", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "供給業者、仕入れ先",
+    "scene": "部品サプライヤー、取引先。",
+    "example": { "en": "The company changed its supplier.", "ja": "その会社は仕入れ先を変えた。" },
+    "etymology": {
+      "origin": "supply「供給する」+ -er ← ラテン語 supplēre「満たす」",
+      "story": "「足りないものを満たす人」。supplement（サプリ）と同じ家族。"
+    },
+    "roots": [],
+    "family": ["supply（供給）、supplement（補足）"],
+    "synonyms": [
+      { "word": "provider", "meaning": "提供者", "nuance": "サービスを提供する会社。", "etymology": "provide + -er" },
+      { "word": "vendor", "meaning": "納入業者", "nuance": "売り手。", "etymology": "ラテン語 vēndere" }
+    ]
+  },
+  {
+    "id": "maker", "word": "maker", "katakana": "メーカー", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "作る人、製造業者",
+    "scene": "自動車メーカー、家電メーカー。",
+    "example": { "en": "My dad bought a new coffee maker.", "ja": "父は新しいコーヒーメーカーを買った。" },
+    "etymology": {
+      "origin": "make「作る」+ -er",
+      "story": "古い英語では「創造主（神）」も Maker と呼んだ。carmaker（自動車メーカー）のように語の後ろにつけて使うことが多く、単独では manufacturer も使う。"
+    },
+    "roots": [],
+    "family": ["make（作る）"],
+    "synonyms": [
+      { "word": "manufacturer", "meaning": "製造業者", "nuance": "改まった「メーカー」。", "etymology": "ラテン語 manū factūra" },
+      { "word": "producer", "meaning": "生産者", "nuance": "作り出す人・会社。", "etymology": "produce + -er" }
+    ]
+  },
+  {
+    "id": "product", "word": "product", "katakana": "プロダクト", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "製品、産物、結果",
+    "scene": "新商品（new product）、プロダクトデザイン。",
+    "example": { "en": "This product is made in Japan.", "ja": "この製品は日本製だ。" },
+    "etymology": {
+      "origin": "ラテン語 prōductum「生み出されたもの」← prōdūcere",
+      "story": "produce、producer と同じ家族。数学の「積」も product。"
+    },
+    "roots": [],
+    "family": ["produce（生産する）、production（生産）"],
+    "synonyms": [
+      { "word": "goods", "meaning": "商品", "nuance": "品物。", "etymology": "good の複数形" },
+      { "word": "item", "meaning": "品目", "nuance": "一つひとつの品。", "etymology": "ラテン語 item" }
+    ]
+  },
+  {
+    "id": "control", "word": "control", "katakana": "コントロール", "pos": "名詞・動詞", "cefr": "B1", "level": 7,
+    "meaning": "管理、制御、支配する",
+    "scene": "リモコン、コントロールが悪い（野球）。",
+    "example": { "en": "Keep your dog under control.", "ja": "犬をちゃんと管理しておいて。" },
+    "etymology": {
+      "origin": "中世ラテン語 contrārotulus「控えの帳簿」← contrā「反対の」+ rotulus「巻物」",
+      "story": "帳簿を「照らし合わせる控え」→ 点検 → 管理、制御。roll（巻く）と同じ家族。"
+    },
+    "roots": [],
+    "family": ["controller（管理者、コントローラー）"],
+    "synonyms": [
+      { "word": "manage", "meaning": "管理する", "nuance": "うまく扱う。", "etymology": "イタリア語 maneggiare" },
+      { "word": "regulate", "meaning": "規制する", "nuance": "決まりで調整する。", "etymology": "ラテン語 rēgula" }
+    ]
+  },
+  {
+    "id": "management", "word": "management", "katakana": "マネジメント", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "経営、管理、経営陣",
+    "scene": "マネジメント能力、時間管理。",
+    "example": { "en": "Time management is important.", "ja": "時間の管理は大切だ。" },
+    "etymology": {
+      "origin": "manage「扱う」+ -ment",
+      "story": "manager、manual と同じ manus「手」の家族。"
+    },
+    "roots": ["manu"],
+    "family": ["manage（管理する）、manager（管理者）"],
+    "synonyms": [
+      { "word": "administration", "meaning": "運営", "nuance": "行政、管理。", "etymology": "ラテン語 administrāre" },
+      { "word": "leadership", "meaning": "指導力", "nuance": "導く力。", "etymology": "leader + -ship" }
+    ]
+  },
+  {
+    "id": "leadership", "word": "leadership", "katakana": "リーダーシップ", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "指導力、指導者の地位",
+    "scene": "リーダーシップを発揮する。",
+    "example": { "en": "She showed great leadership during the crisis.", "ja": "危機の間、彼女はすばらしい指導力を見せた。" },
+    "etymology": {
+      "origin": "leader「指導者」+ -ship「状態、能力」",
+      "story": "-ship は friendship、membership のように「〜であること」を表す。"
+    },
+    "roots": [],
+    "family": ["leader（リーダー）"],
+    "synonyms": [
+      { "word": "guidance", "meaning": "指導", "nuance": "導くこと。", "etymology": "guide + -ance" },
+      { "word": "authority", "meaning": "権威", "nuance": "人を従わせる力。", "etymology": "ラテン語 auctōritās" }
+    ]
+  },
+  {
+    "id": "teamwork", "word": "teamwork", "katakana": "チームワーク", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "協力、チームワーク",
+    "scene": "チームワークが大事、連携プレー。",
+    "example": { "en": "We won because of good teamwork.", "ja": "よいチームワークのおかげで勝った。" },
+    "etymology": {
+      "origin": "team「チーム」+ work「働き」",
+      "story": "There's no \"I\" in team.（チームに「私」はない）はチームワークを表す決まり文句。"
+    },
+    "roots": [],
+    "family": ["team（チーム）"],
+    "synonyms": [
+      { "word": "cooperation", "meaning": "協力", "nuance": "力を合わせること。", "etymology": "ラテン語 cooperārī" },
+      { "word": "collaboration", "meaning": "共同作業", "nuance": "一緒に作ること。", "etymology": "ラテン語 collabōrāre" }
+    ]
+  },
+  {
+    "id": "format", "word": "format", "katakana": "フォーマット", "pos": "名詞・動詞", "cefr": "B2", "level": 7,
+    "meaning": "形式、書式、初期化する",
+    "scene": "ファイル形式、書式設定。",
+    "example": { "en": "Please send the file in PDF format.", "ja": "ファイルはPDF形式で送ってください。" },
+    "etymology": {
+      "origin": "フランス語 format ← ラテン語 fōrmātus「形作られた」← fōrma「形」",
+      "story": "本の大きさや型から、データの形式に。ディスクの「初期化」も format。"
+    },
+    "roots": ["form"],
+    "family": ["form（形）"],
+    "synonyms": [
+      { "word": "style", "meaning": "様式", "nuance": "書き方。", "etymology": "ラテン語 stilus" },
+      { "word": "layout", "meaning": "配置", "nuance": "ページの組み方。", "etymology": "lay + out" }
+    ]
+  },
+  {
+    "id": "template", "word": "template", "katakana": "テンプレート", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "ひな型、テンプレート",
+    "scene": "メールのテンプレ、資料のテンプレート。",
+    "example": { "en": "Use this template for your report.", "ja": "報告書にはこのひな型を使って。" },
+    "etymology": {
+      "origin": "templet「型板」← フランス語 templet（temple「こめかみ」とは別語）",
+      "story": "大工や石工が使う「型板」。つづりが template に変わったのは plate（板）の影響とされる。"
+    },
+    "roots": [],
+    "family": ["templet（型板）"],
+    "synonyms": [
+      { "word": "pattern", "meaning": "型紙", "nuance": "形の見本。", "etymology": "patron の変形" },
+      { "word": "model", "meaning": "手本", "nuance": "見本となる型。", "etymology": "イタリア語 modello" }
+    ]
+  },
+  {
+    "id": "layout", "word": "layout", "katakana": "レイアウト", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "配置、レイアウト",
+    "scene": "部屋のレイアウト、誌面のレイアウト。",
+    "example": { "en": "I like the layout of this apartment.", "ja": "このアパートの間取りが気に入った。" },
+    "etymology": {
+      "origin": "lay「置く」+ out「外に広げて」",
+      "story": "「広げて並べること」→ 配置、間取り。"
+    },
+    "roots": [],
+    "family": ["lay（置く）"],
+    "synonyms": [
+      { "word": "design", "meaning": "設計", "nuance": "デザイン。", "etymology": "ラテン語 dēsignāre" },
+      { "word": "arrangement", "meaning": "配置", "nuance": "並べ方。", "etymology": "arrange + -ment" }
+    ]
+  },
+  {
+    "id": "font", "word": "font", "katakana": "フォント", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "書体、フォント",
+    "scene": "フォントサイズ、明朝体フォント。",
+    "example": { "en": "Change the font to make it easier to read.", "ja": "読みやすいようにフォントを変えて。" },
+    "etymology": {
+      "origin": "フランス語 fonte「鋳造」← fondre「溶かす」",
+      "story": "活字を金属を「溶かして」鋳造したことから、ひとそろいの活字 → 書体。教会の「洗礼盤」の font は別語源。"
+    },
+    "roots": [],
+    "family": ["foundry（鋳造所）"],
+    "synonyms": [
+      { "word": "typeface", "meaning": "書体", "nuance": "文字のデザイン。", "etymology": "type + face" },
+      { "word": "lettering", "meaning": "文字のデザイン", "nuance": "書き文字。", "etymology": "letter + -ing" }
+    ]
+  },
+  {
+    "id": "draft", "word": "draft", "katakana": "ドラフト", "pos": "名詞・動詞", "cefr": "B2", "level": 7,
+    "meaning": "下書き、（選手の）ドラフト、すきま風",
+    "scene": "企画書の下書き、プロ野球ドラフト、生ビール（draft beer）。",
+    "example": { "en": "This is just a first draft.", "ja": "これはまだ最初の下書きです。" },
+    "etymology": {
+      "origin": "中英語 draught「引くこと」← 古英語 dragan「引く」",
+      "story": "「引く」→ 線を引く（下書き）、選手を引き抜く（ドラフト）、たるから注ぐ（生ビール）。draw と同じ語根。"
+    },
+    "roots": [],
+    "family": ["draw（引く、描く）"],
+    "synonyms": [
+      { "word": "sketch", "meaning": "下絵", "nuance": "おおまかな絵。", "etymology": "イタリア語 schizzo" },
+      { "word": "outline", "meaning": "概要", "nuance": "あらまし。", "etymology": "out + line" }
+    ]
+  },
+  {
+    "id": "telework", "word": "telework", "katakana": "テレワーク", "pos": "名詞・動詞", "cefr": "C1", "level": 7,
+    "meaning": "在宅勤務",
+    "scene": "テレワーク、リモートワーク。",
+    "example": { "en": "Many people started to telework during the pandemic.", "ja": "パンデミックの間に多くの人が在宅勤務を始めた。" },
+    "etymology": {
+      "origin": "tele-「遠く」+ work「仕事」",
+      "story": "「離れた所で働く」。英語では remote work / work from home（WFH）のほうがよく使われる。"
+    },
+    "roots": ["tele"],
+    "family": ["telephone（電話）"],
+    "synonyms": [
+      { "word": "remote work", "meaning": "リモートワーク", "nuance": "離れた所での仕事。", "etymology": "remote + work" },
+      { "word": "work from home", "meaning": "在宅勤務", "nuance": "家で働くこと。", "etymology": "work + from + home" }
+    ]
+  },
+  {
+    "id": "invoice", "word": "invoice", "katakana": "インボイス", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "請求書、送り状",
+    "scene": "インボイス制度、請求書の発行。",
+    "example": { "en": "Please send the invoice by the end of the month.", "ja": "月末までに請求書を送ってください。" },
+    "etymology": {
+      "origin": "フランス語 envois「送られたもの（複数）」← envoyer「送る」",
+      "story": "商品と一緒に「送る」明細書から。envoy（使節）と同じ語根。"
+    },
+    "roots": [],
+    "family": ["envoy（使節）"],
+    "synonyms": [
+      { "word": "bill", "meaning": "請求書", "nuance": "支払いの書類。", "etymology": "中世ラテン語 billa" },
+      { "word": "receipt", "meaning": "領収書", "nuance": "払ったことの証明。", "etymology": "ラテン語 recepta" }
+    ]
+  },
+  {
+    "id": "promotion", "word": "promotion", "katakana": "プロモーション", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "昇進、販売促進",
+    "scene": "販促プロモーション、昇格。",
+    "example": { "en": "She got a promotion last month.", "ja": "彼女は先月昇進した。" },
+    "etymology": {
+      "origin": "ラテン語 prōmōtiō「前へ動かすこと」← prōmovēre ← prō-「前へ」+ movēre「動かす」",
+      "story": "「前へ進める」→ 昇進、売り上げを前へ進める＝販売促進。move、motion と同じ家族。"
+    },
+    "roots": ["mov"],
+    "family": ["promote（促進する、昇進させる）"],
+    "synonyms": [
+      { "word": "advancement", "meaning": "昇進、進歩", "nuance": "前に進むこと。", "etymology": "advance + -ment" },
+      { "word": "advertising", "meaning": "広告", "nuance": "宣伝。", "etymology": "フランス語 avertir" }
+    ]
+  },
+  {
+    "id": "headhunting", "word": "headhunting", "katakana": "ヘッドハンティング", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "人材引き抜き",
+    "scene": "ヘッドハンティング会社、引き抜き。",
+    "example": { "en": "He was recruited through headhunting.", "ja": "彼はヘッドハンティングで採用された。" },
+    "etymology": {
+      "origin": "head「頭」+ hunting「狩り」",
+      "story": "もとは「首狩り」の意味。20世紀に優秀な人材を他社から引き抜く意味で使われるようになった。"
+    },
+    "roots": [],
+    "family": ["headhunter（ヘッドハンター）"],
+    "synonyms": [
+      { "word": "recruiting", "meaning": "採用活動", "nuance": "人を集めること。", "etymology": "recruit + -ing" },
+      { "word": "scouting", "meaning": "スカウト", "nuance": "有望な人を探すこと。", "etymology": "scout + -ing" }
+    ]
+  },
+  {
+    "id": "resume", "word": "resume", "katakana": "レジュメ", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "履歴書（米）、要約",
+    "scene": "就活の履歴書、授業の「レジュメ」。",
+    "gap": "授業や発表で配る「レジュメ（要点のまとめ）」は英語では handout / summary。アメリカ英語で resume（résumé）と言えばまず「履歴書」。",
+    "trapQuiz": {"question": "発表のときに配る「レジュメ」に近い英語は？", "answer": "a handout", "wrong": ["a resume", "a résumé paper", "a CV"]},
+    "example": { "en": "Please send your resume and a cover letter.", "ja": "履歴書と添え状を送ってください。" },
+    "etymology": {
+      "origin": "フランス語 résumé「要約されたもの」← résumer「要約する」",
+      "story": "「要約」→ 経歴の要約＝履歴書。イギリスでは CV（curriculum vitae）と言う。動詞 resume（再開する）とはアクセントも意味も違う。"
+    },
+    "roots": [],
+    "family": ["summary（要約）"],
+    "synonyms": [
+      { "word": "CV", "meaning": "履歴書", "nuance": "イギリスでの言い方。", "etymology": "ラテン語 curriculum vitae" },
+      { "word": "summary", "meaning": "要約", "nuance": "まとめ。", "etymology": "ラテン語 summa" }
+    ]
+  },
+  {
+    "id": "specialist", "word": "specialist", "katakana": "スペシャリスト", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "専門家、専門医",
+    "scene": "ITスペシャリスト、専門医。",
+    "example": { "en": "You should see a skin specialist.", "ja": "皮膚の専門医に診てもらったほうがいい。" },
+    "etymology": {
+      "origin": "special「特別な」+ -ist ← ラテン語 speciēs「種類」",
+      "story": "「ひとつの種類に特化した人」。special、species と同じ家族。"
+    },
+    "roots": ["spec"],
+    "family": ["special（特別な）"],
+    "synonyms": [
+      { "word": "expert", "meaning": "専門家", "nuance": "知識と技術のある人。", "etymology": "ラテン語 expertus" },
+      { "word": "professional", "meaning": "プロ", "nuance": "職業としている人。", "etymology": "profession + -al" }
+    ]
+  },
+  {
+    "id": "generalist", "word": "generalist", "katakana": "ジェネラリスト", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "幅広い知識をもつ人",
+    "scene": "ジェネラリスト志向、総合職。",
+    "example": { "en": "Our company needs both specialists and generalists.", "ja": "わが社にはスペシャリストとジェネラリストの両方が必要だ。" },
+    "etymology": {
+      "origin": "general「全体の」+ -ist ← ラテン語 generālis「種族全体の」",
+      "story": "「全体を見られる人」。general は genus（種族）から。軍の「将軍」も全体を指揮する人で general。"
+    },
+    "roots": [],
+    "family": ["general（一般の、将軍）"],
+    "synonyms": [
+      { "word": "all-rounder", "meaning": "万能な人", "nuance": "何でもこなす人。", "etymology": "all + round + -er" },
+      { "word": "jack of all trades", "meaning": "何でも屋", "nuance": "器用な人。", "etymology": "ことわざから" }
+    ]
+  },
+  {
+    "id": "expert", "word": "expert", "katakana": "エキスパート", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "専門家、熟練者",
+    "scene": "その道のエキスパート、専門家の意見。",
+    "example": { "en": "She is an expert in Japanese history.", "ja": "彼女は日本史の専門家だ。" },
+    "etymology": {
+      "origin": "ラテン語 expertus「経験を積んだ」← experīrī「試す」",
+      "story": "experience（経験）、experiment（実験）と同じ家族。「試して身につけた人」。"
+    },
+    "roots": [],
+    "family": ["experience（経験）、experiment（実験）"],
+    "synonyms": [
+      { "word": "specialist", "meaning": "専門家", "nuance": "ある分野に特化した人。", "etymology": "special + -ist" },
+      { "word": "master", "meaning": "名人", "nuance": "極めた人。", "etymology": "ラテン語 magister" }
+    ]
+  },
+  {
+    "id": "analyst", "word": "analyst", "katakana": "アナリスト", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "分析家、アナリスト",
+    "scene": "証券アナリスト、データアナリスト。",
+    "example": { "en": "The analyst predicted a rise in prices.", "ja": "アナリストは値上がりを予想した。" },
+    "etymology": {
+      "origin": "analysis「分析」← ギリシャ語 analysis「ほどくこと」← ana-「すっかり」+ lyein「ゆるめる」",
+      "story": "「ばらばらにほどいて調べる人」。paralysis（まひ＝ゆるんだ状態）も同じ lyein から。"
+    },
+    "roots": [],
+    "family": ["analysis（分析）、analyze（分析する）"],
+    "synonyms": [
+      { "word": "researcher", "meaning": "研究者", "nuance": "調べる人。", "etymology": "research + -er" },
+      { "word": "commentator", "meaning": "解説者", "nuance": "意見を述べる人。", "etymology": "comment + -ator" }
+    ]
+  },
+  {
+    "id": "engineer", "word": "engineer", "katakana": "エンジニア", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "技術者、エンジニア",
+    "scene": "システムエンジニア、機関士。",
+    "example": { "en": "My sister is a software engineer.", "ja": "姉はソフトウェアエンジニアだ。" },
+    "etymology": {
+      "origin": "古フランス語 engigneor「仕掛けを作る人」← engin「仕掛け」← ラテン語 ingenium「才能」",
+      "story": "中世にはお城を攻める「兵器」を作る人。engine、ingenious と同じ家族。"
+    },
+    "roots": [],
+    "family": ["engine（エンジン）、ingenious（独創的な）"],
+    "synonyms": [
+      { "word": "technician", "meaning": "技術者、技師", "nuance": "実際の作業をする人。", "etymology": "technique + -ian" },
+      { "word": "developer", "meaning": "開発者", "nuance": "ソフトを作る人。", "etymology": "develop + -er" }
+    ]
+  },
+  {
+    "id": "designer", "word": "designer", "katakana": "デザイナー", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "デザイナー、設計者",
+    "scene": "ファッションデザイナー、デザイナーズマンション。",
+    "example": { "en": "He wants to be a fashion designer.", "ja": "彼はファッションデザイナーになりたい。" },
+    "etymology": {
+      "origin": "design「設計する」+ -er ← ラテン語 dēsignāre「しるしをつける」",
+      "story": "sign、signal と同じ signum の家族。designer brand は「有名ブランドの」の意味で使う。"
+    },
+    "roots": ["sign"],
+    "family": ["design（デザイン）"],
+    "synonyms": [
+      { "word": "architect", "meaning": "建築家", "nuance": "建物を設計する人。", "etymology": "ギリシャ語 arkhitektōn" },
+      { "word": "stylist", "meaning": "スタイリスト", "nuance": "見た目を整える人。", "etymology": "style + -ist" }
+    ]
+  },
+  {
+    "id": "architect", "word": "architect", "katakana": "アーキテクト", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "建築家、設計者",
+    "scene": "有名建築家、ITアーキテクト。",
+    "example": { "en": "The architect designed a beautiful museum.", "ja": "その建築家は美しい美術館を設計した。" },
+    "etymology": {
+      "origin": "ギリシャ語 arkhitektōn「棟梁」← arkhi-「長」+ tektōn「大工」",
+      "story": "「大工の頭」。architecture（建築）も同じ語。technology の tekhnē とも関係がある。"
+    },
+    "roots": [],
+    "family": ["architecture（建築）"],
+    "synonyms": [
+      { "word": "designer", "meaning": "設計者", "nuance": "デザインする人。", "etymology": "design + -er" },
+      { "word": "builder", "meaning": "建築業者", "nuance": "建てる人。", "etymology": "build + -er" }
+    ]
+  },
+  {
+    "id": "programmer", "word": "programmer", "katakana": "プログラマー", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "プログラマー",
+    "scene": "ゲームプログラマー、プログラミング教育。",
+    "example": { "en": "He works as a programmer at a game company.", "ja": "彼はゲーム会社でプログラマーとして働いている。" },
+    "etymology": {
+      "origin": "program「プログラム」+ -er ← ギリシャ語 programma「公告」",
+      "story": "前もって書いた手順（プログラム）を作る人。"
+    },
+    "roots": [],
+    "family": ["program（プログラム）"],
+    "synonyms": [
+      { "word": "developer", "meaning": "開発者", "nuance": "ソフトを作る人。", "etymology": "develop + -er" },
+      { "word": "coder", "meaning": "コーダー", "nuance": "コードを書く人。", "etymology": "code + -er" }
+    ]
+  },
+  {
+    "id": "creator", "word": "creator", "katakana": "クリエイター", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "創作者、クリエイター",
+    "scene": "動画クリエイター、ゲームクリエイター。",
+    "example": { "en": "She is a popular video creator.", "ja": "彼女は人気の動画クリエイターだ。" },
+    "etymology": {
+      "origin": "ラテン語 creātor「作る人」← creāre「作る」",
+      "story": "英語では the Creator で「創造主（神）」を指すこともある。create、creature と同じ家族。"
+    },
+    "roots": [],
+    "family": ["create（作る）、creature（生き物）"],
+    "synonyms": [
+      { "word": "artist", "meaning": "芸術家", "nuance": "作品を作る人。", "etymology": "ラテン語 ars" },
+      { "word": "author", "meaning": "作者", "nuance": "書いた人。", "etymology": "ラテン語 auctor" }
+    ]
+  },
+  {
+    "id": "artist", "word": "artist", "katakana": "アーティスト", "pos": "名詞", "cefr": "A2", "level": 7,
+    "meaning": "芸術家、アーティスト",
+    "scene": "人気アーティスト、アーティストのライブ。",
+    "example": { "en": "Picasso was a famous artist.", "ja": "ピカソは有名な芸術家だった。" },
+    "etymology": {
+      "origin": "フランス語 artiste ← ラテン語 ars「技術」",
+      "story": "art（芸術）はもとは「技術」。artificial（人工の）も同じ家族。英語でも歌手を artist と呼ぶことがある。"
+    },
+    "roots": [],
+    "family": ["art（芸術）、artificial（人工の）"],
+    "synonyms": [
+      { "word": "painter", "meaning": "画家", "nuance": "絵をかく人。", "etymology": "paint + -er" },
+      { "word": "performer", "meaning": "演者", "nuance": "舞台で演じる人。", "etymology": "perform + -er" }
+    ]
+  },
+  {
+    "id": "musician", "word": "musician", "katakana": "ミュージシャン", "pos": "名詞", "cefr": "A2", "level": 7,
+    "meaning": "音楽家、ミュージシャン",
+    "scene": "ストリートミュージシャン、プロのミュージシャン。",
+    "example": { "en": "He is a jazz musician.", "ja": "彼はジャズミュージシャンだ。" },
+    "etymology": {
+      "origin": "music「音楽」+ -ian",
+      "story": "music、museum と同じミューズの家族。"
+    },
+    "roots": [],
+    "family": ["music（音楽）"],
+    "synonyms": [
+      { "word": "singer", "meaning": "歌手", "nuance": "歌う人。", "etymology": "sing + -er" },
+      { "word": "composer", "meaning": "作曲家", "nuance": "曲を作る人。", "etymology": "ラテン語 compōnere" }
+    ]
+  },
+  {
+    "id": "director", "word": "director", "katakana": "ディレクター", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "監督、責任者、取締役",
+    "scene": "映画監督、ディレクター職。",
+    "example": { "en": "The film director won an award.", "ja": "その映画監督は賞を受けた。" },
+    "etymology": {
+      "origin": "direct「導く」+ -or ← ラテン語 dīrigere「まっすぐにする」",
+      "story": "「まっすぐに導く人」。direction（方向）、address（宛先）も同じ語根。会社の「取締役」も director。"
+    },
+    "roots": [],
+    "family": ["direct（まっすぐな）、direction（方向）"],
+    "synonyms": [
+      { "word": "producer", "meaning": "プロデューサー", "nuance": "制作全体の責任者。", "etymology": "produce + -er" },
+      { "word": "supervisor", "meaning": "監督者", "nuance": "管理する人。", "etymology": "ラテン語 super + vidēre" }
+    ]
+  },
+  {
+    "id": "writer", "word": "writer", "katakana": "ライター", "pos": "名詞", "cefr": "A2", "level": 7,
+    "meaning": "作家、書き手",
+    "scene": "コピーライター、ゴーストライター。",
+    "gap": "火をつける「ライター」は lighter で別の語。writer は「書く人」。",
+    "trapQuiz": {"question": "タバコに火をつける「ライター」を英語でいうと？", "answer": "lighter", "wrong": ["writer", "righter", "fire writer"]},
+    "example": { "en": "She is a writer for a magazine.", "ja": "彼女は雑誌のライターだ。" },
+    "etymology": {
+      "origin": "write「書く」+ -er ← 古英語 wrītan「ひっかく、刻む」",
+      "story": "もとは石や木に文字を「ひっかいて刻む」こと。"
+    },
+    "roots": [],
+    "family": ["write（書く）"],
+    "synonyms": [
+      { "word": "author", "meaning": "作者", "nuance": "本の著者。", "etymology": "ラテン語 auctor" },
+      { "word": "journalist", "meaning": "記者", "nuance": "報道の書き手。", "etymology": "journal + -ist" }
+    ]
+  },
+  {
+    "id": "photographer", "word": "photographer", "katakana": "フォトグラファー", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "写真家、カメラマン",
+    "scene": "「カメラマン」、プロの写真家。",
+    "gap": "日本語の「カメラマン」は写真家も指すが、英語の cameraman は映画・テレビの撮影技師。写真を撮る人は photographer。",
+    "trapQuiz": {"question": "結婚式で写真を撮る「カメラマン」を英語でいうと？", "answer": "photographer", "wrong": ["cameraman", "camera person man", "picture man"]},
+    "example": { "en": "The photographer took pictures of the wedding.", "ja": "カメラマンが結婚式の写真を撮った。" },
+    "etymology": {
+      "origin": "photograph「写真」+ -er ← ギリシャ語 phōs「光」+ graphein「書く」",
+      "story": "「光で描く人」。発音は「フォトグラファー」でアクセントは -tog-。"
+    },
+    "roots": ["graph"],
+    "family": ["photograph（写真）、photo（写真）"],
+    "synonyms": [
+      { "word": "cameraman", "meaning": "撮影技師", "nuance": "映画・テレビの撮影者。", "etymology": "camera + man" },
+      { "word": "photojournalist", "meaning": "報道写真家", "nuance": "ニュースの写真を撮る人。", "etymology": "photo + journalist" }
+    ]
+  },
+  {
+    "id": "stylist", "word": "stylist", "katakana": "スタイリスト", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "美容師、スタイリスト",
+    "scene": "ヘアスタイリスト、芸能人のスタイリスト。",
+    "example": { "en": "My stylist cut my hair short.", "ja": "美容師に髪を短く切ってもらった。" },
+    "etymology": {
+      "origin": "style「様式」+ -ist",
+      "story": "服装や髪型を整える人。文章の上手な人も stylist と言う。"
+    },
+    "roots": [],
+    "family": ["style（スタイル）"],
+    "synonyms": [
+      { "word": "hairdresser", "meaning": "美容師", "nuance": "髪を整える人。", "etymology": "hair + dresser" },
+      { "word": "designer", "meaning": "デザイナー", "nuance": "作品を設計する人。", "etymology": "design + -er" }
+    ]
+  },
+  {
+    "id": "sommelier", "word": "sommelier", "katakana": "ソムリエ", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "ソムリエ",
+    "scene": "ワインソムリエ、野菜ソムリエ。",
+    "example": { "en": "The sommelier recommended a red wine.", "ja": "ソムリエが赤ワインをすすめてくれた。" },
+    "etymology": {
+      "origin": "フランス語 sommelier「王宮の食料係」← 古プロヴァンス語 saumalier「荷を運ぶ動物の世話係」",
+      "story": "もとは荷物を運ぶ家畜の係 → 食料・ワインの管理係に。"
+    },
+    "roots": [],
+    "family": ["sommelière（女性のソムリエ）"],
+    "synonyms": [
+      { "word": "wine steward", "meaning": "ワイン係", "nuance": "ワインを担当する人。", "etymology": "wine + steward" },
+      { "word": "expert", "meaning": "専門家", "nuance": "くわしい人。", "etymology": "ラテン語 expertus" }
+    ]
+  },
+  {
+    "id": "barista", "word": "barista", "katakana": "バリスタ", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "バリスタ",
+    "scene": "カフェのバリスタ、ラテアート。",
+    "example": { "en": "The barista made a heart in my latte.", "ja": "バリスタがラテにハートを描いてくれた。" },
+    "etymology": {
+      "origin": "イタリア語 barista「バーテンダー」← bar「バー」+ -ista",
+      "story": "イタリアではバーでコーヒーをいれる人。英語ではコーヒー専門の店員を指す。"
+    },
+    "roots": [],
+    "family": ["bar（バー）"],
+    "synonyms": [
+      { "word": "bartender", "meaning": "バーテンダー", "nuance": "お酒を作る人。", "etymology": "bar + tender" },
+      { "word": "server", "meaning": "給仕係", "nuance": "飲み物を出す人。", "etymology": "serve + -er" }
+    ]
+  },
+  {
+    "id": "counselor", "word": "counselor", "katakana": "カウンセラー", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "相談員、カウンセラー",
+    "scene": "スクールカウンセラー、心理カウンセラー。",
+    "example": { "en": "I talked to the school counselor.", "ja": "スクールカウンセラーと話をした。" },
+    "etymology": {
+      "origin": "counsel「助言」+ -or ← ラテン語 cōnsilium",
+      "story": "counseling と同じ語。"
+    },
+    "roots": [],
+    "family": ["counseling（カウンセリング）"],
+    "synonyms": [
+      { "word": "adviser", "meaning": "助言者", "nuance": "アドバイスする人。", "etymology": "advise + -er" },
+      { "word": "therapist", "meaning": "セラピスト", "nuance": "治療的に支援する人。", "etymology": "ギリシャ語 therapeia" }
+    ]
+  },
+  {
+    "id": "gardening", "word": "gardening", "katakana": "ガーデニング", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "庭いじり、園芸",
+    "scene": "ガーデニングが趣味、家庭菜園。",
+    "example": { "en": "My mother loves gardening.", "ja": "母は庭いじりが大好きだ。" },
+    "etymology": {
+      "origin": "garden「庭」+ -ing",
+      "story": "garden は古北フランス語 gardin「囲い」から。yard と同じ語根。"
+    },
+    "roots": [],
+    "family": ["garden（庭）"],
+    "synonyms": [
+      { "word": "horticulture", "meaning": "園芸学", "nuance": "植物を育てる学問。", "etymology": "ラテン語 hortus「庭」+ cultūra" },
+      { "word": "farming", "meaning": "農業", "nuance": "作物を育てる仕事。", "etymology": "farm + -ing" }
+    ]
+  },
+  {
+    "id": "wine", "word": "wine", "katakana": "ワイン", "pos": "名詞", "cefr": "A2", "level": 7,
+    "meaning": "ワイン",
+    "scene": "赤ワイン、ワインセラー。",
+    "example": { "en": "Would you like red or white wine?", "ja": "赤ワインと白ワイン、どちらになさいますか？" },
+    "etymology": {
+      "origin": "古英語 wīn ← ラテン語 vīnum",
+      "story": "ローマ人からゲルマン人に伝わった古い借用語。vine（ぶどうのつる）、vinegar（酢＝すっぱいワイン）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["vinegar（酢）、vine（ぶどうのつる）"],
+    "synonyms": [
+      { "word": "champagne", "meaning": "シャンパン", "nuance": "発泡ワイン。", "etymology": "フランスの地名" },
+      { "word": "alcohol", "meaning": "アルコール", "nuance": "酒類全般。", "etymology": "アラビア語 al-kuḥl" }
+    ]
+  },
+  {
+    "id": "beer", "word": "beer", "katakana": "ビール", "pos": "名詞", "cefr": "A2", "level": 7,
+    "meaning": "ビール",
+    "scene": "生ビール、ビールジョッキ。",
+    "example": { "en": "Two beers, please.", "ja": "ビールを2杯ください。" },
+    "etymology": {
+      "origin": "古英語 bēor（ラテン語 bibere「飲む」から来たとする説など）",
+      "story": "日本語の「ビール」はオランダ語 bier から。英語の発音は「ビア」。"
+    },
+    "roots": [],
+    "family": ["beverage（飲み物・bibere 説）"],
+    "synonyms": [
+      { "word": "ale", "meaning": "エール", "nuance": "上面発酵のビール。", "etymology": "古英語 ealu" },
+      { "word": "lager", "meaning": "ラガー", "nuance": "下面発酵のビール。", "etymology": "ドイツ語 Lager「貯蔵」" }
+    ]
+  },
+  {
+    "id": "whiskey", "word": "whiskey", "katakana": "ウイスキー", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "ウイスキー",
+    "scene": "ハイボール、スコッチウイスキー。",
+    "example": { "en": "He likes whiskey with soda.", "ja": "彼はウイスキーのソーダ割りが好きだ。" },
+    "etymology": {
+      "origin": "スコットランド・ゲール語 uisge beatha「命の水」",
+      "story": "ラテン語 aqua vitae（命の水）の翻訳。アイルランド・アメリカでは whiskey、スコットランドでは whisky とつづるのが一般的。"
+    },
+    "roots": [],
+    "family": ["whisky（ウイスキー・英つづり）"],
+    "synonyms": [
+      { "word": "spirits", "meaning": "蒸留酒", "nuance": "強いお酒。", "etymology": "ラテン語 spīritus" },
+      { "word": "liquor", "meaning": "強い酒", "nuance": "蒸留酒。", "etymology": "ラテン語 liquor「液体」" }
+    ]
+  },
+  {
+    "id": "cocktail", "word": "cocktail", "katakana": "カクテル", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "カクテル",
+    "scene": "カクテルパーティー、ノンアルコールカクテル。",
+    "example": { "en": "She ordered a fruit cocktail.", "ja": "彼女はフルーツカクテルを注文した。" },
+    "etymology": {
+      "origin": "英語 cock「おんどり」+ tail「尾」（由来は諸説）",
+      "story": "「おんどりの尾」の意味だが、なぜ混ぜた酒の名前になったのかははっきりしない。「尾を切った雑種の馬」から来たという説もある。"
+    },
+    "roots": [],
+    "family": ["mocktail（ノンアルコールカクテル）"],
+    "synonyms": [
+      { "word": "mixed drink", "meaning": "混ぜた飲み物", "nuance": "カクテル類。", "etymology": "mix + drink" },
+      { "word": "mocktail", "meaning": "ノンアルコールカクテル", "nuance": "お酒の入っていないカクテル。", "etymology": "mock「まねた」+ cocktail" }
+    ]
+  },
+  {
+    "id": "champagne", "word": "champagne", "katakana": "シャンパン", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "シャンパン",
+    "scene": "シャンパンで乾杯、シャンパンゴールド。",
+    "example": { "en": "They opened a bottle of champagne to celebrate.", "ja": "お祝いにシャンパンを1本開けた。" },
+    "etymology": {
+      "origin": "フランスの地方名 Champagne「平原」← ラテン語 campānia",
+      "story": "シャンパーニュ地方で作られた発泡ワイン。campus、camp と同じ「野原」の語。"
+    },
+    "roots": ["camp"],
+    "family": ["campaign（キャンペーン）"],
+    "synonyms": [
+      { "word": "sparkling wine", "meaning": "発泡ワイン", "nuance": "泡のあるワイン全般。", "etymology": "sparkling + wine" },
+      { "word": "wine", "meaning": "ワイン", "nuance": "ぶどう酒。", "etymology": "ラテン語 vīnum" }
+    ]
+  },
+  {
+    "id": "alcohol", "word": "alcohol", "katakana": "アルコール", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "アルコール、酒",
+    "scene": "アルコール消毒、ノンアルコール。",
+    "example": { "en": "You must not drink alcohol under 20 in Japan.", "ja": "日本では20歳未満は飲酒してはいけない。" },
+    "etymology": {
+      "origin": "アラビア語 al-kuḥl「アイシャドウに使う黒い粉」",
+      "story": "錬金術で「細かくした粉」→「蒸留したエッセンス」→ 酒の成分、と意味が大きく変わった。al- はアラビア語の冠詞。"
+    },
+    "roots": [],
+    "family": ["alcoholic（アルコールの）"],
+    "synonyms": [
+      { "word": "liquor", "meaning": "酒", "nuance": "強い酒。", "etymology": "ラテン語 liquor" },
+      { "word": "drink", "meaning": "飲み物、酒", "nuance": "a drink で一杯。", "etymology": "古英語 drincan" }
+    ]
+  },
+  {
+    "id": "caffeine", "word": "caffeine", "katakana": "カフェイン", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "カフェイン",
+    "scene": "カフェインレス、カフェインの取りすぎ。",
+    "example": { "en": "I avoid caffeine after 6 p.m.", "ja": "夜6時以降はカフェインを控えている。" },
+    "etymology": {
+      "origin": "ドイツ語 Kaffein ← Kaffee「コーヒー」",
+      "story": "コーヒーの成分として19世紀に名づけられた。coffee、café と同じ家族。"
+    },
+    "roots": [],
+    "family": ["coffee（コーヒー）、decaf（カフェイン抜き）"],
+    "synonyms": [
+      { "word": "stimulant", "meaning": "興奮剤", "nuance": "目を覚ます物質。", "etymology": "ラテン語 stimulus「突き棒」" },
+      { "word": "energy drink", "meaning": "エナジードリンク", "nuance": "カフェインの多い飲み物。", "etymology": "energy + drink" }
+    ]
+  },
+  {
+    "id": "gourmet", "word": "gourmet", "katakana": "グルメ", "pos": "名詞・形容詞", "cefr": "C1", "level": 7,
+    "meaning": "美食家、高級料理の",
+    "scene": "「グルメな人」、ご当地グルメ。",
+    "gap": "日本語の「グルメ」は「おいしい料理」自体も指すが、英語の gourmet は主に「食通（人）」や「高級な（食べ物）」。「ご当地グルメ」は local food / local specialties。",
+    "trapQuiz": {"question": "「北海道のご当地グルメ」を英語でいうと？", "answer": "local specialties of Hokkaido", "wrong": ["Hokkaido gourmets", "gourmet of Hokkaido man", "Hokkaido gourmet people"]},
+    "example": { "en": "He is a real gourmet.", "ja": "彼は本物の食通だ。" },
+    "etymology": {
+      "origin": "フランス語 gourmet「ワインの鑑定人」← 古フランス語 groumet「召使い」",
+      "story": "召使い → ワインの味見係 → 食通。"
+    },
+    "roots": [],
+    "family": ["gourmand（大食いの人）"],
+    "synonyms": [
+      { "word": "foodie", "meaning": "食通", "nuance": "くだけた言い方。", "etymology": "food + -ie" },
+      { "word": "cuisine", "meaning": "料理", "nuance": "地域の料理。", "etymology": "フランス語 cuisine" }
+    ]
+  },
+  {
+    "id": "casual", "word": "casual", "katakana": "カジュアル", "pos": "形容詞", "cefr": "B1", "level": 7,
+    "meaning": "気軽な、普段着の、偶然の",
+    "scene": "カジュアルな服装、ビジネスカジュアル。",
+    "example": { "en": "You can wear casual clothes on Fridays.", "ja": "金曜日は普段着で来てもいい。" },
+    "etymology": {
+      "origin": "ラテン語 cāsuālis「偶然の」← cāsus「落ちること、偶然」",
+      "story": "「たまたまの」→ 気楽な、形式ばらない。case（場合）、accident と同じ cadere「落ちる」の家族。"
+    },
+    "roots": [],
+    "family": ["casually（何気なく）、case（場合）"],
+    "synonyms": [
+      { "word": "informal", "meaning": "形式ばらない", "nuance": "くだけた。", "etymology": "in- + formal" },
+      { "word": "relaxed", "meaning": "くつろいだ", "nuance": "気楽な。", "etymology": "relax + -ed" }
+    ]
+  },
+  {
+    "id": "formal", "word": "formal", "katakana": "フォーマル", "pos": "形容詞", "cefr": "B1", "level": 7,
+    "meaning": "正式な、改まった",
+    "scene": "フォーマルウェア、フォーマルな場。",
+    "example": { "en": "You should wear formal clothes to the ceremony.", "ja": "式典には正装で行くべきだ。" },
+    "etymology": {
+      "origin": "ラテン語 fōrmālis「形の」← fōrma「形」",
+      "story": "「形を守った」→ 正式な。form、uniform と同じ家族。"
+    },
+    "roots": ["form"],
+    "family": ["form（形）、informal（くだけた）"],
+    "synonyms": [
+      { "word": "official", "meaning": "公式の", "nuance": "おおやけの。", "etymology": "ラテン語 officium" },
+      { "word": "proper", "meaning": "正しい、きちんとした", "nuance": "ふさわしい。", "etymology": "ラテン語 proprius" }
+    ]
+  },
+  {
+    "id": "suit", "word": "suit", "katakana": "スーツ", "pos": "名詞・動詞", "cefr": "A2", "level": 7,
+    "meaning": "スーツ、似合う、都合がよい",
+    "scene": "リクルートスーツ、宇宙服（space suit）。",
+    "example": { "en": "That color really suits you.", "ja": "その色、本当によく似合うね。" },
+    "etymology": {
+      "origin": "古フランス語 siute「後に続くもの、ひとそろい」← ラテン語 sequī「従う」",
+      "story": "「後に続く」→ ひとそろい（服の上下）→ 合う。トランプの同じマークの組も suit。follow（続く）の意味の sequence と同じ家族。"
+    },
+    "roots": [],
+    "family": ["suitable（ふさわしい）、suite（スイートルーム）"],
+    "synonyms": [
+      { "word": "outfit", "meaning": "服装一式", "nuance": "組み合わせた服。", "etymology": "out + fit" },
+      { "word": "match", "meaning": "合う", "nuance": "調和する。", "etymology": "古英語 gemæcca" }
+    ]
+  },
+  {
+    "id": "cardigan", "word": "cardigan", "katakana": "カーディガン", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "カーディガン",
+    "scene": "羽織るカーディガン、制服のカーディガン。",
+    "example": { "en": "She put on a cardigan because it was chilly.", "ja": "肌寒かったので彼女はカーディガンを羽織った。" },
+    "etymology": {
+      "origin": "クリミア戦争の英国軍人、第7代カーディガン伯爵の名から",
+      "story": "伯爵が兵士に着せた前開きの毛糸の上着が有名になり、名前がついた。"
+    },
+    "roots": [],
+    "family": ["Cardigan（カーディガン伯爵）"],
+    "synonyms": [
+      { "word": "sweater", "meaning": "セーター", "nuance": "かぶるタイプの編み物。", "etymology": "sweat + -er" },
+      { "word": "jumper", "meaning": "（英）セーター", "nuance": "イギリスでの言い方。", "etymology": "方言 jump「上着」" }
+    ]
+  },
+  {
+    "id": "vest", "word": "vest", "katakana": "ベスト", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "（米）ベスト、（英）肌着",
+    "scene": "スーツのベスト、防弾チョッキ。",
+    "gap": "アメリカ英語の vest は日本語の「ベスト（チョッキ）」だが、イギリス英語では「袖なしの肌着」。イギリスで「ベスト」は waistcoat。",
+    "trapQuiz": {"question": "イギリスでスーツの「ベスト（チョッキ）」を何という？", "answer": "waistcoat", "wrong": ["vest", "best", "jacket vest"]},
+    "example": { "en": "He wore a vest under his jacket.", "ja": "彼は上着の下にベストを着ていた。" },
+    "etymology": {
+      "origin": "フランス語 veste ← イタリア語 veste「衣服」← ラテン語 vestis「衣服」",
+      "story": "vestment（祭服）、invest（投資する＝衣を着せる→資金を与える）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["invest（投資する）"],
+    "synonyms": [
+      { "word": "waistcoat", "meaning": "（英）ベスト", "nuance": "イギリスでの言い方。", "etymology": "waist + coat" },
+      { "word": "tank top", "meaning": "タンクトップ", "nuance": "袖なしのシャツ。", "etymology": "tank suit から" }
+    ]
+  },
+  {
+    "id": "fleece", "word": "fleece", "katakana": "フリース", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "フリース、羊毛",
+    "scene": "フリースジャケット、ひざかけのフリース。",
+    "example": { "en": "I wear a fleece jacket when I go hiking.", "ja": "ハイキングにはフリースを着ていく。" },
+    "etymology": {
+      "origin": "古英語 flēos「羊一頭分の毛」",
+      "story": "ギリシャ神話の「金の羊毛（Golden Fleece）」が有名。今は化学繊維の起毛生地も指す。動詞では「（お金を）だまし取る」。"
+    },
+    "roots": [],
+    "family": ["fleecy（羊毛のような）"],
+    "synonyms": [
+      { "word": "wool", "meaning": "羊毛", "nuance": "ウール。", "etymology": "古英語 wull" },
+      { "word": "jacket", "meaning": "ジャケット", "nuance": "上着。", "etymology": "古フランス語 jaquet" }
+    ]
+  },
+  {
+    "id": "auction", "word": "auction", "katakana": "オークション", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "競売、オークション",
+    "scene": "ネットオークション、競り。",
+    "example": { "en": "The painting was sold at auction.", "ja": "その絵は競売で売られた。" },
+    "etymology": {
+      "origin": "ラテン語 auctiō「増やすこと」← augēre「増やす」",
+      "story": "値段がどんどん「増えていく」売り方。author（作者）、augment（増やす）も augēre の家族。"
+    },
+    "roots": [],
+    "family": ["augment（増大させる）"],
+    "synonyms": [
+      { "word": "bid", "meaning": "入札（する）", "nuance": "値をつけること。", "etymology": "古英語 bēodan" },
+      { "word": "sale", "meaning": "販売", "nuance": "売ること。", "etymology": "古英語 sala" }
+    ]
+  },
+  {
+    "id": "minimalist", "word": "minimalist", "katakana": "ミニマリスト", "pos": "名詞・形容詞", "cefr": "C1", "level": 7,
+    "meaning": "物を最小限にする人、簡素な",
+    "scene": "ミニマリストの部屋、断捨離。",
+    "example": { "en": "He lives a minimalist lifestyle.", "ja": "彼は物を最小限にして暮らしている。" },
+    "etymology": {
+      "origin": "minimal「最小限の」+ -ist ← ラテン語 minimus「最も小さい」",
+      "story": "もとは20世紀の美術・音楽で、要素を最小限にした作風（ミニマリズム）の作家。menu、minute と同じ家族。"
+    },
+    "roots": ["min"],
+    "family": ["minimum（最小限）、minimalism（ミニマリズム）"],
+    "synonyms": [
+      { "word": "simple", "meaning": "簡素な", "nuance": "飾らない。", "etymology": "ラテン語 simplex" },
+      { "word": "declutter", "meaning": "物を減らす", "nuance": "片づける。", "etymology": "de- + clutter" }
+    ]
+  },
+  {
+    "id": "healing", "word": "healing", "katakana": "ヒーリング", "pos": "名詞・形容詞", "cefr": "C1", "level": 7,
+    "meaning": "癒やし、治ること",
+    "scene": "ヒーリングミュージック、癒やし系。",
+    "example": { "en": "This music has a healing effect.", "ja": "この音楽には癒やしの効果がある。" },
+    "etymology": {
+      "origin": "heal「治す」+ -ing ← 古英語 hǣlan「完全にする」",
+      "story": "health、whole（全体の）、holy と同じ語根。「癒やし系」は英語では relaxing / soothing。"
+    },
+    "roots": [],
+    "family": ["heal（治す）、health（健康）"],
+    "synonyms": [
+      { "word": "soothing", "meaning": "心を落ち着かせる", "nuance": "和らげる。", "etymology": "soothe + -ing" },
+      { "word": "recovery", "meaning": "回復", "nuance": "治ること。", "etymology": "ラテン語 recuperāre" }
+    ]
+  },
+  {
+    "id": "aroma", "word": "aroma", "katakana": "アロマ", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "香り、アロマ",
+    "scene": "アロマオイル、アロマテラピー。",
+    "example": { "en": "I love the aroma of fresh coffee.", "ja": "いれたてのコーヒーの香りが大好きだ。" },
+    "etymology": {
+      "origin": "ギリシャ語 arōma「香料、香辛料」",
+      "story": "もとは香辛料。aromatherapy（アロマテラピー）は「香りの療法」。"
+    },
+    "roots": [],
+    "family": ["aromatic（香りのよい）"],
+    "synonyms": [
+      { "word": "scent", "meaning": "香り", "nuance": "ほのかな香り。", "etymology": "ラテン語 sentīre" },
+      { "word": "fragrance", "meaning": "芳香", "nuance": "よい香り。", "etymology": "ラテン語 frāgrāre" }
+    ]
+  },
+  {
+    "id": "meditation", "word": "meditation", "katakana": "メディテーション", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "瞑想",
+    "scene": "朝の瞑想、瞑想アプリ。",
+    "example": { "en": "Meditation helps me feel calm.", "ja": "瞑想すると心が落ち着く。" },
+    "etymology": {
+      "origin": "ラテン語 meditātiō「考えること」← meditārī「熟考する」",
+      "story": "もとは「じっくり考える」。medicine（医学）とも同じ語根（「測る、手当てする」）とされる。"
+    },
+    "roots": [],
+    "family": ["meditate（瞑想する）"],
+    "synonyms": [
+      { "word": "mindfulness", "meaning": "マインドフルネス", "nuance": "今に集中すること。", "etymology": "mind + -ful + -ness" },
+      { "word": "reflection", "meaning": "内省", "nuance": "振り返ること。", "etymology": "ラテン語 reflectere" }
+    ]
+  },
+  {
+    "id": "mindfulness", "word": "mindfulness", "katakana": "マインドフルネス", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "今この瞬間に注意を向けること",
+    "scene": "マインドフルネス瞑想、ストレス軽減。",
+    "example": { "en": "Mindfulness can reduce stress.", "ja": "マインドフルネスはストレスを減らすことがある。" },
+    "etymology": {
+      "origin": "mindful「注意深い」+ -ness ← mind「心」",
+      "story": "仏教の「念（サティ）」の英訳として使われ、21世紀に広まった。"
+    },
+    "roots": [],
+    "family": ["mind（心）"],
+    "synonyms": [
+      { "word": "awareness", "meaning": "気づき", "nuance": "意識していること。", "etymology": "aware + -ness" },
+      { "word": "meditation", "meaning": "瞑想", "nuance": "心を静めること。", "etymology": "ラテン語 meditārī" }
+    ]
+  },
+  {
+    "id": "detox", "word": "detox", "katakana": "デトックス", "pos": "名詞・動詞", "cefr": "C1", "level": 7,
+    "meaning": "解毒、デトックス",
+    "scene": "デジタルデトックス、デトックスウォーター。",
+    "example": { "en": "I'm doing a digital detox this weekend.", "ja": "今週末はデジタルデトックス中だ。" },
+    "etymology": {
+      "origin": "detoxification「解毒」の略 ← de-「取り除く」+ ギリシャ語 toxikon「矢の毒」",
+      "story": "toxikon は矢（toxon）に塗る毒。toxic（有毒な）も同じ語。"
+    },
+    "roots": [],
+    "family": ["toxic（有毒な）"],
+    "synonyms": [
+      { "word": "cleanse", "meaning": "浄化する", "nuance": "きれいにする。", "etymology": "古英語 clǣnsian" },
+      { "word": "break", "meaning": "休止", "nuance": "一時的にやめる。", "etymology": "古英語 brecan" }
+    ]
+  },
+  {
+    "id": "stretch", "word": "stretch", "katakana": "ストレッチ", "pos": "名詞・動詞", "cefr": "B1", "level": 7,
+    "meaning": "伸ばす、ストレッチ、続く範囲",
+    "scene": "準備運動のストレッチ、ストレッチ素材。",
+    "example": { "en": "Stretch before you run.", "ja": "走る前にストレッチをしよう。" },
+    "etymology": {
+      "origin": "古英語 streccan「伸ばす」",
+      "story": "「伸ばす」→ 広がる範囲（a stretch of road）。"
+    },
+    "roots": [],
+    "family": ["stretcher（担架）"],
+    "synonyms": [
+      { "word": "extend", "meaning": "伸ばす", "nuance": "長くする。", "etymology": "ラテン語 extendere" },
+      { "word": "warm-up", "meaning": "準備運動", "nuance": "体をほぐす運動。", "etymology": "warm + up" }
+    ]
+  },
+  {
+    "id": "workout", "word": "workout", "katakana": "ワークアウト", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "トレーニング、運動",
+    "scene": "自宅ワークアウト、筋トレ。",
+    "example": { "en": "I do a 30-minute workout every morning.", "ja": "毎朝30分の運動をしている。" },
+    "etymology": {
+      "origin": "work「働く」+ out「しっかり」",
+      "story": "動詞 work out は「運動する」「うまくいく」「解決する」。"
+    },
+    "roots": [],
+    "family": ["work（働く）"],
+    "synonyms": [
+      { "word": "exercise", "meaning": "運動", "nuance": "体を動かすこと。", "etymology": "ラテン語 exercēre" },
+      { "word": "training", "meaning": "訓練", "nuance": "トレーニング。", "etymology": "train + -ing" }
+    ]
+  },
+  {
+    "id": "triathlon", "word": "triathlon", "katakana": "トライアスロン", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "トライアスロン",
+    "scene": "鉄人レース、トライアスロン大会。",
+    "example": { "en": "She finished her first triathlon.", "ja": "彼女は初めてのトライアスロンを完走した。" },
+    "etymology": {
+      "origin": "tri-「3」+ ギリシャ語 athlon「競技」",
+      "story": "水泳・自転車・マラソンの3種目。pentathlon（近代五種）、decathlon（十種競技）も同じ作り。athlete と同じ家族。"
+    },
+    "roots": [],
+    "family": ["athlete（運動選手）"],
+    "synonyms": [
+      { "word": "marathon", "meaning": "マラソン", "nuance": "長距離走。", "etymology": "ギリシャの地名" },
+      { "word": "race", "meaning": "競走", "nuance": "速さを競う競技。", "etymology": "古ノルド語 rás" }
+    ]
+  },
+  {
+    "id": "snowboard", "word": "snowboard", "katakana": "スノーボード", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "スノーボード",
+    "scene": "スノボ、スノーボードウェア。",
+    "example": { "en": "I went snowboarding in Hokkaido.", "ja": "北海道にスノーボードに行った。" },
+    "etymology": {
+      "origin": "snow「雪」+ board「板」（1960年代アメリカ）",
+      "story": "サーフィンを雪の上でやる遊びから生まれた。"
+    },
+    "roots": [],
+    "family": ["board（板）"],
+    "synonyms": [
+      { "word": "ski", "meaning": "スキー", "nuance": "2枚の板で滑る。", "etymology": "ノルウェー語" },
+      { "word": "sled", "meaning": "そり", "nuance": "雪の上をすべる乗り物。", "etymology": "中オランダ語 sledde" }
+    ]
+  },
+  {
+    "id": "surfing", "word": "surfing", "katakana": "サーフィン", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "波乗り、ネットサーフィン",
+    "scene": "サーフィンの大会、ネットサーフィン。",
+    "example": { "en": "He goes surfing every weekend.", "ja": "彼は毎週末サーフィンに行く。" },
+    "etymology": {
+      "origin": "surf「打ち寄せる波」+ -ing",
+      "story": "surf の語源ははっきりしない。インターネットを次々見て回ることも surf the web。"
+    },
+    "roots": [],
+    "family": ["surfer（サーファー）"],
+    "synonyms": [
+      { "word": "wave", "meaning": "波", "nuance": "海の波。", "etymology": "古英語 wafian" },
+      { "word": "browsing", "meaning": "閲覧", "nuance": "ネットを見て回ること。", "etymology": "browse + -ing" }
+    ]
+  },
+  {
+    "id": "diving", "word": "diving", "katakana": "ダイビング", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "潜水、飛びこみ",
+    "scene": "スキューバダイビング、飛びこみ競技。",
+    "example": { "en": "We went diving in Okinawa.", "ja": "沖縄でダイビングをした。" },
+    "etymology": {
+      "origin": "dive「飛びこむ、もぐる」+ -ing ← 古英語 dūfan",
+      "story": "スキューバ（scuba）は Self-Contained Underwater Breathing Apparatus（自給式水中呼吸器）の頭文字。"
+    },
+    "roots": [],
+    "family": ["diver（ダイバー）"],
+    "synonyms": [
+      { "word": "snorkeling", "meaning": "シュノーケリング", "nuance": "水面で泳ぐ。", "etymology": "ドイツ語 Schnorchel" },
+      { "word": "swimming", "meaning": "水泳", "nuance": "泳ぐこと。", "etymology": "古英語 swimman" }
+    ]
+  },
+  {
+    "id": "climbing", "word": "climbing", "katakana": "クライミング", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "登山、クライミング",
+    "scene": "ボルダリング、ロッククライミング。",
+    "example": { "en": "Rock climbing is my new hobby.", "ja": "ロッククライミングが新しい趣味だ。" },
+    "etymology": {
+      "origin": "climb「登る」+ -ing ← 古英語 climban",
+      "story": "b は発音しない。ボルダリング（bouldering）は大きな岩（boulder）を登ること。"
+    },
+    "roots": [],
+    "family": ["climber（登山者）"],
+    "synonyms": [
+      { "word": "hiking", "meaning": "ハイキング", "nuance": "山歩き。", "etymology": "hike + -ing" },
+      { "word": "mountaineering", "meaning": "登山", "nuance": "本格的な山登り。", "etymology": "mountain + -eer" }
+    ]
+  },
+  {
+    "id": "casino", "word": "casino", "katakana": "カジノ", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "カジノ",
+    "scene": "ラスベガスのカジノ、カジノリゾート。",
+    "example": { "en": "They went to a casino in Las Vegas.", "ja": "彼らはラスベガスのカジノに行った。" },
+    "etymology": {
+      "origin": "イタリア語 casino「小さな家」← casa「家」",
+      "story": "もとは貴族が遊ぶための「小さな別荘」。そこから賭博場に。"
+    },
+    "roots": [],
+    "family": ["casa（イタリア語の家）"],
+    "synonyms": [
+      { "word": "gambling", "meaning": "賭博", "nuance": "お金を賭けること。", "etymology": "gamble + -ing" },
+      { "word": "lottery", "meaning": "宝くじ", "nuance": "くじ引き。", "etymology": "オランダ語 loterij" }
+    ]
+  },
+  {
+    "id": "gamble", "word": "gamble", "katakana": "ギャンブル", "pos": "名詞・動詞", "cefr": "B2", "level": 7,
+    "meaning": "賭け（をする）",
+    "scene": "ギャンブル依存、一か八かの賭け。",
+    "example": { "en": "Starting a business is a gamble.", "ja": "起業は賭けだ。" },
+    "etymology": {
+      "origin": "古英語 gamenian「遊ぶ」← gamen「楽しみ」（game と同源）",
+      "story": "game（遊び）と同じ語根。賭け事の意味は18世紀から。"
+    },
+    "roots": [],
+    "family": ["game（ゲーム）"],
+    "synonyms": [
+      { "word": "bet", "meaning": "賭ける", "nuance": "お金を賭ける。", "etymology": "abet の略とされる" },
+      { "word": "risk", "meaning": "危険を冒す", "nuance": "リスクを取る。", "etymology": "イタリア語 risco" }
+    ]
+  },
+  {
+    "id": "wedding", "word": "wedding", "katakana": "ウエディング", "pos": "名詞", "cefr": "A2", "level": 7,
+    "meaning": "結婚式",
+    "scene": "ウエディングドレス、ウエディングケーキ。",
+    "example": { "en": "We were invited to their wedding.", "ja": "彼らの結婚式に招待された。" },
+    "etymology": {
+      "origin": "古英語 weddung ← weddian「誓約する」← wedd「誓約、担保」",
+      "story": "「誓いを立てること」。wed（結婚する）と同じ語。"
+    },
+    "roots": [],
+    "family": ["wed（結婚する）"],
+    "synonyms": [
+      { "word": "marriage", "meaning": "結婚", "nuance": "結婚生活。", "etymology": "古フランス語 mariage" },
+      { "word": "ceremony", "meaning": "式典", "nuance": "儀式。", "etymology": "ラテン語 caerimōnia" }
+    ]
+  },
+  {
+    "id": "bridal", "word": "bridal", "katakana": "ブライダル", "pos": "形容詞", "cefr": "C1", "level": 7,
+    "meaning": "花嫁の、婚礼の",
+    "scene": "ブライダルフェア、ブライダル業界。",
+    "example": { "en": "She works in the bridal industry.", "ja": "彼女はブライダル業界で働いている。" },
+    "etymology": {
+      "origin": "古英語 brȳdealu「花嫁のビール（婚礼の宴）」← brȳd「花嫁」+ ealu「ビール」",
+      "story": "もとは「婚礼の宴」を意味する名詞。bride（花嫁）の形容詞と誤解されて今の使い方に。"
+    },
+    "roots": [],
+    "family": ["bride（花嫁）、bridegroom（花婿）"],
+    "synonyms": [
+      { "word": "wedding", "meaning": "結婚式の", "nuance": "結婚式。", "etymology": "古英語 weddung" },
+      { "word": "nuptial", "meaning": "婚姻の", "nuance": "かたい言い方。", "etymology": "ラテン語 nūptiae" }
+    ]
+  },
+  {
+    "id": "propose", "word": "propose", "katakana": "プロポーズ", "pos": "動詞", "cefr": "B1", "level": 7,
+    "meaning": "提案する、結婚を申しこむ",
+    "scene": "「プロポーズする」、企画を提案する。",
+    "example": { "en": "He proposed to her on the beach.", "ja": "彼は浜辺で彼女にプロポーズした。" },
+    "etymology": {
+      "origin": "古フランス語 proposer ← pro-「前に」+ poser「置く」",
+      "story": "「前に差し出す」→ 提案、結婚を申しこむ（propose to 人）。「プロポーズ」は名詞では proposal。"
+    },
+    "roots": [],
+    "family": ["proposal（提案、プロポーズ）"],
+    "synonyms": [
+      { "word": "suggest", "meaning": "提案する", "nuance": "案を出す。", "etymology": "ラテン語 suggerere" },
+      { "word": "offer", "meaning": "申し出る", "nuance": "差し出す。", "etymology": "ラテン語 offerre" }
+    ]
+  },
+  {
+    "id": "romance", "word": "romance", "katakana": "ロマンス", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "恋愛、恋物語、夢",
+    "scene": "恋愛小説、ひと夏のロマンス。",
+    "example": { "en": "It was a summer romance.", "ja": "それはひと夏の恋だった。" },
+    "etymology": {
+      "origin": "古フランス語 romanz「ローマの民衆語で書かれた物語」",
+      "story": "中世の騎士道物語から「恋物語」に。romantic と同じ語。フランス語・スペイン語などは「ロマンス語」。"
+    },
+    "roots": [],
+    "family": ["romantic（ロマンチックな）"],
+    "synonyms": [
+      { "word": "love affair", "meaning": "恋愛関係", "nuance": "恋。", "etymology": "love + affair" },
+      { "word": "love story", "meaning": "恋物語", "nuance": "恋愛の話。", "etymology": "love + story" }
+    ]
+  },
+  {
+    "id": "date", "word": "date", "katakana": "デート", "pos": "名詞・動詞", "cefr": "A1", "level": 7,
+    "meaning": "日付、デート、付き合う",
+    "scene": "初デート、デートスポット、日付。",
+    "example": { "en": "What's the date today?", "ja": "今日は何日？" },
+    "etymology": {
+      "origin": "古フランス語 date ← ラテン語 data「与えられた（日に）」",
+      "story": "ローマの手紙の書き出し「〜日に与えられた（data）」から「日付」に。日時を決めて会う → デート。果物のナツメヤシ（date）は別語源。"
+    },
+    "roots": [],
+    "family": ["data（データ）"],
+    "synonyms": [
+      { "word": "appointment", "meaning": "約束", "nuance": "会う予定。", "etymology": "古フランス語 apointement" },
+      { "word": "day", "meaning": "日", "nuance": "一日。", "etymology": "古英語 dæg" }
+    ]
+  },
+  {
+    "id": "anniversary", "word": "anniversary", "katakana": "アニバーサリー", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "記念日",
+    "scene": "結婚記念日、創立記念日。",
+    "example": { "en": "Today is our tenth wedding anniversary.", "ja": "今日は私たちの結婚10周年の記念日だ。" },
+    "etymology": {
+      "origin": "ラテン語 anniversārius「毎年めぐってくる」← annus「年」+ vertere「回る」",
+      "story": "annual（毎年の）、annual の annus と、vertere（回る）の組み合わせ。"
+    },
+    "roots": ["vert"],
+    "family": ["annual（毎年の）"],
+    "synonyms": [
+      { "word": "birthday", "meaning": "誕生日", "nuance": "生まれた日。", "etymology": "birth + day" },
+      { "word": "commemoration", "meaning": "記念", "nuance": "思い出して祝うこと。", "etymology": "ラテン語 commemorāre" }
+    ]
+  },
+  {
+    "id": "ceremony", "word": "ceremony", "katakana": "セレモニー", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "式典、儀式",
+    "scene": "開会セレモニー、卒業式（graduation ceremony）。",
+    "example": { "en": "The graduation ceremony starts at ten.", "ja": "卒業式は10時に始まる。" },
+    "etymology": {
+      "origin": "ラテン語 caerimōnia「神聖な儀式」",
+      "story": "語源のさらに先ははっきりしない。stand on ceremony は「堅苦しくする」。"
+    },
+    "roots": [],
+    "family": ["ceremonial（儀式の）"],
+    "synonyms": [
+      { "word": "ritual", "meaning": "儀式", "nuance": "決まった手順の行い。", "etymology": "ラテン語 rītus" },
+      { "word": "event", "meaning": "行事", "nuance": "催し。", "etymology": "ラテン語 ēventus" }
+    ]
+  },
+  {
+    "id": "reception", "word": "reception", "katakana": "レセプション", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "受付、歓迎会、受信状態",
+    "scene": "結婚披露宴、ホテルの受付、電波の受信。",
+    "example": { "en": "The wedding reception was held at a hotel.", "ja": "結婚披露宴はホテルで開かれた。" },
+    "etymology": {
+      "origin": "ラテン語 receptiō「受け取ること」← recipere「受け取る」",
+      "story": "客を「受け入れる」場所・会。電波を「受け取る」状態も reception。recipe、receipt と同じ家族。"
+    },
+    "roots": ["cap"],
+    "family": ["receive（受け取る）、receptionist（受付係）"],
+    "synonyms": [
+      { "word": "front desk", "meaning": "フロント", "nuance": "ホテルの受付。", "etymology": "front + desk" },
+      { "word": "party", "meaning": "パーティー", "nuance": "集まり。", "etymology": "古フランス語 partie" }
+    ]
+  },
+  {
+    "id": "banquet", "word": "banquet", "katakana": "バンケット", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "宴会、晩餐会",
+    "scene": "バンケットホール、晩餐会。",
+    "example": { "en": "A banquet was held in honor of the guests.", "ja": "客をもてなす晩餐会が開かれた。" },
+    "etymology": {
+      "origin": "フランス語 banquet ← イタリア語 banchetto「小さな長いす」",
+      "story": "もとは食事の間に座る「小さな長いす（bench）」。bank、bench と同じ語根。"
+    },
+    "roots": [],
+    "family": ["bench（長いす）、bank（銀行）"],
+    "synonyms": [
+      { "word": "feast", "meaning": "ごちそう、宴", "nuance": "盛大な食事。", "etymology": "ラテン語 fēstum" },
+      { "word": "dinner party", "meaning": "晩餐会", "nuance": "夕食の会。", "etymology": "dinner + party" }
+    ]
+  },
+  {
+    "id": "catering", "word": "catering", "katakana": "ケータリング", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "仕出し、ケータリング",
+    "scene": "パーティーのケータリング、出張料理。",
+    "example": { "en": "We hired a catering company for the party.", "ja": "パーティーのためにケータリング会社を頼んだ。" },
+    "etymology": {
+      "origin": "cater「食料を調達する」+ -ing ← 古フランス語 acater「買う」",
+      "story": "中世の「食料の買い出し係」から。cater to は「〜の要望に応える」。"
+    },
+    "roots": [],
+    "family": ["cater（料理を提供する）"],
+    "synonyms": [
+      { "word": "delivery", "meaning": "配達", "nuance": "届けること。", "etymology": "古フランス語 delivrer" },
+      { "word": "food service", "meaning": "給食サービス", "nuance": "食事の提供。", "etymology": "food + service" }
+    ]
+  },
+  {
+    "id": "hospitality", "word": "hospitality", "katakana": "ホスピタリティ", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "心のこもったもてなし",
+    "scene": "おもてなし、ホスピタリティ産業。",
+    "example": { "en": "Thank you for your warm hospitality.", "ja": "温かいおもてなしをありがとうございます。" },
+    "etymology": {
+      "origin": "ラテン語 hospitālitās ← hospes「客、主人」",
+      "story": "hotel、hospital、host と同じ hospes の家族。"
+    },
+    "roots": ["hosp"],
+    "family": ["hospital（病院）、host（主人）"],
+    "synonyms": [
+      { "word": "welcome", "meaning": "歓迎", "nuance": "迎え入れること。", "etymology": "古英語 wilcuma" },
+      { "word": "generosity", "meaning": "気前のよさ", "nuance": "寛大さ。", "etymology": "ラテン語 generōsus" }
+    ]
+  },
+  {
+    "id": "concierge", "word": "concierge", "katakana": "コンシェルジュ", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "案内係、コンシェルジュ",
+    "scene": "ホテルのコンシェルジュ、駅のコンシェルジュ。",
+    "example": { "en": "The concierge booked a restaurant for us.", "ja": "コンシェルジュがレストランを予約してくれた。" },
+    "etymology": {
+      "origin": "フランス語 concierge「門番、管理人」（ラテン語 conservus「仲間の召使い」とする説）",
+      "story": "もとは建物の管理人。ホテルで客の頼みごとに応える係に。"
+    },
+    "roots": [],
+    "family": ["conciergerie（管理人室）"],
+    "synonyms": [
+      { "word": "receptionist", "meaning": "受付係", "nuance": "受付の人。", "etymology": "reception + -ist" },
+      { "word": "guide", "meaning": "案内人", "nuance": "案内する人。", "etymology": "古フランス語 guider" }
+    ]
+  },
+  {
+    "id": "suite", "word": "suite", "katakana": "スイート", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "ひと続きの部屋、組曲、ひとそろい",
+    "scene": "ホテルのスイートルーム、ソフトウェアスイート。",
+    "gap": "ホテルの「スイートルーム」は suite（ひと続きの部屋）で、sweet（甘い）ではない。発音はどちらも「スイート」。",
+    "trapQuiz": {"question": "ホテルの「スイートルーム」の「スイート」の意味は？", "answer": "ひと続きの部屋", "wrong": ["甘い部屋", "新婚用の部屋", "最上階の部屋"]},
+    "example": { "en": "They stayed in the presidential suite.", "ja": "彼らはプレジデンシャルスイートに泊まった。" },
+    "etymology": {
+      "origin": "フランス語 suite「続くもの」← ラテン語 sequī「従う」",
+      "story": "「ひと続きになったもの」→ 続き部屋、組曲、ひとそろい。suit（スーツ）と同じ語。"
+    },
+    "roots": [],
+    "family": ["suit（スーツ）、sequence（連続）"],
+    "synonyms": [
+      { "word": "room", "meaning": "部屋", "nuance": "部屋一般。", "etymology": "古英語 rūm" },
+      { "word": "set", "meaning": "ひとそろい", "nuance": "組になったもの。", "etymology": "ラテン語 secta" }
+    ]
+  },
+  {
+    "id": "lounge", "word": "lounge", "katakana": "ラウンジ", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "休憩室、ラウンジ、ぶらぶらする",
+    "scene": "空港ラウンジ、ホテルのラウンジ。",
+    "example": { "en": "We waited in the airport lounge.", "ja": "空港のラウンジで待った。" },
+    "etymology": {
+      "origin": "16世紀スコットランドの語（語源不明）",
+      "story": "もとは動詞で「だらだらする」。そこからくつろぐための部屋に。"
+    },
+    "roots": [],
+    "family": ["lounge chair（寝いす）"],
+    "synonyms": [
+      { "word": "lobby", "meaning": "ロビー", "nuance": "入口の広間。", "etymology": "中世ラテン語 lobia" },
+      { "word": "waiting room", "meaning": "待合室", "nuance": "待つための部屋。", "etymology": "waiting + room" }
+    ]
+  },
+  {
+    "id": "amenity", "word": "amenity", "katakana": "アメニティ", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "設備、アメニティ",
+    "scene": "ホテルのアメニティ、アメニティグッズ。",
+    "example": { "en": "The hotel has great amenities like a pool and a gym.", "ja": "そのホテルはプールやジムなど設備が充実している。" },
+    "etymology": {
+      "origin": "ラテン語 amoenitās「心地よさ」← amoenus「心地よい」",
+      "story": "「快適さ」→ 快適にするための設備。日本語では歯ブラシなどの備品を指すことが多いが、英語では施設・設備全般にも使う。"
+    },
+    "roots": [],
+    "family": ["amenable（従順な・別語源）"],
+    "synonyms": [
+      { "word": "facility", "meaning": "施設", "nuance": "建物や設備。", "etymology": "ラテン語 facilis「容易な」" },
+      { "word": "toiletries", "meaning": "洗面用品", "nuance": "歯ブラシ・シャンプーなど。", "etymology": "toilet + -ries" }
+    ]
+  },
+  {
+    "id": "spa", "word": "spa", "katakana": "スパ", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "温泉、スパ",
+    "scene": "スパリゾート、日帰り温泉。",
+    "example": { "en": "We spent a relaxing day at the spa.", "ja": "スパでのんびり一日を過ごした。" },
+    "etymology": {
+      "origin": "ベルギーの温泉町スパ（Spa）",
+      "story": "鉱泉で有名な町の名前が「温泉地」の意味になった。今は美容や癒やしの施設全般にも使う。"
+    },
+    "roots": [],
+    "family": ["spa resort（温泉リゾート）"],
+    "synonyms": [
+      { "word": "hot spring", "meaning": "温泉", "nuance": "わき出る温かい湯。", "etymology": "hot + spring" },
+      { "word": "resort", "meaning": "リゾート", "nuance": "保養地。", "etymology": "古フランス語 resortir" }
+    ]
+  },
+  {
+    "id": "glamping", "word": "glamping", "katakana": "グランピング", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "豪華なキャンプ",
+    "scene": "グランピング施設、手ぶらでキャンプ。",
+    "example": { "en": "We went glamping in a big tent with beds.", "ja": "ベッドつきの大きなテントでグランピングをした。" },
+    "etymology": {
+      "origin": "glamorous「華やかな」+ camping の混成語（2000年代）",
+      "story": "「華やかなキャンプ」。glamour は grammar（文法）から来た語で、「学問＝魔法」から「魅惑」に意味が変わった。"
+    },
+    "roots": [],
+    "family": ["glamour（魅力）、camping（キャンプ）"],
+    "synonyms": [
+      { "word": "camping", "meaning": "キャンプ", "nuance": "野営。", "etymology": "camp + -ing" },
+      { "word": "resort", "meaning": "リゾート", "nuance": "保養地。", "etymology": "古フランス語 resortir" }
+    ]
+  },
+  {
+    "id": "package", "word": "package", "katakana": "パッケージ", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "小包、包装、一式",
+    "scene": "パッケージツアー、商品パッケージ。",
+    "example": { "en": "A package arrived for you.", "ja": "あなたあての小包が届いたよ。" },
+    "etymology": {
+      "origin": "pack「包む」+ -age",
+      "story": "包んだもの → 小包、ひとまとめのもの。a package tour は交通と宿がセットの旅行。"
+    },
+    "roots": [],
+    "family": ["pack（包む）"],
+    "synonyms": [
+      { "word": "parcel", "meaning": "小包", "nuance": "郵便の包み。", "etymology": "古フランス語 parcelle" },
+      { "word": "bundle", "meaning": "束、ひとまとめ", "nuance": "セット。", "etymology": "中オランダ語 bundel" }
+    ]
+  },
+  {
+    "id": "airline", "word": "airline", "katakana": "エアライン", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "航空会社",
+    "scene": "LCC（格安航空会社）、エアラインの制服。",
+    "example": { "en": "Which airline are you flying with?", "ja": "どの航空会社で行くの？" },
+    "etymology": {
+      "origin": "air「空」+ line「路線」",
+      "story": "もとは「空の路線」。そこから路線を運航する会社に。"
+    },
+    "roots": [],
+    "family": ["airport（空港）"],
+    "synonyms": [
+      { "word": "carrier", "meaning": "運送会社", "nuance": "航空会社などの運び手。", "etymology": "carry + -er" },
+      { "word": "flight", "meaning": "便", "nuance": "飛行機の便。", "etymology": "古英語 flyht" }
+    ]
+  },
+  {
+    "id": "flight", "word": "flight", "katakana": "フライト", "pos": "名詞", "cefr": "A2", "level": 7,
+    "meaning": "（飛行機の）便、飛ぶこと、逃げること",
+    "scene": "フライト時間、国際線。",
+    "example": { "en": "Our flight was delayed by two hours.", "ja": "私たちの便は2時間遅れた。" },
+    "etymology": {
+      "origin": "古英語 flyht ← flēogan「飛ぶ」",
+      "story": "fly（飛ぶ）の名詞形。「逃げること」の flight は flee（逃げる）から来た別の語。a flight of stairs は「ひと続きの階段」。"
+    },
+    "roots": [],
+    "family": ["fly（飛ぶ）"],
+    "synonyms": [
+      { "word": "trip", "meaning": "旅", "nuance": "移動。", "etymology": "古フランス語 triper" },
+      { "word": "journey", "meaning": "道のり", "nuance": "長い移動。", "etymology": "古フランス語 jornee" }
+    ]
+  },
+  {
+    "id": "transit", "word": "transit", "katakana": "トランジット", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "乗り継ぎ、輸送、通過",
+    "scene": "空港でトランジット、公共交通機関（public transit）。",
+    "example": { "en": "We had a five-hour transit in Dubai.", "ja": "ドバイで5時間の乗り継ぎがあった。" },
+    "etymology": {
+      "origin": "ラテン語 trānsitus「通り過ぎること」← trānsīre ← trāns-「越えて」+ īre「行く」",
+      "story": "transition（移行）、transfer（乗り換え）と同じ trāns- の仲間。"
+    },
+    "roots": [],
+    "family": ["transition（移行）"],
+    "synonyms": [
+      { "word": "connection", "meaning": "乗り継ぎ便", "nuance": "接続する便。", "etymology": "ラテン語 connectere" },
+      { "word": "transportation", "meaning": "交通機関", "nuance": "運輸。", "etymology": "ラテン語 trānsportāre" }
+    ]
+  },
+  {
+    "id": "terminal", "word": "terminal", "katakana": "ターミナル", "pos": "名詞・形容詞", "cefr": "B2", "level": 7,
+    "meaning": "終点、ターミナル、末期の",
+    "scene": "バスターミナル、空港の第1ターミナル、端末。",
+    "example": { "en": "Our flight leaves from Terminal 2.", "ja": "私たちの便は第2ターミナルから出る。" },
+    "etymology": {
+      "origin": "ラテン語 terminālis「境界の」← terminus「境界、終わり」",
+      "story": "term（期間、用語）、determine（決める＝境を定める）も同じ家族。パソコンの「端末」も terminal。"
+    },
+    "roots": [],
+    "family": ["term（期間）、determine（決める）"],
+    "synonyms": [
+      { "word": "station", "meaning": "駅", "nuance": "乗り物の駅。", "etymology": "ラテン語 statiō" },
+      { "word": "end", "meaning": "終わり", "nuance": "終点。", "etymology": "古英語 ende" }
+    ]
+  },
+  {
+    "id": "cabin", "word": "cabin", "katakana": "キャビン", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "客室、船室、小屋",
+    "scene": "キャビンアテンダント（和製）、丸太小屋。",
+    "gap": "「キャビンアテンダント」は和製英語。英語では flight attendant が一般的（cabin crew も使う）。",
+    "trapQuiz": {"question": "飛行機の「キャビンアテンダント」を英語でいうと？", "answer": "flight attendant", "wrong": ["cabin attendant girl", "air attendant cabin", "cabin girl"]},
+    "example": { "en": "Please take your seat. The cabin doors are closing.", "ja": "お席におつきください。客室のドアを閉めます。" },
+    "etymology": {
+      "origin": "古フランス語 cabane ← 後期ラテン語 capanna「小屋」",
+      "story": "小屋 → 船の部屋 → 飛行機の客室。cabinet（戸棚、内閣）は「小さな部屋」から。"
+    },
+    "roots": [],
+    "family": ["cabinet（戸棚、内閣）"],
+    "synonyms": [
+      { "word": "hut", "meaning": "小屋", "nuance": "粗末な小屋。", "etymology": "フランス語 hutte" },
+      { "word": "compartment", "meaning": "区画", "nuance": "列車の個室。", "etymology": "ラテン語 compartīrī" }
+    ]
+  },
+  {
+    "id": "crew", "word": "crew", "katakana": "クルー", "pos": "名詞", "cefr": "B1", "level": 7,
+    "meaning": "乗組員、スタッフ（一団）",
+    "scene": "客室乗務員、撮影クルー。",
+    "example": { "en": "The crew welcomed us on board.", "ja": "乗組員が私たちを出迎えてくれた。" },
+    "etymology": {
+      "origin": "古フランス語 creue「増えたもの（増援）」← ラテン語 crēscere「育つ」",
+      "story": "「増援部隊」→ 一緒に働く一団。crescent、increase も同じ家族。"
+    },
+    "roots": [],
+    "family": ["increase（増える）"],
+    "synonyms": [
+      { "word": "staff", "meaning": "職員", "nuance": "働く人たち。", "etymology": "古英語 stæf" },
+      { "word": "team", "meaning": "チーム", "nuance": "仲間の一団。", "etymology": "古英語 tēam" }
+    ]
+  },
+  {
+    "id": "mileage", "word": "mileage", "katakana": "マイレージ", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "走行距離、マイレージ",
+    "scene": "マイレージカード、マイルを貯める。",
+    "example": { "en": "This car has low mileage.", "ja": "この車は走行距離が短い。" },
+    "etymology": {
+      "origin": "mile「マイル」+ -age",
+      "story": "mile はラテン語 mīlle passuum「1000歩」から。航空会社の特典制度（マイル）もこの語。"
+    },
+    "roots": [],
+    "family": ["mile（マイル）、million（100万）"],
+    "synonyms": [
+      { "word": "distance", "meaning": "距離", "nuance": "離れ具合。", "etymology": "ラテン語 distantia" },
+      { "word": "points", "meaning": "ポイント", "nuance": "貯める点数。", "etymology": "ラテン語 punctum" }
+    ]
+  },
+  {
+    "id": "upgrade", "word": "upgrade", "katakana": "アップグレード", "pos": "名詞・動詞", "cefr": "B2", "level": 7,
+    "meaning": "格上げ（する）、性能向上",
+    "scene": "座席のアップグレード、ソフトの更新。",
+    "example": { "en": "We got upgraded to business class!", "ja": "ビジネスクラスにアップグレードされた！" },
+    "etymology": {
+      "origin": "up「上へ」+ grade「段階」",
+      "story": "「一段上げる」。反対は downgrade。"
+    },
+    "roots": [],
+    "family": ["grade（段階）"],
+    "synonyms": [
+      { "word": "improve", "meaning": "改良する", "nuance": "よくする。", "etymology": "アングロ・フランス語 emprouer" },
+      { "word": "update", "meaning": "更新する", "nuance": "最新にする。", "etymology": "up + date" }
+    ]
+  },
+  {
+    "id": "shuttle", "word": "shuttle", "katakana": "シャトル", "pos": "名詞", "cefr": "B2", "level": 7,
+    "meaning": "往復便、シャトル",
+    "scene": "シャトルバス、スペースシャトル、バドミントンのシャトル。",
+    "example": { "en": "There's a free shuttle bus to the airport.", "ja": "空港行きの無料シャトルバスがある。" },
+    "etymology": {
+      "origin": "古英語 scytel「投げるもの」",
+      "story": "機織りで糸を通すために左右に「投げて往復させる」道具（杼）。そこから往復する乗り物に。shoot（撃つ）と同じ語根。"
+    },
+    "roots": [],
+    "family": ["shoot（撃つ）"],
+    "synonyms": [
+      { "word": "bus", "meaning": "バス", "nuance": "乗り合い自動車。", "etymology": "omnibus の略" },
+      { "word": "round trip", "meaning": "往復", "nuance": "行って帰ること。", "etymology": "round + trip" }
+    ]
+  },
+  {
+    "id": "navigation", "word": "navigation", "katakana": "ナビゲーション", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "航行、道案内、カーナビ",
+    "scene": "カーナビ、ナビゲーションアプリ。",
+    "example": { "en": "I use the navigation app to find the way.", "ja": "道を探すのにナビアプリを使う。" },
+    "etymology": {
+      "origin": "ラテン語 nāvigātiō ← nāvigāre「航海する」← nāvis「船」+ agere「動かす」",
+      "story": "「船を動かすこと」。navy（海軍）と同じ nāvis の家族。「カーナビ」は英語では GPS / sat nav（英）。"
+    },
+    "roots": [],
+    "family": ["navigate（案内する）、navy（海軍）"],
+    "synonyms": [
+      { "word": "guidance", "meaning": "案内", "nuance": "導くこと。", "etymology": "guide + -ance" },
+      { "word": "GPS", "meaning": "全地球測位システム", "nuance": "カーナビの言い方。", "etymology": "Global Positioning System" }
+    ]
+  },
+  {
+    "id": "express", "word": "express", "katakana": "エクスプレス", "pos": "名詞・動詞・形容詞", "cefr": "B1", "level": 7,
+    "meaning": "急行、速達、表現する",
+    "scene": "特急（limited express）、エクスプレス便。",
+    "example": { "en": "I can't express how happy I am.", "ja": "どれだけうれしいか言葉にできない。" },
+    "etymology": {
+      "origin": "ラテン語 exprimere「しぼり出す」← ex-「外へ」+ premere「押す」",
+      "story": "「押し出す」→ 考えを外に出す＝表現する。「はっきりした目的地にまっすぐ行く」→ 急行。press、pressure と同じ家族。"
+    },
+    "roots": ["press"],
+    "family": ["expression（表現）、pressure（圧力）"],
+    "synonyms": [
+      { "word": "rapid", "meaning": "快速の", "nuance": "速い。", "etymology": "ラテン語 rapidus" },
+      { "word": "convey", "meaning": "伝える", "nuance": "考えを伝える。", "etymology": "ラテン語 convehere" }
+    ]
   }
 ]
