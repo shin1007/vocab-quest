@@ -11,15 +11,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WORDS = json.loads((ROOT / "data/words.json").read_text(encoding="utf-8"))
 ROOTS = json.loads((ROOT / "data/roots.json").read_text(encoding="utf-8"))
-# コースは難易度（CEFR）で分ける（app/app.js の COURSES と同じ）
+# コースは英検の級の目安で分ける（app/app.js の COURSES と同じ）
 COURSES = {
-    "a1": ("🌱 入門（A1）", ["A1"]),
-    "a2": ("🌿 基礎（A2）", ["A2"]),
-    "b1": ("🌳 標準（B1）", ["B1"]),
-    "b2": ("⛰️ 応用（B2）", ["B2"]),
-    "c1": ("🏔️ 発展（C1–C2）", ["C1", "C2"]),
+    "5": "英検5級レベル",
+    "4": "英検4級レベル",
+    "3": "英検3級レベル",
+    "p2": "英検準2級レベル",
+    "2": "英検2級レベル",
+    "p1": "英検準1級レベル",
+    "1": "英検1級レベル",
 }
-REQUIRED = ["id", "word", "katakana", "pos", "cefr", "meaning", "scene",
+CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"]
+REQUIRED = ["id", "word", "katakana", "pos", "cefr", "eiken", "meaning", "scene",
             "example", "etymology", "roots", "family", "synonyms"]
 
 
@@ -33,8 +36,10 @@ def validate():
         for key in REQUIRED:
             if key not in w:
                 errors.append(f"{w.get('id')}: {key} がありません")
-        if not any(w.get("cefr") in levels for _, levels in COURSES.values()):
+        if w.get("cefr") not in CEFR:
             errors.append(f"{w['id']}: 不明な cefr {w.get('cefr')}")
+        if w.get("eiken") not in COURSES:
+            errors.append(f"{w['id']}: 不明な eiken {w.get('eiken')}")
         if len(w.get("synonyms", [])) < 2:
             errors.append(f"{w['id']}: 類義語は2つ以上必要です")
         for s in w.get("synonyms", []):
@@ -67,25 +72,29 @@ def render():
         f"収録語数: **{len(WORDS)} 語**（類義語 {sum(len(w['synonyms']) for w in WORDS)} 語） / "
         f"語根ファミリー: **{len(ROOTS)} 種**",
         "",
+        "級別: " + " / ".join(f"{label.removesuffix('レベル')} {sum(w['eiken'] == key for w in WORDS)}語" for key, label in COURSES.items()),
+        "",
+        "> 級は英検の出題レベルを目安に割り当てたもので、公式の級別単語リストではありません。",
+        "",
         "凡例: ⚠️ = カタカナの罠（日本語での意味と英語の意味がずれている語）",
         "",
         "## 目次",
         "",
     ]
-    for label, levels in COURSES.values():
-        words = [w for w in WORDS if w["cefr"] in levels]
+    for key, label in COURSES.items():
+        words = [w for w in WORDS if w["eiken"] == key]
         out.append(f"- {label} — " + ", ".join(f"[{w['word']}](#{w['id']})" for w in words))
     out += ["- [語根ファミリー一覧](#語根ファミリー一覧)", ""]
 
-    for label, levels in COURSES.values():
+    for key, label in COURSES.items():
         out += [f"## {label}", ""]
-        for w in (w for w in WORDS if w["cefr"] in levels):
+        for w in (w for w in WORDS if w["eiken"] == key):
             trap = " ⚠️" if w.get("gap") else ""
             out += [
                 f'<a id="{w["id"]}"></a>',
                 f"### {w['word']}（{w['katakana']}）{trap}",
                 "",
-                f"**{w['pos']}** / CEFR {w['cefr']} — {w['meaning']}",
+                f"**{w['pos']}** / {COURSES[w['eiken']]} / CEFR {w['cefr']} — {w['meaning']}",
                 "",
                 f"- 📍 シーン: {w['scene']}",
             ]

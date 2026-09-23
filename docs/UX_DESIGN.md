@@ -48,15 +48,21 @@
 
 ## 3. コースとレッスン
 
-単語はジャンル（RPG・格闘など）では分けない。dog や juice のような身近な語も、potion や critical のようなゲームの語も、**難しさ（`data/words.json` の `cefr`）ごとのコース**にまとめて出す。
+単語はジャンル（RPG・格闘など）では分けない。dog や juice のような身近な語も、potion や critical のようなゲームの語も、**英検の級（`data/words.json` の `eiken`）ごとのコース**にまとめて出す。「英検○級」は学習者が目標にしやすく、意欲につながりやすいため。
 
-| コース | CEFR | 収録例 |
+| コース | 目安の CEFR | 収録例 |
 |---|---|---|
-| 🌱 入門 | A1 | dog, cat, apple, bus, hotel, camera |
-| 🌿 基礎 | A2 | rabbit, cookie, note, fight, attack, level |
-| 🌳 標準 | B1 | penguin, handle, diet, stove, spell, mission |
-| ⛰️ 応用 | B2 | mansion, idol, potion, quest, gravity |
-| 🏔️ 発展 | C1–C2 | consent, reform, guild, summon, naive |
+| 英検5級 | A1 | dog, cat, apple, bus, home, ice |
+| 英検4級 | A1 | museum, ticket, lunch, hotel, rabbit, note |
+| 英検3級 | A1–A2 | culture, volunteer, chance, uniform, monster |
+| 英検準2級 | A2 | recycle, advice, career, viking, cooler |
+| 英検2級 | B1 | stress, risk, brand, mental, handle, spell |
+| 英検準1級 | B2 | motivation, evidence, stoic, veteran, potion |
+| 英検1級 | C1–C2 | consensus, compliance, paradigm, scheme, guild |
+
+- 級は英検の出題レベルを目安に割り当てたもので、公式の級別単語リストではない。画面にもその旨を表示する。
+- **到達度**：各級の単語の8割が「定着中」以上になると、その級を「クリア」とする。下の級から順に判定し、ホームに「英検○級レベルまで あと N語」と進捗バーを出す。クリアした学習の結果画面ではお祝いのカードを出す。記録画面には級ごとの定着度を並べる。
+- ホームのコースは折りたたみ式で、おすすめレッスン（NEXT）のあるコースだけ開いておく。
 
 - 各コースの単語を、ジャンルが偏らないよう混ぜて並べ（id から決まる順なので毎回同じ）、約6語ずつのレッスンに分ける。
 - **すべてのレッスンを最初から選べる**（ロックはしない）。ホームには「NEXT」として、まだ終えていない最初のレッスンをおすすめ表示する。全部終えたら習熟度が一番低いレッスンをすすめる。
@@ -145,7 +151,7 @@
 
 いつでも辞書として引けるように、**未学習の語も含めて全語を閲覧可能**にする。
 
-- 一覧：検索（英語・カタカナ・意味・類義語）、コース（難易度）で絞り込み、⚠️カタカナの罠のみ
+- 一覧：検索（英語・カタカナ・意味・類義語）、英検の級で絞り込み、各語に級のチップ、⚠️カタカナの罠のみ
 - 詳細：英単語／カタカナ／品詞／CEFR／🔊発音、意味、習熟度、📍シーン、⚠️カタカナの罠、💬例文、📜語源、🧩語根、🌳同じ語源の仲間、🔀類義語（意味・ニュアンス・語源の表）
 
 ---
@@ -216,7 +222,8 @@
   "word": "potion",
   "katakana": "ポーション",
   "pos": "名詞",
-  "cefr": "B2",                 // A1〜C2。コース（難易度）とレッスンの並び順に使う
+  "cefr": "B2",                 // A1〜C2。参考表示
+  "eiken": "p1",                // 英検の級の目安：5 | 4 | 3 | p2（準2級）| 2 | p1（準1級）| 1。コース分けに使う
   "meaning": "（薬・魔法の）飲み薬、水薬",
   "scene": "RPGの定番回復アイテム。",
   "gap": "（任意）日本語での用法とのズレ",

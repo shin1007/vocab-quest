@@ -58,11 +58,13 @@
   --latin: "Montserrat", "M PLUS Rounded 1c", sans-serif;
   --sans: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
   --title-fill: linear-gradient(90deg, #1fc2b2, #5a86ff 55%, #ff64a4);
-  --area-a1: #34d1a0;
-  --area-a2: #45bff5;
-  --area-b1: #a98bff;
-  --area-b2: #ff8a6b;
-  --area-c1: #ff6fae;
+  --area-5: #34d1a0;
+  --area-4: #2cc6c9;
+  --area-3: #45bff5;
+  --area-p2: #6f9bff;
+  --area-2: #a98bff;
+  --area-p1: #ff8a6b;
+  --area-1: #ff6fae;
   --lv0: #e2e8f4;
   --lv1: #ffa3bc;
   --lv2: #ffc95c;
@@ -117,11 +119,13 @@
   --display: "Dela Gothic One", "M PLUS Rounded 1c", sans-serif;
   --latin: "Dela Gothic One", sans-serif;
   --sans: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
-  --area-a1: #2fd39a;
-  --area-a2: #3fc1ff;
-  --area-b1: #a77bff;
-  --area-b2: #ff7a59;
-  --area-c1: #ff5ca8;
+  --area-5: #2fd39a;
+  --area-4: #26c7c4;
+  --area-3: #3fc1ff;
+  --area-p2: #5f8cff;
+  --area-2: #a77bff;
+  --area-p1: #ff7a59;
+  --area-1: #ff5ca8;
   --lv0: #d9d3fb;
   --lv1: #ff9fb0;
   --lv2: #ffc24a;
@@ -176,11 +180,13 @@
   --display: "Dela Gothic One", "Zen Kaku Gothic New", sans-serif;
   --latin: "Montserrat", sans-serif;
   --sans: "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
-  --area-a1: #36f28a;
-  --area-a2: #2ee6ff;
-  --area-b1: #b28cff;
-  --area-b2: #ff7a3d;
-  --area-c1: #ff4fa3;
+  --area-5: #36f28a;
+  --area-4: #2ef2d0;
+  --area-3: #2ee6ff;
+  --area-p2: #5c9dff;
+  --area-2: #b28cff;
+  --area-p1: #ff7a3d;
+  --area-1: #ff4fa3;
   --lv0: #34343a;
   --lv1: #ff4081;
   --lv2: #ffb020;
@@ -237,11 +243,13 @@
   --latin: "Shippori Mincho B1", serif;
   --sans: "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
   --title-fill: linear-gradient(180deg, #fff3cf, #e1bd6e 60%, #b88a3a);
-  --area-a1: #6fb58a;
-  --area-a2: #5fa9d6;
-  --area-b1: #9d86d6;
-  --area-b2: #d9825d;
-  --area-c1: #c9738f;
+  --area-5: #6fb58a;
+  --area-4: #5fb0ab;
+  --area-3: #5fa9d6;
+  --area-p2: #7a92d6;
+  --area-2: #9d86d6;
+  --area-p1: #d9825d;
+  --area-1: #c9738f;
   --lv0: #ddd0b3;
   --lv1: #d9868f;
   --lv2: #e0b45a;
@@ -430,6 +438,8 @@ button.chip:active { transform: translateY(2px); }
 .topic-head { position: relative; display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
 .topic-head h3 { margin: 0; font-size: 1.15rem; font-family: var(--display); }
 .lesson-list { display: grid; gap: 8px; }
+.lessons summary { cursor: pointer; font-weight: 800; font-size: .9rem; padding: 4px 0; color: var(--text-soft); list-style-position: inside; }
+.lessons[open] summary { margin-bottom: 8px; }
 .lesson {
   display: flex; align-items: center; gap: 12px; width: 100%; min-height: 56px; text-align: left; color: var(--text);
   padding: 8px 12px; border-radius: var(--radius-sm); background: var(--card-solid); border: var(--bw-sm) solid var(--edge);
@@ -443,6 +453,18 @@ button.chip:active { transform: translateY(2px); }
 }
 .lesson.done .num { background: var(--good-solid); }
 .lesson-name { display: block; font-weight: 800; font-size: .95rem; margin-bottom: 4px; }
+.topic-badge.grade { font-family: var(--display); font-weight: 800; font-size: 1rem; color: #fff; letter-spacing: -.02em; }
+.topic-badge.grade.big { font-size: 1.5rem; }
+.dist-label .topic-badge.grade { width: 34px; height: 34px; font-size: .72rem; border-radius: 10px; }
+.dist-row.grade-row { grid-template-columns: 150px 1fr 52px; }
+.grade-chip {
+  display: inline-block; font-size: .7rem; font-weight: 800; line-height: 1.6; padding: 0 8px; border-radius: 999px;
+  color: #fff; background: var(--area, var(--accent)); vertical-align: middle;
+}
+.detail-head .grade-chip { margin-right: 4px; }
+.level-card b { display: block; margin-bottom: 6px; }
+.level-card .bar { margin-bottom: 4px; }
+.level-up { display: grid; justify-items: center; gap: 4px; text-align: center; }
 .cefr { font-family: var(--latin); font-size: .68rem; font-weight: 800; padding: 0 6px; border-radius: 6px; background: var(--card-2); border: 1px solid var(--edge); margin-left: 4px; }
 .lesson .chev { font-size: 1.5rem; font-weight: 800; color: var(--text-soft); }
 .trivia p { margin: 4px 0 10px; }
@@ -682,6 +704,7 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
 @media (max-width: 380px) {
   .hud #hud-learned { display: none; }
   .dist-row { grid-template-columns: 100px 1fr 28px; }
+  .dist-row.grade-row { grid-template-columns: 40px 1fr 52px; }
   .dist-label .small { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
