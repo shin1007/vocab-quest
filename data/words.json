@@ -9323,5 +9323,1455 @@
       { "word": "founder", "meaning": "創業者", "nuance": "会社を作った人。", "etymology": "ラテン語 fundāre「基礎を置く」" },
       { "word": "businessperson", "meaning": "実業家", "nuance": "事業をする人。", "etymology": "business + person" }
     ]
+  },
+  {
+    "id": "melon", "word": "melon", "katakana": "メロン", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "メロン",
+    "scene": "メロンパン、夕張メロン。",
+    "example": { "en": "This melon is very sweet.", "ja": "このメロンはとても甘い。" },
+    "etymology": {
+      "origin": "ギリシャ語 mēlopepōn「りんご形のうり」← mēlon「りんご」+ pepōn「うり」",
+      "story": "長い名前の前半だけが残った語。ギリシャ語 mēlon（りんご）は果物全般も指した。「メロンパン」は見た目が似ているだけでメロンは入っていないことが多い。"
+    },
+    "roots": [],
+    "family": ["watermelon（スイカ）"],
+    "synonyms": [
+      { "word": "watermelon", "meaning": "スイカ", "nuance": "「水のメロン」。", "etymology": "water + melon" },
+      { "word": "cantaloupe", "meaning": "カンタロープ", "nuance": "果肉がオレンジ色のメロン。", "etymology": "イタリアの地名 Cantalupo から" }
+    ]
+  },
+  {
+    "id": "peach", "word": "peach", "katakana": "ピーチ", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "桃",
+    "scene": "ピーチジュース、ピーチ味。",
+    "example": { "en": "She peeled a peach for me.", "ja": "彼女は桃の皮をむいてくれた。" },
+    "etymology": {
+      "origin": "古フランス語 pesche ← ラテン語 persicum (mālum)「ペルシャの（りんご）」",
+      "story": "桃は中国原産だが、ペルシャを経てヨーロッパに伝わったので「ペルシャの果物」と呼ばれた。口語で a peach は「すてきな人・もの」。"
+    },
+    "roots": [],
+    "family": ["Persia（ペルシャ）"],
+    "synonyms": [
+      { "word": "nectarine", "meaning": "ネクタリン", "nuance": "皮に毛のない桃の仲間。", "etymology": "nectar「神々の飲み物」から" },
+      { "word": "apricot", "meaning": "アプリコット、あんず", "nuance": "桃より小さい実。", "etymology": "ラテン語 praecox「早く熟す」" }
+    ]
+  },
+  {
+    "id": "kiwi", "word": "kiwi", "katakana": "キウイ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "キウイフルーツ、キーウィ（鳥）",
+    "scene": "キウイフルーツ、ニュージーランドの鳥。",
+    "example": { "en": "Kiwis are full of vitamin C.", "ja": "キウイはビタミンCがたっぷりだ。" },
+    "etymology": {
+      "origin": "マオリ語 kiwi（鳥の名、鳴き声から）",
+      "story": "もとはニュージーランドの飛べない鳥の名前。果物はもとは Chinese gooseberry と呼ばれていたが、輸出用にニュージーランドのシンボルの鳥にちなんで kiwifruit と名づけられた。ニュージーランド人の愛称も Kiwi。"
+    },
+    "roots": [],
+    "family": ["kiwifruit（キウイフルーツ）"],
+    "synonyms": [
+      { "word": "gooseberry", "meaning": "グーズベリー", "nuance": "すっぱい小さな実。", "etymology": "goose「ガチョウ」+ berry（由来ははっきりしない）" },
+      { "word": "fruit", "meaning": "果物", "nuance": "果物全般。", "etymology": "ラテン語 frūctus" }
+    ]
+  },
+  {
+    "id": "cherry", "word": "cherry", "katakana": "チェリー", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "さくらんぼ、桜",
+    "scene": "チェリーパイ、チェリーブロッサム（桜）。",
+    "example": { "en": "Cherry blossoms are the symbol of spring in Japan.", "ja": "桜は日本の春の象徴だ。" },
+    "etymology": {
+      "origin": "古北フランス語 cherise ← ラテン語 cerasum ← ギリシャ語 kerasos",
+      "story": "英語に入ったとき、語尾の -s が複数形だと誤解されて取り除かれ、cherry になった（pea「えんどう豆」も同じ現象）。"
+    },
+    "roots": [],
+    "family": ["cherry blossom（桜の花）"],
+    "synonyms": [
+      { "word": "berry", "meaning": "ベリー", "nuance": "小さな実全般。", "etymology": "古英語 berie" },
+      { "word": "blossom", "meaning": "（果樹の）花", "nuance": "桜の花は cherry blossom。", "etymology": "古英語 blōstm" }
+    ]
+  },
+  {
+    "id": "grape", "word": "grape", "katakana": "グレープ", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "ぶどう",
+    "scene": "グレープジュース、グレープフルーツ。",
+    "example": { "en": "We picked grapes at the farm.", "ja": "農園でぶどう狩りをした。" },
+    "etymology": {
+      "origin": "古フランス語 grape「ぶどうの房」← graper「かぎでつむ」",
+      "story": "もとは房をつむ「かぎ」から「ぶどうの房」に。grapefruit（グレープフルーツ）は、実がぶどうのように房になって実ることから。"
+    },
+    "roots": [],
+    "family": ["grapefruit（グレープフルーツ）"],
+    "synonyms": [
+      { "word": "raisin", "meaning": "レーズン", "nuance": "干しぶどう。", "etymology": "ラテン語 racēmus「ぶどうの房」" },
+      { "word": "vine", "meaning": "ぶどうのつる", "nuance": "つる植物。", "etymology": "ラテン語 vīnea" }
+    ]
+  },
+  {
+    "id": "cola", "word": "cola", "katakana": "コーラ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "コーラ",
+    "scene": "自販機のコーラ、コーラ味のグミ。",
+    "example": { "en": "I'll have a cola, please.", "ja": "コーラをください。" },
+    "etymology": {
+      "origin": "西アフリカの言語（kola の実）",
+      "story": "原料に使われたコーラの木の実（kola nut）から。コーラの実はカフェインを含み、西アフリカでは古くからかんで元気を出すのに使われた。"
+    },
+    "roots": [],
+    "family": ["kola nut（コーラの実）"],
+    "synonyms": [
+      { "word": "soda", "meaning": "炭酸飲料", "nuance": "甘い炭酸飲料全般。", "etymology": "イタリア語 soda" },
+      { "word": "pop", "meaning": "（米・方言）炭酸飲料", "nuance": "栓を抜く音から。", "etymology": "擬音語" }
+    ]
+  },
+  {
+    "id": "soda", "word": "soda", "katakana": "ソーダ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "炭酸飲料、ソーダ",
+    "scene": "クリームソーダ、ソーダ水。",
+    "example": { "en": "Too much soda is bad for your teeth.", "ja": "炭酸飲料の飲みすぎは歯に悪い。" },
+    "etymology": {
+      "origin": "イタリア語 soda「炭酸ナトリウム」（アラビア語 suwwād「海藻の一種」とする説など）",
+      "story": "もとは化学物質（炭酸ナトリウム）の名前。炭酸ガスを溶かした水を soda water と呼び、アメリカでは甘い炭酸飲料全般を soda と言うようになった。"
+    },
+    "roots": [],
+    "family": ["sodium（ナトリウム）"],
+    "synonyms": [
+      { "word": "cola", "meaning": "コーラ", "nuance": "炭酸飲料の一種。", "etymology": "西アフリカの言語" },
+      { "word": "sparkling", "meaning": "炭酸入りの", "nuance": "泡立つ。", "etymology": "sparkle「きらめく」" }
+    ]
+  },
+  {
+    "id": "bacon", "word": "bacon", "katakana": "ベーコン", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ベーコン",
+    "scene": "ベーコンエッグ、カリカリベーコン。",
+    "example": { "en": "I had bacon and eggs for breakfast.", "ja": "朝食にベーコンエッグを食べた。" },
+    "etymology": {
+      "origin": "古フランス語 bacon「豚の背肉」← ゲルマン語 *bakkon「背中」",
+      "story": "もとは「背中（の肉）」。bring home the bacon（ベーコンを持ち帰る）は「生活費を稼ぐ」という意味。"
+    },
+    "roots": [],
+    "family": ["back（背中・同じ語根とされる）"],
+    "synonyms": [
+      { "word": "ham", "meaning": "ハム", "nuance": "もも肉の加工品。", "etymology": "古英語 ham「ひざの裏」" },
+      { "word": "pork", "meaning": "豚肉", "nuance": "食肉としての豚。", "etymology": "ラテン語 porcus「ブタ」" }
+    ]
+  },
+  {
+    "id": "ham", "word": "ham", "katakana": "ハム", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ハム",
+    "scene": "ハムサンド、ハムエッグ。",
+    "example": { "en": "I made ham sandwiches for lunch.", "ja": "お昼にハムサンドを作った。" },
+    "etymology": {
+      "origin": "古英語 ham「ひざの裏、もも」",
+      "story": "豚の「もも」の部分の意味から、その肉の加工品へ。アマチュア無線家も ham と呼ぶが、こちらは語源不明。hamburger の ham とは関係がない。"
+    },
+    "roots": [],
+    "family": ["hamstring（ひざの裏の腱）"],
+    "synonyms": [
+      { "word": "bacon", "meaning": "ベーコン", "nuance": "背やばら肉の加工品。", "etymology": "ゲルマン語「背中」" },
+      { "word": "sausage", "meaning": "ソーセージ", "nuance": "ひき肉の腸詰め。", "etymology": "ラテン語 salsus「塩をした」" }
+    ]
+  },
+  {
+    "id": "steak", "word": "steak", "katakana": "ステーキ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ステーキ",
+    "scene": "ビーフステーキ、ハンバーグステーキ。",
+    "example": { "en": "How would you like your steak?", "ja": "ステーキの焼き加減はどうなさいますか？" },
+    "etymology": {
+      "origin": "古ノルド語 steik「焼いた肉」← steikja「串に刺して焼く」",
+      "story": "もとは串に刺して焼いた肉。stick（棒）と同じ系統の語とされる。焼き加減は rare / medium / well-done。"
+    },
+    "roots": [],
+    "family": ["stick（棒・同じ系統とされる）"],
+    "synonyms": [
+      { "word": "beef", "meaning": "牛肉", "nuance": "食肉としての牛。", "etymology": "フランス語 bœuf" },
+      { "word": "grill", "meaning": "焼き網、網焼きにする", "nuance": "直火で焼く。", "etymology": "ラテン語 crātīcula「小さな網」" }
+    ]
+  },
+  {
+    "id": "curry", "word": "curry", "katakana": "カレー", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "カレー",
+    "scene": "カレーライス、カレーパン。",
+    "example": { "en": "This curry is too spicy for me.", "ja": "このカレーは私には辛すぎる。" },
+    "etymology": {
+      "origin": "タミル語 kari「ソース、おかず」← ポルトガル語経由",
+      "story": "南インドのタミル語でご飯にかける汁やおかずを kari と呼んだのが始まりとされる。日本のカレーライスはイギリス経由で明治時代に伝わった。"
+    },
+    "roots": [],
+    "family": ["curry powder（カレー粉）"],
+    "synonyms": [
+      { "word": "spice", "meaning": "香辛料", "nuance": "カレーに使う香辛料。", "etymology": "ラテン語 speciēs「種類、商品」" },
+      { "word": "stew", "meaning": "シチュー", "nuance": "煮込み料理。", "etymology": "古フランス語 estuver" }
+    ]
+  },
+  {
+    "id": "pasta", "word": "pasta", "katakana": "パスタ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "パスタ",
+    "scene": "パスタランチ、トマトパスタ。",
+    "example": { "en": "Let's make pasta for dinner.", "ja": "夕食にパスタを作ろう。" },
+    "etymology": {
+      "origin": "イタリア語 pasta「練った生地」← 後期ラテン語 pasta「練り物」",
+      "story": "paste（ペースト）、pastry（焼き菓子）と同じ語。英語では spaghetti（細いひも）、macaroni なども含めて pasta と呼ぶ。"
+    },
+    "roots": [],
+    "family": ["paste（ペースト）、pastry（焼き菓子）"],
+    "synonyms": [
+      { "word": "spaghetti", "meaning": "スパゲッティ", "nuance": "細長いパスタ。", "etymology": "イタリア語 spago「ひも」の指小形" },
+      { "word": "noodle", "meaning": "めん", "nuance": "めん類全般。", "etymology": "ドイツ語 Nudel" }
+    ]
+  },
+  {
+    "id": "pepper", "word": "pepper", "katakana": "ペッパー", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "こしょう、ピーマン・唐辛子",
+    "scene": "ブラックペッパー、ペッパーミル。",
+    "example": { "en": "Pass me the salt and pepper, please.", "ja": "塩とこしょうを取ってください。" },
+    "etymology": {
+      "origin": "古英語 pipor ← ラテン語 piper ← サンスクリット語 pippalī",
+      "story": "インドの香辛料の名前が、ギリシャ・ローマを経て英語に入った。コロンブスがアメリカの唐辛子を「こしょう」と呼んだため、ピーマンや唐辛子も pepper（bell pepper、chili pepper）と呼ぶ。"
+    },
+    "roots": [],
+    "family": ["peppermint（ペパーミント）"],
+    "synonyms": [
+      { "word": "spice", "meaning": "香辛料", "nuance": "香りや辛みをつけるもの。", "etymology": "ラテン語 speciēs" },
+      { "word": "chili", "meaning": "唐辛子", "nuance": "辛い赤いペッパー。", "etymology": "ナワトル語 chīlli" }
+    ]
+  },
+  {
+    "id": "honey", "word": "honey", "katakana": "ハニー", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "はちみつ、（呼びかけ）あなた",
+    "scene": "ハニートースト、恋人への呼びかけ「ハニー」。",
+    "example": { "en": "I put honey in my tea.", "ja": "紅茶にはちみつを入れる。" },
+    "etymology": {
+      "origin": "古英語 hunig ← ゲルマン祖語 *hunangą",
+      "story": "甘いことから、恋人や家族への呼びかけにも使う。honeymoon（新婚旅行）は「蜜のように甘い月（期間）」。"
+    },
+    "roots": [],
+    "family": ["honeymoon（新婚旅行）"],
+    "synonyms": [
+      { "word": "syrup", "meaning": "シロップ", "nuance": "砂糖を煮つめた甘い液。", "etymology": "アラビア語 sharāb「飲み物」" },
+      { "word": "darling", "meaning": "愛しい人", "nuance": "呼びかけの言葉。", "etymology": "古英語 dēorling" }
+    ]
+  },
+  {
+    "id": "toast", "word": "toast", "katakana": "トースト", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "トースト、乾杯",
+    "scene": "バタートースト、「乾杯（トースト）の音頭」。",
+    "example": { "en": "Let's make a toast to the bride and groom!", "ja": "新郎新婦に乾杯しましょう！" },
+    "etymology": {
+      "origin": "古フランス語 toster「焼く」← ラテン語 tostus「焼いた」",
+      "story": "昔、ワインに焼いたパンを入れて風味をつけたことから、グラスを上げる「乾杯」も toast と呼ぶようになったとされる。"
+    },
+    "roots": [],
+    "family": ["toaster（トースター）"],
+    "synonyms": [
+      { "word": "bread", "meaning": "パン", "nuance": "焼く前のパン。", "etymology": "古英語 brēad" },
+      { "word": "cheers", "meaning": "乾杯！", "nuance": "グラスを合わせる言葉。", "etymology": "cheer「元気」" }
+    ]
+  },
+  {
+    "id": "donut", "word": "donut", "katakana": "ドーナツ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ドーナツ",
+    "scene": "ドーナツ屋、ドーナツ型。",
+    "example": { "en": "I bought a box of donuts.", "ja": "ドーナツを一箱買った。" },
+    "etymology": {
+      "origin": "dough「生地」+ nut「木の実」（doughnut の略式つづり）",
+      "story": "もとは木の実ほどの小さな揚げた生地のかたまり。正式なつづりは doughnut で、donut はアメリカで広まった略式のつづり。"
+    },
+    "roots": [],
+    "family": ["dough（生地）"],
+    "synonyms": [
+      { "word": "bagel", "meaning": "ベーグル", "nuance": "輪の形のかたいパン。", "etymology": "イディッシュ語 beygl" },
+      { "word": "pastry", "meaning": "焼き菓子", "nuance": "菓子パン類全般。", "etymology": "paste + -ry" }
+    ]
+  },
+  {
+    "id": "pie", "word": "pie", "katakana": "パイ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "パイ",
+    "scene": "アップルパイ、パイ投げ。",
+    "example": { "en": "My grandma makes the best apple pie.", "ja": "おばあちゃんのアップルパイは最高だ。" },
+    "etymology": {
+      "origin": "中英語 pie（カササギ magpie から来たとする説がある）",
+      "story": "いろいろな具を詰めたところが、なんでも集めるカササギ（magpie）の巣に似ていることから、という説がある。as easy as pie は「とても簡単」。"
+    },
+    "roots": [],
+    "family": ["magpie（カササギ）"],
+    "synonyms": [
+      { "word": "tart", "meaning": "タルト", "nuance": "上が開いたパイ。", "etymology": "古フランス語 tarte" },
+      { "word": "pastry", "meaning": "パイ生地、焼き菓子", "nuance": "生地そのもの。", "etymology": "paste + -ry" }
+    ]
+  },
+  {
+    "id": "zebra", "word": "zebra", "katakana": "ゼブラ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "シマウマ",
+    "scene": "ゼブラ柄、横断歩道（zebra crossing）。",
+    "example": { "en": "Zebras have black and white stripes.", "ja": "シマウマには白黒のしまがある。" },
+    "etymology": {
+      "origin": "ポルトガル語 zebra（もとは野生のロバを指した）",
+      "story": "語源ははっきりしない。イギリスでは白黒のしま模様の横断歩道を zebra crossing と呼ぶ。"
+    },
+    "roots": [],
+    "family": ["zebra crossing（横断歩道）"],
+    "synonyms": [
+      { "word": "horse", "meaning": "馬", "nuance": "シマウマはウマの仲間。", "etymology": "古英語 hors" },
+      { "word": "stripe", "meaning": "しま", "nuance": "しま模様。", "etymology": "中オランダ語 strīpe" }
+    ]
+  },
+  {
+    "id": "koala", "word": "koala", "katakana": "コアラ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "コアラ",
+    "scene": "オーストラリアのコアラ。",
+    "example": { "en": "Koalas sleep for up to 20 hours a day.", "ja": "コアラは1日に最大20時間眠る。" },
+    "etymology": {
+      "origin": "オーストラリア先住民の言語（ダルグ語 gula など）",
+      "story": "先住民の言葉が英語風のつづりになった。「水を飲まない」という意味だとよく言われるが、根拠は薄いとされる。クマ（bear）ではなく有袋類。"
+    },
+    "roots": [],
+    "family": ["kangaroo（カンガルー・同じくオーストラリアの有袋類）"],
+    "synonyms": [
+      { "word": "marsupial", "meaning": "有袋類", "nuance": "おなかの袋で子を育てる動物。", "etymology": "ラテン語 marsūpium「袋」" },
+      { "word": "eucalyptus", "meaning": "ユーカリ", "nuance": "コアラが食べる木。", "etymology": "ギリシャ語 eu「よく」+ kalyptos「おおわれた」" }
+    ]
+  },
+  {
+    "id": "gorilla", "word": "gorilla", "katakana": "ゴリラ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ゴリラ",
+    "scene": "動物園のゴリラ、ゴリラのような力持ち。",
+    "example": { "en": "The gorilla beat its chest.", "ja": "ゴリラが胸をたたいた。" },
+    "etymology": {
+      "origin": "ギリシャ語 gorillai（古代の航海記に出てくるアフリカの「毛深い人々」の名）",
+      "story": "紀元前5世紀ごろのカルタゴの航海者ハンノの記録に出てくる語を、19世紀の学者がこの類人猿の名前に使った。"
+    },
+    "roots": [],
+    "family": ["guerrilla（ゲリラ・語源は別。スペイン語「小さな戦争」）"],
+    "synonyms": [
+      { "word": "ape", "meaning": "類人猿", "nuance": "しっぽのない大型のサル。", "etymology": "古英語 apa" },
+      { "word": "primate", "meaning": "霊長類", "nuance": "サルやヒトの仲間。", "etymology": "ラテン語 prīmus「第一の」" }
+    ]
+  },
+  {
+    "id": "shark", "word": "shark", "katakana": "シャーク", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "サメ",
+    "scene": "映画『ジョーズ』、シャークアタック。",
+    "example": { "en": "A shark swam near the boat.", "ja": "ボートの近くをサメが泳いでいた。" },
+    "etymology": {
+      "origin": "16世紀の英語（語源ははっきりしない）",
+      "story": "船乗りの言葉として現れた。「ずる賢い人・高利貸し（loan shark）」の意味もある。"
+    },
+    "roots": [],
+    "family": ["loan shark（高利貸し）"],
+    "synonyms": [
+      { "word": "whale", "meaning": "クジラ", "nuance": "大きな海の哺乳類。", "etymology": "古英語 hwæl" },
+      { "word": "predator", "meaning": "捕食者", "nuance": "ほかの動物を食べる動物。", "etymology": "ラテン語 praedārī「略奪する」" }
+    ]
+  },
+  {
+    "id": "lamp", "word": "lamp", "katakana": "ランプ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "明かり、電気スタンド",
+    "scene": "キャンプのランプ、アラジンと魔法のランプ。",
+    "example": { "en": "Turn on the lamp. It's dark.", "ja": "暗いから電気スタンドをつけて。" },
+    "etymology": {
+      "origin": "ギリシャ語 lampas「たいまつ」← lampein「輝く」",
+      "story": "lantern（ランタン）も同じ lampein の家族。英語では机の上の電気スタンドも lamp。"
+    },
+    "roots": [],
+    "family": ["lantern（ランタン）"],
+    "synonyms": [
+      { "word": "light", "meaning": "明かり", "nuance": "光・照明全般。", "etymology": "古英語 lēoht" },
+      { "word": "lantern", "meaning": "ランタン", "nuance": "持ち運べる明かり。", "etymology": "ギリシャ語 lamptēr" }
+    ]
+  },
+  {
+    "id": "mirror", "word": "mirror", "katakana": "ミラー", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "鏡",
+    "scene": "バックミラー（英語は rearview mirror）、ミラーボール。",
+    "example": { "en": "She looked at herself in the mirror.", "ja": "彼女は鏡で自分の姿を見た。" },
+    "etymology": {
+      "origin": "古フランス語 mireor ← ラテン語 mīrārī「驚いて見る」",
+      "story": "「見て驚くもの」。miracle（奇跡）、admire（感心する）と同じ家族。"
+    },
+    "roots": ["mir"],
+    "family": ["miracle（奇跡）、admire（感心する）"],
+    "synonyms": [
+      { "word": "reflection", "meaning": "反射、映った像", "nuance": "鏡や水に映った姿。", "etymology": "ラテン語 reflectere「曲げ返す」" },
+      { "word": "glass", "meaning": "ガラス、鏡", "nuance": "looking glass は「鏡」の古い言い方。", "etymology": "古英語 glæs" }
+    ]
+  },
+  {
+    "id": "curtain", "word": "curtain", "katakana": "カーテン", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "カーテン、幕",
+    "scene": "遮光カーテン、カーテンコール。",
+    "example": { "en": "Could you close the curtains?", "ja": "カーテンを閉めてくれる？" },
+    "etymology": {
+      "origin": "古フランス語 cortine ← 後期ラテン語 cortīna「囲い」← cohors「中庭」",
+      "story": "「囲いをするもの」。court（中庭、宮廷）と同じ家族。劇の幕も curtain で、終演後のあいさつが curtain call。"
+    },
+    "roots": [],
+    "family": ["court（中庭）"],
+    "synonyms": [
+      { "word": "blind", "meaning": "ブラインド", "nuance": "日よけの板すだれ。", "etymology": "古英語 blind「見えない」" },
+      { "word": "drape", "meaning": "厚手のカーテン", "nuance": "drapes（米）で厚いカーテン。", "etymology": "古フランス語 drap「布」" }
+    ]
+  },
+  {
+    "id": "carpet", "word": "carpet", "katakana": "カーペット", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "じゅうたん",
+    "scene": "ホットカーペット、レッドカーペット。",
+    "example": { "en": "The actress walked down the red carpet.", "ja": "その女優はレッドカーペットを歩いた。" },
+    "etymology": {
+      "origin": "古フランス語 carpite ← 中世ラテン語 carpita「厚い毛織物」← ラテン語 carpere「つむ、ほぐす」",
+      "story": "羊毛を「ほぐして」作った布、とされる。"
+    },
+    "roots": [],
+    "family": ["carpeting（敷物類）"],
+    "synonyms": [
+      { "word": "rug", "meaning": "敷物、ラグ", "nuance": "床の一部に敷く小さめのもの。", "etymology": "古ノルド語 rögg「毛の房」" },
+      { "word": "mat", "meaning": "マット", "nuance": "玄関などの小さな敷物。", "etymology": "後期ラテン語 matta" }
+    ]
+  },
+  {
+    "id": "toilet", "word": "toilet", "katakana": "トイレ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "便器、（英）トイレ",
+    "scene": "「トイレどこですか？」",
+    "gap": "「トイレはどこですか」をアメリカで Where's the toilet? と聞くと「便器はどこ？」のように聞こえ、やや直接的。bathroom / restroom を使うのが自然（イギリスでは toilet / loo も一般的）。",
+    "trapQuiz": {"question": "アメリカのレストランで「トイレはどこですか？」と上品に聞くなら？", "answer": "Where's the restroom?", "wrong": ["Where's the toilet room?", "Where's the WC toilet?", "Where's the bath?"]},
+    "example": { "en": "Excuse me, where's the restroom?", "ja": "すみません、お手洗いはどこですか？" },
+    "etymology": {
+      "origin": "フランス語 toilette「小さな布（身支度用の布）」← toile「布」",
+      "story": "身支度の布 → 身支度そのもの → 身支度をする部屋 → 便所、と意味が移った。今でも eau de toilette（オードトワレ）に「身支度」の意味が残る。"
+    },
+    "roots": [],
+    "family": ["eau de toilette（オードトワレ）"],
+    "synonyms": [
+      { "word": "restroom", "meaning": "（米）お手洗い", "nuance": "店や施設のトイレ。", "etymology": "rest「休む」+ room" },
+      { "word": "bathroom", "meaning": "浴室、（米）トイレ", "nuance": "家のトイレもこう呼ぶ。", "etymology": "bath + room" }
+    ]
+  },
+  {
+    "id": "tissue", "word": "tissue", "katakana": "ティッシュ", "pos": "名詞", "cefr": "B1", "level": 1,
+    "meaning": "ティッシュペーパー、（体の）組織",
+    "scene": "ティッシュ箱、ポケットティッシュ。",
+    "example": { "en": "Can I have a tissue? I have a runny nose.", "ja": "ティッシュもらえる？ 鼻水が出ちゃって。" },
+    "etymology": {
+      "origin": "古フランス語 tissu「織られた布」← ラテン語 texere「織る」",
+      "story": "もとは薄い「織物」。そこから薄い紙、生物の「組織」に。text、textile と同じ texere の家族。"
+    },
+    "roots": ["text"],
+    "family": ["textile（織物）"],
+    "synonyms": [
+      { "word": "napkin", "meaning": "ナプキン", "nuance": "食事用の紙や布。", "etymology": "フランス語 nappe「布」" },
+      { "word": "handkerchief", "meaning": "ハンカチ", "nuance": "布のハンカチ。", "etymology": "hand + kerchief「頭にかぶる布」" }
+    ]
+  },
+  {
+    "id": "brush", "word": "brush", "katakana": "ブラシ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ブラシ、はけ、筆",
+    "scene": "歯ブラシ（toothbrush）、ヘアブラシ。",
+    "example": { "en": "Don't forget to brush your teeth.", "ja": "歯をみがくのを忘れないで。" },
+    "etymology": {
+      "origin": "古フランス語 broisse「やぶ、小枝」",
+      "story": "小枝を束ねてはけにしたことから。動詞の brush は「ブラシでこする」。brush up（みがき直す）は日本語の「ブラッシュアップ」。"
+    },
+    "roots": [],
+    "family": ["toothbrush（歯ブラシ）"],
+    "synonyms": [
+      { "word": "comb", "meaning": "くし", "nuance": "歯の並んだ道具。", "etymology": "古英語 camb" },
+      { "word": "broom", "meaning": "ほうき", "nuance": "床をはく道具。", "etymology": "古英語 brōm「エニシダ（植物）」" }
+    ]
+  },
+  {
+    "id": "tape", "word": "tape", "katakana": "テープ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "テープ",
+    "scene": "セロハンテープ、ガムテープ。",
+    "example": { "en": "I fixed the box with tape.", "ja": "箱をテープで留めた。" },
+    "etymology": {
+      "origin": "古英語 tæppe「細長い布」",
+      "story": "もとは布の細長いひも。録音用の磁気テープ、ゴールのテープなど「細長い帯」全般に。「ガムテープ」は和製英語で、英語では packing tape / duct tape。"
+    },
+    "roots": [],
+    "family": ["videotape（ビデオテープ）"],
+    "synonyms": [
+      { "word": "ribbon", "meaning": "リボン", "nuance": "飾りの細い帯。", "etymology": "古フランス語 riban" },
+      { "word": "adhesive", "meaning": "接着剤、粘着性の", "nuance": "くっつくもの。", "etymology": "ラテン語 adhaerēre「くっつく」" }
+    ]
+  },
+  {
+    "id": "hat", "word": "hat", "katakana": "ハット", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "（つばのある）帽子",
+    "scene": "麦わら帽子（straw hat）、シルクハット。",
+    "example": { "en": "He took off his hat.", "ja": "彼は帽子をぬいだ。" },
+    "etymology": {
+      "origin": "古英語 hætt ← ゲルマン祖語 *hattuz「頭をおおうもの」",
+      "story": "hood（フード）と同じ語根。I take my hat off to you.（あなたに脱帽です）は「敬服します」。"
+    },
+    "roots": [],
+    "family": ["hood（フード）"],
+    "synonyms": [
+      { "word": "cap", "meaning": "キャップ", "nuance": "前にだけつばのある帽子。", "etymology": "後期ラテン語 cappa" },
+      { "word": "helmet", "meaning": "ヘルメット", "nuance": "頭を守るかたい帽子。", "etymology": "古フランス語 helme" }
+    ]
+  },
+  {
+    "id": "boots", "word": "boots", "katakana": "ブーツ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ブーツ、長靴",
+    "scene": "ロングブーツ、レインブーツ。",
+    "example": { "en": "Wear your boots. It's snowing.", "ja": "ブーツをはいて。雪が降ってるよ。" },
+    "etymology": {
+      "origin": "古フランス語 bote（由来ははっきりしない）",
+      "story": "パソコンを「起動する」boot は、bootstrap（ブーツのつまみ革）を引っぱって自分を持ち上げる、というたとえから。"
+    },
+    "roots": [],
+    "family": ["reboot（再起動する）"],
+    "synonyms": [
+      { "word": "shoes", "meaning": "靴", "nuance": "靴全般。", "etymology": "古英語 scōh" },
+      { "word": "rain boots", "meaning": "長靴", "nuance": "雨の日用。", "etymology": "rain + boots" }
+    ]
+  },
+  {
+    "id": "socks", "word": "socks", "katakana": "ソックス", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "靴下",
+    "scene": "ハイソックス、ルーズソックス。",
+    "example": { "en": "I have a hole in my sock.", "ja": "靴下に穴があいている。" },
+    "etymology": {
+      "origin": "古英語 socc ← ラテン語 soccus「（喜劇役者がはいた）軽い上靴」",
+      "story": "古代ローマの喜劇役者の軽い靴が語源。ふつう2つで a pair of socks。"
+    },
+    "roots": [],
+    "family": ["sock（靴下の片方）"],
+    "synonyms": [
+      { "word": "stockings", "meaning": "ストッキング", "nuance": "長い靴下。", "etymology": "stock「すね」+ -ing" },
+      { "word": "tights", "meaning": "タイツ", "nuance": "腰までの厚い靴下。", "etymology": "tight「ぴったりした」" }
+    ]
+  },
+  {
+    "id": "belt", "word": "belt", "katakana": "ベルト", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ベルト、帯",
+    "scene": "シートベルト、ベルトコンベア。",
+    "example": { "en": "Fasten your seat belt.", "ja": "シートベルトを締めてください。" },
+    "etymology": {
+      "origin": "古英語 belt ← ラテン語 balteus「剣をつるす帯」",
+      "story": "帯状の地域も belt（the Corn Belt「トウモロコシ地帯」）。柔道などの黒帯は black belt。"
+    },
+    "roots": [],
+    "family": ["seat belt（シートベルト）"],
+    "synonyms": [
+      { "word": "strap", "meaning": "ひも、ストラップ", "nuance": "細い帯。", "etymology": "古英語 stropp" },
+      { "word": "band", "meaning": "帯、バンド", "nuance": "巻きつける帯。", "etymology": "古ノルド語 band" }
+    ]
+  },
+  {
+    "id": "pocket", "word": "pocket", "katakana": "ポケット", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ポケット",
+    "scene": "ポケットティッシュ、ポケットモンスター。",
+    "example": { "en": "I put my phone in my pocket.", "ja": "スマホをポケットに入れた。" },
+    "etymology": {
+      "origin": "アングロ・フランス語 poket「小さな袋」← poke「袋」",
+      "story": "「小さな袋」。pocket money（おこづかい）、pocket-sized（ポケットサイズの）のように「小さい」の意味にもなる。"
+    },
+    "roots": [],
+    "family": ["pickpocket（すり）"],
+    "synonyms": [
+      { "word": "pouch", "meaning": "ポーチ、小袋", "nuance": "小物入れ。", "etymology": "古フランス語 pouche" },
+      { "word": "bag", "meaning": "袋", "nuance": "袋全般。", "etymology": "古ノルド語 baggi" }
+    ]
+  },
+  {
+    "id": "jeans", "word": "jeans", "katakana": "ジーンズ", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "ジーンズ",
+    "scene": "デニムのジーンズ、ダメージジーンズ。",
+    "example": { "en": "He always wears jeans and a T-shirt.", "ja": "彼はいつもジーンズにTシャツだ。" },
+    "etymology": {
+      "origin": "jean「丈夫な綾織りの布」← 中世フランス語 Janne「ジェノヴァ」",
+      "story": "イタリアの港町ジェノヴァで作られた丈夫な布の名前から。いつも複数形で a pair of jeans。"
+    },
+    "roots": [],
+    "family": ["denim（デニム・フランスの町ニームの布）"],
+    "synonyms": [
+      { "word": "denim", "meaning": "デニム", "nuance": "ジーンズの布地。", "etymology": "フランス語 serge de Nîmes「ニームの布」" },
+      { "word": "pants", "meaning": "（米）ズボン", "nuance": "ズボン全般。", "etymology": "Pantalone" }
+    ]
+  },
+  {
+    "id": "golf", "word": "golf", "katakana": "ゴルフ", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "ゴルフ",
+    "scene": "ゴルフ場、ゴルフボール。",
+    "example": { "en": "My father plays golf on Sundays.", "ja": "父は日曜日にゴルフをする。" },
+    "etymology": {
+      "origin": "スコットランド語 golf（中オランダ語 colf「こん棒」とする説など）",
+      "story": "15世紀のスコットランドの記録に登場し、王が「ゴルフ禁止令」を出したほど流行した。「紳士だけ、女性はお断り」の略という話は作り話。"
+    },
+    "roots": [],
+    "family": ["golfer（ゴルファー）"],
+    "synonyms": [
+      { "word": "club", "meaning": "クラブ", "nuance": "ボールを打つ道具。", "etymology": "古ノルド語 klubba" },
+      { "word": "putt", "meaning": "パット", "nuance": "グリーンで転がす打ち方。", "etymology": "put「置く」の変形" }
+    ]
+  },
+  {
+    "id": "ski", "word": "ski", "katakana": "スキー", "pos": "名詞・動詞", "cefr": "A2", "level": 1,
+    "meaning": "スキー（をする）",
+    "scene": "スキー場、スキー合宿。",
+    "example": { "en": "We went skiing in Nagano.", "ja": "長野にスキーに行った。" },
+    "etymology": {
+      "origin": "ノルウェー語 ski ← 古ノルド語 skíð「木の板」",
+      "story": "「割った木の板」が原義。ノルウェーで雪の上を移動する道具として古くから使われた。発音は「スキー」。"
+    },
+    "roots": [],
+    "family": ["skier（スキーヤー）"],
+    "synonyms": [
+      { "word": "snowboard", "meaning": "スノーボード", "nuance": "1枚の板で滑る。", "etymology": "snow + board" },
+      { "word": "slope", "meaning": "ゲレンデ、坂", "nuance": "滑る斜面。", "etymology": "aslope「斜めに」" }
+    ]
+  },
+  {
+    "id": "hit", "word": "hit", "katakana": "ヒット", "pos": "名詞・動詞", "cefr": "A2", "level": 1,
+    "meaning": "打つ、当たる、大当たり",
+    "scene": "ヒット曲、野球のヒット。",
+    "example": { "en": "The song became a big hit.", "ja": "その歌は大ヒットした。" },
+    "etymology": {
+      "origin": "古ノルド語 hitta「出会う、当たる」",
+      "story": "「うまく当たる」→ 打つ、大当たり。検索で出てくる結果も hit。"
+    },
+    "roots": [],
+    "family": ["hitter（打者）"],
+    "synonyms": [
+      { "word": "strike", "meaning": "打つ", "nuance": "強く打つ。", "etymology": "古英語 strīcan" },
+      { "word": "success", "meaning": "成功", "nuance": "うまくいくこと。", "etymology": "ラテン語 succēdere" }
+    ]
+  },
+  {
+    "id": "bat", "word": "bat", "katakana": "バット", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "バット、コウモリ",
+    "scene": "野球のバット、バットマン（コウモリ男）。",
+    "example": { "en": "He swung the bat and missed.", "ja": "彼はバットを振ったが空振りした。" },
+    "etymology": {
+      "origin": "野球のバットは古英語 batt「こん棒」。コウモリは古ノルド語系の bakke から",
+      "story": "同じつづりでも「こん棒」と「コウモリ」は別の語源。"
+    },
+    "roots": [],
+    "family": ["batter（打者）"],
+    "synonyms": [
+      { "word": "club", "meaning": "こん棒", "nuance": "太い棒。", "etymology": "古ノルド語 klubba" },
+      { "word": "racket", "meaning": "ラケット", "nuance": "テニスなどで打つ道具。", "etymology": "フランス語 raquette" }
+    ]
+  },
+  {
+    "id": "net", "word": "net", "katakana": "ネット", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "網、ネット（インターネット）",
+    "scene": "テニスのネット、ネットで調べる。",
+    "example": { "en": "I found the answer on the net.", "ja": "ネットで答えを見つけた。" },
+    "etymology": {
+      "origin": "古英語 net ← ゲルマン祖語 *natją",
+      "story": "網の目のように広がるので、インターネット（internet）も略して the net。お金の「正味の（手取りの）」net は別語源（フランス語 net「きれいな」）。"
+    },
+    "roots": [],
+    "family": ["network（ネットワーク）、internet（インターネット）"],
+    "synonyms": [
+      { "word": "web", "meaning": "クモの巣、ウェブ", "nuance": "the Web でウェブ。", "etymology": "古英語 webb「織物」" },
+      { "word": "mesh", "meaning": "網目", "nuance": "細かい網の目。", "etymology": "中オランダ語 maesche" }
+    ]
+  },
+  {
+    "id": "radio", "word": "radio", "katakana": "ラジオ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ラジオ、無線",
+    "scene": "ラジオ体操、ラジオ番組。",
+    "example": { "en": "I listen to the radio in the car.", "ja": "車ではラジオを聞く。" },
+    "etymology": {
+      "origin": "ラテン語 radius「光線、車輪のスポーク」",
+      "story": "電波が「放射状」に広がることから radiotelegraphy（無線電信）と呼ばれ、短くなった。radiation（放射線）、radius（半径）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["radius（半径）、radiation（放射）"],
+    "synonyms": [
+      { "word": "broadcast", "meaning": "放送", "nuance": "番組を流すこと。", "etymology": "broad + cast" },
+      { "word": "wireless", "meaning": "無線（の）", "nuance": "線がない。", "etymology": "wire + less" }
+    ]
+  },
+  {
+    "id": "mail", "word": "mail", "katakana": "メール", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "郵便、（電子）メール",
+    "scene": "「メール送って」、メールアドレス。",
+    "example": { "en": "Did you check your mail today?", "ja": "今日、郵便（メール）は確認した？" },
+    "etymology": {
+      "origin": "古フランス語 male「かばん、袋」",
+      "story": "もとは郵便物を入れる「袋」。そこから郵便そのものに。電子メールは email。イギリスでは紙の郵便を post と言うことが多い。「よろい（鎖かたびら）」の mail は別語源。"
+    },
+    "roots": [],
+    "family": ["email（電子メール）、mailbox（郵便受け）"],
+    "synonyms": [
+      { "word": "post", "meaning": "（英）郵便", "nuance": "イギリスでの言い方。", "etymology": "イタリア語 posta" },
+      { "word": "message", "meaning": "メッセージ", "nuance": "チャットなどの伝言。", "etymology": "ラテン語 missus" }
+    ]
+  },
+  {
+    "id": "cool", "word": "cool", "katakana": "クール", "pos": "形容詞", "cefr": "A1", "level": 1,
+    "meaning": "涼しい、かっこいい、冷静な",
+    "scene": "「クール！」、クールビズ、クールな人。",
+    "example": { "en": "That jacket looks really cool!", "ja": "そのジャケット、すごくかっこいいね！" },
+    "etymology": {
+      "origin": "古英語 cōl ← ゲルマン祖語 *kōlaz",
+      "story": "cold（寒い）、chill と同じ語根。「かっこいい」の意味は20世紀のジャズの言葉から広まった。Cool down.（落ち着いて）のように「冷静な」も。"
+    },
+    "roots": [],
+    "family": ["cold（寒い）、chill（冷え）"],
+    "synonyms": [
+      { "word": "awesome", "meaning": "すごい", "nuance": "くだけた「最高」。", "etymology": "awe「畏れ」+ -some" },
+      { "word": "calm", "meaning": "落ち着いた", "nuance": "冷静な。", "etymology": "ギリシャ語 kauma「日中の暑さ（に休む）」" }
+    ]
+  },
+  {
+    "id": "hot", "word": "hot", "katakana": "ホット", "pos": "形容詞", "cefr": "A1", "level": 1,
+    "meaning": "熱い、暑い、辛い",
+    "scene": "ホットコーヒー、ホットな話題。",
+    "example": { "en": "This curry is really hot!", "ja": "このカレーは本当に辛い！" },
+    "etymology": {
+      "origin": "古英語 hāt ← ゲルマン祖語 *haitaz",
+      "story": "heat（熱）と同じ語根。英語の hot は「辛い」の意味もある（spicy と同じ）。hot news は「最新のニュース」。"
+    },
+    "roots": [],
+    "family": ["heat（熱）"],
+    "synonyms": [
+      { "word": "warm", "meaning": "暖かい", "nuance": "心地よい温かさ。", "etymology": "古英語 wearm" },
+      { "word": "spicy", "meaning": "辛い", "nuance": "香辛料のきいた。", "etymology": "spice + -y" }
+    ]
+  },
+  {
+    "id": "cute", "word": "cute", "katakana": "キュート", "pos": "形容詞", "cefr": "A2", "level": 1,
+    "meaning": "かわいい",
+    "scene": "キュートな笑顔、「かわいい！」。",
+    "example": { "en": "What a cute puppy!", "ja": "なんてかわいい子犬なの！" },
+    "etymology": {
+      "origin": "acute「鋭い、賢い」の頭音が落ちた形（18世紀）",
+      "story": "もとは「頭の回転が速い、抜け目ない」。アメリカで19世紀に「かわいい」の意味になった。"
+    },
+    "roots": [],
+    "family": ["acute（鋭い）"],
+    "synonyms": [
+      { "word": "pretty", "meaning": "かわいい、きれいな", "nuance": "見た目がきれい。", "etymology": "古英語 prættig「ずる賢い」" },
+      { "word": "adorable", "meaning": "愛らしい", "nuance": "たまらなくかわいい。", "etymology": "ラテン語 adōrāre「崇める」" }
+    ]
+  },
+  {
+    "id": "sweet", "word": "sweet", "katakana": "スイート", "pos": "形容詞", "cefr": "A1", "level": 1,
+    "meaning": "甘い、優しい",
+    "scene": "スイーツ、スイートポテト。",
+    "example": { "en": "That's so sweet of you!", "ja": "なんて優しいの！" },
+    "etymology": {
+      "origin": "古英語 swēte ← 印欧祖語 *swād-",
+      "story": "ラテン語 suāvis（心地よい）、ギリシャ語 hēdys（快い）と同じ祖先。「優しい」「かわいい」の意味でもよく使う。ホテルの「スイートルーム」は suite で別の語。"
+    },
+    "roots": [],
+    "family": ["sweets（お菓子）"],
+    "synonyms": [
+      { "word": "sugary", "meaning": "砂糖たっぷりの", "nuance": "甘すぎる感じ。", "etymology": "sugar + -y" },
+      { "word": "kind", "meaning": "親切な", "nuance": "優しい。", "etymology": "古英語 gecynde" }
+    ]
+  },
+  {
+    "id": "fresh", "word": "fresh", "katakana": "フレッシュ", "pos": "形容詞", "cefr": "A2", "level": 1,
+    "meaning": "新鮮な、さわやかな",
+    "scene": "フレッシュジュース、フレッシュな新人。",
+    "example": { "en": "These vegetables are fresh from the farm.", "ja": "この野菜は農場からとれたてだ。" },
+    "etymology": {
+      "origin": "古英語 fersc「塩からくない（真水の）」と古フランス語 freis の混ざった形",
+      "story": "もとは「塩気のない水（真水）」。freshwater（淡水）にその意味が残る。"
+    },
+    "roots": [],
+    "family": ["refresh（元気を回復させる）"],
+    "synonyms": [
+      { "word": "new", "meaning": "新しい", "nuance": "できたばかりの。", "etymology": "古英語 nīwe" },
+      { "word": "crisp", "meaning": "パリッとした", "nuance": "新鮮で歯ごたえのある。", "etymology": "ラテン語 crispus「縮れた」" }
+    ]
+  },
+  {
+    "id": "soft", "word": "soft", "katakana": "ソフト", "pos": "形容詞", "cefr": "A1", "level": 1,
+    "meaning": "やわらかい、穏やかな",
+    "scene": "ソフトクリーム、ソフトボール。",
+    "example": { "en": "This pillow is really soft.", "ja": "この枕はとてもやわらかい。" },
+    "etymology": {
+      "origin": "古英語 sōfte「穏やかな、心地よい」",
+      "story": "「ソフトクリーム」は和製英語で、英語では soft serve (ice cream)。コンピュータの software は hardware（機械）に対する「やわらかい部分」。"
+    },
+    "roots": [],
+    "family": ["software（ソフトウェア）"],
+    "synonyms": [
+      { "word": "gentle", "meaning": "穏やかな", "nuance": "優しく静か。", "etymology": "ラテン語 gentīlis" },
+      { "word": "smooth", "meaning": "なめらかな", "nuance": "ざらつきがない。", "etymology": "古英語 smōþ" }
+    ]
+  },
+  {
+    "id": "love", "word": "love", "katakana": "ラブ", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
+    "meaning": "愛（する）、大好き",
+    "scene": "ラブソング、ラブレター。",
+    "example": { "en": "I love this song!", "ja": "この歌、大好き！" },
+    "etymology": {
+      "origin": "古英語 lufu ← 印欧祖語 *lewbʰ-「好む」",
+      "story": "ラテン語 libet（喜ばせる）、ドイツ語 Liebe（愛）と同じ祖先。テニスの0点 love は語源に諸説ある。"
+    },
+    "roots": [],
+    "family": ["lovely（すてきな）、beloved（最愛の）"],
+    "synonyms": [
+      { "word": "like", "meaning": "好き", "nuance": "love より軽い好み。", "etymology": "古英語 līcian" },
+      { "word": "adore", "meaning": "大好きだ", "nuance": "強い愛着。", "etymology": "ラテン語 adōrāre" }
+    ]
+  },
+  {
+    "id": "heart", "word": "heart", "katakana": "ハート", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "心臓、心、ハート形",
+    "scene": "ハートマーク、ハートフル（和製英語）。",
+    "example": { "en": "She has a kind heart.", "ja": "彼女は心の優しい人だ。" },
+    "etymology": {
+      "origin": "古英語 heorte ← 印欧祖語 *ḱḗr",
+      "story": "ラテン語 cor（心臓）、ギリシャ語 kardia（心電図 cardiogram）と同じ祖先。by heart は「暗記して」。"
+    },
+    "roots": [],
+    "family": ["cardiac（心臓の・ギリシャ語系）"],
+    "synonyms": [
+      { "word": "mind", "meaning": "心、精神", "nuance": "考える心。", "etymology": "古英語 gemynd" },
+      { "word": "soul", "meaning": "魂", "nuance": "心の奥。", "etymology": "古英語 sāwol" }
+    ]
+  },
+  {
+    "id": "sun", "word": "sun", "katakana": "サン", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "太陽",
+    "scene": "サンルーム、サングラス、サンデー（日曜）。",
+    "example": { "en": "The sun rises in the east.", "ja": "太陽は東から昇る。" },
+    "etymology": {
+      "origin": "古英語 sunne ← 印欧祖語 *sóh₂wl̥",
+      "story": "ラテン語 sōl（ソーラー solar）と同じ祖先。Sunday は「太陽の日」。"
+    },
+    "roots": [],
+    "family": ["Sunday（日曜日）、sunny（晴れた）"],
+    "synonyms": [
+      { "word": "sunshine", "meaning": "日光", "nuance": "日の光。", "etymology": "sun + shine" },
+      { "word": "solar", "meaning": "太陽の", "nuance": "ソーラーパネルなど。", "etymology": "ラテン語 sōl" }
+    ]
+  },
+  {
+    "id": "moon", "word": "moon", "katakana": "ムーン", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "月",
+    "scene": "ハネムーン、ムーンウォーク。",
+    "example": { "en": "There's a full moon tonight.", "ja": "今夜は満月だ。" },
+    "etymology": {
+      "origin": "古英語 mōna ← 印欧祖語 *mḗh₁n̥s「月、（暦の）月」",
+      "story": "月の満ち欠けで時を測ったので、month（月）と同じ語根。Monday は「月の日」。"
+    },
+    "roots": [],
+    "family": ["month（月）、Monday（月曜日）"],
+    "synonyms": [
+      { "word": "lunar", "meaning": "月の", "nuance": "月に関する。", "etymology": "ラテン語 lūna" },
+      { "word": "crescent", "meaning": "三日月", "nuance": "細い月。", "etymology": "ラテン語 crēscere「育つ」" }
+    ]
+  },
+  {
+    "id": "sky", "word": "sky", "katakana": "スカイ", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "空",
+    "scene": "スカイツリー、スカイダイビング。",
+    "example": { "en": "The sky is clear today.", "ja": "今日は空が晴れわたっている。" },
+    "etymology": {
+      "origin": "古ノルド語 ský「雲」",
+      "story": "ヴァイキングの言葉で「雲」だった語が「空」になった。古英語では空を heofon（heaven）と言った。"
+    },
+    "roots": [],
+    "family": ["skyline（地平線、スカイライン）"],
+    "synonyms": [
+      { "word": "heaven", "meaning": "天国、天", "nuance": "宗教的な天。", "etymology": "古英語 heofon" },
+      { "word": "air", "meaning": "空中、空気", "nuance": "in the air で空中に。", "etymology": "ギリシャ語 aēr" }
+    ]
+  },
+  {
+    "id": "snow", "word": "snow", "katakana": "スノー", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
+    "meaning": "雪（が降る）",
+    "scene": "スノーボード、スノーマン。",
+    "example": { "en": "It snowed a lot last night.", "ja": "昨夜は雪がたくさん降った。" },
+    "etymology": {
+      "origin": "古英語 snāw ← 印欧祖語 *snóygʷʰos",
+      "story": "ラテン語 nix（雪）とも同じ祖先。snowman は雪だるま。"
+    },
+    "roots": [],
+    "family": ["snowy（雪の多い）"],
+    "synonyms": [
+      { "word": "sleet", "meaning": "みぞれ", "nuance": "雪まじりの雨。", "etymology": "中英語 slete" },
+      { "word": "blizzard", "meaning": "猛吹雪", "nuance": "激しい吹雪。", "etymology": "19世紀アメリカの語。由来不明" }
+    ]
+  },
+  {
+    "id": "rain", "word": "rain", "katakana": "レイン", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
+    "meaning": "雨（が降る）",
+    "scene": "レインコート、レインボー。",
+    "example": { "en": "It's raining hard outside.", "ja": "外は雨が激しく降っている。" },
+    "etymology": {
+      "origin": "古英語 regn ← ゲルマン祖語 *regną",
+      "story": "It's raining cats and dogs.（猫と犬が降っている）は「どしゃ降り」という有名な決まり文句。"
+    },
+    "roots": [],
+    "family": ["rainy（雨の）、rainbow（虹）"],
+    "synonyms": [
+      { "word": "shower", "meaning": "にわか雨", "nuance": "さっと降る雨。", "etymology": "古英語 scūr" },
+      { "word": "storm", "meaning": "嵐", "nuance": "風雨の激しい天気。", "etymology": "古英語 storm" }
+    ]
+  },
+  {
+    "id": "rainbow", "word": "rainbow", "katakana": "レインボー", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "虹",
+    "scene": "レインボーブリッジ、七色の虹。",
+    "example": { "en": "Look, there's a rainbow!", "ja": "見て、虹が出てる！" },
+    "etymology": {
+      "origin": "古英語 regnboga「雨の弓」",
+      "story": "rain（雨）+ bow（弓）。虹の形を弓にたとえた。"
+    },
+    "roots": [],
+    "family": ["bow（弓）"],
+    "synonyms": [
+      { "word": "spectrum", "meaning": "スペクトル", "nuance": "光の色の並び。", "etymology": "ラテン語 spectrum「姿」" },
+      { "word": "arc", "meaning": "弧", "nuance": "円の一部の形。", "etymology": "ラテン語 arcus「弓」" }
+    ]
+  },
+  {
+    "id": "fire", "word": "fire", "katakana": "ファイア", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "火、火事",
+    "scene": "キャンプファイア、ファイアーワークス（花火）。",
+    "example": { "en": "The firefighters put out the fire.", "ja": "消防士が火を消した。" },
+    "etymology": {
+      "origin": "古英語 fȳr ← 印欧祖語 *péh₂wr̥",
+      "story": "ギリシャ語 pyr（火）と同じ祖先で、pyrotechnics（花火術）もその仲間。動詞 fire は「発射する」「クビにする」。"
+    },
+    "roots": [],
+    "family": ["fireworks（花火）"],
+    "synonyms": [
+      { "word": "flame", "meaning": "炎", "nuance": "燃える火の先。", "etymology": "ラテン語 flamma" },
+      { "word": "blaze", "meaning": "炎、大火", "nuance": "勢いよく燃える火。", "etymology": "古英語 blæse「たいまつ」" }
+    ]
+  },
+  {
+    "id": "water", "word": "water", "katakana": "ウォーター", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "水",
+    "scene": "ミネラルウォーター、ウォーターサーバー。",
+    "example": { "en": "Can I have a glass of water?", "ja": "水を一杯もらえますか？" },
+    "etymology": {
+      "origin": "古英語 wæter ← 印欧祖語 *wódr̥",
+      "story": "ギリシャ語 hydōr（hydro「水の」）、ロシア語 voda（ウォッカ vodka＝小さな水）も同じ祖先。"
+    },
+    "roots": [],
+    "family": ["wet（ぬれた）、winter（冬・同じ語根とする説）"],
+    "synonyms": [
+      { "word": "liquid", "meaning": "液体", "nuance": "水のように流れるもの。", "etymology": "ラテン語 liquidus" },
+      { "word": "aqua", "meaning": "水（ラテン語）、水色", "nuance": "化粧品などに使う。", "etymology": "ラテン語 aqua" }
+    ]
+  },
+  {
+    "id": "gold", "word": "gold", "katakana": "ゴールド", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "金、金色",
+    "scene": "ゴールドメダル、ゴールドカード。",
+    "example": { "en": "She won a gold medal.", "ja": "彼女は金メダルをとった。" },
+    "etymology": {
+      "origin": "古英語 gold ← 印欧祖語 *ǵʰelh₃-「黄色く輝く」",
+      "story": "yellow（黄色）と同じ語根。golden（金の）は形容詞。"
+    },
+    "roots": [],
+    "family": ["golden（金色の）、yellow（黄色）"],
+    "synonyms": [
+      { "word": "silver", "meaning": "銀", "nuance": "2位の色。", "etymology": "古英語 seolfor" },
+      { "word": "treasure", "meaning": "宝物", "nuance": "金銀財宝。", "etymology": "ギリシャ語 thēsauros" }
+    ]
+  },
+  {
+    "id": "silver", "word": "silver", "katakana": "シルバー", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "銀、銀色",
+    "scene": "シルバーアクセ、シルバーシート（和製英語）。",
+    "gap": "「シルバーシート」「シルバー世代」のように「高齢者」の意味で silver を使うのは和製の用法。優先席は priority seat、高齢者は seniors / older people。",
+    "trapQuiz": {"question": "電車の「シルバーシート（優先席）」を英語でいうと？", "answer": "priority seat", "wrong": ["silver seat", "senior silver", "gray seat"]},
+    "example": { "en": "Her hair turned silver.", "ja": "彼女の髪は銀色になった。" },
+    "etymology": {
+      "origin": "古英語 seolfor（ゲルマン語、さらに古い由来は不明）",
+      "story": "silverware は銀の食器（今はナイフ・フォーク類全般）。silver lining（雲の銀のふち）は「希望の兆し」。"
+    },
+    "roots": [],
+    "family": ["silverware（銀食器）"],
+    "synonyms": [
+      { "word": "gold", "meaning": "金", "nuance": "1位の色。", "etymology": "古英語 gold" },
+      { "word": "metal", "meaning": "金属", "nuance": "金属全般。", "etymology": "ギリシャ語 metallon「鉱山」" }
+    ]
+  },
+  {
+    "id": "king", "word": "king", "katakana": "キング", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "王",
+    "scene": "キングサイズ、トランプのキング。",
+    "example": { "en": "The king lived in a large castle.", "ja": "王は大きな城に住んでいた。" },
+    "etymology": {
+      "origin": "古英語 cyning ← ゲルマン祖語 *kuningaz「一族（kin）の長」",
+      "story": "kin（親族）と同じ語根とされ、「一族を代表する者」。kingdom は「王国」。"
+    },
+    "roots": [],
+    "family": ["kingdom（王国）、kin（親族）"],
+    "synonyms": [
+      { "word": "monarch", "meaning": "君主", "nuance": "国を治める王や女王。", "etymology": "ギリシャ語 monos「ひとり」+ arkhein「支配する」" },
+      { "word": "ruler", "meaning": "支配者", "nuance": "国を治める人。", "etymology": "rule + -er" }
+    ]
+  },
+  {
+    "id": "queen", "word": "queen", "katakana": "クイーン", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "女王、王妃",
+    "scene": "クイーンサイズ、トランプのクイーン。",
+    "example": { "en": "The queen waved to the crowd.", "ja": "女王は群衆に手を振った。" },
+    "etymology": {
+      "origin": "古英語 cwēn「王の妻、女性」← 印欧祖語 *gʷḗn「女性」",
+      "story": "ギリシャ語 gynē（女性：gynecology 婦人科）と同じ祖先。女王バチも queen bee。"
+    },
+    "roots": [],
+    "family": ["queen bee（女王バチ）"],
+    "synonyms": [
+      { "word": "empress", "meaning": "女帝、皇后", "nuance": "皇帝の妻・女性の皇帝。", "etymology": "ラテン語 imperātrīx" },
+      { "word": "princess", "meaning": "王女", "nuance": "王の娘。", "etymology": "prince + -ess" }
+    ]
+  },
+  {
+    "id": "prince", "word": "prince", "katakana": "プリンス", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "王子",
+    "scene": "白馬の王子、プリンスホテル。",
+    "example": { "en": "The prince fell in love with a poor girl.", "ja": "王子は貧しい娘に恋をした。" },
+    "etymology": {
+      "origin": "古フランス語 prince ← ラテン語 prīnceps「第一の人」← prīmus「第一の」+ capere「取る」",
+      "story": "「一番目の座を取る人」。principal（校長、主要な）、principle（原理）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["principal（主要な）、principle（原理）"],
+    "synonyms": [
+      { "word": "heir", "meaning": "後継ぎ", "nuance": "地位や財産を受け継ぐ人。", "etymology": "ラテン語 hērēs" },
+      { "word": "noble", "meaning": "貴族", "nuance": "身分の高い人。", "etymology": "ラテン語 nōbilis" }
+    ]
+  },
+  {
+    "id": "princess", "word": "princess", "katakana": "プリンセス", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "王女、王子の妻",
+    "scene": "ディズニープリンセス、お姫様。",
+    "example": { "en": "The princess wore a beautiful dress.", "ja": "王女は美しいドレスを着ていた。" },
+    "etymology": {
+      "origin": "古フランス語 princesse ← prince + -esse（女性形）",
+      "story": "-ess は女性を表す語尾（actress、lioness）。今はジェンダーに中立な言い方が好まれ、actress より actor が使われることも多い。"
+    },
+    "roots": [],
+    "family": ["prince（王子）"],
+    "synonyms": [
+      { "word": "queen", "meaning": "女王", "nuance": "国を治める女性。", "etymology": "古英語 cwēn" },
+      { "word": "lady", "meaning": "貴婦人", "nuance": "身分の高い女性。", "etymology": "古英語 hlǣfdīge" }
+    ]
+  },
+  {
+    "id": "boy", "word": "boy", "katakana": "ボーイ", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "男の子、少年",
+    "scene": "ボーイフレンド、ボーイスカウト。",
+    "example": { "en": "The boy is playing with his dog.", "ja": "男の子が犬と遊んでいる。" },
+    "etymology": {
+      "origin": "中英語 boie「召使い、若者」（語源ははっきりしない）",
+      "story": "もとは「召使い」の意味もあった。日本語の「ボーイ（給仕係）」はその名残。Oh boy!（おやまあ！）は驚きの声。"
+    },
+    "roots": [],
+    "family": ["boyfriend（彼氏）"],
+    "synonyms": [
+      { "word": "lad", "meaning": "若者", "nuance": "イギリスのくだけた言い方。", "etymology": "中英語 ladde" },
+      { "word": "kid", "meaning": "子ども", "nuance": "くだけた言い方。", "etymology": "古ノルド語 kið「子ヤギ」" }
+    ]
+  },
+  {
+    "id": "girl", "word": "girl", "katakana": "ガール", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "女の子、少女",
+    "scene": "ガールフレンド、ガールズトーク。",
+    "example": { "en": "The girl is reading a book.", "ja": "女の子が本を読んでいる。" },
+    "etymology": {
+      "origin": "中英語 gurle「子ども（男女とも）」（語源ははっきりしない）",
+      "story": "13世紀ごろは男女どちらの子どもも指した。15世紀ごろから女の子だけを指すようになった。"
+    },
+    "roots": [],
+    "family": ["girlfriend（彼女）"],
+    "synonyms": [
+      { "word": "lass", "meaning": "少女", "nuance": "イギリス北部のくだけた言い方。", "etymology": "中英語 lasce" },
+      { "word": "maiden", "meaning": "乙女", "nuance": "文語的な言い方。", "etymology": "古英語 mægden" }
+    ]
+  },
+  {
+    "id": "lady", "word": "lady", "katakana": "レディ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "女性、婦人",
+    "scene": "レディースデー、レディファースト。",
+    "example": { "en": "Ladies and gentlemen, welcome!", "ja": "皆さま、ようこそ！" },
+    "etymology": {
+      "origin": "古英語 hlǣfdīge「パンをこねる人」← hlāf「パン」+ dīge「こねる人」",
+      "story": "一家のパンをこねる女主人、が原義とされる。lord（主人）は hlāfweard「パンの番人」。"
+    },
+    "roots": [],
+    "family": ["lord（主人）、loaf（パンのかたまり）"],
+    "synonyms": [
+      { "word": "woman", "meaning": "女性", "nuance": "一般的な語。", "etymology": "古英語 wīfmann" },
+      { "word": "gentleman", "meaning": "紳士", "nuance": "lady の男性版。", "etymology": "gentle + man" }
+    ]
+  },
+  {
+    "id": "coin", "word": "coin", "katakana": "コイン", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "硬貨",
+    "scene": "コインランドリー、コインロッカー。",
+    "example": { "en": "I found a coin on the street.", "ja": "道で硬貨を拾った。" },
+    "etymology": {
+      "origin": "古フランス語 coin「くさび、刻印の型」← ラテン語 cuneus「くさび」",
+      "story": "硬貨に模様を打ちつける「型」の名前が、硬貨そのものになった。動詞 coin は「新しい言葉を作る」。"
+    },
+    "roots": [],
+    "family": ["coinage（造語、硬貨の鋳造）"],
+    "synonyms": [
+      { "word": "change", "meaning": "小銭", "nuance": "おつりや小銭。", "etymology": "後期ラテン語 cambiāre" },
+      { "word": "token", "meaning": "代用硬貨、しるし", "nuance": "ゲームなどのコイン。", "etymology": "古英語 tācn「しるし」" }
+    ]
+  },
+  {
+    "id": "gum", "word": "gum", "katakana": "ガム", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ガム、歯ぐき",
+    "scene": "チューインガム、ガムテープ（和製英語）。",
+    "example": { "en": "Don't chew gum in class.", "ja": "授業中にガムをかまないで。" },
+    "etymology": {
+      "origin": "ギリシャ語 kommi ← エジプト語 qmyt「樹脂」",
+      "story": "木から出るねばねばした樹脂のこと。「歯ぐき」の gum は別の語（古英語 gōma）。"
+    },
+    "roots": [],
+    "family": ["chewing gum（チューインガム）"],
+    "synonyms": [
+      { "word": "candy", "meaning": "キャンディ", "nuance": "あめ・お菓子。", "etymology": "アラビア語 qandī" },
+      { "word": "glue", "meaning": "のり", "nuance": "くっつけるもの。", "etymology": "ラテン語 glūs" }
+    ]
+  },
+  {
+    "id": "jelly", "word": "jelly", "katakana": "ゼリー", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ゼリー、（米）ジャム",
+    "scene": "フルーツゼリー、ゼリー飲料。",
+    "example": { "en": "Grape jelly on toast is my favorite.", "ja": "トーストにぶどうジャムを塗るのが好きだ。" },
+    "etymology": {
+      "origin": "古フランス語 gelee「凍ったもの」← ラテン語 gelāre「凍らせる」",
+      "story": "冷やして固めることから「凍ったもの」。アメリカでは果汁で作る透明なジャムも jelly。デザートのゼリーはアメリカでは Jell-O（商品名）とも言う。"
+    },
+    "roots": [],
+    "family": ["gelatin（ゼラチン）、jellyfish（クラゲ）"],
+    "synonyms": [
+      { "word": "jam", "meaning": "ジャム", "nuance": "果肉入りのジャム。", "etymology": "英語 jam「押しこむ」" },
+      { "word": "gelatin", "meaning": "ゼラチン", "nuance": "ゼリーを固める材料。", "etymology": "イタリア語 gelatina" }
+    ]
+  },
+  {
+    "id": "pudding", "word": "pudding", "katakana": "プディング", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "プリン、（英）デザート",
+    "scene": "「プリン」、ヨークシャープディング。",
+    "gap": "日本の「プリン」は英語では custard pudding / crème caramel。イギリスでは pudding がデザート全般を指し、ソーセージのような料理（black pudding）も pudding と呼ぶ。",
+    "trapQuiz": {"question": "イギリスで What's for pudding? と聞かれたら、何を聞かれている？", "answer": "デザートは何か", "wrong": ["プリンは何味か", "ソーセージは何か", "朝食は何か"]},
+    "example": { "en": "We had chocolate pudding for dessert.", "ja": "デザートにチョコレートプディングを食べた。" },
+    "etymology": {
+      "origin": "中英語 poding「腸詰め」（古フランス語 boudin とする説など）",
+      "story": "もとは肉を腸に詰めた料理。そこから蒸したり焼いたりする料理・菓子全般になった。日本語の「プリン」は pudding がなまったもの。"
+    },
+    "roots": [],
+    "family": ["black pudding（ブラッドソーセージ）"],
+    "synonyms": [
+      { "word": "custard", "meaning": "カスタード", "nuance": "卵と牛乳のクリーム。", "etymology": "中英語 crustade「パイ」" },
+      { "word": "dessert", "meaning": "デザート", "nuance": "食後の甘いもの。", "etymology": "フランス語 desservir" }
+    ]
+  },
+  {
+    "id": "straw", "word": "straw", "katakana": "ストロー", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ストロー、わら",
+    "scene": "麦わら帽子（straw hat）、紙ストロー。",
+    "example": { "en": "Can I have a straw?", "ja": "ストローをもらえますか？" },
+    "etymology": {
+      "origin": "古英語 strēaw「わら」",
+      "story": "もとは麦の「わら」。わらの茎で飲み物を吸ったことからストローに。the last straw（最後のわら一本）は「我慢の限界」。"
+    },
+    "roots": [],
+    "family": ["strawberry（イチゴ・語源は不明）"],
+    "synonyms": [
+      { "word": "hay", "meaning": "干し草", "nuance": "家畜のえさの草。", "etymology": "古英語 hēg" },
+      { "word": "tube", "meaning": "管", "nuance": "細長い筒。", "etymology": "ラテン語 tubus" }
+    ]
+  },
+  {
+    "id": "pot", "word": "pot", "katakana": "ポット", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "深なべ、つぼ、ポット",
+    "scene": "ティーポット、電気ポット（和製）。",
+    "gap": "日本語の「（電気）ポット」は英語では electric kettle / thermos（保温ポット）。英語の pot はまず「深なべ・つぼ・鉢」。",
+    "trapQuiz": {"question": "お湯をわかす「電気ポット」を英語でいうと？", "answer": "electric kettle", "wrong": ["electric pot", "hot pot", "boil pot"]},
+    "example": { "en": "She made soup in a big pot.", "ja": "彼女は大きななべでスープを作った。" },
+    "etymology": {
+      "origin": "古英語 pott ← 後期ラテン語 pottus",
+      "story": "なべ、つぼ、植木鉢（flowerpot）など丸い入れ物全般。"
+    },
+    "roots": [],
+    "family": ["teapot（ティーポット）、flowerpot（植木鉢）"],
+    "synonyms": [
+      { "word": "pan", "meaning": "平なべ", "nuance": "浅いフライパン。", "etymology": "古英語 panne" },
+      { "word": "kettle", "meaning": "やかん", "nuance": "お湯をわかす道具。", "etymology": "古ノルド語 ketill" }
+    ]
+  },
+  {
+    "id": "doll", "word": "doll", "katakana": "ドール", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "人形",
+    "scene": "ドールハウス、フランス人形。",
+    "example": { "en": "My sister collects dolls.", "ja": "妹は人形を集めている。" },
+    "etymology": {
+      "origin": "Dorothy（ドロシー）の愛称 Doll から",
+      "story": "女の子の名前の愛称が「人形」の意味になった。"
+    },
+    "roots": [],
+    "family": ["dollhouse（ドールハウス）"],
+    "synonyms": [
+      { "word": "figure", "meaning": "フィギュア", "nuance": "人物の模型。", "etymology": "ラテン語 figūra" },
+      { "word": "puppet", "meaning": "あやつり人形", "nuance": "糸や手で動かす人形。", "etymology": "古フランス語 poupette" }
+    ]
+  },
+  {
+    "id": "puzzle", "word": "puzzle", "katakana": "パズル", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "パズル、なぞ",
+    "scene": "ジグソーパズル、クロスワードパズル。",
+    "example": { "en": "We finished a 1,000-piece puzzle.", "ja": "1000ピースのパズルを完成させた。" },
+    "etymology": {
+      "origin": "16世紀の英語 puselet「困らせる」（語源は不明）",
+      "story": "「頭を悩ませるもの」。動詞 puzzle は「困惑させる」。"
+    },
+    "roots": [],
+    "family": ["puzzled（困惑した）"],
+    "synonyms": [
+      { "word": "riddle", "meaning": "なぞなぞ", "nuance": "言葉遊びの問題。", "etymology": "古英語 rǣdels" },
+      { "word": "mystery", "meaning": "なぞ", "nuance": "わからないこと。", "etymology": "ギリシャ語 mystērion" }
+    ]
+  },
+  {
+    "id": "block", "word": "block", "katakana": "ブロック", "pos": "名詞・動詞", "cefr": "A2", "level": 1,
+    "meaning": "かたまり、区画、ふさぐ",
+    "scene": "おもちゃのブロック、ブロック塀、SNSでブロック。",
+    "example": { "en": "The store is two blocks away.", "ja": "その店は2区画先にある。" },
+    "etymology": {
+      "origin": "古フランス語 bloc ← 中オランダ語 blok「木のかたまり」",
+      "story": "「かたまり」→ 建物の区画、道をふさぐもの。アメリカでは道順を「〜ブロック先」と数える。"
+    },
+    "roots": [],
+    "family": ["blockbuster（大ヒット作）"],
+    "synonyms": [
+      { "word": "chunk", "meaning": "大きなかたまり", "nuance": "ごろっとした部分。", "etymology": "chuck の変形" },
+      { "word": "obstruct", "meaning": "ふさぐ", "nuance": "じゃまをする。", "etymology": "ラテン語 obstruere" }
+    ]
+  },
+  {
+    "id": "circle", "word": "circle", "katakana": "サークル", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "円、仲間",
+    "scene": "大学のサークル、ミステリーサークル。",
+    "gap": "大学の「サークル」は英語では club が自然。circle も「仲間の輪（a circle of friends）」の意味はあるが、団体名としてはふつう使わない。",
+    "trapQuiz": {"question": "「大学でテニスサークルに入った」を自然な英語にすると？", "answer": "I joined a tennis club at university.", "wrong": ["I joined a tennis circle at university.", "I entered tennis circle.", "I joined circle tennis."]},
+    "example": { "en": "Draw a circle on the paper.", "ja": "紙に円を描いて。" },
+    "etymology": {
+      "origin": "ラテン語 circulus「小さな輪」← circus「輪、競技場」",
+      "story": "circus（サーカス）、circuit（回路）、search（探し回る）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["circus（サーカス）、circuit（回路）"],
+    "synonyms": [
+      { "word": "ring", "meaning": "輪", "nuance": "丸い輪。", "etymology": "古英語 hring" },
+      { "word": "club", "meaning": "クラブ、サークル", "nuance": "日本の「サークル」はこれ。", "etymology": "古ノルド語 klubba" }
+    ]
+  },
+  {
+    "id": "line", "word": "line", "katakana": "ライン", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "線、列、行",
+    "scene": "スタートライン、ラインを送る（アプリ）。",
+    "example": { "en": "Please wait in line.", "ja": "列に並んでお待ちください。" },
+    "etymology": {
+      "origin": "古英語 līne ← ラテン語 līnea「亜麻の糸」← līnum「亜麻」",
+      "story": "亜麻の糸 → ぴんと張った線。linen（リネン）、lingerie（ランジェリー）も līnum から。"
+    },
+    "roots": [],
+    "family": ["linen（リネン）、online（オンライン）"],
+    "synonyms": [
+      { "word": "row", "meaning": "列、横の並び", "nuance": "横一列。", "etymology": "古英語 rāw" },
+      { "word": "queue", "meaning": "（英）列", "nuance": "順番待ちの列。", "etymology": "フランス語 queue「しっぽ」" }
+    ]
+  },
+  {
+    "id": "stop", "word": "stop", "katakana": "ストップ", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
+    "meaning": "止まる、止める、停留所",
+    "scene": "ストップウォッチ、バス停（bus stop）。",
+    "example": { "en": "Stop! The light is red.", "ja": "止まって！ 信号が赤だよ。" },
+    "etymology": {
+      "origin": "古英語 -stoppian「ふさぐ」← 後期ラテン語 stuppāre「麻くずで詰める」",
+      "story": "もとは穴を「ふさぐ」。stopper（栓）にその意味が残る。"
+    },
+    "roots": [],
+    "family": ["stopwatch（ストップウォッチ）"],
+    "synonyms": [
+      { "word": "halt", "meaning": "停止", "nuance": "急に止まる。", "etymology": "ドイツ語 halten" },
+      { "word": "pause", "meaning": "一時停止", "nuance": "ちょっと止める。", "etymology": "ラテン語 pausa" }
+    ]
+  },
+  {
+    "id": "kick", "word": "kick", "katakana": "キック", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
+    "meaning": "ける",
+    "scene": "キックボード、フリーキック。",
+    "example": { "en": "He kicked the ball into the goal.", "ja": "彼はボールをけってゴールに入れた。" },
+    "etymology": {
+      "origin": "中英語 kiken（語源は不明）",
+      "story": "kick off（試合を始める）から、kickoff（キックオフ）は「開始」の意味に。"
+    },
+    "roots": [],
+    "family": ["kickoff（キックオフ）"],
+    "synonyms": [
+      { "word": "punt", "meaning": "パントキック", "nuance": "ボールを落としてける。", "etymology": "由来不明" },
+      { "word": "boot", "meaning": "ける（くだけた）", "nuance": "強くける。", "etymology": "boot「長靴」" }
+    ]
+  },
+  {
+    "id": "punch", "word": "punch", "katakana": "パンチ", "pos": "名詞・動詞", "cefr": "B1", "level": 1,
+    "meaning": "げんこつで打つ、パンチ、穴あけ器",
+    "scene": "ボクシングのパンチ、パンチの効いた味。",
+    "example": { "en": "He punched the bag again and again.", "ja": "彼は何度もサンドバッグを殴った。" },
+    "etymology": {
+      "origin": "古フランス語 poinçonner「刺す、穴をあける」← ラテン語 pungere「刺す」",
+      "story": "「突く」から「拳で突く」。穴あけパンチも同じ語。飲み物の「ポンチ（フルーツポンチ）」は別語源（ヒンディー語 pāñc「5（つの材料）」）。"
+    },
+    "roots": [],
+    "family": ["puncture（穴をあける）"],
+    "synonyms": [
+      { "word": "hit", "meaning": "打つ", "nuance": "打つこと全般。", "etymology": "古ノルド語 hitta" },
+      { "word": "blow", "meaning": "一撃", "nuance": "強い打撃。", "etymology": "中英語 blaw" }
+    ]
+  },
+  {
+    "id": "dash", "word": "dash", "katakana": "ダッシュ", "pos": "名詞・動詞", "cefr": "B1", "level": 1,
+    "meaning": "突進（する）、ダッシュ記号（—）",
+    "scene": "「ダッシュで帰る」、スタートダッシュ。",
+    "example": { "en": "I have to dash. See you!", "ja": "急がなくちゃ。またね！" },
+    "etymology": {
+      "origin": "中英語 dasshen「強く打つ」（北欧語起源とされる）",
+      "story": "「勢いよくぶつける」→ 勢いよく走る。記号の「—」も dash。"
+    },
+    "roots": [],
+    "family": ["dashboard（ダッシュボード）"],
+    "synonyms": [
+      { "word": "rush", "meaning": "急ぐ", "nuance": "あわてて急ぐ。", "etymology": "古フランス語 ruser" },
+      { "word": "sprint", "meaning": "全力疾走", "nuance": "短距離を全力で走る。", "etymology": "古ノルド語 spretta" }
+    ]
+  },
+  {
+    "id": "jogging", "word": "jogging", "katakana": "ジョギング", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "ジョギング",
+    "scene": "朝のジョギング、ジョギングコース。",
+    "example": { "en": "I go jogging every morning.", "ja": "私は毎朝ジョギングに行く。" },
+    "etymology": {
+      "origin": "jog「軽く揺する、ゆっくり走る」+ -ing",
+      "story": "jog はもとは「軽く押す、揺する」。jog one's memory は「記憶を呼び起こす」。"
+    },
+    "roots": [],
+    "family": ["jogger（ジョギングする人）"],
+    "synonyms": [
+      { "word": "running", "meaning": "ランニング", "nuance": "走ること全般。", "etymology": "古英語 rinnan" },
+      { "word": "walk", "meaning": "散歩", "nuance": "歩くこと。", "etymology": "古英語 wealcan" }
+    ]
+  },
+  {
+    "id": "rose", "word": "rose", "katakana": "ローズ", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "バラ",
+    "scene": "ローズティー、赤いバラ。",
+    "example": { "en": "He gave her a dozen red roses.", "ja": "彼は彼女に赤いバラを12本贈った。" },
+    "etymology": {
+      "origin": "古英語 rōse ← ラテン語 rosa",
+      "story": "色の名前（バラ色）にもなる。Every rose has its thorn.（どんなバラにもとげがある）は「完全なものはない」ということわざ。"
+    },
+    "roots": [],
+    "family": ["rosy（バラ色の）"],
+    "synonyms": [
+      { "word": "tulip", "meaning": "チューリップ", "nuance": "春の花。", "etymology": "トルコ語 tülbent「ターバン」" },
+      { "word": "blossom", "meaning": "花", "nuance": "果樹の花。", "etymology": "古英語 blōstm" }
+    ]
+  },
+  {
+    "id": "tulip", "word": "tulip", "katakana": "チューリップ", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "チューリップ",
+    "scene": "チューリップ畑、オランダの花。",
+    "example": { "en": "Tulips bloom in spring.", "ja": "チューリップは春に咲く。" },
+    "etymology": {
+      "origin": "トルコ語 tülbent「ターバン」← ペルシャ語 dulband",
+      "story": "花の形がターバンに似ていることから。17世紀のオランダでは球根の値段が高騰する「チューリップ・バブル」が起きた。"
+    },
+    "roots": [],
+    "family": ["turban（ターバン）"],
+    "synonyms": [
+      { "word": "bulb", "meaning": "球根", "nuance": "花の根元のかたまり。電球も bulb。", "etymology": "ラテン語 bulbus「たまねぎ」" },
+      { "word": "rose", "meaning": "バラ", "nuance": "代表的な花。", "etymology": "ラテン語 rosa" }
+    ]
+  },
+  {
+    "id": "potato", "word": "potato", "katakana": "ポテト", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "じゃがいも",
+    "scene": "フライドポテト（英語は fries）、ポテトチップス。",
+    "example": { "en": "I'll have fries with my burger.", "ja": "バーガーにはポテトをつけてください。" },
+    "etymology": {
+      "origin": "スペイン語 patata ← タイノ語 batata「さつまいも」",
+      "story": "もとはカリブの言葉で「さつまいも」。のちにじゃがいもを指すようになった。「フライドポテト」は英語では French fries（米）/ chips（英）。"
+    },
+    "roots": [],
+    "family": ["sweet potato（さつまいも）"],
+    "synonyms": [
+      { "word": "fries", "meaning": "フライドポテト", "nuance": "日本の「ポテト」はこれ。", "etymology": "French fried potatoes の略" },
+      { "word": "chips", "meaning": "（英）フライドポテト、（米）ポテトチップス", "nuance": "国で意味が違う。", "etymology": "chip「かけら」" }
+    ]
+  },
+  {
+    "id": "onion", "word": "onion", "katakana": "オニオン", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "たまねぎ",
+    "scene": "オニオンスープ、オニオンリング。",
+    "example": { "en": "Cutting onions makes me cry.", "ja": "たまねぎを切ると涙が出る。" },
+    "etymology": {
+      "origin": "古フランス語 oignon ← ラテン語 ūniō「ひとつのもの、真珠」",
+      "story": "皮が重なってひとつの玉になっていることから、とされる。union（連合）と同じ ūnus「一つ」の家族。"
+    },
+    "roots": [],
+    "family": ["union（連合・同じ語根とされる）"],
+    "synonyms": [
+      { "word": "garlic", "meaning": "にんにく", "nuance": "香りの強いネギの仲間。", "etymology": "古英語 gārlēac「槍のネギ」" },
+      { "word": "leek", "meaning": "ポロネギ", "nuance": "西洋ネギ。", "etymology": "古英語 lēac" }
+    ]
+  },
+  {
+    "id": "corn", "word": "corn", "katakana": "コーン", "pos": "名詞", "cefr": "A2", "level": 1,
+    "meaning": "（米）とうもろこし、（英）穀物",
+    "scene": "コーンスープ、ポップコーン、コーンフレーク。",
+    "example": { "en": "We had grilled corn at the festival.", "ja": "お祭りで焼きとうもろこしを食べた。" },
+    "etymology": {
+      "origin": "古英語 corn「穀物の粒」",
+      "story": "もとは麦など穀物全般の「粒」。アメリカではとうもろこし（Indian corn）を指すようになった。アイスの「コーン」は cone（円すい）で別の語。"
+    },
+    "roots": [],
+    "family": ["popcorn（ポップコーン）、kernel（核・同じ語根）"],
+    "synonyms": [
+      { "word": "maize", "meaning": "とうもろこし", "nuance": "イギリスや学術での言い方。", "etymology": "タイノ語 mahiz" },
+      { "word": "grain", "meaning": "穀物", "nuance": "穀物全般。", "etymology": "ラテン語 grānum" }
+    ]
+  },
+  {
+    "id": "mint", "word": "mint", "katakana": "ミント", "pos": "名詞", "cefr": "B1", "level": 1,
+    "meaning": "ミント、造幣局",
+    "scene": "ミントガム、チョコミント。",
+    "example": { "en": "This tea has a fresh mint flavor.", "ja": "このお茶はさわやかなミントの風味がする。" },
+    "etymology": {
+      "origin": "古英語 minte ← ラテン語 mentha ← ギリシャ語 minthē",
+      "story": "ギリシャ神話で、妖精ミンテーがハーブに変えられた話がある。「造幣局」の mint は別語源（ラテン語 monēta「お金」、money と同じ）。in mint condition は「新品同様の」。"
+    },
+    "roots": [],
+    "family": ["peppermint（ペパーミント）"],
+    "synonyms": [
+      { "word": "herb", "meaning": "ハーブ", "nuance": "香りのある草。", "etymology": "ラテン語 herba" },
+      { "word": "menthol", "meaning": "メントール", "nuance": "ミントのすっとする成分。", "etymology": "ラテン語 mentha" }
+    ]
+  },
+  {
+    "id": "pool", "word": "pool", "katakana": "プール", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "プール、水たまり",
+    "scene": "市民プール、カープール（相乗り）。",
+    "example": { "en": "Let's go swimming in the pool.", "ja": "プールに泳ぎに行こう。" },
+    "etymology": {
+      "origin": "古英語 pōl「水たまり、池」",
+      "story": "もとは自然の「水たまり」。お金や人を「出し合う」pool は別語源（フランス語 poule「賭け金」）で、car pool（相乗り）はこちら。"
+    },
+    "roots": [],
+    "family": ["puddle（水たまり・近い語）"],
+    "synonyms": [
+      { "word": "pond", "meaning": "池", "nuance": "小さな池。", "etymology": "pound「囲い」の変形" },
+      { "word": "puddle", "meaning": "水たまり", "nuance": "雨のあとの小さな水たまり。", "etymology": "古英語 pudd「溝」" }
+    ]
   }
 ]

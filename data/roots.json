@@ -18,7 +18,7 @@
   { "id": "clam",  "form": "claim / clam",      "meaning": "叫ぶ",           "source": "ラテン語 clāmāre",     "words": ["claim"], "extra": ["exclaim", "proclaim", "clamor"] },
   { "id": "nat",   "form": "nat / nai",         "meaning": "生まれる",       "source": "ラテン語 nāscī / nātus", "words": ["naive", "nature", "renaissance"], "extra": ["native", "nation", "innate"] },
   { "id": "spir",  "form": "spir",              "meaning": "息をする",       "source": "ラテン語 spīrāre",     "words": ["spirit"], "extra": ["inspire", "expire", "respiration", "conspire"] },
-  { "id": "mir",   "form": "mir / marv",        "meaning": "驚く・見つめる", "source": "ラテン語 mīrārī",      "words": ["miracle"], "extra": ["marvel", "admire", "mirror", "mirage"] },
+  { "id": "mir",   "form": "mir / marv",        "meaning": "驚く・見つめる", "source": "ラテン語 mīrārī",      "words": ["miracle", "mirror"], "extra": ["marvel", "admire", "mirage"] },
   { "id": "fac",   "form": "fac / fic / fact / feit", "meaning": "作る・行う", "source": "ラテン語 facere",    "words": ["sacrifice", "fashion", "perfect", "benefit", "factor", "feature", "official"], "extra": ["factory", "artifact", "forfeit", "effect", "difficult"] },
   { "id": "coqu", "form": "coqu / coc / cook", "meaning": "料理する・煮る", "source": "ラテン語 coquere", "words": ["kitchen"], "extra": ["cook", "biscuit", "precocious", "concoct"] },
   { "id": "man", "form": "man / main", "meaning": "とどまる", "source": "ラテン語 manēre", "words": ["mansion"], "extra": ["remain", "permanent", "manor"] },
@@ -52,7 +52,7 @@
   { "id": "ced", "form": "ced / cess / ceed", "meaning": "行く・譲る", "source": "ラテン語 cēdere", "words": ["access"], "extra": ["exceed", "succeed", "process", "proceed"] },
   { "id": "log", "form": "log / logy", "meaning": "言葉・理性", "source": "ギリシャ語 logos / legein", "words": ["catalog", "logic", "ideology"], "extra": ["dialogue", "biology", "apology", "prologue"] },
   { "id": "ject", "form": "ject", "meaning": "投げる", "source": "ラテン語 iacere", "words": ["project"], "extra": ["reject", "object", "inject", "subject"] },
-  { "id": "text", "form": "text / tex", "meaning": "織る", "source": "ラテン語 texere", "words": ["context"], "extra": ["text", "textile", "texture"] },
+  { "id": "text", "form": "text / tex", "meaning": "織る", "source": "ラテン語 texere", "words": ["context", "tissue"], "extra": ["text", "textile", "texture"] },
   { "id": "vert", "form": "vert / vers", "meaning": "向ける・回す", "source": "ラテン語 vertere", "words": ["diversity"], "extra": ["reverse", "version", "convert", "advertise"] },
   { "id": "scrib", "form": "scrib / script", "meaning": "書く", "source": "ラテン語 scrībere", "words": ["subscription"], "extra": ["describe", "script", "manuscript", "prescribe"] }
 ]

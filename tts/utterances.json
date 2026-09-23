@@ -689,6 +689,36 @@
   "text": "baby",
   "tier": "core"
  },
+ "bacon.example.en": {
+  "lang": "en",
+  "text": "I had bacon and eggs for breakfast.",
+  "tier": "core"
+ },
+ "bacon.example.ja": {
+  "lang": "ja",
+  "text": "朝食にベーコンエッグを食べた。",
+  "tier": "core"
+ },
+ "bacon.katakana": {
+  "lang": "ja",
+  "text": "ベーコン",
+  "tier": "core"
+ },
+ "bacon.meaning": {
+  "lang": "ja",
+  "text": "ベーコン",
+  "tier": "core"
+ },
+ "bacon.story": {
+  "lang": "ja",
+  "text": "もとは「背中 の肉 」。bring home the bacon ベーコンを持ち帰る は「生活費を稼ぐ」という意味。",
+  "tier": "extended"
+ },
+ "bacon.word": {
+  "lang": "en",
+  "text": "bacon",
+  "tier": "core"
+ },
  "bag.example.en": {
   "lang": "en",
   "text": "Don't forget your bag!",
@@ -959,6 +989,36 @@
   "text": "basketball",
   "tier": "core"
  },
+ "bat.example.en": {
+  "lang": "en",
+  "text": "He swung the bat and missed.",
+  "tier": "core"
+ },
+ "bat.example.ja": {
+  "lang": "ja",
+  "text": "彼はバットを振ったが空振りした。",
+  "tier": "core"
+ },
+ "bat.katakana": {
+  "lang": "ja",
+  "text": "バット",
+  "tier": "core"
+ },
+ "bat.meaning": {
+  "lang": "ja",
+  "text": "バット、コウモリ",
+  "tier": "core"
+ },
+ "bat.story": {
+  "lang": "ja",
+  "text": "同じつづりでも「こん棒」と「コウモリ」は別の語源。",
+  "tier": "extended"
+ },
+ "bat.word": {
+  "lang": "en",
+  "text": "bat",
+  "tier": "core"
+ },
  "bath.example.en": {
   "lang": "en",
   "text": "I take a bath every night.",
@@ -1137,6 +1197,36 @@
  "bed.word": {
   "lang": "en",
   "text": "bed",
+  "tier": "core"
+ },
+ "belt.example.en": {
+  "lang": "en",
+  "text": "Fasten your seat belt.",
+  "tier": "core"
+ },
+ "belt.example.ja": {
+  "lang": "ja",
+  "text": "シートベルトを締めてください。",
+  "tier": "core"
+ },
+ "belt.katakana": {
+  "lang": "ja",
+  "text": "ベルト",
+  "tier": "core"
+ },
+ "belt.meaning": {
+  "lang": "ja",
+  "text": "ベルト、帯",
+  "tier": "core"
+ },
+ "belt.story": {
+  "lang": "ja",
+  "text": "帯状の地域も belt the Corn Belt「トウモロコシ地帯」 。柔道などの黒帯は black belt。",
+  "tier": "extended"
+ },
+ "belt.word": {
+  "lang": "en",
+  "text": "belt",
   "tier": "core"
  },
  "bench.example.en": {
@@ -1409,6 +1499,36 @@
   "text": "black",
   "tier": "core"
  },
+ "block.example.en": {
+  "lang": "en",
+  "text": "The store is two blocks away.",
+  "tier": "core"
+ },
+ "block.example.ja": {
+  "lang": "ja",
+  "text": "その店は2区画先にある。",
+  "tier": "core"
+ },
+ "block.katakana": {
+  "lang": "ja",
+  "text": "ブロック",
+  "tier": "core"
+ },
+ "block.meaning": {
+  "lang": "ja",
+  "text": "かたまり、区画、ふさぐ",
+  "tier": "core"
+ },
+ "block.story": {
+  "lang": "ja",
+  "text": "「かたまり」、 建物の区画、道をふさぐもの。アメリカでは道順を「からブロック先」と数える。",
+  "tier": "extended"
+ },
+ "block.word": {
+  "lang": "en",
+  "text": "block",
+  "tier": "core"
+ },
  "blue.example.en": {
   "lang": "en",
   "text": "I feel a bit blue today.",
@@ -1497,6 +1617,36 @@
  "book.word": {
   "lang": "en",
   "text": "book",
+  "tier": "core"
+ },
+ "boots.example.en": {
+  "lang": "en",
+  "text": "Wear your boots. It's snowing.",
+  "tier": "core"
+ },
+ "boots.example.ja": {
+  "lang": "ja",
+  "text": "ブーツをはいて。雪が降ってるよ。",
+  "tier": "core"
+ },
+ "boots.katakana": {
+  "lang": "ja",
+  "text": "ブーツ",
+  "tier": "core"
+ },
+ "boots.meaning": {
+  "lang": "ja",
+  "text": "ブーツ、長靴",
+  "tier": "core"
+ },
+ "boots.story": {
+  "lang": "ja",
+  "text": "パソコンを「起動する」boot は、bootstrap ブーツのつまみ革 を引っぱって自分を持ち上げる、というたとえから。",
+  "tier": "extended"
+ },
+ "boots.word": {
+  "lang": "en",
+  "text": "boots",
   "tier": "core"
  },
  "boss.example.en": {
@@ -1619,6 +1769,36 @@
   "text": "box",
   "tier": "core"
  },
+ "boy.example.en": {
+  "lang": "en",
+  "text": "The boy is playing with his dog.",
+  "tier": "core"
+ },
+ "boy.example.ja": {
+  "lang": "ja",
+  "text": "男の子が犬と遊んでいる。",
+  "tier": "core"
+ },
+ "boy.katakana": {
+  "lang": "ja",
+  "text": "ボーイ",
+  "tier": "core"
+ },
+ "boy.meaning": {
+  "lang": "ja",
+  "text": "男の子、少年",
+  "tier": "core"
+ },
+ "boy.story": {
+  "lang": "ja",
+  "text": "もとは「召使い」の意味もあった。日本語の「ボーイ 給仕係 」はその名残。Oh boy! おやまあ！ は驚きの声。",
+  "tier": "extended"
+ },
+ "boy.word": {
+  "lang": "en",
+  "text": "boy",
+  "tier": "core"
+ },
  "brand.example.en": {
   "lang": "en",
   "text": "Which brand of shampoo do you use?",
@@ -1737,6 +1917,36 @@
  "bridge.word": {
   "lang": "en",
   "text": "bridge",
+  "tier": "core"
+ },
+ "brush.example.en": {
+  "lang": "en",
+  "text": "Don't forget to brush your teeth.",
+  "tier": "core"
+ },
+ "brush.example.ja": {
+  "lang": "ja",
+  "text": "歯をみがくのを忘れないで。",
+  "tier": "core"
+ },
+ "brush.katakana": {
+  "lang": "ja",
+  "text": "ブラシ",
+  "tier": "core"
+ },
+ "brush.meaning": {
+  "lang": "ja",
+  "text": "ブラシ、はけ、筆",
+  "tier": "core"
+ },
+ "brush.story": {
+  "lang": "ja",
+  "text": "小枝を束ねてはけにしたことから。動詞の brush は「ブラシでこする」。brush up みがき直す は日本語の「ブラッシュアップ」。",
+  "tier": "extended"
+ },
+ "brush.word": {
+  "lang": "en",
+  "text": "brush",
   "tier": "core"
  },
  "building.example.en": {
@@ -2249,6 +2459,36 @@
   "text": "career",
   "tier": "core"
  },
+ "carpet.example.en": {
+  "lang": "en",
+  "text": "The actress walked down the red carpet.",
+  "tier": "core"
+ },
+ "carpet.example.ja": {
+  "lang": "ja",
+  "text": "その女優はレッドカーペットを歩いた。",
+  "tier": "core"
+ },
+ "carpet.katakana": {
+  "lang": "ja",
+  "text": "カーペット",
+  "tier": "core"
+ },
+ "carpet.meaning": {
+  "lang": "ja",
+  "text": "じゅうたん",
+  "tier": "core"
+ },
+ "carpet.story": {
+  "lang": "ja",
+  "text": "羊毛を「ほぐして」作った布、とされる。",
+  "tier": "extended"
+ },
+ "carpet.word": {
+  "lang": "en",
+  "text": "carpet",
+  "tier": "core"
+ },
  "cat.example.en": {
   "lang": "en",
   "text": "The cat is sleeping in the sun on the sofa.",
@@ -2639,6 +2879,36 @@
   "text": "cheese",
   "tier": "core"
  },
+ "cherry.example.en": {
+  "lang": "en",
+  "text": "Cherry blossoms are the symbol of spring in Japan.",
+  "tier": "core"
+ },
+ "cherry.example.ja": {
+  "lang": "ja",
+  "text": "桜は日本の春の象徴だ。",
+  "tier": "core"
+ },
+ "cherry.katakana": {
+  "lang": "ja",
+  "text": "チェリー",
+  "tier": "core"
+ },
+ "cherry.meaning": {
+  "lang": "ja",
+  "text": "さくらんぼ、桜",
+  "tier": "core"
+ },
+ "cherry.story": {
+  "lang": "ja",
+  "text": "英語に入ったとき、語尾の -s が複数形だと誤解されて取り除かれ、cherry になった pea「えんどう豆」も同じ現象 。",
+  "tier": "extended"
+ },
+ "cherry.word": {
+  "lang": "en",
+  "text": "cherry",
+  "tier": "core"
+ },
  "chocolate.example.en": {
   "lang": "en",
   "text": "He gave her a box of chocolates.",
@@ -2727,6 +2997,36 @@
  "cider.word": {
   "lang": "en",
   "text": "cider",
+  "tier": "core"
+ },
+ "circle.example.en": {
+  "lang": "en",
+  "text": "Draw a circle on the paper.",
+  "tier": "core"
+ },
+ "circle.example.ja": {
+  "lang": "ja",
+  "text": "紙に円を描いて。",
+  "tier": "core"
+ },
+ "circle.katakana": {
+  "lang": "ja",
+  "text": "サークル",
+  "tier": "core"
+ },
+ "circle.meaning": {
+  "lang": "ja",
+  "text": "円、仲間",
+  "tier": "core"
+ },
+ "circle.story": {
+  "lang": "ja",
+  "text": "circus サーカス 、circuit 回路 、search 探し回る も同じ家族。",
+  "tier": "extended"
+ },
+ "circle.word": {
+  "lang": "en",
+  "text": "circle",
   "tier": "core"
  },
  "city.example.en": {
@@ -3027,6 +3327,66 @@
  "coffee.word": {
   "lang": "en",
   "text": "coffee",
+  "tier": "core"
+ },
+ "coin.example.en": {
+  "lang": "en",
+  "text": "I found a coin on the street.",
+  "tier": "core"
+ },
+ "coin.example.ja": {
+  "lang": "ja",
+  "text": "道で硬貨を拾った。",
+  "tier": "core"
+ },
+ "coin.katakana": {
+  "lang": "ja",
+  "text": "コイン",
+  "tier": "core"
+ },
+ "coin.meaning": {
+  "lang": "ja",
+  "text": "硬貨",
+  "tier": "core"
+ },
+ "coin.story": {
+  "lang": "ja",
+  "text": "硬貨に模様を打ちつける「型」の名前が、硬貨そのものになった。動詞 coin は「新しい言葉を作る」。",
+  "tier": "extended"
+ },
+ "coin.word": {
+  "lang": "en",
+  "text": "coin",
+  "tier": "core"
+ },
+ "cola.example.en": {
+  "lang": "en",
+  "text": "I'll have a cola, please.",
+  "tier": "core"
+ },
+ "cola.example.ja": {
+  "lang": "ja",
+  "text": "コーラをください。",
+  "tier": "core"
+ },
+ "cola.katakana": {
+  "lang": "ja",
+  "text": "コーラ",
+  "tier": "core"
+ },
+ "cola.meaning": {
+  "lang": "ja",
+  "text": "コーラ",
+  "tier": "core"
+ },
+ "cola.story": {
+  "lang": "ja",
+  "text": "原料に使われたコーラの木の実 kola nut から。コーラの実はカフェインを含み、西アフリカでは古くからかんで元気を出すのに使われた。",
+  "tier": "extended"
+ },
+ "cola.word": {
+  "lang": "en",
+  "text": "cola",
   "tier": "core"
  },
  "collection.example.en": {
@@ -3599,6 +3959,36 @@
   "text": "cookie",
   "tier": "core"
  },
+ "cool.example.en": {
+  "lang": "en",
+  "text": "That jacket looks really cool!",
+  "tier": "core"
+ },
+ "cool.example.ja": {
+  "lang": "ja",
+  "text": "そのジャケット、すごくかっこいいね！",
+  "tier": "core"
+ },
+ "cool.katakana": {
+  "lang": "ja",
+  "text": "クール",
+  "tier": "core"
+ },
+ "cool.meaning": {
+  "lang": "ja",
+  "text": "涼しい、かっこいい、冷静な",
+  "tier": "core"
+ },
+ "cool.story": {
+  "lang": "ja",
+  "text": "cold 寒い 、chill と同じ語根。「かっこいい」の意味は20世紀のジャズの言葉から広まった。Cool down. 落ち着いて のように「冷静な」も。",
+  "tier": "extended"
+ },
+ "cool.word": {
+  "lang": "en",
+  "text": "cool",
+  "tier": "core"
+ },
  "cooler.example.en": {
   "lang": "en",
   "text": "We packed drinks and ice in the cooler.",
@@ -3627,6 +4017,36 @@
  "cooler.word": {
   "lang": "en",
   "text": "cooler",
+  "tier": "core"
+ },
+ "corn.example.en": {
+  "lang": "en",
+  "text": "We had grilled corn at the festival.",
+  "tier": "core"
+ },
+ "corn.example.ja": {
+  "lang": "ja",
+  "text": "お祭りで焼きとうもろこしを食べた。",
+  "tier": "core"
+ },
+ "corn.katakana": {
+  "lang": "ja",
+  "text": "コーン",
+  "tier": "core"
+ },
+ "corn.meaning": {
+  "lang": "ja",
+  "text": "米 とうもろこし、 英 穀物",
+  "tier": "core"
+ },
+ "corn.story": {
+  "lang": "ja",
+  "text": "もとは麦など穀物全般の「粒」。アメリカではとうもろこし Indian corn を指すようになった。アイスの「コーン」は cone 円すい で別の語。",
+  "tier": "extended"
+ },
+ "corn.word": {
+  "lang": "en",
+  "text": "corn",
   "tier": "core"
  },
  "cost.example.en": {
@@ -3899,6 +4319,96 @@
   "text": "cup",
   "tier": "core"
  },
+ "curry.example.en": {
+  "lang": "en",
+  "text": "This curry is too spicy for me.",
+  "tier": "core"
+ },
+ "curry.example.ja": {
+  "lang": "ja",
+  "text": "このカレーは私には辛すぎる。",
+  "tier": "core"
+ },
+ "curry.katakana": {
+  "lang": "ja",
+  "text": "カレー",
+  "tier": "core"
+ },
+ "curry.meaning": {
+  "lang": "ja",
+  "text": "カレー",
+  "tier": "core"
+ },
+ "curry.story": {
+  "lang": "ja",
+  "text": "南インドのタミル語でご飯にかける汁やおかずを kari と呼んだのが始まりとされる。日本のカレーライスはイギリス経由で明治時代に伝わった。",
+  "tier": "extended"
+ },
+ "curry.word": {
+  "lang": "en",
+  "text": "curry",
+  "tier": "core"
+ },
+ "curtain.example.en": {
+  "lang": "en",
+  "text": "Could you close the curtains?",
+  "tier": "core"
+ },
+ "curtain.example.ja": {
+  "lang": "ja",
+  "text": "カーテンを閉めてくれる？",
+  "tier": "core"
+ },
+ "curtain.katakana": {
+  "lang": "ja",
+  "text": "カーテン",
+  "tier": "core"
+ },
+ "curtain.meaning": {
+  "lang": "ja",
+  "text": "カーテン、幕",
+  "tier": "core"
+ },
+ "curtain.story": {
+  "lang": "ja",
+  "text": "「囲いをするもの」。court 中庭、宮廷 と同じ家族。劇の幕も curtain で、終演後のあいさつが curtain call。",
+  "tier": "extended"
+ },
+ "curtain.word": {
+  "lang": "en",
+  "text": "curtain",
+  "tier": "core"
+ },
+ "cute.example.en": {
+  "lang": "en",
+  "text": "What a cute puppy!",
+  "tier": "core"
+ },
+ "cute.example.ja": {
+  "lang": "ja",
+  "text": "なんてかわいい子犬なの！",
+  "tier": "core"
+ },
+ "cute.katakana": {
+  "lang": "ja",
+  "text": "キュート",
+  "tier": "core"
+ },
+ "cute.meaning": {
+  "lang": "ja",
+  "text": "かわいい",
+  "tier": "core"
+ },
+ "cute.story": {
+  "lang": "ja",
+  "text": "もとは「頭の回転が速い、抜け目ない」。アメリカで19世紀に「かわいい」の意味になった。",
+  "tier": "extended"
+ },
+ "cute.word": {
+  "lang": "en",
+  "text": "cute",
+  "tier": "core"
+ },
  "cycling.example.en": {
   "lang": "en",
   "text": "Cycling is good exercise.",
@@ -3987,6 +4497,36 @@
  "dance.word": {
   "lang": "en",
   "text": "dance",
+  "tier": "core"
+ },
+ "dash.example.en": {
+  "lang": "en",
+  "text": "I have to dash. See you!",
+  "tier": "core"
+ },
+ "dash.example.ja": {
+  "lang": "ja",
+  "text": "急がなくちゃ。またね！",
+  "tier": "core"
+ },
+ "dash.katakana": {
+  "lang": "ja",
+  "text": "ダッシュ",
+  "tier": "core"
+ },
+ "dash.meaning": {
+  "lang": "ja",
+  "text": "突進 する 、ダッシュ記号 —",
+  "tier": "core"
+ },
+ "dash.story": {
+  "lang": "ja",
+  "text": "「勢いよくぶつける」、 勢いよく走る。記号の「—」も dash。",
+  "tier": "extended"
+ },
+ "dash.word": {
+  "lang": "en",
+  "text": "dash",
   "tier": "core"
  },
  "data.example.en": {
@@ -4499,6 +5039,36 @@
   "text": "dogma",
   "tier": "core"
  },
+ "doll.example.en": {
+  "lang": "en",
+  "text": "My sister collects dolls.",
+  "tier": "core"
+ },
+ "doll.example.ja": {
+  "lang": "ja",
+  "text": "妹は人形を集めている。",
+  "tier": "core"
+ },
+ "doll.katakana": {
+  "lang": "ja",
+  "text": "ドール",
+  "tier": "core"
+ },
+ "doll.meaning": {
+  "lang": "ja",
+  "text": "人形",
+  "tier": "core"
+ },
+ "doll.story": {
+  "lang": "ja",
+  "text": "女の子の名前の愛称が「人形」の意味になった。",
+  "tier": "extended"
+ },
+ "doll.word": {
+  "lang": "en",
+  "text": "doll",
+  "tier": "core"
+ },
  "dolphin.example.en": {
   "lang": "en",
   "text": "A group of dolphins followed our boat.",
@@ -4527,6 +5097,36 @@
  "dolphin.word": {
   "lang": "en",
   "text": "dolphin",
+  "tier": "core"
+ },
+ "donut.example.en": {
+  "lang": "en",
+  "text": "I bought a box of donuts.",
+  "tier": "core"
+ },
+ "donut.example.ja": {
+  "lang": "ja",
+  "text": "ドーナツを一箱買った。",
+  "tier": "core"
+ },
+ "donut.katakana": {
+  "lang": "ja",
+  "text": "ドーナツ",
+  "tier": "core"
+ },
+ "donut.meaning": {
+  "lang": "ja",
+  "text": "ドーナツ",
+  "tier": "core"
+ },
+ "donut.story": {
+  "lang": "ja",
+  "text": "もとは木の実ほどの小さな揚げた生地のかたまり。正式なつづりは doughnut で、donut はアメリカで広まった略式のつづり。",
+  "tier": "extended"
+ },
+ "donut.word": {
+  "lang": "en",
+  "text": "donut",
   "tier": "core"
  },
  "door.example.en": {
@@ -5669,6 +6269,36 @@
   "text": "filter",
   "tier": "core"
  },
+ "fire.example.en": {
+  "lang": "en",
+  "text": "The firefighters put out the fire.",
+  "tier": "core"
+ },
+ "fire.example.ja": {
+  "lang": "ja",
+  "text": "消防士が火を消した。",
+  "tier": "core"
+ },
+ "fire.katakana": {
+  "lang": "ja",
+  "text": "ファイア",
+  "tier": "core"
+ },
+ "fire.meaning": {
+  "lang": "ja",
+  "text": "火、火事",
+  "tier": "core"
+ },
+ "fire.story": {
+  "lang": "ja",
+  "text": "ギリシャ語 pyr 火 と同じ祖先で、pyrotechnics 花火術 もその仲間。動詞 fire は「発射する」「クビにする」。",
+  "tier": "extended"
+ },
+ "fire.word": {
+  "lang": "en",
+  "text": "fire",
+  "tier": "core"
+ },
  "fish.example.en": {
   "lang": "en",
   "text": "We caught three fish in the lake.",
@@ -5847,6 +6477,36 @@
  "frame.word": {
   "lang": "en",
   "text": "frame",
+  "tier": "core"
+ },
+ "fresh.example.en": {
+  "lang": "en",
+  "text": "These vegetables are fresh from the farm.",
+  "tier": "core"
+ },
+ "fresh.example.ja": {
+  "lang": "ja",
+  "text": "この野菜は農場からとれたてだ。",
+  "tier": "core"
+ },
+ "fresh.katakana": {
+  "lang": "ja",
+  "text": "フレッシュ",
+  "tier": "core"
+ },
+ "fresh.meaning": {
+  "lang": "ja",
+  "text": "新鮮な、さわやかな",
+  "tier": "core"
+ },
+ "fresh.story": {
+  "lang": "ja",
+  "text": "もとは「塩気のない水 真水 」。freshwater 淡水 にその意味が残る。",
+  "tier": "extended"
+ },
+ "fresh.word": {
+  "lang": "en",
+  "text": "fresh",
   "tier": "core"
  },
  "friend.example.en": {
@@ -6059,6 +6719,36 @@
   "text": "garden",
   "tier": "core"
  },
+ "girl.example.en": {
+  "lang": "en",
+  "text": "The girl is reading a book.",
+  "tier": "core"
+ },
+ "girl.example.ja": {
+  "lang": "ja",
+  "text": "女の子が本を読んでいる。",
+  "tier": "core"
+ },
+ "girl.katakana": {
+  "lang": "ja",
+  "text": "ガール",
+  "tier": "core"
+ },
+ "girl.meaning": {
+  "lang": "ja",
+  "text": "女の子、少女",
+  "tier": "core"
+ },
+ "girl.story": {
+  "lang": "ja",
+  "text": "13世紀ごろは男女どちらの子どもも指した。15世紀ごろから女の子だけを指すようになった。",
+  "tier": "extended"
+ },
+ "girl.word": {
+  "lang": "en",
+  "text": "girl",
+  "tier": "core"
+ },
  "glass.example.en": {
   "lang": "en",
   "text": "Can I have a glass of water?",
@@ -6179,6 +6869,66 @@
   "text": "goal",
   "tier": "core"
  },
+ "gold.example.en": {
+  "lang": "en",
+  "text": "She won a gold medal.",
+  "tier": "core"
+ },
+ "gold.example.ja": {
+  "lang": "ja",
+  "text": "彼女は金メダルをとった。",
+  "tier": "core"
+ },
+ "gold.katakana": {
+  "lang": "ja",
+  "text": "ゴールド",
+  "tier": "core"
+ },
+ "gold.meaning": {
+  "lang": "ja",
+  "text": "金、金色",
+  "tier": "core"
+ },
+ "gold.story": {
+  "lang": "ja",
+  "text": "yellow 黄色 と同じ語根。golden 金の は形容詞。",
+  "tier": "extended"
+ },
+ "gold.word": {
+  "lang": "en",
+  "text": "gold",
+  "tier": "core"
+ },
+ "golf.example.en": {
+  "lang": "en",
+  "text": "My father plays golf on Sundays.",
+  "tier": "core"
+ },
+ "golf.example.ja": {
+  "lang": "ja",
+  "text": "父は日曜日にゴルフをする。",
+  "tier": "core"
+ },
+ "golf.katakana": {
+  "lang": "ja",
+  "text": "ゴルフ",
+  "tier": "core"
+ },
+ "golf.meaning": {
+  "lang": "ja",
+  "text": "ゴルフ",
+  "tier": "core"
+ },
+ "golf.story": {
+  "lang": "ja",
+  "text": "15世紀のスコットランドの記録に登場し、王が「ゴルフ禁止令」を出したほど流行した。「紳士だけ、女性はお断り」の略という話は作り話。",
+  "tier": "extended"
+ },
+ "golf.word": {
+  "lang": "en",
+  "text": "golf",
+  "tier": "core"
+ },
  "goods.example.en": {
   "lang": "en",
   "text": "The store sells sports goods.",
@@ -6209,6 +6959,36 @@
   "text": "goods",
   "tier": "core"
  },
+ "gorilla.example.en": {
+  "lang": "en",
+  "text": "The gorilla beat its chest.",
+  "tier": "core"
+ },
+ "gorilla.example.ja": {
+  "lang": "ja",
+  "text": "ゴリラが胸をたたいた。",
+  "tier": "core"
+ },
+ "gorilla.katakana": {
+  "lang": "ja",
+  "text": "ゴリラ",
+  "tier": "core"
+ },
+ "gorilla.meaning": {
+  "lang": "ja",
+  "text": "ゴリラ",
+  "tier": "core"
+ },
+ "gorilla.story": {
+  "lang": "ja",
+  "text": "紀元前5世紀ごろのカルタゴの航海者ハンノの記録に出てくる語を、19世紀の学者がこの類人猿の名前に使った。",
+  "tier": "extended"
+ },
+ "gorilla.word": {
+  "lang": "en",
+  "text": "gorilla",
+  "tier": "core"
+ },
  "governance.example.en": {
   "lang": "en",
   "text": "Good governance requires transparency.",
@@ -6237,6 +7017,36 @@
  "governance.word": {
   "lang": "en",
   "text": "governance",
+  "tier": "core"
+ },
+ "grape.example.en": {
+  "lang": "en",
+  "text": "We picked grapes at the farm.",
+  "tier": "core"
+ },
+ "grape.example.ja": {
+  "lang": "ja",
+  "text": "農園でぶどう狩りをした。",
+  "tier": "core"
+ },
+ "grape.katakana": {
+  "lang": "ja",
+  "text": "グレープ",
+  "tier": "core"
+ },
+ "grape.meaning": {
+  "lang": "ja",
+  "text": "ぶどう",
+  "tier": "core"
+ },
+ "grape.story": {
+  "lang": "ja",
+  "text": "もとは房をつむ「かぎ」から「ぶどうの房」に。grapefruit グレープフルーツ は、実がぶどうのように房になって実ることから。",
+  "tier": "extended"
+ },
+ "grape.word": {
+  "lang": "en",
+  "text": "grape",
   "tier": "core"
  },
  "graph.example.en": {
@@ -6509,6 +7319,66 @@
   "text": "guitar",
   "tier": "core"
  },
+ "gum.example.en": {
+  "lang": "en",
+  "text": "Don't chew gum in class.",
+  "tier": "core"
+ },
+ "gum.example.ja": {
+  "lang": "ja",
+  "text": "授業中にガムをかまないで。",
+  "tier": "core"
+ },
+ "gum.katakana": {
+  "lang": "ja",
+  "text": "ガム",
+  "tier": "core"
+ },
+ "gum.meaning": {
+  "lang": "ja",
+  "text": "ガム、歯ぐき",
+  "tier": "core"
+ },
+ "gum.story": {
+  "lang": "ja",
+  "text": "木から出るねばねばした樹脂のこと。「歯ぐき」の gum は別の語 古英語 goma 。",
+  "tier": "extended"
+ },
+ "gum.word": {
+  "lang": "en",
+  "text": "gum",
+  "tier": "core"
+ },
+ "ham.example.en": {
+  "lang": "en",
+  "text": "I made ham sandwiches for lunch.",
+  "tier": "core"
+ },
+ "ham.example.ja": {
+  "lang": "ja",
+  "text": "お昼にハムサンドを作った。",
+  "tier": "core"
+ },
+ "ham.katakana": {
+  "lang": "ja",
+  "text": "ハム",
+  "tier": "core"
+ },
+ "ham.meaning": {
+  "lang": "ja",
+  "text": "ハム",
+  "tier": "core"
+ },
+ "ham.story": {
+  "lang": "ja",
+  "text": "豚の「もも」の部分の意味から、その肉の加工品へ。アマチュア無線家も ham と呼ぶが、こちらは語源不明。hamburger の ham とは関係がない。",
+  "tier": "extended"
+ },
+ "ham.word": {
+  "lang": "en",
+  "text": "ham",
+  "tier": "core"
+ },
  "hamburger.example.en": {
   "lang": "en",
   "text": "I'll have a hamburger and fries.",
@@ -6627,6 +7497,66 @@
  "hard.word": {
   "lang": "en",
   "text": "hard",
+  "tier": "core"
+ },
+ "hat.example.en": {
+  "lang": "en",
+  "text": "He took off his hat.",
+  "tier": "core"
+ },
+ "hat.example.ja": {
+  "lang": "ja",
+  "text": "彼は帽子をぬいだ。",
+  "tier": "core"
+ },
+ "hat.katakana": {
+  "lang": "ja",
+  "text": "ハット",
+  "tier": "core"
+ },
+ "hat.meaning": {
+  "lang": "ja",
+  "text": "つばのある 帽子",
+  "tier": "core"
+ },
+ "hat.story": {
+  "lang": "ja",
+  "text": "hood フード と同じ語根。I take my hat off to you. あなたに脱帽です は「敬服します」。",
+  "tier": "extended"
+ },
+ "hat.word": {
+  "lang": "en",
+  "text": "hat",
+  "tier": "core"
+ },
+ "heart.example.en": {
+  "lang": "en",
+  "text": "She has a kind heart.",
+  "tier": "core"
+ },
+ "heart.example.ja": {
+  "lang": "ja",
+  "text": "彼女は心の優しい人だ。",
+  "tier": "core"
+ },
+ "heart.katakana": {
+  "lang": "ja",
+  "text": "ハート",
+  "tier": "core"
+ },
+ "heart.meaning": {
+  "lang": "ja",
+  "text": "心臓、心、ハート形",
+  "tier": "core"
+ },
+ "heart.story": {
+  "lang": "ja",
+  "text": "ラテン語 cor 心臓 、ギリシャ語 kardia 心電図 cardiogram と同じ祖先。by heart は「暗記して」。",
+  "tier": "extended"
+ },
+ "heart.word": {
+  "lang": "en",
+  "text": "heart",
   "tier": "core"
  },
  "hegemony.example.en": {
@@ -6809,6 +7739,36 @@
   "text": "history",
   "tier": "core"
  },
+ "hit.example.en": {
+  "lang": "en",
+  "text": "The song became a big hit.",
+  "tier": "core"
+ },
+ "hit.example.ja": {
+  "lang": "ja",
+  "text": "その歌は大ヒットした。",
+  "tier": "core"
+ },
+ "hit.katakana": {
+  "lang": "ja",
+  "text": "ヒット",
+  "tier": "core"
+ },
+ "hit.meaning": {
+  "lang": "ja",
+  "text": "打つ、当たる、大当たり",
+  "tier": "core"
+ },
+ "hit.story": {
+  "lang": "ja",
+  "text": "「うまく当たる」、 打つ、大当たり。検索で出てくる結果も hit。",
+  "tier": "extended"
+ },
+ "hit.word": {
+  "lang": "en",
+  "text": "hit",
+  "tier": "core"
+ },
  "hobby.example.en": {
   "lang": "en",
   "text": "My hobby is collecting old coins.",
@@ -6899,6 +7859,36 @@
   "text": "home",
   "tier": "core"
  },
+ "honey.example.en": {
+  "lang": "en",
+  "text": "I put honey in my tea.",
+  "tier": "core"
+ },
+ "honey.example.ja": {
+  "lang": "ja",
+  "text": "紅茶にはちみつを入れる。",
+  "tier": "core"
+ },
+ "honey.katakana": {
+  "lang": "ja",
+  "text": "ハニー",
+  "tier": "core"
+ },
+ "honey.meaning": {
+  "lang": "ja",
+  "text": "はちみつ、 呼びかけ あなた",
+  "tier": "core"
+ },
+ "honey.story": {
+  "lang": "ja",
+  "text": "甘いことから、恋人や家族への呼びかけにも使う。honeymoon 新婚旅行 は「蜜のように甘い月 期間 」。",
+  "tier": "extended"
+ },
+ "honey.word": {
+  "lang": "en",
+  "text": "honey",
+  "tier": "core"
+ },
  "hospital.example.en": {
   "lang": "en",
   "text": "She was taken to the hospital by ambulance.",
@@ -6957,6 +7947,36 @@
  "host.word": {
   "lang": "en",
   "text": "host",
+  "tier": "core"
+ },
+ "hot.example.en": {
+  "lang": "en",
+  "text": "This curry is really hot!",
+  "tier": "core"
+ },
+ "hot.example.ja": {
+  "lang": "ja",
+  "text": "このカレーは本当に辛い！",
+  "tier": "core"
+ },
+ "hot.katakana": {
+  "lang": "ja",
+  "text": "ホット",
+  "tier": "core"
+ },
+ "hot.meaning": {
+  "lang": "ja",
+  "text": "熱い、暑い、辛い",
+  "tier": "core"
+ },
+ "hot.story": {
+  "lang": "ja",
+  "text": "heat 熱 と同じ語根。英語の hot は「辛い」の意味もある spicy と同じ 。hot news は「最新のニュース」。",
+  "tier": "extended"
+ },
+ "hot.word": {
+  "lang": "en",
+  "text": "hot",
   "tier": "core"
  },
  "hotel.example.en": {
@@ -7649,6 +8669,96 @@
   "text": "jam",
   "tier": "core"
  },
+ "jeans.example.en": {
+  "lang": "en",
+  "text": "He always wears jeans and a T-shirt.",
+  "tier": "core"
+ },
+ "jeans.example.ja": {
+  "lang": "ja",
+  "text": "彼はいつもジーンズにTシャツだ。",
+  "tier": "core"
+ },
+ "jeans.katakana": {
+  "lang": "ja",
+  "text": "ジーンズ",
+  "tier": "core"
+ },
+ "jeans.meaning": {
+  "lang": "ja",
+  "text": "ジーンズ",
+  "tier": "core"
+ },
+ "jeans.story": {
+  "lang": "ja",
+  "text": "イタリアの港町ジェノヴァで作られた丈夫な布の名前から。いつも複数形で a pair of jeans。",
+  "tier": "extended"
+ },
+ "jeans.word": {
+  "lang": "en",
+  "text": "jeans",
+  "tier": "core"
+ },
+ "jelly.example.en": {
+  "lang": "en",
+  "text": "Grape jelly on toast is my favorite.",
+  "tier": "core"
+ },
+ "jelly.example.ja": {
+  "lang": "ja",
+  "text": "トーストにぶどうジャムを塗るのが好きだ。",
+  "tier": "core"
+ },
+ "jelly.katakana": {
+  "lang": "ja",
+  "text": "ゼリー",
+  "tier": "core"
+ },
+ "jelly.meaning": {
+  "lang": "ja",
+  "text": "ゼリー、 米 ジャム",
+  "tier": "core"
+ },
+ "jelly.story": {
+  "lang": "ja",
+  "text": "冷やして固めることから「凍ったもの」。アメリカでは果汁で作る透明なジャムも jelly。デザートのゼリーはアメリカでは Jell-O 商品名 とも言う。",
+  "tier": "extended"
+ },
+ "jelly.word": {
+  "lang": "en",
+  "text": "jelly",
+  "tier": "core"
+ },
+ "jogging.example.en": {
+  "lang": "en",
+  "text": "I go jogging every morning.",
+  "tier": "core"
+ },
+ "jogging.example.ja": {
+  "lang": "ja",
+  "text": "私は毎朝ジョギングに行く。",
+  "tier": "core"
+ },
+ "jogging.katakana": {
+  "lang": "ja",
+  "text": "ジョギング",
+  "tier": "core"
+ },
+ "jogging.meaning": {
+  "lang": "ja",
+  "text": "ジョギング",
+  "tier": "core"
+ },
+ "jogging.story": {
+  "lang": "ja",
+  "text": "jog はもとは「軽く押す、揺する」。jog one's memory は「記憶を呼び起こす」。",
+  "tier": "extended"
+ },
+ "jogging.word": {
+  "lang": "en",
+  "text": "jogging",
+  "tier": "core"
+ },
  "juice.example.en": {
   "lang": "en",
   "text": "I squeezed fresh orange juice for breakfast.",
@@ -7799,6 +8909,66 @@
   "text": "key",
   "tier": "core"
  },
+ "kick.example.en": {
+  "lang": "en",
+  "text": "He kicked the ball into the goal.",
+  "tier": "core"
+ },
+ "kick.example.ja": {
+  "lang": "ja",
+  "text": "彼はボールをけってゴールに入れた。",
+  "tier": "core"
+ },
+ "kick.katakana": {
+  "lang": "ja",
+  "text": "キック",
+  "tier": "core"
+ },
+ "kick.meaning": {
+  "lang": "ja",
+  "text": "ける",
+  "tier": "core"
+ },
+ "kick.story": {
+  "lang": "ja",
+  "text": "kick off 試合を始める から、kickoff キックオフ は「開始」の意味に。",
+  "tier": "extended"
+ },
+ "kick.word": {
+  "lang": "en",
+  "text": "kick",
+  "tier": "core"
+ },
+ "king.example.en": {
+  "lang": "en",
+  "text": "The king lived in a large castle.",
+  "tier": "core"
+ },
+ "king.example.ja": {
+  "lang": "ja",
+  "text": "王は大きな城に住んでいた。",
+  "tier": "core"
+ },
+ "king.katakana": {
+  "lang": "ja",
+  "text": "キング",
+  "tier": "core"
+ },
+ "king.meaning": {
+  "lang": "ja",
+  "text": "王",
+  "tier": "core"
+ },
+ "king.story": {
+  "lang": "ja",
+  "text": "kin 親族 と同じ語根とされ、「一族を代表する者」。kingdom は「王国」。",
+  "tier": "extended"
+ },
+ "king.word": {
+  "lang": "en",
+  "text": "king",
+  "tier": "core"
+ },
  "kitchen.example.en": {
   "lang": "en",
   "text": "Dad is cooking dinner in the kitchen.",
@@ -7827,6 +8997,36 @@
  "kitchen.word": {
   "lang": "en",
   "text": "kitchen",
+  "tier": "core"
+ },
+ "kiwi.example.en": {
+  "lang": "en",
+  "text": "Kiwis are full of vitamin C.",
+  "tier": "core"
+ },
+ "kiwi.example.ja": {
+  "lang": "ja",
+  "text": "キウイはビタミンCがたっぷりだ。",
+  "tier": "core"
+ },
+ "kiwi.katakana": {
+  "lang": "ja",
+  "text": "キウイ",
+  "tier": "core"
+ },
+ "kiwi.meaning": {
+  "lang": "ja",
+  "text": "キウイフルーツ、キーウィ 鳥",
+  "tier": "core"
+ },
+ "kiwi.story": {
+  "lang": "ja",
+  "text": "もとはニュージーランドの飛べない鳥の名前。果物はもとは Chinese gooseberry と呼ばれていたが、輸出用にニュージーランドのシンボルの鳥にちなんで kiwifruit と名づけられた。ニュージーランド人の愛称も Kiwi。",
+  "tier": "extended"
+ },
+ "kiwi.word": {
+  "lang": "en",
+  "text": "kiwi",
   "tier": "core"
  },
  "knife.example.en": {
@@ -7889,6 +9089,36 @@
   "text": "knight",
   "tier": "core"
  },
+ "koala.example.en": {
+  "lang": "en",
+  "text": "Koalas sleep for up to 20 hours a day.",
+  "tier": "core"
+ },
+ "koala.example.ja": {
+  "lang": "ja",
+  "text": "コアラは1日に最大20時間眠る。",
+  "tier": "core"
+ },
+ "koala.katakana": {
+  "lang": "ja",
+  "text": "コアラ",
+  "tier": "core"
+ },
+ "koala.meaning": {
+  "lang": "ja",
+  "text": "コアラ",
+  "tier": "core"
+ },
+ "koala.story": {
+  "lang": "ja",
+  "text": "先住民の言葉が英語風のつづりになった。「水を飲まない」という意味だとよく言われるが、根拠は薄いとされる。クマ bear ではなく有袋類。",
+  "tier": "extended"
+ },
+ "koala.word": {
+  "lang": "en",
+  "text": "koala",
+  "tier": "core"
+ },
  "label.example.en": {
   "lang": "en",
   "text": "Read the label before you take the medicine.",
@@ -7917,6 +9147,66 @@
  "label.word": {
   "lang": "en",
   "text": "label",
+  "tier": "core"
+ },
+ "lady.example.en": {
+  "lang": "en",
+  "text": "Ladies and gentlemen, welcome!",
+  "tier": "core"
+ },
+ "lady.example.ja": {
+  "lang": "ja",
+  "text": "皆さま、ようこそ！",
+  "tier": "core"
+ },
+ "lady.katakana": {
+  "lang": "ja",
+  "text": "レディ",
+  "tier": "core"
+ },
+ "lady.meaning": {
+  "lang": "ja",
+  "text": "女性、婦人",
+  "tier": "core"
+ },
+ "lady.story": {
+  "lang": "ja",
+  "text": "一家のパンをこねる女主人、が原義とされる。lord 主人 は hlafweard「パンの番人」。",
+  "tier": "extended"
+ },
+ "lady.word": {
+  "lang": "en",
+  "text": "lady",
+  "tier": "core"
+ },
+ "lamp.example.en": {
+  "lang": "en",
+  "text": "Turn on the lamp. It's dark.",
+  "tier": "core"
+ },
+ "lamp.example.ja": {
+  "lang": "ja",
+  "text": "暗いから電気スタンドをつけて。",
+  "tier": "core"
+ },
+ "lamp.katakana": {
+  "lang": "ja",
+  "text": "ランプ",
+  "tier": "core"
+ },
+ "lamp.meaning": {
+  "lang": "ja",
+  "text": "明かり、電気スタンド",
+  "tier": "core"
+ },
+ "lamp.story": {
+  "lang": "ja",
+  "text": "lantern ランタン も同じ lampein の家族。英語では机の上の電気スタンドも lamp。",
+  "tier": "extended"
+ },
+ "lamp.word": {
+  "lang": "en",
+  "text": "lamp",
   "tier": "core"
  },
  "launch.example.en": {
@@ -8219,6 +9509,36 @@
   "text": "limit",
   "tier": "core"
  },
+ "line.example.en": {
+  "lang": "en",
+  "text": "Please wait in line.",
+  "tier": "core"
+ },
+ "line.example.ja": {
+  "lang": "ja",
+  "text": "列に並んでお待ちください。",
+  "tier": "core"
+ },
+ "line.katakana": {
+  "lang": "ja",
+  "text": "ライン",
+  "tier": "core"
+ },
+ "line.meaning": {
+  "lang": "ja",
+  "text": "線、列、行",
+  "tier": "core"
+ },
+ "line.story": {
+  "lang": "ja",
+  "text": "亜麻の糸 、 ぴんと張った線。linen リネン 、lingerie ランジェリー も linum から。",
+  "tier": "extended"
+ },
+ "line.word": {
+  "lang": "en",
+  "text": "line",
+  "tier": "core"
+ },
  "link.example.en": {
   "lang": "en",
   "text": "Click the link to see more.",
@@ -8339,6 +9659,36 @@
   "text": "logic",
   "tier": "core"
  },
+ "love.example.en": {
+  "lang": "en",
+  "text": "I love this song!",
+  "tier": "core"
+ },
+ "love.example.ja": {
+  "lang": "ja",
+  "text": "この歌、大好き！",
+  "tier": "core"
+ },
+ "love.katakana": {
+  "lang": "ja",
+  "text": "ラブ",
+  "tier": "core"
+ },
+ "love.meaning": {
+  "lang": "ja",
+  "text": "愛 する 、大好き",
+  "tier": "core"
+ },
+ "love.story": {
+  "lang": "ja",
+  "text": "ラテン語 libet 喜ばせる 、ドイツ語 Liebe 愛 と同じ祖先。テニスの0点 love は語源に諸説ある。",
+  "tier": "extended"
+ },
+ "love.word": {
+  "lang": "en",
+  "text": "love",
+  "tier": "core"
+ },
  "lucky.example.en": {
   "lang": "en",
   "text": "You're lucky to have such good friends.",
@@ -8457,6 +9807,36 @@
  "magic.word": {
   "lang": "en",
   "text": "magic",
+  "tier": "core"
+ },
+ "mail.example.en": {
+  "lang": "en",
+  "text": "Did you check your mail today?",
+  "tier": "core"
+ },
+ "mail.example.ja": {
+  "lang": "ja",
+  "text": "今日、郵便 メール は確認した？",
+  "tier": "core"
+ },
+ "mail.katakana": {
+  "lang": "ja",
+  "text": "メール",
+  "tier": "core"
+ },
+ "mail.meaning": {
+  "lang": "ja",
+  "text": "郵便、 電子 メール",
+  "tier": "core"
+ },
+ "mail.story": {
+  "lang": "ja",
+  "text": "もとは郵便物を入れる「袋」。そこから郵便そのものに。電子メールは email。イギリスでは紙の郵便を post と言うことが多い。「よろい 鎖かたびら 」の mail は別語源。",
+  "tier": "extended"
+ },
+ "mail.word": {
+  "lang": "en",
+  "text": "mail",
   "tier": "core"
  },
  "mana.example.en": {
@@ -8879,6 +10259,36 @@
   "text": "melancholy",
   "tier": "core"
  },
+ "melon.example.en": {
+  "lang": "en",
+  "text": "This melon is very sweet.",
+  "tier": "core"
+ },
+ "melon.example.ja": {
+  "lang": "ja",
+  "text": "このメロンはとても甘い。",
+  "tier": "core"
+ },
+ "melon.katakana": {
+  "lang": "ja",
+  "text": "メロン",
+  "tier": "core"
+ },
+ "melon.meaning": {
+  "lang": "ja",
+  "text": "メロン",
+  "tier": "core"
+ },
+ "melon.story": {
+  "lang": "ja",
+  "text": "長い名前の前半だけが残った語。ギリシャ語 melon りんご は果物全般も指した。「メロンパン」は見た目が似ているだけでメロンは入っていないことが多い。",
+  "tier": "extended"
+ },
+ "melon.word": {
+  "lang": "en",
+  "text": "melon",
+  "tier": "core"
+ },
  "member.example.en": {
   "lang": "en",
   "text": "All the members of the club came to the party.",
@@ -9149,6 +10559,36 @@
   "text": "minority",
   "tier": "core"
  },
+ "mint.example.en": {
+  "lang": "en",
+  "text": "This tea has a fresh mint flavor.",
+  "tier": "core"
+ },
+ "mint.example.ja": {
+  "lang": "ja",
+  "text": "このお茶はさわやかなミントの風味がする。",
+  "tier": "core"
+ },
+ "mint.katakana": {
+  "lang": "ja",
+  "text": "ミント",
+  "tier": "core"
+ },
+ "mint.meaning": {
+  "lang": "ja",
+  "text": "ミント、造幣局",
+  "tier": "core"
+ },
+ "mint.story": {
+  "lang": "ja",
+  "text": "ギリシャ神話で、妖精ミンテーがハーブに変えられた話がある。「造幣局」の mint は別語源 ラテン語 moneta「お金」、money と同じ 。in mint condition は「新品同様の」。",
+  "tier": "extended"
+ },
+ "mint.word": {
+  "lang": "en",
+  "text": "mint",
+  "tier": "core"
+ },
  "miracle.example.en": {
   "lang": "en",
   "text": "It's a miracle that nobody was hurt.",
@@ -9177,6 +10617,36 @@
  "miracle.word": {
   "lang": "en",
   "text": "miracle",
+  "tier": "core"
+ },
+ "mirror.example.en": {
+  "lang": "en",
+  "text": "She looked at herself in the mirror.",
+  "tier": "core"
+ },
+ "mirror.example.ja": {
+  "lang": "ja",
+  "text": "彼女は鏡で自分の姿を見た。",
+  "tier": "core"
+ },
+ "mirror.katakana": {
+  "lang": "ja",
+  "text": "ミラー",
+  "tier": "core"
+ },
+ "mirror.meaning": {
+  "lang": "ja",
+  "text": "鏡",
+  "tier": "core"
+ },
+ "mirror.story": {
+  "lang": "ja",
+  "text": "「見て驚くもの」。miracle 奇跡 、admire 感心する と同じ家族。",
+  "tier": "extended"
+ },
+ "mirror.word": {
+  "lang": "en",
+  "text": "mirror",
   "tier": "core"
  },
  "miss.example.en": {
@@ -9387,6 +10857,36 @@
  "monster.word": {
   "lang": "en",
   "text": "monster",
+  "tier": "core"
+ },
+ "moon.example.en": {
+  "lang": "en",
+  "text": "There's a full moon tonight.",
+  "tier": "core"
+ },
+ "moon.example.ja": {
+  "lang": "ja",
+  "text": "今夜は満月だ。",
+  "tier": "core"
+ },
+ "moon.katakana": {
+  "lang": "ja",
+  "text": "ムーン",
+  "tier": "core"
+ },
+ "moon.meaning": {
+  "lang": "ja",
+  "text": "月",
+  "tier": "core"
+ },
+ "moon.story": {
+  "lang": "ja",
+  "text": "月の満ち欠けで時を測ったので、month 月 と同じ語根。Monday は「月の日」。",
+  "tier": "extended"
+ },
+ "moon.word": {
+  "lang": "en",
+  "text": "moon",
   "tier": "core"
  },
  "morning.example.en": {
@@ -9689,6 +11189,36 @@
   "text": "negative",
   "tier": "core"
  },
+ "net.example.en": {
+  "lang": "en",
+  "text": "I found the answer on the net.",
+  "tier": "core"
+ },
+ "net.example.ja": {
+  "lang": "ja",
+  "text": "ネットで答えを見つけた。",
+  "tier": "core"
+ },
+ "net.katakana": {
+  "lang": "ja",
+  "text": "ネット",
+  "tier": "core"
+ },
+ "net.meaning": {
+  "lang": "ja",
+  "text": "網、ネット インターネット",
+  "tier": "core"
+ },
+ "net.story": {
+  "lang": "ja",
+  "text": "網の目のように広がるので、インターネット internet も略して the net。お金の「正味の 手取りの 」net は別語源 フランス語 net「きれいな」 。",
+  "tier": "extended"
+ },
+ "net.word": {
+  "lang": "en",
+  "text": "net",
+  "tier": "core"
+ },
  "network.example.en": {
   "lang": "en",
   "text": "The school has a Wi-Fi network.",
@@ -9927,6 +11457,36 @@
  "official.word": {
   "lang": "en",
   "text": "official",
+  "tier": "core"
+ },
+ "onion.example.en": {
+  "lang": "en",
+  "text": "Cutting onions makes me cry.",
+  "tier": "core"
+ },
+ "onion.example.ja": {
+  "lang": "ja",
+  "text": "たまねぎを切ると涙が出る。",
+  "tier": "core"
+ },
+ "onion.katakana": {
+  "lang": "ja",
+  "text": "オニオン",
+  "tier": "core"
+ },
+ "onion.meaning": {
+  "lang": "ja",
+  "text": "たまねぎ",
+  "tier": "core"
+ },
+ "onion.story": {
+  "lang": "ja",
+  "text": "皮が重なってひとつの玉になっていることから、とされる。union 連合 と同じ unus「一つ」の家族。",
+  "tier": "extended"
+ },
+ "onion.word": {
+  "lang": "en",
+  "text": "onion",
   "tier": "core"
  },
  "online.example.en": {
@@ -10559,6 +12119,36 @@
   "text": "password",
   "tier": "core"
  },
+ "pasta.example.en": {
+  "lang": "en",
+  "text": "Let's make pasta for dinner.",
+  "tier": "core"
+ },
+ "pasta.example.ja": {
+  "lang": "ja",
+  "text": "夕食にパスタを作ろう。",
+  "tier": "core"
+ },
+ "pasta.katakana": {
+  "lang": "ja",
+  "text": "パスタ",
+  "tier": "core"
+ },
+ "pasta.meaning": {
+  "lang": "ja",
+  "text": "パスタ",
+  "tier": "core"
+ },
+ "pasta.story": {
+  "lang": "ja",
+  "text": "paste ペースト 、pastry 焼き菓子 と同じ語。英語では spaghetti 細いひも 、macaroni なども含めて pasta と呼ぶ。",
+  "tier": "extended"
+ },
+ "pasta.word": {
+  "lang": "en",
+  "text": "pasta",
+  "tier": "core"
+ },
  "pattern.example.en": {
   "lang": "en",
   "text": "Can you see the pattern in these numbers?",
@@ -10587,6 +12177,36 @@
  "pattern.word": {
   "lang": "en",
   "text": "pattern",
+  "tier": "core"
+ },
+ "peach.example.en": {
+  "lang": "en",
+  "text": "She peeled a peach for me.",
+  "tier": "core"
+ },
+ "peach.example.ja": {
+  "lang": "ja",
+  "text": "彼女は桃の皮をむいてくれた。",
+  "tier": "core"
+ },
+ "peach.katakana": {
+  "lang": "ja",
+  "text": "ピーチ",
+  "tier": "core"
+ },
+ "peach.meaning": {
+  "lang": "ja",
+  "text": "桃",
+  "tier": "core"
+ },
+ "peach.story": {
+  "lang": "ja",
+  "text": "桃は中国原産だが、ペルシャを経てヨーロッパに伝わったので「ペルシャの果物」と呼ばれた。口語で a peach は「すてきな人、もの」。",
+  "tier": "extended"
+ },
+ "peach.word": {
+  "lang": "en",
+  "text": "peach",
   "tier": "core"
  },
  "pen.example.en": {
@@ -10677,6 +12297,36 @@
  "penguin.word": {
   "lang": "en",
   "text": "penguin",
+  "tier": "core"
+ },
+ "pepper.example.en": {
+  "lang": "en",
+  "text": "Pass me the salt and pepper, please.",
+  "tier": "core"
+ },
+ "pepper.example.ja": {
+  "lang": "ja",
+  "text": "塩とこしょうを取ってください。",
+  "tier": "core"
+ },
+ "pepper.katakana": {
+  "lang": "ja",
+  "text": "ペッパー",
+  "tier": "core"
+ },
+ "pepper.meaning": {
+  "lang": "ja",
+  "text": "こしょう、ピーマン、唐辛子",
+  "tier": "core"
+ },
+ "pepper.story": {
+  "lang": "ja",
+  "text": "インドの香辛料の名前が、ギリシャ、ローマを経て英語に入った。コロンブスがアメリカの唐辛子を「こしょう」と呼んだため、ピーマンや唐辛子も pepper bell pepper、chili pepper と呼ぶ。",
+  "tier": "extended"
+ },
+ "pepper.word": {
+  "lang": "en",
+  "text": "pepper",
   "tier": "core"
  },
  "percent.example.en": {
@@ -10919,6 +12569,36 @@
   "text": "picnic",
   "tier": "core"
  },
+ "pie.example.en": {
+  "lang": "en",
+  "text": "My grandma makes the best apple pie.",
+  "tier": "core"
+ },
+ "pie.example.ja": {
+  "lang": "ja",
+  "text": "おばあちゃんのアップルパイは最高だ。",
+  "tier": "core"
+ },
+ "pie.katakana": {
+  "lang": "ja",
+  "text": "パイ",
+  "tier": "core"
+ },
+ "pie.meaning": {
+  "lang": "ja",
+  "text": "パイ",
+  "tier": "core"
+ },
+ "pie.story": {
+  "lang": "ja",
+  "text": "いろいろな具を詰めたところが、なんでも集めるカササギ magpie の巣に似ていることから、という説がある。as easy as pie は「とても簡単」。",
+  "tier": "extended"
+ },
+ "pie.word": {
+  "lang": "en",
+  "text": "pie",
+  "tier": "core"
+ },
  "pierce.example.en": {
   "lang": "en",
   "text": "She got her ears pierced last year.",
@@ -11129,6 +12809,36 @@
   "text": "plus",
   "tier": "core"
  },
+ "pocket.example.en": {
+  "lang": "en",
+  "text": "I put my phone in my pocket.",
+  "tier": "core"
+ },
+ "pocket.example.ja": {
+  "lang": "ja",
+  "text": "スマホをポケットに入れた。",
+  "tier": "core"
+ },
+ "pocket.katakana": {
+  "lang": "ja",
+  "text": "ポケット",
+  "tier": "core"
+ },
+ "pocket.meaning": {
+  "lang": "ja",
+  "text": "ポケット",
+  "tier": "core"
+ },
+ "pocket.story": {
+  "lang": "ja",
+  "text": "「小さな袋」。pocket money おこづかい 、pocket-sized ポケットサイズの のように「小さい」の意味にもなる。",
+  "tier": "extended"
+ },
+ "pocket.word": {
+  "lang": "en",
+  "text": "pocket",
+  "tier": "core"
+ },
  "point.example.en": {
   "lang": "en",
   "text": "What's the point of this meeting?",
@@ -11187,6 +12897,36 @@
  "policy.word": {
   "lang": "en",
   "text": "policy",
+  "tier": "core"
+ },
+ "pool.example.en": {
+  "lang": "en",
+  "text": "Let's go swimming in the pool.",
+  "tier": "core"
+ },
+ "pool.example.ja": {
+  "lang": "ja",
+  "text": "プールに泳ぎに行こう。",
+  "tier": "core"
+ },
+ "pool.katakana": {
+  "lang": "ja",
+  "text": "プール",
+  "tier": "core"
+ },
+ "pool.meaning": {
+  "lang": "ja",
+  "text": "プール、水たまり",
+  "tier": "core"
+ },
+ "pool.story": {
+  "lang": "ja",
+  "text": "もとは自然の「水たまり」。お金や人を「出し合う」pool は別語源 フランス語 poule「賭け金」 で、car pool 相乗り はこちら。",
+  "tier": "extended"
+ },
+ "pool.word": {
+  "lang": "en",
+  "text": "pool",
   "tier": "core"
  },
  "popular.example.en": {
@@ -11369,6 +13109,66 @@
   "text": "post",
   "tier": "core"
  },
+ "pot.example.en": {
+  "lang": "en",
+  "text": "She made soup in a big pot.",
+  "tier": "core"
+ },
+ "pot.example.ja": {
+  "lang": "ja",
+  "text": "彼女は大きななべでスープを作った。",
+  "tier": "core"
+ },
+ "pot.katakana": {
+  "lang": "ja",
+  "text": "ポット",
+  "tier": "core"
+ },
+ "pot.meaning": {
+  "lang": "ja",
+  "text": "深なべ、つぼ、ポット",
+  "tier": "core"
+ },
+ "pot.story": {
+  "lang": "ja",
+  "text": "なべ、つぼ、植木鉢 flowerpot など丸い入れ物全般。",
+  "tier": "extended"
+ },
+ "pot.word": {
+  "lang": "en",
+  "text": "pot",
+  "tier": "core"
+ },
+ "potato.example.en": {
+  "lang": "en",
+  "text": "I'll have fries with my burger.",
+  "tier": "core"
+ },
+ "potato.example.ja": {
+  "lang": "ja",
+  "text": "バーガーにはポテトをつけてください。",
+  "tier": "core"
+ },
+ "potato.katakana": {
+  "lang": "ja",
+  "text": "ポテト",
+  "tier": "core"
+ },
+ "potato.meaning": {
+  "lang": "ja",
+  "text": "じゃがいも",
+  "tier": "core"
+ },
+ "potato.story": {
+  "lang": "ja",
+  "text": "もとはカリブの言葉で「さつまいも」。のちにじゃがいもを指すようになった。「フライドポテト」は英語では French fries 米 / chips 英 。",
+  "tier": "extended"
+ },
+ "potato.word": {
+  "lang": "en",
+  "text": "potato",
+  "tier": "core"
+ },
  "potential.example.en": {
   "lang": "en",
   "text": "She has great potential as a singer.",
@@ -11547,6 +13347,66 @@
  "pressure.word": {
   "lang": "en",
   "text": "pressure",
+  "tier": "core"
+ },
+ "prince.example.en": {
+  "lang": "en",
+  "text": "The prince fell in love with a poor girl.",
+  "tier": "core"
+ },
+ "prince.example.ja": {
+  "lang": "ja",
+  "text": "王子は貧しい娘に恋をした。",
+  "tier": "core"
+ },
+ "prince.katakana": {
+  "lang": "ja",
+  "text": "プリンス",
+  "tier": "core"
+ },
+ "prince.meaning": {
+  "lang": "ja",
+  "text": "王子",
+  "tier": "core"
+ },
+ "prince.story": {
+  "lang": "ja",
+  "text": "「一番目の座を取る人」。principal 校長、主要な 、principle 原理 も同じ家族。",
+  "tier": "extended"
+ },
+ "prince.word": {
+  "lang": "en",
+  "text": "prince",
+  "tier": "core"
+ },
+ "princess.example.en": {
+  "lang": "en",
+  "text": "The princess wore a beautiful dress.",
+  "tier": "core"
+ },
+ "princess.example.ja": {
+  "lang": "ja",
+  "text": "王女は美しいドレスを着ていた。",
+  "tier": "core"
+ },
+ "princess.katakana": {
+  "lang": "ja",
+  "text": "プリンセス",
+  "tier": "core"
+ },
+ "princess.meaning": {
+  "lang": "ja",
+  "text": "王女、王子の妻",
+  "tier": "core"
+ },
+ "princess.story": {
+  "lang": "ja",
+  "text": "-ess は女性を表す語尾 actress、lioness 。今はジェンダーに中立な言い方が好まれ、actress より actor が使われることも多い。",
+  "tier": "extended"
+ },
+ "princess.word": {
+  "lang": "en",
+  "text": "princess",
   "tier": "core"
  },
  "print.example.en": {
@@ -11849,6 +13709,96 @@
   "text": "public",
   "tier": "core"
  },
+ "pudding.example.en": {
+  "lang": "en",
+  "text": "We had chocolate pudding for dessert.",
+  "tier": "core"
+ },
+ "pudding.example.ja": {
+  "lang": "ja",
+  "text": "デザートにチョコレートプディングを食べた。",
+  "tier": "core"
+ },
+ "pudding.katakana": {
+  "lang": "ja",
+  "text": "プディング",
+  "tier": "core"
+ },
+ "pudding.meaning": {
+  "lang": "ja",
+  "text": "プリン、 英 デザート",
+  "tier": "core"
+ },
+ "pudding.story": {
+  "lang": "ja",
+  "text": "もとは肉を腸に詰めた料理。そこから蒸したり焼いたりする料理、菓子全般になった。日本語の「プリン」は pudding がなまったもの。",
+  "tier": "extended"
+ },
+ "pudding.word": {
+  "lang": "en",
+  "text": "pudding",
+  "tier": "core"
+ },
+ "punch.example.en": {
+  "lang": "en",
+  "text": "He punched the bag again and again.",
+  "tier": "core"
+ },
+ "punch.example.ja": {
+  "lang": "ja",
+  "text": "彼は何度もサンドバッグを殴った。",
+  "tier": "core"
+ },
+ "punch.katakana": {
+  "lang": "ja",
+  "text": "パンチ",
+  "tier": "core"
+ },
+ "punch.meaning": {
+  "lang": "ja",
+  "text": "げんこつで打つ、パンチ、穴あけ器",
+  "tier": "core"
+ },
+ "punch.story": {
+  "lang": "ja",
+  "text": "「突く」から「拳で突く」。穴あけパンチも同じ語。飲み物の「ポンチ フルーツポンチ 」は別語源 ヒンディー語 panc「5（つの材料 」）。",
+  "tier": "extended"
+ },
+ "punch.word": {
+  "lang": "en",
+  "text": "punch",
+  "tier": "core"
+ },
+ "puzzle.example.en": {
+  "lang": "en",
+  "text": "We finished a 1,000-piece puzzle.",
+  "tier": "core"
+ },
+ "puzzle.example.ja": {
+  "lang": "ja",
+  "text": "1000ピースのパズルを完成させた。",
+  "tier": "core"
+ },
+ "puzzle.katakana": {
+  "lang": "ja",
+  "text": "パズル",
+  "tier": "core"
+ },
+ "puzzle.meaning": {
+  "lang": "ja",
+  "text": "パズル、なぞ",
+  "tier": "core"
+ },
+ "puzzle.story": {
+  "lang": "ja",
+  "text": "「頭を悩ませるもの」。動詞 puzzle は「困惑させる」。",
+  "tier": "extended"
+ },
+ "puzzle.word": {
+  "lang": "en",
+  "text": "puzzle",
+  "tier": "core"
+ },
  "quality.example.en": {
   "lang": "en",
   "text": "We only use high-quality ingredients.",
@@ -11877,6 +13827,36 @@
  "quality.word": {
   "lang": "en",
   "text": "quality",
+  "tier": "core"
+ },
+ "queen.example.en": {
+  "lang": "en",
+  "text": "The queen waved to the crowd.",
+  "tier": "core"
+ },
+ "queen.example.ja": {
+  "lang": "ja",
+  "text": "女王は群衆に手を振った。",
+  "tier": "core"
+ },
+ "queen.katakana": {
+  "lang": "ja",
+  "text": "クイーン",
+  "tier": "core"
+ },
+ "queen.meaning": {
+  "lang": "ja",
+  "text": "女王、王妃",
+  "tier": "core"
+ },
+ "queen.story": {
+  "lang": "ja",
+  "text": "ギリシャ語 gyne 女性：gynecology 婦人科 と同じ祖先。女王バチも queen bee。",
+  "tier": "extended"
+ },
+ "queen.word": {
+  "lang": "en",
+  "text": "queen",
   "tier": "core"
  },
  "quest.example.en": {
@@ -11997,6 +13977,96 @@
  "racket.word": {
   "lang": "en",
   "text": "racket",
+  "tier": "core"
+ },
+ "radio.example.en": {
+  "lang": "en",
+  "text": "I listen to the radio in the car.",
+  "tier": "core"
+ },
+ "radio.example.ja": {
+  "lang": "ja",
+  "text": "車ではラジオを聞く。",
+  "tier": "core"
+ },
+ "radio.katakana": {
+  "lang": "ja",
+  "text": "ラジオ",
+  "tier": "core"
+ },
+ "radio.meaning": {
+  "lang": "ja",
+  "text": "ラジオ、無線",
+  "tier": "core"
+ },
+ "radio.story": {
+  "lang": "ja",
+  "text": "電波が「放射状」に広がることから radiotelegraphy 無線電信 と呼ばれ、短くなった。radiation 放射線 、radius 半径 も同じ家族。",
+  "tier": "extended"
+ },
+ "radio.word": {
+  "lang": "en",
+  "text": "radio",
+  "tier": "core"
+ },
+ "rain.example.en": {
+  "lang": "en",
+  "text": "It's raining hard outside.",
+  "tier": "core"
+ },
+ "rain.example.ja": {
+  "lang": "ja",
+  "text": "外は雨が激しく降っている。",
+  "tier": "core"
+ },
+ "rain.katakana": {
+  "lang": "ja",
+  "text": "レイン",
+  "tier": "core"
+ },
+ "rain.meaning": {
+  "lang": "ja",
+  "text": "雨 が降る",
+  "tier": "core"
+ },
+ "rain.story": {
+  "lang": "ja",
+  "text": "It's raining cats and dogs. 猫と犬が降っている は「どしゃ降り」という有名な決まり文句。",
+  "tier": "extended"
+ },
+ "rain.word": {
+  "lang": "en",
+  "text": "rain",
+  "tier": "core"
+ },
+ "rainbow.example.en": {
+  "lang": "en",
+  "text": "Look, there's a rainbow!",
+  "tier": "core"
+ },
+ "rainbow.example.ja": {
+  "lang": "ja",
+  "text": "見て、虹が出てる！",
+  "tier": "core"
+ },
+ "rainbow.katakana": {
+  "lang": "ja",
+  "text": "レインボー",
+  "tier": "core"
+ },
+ "rainbow.meaning": {
+  "lang": "ja",
+  "text": "虹",
+  "tier": "core"
+ },
+ "rainbow.story": {
+  "lang": "ja",
+  "text": "rain 雨 + bow 弓 。虹の形を弓にたとえた。",
+  "tier": "extended"
+ },
+ "rainbow.word": {
+  "lang": "en",
+  "text": "rainbow",
   "tier": "core"
  },
  "rare.example.en": {
@@ -12839,6 +14909,36 @@
   "text": "room",
   "tier": "core"
  },
+ "rose.example.en": {
+  "lang": "en",
+  "text": "He gave her a dozen red roses.",
+  "tier": "core"
+ },
+ "rose.example.ja": {
+  "lang": "ja",
+  "text": "彼は彼女に赤いバラを12本贈った。",
+  "tier": "core"
+ },
+ "rose.katakana": {
+  "lang": "ja",
+  "text": "ローズ",
+  "tier": "core"
+ },
+ "rose.meaning": {
+  "lang": "ja",
+  "text": "バラ",
+  "tier": "core"
+ },
+ "rose.story": {
+  "lang": "ja",
+  "text": "色の名前 バラ色 にもなる。Every rose has its thorn. どんなバラにもとげがある は「完全なものはない」ということわざ。",
+  "tier": "extended"
+ },
+ "rose.word": {
+  "lang": "en",
+  "text": "rose",
+  "tier": "core"
+ },
  "routine.example.en": {
   "lang": "en",
   "text": "Walking the dog is part of my morning routine.",
@@ -13559,6 +15659,36 @@
   "text": "share",
   "tier": "core"
  },
+ "shark.example.en": {
+  "lang": "en",
+  "text": "A shark swam near the boat.",
+  "tier": "core"
+ },
+ "shark.example.ja": {
+  "lang": "ja",
+  "text": "ボートの近くをサメが泳いでいた。",
+  "tier": "core"
+ },
+ "shark.katakana": {
+  "lang": "ja",
+  "text": "シャーク",
+  "tier": "core"
+ },
+ "shark.meaning": {
+  "lang": "ja",
+  "text": "サメ",
+  "tier": "core"
+ },
+ "shark.story": {
+  "lang": "ja",
+  "text": "船乗りの言葉として現れた。「ずる賢い人、高利貸し loan shark 」の意味もある。",
+  "tier": "extended"
+ },
+ "shark.word": {
+  "lang": "en",
+  "text": "shark",
+  "tier": "core"
+ },
  "shirt.example.en": {
   "lang": "en",
   "text": "He is wearing a white shirt.",
@@ -13799,6 +15929,36 @@
   "text": "signal",
   "tier": "core"
  },
+ "silver.example.en": {
+  "lang": "en",
+  "text": "Her hair turned silver.",
+  "tier": "core"
+ },
+ "silver.example.ja": {
+  "lang": "ja",
+  "text": "彼女の髪は銀色になった。",
+  "tier": "core"
+ },
+ "silver.katakana": {
+  "lang": "ja",
+  "text": "シルバー",
+  "tier": "core"
+ },
+ "silver.meaning": {
+  "lang": "ja",
+  "text": "銀、銀色",
+  "tier": "core"
+ },
+ "silver.story": {
+  "lang": "ja",
+  "text": "silverware は銀の食器 今はナイフ、フォーク類全般 。silver lining 雲の銀のふち は「希望の兆し」。",
+  "tier": "extended"
+ },
+ "silver.word": {
+  "lang": "en",
+  "text": "silver",
+  "tier": "core"
+ },
  "simple.example.en": {
   "lang": "en",
   "text": "The rules of the game are very simple.",
@@ -13859,6 +16019,36 @@
   "text": "size",
   "tier": "core"
  },
+ "ski.example.en": {
+  "lang": "en",
+  "text": "We went skiing in Nagano.",
+  "tier": "core"
+ },
+ "ski.example.ja": {
+  "lang": "ja",
+  "text": "長野にスキーに行った。",
+  "tier": "core"
+ },
+ "ski.katakana": {
+  "lang": "ja",
+  "text": "スキー",
+  "tier": "core"
+ },
+ "ski.meaning": {
+  "lang": "ja",
+  "text": "スキー をする",
+  "tier": "core"
+ },
+ "ski.story": {
+  "lang": "ja",
+  "text": "「割った木の板」が原義。ノルウェーで雪の上を移動する道具として古くから使われた。発音は「スキー」。",
+  "tier": "extended"
+ },
+ "ski.word": {
+  "lang": "en",
+  "text": "ski",
+  "tier": "core"
+ },
  "skill.example.en": {
   "lang": "en",
   "text": "Cooking is a useful skill.",
@@ -13917,6 +16107,36 @@
  "skirt.word": {
   "lang": "en",
   "text": "skirt",
+  "tier": "core"
+ },
+ "sky.example.en": {
+  "lang": "en",
+  "text": "The sky is clear today.",
+  "tier": "core"
+ },
+ "sky.example.ja": {
+  "lang": "ja",
+  "text": "今日は空が晴れわたっている。",
+  "tier": "core"
+ },
+ "sky.katakana": {
+  "lang": "ja",
+  "text": "スカイ",
+  "tier": "core"
+ },
+ "sky.meaning": {
+  "lang": "ja",
+  "text": "空",
+  "tier": "core"
+ },
+ "sky.story": {
+  "lang": "ja",
+  "text": "ヴァイキングの言葉で「雲」だった語が「空」になった。古英語では空を heofon heaven と言った。",
+  "tier": "extended"
+ },
+ "sky.word": {
+  "lang": "en",
+  "text": "sky",
   "tier": "core"
  },
  "slow.example.en": {
@@ -14009,6 +16229,36 @@
   "text": "smile",
   "tier": "core"
  },
+ "snow.example.en": {
+  "lang": "en",
+  "text": "It snowed a lot last night.",
+  "tier": "core"
+ },
+ "snow.example.ja": {
+  "lang": "ja",
+  "text": "昨夜は雪がたくさん降った。",
+  "tier": "core"
+ },
+ "snow.katakana": {
+  "lang": "ja",
+  "text": "スノー",
+  "tier": "core"
+ },
+ "snow.meaning": {
+  "lang": "ja",
+  "text": "雪 が降る",
+  "tier": "core"
+ },
+ "snow.story": {
+  "lang": "ja",
+  "text": "ラテン語 nix 雪 とも同じ祖先。snowman は雪だるま。",
+  "tier": "extended"
+ },
+ "snow.word": {
+  "lang": "en",
+  "text": "snow",
+  "tier": "core"
+ },
  "soccer.example.en": {
   "lang": "en",
   "text": "He plays soccer every Saturday.",
@@ -14039,6 +16289,66 @@
   "text": "soccer",
   "tier": "core"
  },
+ "socks.example.en": {
+  "lang": "en",
+  "text": "I have a hole in my sock.",
+  "tier": "core"
+ },
+ "socks.example.ja": {
+  "lang": "ja",
+  "text": "靴下に穴があいている。",
+  "tier": "core"
+ },
+ "socks.katakana": {
+  "lang": "ja",
+  "text": "ソックス",
+  "tier": "core"
+ },
+ "socks.meaning": {
+  "lang": "ja",
+  "text": "靴下",
+  "tier": "core"
+ },
+ "socks.story": {
+  "lang": "ja",
+  "text": "古代ローマの喜劇役者の軽い靴が語源。ふつう2つで a pair of socks。",
+  "tier": "extended"
+ },
+ "socks.word": {
+  "lang": "en",
+  "text": "socks",
+  "tier": "core"
+ },
+ "soda.example.en": {
+  "lang": "en",
+  "text": "Too much soda is bad for your teeth.",
+  "tier": "core"
+ },
+ "soda.example.ja": {
+  "lang": "ja",
+  "text": "炭酸飲料の飲みすぎは歯に悪い。",
+  "tier": "core"
+ },
+ "soda.katakana": {
+  "lang": "ja",
+  "text": "ソーダ",
+  "tier": "core"
+ },
+ "soda.meaning": {
+  "lang": "ja",
+  "text": "炭酸飲料、ソーダ",
+  "tier": "core"
+ },
+ "soda.story": {
+  "lang": "ja",
+  "text": "もとは化学物質 炭酸ナトリウム の名前。炭酸ガスを溶かした水を soda water と呼び、アメリカでは甘い炭酸飲料全般を soda と言うようになった。",
+  "tier": "extended"
+ },
+ "soda.word": {
+  "lang": "en",
+  "text": "soda",
+  "tier": "core"
+ },
  "sofa.example.en": {
   "lang": "en",
   "text": "The cat is sleeping on the sofa.",
@@ -14067,6 +16377,36 @@
  "sofa.word": {
   "lang": "en",
   "text": "sofa",
+  "tier": "core"
+ },
+ "soft.example.en": {
+  "lang": "en",
+  "text": "This pillow is really soft.",
+  "tier": "core"
+ },
+ "soft.example.ja": {
+  "lang": "ja",
+  "text": "この枕はとてもやわらかい。",
+  "tier": "core"
+ },
+ "soft.katakana": {
+  "lang": "ja",
+  "text": "ソフト",
+  "tier": "core"
+ },
+ "soft.meaning": {
+  "lang": "ja",
+  "text": "やわらかい、穏やかな",
+  "tier": "core"
+ },
+ "soft.story": {
+  "lang": "ja",
+  "text": "「ソフトクリーム」は和製英語で、英語では soft serve (ice cream)。コンピュータの software は hardware 機械 に対する「やわらかい部分」。",
+  "tier": "extended"
+ },
+ "soft.word": {
+  "lang": "en",
+  "text": "soft",
   "tier": "core"
  },
  "solution.example.en": {
@@ -14699,6 +17039,36 @@
   "text": "status",
   "tier": "core"
  },
+ "steak.example.en": {
+  "lang": "en",
+  "text": "How would you like your steak?",
+  "tier": "core"
+ },
+ "steak.example.ja": {
+  "lang": "ja",
+  "text": "ステーキの焼き加減はどうなさいますか？",
+  "tier": "core"
+ },
+ "steak.katakana": {
+  "lang": "ja",
+  "text": "ステーキ",
+  "tier": "core"
+ },
+ "steak.meaning": {
+  "lang": "ja",
+  "text": "ステーキ",
+  "tier": "core"
+ },
+ "steak.story": {
+  "lang": "ja",
+  "text": "もとは串に刺して焼いた肉。stick 棒 と同じ系統の語とされる。焼き加減は rare / medium / well-done。",
+  "tier": "extended"
+ },
+ "steak.word": {
+  "lang": "en",
+  "text": "steak",
+  "tier": "core"
+ },
  "stealth.example.en": {
   "lang": "en",
   "text": "The ninja moved with great stealth.",
@@ -14819,6 +17189,36 @@
   "text": "stoic",
   "tier": "core"
  },
+ "stop.example.en": {
+  "lang": "en",
+  "text": "Stop! The light is red.",
+  "tier": "core"
+ },
+ "stop.example.ja": {
+  "lang": "ja",
+  "text": "止まって！ 信号が赤だよ。",
+  "tier": "core"
+ },
+ "stop.katakana": {
+  "lang": "ja",
+  "text": "ストップ",
+  "tier": "core"
+ },
+ "stop.meaning": {
+  "lang": "ja",
+  "text": "止まる、止める、停留所",
+  "tier": "core"
+ },
+ "stop.story": {
+  "lang": "ja",
+  "text": "もとは穴を「ふさぐ」。stopper 栓 にその意味が残る。",
+  "tier": "extended"
+ },
+ "stop.word": {
+  "lang": "en",
+  "text": "stop",
+  "tier": "core"
+ },
  "stove.example.en": {
   "lang": "en",
   "text": "The soup is heating up on the stove.",
@@ -14877,6 +17277,36 @@
  "strategy.word": {
   "lang": "en",
   "text": "strategy",
+  "tier": "core"
+ },
+ "straw.example.en": {
+  "lang": "en",
+  "text": "Can I have a straw?",
+  "tier": "core"
+ },
+ "straw.example.ja": {
+  "lang": "ja",
+  "text": "ストローをもらえますか？",
+  "tier": "core"
+ },
+ "straw.katakana": {
+  "lang": "ja",
+  "text": "ストロー",
+  "tier": "core"
+ },
+ "straw.meaning": {
+  "lang": "ja",
+  "text": "ストロー、わら",
+  "tier": "core"
+ },
+ "straw.story": {
+  "lang": "ja",
+  "text": "もとは麦の「わら」。わらの茎で飲み物を吸ったことからストローに。the last straw 最後のわら一本 は「我慢の限界」。",
+  "tier": "extended"
+ },
+ "straw.word": {
+  "lang": "en",
+  "text": "straw",
   "tier": "core"
  },
  "street.example.en": {
@@ -15119,6 +17549,36 @@
   "text": "summon",
   "tier": "core"
  },
+ "sun.example.en": {
+  "lang": "en",
+  "text": "The sun rises in the east.",
+  "tier": "core"
+ },
+ "sun.example.ja": {
+  "lang": "ja",
+  "text": "太陽は東から昇る。",
+  "tier": "core"
+ },
+ "sun.katakana": {
+  "lang": "ja",
+  "text": "サン",
+  "tier": "core"
+ },
+ "sun.meaning": {
+  "lang": "ja",
+  "text": "太陽",
+  "tier": "core"
+ },
+ "sun.story": {
+  "lang": "ja",
+  "text": "ラテン語 sol ソーラー solar と同じ祖先。Sunday は「太陽の日」。",
+  "tier": "extended"
+ },
+ "sun.word": {
+  "lang": "en",
+  "text": "sun",
+  "tier": "core"
+ },
  "support.example.en": {
   "lang": "en",
   "text": "Thank you for your support.",
@@ -15239,6 +17699,36 @@
   "text": "sweater",
   "tier": "core"
  },
+ "sweet.example.en": {
+  "lang": "en",
+  "text": "That's so sweet of you!",
+  "tier": "core"
+ },
+ "sweet.example.ja": {
+  "lang": "ja",
+  "text": "なんて優しいの！",
+  "tier": "core"
+ },
+ "sweet.katakana": {
+  "lang": "ja",
+  "text": "スイート",
+  "tier": "core"
+ },
+ "sweet.meaning": {
+  "lang": "ja",
+  "text": "甘い、優しい",
+  "tier": "core"
+ },
+ "sweet.story": {
+  "lang": "ja",
+  "text": "ラテン語 suavis 心地よい 、ギリシャ語 hedys 快い と同じ祖先。「優しい」「かわいい」の意味でもよく使う。ホテルの「スイートルーム」は suite で別の語。",
+  "tier": "extended"
+ },
+ "sweet.word": {
+  "lang": "en",
+  "text": "sweet",
+  "tier": "core"
+ },
  "swimming.example.en": {
   "lang": "en",
   "text": "I go swimming every Sunday.",
@@ -15339,6 +17829,11 @@
   "text": "adaptable",
   "tier": "core"
  },
+ "syn.adhesive": {
+  "lang": "en",
+  "text": "adhesive",
+  "tier": "core"
+ },
  "syn.administration": {
   "lang": "en",
   "text": "administration",
@@ -15352,6 +17847,16 @@
  "syn.admission": {
   "lang": "en",
   "text": "admission",
+  "tier": "core"
+ },
+ "syn.adorable": {
+  "lang": "en",
+  "text": "adorable",
+  "tier": "core"
+ },
+ "syn.adore": {
+  "lang": "en",
+  "text": "adore",
   "tier": "core"
  },
  "syn.advantage": {
@@ -15387,6 +17892,11 @@
  "syn.aim": {
   "lang": "en",
   "text": "aim",
+  "tier": "core"
+ },
+ "syn.air": {
+  "lang": "en",
+  "text": "air",
   "tier": "core"
  },
  "syn.air-conditioner": {
@@ -15457,6 +17967,21 @@
  "syn.approval": {
   "lang": "en",
   "text": "approval",
+  "tier": "core"
+ },
+ "syn.apricot": {
+  "lang": "en",
+  "text": "apricot",
+  "tier": "core"
+ },
+ "syn.aqua": {
+  "lang": "en",
+  "text": "aqua",
+  "tier": "core"
+ },
+ "syn.arc": {
+  "lang": "en",
+  "text": "arc",
   "tier": "core"
  },
  "syn.archive": {
@@ -15589,6 +18114,11 @@
   "text": "avenue",
   "tier": "core"
  },
+ "syn.awesome": {
+  "lang": "en",
+  "text": "awesome",
+  "tier": "core"
+ },
  "syn.back-up": {
   "lang": "en",
   "text": "back up",
@@ -15609,9 +18139,24 @@
   "text": "backpack",
   "tier": "core"
  },
+ "syn.bacon": {
+  "lang": "en",
+  "text": "bacon",
+  "tier": "core"
+ },
  "syn.badminton": {
   "lang": "en",
   "text": "badminton",
+  "tier": "core"
+ },
+ "syn.bag": {
+  "lang": "en",
+  "text": "bag",
+  "tier": "core"
+ },
+ "syn.bagel": {
+  "lang": "en",
+  "text": "bagel",
   "tier": "core"
  },
  "syn.ballet": {
@@ -15622,6 +18167,11 @@
  "syn.bamboo": {
   "lang": "en",
   "text": "bamboo",
+  "tier": "core"
+ },
+ "syn.band": {
+  "lang": "en",
+  "text": "band",
   "tier": "core"
  },
  "syn.barbecue": {
@@ -15644,6 +18194,11 @@
   "text": "bat",
   "tier": "core"
  },
+ "syn.bathroom": {
+  "lang": "en",
+  "text": "bathroom",
+  "tier": "core"
+ },
  "syn.battle": {
   "lang": "en",
   "text": "battle",
@@ -15662,6 +18217,11 @@
  "syn.beat": {
   "lang": "en",
   "text": "beat",
+  "tier": "core"
+ },
+ "syn.beef": {
+  "lang": "en",
+  "text": "beef",
   "tier": "core"
  },
  "syn.begin": {
@@ -15734,14 +18294,29 @@
   "text": "blank",
   "tier": "core"
  },
+ "syn.blaze": {
+  "lang": "en",
+  "text": "blaze",
+  "tier": "core"
+ },
  "syn.blazer": {
   "lang": "en",
   "text": "blazer",
   "tier": "core"
  },
+ "syn.blind": {
+  "lang": "en",
+  "text": "blind",
+  "tier": "core"
+ },
  "syn.bliss": {
   "lang": "en",
   "text": "bliss",
+  "tier": "core"
+ },
+ "syn.blizzard": {
+  "lang": "en",
+  "text": "blizzard",
   "tier": "core"
  },
  "syn.bloom": {
@@ -15784,6 +18359,11 @@
   "text": "bookstore",
   "tier": "core"
  },
+ "syn.boot": {
+  "lang": "en",
+  "text": "boot",
+  "tier": "core"
+ },
  "syn.boots": {
   "lang": "en",
   "text": "boots",
@@ -15819,6 +18399,11 @@
   "text": "branch",
   "tier": "core"
  },
+ "syn.bread": {
+  "lang": "en",
+  "text": "bread",
+  "tier": "core"
+ },
  "syn.break": {
   "lang": "en",
   "text": "break",
@@ -15849,6 +18434,11 @@
   "text": "brochure",
   "tier": "core"
  },
+ "syn.broom": {
+  "lang": "en",
+  "text": "broom",
+  "tier": "core"
+ },
  "syn.broth": {
   "lang": "en",
   "text": "broth",
@@ -15872,6 +18462,11 @@
  "syn.bug": {
   "lang": "en",
   "text": "bug",
+  "tier": "core"
+ },
+ "syn.bulb": {
+  "lang": "en",
+  "text": "bulb",
   "tier": "core"
  },
  "syn.bunch": {
@@ -15924,6 +18519,11 @@
   "text": "call off",
   "tier": "core"
  },
+ "syn.calm": {
+  "lang": "en",
+  "text": "calm",
+  "tier": "core"
+ },
  "syn.camcorder": {
   "lang": "en",
   "text": "camcorder",
@@ -15937,6 +18537,16 @@
  "syn.canine": {
   "lang": "en",
   "text": "canine",
+  "tier": "core"
+ },
+ "syn.cantaloupe": {
+  "lang": "en",
+  "text": "cantaloupe",
+  "tier": "core"
+ },
+ "syn.cap": {
+  "lang": "en",
+  "text": "cap",
   "tier": "core"
  },
  "syn.capability": {
@@ -16039,6 +18649,11 @@
   "text": "championship",
   "tier": "core"
  },
+ "syn.change": {
+  "lang": "en",
+  "text": "change",
+  "tier": "core"
+ },
  "syn.character": {
   "lang": "en",
   "text": "character",
@@ -16084,6 +18699,11 @@
   "text": "cheerful",
   "tier": "core"
  },
+ "syn.cheers": {
+  "lang": "en",
+  "text": "cheers",
+  "tier": "core"
+ },
  "syn.chemical-free": {
   "lang": "en",
   "text": "chemical-free",
@@ -16097,6 +18717,11 @@
  "syn.chief": {
   "lang": "en",
   "text": "chief",
+  "tier": "core"
+ },
+ "syn.chili": {
+  "lang": "en",
+  "text": "chili",
   "tier": "core"
  },
  "syn.chilly": {
@@ -16114,6 +18739,11 @@
   "text": "chimpanzee",
   "tier": "core"
  },
+ "syn.chips": {
+  "lang": "en",
+  "text": "chips",
+  "tier": "core"
+ },
  "syn.choice": {
   "lang": "en",
   "text": "choice",
@@ -16122,6 +18752,11 @@
  "syn.chopsticks": {
   "lang": "en",
   "text": "chopsticks",
+  "tier": "core"
+ },
+ "syn.chunk": {
+  "lang": "en",
+  "text": "chunk",
   "tier": "core"
  },
  "syn.cider": {
@@ -16204,6 +18839,11 @@
   "text": "clothes",
   "tier": "core"
  },
+ "syn.club": {
+  "lang": "en",
+  "text": "club",
+  "tier": "core"
+ },
  "syn.clue": {
   "lang": "en",
   "text": "clue",
@@ -16234,6 +18874,11 @@
   "text": "code",
   "tier": "core"
  },
+ "syn.cola": {
+  "lang": "en",
+  "text": "cola",
+  "tier": "core"
+ },
  "syn.collection": {
   "lang": "en",
   "text": "collection",
@@ -16242,6 +18887,11 @@
  "syn.college": {
   "lang": "en",
   "text": "college",
+  "tier": "core"
+ },
+ "syn.comb": {
+  "lang": "en",
+  "text": "comb",
   "tier": "core"
  },
  "syn.command": {
@@ -16484,6 +19134,11 @@
   "text": "creek",
   "tier": "core"
  },
+ "syn.crescent": {
+  "lang": "en",
+  "text": "crescent",
+  "tier": "core"
+ },
  "syn.crew": {
   "lang": "en",
   "text": "crew",
@@ -16502,6 +19157,11 @@
  "syn.crisis": {
   "lang": "en",
   "text": "crisis",
+  "tier": "core"
+ },
+ "syn.crisp": {
+  "lang": "en",
+  "text": "crisp",
   "tier": "core"
  },
  "syn.crowd": {
@@ -16542,6 +19202,11 @@
  "syn.curse": {
   "lang": "en",
   "text": "curse",
+  "tier": "core"
+ },
+ "syn.custard": {
+  "lang": "en",
+  "text": "custard",
   "tier": "core"
  },
  "syn.custom": {
@@ -16587,6 +19252,11 @@
  "syn.dark": {
   "lang": "en",
   "text": "dark",
+  "tier": "core"
+ },
+ "syn.darling": {
+  "lang": "en",
+  "text": "darling",
   "tier": "core"
  },
  "syn.data": {
@@ -16642,6 +19312,11 @@
  "syn.demand": {
   "lang": "en",
   "text": "demand",
+  "tier": "core"
+ },
+ "syn.denim": {
+  "lang": "en",
+  "text": "denim",
   "tier": "core"
  },
  "syn.deploy": {
@@ -16804,6 +19479,11 @@
   "text": "draft",
   "tier": "core"
  },
+ "syn.drape": {
+  "lang": "en",
+  "text": "drape",
+  "tier": "core"
+ },
  "syn.draught": {
   "lang": "en",
   "text": "draught",
@@ -16934,6 +19614,11 @@
   "text": "emotional",
   "tier": "core"
  },
+ "syn.empress": {
+  "lang": "en",
+  "text": "empress",
+  "tier": "core"
+ },
  "syn.endurance": {
   "lang": "en",
   "text": "endurance",
@@ -17007,6 +19692,11 @@
  "syn.espresso": {
   "lang": "en",
   "text": "espresso",
+  "tier": "core"
+ },
+ "syn.eucalyptus": {
+  "lang": "en",
+  "text": "eucalyptus",
   "tier": "core"
  },
  "syn.evade": {
@@ -17189,6 +19879,11 @@
   "text": "fireplace",
   "tier": "core"
  },
+ "syn.flame": {
+  "lang": "en",
+  "text": "flame",
+  "tier": "core"
+ },
  "syn.flash": {
   "lang": "en",
   "text": "flash",
@@ -17319,6 +20014,11 @@
   "text": "fridge",
   "tier": "core"
  },
+ "syn.fries": {
+  "lang": "en",
+  "text": "fries",
+  "tier": "core"
+ },
  "syn.frost": {
   "lang": "en",
   "text": "frost",
@@ -17379,6 +20079,11 @@
   "text": "garden",
   "tier": "core"
  },
+ "syn.garlic": {
+  "lang": "en",
+  "text": "garlic",
+  "tier": "core"
+ },
  "syn.gate": {
   "lang": "en",
   "text": "gate",
@@ -17397,6 +20102,21 @@
  "syn.gear": {
   "lang": "en",
   "text": "gear",
+  "tier": "core"
+ },
+ "syn.gelatin": {
+  "lang": "en",
+  "text": "gelatin",
+  "tier": "core"
+ },
+ "syn.gentle": {
+  "lang": "en",
+  "text": "gentle",
+  "tier": "core"
+ },
+ "syn.gentleman": {
+  "lang": "en",
+  "text": "gentleman",
   "tier": "core"
  },
  "syn.ghost": {
@@ -17429,9 +20149,24 @@
   "text": "gloom",
   "tier": "core"
  },
+ "syn.glue": {
+  "lang": "en",
+  "text": "glue",
+  "tier": "core"
+ },
  "syn.goal": {
   "lang": "en",
   "text": "goal",
+  "tier": "core"
+ },
+ "syn.gold": {
+  "lang": "en",
+  "text": "gold",
+  "tier": "core"
+ },
+ "syn.gooseberry": {
+  "lang": "en",
+  "text": "gooseberry",
   "tier": "core"
  },
  "syn.gossip": {
@@ -17469,6 +20204,11 @@
   "text": "greens",
   "tier": "core"
  },
+ "syn.grill": {
+  "lang": "en",
+  "text": "grill",
+  "tier": "core"
+ },
  "syn.grin": {
   "lang": "en",
   "text": "grin",
@@ -17494,6 +20234,16 @@
   "text": "habit",
   "tier": "core"
  },
+ "syn.halt": {
+  "lang": "en",
+  "text": "halt",
+  "tier": "core"
+ },
+ "syn.ham": {
+  "lang": "en",
+  "text": "ham",
+  "tier": "core"
+ },
  "syn.hand": {
   "lang": "en",
   "text": "hand",
@@ -17502,6 +20252,11 @@
  "syn.handbook": {
   "lang": "en",
   "text": "handbook",
+  "tier": "core"
+ },
+ "syn.handkerchief": {
+  "lang": "en",
+  "text": "handkerchief",
   "tier": "core"
  },
  "syn.handout": {
@@ -17539,6 +20294,11 @@
   "text": "hat",
   "tier": "core"
  },
+ "syn.hay": {
+  "lang": "en",
+  "text": "hay",
+  "tier": "core"
+ },
  "syn.hazard": {
   "lang": "en",
   "text": "hazard",
@@ -17559,14 +20319,34 @@
   "text": "heater",
   "tier": "core"
  },
+ "syn.heaven": {
+  "lang": "en",
+  "text": "heaven",
+  "tier": "core"
+ },
+ "syn.heir": {
+  "lang": "en",
+  "text": "heir",
+  "tier": "core"
+ },
  "syn.heirloom": {
   "lang": "en",
   "text": "heirloom",
   "tier": "core"
  },
+ "syn.helmet": {
+  "lang": "en",
+  "text": "helmet",
+  "tier": "core"
+ },
  "syn.help": {
   "lang": "en",
   "text": "help",
+  "tier": "core"
+ },
+ "syn.herb": {
+  "lang": "en",
+  "text": "herb",
   "tier": "core"
  },
  "syn.herbal-tea": {
@@ -17587,6 +20367,11 @@
  "syn.hill": {
   "lang": "en",
   "text": "hill",
+  "tier": "core"
+ },
+ "syn.hit": {
+  "lang": "en",
+  "text": "hit",
   "tier": "core"
  },
  "syn.hoard": {
@@ -17632,6 +20417,11 @@
  "syn.hop": {
   "lang": "en",
   "text": "hop",
+  "tier": "core"
+ },
+ "syn.horse": {
+  "lang": "en",
+  "text": "horse",
   "tier": "core"
  },
  "syn.hound": {
@@ -17834,6 +20624,11 @@
   "text": "jacket",
   "tier": "core"
  },
+ "syn.jam": {
+  "lang": "en",
+  "text": "jam",
+  "tier": "core"
+ },
  "syn.jar": {
   "lang": "en",
   "text": "jar",
@@ -17884,6 +20679,11 @@
   "text": "ketchup",
   "tier": "core"
  },
+ "syn.kettle": {
+  "lang": "en",
+  "text": "kettle",
+  "tier": "core"
+ },
  "syn.key": {
   "lang": "en",
   "text": "key",
@@ -17892,6 +20692,11 @@
  "syn.keyboard": {
   "lang": "en",
   "text": "keyboard",
+  "tier": "core"
+ },
+ "syn.kid": {
+  "lang": "en",
+  "text": "kid",
   "tier": "core"
  },
  "syn.kilt": {
@@ -17939,9 +20744,24 @@
   "text": "labyrinth",
   "tier": "core"
  },
+ "syn.lad": {
+  "lang": "en",
+  "text": "lad",
+  "tier": "core"
+ },
  "syn.ladle": {
   "lang": "en",
   "text": "ladle",
+  "tier": "core"
+ },
+ "syn.lady": {
+  "lang": "en",
+  "text": "lady",
+  "tier": "core"
+ },
+ "syn.lantern": {
+  "lang": "en",
+  "text": "lantern",
   "tier": "core"
  },
  "syn.laptop": {
@@ -17957,6 +20777,11 @@
  "syn.laser": {
   "lang": "en",
   "text": "laser",
+  "tier": "core"
+ },
+ "syn.lass": {
+  "lang": "en",
+  "text": "lass",
   "tier": "core"
  },
  "syn.late": {
@@ -18029,6 +20854,11 @@
   "text": "lecture",
   "tier": "core"
  },
+ "syn.leek": {
+  "lang": "en",
+  "text": "leek",
+  "tier": "core"
+ },
  "syn.lens": {
   "lang": "en",
   "text": "lens",
@@ -18049,6 +20879,16 @@
   "text": "lift",
   "tier": "core"
  },
+ "syn.light": {
+  "lang": "en",
+  "text": "light",
+  "tier": "core"
+ },
+ "syn.like": {
+  "lang": "en",
+  "text": "like",
+  "tier": "core"
+ },
  "syn.lime": {
   "lang": "en",
   "text": "lime",
@@ -18062,6 +20902,11 @@
  "syn.lioness": {
   "lang": "en",
   "text": "lioness",
+  "tier": "core"
+ },
+ "syn.liquid": {
+  "lang": "en",
+  "text": "liquid",
   "tier": "core"
  },
  "syn.list": {
@@ -18144,6 +20989,11 @@
   "text": "luck",
   "tier": "core"
  },
+ "syn.lunar": {
+  "lang": "en",
+  "text": "lunar",
+  "tier": "core"
+ },
  "syn.lyrics": {
   "lang": "en",
   "text": "lyrics",
@@ -18159,6 +21009,11 @@
   "text": "magenta",
   "tier": "core"
  },
+ "syn.maiden": {
+  "lang": "en",
+  "text": "maiden",
+  "tier": "core"
+ },
  "syn.mail": {
   "lang": "en",
   "text": "mail",
@@ -18172,6 +21027,11 @@
  "syn.maintain": {
   "lang": "en",
   "text": "maintain",
+  "tier": "core"
+ },
+ "syn.maize": {
+  "lang": "en",
+  "text": "maize",
   "tier": "core"
  },
  "syn.major": {
@@ -18219,6 +21079,11 @@
   "text": "marmalade",
   "tier": "core"
  },
+ "syn.marsupial": {
+  "lang": "en",
+  "text": "marsupial",
+  "tier": "core"
+ },
  "syn.marvel": {
   "lang": "en",
   "text": "marvel",
@@ -18237,6 +21102,11 @@
  "syn.masterpiece": {
   "lang": "en",
   "text": "masterpiece",
+  "tier": "core"
+ },
+ "syn.mat": {
+  "lang": "en",
+  "text": "mat",
   "tier": "core"
  },
  "syn.match": {
@@ -18284,9 +21154,29 @@
   "text": "memo",
   "tier": "core"
  },
+ "syn.menthol": {
+  "lang": "en",
+  "text": "menthol",
+  "tier": "core"
+ },
  "syn.merchandise": {
   "lang": "en",
   "text": "merchandise",
+  "tier": "core"
+ },
+ "syn.mesh": {
+  "lang": "en",
+  "text": "mesh",
+  "tier": "core"
+ },
+ "syn.message": {
+  "lang": "en",
+  "text": "message",
+  "tier": "core"
+ },
+ "syn.metal": {
+  "lang": "en",
+  "text": "metal",
   "tier": "core"
  },
  "syn.method": {
@@ -18312,6 +21202,11 @@
  "syn.milestone": {
   "lang": "en",
   "text": "milestone",
+  "tier": "core"
+ },
+ "syn.mind": {
+  "lang": "en",
+  "text": "mind",
   "tier": "core"
  },
  "syn.missile": {
@@ -18347,6 +21242,11 @@
  "syn.model": {
   "lang": "en",
   "text": "model",
+  "tier": "core"
+ },
+ "syn.monarch": {
+  "lang": "en",
+  "text": "monarch",
   "tier": "core"
  },
  "syn.mood": {
@@ -18394,6 +21294,11 @@
   "text": "mutation",
   "tier": "core"
  },
+ "syn.mystery": {
+  "lang": "en",
+  "text": "mystery",
+  "tier": "core"
+ },
  "syn.myth": {
   "lang": "en",
   "text": "myth",
@@ -18434,6 +21339,11 @@
   "text": "near",
   "tier": "core"
  },
+ "syn.nectarine": {
+  "lang": "en",
+  "text": "nectarine",
+  "tier": "core"
+ },
  "syn.neighborhood": {
   "lang": "en",
   "text": "neighborhood",
@@ -18447,6 +21357,11 @@
  "syn.net": {
   "lang": "en",
   "text": "net",
+  "tier": "core"
+ },
+ "syn.new": {
+  "lang": "en",
+  "text": "new",
   "tier": "core"
  },
  "syn.newcomer": {
@@ -18464,9 +21379,19 @@
   "text": "nightmare",
   "tier": "core"
  },
+ "syn.noble": {
+  "lang": "en",
+  "text": "noble",
+  "tier": "core"
+ },
  "syn.noise": {
   "lang": "en",
   "text": "noise",
+  "tier": "core"
+ },
+ "syn.noodle": {
+  "lang": "en",
+  "text": "noodle",
   "tier": "core"
  },
  "syn.note": {
@@ -18527,6 +21452,11 @@
  "syn.obstacle": {
   "lang": "en",
   "text": "obstacle",
+  "tier": "core"
+ },
+ "syn.obstruct": {
+  "lang": "en",
+  "text": "obstruct",
   "tier": "core"
  },
  "syn.obvious": {
@@ -18679,6 +21609,11 @@
   "text": "pale",
   "tier": "core"
  },
+ "syn.pan": {
+  "lang": "en",
+  "text": "pan",
+  "tier": "core"
+ },
  "syn.pane": {
   "lang": "en",
   "text": "pane",
@@ -18692,6 +21627,11 @@
  "syn.pantry": {
   "lang": "en",
   "text": "pantry",
+  "tier": "core"
+ },
+ "syn.pants": {
+  "lang": "en",
+  "text": "pants",
   "tier": "core"
  },
  "syn.paper": {
@@ -18757,6 +21697,11 @@
  "syn.patty": {
   "lang": "en",
   "text": "patty",
+  "tier": "core"
+ },
+ "syn.pause": {
+  "lang": "en",
+  "text": "pause",
   "tier": "core"
  },
  "syn.peak": {
@@ -18929,6 +21874,21 @@
   "text": "point",
   "tier": "core"
  },
+ "syn.pond": {
+  "lang": "en",
+  "text": "pond",
+  "tier": "core"
+ },
+ "syn.pop": {
+  "lang": "en",
+  "text": "pop",
+  "tier": "core"
+ },
+ "syn.pork": {
+  "lang": "en",
+  "text": "pork",
+  "tier": "core"
+ },
  "syn.porpoise": {
   "lang": "en",
   "text": "porpoise",
@@ -18949,9 +21909,19 @@
   "text": "possibility",
   "tier": "core"
  },
+ "syn.post": {
+  "lang": "en",
+  "text": "post",
+  "tier": "core"
+ },
  "syn.posture": {
   "lang": "en",
   "text": "posture",
+  "tier": "core"
+ },
+ "syn.pouch": {
+  "lang": "en",
+  "text": "pouch",
   "tier": "core"
  },
  "syn.power": {
@@ -18967,6 +21937,11 @@
  "syn.precious": {
   "lang": "en",
   "text": "precious",
+  "tier": "core"
+ },
+ "syn.predator": {
+  "lang": "en",
+  "text": "predator",
   "tier": "core"
  },
  "syn.predicament": {
@@ -19004,9 +21979,24 @@
   "text": "pressure",
   "tier": "core"
  },
+ "syn.pretty": {
+  "lang": "en",
+  "text": "pretty",
+  "tier": "core"
+ },
  "syn.price": {
   "lang": "en",
   "text": "price",
+  "tier": "core"
+ },
+ "syn.primate": {
+  "lang": "en",
+  "text": "primate",
+  "tier": "core"
+ },
+ "syn.princess": {
+  "lang": "en",
+  "text": "princess",
   "tier": "core"
  },
  "syn.principle": {
@@ -19119,6 +22109,11 @@
   "text": "publicity",
   "tier": "core"
  },
+ "syn.puddle": {
+  "lang": "en",
+  "text": "puddle",
+  "tier": "core"
+ },
  "syn.puffin": {
   "lang": "en",
   "text": "puffin",
@@ -19127,6 +22122,16 @@
  "syn.puncture": {
   "lang": "en",
   "text": "puncture",
+  "tier": "core"
+ },
+ "syn.punt": {
+  "lang": "en",
+  "text": "punt",
+  "tier": "core"
+ },
+ "syn.puppet": {
+  "lang": "en",
+  "text": "puppet",
   "tier": "core"
  },
  "syn.puppy": {
@@ -19149,6 +22154,11 @@
   "text": "pursuit",
   "tier": "core"
  },
+ "syn.putt": {
+  "lang": "en",
+  "text": "putt",
+  "tier": "core"
+ },
  "syn.puzzle": {
   "lang": "en",
   "text": "puzzle",
@@ -19162,6 +22172,16 @@
  "syn.quarrel": {
   "lang": "en",
   "text": "quarrel",
+  "tier": "core"
+ },
+ "syn.queen": {
+  "lang": "en",
+  "text": "queen",
+  "tier": "core"
+ },
+ "syn.queue": {
+  "lang": "en",
+  "text": "queue",
   "tier": "core"
  },
  "syn.quill": {
@@ -19204,9 +22224,19 @@
   "text": "rain",
   "tier": "core"
  },
+ "syn.rain-boots": {
+  "lang": "en",
+  "text": "rain boots",
+  "tier": "core"
+ },
  "syn.rainforest": {
   "lang": "en",
   "text": "rainforest",
+  "tier": "core"
+ },
+ "syn.raisin": {
+  "lang": "en",
+  "text": "raisin",
   "tier": "core"
  },
  "syn.rampage": {
@@ -19302,6 +22332,11 @@
  "syn.reference": {
   "lang": "en",
   "text": "reference",
+  "tier": "core"
+ },
+ "syn.reflection": {
+  "lang": "en",
+  "text": "reflection",
   "tier": "core"
  },
  "syn.region": {
@@ -19409,6 +22444,11 @@
   "text": "restrict",
   "tier": "core"
  },
+ "syn.restroom": {
+  "lang": "en",
+  "text": "restroom",
+  "tier": "core"
+ },
  "syn.result": {
   "lang": "en",
   "text": "result",
@@ -19459,9 +22499,24 @@
   "text": "reward",
   "tier": "core"
  },
+ "syn.ribbon": {
+  "lang": "en",
+  "text": "ribbon",
+  "tier": "core"
+ },
+ "syn.riddle": {
+  "lang": "en",
+  "text": "riddle",
+  "tier": "core"
+ },
  "syn.ride": {
   "lang": "en",
   "text": "ride",
+  "tier": "core"
+ },
+ "syn.ring": {
+  "lang": "en",
+  "text": "ring",
   "tier": "core"
  },
  "syn.riposte": {
@@ -19514,14 +22569,39 @@
   "text": "route",
   "tier": "core"
  },
+ "syn.row": {
+  "lang": "en",
+  "text": "row",
+  "tier": "core"
+ },
+ "syn.rug": {
+  "lang": "en",
+  "text": "rug",
+  "tier": "core"
+ },
  "syn.rule": {
   "lang": "en",
   "text": "rule",
   "tier": "core"
  },
+ "syn.ruler": {
+  "lang": "en",
+  "text": "ruler",
+  "tier": "core"
+ },
+ "syn.running": {
+  "lang": "en",
+  "text": "running",
+  "tier": "core"
+ },
  "syn.runway": {
   "lang": "en",
   "text": "runway",
+  "tier": "core"
+ },
+ "syn.rush": {
+  "lang": "en",
+  "text": "rush",
   "tier": "core"
  },
  "syn.sack": {
@@ -19567,6 +22647,11 @@
  "syn.satire": {
   "lang": "en",
   "text": "satire",
+  "tier": "core"
+ },
+ "syn.sausage": {
+  "lang": "en",
+  "text": "sausage",
   "tier": "core"
  },
  "syn.save": {
@@ -19749,6 +22834,11 @@
   "text": "shock",
   "tier": "core"
  },
+ "syn.shoes": {
+  "lang": "en",
+  "text": "shoes",
+  "tier": "core"
+ },
  "syn.shore": {
   "lang": "en",
   "text": "shore",
@@ -19789,6 +22879,11 @@
   "text": "signature",
   "tier": "core"
  },
+ "syn.silver": {
+  "lang": "en",
+  "text": "silver",
+  "tier": "core"
+ },
  "syn.simple": {
   "lang": "en",
   "text": "simple",
@@ -19824,6 +22919,11 @@
   "text": "skyscraper",
   "tier": "core"
  },
+ "syn.sleet": {
+  "lang": "en",
+  "text": "sleet",
+  "tier": "core"
+ },
  "syn.slender": {
   "lang": "en",
   "text": "slender",
@@ -19834,9 +22934,19 @@
   "text": "slice",
   "tier": "core"
  },
+ "syn.slope": {
+  "lang": "en",
+  "text": "slope",
+  "tier": "core"
+ },
  "syn.sly": {
   "lang": "en",
   "text": "sly",
+  "tier": "core"
+ },
+ "syn.smooth": {
+  "lang": "en",
+  "text": "smooth",
   "tier": "core"
  },
  "syn.smoothie": {
@@ -19862,6 +22972,11 @@
  "syn.sneaky": {
   "lang": "en",
   "text": "sneaky",
+  "tier": "core"
+ },
+ "syn.snowboard": {
+  "lang": "en",
+  "text": "snowboard",
   "tier": "core"
  },
  "syn.soap": {
@@ -19892,6 +23007,11 @@
  "syn.software": {
   "lang": "en",
   "text": "software",
+  "tier": "core"
+ },
+ "syn.solar": {
+  "lang": "en",
+  "text": "solar",
   "tier": "core"
  },
  "syn.solid": {
@@ -19944,9 +23064,19 @@
   "text": "spacecraft",
   "tier": "core"
  },
+ "syn.spaghetti": {
+  "lang": "en",
+  "text": "spaghetti",
+  "tier": "core"
+ },
  "syn.spark": {
   "lang": "en",
   "text": "spark",
+  "tier": "core"
+ },
+ "syn.sparkling": {
+  "lang": "en",
+  "text": "sparkling",
   "tier": "core"
  },
  "syn.sparkling-water": {
@@ -19964,9 +23094,24 @@
   "text": "specimen",
   "tier": "core"
  },
+ "syn.spectrum": {
+  "lang": "en",
+  "text": "spectrum",
+  "tier": "core"
+ },
  "syn.sphere": {
   "lang": "en",
   "text": "sphere",
+  "tier": "core"
+ },
+ "syn.spice": {
+  "lang": "en",
+  "text": "spice",
+  "tier": "core"
+ },
+ "syn.spicy": {
+  "lang": "en",
+  "text": "spicy",
   "tier": "core"
  },
  "syn.spike": {
@@ -19992,6 +23137,11 @@
  "syn.spread": {
   "lang": "en",
   "text": "spread",
+  "tier": "core"
+ },
+ "syn.sprint": {
+  "lang": "en",
+  "text": "sprint",
   "tier": "core"
  },
  "syn.squad": {
@@ -20079,6 +23229,11 @@
   "text": "stock",
   "tier": "core"
  },
+ "syn.stockings": {
+  "lang": "en",
+  "text": "stockings",
+  "tier": "core"
+ },
  "syn.stool": {
   "lang": "en",
   "text": "stool",
@@ -20099,6 +23254,11 @@
   "text": "store",
   "tier": "core"
  },
+ "syn.storm": {
+  "lang": "en",
+  "text": "storm",
+  "tier": "core"
+ },
  "syn.story": {
   "lang": "en",
   "text": "story",
@@ -20112,6 +23272,11 @@
  "syn.strainer": {
   "lang": "en",
   "text": "strainer",
+  "tier": "core"
+ },
+ "syn.strap": {
+  "lang": "en",
+  "text": "strap",
   "tier": "core"
  },
  "syn.strategy": {
@@ -20147,6 +23312,11 @@
  "syn.strike-back": {
   "lang": "en",
   "text": "strike back",
+  "tier": "core"
+ },
+ "syn.stripe": {
+  "lang": "en",
+  "text": "stripe",
   "tier": "core"
  },
  "syn.structure": {
@@ -20194,6 +23364,16 @@
   "text": "subway",
   "tier": "core"
  },
+ "syn.success": {
+  "lang": "en",
+  "text": "success",
+  "tier": "core"
+ },
+ "syn.sugary": {
+  "lang": "en",
+  "text": "sugary",
+  "tier": "core"
+ },
  "syn.suggestion": {
   "lang": "en",
   "text": "suggestion",
@@ -20207,6 +23387,11 @@
  "syn.summit": {
   "lang": "en",
   "text": "summit",
+  "tier": "core"
+ },
+ "syn.sunshine": {
+  "lang": "en",
+  "text": "sunshine",
   "tier": "core"
  },
  "syn.supper": {
@@ -20284,6 +23469,11 @@
   "text": "symbol",
   "tier": "core"
  },
+ "syn.syrup": {
+  "lang": "en",
+  "text": "syrup",
+  "tier": "core"
+ },
  "syn.system": {
   "lang": "en",
   "text": "system",
@@ -20327,6 +23517,11 @@
  "syn.tangerine": {
   "lang": "en",
   "text": "tangerine",
+  "tier": "core"
+ },
+ "syn.tart": {
+  "lang": "en",
+  "text": "tart",
   "tier": "core"
  },
  "syn.task": {
@@ -20414,6 +23609,11 @@
   "text": "tier",
   "tier": "core"
  },
+ "syn.tights": {
+  "lang": "en",
+  "text": "tights",
+  "tier": "core"
+ },
  "syn.timber": {
   "lang": "en",
   "text": "timber",
@@ -20447,6 +23647,11 @@
  "syn.toddler": {
   "lang": "en",
   "text": "toddler",
+  "tier": "core"
+ },
+ "syn.token": {
+  "lang": "en",
+  "text": "token",
   "tier": "core"
  },
  "syn.tomorrow": {
@@ -20504,6 +23709,11 @@
   "text": "tray",
   "tier": "core"
  },
+ "syn.treasure": {
+  "lang": "en",
+  "text": "treasure",
+  "tier": "core"
+ },
  "syn.treasury": {
   "lang": "en",
   "text": "treasury",
@@ -20547,6 +23757,16 @@
  "syn.tub": {
   "lang": "en",
   "text": "tub",
+  "tier": "core"
+ },
+ "syn.tube": {
+  "lang": "en",
+  "text": "tube",
+  "tier": "core"
+ },
+ "syn.tulip": {
+  "lang": "en",
+  "text": "tulip",
   "tier": "core"
  },
  "syn.tune": {
@@ -20689,6 +23909,11 @@
   "text": "village",
   "tier": "core"
  },
+ "syn.vine": {
+  "lang": "en",
+  "text": "vine",
+  "tier": "core"
+ },
  "syn.virtual": {
   "lang": "en",
   "text": "virtual",
@@ -20734,6 +23959,11 @@
   "text": "wall",
   "tier": "core"
  },
+ "syn.warm": {
+  "lang": "en",
+  "text": "warm",
+  "tier": "core"
+ },
  "syn.warrior": {
   "lang": "en",
   "text": "warrior",
@@ -20744,9 +23974,19 @@
   "text": "watch",
   "tier": "core"
  },
+ "syn.watermelon": {
+  "lang": "en",
+  "text": "watermelon",
+  "tier": "core"
+ },
  "syn.way": {
   "lang": "en",
   "text": "way",
+  "tier": "core"
+ },
+ "syn.web": {
+  "lang": "en",
+  "text": "web",
   "tier": "core"
  },
  "syn.weight": {
@@ -20759,9 +23999,19 @@
   "text": "whale",
   "tier": "core"
  },
+ "syn.wireless": {
+  "lang": "en",
+  "text": "wireless",
+  "tier": "core"
+ },
  "syn.wit": {
   "lang": "en",
   "text": "wit",
+  "tier": "core"
+ },
+ "syn.woman": {
+  "lang": "en",
+  "text": "woman",
   "tier": "core"
  },
  "syn.wonder": {
@@ -21022,6 +24272,36 @@
  "talent.word": {
   "lang": "en",
   "text": "talent",
+  "tier": "core"
+ },
+ "tape.example.en": {
+  "lang": "en",
+  "text": "I fixed the box with tape.",
+  "tier": "core"
+ },
+ "tape.example.ja": {
+  "lang": "ja",
+  "text": "箱をテープで留めた。",
+  "tier": "core"
+ },
+ "tape.katakana": {
+  "lang": "ja",
+  "text": "テープ",
+  "tier": "core"
+ },
+ "tape.meaning": {
+  "lang": "ja",
+  "text": "テープ",
+  "tier": "core"
+ },
+ "tape.story": {
+  "lang": "ja",
+  "text": "もとは布の細長いひも。録音用の磁気テープ、ゴールのテープなど「細長い帯」全般に。「ガムテープ」は和製英語で、英語では packing tape / duct tape。",
+  "tier": "extended"
+ },
+ "tape.word": {
+  "lang": "en",
+  "text": "tape",
   "tier": "core"
  },
  "target.example.en": {
@@ -21414,6 +24694,36 @@
   "text": "tiger",
   "tier": "core"
  },
+ "tissue.example.en": {
+  "lang": "en",
+  "text": "Can I have a tissue? I have a runny nose.",
+  "tier": "core"
+ },
+ "tissue.example.ja": {
+  "lang": "ja",
+  "text": "ティッシュもらえる？ 鼻水が出ちゃって。",
+  "tier": "core"
+ },
+ "tissue.katakana": {
+  "lang": "ja",
+  "text": "ティッシュ",
+  "tier": "core"
+ },
+ "tissue.meaning": {
+  "lang": "ja",
+  "text": "ティッシュペーパー、 体の 組織",
+  "tier": "core"
+ },
+ "tissue.story": {
+  "lang": "ja",
+  "text": "もとは薄い「織物」。そこから薄い紙、生物の「組織」に。text、textile と同じ texere の家族。",
+  "tier": "extended"
+ },
+ "tissue.word": {
+  "lang": "en",
+  "text": "tissue",
+  "tier": "core"
+ },
  "title.example.en": {
   "lang": "en",
   "text": "What's the title of the song?",
@@ -21442,6 +24752,66 @@
  "title.word": {
   "lang": "en",
   "text": "title",
+  "tier": "core"
+ },
+ "toast.example.en": {
+  "lang": "en",
+  "text": "Let's make a toast to the bride and groom!",
+  "tier": "core"
+ },
+ "toast.example.ja": {
+  "lang": "ja",
+  "text": "新郎新婦に乾杯しましょう！",
+  "tier": "core"
+ },
+ "toast.katakana": {
+  "lang": "ja",
+  "text": "トースト",
+  "tier": "core"
+ },
+ "toast.meaning": {
+  "lang": "ja",
+  "text": "トースト、乾杯",
+  "tier": "core"
+ },
+ "toast.story": {
+  "lang": "ja",
+  "text": "昔、ワインに焼いたパンを入れて風味をつけたことから、グラスを上げる「乾杯」も toast と呼ぶようになったとされる。",
+  "tier": "extended"
+ },
+ "toast.word": {
+  "lang": "en",
+  "text": "toast",
+  "tier": "core"
+ },
+ "toilet.example.en": {
+  "lang": "en",
+  "text": "Excuse me, where's the restroom?",
+  "tier": "core"
+ },
+ "toilet.example.ja": {
+  "lang": "ja",
+  "text": "すみません、お手洗いはどこですか？",
+  "tier": "core"
+ },
+ "toilet.katakana": {
+  "lang": "ja",
+  "text": "トイレ",
+  "tier": "core"
+ },
+ "toilet.meaning": {
+  "lang": "ja",
+  "text": "便器、 英 トイレ",
+  "tier": "core"
+ },
+ "toilet.story": {
+  "lang": "ja",
+  "text": "身支度の布 、 身支度そのもの 、 身支度をする部屋 、 便所、と意味が移った。今でも eau de toilette オードトワレ に「身支度」の意味が残る。",
+  "tier": "extended"
+ },
+ "toilet.word": {
+  "lang": "en",
+  "text": "toilet",
   "tier": "core"
  },
  "tomato.example.en": {
@@ -21952,6 +25322,36 @@
  "trouble.word": {
   "lang": "en",
   "text": "trouble",
+  "tier": "core"
+ },
+ "tulip.example.en": {
+  "lang": "en",
+  "text": "Tulips bloom in spring.",
+  "tier": "core"
+ },
+ "tulip.example.ja": {
+  "lang": "ja",
+  "text": "チューリップは春に咲く。",
+  "tier": "core"
+ },
+ "tulip.katakana": {
+  "lang": "ja",
+  "text": "チューリップ",
+  "tier": "core"
+ },
+ "tulip.meaning": {
+  "lang": "ja",
+  "text": "チューリップ",
+  "tier": "core"
+ },
+ "tulip.story": {
+  "lang": "ja",
+  "text": "花の形がターバンに似ていることから。17世紀のオランダでは球根の値段が高騰する「チューリップ、バブル」が起きた。",
+  "tier": "extended"
+ },
+ "tulip.word": {
+  "lang": "en",
+  "text": "tulip",
   "tier": "core"
  },
  "type.example.en": {
@@ -22524,6 +25924,36 @@
   "text": "watch",
   "tier": "core"
  },
+ "water.example.en": {
+  "lang": "en",
+  "text": "Can I have a glass of water?",
+  "tier": "core"
+ },
+ "water.example.ja": {
+  "lang": "ja",
+  "text": "水を一杯もらえますか？",
+  "tier": "core"
+ },
+ "water.katakana": {
+  "lang": "ja",
+  "text": "ウォーター",
+  "tier": "core"
+ },
+ "water.meaning": {
+  "lang": "ja",
+  "text": "水",
+  "tier": "core"
+ },
+ "water.story": {
+  "lang": "ja",
+  "text": "ギリシャ語 hydor hydro「水の」 、ロシア語 voda ウォッカ vodka、小さな水 も同じ祖先。",
+  "tier": "extended"
+ },
+ "water.word": {
+  "lang": "en",
+  "text": "water",
+  "tier": "core"
+ },
  "white.example.en": {
   "lang": "en",
   "text": "Everything was white after the snow.",
@@ -22612,6 +26042,36 @@
  "winter.word": {
   "lang": "en",
   "text": "winter",
+  "tier": "core"
+ },
+ "zebra.example.en": {
+  "lang": "en",
+  "text": "Zebras have black and white stripes.",
+  "tier": "core"
+ },
+ "zebra.example.ja": {
+  "lang": "ja",
+  "text": "シマウマには白黒のしまがある。",
+  "tier": "core"
+ },
+ "zebra.katakana": {
+  "lang": "ja",
+  "text": "ゼブラ",
+  "tier": "core"
+ },
+ "zebra.meaning": {
+  "lang": "ja",
+  "text": "シマウマ",
+  "tier": "core"
+ },
+ "zebra.story": {
+  "lang": "ja",
+  "text": "語源ははっきりしない。イギリスでは白黒のしま模様の横断歩道を zebra crossing と呼ぶ。",
+  "tier": "extended"
+ },
+ "zebra.word": {
+  "lang": "en",
+  "text": "zebra",
   "tier": "core"
  },
  "zone.example.en": {
