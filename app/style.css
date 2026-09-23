@@ -337,7 +337,7 @@ main { max-width: 720px; margin: 0 auto; padding: 8px 16px 16px; }
 .tabs {
   position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 5;
   max-width: 560px; margin: 0 auto;
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; padding: 6px;
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; padding: 6px;
   background: var(--tabs-bg); border: var(--bw) solid var(--edge); border-radius: calc(var(--radius) + 4px);
   box-shadow: var(--shadow); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
 }
@@ -477,6 +477,18 @@ button.chip:active { transform: translateY(2px); }
 .level-card b { display: block; margin-bottom: 6px; }
 .level-card .bar { margin-bottom: 4px; }
 .level-up { display: grid; justify-items: center; gap: 4px; text-align: center; }
+/* 似た単語 */
+.chip-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0; }
+.chip.on { background: var(--accent); color: var(--accent-text); border-color: transparent; }
+.pair-words { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin: 10px 0 6px; }
+.pair-word { padding: 8px 10px; border-radius: var(--radius-sm); background: var(--card-2); border: var(--bw-sm) solid var(--edge); }
+.pair-word .en { font-family: var(--latin); font-size: 1.2rem; }
+.ipa { font-family: "Lucida Sans Unicode", "Arial Unicode MS", system-ui, sans-serif; }
+.pair-point { margin: 6px 0 8px; }
+.pair-examples summary { cursor: pointer; font-weight: 800; color: var(--text-soft); margin-bottom: 6px; }
+.pair-card .btn { margin-top: 6px; }
+.pair-sentence { display: block; font-family: var(--latin); font-size: 1.15rem; font-weight: 800; line-height: 1.5; margin-bottom: 6px; }
+.pairs-home .btn { margin-top: 12px; }
 .cefr { font-family: var(--latin); font-size: .68rem; font-weight: 800; padding: 0 6px; border-radius: 6px; background: var(--card-2); border: 1px solid var(--edge); margin-left: 4px; }
 .lesson .chev { font-size: 1.5rem; font-weight: 800; color: var(--text-soft); }
 .trivia p { margin: 4px 0 10px; }

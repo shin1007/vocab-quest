@@ -5,12 +5,23 @@
   --check  生成物が最新かどうかだけ確認する（CI 用）
 """
 import json
+import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 WORDS = json.loads((ROOT / "data/words.json").read_text(encoding="utf-8"))
 ROOTS = json.loads((ROOT / "data/roots.json").read_text(encoding="utf-8"))
+PAIRS = json.loads((ROOT / "data/pairs.json").read_text(encoding="utf-8"))
+PAIR_KINDS = {
+    "vowel": "🗣️ 母音のちがい",
+    "lr": "👅 L と R",
+    "bv": "👄 B と V",
+    "th": "😛 TH の音",
+    "homophone": "👂 同じ音・別の語",
+    "spelling": "✍️ つづりが似ている",
+    "derived": "🧬 形が似た派生語",
+}
 # コースはこのアプリ独自のレベル（app/app.js の COURSES と同じ）
 COURSES = {
     1: "Lv.1 ひと目でわかる",
@@ -62,6 +73,26 @@ def validate():
                 errors.append(f"語根 {r['id']}: 未定義の単語 {wid}")
             elif r["id"] not in match["roots"]:
                 errors.append(f"語根 {r['id']}: {wid} の roots に {r['id']} がありません")
+    pair_ids = set()
+    for p in PAIRS:
+        if p["id"] in pair_ids:
+            errors.append(f"似た単語: 重複した id {p['id']}")
+        pair_ids.add(p["id"])
+        if p.get("kind") not in PAIR_KINDS:
+            errors.append(f"似た単語 {p['id']}: 不明な kind {p.get('kind')}")
+        if p.get("level") not in COURSES:
+            errors.append(f"似た単語 {p['id']}: 不明な level {p.get('level')}")
+        if len(p.get("words", [])) < 2 or not p.get("point"):
+            errors.append(f"似た単語 {p['id']}: 語が2つ以上と point が必要です")
+        for x in p.get("words", []):
+            for key in ("word", "ipa", "pos", "meaning", "example"):
+                if not x.get(key):
+                    errors.append(f"似た単語 {p['id']}: {x.get('word')} の {key} がありません")
+            # 空所補充で出すので、例文にはその語そのもの（活用しない形）が入っていて、ほかの選択肢は入っていないこと
+            for y in p.get("words", []):
+                found = re.search(rf"\b{re.escape(y['word'])}\b", x["example"]["en"], re.I)
+                if (y is x) != bool(found):
+                    errors.append(f"似た単語 {p['id']}: {x['word']} の例文に {y['word']} が{'ありません' if y is x else '入っています'}")
     return errors
 
 
@@ -73,7 +104,7 @@ def render():
         "`python3 scripts/build_wordlist.py` で自動生成されています。直接編集しないでください。",
         "",
         f"収録語数: **{len(WORDS)} 語**（類義語 {sum(len(w['synonyms']) for w in WORDS)} 語） / "
-        f"語根ファミリー: **{len(ROOTS)} 種**",
+        f"語根ファミリー: **{len(ROOTS)} 種** / 似た単語セット: **{len(PAIRS)} セット**",
         "",
         "レベル別: " + " / ".join(f"Lv.{key} {sum(w['level'] == key for w in WORDS)}語" for key in COURSES),
         "",
@@ -87,7 +118,7 @@ def render():
     for key, label in COURSES.items():
         words = [w for w in WORDS if w["level"] == key]
         out.append(f"- {label} — " + ", ".join(f"[{w['word']}](#{w['id']})" for w in words))
-    out += ["- [語根ファミリー一覧](#語根ファミリー一覧)", ""]
+    out += ["- [語根ファミリー一覧](#語根ファミリー一覧)", "- [似た単語セット](#似た単語セット)", ""]
 
     for key, label in COURSES.items():
         out += [f"## {label}", ""]
@@ -121,6 +152,14 @@ def render():
             for s in w["synonyms"]:
                 out.append(f"| **{s['word']}** | {s['meaning']} | {s['nuance']} | {s['etymology']} |")
             out.append("")
+
+    out += ["## 似た単語セット", "", f"{len(PAIRS)} セット（`data/pairs.json`）", ""]
+    for kind, label in PAIR_KINDS.items():
+        out += [f"### {label}", "", "| レベル | 単語 | ここがちがう |", "|---|---|---|"]
+        for p in sorted((p for p in PAIRS if p["kind"] == kind), key=lambda p: p["level"]):
+            ws = "<br>".join(f"**{x['word']}** /{x['ipa']}/ {x['meaning']}" for x in p["words"])
+            out.append(f"| Lv.{p['level']} | {ws} | {p['point']} |")
+        out.append("")
 
     out += ["## 語根ファミリー一覧", "", "| 語根 | 意味 | 由来 | 収録語 | その他の仲間 |", "|---|---|---|---|---|"]
     for r in ROOTS:

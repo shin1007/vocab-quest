@@ -7,6 +7,7 @@
 
 - **語源**でつながりを知る：「ポーション（potion）と毒（poison）は兄弟語」
 - **類義語**のニュアンスと語源を比べる：potion / elixir / remedy / draught
+- **似た単語**をセットで覚える：hat / hut（母音）、light / right（L と R）、desert / dessert（つづり）など、英検でまちがえやすい語を聞きくらべ・空所補充で練習
 - **カタカナの罠**を見抜く：「テンション高い」は英語で *I'm so excited!*、「マンション」は *apartment*
 
 ## 中身
@@ -17,6 +18,7 @@
 | [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（1425語・類義語2948語・語根56種）— 語源・類義語つき、人が読む用 |
 | `data/words.json` | 単語データ（正本） |
 | `data/roots.json` | 語根ファミリーデータ |
+| `data/pairs.json` | 似た単語セット（母音・L/R・B/V・TH・同音語・つづり・派生語の7種類） |
 | `index.html`, `app/` | 動くプロトタイプ（依存なしの HTML/CSS/JS）。コース・テーマ・問題タイプ・習熟度の定義は `app/app.js` 冒頭、テーマの見た目は `app/style.css` |
 | `scripts/build_wordlist.py` | データ検証と `WORD_LIST.md` の生成 |
 | [`docs/VOICE_TTS.md`](docs/VOICE_TTS.md) | 日本語・英語の読み上げ音声の設計（声の素材とライセンス、エンジン選定、容量） |

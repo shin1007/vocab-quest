@@ -76,6 +76,11 @@ def build_utterances():
         add(f"{w['id']}.story", "ja", ja_for_speech(strip_diacritics(w["etymology"]["story"])), "extended")
         for s in w["synonyms"]:
             add(syn_key(s["word"]), "en", s["word"])
+    # 似た単語セット（キーは app/app.js の pairWordKey / pairExampleKey と同じ）
+    for p in json.loads((ROOT / "data/pairs.json").read_text(encoding="utf-8")):
+        for x in p["words"]:
+            add(f"pw.{x['word']}", "en", x["word"])
+            add(f"pe.{p['id']}.{x['word']}", "en", x["example"]["en"])
     return dict(sorted(items.items()))
 
 

@@ -27329,6 +27329,1016 @@
   "text": "payment",
   "tier": "core"
  },
+ "pe.accept-except.accept": {
+  "lang": "en",
+  "text": "Please accept my apology.",
+  "tier": "core"
+ },
+ "pe.accept-except.except": {
+  "lang": "en",
+  "text": "Everyone came except Tom.",
+  "tier": "core"
+ },
+ "pe.adapt-adopt.adapt": {
+  "lang": "en",
+  "text": "Animals adapt to their environment.",
+  "tier": "core"
+ },
+ "pe.adapt-adopt.adopt": {
+  "lang": "en",
+  "text": "The school will adopt a new rule.",
+  "tier": "core"
+ },
+ "pe.advice-advise.advice": {
+  "lang": "en",
+  "text": "Can I give you some advice?",
+  "tier": "core"
+ },
+ "pe.advice-advise.advise": {
+  "lang": "en",
+  "text": "I advise you to see a doctor.",
+  "tier": "core"
+ },
+ "pe.affect-effect.affect": {
+  "lang": "en",
+  "text": "Lack of sleep can affect your health.",
+  "tier": "core"
+ },
+ "pe.affect-effect.effect": {
+  "lang": "en",
+  "text": "The medicine had a good effect.",
+  "tier": "core"
+ },
+ "pe.alive-arrive.alive": {
+  "lang": "en",
+  "text": "The fish is still alive.",
+  "tier": "core"
+ },
+ "pe.alive-arrive.arrive": {
+  "lang": "en",
+  "text": "We will arrive at noon.",
+  "tier": "core"
+ },
+ "pe.alternate-alternative.alternate": {
+  "lang": "en",
+  "text": "We meet on alternate Fridays.",
+  "tier": "core"
+ },
+ "pe.alternate-alternative.alternative": {
+  "lang": "en",
+  "text": "Is there an alternative plan?",
+  "tier": "core"
+ },
+ "pe.ankle-uncle.ankle": {
+  "lang": "en",
+  "text": "I hurt my ankle playing soccer.",
+  "tier": "core"
+ },
+ "pe.ankle-uncle.uncle": {
+  "lang": "en",
+  "text": "My uncle lives in Osaka.",
+  "tier": "core"
+ },
+ "pe.bag-bug.bag": {
+  "lang": "en",
+  "text": "I left my bag on the train.",
+  "tier": "core"
+ },
+ "pe.bag-bug.bug": {
+  "lang": "en",
+  "text": "There is a bug in this app.",
+  "tier": "core"
+ },
+ "pe.ban-van.ban": {
+  "lang": "en",
+  "text": "The city plans to ban smoking in parks.",
+  "tier": "core"
+ },
+ "pe.ban-van.van": {
+  "lang": "en",
+  "text": "They moved their things in a van.",
+  "tier": "core"
+ },
+ "pe.base-vase.base": {
+  "lang": "en",
+  "text": "The runner reached second base.",
+  "tier": "core"
+ },
+ "pe.base-vase.vase": {
+  "lang": "en",
+  "text": "She put the roses in a vase.",
+  "tier": "core"
+ },
+ "pe.bat-but.bat": {
+  "lang": "en",
+  "text": "He swung the bat hard.",
+  "tier": "core"
+ },
+ "pe.bat-but.but": {
+  "lang": "en",
+  "text": "I like tea, but my sister likes coffee.",
+  "tier": "core"
+ },
+ "pe.belly-berry.belly": {
+  "lang": "en",
+  "text": "My belly is full.",
+  "tier": "core"
+ },
+ "pe.belly-berry.berry": {
+  "lang": "en",
+  "text": "I found a red berry in the forest.",
+  "tier": "core"
+ },
+ "pe.berry-very.berry": {
+  "lang": "en",
+  "text": "This berry is sweet.",
+  "tier": "core"
+ },
+ "pe.berry-very.very": {
+  "lang": "en",
+  "text": "It's very cold today.",
+  "tier": "core"
+ },
+ "pe.best-vest.best": {
+  "lang": "en",
+  "text": "This is the best pizza in town.",
+  "tier": "core"
+ },
+ "pe.best-vest.vest": {
+  "lang": "en",
+  "text": "He wore a vest under his jacket.",
+  "tier": "core"
+ },
+ "pe.bird-board.bird": {
+  "lang": "en",
+  "text": "A bird is singing in the tree.",
+  "tier": "core"
+ },
+ "pe.bird-board.board": {
+  "lang": "en",
+  "text": "Write your name on the board.",
+  "tier": "core"
+ },
+ "pe.boat-vote.boat": {
+  "lang": "en",
+  "text": "We took a boat to the island.",
+  "tier": "core"
+ },
+ "pe.boat-vote.vote": {
+  "lang": "en",
+  "text": "You can vote at the age of 18.",
+  "tier": "core"
+ },
+ "pe.bought-boat.boat": {
+  "lang": "en",
+  "text": "We rowed a boat on the lake.",
+  "tier": "core"
+ },
+ "pe.bought-boat.bought": {
+  "lang": "en",
+  "text": "I bought a new bike.",
+  "tier": "core"
+ },
+ "pe.breath-breathe.breath": {
+  "lang": "en",
+  "text": "Take a deep breath.",
+  "tier": "core"
+ },
+ "pe.breath-breathe.breathe": {
+  "lang": "en",
+  "text": "Breathe slowly and relax.",
+  "tier": "core"
+ },
+ "pe.cap-cup.cap": {
+  "lang": "en",
+  "text": "Put the cap back on the bottle.",
+  "tier": "core"
+ },
+ "pe.cap-cup.cup": {
+  "lang": "en",
+  "text": "Would you like a cup of tea?",
+  "tier": "core"
+ },
+ "pe.carry-curry.carry": {
+  "lang": "en",
+  "text": "Can you help me carry this box?",
+  "tier": "core"
+ },
+ "pe.carry-curry.curry": {
+  "lang": "en",
+  "text": "We had curry and rice for dinner.",
+  "tier": "core"
+ },
+ "pe.cat-cut.cat": {
+  "lang": "en",
+  "text": "The cat is sleeping on the sofa.",
+  "tier": "core"
+ },
+ "pe.cat-cut.cut": {
+  "lang": "en",
+  "text": "Cut the cake into eight pieces.",
+  "tier": "core"
+ },
+ "pe.childish-childlike.childish": {
+  "lang": "en",
+  "text": "Stop being so childish!",
+  "tier": "core"
+ },
+ "pe.childish-childlike.childlike": {
+  "lang": "en",
+  "text": "She has a childlike curiosity.",
+  "tier": "core"
+ },
+ "pe.climb-crime.climb": {
+  "lang": "en",
+  "text": "Let's climb Mt. Fuji this summer.",
+  "tier": "core"
+ },
+ "pe.climb-crime.crime": {
+  "lang": "en",
+  "text": "Crime is decreasing in this city.",
+  "tier": "core"
+ },
+ "pe.close-clothes.close": {
+  "lang": "en",
+  "text": "Please close the window.",
+  "tier": "core"
+ },
+ "pe.close-clothes.clothes": {
+  "lang": "en",
+  "text": "I need to buy new clothes.",
+  "tier": "core"
+ },
+ "pe.cloth-clothes.cloth": {
+  "lang": "en",
+  "text": "Clean the table with a wet cloth.",
+  "tier": "core"
+ },
+ "pe.cloth-clothes.clothes": {
+  "lang": "en",
+  "text": "She bought some new clothes.",
+  "tier": "core"
+ },
+ "pe.collect-correct.collect": {
+  "lang": "en",
+  "text": "I like to collect old coins.",
+  "tier": "core"
+ },
+ "pe.collect-correct.correct": {
+  "lang": "en",
+  "text": "Your answer is correct.",
+  "tier": "core"
+ },
+ "pe.complement-compliment.complement": {
+  "lang": "en",
+  "text": "The wine is a perfect complement to the fish.",
+  "tier": "core"
+ },
+ "pe.complement-compliment.compliment": {
+  "lang": "en",
+  "text": "Thank you for the compliment.",
+  "tier": "core"
+ },
+ "pe.comprehensive-comprehensible.comprehensible": {
+  "lang": "en",
+  "text": "His explanation was easily comprehensible.",
+  "tier": "core"
+ },
+ "pe.comprehensive-comprehensible.comprehensive": {
+  "lang": "en",
+  "text": "The book gives a comprehensive guide to Japan.",
+  "tier": "core"
+ },
+ "pe.conscious-conscience.conscience": {
+  "lang": "en",
+  "text": "I have a clear conscience.",
+  "tier": "core"
+ },
+ "pe.conscious-conscience.conscious": {
+  "lang": "en",
+  "text": "He was conscious of the danger.",
+  "tier": "core"
+ },
+ "pe.considerable-considerate.considerable": {
+  "lang": "en",
+  "text": "It cost a considerable amount of money.",
+  "tier": "core"
+ },
+ "pe.considerable-considerate.considerate": {
+  "lang": "en",
+  "text": "It was considerate of you to call.",
+  "tier": "core"
+ },
+ "pe.cost-coast.coast": {
+  "lang": "en",
+  "text": "We drove along the coast.",
+  "tier": "core"
+ },
+ "pe.cost-coast.cost": {
+  "lang": "en",
+  "text": "How much does it cost?",
+  "tier": "core"
+ },
+ "pe.costume-custom.costume": {
+  "lang": "en",
+  "text": "She made a costume for the school play.",
+  "tier": "core"
+ },
+ "pe.costume-custom.custom": {
+  "lang": "en",
+  "text": "It is a Japanese custom to take off your shoes.",
+  "tier": "core"
+ },
+ "pe.dairy-diary.dairy": {
+  "lang": "en",
+  "text": "I can't eat dairy products.",
+  "tier": "core"
+ },
+ "pe.dairy-diary.diary": {
+  "lang": "en",
+  "text": "She writes in her diary every night.",
+  "tier": "core"
+ },
+ "pe.desert-dessert.desert": {
+  "lang": "en",
+  "text": "Camels can live in the desert.",
+  "tier": "core"
+ },
+ "pe.desert-dessert.dessert": {
+  "lang": "en",
+  "text": "What would you like for dessert?",
+  "tier": "core"
+ },
+ "pe.device-devise.device": {
+  "lang": "en",
+  "text": "This device can translate your voice.",
+  "tier": "core"
+ },
+ "pe.device-devise.devise": {
+  "lang": "en",
+  "text": "We need to devise a better plan.",
+  "tier": "core"
+ },
+ "pe.economic-economical.economic": {
+  "lang": "en",
+  "text": "The country faces economic problems.",
+  "tier": "core"
+ },
+ "pe.economic-economical.economical": {
+  "lang": "en",
+  "text": "This car is very economical.",
+  "tier": "core"
+ },
+ "pe.emigrate-immigrate.emigrate": {
+  "lang": "en",
+  "text": "Many people emigrate to find work.",
+  "tier": "core"
+ },
+ "pe.emigrate-immigrate.immigrate": {
+  "lang": "en",
+  "text": "Her family decided to immigrate to Canada.",
+  "tier": "core"
+ },
+ "pe.eminent-imminent.eminent": {
+  "lang": "en",
+  "text": "She is an eminent scientist.",
+  "tier": "core"
+ },
+ "pe.eminent-imminent.imminent": {
+  "lang": "en",
+  "text": "A storm is imminent.",
+  "tier": "core"
+ },
+ "pe.expand-expend.expand": {
+  "lang": "en",
+  "text": "The company plans to expand overseas.",
+  "tier": "core"
+ },
+ "pe.expand-expend.expend": {
+  "lang": "en",
+  "text": "They expend a lot of energy on the project.",
+  "tier": "core"
+ },
+ "pe.fan-fun.fan": {
+  "lang": "en",
+  "text": "I'm a big fan of that singer.",
+  "tier": "core"
+ },
+ "pe.fan-fun.fun": {
+  "lang": "en",
+  "text": "We had a lot of fun at the party.",
+  "tier": "core"
+ },
+ "pe.farm-firm.farm": {
+  "lang": "en",
+  "text": "They grow rice on their farm.",
+  "tier": "core"
+ },
+ "pe.farm-firm.firm": {
+  "lang": "en",
+  "text": "She works for a law firm.",
+  "tier": "core"
+ },
+ "pe.fill-feel.feel": {
+  "lang": "en",
+  "text": "I feel happy today.",
+  "tier": "core"
+ },
+ "pe.fill-feel.fill": {
+  "lang": "en",
+  "text": "Fill the glass with water.",
+  "tier": "core"
+ },
+ "pe.flight-fright.flight": {
+  "lang": "en",
+  "text": "Our flight was delayed.",
+  "tier": "core"
+ },
+ "pe.flight-fright.fright": {
+  "lang": "en",
+  "text": "The loud noise gave me a fright.",
+  "tier": "core"
+ },
+ "pe.flower-flour.flour": {
+  "lang": "en",
+  "text": "Mix the flour with milk.",
+  "tier": "core"
+ },
+ "pe.flower-flour.flower": {
+  "lang": "en",
+  "text": "She gave me a flower.",
+  "tier": "core"
+ },
+ "pe.fly-fry.fly": {
+  "lang": "en",
+  "text": "Birds fly south in winter.",
+  "tier": "core"
+ },
+ "pe.fly-fry.fry": {
+  "lang": "en",
+  "text": "Fry the onions in oil.",
+  "tier": "core"
+ },
+ "pe.full-fool.fool": {
+  "lang": "en",
+  "text": "Don't be a fool.",
+  "tier": "core"
+ },
+ "pe.full-fool.full": {
+  "lang": "en",
+  "text": "I'm full. I can't eat any more.",
+  "tier": "core"
+ },
+ "pe.glass-grass.glass": {
+  "lang": "en",
+  "text": "Can I have a glass of water?",
+  "tier": "core"
+ },
+ "pe.glass-grass.grass": {
+  "lang": "en",
+  "text": "Keep off the grass.",
+  "tier": "core"
+ },
+ "pe.hat-hut.hat": {
+  "lang": "en",
+  "text": "He took off his hat and bowed.",
+  "tier": "core"
+ },
+ "pe.hat-hut.hut": {
+  "lang": "en",
+  "text": "They slept in a small hut in the mountains.",
+  "tier": "core"
+ },
+ "pe.hear-here.hear": {
+  "lang": "en",
+  "text": "Can you hear me?",
+  "tier": "core"
+ },
+ "pe.hear-here.here": {
+  "lang": "en",
+  "text": "Come here, please.",
+  "tier": "core"
+ },
+ "pe.heart-hurt.heart": {
+  "lang": "en",
+  "text": "She has a kind heart.",
+  "tier": "core"
+ },
+ "pe.heart-hurt.hurt": {
+  "lang": "en",
+  "text": "Did you hurt your leg?",
+  "tier": "core"
+ },
+ "pe.historic-historical.historic": {
+  "lang": "en",
+  "text": "It was a historic victory.",
+  "tier": "core"
+ },
+ "pe.historic-historical.historical": {
+  "lang": "en",
+  "text": "She likes historical novels.",
+  "tier": "core"
+ },
+ "pe.imaginary-imaginative.imaginary": {
+  "lang": "en",
+  "text": "The child has an imaginary friend.",
+  "tier": "core"
+ },
+ "pe.imaginary-imaginative.imaginative": {
+  "lang": "en",
+  "text": "She is an imaginative writer.",
+  "tier": "core"
+ },
+ "pe.industrial-industrious.industrial": {
+  "lang": "en",
+  "text": "This is an industrial area.",
+  "tier": "core"
+ },
+ "pe.industrial-industrious.industrious": {
+  "lang": "en",
+  "text": "She is an industrious student.",
+  "tier": "core"
+ },
+ "pe.lack-luck.lack": {
+  "lang": "en",
+  "text": "The plan failed because of a lack of money.",
+  "tier": "core"
+ },
+ "pe.lack-luck.luck": {
+  "lang": "en",
+  "text": "Good luck on your test!",
+  "tier": "core"
+ },
+ "pe.later-latter.later": {
+  "lang": "en",
+  "text": "See you later.",
+  "tier": "core"
+ },
+ "pe.later-latter.latter": {
+  "lang": "en",
+  "text": "Of the two plans, I prefer the latter.",
+  "tier": "core"
+ },
+ "pe.law-low.law": {
+  "lang": "en",
+  "text": "Everyone must obey the law.",
+  "tier": "core"
+ },
+ "pe.law-low.low": {
+  "lang": "en",
+  "text": "The price is very low.",
+  "tier": "core"
+ },
+ "pe.lead-read.lead": {
+  "lang": "en",
+  "text": "She will lead the team.",
+  "tier": "core"
+ },
+ "pe.lead-read.read": {
+  "lang": "en",
+  "text": "I read a book every night.",
+  "tier": "core"
+ },
+ "pe.lie-lay.lay": {
+  "lang": "en",
+  "text": "Hens lay eggs.",
+  "tier": "core"
+ },
+ "pe.lie-lay.lie": {
+  "lang": "en",
+  "text": "Lie down and get some rest.",
+  "tier": "core"
+ },
+ "pe.light-right.light": {
+  "lang": "en",
+  "text": "Turn on the light.",
+  "tier": "core"
+ },
+ "pe.light-right.right": {
+  "lang": "en",
+  "text": "You are right.",
+  "tier": "core"
+ },
+ "pe.live-leave.leave": {
+  "lang": "en",
+  "text": "Please leave a message.",
+  "tier": "core"
+ },
+ "pe.live-leave.live": {
+  "lang": "en",
+  "text": "I live in a small town.",
+  "tier": "core"
+ },
+ "pe.load-road.load": {
+  "lang": "en",
+  "text": "Help me load the boxes into the car.",
+  "tier": "core"
+ },
+ "pe.load-road.road": {
+  "lang": "en",
+  "text": "Be careful when you cross the road.",
+  "tier": "core"
+ },
+ "pe.lock-rock.lock": {
+  "lang": "en",
+  "text": "Don't forget to lock the door.",
+  "tier": "core"
+ },
+ "pe.lock-rock.rock": {
+  "lang": "en",
+  "text": "He sat on a big rock.",
+  "tier": "core"
+ },
+ "pe.long-wrong.long": {
+  "lang": "en",
+  "text": "She has long hair.",
+  "tier": "core"
+ },
+ "pe.long-wrong.wrong": {
+  "lang": "en",
+  "text": "Sorry, I have the wrong number.",
+  "tier": "core"
+ },
+ "pe.lose-loose.loose": {
+  "lang": "en",
+  "text": "These pants are too loose.",
+  "tier": "core"
+ },
+ "pe.lose-loose.lose": {
+  "lang": "en",
+  "text": "Don't lose your key.",
+  "tier": "core"
+ },
+ "pe.loyal-royal.loyal": {
+  "lang": "en",
+  "text": "Dogs are loyal to their owners.",
+  "tier": "core"
+ },
+ "pe.loyal-royal.royal": {
+  "lang": "en",
+  "text": "They visited the royal palace.",
+  "tier": "core"
+ },
+ "pe.match-much.match": {
+  "lang": "en",
+  "text": "We won the soccer match.",
+  "tier": "core"
+ },
+ "pe.match-much.much": {
+  "lang": "en",
+  "text": "I don't have much time.",
+  "tier": "core"
+ },
+ "pe.meet-meat.meat": {
+  "lang": "en",
+  "text": "I don't eat much meat.",
+  "tier": "core"
+ },
+ "pe.meet-meat.meet": {
+  "lang": "en",
+  "text": "Let's meet at the station.",
+  "tier": "core"
+ },
+ "pe.moral-morale.moral": {
+  "lang": "en",
+  "text": "The moral of the story is to be honest.",
+  "tier": "core"
+ },
+ "pe.moral-morale.morale": {
+  "lang": "en",
+  "text": "The win boosted the team's morale.",
+  "tier": "core"
+ },
+ "pe.mouse-mouth.mouse": {
+  "lang": "en",
+  "text": "A mouse ran across the kitchen.",
+  "tier": "core"
+ },
+ "pe.mouse-mouth.mouth": {
+  "lang": "en",
+  "text": "Open your mouth, please.",
+  "tier": "core"
+ },
+ "pe.peace-piece.peace": {
+  "lang": "en",
+  "text": "We hope for world peace.",
+  "tier": "core"
+ },
+ "pe.peace-piece.piece": {
+  "lang": "en",
+  "text": "Can I have a piece of cake?",
+  "tier": "core"
+ },
+ "pe.persecute-prosecute.persecute": {
+  "lang": "en",
+  "text": "No one should persecute people for their beliefs.",
+  "tier": "core"
+ },
+ "pe.persecute-prosecute.prosecute": {
+  "lang": "en",
+  "text": "They decided to prosecute him for fraud.",
+  "tier": "core"
+ },
+ "pe.personal-personnel.personal": {
+  "lang": "en",
+  "text": "That's a personal question.",
+  "tier": "core"
+ },
+ "pe.personal-personnel.personnel": {
+  "lang": "en",
+  "text": "All personnel must wear ID cards.",
+  "tier": "core"
+ },
+ "pe.play-pray.play": {
+  "lang": "en",
+  "text": "Let's play soccer after school.",
+  "tier": "core"
+ },
+ "pe.play-pray.pray": {
+  "lang": "en",
+  "text": "We pray for peace.",
+  "tier": "core"
+ },
+ "pe.precede-proceed.precede": {
+  "lang": "en",
+  "text": "A short speech will precede the concert.",
+  "tier": "core"
+ },
+ "pe.precede-proceed.proceed": {
+  "lang": "en",
+  "text": "Please proceed to Gate 5.",
+  "tier": "core"
+ },
+ "pe.principal-principle.principal": {
+  "lang": "en",
+  "text": "The principal gave a speech.",
+  "tier": "core"
+ },
+ "pe.principal-principle.principle": {
+  "lang": "en",
+  "text": "I never lie. It's a matter of principle.",
+  "tier": "core"
+ },
+ "pe.quite-quiet.quiet": {
+  "lang": "en",
+  "text": "Please be quiet in the library.",
+  "tier": "core"
+ },
+ "pe.quite-quiet.quite": {
+  "lang": "en",
+  "text": "The test was quite difficult.",
+  "tier": "core"
+ },
+ "pe.ran-run.ran": {
+  "lang": "en",
+  "text": "She ran to catch the bus.",
+  "tier": "core"
+ },
+ "pe.ran-run.run": {
+  "lang": "en",
+  "text": "I run in the park every morning.",
+  "tier": "core"
+ },
+ "pe.respectable-respectful-respective.respectable": {
+  "lang": "en",
+  "text": "He has a respectable job.",
+  "tier": "core"
+ },
+ "pe.respectable-respectful-respective.respectful": {
+  "lang": "en",
+  "text": "Be respectful to older people.",
+  "tier": "core"
+ },
+ "pe.respectable-respectful-respective.respective": {
+  "lang": "en",
+  "text": "They went back to their respective homes.",
+  "tier": "core"
+ },
+ "pe.rice-lice.lice": {
+  "lang": "en",
+  "text": "The children had head lice.",
+  "tier": "core"
+ },
+ "pe.rice-lice.rice": {
+  "lang": "en",
+  "text": "We eat rice every day.",
+  "tier": "core"
+ },
+ "pe.right-write.right": {
+  "lang": "en",
+  "text": "Turn right at the corner.",
+  "tier": "core"
+ },
+ "pe.right-write.write": {
+  "lang": "en",
+  "text": "Please write your name here.",
+  "tier": "core"
+ },
+ "pe.rise-raise.raise": {
+  "lang": "en",
+  "text": "Raise your hand if you know the answer.",
+  "tier": "core"
+ },
+ "pe.rise-raise.rise": {
+  "lang": "en",
+  "text": "Prices rise every year.",
+  "tier": "core"
+ },
+ "pe.route-root.root": {
+  "lang": "en",
+  "text": "Money is the root of the problem.",
+  "tier": "core"
+ },
+ "pe.route-root.route": {
+  "lang": "en",
+  "text": "This is the fastest route to the airport.",
+  "tier": "core"
+ },
+ "pe.sea-see.sea": {
+  "lang": "en",
+  "text": "We swam in the sea.",
+  "tier": "core"
+ },
+ "pe.sea-see.see": {
+  "lang": "en",
+  "text": "Nice to see you again.",
+  "tier": "core"
+ },
+ "pe.sensible-sensitive.sensible": {
+  "lang": "en",
+  "text": "That's a sensible idea.",
+  "tier": "core"
+ },
+ "pe.sensible-sensitive.sensitive": {
+  "lang": "en",
+  "text": "My skin is sensitive to the sun.",
+  "tier": "core"
+ },
+ "pe.ship-sheep.sheep": {
+  "lang": "en",
+  "text": "There are many sheep on the farm.",
+  "tier": "core"
+ },
+ "pe.ship-sheep.ship": {
+  "lang": "en",
+  "text": "The ship sailed across the ocean.",
+  "tier": "core"
+ },
+ "pe.sick-thick.sick": {
+  "lang": "en",
+  "text": "I was sick in bed yesterday.",
+  "tier": "core"
+ },
+ "pe.sick-thick.thick": {
+  "lang": "en",
+  "text": "This book is very thick.",
+  "tier": "core"
+ },
+ "pe.sing-thing.sing": {
+  "lang": "en",
+  "text": "She loves to sing.",
+  "tier": "core"
+ },
+ "pe.sing-thing.thing": {
+  "lang": "en",
+  "text": "That's a good thing.",
+  "tier": "core"
+ },
+ "pe.sink-think.sink": {
+  "lang": "en",
+  "text": "Put the dishes in the sink.",
+  "tier": "core"
+ },
+ "pe.sink-think.think": {
+  "lang": "en",
+  "text": "I think it will rain.",
+  "tier": "core"
+ },
+ "pe.sit-seat.seat": {
+  "lang": "en",
+  "text": "Is this seat taken?",
+  "tier": "core"
+ },
+ "pe.sit-seat.sit": {
+  "lang": "en",
+  "text": "Please sit down.",
+  "tier": "core"
+ },
+ "pe.son-sun.son": {
+  "lang": "en",
+  "text": "They have a son and a daughter.",
+  "tier": "core"
+ },
+ "pe.son-sun.sun": {
+  "lang": "en",
+  "text": "The sun rises in the east.",
+  "tier": "core"
+ },
+ "pe.staff-stuff.staff": {
+  "lang": "en",
+  "text": "The hotel staff were very kind.",
+  "tier": "core"
+ },
+ "pe.staff-stuff.stuff": {
+  "lang": "en",
+  "text": "I have a lot of stuff to do today.",
+  "tier": "core"
+ },
+ "pe.stationary-stationery.stationary": {
+  "lang": "en",
+  "text": "The car remained stationary.",
+  "tier": "core"
+ },
+ "pe.stationary-stationery.stationery": {
+  "lang": "en",
+  "text": "I bought some stationery for school.",
+  "tier": "core"
+ },
+ "pe.steal-steel.steal": {
+  "lang": "en",
+  "text": "Someone tried to steal my bike.",
+  "tier": "core"
+ },
+ "pe.steal-steel.steel": {
+  "lang": "en",
+  "text": "The bridge is made of steel.",
+  "tier": "core"
+ },
+ "pe.successful-successive.successful": {
+  "lang": "en",
+  "text": "The event was very successful.",
+  "tier": "core"
+ },
+ "pe.successful-successive.successive": {
+  "lang": "en",
+  "text": "They won three successive games.",
+  "tier": "core"
+ },
+ "pe.through-though-thorough.thorough": {
+  "lang": "en",
+  "text": "The police did a thorough search.",
+  "tier": "core"
+ },
+ "pe.through-though-thorough.though": {
+  "lang": "en",
+  "text": "I went out, though it was raining.",
+  "tier": "core"
+ },
+ "pe.through-though-thorough.through": {
+  "lang": "en",
+  "text": "The train went through a tunnel.",
+  "tier": "core"
+ },
+ "pe.valuable-invaluable.invaluable": {
+  "lang": "en",
+  "text": "Your help was invaluable.",
+  "tier": "core"
+ },
+ "pe.valuable-invaluable.valuable": {
+  "lang": "en",
+  "text": "This ring is very valuable.",
+  "tier": "core"
+ },
+ "pe.walk-work.walk": {
+  "lang": "en",
+  "text": "I walk to school every day.",
+  "tier": "core"
+ },
+ "pe.walk-work.work": {
+  "lang": "en",
+  "text": "I work at a bank in the city.",
+  "tier": "core"
+ },
+ "pe.weather-whether.weather": {
+  "lang": "en",
+  "text": "The weather is nice today.",
+  "tier": "core"
+ },
+ "pe.weather-whether.whether": {
+  "lang": "en",
+  "text": "I don't know whether he will come.",
+  "tier": "core"
+ },
+ "pe.week-weak.weak": {
+  "lang": "en",
+  "text": "I felt weak after the long illness.",
+  "tier": "core"
+ },
+ "pe.week-weak.week": {
+  "lang": "en",
+  "text": "I play tennis twice a week.",
+  "tier": "core"
+ },
+ "pe.whole-hole.hole": {
+  "lang": "en",
+  "text": "There's a hole in my sock.",
+  "tier": "core"
+ },
+ "pe.whole-hole.whole": {
+  "lang": "en",
+  "text": "He ate the whole pizza.",
+  "tier": "core"
+ },
  "peach.example.en": {
   "lang": "en",
   "text": "She peeled a peach for me.",
@@ -30237,6 +31247,996 @@
  "puzzle.word": {
   "lang": "en",
   "text": "puzzle",
+  "tier": "core"
+ },
+ "pw.accept": {
+  "lang": "en",
+  "text": "accept",
+  "tier": "core"
+ },
+ "pw.adapt": {
+  "lang": "en",
+  "text": "adapt",
+  "tier": "core"
+ },
+ "pw.adopt": {
+  "lang": "en",
+  "text": "adopt",
+  "tier": "core"
+ },
+ "pw.advice": {
+  "lang": "en",
+  "text": "advice",
+  "tier": "core"
+ },
+ "pw.advise": {
+  "lang": "en",
+  "text": "advise",
+  "tier": "core"
+ },
+ "pw.affect": {
+  "lang": "en",
+  "text": "affect",
+  "tier": "core"
+ },
+ "pw.alive": {
+  "lang": "en",
+  "text": "alive",
+  "tier": "core"
+ },
+ "pw.alternate": {
+  "lang": "en",
+  "text": "alternate",
+  "tier": "core"
+ },
+ "pw.alternative": {
+  "lang": "en",
+  "text": "alternative",
+  "tier": "core"
+ },
+ "pw.ankle": {
+  "lang": "en",
+  "text": "ankle",
+  "tier": "core"
+ },
+ "pw.arrive": {
+  "lang": "en",
+  "text": "arrive",
+  "tier": "core"
+ },
+ "pw.bag": {
+  "lang": "en",
+  "text": "bag",
+  "tier": "core"
+ },
+ "pw.ban": {
+  "lang": "en",
+  "text": "ban",
+  "tier": "core"
+ },
+ "pw.base": {
+  "lang": "en",
+  "text": "base",
+  "tier": "core"
+ },
+ "pw.bat": {
+  "lang": "en",
+  "text": "bat",
+  "tier": "core"
+ },
+ "pw.belly": {
+  "lang": "en",
+  "text": "belly",
+  "tier": "core"
+ },
+ "pw.berry": {
+  "lang": "en",
+  "text": "berry",
+  "tier": "core"
+ },
+ "pw.best": {
+  "lang": "en",
+  "text": "best",
+  "tier": "core"
+ },
+ "pw.bird": {
+  "lang": "en",
+  "text": "bird",
+  "tier": "core"
+ },
+ "pw.board": {
+  "lang": "en",
+  "text": "board",
+  "tier": "core"
+ },
+ "pw.boat": {
+  "lang": "en",
+  "text": "boat",
+  "tier": "core"
+ },
+ "pw.bought": {
+  "lang": "en",
+  "text": "bought",
+  "tier": "core"
+ },
+ "pw.breath": {
+  "lang": "en",
+  "text": "breath",
+  "tier": "core"
+ },
+ "pw.breathe": {
+  "lang": "en",
+  "text": "breathe",
+  "tier": "core"
+ },
+ "pw.bug": {
+  "lang": "en",
+  "text": "bug",
+  "tier": "core"
+ },
+ "pw.but": {
+  "lang": "en",
+  "text": "but",
+  "tier": "core"
+ },
+ "pw.cap": {
+  "lang": "en",
+  "text": "cap",
+  "tier": "core"
+ },
+ "pw.carry": {
+  "lang": "en",
+  "text": "carry",
+  "tier": "core"
+ },
+ "pw.cat": {
+  "lang": "en",
+  "text": "cat",
+  "tier": "core"
+ },
+ "pw.childish": {
+  "lang": "en",
+  "text": "childish",
+  "tier": "core"
+ },
+ "pw.childlike": {
+  "lang": "en",
+  "text": "childlike",
+  "tier": "core"
+ },
+ "pw.climb": {
+  "lang": "en",
+  "text": "climb",
+  "tier": "core"
+ },
+ "pw.close": {
+  "lang": "en",
+  "text": "close",
+  "tier": "core"
+ },
+ "pw.cloth": {
+  "lang": "en",
+  "text": "cloth",
+  "tier": "core"
+ },
+ "pw.clothes": {
+  "lang": "en",
+  "text": "clothes",
+  "tier": "core"
+ },
+ "pw.coast": {
+  "lang": "en",
+  "text": "coast",
+  "tier": "core"
+ },
+ "pw.collect": {
+  "lang": "en",
+  "text": "collect",
+  "tier": "core"
+ },
+ "pw.complement": {
+  "lang": "en",
+  "text": "complement",
+  "tier": "core"
+ },
+ "pw.compliment": {
+  "lang": "en",
+  "text": "compliment",
+  "tier": "core"
+ },
+ "pw.comprehensible": {
+  "lang": "en",
+  "text": "comprehensible",
+  "tier": "core"
+ },
+ "pw.comprehensive": {
+  "lang": "en",
+  "text": "comprehensive",
+  "tier": "core"
+ },
+ "pw.conscience": {
+  "lang": "en",
+  "text": "conscience",
+  "tier": "core"
+ },
+ "pw.conscious": {
+  "lang": "en",
+  "text": "conscious",
+  "tier": "core"
+ },
+ "pw.considerable": {
+  "lang": "en",
+  "text": "considerable",
+  "tier": "core"
+ },
+ "pw.considerate": {
+  "lang": "en",
+  "text": "considerate",
+  "tier": "core"
+ },
+ "pw.correct": {
+  "lang": "en",
+  "text": "correct",
+  "tier": "core"
+ },
+ "pw.cost": {
+  "lang": "en",
+  "text": "cost",
+  "tier": "core"
+ },
+ "pw.costume": {
+  "lang": "en",
+  "text": "costume",
+  "tier": "core"
+ },
+ "pw.crime": {
+  "lang": "en",
+  "text": "crime",
+  "tier": "core"
+ },
+ "pw.cup": {
+  "lang": "en",
+  "text": "cup",
+  "tier": "core"
+ },
+ "pw.curry": {
+  "lang": "en",
+  "text": "curry",
+  "tier": "core"
+ },
+ "pw.custom": {
+  "lang": "en",
+  "text": "custom",
+  "tier": "core"
+ },
+ "pw.cut": {
+  "lang": "en",
+  "text": "cut",
+  "tier": "core"
+ },
+ "pw.dairy": {
+  "lang": "en",
+  "text": "dairy",
+  "tier": "core"
+ },
+ "pw.desert": {
+  "lang": "en",
+  "text": "desert",
+  "tier": "core"
+ },
+ "pw.dessert": {
+  "lang": "en",
+  "text": "dessert",
+  "tier": "core"
+ },
+ "pw.device": {
+  "lang": "en",
+  "text": "device",
+  "tier": "core"
+ },
+ "pw.devise": {
+  "lang": "en",
+  "text": "devise",
+  "tier": "core"
+ },
+ "pw.diary": {
+  "lang": "en",
+  "text": "diary",
+  "tier": "core"
+ },
+ "pw.economic": {
+  "lang": "en",
+  "text": "economic",
+  "tier": "core"
+ },
+ "pw.economical": {
+  "lang": "en",
+  "text": "economical",
+  "tier": "core"
+ },
+ "pw.effect": {
+  "lang": "en",
+  "text": "effect",
+  "tier": "core"
+ },
+ "pw.emigrate": {
+  "lang": "en",
+  "text": "emigrate",
+  "tier": "core"
+ },
+ "pw.eminent": {
+  "lang": "en",
+  "text": "eminent",
+  "tier": "core"
+ },
+ "pw.except": {
+  "lang": "en",
+  "text": "except",
+  "tier": "core"
+ },
+ "pw.expand": {
+  "lang": "en",
+  "text": "expand",
+  "tier": "core"
+ },
+ "pw.expend": {
+  "lang": "en",
+  "text": "expend",
+  "tier": "core"
+ },
+ "pw.fan": {
+  "lang": "en",
+  "text": "fan",
+  "tier": "core"
+ },
+ "pw.farm": {
+  "lang": "en",
+  "text": "farm",
+  "tier": "core"
+ },
+ "pw.feel": {
+  "lang": "en",
+  "text": "feel",
+  "tier": "core"
+ },
+ "pw.fill": {
+  "lang": "en",
+  "text": "fill",
+  "tier": "core"
+ },
+ "pw.firm": {
+  "lang": "en",
+  "text": "firm",
+  "tier": "core"
+ },
+ "pw.flight": {
+  "lang": "en",
+  "text": "flight",
+  "tier": "core"
+ },
+ "pw.flour": {
+  "lang": "en",
+  "text": "flour",
+  "tier": "core"
+ },
+ "pw.flower": {
+  "lang": "en",
+  "text": "flower",
+  "tier": "core"
+ },
+ "pw.fly": {
+  "lang": "en",
+  "text": "fly",
+  "tier": "core"
+ },
+ "pw.fool": {
+  "lang": "en",
+  "text": "fool",
+  "tier": "core"
+ },
+ "pw.fright": {
+  "lang": "en",
+  "text": "fright",
+  "tier": "core"
+ },
+ "pw.fry": {
+  "lang": "en",
+  "text": "fry",
+  "tier": "core"
+ },
+ "pw.full": {
+  "lang": "en",
+  "text": "full",
+  "tier": "core"
+ },
+ "pw.fun": {
+  "lang": "en",
+  "text": "fun",
+  "tier": "core"
+ },
+ "pw.glass": {
+  "lang": "en",
+  "text": "glass",
+  "tier": "core"
+ },
+ "pw.grass": {
+  "lang": "en",
+  "text": "grass",
+  "tier": "core"
+ },
+ "pw.hat": {
+  "lang": "en",
+  "text": "hat",
+  "tier": "core"
+ },
+ "pw.hear": {
+  "lang": "en",
+  "text": "hear",
+  "tier": "core"
+ },
+ "pw.heart": {
+  "lang": "en",
+  "text": "heart",
+  "tier": "core"
+ },
+ "pw.here": {
+  "lang": "en",
+  "text": "here",
+  "tier": "core"
+ },
+ "pw.historic": {
+  "lang": "en",
+  "text": "historic",
+  "tier": "core"
+ },
+ "pw.historical": {
+  "lang": "en",
+  "text": "historical",
+  "tier": "core"
+ },
+ "pw.hole": {
+  "lang": "en",
+  "text": "hole",
+  "tier": "core"
+ },
+ "pw.hurt": {
+  "lang": "en",
+  "text": "hurt",
+  "tier": "core"
+ },
+ "pw.hut": {
+  "lang": "en",
+  "text": "hut",
+  "tier": "core"
+ },
+ "pw.imaginary": {
+  "lang": "en",
+  "text": "imaginary",
+  "tier": "core"
+ },
+ "pw.imaginative": {
+  "lang": "en",
+  "text": "imaginative",
+  "tier": "core"
+ },
+ "pw.immigrate": {
+  "lang": "en",
+  "text": "immigrate",
+  "tier": "core"
+ },
+ "pw.imminent": {
+  "lang": "en",
+  "text": "imminent",
+  "tier": "core"
+ },
+ "pw.industrial": {
+  "lang": "en",
+  "text": "industrial",
+  "tier": "core"
+ },
+ "pw.industrious": {
+  "lang": "en",
+  "text": "industrious",
+  "tier": "core"
+ },
+ "pw.invaluable": {
+  "lang": "en",
+  "text": "invaluable",
+  "tier": "core"
+ },
+ "pw.lack": {
+  "lang": "en",
+  "text": "lack",
+  "tier": "core"
+ },
+ "pw.later": {
+  "lang": "en",
+  "text": "later",
+  "tier": "core"
+ },
+ "pw.latter": {
+  "lang": "en",
+  "text": "latter",
+  "tier": "core"
+ },
+ "pw.law": {
+  "lang": "en",
+  "text": "law",
+  "tier": "core"
+ },
+ "pw.lay": {
+  "lang": "en",
+  "text": "lay",
+  "tier": "core"
+ },
+ "pw.lead": {
+  "lang": "en",
+  "text": "lead",
+  "tier": "core"
+ },
+ "pw.leave": {
+  "lang": "en",
+  "text": "leave",
+  "tier": "core"
+ },
+ "pw.lice": {
+  "lang": "en",
+  "text": "lice",
+  "tier": "core"
+ },
+ "pw.lie": {
+  "lang": "en",
+  "text": "lie",
+  "tier": "core"
+ },
+ "pw.light": {
+  "lang": "en",
+  "text": "light",
+  "tier": "core"
+ },
+ "pw.live": {
+  "lang": "en",
+  "text": "live",
+  "tier": "core"
+ },
+ "pw.load": {
+  "lang": "en",
+  "text": "load",
+  "tier": "core"
+ },
+ "pw.lock": {
+  "lang": "en",
+  "text": "lock",
+  "tier": "core"
+ },
+ "pw.long": {
+  "lang": "en",
+  "text": "long",
+  "tier": "core"
+ },
+ "pw.loose": {
+  "lang": "en",
+  "text": "loose",
+  "tier": "core"
+ },
+ "pw.lose": {
+  "lang": "en",
+  "text": "lose",
+  "tier": "core"
+ },
+ "pw.low": {
+  "lang": "en",
+  "text": "low",
+  "tier": "core"
+ },
+ "pw.loyal": {
+  "lang": "en",
+  "text": "loyal",
+  "tier": "core"
+ },
+ "pw.luck": {
+  "lang": "en",
+  "text": "luck",
+  "tier": "core"
+ },
+ "pw.match": {
+  "lang": "en",
+  "text": "match",
+  "tier": "core"
+ },
+ "pw.meat": {
+  "lang": "en",
+  "text": "meat",
+  "tier": "core"
+ },
+ "pw.meet": {
+  "lang": "en",
+  "text": "meet",
+  "tier": "core"
+ },
+ "pw.moral": {
+  "lang": "en",
+  "text": "moral",
+  "tier": "core"
+ },
+ "pw.morale": {
+  "lang": "en",
+  "text": "morale",
+  "tier": "core"
+ },
+ "pw.mouse": {
+  "lang": "en",
+  "text": "mouse",
+  "tier": "core"
+ },
+ "pw.mouth": {
+  "lang": "en",
+  "text": "mouth",
+  "tier": "core"
+ },
+ "pw.much": {
+  "lang": "en",
+  "text": "much",
+  "tier": "core"
+ },
+ "pw.peace": {
+  "lang": "en",
+  "text": "peace",
+  "tier": "core"
+ },
+ "pw.persecute": {
+  "lang": "en",
+  "text": "persecute",
+  "tier": "core"
+ },
+ "pw.personal": {
+  "lang": "en",
+  "text": "personal",
+  "tier": "core"
+ },
+ "pw.personnel": {
+  "lang": "en",
+  "text": "personnel",
+  "tier": "core"
+ },
+ "pw.piece": {
+  "lang": "en",
+  "text": "piece",
+  "tier": "core"
+ },
+ "pw.play": {
+  "lang": "en",
+  "text": "play",
+  "tier": "core"
+ },
+ "pw.pray": {
+  "lang": "en",
+  "text": "pray",
+  "tier": "core"
+ },
+ "pw.precede": {
+  "lang": "en",
+  "text": "precede",
+  "tier": "core"
+ },
+ "pw.principal": {
+  "lang": "en",
+  "text": "principal",
+  "tier": "core"
+ },
+ "pw.principle": {
+  "lang": "en",
+  "text": "principle",
+  "tier": "core"
+ },
+ "pw.proceed": {
+  "lang": "en",
+  "text": "proceed",
+  "tier": "core"
+ },
+ "pw.prosecute": {
+  "lang": "en",
+  "text": "prosecute",
+  "tier": "core"
+ },
+ "pw.quiet": {
+  "lang": "en",
+  "text": "quiet",
+  "tier": "core"
+ },
+ "pw.quite": {
+  "lang": "en",
+  "text": "quite",
+  "tier": "core"
+ },
+ "pw.raise": {
+  "lang": "en",
+  "text": "raise",
+  "tier": "core"
+ },
+ "pw.ran": {
+  "lang": "en",
+  "text": "ran",
+  "tier": "core"
+ },
+ "pw.read": {
+  "lang": "en",
+  "text": "read",
+  "tier": "core"
+ },
+ "pw.respectable": {
+  "lang": "en",
+  "text": "respectable",
+  "tier": "core"
+ },
+ "pw.respectful": {
+  "lang": "en",
+  "text": "respectful",
+  "tier": "core"
+ },
+ "pw.respective": {
+  "lang": "en",
+  "text": "respective",
+  "tier": "core"
+ },
+ "pw.rice": {
+  "lang": "en",
+  "text": "rice",
+  "tier": "core"
+ },
+ "pw.right": {
+  "lang": "en",
+  "text": "right",
+  "tier": "core"
+ },
+ "pw.rise": {
+  "lang": "en",
+  "text": "rise",
+  "tier": "core"
+ },
+ "pw.road": {
+  "lang": "en",
+  "text": "road",
+  "tier": "core"
+ },
+ "pw.rock": {
+  "lang": "en",
+  "text": "rock",
+  "tier": "core"
+ },
+ "pw.root": {
+  "lang": "en",
+  "text": "root",
+  "tier": "core"
+ },
+ "pw.route": {
+  "lang": "en",
+  "text": "route",
+  "tier": "core"
+ },
+ "pw.royal": {
+  "lang": "en",
+  "text": "royal",
+  "tier": "core"
+ },
+ "pw.run": {
+  "lang": "en",
+  "text": "run",
+  "tier": "core"
+ },
+ "pw.sea": {
+  "lang": "en",
+  "text": "sea",
+  "tier": "core"
+ },
+ "pw.seat": {
+  "lang": "en",
+  "text": "seat",
+  "tier": "core"
+ },
+ "pw.see": {
+  "lang": "en",
+  "text": "see",
+  "tier": "core"
+ },
+ "pw.sensible": {
+  "lang": "en",
+  "text": "sensible",
+  "tier": "core"
+ },
+ "pw.sensitive": {
+  "lang": "en",
+  "text": "sensitive",
+  "tier": "core"
+ },
+ "pw.sheep": {
+  "lang": "en",
+  "text": "sheep",
+  "tier": "core"
+ },
+ "pw.ship": {
+  "lang": "en",
+  "text": "ship",
+  "tier": "core"
+ },
+ "pw.sick": {
+  "lang": "en",
+  "text": "sick",
+  "tier": "core"
+ },
+ "pw.sing": {
+  "lang": "en",
+  "text": "sing",
+  "tier": "core"
+ },
+ "pw.sink": {
+  "lang": "en",
+  "text": "sink",
+  "tier": "core"
+ },
+ "pw.sit": {
+  "lang": "en",
+  "text": "sit",
+  "tier": "core"
+ },
+ "pw.son": {
+  "lang": "en",
+  "text": "son",
+  "tier": "core"
+ },
+ "pw.staff": {
+  "lang": "en",
+  "text": "staff",
+  "tier": "core"
+ },
+ "pw.stationary": {
+  "lang": "en",
+  "text": "stationary",
+  "tier": "core"
+ },
+ "pw.stationery": {
+  "lang": "en",
+  "text": "stationery",
+  "tier": "core"
+ },
+ "pw.steal": {
+  "lang": "en",
+  "text": "steal",
+  "tier": "core"
+ },
+ "pw.steel": {
+  "lang": "en",
+  "text": "steel",
+  "tier": "core"
+ },
+ "pw.stuff": {
+  "lang": "en",
+  "text": "stuff",
+  "tier": "core"
+ },
+ "pw.successful": {
+  "lang": "en",
+  "text": "successful",
+  "tier": "core"
+ },
+ "pw.successive": {
+  "lang": "en",
+  "text": "successive",
+  "tier": "core"
+ },
+ "pw.sun": {
+  "lang": "en",
+  "text": "sun",
+  "tier": "core"
+ },
+ "pw.thick": {
+  "lang": "en",
+  "text": "thick",
+  "tier": "core"
+ },
+ "pw.thing": {
+  "lang": "en",
+  "text": "thing",
+  "tier": "core"
+ },
+ "pw.think": {
+  "lang": "en",
+  "text": "think",
+  "tier": "core"
+ },
+ "pw.thorough": {
+  "lang": "en",
+  "text": "thorough",
+  "tier": "core"
+ },
+ "pw.though": {
+  "lang": "en",
+  "text": "though",
+  "tier": "core"
+ },
+ "pw.through": {
+  "lang": "en",
+  "text": "through",
+  "tier": "core"
+ },
+ "pw.uncle": {
+  "lang": "en",
+  "text": "uncle",
+  "tier": "core"
+ },
+ "pw.valuable": {
+  "lang": "en",
+  "text": "valuable",
+  "tier": "core"
+ },
+ "pw.van": {
+  "lang": "en",
+  "text": "van",
+  "tier": "core"
+ },
+ "pw.vase": {
+  "lang": "en",
+  "text": "vase",
+  "tier": "core"
+ },
+ "pw.very": {
+  "lang": "en",
+  "text": "very",
+  "tier": "core"
+ },
+ "pw.vest": {
+  "lang": "en",
+  "text": "vest",
+  "tier": "core"
+ },
+ "pw.vote": {
+  "lang": "en",
+  "text": "vote",
+  "tier": "core"
+ },
+ "pw.walk": {
+  "lang": "en",
+  "text": "walk",
+  "tier": "core"
+ },
+ "pw.weak": {
+  "lang": "en",
+  "text": "weak",
+  "tier": "core"
+ },
+ "pw.weather": {
+  "lang": "en",
+  "text": "weather",
+  "tier": "core"
+ },
+ "pw.week": {
+  "lang": "en",
+  "text": "week",
+  "tier": "core"
+ },
+ "pw.whether": {
+  "lang": "en",
+  "text": "whether",
+  "tier": "core"
+ },
+ "pw.whole": {
+  "lang": "en",
+  "text": "whole",
+  "tier": "core"
+ },
+ "pw.work": {
+  "lang": "en",
+  "text": "work",
+  "tier": "core"
+ },
+ "pw.write": {
+  "lang": "en",
+  "text": "write",
+  "tier": "core"
+ },
+ "pw.wrong": {
+  "lang": "en",
+  "text": "wrong",
   "tier": "core"
  },
  "quality.example.en": {

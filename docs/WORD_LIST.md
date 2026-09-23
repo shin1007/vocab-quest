@@ -2,7 +2,7 @@
 
 > このファイルは `data/words.json` と `data/roots.json` から `python3 scripts/build_wordlist.py` で自動生成されています。直接編集しないでください。
 
-収録語数: **1425 語**（類義語 2948 語） / 語根ファミリー: **56 種**
+収録語数: **1425 語**（類義語 2948 語） / 語根ファミリー: **56 種** / 似た単語セット: **100 セット**
 
 レベル別: Lv.1 149語 / Lv.2 189語 / Lv.3 189語 / Lv.4 157語 / Lv.5 174語 / Lv.6 155語 / Lv.7 163語 / Lv.8 129語 / Lv.9 71語 / Lv.10 49語
 
@@ -23,6 +23,7 @@
 - Lv.9 教養 — [guild](#guild), [summon](#summon), [relic](#relic), [mana](#mana), [stealth](#stealth), [berserk](#berserk), [compliance](#compliance), [consensus](#consensus), [hierarchy](#hierarchy), [scheme](#scheme), [aesthetic](#aesthetic), [ideology](#ideology), [renaissance](#renaissance), [entrepreneur](#entrepreneur), [philosophy](#philosophy), [metaphor](#metaphor), [thesis](#thesis), [antithesis](#antithesis), [narrative](#narrative), [realism](#realism), [modernism](#modernism), [surreal](#surreal), [minimalism](#minimalism), [baroque](#baroque), [gothic](#gothic), [dystopia](#dystopia), [nationalism](#nationalism), [populism](#populism), [fascism](#fascism), [anarchy](#anarchy), [elite](#elite), [intellectual](#intellectual), [sympathy](#sympathy), [cosmopolitan](#cosmopolitan), [folklore](#folklore), [saga](#saga), [chronicle](#chronicle), [archive](#archive), [anthology](#anthology), [prologue](#prologue), [epilogue](#epilogue), [finale](#finale), [parody](#parody), [homage](#homage), [motif](#motif), [chic](#chic), [cosmos](#cosmos), [parameter](#parameter), [matrix](#matrix), [vector](#vector), [symmetry](#symmetry), [gradation](#gradation), [perspective](#perspective), [mentality](#mentality), [maestro](#maestro), [optimism](#optimism), [pessimism](#pessimism), [cynical](#cynical), [hysterical](#hysterical), [humanism](#humanism), [sanctuary](#sanctuary), [labyrinth](#labyrinth), [mirage](#mirage), [phantom](#phantom), [illusion](#illusion), [montage](#montage), [atelier](#atelier), [plasma](#plasma), [placebo](#placebo), [calligraphy](#calligraphy), [typography](#typography)
 - Lv.10 マスター — [governance](#governance), [paradigm](#paradigm), [accountability](#accountability), [anachronism](#anachronism), [cliche](#cliche), [melancholy](#melancholy), [narcissist](#narcissist), [sabotage](#sabotage), [taboo](#taboo), [catharsis](#catharsis), [ambivalent](#ambivalent), [rhetoric](#rhetoric), [dogma](#dogma), [hegemony](#hegemony), [epoch](#epoch), [bourgeois](#bourgeois), [nihilism](#nihilism), [euphoria](#euphoria), [entropy](#entropy), [ennui](#ennui), [decadence](#decadence), [bohemian](#bohemian), [genocide](#genocide), [coup](#coup), [regime](#regime), [orthodox](#orthodox), [mantra](#mantra), [nirvana](#nirvana), [shaman](#shaman), [nemesis](#nemesis), [odyssey](#odyssey), [chimera](#chimera), [doppelganger](#doppelganger), [poltergeist](#poltergeist), [gestalt](#gestalt), [kitsch](#kitsch), [leitmotif](#leitmotif), [crescendo](#crescendo), [sonata](#sonata), [concerto](#concerto), [rhapsody](#rhapsody), [serenade](#serenade), [nocturne](#nocturne), [etude](#etude), [pastiche](#pastiche), [fresco](#fresco), [quantum](#quantum), [rococo](#rococo), [cubism](#cubism)
 - [語根ファミリー一覧](#語根ファミリー一覧)
+- [似た単語セット](#似た単語セット)
 
 ## Lv.1 ひと目でわかる
 
@@ -23210,6 +23211,145 @@
 |---|---|---|---|
 | **abstract art** | 抽象芸術 | 形を写さない芸術。 | abstract + art |
 | **modern art** | 現代美術 | 近代以降の芸術。 | modern + art |
+
+## 似た単語セット
+
+100 セット（`data/pairs.json`）
+
+### 🗣️ 母音のちがい
+
+| レベル | 単語 | ここがちがう |
+|---|---|---|
+| Lv.1 | **hat** /hæt/ （つばのある）帽子<br>**hut** /hʌt/ 小屋 | どちらもカタカナでは「ハット」。hat の a は口を横に大きく開いて「エ」に近い「ア」/æ/、hut の u は口をあまり開けずに短く「ア」/ʌ/。 |
+| Lv.1 | **cap** /kæp/ （つばのある）帽子、ふた<br>**cup** /kʌp/ カップ、茶わん | cap は /æ/（口を横に開くア）、cup は /ʌ/（短くあいまいなア）。「キャップ」と「カップ」とカタカナでは書き分けられているのがヒント。 |
+| Lv.1 | **cat** /kæt/ 猫<br>**cut** /kʌt/ 切る | cat（キャット）は /æ/、cut（カット）は /ʌ/。つづりの a と u がそのまま音のちがい。 |
+| Lv.1 | **bag** /bæɡ/ かばん、袋<br>**bug** /bʌɡ/ 虫、不具合 | bag（バッグ）は /æ/、bug（バグ）は /ʌ/。カタカナでも「バッグ」「バグ」と別になっている。 |
+| Lv.1 | **fan** /fæn/ ファン、扇風機<br>**fun** /fʌn/ 楽しみ、楽しいこと | fan（ファン）は /æ/、fun（ファン）は /ʌ/。カタカナでは同じ「ファン」になってしまう代表例。 |
+| Lv.1 | **ship** /ʃɪp/ 船<br>**sheep** /ʃiːp/ 羊 | ship の i は短く力を抜いた「イ」/ɪ/、sheep の ee は口を横に引いて長い「イー」/iː/。 |
+| Lv.2 | **ran** /ræn/ 走った（run の過去形）<br>**run** /rʌn/ 走る、経営する | ran は run の過去形。ran /æ/ と run /ʌ/ は母音だけがちがう。 |
+| Lv.2 | **match** /mætʃ/ 試合、マッチ<br>**much** /mʌtʃ/ たくさんの（数えられないもの） | match（マッチ）は /æ/、much（マッチ）は /ʌ/。カタカナは同じでも意味はまったく別。 |
+| Lv.2 | **bat** /bæt/ バット、コウモリ<br>**but** /bʌt/ しかし | bat /æ/ と but /ʌ/。but は弱く「バト」と短く読まれることが多い。 |
+| Lv.2 | **live** /lɪv/ 住む、生きる<br>**leave** /liːv/ 去る、置いていく | live /ɪ/（住む）と leave /iː/（去る、残す）。短い「イ」と長い「イー」。 |
+| Lv.2 | **fill** /fɪl/ 満たす、記入する<br>**feel** /fiːl/ 感じる | fill /ɪ/（満たす）と feel /iː/（感じる）。 |
+| Lv.2 | **sit** /sɪt/ 座る<br>**seat** /siːt/ 座席 | sit /ɪ/（座る：動詞）と seat /iː/（座席：名詞）。 |
+| Lv.2 | **walk** /wɔːk/ 歩く<br>**work** /wɜːrk/ 働く、うまくいく | walk は口を縦に開いた「オー」/ɔː/（l は読まない）、work は口をあまり開けずに舌を丸める「アー」/ɜːr/。日本人がとても混同しやすいペア。 |
+| Lv.3 | **carry** /ˈkæri/ 運ぶ、持ち歩く<br>**curry** /ˈkɜːri/ カレー | carry（キャリー）/æ/ と curry（カレー）/ɜː/（米）。つづりの a と u に注目。 |
+| Lv.3 | **lack** /læk/ 不足、欠乏<br>**luck** /lʌk/ 運 | lack /æ/（欠けている）と luck /ʌ/（運）。「運がない」は lack of luck。 |
+| Lv.3 | **ankle** /ˈæŋkəl/ 足首<br>**uncle** /ˈʌŋkəl/ おじ | ankle（足首）/æ/ と uncle（おじ）/ʌ/。「アンクル」と同じカタカナになる。 |
+| Lv.3 | **full** /fʊl/ いっぱいの、満腹の<br>**fool** /fuːl/ ばか者 | full の u は短い「ウ」/ʊ/、fool の oo は唇を丸めた長い「ウー」/uː/。 |
+| Lv.3 | **heart** /hɑːrt/ 心臓、心<br>**hurt** /hɜːrt/ 傷つける、痛む | heart は口を大きく開けた「アー」/ɑːr/、hurt はこもった「アー」/ɜːr/。 |
+| Lv.3 | **bird** /bɜːrd/ 鳥<br>**board** /bɔːrd/ 板、掲示板 | bird はこもった「アー」/ɜːr/、board は口を丸めた「オー」/ɔːr/。 |
+| Lv.4 | **staff** /stæf/ 職員、スタッフ<br>**stuff** /stʌf/ もの、こと（くだけた言い方） | staff（職員）/æ/ と stuff（もの、こと）/ʌ/。英検でもよく出る。 |
+| Lv.4 | **farm** /fɑːrm/ 農場<br>**firm** /fɜːrm/ 会社、かたい | farm /ɑːr/（農場）と firm /ɜːr/（会社、かたい）。 |
+| Lv.4 | **cost** /kɔːst/ 費用、（金額が）かかる<br>**coast** /koʊst/ 海岸 | cost は口を縦に開く短い「オ」/ɔː/、coast は「オウ」/oʊ/ と二重母音。 |
+| Lv.4 | **bought** /bɔːt/ 買った（buy の過去形）<br>**boat** /boʊt/ 小舟、ボート | bought（buy の過去形）/ɔː/ と boat /oʊ/。 |
+| Lv.5 | **law** /lɔː/ 法律<br>**low** /loʊ/ 低い | law は口を縦に開いた「オー」/ɔː/、low は「オウ」/oʊ/。カタカナの「ロー」では区別できない。 |
+
+### 👅 L と R
+
+| レベル | 単語 | ここがちがう |
+|---|---|---|
+| Lv.1 | **light** /laɪt/ 光、明かり<br>**right** /raɪt/ 正しい、右の | L は舌先を上の歯ぐきにつけたまま「ル」、R は舌をどこにもつけずに奥へ丸める。light（光）と right（正しい、右）。 |
+| Lv.2 | **rice** /raɪs/ 米、ご飯<br>**lice** /laɪs/ シラミ（louse の複数形） | rice（米）を L で言うと lice（シラミ）になってしまう、有名な例。 |
+| Lv.2 | **play** /pleɪ/ 遊ぶ、演奏する<br>**pray** /preɪ/ 祈る | play（遊ぶ、演奏する）と pray（祈る）。 |
+| Lv.2 | **glass** /ɡlæs/ ガラス、コップ<br>**grass** /ɡræs/ 草、芝生 | glass（ガラス、コップ）と grass（草）。 |
+| Lv.2 | **lock** /lɑːk/ 鍵をかける<br>**rock** /rɑːk/ 岩、ロック | lock（鍵をかける）と rock（岩、ロック音楽）。 |
+| Lv.2 | **fly** /flaɪ/ 飛ぶ<br>**fry** /fraɪ/ 揚げる、炒める | fly（飛ぶ）と fry（油で揚げる、炒める）。 |
+| Lv.2 | **long** /lɔːŋ/ 長い<br>**wrong** /rɔːŋ/ まちがった | long（長い）と wrong（まちがった）。wrong の w は読まない。 |
+| Lv.3 | **lead** /liːd/ 導く、率いる<br>**read** /riːd/ 読む | lead（導く）と read（読む）。どちらも「リード」と読まれがち。 |
+| Lv.3 | **load** /loʊd/ 積み荷、積む<br>**road** /roʊd/ 道路 | load（荷物、積む）と road（道路）。 |
+| Lv.3 | **belly** /ˈbeli/ おなか<br>**berry** /ˈberi/ ベリー、小さな実 | belly（おなか）と berry（ベリー、小さな実）。 |
+| Lv.4 | **collect** /kəˈlekt/ 集める<br>**correct** /kəˈrekt/ 正しい、訂正する | collect（集める）と correct（正しい、訂正する）。英検のリスニングでも要注意。 |
+| Lv.4 | **alive** /əˈlaɪv/ 生きている<br>**arrive** /əˈraɪv/ 到着する | alive（生きている）と arrive（到着する）。 |
+| Lv.5 | **climb** /klaɪm/ 登る<br>**crime** /kraɪm/ 犯罪 | climb（登る。b は読まない）と crime（犯罪）。 |
+| Lv.5 | **flight** /flaɪt/ （飛行機の）便、飛行<br>**fright** /fraɪt/ 恐怖、驚き | flight（飛行、便）と fright（恐怖）。 |
+
+### 👄 B と V
+
+| レベル | 単語 | ここがちがう |
+|---|---|---|
+| Lv.2 | **berry** /ˈberi/ ベリー、小さな実<br>**very** /ˈveri/ とても | berry（ベリー）と very（とても）。V を B で発音すると「ベリー」になってしまう。 |
+| Lv.3 | **best** /best/ 最もよい<br>**vest** /vest/ ベスト、チョッキ | B は唇を閉じてはじく音、V は上の歯を下唇に軽く当てて出す音。best（最もよい）と vest（ベスト、チョッキ）。 |
+| Lv.3 | **boat** /boʊt/ 小舟、ボート<br>**vote** /voʊt/ 投票する、票 | boat（ボート）と vote（投票する）。カタカナでは「ボート」で同じ。 |
+| Lv.4 | **base** /beɪs/ 土台、基地、塁<br>**vase** /veɪs/ 花びん | base（土台、基地）と vase（花びん）。 |
+| Lv.5 | **ban** /bæn/ 禁止する、禁止<br>**van** /væn/ ワゴン車、バン | ban（禁止する）と van（ワゴン車）。 |
+
+### 😛 TH の音
+
+| レベル | 単語 | ここがちがう |
+|---|---|---|
+| Lv.2 | **mouse** /maʊs/ ネズミ、マウス<br>**mouth** /maʊθ/ 口 | mouse（ネズミ）/s/ と mouth（口）/θ/。 |
+| Lv.2 | **sing** /sɪŋ/ 歌う<br>**thing** /θɪŋ/ もの、こと | sing（歌う）と thing（もの、こと）。 |
+| Lv.3 | **sink** /sɪŋk/ 沈む、流し台<br>**think** /θɪŋk/ 考える、思う | TH は舌先を上の歯に軽く当てて息を出す音 /θ/。sink（沈む、流し）と think（考える）。 |
+| Lv.3 | **sick** /sɪk/ 病気の<br>**thick** /θɪk/ 厚い、濃い | sick（病気の）と thick（厚い）。 |
+| Lv.4 | **close** /kloʊz/ 閉める<br>**clothes** /kloʊðz/ 服、衣類 | close（閉める）は /z/、clothes（服）は /ðz/。clothes は「クロウズ」とほぼ同じに聞こえることも多い。 |
+
+### 👂 同じ音・別の語
+
+| レベル | 単語 | ここがちがう |
+|---|---|---|
+| Lv.1 | **hear** /hɪr/ 聞こえる、聞く<br>**here** /hɪr/ ここに、ここで | 発音はどちらも /hɪr/。hear（聞こえる）には ear（耳）が入っている、と覚える。 |
+| Lv.1 | **son** /sʌn/ 息子<br>**sun** /sʌn/ 太陽 | 発音はどちらも /sʌn/。son（息子）と sun（太陽）。 |
+| Lv.1 | **sea** /siː/ 海<br>**see** /siː/ 見える、会う | 発音はどちらも /siː/。sea（海）と see（見える、会う）。 |
+| Lv.2 | **right** /raɪt/ 正しい、右の<br>**write** /raɪt/ 書く | 発音はどちらも /raɪt/。write（書く）の w は読まない。 |
+| Lv.2 | **week** /wiːk/ 週<br>**weak** /wiːk/ 弱い | 発音はどちらも /wiːk/。week（週）と weak（弱い）。 |
+| Lv.2 | **meet** /miːt/ 会う<br>**meat** /miːt/ 肉 | 発音はどちらも /miːt/。meet（会う）と meat（肉）。 |
+| Lv.3 | **peace** /piːs/ 平和<br>**piece** /piːs/ 一切れ、一個 | 発音はどちらも /piːs/。peace（平和）と piece（一切れ）。「a piece of pie（パイ一切れ）」と覚える。 |
+| Lv.4 | **whole** /hoʊl/ 全体の、まるごとの<br>**hole** /hoʊl/ 穴 | 発音はどちらも /hoʊl/。whole（全体の）の w は読まない。 |
+| Lv.4 | **flower** /ˈflaʊər/ 花<br>**flour** /ˈflaʊər/ 小麦粉 | 発音はほぼ同じ /ˈflaʊər/。flour（小麦粉）はもとは flower と同じ語で、小麦の「いちばん良い部分（花）」の意味だった。 |
+| Lv.5 | **steal** /stiːl/ 盗む<br>**steel** /stiːl/ 鋼鉄 | 発音はどちらも /stiːl/。steal（盗む）と steel（鋼鉄）。 |
+| Lv.5 | **weather** /ˈweðər/ 天気<br>**whether** /ˈweðər/ 〜かどうか | 発音はほぼ同じ /ˈweðər/。weather（天気）と whether（〜かどうか）。英検の長文でもよく出る。 |
+| Lv.6 | **route** /ruːt/ 道順、ルート<br>**root** /ruːt/ 根、根源 | route は /ruːt/（米では /raʊt/ とも）、root は /ruːt/。route（道順）と root（根、根源）。 |
+
+### ✍️ つづりが似ている
+
+| レベル | 単語 | ここがちがう |
+|---|---|---|
+| Lv.4 | **quite** /kwaɪt/ かなり、まったく<br>**quiet** /ˈkwaɪət/ 静かな | quite（かなり）は1音節「クワイト」、quiet（静かな）は2音節「クワイエット」。e の位置に注目。 |
+| Lv.4 | **desert** /ˈdezərt/ 砂漠<br>**dessert** /dɪˈzɜːrt/ デザート | desert（砂漠）は前にアクセント、dessert（デザート）は後ろにアクセント。「s が2つ（sweet stuff）は甘いもの」と覚える。 |
+| Lv.4 | **lose** /luːz/ 失う、負ける<br>**loose** /luːs/ ゆるい | lose（失う、負ける）は /luːz/、loose（ゆるい）は /luːs/。o が1つか2つか。 |
+| Lv.4 | **cloth** /klɔːθ/ 布<br>**clothes** /kloʊðz/ 服、衣類 | cloth（布）は /klɔːθ/、clothes（服）は /kloʊðz/。clothes は常に複数扱い。 |
+| Lv.5 | **breath** /breθ/ 息、呼吸<br>**breathe** /briːð/ 呼吸する | breath（息：名詞）/breθ/ と breathe（呼吸する：動詞）/briːð/。e がつくと動詞。 |
+| Lv.5 | **advice** /ədˈvaɪs/ 助言<br>**advise** /ədˈvaɪz/ 助言する | advice（助言：名詞）は /s/、advise（助言する：動詞）は /z/。c は名詞、s は動詞。 |
+| Lv.5 | **rise** /raɪz/ 上がる、昇る<br>**raise** /reɪz/ 上げる、育てる | rise（上がる）は目的語をとらない、raise（上げる）は目的語をとる。raise your hand（手を挙げる）。 |
+| Lv.6 | **lie** /laɪ/ 横になる、うそをつく<br>**lay** /leɪ/ 横たえる、置く、（卵を）産む | lie（横になる）は目的語をとらず、lay（横たえる、置く）は目的語をとる。lie の過去形が lay なのでさらにまぎらわしい。 |
+| Lv.6 | **accept** /əkˈsept/ 受け入れる<br>**except** /ɪkˈsept/ 〜を除いて | accept（受け入れる）は ac-、except（〜を除いて）は ex-（外に）。発音も似ているので文脈で見分ける。 |
+| Lv.6 | **loyal** /ˈlɔɪəl/ 忠実な、誠実な<br>**royal** /ˈrɔɪəl/ 王の、王室の | loyal（忠実な）と royal（王の）。L と R のちがいでもある。 |
+| Lv.6 | **dairy** /ˈderi/ 乳製品（の）<br>**diary** /ˈdaɪəri/ 日記 | dairy（乳製品）/ˈderi/ と diary（日記）/ˈdaɪəri/。i と a の順番が逆。 |
+| Lv.6 | **costume** /ˈkɑːstuːm/ 衣装、仮装<br>**custom** /ˈkʌstəm/ 習慣、慣習 | costume（衣装）と custom（習慣）は、どちらもラテン語 cōnsuētūdō「慣れ」から分かれた兄弟語。 |
+| Lv.6 | **through** /θruː/ 〜を通って<br>**though** /ðoʊ/ 〜だけれども<br>**thorough** /ˈθɜːroʊ/ 徹底的な | through（〜を通って）/θruː/、though（〜だけれども）/ðoʊ/、thorough（徹底的な）/ˈθɜːroʊ/。r の位置と数で見分ける。 |
+| Lv.7 | **affect** /əˈfekt/ 影響する<br>**effect** /ɪˈfekt/ 影響、効果 | affect は「影響する（動詞）」、effect は「影響、効果（名詞）」が基本。「動詞は a（action）、名詞は e（end result）」と覚える。 |
+| Lv.7 | **adapt** /əˈdæpt/ 適応する、合わせる<br>**adopt** /əˈdɑːpt/ 採用する、養子にする | adapt（適応させる、合わせる）と adopt（採用する、養子にする）。adopt には option（選ぶ）と同じ語根が入っている。 |
+| Lv.7 | **device** /dɪˈvaɪs/ 装置、機器<br>**devise** /dɪˈvaɪz/ 考案する | device（装置：名詞）は /s/、devise（考案する：動詞）は /z/。advice / advise と同じパターン。 |
+| Lv.7 | **later** /ˈleɪtər/ あとで<br>**latter** /ˈlætər/ 後者（の） | later（あとで）/ˈleɪtər/ と latter（後者の）/ˈlætər/。t が2つだと「ア」が短くなる。 |
+| Lv.8 | **expand** /ɪkˈspænd/ 拡大する、広げる<br>**expend** /ɪkˈspend/ （時間・お金・力を）費やす | expand（広げる、拡大する）と expend（費やす）。expend は expense（費用）、spend（使う）の仲間。 |
+| Lv.8 | **principal** /ˈprɪnsəpəl/ 校長、主要な<br>**principle** /ˈprɪnsəpəl/ 原理、主義 | principal（主要な、校長）と principle（原理、主義）。発音は同じ。「校長は pal（仲間）」と覚える。 |
+| Lv.9 | **complement** /ˈkɑːmpləmənt/ 補うもの、引き立てる<br>**compliment** /ˈkɑːmpləmənt/ ほめ言葉、ほめる | complement（補うもの）と compliment（ほめ言葉）は同じ発音。complement は complete（完全にする）と同じ e。 |
+| Lv.9 | **stationary** /ˈsteɪʃəneri/ 静止した<br>**stationery** /ˈsteɪʃəneri/ 文房具 | stationary（静止した）と stationery（文房具）は同じ発音。「stationery の e は envelope（封筒）の e」と覚える。 |
+| Lv.9 | **personal** /ˈpɜːrsənəl/ 個人の<br>**personnel** /ˌpɜːrsəˈnel/ 職員、人事部 | personal（個人の）は前にアクセント、personnel（職員、人事）は後ろにアクセント。 |
+| Lv.9 | **moral** /ˈmɔːrəl/ 教訓、道徳の<br>**morale** /məˈræl/ 士気、やる気 | moral（道徳の、教訓）は前にアクセント、morale（士気）は後ろにアクセント。 |
+| Lv.9 | **precede** /prɪˈsiːd/ 〜より先に起こる<br>**proceed** /proʊˈsiːd/ 進む、続ける | precede（〜に先行する）と proceed（進む、続ける）。pre-「前に」と pro-「前へ」。つづりも -cede / -ceed とちがう。 |
+| Lv.9 | **emigrate** /ˈemɪɡreɪt/ （他国へ）移住する<br>**immigrate** /ˈɪmɪɡreɪt/ （他国から）移住してくる | emigrate は e-（外へ）で「国外へ移住する」、immigrate は im-（中へ）で「国内へ移住してくる」。 |
+| Lv.10 | **eminent** /ˈemɪnənt/ 著名な<br>**imminent** /ˈɪmɪnənt/ 差し迫った | eminent（著名な、すぐれた）と imminent（差し迫った）。imminent は im-（上に）+「突き出る」で、今にも起こりそうなこと。 |
+| Lv.10 | **persecute** /ˈpɜːrsɪkjuːt/ 迫害する<br>**prosecute** /ˈprɑːsɪkjuːt/ 起訴する | persecute（迫害する）と prosecute（起訴する）。per- と pro- の1字ちがいで意味が大きく変わる。 |
+
+### 🧬 形が似た派生語
+
+| レベル | 単語 | ここがちがう |
+|---|---|---|
+| Lv.7 | **childish** /ˈtʃaɪldɪʃ/ 幼稚な<br>**childlike** /ˈtʃaɪldlaɪk/ 子どものように純真な | childish（子どもっぽい、幼稚な）は悪い意味、childlike（子どものように純真な）はよい意味。 |
+| Lv.7 | **sensible** /ˈsensəbəl/ 分別のある、賢明な<br>**sensitive** /ˈsensətɪv/ 敏感な、傷つきやすい | sensible（分別のある、賢明な）と sensitive（敏感な、傷つきやすい）。 |
+| Lv.8 | **economic** /ˌiːkəˈnɑːmɪk/ 経済の<br>**economical** /ˌiːkəˈnɑːmɪkəl/ 節約になる、経済的な | economic（経済の）と economical（節約になる、安上がりな）。 |
+| Lv.8 | **historic** /hɪˈstɔːrɪk/ 歴史的に重要な<br>**historical** /hɪˈstɔːrɪkəl/ 歴史の、歴史上の | historic（歴史的に重要な）と historical（歴史に関する、歴史上の）。 |
+| Lv.8 | **imaginary** /ɪˈmædʒəneri/ 想像上の<br>**imaginative** /ɪˈmædʒənətɪv/ 想像力豊かな | imaginary（想像上の）と imaginative（想像力豊かな）。imaginable（想像できる）もある。 |
+| Lv.8 | **successful** /səkˈsesfəl/ 成功した<br>**successive** /səkˈsesɪv/ 連続する | successful（成功した）と successive（連続する）。succeed には「成功する」と「あとを継ぐ」の2つの意味がある。 |
+| Lv.8 | **considerable** /kənˈsɪdərəbəl/ かなりの<br>**considerate** /kənˈsɪdərət/ 思いやりのある | considerable（かなりの）と considerate（思いやりのある）。 |
+| Lv.8 | **conscious** /ˈkɑːnʃəs/ 意識している<br>**conscience** /ˈkɑːnʃəns/ 良心 | conscious（意識している）と conscience（良心）。どちらもラテン語 scīre「知る」から。 |
+| Lv.8 | **valuable** /ˈvæljuəbəl/ 貴重な、高価な<br>**invaluable** /ɪnˈvæljuəbəl/ 計り知れないほど貴重な | invaluable は「価値がない」ではなく「値段がつけられないほど貴重な」。in- が「否定」に見えるわなに注意。価値がないは valueless / worthless。 |
+| Lv.9 | **industrial** /ɪnˈdʌstriəl/ 産業の、工業の<br>**industrious** /ɪnˈdʌstriəs/ 勤勉な | industrial（産業の）と industrious（勤勉な）。 |
+| Lv.9 | **respectable** /rɪˈspektəbəl/ ちゃんとした、立派な<br>**respectful** /rɪˈspektfəl/ 礼儀正しい、敬意を示す<br>**respective** /rɪˈspektɪv/ それぞれの | respectable（まともな、ちゃんとした）、respectful（礼儀正しい、敬意を示す）、respective（それぞれの）。英検準1級・1級の定番。 |
+| Lv.9 | **alternate** /ˈɔːltərnət/ 交互の、1つおきの<br>**alternative** /ɔːlˈtɜːrnətɪv/ 代わりの（手段） | alternate（交互の、1つおきの）と alternative（代わりの、別の選択肢）。 |
+| Lv.10 | **comprehensive** /ˌkɑːmprɪˈhensɪv/ 包括的な、総合的な<br>**comprehensible** /ˌkɑːmprɪˈhensəbəl/ 理解できる | comprehensive（包括的な、総合的な）と comprehensible（理解できる）。 |
 
 ## 語根ファミリー一覧
 

@@ -77,6 +77,26 @@
 
 ---
 
+## 3.5 似た単語セット
+
+母音が1つちがうだけの語（hat / hut）、カタカナにすると同じになる語（light / right、best / vest）、英検によく出るつづりの似た語（desert / dessert、adapt / adopt、affect / effect）を、2〜3語のセットで覚える。データは `data/pairs.json`。
+
+| 種類 | 例 | 練習 |
+|---|---|---|
+| 🗣️ 母音のちがい | hat / hut、ship / sheep、walk / work | 空所補充＋聞き取り |
+| 👅 L と R | light / right、rice / lice、collect / correct | 空所補充＋聞き取り |
+| 👄 B と V | best / vest、boat / vote | 空所補充＋聞き取り |
+| 😛 TH の音 | sink / think、mouse / mouth | 空所補充＋聞き取り |
+| 👂 同じ音・別の語 | hear / here、weather / whether | 空所補充 |
+| ✍️ つづりが似ている | desert / dessert、principal / principle | 空所補充 |
+| 🧬 形が似た派生語 | sensible / sensitive、economic / economical | 空所補充 |
+
+- 各セットには、レベル（Lv.1〜10）、ちがいの説明（`point`）、各語の発音記号・品詞・意味・例文を持たせる。例文にはその語そのもの（活用しない形）を入れ、ほかの語は入れない（空所補充にそのまま使うため。`build_wordlist.py` で検証）。
+- 「似た語」タブ：種類で絞りこみ、🔈で聞きくらべ、セットごとの練習、まとめて練習（復習期限 → 未練習（やさしい順）→ 苦手の順に8問）。
+- **空所補充**：例文の空所に入る語を選ぶ。**聞き取り**：読み上げられた語を選ぶ（音のちがいのセットのみ）。
+- 習熟度は単語と同じ間隔反復（キーは `pair:セットID`）。
+- 単語帳の詳細画面から、その語を含むセットを開ける。通常のレッスンでも、セットに入っている語は習熟度2以上で「👯 似た単語」の問題が出る。
+
 ## 4. 問題
 
 ### 4.1 問題タイプ
