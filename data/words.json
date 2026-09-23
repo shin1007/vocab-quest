@@ -21467,5 +21467,725 @@
       { "word": "musical", "meaning": "ミュージカル", "nuance": "歌と踊りの劇。", "etymology": "music + -al" },
       { "word": "play", "meaning": "劇", "nuance": "舞台の芝居。", "etymology": "古英語 plega" }
     ]
+  },
+  {
+    "id": "entropy", "word": "entropy", "katakana": "エントロピー", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "エントロピー、無秩序さの度合い",
+    "scene": "熱力学、エントロピーの増大。",
+    "example": { "en": "Entropy always increases in a closed system.", "ja": "閉じた系ではエントロピーは常に増大する。" },
+    "etymology": {
+      "origin": "ドイツ語 Entropie（1865年、物理学者クラウジウスの造語）← ギリシャ語 en-「中に」+ tropē「変化、向き」",
+      "story": "energy に似せて作られた語。「散らかっていく度合い」として比喩的にも使われる。trophy、tropic と同じ tropē の家族。"
+    },
+    "roots": [],
+    "family": ["trophy（トロフィー）"],
+    "synonyms": [
+      { "word": "disorder", "meaning": "無秩序", "nuance": "乱れ。", "etymology": "dis- + order" },
+      { "word": "chaos", "meaning": "混沌", "nuance": "大混乱。", "etymology": "ギリシャ語 khaos" }
+    ]
+  },
+  {
+    "id": "ennui", "word": "ennui", "katakana": "アンニュイ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "倦怠、もの憂さ",
+    "scene": "「アンニュイな表情」、けだるさ。",
+    "example": { "en": "She sighed with ennui on the rainy afternoon.", "ja": "雨の午後、彼女はもの憂げにため息をついた。" },
+    "etymology": {
+      "origin": "フランス語 ennui「退屈、悩み」← ラテン語 in odiō「憎しみの中に」",
+      "story": "「嫌になる気持ち」→ 退屈、けだるさ。annoy（いらだたせる）は同じラテン語から来た兄弟語。"
+    },
+    "roots": [],
+    "family": ["annoy（いらだたせる）"],
+    "synonyms": [
+      { "word": "boredom", "meaning": "退屈", "nuance": "つまらない気持ち。", "etymology": "bore + -dom" },
+      { "word": "melancholy", "meaning": "憂うつ", "nuance": "もの悲しさ。", "etymology": "ギリシャ語 melankholia" }
+    ]
+  },
+  {
+    "id": "decadence", "word": "decadence", "katakana": "デカダンス", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "退廃、堕落",
+    "scene": "世紀末のデカダンス、退廃的な美。",
+    "example": { "en": "The novel describes the decadence of the rich.", "ja": "その小説は金持ちの退廃ぶりを描いている。" },
+    "etymology": {
+      "origin": "中世ラテン語 dēcadentia ← dē-「下へ」+ cadere「落ちる」",
+      "story": "「落ちていくこと」→ 衰退、退廃。decay（腐る）、accident、case と同じ cadere の家族。"
+    },
+    "roots": [],
+    "family": ["decay（腐る）、accident（事故）"],
+    "synonyms": [
+      { "word": "decline", "meaning": "衰退", "nuance": "下り坂。", "etymology": "ラテン語 dēclīnāre" },
+      { "word": "corruption", "meaning": "堕落、腐敗", "nuance": "道徳がくずれること。", "etymology": "ラテン語 corrumpere" }
+    ]
+  },
+  {
+    "id": "dandy", "word": "dandy", "katakana": "ダンディ", "pos": "名詞・形容詞", "cefr": "C2", "level": 8,
+    "meaning": "おしゃれな男性、すてきな",
+    "scene": "「ダンディなおじさま」。",
+    "example": { "en": "He dressed like a Victorian dandy.", "ja": "彼はヴィクトリア朝のしゃれ男のような格好をしていた。" },
+    "etymology": {
+      "origin": "18世紀スコットランドの語（Andrew の愛称 Dandy とする説など）",
+      "story": "服装に強くこだわる男性。日本語の「ダンディ」は「渋くてかっこいい大人の男性」の意味で使われがちだが、英語ではやや古風で「身なりにこだわりすぎる男」の含みもある。"
+    },
+    "roots": [],
+    "family": ["dandyish（しゃれ男風の）"],
+    "synonyms": [
+      { "word": "gentleman", "meaning": "紳士", "nuance": "礼儀正しい男性。", "etymology": "gentle + man" },
+      { "word": "fashionable", "meaning": "おしゃれな", "nuance": "流行に合った。", "etymology": "fashion + -able" }
+    ]
+  },
+  {
+    "id": "bohemian", "word": "bohemian", "katakana": "ボヘミアン", "pos": "形容詞・名詞", "cefr": "C2", "level": 10,
+    "meaning": "自由奔放な（人）",
+    "scene": "ボヘミアンスタイル、「ボヘミアン・ラプソディ」。",
+    "example": { "en": "The artist lived a bohemian life in Paris.", "ja": "その芸術家はパリで自由奔放な暮らしをしていた。" },
+    "etymology": {
+      "origin": "フランス語 bohémien「ボヘミア（チェコ西部）の人、ロマの人」",
+      "story": "ロマの人々がボヘミアから来たと思われていたことから、定住せず自由に暮らす芸術家を指すようになった。"
+    },
+    "roots": [],
+    "family": ["Bohemia（ボヘミア地方）"],
+    "synonyms": [
+      { "word": "free-spirited", "meaning": "自由な精神の", "nuance": "型にはまらない。", "etymology": "free + spirit" },
+      { "word": "unconventional", "meaning": "型破りな", "nuance": "慣習に従わない。", "etymology": "un- + conventional" }
+    ]
+  },
+  {
+    "id": "genocide", "word": "genocide", "katakana": "ジェノサイド", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "大量虐殺",
+    "scene": "民族虐殺、ホロコースト。",
+    "example": { "en": "The United Nations condemned the genocide.", "ja": "国連はその大量虐殺を非難した。" },
+    "etymology": {
+      "origin": "ギリシャ語 genos「種族」+ ラテン語 -cīdium「殺すこと」（1944年、法学者レムキンの造語）",
+      "story": "ナチスによる虐殺を受けて作られた語。suicide（自殺）、insecticide（殺虫剤）の -cide も「殺す」。gene、genre と同じ genos の家族。"
+    },
+    "roots": [],
+    "family": ["suicide（自殺）"],
+    "synonyms": [
+      { "word": "massacre", "meaning": "虐殺", "nuance": "多くの人を殺すこと。", "etymology": "古フランス語 macecre「肉屋」" },
+      { "word": "atrocity", "meaning": "残虐行為", "nuance": "ひどい行い。", "etymology": "ラテン語 atrōx「残酷な」" }
+    ]
+  },
+  {
+    "id": "coup", "word": "coup", "katakana": "クーデター", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "クーデター、大成功",
+    "scene": "軍事クーデター、政変。",
+    "example": { "en": "The government was overthrown in a military coup.", "ja": "政府は軍事クーデターで倒された。" },
+    "etymology": {
+      "origin": "フランス語 coup d'état「国家への一撃」← coup「一撃」",
+      "story": "英語では coup だけで「クーデター」を指すことが多い。「大当たり、見事な成功」の意味もある。発音は「クー」。"
+    },
+    "roots": [],
+    "family": ["coupon（クーポン・同じ couper「切る」の系統）"],
+    "synonyms": [
+      { "word": "overthrow", "meaning": "転覆", "nuance": "政府を倒すこと。", "etymology": "over + throw" },
+      { "word": "revolution", "meaning": "革命", "nuance": "体制を変えること。", "etymology": "ラテン語 revolvere" }
+    ]
+  },
+  {
+    "id": "regime", "word": "regime", "katakana": "レジーム", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "政権、体制、療法",
+    "scene": "軍事政権、アンシャン・レジーム（旧体制）。",
+    "example": { "en": "The regime controlled the media.", "ja": "その政権はメディアを統制していた。" },
+    "etymology": {
+      "origin": "フランス語 régime「統治、規則」← ラテン語 regimen「指導」← regere「治める」",
+      "story": "「治め方」→ 政治体制。英語では「強権的な政権」の含みが出やすい。regular、region と同じ regere の家族。"
+    },
+    "roots": [],
+    "family": ["region（地域）、regulate（規制する）"],
+    "synonyms": [
+      { "word": "government", "meaning": "政府", "nuance": "国を治める機関。", "etymology": "ラテン語 gubernāre" },
+      { "word": "administration", "meaning": "政権", "nuance": "行政。", "etymology": "ラテン語 administrāre" }
+    ]
+  },
+  {
+    "id": "orthodox", "word": "orthodox", "katakana": "オーソドックス", "pos": "形容詞", "cefr": "C2", "level": 10,
+    "meaning": "正統な、伝統的な",
+    "scene": "「オーソドックスなやり方」、東方正教会。",
+    "example": { "en": "He used an orthodox method to solve the problem.", "ja": "彼はその問題を正統的な方法で解いた。" },
+    "etymology": {
+      "origin": "ギリシャ語 orthodoxos「正しい意見の」← orthos「正しい」+ doxa「意見」",
+      "story": "paradox（常識に反する）と同じ doxa の家族。orthodontist（歯列矯正医＝歯をまっすぐにする人）の ortho- も「正しい、まっすぐな」。"
+    },
+    "roots": [],
+    "family": ["paradox（逆説）、orthodontist（矯正歯科医）"],
+    "synonyms": [
+      { "word": "traditional", "meaning": "伝統的な", "nuance": "昔からの。", "etymology": "ラテン語 trāditiō" },
+      { "word": "conventional", "meaning": "型どおりの", "nuance": "ありきたりの。", "etymology": "ラテン語 convenīre" }
+    ]
+  },
+  {
+    "id": "karma", "word": "karma", "katakana": "カルマ", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "業、因果応報",
+    "scene": "「カルマだね」、因果応報。",
+    "example": { "en": "He believes in karma.", "ja": "彼は因果応報を信じている。" },
+    "etymology": {
+      "origin": "サンスクリット語 karma「行い」",
+      "story": "インドの宗教で、行いの結果が自分に返ってくるという考え。英語の口語では「自業自得」の意味で気軽に使う。"
+    },
+    "roots": [],
+    "family": ["karmic（業の）"],
+    "synonyms": [
+      { "word": "fate", "meaning": "運命", "nuance": "決まっている定め。", "etymology": "ラテン語 fātum" },
+      { "word": "destiny", "meaning": "宿命", "nuance": "運命。", "etymology": "古フランス語 destinee" }
+    ]
+  },
+  {
+    "id": "mantra", "word": "mantra", "katakana": "マントラ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "真言、座右の言葉",
+    "scene": "瞑想のマントラ、口ぐせのモットー。",
+    "example": { "en": "\"Never give up\" is my mantra.", "ja": "「決してあきらめない」が私の信条だ。" },
+    "etymology": {
+      "origin": "サンスクリット語 mantra「思考の道具、呪文」← man-「考える」",
+      "story": "瞑想で唱えるくり返しの言葉。英語では「くり返し唱える信条・合言葉」の意味でも使う。mind（心）と遠い親戚の語根。"
+    },
+    "roots": [],
+    "family": ["mind（心・同じ印欧語根）"],
+    "synonyms": [
+      { "word": "motto", "meaning": "モットー", "nuance": "座右の銘。", "etymology": "イタリア語 motto" },
+      { "word": "chant", "meaning": "詠唱", "nuance": "くり返し唱えること。", "etymology": "ラテン語 cantāre" }
+    ]
+  },
+  {
+    "id": "nirvana", "word": "nirvana", "katakana": "ニルヴァーナ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "涅槃、至福の境地",
+    "scene": "仏教の涅槃、至福。",
+    "example": { "en": "For many surfers, the perfect wave is pure nirvana.", "ja": "多くのサーファーにとって完璧な波は至福そのものだ。" },
+    "etymology": {
+      "origin": "サンスクリット語 nirvāṇa「吹き消すこと」",
+      "story": "煩悩の火が「吹き消された」静かな境地。英語では「最高の幸せ」の比喩にも。"
+    },
+    "roots": [],
+    "family": ["nirvanic（涅槃の）"],
+    "synonyms": [
+      { "word": "bliss", "meaning": "至福", "nuance": "この上ない幸せ。", "etymology": "古英語 bliss" },
+      { "word": "paradise", "meaning": "楽園", "nuance": "天国のような所。", "etymology": "ペルシャ語 pairidaēza" }
+    ]
+  },
+  {
+    "id": "guru", "word": "guru", "katakana": "グル", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "導師、達人",
+    "scene": "ITのカリスマ、ファッションの教祖。",
+    "example": { "en": "He's a fitness guru with millions of followers.", "ja": "彼は何百万人ものフォロワーを持つフィットネスの第一人者だ。" },
+    "etymology": {
+      "origin": "サンスクリット語 guru「重い、尊い（師）」",
+      "story": "「重みのある人」→ 宗教の師。英語ではある分野の「専門家・カリスマ」の意味でもよく使う。"
+    },
+    "roots": [],
+    "family": ["guruship（導師の地位）"],
+    "synonyms": [
+      { "word": "expert", "meaning": "専門家", "nuance": "くわしい人。", "etymology": "ラテン語 expertus" },
+      { "word": "mentor", "meaning": "助言者", "nuance": "導いてくれる人。", "etymology": "ギリシャ神話の Mentor" }
+    ]
+  },
+  {
+    "id": "shaman", "word": "shaman", "katakana": "シャーマン", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "巫術師、シャーマン",
+    "scene": "シャーマニズム、霊能者。",
+    "example": { "en": "The shaman performed a healing ceremony.", "ja": "シャーマンが癒やしの儀式を行った。" },
+    "etymology": {
+      "origin": "エヴェンキ語（シベリア）šaman ← ロシア語経由",
+      "story": "シベリアの民族の、神霊と交信する人の呼び名。17世紀にロシア語を通じてヨーロッパに伝わった。"
+    },
+    "roots": [],
+    "family": ["shamanism（シャーマニズム）"],
+    "synonyms": [
+      { "word": "medicine man", "meaning": "呪術医", "nuance": "先住民の癒やし手。", "etymology": "medicine + man" },
+      { "word": "priest", "meaning": "聖職者", "nuance": "宗教の儀式を行う人。", "etymology": "ギリシャ語 presbyteros「長老」" }
+    ]
+  },
+  {
+    "id": "nemesis", "word": "nemesis", "katakana": "ネメシス", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "宿敵、天罰",
+    "scene": "宿命のライバル、復讐の女神。",
+    "example": { "en": "The detective finally caught his old nemesis.", "ja": "探偵はついに長年の宿敵を捕らえた。" },
+    "etymology": {
+      "origin": "ギリシャ語 Nemesis「義憤、天罰の女神」← nemein「分け与える」",
+      "story": "おごった者に当然の「罰を分け与える」女神。英語では「倒せない宿敵」の意味で使う。"
+    },
+    "roots": [],
+    "family": ["nemeses（nemesis の複数形）"],
+    "synonyms": [
+      { "word": "rival", "meaning": "ライバル", "nuance": "競争相手。", "etymology": "ラテン語 rīvālis" },
+      { "word": "enemy", "meaning": "敵", "nuance": "対立する相手。", "etymology": "ラテン語 inimīcus" }
+    ]
+  },
+  {
+    "id": "odyssey", "word": "odyssey", "katakana": "オデッセイ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "長い冒険の旅",
+    "scene": "『2001年宇宙の旅（A Space Odyssey）』。",
+    "example": { "en": "His trip across Africa was a real odyssey.", "ja": "彼のアフリカ横断旅行はまさに長い冒険だった。" },
+    "etymology": {
+      "origin": "ギリシャ語 Odysseia『オデュッセイア』← 英雄オデュッセウス",
+      "story": "トロイ戦争後、英雄オデュッセウスが10年かけて故郷へ帰る叙事詩から。"
+    },
+    "roots": [],
+    "family": ["Odysseus（オデュッセウス）"],
+    "synonyms": [
+      { "word": "journey", "meaning": "旅", "nuance": "長い道のり。", "etymology": "古フランス語 jornee" },
+      { "word": "quest", "meaning": "探求の旅", "nuance": "何かを求める旅。", "etymology": "ラテン語 quaerere" }
+    ]
+  },
+  {
+    "id": "chimera", "word": "chimera", "katakana": "キメラ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "怪物キメラ、空想、異種混成体",
+    "scene": "ゲームのモンスター、キメラ細胞。",
+    "example": { "en": "The idea of a perfect society is a chimera.", "ja": "完璧な社会という考えは空想にすぎない。" },
+    "etymology": {
+      "origin": "ギリシャ語 khimaira「雌ヤギ（火をはく怪物）」",
+      "story": "ライオンの頭、ヤギの胴、ヘビの尾をもつ怪物。そこから「ありえない空想」「異なる遺伝子の混ざった生物」に。"
+    },
+    "roots": [],
+    "family": ["chimerical（空想的な）"],
+    "synonyms": [
+      { "word": "monster", "meaning": "怪物", "nuance": "おそろしい生き物。", "etymology": "ラテン語 mōnstrum" },
+      { "word": "fantasy", "meaning": "空想", "nuance": "現実でないこと。", "etymology": "ギリシャ語 phantasia" }
+    ]
+  },
+  {
+    "id": "doppelganger", "word": "doppelganger", "katakana": "ドッペルゲンガー", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "生き写し、分身",
+    "scene": "ドッペルゲンガー、そっくりさん。",
+    "example": { "en": "I met my doppelganger on the train!", "ja": "電車で自分にそっくりな人に会った！" },
+    "etymology": {
+      "origin": "ドイツ語 Doppelgänger「二重に歩く者」← doppel「二重の」+ Gänger「歩く人」",
+      "story": "自分とうり二つの分身（見ると不吉とされた）。英語では「そっくりさん」の意味で軽く使う。double と同じ語根。"
+    },
+    "roots": [],
+    "family": ["double（二重の）"],
+    "synonyms": [
+      { "word": "double", "meaning": "そっくりさん", "nuance": "瓜二つの人。", "etymology": "ラテン語 duplus" },
+      { "word": "lookalike", "meaning": "そっくりな人", "nuance": "よく似た人。", "etymology": "look + alike" }
+    ]
+  },
+  {
+    "id": "poltergeist", "word": "poltergeist", "katakana": "ポルターガイスト", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "騒がしい幽霊（現象）",
+    "scene": "ポルターガイスト現象、心霊現象。",
+    "example": { "en": "They said a poltergeist was moving the furniture.", "ja": "家具を動かしているのはポルターガイストだと言われた。" },
+    "etymology": {
+      "origin": "ドイツ語 Poltergeist ← poltern「ガタガタ音を立てる」+ Geist「霊」",
+      "story": "物を動かしたり音を立てたりする霊。Geist は英語の ghost と同じ語根。"
+    },
+    "roots": [],
+    "family": ["ghost（幽霊）"],
+    "synonyms": [
+      { "word": "ghost", "meaning": "幽霊", "nuance": "死者の霊。", "etymology": "古英語 gāst" },
+      { "word": "spirit", "meaning": "霊", "nuance": "魂。", "etymology": "ラテン語 spīritus" }
+    ]
+  },
+  {
+    "id": "gestalt", "word": "gestalt", "katakana": "ゲシュタルト", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "形態、全体像",
+    "scene": "ゲシュタルト心理学、ゲシュタルト崩壊。",
+    "example": { "en": "The painting creates a gestalt greater than its parts.", "ja": "その絵は部分の総和を超える全体像を生み出している。" },
+    "etymology": {
+      "origin": "ドイツ語 Gestalt「形、姿」",
+      "story": "「全体は部分の寄せ集め以上のもの」と考える心理学の用語。「ゲシュタルト崩壊」（字をじっと見ているとまとまりが崩れる現象）は日本で広まった言い方。"
+    },
+    "roots": [],
+    "family": ["gestaltism（ゲシュタルト心理学）"],
+    "synonyms": [
+      { "word": "whole", "meaning": "全体", "nuance": "まとまり。", "etymology": "古英語 hāl" },
+      { "word": "pattern", "meaning": "型、形", "nuance": "まとまった形。", "etymology": "patron の変形" }
+    ]
+  },
+  {
+    "id": "kitsch", "word": "kitsch", "katakana": "キッチュ", "pos": "名詞・形容詞", "cefr": "C2", "level": 10,
+    "meaning": "俗っぽい（もの）、けばけばしい",
+    "scene": "キッチュな雑貨、B級感。",
+    "example": { "en": "The shop sells cute but kitschy souvenirs.", "ja": "その店はかわいいけど安っぽいおみやげを売っている。" },
+    "etymology": {
+      "origin": "ドイツ語 Kitsch「安物の芸術品」（19世紀ミュンヘンの画商の言葉）",
+      "story": "大衆向けの安っぽい絵画を指した語。今は「わざと安っぽくて楽しい」という肯定的な意味でも使う。"
+    },
+    "roots": [],
+    "family": ["kitschy（キッチュな）"],
+    "synonyms": [
+      { "word": "tacky", "meaning": "安っぽい", "nuance": "品がない。", "etymology": "19世紀米語「劣った馬」" },
+      { "word": "gaudy", "meaning": "けばけばしい", "nuance": "派手すぎる。", "etymology": "ラテン語 gaudium「喜び」" }
+    ]
+  },
+  {
+    "id": "leitmotif", "word": "leitmotif", "katakana": "ライトモチーフ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "主導動機、くり返される主題",
+    "scene": "ワーグナーのライトモチーフ、作品を貫くテーマ。",
+    "example": { "en": "Loneliness is a leitmotif in her novels.", "ja": "孤独は彼女の小説にくり返し現れる主題だ。" },
+    "etymology": {
+      "origin": "ドイツ語 Leitmotiv「導く動機」← leiten「導く」+ Motiv",
+      "story": "ワーグナーのオペラで、人物や考えを表すくり返しの旋律。lead（導く）と同じ語根、motif と同じ語。"
+    },
+    "roots": ["mov"],
+    "family": ["motif（モチーフ）"],
+    "synonyms": [
+      { "word": "theme", "meaning": "主題", "nuance": "テーマ。", "etymology": "ギリシャ語 thema" },
+      { "word": "refrain", "meaning": "くり返し", "nuance": "何度も出てくる部分。", "etymology": "フランス語 refraindre" }
+    ]
+  },
+  {
+    "id": "crescendo", "word": "crescendo", "katakana": "クレッシェンド", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "だんだん強く、最高潮",
+    "scene": "音楽記号「<」、盛り上がり。",
+    "example": { "en": "The music rose to a crescendo.", "ja": "音楽は最高潮に達した。" },
+    "etymology": {
+      "origin": "イタリア語 crescendo「増えていく」← ラテン語 crēscere「育つ、増える」",
+      "story": "crescent（三日月＝満ちていく月）、increase、crew と同じ家族。反対は decrescendo / diminuendo。"
+    },
+    "roots": [],
+    "family": ["increase（増える）、crescent（三日月）"],
+    "synonyms": [
+      { "word": "climax", "meaning": "最高潮", "nuance": "山場。", "etymology": "ギリシャ語 klimax" },
+      { "word": "buildup", "meaning": "盛り上がり", "nuance": "だんだん高まること。", "etymology": "build + up" }
+    ]
+  },
+  {
+    "id": "sonata", "word": "sonata", "katakana": "ソナタ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "奏鳴曲、ソナタ",
+    "scene": "ピアノソナタ、『月光ソナタ』。",
+    "example": { "en": "She played a Beethoven sonata.", "ja": "彼女はベートーヴェンのソナタを弾いた。" },
+    "etymology": {
+      "origin": "イタリア語 sonata「鳴らされたもの」← sonāre「鳴る」",
+      "story": "歌われる cantata（カンタータ）に対して、楽器で「鳴らされる」曲。sound、sonic と同じ sonāre の家族。"
+    },
+    "roots": [],
+    "family": ["sound（音）、sonic（音の）"],
+    "synonyms": [
+      { "word": "concerto", "meaning": "協奏曲", "nuance": "独奏と楽団の曲。", "etymology": "イタリア語 concerto" },
+      { "word": "composition", "meaning": "楽曲", "nuance": "作られた曲。", "etymology": "ラテン語 compōnere" }
+    ]
+  },
+  {
+    "id": "concerto", "word": "concerto", "katakana": "コンチェルト", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "協奏曲",
+    "scene": "ピアノ協奏曲、ヴァイオリン協奏曲。",
+    "example": { "en": "She performed a piano concerto with the orchestra.", "ja": "彼女はオーケストラとピアノ協奏曲を演奏した。" },
+    "etymology": {
+      "origin": "イタリア語 concerto「協力、合奏」← concertare「力を合わせる」",
+      "story": "独奏楽器とオーケストラが「力を合わせる」曲。concert（演奏会）と同じ語。"
+    },
+    "roots": [],
+    "family": ["concert（コンサート）"],
+    "synonyms": [
+      { "word": "sonata", "meaning": "ソナタ", "nuance": "独奏の器楽曲。", "etymology": "イタリア語 sonata" },
+      { "word": "symphony", "meaning": "交響曲", "nuance": "管弦楽のための曲。", "etymology": "ギリシャ語 symphōnia" }
+    ]
+  },
+  {
+    "id": "rhapsody", "word": "rhapsody", "katakana": "ラプソディ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "狂詩曲、熱狂的な言葉",
+    "scene": "『ボヘミアン・ラプソディ』、『ラプソディ・イン・ブルー』。",
+    "example": { "en": "The critics went into rhapsodies about the film.", "ja": "批評家たちはその映画を熱狂的にほめたたえた。" },
+    "etymology": {
+      "origin": "ギリシャ語 rhapsōidia「叙事詩の朗唱」← rhaptein「縫い合わせる」+ ōidē「歌」",
+      "story": "吟遊詩人が詩の断片を「縫い合わせて」歌ったことから。自由な形式の楽曲、熱のこもった言葉にも。"
+    },
+    "roots": [],
+    "family": ["rhapsodic（熱狂的な）"],
+    "synonyms": [
+      { "word": "fantasia", "meaning": "幻想曲", "nuance": "自由な形式の曲。", "etymology": "イタリア語 fantasia" },
+      { "word": "praise", "meaning": "称賛", "nuance": "ほめること。", "etymology": "ラテン語 pretium" }
+    ]
+  },
+  {
+    "id": "serenade", "word": "serenade", "katakana": "セレナーデ", "pos": "名詞・動詞", "cefr": "C2", "level": 10,
+    "meaning": "小夜曲、恋人に歌う（曲）",
+    "scene": "モーツァルトのセレナーデ、窓の下で歌う。",
+    "example": { "en": "He serenaded her under the window.", "ja": "彼は窓の下で彼女に愛の歌を歌った。" },
+    "etymology": {
+      "origin": "イタリア語 serenata「晴れた夜空の下での（歌）」← sereno「晴れた、澄んだ」",
+      "story": "serene（穏やかな、晴れた）と同じ語。恋人の家の窓の下で夜に歌う歌。"
+    },
+    "roots": [],
+    "family": ["serene（穏やかな）"],
+    "synonyms": [
+      { "word": "love song", "meaning": "恋の歌", "nuance": "愛の歌。", "etymology": "love + song" },
+      { "word": "ballad", "meaning": "バラード", "nuance": "ゆったりした歌。", "etymology": "古フランス語 balade「踊りの歌」" }
+    ]
+  },
+  {
+    "id": "nocturne", "word": "nocturne", "katakana": "ノクターン", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "夜想曲",
+    "scene": "ショパンのノクターン、夜の情景画。",
+    "example": { "en": "Chopin wrote 21 nocturnes.", "ja": "ショパンは21曲のノクターンを書いた。" },
+    "etymology": {
+      "origin": "フランス語 nocturne「夜の」← ラテン語 nocturnus ← nox「夜」",
+      "story": "夜の静かな雰囲気の曲。nocturnal（夜行性の）も同じ語。"
+    },
+    "roots": [],
+    "family": ["nocturnal（夜行性の）"],
+    "synonyms": [
+      { "word": "lullaby", "meaning": "子守歌", "nuance": "寝かしつける歌。", "etymology": "lull「あやす」+ bye" },
+      { "word": "serenade", "meaning": "セレナーデ", "nuance": "夜の恋の歌。", "etymology": "イタリア語 serenata" }
+    ]
+  },
+  {
+    "id": "etude", "word": "etude", "katakana": "エチュード", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "練習曲、習作",
+    "scene": "ショパンのエチュード、演劇のエチュード（即興練習）。",
+    "example": { "en": "The piano student practiced an etude every day.", "ja": "そのピアノの生徒は毎日練習曲を弾いた。" },
+    "etymology": {
+      "origin": "フランス語 étude「勉強、習作」← ラテン語 studium「熱心さ」",
+      "story": "study（勉強）、student と同じ語。"
+    },
+    "roots": [],
+    "family": ["study（勉強）、studio（スタジオ）"],
+    "synonyms": [
+      { "word": "exercise", "meaning": "練習", "nuance": "訓練用の課題。", "etymology": "ラテン語 exercēre" },
+      { "word": "study", "meaning": "習作", "nuance": "練習のための作品。", "etymology": "ラテン語 studium" }
+    ]
+  },
+  {
+    "id": "pastiche", "word": "pastiche", "katakana": "パスティーシュ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "模倣作品、寄せ集め",
+    "scene": "名作のパスティーシュ、作風の模倣。",
+    "example": { "en": "The novel is a pastiche of 19th-century mysteries.", "ja": "その小説は19世紀の推理小説を模した作品だ。" },
+    "etymology": {
+      "origin": "フランス語 pastiche ← イタリア語 pasticcio「ごった煮のパイ」",
+      "story": "いろいろな具を詰めたパイ → 作風の寄せ集め、模倣。paste、pasta と同じ語根。parody と違ってからかう意図はないことが多い。"
+    },
+    "roots": [],
+    "family": ["pasta（パスタ）、paste（ペースト）"],
+    "synonyms": [
+      { "word": "imitation", "meaning": "模倣", "nuance": "まね。", "etymology": "ラテン語 imitārī" },
+      { "word": "homage", "meaning": "オマージュ", "nuance": "敬意をこめた作品。", "etymology": "古フランス語 homage" }
+    ]
+  },
+  {
+    "id": "collage", "word": "collage", "katakana": "コラージュ", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "貼り絵、コラージュ",
+    "scene": "写真のコラージュ、切り貼りアート。",
+    "example": { "en": "She made a collage of her travel photos.", "ja": "彼女は旅行写真のコラージュを作った。" },
+    "etymology": {
+      "origin": "フランス語 collage「貼ること」← coller「のりで貼る」← colle「のり」",
+      "story": "ギリシャ語 kolla（のり）から。20世紀初めにピカソらが使った技法。protocol（最初に貼った紙）も kolla の家族。"
+    },
+    "roots": [],
+    "family": ["protocol（手順）"],
+    "synonyms": [
+      { "word": "montage", "meaning": "モンタージュ", "nuance": "映像のつなぎ合わせ。", "etymology": "フランス語 monter" },
+      { "word": "mosaic", "meaning": "モザイク", "nuance": "小片を並べた作品。", "etymology": "中世ラテン語 mūsāicum" }
+    ]
+  },
+  {
+    "id": "montage", "word": "montage", "katakana": "モンタージュ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "合成写真、映像の編集",
+    "scene": "モンタージュ写真、映画のモンタージュ。",
+    "example": { "en": "The film opens with a montage of city scenes.", "ja": "その映画は街の風景をつなぎ合わせた映像で始まる。" },
+    "etymology": {
+      "origin": "フランス語 montage「組み立て」← monter「上げる、組み立てる」",
+      "story": "mount（上がる、据えつける）と同じ語。映像を「組み立てる」編集技法。"
+    },
+    "roots": [],
+    "family": ["mount（据えつける）"],
+    "synonyms": [
+      { "word": "editing", "meaning": "編集", "nuance": "組み立て直すこと。", "etymology": "edit + -ing" },
+      { "word": "collage", "meaning": "コラージュ", "nuance": "貼り合わせ。", "etymology": "フランス語 coller" }
+    ]
+  },
+  {
+    "id": "fresco", "word": "fresco", "katakana": "フレスコ", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "フレスコ画",
+    "scene": "システィーナ礼拝堂のフレスコ画。",
+    "example": { "en": "The church walls are covered with frescoes.", "ja": "その教会の壁はフレスコ画で覆われている。" },
+    "etymology": {
+      "origin": "イタリア語 affresco「新鮮な（しっくいに描く）」← fresco「新鮮な」",
+      "story": "塗ったばかりの「生乾きの」しっくいに描く技法。fresh（新鮮な）と同じ語根。al fresco は「屋外で」。"
+    },
+    "roots": [],
+    "family": ["fresh（新鮮な）"],
+    "synonyms": [
+      { "word": "mural", "meaning": "壁画", "nuance": "壁に描いた絵。", "etymology": "ラテン語 mūrus「壁」" },
+      { "word": "painting", "meaning": "絵画", "nuance": "絵全般。", "etymology": "ラテン語 pingere" }
+    ]
+  },
+  {
+    "id": "atelier", "word": "atelier", "katakana": "アトリエ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "工房、アトリエ",
+    "scene": "画家のアトリエ、デザイナーの工房。",
+    "example": { "en": "The painter works in a small atelier.", "ja": "その画家は小さなアトリエで制作している。" },
+    "etymology": {
+      "origin": "フランス語 atelier「工房」← 古フランス語 astelier「木くずの山」← astele「木片」",
+      "story": "大工の「木くずの山」→ 作業場 → 芸術家の工房。"
+    },
+    "roots": [],
+    "family": ["atelier artist（工房の作家）"],
+    "synonyms": [
+      { "word": "studio", "meaning": "スタジオ", "nuance": "制作の場。", "etymology": "イタリア語 studio" },
+      { "word": "workshop", "meaning": "作業場", "nuance": "物を作る所。", "etymology": "work + shop" }
+    ]
+  },
+  {
+    "id": "quantum", "word": "quantum", "katakana": "クオンタム", "pos": "名詞・形容詞", "cefr": "C2", "level": 10,
+    "meaning": "量子（の）",
+    "scene": "量子コンピューター、量子力学。",
+    "example": { "en": "Quantum computers could change the world.", "ja": "量子コンピューターは世界を変えるかもしれない。" },
+    "etymology": {
+      "origin": "ラテン語 quantum「どれだけ（の量）」",
+      "story": "物理学で「エネルギーの最小のかたまり」の意味に。quantity（量）、quota と同じ家族。a quantum leap は「飛躍的な進歩」。"
+    },
+    "roots": [],
+    "family": ["quantity（量）、quota（割り当て）"],
+    "synonyms": [
+      { "word": "particle", "meaning": "粒子", "nuance": "小さな粒。", "etymology": "ラテン語 particula" },
+      { "word": "atomic", "meaning": "原子の", "nuance": "原子に関する。", "etymology": "ギリシャ語 atomos" }
+    ]
+  },
+  {
+    "id": "plasma", "word": "plasma", "katakana": "プラズマ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "プラズマ、血漿",
+    "scene": "プラズマテレビ、血液の血漿。",
+    "example": { "en": "Lightning is a form of plasma.", "ja": "雷はプラズマの一種だ。" },
+    "etymology": {
+      "origin": "ギリシャ語 plasma「形作られたもの」← plassein「形作る」",
+      "story": "plastic（形を作れる）と同じ語根。医学では血液の液体成分（血漿）、物理学では電離した気体。"
+    },
+    "roots": [],
+    "family": ["plastic（プラスチック）"],
+    "synonyms": [
+      { "word": "ion", "meaning": "イオン", "nuance": "電気を帯びた粒子。", "etymology": "ギリシャ語 ion" },
+      { "word": "fluid", "meaning": "液体", "nuance": "流れるもの。", "etymology": "ラテン語 fluidus" }
+    ]
+  },
+  {
+    "id": "hormone", "word": "hormone", "katakana": "ホルモン", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "ホルモン",
+    "scene": "成長ホルモン、ホルモンバランス。",
+    "example": { "en": "Stress hormones can affect your sleep.", "ja": "ストレスホルモンは睡眠に影響することがある。" },
+    "etymology": {
+      "origin": "ギリシャ語 hormōn「動かしている」← horman「かき立てる」（1905年）",
+      "story": "体の働きを「かき立てる」物質として名づけられた。焼肉の「ホルモン」は語源が別で、「放るもん（捨てるもの）」とする説は俗説とされる。"
+    },
+    "roots": [],
+    "family": ["hormonal（ホルモンの）"],
+    "synonyms": [
+      { "word": "chemical", "meaning": "化学物質", "nuance": "物質。", "etymology": "ギリシャ語 khēmeia" },
+      { "word": "enzyme", "meaning": "酵素", "nuance": "体内の反応を助けるもの。", "etymology": "ギリシャ語 enzymos「発酵した」" }
+    ]
+  },
+  {
+    "id": "dopamine", "word": "dopamine", "katakana": "ドーパミン", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "ドーパミン",
+    "scene": "「ドーパミンが出る」、快感物質。",
+    "example": { "en": "Exercise releases dopamine in the brain.", "ja": "運動すると脳でドーパミンが出る。" },
+    "etymology": {
+      "origin": "化学名 dihydroxyphenylalanine（DOPA）+ amine から",
+      "story": "化学物質の長い名前を略して作られた語。やる気や快感に関わる脳の物質として知られる。"
+    },
+    "roots": [],
+    "family": ["dopaminergic（ドーパミン作動性の）"],
+    "synonyms": [
+      { "word": "serotonin", "meaning": "セロトニン", "nuance": "気分を安定させる物質。", "etymology": "serum + tonic" },
+      { "word": "endorphin", "meaning": "エンドルフィン", "nuance": "痛みをやわらげる物質。", "etymology": "endogenous + morphine" }
+    ]
+  },
+  {
+    "id": "placebo", "word": "placebo", "katakana": "プラセボ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "偽薬、プラセボ",
+    "scene": "プラセボ効果、偽薬。",
+    "example": { "en": "Some patients got better just from the placebo.", "ja": "プラセボだけで良くなった患者もいた。" },
+    "etymology": {
+      "origin": "ラテン語 placēbō「私は喜ばせるだろう」← placēre「喜ばせる」",
+      "story": "薬効のない薬で患者を「喜ばせる」ことから。please（喜ばせる）と同じ語根。"
+    },
+    "roots": [],
+    "family": ["please（喜ばせる）"],
+    "synonyms": [
+      { "word": "dummy", "meaning": "偽物", "nuance": "見かけだけのもの。", "etymology": "dumb + -y" },
+      { "word": "fake", "meaning": "にせの", "nuance": "本物でない。", "etymology": "18世紀の隠語" }
+    ]
+  },
+  {
+    "id": "syndrome", "word": "syndrome", "katakana": "シンドローム", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "症候群",
+    "scene": "燃え尽き症候群、ピーターパン・シンドローム。",
+    "example": { "en": "He was diagnosed with a rare syndrome.", "ja": "彼はまれな症候群と診断された。" },
+    "etymology": {
+      "origin": "ギリシャ語 syndromē「一緒に走ること」← syn-「共に」+ dramein「走る」",
+      "story": "いくつもの症状が「一緒に現れる」こと。dromedary（ヒトコブラクダ＝よく走る）も同じ語根。"
+    },
+    "roots": [],
+    "family": ["syndromic（症候群の）"],
+    "synonyms": [
+      { "word": "condition", "meaning": "病気、状態", "nuance": "体の状態。", "etymology": "ラテン語 condiciō" },
+      { "word": "disorder", "meaning": "障害", "nuance": "体や心の不調。", "etymology": "dis- + order" }
+    ]
+  },
+  {
+    "id": "rococo", "word": "rococo", "katakana": "ロココ", "pos": "形容詞・名詞", "cefr": "C2", "level": 10,
+    "meaning": "ロココ様式（の）",
+    "scene": "ロココ調の家具、マリー・アントワネットの時代。",
+    "example": { "en": "The palace is decorated in rococo style.", "ja": "その宮殿はロココ様式で飾られている。" },
+    "etymology": {
+      "origin": "フランス語 rococo ← rocaille「貝殻や小石の装飾」",
+      "story": "18世紀フランスの、貝殻のような曲線を多用した優美な装飾様式。baroque をもじった語ともいわれる。"
+    },
+    "roots": [],
+    "family": ["rocaille（ロカイユ装飾）"],
+    "synonyms": [
+      { "word": "ornate", "meaning": "装飾の多い", "nuance": "ごてごてした。", "etymology": "ラテン語 ōrnāre" },
+      { "word": "baroque", "meaning": "バロック", "nuance": "ロココの前の様式。", "etymology": "ポルトガル語 barroco" }
+    ]
+  },
+  {
+    "id": "cubism", "word": "cubism", "katakana": "キュビズム", "pos": "名詞", "cefr": "C2", "level": 10,
+    "meaning": "立体派、キュビスム",
+    "scene": "ピカソのキュビズム、立体派の絵。",
+    "example": { "en": "Picasso is famous for cubism.", "ja": "ピカソはキュビズムで有名だ。" },
+    "etymology": {
+      "origin": "cube「立方体」+ -ism ← ギリシャ語 kybos「さいころ」",
+      "story": "批評家が「小さな立方体（cube）ばかりの絵」とからかったことから名がついたとされる。"
+    },
+    "roots": [],
+    "family": ["cube（立方体）"],
+    "synonyms": [
+      { "word": "abstract art", "meaning": "抽象芸術", "nuance": "形を写さない芸術。", "etymology": "abstract + art" },
+      { "word": "modern art", "meaning": "現代美術", "nuance": "近代以降の芸術。", "etymology": "modern + art" }
+    ]
+  },
+  {
+    "id": "graffiti", "word": "graffiti", "katakana": "グラフィティ", "pos": "名詞", "cefr": "C1", "level": 7,
+    "meaning": "落書き、グラフィティアート",
+    "scene": "壁の落書き、ストリートアート。",
+    "example": { "en": "The wall was covered in graffiti.", "ja": "壁は落書きだらけだった。" },
+    "etymology": {
+      "origin": "イタリア語 graffiti「引っかいたもの（複数）」← graffiare「引っかく」",
+      "story": "古代ポンペイの壁に引っかいて書かれた文字から。graph（書く）と同じギリシャ語根。"
+    },
+    "roots": ["graph"],
+    "family": ["graphic（図の）"],
+    "synonyms": [
+      { "word": "street art", "meaning": "ストリートアート", "nuance": "街中の芸術。", "etymology": "street + art" },
+      { "word": "scribble", "meaning": "なぐり書き", "nuance": "雑に書いたもの。", "etymology": "ラテン語 scrībere" }
+    ]
+  },
+  {
+    "id": "calligraphy", "word": "calligraphy", "katakana": "カリグラフィー", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "書道、美しい文字",
+    "scene": "西洋書道、カリグラフィーペン。",
+    "example": { "en": "She is learning Japanese calligraphy.", "ja": "彼女は書道を習っている。" },
+    "etymology": {
+      "origin": "ギリシャ語 kalligraphia ← kallos「美しさ」+ graphein「書く」",
+      "story": "「美しく書くこと」。kaleidoscope（万華鏡＝美しい形を見る道具）も kallos の家族。"
+    },
+    "roots": ["graph"],
+    "family": ["kaleidoscope（万華鏡）"],
+    "synonyms": [
+      { "word": "handwriting", "meaning": "手書き", "nuance": "手で書いた文字。", "etymology": "hand + writing" },
+      { "word": "lettering", "meaning": "レタリング", "nuance": "文字のデザイン。", "etymology": "letter + -ing" }
+    ]
+  },
+  {
+    "id": "typography", "word": "typography", "katakana": "タイポグラフィ", "pos": "名詞", "cefr": "C2", "level": 9,
+    "meaning": "文字のデザイン、組版",
+    "scene": "タイポグラフィのポスター、文字組み。",
+    "example": { "en": "Good typography makes a website easy to read.", "ja": "よい文字組みはウェブサイトを読みやすくする。" },
+    "etymology": {
+      "origin": "ギリシャ語 typos「型」+ graphein「書く」",
+      "story": "活字（type）で「書く」技術。type、prototype と同じ typos の家族。"
+    },
+    "roots": ["graph"],
+    "family": ["type（型、活字）"],
+    "synonyms": [
+      { "word": "font", "meaning": "フォント", "nuance": "書体。", "etymology": "フランス語 fonte" },
+      { "word": "layout", "meaning": "レイアウト", "nuance": "配置。", "etymology": "lay + out" }
+    ]
   }
 ]

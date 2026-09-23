@@ -1439,6 +1439,36 @@
   "text": "asset",
   "tier": "core"
  },
+ "atelier.example.en": {
+  "lang": "en",
+  "text": "The painter works in a small atelier.",
+  "tier": "core"
+ },
+ "atelier.example.ja": {
+  "lang": "ja",
+  "text": "その画家は小さなアトリエで制作している。",
+  "tier": "core"
+ },
+ "atelier.katakana": {
+  "lang": "ja",
+  "text": "アトリエ",
+  "tier": "core"
+ },
+ "atelier.meaning": {
+  "lang": "ja",
+  "text": "工房、アトリエ",
+  "tier": "core"
+ },
+ "atelier.story": {
+  "lang": "ja",
+  "text": "大工の「木くずの山」、 作業場 、 芸術家の工房。",
+  "tier": "extended"
+ },
+ "atelier.word": {
+  "lang": "en",
+  "text": "atelier",
+  "tier": "core"
+ },
  "athlete.example.en": {
   "lang": "en",
   "text": "She is a professional athlete.",
@@ -3149,6 +3179,36 @@
   "text": "boat",
   "tier": "core"
  },
+ "bohemian.example.en": {
+  "lang": "en",
+  "text": "The artist lived a bohemian life in Paris.",
+  "tier": "core"
+ },
+ "bohemian.example.ja": {
+  "lang": "ja",
+  "text": "その芸術家はパリで自由奔放な暮らしをしていた。",
+  "tier": "core"
+ },
+ "bohemian.katakana": {
+  "lang": "ja",
+  "text": "ボヘミアン",
+  "tier": "core"
+ },
+ "bohemian.meaning": {
+  "lang": "ja",
+  "text": "自由奔放な 人",
+  "tier": "core"
+ },
+ "bohemian.story": {
+  "lang": "ja",
+  "text": "ロマの人々がボヘミアから来たと思われていたことから、定住せず自由に暮らす芸術家を指すようになった。",
+  "tier": "extended"
+ },
+ "bohemian.word": {
+  "lang": "en",
+  "text": "bohemian",
+  "tier": "core"
+ },
  "bonus.example.en": {
   "lang": "en",
   "text": "We got a bonus at the end of the year.",
@@ -4377,6 +4437,36 @@
  "calendar.word": {
   "lang": "en",
   "text": "calendar",
+  "tier": "core"
+ },
+ "calligraphy.example.en": {
+  "lang": "en",
+  "text": "She is learning Japanese calligraphy.",
+  "tier": "core"
+ },
+ "calligraphy.example.ja": {
+  "lang": "ja",
+  "text": "彼女は書道を習っている。",
+  "tier": "core"
+ },
+ "calligraphy.katakana": {
+  "lang": "ja",
+  "text": "カリグラフィー",
+  "tier": "core"
+ },
+ "calligraphy.meaning": {
+  "lang": "ja",
+  "text": "書道、美しい文字",
+  "tier": "core"
+ },
+ "calligraphy.story": {
+  "lang": "ja",
+  "text": "「美しく書くこと」。kaleidoscope 万華鏡、美しい形を見る道具 も kallos の家族。",
+  "tier": "extended"
+ },
+ "calligraphy.word": {
+  "lang": "en",
+  "text": "calligraphy",
   "tier": "core"
  },
  "calorie.example.en": {
@@ -6119,6 +6209,36 @@
   "text": "chic",
   "tier": "core"
  },
+ "chimera.example.en": {
+  "lang": "en",
+  "text": "The idea of a perfect society is a chimera.",
+  "tier": "core"
+ },
+ "chimera.example.ja": {
+  "lang": "ja",
+  "text": "完璧な社会という考えは空想にすぎない。",
+  "tier": "core"
+ },
+ "chimera.katakana": {
+  "lang": "ja",
+  "text": "キメラ",
+  "tier": "core"
+ },
+ "chimera.meaning": {
+  "lang": "ja",
+  "text": "怪物キメラ、空想、異種混成体",
+  "tier": "core"
+ },
+ "chimera.story": {
+  "lang": "ja",
+  "text": "ライオンの頭、ヤギの胴、ヘビの尾をもつ怪物。そこから「ありえない空想」「異なる遺伝子の混ざった生物」に。",
+  "tier": "extended"
+ },
+ "chimera.word": {
+  "lang": "en",
+  "text": "chimera",
+  "tier": "core"
+ },
  "chip.example.en": {
   "lang": "en",
   "text": "This phone has a powerful new chip.",
@@ -7079,6 +7199,36 @@
   "text": "cola",
   "tier": "core"
  },
+ "collage.example.en": {
+  "lang": "en",
+  "text": "She made a collage of her travel photos.",
+  "tier": "core"
+ },
+ "collage.example.ja": {
+  "lang": "ja",
+  "text": "彼女は旅行写真のコラージュを作った。",
+  "tier": "core"
+ },
+ "collage.katakana": {
+  "lang": "ja",
+  "text": "コラージュ",
+  "tier": "core"
+ },
+ "collage.meaning": {
+  "lang": "ja",
+  "text": "貼り絵、コラージュ",
+  "tier": "core"
+ },
+ "collage.story": {
+  "lang": "ja",
+  "text": "ギリシャ語 kolla のり から。20世紀初めにピカソらが使った技法。protocol 最初に貼った紙 も kolla の家族。",
+  "tier": "extended"
+ },
+ "collage.word": {
+  "lang": "en",
+  "text": "collage",
+  "tier": "core"
+ },
  "collection.example.en": {
   "lang": "en",
   "text": "He has a large collection of old coins.",
@@ -7617,6 +7767,36 @@
  "concert.word": {
   "lang": "en",
   "text": "concert",
+  "tier": "core"
+ },
+ "concerto.example.en": {
+  "lang": "en",
+  "text": "She performed a piano concerto with the orchestra.",
+  "tier": "core"
+ },
+ "concerto.example.ja": {
+  "lang": "ja",
+  "text": "彼女はオーケストラとピアノ協奏曲を演奏した。",
+  "tier": "core"
+ },
+ "concerto.katakana": {
+  "lang": "ja",
+  "text": "コンチェルト",
+  "tier": "core"
+ },
+ "concerto.meaning": {
+  "lang": "ja",
+  "text": "協奏曲",
+  "tier": "core"
+ },
+ "concerto.story": {
+  "lang": "ja",
+  "text": "独奏楽器とオーケストラが「力を合わせる」曲。concert 演奏会 と同じ語。",
+  "tier": "extended"
+ },
+ "concerto.word": {
+  "lang": "en",
+  "text": "concerto",
   "tier": "core"
  },
  "concierge.example.en": {
@@ -8639,6 +8819,36 @@
   "text": "counter",
   "tier": "core"
  },
+ "coup.example.en": {
+  "lang": "en",
+  "text": "The government was overthrown in a military coup.",
+  "tier": "core"
+ },
+ "coup.example.ja": {
+  "lang": "ja",
+  "text": "政府は軍事クーデターで倒された。",
+  "tier": "core"
+ },
+ "coup.katakana": {
+  "lang": "ja",
+  "text": "クーデター",
+  "tier": "core"
+ },
+ "coup.meaning": {
+  "lang": "ja",
+  "text": "クーデター、大成功",
+  "tier": "core"
+ },
+ "coup.story": {
+  "lang": "ja",
+  "text": "英語では coup だけで「クーデター」を指すことが多い。「大当たり、見事な成功」の意味もある。発音は「クー」。",
+  "tier": "extended"
+ },
+ "coup.word": {
+  "lang": "en",
+  "text": "coup",
+  "tier": "core"
+ },
  "couple.example.en": {
   "lang": "en",
   "text": "I'll be back in a couple of days.",
@@ -8879,6 +9089,36 @@
   "text": "credit",
   "tier": "core"
  },
+ "crescendo.example.en": {
+  "lang": "en",
+  "text": "The music rose to a crescendo.",
+  "tier": "core"
+ },
+ "crescendo.example.ja": {
+  "lang": "ja",
+  "text": "音楽は最高潮に達した。",
+  "tier": "core"
+ },
+ "crescendo.katakana": {
+  "lang": "ja",
+  "text": "クレッシェンド",
+  "tier": "core"
+ },
+ "crescendo.meaning": {
+  "lang": "ja",
+  "text": "だんだん強く、最高潮",
+  "tier": "core"
+ },
+ "crescendo.story": {
+  "lang": "ja",
+  "text": "crescent 三日月、満ちていく月 、increase、crew と同じ家族。反対は decrescendo / diminuendo。",
+  "tier": "extended"
+ },
+ "crescendo.word": {
+  "lang": "en",
+  "text": "crescendo",
+  "tier": "core"
+ },
  "crew.example.en": {
   "lang": "en",
   "text": "The crew welcomed us on board.",
@@ -9057,6 +9297,36 @@
  "crystal.word": {
   "lang": "en",
   "text": "crystal",
+  "tier": "core"
+ },
+ "cubism.example.en": {
+  "lang": "en",
+  "text": "Picasso is famous for cubism.",
+  "tier": "core"
+ },
+ "cubism.example.ja": {
+  "lang": "ja",
+  "text": "ピカソはキュビズムで有名だ。",
+  "tier": "core"
+ },
+ "cubism.katakana": {
+  "lang": "ja",
+  "text": "キュビズム",
+  "tier": "core"
+ },
+ "cubism.meaning": {
+  "lang": "ja",
+  "text": "立体派、キュビスム",
+  "tier": "core"
+ },
+ "cubism.story": {
+  "lang": "ja",
+  "text": "批評家が「小さな立方体 cube ばかりの絵」とからかったことから名がついたとされる。",
+  "tier": "extended"
+ },
+ "cubism.word": {
+  "lang": "en",
+  "text": "cubism",
   "tier": "core"
  },
  "culture.example.en": {
@@ -9539,6 +9809,36 @@
   "text": "dance",
   "tier": "core"
  },
+ "dandy.example.en": {
+  "lang": "en",
+  "text": "He dressed like a Victorian dandy.",
+  "tier": "core"
+ },
+ "dandy.example.ja": {
+  "lang": "ja",
+  "text": "彼はヴィクトリア朝のしゃれ男のような格好をしていた。",
+  "tier": "core"
+ },
+ "dandy.katakana": {
+  "lang": "ja",
+  "text": "ダンディ",
+  "tier": "core"
+ },
+ "dandy.meaning": {
+  "lang": "ja",
+  "text": "おしゃれな男性、すてきな",
+  "tier": "core"
+ },
+ "dandy.story": {
+  "lang": "ja",
+  "text": "服装に強くこだわる男性。日本語の「ダンディ」は「渋くてかっこいい大人の男性」の意味で使われがちだが、英語ではやや古風で「身なりにこだわりすぎる男」の含みもある。",
+  "tier": "extended"
+ },
+ "dandy.word": {
+  "lang": "en",
+  "text": "dandy",
+  "tier": "core"
+ },
  "dash.example.en": {
   "lang": "en",
   "text": "I have to dash. See you!",
@@ -9837,6 +10137,36 @@
  "debut.word": {
   "lang": "en",
   "text": "debut",
+  "tier": "core"
+ },
+ "decadence.example.en": {
+  "lang": "en",
+  "text": "The novel describes the decadence of the rich.",
+  "tier": "core"
+ },
+ "decadence.example.ja": {
+  "lang": "ja",
+  "text": "その小説は金持ちの退廃ぶりを描いている。",
+  "tier": "core"
+ },
+ "decadence.katakana": {
+  "lang": "ja",
+  "text": "デカダンス",
+  "tier": "core"
+ },
+ "decadence.meaning": {
+  "lang": "ja",
+  "text": "退廃、堕落",
+  "tier": "core"
+ },
+ "decadence.story": {
+  "lang": "ja",
+  "text": "「落ちていくこと」、 衰退、退廃。decay 腐る 、accident、case と同じ cadere の家族。",
+  "tier": "extended"
+ },
+ "decadence.word": {
+  "lang": "en",
+  "text": "decadence",
   "tier": "core"
  },
  "deflation.example.en": {
@@ -10799,6 +11129,36 @@
   "text": "door",
   "tier": "core"
  },
+ "dopamine.example.en": {
+  "lang": "en",
+  "text": "Exercise releases dopamine in the brain.",
+  "tier": "core"
+ },
+ "dopamine.example.ja": {
+  "lang": "ja",
+  "text": "運動すると脳でドーパミンが出る。",
+  "tier": "core"
+ },
+ "dopamine.katakana": {
+  "lang": "ja",
+  "text": "ドーパミン",
+  "tier": "core"
+ },
+ "dopamine.meaning": {
+  "lang": "ja",
+  "text": "ドーパミン",
+  "tier": "core"
+ },
+ "dopamine.story": {
+  "lang": "ja",
+  "text": "化学物質の長い名前を略して作られた語。やる気や快感に関わる脳の物質として知られる。",
+  "tier": "extended"
+ },
+ "dopamine.word": {
+  "lang": "en",
+  "text": "dopamine",
+  "tier": "core"
+ },
  "doping.example.en": {
   "lang": "en",
   "text": "He was banned for doping.",
@@ -10827,6 +11187,36 @@
  "doping.word": {
   "lang": "en",
   "text": "doping",
+  "tier": "core"
+ },
+ "doppelganger.example.en": {
+  "lang": "en",
+  "text": "I met my doppelganger on the train!",
+  "tier": "core"
+ },
+ "doppelganger.example.ja": {
+  "lang": "ja",
+  "text": "電車で自分にそっくりな人に会った！",
+  "tier": "core"
+ },
+ "doppelganger.katakana": {
+  "lang": "ja",
+  "text": "ドッペルゲンガー",
+  "tier": "core"
+ },
+ "doppelganger.meaning": {
+  "lang": "ja",
+  "text": "生き写し、分身",
+  "tier": "core"
+ },
+ "doppelganger.story": {
+  "lang": "ja",
+  "text": "自分とうり二つの分身 見ると不吉とされた 。英語では「そっくりさん」の意味で軽く使う。double と同じ語根。",
+  "tier": "extended"
+ },
+ "doppelganger.word": {
+  "lang": "en",
+  "text": "doppelganger",
   "tier": "core"
  },
  "download.example.en": {
@@ -11879,6 +12269,36 @@
   "text": "engineer",
   "tier": "core"
  },
+ "ennui.example.en": {
+  "lang": "en",
+  "text": "She sighed with ennui on the rainy afternoon.",
+  "tier": "core"
+ },
+ "ennui.example.ja": {
+  "lang": "ja",
+  "text": "雨の午後、彼女はもの憂げにため息をついた。",
+  "tier": "core"
+ },
+ "ennui.katakana": {
+  "lang": "ja",
+  "text": "アンニュイ",
+  "tier": "core"
+ },
+ "ennui.meaning": {
+  "lang": "ja",
+  "text": "倦怠、もの憂さ",
+  "tier": "core"
+ },
+ "ennui.story": {
+  "lang": "ja",
+  "text": "「嫌になる気持ち」、 退屈、けだるさ。annoy いらだたせる は同じラテン語から来た兄弟語。",
+  "tier": "extended"
+ },
+ "ennui.word": {
+  "lang": "en",
+  "text": "ennui",
+  "tier": "core"
+ },
  "entrepreneur.example.en": {
   "lang": "en",
   "text": "She became an entrepreneur at the age of 22.",
@@ -11907,6 +12327,36 @@
  "entrepreneur.word": {
   "lang": "en",
   "text": "entrepreneur",
+  "tier": "core"
+ },
+ "entropy.example.en": {
+  "lang": "en",
+  "text": "Entropy always increases in a closed system.",
+  "tier": "core"
+ },
+ "entropy.example.ja": {
+  "lang": "ja",
+  "text": "閉じた系ではエントロピーは常に増大する。",
+  "tier": "core"
+ },
+ "entropy.katakana": {
+  "lang": "ja",
+  "text": "エントロピー",
+  "tier": "core"
+ },
+ "entropy.meaning": {
+  "lang": "ja",
+  "text": "エントロピー、無秩序さの度合い",
+  "tier": "core"
+ },
+ "entropy.story": {
+  "lang": "ja",
+  "text": "energy に似せて作られた語。「散らかっていく度合い」として比喩的にも使われる。trophy、tropic と同じ trope の家族。",
+  "tier": "extended"
+ },
+ "entropy.word": {
+  "lang": "en",
+  "text": "entropy",
   "tier": "core"
  },
  "entry.example.en": {
@@ -12207,6 +12657,36 @@
  "etiquette.word": {
   "lang": "en",
   "text": "etiquette",
+  "tier": "core"
+ },
+ "etude.example.en": {
+  "lang": "en",
+  "text": "The piano student practiced an etude every day.",
+  "tier": "core"
+ },
+ "etude.example.ja": {
+  "lang": "ja",
+  "text": "そのピアノの生徒は毎日練習曲を弾いた。",
+  "tier": "core"
+ },
+ "etude.katakana": {
+  "lang": "ja",
+  "text": "エチュード",
+  "tier": "core"
+ },
+ "etude.meaning": {
+  "lang": "ja",
+  "text": "練習曲、習作",
+  "tier": "core"
+ },
+ "etude.story": {
+  "lang": "ja",
+  "text": "study 勉強 、student と同じ語。",
+  "tier": "extended"
+ },
+ "etude.word": {
+  "lang": "en",
+  "text": "etude",
   "tier": "core"
  },
  "euphoria.example.en": {
@@ -13799,6 +14279,36 @@
   "text": "freelance",
   "tier": "core"
  },
+ "fresco.example.en": {
+  "lang": "en",
+  "text": "The church walls are covered with frescoes.",
+  "tier": "core"
+ },
+ "fresco.example.ja": {
+  "lang": "ja",
+  "text": "その教会の壁はフレスコ画で覆われている。",
+  "tier": "core"
+ },
+ "fresco.katakana": {
+  "lang": "ja",
+  "text": "フレスコ",
+  "tier": "core"
+ },
+ "fresco.meaning": {
+  "lang": "ja",
+  "text": "フレスコ画",
+  "tier": "core"
+ },
+ "fresco.story": {
+  "lang": "ja",
+  "text": "塗ったばかりの「生乾きの」しっくいに描く技法。fresh 新鮮な と同じ語根。al fresco は「屋外で」。",
+  "tier": "extended"
+ },
+ "fresco.word": {
+  "lang": "en",
+  "text": "fresco",
+  "tier": "core"
+ },
  "fresh.example.en": {
   "lang": "en",
   "text": "These vegetables are fresh from the farm.",
@@ -14429,6 +14939,36 @@
   "text": "generation",
   "tier": "core"
  },
+ "genocide.example.en": {
+  "lang": "en",
+  "text": "The United Nations condemned the genocide.",
+  "tier": "core"
+ },
+ "genocide.example.ja": {
+  "lang": "ja",
+  "text": "国連はその大量虐殺を非難した。",
+  "tier": "core"
+ },
+ "genocide.katakana": {
+  "lang": "ja",
+  "text": "ジェノサイド",
+  "tier": "core"
+ },
+ "genocide.meaning": {
+  "lang": "ja",
+  "text": "大量虐殺",
+  "tier": "core"
+ },
+ "genocide.story": {
+  "lang": "ja",
+  "text": "ナチスによる虐殺を受けて作られた語。suicide 自殺 、insecticide 殺虫剤 の -cide も「殺す」。gene、genre と同じ genos の家族。",
+  "tier": "extended"
+ },
+ "genocide.word": {
+  "lang": "en",
+  "text": "genocide",
+  "tier": "core"
+ },
  "genome.example.en": {
   "lang": "en",
   "text": "Scientists mapped the human genome.",
@@ -14487,6 +15027,36 @@
  "genre.word": {
   "lang": "en",
   "text": "genre",
+  "tier": "core"
+ },
+ "gestalt.example.en": {
+  "lang": "en",
+  "text": "The painting creates a gestalt greater than its parts.",
+  "tier": "core"
+ },
+ "gestalt.example.ja": {
+  "lang": "ja",
+  "text": "その絵は部分の総和を超える全体像を生み出している。",
+  "tier": "core"
+ },
+ "gestalt.katakana": {
+  "lang": "ja",
+  "text": "ゲシュタルト",
+  "tier": "core"
+ },
+ "gestalt.meaning": {
+  "lang": "ja",
+  "text": "形態、全体像",
+  "tier": "core"
+ },
+ "gestalt.story": {
+  "lang": "ja",
+  "text": "「全体は部分の寄せ集め以上のもの」と考える心理学の用語。「ゲシュタルト崩壊」 字をじっと見ているとまとまりが崩れる現象 は日本で広まった言い方。",
+  "tier": "extended"
+ },
+ "gestalt.word": {
+  "lang": "en",
+  "text": "gestalt",
   "tier": "core"
  },
  "gift.example.en": {
@@ -15029,6 +15599,36 @@
   "text": "grade",
   "tier": "core"
  },
+ "graffiti.example.en": {
+  "lang": "en",
+  "text": "The wall was covered in graffiti.",
+  "tier": "core"
+ },
+ "graffiti.example.ja": {
+  "lang": "ja",
+  "text": "壁は落書きだらけだった。",
+  "tier": "core"
+ },
+ "graffiti.katakana": {
+  "lang": "ja",
+  "text": "グラフィティ",
+  "tier": "core"
+ },
+ "graffiti.meaning": {
+  "lang": "ja",
+  "text": "落書き、グラフィティアート",
+  "tier": "core"
+ },
+ "graffiti.story": {
+  "lang": "ja",
+  "text": "古代ポンペイの壁に引っかいて書かれた文字から。graph 書く と同じギリシャ語根。",
+  "tier": "extended"
+ },
+ "graffiti.word": {
+  "lang": "en",
+  "text": "graffiti",
+  "tier": "core"
+ },
  "grape.example.en": {
   "lang": "en",
   "text": "We picked grapes at the farm.",
@@ -15417,6 +16017,36 @@
  "gum.word": {
   "lang": "en",
   "text": "gum",
+  "tier": "core"
+ },
+ "guru.example.en": {
+  "lang": "en",
+  "text": "He's a fitness guru with millions of followers.",
+  "tier": "core"
+ },
+ "guru.example.ja": {
+  "lang": "ja",
+  "text": "彼は何百万人ものフォロワーを持つフィットネスの第一人者だ。",
+  "tier": "core"
+ },
+ "guru.katakana": {
+  "lang": "ja",
+  "text": "グル",
+  "tier": "core"
+ },
+ "guru.meaning": {
+  "lang": "ja",
+  "text": "導師、達人",
+  "tier": "core"
+ },
+ "guru.story": {
+  "lang": "ja",
+  "text": "「重みのある人」、 宗教の師。英語ではある分野の「専門家、カリスマ」の意味でもよく使う。",
+  "tier": "extended"
+ },
+ "guru.word": {
+  "lang": "en",
+  "text": "guru",
   "tier": "core"
  },
  "gym.example.en": {
@@ -16617,6 +17247,36 @@
  "honey.word": {
   "lang": "en",
   "text": "honey",
+  "tier": "core"
+ },
+ "hormone.example.en": {
+  "lang": "en",
+  "text": "Stress hormones can affect your sleep.",
+  "tier": "core"
+ },
+ "hormone.example.ja": {
+  "lang": "ja",
+  "text": "ストレスホルモンは睡眠に影響することがある。",
+  "tier": "core"
+ },
+ "hormone.katakana": {
+  "lang": "ja",
+  "text": "ホルモン",
+  "tier": "core"
+ },
+ "hormone.meaning": {
+  "lang": "ja",
+  "text": "ホルモン",
+  "tier": "core"
+ },
+ "hormone.story": {
+  "lang": "ja",
+  "text": "体の働きを「かき立てる」物質として名づけられた。焼肉の「ホルモン」は語源が別で、「放るもん 捨てるもの 」とする説は俗説とされる。",
+  "tier": "extended"
+ },
+ "hormone.word": {
+  "lang": "en",
+  "text": "hormone",
   "tier": "core"
  },
  "horror.example.en": {
@@ -18359,6 +19019,36 @@
   "text": "kangaroo",
   "tier": "core"
  },
+ "karma.example.en": {
+  "lang": "en",
+  "text": "He believes in karma.",
+  "tier": "core"
+ },
+ "karma.example.ja": {
+  "lang": "ja",
+  "text": "彼は因果応報を信じている。",
+  "tier": "core"
+ },
+ "karma.katakana": {
+  "lang": "ja",
+  "text": "カルマ",
+  "tier": "core"
+ },
+ "karma.meaning": {
+  "lang": "ja",
+  "text": "業、因果応報",
+  "tier": "core"
+ },
+ "karma.story": {
+  "lang": "ja",
+  "text": "インドの宗教で、行いの結果が自分に返ってくるという考え。英語の口語では「自業自得」の意味で気軽に使う。",
+  "tier": "extended"
+ },
+ "karma.word": {
+  "lang": "en",
+  "text": "karma",
+  "tier": "core"
+ },
  "keep.example.en": {
   "lang": "en",
   "text": "Keep the change.",
@@ -18687,6 +19377,36 @@
  "kitchen.word": {
   "lang": "en",
   "text": "kitchen",
+  "tier": "core"
+ },
+ "kitsch.example.en": {
+  "lang": "en",
+  "text": "The shop sells cute but kitschy souvenirs.",
+  "tier": "core"
+ },
+ "kitsch.example.ja": {
+  "lang": "ja",
+  "text": "その店はかわいいけど安っぽいおみやげを売っている。",
+  "tier": "core"
+ },
+ "kitsch.katakana": {
+  "lang": "ja",
+  "text": "キッチュ",
+  "tier": "core"
+ },
+ "kitsch.meaning": {
+  "lang": "ja",
+  "text": "俗っぽい もの 、けばけばしい",
+  "tier": "core"
+ },
+ "kitsch.story": {
+  "lang": "ja",
+  "text": "大衆向けの安っぽい絵画を指した語。今は「わざと安っぽくて楽しい」という肯定的な意味でも使う。",
+  "tier": "extended"
+ },
+ "kitsch.word": {
+  "lang": "en",
+  "text": "kitsch",
   "tier": "core"
  },
  "kiwi.example.en": {
@@ -19287,6 +20007,36 @@
  "leisure.word": {
   "lang": "en",
   "text": "leisure",
+  "tier": "core"
+ },
+ "leitmotif.example.en": {
+  "lang": "en",
+  "text": "Loneliness is a leitmotif in her novels.",
+  "tier": "core"
+ },
+ "leitmotif.example.ja": {
+  "lang": "ja",
+  "text": "孤独は彼女の小説にくり返し現れる主題だ。",
+  "tier": "core"
+ },
+ "leitmotif.katakana": {
+  "lang": "ja",
+  "text": "ライトモチーフ",
+  "tier": "core"
+ },
+ "leitmotif.meaning": {
+  "lang": "ja",
+  "text": "主導動機、くり返される主題",
+  "tier": "core"
+ },
+ "leitmotif.story": {
+  "lang": "ja",
+  "text": "ワーグナーのオペラで、人物や考えを表すくり返しの旋律。lead 導く と同じ語根、motif と同じ語。",
+  "tier": "extended"
+ },
+ "leitmotif.word": {
+  "lang": "en",
+  "text": "leitmotif",
   "tier": "core"
  },
  "lemon.example.en": {
@@ -20637,6 +21387,36 @@
  "mansion.word": {
   "lang": "en",
   "text": "mansion",
+  "tier": "core"
+ },
+ "mantra.example.en": {
+  "lang": "en",
+  "text": "\"Never give up\" is my mantra.",
+  "tier": "core"
+ },
+ "mantra.example.ja": {
+  "lang": "ja",
+  "text": "「決してあきらめない」が私の信条だ。",
+  "tier": "core"
+ },
+ "mantra.katakana": {
+  "lang": "ja",
+  "text": "マントラ",
+  "tier": "core"
+ },
+ "mantra.meaning": {
+  "lang": "ja",
+  "text": "真言、座右の言葉",
+  "tier": "core"
+ },
+ "mantra.story": {
+  "lang": "ja",
+  "text": "瞑想で唱えるくり返しの言葉。英語では「くり返し唱える信条、合言葉」の意味でも使う。mind 心 と遠い親戚の語根。",
+  "tier": "extended"
+ },
+ "mantra.word": {
+  "lang": "en",
+  "text": "mantra",
   "tier": "core"
  },
  "manual.example.en": {
@@ -22409,6 +23189,36 @@
   "text": "monster",
   "tier": "core"
  },
+ "montage.example.en": {
+  "lang": "en",
+  "text": "The film opens with a montage of city scenes.",
+  "tier": "core"
+ },
+ "montage.example.ja": {
+  "lang": "ja",
+  "text": "その映画は街の風景をつなぎ合わせた映像で始まる。",
+  "tier": "core"
+ },
+ "montage.katakana": {
+  "lang": "ja",
+  "text": "モンタージュ",
+  "tier": "core"
+ },
+ "montage.meaning": {
+  "lang": "ja",
+  "text": "合成写真、映像の編集",
+  "tier": "core"
+ },
+ "montage.story": {
+  "lang": "ja",
+  "text": "mount 上がる、据えつける と同じ語。映像を「組み立てる」編集技法。",
+  "tier": "extended"
+ },
+ "montage.word": {
+  "lang": "en",
+  "text": "montage",
+  "tier": "core"
+ },
  "moon.example.en": {
   "lang": "en",
   "text": "There's a full moon tonight.",
@@ -23219,6 +24029,36 @@
   "text": "negotiation",
   "tier": "core"
  },
+ "nemesis.example.en": {
+  "lang": "en",
+  "text": "The detective finally caught his old nemesis.",
+  "tier": "core"
+ },
+ "nemesis.example.ja": {
+  "lang": "ja",
+  "text": "探偵はついに長年の宿敵を捕らえた。",
+  "tier": "core"
+ },
+ "nemesis.katakana": {
+  "lang": "ja",
+  "text": "ネメシス",
+  "tier": "core"
+ },
+ "nemesis.meaning": {
+  "lang": "ja",
+  "text": "宿敵、天罰",
+  "tier": "core"
+ },
+ "nemesis.story": {
+  "lang": "ja",
+  "text": "おごった者に当然の「罰を分け与える」女神。英語では「倒せない宿敵」の意味で使う。",
+  "tier": "extended"
+ },
+ "nemesis.word": {
+  "lang": "en",
+  "text": "nemesis",
+  "tier": "core"
+ },
  "net.example.en": {
   "lang": "en",
   "text": "I found the answer on the net.",
@@ -23367,6 +24207,66 @@
  "nihilism.word": {
   "lang": "en",
   "text": "nihilism",
+  "tier": "core"
+ },
+ "nirvana.example.en": {
+  "lang": "en",
+  "text": "For many surfers, the perfect wave is pure nirvana.",
+  "tier": "core"
+ },
+ "nirvana.example.ja": {
+  "lang": "ja",
+  "text": "多くのサーファーにとって完璧な波は至福そのものだ。",
+  "tier": "core"
+ },
+ "nirvana.katakana": {
+  "lang": "ja",
+  "text": "ニルヴァーナ",
+  "tier": "core"
+ },
+ "nirvana.meaning": {
+  "lang": "ja",
+  "text": "涅槃、至福の境地",
+  "tier": "core"
+ },
+ "nirvana.story": {
+  "lang": "ja",
+  "text": "煩悩の火が「吹き消された」静かな境地。英語では「最高の幸せ」の比喩にも。",
+  "tier": "extended"
+ },
+ "nirvana.word": {
+  "lang": "en",
+  "text": "nirvana",
+  "tier": "core"
+ },
+ "nocturne.example.en": {
+  "lang": "en",
+  "text": "Chopin wrote 21 nocturnes.",
+  "tier": "core"
+ },
+ "nocturne.example.ja": {
+  "lang": "ja",
+  "text": "ショパンは21曲のノクターンを書いた。",
+  "tier": "core"
+ },
+ "nocturne.katakana": {
+  "lang": "ja",
+  "text": "ノクターン",
+  "tier": "core"
+ },
+ "nocturne.meaning": {
+  "lang": "ja",
+  "text": "夜想曲",
+  "tier": "core"
+ },
+ "nocturne.story": {
+  "lang": "ja",
+  "text": "夜の静かな雰囲気の曲。nocturnal 夜行性の も同じ語。",
+  "tier": "extended"
+ },
+ "nocturne.word": {
+  "lang": "en",
+  "text": "nocturne",
   "tier": "core"
  },
  "nostalgia.example.en": {
@@ -23607,6 +24507,36 @@
  "oasis.word": {
   "lang": "en",
   "text": "oasis",
+  "tier": "core"
+ },
+ "odyssey.example.en": {
+  "lang": "en",
+  "text": "His trip across Africa was a real odyssey.",
+  "tier": "core"
+ },
+ "odyssey.example.ja": {
+  "lang": "ja",
+  "text": "彼のアフリカ横断旅行はまさに長い冒険だった。",
+  "tier": "core"
+ },
+ "odyssey.katakana": {
+  "lang": "ja",
+  "text": "オデッセイ",
+  "tier": "core"
+ },
+ "odyssey.meaning": {
+  "lang": "ja",
+  "text": "長い冒険の旅",
+  "tier": "core"
+ },
+ "odyssey.story": {
+  "lang": "ja",
+  "text": "トロイ戦争後、英雄オデュッセウスが10年かけて故郷へ帰る叙事詩から。",
+  "tier": "extended"
+ },
+ "odyssey.word": {
+  "lang": "en",
+  "text": "odyssey",
   "tier": "core"
  },
  "office.example.en": {
@@ -24147,6 +25077,36 @@
  "original.word": {
   "lang": "en",
   "text": "original",
+  "tier": "core"
+ },
+ "orthodox.example.en": {
+  "lang": "en",
+  "text": "He used an orthodox method to solve the problem.",
+  "tier": "core"
+ },
+ "orthodox.example.ja": {
+  "lang": "ja",
+  "text": "彼はその問題を正統的な方法で解いた。",
+  "tier": "core"
+ },
+ "orthodox.katakana": {
+  "lang": "ja",
+  "text": "オーソドックス",
+  "tier": "core"
+ },
+ "orthodox.meaning": {
+  "lang": "ja",
+  "text": "正統な、伝統的な",
+  "tier": "core"
+ },
+ "orthodox.story": {
+  "lang": "ja",
+  "text": "paradox 常識に反する と同じ doxa の家族。orthodontist 歯列矯正医、歯をまっすぐにする人 の ortho- も「正しい、まっすぐな」。",
+  "tier": "extended"
+ },
+ "orthodox.word": {
+  "lang": "en",
+  "text": "orthodox",
   "tier": "core"
  },
  "outdoor.example.en": {
@@ -25137,6 +26097,36 @@
  "pasta.word": {
   "lang": "en",
   "text": "pasta",
+  "tier": "core"
+ },
+ "pastiche.example.en": {
+  "lang": "en",
+  "text": "The novel is a pastiche of 19th-century mysteries.",
+  "tier": "core"
+ },
+ "pastiche.example.ja": {
+  "lang": "ja",
+  "text": "その小説は19世紀の推理小説を模した作品だ。",
+  "tier": "core"
+ },
+ "pastiche.katakana": {
+  "lang": "ja",
+  "text": "パスティーシュ",
+  "tier": "core"
+ },
+ "pastiche.meaning": {
+  "lang": "ja",
+  "text": "模倣作品、寄せ集め",
+  "tier": "core"
+ },
+ "pastiche.story": {
+  "lang": "ja",
+  "text": "いろいろな具を詰めたパイ 、 作風の寄せ集め、模倣。paste、pasta と同じ語根。parody と違ってからかう意図はないことが多い。",
+  "tier": "extended"
+ },
+ "pastiche.word": {
+  "lang": "en",
+  "text": "pastiche",
   "tier": "core"
  },
  "patch.example.en": {
@@ -26279,6 +27269,36 @@
   "text": "pizza",
   "tier": "core"
  },
+ "placebo.example.en": {
+  "lang": "en",
+  "text": "Some patients got better just from the placebo.",
+  "tier": "core"
+ },
+ "placebo.example.ja": {
+  "lang": "ja",
+  "text": "プラセボだけで良くなった患者もいた。",
+  "tier": "core"
+ },
+ "placebo.katakana": {
+  "lang": "ja",
+  "text": "プラセボ",
+  "tier": "core"
+ },
+ "placebo.meaning": {
+  "lang": "ja",
+  "text": "偽薬、プラセボ",
+  "tier": "core"
+ },
+ "placebo.story": {
+  "lang": "ja",
+  "text": "薬効のない薬で患者を「喜ばせる」ことから。please 喜ばせる と同じ語根。",
+  "tier": "extended"
+ },
+ "placebo.word": {
+  "lang": "en",
+  "text": "placebo",
+  "tier": "core"
+ },
  "plan.example.en": {
   "lang": "en",
   "text": "What are your plans for the summer?",
@@ -26307,6 +27327,36 @@
  "plan.word": {
   "lang": "en",
   "text": "plan",
+  "tier": "core"
+ },
+ "plasma.example.en": {
+  "lang": "en",
+  "text": "Lightning is a form of plasma.",
+  "tier": "core"
+ },
+ "plasma.example.ja": {
+  "lang": "ja",
+  "text": "雷はプラズマの一種だ。",
+  "tier": "core"
+ },
+ "plasma.katakana": {
+  "lang": "ja",
+  "text": "プラズマ",
+  "tier": "core"
+ },
+ "plasma.meaning": {
+  "lang": "ja",
+  "text": "プラズマ、血漿",
+  "tier": "core"
+ },
+ "plasma.story": {
+  "lang": "ja",
+  "text": "plastic 形を作れる と同じ語根。医学では血液の液体成分 血漿 、物理学では電離した気体。",
+  "tier": "extended"
+ },
+ "plasma.word": {
+  "lang": "en",
+  "text": "plasma",
   "tier": "core"
  },
  "plastic.example.en": {
@@ -26607,6 +27657,36 @@
  "policy.word": {
   "lang": "en",
   "text": "policy",
+  "tier": "core"
+ },
+ "poltergeist.example.en": {
+  "lang": "en",
+  "text": "They said a poltergeist was moving the furniture.",
+  "tier": "core"
+ },
+ "poltergeist.example.ja": {
+  "lang": "ja",
+  "text": "家具を動かしているのはポルターガイストだと言われた。",
+  "tier": "core"
+ },
+ "poltergeist.katakana": {
+  "lang": "ja",
+  "text": "ポルターガイスト",
+  "tier": "core"
+ },
+ "poltergeist.meaning": {
+  "lang": "ja",
+  "text": "騒がしい幽霊 現象",
+  "tier": "core"
+ },
+ "poltergeist.story": {
+  "lang": "ja",
+  "text": "物を動かしたり音を立てたりする霊。Geist は英語の ghost と同じ語根。",
+  "tier": "extended"
+ },
+ "poltergeist.word": {
+  "lang": "en",
+  "text": "poltergeist",
   "tier": "core"
  },
  "pool.example.en": {
@@ -28139,6 +29219,36 @@
   "text": "quality",
   "tier": "core"
  },
+ "quantum.example.en": {
+  "lang": "en",
+  "text": "Quantum computers could change the world.",
+  "tier": "core"
+ },
+ "quantum.example.ja": {
+  "lang": "ja",
+  "text": "量子コンピューターは世界を変えるかもしれない。",
+  "tier": "core"
+ },
+ "quantum.katakana": {
+  "lang": "ja",
+  "text": "クオンタム",
+  "tier": "core"
+ },
+ "quantum.meaning": {
+  "lang": "ja",
+  "text": "量子 の",
+  "tier": "core"
+ },
+ "quantum.story": {
+  "lang": "ja",
+  "text": "物理学で「エネルギーの最小のかたまり」の意味に。quantity 量 、quota と同じ家族。a quantum leap は「飛躍的な進歩」。",
+  "tier": "extended"
+ },
+ "quantum.word": {
+  "lang": "en",
+  "text": "quantum",
+  "tier": "core"
+ },
  "queen.example.en": {
   "lang": "en",
   "text": "The queen waved to the crowd.",
@@ -28857,6 +29967,36 @@
  "reform.word": {
   "lang": "en",
   "text": "reform",
+  "tier": "core"
+ },
+ "regime.example.en": {
+  "lang": "en",
+  "text": "The regime controlled the media.",
+  "tier": "core"
+ },
+ "regime.example.ja": {
+  "lang": "ja",
+  "text": "その政権はメディアを統制していた。",
+  "tier": "core"
+ },
+ "regime.katakana": {
+  "lang": "ja",
+  "text": "レジーム",
+  "tier": "core"
+ },
+ "regime.meaning": {
+  "lang": "ja",
+  "text": "政権、体制、療法",
+  "tier": "core"
+ },
+ "regime.story": {
+  "lang": "ja",
+  "text": "「治め方」、 政治体制。英語では「強権的な政権」の含みが出やすい。regular、region と同じ regere の家族。",
+  "tier": "extended"
+ },
+ "regime.word": {
+  "lang": "en",
+  "text": "regime",
   "tier": "core"
  },
  "rehabilitation.example.en": {
@@ -29759,6 +30899,36 @@
   "text": "revolution",
   "tier": "core"
  },
+ "rhapsody.example.en": {
+  "lang": "en",
+  "text": "The critics went into rhapsodies about the film.",
+  "tier": "core"
+ },
+ "rhapsody.example.ja": {
+  "lang": "ja",
+  "text": "批評家たちはその映画を熱狂的にほめたたえた。",
+  "tier": "core"
+ },
+ "rhapsody.katakana": {
+  "lang": "ja",
+  "text": "ラプソディ",
+  "tier": "core"
+ },
+ "rhapsody.meaning": {
+  "lang": "ja",
+  "text": "狂詩曲、熱狂的な言葉",
+  "tier": "core"
+ },
+ "rhapsody.story": {
+  "lang": "ja",
+  "text": "吟遊詩人が詩の断片を「縫い合わせて」歌ったことから。自由な形式の楽曲、熱のこもった言葉にも。",
+  "tier": "extended"
+ },
+ "rhapsody.word": {
+  "lang": "en",
+  "text": "rhapsody",
+  "tier": "core"
+ },
  "rhetoric.example.en": {
   "lang": "en",
   "text": "His speech was all rhetoric and no action.",
@@ -30057,6 +31227,36 @@
  "rocket.word": {
   "lang": "en",
   "text": "rocket",
+  "tier": "core"
+ },
+ "rococo.example.en": {
+  "lang": "en",
+  "text": "The palace is decorated in rococo style.",
+  "tier": "core"
+ },
+ "rococo.example.ja": {
+  "lang": "ja",
+  "text": "その宮殿はロココ様式で飾られている。",
+  "tier": "core"
+ },
+ "rococo.katakana": {
+  "lang": "ja",
+  "text": "ロココ",
+  "tier": "core"
+ },
+ "rococo.meaning": {
+  "lang": "ja",
+  "text": "ロココ様式 の",
+  "tier": "core"
+ },
+ "rococo.story": {
+  "lang": "ja",
+  "text": "18世紀フランスの、貝殻のような曲線を多用した優美な装飾様式。baroque をもじった語ともいわれる。",
+  "tier": "extended"
+ },
+ "rococo.word": {
+  "lang": "en",
+  "text": "rococo",
   "tier": "core"
  },
  "romance.example.en": {
@@ -31379,6 +32579,36 @@
   "text": "sentimental",
   "tier": "core"
  },
+ "serenade.example.en": {
+  "lang": "en",
+  "text": "He serenaded her under the window.",
+  "tier": "core"
+ },
+ "serenade.example.ja": {
+  "lang": "ja",
+  "text": "彼は窓の下で彼女に愛の歌を歌った。",
+  "tier": "core"
+ },
+ "serenade.katakana": {
+  "lang": "ja",
+  "text": "セレナーデ",
+  "tier": "core"
+ },
+ "serenade.meaning": {
+  "lang": "ja",
+  "text": "小夜曲、恋人に歌う 曲",
+  "tier": "core"
+ },
+ "serenade.story": {
+  "lang": "ja",
+  "text": "serene 穏やかな、晴れた と同じ語。恋人の家の窓の下で夜に歌う歌。",
+  "tier": "extended"
+ },
+ "serenade.word": {
+  "lang": "en",
+  "text": "serenade",
+  "tier": "core"
+ },
  "series.example.en": {
   "lang": "en",
   "text": "I watched the whole series in one weekend.",
@@ -31557,6 +32787,36 @@
  "set.word": {
   "lang": "en",
   "text": "set",
+  "tier": "core"
+ },
+ "shaman.example.en": {
+  "lang": "en",
+  "text": "The shaman performed a healing ceremony.",
+  "tier": "core"
+ },
+ "shaman.example.ja": {
+  "lang": "ja",
+  "text": "シャーマンが癒やしの儀式を行った。",
+  "tier": "core"
+ },
+ "shaman.katakana": {
+  "lang": "ja",
+  "text": "シャーマン",
+  "tier": "core"
+ },
+ "shaman.meaning": {
+  "lang": "ja",
+  "text": "巫術師、シャーマン",
+  "tier": "core"
+ },
+ "shaman.story": {
+  "lang": "ja",
+  "text": "シベリアの民族の、神霊と交信する人の呼び名。17世紀にロシア語を通じてヨーロッパに伝わった。",
+  "tier": "extended"
+ },
+ "shaman.word": {
+  "lang": "en",
+  "text": "shaman",
   "tier": "core"
  },
  "shampoo.example.en": {
@@ -32997,6 +34257,36 @@
  "sommelier.word": {
   "lang": "en",
   "text": "sommelier",
+  "tier": "core"
+ },
+ "sonata.example.en": {
+  "lang": "en",
+  "text": "She played a Beethoven sonata.",
+  "tier": "core"
+ },
+ "sonata.example.ja": {
+  "lang": "ja",
+  "text": "彼女はベートーヴェンのソナタを弾いた。",
+  "tier": "core"
+ },
+ "sonata.katakana": {
+  "lang": "ja",
+  "text": "ソナタ",
+  "tier": "core"
+ },
+ "sonata.meaning": {
+  "lang": "ja",
+  "text": "奏鳴曲、ソナタ",
+  "tier": "core"
+ },
+ "sonata.story": {
+  "lang": "ja",
+  "text": "歌われる cantata カンタータ に対して、楽器で「鳴らされる」曲。sound、sonic と同じ sonare の家族。",
+  "tier": "extended"
+ },
+ "sonata.word": {
+  "lang": "en",
+  "text": "sonata",
   "tier": "core"
  },
  "song.example.en": {
@@ -35689,6 +36979,11 @@
   "text": "abstract",
   "tier": "core"
  },
+ "syn.abstract-art": {
+  "lang": "en",
+  "text": "abstract art",
+  "tier": "core"
+ },
  "syn.abuse": {
   "lang": "en",
   "text": "abuse",
@@ -36164,6 +37459,16 @@
   "text": "atom",
   "tier": "core"
  },
+ "syn.atomic": {
+  "lang": "en",
+  "text": "atomic",
+  "tier": "core"
+ },
+ "syn.atrocity": {
+  "lang": "en",
+  "text": "atrocity",
+  "tier": "core"
+ },
  "syn.attack": {
   "lang": "en",
   "text": "attack",
@@ -36334,6 +37639,11 @@
   "text": "balcony",
   "tier": "core"
  },
+ "syn.ballad": {
+  "lang": "en",
+  "text": "ballad",
+  "tier": "core"
+ },
  "syn.ballet": {
   "lang": "en",
   "text": "ballet",
@@ -36382,6 +37692,11 @@
  "syn.bargaining": {
   "lang": "en",
   "text": "bargaining",
+  "tier": "core"
+ },
+ "syn.baroque": {
+  "lang": "en",
+  "text": "baroque",
   "tier": "core"
  },
  "syn.barrier": {
@@ -36679,6 +37994,11 @@
   "text": "border",
   "tier": "core"
  },
+ "syn.boredom": {
+  "lang": "en",
+  "text": "boredom",
+  "tier": "core"
+ },
  "syn.boss": {
   "lang": "en",
   "text": "boss",
@@ -36807,6 +38127,11 @@
  "syn.builder": {
   "lang": "en",
   "text": "builder",
+  "tier": "core"
+ },
+ "syn.buildup": {
+  "lang": "en",
+  "text": "buildup",
   "tier": "core"
  },
  "syn.bulb": {
@@ -37144,6 +38469,11 @@
   "text": "channel",
   "tier": "core"
  },
+ "syn.chant": {
+  "lang": "en",
+  "text": "chant",
+  "tier": "core"
+ },
  "syn.chaos": {
   "lang": "en",
   "text": "chaos",
@@ -37217,6 +38547,11 @@
  "syn.cheers": {
   "lang": "en",
   "text": "cheers",
+  "tier": "core"
+ },
+ "syn.chemical": {
+  "lang": "en",
+  "text": "chemical",
   "tier": "core"
  },
  "syn.chemical-free": {
@@ -37367,6 +38702,11 @@
  "syn.client": {
   "lang": "en",
   "text": "client",
+  "tier": "core"
+ },
+ "syn.climax": {
+  "lang": "en",
+  "text": "climax",
   "tier": "core"
  },
  "syn.clinic": {
@@ -37769,6 +39109,11 @@
   "text": "convention",
   "tier": "core"
  },
+ "syn.conventional": {
+  "lang": "en",
+  "text": "conventional",
+  "tier": "core"
+ },
  "syn.conversation": {
   "lang": "en",
   "text": "conversation",
@@ -37837,6 +39182,11 @@
  "syn.corridor": {
   "lang": "en",
   "text": "corridor",
+  "tier": "core"
+ },
+ "syn.corruption": {
+  "lang": "en",
+  "text": "corruption",
   "tier": "core"
  },
  "syn.cosmetics": {
@@ -38234,6 +39584,11 @@
   "text": "decisive",
   "tier": "core"
  },
+ "syn.decline": {
+  "lang": "en",
+  "text": "decline",
+  "tier": "core"
+ },
  "syn.declutter": {
   "lang": "en",
   "text": "declutter",
@@ -38337,6 +39692,11 @@
  "syn.dessert": {
   "lang": "en",
   "text": "dessert",
+  "tier": "core"
+ },
+ "syn.destiny": {
+  "lang": "en",
+  "text": "destiny",
   "tier": "core"
  },
  "syn.detective-story": {
@@ -38594,6 +39954,11 @@
   "text": "dormitory",
   "tier": "core"
  },
+ "syn.double": {
+  "lang": "en",
+  "text": "double",
+  "tier": "core"
+ },
  "syn.download": {
   "lang": "en",
   "text": "download",
@@ -38679,6 +40044,11 @@
   "text": "dull",
   "tier": "core"
  },
+ "syn.dummy": {
+  "lang": "en",
+  "text": "dummy",
+  "tier": "core"
+ },
  "syn.dunk": {
   "lang": "en",
   "text": "dunk",
@@ -38737,6 +40107,11 @@
  "syn.edge": {
   "lang": "en",
   "text": "edge",
+  "tier": "core"
+ },
+ "syn.editing": {
+  "lang": "en",
+  "text": "editing",
   "tier": "core"
  },
  "syn.edition": {
@@ -38864,9 +40239,19 @@
   "text": "ending",
   "tier": "core"
  },
+ "syn.endorphin": {
+  "lang": "en",
+  "text": "endorphin",
+  "tier": "core"
+ },
  "syn.endurance": {
   "lang": "en",
   "text": "endurance",
+  "tier": "core"
+ },
+ "syn.enemy": {
+  "lang": "en",
+  "text": "enemy",
   "tier": "core"
  },
  "syn.energetic": {
@@ -38937,6 +40322,11 @@
  "syn.environment": {
   "lang": "en",
   "text": "environment",
+  "tier": "core"
+ },
+ "syn.enzyme": {
+  "lang": "en",
+  "text": "enzyme",
   "tier": "core"
  },
  "syn.epic": {
@@ -39149,6 +40539,11 @@
   "text": "fair",
   "tier": "core"
  },
+ "syn.fake": {
+  "lang": "en",
+  "text": "fake",
+  "tier": "core"
+ },
  "syn.falling-prices": {
   "lang": "en",
   "text": "falling prices",
@@ -39169,6 +40564,16 @@
   "text": "fan",
   "tier": "core"
  },
+ "syn.fantasia": {
+  "lang": "en",
+  "text": "fantasia",
+  "tier": "core"
+ },
+ "syn.fantasy": {
+  "lang": "en",
+  "text": "fantasy",
+  "tier": "core"
+ },
  "syn.farming": {
   "lang": "en",
   "text": "farming",
@@ -39177,6 +40582,11 @@
  "syn.fashion": {
   "lang": "en",
   "text": "fashion",
+  "tier": "core"
+ },
+ "syn.fashionable": {
+  "lang": "en",
+  "text": "fashionable",
   "tier": "core"
  },
  "syn.fast": {
@@ -39419,6 +40829,11 @@
   "text": "float",
   "tier": "core"
  },
+ "syn.fluid": {
+  "lang": "en",
+  "text": "fluid",
+  "tier": "core"
+ },
  "syn.flyer": {
   "lang": "en",
   "text": "flyer",
@@ -39437,6 +40852,11 @@
  "syn.folder": {
   "lang": "en",
   "text": "folder",
+  "tier": "core"
+ },
+ "syn.font": {
+  "lang": "en",
+  "text": "font",
   "tier": "core"
  },
  "syn.food-service": {
@@ -39557,6 +40977,11 @@
  "syn.free": {
   "lang": "en",
   "text": "free",
+  "tier": "core"
+ },
+ "syn.free-spirited": {
+  "lang": "en",
+  "text": "free-spirited",
   "tier": "core"
  },
  "syn.free-time": {
@@ -39697,6 +41122,11 @@
  "syn.gathering": {
   "lang": "en",
   "text": "gathering",
+  "tier": "core"
+ },
+ "syn.gaudy": {
+  "lang": "en",
+  "text": "gaudy",
   "tier": "core"
  },
  "syn.gauge": {
@@ -39847,6 +41277,11 @@
  "syn.gourd": {
   "lang": "en",
   "text": "gourd",
+  "tier": "core"
+ },
+ "syn.government": {
+  "lang": "en",
+  "text": "government",
   "tier": "core"
  },
  "syn.gown": {
@@ -40022,6 +41457,11 @@
  "syn.handout": {
   "lang": "en",
   "text": "handout",
+  "tier": "core"
+ },
+ "syn.handwriting": {
+  "lang": "en",
+  "text": "handwriting",
   "tier": "core"
  },
  "syn.hanky": {
@@ -40237,6 +41677,11 @@
  "syn.holiday-spot": {
   "lang": "en",
   "text": "holiday spot",
+  "tier": "core"
+ },
+ "syn.homage": {
+  "lang": "en",
+  "text": "homage",
   "tier": "core"
  },
  "syn.home": {
@@ -40652,6 +42097,11 @@
  "syn.involvement": {
   "lang": "en",
   "text": "involvement",
+  "tier": "core"
+ },
+ "syn.ion": {
+  "lang": "en",
+  "text": "ion",
   "tier": "core"
  },
  "syn.iron": {
@@ -41209,6 +42659,11 @@
   "text": "look",
   "tier": "core"
  },
+ "syn.lookalike": {
+  "lang": "en",
+  "text": "lookalike",
+  "tier": "core"
+ },
  "syn.loot": {
   "lang": "en",
   "text": "loot",
@@ -41244,6 +42699,11 @@
   "text": "love affair",
   "tier": "core"
  },
+ "syn.love-song": {
+  "lang": "en",
+  "text": "love song",
+  "tier": "core"
+ },
  "syn.love-story": {
   "lang": "en",
   "text": "love story",
@@ -41272,6 +42732,11 @@
  "syn.luggage": {
   "lang": "en",
   "text": "luggage",
+  "tier": "core"
+ },
+ "syn.lullaby": {
+  "lang": "en",
+  "text": "lullaby",
   "tier": "core"
  },
  "syn.lunar": {
@@ -41439,6 +42904,11 @@
   "text": "mass",
   "tier": "core"
  },
+ "syn.massacre": {
+  "lang": "en",
+  "text": "massacre",
+  "tier": "core"
+ },
  "syn.master": {
   "lang": "en",
   "text": "master",
@@ -41504,6 +42974,11 @@
   "text": "media",
   "tier": "core"
  },
+ "syn.medicine-man": {
+  "lang": "en",
+  "text": "medicine man",
+  "tier": "core"
+ },
  "syn.medieval": {
   "lang": "en",
   "text": "medieval",
@@ -41517,6 +42992,11 @@
  "syn.meeting": {
   "lang": "en",
   "text": "meeting",
+  "tier": "core"
+ },
+ "syn.melancholy": {
+  "lang": "en",
+  "text": "melancholy",
   "tier": "core"
  },
  "syn.member": {
@@ -41537,6 +43017,11 @@
  "syn.menthol": {
   "lang": "en",
   "text": "menthol",
+  "tier": "core"
+ },
+ "syn.mentor": {
+  "lang": "en",
+  "text": "mentor",
   "tier": "core"
  },
  "syn.merchandise": {
@@ -41704,6 +43189,11 @@
   "text": "moderator",
   "tier": "core"
  },
+ "syn.modern-art": {
+  "lang": "en",
+  "text": "modern art",
+  "tier": "core"
+ },
  "syn.moisturizer": {
   "lang": "en",
   "text": "moisturizer",
@@ -41734,6 +43224,16 @@
   "text": "monitoring",
   "tier": "core"
  },
+ "syn.monster": {
+  "lang": "en",
+  "text": "monster",
+  "tier": "core"
+ },
+ "syn.montage": {
+  "lang": "en",
+  "text": "montage",
+  "tier": "core"
+ },
  "syn.mood": {
   "lang": "en",
   "text": "mood",
@@ -41757,6 +43257,11 @@
  "syn.mortgage": {
   "lang": "en",
   "text": "mortgage",
+  "tier": "core"
+ },
+ "syn.mosaic": {
+  "lang": "en",
+  "text": "mosaic",
   "tier": "core"
  },
  "syn.motel": {
@@ -41812,6 +43317,11 @@
  "syn.multicultural": {
   "lang": "en",
   "text": "multicultural",
+  "tier": "core"
+ },
+ "syn.mural": {
+  "lang": "en",
+  "text": "mural",
   "tier": "core"
  },
  "syn.musical": {
@@ -42274,6 +43784,11 @@
   "text": "overseas",
   "tier": "core"
  },
+ "syn.overthrow": {
+  "lang": "en",
+  "text": "overthrow",
+  "tier": "core"
+ },
  "syn.overworker": {
   "lang": "en",
   "text": "overworker",
@@ -42307,6 +43822,11 @@
  "syn.painter": {
   "lang": "en",
   "text": "painter",
+  "tier": "core"
+ },
+ "syn.painting": {
+  "lang": "en",
+  "text": "painting",
   "tier": "core"
  },
  "syn.pair": {
@@ -42387,6 +43907,11 @@
  "syn.participant": {
   "lang": "en",
   "text": "participant",
+  "tier": "core"
+ },
+ "syn.particle": {
+  "lang": "en",
+  "text": "particle",
   "tier": "core"
  },
  "syn.particular": {
@@ -42869,6 +44394,11 @@
   "text": "pragmatism",
   "tier": "core"
  },
+ "syn.praise": {
+  "lang": "en",
+  "text": "praise",
+  "tier": "core"
+ },
  "syn.precedence": {
   "lang": "en",
   "text": "precedence",
@@ -42957,6 +44487,11 @@
  "syn.pride": {
   "lang": "en",
   "text": "pride",
+  "tier": "core"
+ },
+ "syn.priest": {
+  "lang": "en",
+  "text": "priest",
   "tier": "core"
  },
  "syn.primate": {
@@ -43247,6 +44782,11 @@
  "syn.queen": {
   "lang": "en",
   "text": "queen",
+  "tier": "core"
+ },
+ "syn.quest": {
+  "lang": "en",
+  "text": "quest",
   "tier": "core"
  },
  "syn.questionnaire": {
@@ -43839,6 +45379,11 @@
   "text": "ritual",
   "tier": "core"
  },
+ "syn.rival": {
+  "lang": "en",
+  "text": "rival",
+  "tier": "core"
+ },
  "syn.road": {
   "lang": "en",
   "text": "road",
@@ -44134,6 +45679,11 @@
   "text": "screwdriver",
   "tier": "core"
  },
+ "syn.scribble": {
+  "lang": "en",
+  "text": "scribble",
+  "tier": "core"
+ },
  "syn.script": {
   "lang": "en",
   "text": "script",
@@ -44244,6 +45794,11 @@
   "text": "sequence",
   "tier": "core"
  },
+ "syn.serenade": {
+  "lang": "en",
+  "text": "serenade",
+  "tier": "core"
+ },
  "syn.series": {
   "lang": "en",
   "text": "series",
@@ -44252,6 +45807,11 @@
  "syn.seriousness": {
   "lang": "en",
   "text": "seriousness",
+  "tier": "core"
+ },
+ "syn.serotonin": {
+  "lang": "en",
+  "text": "serotonin",
   "tier": "core"
  },
  "syn.serpent": {
@@ -44674,6 +46234,11 @@
   "text": "solution",
   "tier": "core"
  },
+ "syn.sonata": {
+  "lang": "en",
+  "text": "sonata",
+  "tier": "core"
+ },
  "syn.song": {
   "lang": "en",
   "text": "song",
@@ -44822,6 +46387,11 @@
  "syn.spire": {
   "lang": "en",
   "text": "spire",
+  "tier": "core"
+ },
+ "syn.spirit": {
+  "lang": "en",
+  "text": "spirit",
   "tier": "core"
  },
  "syn.spirits": {
@@ -45047,6 +46617,11 @@
  "syn.stream": {
   "lang": "en",
   "text": "stream",
+  "tier": "core"
+ },
+ "syn.street-art": {
+  "lang": "en",
+  "text": "street art",
   "tier": "core"
  },
  "syn.strength": {
@@ -45324,6 +46899,11 @@
   "text": "symbol",
   "tier": "core"
  },
+ "syn.symphony": {
+  "lang": "en",
+  "text": "symphony",
+  "tier": "core"
+ },
  "syn.synthetic": {
   "lang": "en",
   "text": "synthetic",
@@ -45347,6 +46927,11 @@
  "syn.table": {
   "lang": "en",
   "text": "table",
+  "tier": "core"
+ },
+ "syn.tacky": {
+  "lang": "en",
+  "text": "tacky",
   "tier": "core"
  },
  "syn.tactics": {
@@ -45734,6 +47319,11 @@
   "text": "tradition",
   "tier": "core"
  },
+ "syn.traditional": {
+  "lang": "en",
+  "text": "traditional",
+  "tier": "core"
+ },
  "syn.trainer": {
   "lang": "en",
   "text": "trainer",
@@ -45932,6 +47522,11 @@
  "syn.unanimity": {
   "lang": "en",
   "text": "unanimity",
+  "tier": "core"
+ },
+ "syn.unconventional": {
+  "lang": "en",
+  "text": "unconventional",
   "tier": "core"
  },
  "syn.undermine": {
@@ -46394,6 +47989,11 @@
   "text": "wheel",
   "tier": "core"
  },
+ "syn.whole": {
+  "lang": "en",
+  "text": "whole",
+  "tier": "core"
+ },
  "syn.wi-fi": {
   "lang": "en",
   "text": "Wi-Fi",
@@ -46562,6 +48162,36 @@
  "syn.youth": {
   "lang": "en",
   "text": "youth",
+  "tier": "core"
+ },
+ "syndrome.example.en": {
+  "lang": "en",
+  "text": "He was diagnosed with a rare syndrome.",
+  "tier": "core"
+ },
+ "syndrome.example.ja": {
+  "lang": "ja",
+  "text": "彼はまれな症候群と診断された。",
+  "tier": "core"
+ },
+ "syndrome.katakana": {
+  "lang": "ja",
+  "text": "シンドローム",
+  "tier": "core"
+ },
+ "syndrome.meaning": {
+  "lang": "ja",
+  "text": "症候群",
+  "tier": "core"
+ },
+ "syndrome.story": {
+  "lang": "ja",
+  "text": "いくつもの症状が「一緒に現れる」こと。dromedary ヒトコブラクダ、よく走る も同じ語根。",
+  "tier": "extended"
+ },
+ "syndrome.word": {
+  "lang": "en",
+  "text": "syndrome",
   "tier": "core"
  },
  "synergy.example.en": {
@@ -48782,6 +50412,36 @@
  "type.word": {
   "lang": "en",
   "text": "type",
+  "tier": "core"
+ },
+ "typography.example.en": {
+  "lang": "en",
+  "text": "Good typography makes a website easy to read.",
+  "tier": "core"
+ },
+ "typography.example.ja": {
+  "lang": "ja",
+  "text": "よい文字組みはウェブサイトを読みやすくする。",
+  "tier": "core"
+ },
+ "typography.katakana": {
+  "lang": "ja",
+  "text": "タイポグラフィ",
+  "tier": "core"
+ },
+ "typography.meaning": {
+  "lang": "ja",
+  "text": "文字のデザイン、組版",
+  "tier": "core"
+ },
+ "typography.story": {
+  "lang": "ja",
+  "text": "活字 type で「書く」技術。type、prototype と同じ typos の家族。",
+  "tier": "extended"
+ },
+ "typography.word": {
+  "lang": "en",
+  "text": "typography",
   "tier": "core"
  },
  "ultimate.example.en": {
