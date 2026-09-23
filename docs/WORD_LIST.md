@@ -2,9 +2,9 @@
 
 > このファイルは `data/words.json` と `data/roots.json` から `python3 scripts/build_wordlist.py` で自動生成されています。直接編集しないでください。
 
-収録語数: **1369 語**（類義語 2836 語） / 語根ファミリー: **56 種**
+収録語数: **1425 語**（類義語 2948 語） / 語根ファミリー: **56 種**
 
-レベル別: Lv.1 149語 / Lv.2 161語 / Lv.3 164語 / Lv.4 157語 / Lv.5 171語 / Lv.6 155語 / Lv.7 163語 / Lv.8 129語 / Lv.9 71語 / Lv.10 49語
+レベル別: Lv.1 149語 / Lv.2 189語 / Lv.3 189語 / Lv.4 157語 / Lv.5 174語 / Lv.6 155語 / Lv.7 163語 / Lv.8 129語 / Lv.9 71語 / Lv.10 49語
 
 > レベルはこのアプリ独自の分け方です（カタカナとしてのなじみやすさと、英語の難しさで決めています）。
 
@@ -13,10 +13,10 @@
 ## 目次
 
 - Lv.1 ひと目でわかる — [dog](#dog), [cat](#cat), [apple](#apple), [milk](#milk), [tea](#tea), [juice](#juice), [cake](#cake), [table](#table), [bed](#bed), [door](#door), [bus](#bus), [train](#train), [park](#park), [pen](#pen), [music](#music), [piano](#piano), [ball](#ball), [color](#color), [sport](#sport), [egg](#egg), [fish](#fish), [bag](#bag), [cup](#cup), [box](#box), [desk](#desk), [room](#room), [house](#house), [car](#car), [game](#game), [book](#book), [song](#song), [happy](#happy), [home](#home), [watch](#watch), [shoes](#shoes), [shirt](#shirt), [cap](#cap), [ice](#ice), [pizza](#pizza), [soup](#soup), [rice](#rice), [jam](#jam), [candy](#candy), [bear](#bear), [panda](#panda), [bath](#bath), [towel](#towel), [clock](#clock), [dance](#dance), [drum](#drum), [sofa](#sofa), [red](#red), [blue](#blue), [green](#green), [pink](#pink), [black](#black), [white](#white), [big](#big), [nice](#nice), [melon](#melon), [peach](#peach), [kiwi](#kiwi), [cherry](#cherry), [grape](#grape), [cola](#cola), [soda](#soda), [bacon](#bacon), [ham](#ham), [steak](#steak), [curry](#curry), [pasta](#pasta), [pepper](#pepper), [honey](#honey), [toast](#toast), [donut](#donut), [pie](#pie), [zebra](#zebra), [koala](#koala), [gorilla](#gorilla), [shark](#shark), [lamp](#lamp), [mirror](#mirror), [curtain](#curtain), [carpet](#carpet), [toilet](#toilet), [tissue](#tissue), [brush](#brush), [tape](#tape), [hat](#hat), [boots](#boots), [socks](#socks), [belt](#belt), [pocket](#pocket), [jeans](#jeans), [golf](#golf), [ski](#ski), [hit](#hit), [bat](#bat), [net](#net), [radio](#radio), [mail](#mail), [cool](#cool), [hot](#hot), [cute](#cute), [sweet](#sweet), [fresh](#fresh), [soft](#soft), [love](#love), [heart](#heart), [sun](#sun), [moon](#moon), [sky](#sky), [snow](#snow), [rain](#rain), [rainbow](#rainbow), [fire](#fire), [water](#water), [gold](#gold), [silver](#silver), [king](#king), [queen](#queen), [prince](#prince), [princess](#princess), [boy](#boy), [girl](#girl), [lady](#lady), [coin](#coin), [gum](#gum), [jelly](#jelly), [pudding](#pudding), [straw](#straw), [pot](#pot), [doll](#doll), [puzzle](#puzzle), [block](#block), [circle](#circle), [line](#line), [stop](#stop), [kick](#kick), [punch](#punch), [dash](#dash), [jogging](#jogging), [rose](#rose), [tulip](#tulip), [potato](#potato), [onion](#onion), [corn](#corn), [mint](#mint), [pool](#pool)
-- Lv.2 くらしの定番 — [mouse](#mouse), [lion](#lion), [tiger](#tiger), [banana](#banana), [orange](#orange), [lemon](#lemon), [tomato](#tomato), [coffee](#coffee), [bread](#bread), [chocolate](#chocolate), [window](#window), [kitchen](#kitchen), [key](#key), [taxi](#taxi), [hotel](#hotel), [bank](#bank), [pencil](#pencil), [note](#note), [school](#school), [test](#test), [family](#family), [friend](#friend), [baby](#baby), [star](#star), [flower](#flower), [tree](#tree), [camera](#camera), [phone](#phone), [team](#team), [tennis](#tennis), [soccer](#soccer), [hobby](#hobby), [menu](#menu), [salad](#salad), [bike](#bike), [party](#party), [card](#card), [birthday](#birthday), [morning](#morning), [guitar](#guitar), [baseball](#baseball), [swimming](#swimming), [map](#map), [plan](#plan), [dream](#dream), [smile](#smile), [shop](#shop), [fruit](#fruit), [lunch](#lunch), [camp](#camp), [beach](#beach), [river](#river), [size](#size), [hamburger](#hamburger), [monkey](#monkey), [calendar](#calendar), [racket](#racket), [volleyball](#volleyball), [basketball](#basketball), [violin](#violin), [summer](#summer), [winter](#winter), [town](#town), [city](#city), [speed](#speed), [power](#power), [point](#point), [rule](#rule), [club](#club), [drink](#drink), [cream](#cream), [sugar](#sugar), [spoon](#spoon), [fork](#fork), [knife](#knife), [glass](#glass), [plate](#plate), [farm](#farm), [tower](#tower), [boat](#boat), [lucky](#lucky), [easy](#easy), [hard](#hard), [slow](#slow), [short](#short), [top](#top), [skirt](#skirt), [dress](#dress), [coat](#coat), [glove](#glove), [ring](#ring), [strawberry](#strawberry), [pineapple](#pineapple), [avocado](#avocado), [broccoli](#broccoli), [cabbage](#cabbage), [lettuce](#lettuce), [pumpkin](#pumpkin), [popcorn](#popcorn), [vanilla](#vanilla), [pancake](#pancake), [omelet](#omelet), [stew](#stew), [sausage](#sausage), [yogurt](#yogurt), [mayonnaise](#mayonnaise), [ketchup](#ketchup), [dressing](#dressing), [cereal](#cereal), [cocoa](#cocoa), [kangaroo](#kangaroo), [cheetah](#cheetah), [hamster](#hamster), [flamingo](#flamingo), [oven](#oven), [heater](#heater), [closet](#closet), [blanket](#blanket), [cushion](#cushion), [veranda](#veranda), [garage](#garage), [fence](#fence), [gate](#gate), [supermarket](#supermarket), [convenience](#convenience), [bakery](#bakery), [cafe](#cafe), [parking](#parking), [subway](#subway), [tunnel](#tunnel), [drugstore](#drugstore), [cable](#cable), [plug](#plug), [outlet](#outlet), [remote](#remote), [speaker](#speaker), [headphones](#headphones), [keyboard](#keyboard), [printer](#printer), [nurse](#nurse), [chef](#chef), [driver](#driver), [singer](#singer), [free](#free), [sunglasses](#sunglasses), [necktie](#necktie), [parka](#parka), [sneakers](#sneakers), [backpack](#backpack), [mug](#mug), [kettle](#kettle), [napkin](#napkin), [candle](#candle), [poster](#poster), [sticker](#sticker), [handkerchief](#handkerchief), [slippers](#slippers), [lotion](#lotion), [cooking](#cooking), [barbecue](#barbecue), [buffet](#buffet)
-- Lv.3 よく使う — [dragon](#dragon), [level](#level), [hero](#hero), [boss](#boss), [stage](#stage), [fan](#fan), [rabbit](#rabbit), [cookie](#cookie), [cheese](#cheese), [sandwich](#sandwich), [butter](#butter), [hospital](#hospital), [restaurant](#restaurant), [station](#station), [season](#season), [television](#television), [computer](#computer), [robot](#robot), [goal](#goal), [sauce](#sauce), [sign](#sign), [fight](#fight), [event](#event), [present](#present), [idea](#idea), [news](#news), [doctor](#doctor), [animal](#animal), [pants](#pants), [museum](#museum), [library](#library), [concert](#concert), [ticket](#ticket), [vegetable](#vegetable), [dinner](#dinner), [picnic](#picnic), [island](#island), [mountain](#mountain), [jacket](#jacket), [nature](#nature), [future](#future), [simple](#simple), [speech](#speech), [member](#member), [chance](#chance), [airport](#airport), [street](#street), [building](#building), [elevator](#elevator), [letter](#letter), [bottle](#bottle), [garden](#garden), [bridge](#bridge), [rocket](#rocket), [sweater](#sweater), [answer](#answer), [action](#action), [album](#album), [bench](#bench), [button](#button), [center](#center), [change](#change), [check](#check), [choice](#choice), [design](#design), [guide](#guide), [guest](#guest), [group](#group), [jump](#jump), [keep](#keep), [magic](#magic), [mark](#mark), [memory](#memory), [model](#model), [open](#open), [order](#order), [page](#page), [pair](#pair), [pass](#pass), [photo](#photo), [print](#print), [report](#report), [score](#score), [set](#set), [shower](#shower), [skill](#skill), [space](#space), [start](#start), [style](#style), [title](#title), [tour](#tour), [type](#type), [lesson](#lesson), [hiking](#hiking), [stadium](#stadium), [arena](#arena), [gym](#gym), [hall](#hall), [lobby](#lobby), [front](#front), [tent](#tent), [cottage](#cottage), [resort](#resort), [cruise](#cruise), [passport](#passport), [suitcase](#suitcase), [notebook](#notebook), [homeroom](#homeroom), [band](#band), [chorus](#chorus), [orchestra](#orchestra), [melody](#melody), [harmony](#harmony), [cartoon](#cartoon), [character](#character), [story](#story), [novel](#novel), [diary](#diary), [sketch](#sketch), [paint](#paint), [craft](#craft), [yoga](#yoga), [fitness](#fitness), [training](#training), [trophy](#trophy), [medal](#medal), [champion](#champion), [record](#record), [pitcher](#pitcher), [goalkeeper](#goalkeeper), [referee](#referee), [penalty](#penalty), [foul](#foul), [tackle](#tackle), [shoot](#shoot), [serve](#serve), [smash](#smash), [rally](#rally), [relay](#relay), [course](#course), [lane](#lane), [costume](#costume), [makeup](#makeup), [nail](#nail), [accessory](#accessory), [necklace](#necklace), [bracelet](#bracelet), [pouch](#pouch), [drive](#drive), [trip](#trip), [gift](#gift), [surprise](#surprise), [balloon](#balloon), [snack](#snack), [dessert](#dessert), [sweets](#sweets), [takeout](#takeout), [coupon](#coupon), [rental](#rental), [store](#store), [mall](#mall), [rush](#rush), [timing](#timing), [pace](#pace)
+- Lv.2 くらしの定番 — [mouse](#mouse), [lion](#lion), [tiger](#tiger), [banana](#banana), [orange](#orange), [lemon](#lemon), [tomato](#tomato), [coffee](#coffee), [bread](#bread), [chocolate](#chocolate), [window](#window), [kitchen](#kitchen), [key](#key), [taxi](#taxi), [hotel](#hotel), [bank](#bank), [pencil](#pencil), [note](#note), [school](#school), [test](#test), [family](#family), [friend](#friend), [baby](#baby), [star](#star), [flower](#flower), [tree](#tree), [camera](#camera), [phone](#phone), [team](#team), [tennis](#tennis), [soccer](#soccer), [hobby](#hobby), [menu](#menu), [salad](#salad), [bike](#bike), [party](#party), [card](#card), [birthday](#birthday), [morning](#morning), [guitar](#guitar), [baseball](#baseball), [swimming](#swimming), [map](#map), [plan](#plan), [dream](#dream), [smile](#smile), [shop](#shop), [fruit](#fruit), [lunch](#lunch), [camp](#camp), [beach](#beach), [river](#river), [size](#size), [hamburger](#hamburger), [monkey](#monkey), [calendar](#calendar), [racket](#racket), [volleyball](#volleyball), [basketball](#basketball), [violin](#violin), [summer](#summer), [winter](#winter), [town](#town), [city](#city), [speed](#speed), [power](#power), [point](#point), [rule](#rule), [club](#club), [drink](#drink), [cream](#cream), [sugar](#sugar), [spoon](#spoon), [fork](#fork), [knife](#knife), [glass](#glass), [plate](#plate), [farm](#farm), [tower](#tower), [boat](#boat), [lucky](#lucky), [easy](#easy), [hard](#hard), [slow](#slow), [short](#short), [top](#top), [skirt](#skirt), [dress](#dress), [coat](#coat), [glove](#glove), [ring](#ring), [strawberry](#strawberry), [pineapple](#pineapple), [avocado](#avocado), [broccoli](#broccoli), [cabbage](#cabbage), [lettuce](#lettuce), [pumpkin](#pumpkin), [popcorn](#popcorn), [vanilla](#vanilla), [pancake](#pancake), [omelet](#omelet), [stew](#stew), [sausage](#sausage), [yogurt](#yogurt), [mayonnaise](#mayonnaise), [ketchup](#ketchup), [dressing](#dressing), [cereal](#cereal), [cocoa](#cocoa), [kangaroo](#kangaroo), [cheetah](#cheetah), [hamster](#hamster), [flamingo](#flamingo), [oven](#oven), [heater](#heater), [closet](#closet), [blanket](#blanket), [cushion](#cushion), [veranda](#veranda), [garage](#garage), [fence](#fence), [gate](#gate), [supermarket](#supermarket), [convenience](#convenience), [bakery](#bakery), [cafe](#cafe), [parking](#parking), [subway](#subway), [tunnel](#tunnel), [drugstore](#drugstore), [cable](#cable), [plug](#plug), [outlet](#outlet), [remote](#remote), [speaker](#speaker), [headphones](#headphones), [keyboard](#keyboard), [printer](#printer), [nurse](#nurse), [chef](#chef), [driver](#driver), [singer](#singer), [free](#free), [sunglasses](#sunglasses), [necktie](#necktie), [parka](#parka), [sneakers](#sneakers), [backpack](#backpack), [mug](#mug), [kettle](#kettle), [napkin](#napkin), [candle](#candle), [poster](#poster), [sticker](#sticker), [handkerchief](#handkerchief), [slippers](#slippers), [lotion](#lotion), [cooking](#cooking), [barbecue](#barbecue), [buffet](#buffet), [noodle](#noodle), [spaghetti](#spaghetti), [biscuit](#biscuit), [waffle](#waffle), [crepe](#crepe), [parfait](#parfait), [mango](#mango), [salmon](#salmon), [tuna](#tuna), [lobster](#lobster), [truck](#truck), [helicopter](#helicopter), [scooter](#scooter), [sponge](#sponge), [bucket](#bucket), [hanger](#hanger), [basket](#basket), [marker](#marker), [stapler](#stapler), [clip](#clip), [folder](#folder), [skate](#skate), [rugby](#rugby), [hockey](#hockey), [boxing](#boxing), [bowling](#bowling), [ribbon](#ribbon), [zipper](#zipper)
+- Lv.3 よく使う — [dragon](#dragon), [level](#level), [hero](#hero), [boss](#boss), [stage](#stage), [fan](#fan), [rabbit](#rabbit), [cookie](#cookie), [cheese](#cheese), [sandwich](#sandwich), [butter](#butter), [hospital](#hospital), [restaurant](#restaurant), [station](#station), [season](#season), [television](#television), [computer](#computer), [robot](#robot), [goal](#goal), [sauce](#sauce), [sign](#sign), [fight](#fight), [event](#event), [present](#present), [idea](#idea), [news](#news), [doctor](#doctor), [animal](#animal), [pants](#pants), [museum](#museum), [library](#library), [concert](#concert), [ticket](#ticket), [vegetable](#vegetable), [dinner](#dinner), [picnic](#picnic), [island](#island), [mountain](#mountain), [jacket](#jacket), [nature](#nature), [future](#future), [simple](#simple), [speech](#speech), [member](#member), [chance](#chance), [airport](#airport), [street](#street), [building](#building), [elevator](#elevator), [letter](#letter), [bottle](#bottle), [garden](#garden), [bridge](#bridge), [rocket](#rocket), [sweater](#sweater), [answer](#answer), [action](#action), [album](#album), [bench](#bench), [button](#button), [center](#center), [change](#change), [check](#check), [choice](#choice), [design](#design), [guide](#guide), [guest](#guest), [group](#group), [jump](#jump), [keep](#keep), [magic](#magic), [mark](#mark), [memory](#memory), [model](#model), [open](#open), [order](#order), [page](#page), [pair](#pair), [pass](#pass), [photo](#photo), [print](#print), [report](#report), [score](#score), [set](#set), [shower](#shower), [skill](#skill), [space](#space), [start](#start), [style](#style), [title](#title), [tour](#tour), [type](#type), [lesson](#lesson), [hiking](#hiking), [stadium](#stadium), [arena](#arena), [gym](#gym), [hall](#hall), [lobby](#lobby), [front](#front), [tent](#tent), [cottage](#cottage), [resort](#resort), [cruise](#cruise), [passport](#passport), [suitcase](#suitcase), [notebook](#notebook), [homeroom](#homeroom), [band](#band), [chorus](#chorus), [orchestra](#orchestra), [melody](#melody), [harmony](#harmony), [cartoon](#cartoon), [character](#character), [story](#story), [novel](#novel), [diary](#diary), [sketch](#sketch), [paint](#paint), [craft](#craft), [yoga](#yoga), [fitness](#fitness), [training](#training), [trophy](#trophy), [medal](#medal), [champion](#champion), [record](#record), [pitcher](#pitcher), [goalkeeper](#goalkeeper), [referee](#referee), [penalty](#penalty), [foul](#foul), [tackle](#tackle), [shoot](#shoot), [serve](#serve), [smash](#smash), [rally](#rally), [relay](#relay), [course](#course), [lane](#lane), [costume](#costume), [makeup](#makeup), [nail](#nail), [accessory](#accessory), [necklace](#necklace), [bracelet](#bracelet), [pouch](#pouch), [drive](#drive), [trip](#trip), [gift](#gift), [surprise](#surprise), [balloon](#balloon), [snack](#snack), [dessert](#dessert), [sweets](#sweets), [takeout](#takeout), [coupon](#coupon), [rental](#rental), [store](#store), [mall](#mall), [rush](#rush), [timing](#timing), [pace](#pace), [musical](#musical), [flute](#flute), [trumpet](#trumpet), [harp](#harp), [anime](#anime), [syrup](#syrup), [weekend](#weekend), [scarf](#scarf), [muffler](#muffler), [mitten](#mitten), [court](#court), [track](#track), [lock](#lock), [grill](#grill), [microwave](#microwave), [laptop](#laptop), [alarm](#alarm), [siren](#siren), [ballet](#ballet), [wallet](#wallet), [oatmeal](#oatmeal), [cook](#cook), [mascot](#mascot), [jersey](#jersey), [helmet](#helmet)
 - Lv.4 話が広がる — [monster](#monster), [knight](#knight), [rare](#rare), [attack](#attack), [guard](#guard), [damage](#damage), [challenge](#challenge), [system](#system), [penguin](#penguin), [dolphin](#dolphin), [recipe](#recipe), [fashion](#fashion), [shampoo](#shampoo), [pajamas](#pajamas), [holiday](#holiday), [culture](#culture), [history](#history), [volunteer](#volunteer), [festival](#festival), [message](#message), [communication](#communication), [popular](#popular), [special](#special), [perfect](#perfect), [contest](#contest), [captain](#captain), [uniform](#uniform), [coach](#coach), [trouble](#trouble), [image](#image), [advice](#advice), [schedule](#schedule), [sale](#sale), [online](#online), [drama](#drama), [hint](#hint), [interview](#interview), [marathon](#marathon), [pose](#pose), [program](#program), [sample](#sample), [support](#support), [zone](#zone), [host](#host), [comic](#comic), [cycling](#cycling), [chat](#chat), [clear](#clear), [cost](#cost), [cover](#cover), [follow](#follow), [item](#item), [miss](#miss), [percent](#percent), [plus](#plus), [quiz](#quiz), [repeat](#repeat), [share](#share), [sound](#sound), [stamp](#stamp), [step](#step), [topic](#topic), [video](#video), [emotional](#emotional), [romantic](#romantic), [relax](#relax), [healthy](#healthy), [calorie](#calorie), [vitamin](#vitamin), [protein](#protein), [supplement](#supplement), [allergy](#allergy), [virus](#virus), [vaccine](#vaccine), [care](#care), [clinic](#clinic), [massage](#massage), [sauna](#sauna), [smartphone](#smartphone), [app](#app), [internet](#internet), [website](#website), [blog](#blog), [login](#login), [update](#update), [wireless](#wireless), [selfie](#selfie), [streaming](#streaming), [podcast](#podcast), [keyword](#keyword), [icon](#icon), [tap](#tap), [click](#click), [scroll](#scroll), [copy](#copy), [cloud](#cloud), [server](#server), [drone](#drone), [plastic](#plastic), [solar](#solar), [gas](#gas), [oil](#oil), [engine](#engine), [motor](#motor), [brake](#brake), [tire](#tire), [gasoline](#gasoline), [manner](#manner), [etiquette](#etiquette), [pet](#pet), [boom](#boom), [ranking](#ranking), [best](#best), [number](#number), [count](#count), [rank](#rank), [grade](#grade), [class](#class), [coordinate](#coordinate), [denim](#denim), [leather](#leather), [cotton](#cotton), [silk](#silk), [wool](#wool), [rubber](#rubber), [metal](#metal), [concrete](#concrete), [paper](#paper), [vinyl](#vinyl), [aluminum](#aluminum), [steel](#steel), [diamond](#diamond), [crystal](#crystal), [pearl](#pearl), [jewel](#jewel), [purple](#purple), [brown](#brown), [gray](#gray), [beige](#beige), [navy](#navy), [yellow](#yellow), [square](#square), [triangle](#triangle), [cross](#cross), [curve](#curve), [angle](#angle), [corner](#corner), [side](#side), [back](#back), [weight](#weight), [meter](#meter), [dozen](#dozen), [pack](#pack), [master](#master), [tempo](#tempo), [palette](#palette), [canvas](#canvas)
-- Lv.5 よく見聞きする — [spell](#spell), [legend](#legend), [treasure](#treasure), [equipment](#equipment), [critical](#critical), [counter](#counter), [barrier](#barrier), [rival](#rival), [escape](#escape), [mission](#mission), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [smart](#smart), [claim](#claim), [ace](#ace), [spirit](#spirit), [miracle](#miracle), [brave](#brave), [battery](#battery), [energy](#energy), [service](#service), [handle](#handle), [talent](#talent), [diet](#diet), [jungle](#jungle), [stove](#stove), [recycle](#recycle), [balance](#balance), [career](#career), [delivery](#delivery), [password](#password), [data](#data), [technology](#technology), [trainer](#trainer), [cooler](#cooler), [viking](#viking), [bargain](#bargain), [cider](#cider), [comment](#comment), [stress](#stress), [risk](#risk), [professional](#professional), [campaign](#campaign), [brand](#brand), [quality](#quality), [security](#security), [routine](#routine), [license](#license), [gap](#gap), [trend](#trend), [access](#access), [account](#account), [arrange](#arrange), [cancel](#cancel), [catalog](#catalog), [channel](#channel), [charge](#charge), [classic](#classic), [collection](#collection), [download](#download), [entry](#entry), [error](#error), [fake](#fake), [file](#file), [filter](#filter), [frame](#frame), [goods](#goods), [graph](#graph), [impact](#impact), [label](#label), [limit](#limit), [link](#link), [mask](#mask), [media](#media), [mode](#mode), [monitor](#monitor), [option](#option), [original](#original), [pattern](#pattern), [post](#post), [project](#project), [reset](#reset), [rhythm](#rhythm), [seal](#seal), [shock](#shock), [studio](#studio), [total](#total), [pierce](#pierce), [approach](#approach), [benefit](#benefit), [community](#community), [content](#content), [debate](#debate), [device](#device), [digital](#digital), [document](#document), [economy](#economy), [feature](#feature), [global](#global), [humor](#humor), [issue](#issue), [material](#material), [method](#method), [network](#network), [official](#official), [partner](#partner), [performance](#performance), [policy](#policy), [positive](#positive), [negative](#negative), [pressure](#pressure), [public](#public), [rescue](#rescue), [research](#research), [respect](#respect), [series](#series), [source](#source), [symbol](#symbol), [theme](#theme), [theory](#theory), [unique](#unique), [value](#value), [variety](#variety), [live](#live), [talk](#talk), [comedy](#comedy), [episode](#episode), [genre](#genre), [fantasy](#fantasy), [horror](#horror), [mystery](#mystery), [suspense](#suspense), [documentary](#documentary), [cast](#cast), [producer](#producer), [audition](#audition), [debut](#debut), [encore](#encore), [release](#release), [chart](#chart), [remix](#remix), [playlist](#playlist), [influencer](#influencer), [follower](#follower), [hashtag](#hashtag), [buzz](#buzz), [review](#review), [meme](#meme), [caption](#caption), [thumbnail](#thumbnail), [highlight](#highlight), [replay](#replay), [announcer](#announcer), [reporter](#reporter), [caster](#caster), [commentator](#commentator), [scoop](#scoop), [headline](#headline), [press](#press), [column](#column), [magazine](#magazine), [celebrity](#celebrity), [gossip](#gossip), [cycle](#cycle), [tone](#tone), [focus](#focus), [zoom](#zoom), [paradise](#paradise)
+- Lv.5 よく見聞きする — [spell](#spell), [legend](#legend), [treasure](#treasure), [equipment](#equipment), [critical](#critical), [counter](#counter), [barrier](#barrier), [rival](#rival), [escape](#escape), [mission](#mission), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [smart](#smart), [claim](#claim), [ace](#ace), [spirit](#spirit), [miracle](#miracle), [brave](#brave), [battery](#battery), [energy](#energy), [service](#service), [handle](#handle), [talent](#talent), [diet](#diet), [jungle](#jungle), [stove](#stove), [recycle](#recycle), [balance](#balance), [career](#career), [delivery](#delivery), [password](#password), [data](#data), [technology](#technology), [trainer](#trainer), [cooler](#cooler), [viking](#viking), [bargain](#bargain), [cider](#cider), [comment](#comment), [stress](#stress), [risk](#risk), [professional](#professional), [campaign](#campaign), [brand](#brand), [quality](#quality), [security](#security), [routine](#routine), [license](#license), [gap](#gap), [trend](#trend), [access](#access), [account](#account), [arrange](#arrange), [cancel](#cancel), [catalog](#catalog), [channel](#channel), [charge](#charge), [classic](#classic), [collection](#collection), [download](#download), [entry](#entry), [error](#error), [fake](#fake), [file](#file), [filter](#filter), [frame](#frame), [goods](#goods), [graph](#graph), [impact](#impact), [label](#label), [limit](#limit), [link](#link), [mask](#mask), [media](#media), [mode](#mode), [monitor](#monitor), [option](#option), [original](#original), [pattern](#pattern), [post](#post), [project](#project), [reset](#reset), [rhythm](#rhythm), [seal](#seal), [shock](#shock), [studio](#studio), [total](#total), [pierce](#pierce), [approach](#approach), [benefit](#benefit), [community](#community), [content](#content), [debate](#debate), [device](#device), [digital](#digital), [document](#document), [economy](#economy), [feature](#feature), [global](#global), [humor](#humor), [issue](#issue), [material](#material), [method](#method), [network](#network), [official](#official), [partner](#partner), [performance](#performance), [policy](#policy), [positive](#positive), [negative](#negative), [pressure](#pressure), [public](#public), [rescue](#rescue), [research](#research), [respect](#respect), [series](#series), [source](#source), [symbol](#symbol), [theme](#theme), [theory](#theory), [unique](#unique), [value](#value), [variety](#variety), [live](#live), [talk](#talk), [comedy](#comedy), [episode](#episode), [genre](#genre), [fantasy](#fantasy), [horror](#horror), [mystery](#mystery), [suspense](#suspense), [documentary](#documentary), [cast](#cast), [producer](#producer), [audition](#audition), [debut](#debut), [encore](#encore), [release](#release), [chart](#chart), [remix](#remix), [playlist](#playlist), [influencer](#influencer), [follower](#follower), [hashtag](#hashtag), [buzz](#buzz), [review](#review), [meme](#meme), [caption](#caption), [thumbnail](#thumbnail), [highlight](#highlight), [replay](#replay), [announcer](#announcer), [reporter](#reporter), [caster](#caster), [commentator](#commentator), [scoop](#scoop), [headline](#headline), [press](#press), [column](#column), [magazine](#magazine), [celebrity](#celebrity), [gossip](#gossip), [cycle](#cycle), [tone](#tone), [focus](#focus), [zoom](#zoom), [paradise](#paradise), [gauge](#gauge), [vegan](#vegan), [vegetarian](#vegetarian)
 - Lv.6 社会の話題 — [manual](#manual), [amateur](#amateur), [privacy](#privacy), [mental](#mental), [concept](#concept), [context](#context), [crisis](#crisis), [factor](#factor), [flexible](#flexible), [function](#function), [identity](#identity), [logic](#logic), [luxury](#luxury), [marketing](#marketing), [minority](#minority), [operation](#operation), [organic](#organic), [profile](#profile), [scandal](#scandal), [sponsor](#sponsor), [status](#status), [survival](#survival), [trial](#trial), [virtual](#virtual), [vision](#vision), [democracy](#democracy), [demonstration](#demonstration), [leader](#leader), [summit](#summit), [conference](#conference), [forum](#forum), [symposium](#symposium), [inflation](#inflation), [deflation](#deflation), [bubble](#bubble), [market](#market), [stock](#stock), [trade](#trade), [import](#import), [export](#export), [local](#local), [urban](#urban), [gender](#gender), [harassment](#harassment), [charity](#charity), [terrorism](#terrorism), [patrol](#patrol), [hazard](#hazard), [pandemic](#pandemic), [lockdown](#lockdown), [cluster](#cluster), [ecology](#ecology), [carbon](#carbon), [cyber](#cyber), [hacker](#hacker), [spam](#spam), [phishing](#phishing), [science](#science), [laboratory](#laboratory), [genome](#genome), [bacteria](#bacteria), [calcium](#calcium), [ion](#ion), [galaxy](#galaxy), [satellite](#satellite), [sensor](#sensor), [chip](#chip), [laser](#laser), [radar](#radar), [hybrid](#hybrid), [company](#company), [office](#office), [business](#business), [manager](#manager), [staff](#staff), [salary](#salary), [bonus](#bonus), [freelance](#freelance), [startup](#startup), [venture](#venture), [deadline](#deadline), [meeting](#meeting), [presentation](#presentation), [task](#task), [sales](#sales), [customer](#customer), [tourism](#tourism), [visa](#visa), [border](#border), [army](#army), [missile](#missile), [union](#union), [strike](#strike), [boycott](#boycott), [revolution](#revolution), [liberal](#liberal), [journalist](#journalist), [editor](#editor), [survey](#survey), [consumer](#consumer), [cashless](#cashless), [credit](#credit), [loan](#loan), [cash](#cash), [receipt](#receipt), [discount](#discount), [price](#price), [return](#return), [fund](#fund), [factory](#factory), [safari](#safari), [therapy](#therapy), [counseling](#counseling), [rehabilitation](#rehabilitation), [capsule](#capsule), [tablet](#tablet), [metabolism](#metabolism), [campus](#campus), [seminar](#seminar), [lecture](#lecture), [essay](#essay), [internship](#internship), [recruit](#recruit), [curriculum](#curriculum), [syllabus](#syllabus), [athlete](#athlete), [doping](#doping), [fair](#fair), [lifestyle](#lifestyle), [leisure](#leisure), [outdoor](#outdoor), [indoor](#indoor), [vacation](#vacation), [single](#single), [couple](#couple), [senior](#senior), [junior](#junior), [teen](#teen), [generation](#generation), [apartment](#apartment), [interior](#interior), [exterior](#exterior), [renovation](#renovation), [shelter](#shelter), [hostel](#hostel), [mosaic](#mosaic), [climax](#climax), [elegant](#elegant), [retro](#retro), [chaos](#chaos), [universe](#universe), [contrast](#contrast), [texture](#texture), [opera](#opera), [hormone](#hormone)
 - Lv.7 大人の日常語 — [potion](#potion), [quest](#quest), [dungeon](#dungeon), [inventory](#inventory), [avatar](#avatar), [combo](#combo), [revive](#revive), [ultimate](#ultimate), [villain](#villain), [launch](#launch), [android](#android), [gravity](#gravity), [evolution](#evolution), [dimension](#dimension), [portal](#portal), [beam](#beam), [tension](#tension), [rookie](#rookie), [destiny](#destiny), [trigger](#trigger), [sacrifice](#sacrifice), [mentor](#mentor), [mansion](#mansion), [idol](#idol), [motivation](#motivation), [potential](#potential), [priority](#priority), [resource](#resource), [capacity](#capacity), [innovation](#innovation), [evidence](#evidence), [agenda](#agenda), [strategy](#strategy), [veteran](#veteran), [commitment](#commitment), [consultant](#consultant), [diversity](#diversity), [dynamic](#dynamic), [mechanism](#mechanism), [phase](#phase), [scenario](#scenario), [solution](#solution), [feedback](#feedback), [appointment](#appointment), [memo](#memo), [reminder](#reminder), [margin](#margin), [commission](#commission), [royalty](#royalty), [negotiation](#negotiation), [deal](#deal), [client](#client), [user](#user), [vendor](#vendor), [supplier](#supplier), [maker](#maker), [product](#product), [control](#control), [management](#management), [leadership](#leadership), [teamwork](#teamwork), [format](#format), [template](#template), [layout](#layout), [font](#font), [draft](#draft), [telework](#telework), [invoice](#invoice), [promotion](#promotion), [headhunting](#headhunting), [resume](#resume), [specialist](#specialist), [generalist](#generalist), [expert](#expert), [analyst](#analyst), [engineer](#engineer), [designer](#designer), [architect](#architect), [programmer](#programmer), [creator](#creator), [artist](#artist), [musician](#musician), [director](#director), [writer](#writer), [photographer](#photographer), [stylist](#stylist), [sommelier](#sommelier), [barista](#barista), [counselor](#counselor), [gardening](#gardening), [wine](#wine), [beer](#beer), [whiskey](#whiskey), [cocktail](#cocktail), [champagne](#champagne), [alcohol](#alcohol), [caffeine](#caffeine), [gourmet](#gourmet), [casual](#casual), [formal](#formal), [suit](#suit), [cardigan](#cardigan), [vest](#vest), [fleece](#fleece), [auction](#auction), [minimalist](#minimalist), [healing](#healing), [aroma](#aroma), [meditation](#meditation), [mindfulness](#mindfulness), [detox](#detox), [stretch](#stretch), [workout](#workout), [triathlon](#triathlon), [snowboard](#snowboard), [surfing](#surfing), [diving](#diving), [climbing](#climbing), [casino](#casino), [gamble](#gamble), [wedding](#wedding), [bridal](#bridal), [propose](#propose), [romance](#romance), [date](#date), [anniversary](#anniversary), [ceremony](#ceremony), [reception](#reception), [banquet](#banquet), [catering](#catering), [hospitality](#hospitality), [concierge](#concierge), [suite](#suite), [lounge](#lounge), [amenity](#amenity), [spa](#spa), [glamping](#glamping), [package](#package), [airline](#airline), [flight](#flight), [transit](#transit), [terminal](#terminal), [cabin](#cabin), [crew](#crew), [mileage](#mileage), [upgrade](#upgrade), [shuttle](#shuttle), [navigation](#navigation), [express](#express), [ego](#ego), [complex](#complex), [moral](#moral), [exotic](#exotic), [ethnic](#ethnic), [aura](#aura), [spiral](#spiral), [silhouette](#silhouette), [sentimental](#sentimental), [oasis](#oasis), [symphony](#symphony), [collage](#collage), [syndrome](#syndrome), [graffiti](#graffiti)
 - Lv.8 ビジネス — [naive](#naive), [cunning](#cunning), [consent](#consent), [reform](#reform), [incentive](#incentive), [literacy](#literacy), [bias](#bias), [dilemma](#dilemma), [nuance](#nuance), [sustainable](#sustainable), [stoic](#stoic), [inclusion](#inclusion), [infrastructure](#infrastructure), [initiative](#initiative), [leverage](#leverage), [nostalgia](#nostalgia), [portfolio](#portfolio), [premium](#premium), [prototype](#prototype), [resilience](#resilience), [segment](#segment), [stakeholder](#stakeholder), [stereotype](#stereotype), [subscription](#subscription), [synergy](#synergy), [trauma](#trauma), [utopia](#utopia), [vintage](#vintage), [charisma](#charisma), [propaganda](#propaganda), [irony](#irony), [paradox](#paradox), [manicure](#manicure), [mania](#mania), [outsourcing](#outsourcing), [benchmark](#benchmark), [tactics](#tactics), [platform](#platform), [branding](#branding), [persona](#persona), [conversion](#conversion), [engagement](#engagement), [retention](#retention), [metrics](#metrics), [analytics](#analytics), [dashboard](#dashboard), [insight](#insight), [simulation](#simulation), [workflow](#workflow), [process](#process), [pipeline](#pipeline), [roadmap](#roadmap), [milestone](#milestone), [sprint](#sprint), [agile](#agile), [kickoff](#kickoff), [brainstorming](#brainstorming), [workshop](#workshop), [facilitator](#facilitator), [moderator](#moderator), [panel](#panel), [session](#session), [keynote](#keynote), [pitch](#pitch), [proposal](#proposal), [summary](#summary), [executive](#executive), [wellbeing](#wellbeing), [burnout](#burnout), [workaholic](#workaholic), [onboarding](#onboarding), [offshore](#offshore), [alliance](#alliance), [holdings](#holdings), [franchise](#franchise), [incubator](#incubator), [pivot](#pivot), [scale](#scale), [monetize](#monetize), [ecosystem](#ecosystem), [database](#database), [algorithm](#algorithm), [interface](#interface), [backup](#backup), [legacy](#legacy), [patent](#patent), [copyright](#copyright), [logo](#logo), [slogan](#slogan), [catchphrase](#catchphrase), [capital](#capital), [asset](#asset), [hedge](#hedge), [index](#index), [ownership](#ownership), [empowerment](#empowerment), [assessment](#assessment), [spec](#spec), [beta](#beta), [version](#version), [maintenance](#maintenance), [bug](#bug), [patch](#patch), [code](#code), [hardware](#hardware), [software](#software), [gadget](#gadget), [wearable](#wearable), [blockchain](#blockchain), [metaverse](#metaverse), [hologram](#hologram), [clone](#clone), [logistics](#logistics), [container](#container), [cargo](#cargo), [tracking](#tracking), [barcode](#barcode), [payment](#payment), [fintech](#fintech), [debit](#debit), [firewall](#firewall), [guideline](#guideline), [protocol](#protocol), [standard](#standard), [quota](#quota), [dandy](#dandy), [karma](#karma), [guru](#guru), [dopamine](#dopamine)
@@ -5026,6 +5026,458 @@
 | **all-you-can-eat** | 食べ放題 | 決まった値段で好きなだけ。 | all + you + can + eat |
 | **smorgasbord** | スモーガスボード | 北欧の立食料理。 | スウェーデン語 |
 
+<a id="noodle"></a>
+### noodle（ヌードル）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — めん類
+
+- 📍 シーン: カップヌードル、ヌードルスープ。
+- 💬 例文: *I had a bowl of noodles for lunch.* — お昼にめんを一杯食べた。
+- 📜 語源: ドイツ語 Nudel
+  - ドイツ語から18世紀に入った語。ふつう複数形 noodles で使う。口語で「頭（noodle）」の意味もある。
+- 🌳 同じ語源の仲間: noodle soup（めんのスープ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pasta** | パスタ | イタリアのめん。 | イタリア語 pasta |
+| **ramen** | ラーメン | 日本のめん料理。 | 日本語（中国語「拉麺」から） |
+
+<a id="spaghetti"></a>
+### spaghetti（スパゲッティ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — スパゲッティ
+
+- 📍 シーン: ミートソーススパゲッティ、ナポリタン。
+- 💬 例文: *We had spaghetti with meat sauce.* — ミートソーススパゲッティを食べた。
+- 📜 語源: イタリア語 spaghetti「細いひも（複数）」← spago「ひも」
+  - 細いひものようなパスタ。spaghetti western は「イタリア製の西部劇（マカロニ・ウエスタン）」。
+- 🌳 同じ語源の仲間: spaghetti western（マカロニ・ウエスタン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pasta** | パスタ | めん類全般。 | イタリア語 pasta |
+| **noodle** | めん | 細長いめん。 | ドイツ語 Nudel |
+
+<a id="biscuit"></a>
+### biscuit（ビスケット）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ビスケット、（米）スコーン風パン
+
+- 📍 シーン: おやつのビスケット、ビスコ。
+- 💬 例文: *Would you like a biscuit with your tea?* — 紅茶と一緒にビスケットはいかが？
+- 📜 語源: 古フランス語 bescuit ← ラテン語 bis「二度」+ coctus「焼いた」
+  - 保存がきくように「二度焼いた」パン。アメリカではふわふわのパン、イギリスではクッキーのこと。
+- 💎 語根: `coqu / coc / cook`（料理する・煮る）
+- 🌳 同じ語源の仲間: cook（料理する）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cookie** | クッキー | アメリカでの言い方。 | オランダ語 koekje |
+| **cracker** | クラッカー | 甘くない焼き菓子。 | crack + -er |
+
+<a id="waffle"></a>
+### waffle（ワッフル）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — ワッフル
+
+- 📍 シーン: ベルギーワッフル、ワッフル生地。
+- 💬 例文: *We had waffles with strawberries.* — イチゴをのせたワッフルを食べた。
+- 📜 語源: オランダ語 wafel ← 古フランス語 gaufre「蜂の巣」
+  - 表面の格子模様が「蜂の巣」に似ていることから。動詞 waffle は「ぐずぐず言う」（別語源）。
+- 🌳 同じ語源の仲間: wafer（ウエハース）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pancake** | パンケーキ | 平たく焼いたもの。 | pan + cake |
+| **wafer** | ウエハース | 薄い焼き菓子。 | 同じオランダ語 wafel |
+
+<a id="crepe"></a>
+### crepe（クレープ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — クレープ、ちりめん
+
+- 📍 シーン: 原宿のクレープ、クレープ屋。
+- 💬 例文: *I bought a banana chocolate crepe.* — バナナチョコのクレープを買った。
+- 📜 語源: フランス語 crêpe「縮れた」← ラテン語 crispus「縮れた」
+  - 焼き目が細かく「縮れて」見えることから。ちりめん布（crepe paper）も同じ語。
+- 🌳 同じ語源の仲間: crisp（パリッとした）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pancake** | パンケーキ | 厚めの焼き菓子。 | pan + cake |
+| **galette** | ガレット | そば粉のクレープ。 | フランス語 galet「小石」 |
+
+<a id="parfait"></a>
+### parfait（パフェ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR C1 — パフェ
+
+- 📍 シーン: チョコレートパフェ、いちごパフェ。
+- 💬 例文: *She ordered a chocolate parfait.* — 彼女はチョコレートパフェを注文した。
+- 📜 語源: フランス語 parfait「完璧な」← ラテン語 perfectus
+  - 「完璧なデザート」の意味。perfect と同じ語。英語の発音は「パーフェイ」。
+- 💎 語根: `fac / fic / fact / feit`（作る・行う）
+- 🌳 同じ語源の仲間: perfect（完璧な）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **sundae** | サンデー | アイスにソースをかけたもの。 | Sunday から |
+| **dessert** | デザート | 食後の甘いもの。 | フランス語 desservir |
+
+<a id="mango"></a>
+### mango（マンゴー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — マンゴー
+
+- 📍 シーン: マンゴープリン、宮崎のマンゴー。
+- 💬 例文: *Mangoes are my favorite fruit.* — マンゴーがいちばん好きな果物だ。
+- 📜 語源: ポルトガル語 manga ← タミル語 mānkāy
+  - 南インドのタミル語から、ポルトガル人が世界に広めた。
+- 🌳 同じ語源の仲間: mango pudding（マンゴープリン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **papaya** | パパイヤ | 南国の果物。 | カリブの言葉 |
+| **tropical fruit** | 南国の果物 | 熱帯の果物。 | tropic + fruit |
+
+<a id="salmon"></a>
+### salmon（サーモン）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — サケ
+
+- 📍 シーン: サーモンの寿司、スモークサーモン。
+- 💬 例文: *I had grilled salmon for dinner.* — 夕食に焼き鮭を食べた。
+- 📜 語源: 古フランス語 saumon ← ラテン語 salmō（salīre「跳ぶ」とする説）
+  - 滝をさかのぼって「跳ねる魚」という説がある。l を発音しないのはフランス語経由のなごり（ラテン語をまねて後からつづりに戻した）。
+- 🌳 同じ語源の仲間: salmon pink（サーモンピンク）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **trout** | マス | サケの仲間の川魚。 | ギリシャ語 trōktēs |
+| **tuna** | マグロ | 大型の海の魚。 | スペイン語 atún |
+
+<a id="tuna"></a>
+### tuna（ツナ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — マグロ、ツナ
+
+- 📍 シーン: ツナ缶、ツナマヨ、マグロの寿司。
+- 💬 例文: *I made tuna sandwiches.* — ツナサンドを作った。
+- 📜 語源: アメリカ・スペイン語 tuna ← スペイン語 atún ← アラビア語 tūn ← ギリシャ語 thynnos
+  - 地中海の魚の名前がアラビア語・スペイン語を経て英語に。英語ではマグロも tuna。
+- 🌳 同じ語源の仲間: tuna can（ツナ缶）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **salmon** | サケ | ピンクの身の魚。 | ラテン語 salmō |
+| **bonito** | カツオ | マグロに近い魚。 | スペイン語「きれいな」 |
+
+<a id="lobster"></a>
+### lobster（ロブスター）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — ロブスター、ウミザリガニ
+
+- 📍 シーン: ロブスターのグリル、高級料理。
+- 💬 例文: *We had lobster at a seafood restaurant.* — シーフードレストランでロブスターを食べた。
+- 📜 語源: 古英語 loppestre ← ラテン語 locusta「イナゴ、エビ」
+  - ラテン語 locusta（バッタ）のつづりが、英語の loppe（クモ）などの影響で変わったとされる。
+- 🌳 同じ語源の仲間: locust（イナゴ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **shrimp** | 小エビ | 小さなエビ。 | 中英語 shrimpe |
+| **crab** | カニ | 横に歩く甲殻類。 | 古英語 crabba |
+
+<a id="truck"></a>
+### truck（トラック） ⚠️
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — トラック
+
+- 📍 シーン: 大型トラック、キッチンカー（food truck）。
+- ⚠️ カタカナの罠: 陸上競技の「トラック（走路）」は track で別の語。truck は「貨物自動車」。
+- 💬 例文: *A big truck was parked outside.* — 外に大きなトラックがとまっていた。
+- 📜 語源: ギリシャ語 trokhos「車輪」← trekhein「走る」
+  - もとは「小さな車輪」。イギリスでは lorry とも言う。food truck は移動販売車。
+- 🌳 同じ語源の仲間: trucker（トラック運転手）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **lorry** | （英）トラック | イギリスでの言い方。 | 方言 lurry「引く」 |
+| **van** | バン | 箱型の車。 | caravan の略 |
+
+<a id="helicopter"></a>
+### helicopter（ヘリコプター）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — ヘリコプター
+
+- 📍 シーン: ドクターヘリ、ヘリポート。
+- 💬 例文: *The injured man was taken by helicopter.* — けが人はヘリで運ばれた。
+- 📜 語源: フランス語 hélicoptère ← ギリシャ語 helix「らせん」+ pteron「翼」
+  - 「らせんの翼」。pterodactyl（翼竜＝翼の指）も pteron の家族。heli-copter と切れそうで、実は helico-pter と切れる。
+- 🌳 同じ語源の仲間: helix（らせん）、pterodactyl（翼竜）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **chopper** | ヘリ | くだけた言い方。 | chop + -er |
+| **aircraft** | 航空機 | 飛行機全般。 | air + craft |
+
+<a id="scooter"></a>
+### scooter（スクーター）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — スクーター、キックボード
+
+- 📍 シーン: 原付スクーター、電動キックボード。
+- 💬 例文: *I ride a scooter to work.* — スクーターで通勤している。
+- 📜 語源: scoot「さっと走る」+ -er
+  - 足でけって進む子どもの乗り物（キックボード）も scooter。motor scooter はエンジンつき。
+- 🌳 同じ語源の仲間: e-scooter（電動キックボード）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **moped** | 原付 | 小型バイク。 | motor + pedal |
+| **bike** | 自転車、バイク | 二輪車。 | bicycle の略 |
+
+<a id="sponge"></a>
+### sponge（スポンジ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — スポンジ、海綿
+
+- 📍 シーン: 食器洗いスポンジ、スポンジケーキ。
+- 💬 例文: *Wash the dishes with a sponge.* — スポンジでお皿を洗って。
+- 📜 語源: 古英語 sponge ← ラテン語 spongia ← ギリシャ語 spongia「海綿」
+  - もとは海の生き物「海綿」。水をよく吸うので、「知識を吸収する人」のたとえにも。
+- 🌳 同じ語源の仲間: spongy（ふかふかの）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cloth** | ふきん | 布。 | 古英語 clāþ |
+| **scrubber** | たわし | こするもの。 | scrub + -er |
+
+<a id="bucket"></a>
+### bucket（バケツ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — バケツ
+
+- 📍 シーン: 水の入ったバケツ、バケットリスト（死ぬまでにやりたいこと）。
+- 💬 例文: *Fill the bucket with water.* — バケツに水を入れて。
+- 📜 語源: アングロ・フランス語 buket ← 古英語 būc「おけ、腹」
+  - 日本語の「バケツ」は bucket がなまったもの。kick the bucket は「死ぬ」、bucket list は「死ぬまでにやりたいことのリスト」。
+- 🌳 同じ語源の仲間: bucket list（やりたいことリスト）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pail** | 手おけ | 小さなバケツ。 | 古英語 pægel |
+| **container** | 容器 | 入れ物。 | ラテン語 continēre |
+
+<a id="hanger"></a>
+### hanger（ハンガー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — ハンガー、つるす物
+
+- 📍 シーン: 洋服のハンガー、ハンガーラック。
+- 💬 例文: *Put your coat on a hanger.* — コートをハンガーにかけて。
+- 📜 語源: hang「つるす」+ -er
+  - 「つるすもの」。飛行機の格納庫は hangar でつづりが違う（フランス語から）。
+- 🌳 同じ語源の仲間: hang（つるす）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **hook** | フック | ひっかけるもの。 | 古英語 hōc |
+| **rack** | ラック | 物をかける台。 | 中オランダ語 rec |
+
+<a id="basket"></a>
+### basket（バスケット）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — かご
+
+- 📍 シーン: 買い物かご、バスケットボール。
+- 💬 例文: *She carried a basket of apples.* — 彼女はリンゴの入ったかごを運んでいた。
+- 📜 語源: アングロ・フランス語 basket（語源は不明。ラテン語 bascauda「おけ」とする説）
+  - 由来ははっきりしない。basketball はかごをゴールにしたことから。
+- 🌳 同じ語源の仲間: basketball（バスケットボール）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **bag** | 袋 | 布や紙の入れ物。 | 古ノルド語 baggi |
+| **hamper** | 大きなふたつきかご | ピクニック用など。 | 古フランス語 hanapier |
+
+<a id="marker"></a>
+### marker（マーカー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — マーカー、目印
+
+- 📍 シーン: 蛍光マーカー、油性マーカー。
+- 💬 例文: *Highlight the important words with a marker.* — 大事な語にマーカーで線を引いて。
+- 📜 語源: mark「しるし」+ -er
+  - 「しるしをつけるもの」。マジックペンも英語では marker。
+- 🌳 同じ語源の仲間: mark（しるし）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **highlighter** | 蛍光ペン | 目立たせるペン。 | highlight + -er |
+| **pen** | ペン | 書く道具。 | ラテン語 penna |
+
+<a id="stapler"></a>
+### stapler（ホッチキス） ⚠️
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — ホッチキス
+
+- 📍 シーン: 「ホッチキスで留める」。
+- ⚠️ カタカナの罠: 日本語の「ホッチキス」は商標名（米国の会社名 Hotchkiss）から来た語で、英語では stapler。留める針は staple。
+- 💬 例文: *Can I borrow your stapler?* — ホッチキスを借りてもいい？
+- 📜 語源: staple「コの字形の留め具」+ -er ← 古英語 stapol「柱」
+  - staple はもとは「柱、支え」。「主要な（staple food 主食）」の staple は別語源。
+- 🌳 同じ語源の仲間: staple（留め針）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **clip** | クリップ | はさんで留めるもの。 | 古英語 clyppan |
+| **paper clip** | ゼムクリップ | 紙をはさむ金具。 | paper + clip |
+
+<a id="clip"></a>
+### clip（クリップ）
+
+**名詞・動詞** / Lv.2 くらしの定番 / CEFR B1 — クリップ、切り取る、短い動画
+
+- 📍 シーン: ゼムクリップ、ヘアクリップ、動画クリップ。
+- 💬 例文: *He showed me a funny video clip.* — 彼はおもしろい短い動画を見せてくれた。
+- 📜 語源: 「はさむ」は古英語 clyppan「抱きしめる」、「切る」は古ノルド語 klippa
+  - 同じつづりで「はさむ」と「切る」の2つの語源がある。動画の clip は「切り取ったもの」。
+- 🌳 同じ語源の仲間: clipboard（クリップボード）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **fastener** | 留め具 | 留めるもの。 | fasten + -er |
+| **excerpt** | 抜粋 | 一部を抜き出したもの。 | ラテン語 excerpere |
+
+<a id="folder"></a>
+### folder（フォルダ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — 書類ばさみ、フォルダ
+
+- 📍 シーン: クリアフォルダ、パソコンのフォルダ。
+- 💬 例文: *Save the file in this folder.* — このフォルダにファイルを保存して。
+- 📜 語源: fold「折る」+ -er
+  - 「二つ折りにした書類入れ」。パソコンのデータ入れにも使われるようになった。
+- 🌳 同じ語源の仲間: fold（折る）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **file** | ファイル | 書類ばさみ。 | ラテン語 fīlum |
+| **binder** | バインダー | とじこみ式のファイル。 | bind + -er |
+
+<a id="skate"></a>
+### skate（スケート）
+
+**名詞・動詞** / Lv.2 くらしの定番 / CEFR A2 — スケート（をする）
+
+- 📍 シーン: アイススケート、スケートボード。
+- 💬 例文: *Let's go ice skating this weekend.* — 今週末アイススケートに行こう。
+- 📜 語源: オランダ語 schaats（複数形を単数と誤解）← 古北フランス語 escache「竹馬」
+  - オランダ語の schaats が英語で skates と聞かれ、s を複数形だと思って skate が生まれた。
+- 🌳 同じ語源の仲間: skateboard（スケートボード）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **skateboard** | スケートボード | 板の乗り物。 | skate + board |
+| **skating** | スケート | 滑ること。 | skate + -ing |
+
+<a id="rugby"></a>
+### rugby（ラグビー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ラグビー
+
+- 📍 シーン: ラグビーワールドカップ、ラグビー部。
+- 💬 例文: *Rugby is popular in New Zealand.* — ラグビーはニュージーランドで人気がある。
+- 📜 語源: イギリスの学校 Rugby School（ラグビー校）の名から
+  - 1823年、ラグビー校の生徒がサッカーの試合中にボールを持って走り出したのが始まり、という有名な伝説がある（事実かは不明）。
+- 🌳 同じ語源の仲間: rugger（ラグビーの俗称）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **football** | フットボール | サッカーやアメフト。 | foot + ball |
+| **scrum** | スクラム | 組み合う場面。 | scrummage の略 |
+
+<a id="hockey"></a>
+### hockey（ホッケー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ホッケー
+
+- 📍 シーン: アイスホッケー、フィールドホッケー。
+- 💬 例文: *Ice hockey is popular in Canada.* — アイスホッケーはカナダで人気がある。
+- 📜 語源: 16世紀の英語（古フランス語 hoquet「羊飼いの杖」とする説など）
+  - スティックの先が曲がった形が羊飼いの杖に似ていることから、という説がある。アメリカでは hockey だけでアイスホッケーを指す。
+- 🌳 同じ語源の仲間: hockey stick（ホッケーのスティック）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **puck** | パック | ホッケーの円盤。 | 由来不明 |
+| **stick** | スティック | 打つ棒。 | 古英語 sticca |
+
+<a id="boxing"></a>
+### boxing（ボクシング）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ボクシング
+
+- 📍 シーン: ボクシングジム、世界チャンピオン。
+- 💬 例文: *He trains in boxing every day.* — 彼は毎日ボクシングの練習をしている。
+- 📜 語源: box「殴る」+ -ing（中英語 box「打撃」、語源は不明）
+  - 箱の box とは別の語。Boxing Day（12月26日）の box は「贈り物の箱」から。
+- 🌳 同じ語源の仲間: boxer（ボクサー）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **fight** | 戦い | 殴り合い。 | 古英語 feohtan |
+| **martial arts** | 武道 | 格闘技全般。 | ラテン語 Mārs「軍神」 |
+
+<a id="bowling"></a>
+### bowling（ボウリング）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ボウリング
+
+- 📍 シーン: ボウリング場、ボウリング大会。
+- 💬 例文: *Let's go bowling after school.* — 放課後ボウリングに行こう。
+- 📜 語源: bowl「球を転がす」+ -ing ← ラテン語 bulla「泡、球」
+  - 食器の bowl（鉢）とは別語源。「ボーリング（boring）」は穴をあけることなので注意。
+- 🌳 同じ語源の仲間: bowl（球を転がす）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pin** | ピン | 倒す棒。 | ラテン語 pinna |
+| **strike** | ストライク | 全部倒すこと。 | 古英語 strīcan |
+
+<a id="ribbon"></a>
+### ribbon（リボン）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — リボン
+
+- 📍 シーン: プレゼントのリボン、リボン結び。
+- 💬 例文: *The gift was tied with a red ribbon.* — 贈り物は赤いリボンで結ばれていた。
+- 📜 語源: 古フランス語 riban（ゲルマン語起源とされる）
+  - 細い帯状の布。ribbon-cutting ceremony はテープカットの式。
+- 🌳 同じ語源の仲間: ribbon-cutting（テープカット）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **bow** | リボン結び、蝶結び | 結んだ飾り。 | 古英語 boga「曲がったもの」 |
+| **tape** | テープ | 細長い帯。 | 古英語 tæppe |
+
+<a id="zipper"></a>
+### zipper（ジッパー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — ファスナー、チャック
+
+- 📍 シーン: 「チャックが開いてる」、ファスナー。
+- 💬 例文: *Your zipper is open.* — チャックが開いてるよ。
+- 📜 語源: zip「ジッと音を立てる」+ -er（1925年、商標名から）
+  - 閉めるときの「ジッ」という音から。イギリスでは zip とも言う。「チャック」は日本の商標名から。
+- 🌳 同じ語源の仲間: zip（ファスナーを閉める）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **fastener** | 留め具 | 留めるもの。 | fasten + -er |
+| **button** | ボタン | 服を留める丸いもの。 | 古フランス語 boton |
+
 ## Lv.3 よく使う
 
 <a id="dragon"></a>
@@ -7690,6 +8142,413 @@
 |---|---|---|---|
 | **speed** | 速さ | 速度。 | 古英語 spēd |
 | **tempo** | テンポ | 音楽や物事の速さ。 | イタリア語 tempo |
+
+<a id="musical"></a>
+### musical（ミュージカル）
+
+**名詞・形容詞** / Lv.3 よく使う / CEFR B1 — ミュージカル、音楽の
+
+- 📍 シーン: 劇団四季のミュージカル、音楽の才能。
+- 💬 例文: *We saw a musical on Broadway.* — ブロードウェイでミュージカルを見た。
+- 📜 語源: music「音楽」+ -al
+  - 形容詞「音楽の」から、歌と踊りのある劇（musical comedy）の略に。
+- 🌳 同じ語源の仲間: music（音楽）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **opera** | オペラ | 歌劇。 | イタリア語 opera |
+| **show** | ショー | 見せ物。 | 古英語 scēawian |
+
+<a id="flute"></a>
+### flute（フルート）
+
+**名詞** / Lv.3 よく使う / CEFR B1 — フルート、横笛
+
+- 📍 シーン: 吹奏楽部のフルート、シャンパングラス（flute）。
+- 💬 例文: *She plays the flute in the band.* — 彼女は吹奏楽部でフルートを吹いている。
+- 📜 語源: 古フランス語 flaüte（プロヴァンス語 flaüt から）
+  - 細長いシャンパングラスも形が似ているので flute と呼ぶ。
+- 🌳 同じ語源の仲間: flutist（フルート奏者）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **recorder** | リコーダー | 縦笛。 | record「さえずる」+ -er |
+| **whistle** | 笛、口笛 | ピーッと鳴らすもの。 | 古英語 hwistlian |
+
+<a id="trumpet"></a>
+### trumpet（トランペット）
+
+**名詞** / Lv.3 よく使う / CEFR B1 — トランペット
+
+- 📍 シーン: ジャズのトランペット、ラッパ。
+- 💬 例文: *He plays the trumpet in a jazz band.* — 彼はジャズバンドでトランペットを吹いている。
+- 📜 語源: 古フランス語 trompette「小さなラッパ」← trompe「ラッパ」
+  - blow one's own trumpet は「自慢する」。ゾウの鳴き声も trumpet。
+- 🌳 同じ語源の仲間: trumpeter（トランペット奏者）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **horn** | ホルン、角笛 | 金管楽器、警笛。 | 古英語 horn「角」 |
+| **bugle** | らっぱ | 軍隊のらっぱ。 | ラテン語 būculus「若い雄牛（の角笛）」 |
+
+<a id="harp"></a>
+### harp（ハープ）
+
+**名詞** / Lv.3 よく使う / CEFR B2 — ハープ、たて琴
+
+- 📍 シーン: ハープの音色、ハーモニカ（mouth harp）。
+- 💬 例文: *The harp has a beautiful, gentle sound.* — ハープは美しくやさしい音がする。
+- 📜 語源: 古英語 hearpe
+  - ゲルマン人が古くから弾いていた楽器。harp on は「くどくど言う」。
+- 🌳 同じ語源の仲間: harpist（ハープ奏者）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **lyre** | たて琴 | 古代ギリシャの竪琴。 | ギリシャ語 lyra |
+| **guitar** | ギター | 弦楽器。 | スペイン語 guitarra |
+
+<a id="anime"></a>
+### anime（アニメ）
+
+**名詞** / Lv.3 よく使う / CEFR B2 — （日本の）アニメ
+
+- 📍 シーン: 深夜アニメ、アニメイベント。
+- 💬 例文: *Japanese anime is popular all over the world.* — 日本のアニメは世界中で人気がある。
+- 📜 語源: 日本語「アニメ」← 英語 animation の略
+  - 英語 animation が日本語で「アニメ」と略され、それが逆に英語に入って「日本のアニメ」を指すようになった。英語では anime は日本風のアニメを指すことが多い。
+- 💎 語根: `anim`（息・魂）
+- 🌳 同じ語源の仲間: animation（アニメーション）、animal（動物）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cartoon** | （欧米の）アニメ | 子ども向けの漫画映画。 | イタリア語 cartone |
+| **animation** | アニメーション | 動く絵全般。 | ラテン語 anima |
+
+<a id="syrup"></a>
+### syrup（シロップ）
+
+**名詞** / Lv.3 よく使う / CEFR B2 — シロップ
+
+- 📍 シーン: メープルシロップ、かき氷のシロップ、咳止めシロップ。
+- 💬 例文: *I poured maple syrup on my pancakes.* — パンケーキにメープルシロップをかけた。
+- 📜 語源: 古フランス語 sirop ← アラビア語 sharāb「飲み物」
+  - sherbet（シャーベット）も同じアラビア語から。
+- 🌳 同じ語源の仲間: sherbet（シャーベット）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **honey** | はちみつ | ハチの蜜。 | 古英語 hunig |
+| **sauce** | ソース | かけるもの。 | ラテン語 salsa |
+
+<a id="weekend"></a>
+### weekend（ウィークエンド）
+
+**名詞** / Lv.3 よく使う / CEFR A1 — 週末
+
+- 📍 シーン: 週末旅行、ウィークエンドセール。
+- 💬 例文: *What are you doing this weekend?* — 今週末は何をするの？
+- 📜 語源: week「週」+ end「終わり」
+  - week は古英語 wice から。週末に仕事を休む習慣が広まった19世紀にできた語。
+- 🌳 同じ語源の仲間: week（週）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Saturday** | 土曜日 | サトゥルヌスの日。 | ラテン語 Sāturnī diēs |
+| **holiday** | 休日 | 休みの日。 | 古英語 hāligdæg |
+
+<a id="scarf"></a>
+### scarf（スカーフ）
+
+**名詞** / Lv.3 よく使う / CEFR A2 — スカーフ、マフラー
+
+- 📍 シーン: シルクのスカーフ、冬のマフラー。
+- 💬 例文: *It's cold, so wear a scarf.* — 寒いからマフラーをしなさい。
+- 📜 語源: 古北フランス語 escarpe「巡礼者の袋、たすき」
+  - 肩から下げる帯 → 首に巻く布。英語では冬の「マフラー」も scarf と言う。
+- 🌳 同じ語源の仲間: headscarf（頭に巻くスカーフ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **muffler** | マフラー | 古い言い方。米国では車の消音器。 | muffle + -er |
+| **shawl** | ショール | 肩にかける布。 | ペルシャ語 shāl |
+
+<a id="muffler"></a>
+### muffler（マフラー） ⚠️
+
+**名詞** / Lv.3 よく使う / CEFR C1 — （車の）消音器、マフラー（古）
+
+- 📍 シーン: 首に巻く「マフラー」、車のマフラー。
+- ⚠️ カタカナの罠: 首に巻く「マフラー」は英語ではふつう scarf。アメリカ英語で muffler と言うとまず車の「消音器」を思い浮かべる。
+- 💬 例文: *The car's muffler was making a loud noise.* — 車のマフラーが大きな音を立てていた。
+- 📜 語源: muffle「包む、音を消す」+ -er
+  - 「包んで音を小さくするもの」→ 消音器。首を「包む」防寒具の意味もあるが、古風。
+- 🌳 同じ語源の仲間: muffle（音を消す）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **scarf** | マフラー、スカーフ | 日本語の「マフラー」はこれ。 | 古北フランス語 escarpe |
+| **silencer** | 消音器 | 音を消す装置。 | silence + -er |
+
+<a id="mitten"></a>
+### mitten（ミトン）
+
+**名詞** / Lv.3 よく使う / CEFR B2 — ミトン、親指だけ分かれた手袋
+
+- 📍 シーン: 鍋つかみのミトン、子どもの手袋。
+- 💬 例文: *The child wore red mittens.* — その子は赤いミトンをしていた。
+- 📜 語源: 古フランス語 mitaine（語源ははっきりしない）
+  - 指が親指と残りの2つに分かれた手袋。鍋つかみは oven mitt。
+- 🌳 同じ語源の仲間: mitt（ミット）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **glove** | 手袋 | 指が分かれた手袋。 | 古英語 glōf |
+| **oven mitt** | 鍋つかみ | 熱いものをつかむ手袋。 | oven + mitt |
+
+<a id="court"></a>
+### court（コート）
+
+**名詞** / Lv.3 よく使う / CEFR B1 — （テニスなどの）コート、裁判所、宮廷
+
+- 📍 シーン: テニスコート、最高裁判所。
+- 💬 例文: *The tennis court is behind the school.* — テニスコートは学校の裏にある。
+- 📜 語源: 古フランス語 cort ← ラテン語 cohors「囲い、中庭」
+  - 「囲まれた中庭」→ 宮廷、裁判所、競技場。courtesy（礼儀＝宮廷のふるまい）も同じ家族。上着の「コート」は coat で別の語。
+- 🌳 同じ語源の仲間: courtesy（礼儀）、courtyard（中庭）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **field** | 競技場 | 屋外のグラウンド。 | 古英語 feld |
+| **tribunal** | 法廷 | 裁判所。 | ラテン語 tribūnal |
+
+<a id="track"></a>
+### track（トラック）
+
+**名詞・動詞** / Lv.3 よく使う / CEFR B1 — 跡、走路、線路、（音楽の）曲、追跡する
+
+- 📍 シーン: 陸上のトラック、アルバムの3曲目。
+- 💬 例文: *The runners lined up on the track.* — 走者たちがトラックに並んだ。
+- 📜 語源: 古フランス語 trac「足跡」
+  - 「通った跡」→ 道、走路、線路。レコードの溝から「曲」の意味も。keep track of は「把握しておく」。
+- 🌳 同じ語源の仲間: tracking（追跡）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **path** | 小道 | 通り道。 | 古英語 pæþ |
+| **trail** | 跡、山道 | 通った跡。 | 古フランス語 trailler |
+
+<a id="lock"></a>
+### lock（ロック）
+
+**名詞・動詞** / Lv.3 よく使う / CEFR A2 — 錠、鍵をかける
+
+- 📍 シーン: オートロック、画面ロック。
+- 💬 例文: *Don't forget to lock the door.* — ドアに鍵をかけるのを忘れないで。
+- 📜 語源: 古英語 loc「留め金、閉じるもの」
+  - 音楽の「ロック」は rock で別の語。髪の房（a lock of hair）も同じつづりの別語。
+- 🌳 同じ語源の仲間: locker（ロッカー）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **key** | 鍵 | 錠を開けるもの。 | 古英語 cǣg |
+| **latch** | 掛け金 | 簡単な留め具。 | 古英語 læccan |
+
+<a id="grill"></a>
+### grill（グリル）
+
+**名詞・動詞** / Lv.3 よく使う / CEFR B1 — 焼き網、網焼きにする
+
+- 📍 シーン: 魚焼きグリル、グリルチキン。
+- 💬 例文: *Let's grill some fish for dinner.* — 夕食に魚を焼こう。
+- 📜 語源: フランス語 gril ← ラテン語 crātīcula「小さな格子」
+  - 格子状の焼き網。口語で「質問攻めにする」の意味もある。
+- 🌳 同じ語源の仲間: griller（焼き器）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **barbecue** | バーベキュー | 屋外で焼く料理。 | スペイン語 barbacoa |
+| **roast** | あぶる | オーブンで焼く。 | 古フランス語 rostir |
+
+<a id="microwave"></a>
+### microwave（電子レンジ） ⚠️
+
+**名詞・動詞** / Lv.3 よく使う / CEFR B1 — 電子レンジ（で温める）、マイクロ波
+
+- 📍 シーン: 「レンジでチン」、レンジ調理。
+- ⚠️ カタカナの罠: 「（電子）レンジ」は英語では microwave。英語の range は「（オーブンつきの）調理コンロ」で、電子レンジではない。
+- 💬 例文: *Heat the soup in the microwave for two minutes.* — スープを電子レンジで2分温めて。
+- 📜 語源: micro-「微小な」+ wave「波」
+  - 波長の短い電波（マイクロ波）で食べ物を温める。動詞で「電子レンジで温める」にも使う。
+- 🌳 同じ語源の仲間: wave（波）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **oven** | オーブン | 焼く器具。 | 古英語 ofen |
+| **range** | 調理レンジ | コンロとオーブンの一体型。 | 古フランス語 rang |
+
+<a id="laptop"></a>
+### laptop（ノートパソコン）
+
+**名詞** / Lv.3 よく使う / CEFR B1 — ノートパソコン
+
+- 📍 シーン: 「ノーパソ」、ラップトップ。
+- 💬 例文: *I do my homework on my laptop.* — ノートパソコンで宿題をする。
+- 📜 語源: lap「ひざ」+ top「上」
+  - 「ひざの上で使えるもの」。日本語の「ノートパソコン」は英語では laptop / notebook computer。
+- 🌳 同じ語源の仲間: lap（ひざ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **notebook** | ノートパソコン | 薄型のパソコン。 | note + book |
+| **desktop** | デスクトップ | 机に置くパソコン。 | desk + top |
+
+<a id="alarm"></a>
+### alarm（アラーム）
+
+**名詞** / Lv.3 よく使う / CEFR B1 — 警報、目覚まし
+
+- 📍 シーン: 目覚ましアラーム、火災報知器。
+- 💬 例文: *I set my alarm for six o'clock.* — 目覚ましを6時にセットした。
+- 📜 語源: イタリア語 all'arme「武器を取れ！」
+  - 敵が来たときの叫び「武器へ！」から「警報」に。army、armor と同じ arma の家族。
+- 💎 語根: `arm`（武器）
+- 🌳 同じ語源の仲間: army（軍隊）、alarm clock（目覚まし時計）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **warning** | 警告 | 注意を促すこと。 | 古英語 warnian |
+| **siren** | サイレン | 警報の音。 | ギリシャ神話 Seirēn |
+
+<a id="siren"></a>
+### siren（サイレン）
+
+**名詞** / Lv.3 よく使う / CEFR B2 — サイレン、魅惑的な女性
+
+- 📍 シーン: 救急車のサイレン、警報。
+- 💬 例文: *We heard the siren of an ambulance.* — 救急車のサイレンが聞こえた。
+- 📜 語源: ギリシャ神話 Seirēn（セイレーン）
+  - 美しい歌声で船乗りを誘い、船を沈めた海の怪物。その「引きつける声」から警報の音の名前に。
+- 🌳 同じ語源の仲間: siren song（誘惑の声）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **alarm** | 警報 | 危険を知らせる音。 | イタリア語 all'arme |
+| **horn** | クラクション | 車の警笛。 | 古英語 horn |
+
+<a id="ballet"></a>
+### ballet（バレエ）
+
+**名詞** / Lv.3 よく使う / CEFR B1 — バレエ
+
+- 📍 シーン: バレエ教室、『白鳥の湖』。
+- 💬 例文: *She has taken ballet lessons since she was four.* — 彼女は4歳からバレエを習っている。
+- 📜 語源: フランス語 ballet ← イタリア語 balletto「小さな踊り」← ballo「踊り」
+  - ball（舞踏会）と同じ語根。スポーツの「バレー（volleyball）」とは別の語なので注意。
+- 🌳 同じ語源の仲間: ball（舞踏会）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **dance** | ダンス | 踊り。 | 古フランス語 dancier |
+| **ballerina** | バレリーナ | バレエの女性ダンサー。 | イタリア語 ballerina |
+
+<a id="wallet"></a>
+### wallet（ウォレット）
+
+**名詞** / Lv.3 よく使う / CEFR A2 — 財布
+
+- 📍 シーン: 長財布、スマホのウォレットアプリ。
+- 💬 例文: *I left my wallet at home.* — 財布を家に忘れた。
+- 📜 語源: 中英語 walet「旅の袋」
+  - もとは旅人の「背負い袋」。今は札入れを指す。
+- 🌳 同じ語源の仲間: e-wallet（電子財布）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **purse** | 財布、（米）ハンドバッグ | 小銭入れ。 | ギリシャ語 byrsa |
+| **billfold** | 札入れ | 二つ折りの財布。 | bill + fold |
+
+<a id="oatmeal"></a>
+### oatmeal（オートミール）
+
+**名詞** / Lv.3 よく使う / CEFR B2 — オートミール
+
+- 📍 シーン: 朝食のオートミール、オーツ麦。
+- 💬 例文: *I have oatmeal with fruit for breakfast.* — 朝食に果物入りのオートミールを食べる。
+- 📜 語源: oat「オーツ麦」+ meal「ひき割り粉」
+  - meal は「粉」の意味で、食事の meal とは別語源。
+- 🌳 同じ語源の仲間: oat（オーツ麦）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **porridge** | おかゆ | 穀物を煮たもの。 | pottage「スープ」の変形 |
+| **cereal** | シリアル | 朝食用の穀物。 | ラテン語 Cereālis |
+
+<a id="cook"></a>
+### cook（コック） ⚠️
+
+**名詞・動詞** / Lv.3 よく使う / CEFR A1 — 料理人、料理する
+
+- 📍 シーン: 「コックさん」、コック帽。
+- ⚠️ カタカナの罠: 日本語の「コック」は料理人を指すが、英語では cook も chef も使う。ただし cooker は「料理人」ではなく「調理器具（炊飯器 rice cooker）」。
+- 💬 例文: *My father is a good cook.* — 父は料理がうまい。
+- 📜 語源: 古英語 cōc ← ラテン語 coquus ← coquere「料理する」
+  - kitchen、biscuit と同じ coquere の家族。
+- 💎 語根: `coqu / coc / cook`（料理する・煮る）
+- 🌳 同じ語源の仲間: kitchen（台所）、cooker（調理器具）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **chef** | シェフ | プロの料理長。 | フランス語 chef |
+| **prepare** | 準備する | 食事を用意する。 | ラテン語 praeparāre |
+
+<a id="mascot"></a>
+### mascot（マスコット）
+
+**名詞** / Lv.3 よく使う / CEFR B2 — マスコット、ゆるキャラ
+
+- 📍 シーン: チームのマスコット、ご当地キャラ。
+- 💬 例文: *The team's mascot is a bear.* — そのチームのマスコットはクマだ。
+- 📜 語源: フランス語 mascotte「お守り」← プロヴァンス語 masco「魔女」
+  - 「幸運を呼ぶもの」。1880年のフランスのオペラ『ラ・マスコット』で広まった。
+- 🌳 同じ語源の仲間: mascotte（フランス語のお守り）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **charm** | お守り | 幸運のしるし。 | ラテン語 carmen「呪文」 |
+| **character** | キャラクター | 登場人物。 | ギリシャ語 kharaktēr |
+
+<a id="jersey"></a>
+### jersey（ジャージ） ⚠️
+
+**名詞** / Lv.3 よく使う / CEFR B2 — （スポーツの）ユニフォーム、ジャージー牛
+
+- 📍 シーン: 体育の「ジャージ」、サッカーのユニフォーム。
+- ⚠️ カタカナの罠: 日本語の「ジャージ（運動用の上下）」は英語では tracksuit。英語の jersey はサッカーなどのユニフォームのシャツや、伸縮性のある生地を指す。
+- 💬 例文: *He bought his favorite player's jersey.* — 彼は好きな選手のユニフォームを買った。
+- 📜 語源: イギリス海峡のジャージー島（Jersey）から
+  - 島の漁師が着ていた毛糸の服や、島産の牛（Jersey cow）から。ニュージャージー州もこの島の名前にちなむ。
+- 🌳 同じ語源の仲間: New Jersey（ニュージャージー州）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **tracksuit** | ジャージ上下 | 日本語の「ジャージ」はこれ。 | track + suit |
+| **uniform** | ユニフォーム | チームのそろいの服。 | ラテン語 ūniformis |
+
+<a id="helmet"></a>
+### helmet（ヘルメット）
+
+**名詞** / Lv.3 よく使う / CEFR B1 — ヘルメット、かぶと
+
+- 📍 シーン: 自転車のヘルメット、工事用ヘルメット。
+- 💬 例文: *Always wear a helmet when you ride a bike.* — 自転車に乗るときはいつもヘルメットをかぶって。
+- 📜 語源: 古フランス語 helmet「小さなかぶと」← helme「かぶと」
+  - ゲルマン語の helm（かぶと）に「小さい」を表す -et がついた。
+- 🌳 同じ語源の仲間: helm（かぶと、舵）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **hat** | 帽子 | つばのある帽子。 | 古英語 hætt |
+| **cap** | キャップ | つばの前だけの帽子。 | 後期ラテン語 cappa |
 
 ## Lv.4 話が広がる
 
@@ -13054,6 +13913,54 @@
 |---|---|---|---|
 | **heaven** | 天国 | 神のいる所。 | 古英語 heofon |
 | **utopia** | 理想郷 | 理想の社会。 | ギリシャ語 ou + topos |
+
+<a id="gauge"></a>
+### gauge（ゲージ）
+
+**名詞・動詞** / Lv.5 よく見聞きする / CEFR C1 — 計器、規格、見積もる
+
+- 📍 シーン: ガソリンのゲージ、HPゲージ、線路の軌間。
+- 💬 例文: *The fuel gauge shows the tank is almost empty.* — 燃料計はタンクがほぼ空だと示している。
+- 📜 語源: 古北フランス語 gauge「標準の尺度」
+  - 「決まった寸法」→ 計器、測る。発音は「ゲイジ」。ゲームのHPゲージ（gauge / bar）も同じ語。
+- 🌳 同じ語源の仲間: gauged（計測された）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **meter** | メーター | 計器。 | ギリシャ語 metron |
+| **measure** | 測る | 大きさを測る。 | ラテン語 mēnsūra |
+
+<a id="vegan"></a>
+### vegan（ヴィーガン）
+
+**名詞・形容詞** / Lv.5 よく見聞きする / CEFR B2 — 完全菜食主義者（の）
+
+- 📍 シーン: ヴィーガン料理、プラントベース。
+- 💬 例文: *She is vegan, so she doesn't eat eggs or cheese.* — 彼女はヴィーガンなので卵やチーズも食べない。
+- 📜 語源: vegetarian の短縮形（1944年、イギリスのヴィーガン協会が作った語）
+  - 肉や魚だけでなく、卵・乳製品など動物由来のものを一切とらない人。vegetarian の最初と最後を組み合わせた。
+- 🌳 同じ語源の仲間: vegetarian（菜食主義者）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **vegetarian** | 菜食主義者 | 肉・魚を食べない人。 | vegetable + -arian |
+| **plant-based** | 植物由来の | 植物から作った。 | plant + based |
+
+<a id="vegetarian"></a>
+### vegetarian（ベジタリアン）
+
+**名詞・形容詞** / Lv.5 よく見聞きする / CEFR B1 — 菜食主義者（の）
+
+- 📍 シーン: ベジタリアンメニュー、菜食。
+- 💬 例文: *Do you have any vegetarian dishes?* — ベジタリアン向けの料理はありますか？
+- 📜 語源: vegetable「野菜」+ -arian（1840年代）
+  - 肉や魚を食べない人。乳製品や卵は食べる人も多い。
+- 🌳 同じ語源の仲間: vegetable（野菜）、vegan（ヴィーガン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **vegan** | ヴィーガン | 動物性のものを一切とらない人。 | vegetarian の略 |
+| **herbivore** | 草食動物 | 植物を食べる動物。 | ラテン語 herba + vorāre |
 
 ## Lv.6 社会の話題
 
@@ -22321,15 +23228,15 @@
 | `mit / miss` | 送る | ラテン語 mittere | [mission](#mission), [message](#message), [commitment](#commitment), [missile](#missile), [commission](#commission) | transmit, dismiss, submit |
 | `volv / volu` | 巻く・転がる | ラテン語 volvere | [evolution](#evolution), [revolution](#revolution) | evolve, revolve, involve, volume |
 | `sign` | 印 | ラテン語 signum | [signal](#signal), [sign](#sign), [design](#design), [seal](#seal), [designer](#designer) | signature, assign |
-| `arm` | 武器 | ラテン語 arma | [armor](#armor), [army](#army) | arms, alarm, armament |
+| `arm` | 武器 | ラテン語 arma | [armor](#armor), [army](#army), [alarm](#alarm) | arms, armament |
 | `merg / mers` | 沈む・浸す | ラテン語 mergere | [emergency](#emergency) | emerge, merge, submerge, immerse |
 | `tend / tens / tent` | 張る・伸ばす | ラテン語 tendere | [tension](#tension), [tent](#tent) | tense, extend, attention, intend |
 | `claim / clam` | 叫ぶ | ラテン語 clāmāre | [claim](#claim) | exclaim, proclaim, clamor |
 | `nat / nai` | 生まれる | ラテン語 nāscī / nātus | [naive](#naive), [nature](#nature), [renaissance](#renaissance), [nationalism](#nationalism) | native, nation, innate |
 | `spir` | 息をする | ラテン語 spīrāre | [spirit](#spirit) | inspire, expire, respiration, conspire |
 | `mir / marv` | 驚く・見つめる | ラテン語 mīrārī | [miracle](#miracle), [mirror](#mirror), [mirage](#mirage) | marvel, admire |
-| `fac / fic / fact / feit` | 作る・行う | ラテン語 facere | [sacrifice](#sacrifice), [fashion](#fashion), [perfect](#perfect), [benefit](#benefit), [factor](#factor), [feature](#feature), [official](#official), [office](#office), [factory](#factory) | artifact, forfeit, effect, difficult |
-| `coqu / coc / cook` | 料理する・煮る | ラテン語 coquere | [kitchen](#kitchen), [cooking](#cooking) | cook, biscuit, precocious, concoct |
+| `fac / fic / fact / feit` | 作る・行う | ラテン語 facere | [sacrifice](#sacrifice), [fashion](#fashion), [perfect](#perfect), [benefit](#benefit), [factor](#factor), [feature](#feature), [official](#official), [office](#office), [factory](#factory), [parfait](#parfait) | artifact, forfeit, effect, difficult |
+| `coqu / coc / cook` | 料理する・煮る | ラテン語 coquere | [kitchen](#kitchen), [cooking](#cooking), [biscuit](#biscuit), [cook](#cook) | precocious, concoct |
 | `man / main` | とどまる | ラテン語 manēre | [mansion](#mansion) | remain, permanent, manor |
 | `tract / trai / treat` | 引く | ラテン語 trahere | [train](#train), [trainer](#trainer), [training](#training) | tractor, attract, contract, portrait |
 | `hosp / host / hot` | 客・もてなす人 | ラテン語 hospes | [hotel](#hotel), [hospital](#hospital), [host](#host), [hostel](#hostel), [hospitality](#hospitality) |  |
@@ -22344,7 +23251,7 @@
 | `cycl` | 輪・円 | ギリシャ語 kyklos | [bike](#bike), [recycle](#recycle), [cycling](#cycling), [cycle](#cycle) | encyclopedia, cyclone |
 | `form` | 形 | ラテン語 fōrma | [reform](#reform), [uniform](#uniform), [format](#format), [formal](#formal), [platform](#platform) | form, transform, inform |
 | `part` | 部分・分ける | ラテン語 pars / partīre | [party](#party), [partner](#partner), [apartment](#apartment) | part, particle, department |
-| `anim` | 息・魂 | ラテン語 anima | [animal](#animal) | animation, animate, unanimous |
+| `anim` | 息・魂 | ラテン語 anima | [animal](#animal), [anime](#anime) | animation, animate, unanimous |
 | `port` | 運ぶ | ラテン語 portāre | [sport](#sport), [report](#report), [support](#support), [portfolio](#portfolio), [reporter](#reporter), [import](#import), [export](#export) | transport, portable |
 | `col / cult` | 耕す・住む | ラテン語 colere | [culture](#culture) | agriculture, cultivate, colony |
 | `popul / publ` | 民衆 | ラテン語 populus | [popular](#popular), [public](#public), [populism](#populism) | people, population |

@@ -14,7 +14,7 @@
 | パス | 内容 |
 |---|---|
 | [`docs/UX_DESIGN.md`](docs/UX_DESIGN.md) | UX デザイン（学習の流れ、問題タイプ、習熟度と復習、ビジュアル、KPI） |
-| [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（570語・類義語1238語・語根56種）— 語源・類義語つき、人が読む用 |
+| [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（1425語・類義語2948語・語根56種）— 語源・類義語つき、人が読む用 |
 | `data/words.json` | 単語データ（正本） |
 | `data/roots.json` | 語根ファミリーデータ |
 | `index.html`, `app/` | 動くプロトタイプ（依存なしの HTML/CSS/JS）。コース・テーマ・問題タイプ・習熟度の定義は `app/app.js` 冒頭、テーマの見た目は `app/style.css` |
