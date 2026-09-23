@@ -290,10 +290,13 @@ def cmd_synth(args):
         "items": manifest_items,
     }
     (out_dir / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    if not args.no_activate:
+    # activate: false の声（動作確認用など）はアプリの音声を切り替えない
+    if not args.no_activate and voice.get("activate", True):
         (AUDIO_DIR / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False) + "\n", encoding="utf-8")
     size = sum(p.stat().st_size for p in out_dir.iterdir() if p.suffix in (".webm", ".m4a"))
     print(f"完了: 失敗 {len(failed)} 件 / audio/{voice['name']}/ 合計 {size / 1e6:.2f} MB")
+    if not voice.get("activate", True):
+        print("※ この声は activate: false のため、アプリはブラウザ標準の読み上げのままです")
     if failed:
         sys.exit(1)
 

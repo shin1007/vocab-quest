@@ -33,7 +33,7 @@ python3 -m http.server 8000
 
 ## 音声
 
-音声ファイルがなくても、ブラウザ標準の読み上げで動きます。高品質な音声を事前に生成する場合は次のとおりです（詳しくは [`docs/VOICE_TTS.md`](docs/VOICE_TTS.md)）。
+声を学習させるまでは、ブラウザ標準の読み上げ（日本語・英語）で再生します。高品質な音声を事前に生成する場合は次のとおりです（詳しくは [`docs/VOICE_TTS.md`](docs/VOICE_TTS.md)）。
 
 ```bash
 python3 scripts/tts/tts.py utterances             # 読み上げる文の一覧を作る
