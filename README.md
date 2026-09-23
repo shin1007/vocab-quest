@@ -1,8 +1,8 @@
 # Vocab Quest 🗝️
 
 ゲーム・まんが・アニメで**すでに知っているカタカナ語**（ポーション、クエスト、クリティカル…）を足場にして、
-英単語を学ぶ **RPG** のプロトタイプです。
-名前とジョブを決めて「ことばの大陸」を冒険し、コマンドバトルで問題に答えて敵を倒します。
+英単語を学ぶ単語アプリのプロトタイプです。
+学習の仕組みはふつうの単語アプリ（レッスン・復習・単語帳）で、**見た目だけ**をゲーム風にしています。見た目は4テーマ（ステージ／ポップ／ストリート／ノーブル）から選べます。
 
 - **語源**でつながりを知る：「ポーション（potion）と毒（poison）は兄弟語」
 - **類義語**のニュアンスと語源を比べる：potion / elixir / remedy / draught
@@ -12,16 +12,16 @@
 
 | パス | 内容 |
 |---|---|
-| [`docs/UX_DESIGN.md`](docs/UX_DESIGN.md) | UX デザイン（コアループ、問題タイプ、成長システム、画面フロー、KPI） |
+| [`docs/UX_DESIGN.md`](docs/UX_DESIGN.md) | UX デザイン（学習の流れ、問題タイプ、習熟度と復習、ビジュアル、KPI） |
 | [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（65語・類義語196語・語根21種）— 語源・類義語つき、人が読む用 |
 | `data/words.json` | 単語データ（正本） |
 | `data/roots.json` | 語根ファミリーデータ |
-| `index.html`, `app/` | 遊べるプロトタイプ（依存なしの HTML/CSS/JS）。地方・ステージ・ジョブ・呪文・どうぐの定義は `app/app.js` 冒頭 |
+| `index.html`, `app/` | 動くプロトタイプ（依存なしの HTML/CSS/JS）。トピック・テーマ・問題タイプ・習熟度の定義は `app/app.js` 冒頭、テーマの見た目は `app/style.css` |
 | `scripts/build_wordlist.py` | データ検証と `WORD_LIST.md` の生成 |
 | [`docs/VOICE_TTS.md`](docs/VOICE_TTS.md) | 日本語・英語の読み上げ音声の設計（声の素材とライセンス、エンジン選定、容量） |
 | `scripts/tts/tts.py`, `tts/` | 音声の事前生成パイプライン（生成・差分更新・Whisper による品質確認） |
 
-## 遊び方
+## 使い方
 
 ```bash
 python3 -m http.server 8000

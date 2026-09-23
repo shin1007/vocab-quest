@@ -12,10 +12,10 @@ ROOT = Path(__file__).resolve().parent.parent
 WORDS = json.loads((ROOT / "data/words.json").read_text(encoding="utf-8"))
 ROOTS = json.loads((ROOT / "data/roots.json").read_text(encoding="utf-8"))
 AREAS = {
-    "fantasy": "🏰 剣と魔法の王国（RPG・ファンタジー）",
-    "battle": "⚔️ 闘技場の都（バトル・アクション）",
-    "scifi": "🚀 星の方舟（SF・ロボット）",
-    "story": "🏫 カタカナ町（学園・スポーツ・ドラマ）",
+    "fantasy": "🏰 ファンタジー（RPG・剣と魔法）",
+    "battle": "⚔️ アクション（バトル・格闘）",
+    "scifi": "🚀 SF（宇宙・ロボット）",
+    "story": "🏫 学園・ドラマ（スポーツ・日常）",
 }
 REQUIRED = ["id", "word", "katakana", "pos", "area", "cefr", "meaning", "scene",
             "example", "etymology", "roots", "family", "synonyms"]

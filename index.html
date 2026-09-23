@@ -1,34 +1,41 @@
 <!doctype html>
-<html lang="ja">
+<html lang="ja" data-theme="stage">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eef4ff">
   <title>Vocab Quest</title>
-  <meta name="description" content="ゲーム・まんが・アニメのカタカナ語から英単語を学ぶRPG">
+  <meta name="description" content="ゲーム・まんが・アニメのカタカナ語から英単語を学ぶ">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗝️</text></svg>">
+  <script>
+    // 保存済みのテーマを描画前に当てる（ちらつき防止）。テーマの一覧は app.js の THEMES
+    try {
+      const t = JSON.parse(localStorage.getItem("vocab-quest-save-v3") || "{}").settings?.theme;
+      if (["stage", "pop", "street", "noble"].includes(t)) document.documentElement.dataset.theme = t;
+    } catch { /* 保存データが読めなければ既定のテーマ */ }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=M+PLUS+Rounded+1c:wght@500;700;800&family=Montserrat:ital,wght@0,700;0,800;1,800;1,900&family=Shippori+Mincho+B1:wght@700;800&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap">
   <link rel="stylesheet" href="app/style.css">
 </head>
 <body>
   <header class="topbar">
     <div class="brand">VOCAB<span>QUEST</span></div>
-    <div class="player">
-      <span class="lv" id="hud-level">Lv 1</span>
-      <div class="xpbar" aria-label="経験値"><div id="hud-xp"></div></div>
-      <span id="hud-gold">💰0G</span>
-      <span id="hud-streak" title="連続プレイ日数">🔥0</span>
+    <div class="hud">
+      <span class="pill" id="hud-streak" title="連続学習日数">🔥 0</span>
+      <span class="pill" id="hud-learned" title="定着した単語">📘 0</span>
+      <button class="pill" id="theme-btn" aria-label="テーマを変える">🎨</button>
     </div>
   </header>
 
   <main id="view" aria-live="polite"></main>
 
   <nav class="tabs" id="tabs">
-    <button data-tab="map" class="active"><span>🗺</span>マップ</button>
-    <button data-tab="dex"><span>📖</span>ことばの書</button>
-    <button data-tab="roots"><span>💎</span>語根の宝珠</button>
-    <button data-tab="status"><span>🛡️</span>つよさ</button>
+    <button data-tab="home" class="active"><span>🏠</span>ホーム</button>
+    <button data-tab="dex"><span>📖</span>単語帳</button>
+    <button data-tab="roots"><span>🧩</span>語根</button>
+    <button data-tab="stats"><span>📊</span>記録</button>
   </nav>
 
   <div class="modal" id="modal" hidden>
