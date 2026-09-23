@@ -1,13 +1,60 @@
-/* Vocab Quest — カタカナ語から英単語を学ぶ RPG 風プロトタイプ（依存なし） */
+/* Vocab Quest — カタカナ語から英単語を学ぶ RPG（依存なし） */
 (() => {
   "use strict";
 
-  // ---------- 定数 ----------
-  const AREAS = {
-    fantasy: { name: "剣と魔法の王国", icon: "🏰", enemy: "🐉", enemyName: "エンシェントドラゴン", genre: "RPG・ファンタジー" },
-    battle: { name: "闘技場", icon: "⚔️", enemy: "🤖", enemyName: "バトルゴーレム", genre: "バトル・アクション" },
-    scifi: { name: "宇宙ステーション", icon: "🚀", enemy: "👾", enemyName: "スペースインベーダー", genre: "SF・ロボット" },
-    story: { name: "青春ストリート", icon: "🏫", enemy: "👻", enemyName: "カタカナおばけ", genre: "学園・スポーツ・ドラマ" },
+  // ---------- ゲーム世界の定義 ----------
+  const REGIONS = {
+    fantasy: {
+      name: "剣と魔法の王国", icon: "🏰", genre: "RPG・ファンタジー",
+      stages: [
+        { name: "はじまりの草原", enemy: "🐛", enemyName: "グリーンワーム" },
+        { name: "まよいの森", enemy: "🐺", enemyName: "シャドウウルフ" },
+        { name: "古代遺跡", enemy: "🗿", enemyName: "ストーンゴーレム" },
+      ],
+      boss: { name: "竜の城", enemy: "🐉", enemyName: "エンシェントドラゴン" },
+    },
+    battle: {
+      name: "闘技場の都", icon: "⚔️", genre: "バトル・アクション",
+      stages: [
+        { name: "予選リング", enemy: "🤺", enemyName: "見習いフェンサー" },
+        { name: "砂の闘技場", enemy: "🦂", enemyName: "サソリ闘士" },
+        { name: "決勝の門", enemy: "🦍", enemyName: "バーサークコング" },
+      ],
+      boss: { name: "王者の玉座", enemy: "🤖", enemyName: "チャンピオン・ゴーレム" },
+    },
+    scifi: {
+      name: "星の方舟", icon: "🚀", genre: "SF・ロボット",
+      stages: [
+        { name: "発着ゲート", enemy: "👽", enemyName: "グレイ" },
+        { name: "無重力区画", enemy: "🛸", enemyName: "UFOドローン" },
+        { name: "動力炉", enemy: "🦾", enemyName: "ガードロイド" },
+      ],
+      boss: { name: "司令塔", enemy: "👾", enemyName: "マザーインベーダー" },
+    },
+    story: {
+      name: "カタカナ町", icon: "🏫", genre: "学園・スポーツ・ドラマ",
+      stages: [
+        { name: "通学路", enemy: "👻", enemyName: "カタカナおばけ" },
+        { name: "体育館", enemy: "😈", enemyName: "イタズラ小悪魔" },
+        { name: "放課後の屋上", enemy: "🦇", enemyName: "ヨフカシバット" },
+      ],
+      boss: { name: "ワセイの館", enemy: "🎭", enemyName: "ニセモノ王ワセイ" },
+    },
+  };
+  const JOBS = {
+    warrior: { name: "戦士", icon: "🛡️", desc: "HPが高い。ミスに強い", hp: 10, mp: 0, exp: 1, gold: 1 },
+    mage: { name: "魔法使い", icon: "🧙", desc: "MPが高い。ヒント呪文を多く使える", hp: 0, mp: 6, exp: 1, gold: 1 },
+    thief: { name: "盗賊", icon: "🗡️", desc: "手に入るゴールドが1.5倍", hp: 0, mp: 0, exp: 1, gold: 1.5 },
+    scholar: { name: "学者", icon: "📚", desc: "手に入る経験値が1.2倍", hp: 0, mp: 0, exp: 1.2, gold: 1 },
+  };
+  // 呪文＝学習のヒント。呪文名そのものも英単語
+  const SPELLS = [
+    { id: "reveal", name: "リビール", en: "reveal（明かす）", mp: 4, lv: 1, desc: "まちがいの選択肢を2つ消す／スペル問題は1文字うめる" },
+    { id: "scan", name: "スキャン", en: "scan（調べる）", mp: 2, lv: 3, desc: "問題のヒントを表示する" },
+  ];
+  const ITEMS = {
+    potion: { name: "ポーション", icon: "🧪", price: 10, desc: "HPを15回復する", hp: 15 },
+    ether: { name: "エーテル", icon: "🔷", price: 15, desc: "MPを6回復する", mp: 6 },
   };
   const QTYPES = {
     kata: "カタカナ → 英語",
@@ -17,14 +64,15 @@
     syn: "類義語ハンター",
     trap: "⚠️ カタカナの罠",
   };
+  const CEFR_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"];
   const STAR_INTERVAL_DAYS = [0, 0, 1, 3, 7, 21]; // ★ごとの次回出題までの日数
+  const STAGE_SIZE = 6;
   const QUESTIONS_PER_BATTLE = 8;
-  const MAX_NEW_PER_BATTLE = 3;
-  const HEARTS = 3;
   const CRIT_MS = 5000;
-  const BOSS_UNLOCK_RATIO = 0.6;
+  const ENEMY_ATTACK = 10;
+  const BOSS_ATTACK = 13;
   const DAY = 24 * 60 * 60 * 1000;
-  const STORE_KEY = "vocab-quest-save-v1";
+  const STORE_KEY = "vocab-quest-save-v2";
 
   let WORDS = [];
   let ROOTS = [];
@@ -49,13 +97,20 @@
   const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
   const stars = (n) => "★".repeat(n) + "☆".repeat(5 - n);
   const todayKey = (t = Date.now()) => new Date(t).toLocaleDateString("sv-SE");
+  const plainKatakana = (w) => w.katakana.replace(/（.*）/, "");
   // 出題文から答えの単語（と派生形）を伏せる: equipment → equip も伏せる
   const mask = (text, w) => text.replace(new RegExp(`\\b${w.word.slice(0, 4)}[a-z]*`, "gi"), "＿＿＿");
   const html = (strings, ...vals) => strings.reduce((out, s, i) => out + s + (i < vals.length ? vals[i] : ""), "");
+  const gauge = (cur, max, cls = "") => `<div class="gauge ${cls}"><div style="width:${Math.max(0, Math.min(1, cur / max)) * 100}%"></div></div>`;
 
   // ---------- セーブデータ ----------
   function defaultState() {
-    return { level: 1, xp: 0, totalXp: 0, streak: 0, lastDay: null, cards: {}, battles: 0, answered: 0, correct: 0, bestCombo: 0, onboarded: false, genres: [] };
+    return {
+      hero: { name: "ゆうしゃ", job: "warrior" },
+      level: 1, exp: 0, totalExp: 0, gold: 50, items: { potion: 3, ether: 0 },
+      cleared: {}, cards: {}, streak: 0, lastDay: null,
+      battles: 0, answered: 0, correct: 0, bestCombo: 0, onboarded: false,
+    };
   }
   function load() {
     try {
@@ -71,125 +126,237 @@
   const card = (id) => state.cards[id] || { star: 0, due: 0, seen: 0, correct: 0 };
   const isDue = (id) => { const c = state.cards[id]; return c && c.star > 0 && c.due <= Date.now(); };
   const dueWords = () => WORDS.filter((w) => isDue(w.id));
-  const areaWords = (area) => WORDS.filter((w) => w.area === area);
-  const learnedRatio = (words) => words.filter((w) => card(w.id).star >= 3).length / words.length;
+
+  // ---------- 主人公のステータス ----------
+  const job = () => JOBS[state.hero.job];
+  const maxHp = () => 30 + 4 * (state.level - 1) + job().hp;
+  const maxMp = () => 8 + 2 * (state.level - 1) + job().mp;
+  const expToNext = () => state.level * 100;
+
+  // ---------- ステージ ----------
+  // 各地方の単語を CEFR の易しい順に並べ、ほぼ均等に分けてステージにする
+  function stagesOf(region) {
+    const words = WORDS.filter((w) => w.area === region)
+      .sort((a, b) => CEFR_ORDER.indexOf(a.cefr) - CEFR_ORDER.indexOf(b.cefr));
+    const count = Math.ceil(words.length / STAGE_SIZE);
+    const size = Math.ceil(words.length / count);
+    return REGIONS[region].stages.slice(0, count).map((s, i) => ({
+      ...s, region, index: i, key: `${region}-${i}`, words: words.slice(i * size, (i + 1) * size),
+    }));
+  }
+  const bossKey = (region) => `${region}-boss`;
+  const stageOpen = (st) => st.index === 0 || !!state.cleared[`${st.region}-${st.index - 1}`];
+  const bossOpen = (region) => stagesOf(region).every((st) => state.cleared[st.key]);
+  function nextStage() {
+    for (const r of Object.keys(REGIONS)) {
+      const st = stagesOf(r).find((s) => !state.cleared[s.key] && stageOpen(s));
+      if (st) return st;
+    }
+    return null;
+  }
 
   // ---------- HUD ----------
   function renderHud() {
     document.getElementById("hud-level").textContent = `Lv ${state.level}`;
-    document.getElementById("hud-xp").style.width = `${(state.xp / (state.level * 100)) * 100}%`;
-    document.getElementById("hud-streak").textContent = `🔥 ${state.streak}`;
+    document.getElementById("hud-xp").style.width = `${(state.exp / expToNext()) * 100}%`;
+    document.getElementById("hud-gold").textContent = `💰${state.gold}G`;
+    document.getElementById("hud-streak").textContent = `🔥${state.streak}`;
   }
 
   // ---------- 画面切り替え ----------
   function go(tab) {
     document.body.classList.remove("in-battle");
     document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
-    ({ world: renderWorld, dex: renderDex, roots: renderRoots, stats: renderStats })[tab]();
+    ({ map: renderMap, dex: renderDex, roots: renderRoots, status: renderStatus })[tab]();
     renderHud();
     window.scrollTo(0, 0);
   }
 
-  // ---------- オンボーディング ----------
+  // ---------- オンボーディング（名前とジョブ） ----------
   function renderOnboarding() {
     document.body.classList.add("in-battle");
-    const selected = new Set(state.genres);
+    let chosen = state.hero.job;
     const draw = () => {
       $view.innerHTML = html`
-        <div class="hero">
-          <div class="logo">🗝️</div>
-          <h1>Vocab Quest へようこそ！</h1>
-          <p class="muted">ゲームやアニメで聞いたことのあるカタカナ語が、<br>英単語へのワープポイントになる。</p>
+        <div class="title-screen">
+          <div class="logo">⚔️🗝️</div>
+          <h1 class="game-title">VOCAB QUEST</h1>
+          <p class="subtitle">〜 カタカナ語と ことばの大陸 〜</p>
         </div>
-        <div class="card">
-          <h3>好きなジャンルは？（いくつでも）</h3>
-          <div class="genre-grid">
-            ${Object.entries(AREAS).map(([k, a]) => html`
-              <button class="genre ${selected.has(k) ? "selected" : ""}" data-genre="${k}" aria-pressed="${selected.has(k)}">
-                <span class="i">${a.icon}</span>${esc(a.genre)}
+        <div class="window">
+          <p class="npc">🧙 <b>賢者ロゴス</b>「よくぞ来た、旅の者よ。この大陸では、おぬしの知っている<b>カタカナ語</b>が英語の力に変わる。まずは名を聞かせてくれんか？」</p>
+          <label class="field">なまえ<input id="name" maxlength="8" value="${esc(state.hero.name)}" autocomplete="off"></label>
+          <p class="npc" style="margin-top:14px">「そして、おぬしの<b>ジョブ</b>は？」</p>
+          <div class="job-grid">
+            ${Object.entries(JOBS).map(([k, j]) => html`
+              <button class="job ${chosen === k ? "selected" : ""}" data-job="${k}" aria-pressed="${chosen === k}">
+                <span class="i">${j.icon}</span><b>${esc(j.name)}</b><span class="small">${esc(j.desc)}</span>
               </button>`).join("")}
           </div>
-          <button class="btn block" id="start" ${selected.size ? "" : "disabled"}>チュートリアルバトルへ ▶</button>
-          <p class="small muted" style="text-align:center">3問だけの練習バトルです</p>
+          <button class="btn block" id="start">▶ ぼうけんに でる</button>
         </div>`;
-      $view.querySelectorAll("[data-genre]").forEach((b) => b.addEventListener("click", () => {
-        const k = b.dataset.genre;
-        selected.has(k) ? selected.delete(k) : selected.add(k);
+      $view.querySelectorAll("[data-job]").forEach((b) => b.addEventListener("click", () => {
+        state.hero.name = $view.querySelector("#name").value.trim() || "ゆうしゃ";
+        chosen = b.dataset.job;
         draw();
       }));
       $view.querySelector("#start").addEventListener("click", () => {
-        state.genres = [...selected];
+        state.hero = { name: $view.querySelector("#name").value.trim() || "ゆうしゃ", job: chosen };
         save();
-        startBattle({ mode: "tutorial" });
+        startBattle({ kind: "tutorial" });
       });
     };
     draw();
   }
 
-  // ---------- ワールド ----------
-  function renderWorld() {
+  // ---------- ワールドマップ ----------
+  function sageLine() {
     const due = dueWords();
-    const order = [...state.genres, ...Object.keys(AREAS).filter((k) => !state.genres.includes(k))];
+    if (due.length) return `はぐれモンスターが ${due.length}体 うろついておる。覚えかけのことばは、忘れかけた頃にもう一度戦うと心に深く刻まれるのじゃ。`;
+    const st = nextStage();
+    if (st) {
+      const hints = st.words.slice(0, 3).map((w) => `「${plainKatakana(w)}」`).join("");
+      return `次は <b>${esc(REGIONS[st.region].name)}</b> の <b>${esc(st.name)}</b> じゃな。${esc(hints)}の気配がするぞ…`;
+    }
+    const w = pick(WORDS);
+    return `知っておるか？ ${esc(w.word)}（${esc(plainKatakana(w))}）について――${esc(w.etymology.story.split("。")[0])}。`;
+  }
+
+  function renderMap() {
+    const due = dueWords();
     $view.innerHTML = html`
+      <div class="window npc-window">
+        <div class="npc">🧙 <b>賢者ロゴス</b>「${sageLine()}」</div>
+      </div>
       ${due.length ? html`
-        <div class="card review-banner">
+        <div class="window review-banner">
           <div class="emoji">👹</div>
           <div class="spacer">
-            <b>復習モンスターが ${due.length} 体出現中！</b>
-            <div class="small muted">覚えかけの単語を倒してカードを進化させよう</div>
+            <b>はぐれモンスター ×${due.length}</b>
+            <div class="small muted">復習で ことばカードを進化させよう</div>
           </div>
-          <button class="btn" id="review">戦う</button>
-        </div>` : html`
-        <div class="card small muted">✨ 今は復習モンスターはいません。新しいエリアを冒険しよう！</div>`}
-      ${order.map((k) => {
-        const a = AREAS[k];
-        const words = areaWords(k);
-        const found = words.filter((w) => card(w.id).star > 0).length;
-        const ratio = learnedRatio(words);
-        const bossOpen = ratio >= BOSS_UNLOCK_RATIO;
+          <button class="btn" id="review">たたかう</button>
+        </div>` : ""}
+      <div class="row" style="margin-bottom:14px">
+        <button class="btn secondary" id="shop">🛒 どうぐや</button>
+        <span class="small muted">🧪×${state.items.potion} 🔷×${state.items.ether}</span>
+      </div>
+      ${Object.entries(REGIONS).map(([k, r]) => {
+        const stages = stagesOf(k);
+        const clearedCount = stages.filter((s) => state.cleared[s.key]).length;
+        const bossDone = !!state.cleared[bossKey(k)];
+        const bOpen = bossOpen(k);
         return html`
-          <div class="card area" style="--area-color: var(--area-${k})">
-            <div class="head">
-              <div class="icon">${a.icon}</div>
-              <div class="spacer">
-                <h3>${esc(a.name)}</h3>
-                <div class="small muted">${esc(a.genre)} ・ 発見 ${found}/${words.length} ・ 定着(★3+) ${Math.round(ratio * 100)}%</div>
-              </div>
+          <div class="window region" style="--area-color: var(--area-${k})">
+            <div class="region-head">
+              <span class="icon">${r.icon}</span>
+              <div class="spacer"><h3>${esc(r.name)}</h3><div class="small muted">${esc(r.genre)}</div></div>
+              <span class="small">${bossDone ? "👑 制覇" : `${clearedCount}/${stages.length}`}</span>
             </div>
-            <div class="progress"><div style="width:${ratio * 100}%"></div></div>
-            <div class="actions">
-              <button class="btn" data-battle="${k}">⚔️ 冒険する</button>
-              <button class="btn secondary" data-boss="${k}" ${bossOpen ? "" : "disabled"} title="定着率 ${BOSS_UNLOCK_RATIO * 100}% で解放">
-                ${bossOpen ? "👑 ボス戦" : `🔒 ボス（定着${BOSS_UNLOCK_RATIO * 100}%で解放）`}
-              </button>
-            </div>
+            <ol class="path">
+              ${stages.map((s) => {
+                const cleared = !!state.cleared[s.key];
+                const open = stageOpen(s);
+                return html`
+                  <li><button class="node ${cleared ? "cleared" : open ? "open" : "locked"}" data-stage="${s.key}" ${open ? "" : "disabled"}>
+                    <span class="mark">${cleared ? "✅" : open ? "▶" : "🔒"}</span>
+                    <span class="spacer">${s.index + 1}. ${esc(s.name)}</span>
+                    <span class="enemy-mini">${open ? s.enemy : "？"}</span>
+                  </button></li>`;
+              }).join("")}
+              <li><button class="node boss ${bossDone ? "cleared" : bOpen ? "open" : "locked"}" data-boss="${k}" ${bOpen ? "" : "disabled"}>
+                <span class="mark">${bossDone ? "👑" : bOpen ? "⚠️" : "🔒"}</span>
+                <span class="spacer">BOSS. ${esc(r.boss.name)}</span>
+                <span class="enemy-mini">${bOpen ? r.boss.enemy : "？"}</span>
+              </button></li>
+            </ol>
           </div>`;
       }).join("")}`;
-    $view.querySelector("#review")?.addEventListener("click", () => startBattle({ mode: "review" }));
-    $view.querySelectorAll("[data-battle]").forEach((b) => b.addEventListener("click", () => startBattle({ mode: "area", area: b.dataset.battle })));
-    $view.querySelectorAll("[data-boss]").forEach((b) => b.addEventListener("click", () => startBattle({ mode: "boss", area: b.dataset.boss })));
+    $view.querySelector("#review")?.addEventListener("click", () => startBattle({ kind: "review" }));
+    $view.querySelector("#shop").addEventListener("click", openShop);
+    $view.querySelectorAll("[data-stage]").forEach((b) => b.addEventListener("click", () => {
+      const [region, i] = b.dataset.stage.split("-");
+      openStage(stagesOf(region)[+i]);
+    }));
+    $view.querySelectorAll("[data-boss]").forEach((b) => b.addEventListener("click", () => openBoss(b.dataset.boss)));
+  }
+
+  function openStage(st) {
+    const learned = st.words.filter((w) => card(w.id).star >= 3).length;
+    $modalContent.innerHTML = html`
+      <div class="stage-intro">
+        <div class="small muted">${esc(REGIONS[st.region].name)} ・ ステージ ${st.index + 1}</div>
+        <h2>${esc(st.name)}</h2>
+        <div class="big-enemy">${st.enemy}</div>
+        <p><b>${esc(st.enemyName)}</b> が 待ちかまえている。</p>
+        <div class="window inner">
+          <div class="small muted">このステージで出会うことば（${learned}/${st.words.length} 定着）</div>
+          ${st.words.map((w) => `<span class="chip">${card(w.id).star ? esc(w.word) : esc(plainKatakana(w))}</span>`).join("")}
+        </div>
+        <button class="btn block" id="go">⚔️ いどむ</button>
+      </div>`;
+    $modalContent.querySelector("#go").addEventListener("click", () => { closeModal(); startBattle({ kind: "stage", stage: st }); });
+    openModal();
+  }
+
+  function openBoss(region) {
+    const r = REGIONS[region];
+    $modalContent.innerHTML = html`
+      <div class="stage-intro">
+        <div class="small muted">${esc(r.name)} ・ BOSS</div>
+        <h2>${esc(r.boss.name)}</h2>
+        <div class="big-enemy">${r.boss.enemy}</div>
+        <p><b>${esc(r.boss.enemyName)}</b> が 待っている。</p>
+        <p class="small muted">ボスは <b>語源パズル・類義語・カタカナの罠</b> だけで攻めてくる。攻撃力も高いぞ。</p>
+        <button class="btn block" id="go">⚔️ いどむ</button>
+      </div>`;
+    $modalContent.querySelector("#go").addEventListener("click", () => { closeModal(); startBattle({ kind: "boss", region }); });
+    openModal();
+  }
+
+  // ---------- どうぐや ----------
+  function openShop() {
+    const draw = () => {
+      $modalContent.innerHTML = html`
+        <h2>🛒 どうぐや</h2>
+        <p class="npc">🧑‍🦰「いらっしゃい！ ちなみに <b>potion</b> と <b>poison（毒）</b> は語源が同じなんだぜ。うちのは毒じゃないけどな！」</p>
+        <p>所持金：<b>${state.gold}G</b></p>
+        ${Object.entries(ITEMS).map(([k, it]) => html`
+          <div class="window inner row">
+            <span style="font-size:1.6rem">${it.icon}</span>
+            <div class="spacer"><b>${esc(it.name)}</b> <span class="small muted">×${state.items[k]}</span><div class="small muted">${esc(it.desc)}</div></div>
+            <button class="btn" data-buy="${k}" ${state.gold >= it.price ? "" : "disabled"}>${it.price}G</button>
+          </div>`).join("")}`;
+      $modalContent.querySelectorAll("[data-buy]").forEach((b) => b.addEventListener("click", () => {
+        const it = ITEMS[b.dataset.buy];
+        if (state.gold < it.price) return;
+        state.gold -= it.price;
+        state.items[b.dataset.buy]++;
+        save();
+        renderHud();
+        draw();
+      }));
+    };
+    draw();
+    openModal(() => go("map"));
   }
 
   // ---------- 出題 ----------
-  function selectWords({ mode, area }) {
-    if (mode === "tutorial") {
-      const pool = WORDS.filter((w) => state.genres.includes(w.area) && ["A2", "B1"].includes(w.cefr));
-      return shuffle(pool).slice(0, 3);
+  function selectWords({ kind, stage, region }) {
+    if (kind === "tutorial") {
+      return shuffle(WORDS.filter((w) => w.area === "fantasy" && w.cefr === "A2")).slice(0, 3);
     }
-    if (mode === "review") return shuffle(dueWords()).slice(0, QUESTIONS_PER_BATTLE);
-    const pool = areaWords(area);
-    if (mode === "boss") return shuffle(pool).slice(0, QUESTIONS_PER_BATTLE);
-    const due = shuffle(pool.filter((w) => isDue(w.id)));
-    const fresh = shuffle(pool.filter((w) => card(w.id).star === 0)).slice(0, MAX_NEW_PER_BATTLE);
-    const rest = shuffle(pool.filter((w) => !due.includes(w) && !fresh.includes(w)))
-      .sort((a, b) => card(a.id).star - card(b.id).star);
-    return shuffle([...due, ...fresh, ...rest].slice(0, QUESTIONS_PER_BATTLE));
+    if (kind === "review") return shuffle(dueWords()).slice(0, QUESTIONS_PER_BATTLE);
+    if (kind === "boss") return shuffle(WORDS.filter((w) => w.area === region)).slice(0, QUESTIONS_PER_BATTLE);
+    // ステージ：ステージの単語＋同じ地方の復習期限の単語で埋める
+    const extra = shuffle(WORDS.filter((w) => w.area === stage.region && isDue(w.id) && !stage.words.includes(w)));
+    return shuffle([...stage.words, ...extra].slice(0, QUESTIONS_PER_BATTLE));
   }
 
-  function allowedTypes(w, mode) {
-    if (mode === "tutorial") return ["kata"];
+  function allowedTypes(w, kind) {
+    if (kind === "tutorial") return ["kata"];
     const hard = ["etym", "syn", ...(w.trapQuiz ? ["trap"] : [])];
-    if (mode === "boss") return hard;
+    if (kind === "boss") return hard;
     const s = card(w.id).star;
     if (s <= 1) return ["kata", "meaning"];
     if (s === 2) return ["kata", "meaning", "spell", "etym"];
@@ -203,36 +370,41 @@
   }
 
   function makeQuestion(w, type) {
-    const q = { word: w, type, choices: null };
+    const q = { word: w, type, choices: null, cast: {} };
+    const wordChoices = (label, filter) => shuffle([w, ...distractors(w, 3, filter)]).map((x) => ({ label: label(x), correct: x.id === w.id, ref: x }));
     switch (type) {
       case "kata":
         q.prompt = html`<span class="big">${esc(w.katakana)}</span><span class="small muted">🎮 ${esc(mask(w.scene, w))}</span><br>英語で正しいつづりは？`;
-        q.choices = shuffle([w, ...distractors(w, 3)]).map((x) => ({ label: x.word, correct: x.id === w.id, ref: x }));
+        q.hint = `意味は「${w.meaning}」`;
+        q.choices = wordChoices((x) => x.word);
         break;
       case "meaning":
         q.prompt = html`<span class="big">${esc(w.word)}</span>英語での意味は？`;
-        q.choices = shuffle([w, ...distractors(w, 3)]).map((x) => ({ label: x.meaning, correct: x.id === w.id, ref: x }));
+        q.hint = `カタカナでは「${w.katakana}」。${w.scene}`;
+        q.choices = wordChoices((x) => x.meaning);
         break;
       case "spell":
         q.prompt = html`<span class="big">${esc(w.katakana)}</span>${esc(w.meaning)}<br><span class="small muted">文字をタップしてつづりを完成させよう</span>`;
+        q.hint = `語源：${mask(w.etymology.origin, w)}`;
         q.letters = shuffle(w.word.split(""));
+        q.typed = [];
         break;
-      case "etym": {
-        const masked = mask(w.etymology.origin, w);
-        q.prompt = html`📜 <b>${esc(masked)}</b><br>この語源から生まれた英単語は？`;
-        q.choices = shuffle([w, ...distractors(w, 3)]).map((x) => ({ label: `${x.word}（${x.katakana}）`, correct: x.id === w.id, ref: x }));
+      case "etym":
+        q.prompt = html`📜 <b>${esc(mask(w.etymology.origin, w))}</b><br>この語源から生まれた英単語は？`;
+        q.hint = `カタカナでは「${w.katakana}」`;
+        q.choices = wordChoices((x) => `${x.word}（${plainKatakana(x)}）`);
         break;
-      }
       case "syn": {
         const s = pick(w.synonyms);
-        const hasSyn = (x) => !x.synonyms.some((y) => y.word === s.word);
         q.prompt = html`<span class="big">${esc(s.word)}</span>（${esc(s.meaning)}）<br>この語の<b>類義語</b>はどれ？`;
-        q.choices = shuffle([w, ...distractors(w, 3, hasSyn)]).map((x) => ({ label: `${x.word}（${x.katakana}）`, correct: x.id === w.id, ref: x }));
+        q.hint = `${s.word} のニュアンス：${s.nuance}`;
+        q.choices = wordChoices((x) => `${x.word}（${plainKatakana(x)}）`, (x) => !x.synonyms.some((y) => y.word === s.word));
         q.synonym = s;
         break;
       }
       case "trap":
         q.prompt = html`${esc(w.trapQuiz.question)}`;
+        q.hint = `英語の ${w.word} は本来「${w.meaning}」という意味`;
         q.choices = shuffle([
           { label: w.trapQuiz.answer, correct: true },
           ...w.trapQuiz.wrong.map((label) => ({ label, correct: false })),
@@ -243,154 +415,277 @@
   }
 
   // ---------- バトル ----------
-  function startBattle({ mode, area }) {
-    const words = selectWords({ mode, area });
-    if (!words.length) { go("world"); return; }
-    const a = area ? AREAS[area] : { enemy: mode === "tutorial" ? "🐣" : "👹", enemyName: mode === "tutorial" ? "スライム" : "復習モンスター", name: mode === "tutorial" ? "チュートリアル" : "デイリー復習" };
-    const isBoss = mode === "boss";
+  function startBattle({ kind, stage, region }) {
+    const words = selectWords({ kind, stage, region });
+    if (!words.length) { go("map"); return; }
+    region = region || stage?.region;
+    const foe =
+      kind === "stage" ? stage :
+      kind === "boss" ? REGIONS[region].boss :
+      kind === "review" ? { name: "はぐれモンスター", enemy: "👹", enemyName: "はぐれモンスター" } :
+      { name: "チュートリアル", enemy: "🐛", enemyName: "ちびワーム" };
+    const n = words.length;
     battle = {
-      mode, area, isBoss,
-      title: isBoss ? `👑 ${a.name}のボス` : a.name,
-      enemy: isBoss ? "👑" + a.enemy : a.enemy,
-      enemyName: isBoss ? `ボス・${a.enemyName}` : a.enemyName,
-      questions: words.map((w) => makeQuestion(w, pick(allowedTypes(w, mode)))),
+      kind, stage, region,
+      title: kind === "boss" ? `BOSS ${foe.name}` : foe.name,
+      enemy: foe.enemy, enemyName: foe.enemyName,
+      questions: words.map((w) => makeQuestion(w, pick(allowedTypes(w, kind)))),
       index: 0,
-      hearts: mode === "tutorial" ? Infinity : HEARTS,
-      combo: 0, maxCombo: 0, xp: 0, correct: 0, answered: [],
+      // 敵HP：全問に答えてはじめて倒せる。途中で削りきっても最後の1問まで「ふみとどまる」
+      maxHp: Math.round(n * 10 * (kind === "boss" ? 1.4 : kind === "tutorial" ? 0.5 : 1.2)),
+      dealt: 0,
+      heroHp: maxHp(), heroMp: maxMp(),
+      attack: kind === "boss" ? BOSS_ATTACK : ENEMY_ATTACK,
+      combo: 0, maxCombo: 0, exp: 0, gold: 0, correct: 0, answered: [],
+      log: [`${foe.enemyName} が あらわれた！`],
       startStars: Object.fromEntries(words.map((w) => [w.id, card(w.id).star])),
     };
-    battle.maxHp = Math.round(battle.questions.length * 10 * (isBoss ? 1.6 : 1.2));
-    battle.hp = battle.maxHp;
     document.body.classList.add("in-battle");
     renderQuestion();
   }
 
-  function battleHeader() {
+  const enemyHpLeft = () => battle.maxHp - battle.dealt;
+  const lastQuestion = () => battle.index >= battle.questions.length - 1;
+  // 最後の問題までは HP を 0 にしない（1 ミリ残って「ふみとどまる」）
+  const enemyHpRatio = () => {
+    const left = enemyHpLeft();
+    if (left > 0) return left / battle.maxHp;
+    return lastQuestion() && battle.answered.length === battle.questions.length ? 0 : 0.03;
+  };
+
+  function say(...lines) {
+    battle.log.push(...lines);
+    const box = $view.querySelector("#msg");
+    if (box) box.innerHTML = battle.log.slice(-3).map((l) => `<div>${esc(l)}</div>`).join("");
+  }
+
+  function drawStatus() {
     const b = battle;
-    return html`
-      <div class="battle-top">
-        <button class="btn secondary" id="flee" aria-label="撤退する">🏳️ にげる</button>
-        <span class="title small muted">${esc(b.title)} ・ ${Math.min(b.index + 1, b.questions.length)}/${b.questions.length}</span>
-        <span class="hearts" aria-label="残りハート">${b.hearts === Infinity ? "💖" : "❤️".repeat(b.hearts) + "🖤".repeat(HEARTS - b.hearts)}</span>
-      </div>
-      <div class="enemy">
-        <div class="sprite ${b.hp <= 0 ? "dead" : ""}" id="sprite">${b.enemy}</div>
-        <div class="small muted">${esc(b.enemyName)}</div>
-        <div class="hp"><div style="width:${Math.max(0, b.hp / b.maxHp) * 100}%"></div></div>
-      </div>
-      <div class="combo" id="combo">${b.combo >= 2 ? `${b.combo} COMBO!` : ""}</div>`;
+    $view.querySelector("#hero-status").innerHTML = html`
+      <div class="row small"><b>${esc(state.hero.name)}</b><span class="muted">${job().icon} ${esc(job().name)} Lv${state.level}</span></div>
+      <div class="stat"><span>HP</span>${gauge(b.heroHp, maxHp(), b.heroHp <= maxHp() / 3 ? "danger" : "hp")}<span class="num">${Math.max(0, b.heroHp)}/${maxHp()}</span></div>
+      <div class="stat"><span>MP</span>${gauge(b.heroMp, maxMp(), "mp")}<span class="num">${b.heroMp}/${maxMp()}</span></div>`;
+    $view.querySelector("#enemy-hp div").style.width = `${enemyHpRatio() * 100}%`;
   }
 
   function renderQuestion() {
-    const q = battle.questions[battle.index];
+    const b = battle;
+    const q = b.questions[b.index];
     q.shownAt = Date.now();
     $view.innerHTML = html`
-      ${battleHeader()}
-      <div class="card">
+      <div class="battle-top">
+        <span class="title small muted">${esc(b.title)}</span>
+        <span class="small muted">${b.index + 1}/${b.questions.length}</span>
+      </div>
+      <div class="enemy">
+        <div class="sprite ${enemyHpLeft() <= 0 ? "dizzy" : ""}" id="sprite">${b.enemy}</div>
+        <div class="dmg" id="dmg"></div>
+        <div class="small">${esc(b.enemyName)}</div>
+        <div class="gauge enemy-hp" id="enemy-hp"><div></div></div>
+      </div>
+      <div class="window message" id="msg"></div>
+      <div class="window question">
         <div class="qtype">${QTYPES[q.type]}</div>
         <div class="prompt">${q.prompt}</div>
+        <div id="hint"></div>
         ${q.type === "spell" ? html`
           <div class="spell-slots" id="slots">${q.word.word.split("").map(() => "<span></span>").join("")}</div>
           <div class="tiles">${q.letters.map((l, i) => `<button class="tile" data-i="${i}">${esc(l)}</button>`).join("")}</div>
-          <div class="row" style="justify-content:center;margin-top:12px">
+          <div class="row" style="justify-content:center;margin-top:10px">
             <button class="btn secondary" id="undo">↩ 1文字もどす</button>
           </div>` : html`
           <div class="choices">${q.choices.map((c, i) => `<button class="choice" data-i="${i}">${esc(c.label)}</button>`).join("")}</div>`}
-      </div>`;
-    $view.querySelector("#flee").addEventListener("click", () => {
-      if (confirm("撤退しますか？ここまでの経験値は獲得できます。")) finishBattle(true);
-    });
+      </div>
+      <div class="window commands" id="commands"></div>
+      <div class="window hero-status" id="hero-status"></div>`;
+    say();
+    drawStatus();
+    drawCommands("main");
     if (q.type === "spell") bindSpell(q);
-    else $view.querySelectorAll(".choice").forEach((b) => b.addEventListener("click", () => answer(q, q.choices[+b.dataset.i], b)));
+    else $view.querySelectorAll(".choice").forEach((el) => el.addEventListener("click", () => answer(q, q.choices[+el.dataset.i], el)));
+  }
+
+  function drawCommands(menu) {
+    const b = battle;
+    const q = b.questions[b.index];
+    const box = $view.querySelector("#commands");
+    if (menu === "main") {
+      box.innerHTML = html`
+        <button class="cmd" data-cmd="spells">🪄 じゅもん</button>
+        <button class="cmd" data-cmd="items">🎒 どうぐ</button>
+        <button class="cmd" data-cmd="flee">🏃 にげる</button>`;
+    } else if (menu === "spells") {
+      box.innerHTML = html`
+        ${SPELLS.map((s) => {
+          const known = state.level >= s.lv;
+          const ok = known && b.heroMp >= s.mp && !q.cast[s.id];
+          return html`<button class="cmd wide" data-spell="${s.id}" ${ok ? "" : "disabled"}>
+            <span>${known ? esc(s.name) : "？？？"} <span class="small">${known ? `MP${s.mp}` : `Lv${s.lv}`}</span></span>
+            <span class="small muted desc">${known ? esc(s.desc) : "まだ おぼえていない"}</span></button>`;
+        }).join("")}
+        <button class="cmd back" data-cmd="main">◀ もどる</button>`;
+    } else if (menu === "items") {
+      box.innerHTML = html`
+        ${Object.entries(ITEMS).map(([k, it]) => html`<button class="cmd wide" data-item="${k}" ${state.items[k] > 0 ? "" : "disabled"}>
+          <span>${it.icon} ${esc(it.name)} ×${state.items[k]}</span><span class="small muted desc">${esc(it.desc)}</span></button>`).join("")}
+        <button class="cmd back" data-cmd="main">◀ もどる</button>`;
+    }
+    box.querySelectorAll("[data-cmd]").forEach((el) => el.addEventListener("click", () => {
+      if (el.dataset.cmd !== "flee") drawCommands(el.dataset.cmd);
+      else if (confirm("にげますか？ ここまでの経験値は手に入ります。")) finishBattle("flee");
+    }));
+    box.querySelectorAll("[data-spell]").forEach((el) => el.addEventListener("click", () => castSpell(el.dataset.spell)));
+    box.querySelectorAll("[data-item]").forEach((el) => el.addEventListener("click", () => useItem(el.dataset.item)));
+  }
+
+  function castSpell(id) {
+    const b = battle;
+    const q = b.questions[b.index];
+    const s = SPELLS.find((x) => x.id === id);
+    if (b.heroMp < s.mp || q.cast[id]) return;
+    b.heroMp -= s.mp;
+    q.cast[id] = true;
+    say(`${state.hero.name} は ${s.name} を となえた！`);
+    if (id === "reveal") {
+      if (q.type === "spell") {
+        // 入力途中が間違っていたらリセットしてから、正しい次の1文字を置く
+        const target = q.word.word;
+        if (!target.startsWith(q.typed.map((i) => q.letters[i]).join(""))) q.typed.length = 0;
+        const next = target[q.typed.length];
+        q.typed.push(q.letters.findIndex((l, idx) => l === next && !q.typed.includes(idx)));
+        say(`「${next}」の文字が 光りだした！`);
+        q.redraw();
+      } else {
+        const wrong = shuffle([...$view.querySelectorAll(".choice")].filter((el, i) => !q.choices[i].correct && !el.disabled)).slice(0, 2);
+        wrong.forEach((el) => { el.disabled = true; el.classList.add("gone"); });
+        say("まちがいの せんたくしが 2つ きえた！");
+      }
+    } else if (id === "scan") {
+      $view.querySelector("#hint").innerHTML = `<div class="tip">🔍 ${esc(q.hint)}</div>`;
+      say(`${b.enemyName} の よわみを しらべた！`);
+    }
+    if (!battle || battle.index !== b.index || q.answeredAt) return; // リビールで回答が完成した場合
+    drawStatus();
+    drawCommands("main");
+  }
+
+  function useItem(k) {
+    const b = battle;
+    const it = ITEMS[k];
+    if (state.items[k] <= 0) return;
+    state.items[k]--;
+    if (it.hp) { b.heroHp = Math.min(maxHp(), b.heroHp + it.hp); say(`${state.hero.name} は ${it.name} をのんだ！ HPが ${it.hp} かいふくした！`); }
+    if (it.mp) { b.heroMp = Math.min(maxMp(), b.heroMp + it.mp); say(`${state.hero.name} は ${it.name} をのんだ！ MPが ${it.mp} かいふくした！`); }
+    save();
+    drawStatus();
+    drawCommands("main");
   }
 
   function bindSpell(q) {
-    const typed = [];
     const slots = [...$view.querySelectorAll("#slots span")];
     const tiles = [...$view.querySelectorAll(".tile")];
-    const draw = () => {
-      slots.forEach((s, i) => { s.textContent = typed[i] != null ? q.letters[typed[i]] : ""; });
-      tiles.forEach((t, i) => { t.disabled = typed.includes(i); });
-    };
-    tiles.forEach((t) => t.addEventListener("click", () => {
-      typed.push(+t.dataset.i);
-      draw();
-      if (typed.length === q.letters.length) {
-        const spelled = typed.map((i) => q.letters[i]).join("");
+    q.redraw = () => {
+      slots.forEach((s, i) => { s.textContent = q.typed[i] != null ? q.letters[q.typed[i]] : ""; });
+      tiles.forEach((t, i) => { t.disabled = q.typed.includes(i); });
+      if (q.typed.length === q.letters.length) {
+        const spelled = q.typed.map((i) => q.letters[i]).join("");
         tiles.forEach((x) => { x.disabled = true; });
         answer(q, { label: spelled, correct: spelled === q.word.word });
       }
-    }));
-    $view.querySelector("#undo").addEventListener("click", () => { typed.pop(); draw(); });
+    };
+    tiles.forEach((t) => t.addEventListener("click", () => { q.typed.push(+t.dataset.i); q.redraw(); }));
+    $view.querySelector("#undo").addEventListener("click", () => { q.typed.pop(); q.redraw(); });
   }
 
   function answer(q, choice, button) {
     const b = battle;
     const w = q.word;
-    const elapsed = Date.now() - q.shownAt;
     const ok = choice.correct;
+    q.answeredAt = Date.now();
+    const crit = ok && q.answeredAt - q.shownAt <= CRIT_MS;
     b.answered.push(w);
     $view.querySelectorAll(".choice").forEach((el, i) => {
       el.disabled = true;
       if (q.choices[i].correct) el.classList.add("correct");
     });
     if (button && !ok) button.classList.add("wrong");
+    $view.querySelector("#commands").hidden = true;
+    const undo = $view.querySelector("#undo");
+    if (undo) undo.disabled = true;
 
+    // ことばカード（間隔反復）
     const c = { ...card(w.id) };
     c.seen = (c.seen || 0) + 1;
-    let crit = false;
     if (ok) {
-      b.correct++;
-      b.combo++;
-      b.maxCombo = Math.max(b.maxCombo, b.combo);
-      crit = elapsed <= CRIT_MS;
-      const mult = Math.min(3, 1 + 0.5 * (b.combo - 1));
-      b.hp -= Math.round(10 * mult * (crit ? 2 : 1));
-      b.xp += 10 + (crit ? 5 : 0) + (b.isBoss ? 5 : 0);
       c.correct = (c.correct || 0) + 1;
       c.star = Math.min(5, (c.star || 0) + 1);
     } else {
-      b.combo = 0;
-      if (b.hearts !== Infinity) b.hearts--;
       c.star = Math.max(1, (c.star || 0) - 1);
     }
     c.due = Date.now() + STAR_INTERVAL_DAYS[c.star] * DAY;
     state.cards[w.id] = c;
     state.answered++;
     if (ok) state.correct++;
-    save();
 
-    // 敵・コンボ演出
     const sprite = $view.querySelector("#sprite");
-    const comboEl = $view.querySelector("#combo");
     if (ok) {
+      b.correct++;
+      b.combo++;
+      b.maxCombo = Math.max(b.maxCombo, b.combo);
+      const mult = Math.min(3, 1 + 0.5 * (b.combo - 1));
+      const dmg = Math.round(10 * mult * (crit ? 2 : 1));
+      b.dealt += dmg;
+      b.exp += 10 + (crit ? 5 : 0) + (b.kind === "boss" ? 5 : 0);
+      b.gold += 5;
+      say(
+        `${state.hero.name} の こうげき！${crit ? " かいしんの いちげき！" : ""}${b.combo >= 2 ? ` ${b.combo}コンボ！` : ""}`,
+        `${b.enemyName} に ${dmg} の ダメージ！`,
+      );
+      if (enemyHpLeft() <= 0 && !lastQuestion()) say(`${b.enemyName} は ふみとどまった！ さいごの 1もんで とどめを させ！`);
       sprite.classList.remove("hit"); void sprite.offsetWidth; sprite.classList.add("hit");
-      comboEl.textContent = crit ? "💥 CRITICAL!" + (b.combo >= 2 ? ` ${b.combo} COMBO` : "") : b.combo >= 2 ? `${b.combo} COMBO!` : "";
-      comboEl.classList.toggle("crit", crit);
-      if (b.hp <= 0) sprite.classList.add("dead");
-      $view.querySelector(".hp div").style.width = `${Math.max(0, b.hp / b.maxHp) * 100}%`;
+      popDamage(dmg, crit);
     } else {
-      comboEl.textContent = "";
-      $view.querySelector(".hearts").textContent = b.hearts === Infinity ? "💖" : "❤️".repeat(b.hearts) + "🖤".repeat(HEARTS - b.hearts);
+      b.combo = 0;
+      if (b.kind === "tutorial") {
+        say(`${b.enemyName} の こうげき！ しかし ${state.hero.name} は ひらりと かわした！`);
+      } else {
+        b.heroHp -= b.attack;
+        say(`${b.enemyName} の こうげき！`, `${state.hero.name} は ${b.attack} の ダメージを うけた！`);
+        document.body.classList.remove("shake"); void document.body.offsetWidth; document.body.classList.add("shake");
+        if (b.heroHp <= 0) say(`${state.hero.name} は ちからつきた…`);
+      }
     }
+    if (enemyHpLeft() <= 0 && lastQuestion() && b.heroHp > 0) {
+      sprite.classList.add("dead");
+      say(`${b.enemyName} を たおした！`);
+    }
+    save();
+    drawStatus();
     showFeedback(q, choice, ok);
   }
 
+  function popDamage(dmg, crit) {
+    const el = $view.querySelector("#dmg");
+    el.textContent = crit ? `${dmg}!!` : `${dmg}`;
+    el.className = `dmg show ${crit ? "crit" : ""}`;
+  }
+
   function showFeedback(q, choice, ok) {
+    const b = battle;
     const w = q.word;
-    const last = battle.index >= battle.questions.length - 1 || battle.hearts <= 0;
+    const over = lastQuestion() || b.heroHp <= 0;
     const wrongRef = !ok && choice.ref && choice.ref.id !== w.id ? choice.ref : null;
     const firstSentence = w.etymology.story.split("。")[0] + "。";
     const box = document.createElement("div");
-    box.className = `card feedback ${ok ? "ok" : "ng"}`;
+    box.className = `window feedback ${ok ? "ok" : "ng"}`;
     box.innerHTML = html`
       <div class="row">
         <span class="verdict">${ok ? "✅ 正解！" : "❌ おしい！"}</span>
         <span class="spacer"></span>
-        <span class="stars" title="カードの★">${stars(card(w.id).star)}</span>
+        <span class="stars" title="ことばカードの★">${stars(card(w.id).star)}</span>
       </div>
       <div class="row"><span class="word">${esc(w.word)}</span><span class="muted">${esc(w.katakana)}</span>
-        <button class="speak" data-say="${esc(w.word)}" aria-label="発音を聞く">🔊</button></div>
+        <button class="speak" aria-label="発音を聞く">🔊</button></div>
       <div>${esc(w.meaning)}</div>
       ${q.synonym ? `<div class="tip">🔀 <b>${esc(q.synonym.word)}</b>：${esc(q.synonym.nuance)}</div>` : ""}
       ${wrongRef ? `<div class="tip">🤔 あなたが選んだ <b>${esc(wrongRef.word)}</b> は「${esc(wrongRef.meaning)}」</div>` : ""}
@@ -398,28 +693,29 @@
       <div class="tip">📜 ${esc(w.etymology.origin)}<br>💡 ${esc(firstSentence)}</div>
       ${w.gap ? `<div class="tip warn">⚠️ ${esc(w.gap)}</div>` : ""}
       <div class="row" style="margin-top:12px">
-        <button class="btn secondary" data-detail="${w.id}">📖 図鑑で詳しく</button>
+        <button class="btn secondary" data-detail="${w.id}">📖 ことばの書</button>
         <span class="spacer"></span>
-        <button class="btn" id="next">${last ? "結果を見る ▶" : "次へ ▶"}</button>
+        <button class="btn" id="next">${over ? "▶ けっかへ" : "▶ つぎへ"}</button>
       </div>`;
-    $view.appendChild(box);
-    box.querySelector("[data-say]").addEventListener("click", () => speak(w.word));
+    $view.querySelector(".question").after(box);
+    box.querySelector(".speak").addEventListener("click", () => speak(w.word));
     box.querySelector("[data-detail]").addEventListener("click", () => openDetail(w.id));
     const next = box.querySelector("#next");
     next.addEventListener("click", () => {
-      if (last) finishBattle(battle.hearts <= 0);
-      else { battle.index++; renderQuestion(); window.scrollTo(0, 0); }
+      if (b.heroHp <= 0) finishBattle("lose");
+      else if (over) finishBattle(enemyHpLeft() <= 0 ? "win" : "escaped");
+      else { b.index++; renderQuestion(); window.scrollTo(0, 0); }
     });
     next.focus({ preventScroll: true });
     box.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
 
-  function gainXp(amount) {
+  function gainExp(amount) {
     const ups = [];
-    state.xp += amount;
-    state.totalXp += amount;
-    while (state.xp >= state.level * 100) {
-      state.xp -= state.level * 100;
+    state.exp += amount;
+    state.totalExp += amount;
+    while (state.exp >= expToNext()) {
+      state.exp -= expToNext();
       state.level++;
       ups.push(state.level);
     }
@@ -436,61 +732,87 @@
     return welcomeBack;
   }
 
-  function finishBattle(retreated) {
+  function finishBattle(outcome) {
     const b = battle;
-    const won = b.hp <= 0;
-    const bonus = won ? 20 : 0;
-    const levelUps = gainXp(b.xp + bonus);
+    const won = outcome === "win";
+    const beforeHp = maxHp();
+    const beforeMp = maxMp();
+    const exp = Math.round((b.exp + (won ? (b.kind === "boss" ? 60 : 20) : 0)) * job().exp);
+    const gold = Math.round((b.gold + (won ? (b.kind === "boss" ? 80 : 20) : 0)) * job().gold);
+    const levelUps = gainExp(exp);
+    state.gold += gold;
     const welcomeBack = updateStreak();
     state.battles++;
     state.bestCombo = Math.max(state.bestCombo, b.maxCombo);
-    if (b.mode === "tutorial") state.onboarded = true;
+    if (b.kind === "tutorial") state.onboarded = true;
+    let unlocked = null;
+    if (won && b.kind === "stage" && !state.cleared[b.stage.key]) {
+      state.cleared[b.stage.key] = true;
+      const next = stagesOf(b.region)[b.stage.index + 1];
+      unlocked = next ? `「${next.name}」へ すすめるようになった！` : `「${REGIONS[b.region].boss.name}」の とびらが ひらいた！`;
+    }
+    if (won && b.kind === "boss" && !state.cleared[bossKey(b.region)]) {
+      state.cleared[bossKey(b.region)] = true;
+      unlocked = `${REGIONS[b.region].name} を せいはした！ 👑`;
+    }
     save();
     renderHud();
 
-    const answeredWords = b.answered;
-    const newCards = answeredWords.filter((w) => b.startStars[w.id] === 0);
-    const starUps = answeredWords.filter((w) => b.startStars[w.id] > 0 && card(w.id).star > b.startStars[w.id]);
-    const answered = answeredWords.length;
+    const newCards = b.answered.filter((w) => b.startStars[w.id] === 0);
+    const starUps = b.answered.filter((w) => b.startStars[w.id] > 0 && card(w.id).star > b.startStars[w.id]);
+    const newSpells = SPELLS.filter((s) => levelUps.includes(s.lv));
+    const lines = {
+      win: [`${b.enemyName} を たおした！`],
+      escaped: [`${b.enemyName} は たおれずに にげていった…`, "もういちど いどめば きっと勝てる！"],
+      lose: [`${state.hero.name} は ちからつきた…`, "……きょうかいで めをさました。けいけんちは そのままだ！"],
+      flee: [`${state.hero.name} は うまく にげきった！`],
+    }[outcome];
+    lines.push(`${exp} ポイントの けいけんちを かくとく！`, `${gold} ゴールドを てにいれた！`);
+    if (levelUps.length) {
+      lines.push(`${state.hero.name} は レベル ${state.level} に あがった！`, `さいだいHP +${maxHp() - beforeHp}　さいだいMP +${maxMp() - beforeMp}`);
+      newSpells.forEach((s) => lines.push(`${s.name}（${s.en}）の じゅもんを おぼえた！`));
+    }
+    if (welcomeBack) lines.push("おかえり！ また いっしょに ぼうけんしよう。");
+    if (unlocked) lines.push(unlocked);
 
+    document.body.classList.remove("in-battle");
     $view.innerHTML = html`
-      <div class="card result">
-        <div class="big-emoji">${won ? "🏆" : retreated ? "🏳️" : "✨"}</div>
-        <h2>${won ? `${esc(b.enemyName)}を倒した！` : retreated ? "撤退した…でも経験値はゲット！" : "バトル終了！"}</h2>
-        ${welcomeBack ? `<p class="muted">おかえりなさい！また一緒に冒険しよう。</p>` : ""}
-        ${levelUps.length ? `<p style="color:var(--accent);font-weight:800;font-size:1.2rem">🎉 レベルアップ！ Lv ${levelUps[levelUps.length - 1]}</p>` : ""}
-        <div class="result-grid">
-          <div><b>+${b.xp + bonus}</b>XP</div>
-          <div><b>${b.correct}/${answered}</b>正解</div>
+      <div class="result">
+        <div class="big-emoji">${won ? (b.kind === "boss" ? "👑" : "🏆") : outcome === "lose" ? "⛪" : "💨"}</div>
+        <div class="window message result-log">${lines.map((l) => `<div>${esc(l)}</div>`).join("")}</div>
+        <div class="window result-grid">
+          <div><b>${b.correct}/${b.answered.length}</b>正解</div>
           <div><b>${b.maxCombo}</b>最大コンボ</div>
+          <div><b>+${exp}</b>EXP</div>
         </div>
-        <div class="drops">
-          ${newCards.length ? `<h4>🃏 新しいカード</h4><div>${newCards.map((w) => `<button class="chip" data-detail="${w.id}">${esc(w.word)}</button>`).join("")}</div>` : ""}
-          ${starUps.length ? `<h4>⬆️ 進化したカード</h4><div>${starUps.map((w) => `<button class="chip" data-detail="${w.id}">${esc(w.word)} <span class="stars">${"★".repeat(card(w.id).star)}</span></button>`).join("")}</div>` : ""}
+        <div class="window drops">
+          ${newCards.length ? `<h4>🃏 あたらしい ことばカード</h4><div>${newCards.map((w) => `<button class="chip" data-detail="${w.id}">${esc(w.word)}</button>`).join("")}</div>` : ""}
+          ${starUps.length ? `<h4>⬆️ しんかした ことばカード</h4><div>${starUps.map((w) => `<button class="chip" data-detail="${w.id}">${esc(w.word)} <span class="stars">${"★".repeat(card(w.id).star)}</span></button>`).join("")}</div>` : ""}
+          ${!newCards.length && !starUps.length ? `<div class="small muted">ことばカードは つぎの せんとうで しんかするかも…</div>` : ""}
         </div>
-        <div class="row" style="margin-top:16px">
-          ${b.mode !== "tutorial" && b.area ? `<button class="btn secondary" id="again">もう一度</button>` : ""}
+        <div class="row" style="margin-top:14px">
+          ${b.kind === "stage" || b.kind === "boss" ? `<button class="btn secondary" id="again">もういちど</button>` : ""}
           <span class="spacer"></span>
-          <button class="btn" id="home">ワールドへ ▶</button>
+          <button class="btn" id="home">▶ マップへ</button>
         </div>
       </div>`;
     $view.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
-    $view.querySelector("#again")?.addEventListener("click", () => startBattle({ mode: b.mode, area: b.area }));
-    $view.querySelector("#home").addEventListener("click", () => go("world"));
+    $view.querySelector("#again")?.addEventListener("click", () => startBattle({ kind: b.kind, stage: b.stage, region: b.region }));
+    $view.querySelector("#home").addEventListener("click", () => go("map"));
     battle = null;
   }
 
-  // ---------- 図鑑 ----------
+  // ---------- ことばの書（図鑑） ----------
   const dexFilter = { q: "", area: "all", trap: false };
   function renderDex() {
     const found = WORDS.filter((w) => card(w.id).star > 0).length;
     $view.innerHTML = html`
-      <h2>📖 単語図鑑 <span class="small muted">${found}/${WORDS.length} 発見</span></h2>
+      <h2>📖 ことばの書 <span class="small muted">${found}/${WORDS.length} 発見</span></h2>
       <div class="filters">
         <input id="q" type="search" placeholder="英語・カタカナ・意味で検索" value="${esc(dexFilter.q)}" aria-label="検索">
-        <select id="area" aria-label="エリア">
-          <option value="all">全エリア</option>
-          ${Object.entries(AREAS).map(([k, a]) => `<option value="${k}" ${dexFilter.area === k ? "selected" : ""}>${a.icon} ${esc(a.name)}</option>`).join("")}
+        <select id="area" aria-label="地方">
+          <option value="all">全地方</option>
+          ${Object.entries(REGIONS).map(([k, a]) => `<option value="${k}" ${dexFilter.area === k ? "selected" : ""}>${a.icon} ${esc(a.name)}</option>`).join("")}
         </select>
       </div>
       <label class="small row" style="margin-bottom:12px"><input type="checkbox" id="trap" ${dexFilter.trap ? "checked" : ""}> ⚠️ カタカナの罠だけ表示</label>
@@ -525,7 +847,7 @@
     const roots = w.roots.map((r) => ROOTS.find((x) => x.id === r));
     $modalContent.innerHTML = html`
       <div class="detail">
-        <div class="small muted">${AREAS[w.area].icon} ${esc(AREAS[w.area].name)} ・ ${esc(w.pos)} ・ CEFR ${esc(w.cefr)}</div>
+        <div class="small muted">${REGIONS[w.area].icon} ${esc(REGIONS[w.area].name)} ・ ${esc(w.pos)} ・ CEFR ${esc(w.cefr)}</div>
         <div class="row">
           <h2>${esc(w.word)}</h2>
           <button class="speak" id="say" aria-label="発音を聞く">🔊</button>
@@ -556,60 +878,92 @@
         </section>
       </div>`;
     $modalContent.querySelector("#say").addEventListener("click", () => speak(w.word));
+    openModal();
+  }
+
+  let onModalClose = null;
+  function openModal(onClose = null) {
+    onModalClose = onClose;
     $modal.hidden = false;
     $modal.querySelector(".modal-body").scrollTop = 0;
   }
-  function closeModal() { $modal.hidden = true; }
+  function closeModal() {
+    if ($modal.hidden) return;
+    $modal.hidden = true;
+    const cb = onModalClose;
+    onModalClose = null;
+    cb?.();
+  }
 
-  // ---------- 語根 ----------
+  // ---------- 語根の宝珠 ----------
   function renderRoots() {
     const done = ROOTS.filter((r) => r.words.every((id) => card(id).star >= 3)).length;
     $view.innerHTML = html`
-      <h2>💎 語根クリスタル <span class="small muted">${done}/${ROOTS.length} 完成</span></h2>
-      <p class="small muted">同じ語根をもつ単語をすべて★3以上にするとクリスタルが輝きます。</p>
+      <h2>💎 語根の宝珠 <span class="small muted">${done}/${ROOTS.length} 完成</span></h2>
+      <p class="small muted">同じ語根をもつことばをすべて★3以上にすると、宝珠が輝きます。</p>
       ${ROOTS.map((r) => {
         const complete = r.words.every((id) => card(id).star >= 3);
         return html`
-          <div class="card crystal ${complete ? "done" : ""}">
+          <div class="window crystal ${complete ? "done" : ""}">
             <div class="gem">💎</div>
             <div class="spacer">
               <div><span class="form">${esc(r.form)}</span> ＝ <b>${esc(r.meaning)}</b> <span class="small muted">（${esc(r.source)}）</span></div>
               <div style="margin-top:4px">
                 ${r.words.map((id) => `<button class="chip" data-detail="${id}">${esc(byId[id].word)} <span class="stars">${card(id).star ? "★".repeat(card(id).star) : "？"}</span></button>`).join("")}
               </div>
-              <div class="small muted" style="margin-top:4px">仲間の単語：${r.extra.map(esc).join(", ")}</div>
+              <div class="small muted" style="margin-top:4px">仲間のことば：${r.extra.map(esc).join(", ")}</div>
             </div>
           </div>`;
       }).join("")}`;
     $view.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
   }
 
-  // ---------- 記録 ----------
-  function renderStats() {
+  // ---------- つよさ ----------
+  function renderStatus() {
     const dist = [0, 1, 2, 3, 4, 5].map((n) => WORDS.filter((w) => card(w.id).star === n).length);
     const acc = state.answered ? Math.round((state.correct / state.answered) * 100) : 0;
+    const cleared = Object.keys(state.cleared).length;
+    const total = Object.keys(REGIONS).reduce((n, r) => n + stagesOf(r).length + 1, 0);
     $view.innerHTML = html`
-      <h2>📊 冒険の記録</h2>
-      <div class="card result-grid" style="grid-template-columns:repeat(3,1fr)">
-        <div><b>Lv ${state.level}</b>レベル</div>
-        <div><b>${state.totalXp}</b>累計XP</div>
-        <div><b>${state.streak}</b>連続日数</div>
-        <div><b>${state.battles}</b>バトル数</div>
+      <div class="window">
+        <div class="row"><span style="font-size:2.2rem">${job().icon}</span>
+          <div class="spacer"><h2 style="margin:0">${esc(state.hero.name)}</h2><div class="small muted">${esc(job().name)} ・ ${esc(job().desc)}</div></div></div>
+        <table class="stat-table">
+          <tr><th>レベル</th><td>${state.level}</td></tr>
+          <tr><th>さいだいHP</th><td>${maxHp()}</td></tr>
+          <tr><th>さいだいMP</th><td>${maxMp()}</td></tr>
+          <tr><th>つぎのレベルまで</th><td>${expToNext() - state.exp} EXP</td></tr>
+          <tr><th>ゴールド</th><td>${state.gold} G</td></tr>
+        </table>
+      </div>
+      <div class="window">
+        <h3>🪄 じゅもん</h3>
+        ${SPELLS.map((s) => html`<div class="spell-row small">
+          <b>${state.level >= s.lv ? esc(s.name) : "？？？"}</b>
+          <span>${state.level >= s.lv ? `${esc(s.en)} ・ MP${s.mp} ・ ${esc(s.desc)}` : `Lv${s.lv} で おぼえる`}</span></div>`).join("")}
+        <h3 style="margin-top:12px">🎒 どうぐ</h3>
+        ${Object.entries(ITEMS).map(([k, it]) => `<span class="chip">${it.icon} ${esc(it.name)} ×${state.items[k]}</span>`).join("")}
+      </div>
+      <div class="window result-grid">
+        <div><b>${cleared}/${total}</b>クリア</div>
+        <div><b>${state.battles}</b>せんとう</div>
         <div><b>${acc}%</b>正答率</div>
         <div><b>${state.bestCombo}</b>最大コンボ</div>
+        <div><b>${state.streak}</b>連続日数</div>
+        <div><b>${state.totalExp}</b>累計EXP</div>
       </div>
-      <div class="card">
-        <h3>カードの★分布</h3>
+      <div class="window">
+        <h3>🃏 ことばカードの★</h3>
         ${dist.map((n, i) => html`
           <div class="row small" style="margin:4px 0">
             <span class="stars" style="width:90px">${i ? stars(i) : "未発見"}</span>
-            <div class="progress spacer"><div style="width:${(n / WORDS.length) * 100}%"></div></div>
+            <div class="gauge spacer"><div style="width:${(n / WORDS.length) * 100}%"></div></div>
             <span style="width:32px;text-align:right">${n}</span>
           </div>`).join("")}
       </div>
-      <button class="btn secondary block" id="reset">🗑 セーブデータを削除</button>`;
+      <button class="btn secondary block" id="reset">🗑 ぼうけんのしょを けす</button>`;
     $view.querySelector("#reset").addEventListener("click", () => {
-      if (!confirm("本当にセーブデータを削除しますか？")) return;
+      if (!confirm("ぼうけんのしょ（セーブデータ）を本当に消しますか？")) return;
       state = defaultState();
       save();
       renderHud();
@@ -634,7 +988,7 @@
       WORDS = await w.json();
       ROOTS = await r.json();
     } catch (e) {
-      $view.innerHTML = `<div class="card">データを読み込めませんでした。<br><code>python3 -m http.server</code> などでローカルサーバーを起動して開いてください。</div>`;
+      $view.innerHTML = `<div class="window">データを読み込めませんでした。<br><code>python3 -m http.server</code> などでローカルサーバーを起動して開いてください。</div>`;
       return;
     }
     byId = Object.fromEntries(WORDS.map((w) => [w.id, w]));
@@ -644,7 +998,7 @@
     $modal.addEventListener("click", (e) => { if (e.target === $modal) closeModal(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
     renderHud();
-    if (state.onboarded) go("world");
+    if (state.onboarded) go("map");
     else renderOnboarding();
   }
 

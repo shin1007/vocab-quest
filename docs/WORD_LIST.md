@@ -9,9 +9,9 @@
 ## 目次
 
 - 🏰 剣と魔法の王国（RPG・ファンタジー） — [potion](#potion), [quest](#quest), [dungeon](#dungeon), [guild](#guild), [summon](#summon), [spell](#spell), [relic](#relic), [monster](#monster), [dragon](#dragon), [legend](#legend), [treasure](#treasure), [mana](#mana), [inventory](#inventory), [equipment](#equipment), [knight](#knight), [avatar](#avatar), [rare](#rare), [level](#level)
-- ⚔️ 闘技場（バトル・アクション） — [attack](#attack), [guard](#guard), [critical](#critical), [combo](#combo), [damage](#damage), [counter](#counter), [barrier](#barrier), [revive](#revive), [rival](#rival), [ultimate](#ultimate), [stealth](#stealth), [berserk](#berserk), [hero](#hero), [villain](#villain), [boss](#boss), [escape](#escape), [stage](#stage), [challenge](#challenge)
-- 🚀 宇宙ステーション（SF・ロボット） — [mission](#mission), [launch](#launch), [system](#system), [android](#android), [gravity](#gravity), [evolution](#evolution), [dimension](#dimension), [portal](#portal), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [beam](#beam)
-- 🏫 青春ストリート（学園・スポーツ・ドラマ） — [tension](#tension), [smart](#smart), [claim](#claim), [naive](#naive), [cunning](#cunning), [ace](#ace), [rookie](#rookie), [spirit](#spirit), [destiny](#destiny), [miracle](#miracle), [trigger](#trigger), [sacrifice](#sacrifice), [mentor](#mentor), [brave](#brave), [fan](#fan)
+- ⚔️ 闘技場の都（バトル・アクション） — [attack](#attack), [guard](#guard), [critical](#critical), [combo](#combo), [damage](#damage), [counter](#counter), [barrier](#barrier), [revive](#revive), [rival](#rival), [ultimate](#ultimate), [stealth](#stealth), [berserk](#berserk), [hero](#hero), [villain](#villain), [boss](#boss), [escape](#escape), [stage](#stage), [challenge](#challenge)
+- 🚀 星の方舟（SF・ロボット） — [mission](#mission), [launch](#launch), [system](#system), [android](#android), [gravity](#gravity), [evolution](#evolution), [dimension](#dimension), [portal](#portal), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [beam](#beam)
+- 🏫 カタカナ町（学園・スポーツ・ドラマ） — [tension](#tension), [smart](#smart), [claim](#claim), [naive](#naive), [cunning](#cunning), [ace](#ace), [rookie](#rookie), [spirit](#spirit), [destiny](#destiny), [miracle](#miracle), [trigger](#trigger), [sacrifice](#sacrifice), [mentor](#mentor), [brave](#brave), [fan](#fan)
 - [語根ファミリー一覧](#語根ファミリー一覧)
 
 ## 🏰 剣と魔法の王国（RPG・ファンタジー）
@@ -333,7 +333,7 @@
 | **grade** | 等級、学年、成績 | 品質・学年など段階的な区分。 | ラテン語 gradus「段・歩み」 |
 | **tier** | 層、段、ティア | 段になった層。ゲームのキャラ評価「Tier1」も。 | 古フランス語 tire「列・順番」 |
 
-## ⚔️ 闘技場（バトル・アクション）
+## ⚔️ 闘技場の都（バトル・アクション）
 
 <a id="attack"></a>
 ### attack（アタック）
@@ -646,7 +646,7 @@
 | **trial** | 試練、試み、裁判 | 試されること。trial and error（試行錯誤）。 | アングロ・フランス語 trier「試す」 |
 | **attempt** | 試み（る） | 成功するか分からないことを試みる。 | ラテン語 ad- + temptāre「試す」（tempt と同源） |
 
-## 🚀 宇宙ステーション（SF・ロボット）
+## 🚀 星の方舟（SF・ロボット）
 
 <a id="mission"></a>
 ### mission（ミッション）
@@ -891,7 +891,7 @@
 | **laser** | レーザー | Light Amplification by Stimulated Emission of Radiation の頭字語。 | 1950年代の造語（頭字語） |
 | **flash** | 閃光 | 一瞬の強い光。 | 中英語。擬音語起源とされる |
 
-## 🏫 青春ストリート（学園・スポーツ・ドラマ）
+## 🏫 カタカナ町（学園・スポーツ・ドラマ）
 
 <a id="tension"></a>
 ### tension（テンション） ⚠️

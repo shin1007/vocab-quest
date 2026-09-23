@@ -1,7 +1,8 @@
 # Vocab Quest 🗝️
 
 ゲーム・まんが・アニメで**すでに知っているカタカナ語**（ポーション、クエスト、クリティカル…）を足場にして、
-英単語を RPG 感覚で学ぶ学習アプリのプロトタイプです。
+英単語を学ぶ **RPG** のプロトタイプです。
+名前とジョブを決めて「ことばの大陸」を冒険し、コマンドバトルで問題に答えて敵を倒します。
 
 - **語源**でつながりを知る：「ポーション（potion）と毒（poison）は兄弟語」
 - **類義語**のニュアンスと語源を比べる：potion / elixir / remedy / draught
@@ -15,7 +16,7 @@
 | [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（65語・類義語196語・語根21種）— 語源・類義語つき、人が読む用 |
 | `data/words.json` | 単語データ（正本） |
 | `data/roots.json` | 語根ファミリーデータ |
-| `index.html`, `app/` | 遊べるプロトタイプ（依存なしの HTML/CSS/JS） |
+| `index.html`, `app/` | 遊べるプロトタイプ（依存なしの HTML/CSS/JS）。地方・ステージ・ジョブ・呪文・どうぐの定義は `app/app.js` 冒頭 |
 | `scripts/build_wordlist.py` | データ検証と `WORD_LIST.md` の生成 |
 
 ## 遊び方
