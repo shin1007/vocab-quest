@@ -11,18 +11,21 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WORDS = json.loads((ROOT / "data/words.json").read_text(encoding="utf-8"))
 ROOTS = json.loads((ROOT / "data/roots.json").read_text(encoding="utf-8"))
-# コースは英検の級の目安で分ける（app/app.js の COURSES と同じ）
+# コースはこのアプリ独自のレベル（app/app.js の COURSES と同じ）
 COURSES = {
-    "5": "英検5級レベル",
-    "4": "英検4級レベル",
-    "3": "英検3級レベル",
-    "p2": "英検準2級レベル",
-    "2": "英検2級レベル",
-    "p1": "英検準1級レベル",
-    "1": "英検1級レベル",
+    1: "Lv.1 ひと目でわかる",
+    2: "Lv.2 くらしの定番",
+    3: "Lv.3 よく使う",
+    4: "Lv.4 話が広がる",
+    5: "Lv.5 よく見聞きする",
+    6: "Lv.6 社会の話題",
+    7: "Lv.7 大人の日常語",
+    8: "Lv.8 ビジネス",
+    9: "Lv.9 教養",
+    10: "Lv.10 マスター",
 }
 CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"]
-REQUIRED = ["id", "word", "katakana", "pos", "cefr", "eiken", "meaning", "scene",
+REQUIRED = ["id", "word", "katakana", "pos", "cefr", "level", "meaning", "scene",
             "example", "etymology", "roots", "family", "synonyms"]
 
 
@@ -38,8 +41,8 @@ def validate():
                 errors.append(f"{w.get('id')}: {key} がありません")
         if w.get("cefr") not in CEFR:
             errors.append(f"{w['id']}: 不明な cefr {w.get('cefr')}")
-        if w.get("eiken") not in COURSES:
-            errors.append(f"{w['id']}: 不明な eiken {w.get('eiken')}")
+        if w.get("level") not in COURSES:
+            errors.append(f"{w['id']}: 不明な level {w.get('level')}")
         if len(w.get("synonyms", [])) < 2:
             errors.append(f"{w['id']}: 類義語は2つ以上必要です")
         for s in w.get("synonyms", []):
@@ -72,9 +75,9 @@ def render():
         f"収録語数: **{len(WORDS)} 語**（類義語 {sum(len(w['synonyms']) for w in WORDS)} 語） / "
         f"語根ファミリー: **{len(ROOTS)} 種**",
         "",
-        "級別: " + " / ".join(f"{label.removesuffix('レベル')} {sum(w['eiken'] == key for w in WORDS)}語" for key, label in COURSES.items()),
+        "レベル別: " + " / ".join(f"Lv.{key} {sum(w['level'] == key for w in WORDS)}語" for key in COURSES),
         "",
-        "> 級は英検の出題レベルを目安に割り当てたもので、公式の級別単語リストではありません。",
+        "> レベルはこのアプリ独自の分け方です（カタカナとしてのなじみやすさと、英語の難しさで決めています）。",
         "",
         "凡例: ⚠️ = カタカナの罠（日本語での意味と英語の意味がずれている語）",
         "",
@@ -82,19 +85,19 @@ def render():
         "",
     ]
     for key, label in COURSES.items():
-        words = [w for w in WORDS if w["eiken"] == key]
+        words = [w for w in WORDS if w["level"] == key]
         out.append(f"- {label} — " + ", ".join(f"[{w['word']}](#{w['id']})" for w in words))
     out += ["- [語根ファミリー一覧](#語根ファミリー一覧)", ""]
 
     for key, label in COURSES.items():
         out += [f"## {label}", ""]
-        for w in (w for w in WORDS if w["eiken"] == key):
+        for w in (w for w in WORDS if w["level"] == key):
             trap = " ⚠️" if w.get("gap") else ""
             out += [
                 f'<a id="{w["id"]}"></a>',
                 f"### {w['word']}（{w['katakana']}）{trap}",
                 "",
-                f"**{w['pos']}** / {COURSES[w['eiken']]} / CEFR {w['cefr']} — {w['meaning']}",
+                f"**{w['pos']}** / {COURSES[w['level']]} / CEFR {w['cefr']} — {w['meaning']}",
                 "",
                 f"- 📍 シーン: {w['scene']}",
             ]

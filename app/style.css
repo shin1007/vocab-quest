@@ -58,13 +58,16 @@
   --latin: "Montserrat", "M PLUS Rounded 1c", sans-serif;
   --sans: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
   --title-fill: linear-gradient(90deg, #1fc2b2, #5a86ff 55%, #ff64a4);
-  --area-5: #34d1a0;
-  --area-4: #2cc6c9;
+  --area-1: #34d1a0;
+  --area-2: #2cc6c9;
   --area-3: #45bff5;
-  --area-p2: #6f9bff;
-  --area-2: #a98bff;
-  --area-p1: #ff8a6b;
-  --area-1: #ff6fae;
+  --area-4: #5aa4ff;
+  --area-5: #6f8cff;
+  --area-6: #8f7dff;
+  --area-7: #a98bff;
+  --area-8: #d97cf0;
+  --area-9: #ff8a6b;
+  --area-10: #ff6fae;
   --lv0: #e2e8f4;
   --lv1: #ffa3bc;
   --lv2: #ffc95c;
@@ -119,13 +122,16 @@
   --display: "Dela Gothic One", "M PLUS Rounded 1c", sans-serif;
   --latin: "Dela Gothic One", sans-serif;
   --sans: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
-  --area-5: #2fd39a;
-  --area-4: #26c7c4;
+  --area-1: #2fd39a;
+  --area-2: #26c7c4;
   --area-3: #3fc1ff;
-  --area-p2: #5f8cff;
-  --area-2: #a77bff;
-  --area-p1: #ff7a59;
-  --area-1: #ff5ca8;
+  --area-4: #4fa2ff;
+  --area-5: #5f8cff;
+  --area-6: #8a7bff;
+  --area-7: #a77bff;
+  --area-8: #d86be6;
+  --area-9: #ff7a59;
+  --area-10: #ff5ca8;
   --lv0: #d9d3fb;
   --lv1: #ff9fb0;
   --lv2: #ffc24a;
@@ -180,13 +186,16 @@
   --display: "Dela Gothic One", "Zen Kaku Gothic New", sans-serif;
   --latin: "Montserrat", sans-serif;
   --sans: "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
-  --area-5: #36f28a;
-  --area-4: #2ef2d0;
+  --area-1: #36f28a;
+  --area-2: #2ef2d0;
   --area-3: #2ee6ff;
-  --area-p2: #5c9dff;
-  --area-2: #b28cff;
-  --area-p1: #ff7a3d;
-  --area-1: #ff4fa3;
+  --area-4: #45c2ff;
+  --area-5: #5c9dff;
+  --area-6: #8f94ff;
+  --area-7: #b28cff;
+  --area-8: #e57cff;
+  --area-9: #ff7a3d;
+  --area-10: #ff4fa3;
   --lv0: #34343a;
   --lv1: #ff4081;
   --lv2: #ffb020;
@@ -243,13 +252,16 @@
   --latin: "Shippori Mincho B1", serif;
   --sans: "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
   --title-fill: linear-gradient(180deg, #fff3cf, #e1bd6e 60%, #b88a3a);
-  --area-5: #6fb58a;
-  --area-4: #5fb0ab;
+  --area-1: #6fb58a;
+  --area-2: #5fb0ab;
   --area-3: #5fa9d6;
-  --area-p2: #7a92d6;
-  --area-2: #9d86d6;
-  --area-p1: #d9825d;
-  --area-1: #c9738f;
+  --area-4: #6d9dd6;
+  --area-5: #7a92d6;
+  --area-6: #8c8cd6;
+  --area-7: #9d86d6;
+  --area-8: #b97fbf;
+  --area-9: #d9825d;
+  --area-10: #c9738f;
   --lv0: #ddd0b3;
   --lv1: #d9868f;
   --lv2: #e0b45a;
@@ -453,7 +465,7 @@ button.chip:active { transform: translateY(2px); }
 }
 .lesson.done .num { background: var(--good-solid); }
 .lesson-name { display: block; font-weight: 800; font-size: .95rem; margin-bottom: 4px; }
-.topic-badge.grade { font-family: var(--display); font-weight: 800; font-size: 1rem; color: #fff; letter-spacing: -.02em; }
+.topic-badge.grade { font-family: var(--latin); font-weight: 800; font-size: .95rem; color: #fff; letter-spacing: -.02em; }
 .topic-badge.grade.big { font-size: 1.5rem; }
 .dist-label .topic-badge.grade { width: 34px; height: 34px; font-size: .72rem; border-radius: 10px; }
 .dist-row.grade-row { grid-template-columns: 150px 1fr 52px; }

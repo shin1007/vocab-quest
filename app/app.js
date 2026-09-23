@@ -3,17 +3,21 @@
   "use strict";
 
   // ---------- 学習コンテンツの定義 ----------
-  // コースは英検の級の目安（words.json の eiken）で分ける。ジャンルでは分けず、身近な語もゲームの語も同じコースに混ぜて出す
+  // コースはこのアプリ独自のレベル（words.json の level）。カタカナとしてのなじみやすさと英語の難しさで分ける。
+  // ジャンルでは分けず、身近な語もゲームの語も同じレベルに混ぜて出す
   const COURSES = {
-    "5": { name: "英検5級", badge: "5級", desc: "身の回りの基本語", cefr: "A1" },
-    "4": { name: "英検4級", badge: "4級", desc: "毎日の生活のことば", cefr: "A1" },
-    "3": { name: "英検3級", badge: "3級", desc: "学校や趣味の話ができる", cefr: "A1–A2" },
-    p2: { name: "英検準2級", badge: "準2", desc: "日常の話題を広げる", cefr: "A2" },
-    "2": { name: "英検2級", badge: "2級", desc: "社会の話題がわかる", cefr: "B1" },
-    p1: { name: "英検準1級", badge: "準1", desc: "ニュースやビジネスのことば", cefr: "B2" },
-    "1": { name: "英検1級", badge: "1級", desc: "専門的で高度なことば", cefr: "C1–C2" },
+    "1": { name: "Lv.1", title: "ひと目でわかる", desc: "誰でも知っているカタカナ。英語も短くてやさしい" },
+    "2": { name: "Lv.2", title: "くらしの定番", desc: "家・食べ物・街など、毎日の生活で使うことば" },
+    "3": { name: "Lv.3", title: "よく使う", desc: "学校・趣味・お出かけでよく使うことば" },
+    "4": { name: "Lv.4", title: "話が広がる", desc: "身近な話題を広げることば" },
+    "5": { name: "Lv.5", title: "よく見聞きする", desc: "ネットやテレビでよく見聞きすることば" },
+    "6": { name: "Lv.6", title: "社会の話題", desc: "ニュースや社会の話題に出てくることば" },
+    "7": { name: "Lv.7", title: "大人の日常語", desc: "仕事や生活で大人がよく使うカタカナ" },
+    "8": { name: "Lv.8", title: "ビジネス", desc: "会議や資料に出てくるカタカナ" },
+    "9": { name: "Lv.9", title: "教養", desc: "本や評論で出会う知的なことば" },
+    "10": { name: "Lv.10", title: "マスター", desc: "知っていれば上級者。大人も迷うことば" },
   };
-  const COURSE_ORDER = ["5", "4", "3", "p2", "2", "p1", "1"]; // 数字のキーはオブジェクトの並び順が変わるため、順番は別に持つ
+  const COURSE_ORDER = Object.keys(COURSES).sort((a, b) => a - b);
   // 見た目のテーマ（機能は共通）。CSS は app/style.css の [data-theme]
   const THEMES = {
     stage: { name: "ステージ", desc: "パステル×グラデーション", color: "#eef4ff" },
@@ -64,7 +68,8 @@
   const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
   const todayKey = (t = Date.now()) => new Date(t).toLocaleDateString("sv-SE");
   const plainKatakana = (w) => w.katakana.replace(/（.*）/, "");
-  const courseOf = (w) => w.eiken;
+  const courseOf = (w) => String(w.level);
+  const courseLabel = (c) => `${COURSES[c].name}「${COURSES[c].title}」`;
   // 文字列から決まった数を作る（レッスン内の並びを毎回同じにしつつ、ジャンルが偏らないように混ぜる）
   const mixKey = (s) => [...s].reduce((h, c) => (Math.imul(h, 31) + c.charCodeAt(0)) | 0, 7);
   // 出題文から答えの単語（と派生形）を伏せる: equipment → equip も伏せる
@@ -119,7 +124,7 @@
   }
   const allLessons = () => COURSE_ORDER.flatMap(lessonsOf);
   const courseLearned = (c) => { const ws = WORDS.filter((w) => courseOf(w) === c); return { total: ws.length, learned: ws.filter((w) => level(w.id) >= LEARNED).length }; };
-  // 「英検○級レベルの語を8割定着」を達成した一番上の級
+  // 「そのレベルの語を8割定着」を達成した一番上のレベル
   const MASTERED = 0.8;
   const reachedCourse = () => {
     let reached = null;
@@ -130,7 +135,7 @@
     }
     return reached;
   };
-  const badge = (c, big = false) => `<span class="topic-badge grade${big ? " big" : ""}" style="--area:var(--area-${c})">${esc(COURSES[c].badge)}</span>`;
+  const badge = (c, big = false) => `<span class="topic-badge grade${big ? " big" : ""}" style="--area:var(--area-${c})">${esc(COURSES[c].name)}</span>`;
   const lessonProgress = (ls) => ls.words.reduce((n, w) => n + level(w.id), 0) / (ls.words.length * 5);
   // おすすめ：まだ一度も終えていないレッスンの中で最初のもの。全部終えていれば習熟度が一番低いもの
   function nextLesson() {
@@ -187,8 +192,8 @@
     window.scrollTo(0, 0);
   }
 
-  // ---------- 英検レベルの到達度 ----------
-  // 到達した級（8割定着）と、次の級までの進み具合
+  // ---------- レベルの到達度 ----------
+  // 到達したレベル（8割定着）と、次のレベルまでの進み具合
   function levelCard() {
     const reached = reachedCourse();
     const next = COURSE_ORDER[reached ? COURSE_ORDER.indexOf(reached) + 1 : 0];
@@ -199,9 +204,9 @@
         <div class="row">
           ${badge(next || reached)}
           <div class="spacer">
-            <div class="small muted">${reached ? `🏅 ${esc(COURSES[reached].name)}レベルの単語をクリア` : "🎯 最初の目標"}</div>
+            <div class="small muted">${reached ? `🏅 ${esc(courseLabel(reached))}をクリア` : "🎯 最初の目標"}</div>
             ${next ? html`
-              <b>${esc(COURSES[next].name)}レベルまで あと${need}語</b>
+              <b>${esc(courseLabel(next))}クリアまで あと${need}語</b>
               ${bar(learned / (total * MASTERED))}
               <div class="small muted">${learned}/${total}語 定着（8割の${Math.ceil(total * MASTERED)}語でクリア）</div>` : html`
               <b>全レベルクリア！ おめでとうございます</b>`}
@@ -254,8 +259,8 @@
           <button class="btn block" data-lesson="${next.key}">▶ ${state.done[next.key] ? "練習する" : "レッスンを始める"}</button>
         </section>` : ""}
 
-      <h2 class="section-title">英検レベル別コース</h2>
-      <p class="small lead">級は英検の出題レベルを目安にした分け方です（公式の級別単語リストではありません）。</p>
+      <h2 class="section-title">レベル別コース</h2>
+      <p class="small lead">レベルはこのアプリ独自の分け方です。カタカナとしてのなじみやすさと、英語のつづり・意味の難しさで決めています。</p>
       ${COURSE_ORDER.map((k) => {
         const t = COURSES[k];
         const lessons = lessonsOf(k);
@@ -266,7 +271,7 @@
           <section class="card topic" style="--area:var(--area-${k})">
             <div class="topic-head">
               ${badge(k)}
-              <div class="spacer"><h3>${esc(t.name)}レベル</h3><div class="small muted">${esc(t.desc)} ・ CEFR ${t.cefr} 相当 ・ ${words.length}語</div></div>
+              <div class="spacer"><h3>${esc(t.name)} ${esc(t.title)}</h3><div class="small muted">${esc(t.desc)} ・ ${words.length}語</div></div>
               ${ring(learned / words.length, `${learned}<small>/${words.length}</small>`)}
             </div>
             <details class="lessons" ${next?.course === k ? "open" : ""}>
@@ -311,7 +316,7 @@
     $modalContent.innerHTML = html`
       <div class="lesson-intro" style="--area:var(--area-${ls.course})">
         ${badge(ls.course, true)}
-        <div class="small muted">${esc(t.name)}レベル ・ CEFR ${esc(t.cefr)} 相当</div>
+        <div class="small muted">${esc(courseLabel(ls.course))}</div>
         <h2 class="display">レッスン ${ls.index + 1}</h2>
         <p class="small muted">${learned}/${ls.words.length} 語が定着</p>
         <ul class="word-rows">
@@ -582,7 +587,7 @@
         <h1 class="display">${headline}</h1>
         <p class="muted">${esc(s.title)}${complete ? " 完了" : "（途中まで）"}</p>
         ${welcomeBack ? `<p class="small">おかえりなさい。また一緒に続けましょう。</p>` : ""}
-        ${cleared ? html`<section class="card level-up pop" style="--area:var(--area-${cleared})">${badge(cleared, true)}<b>🏅 ${esc(COURSES[cleared].name)}レベルの単語をクリア！</b><div class="small muted">この級の単語の8割が定着しました</div></section>` : ""}
+        ${cleared ? html`<section class="card level-up pop" style="--area:var(--area-${cleared})">${badge(cleared, true)}<b>🏅 ${esc(courseLabel(cleared))}をクリア！</b><div class="small muted">このレベルの単語の8割が定着しました</div></section>` : ""}
         <section class="card result-grid pop">
           <div>${ring(acc, `${Math.round(acc * 100)}<small>%</small>`)}<span>正答率</span></div>
           <div><b>${s.correct}<small>/${s.results.length}</small></b><span>正解</span></div>
@@ -617,7 +622,7 @@
         <input id="q" type="search" placeholder="英語・カタカナ・意味で検索" value="${esc(dexFilter.q)}" aria-label="検索">
         <select id="course" aria-label="コース">
           <option value="all">すべて</option>
-          ${COURSE_ORDER.map((k) => `<option value="${k}" ${dexFilter.course === k ? "selected" : ""}>${esc(COURSES[k].name)}</option>`).join("")}
+          ${COURSE_ORDER.map((k) => `<option value="${k}" ${dexFilter.course === k ? "selected" : ""}>${esc(COURSES[k].name)} ${esc(COURSES[k].title)}</option>`).join("")}
         </select>
       </div>
       <label class="toggle"><input type="checkbox" id="trap" ${dexFilter.trap ? "checked" : ""}><span></span> ⚠️ カタカナの罠だけ表示</label>
@@ -633,7 +638,7 @@
         <button class="dex-item ${level(w.id) ? "" : "new"}" data-detail="${w.id}" style="--area:var(--area-${courseOf(w)})">
           <span class="w">${esc(w.word)} ${w.gap ? "⚠️" : ""}</span>
           <span class="small muted">${esc(w.katakana)}</span>
-          <span class="grade-chip">${esc(COURSES[courseOf(w)].badge)}</span>
+          <span class="grade-chip">${esc(COURSES[courseOf(w)].name)}</span>
           ${meter(level(w.id))}
         </button>`).join("") : `<p class="muted">見つかりませんでした</p>`;
       grid.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
@@ -651,7 +656,7 @@
     $modalContent.innerHTML = html`
       <div class="detail" style="--area:var(--area-${courseOf(w)})">
         <div class="detail-head">
-          <div class="small muted"><span class="grade-chip">${esc(COURSES[courseOf(w)].name)}</span> ${esc(w.pos)} ・ CEFR ${esc(w.cefr)}</div>
+          <div class="small muted"><span class="grade-chip">${esc(courseLabel(courseOf(w)))}</span> ${esc(w.pos)}</div>
           <div class="row">
             <h2 class="display">${esc(w.word)}</h2>
             ${voiceButton(`${w.id}.word`)}
@@ -739,17 +744,17 @@
         <div><b>${state.answered}</b><span>回答数</span></div>
       </section>
       <section class="card">
-        <h3>英検レベル別の定着度</h3>
+        <h3>レベル別の定着度</h3>
         ${COURSE_ORDER.map((c) => {
           const { total, learned } = courseLearned(c);
           return html`
             <div class="dist-row grade-row">
-              <span class="dist-label">${badge(c)}<span class="small">${esc(COURSES[c].name)}</span></span>
+              <span class="dist-label">${badge(c)}<span class="small">${esc(COURSES[c].title)}</span></span>
               ${bar(learned / total, learned >= total * MASTERED ? "lv5" : "")}
               <span class="small num">${learned}/${total}</span>
             </div>`;
         }).join("")}
-        <p class="small muted" style="margin:10px 0 0">各級の単語の8割が「${LEVELS[LEARNED]}」以上になると、その級をクリアです。</p>
+        <p class="small muted" style="margin:10px 0 0">各レベルの単語の8割が「${LEVELS[LEARNED]}」以上になると、そのレベルをクリアです。</p>
       </section>
       <section class="card">
         <h3>習熟度の分布</h3>
