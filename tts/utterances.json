@@ -569,6 +569,36 @@
   "text": "animal",
   "tier": "core"
  },
+ "announcer.example.en": {
+  "lang": "en",
+  "text": "The announcer called the players onto the field.",
+  "tier": "core"
+ },
+ "announcer.example.ja": {
+  "lang": "ja",
+  "text": "場内アナウンスで選手がフィールドに呼ばれた。",
+  "tier": "core"
+ },
+ "announcer.katakana": {
+  "lang": "ja",
+  "text": "アナウンサー",
+  "tier": "core"
+ },
+ "announcer.meaning": {
+  "lang": "ja",
+  "text": "放送の告知者、司会者",
+  "tier": "core"
+ },
+ "announcer.story": {
+  "lang": "ja",
+  "text": "「使者として知らせる人」。pronounce 発音する 、denounce 非難する も同じ家族。",
+  "tier": "extended"
+ },
+ "announcer.word": {
+  "lang": "en",
+  "text": "announcer",
+  "tier": "core"
+ },
  "answer.example.en": {
   "lang": "en",
   "text": "Do you know the answer to this question?",
@@ -807,6 +837,36 @@
  "attack.word": {
   "lang": "en",
   "text": "attack",
+  "tier": "core"
+ },
+ "audition.example.en": {
+  "lang": "en",
+  "text": "She passed the audition for the musical.",
+  "tier": "core"
+ },
+ "audition.example.ja": {
+  "lang": "ja",
+  "text": "彼女はミュージカルのオーディションに合格した。",
+  "tier": "core"
+ },
+ "audition.katakana": {
+  "lang": "ja",
+  "text": "オーディション",
+  "tier": "core"
+ },
+ "audition.meaning": {
+  "lang": "ja",
+  "text": "オーディション、聴力",
+  "tier": "core"
+ },
+ "audition.story": {
+  "lang": "ja",
+  "text": "歌や演技を「聞いて」選ぶことから。audio 音声 、audience 聴衆 も同じ家族。",
+  "tier": "extended"
+ },
+ "audition.word": {
+  "lang": "en",
+  "text": "audition",
   "tier": "core"
  },
  "avatar.example.en": {
@@ -2759,6 +2819,36 @@
   "text": "button",
   "tier": "core"
  },
+ "buzz.example.en": {
+  "lang": "en",
+  "text": "The video created a lot of buzz online.",
+  "tier": "core"
+ },
+ "buzz.example.ja": {
+  "lang": "ja",
+  "text": "その動画はネットで大きな話題になった。",
+  "tier": "core"
+ },
+ "buzz.katakana": {
+  "lang": "ja",
+  "text": "バズ",
+  "tier": "core"
+ },
+ "buzz.meaning": {
+  "lang": "ja",
+  "text": "ブンブンいう音、うわさの広まり",
+  "tier": "core"
+ },
+ "buzz.story": {
+  "lang": "ja",
+  "text": "ハチのブンブンという音 、 人々のざわめき 、 話題になること。日本語の「バズる」は go viral とも言う。",
+  "tier": "extended"
+ },
+ "buzz.word": {
+  "lang": "en",
+  "text": "buzz",
+  "tier": "core"
+ },
  "cabbage.example.en": {
   "lang": "en",
   "text": "I shredded some cabbage for the salad.",
@@ -3239,6 +3329,36 @@
   "text": "captain",
   "tier": "core"
  },
+ "caption.example.en": {
+  "lang": "en",
+  "text": "Write a funny caption for this photo.",
+  "tier": "core"
+ },
+ "caption.example.ja": {
+  "lang": "ja",
+  "text": "この写真におもしろい説明文をつけて。",
+  "tier": "core"
+ },
+ "caption.katakana": {
+  "lang": "ja",
+  "text": "キャプション",
+  "tier": "core"
+ },
+ "caption.meaning": {
+  "lang": "ja",
+  "text": "説明文、字幕",
+  "tier": "core"
+ },
+ "caption.story": {
+  "lang": "ja",
+  "text": "もとは法律文書の「見出し」。capture、recipe と同じ capere の家族。",
+  "tier": "extended"
+ },
+ "caption.word": {
+  "lang": "en",
+  "text": "caption",
+  "tier": "core"
+ },
  "car.example.en": {
   "lang": "en",
   "text": "My dad drives a red car.",
@@ -3419,6 +3539,66 @@
   "text": "cartoon",
   "tier": "core"
  },
+ "cast.example.en": {
+  "lang": "en",
+  "text": "The cast of the movie is amazing.",
+  "tier": "core"
+ },
+ "cast.example.ja": {
+  "lang": "ja",
+  "text": "その映画の出演者は豪華だ。",
+  "tier": "core"
+ },
+ "cast.katakana": {
+  "lang": "ja",
+  "text": "キャスト",
+  "tier": "core"
+ },
+ "cast.meaning": {
+  "lang": "ja",
+  "text": "出演者、投げる、配役する",
+  "tier": "core"
+ },
+ "cast.story": {
+  "lang": "ja",
+  "text": "「投げる」、 役を「振り分ける」、 出演者。骨折のギプスや鋳物も cast 型に流しこむ 。broadcast は「広く投げる」。",
+  "tier": "extended"
+ },
+ "cast.word": {
+  "lang": "en",
+  "text": "cast",
+  "tier": "core"
+ },
+ "caster.example.en": {
+  "lang": "en",
+  "text": "This chair has casters, so it's easy to move.",
+  "tier": "core"
+ },
+ "caster.example.ja": {
+  "lang": "ja",
+  "text": "このいすはキャスターつきなので動かしやすい。",
+  "tier": "core"
+ },
+ "caster.katakana": {
+  "lang": "ja",
+  "text": "キャスター",
+  "tier": "core"
+ },
+ "caster.meaning": {
+  "lang": "ja",
+  "text": "家具などの キャスター、投げる人",
+  "tier": "core"
+ },
+ "caster.story": {
+  "lang": "ja",
+  "text": "「投げる人」。家具の車輪の意味は、方向を「投げるように」変えることからとされる。broadcaster 放送局 の caster も同じ cast から。",
+  "tier": "extended"
+ },
+ "caster.word": {
+  "lang": "en",
+  "text": "caster",
+  "tier": "core"
+ },
  "cat.example.en": {
   "lang": "en",
   "text": "The cat is sleeping in the sun on the sofa.",
@@ -3507,6 +3687,36 @@
  "catharsis.word": {
   "lang": "en",
   "text": "catharsis",
+  "tier": "core"
+ },
+ "celebrity.example.en": {
+  "lang": "en",
+  "text": "Many celebrities attended the party.",
+  "tier": "core"
+ },
+ "celebrity.example.ja": {
+  "lang": "ja",
+  "text": "多くの有名人がパーティーに出席した。",
+  "tier": "core"
+ },
+ "celebrity.katakana": {
+  "lang": "ja",
+  "text": "セレブ",
+  "tier": "core"
+ },
+ "celebrity.meaning": {
+  "lang": "ja",
+  "text": "有名人、名声",
+  "tier": "core"
+ },
+ "celebrity.story": {
+  "lang": "ja",
+  "text": "celebrate 祝う、大勢で集まる と同じ家族。略して celeb。",
+  "tier": "extended"
+ },
+ "celebrity.word": {
+  "lang": "en",
+  "text": "celebrity",
   "tier": "core"
  },
  "center.example.en": {
@@ -3807,6 +4017,36 @@
  "charisma.word": {
   "lang": "en",
   "text": "charisma",
+  "tier": "core"
+ },
+ "chart.example.en": {
+  "lang": "en",
+  "text": "The song reached number one on the charts.",
+  "tier": "core"
+ },
+ "chart.example.ja": {
+  "lang": "ja",
+  "text": "その曲はヒットチャートで1位になった。",
+  "tier": "core"
+ },
+ "chart.katakana": {
+  "lang": "ja",
+  "text": "チャート",
+  "tier": "core"
+ },
+ "chart.meaning": {
+  "lang": "ja",
+  "text": "図表、ヒットチャート、海図",
+  "tier": "core"
+ },
+ "chart.story": {
+  "lang": "ja",
+  "text": "card カード と同じ語。もとは船乗りの海図。",
+  "tier": "extended"
+ },
+ "chart.word": {
+  "lang": "en",
+  "text": "chart",
   "tier": "core"
  },
  "chat.example.en": {
@@ -4739,6 +4979,36 @@
   "text": "color",
   "tier": "core"
  },
+ "column.example.en": {
+  "lang": "en",
+  "text": "She writes a weekly column for the paper.",
+  "tier": "core"
+ },
+ "column.example.ja": {
+  "lang": "ja",
+  "text": "彼女は新聞で週に1回コラムを書いている。",
+  "tier": "core"
+ },
+ "column.katakana": {
+  "lang": "ja",
+  "text": "コラム",
+  "tier": "core"
+ },
+ "column.meaning": {
+  "lang": "ja",
+  "text": "柱、 新聞の コラム、縦の列",
+  "tier": "core"
+ },
+ "column.story": {
+  "lang": "ja",
+  "text": "「柱」、 柱のように縦に細長い欄 、 その欄の記事。表の「列 縦 」も column、行 横 は row。",
+  "tier": "extended"
+ },
+ "column.word": {
+  "lang": "en",
+  "text": "column",
+  "tier": "core"
+ },
  "combo.example.en": {
   "lang": "en",
   "text": "He landed a 20-hit combo.",
@@ -4767,6 +5037,36 @@
  "combo.word": {
   "lang": "en",
   "text": "combo",
+  "tier": "core"
+ },
+ "comedy.example.en": {
+  "lang": "en",
+  "text": "I love romantic comedies.",
+  "tier": "core"
+ },
+ "comedy.example.ja": {
+  "lang": "ja",
+  "text": "ラブコメが大好きだ。",
+  "tier": "core"
+ },
+ "comedy.katakana": {
+  "lang": "ja",
+  "text": "コメディ",
+  "tier": "core"
+ },
+ "comedy.meaning": {
+  "lang": "ja",
+  "text": "喜劇、お笑い",
+  "tier": "core"
+ },
+ "comedy.story": {
+  "lang": "ja",
+  "text": "comic 漫画 と同じ語。「神曲 ダンテ 」の原題 Commedia も「ハッピーエンドの物語」の意味。",
+  "tier": "extended"
+ },
+ "comedy.word": {
+  "lang": "en",
+  "text": "comedy",
   "tier": "core"
  },
  "comic.example.en": {
@@ -4827,6 +5127,36 @@
  "comment.word": {
   "lang": "en",
   "text": "comment",
+  "tier": "core"
+ },
+ "commentator.example.en": {
+  "lang": "en",
+  "text": "The commentator explained the rules.",
+  "tier": "core"
+ },
+ "commentator.example.ja": {
+  "lang": "ja",
+  "text": "解説者がルールを説明した。",
+  "tier": "core"
+ },
+ "commentator.katakana": {
+  "lang": "ja",
+  "text": "コメンテーター",
+  "tier": "core"
+ },
+ "commentator.meaning": {
+  "lang": "ja",
+  "text": "解説者、評論家",
+  "tier": "core"
+ },
+ "commentator.story": {
+  "lang": "ja",
+  "text": "comment と同じラテン語 commentum から。スポーツの実況解説もする。",
+  "tier": "extended"
+ },
+ "commentator.word": {
+  "lang": "en",
+  "text": "commentator",
   "tier": "core"
  },
  "commitment.example.en": {
@@ -6419,6 +6749,36 @@
   "text": "debate",
   "tier": "core"
  },
+ "debut.example.en": {
+  "lang": "en",
+  "text": "The band made their debut in 2020.",
+  "tier": "core"
+ },
+ "debut.example.ja": {
+  "lang": "ja",
+  "text": "そのバンドは2020年にデビューした。",
+  "tier": "core"
+ },
+ "debut.katakana": {
+  "lang": "ja",
+  "text": "デビュー",
+  "tier": "core"
+ },
+ "debut.meaning": {
+  "lang": "ja",
+  "text": "初登場、デビュー",
+  "tier": "core"
+ },
+ "debut.story": {
+  "lang": "ja",
+  "text": "球技で最初の一打を打つことから「初めての登場」に。発音は「デイビュー」。",
+  "tier": "extended"
+ },
+ "debut.word": {
+  "lang": "en",
+  "text": "debut",
+  "tier": "core"
+ },
  "delivery.example.en": {
   "lang": "en",
   "text": "Free delivery on orders over 3,000 yen.",
@@ -6927,6 +7287,36 @@
  "document.word": {
   "lang": "en",
   "text": "document",
+  "tier": "core"
+ },
+ "documentary.example.en": {
+  "lang": "en",
+  "text": "We watched a documentary about space.",
+  "tier": "core"
+ },
+ "documentary.example.ja": {
+  "lang": "ja",
+  "text": "宇宙についてのドキュメンタリーを見た。",
+  "tier": "core"
+ },
+ "documentary.katakana": {
+  "lang": "ja",
+  "text": "ドキュメンタリー",
+  "tier": "core"
+ },
+ "documentary.meaning": {
+  "lang": "ja",
+  "text": "記録映画、ドキュメンタリー",
+  "tier": "core"
+ },
+ "documentary.story": {
+  "lang": "ja",
+  "text": "doctor、document と同じ docere の家族。1920年代から「記録映画」の意味で使われた。",
+  "tier": "extended"
+ },
+ "documentary.word": {
+  "lang": "en",
+  "text": "documentary",
   "tier": "core"
  },
  "dog.example.en": {
@@ -7739,6 +8129,36 @@
   "text": "emotional",
   "tier": "core"
  },
+ "encore.example.en": {
+  "lang": "en",
+  "text": "The crowd shouted for an encore.",
+  "tier": "core"
+ },
+ "encore.example.ja": {
+  "lang": "ja",
+  "text": "観客はアンコールを求めて叫んだ。",
+  "tier": "core"
+ },
+ "encore.katakana": {
+  "lang": "ja",
+  "text": "アンコール",
+  "tier": "core"
+ },
+ "encore.meaning": {
+  "lang": "ja",
+  "text": "アンコール、再演",
+  "tier": "core"
+ },
+ "encore.story": {
+  "lang": "ja",
+  "text": "フランス語では「まだ、もう一度」の意味だが、フランスの観客はアンコールのとき Bis! 2回目！ と叫ぶ。英語で借用された使い方。",
+  "tier": "extended"
+ },
+ "encore.word": {
+  "lang": "en",
+  "text": "encore",
+  "tier": "core"
+ },
  "energy.example.en": {
   "lang": "en",
   "text": "The kids have so much energy in the morning.",
@@ -7857,6 +8277,36 @@
  "entry.word": {
   "lang": "en",
   "text": "entry",
+  "tier": "core"
+ },
+ "episode.example.en": {
+  "lang": "en",
+  "text": "I watched the latest episode last night.",
+  "tier": "core"
+ },
+ "episode.example.ja": {
+  "lang": "ja",
+  "text": "昨夜、最新話を見た。",
+  "tier": "core"
+ },
+ "episode.katakana": {
+  "lang": "ja",
+  "text": "エピソード",
+  "tier": "core"
+ },
+ "episode.meaning": {
+  "lang": "ja",
+  "text": "連続番組の 1回分、出来事",
+  "tier": "core"
+ },
+ "episode.story": {
+  "lang": "ja",
+  "text": "古代ギリシャ劇で合唱の間にはさまれた場面。「話の中の一場面」、 出来事、1回分。",
+  "tier": "extended"
+ },
+ "episode.word": {
+  "lang": "en",
+  "text": "episode",
   "tier": "core"
  },
  "epoch.example.en": {
@@ -8247,6 +8697,36 @@
  "fan.word": {
   "lang": "en",
   "text": "fan",
+  "tier": "core"
+ },
+ "fantasy.example.en": {
+  "lang": "en",
+  "text": "The Lord of the Rings is a classic fantasy.",
+  "tier": "core"
+ },
+ "fantasy.example.ja": {
+  "lang": "ja",
+  "text": "『指輪物語』は古典的なファンタジー作品だ。",
+  "tier": "core"
+ },
+ "fantasy.katakana": {
+  "lang": "ja",
+  "text": "ファンタジー",
+  "tier": "core"
+ },
+ "fantasy.meaning": {
+  "lang": "ja",
+  "text": "空想、ファンタジー",
+  "tier": "core"
+ },
+ "fantasy.story": {
+  "lang": "ja",
+  "text": "phantom 幻 、fancy 想像、しゃれた も同じ家族。",
+  "tier": "extended"
+ },
+ "fantasy.word": {
+  "lang": "en",
+  "text": "fantasy",
   "tier": "core"
  },
  "farm.example.en": {
@@ -8727,6 +9207,36 @@
  "follow.word": {
   "lang": "en",
   "text": "follow",
+  "tier": "core"
+ },
+ "follower.example.en": {
+  "lang": "en",
+  "text": "She has over a million followers.",
+  "tier": "core"
+ },
+ "follower.example.ja": {
+  "lang": "ja",
+  "text": "彼女には100万人以上のフォロワーがいる。",
+  "tier": "core"
+ },
+ "follower.katakana": {
+  "lang": "ja",
+  "text": "フォロワー",
+  "tier": "core"
+ },
+ "follower.meaning": {
+  "lang": "ja",
+  "text": "信奉者、 SNSの フォロワー",
+  "tier": "core"
+ },
+ "follower.story": {
+  "lang": "ja",
+  "text": "もとは「弟子、家来」。SNSでアカウントをフォローする人の意味で広まった。",
+  "tier": "extended"
+ },
+ "follower.word": {
+  "lang": "en",
+  "text": "follower",
   "tier": "core"
  },
  "fork.example.en": {
@@ -9239,6 +9749,36 @@
   "text": "gate",
   "tier": "core"
  },
+ "genre.example.en": {
+  "lang": "en",
+  "text": "What's your favorite movie genre?",
+  "tier": "core"
+ },
+ "genre.example.ja": {
+  "lang": "ja",
+  "text": "好きな映画のジャンルは？",
+  "tier": "core"
+ },
+ "genre.katakana": {
+  "lang": "ja",
+  "text": "ジャンル",
+  "tier": "core"
+ },
+ "genre.meaning": {
+  "lang": "ja",
+  "text": "分野、ジャンル",
+  "tier": "core"
+ },
+ "genre.story": {
+  "lang": "ja",
+  "text": "gender 性 、general 一般的な 、generation 世代 も genus の家族。英語の発音は「ジャーンラ」。",
+  "tier": "extended"
+ },
+ "genre.word": {
+  "lang": "en",
+  "text": "genre",
+  "tier": "core"
+ },
  "gift.example.en": {
   "lang": "en",
   "text": "Thank you for the lovely gift.",
@@ -9567,6 +10107,36 @@
  "gorilla.word": {
   "lang": "en",
   "text": "gorilla",
+  "tier": "core"
+ },
+ "gossip.example.en": {
+  "lang": "en",
+  "text": "Don't believe everything you hear in gossip.",
+  "tier": "core"
+ },
+ "gossip.example.ja": {
+  "lang": "ja",
+  "text": "うわさ話を全部信じちゃだめだよ。",
+  "tier": "core"
+ },
+ "gossip.katakana": {
+  "lang": "ja",
+  "text": "ゴシップ",
+  "tier": "core"
+ },
+ "gossip.meaning": {
+  "lang": "ja",
+  "text": "うわさ話 をする",
+  "tier": "core"
+ },
+ "gossip.story": {
+  "lang": "ja",
+  "text": "子どもの洗礼に立ち会う名づけ親 、 親しい友人 、 親しい人同士の世間話 、 うわさ話、と意味が移った。",
+  "tier": "extended"
+ },
+ "gossip.word": {
+  "lang": "en",
+  "text": "gossip",
   "tier": "core"
  },
  "governance.example.en": {
@@ -10289,6 +10859,36 @@
   "text": "harmony",
   "tier": "core"
  },
+ "hashtag.example.en": {
+  "lang": "en",
+  "text": "Use this hashtag when you post.",
+  "tier": "core"
+ },
+ "hashtag.example.ja": {
+  "lang": "ja",
+  "text": "投稿するときはこのハッシュタグをつけて。",
+  "tier": "core"
+ },
+ "hashtag.katakana": {
+  "lang": "ja",
+  "text": "ハッシュタグ",
+  "tier": "core"
+ },
+ "hashtag.meaning": {
+  "lang": "ja",
+  "text": "ハッシュタグ",
+  "tier": "core"
+ },
+ "hashtag.story": {
+  "lang": "ja",
+  "text": "# 記号はイギリスで hash、アメリカで pound sign と呼ぶ。2007年にツイッターで使われはじめた。",
+  "tier": "extended"
+ },
+ "hashtag.word": {
+  "lang": "en",
+  "text": "hashtag",
+  "tier": "core"
+ },
  "hat.example.en": {
   "lang": "en",
   "text": "He took off his hat.",
@@ -10317,6 +10917,36 @@
  "hat.word": {
   "lang": "en",
   "text": "hat",
+  "tier": "core"
+ },
+ "headline.example.en": {
+  "lang": "en",
+  "text": "The story made headlines around the world.",
+  "tier": "core"
+ },
+ "headline.example.ja": {
+  "lang": "ja",
+  "text": "その話は世界中の見出しを飾った。",
+  "tier": "core"
+ },
+ "headline.katakana": {
+  "lang": "ja",
+  "text": "ヘッドライン",
+  "tier": "core"
+ },
+ "headline.meaning": {
+  "lang": "ja",
+  "text": "見出し",
+  "tier": "core"
+ },
+ "headline.story": {
+  "lang": "ja",
+  "text": "新聞のいちばん上の行。make headlines は「大きく報じられる」。",
+  "tier": "extended"
+ },
+ "headline.word": {
+  "lang": "en",
+  "text": "headline",
   "tier": "core"
  },
  "headphones.example.en": {
@@ -10527,6 +11157,36 @@
  "hierarchy.word": {
   "lang": "en",
   "text": "hierarchy",
+  "tier": "core"
+ },
+ "highlight.example.en": {
+  "lang": "en",
+  "text": "Here are the highlights of today's game.",
+  "tier": "core"
+ },
+ "highlight.example.ja": {
+  "lang": "ja",
+  "text": "今日の試合のハイライトです。",
+  "tier": "core"
+ },
+ "highlight.katakana": {
+  "lang": "ja",
+  "text": "ハイライト",
+  "tier": "core"
+ },
+ "highlight.meaning": {
+  "lang": "ja",
+  "text": "見どころ、強調する",
+  "tier": "core"
+ },
+ "highlight.story": {
+  "lang": "ja",
+  "text": "もとは絵の中で最も明るく光が当たる部分。そこから「見どころ」「目立たせる」に。",
+  "tier": "extended"
+ },
+ "highlight.word": {
+  "lang": "en",
+  "text": "highlight",
   "tier": "core"
  },
  "hiking.example.en": {
@@ -10797,6 +11457,36 @@
  "honey.word": {
   "lang": "en",
   "text": "honey",
+  "tier": "core"
+ },
+ "horror.example.en": {
+  "lang": "en",
+  "text": "I can't watch horror movies alone.",
+  "tier": "core"
+ },
+ "horror.example.ja": {
+  "lang": "ja",
+  "text": "ホラー映画は一人では見られない。",
+  "tier": "core"
+ },
+ "horror.katakana": {
+  "lang": "ja",
+  "text": "ホラー",
+  "tier": "core"
+ },
+ "horror.meaning": {
+  "lang": "ja",
+  "text": "恐怖、ホラー",
+  "tier": "core"
+ },
+ "horror.story": {
+  "lang": "ja",
+  "text": "恐怖で毛が逆立つことから。horrible 恐ろしい 、horrify ぞっとさせる も同じ家族。",
+  "tier": "extended"
+ },
+ "horror.word": {
+  "lang": "en",
+  "text": "horror",
   "tier": "core"
  },
  "hospital.example.en": {
@@ -11277,6 +11967,36 @@
  "inclusion.word": {
   "lang": "en",
   "text": "inclusion",
+  "tier": "core"
+ },
+ "influencer.example.en": {
+  "lang": "en",
+  "text": "She is a popular influencer on Instagram.",
+  "tier": "core"
+ },
+ "influencer.example.ja": {
+  "lang": "ja",
+  "text": "彼女はインスタで人気のインフルエンサーだ。",
+  "tier": "core"
+ },
+ "influencer.katakana": {
+  "lang": "ja",
+  "text": "インフルエンサー",
+  "tier": "core"
+ },
+ "influencer.meaning": {
+  "lang": "ja",
+  "text": "影響力のある人、インフルエンサー",
+  "tier": "core"
+ },
+ "influencer.story": {
+  "lang": "ja",
+  "text": "中世の占星術では、星から「流れこむ」力が人の運命を左右すると考えた。influenza インフルエンザ も同じ語で、星の影響で病気がはやると考えられたことから。",
+  "tier": "extended"
+ },
+ "influencer.word": {
+  "lang": "en",
+  "text": "influencer",
   "tier": "core"
  },
  "infrastructure.example.en": {
@@ -12869,6 +13589,36 @@
   "text": "literacy",
   "tier": "core"
  },
+ "live.example.en": {
+  "lang": "en",
+  "text": "The game will be broadcast live.",
+  "tier": "core"
+ },
+ "live.example.ja": {
+  "lang": "ja",
+  "text": "その試合は生中継される。",
+  "tier": "core"
+ },
+ "live.katakana": {
+  "lang": "ja",
+  "text": "ライブ",
+  "tier": "core"
+ },
+ "live.meaning": {
+  "lang": "ja",
+  "text": "生の、生放送の、住む",
+  "tier": "core"
+ },
+ "live.story": {
+  "lang": "ja",
+  "text": "「生きている」、 生の、録画でない。動詞の live 住む、生きる と語源は同じ古英語 lif life 。",
+  "tier": "extended"
+ },
+ "live.word": {
+  "lang": "en",
+  "text": "live",
+  "tier": "core"
+ },
  "lobby.example.en": {
   "lang": "en",
   "text": "Let's meet in the hotel lobby.",
@@ -13107,6 +13857,36 @@
  "luxury.word": {
   "lang": "en",
   "text": "luxury",
+  "tier": "core"
+ },
+ "magazine.example.en": {
+  "lang": "en",
+  "text": "I read a fashion magazine at the salon.",
+  "tier": "core"
+ },
+ "magazine.example.ja": {
+  "lang": "ja",
+  "text": "美容院でファッション雑誌を読んだ。",
+  "tier": "core"
+ },
+ "magazine.katakana": {
+  "lang": "ja",
+  "text": "マガジン",
+  "tier": "core"
+ },
+ "magazine.meaning": {
+  "lang": "ja",
+  "text": "雑誌、弾倉",
+  "tier": "core"
+ },
+ "magazine.story": {
+  "lang": "ja",
+  "text": "「倉庫」、 情報をたくさん「蓄えた」冊子。銃の弾倉の意味もある。フランス語の magasin は「店」。",
+  "tier": "extended"
+ },
+ "magazine.word": {
+  "lang": "en",
+  "text": "magazine",
   "tier": "core"
  },
  "magic.example.en": {
@@ -13887,6 +14667,36 @@
  "member.word": {
   "lang": "en",
   "text": "member",
+  "tier": "core"
+ },
+ "meme.example.en": {
+  "lang": "en",
+  "text": "That meme is everywhere online.",
+  "tier": "core"
+ },
+ "meme.example.ja": {
+  "lang": "ja",
+  "text": "そのミームはネットのあちこちで見かける。",
+  "tier": "core"
+ },
+ "meme.katakana": {
+  "lang": "ja",
+  "text": "ミーム",
+  "tier": "core"
+ },
+ "meme.meaning": {
+  "lang": "ja",
+  "text": "ミーム、ネットで広まるネタ画像",
+  "tier": "core"
+ },
+ "meme.story": {
+  "lang": "ja",
+  "text": "遺伝子 gene のように、まねによって人から人へ伝わる文化の単位として作られた語。今はネットの画像ネタの意味で広まった。",
+  "tier": "extended"
+ },
+ "meme.word": {
+  "lang": "en",
+  "text": "meme",
   "tier": "core"
  },
  "memory.example.en": {
@@ -14757,6 +15567,36 @@
  "music.word": {
   "lang": "en",
   "text": "music",
+  "tier": "core"
+ },
+ "mystery.example.en": {
+  "lang": "en",
+  "text": "It's a mystery why he left.",
+  "tier": "core"
+ },
+ "mystery.example.ja": {
+  "lang": "ja",
+  "text": "彼がなぜ去ったのかはなぞだ。",
+  "tier": "core"
+ },
+ "mystery.katakana": {
+  "lang": "ja",
+  "text": "ミステリー",
+  "tier": "core"
+ },
+ "mystery.meaning": {
+  "lang": "ja",
+  "text": "なぞ、推理小説",
+  "tier": "core"
+ },
+ "mystery.story": {
+  "lang": "ja",
+  "text": "秘密の宗教儀式から「なぞ」に。mystic 神秘的な も同じ家族。",
+  "tier": "extended"
+ },
+ "mystery.word": {
+  "lang": "en",
+  "text": "mystery",
   "tier": "core"
  },
  "nail.example.en": {
@@ -17339,6 +18179,36 @@
   "text": "plate",
   "tier": "core"
  },
+ "playlist.example.en": {
+  "lang": "en",
+  "text": "I made a playlist for the road trip.",
+  "tier": "core"
+ },
+ "playlist.example.ja": {
+  "lang": "ja",
+  "text": "ドライブ旅行用のプレイリストを作った。",
+  "tier": "core"
+ },
+ "playlist.katakana": {
+  "lang": "ja",
+  "text": "プレイリスト",
+  "tier": "core"
+ },
+ "playlist.meaning": {
+  "lang": "ja",
+  "text": "再生リスト",
+  "tier": "core"
+ },
+ "playlist.story": {
+  "lang": "ja",
+  "text": "もとはラジオ局が流す予定の曲の一覧。",
+  "tier": "extended"
+ },
+ "playlist.word": {
+  "lang": "en",
+  "text": "playlist",
+  "tier": "core"
+ },
  "plug.example.en": {
   "lang": "en",
   "text": "Plug in the charger.",
@@ -18029,6 +18899,36 @@
   "text": "present",
   "tier": "core"
  },
+ "press.example.en": {
+  "lang": "en",
+  "text": "Press the button to start.",
+  "tier": "core"
+ },
+ "press.example.ja": {
+  "lang": "ja",
+  "text": "ボタンを押してスタート。",
+  "tier": "core"
+ },
+ "press.katakana": {
+  "lang": "ja",
+  "text": "プレス",
+  "tier": "core"
+ },
+ "press.meaning": {
+  "lang": "ja",
+  "text": "押す、報道機関、印刷機",
+  "tier": "core"
+ },
+ "press.story": {
+  "lang": "ja",
+  "text": "「押す」、 印刷機 紙に押しつける 、 印刷物、報道機関。print、pressure と同じ家族。",
+  "tier": "extended"
+ },
+ "press.word": {
+  "lang": "en",
+  "text": "press",
+  "tier": "core"
+ },
  "pressure.example.en": {
   "lang": "en",
   "text": "I work well under pressure.",
@@ -18237,6 +19137,36 @@
  "privacy.word": {
   "lang": "en",
   "text": "privacy",
+  "tier": "core"
+ },
+ "producer.example.en": {
+  "lang": "en",
+  "text": "She is a TV producer.",
+  "tier": "core"
+ },
+ "producer.example.ja": {
+  "lang": "ja",
+  "text": "彼女はテレビ番組の制作者だ。",
+  "tier": "core"
+ },
+ "producer.katakana": {
+  "lang": "ja",
+  "text": "プロデューサー",
+  "tier": "core"
+ },
+ "producer.meaning": {
+  "lang": "ja",
+  "text": "生産者、制作者",
+  "tier": "core"
+ },
+ "producer.story": {
+  "lang": "ja",
+  "text": "「前へ導き出す人」。product 製品 、production 制作 も同じ家族。",
+  "tier": "extended"
+ },
+ "producer.word": {
+  "lang": "en",
+  "text": "producer",
   "tier": "core"
  },
  "professional.example.en": {
@@ -19259,6 +20189,36 @@
   "text": "relay",
   "tier": "core"
  },
+ "release.example.en": {
+  "lang": "en",
+  "text": "The movie will be released next month.",
+  "tier": "core"
+ },
+ "release.example.ja": {
+  "lang": "ja",
+  "text": "その映画は来月公開される。",
+  "tier": "core"
+ },
+ "release.katakana": {
+  "lang": "ja",
+  "text": "リリース",
+  "tier": "core"
+ },
+ "release.meaning": {
+  "lang": "ja",
+  "text": "解放する、発表する、発売",
+  "tier": "core"
+ },
+ "release.story": {
+  "lang": "ja",
+  "text": "「つかんでいたものを放す」、 解放、公開、発売。relax と同じ語。",
+  "tier": "extended"
+ },
+ "release.word": {
+  "lang": "en",
+  "text": "release",
+  "tier": "core"
+ },
  "relic.example.en": {
   "lang": "en",
   "text": "The temple guards an ancient relic.",
@@ -19287,6 +20247,36 @@
  "relic.word": {
   "lang": "en",
   "text": "relic",
+  "tier": "core"
+ },
+ "remix.example.en": {
+  "lang": "en",
+  "text": "This remix is better than the original.",
+  "tier": "core"
+ },
+ "remix.example.ja": {
+  "lang": "ja",
+  "text": "このリミックスは原曲よりいい。",
+  "tier": "core"
+ },
+ "remix.katakana": {
+  "lang": "ja",
+  "text": "リミックス",
+  "tier": "core"
+ },
+ "remix.meaning": {
+  "lang": "ja",
+  "text": "再編集、リミックス",
+  "tier": "core"
+ },
+ "remix.story": {
+  "lang": "ja",
+  "text": "録音した音を「もう一度混ぜ直す」こと。mix はラテン語 miscere「混ぜる」から。",
+  "tier": "extended"
+ },
+ "remix.word": {
+  "lang": "en",
+  "text": "remix",
   "tier": "core"
  },
  "remote.example.en": {
@@ -19409,6 +20399,36 @@
   "text": "repeat",
   "tier": "core"
  },
+ "replay.example.en": {
+  "lang": "en",
+  "text": "Let's watch the replay of the goal.",
+  "tier": "core"
+ },
+ "replay.example.ja": {
+  "lang": "ja",
+  "text": "ゴールのリプレイを見よう。",
+  "tier": "core"
+ },
+ "replay.katakana": {
+  "lang": "ja",
+  "text": "リプレイ",
+  "tier": "core"
+ },
+ "replay.meaning": {
+  "lang": "ja",
+  "text": "再生、再試合",
+  "tier": "core"
+ },
+ "replay.story": {
+  "lang": "ja",
+  "text": "「もう一度再生する、試合する」。",
+  "tier": "extended"
+ },
+ "replay.word": {
+  "lang": "en",
+  "text": "replay",
+  "tier": "core"
+ },
  "report.example.en": {
   "lang": "en",
   "text": "The news reported heavy rain in the north.",
@@ -19437,6 +20457,36 @@
  "report.word": {
   "lang": "en",
   "text": "report",
+  "tier": "core"
+ },
+ "reporter.example.en": {
+  "lang": "en",
+  "text": "The reporter asked the mayor a question.",
+  "tier": "core"
+ },
+ "reporter.example.ja": {
+  "lang": "ja",
+  "text": "記者は市長に質問した。",
+  "tier": "core"
+ },
+ "reporter.katakana": {
+  "lang": "ja",
+  "text": "レポーター",
+  "tier": "core"
+ },
+ "reporter.meaning": {
+  "lang": "ja",
+  "text": "記者、リポーター",
+  "tier": "core"
+ },
+ "reporter.story": {
+  "lang": "ja",
+  "text": "「見たことを持ち帰って伝える人」。",
+  "tier": "extended"
+ },
+ "reporter.word": {
+  "lang": "en",
+  "text": "reporter",
   "tier": "core"
  },
  "rescue.example.en": {
@@ -19677,6 +20727,36 @@
  "restaurant.word": {
   "lang": "en",
   "text": "restaurant",
+  "tier": "core"
+ },
+ "review.example.en": {
+  "lang": "en",
+  "text": "The restaurant got great reviews.",
+  "tier": "core"
+ },
+ "review.example.ja": {
+  "lang": "ja",
+  "text": "そのレストランはとても評判がいい。",
+  "tier": "core"
+ },
+ "review.katakana": {
+  "lang": "ja",
+  "text": "レビュー",
+  "tier": "core"
+ },
+ "review.meaning": {
+  "lang": "ja",
+  "text": "評論、見直し、復習する",
+  "tier": "core"
+ },
+ "review.story": {
+  "lang": "ja",
+  "text": "「もう一度見る」、 見直し、批評、復習。view、vision と同じ videre の家族。",
+  "tier": "extended"
+ },
+ "review.word": {
+  "lang": "en",
+  "text": "review",
   "tier": "core"
  },
  "revive.example.en": {
@@ -20637,6 +21717,36 @@
  "school.word": {
   "lang": "en",
   "text": "school",
+  "tier": "core"
+ },
+ "scoop.example.en": {
+  "lang": "en",
+  "text": "The newspaper got a big scoop.",
+  "tier": "core"
+ },
+ "scoop.example.ja": {
+  "lang": "ja",
+  "text": "その新聞は大スクープをものにした。",
+  "tier": "core"
+ },
+ "scoop.katakana": {
+  "lang": "ja",
+  "text": "スクープ",
+  "tier": "core"
+ },
+ "scoop.meaning": {
+  "lang": "ja",
+  "text": "特ダネ、すくう 道具",
+  "tier": "core"
+ },
+ "scoop.story": {
+  "lang": "ja",
+  "text": "「すくい取る」、 ほかより先にニュースをすくい取る、特ダネ。アイスクリームを「すくう」道具も scoop。",
+  "tier": "extended"
+ },
+ "scoop.word": {
+  "lang": "en",
+  "text": "scoop",
   "tier": "core"
  },
  "score.example.en": {
@@ -23849,6 +24959,36 @@
   "text": "survival",
   "tier": "core"
  },
+ "suspense.example.en": {
+  "lang": "en",
+  "text": "The suspense is killing me!",
+  "tier": "core"
+ },
+ "suspense.example.ja": {
+  "lang": "ja",
+  "text": "はらはらして死にそう！",
+  "tier": "core"
+ },
+ "suspense.katakana": {
+  "lang": "ja",
+  "text": "サスペンス",
+  "tier": "core"
+ },
+ "suspense.meaning": {
+  "lang": "ja",
+  "text": "はらはらする気持ち、サスペンス",
+  "tier": "core"
+ },
+ "suspense.story": {
+  "lang": "ja",
+  "text": "宙づりにされたような落ち着かない状態。suspend 一時停止する 、pendant ペンダント も同じ家族。",
+  "tier": "extended"
+ },
+ "suspense.word": {
+  "lang": "en",
+  "text": "suspense",
+  "tier": "core"
+ },
  "sustainable.example.en": {
   "lang": "en",
   "text": "We need more sustainable sources of energy.",
@@ -24064,6 +25204,11 @@
   "text": "achievement",
   "tier": "core"
  },
+ "syn.actor": {
+  "lang": "en",
+  "text": "actor",
+  "tier": "core"
+ },
  "syn.adapt": {
   "lang": "en",
   "text": "adapt",
@@ -24164,6 +25309,11 @@
   "text": "aircraft",
   "tier": "core"
  },
+ "syn.album": {
+  "lang": "en",
+  "text": "album",
+  "tier": "core"
+ },
  "syn.alert": {
   "lang": "en",
   "text": "alert",
@@ -24192,6 +25342,16 @@
  "syn.amber": {
   "lang": "en",
   "text": "amber",
+  "tier": "core"
+ },
+ "syn.analyst": {
+  "lang": "en",
+  "text": "analyst",
+  "tier": "core"
+ },
+ "syn.anchor": {
+  "lang": "en",
+  "text": "anchor",
   "tier": "core"
  },
  "syn.animal": {
@@ -25039,6 +26199,11 @@
   "text": "captain",
   "tier": "core"
  },
+ "syn.caption": {
+  "lang": "en",
+  "text": "caption",
+  "tier": "core"
+ },
  "syn.car-park": {
   "lang": "en",
   "text": "car park",
@@ -25197,6 +26362,16 @@
  "syn.chase": {
   "lang": "en",
   "text": "chase",
+  "tier": "core"
+ },
+ "syn.chat": {
+  "lang": "en",
+  "text": "chat",
+  "tier": "core"
+ },
+ "syn.chatter": {
+  "lang": "en",
+  "text": "chatter",
   "tier": "core"
  },
  "syn.chauffeur": {
@@ -25464,6 +26639,11 @@
   "text": "comment",
   "tier": "core"
  },
+ "syn.commentator": {
+  "lang": "en",
+  "text": "commentator",
+  "tier": "core"
+ },
  "syn.common": {
   "lang": "en",
   "text": "common",
@@ -25517,6 +26697,11 @@
  "syn.concern": {
   "lang": "en",
   "text": "concern",
+  "tier": "core"
+ },
+ "syn.concert": {
+  "lang": "en",
+  "text": "concert",
   "tier": "core"
  },
  "syn.condition": {
@@ -25634,6 +26819,11 @@
   "text": "core",
   "tier": "core"
  },
+ "syn.correspondent": {
+  "lang": "en",
+  "text": "correspondent",
+  "tier": "core"
+ },
  "syn.corridor": {
   "lang": "en",
   "text": "corridor",
@@ -25749,6 +26939,11 @@
   "text": "creative",
   "tier": "core"
  },
+ "syn.creator": {
+  "lang": "en",
+  "text": "creator",
+  "tier": "core"
+ },
  "syn.creature": {
   "lang": "en",
   "text": "creature",
@@ -25797,6 +26992,16 @@
  "syn.crisp": {
   "lang": "en",
   "text": "crisp",
+  "tier": "core"
+ },
+ "syn.critic": {
+  "lang": "en",
+  "text": "critic",
+  "tier": "core"
+ },
+ "syn.critique": {
+  "lang": "en",
+  "text": "critique",
   "tier": "core"
  },
  "syn.crowd": {
@@ -25857,6 +27062,11 @@
  "syn.curse": {
   "lang": "en",
   "text": "curse",
+  "tier": "core"
+ },
+ "syn.curtain-call": {
+  "lang": "en",
+  "text": "curtain call",
   "tier": "core"
  },
  "syn.custard": {
@@ -26014,6 +27224,11 @@
   "text": "dessert",
   "tier": "core"
  },
+ "syn.detective-story": {
+  "lang": "en",
+  "text": "detective story",
+  "tier": "core"
+ },
  "syn.development": {
   "lang": "en",
   "text": "development",
@@ -26077,6 +27292,11 @@
  "syn.dip": {
   "lang": "en",
   "text": "dip",
+  "tier": "core"
+ },
+ "syn.director": {
+  "lang": "en",
+  "text": "director",
   "tier": "core"
  },
  "syn.dirty": {
@@ -26374,6 +27594,11 @@
   "text": "emotional",
   "tier": "core"
  },
+ "syn.emphasize": {
+  "lang": "en",
+  "text": "emphasize",
+  "tier": "core"
+ },
  "syn.empress": {
   "lang": "en",
   "text": "empress",
@@ -26504,6 +27729,11 @@
   "text": "excitement",
   "tier": "core"
  },
+ "syn.exclusive": {
+  "lang": "en",
+  "text": "exclusive",
+  "tier": "core"
+ },
  "syn.exercise": {
   "lang": "en",
   "text": "exercise",
@@ -26594,6 +27824,11 @@
   "text": "famous",
   "tier": "core"
  },
+ "syn.fan": {
+  "lang": "en",
+  "text": "fan",
+  "tier": "core"
+ },
  "syn.fashion": {
   "lang": "en",
   "text": "fashion",
@@ -26617,6 +27852,16 @@
  "syn.faucet": {
   "lang": "en",
   "text": "faucet",
+  "tier": "core"
+ },
+ "syn.fear": {
+  "lang": "en",
+  "text": "fear",
+  "tier": "core"
+ },
+ "syn.feature": {
+  "lang": "en",
+  "text": "feature",
   "tier": "core"
  },
  "syn.fee": {
@@ -26667,6 +27912,11 @@
  "syn.figure": {
   "lang": "en",
   "text": "figure",
+  "tier": "core"
+ },
+ "syn.film": {
+  "lang": "en",
+  "text": "film",
   "tier": "core"
  },
  "syn.final": {
@@ -27034,6 +28284,11 @@
   "text": "gift",
   "tier": "core"
  },
+ "syn.gig": {
+  "lang": "en",
+  "text": "gig",
+  "tier": "core"
+ },
  "syn.glad": {
   "lang": "en",
   "text": "glad",
@@ -27057,6 +28312,11 @@
  "syn.glue": {
   "lang": "en",
   "text": "glue",
+  "tier": "core"
+ },
+ "syn.go-viral": {
+  "lang": "en",
+  "text": "go viral",
   "tier": "core"
  },
  "syn.goal": {
@@ -27117,6 +28377,11 @@
  "syn.grain": {
   "lang": "en",
   "text": "grain",
+  "tier": "core"
+ },
+ "syn.graph": {
+  "lang": "en",
+  "text": "graph",
   "tier": "core"
  },
  "syn.gravy": {
@@ -27479,9 +28744,19 @@
   "text": "huge",
   "tier": "core"
  },
+ "syn.humor": {
+  "lang": "en",
+  "text": "humor",
+  "tier": "core"
+ },
  "syn.hurry": {
   "lang": "en",
   "text": "hurry",
+  "tier": "core"
+ },
+ "syn.hype": {
+  "lang": "en",
+  "text": "hype",
   "tier": "core"
  },
  "syn.hypothesis": {
@@ -27517,6 +28792,11 @@
  "syn.idol": {
   "lang": "en",
   "text": "idol",
+  "tier": "core"
+ },
+ "syn.imagination": {
+  "lang": "en",
+  "text": "imagination",
   "tier": "core"
  },
  "syn.imitate": {
@@ -27624,6 +28904,11 @@
   "text": "install",
   "tier": "core"
  },
+ "syn.installment": {
+  "lang": "en",
+  "text": "installment",
+  "tier": "core"
+ },
  "syn.instructions": {
   "lang": "en",
   "text": "instructions",
@@ -27729,6 +29014,11 @@
   "text": "jogging",
   "tier": "core"
  },
+ "syn.joke": {
+  "lang": "en",
+  "text": "joke",
+  "tier": "core"
+ },
  "syn.journal": {
   "lang": "en",
   "text": "journal",
@@ -27737,6 +29027,11 @@
  "syn.journalism": {
   "lang": "en",
   "text": "journalism",
+  "tier": "core"
+ },
+ "syn.journalist": {
+  "lang": "en",
+  "text": "journalist",
   "tier": "core"
  },
  "syn.journey": {
@@ -27797,6 +29092,11 @@
  "syn.keypad": {
   "lang": "en",
   "text": "keypad",
+  "tier": "core"
+ },
+ "syn.keyword": {
+  "lang": "en",
+  "text": "keyword",
   "tier": "core"
  },
  "syn.khaki": {
@@ -28254,6 +29554,11 @@
   "text": "manners",
   "tier": "core"
  },
+ "syn.manufacturer": {
+  "lang": "en",
+  "text": "manufacturer",
+  "tier": "core"
+ },
  "syn.margarine": {
   "lang": "en",
   "text": "margarine",
@@ -28342,6 +29647,11 @@
  "syn.mechanism": {
   "lang": "en",
   "text": "mechanism",
+  "tier": "core"
+ },
+ "syn.media": {
+  "lang": "en",
+  "text": "media",
   "tier": "core"
  },
  "syn.meditation": {
@@ -29064,6 +30374,11 @@
   "text": "period",
   "tier": "core"
  },
+ "syn.periodical": {
+  "lang": "en",
+  "text": "periodical",
+  "tier": "core"
+ },
  "syn.permission": {
   "lang": "en",
   "text": "permission",
@@ -29147,6 +30462,11 @@
  "syn.picture": {
   "lang": "en",
   "text": "picture",
+  "tier": "core"
+ },
+ "syn.pillar": {
+  "lang": "en",
+  "text": "pillar",
   "tier": "core"
  },
  "syn.pillow": {
@@ -29354,6 +30674,11 @@
   "text": "prejudice",
   "tier": "core"
  },
+ "syn.premiere": {
+  "lang": "en",
+  "text": "premiere",
+  "tier": "core"
+ },
  "syn.presence": {
   "lang": "en",
   "text": "presence",
@@ -29382,6 +30707,11 @@
  "syn.pretty": {
   "lang": "en",
   "text": "pretty",
+  "tier": "core"
+ },
+ "syn.preview": {
+  "lang": "en",
+  "text": "preview",
   "tier": "core"
  },
  "syn.price": {
@@ -29572,6 +30902,11 @@
  "syn.pursuit": {
   "lang": "en",
   "text": "pursuit",
+  "tier": "core"
+ },
+ "syn.push": {
+  "lang": "en",
+  "text": "push",
   "tier": "core"
  },
  "syn.putt": {
@@ -29864,6 +31199,11 @@
   "text": "remark",
   "tier": "core"
  },
+ "syn.rematch": {
+  "lang": "en",
+  "text": "rematch",
+  "tier": "core"
+ },
  "syn.remedy": {
   "lang": "en",
   "text": "remedy",
@@ -29894,6 +31234,11 @@
   "text": "renovate",
   "tier": "core"
  },
+ "syn.repeat": {
+  "lang": "en",
+  "text": "repeat",
+  "tier": "core"
+ },
  "syn.reply": {
   "lang": "en",
   "text": "reply",
@@ -29902,6 +31247,11 @@
  "syn.report": {
   "lang": "en",
   "text": "report",
+  "tier": "core"
+ },
+ "syn.rerun": {
+  "lang": "en",
+  "text": "rerun",
   "tier": "core"
  },
  "syn.reserve": {
@@ -30104,6 +31454,11 @@
   "text": "ruler",
   "tier": "core"
  },
+ "syn.rumor": {
+  "lang": "en",
+  "text": "rumor",
+  "tier": "core"
+ },
  "syn.running": {
   "lang": "en",
   "text": "running",
@@ -30259,6 +31614,11 @@
   "text": "screen",
   "tier": "core"
  },
+ "syn.screening": {
+  "lang": "en",
+  "text": "screening",
+  "tier": "core"
+ },
  "syn.screwdriver": {
   "lang": "en",
   "text": "screwdriver",
@@ -30367,6 +31727,11 @@
  "syn.set": {
   "lang": "en",
   "text": "set",
+  "tier": "core"
+ },
+ "syn.setlist": {
+  "lang": "en",
+  "text": "setlist",
   "tier": "core"
  },
  "syn.setting": {
@@ -30522,6 +31887,11 @@
  "syn.sip": {
   "lang": "en",
   "text": "sip",
+  "tier": "core"
+ },
+ "syn.sitcom": {
+  "lang": "en",
+  "text": "sitcom",
   "tier": "core"
  },
  "syn.situation": {
@@ -30759,6 +32129,11 @@
   "text": "spectrum",
   "tier": "core"
  },
+ "syn.speech": {
+  "lang": "en",
+  "text": "speech",
+  "tier": "core"
+ },
  "syn.speed": {
   "lang": "en",
   "text": "speed",
@@ -30857,6 +32232,11 @@
  "syn.standard": {
   "lang": "en",
   "text": "standard",
+  "tier": "core"
+ },
+ "syn.star": {
+  "lang": "en",
+  "text": "star",
   "tier": "core"
  },
  "syn.station": {
@@ -31057,6 +32437,11 @@
  "syn.substance": {
   "lang": "en",
   "text": "substance",
+  "tier": "core"
+ },
+ "syn.subtitle": {
+  "lang": "en",
+  "text": "subtitle",
   "tier": "core"
  },
  "syn.subtlety": {
@@ -31304,6 +32689,11 @@
   "text": "tendency",
   "tier": "core"
  },
+ "syn.tension": {
+  "lang": "en",
+  "text": "tension",
+  "tier": "core"
+ },
  "syn.tent": {
   "lang": "en",
   "text": "tent",
@@ -31317,6 +32707,11 @@
  "syn.terminal": {
   "lang": "en",
   "text": "terminal",
+  "tier": "core"
+ },
+ "syn.terror": {
+  "lang": "en",
+  "text": "terror",
   "tier": "core"
  },
  "syn.test": {
@@ -31352,6 +32747,16 @@
  "syn.thrift": {
   "lang": "en",
   "text": "thrift",
+  "tier": "core"
+ },
+ "syn.thriller": {
+  "lang": "en",
+  "text": "thriller",
+  "tier": "core"
+ },
+ "syn.throw": {
+  "lang": "en",
+  "text": "throw",
   "tier": "core"
  },
  "syn.thrower": {
@@ -31412,6 +32817,11 @@
  "syn.tissue": {
   "lang": "en",
   "text": "tissue",
+  "tier": "core"
+ },
+ "syn.title": {
+  "lang": "en",
+  "text": "title",
   "tier": "core"
  },
  "syn.titleholder": {
@@ -31577,6 +32987,11 @@
  "syn.trousers": {
   "lang": "en",
   "text": "trousers",
+  "tier": "core"
+ },
+ "syn.tryout": {
+  "lang": "en",
+  "text": "tryout",
   "tier": "core"
  },
  "syn.tub": {
@@ -31754,6 +33169,11 @@
   "text": "venture",
   "tier": "core"
  },
+ "syn.version": {
+  "lang": "en",
+  "text": "version",
+  "tier": "core"
+ },
  "syn.viewpoint": {
   "lang": "en",
   "text": "viewpoint",
@@ -31917,6 +33337,11 @@
  "syn.way": {
   "lang": "en",
   "text": "way",
+  "tier": "core"
+ },
+ "syn.wealthy": {
+  "lang": "en",
+  "text": "wealthy",
   "tier": "core"
  },
  "syn.web": {
@@ -32307,6 +33732,36 @@
  "talent.word": {
   "lang": "en",
   "text": "talent",
+  "tier": "core"
+ },
+ "talk.example.en": {
+  "lang": "en",
+  "text": "Can we talk for a minute?",
+  "tier": "core"
+ },
+ "talk.example.ja": {
+  "lang": "ja",
+  "text": "ちょっと話せる？",
+  "tier": "core"
+ },
+ "talk.katakana": {
+  "lang": "ja",
+  "text": "トーク",
+  "tier": "core"
+ },
+ "talk.meaning": {
+  "lang": "ja",
+  "text": "話す、話、講演",
+  "tier": "core"
+ },
+ "talk.story": {
+  "lang": "ja",
+  "text": "tell や tale と同じ語根に、くり返しを表す語尾がついた形とされる。TED Talk は「講演」。",
+  "tier": "extended"
+ },
+ "talk.word": {
+  "lang": "en",
+  "text": "talk",
   "tier": "core"
  },
  "tap.example.en": {
@@ -32757,6 +34212,36 @@
  "theory.word": {
   "lang": "en",
   "text": "theory",
+  "tier": "core"
+ },
+ "thumbnail.example.en": {
+  "lang": "en",
+  "text": "Click the thumbnail to see the full picture.",
+  "tier": "core"
+ },
+ "thumbnail.example.ja": {
+  "lang": "ja",
+  "text": "縮小画像をクリックすると全体が見られる。",
+  "tier": "core"
+ },
+ "thumbnail.katakana": {
+  "lang": "ja",
+  "text": "サムネイル",
+  "tier": "core"
+ },
+ "thumbnail.meaning": {
+  "lang": "ja",
+  "text": "縮小画像、親指の爪",
+  "tier": "core"
+ },
+ "thumbnail.story": {
+  "lang": "ja",
+  "text": "「親指の爪ほどの大きさの」、 小さな、簡単な。a thumbnail sketch は「簡単な概略」。",
+  "tier": "extended"
+ },
+ "thumbnail.word": {
+  "lang": "en",
+  "text": "thumbnail",
   "tier": "core"
  },
  "ticket.example.en": {

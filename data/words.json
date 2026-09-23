@@ -14547,5 +14547,653 @@
       { "word": "fabric", "meaning": "布地", "nuance": "織物。", "etymology": "ラテン語 fabrica" },
       { "word": "cloth", "meaning": "布", "nuance": "布全般。", "etymology": "古英語 clāþ" }
     ]
+  },
+  {
+    "id": "live", "word": "live", "katakana": "ライブ", "pos": "形容詞・副詞", "cefr": "B1", "level": 5,
+    "meaning": "生の、生放送の、住む",
+    "scene": "「ライブに行く」、ライブ配信。",
+    "gap": "日本語の「ライブ（コンサート）」は英語では concert / gig / show。live は形容詞で「生の・生放送の」（発音はライブ）、動詞では「住む」（発音はリブ）。",
+    "trapQuiz": {"question": "「週末、ライブに行った」を自然な英語にすると？", "answer": "I went to a concert this weekend.", "wrong": ["I went to a live this weekend.", "I went to live this weekend.", "I went live this weekend."]},
+    "example": { "en": "The game will be broadcast live.", "ja": "その試合は生中継される。" },
+    "etymology": {
+      "origin": "形容詞は alive「生きている」の短縮形 ← 古英語 on līfe",
+      "story": "「生きている」→ 生の、録画でない。動詞の live（住む、生きる）と語源は同じ古英語 lif（life）。"
+    },
+    "roots": [],
+    "family": ["alive（生きている）、life（生命）"],
+    "synonyms": [
+      { "word": "concert", "meaning": "コンサート", "nuance": "日本語の「ライブ」はこれ。", "etymology": "イタリア語 concerto" },
+      { "word": "gig", "meaning": "ライブ（くだけた）", "nuance": "ミュージシャンの出演。", "etymology": "1920年代ジャズ用語。由来不明" }
+    ]
+  },
+  {
+    "id": "talk", "word": "talk", "katakana": "トーク", "pos": "名詞・動詞", "cefr": "A1", "level": 5,
+    "meaning": "話す、話、講演",
+    "scene": "トーク番組、トークショー。",
+    "example": { "en": "Can we talk for a minute?", "ja": "ちょっと話せる？" },
+    "etymology": {
+      "origin": "中英語 talken（tell「語る」、tale「話」と同じ系統）",
+      "story": "tell や tale と同じ語根に、くり返しを表す語尾がついた形とされる。TED Talk は「講演」。"
+    },
+    "roots": [],
+    "family": ["tell（言う）、tale（物語）"],
+    "synonyms": [
+      { "word": "chat", "meaning": "おしゃべり", "nuance": "気楽な会話。", "etymology": "chatter の略" },
+      { "word": "speech", "meaning": "演説", "nuance": "人前で話すこと。", "etymology": "古英語 spǣc" }
+    ]
+  },
+  {
+    "id": "comedy", "word": "comedy", "katakana": "コメディ", "pos": "名詞", "cefr": "B1", "level": 5,
+    "meaning": "喜劇、お笑い",
+    "scene": "コメディ映画、ラブコメ。",
+    "example": { "en": "I love romantic comedies.", "ja": "ラブコメが大好きだ。" },
+    "etymology": {
+      "origin": "ギリシャ語 kōmōidia ← kōmos「お祭り騒ぎ」+ ōidē「歌」",
+      "story": "comic（漫画）と同じ語。「神曲（ダンテ）」の原題 Commedia も「ハッピーエンドの物語」の意味。"
+    },
+    "roots": [],
+    "family": ["comic（漫画）、comedian（コメディアン）"],
+    "synonyms": [
+      { "word": "humor", "meaning": "ユーモア", "nuance": "おかしみ。", "etymology": "ラテン語 hūmor" },
+      { "word": "sitcom", "meaning": "シットコム", "nuance": "連続ホームコメディ。", "etymology": "situation comedy の略" }
+    ]
+  },
+  {
+    "id": "episode", "word": "episode", "katakana": "エピソード", "pos": "名詞", "cefr": "B1", "level": 5,
+    "meaning": "（連続番組の）1回分、出来事",
+    "scene": "ドラマの第1話、「おもしろエピソード」。",
+    "example": { "en": "I watched the latest episode last night.", "ja": "昨夜、最新話を見た。" },
+    "etymology": {
+      "origin": "ギリシャ語 epeisodion「間に入ってくるもの」← epi-「上に」+ eisodos「入場」",
+      "story": "古代ギリシャ劇で合唱の間にはさまれた場面。「話の中の一場面」→ 出来事、1回分。"
+    },
+    "roots": [],
+    "family": ["episodic（挿話的な）"],
+    "synonyms": [
+      { "word": "incident", "meaning": "出来事", "nuance": "ちょっとした事件。", "etymology": "ラテン語 incidere" },
+      { "word": "installment", "meaning": "（連載の）1回分", "nuance": "分割の一部。", "etymology": "install + -ment" }
+    ]
+  },
+  {
+    "id": "genre", "word": "genre", "katakana": "ジャンル", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "分野、ジャンル",
+    "scene": "音楽のジャンル、ジャンルを問わず。",
+    "example": { "en": "What's your favorite movie genre?", "ja": "好きな映画のジャンルは？" },
+    "etymology": {
+      "origin": "フランス語 genre「種類」← ラテン語 genus「種、生まれ」",
+      "story": "gender（性）、general（一般的な）、generation（世代）も genus の家族。英語の発音は「ジャーンラ」。"
+    },
+    "roots": [],
+    "family": ["gender（性）、general（一般的な）"],
+    "synonyms": [
+      { "word": "category", "meaning": "部類", "nuance": "分類。", "etymology": "ギリシャ語 katēgoria" },
+      { "word": "type", "meaning": "型", "nuance": "種類。", "etymology": "ギリシャ語 typos" }
+    ]
+  },
+  {
+    "id": "fantasy", "word": "fantasy", "katakana": "ファンタジー", "pos": "名詞", "cefr": "B1", "level": 5,
+    "meaning": "空想、ファンタジー",
+    "scene": "ファンタジー小説、ファンタジー映画。",
+    "example": { "en": "The Lord of the Rings is a classic fantasy.", "ja": "『指輪物語』は古典的なファンタジー作品だ。" },
+    "etymology": {
+      "origin": "ギリシャ語 phantasia「見えるようにすること、想像」← phainein「見せる」",
+      "story": "phantom（幻）、fancy（想像、しゃれた）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["fantastic（すばらしい）、fancy（空想）"],
+    "synonyms": [
+      { "word": "imagination", "meaning": "想像力", "nuance": "思い描く力。", "etymology": "ラテン語 imāginārī" },
+      { "word": "dream", "meaning": "夢", "nuance": "心に描くもの。", "etymology": "中英語 dreem" }
+    ]
+  },
+  {
+    "id": "horror", "word": "horror", "katakana": "ホラー", "pos": "名詞", "cefr": "B1", "level": 5,
+    "meaning": "恐怖、ホラー",
+    "scene": "ホラー映画、お化け屋敷。",
+    "example": { "en": "I can't watch horror movies alone.", "ja": "ホラー映画は一人では見られない。" },
+    "etymology": {
+      "origin": "ラテン語 horror「身の毛がよだつこと」← horrēre「毛が逆立つ」",
+      "story": "恐怖で毛が逆立つことから。horrible（恐ろしい）、horrify（ぞっとさせる）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["horrible（ひどい）"],
+    "synonyms": [
+      { "word": "terror", "meaning": "恐怖", "nuance": "激しい恐怖。", "etymology": "ラテン語 terror" },
+      { "word": "fear", "meaning": "恐れ", "nuance": "こわいと思う気持ち。", "etymology": "古英語 fǣr" }
+    ]
+  },
+  {
+    "id": "mystery", "word": "mystery", "katakana": "ミステリー", "pos": "名詞", "cefr": "B1", "level": 5,
+    "meaning": "なぞ、推理小説",
+    "scene": "ミステリー小説、ミステリーツアー。",
+    "example": { "en": "It's a mystery why he left.", "ja": "彼がなぜ去ったのかはなぞだ。" },
+    "etymology": {
+      "origin": "ギリシャ語 mystērion「秘儀」← myein「目や口を閉じる」",
+      "story": "秘密の宗教儀式から「なぞ」に。mystic（神秘的な）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["mysterious（なぞめいた）"],
+    "synonyms": [
+      { "word": "puzzle", "meaning": "なぞ", "nuance": "解くべき問題。", "etymology": "16世紀の語" },
+      { "word": "detective story", "meaning": "推理小説", "nuance": "探偵もの。", "etymology": "detective + story" }
+    ]
+  },
+  {
+    "id": "suspense", "word": "suspense", "katakana": "サスペンス", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "はらはらする気持ち、サスペンス",
+    "scene": "サスペンスドラマ、サスペンス映画。",
+    "example": { "en": "The suspense is killing me!", "ja": "はらはらして死にそう！" },
+    "etymology": {
+      "origin": "ラテン語 suspēnsus「つり下げられた」← suspendere「つるす」",
+      "story": "宙づりにされたような落ち着かない状態。suspend（一時停止する）、pendant（ペンダント）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["suspend（一時停止する）"],
+    "synonyms": [
+      { "word": "tension", "meaning": "緊張", "nuance": "張りつめた感じ。", "etymology": "ラテン語 tendere" },
+      { "word": "thriller", "meaning": "スリラー", "nuance": "はらはらする作品。", "etymology": "thrill + -er" }
+    ]
+  },
+  {
+    "id": "documentary", "word": "documentary", "katakana": "ドキュメンタリー", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "記録映画、ドキュメンタリー",
+    "scene": "ドキュメンタリー番組、ネイチャードキュメンタリー。",
+    "example": { "en": "We watched a documentary about space.", "ja": "宇宙についてのドキュメンタリーを見た。" },
+    "etymology": {
+      "origin": "document「記録」+ -ary ← ラテン語 docēre「教える」",
+      "story": "doctor、document と同じ docēre の家族。1920年代から「記録映画」の意味で使われた。"
+    },
+    "roots": [],
+    "family": ["document（文書）"],
+    "synonyms": [
+      { "word": "film", "meaning": "映画", "nuance": "作品。", "etymology": "古英語 filmen「薄い膜」" },
+      { "word": "report", "meaning": "報道", "nuance": "伝える記事。", "etymology": "ラテン語 reportāre" }
+    ]
+  },
+  {
+    "id": "cast", "word": "cast", "katakana": "キャスト", "pos": "名詞・動詞", "cefr": "B2", "level": 5,
+    "meaning": "出演者、投げる、配役する",
+    "scene": "豪華キャスト、ギプス（cast）。",
+    "example": { "en": "The cast of the movie is amazing.", "ja": "その映画の出演者は豪華だ。" },
+    "etymology": {
+      "origin": "古ノルド語 kasta「投げる」",
+      "story": "「投げる」→ 役を「振り分ける」→ 出演者。骨折のギプスや鋳物も cast（型に流しこむ）。broadcast は「広く投げる」。"
+    },
+    "roots": [],
+    "family": ["broadcast（放送する）、forecast（予報）"],
+    "synonyms": [
+      { "word": "actor", "meaning": "俳優", "nuance": "演じる人。", "etymology": "ラテン語 āctor" },
+      { "word": "throw", "meaning": "投げる", "nuance": "物を投げる。", "etymology": "古英語 þrāwan" }
+    ]
+  },
+  {
+    "id": "producer", "word": "producer", "katakana": "プロデューサー", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "生産者、制作者",
+    "scene": "音楽プロデューサー、映画プロデューサー。",
+    "example": { "en": "She is a TV producer.", "ja": "彼女はテレビ番組の制作者だ。" },
+    "etymology": {
+      "origin": "produce「生み出す」+ -er ← ラテン語 prōdūcere「前に導く」",
+      "story": "「前へ導き出す人」。product（製品）、production（制作）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["product（製品）、production（生産）"],
+    "synonyms": [
+      { "word": "director", "meaning": "監督", "nuance": "作品を指揮する人。", "etymology": "ラテン語 dīrigere" },
+      { "word": "manufacturer", "meaning": "製造業者", "nuance": "物を作る会社。", "etymology": "ラテン語 manus + facere" }
+    ]
+  },
+  {
+    "id": "audition", "word": "audition", "katakana": "オーディション", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "オーディション、聴力",
+    "scene": "アイドルのオーディション、公開オーディション。",
+    "example": { "en": "She passed the audition for the musical.", "ja": "彼女はミュージカルのオーディションに合格した。" },
+    "etymology": {
+      "origin": "ラテン語 audītiō「聞くこと」← audīre「聞く」",
+      "story": "歌や演技を「聞いて」選ぶことから。audio（音声）、audience（聴衆）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["audience（聴衆）、audio（音声）"],
+    "synonyms": [
+      { "word": "tryout", "meaning": "選考会", "nuance": "スポーツの入団テスト。", "etymology": "try + out" },
+      { "word": "screening", "meaning": "選考", "nuance": "審査。", "etymology": "screen + -ing" }
+    ]
+  },
+  {
+    "id": "debut", "word": "debut", "katakana": "デビュー", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "初登場、デビュー",
+    "scene": "デビュー曲、高校デビュー。",
+    "example": { "en": "The band made their debut in 2020.", "ja": "そのバンドは2020年にデビューした。" },
+    "etymology": {
+      "origin": "フランス語 début「始まり、最初の一投」← débuter「（ゲームで）最初に打つ」",
+      "story": "球技で最初の一打を打つことから「初めての登場」に。発音は「デイビュー」。"
+    },
+    "roots": [],
+    "family": ["debutant（初登場する人）"],
+    "synonyms": [
+      { "word": "premiere", "meaning": "初演、初公開", "nuance": "映画などの初上映。", "etymology": "フランス語 première「最初の」" },
+      { "word": "launch", "meaning": "開始、発売", "nuance": "商品などを出すこと。", "etymology": "古北フランス語 lancher" }
+    ]
+  },
+  {
+    "id": "encore", "word": "encore", "katakana": "アンコール", "pos": "名詞", "cefr": "C1", "level": 5,
+    "meaning": "アンコール、再演",
+    "scene": "「アンコール！」、アンコール曲。",
+    "example": { "en": "The crowd shouted for an encore.", "ja": "観客はアンコールを求めて叫んだ。" },
+    "etymology": {
+      "origin": "フランス語 encore「もう一度、まだ」",
+      "story": "フランス語では「まだ、もう一度」の意味だが、フランスの観客はアンコールのとき Bis!（2回目！）と叫ぶ。英語で借用された使い方。"
+    },
+    "roots": [],
+    "family": ["encore performance（アンコール演奏）"],
+    "synonyms": [
+      { "word": "repeat", "meaning": "くり返し", "nuance": "もう一度やる。", "etymology": "ラテン語 repetere" },
+      { "word": "curtain call", "meaning": "カーテンコール", "nuance": "終演後のあいさつ。", "etymology": "curtain + call" }
+    ]
+  },
+  {
+    "id": "release", "word": "release", "katakana": "リリース", "pos": "名詞・動詞", "cefr": "B1", "level": 5,
+    "meaning": "解放する、発表する、発売",
+    "scene": "新曲リリース、プレスリリース。",
+    "example": { "en": "The movie will be released next month.", "ja": "その映画は来月公開される。" },
+    "etymology": {
+      "origin": "古フランス語 relaissier ← ラテン語 relaxāre「ゆるめる」",
+      "story": "「つかんでいたものを放す」→ 解放、公開、発売。relax と同じ語。"
+    },
+    "roots": [],
+    "family": ["relax（くつろぐ）"],
+    "synonyms": [
+      { "word": "launch", "meaning": "発売する", "nuance": "新商品を出す。", "etymology": "古北フランス語 lancher" },
+      { "word": "free", "meaning": "解放する", "nuance": "自由にする。", "etymology": "古英語 frēo" }
+    ]
+  },
+  {
+    "id": "chart", "word": "chart", "katakana": "チャート", "pos": "名詞", "cefr": "B1", "level": 5,
+    "meaning": "図表、ヒットチャート、海図",
+    "scene": "ヒットチャート、フローチャート。",
+    "example": { "en": "The song reached number one on the charts.", "ja": "その曲はヒットチャートで1位になった。" },
+    "etymology": {
+      "origin": "フランス語 charte ← ラテン語 charta「紙」",
+      "story": "card（カード）と同じ語。もとは船乗りの海図。"
+    },
+    "roots": [],
+    "family": ["card（カード）、chart-topping（チャート1位の）"],
+    "synonyms": [
+      { "word": "graph", "meaning": "グラフ", "nuance": "数値の図。", "etymology": "ギリシャ語 graphein" },
+      { "word": "ranking", "meaning": "ランキング", "nuance": "順位表。", "etymology": "rank + -ing" }
+    ]
+  },
+  {
+    "id": "remix", "word": "remix", "katakana": "リミックス", "pos": "名詞・動詞", "cefr": "B2", "level": 5,
+    "meaning": "再編集、リミックス",
+    "scene": "リミックス版、DJのリミックス。",
+    "example": { "en": "This remix is better than the original.", "ja": "このリミックスは原曲よりいい。" },
+    "etymology": {
+      "origin": "re-「再び」+ mix「混ぜる」",
+      "story": "録音した音を「もう一度混ぜ直す」こと。mix はラテン語 miscēre「混ぜる」から。"
+    },
+    "roots": [],
+    "family": ["mix（混ぜる）"],
+    "synonyms": [
+      { "word": "version", "meaning": "バージョン", "nuance": "別の形のもの。", "etymology": "ラテン語 vertere" },
+      { "word": "cover", "meaning": "カバー曲", "nuance": "他人の曲を演奏すること。", "etymology": "ラテン語 cooperīre" }
+    ]
+  },
+  {
+    "id": "playlist", "word": "playlist", "katakana": "プレイリスト", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "再生リスト",
+    "scene": "お気に入りのプレイリスト。",
+    "example": { "en": "I made a playlist for the road trip.", "ja": "ドライブ旅行用のプレイリストを作った。" },
+    "etymology": {
+      "origin": "play「再生する」+ list「一覧」",
+      "story": "もとはラジオ局が流す予定の曲の一覧。"
+    },
+    "roots": [],
+    "family": ["list（一覧）"],
+    "synonyms": [
+      { "word": "setlist", "meaning": "セットリスト", "nuance": "ライブで演奏する曲順。", "etymology": "set + list" },
+      { "word": "album", "meaning": "アルバム", "nuance": "曲をまとめた作品。", "etymology": "ラテン語 album" }
+    ]
+  },
+  {
+    "id": "influencer", "word": "influencer", "katakana": "インフルエンサー", "pos": "名詞", "cefr": "C1", "level": 5,
+    "meaning": "影響力のある人、インフルエンサー",
+    "scene": "SNSのインフルエンサー、PR投稿。",
+    "example": { "en": "She is a popular influencer on Instagram.", "ja": "彼女はインスタで人気のインフルエンサーだ。" },
+    "etymology": {
+      "origin": "influence「影響」+ -er ← ラテン語 influere「流れこむ」",
+      "story": "中世の占星術では、星から「流れこむ」力が人の運命を左右すると考えた。influenza（インフルエンザ）も同じ語で、星の影響で病気がはやると考えられたことから。"
+    },
+    "roots": [],
+    "family": ["influenza（インフルエンザ）"],
+    "synonyms": [
+      { "word": "celebrity", "meaning": "有名人", "nuance": "よく知られた人。", "etymology": "ラテン語 celeber" },
+      { "word": "creator", "meaning": "クリエイター", "nuance": "作品を作る人。", "etymology": "ラテン語 creāre" }
+    ]
+  },
+  {
+    "id": "follower", "word": "follower", "katakana": "フォロワー", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "信奉者、（SNSの）フォロワー",
+    "scene": "フォロワー数、フォロワー1万人。",
+    "example": { "en": "She has over a million followers.", "ja": "彼女には100万人以上のフォロワーがいる。" },
+    "etymology": {
+      "origin": "follow「ついていく」+ -er",
+      "story": "もとは「弟子、家来」。SNSでアカウントをフォローする人の意味で広まった。"
+    },
+    "roots": [],
+    "family": ["follow（ついていく）"],
+    "synonyms": [
+      { "word": "fan", "meaning": "ファン", "nuance": "熱心な支持者。", "etymology": "fanatic の略" },
+      { "word": "supporter", "meaning": "支持者", "nuance": "応援する人。", "etymology": "support + -er" }
+    ]
+  },
+  {
+    "id": "hashtag", "word": "hashtag", "katakana": "ハッシュタグ", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "ハッシュタグ",
+    "scene": "「#」をつけて投稿、ハッシュタグ検索。",
+    "example": { "en": "Use this hashtag when you post.", "ja": "投稿するときはこのハッシュタグをつけて。" },
+    "etymology": {
+      "origin": "hash「#記号」+ tag「札」",
+      "story": "# 記号はイギリスで hash、アメリカで pound sign と呼ぶ。2007年にツイッターで使われはじめた。"
+    },
+    "roots": [],
+    "family": ["tag（札、タグ）"],
+    "synonyms": [
+      { "word": "tag", "meaning": "タグ", "nuance": "分類用の札。", "etymology": "中英語 tagge" },
+      { "word": "keyword", "meaning": "キーワード", "nuance": "検索する語。", "etymology": "key + word" }
+    ]
+  },
+  {
+    "id": "buzz", "word": "buzz", "katakana": "バズ", "pos": "名詞・動詞", "cefr": "B2", "level": 5,
+    "meaning": "ブンブンいう音、うわさの広まり",
+    "scene": "「バズる」、バズワード。",
+    "example": { "en": "The video created a lot of buzz online.", "ja": "その動画はネットで大きな話題になった。" },
+    "etymology": {
+      "origin": "擬音語（ハチの羽音）",
+      "story": "ハチのブンブンという音 → 人々のざわめき → 話題になること。日本語の「バズる」は go viral とも言う。"
+    },
+    "roots": [],
+    "family": ["buzzword（流行語）"],
+    "synonyms": [
+      { "word": "go viral", "meaning": "バズる", "nuance": "爆発的に広まる。", "etymology": "virus のように広まる" },
+      { "word": "hype", "meaning": "大騒ぎ、誇大宣伝", "nuance": "過剰な盛り上がり。", "etymology": "hyperbole の略" }
+    ]
+  },
+  {
+    "id": "review", "word": "review", "katakana": "レビュー", "pos": "名詞・動詞", "cefr": "B1", "level": 5,
+    "meaning": "評論、見直し、復習する",
+    "scene": "商品レビュー、星5つのレビュー。",
+    "example": { "en": "The restaurant got great reviews.", "ja": "そのレストランはとても評判がいい。" },
+    "etymology": {
+      "origin": "古フランス語 revue「見直すこと」← re- + voir「見る」",
+      "story": "「もう一度見る」→ 見直し、批評、復習。view、vision と同じ vidēre の家族。"
+    },
+    "roots": ["vid"],
+    "family": ["view（見方）、preview（予告）"],
+    "synonyms": [
+      { "word": "critique", "meaning": "批評", "nuance": "詳しい評価。", "etymology": "ギリシャ語 kritikē" },
+      { "word": "comment", "meaning": "コメント", "nuance": "感想。", "etymology": "ラテン語 commentum" }
+    ]
+  },
+  {
+    "id": "meme", "word": "meme", "katakana": "ミーム", "pos": "名詞", "cefr": "C1", "level": 5,
+    "meaning": "ミーム、ネットで広まるネタ画像",
+    "scene": "ネットミーム、定番の画像ネタ。",
+    "example": { "en": "That meme is everywhere online.", "ja": "そのミームはネットのあちこちで見かける。" },
+    "etymology": {
+      "origin": "生物学者ドーキンスの造語（1976年）← ギリシャ語 mīmēma「まねされたもの」",
+      "story": "遺伝子（gene）のように、まねによって人から人へ伝わる文化の単位として作られた語。今はネットの画像ネタの意味で広まった。"
+    },
+    "roots": [],
+    "family": ["mimic（まねる）"],
+    "synonyms": [
+      { "word": "joke", "meaning": "冗談", "nuance": "笑い話。", "etymology": "ラテン語 iocus" },
+      { "word": "trend", "meaning": "流行", "nuance": "はやり。", "etymology": "古英語 trendan" }
+    ]
+  },
+  {
+    "id": "caption", "word": "caption", "katakana": "キャプション", "pos": "名詞", "cefr": "C1", "level": 5,
+    "meaning": "説明文、字幕",
+    "scene": "写真のキャプション、字幕（closed captions）。",
+    "example": { "en": "Write a funny caption for this photo.", "ja": "この写真におもしろい説明文をつけて。" },
+    "etymology": {
+      "origin": "ラテン語 captiō「つかむこと」← capere「取る」",
+      "story": "もとは法律文書の「見出し」。capture、recipe と同じ capere の家族。"
+    },
+    "roots": ["cap"],
+    "family": ["capture（捕らえる）"],
+    "synonyms": [
+      { "word": "subtitle", "meaning": "字幕", "nuance": "映画の翻訳字幕。", "etymology": "sub- + title" },
+      { "word": "heading", "meaning": "見出し", "nuance": "文章のタイトル。", "etymology": "head + -ing" }
+    ]
+  },
+  {
+    "id": "thumbnail", "word": "thumbnail", "katakana": "サムネイル", "pos": "名詞", "cefr": "C1", "level": 5,
+    "meaning": "縮小画像、親指の爪",
+    "scene": "動画のサムネ、サムネイル画像。",
+    "example": { "en": "Click the thumbnail to see the full picture.", "ja": "縮小画像をクリックすると全体が見られる。" },
+    "etymology": {
+      "origin": "thumb「親指」+ nail「爪」",
+      "story": "「親指の爪ほどの大きさの」→ 小さな、簡単な。a thumbnail sketch は「簡単な概略」。"
+    },
+    "roots": [],
+    "family": ["thumb（親指）"],
+    "synonyms": [
+      { "word": "preview", "meaning": "プレビュー", "nuance": "前もって見るもの。", "etymology": "pre- + view" },
+      { "word": "icon", "meaning": "アイコン", "nuance": "小さな絵。", "etymology": "ギリシャ語 eikōn" }
+    ]
+  },
+  {
+    "id": "highlight", "word": "highlight", "katakana": "ハイライト", "pos": "名詞・動詞", "cefr": "B2", "level": 5,
+    "meaning": "見どころ、強調する",
+    "scene": "試合のハイライト、蛍光ペンで線を引く。",
+    "example": { "en": "Here are the highlights of today's game.", "ja": "今日の試合のハイライトです。" },
+    "etymology": {
+      "origin": "high「高い」+ light「光」",
+      "story": "もとは絵の中で最も明るく光が当たる部分。そこから「見どころ」「目立たせる」に。"
+    },
+    "roots": [],
+    "family": ["highlighter（蛍光ペン）"],
+    "synonyms": [
+      { "word": "feature", "meaning": "特集、目玉", "nuance": "呼び物。", "etymology": "古フランス語 faiture" },
+      { "word": "emphasize", "meaning": "強調する", "nuance": "目立たせる。", "etymology": "ギリシャ語 emphasis" }
+    ]
+  },
+  {
+    "id": "replay", "word": "replay", "katakana": "リプレイ", "pos": "名詞・動詞", "cefr": "B2", "level": 5,
+    "meaning": "再生、再試合",
+    "scene": "スローリプレイ、ビデオ判定。",
+    "example": { "en": "Let's watch the replay of the goal.", "ja": "ゴールのリプレイを見よう。" },
+    "etymology": {
+      "origin": "re-「再び」+ play「再生する、試合をする」",
+      "story": "「もう一度再生する・試合する」。"
+    },
+    "roots": [],
+    "family": ["play（再生する）"],
+    "synonyms": [
+      { "word": "rerun", "meaning": "再放送", "nuance": "番組をもう一度流すこと。", "etymology": "re- + run" },
+      { "word": "rematch", "meaning": "再戦", "nuance": "もう一度の試合。", "etymology": "re- + match" }
+    ]
+  },
+  {
+    "id": "announcer", "word": "announcer", "katakana": "アナウンサー", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "放送の告知者、司会者",
+    "scene": "局アナ、スポーツアナウンサー。",
+    "gap": "日本の「アナウンサー」（ニュースを読む人）は英語では newsreader / news anchor / presenter が自然。announcer は試合の実況や場内アナウンスの担当者を指すことが多い。",
+    "trapQuiz": {"question": "ニュース番組でニュースを読む「アナウンサー」に近い英語は？", "answer": "news anchor", "wrong": ["news announcer man", "newscaster announce", "announce reader"]},
+    "example": { "en": "The announcer called the players onto the field.", "ja": "場内アナウンスで選手がフィールドに呼ばれた。" },
+    "etymology": {
+      "origin": "announce「知らせる」+ -er ← ラテン語 annūntiāre「知らせる」← nūntius「使者」",
+      "story": "「使者として知らせる人」。pronounce（発音する）、denounce（非難する）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["announcement（発表）、pronounce（発音する）"],
+    "synonyms": [
+      { "word": "anchor", "meaning": "ニュースキャスター", "nuance": "ニュース番組の中心の人。", "etymology": "船のいかりから" },
+      { "word": "commentator", "meaning": "解説者", "nuance": "実況・解説をする人。", "etymology": "comment + -ator" }
+    ]
+  },
+  {
+    "id": "reporter", "word": "reporter", "katakana": "レポーター", "pos": "名詞", "cefr": "B1", "level": 5,
+    "meaning": "記者、リポーター",
+    "scene": "現地リポーター、芸能リポーター。",
+    "example": { "en": "The reporter asked the mayor a question.", "ja": "記者は市長に質問した。" },
+    "etymology": {
+      "origin": "report「報告する」+ -er ← ラテン語 reportāre「運び戻す」",
+      "story": "「見たことを持ち帰って伝える人」。"
+    },
+    "roots": ["port"],
+    "family": ["report（報告）"],
+    "synonyms": [
+      { "word": "journalist", "meaning": "ジャーナリスト", "nuance": "報道の仕事をする人。", "etymology": "フランス語 journal" },
+      { "word": "correspondent", "meaning": "特派員", "nuance": "現地から伝える記者。", "etymology": "ラテン語 correspondēre" }
+    ]
+  },
+  {
+    "id": "caster", "word": "caster", "katakana": "キャスター", "pos": "名詞", "cefr": "C1", "level": 5,
+    "meaning": "（家具などの）キャスター、投げる人",
+    "scene": "ニュースキャスター（和製）、キャスターつきのいす。",
+    "gap": "「ニュースキャスター」は英語では newscaster も使うが、anchor / news anchor が一般的。caster だけだと「家具の脚の車輪」や「投げる人」になる。",
+    "trapQuiz": {"question": "夜のニュース番組の「メインキャスター」を英語でいうと？", "answer": "the main anchor", "wrong": ["the main caster", "the caster wheel", "the cast man"]},
+    "example": { "en": "This chair has casters, so it's easy to move.", "ja": "このいすはキャスターつきなので動かしやすい。" },
+    "etymology": {
+      "origin": "cast「投げる」+ -er",
+      "story": "「投げる人」。家具の車輪の意味は、方向を「投げるように」変えることからとされる。broadcaster（放送局）の caster も同じ cast から。"
+    },
+    "roots": [],
+    "family": ["broadcaster（放送局）"],
+    "synonyms": [
+      { "word": "anchor", "meaning": "ニュースキャスター", "nuance": "日本語の「キャスター」はこれ。", "etymology": "いかりの意味から" },
+      { "word": "wheel", "meaning": "車輪", "nuance": "家具の小さな車輪。", "etymology": "古英語 hwēol" }
+    ]
+  },
+  {
+    "id": "commentator", "word": "commentator", "katakana": "コメンテーター", "pos": "名詞", "cefr": "C1", "level": 5,
+    "meaning": "解説者、評論家",
+    "scene": "ワイドショーのコメンテーター、スポーツ解説者。",
+    "example": { "en": "The commentator explained the rules.", "ja": "解説者がルールを説明した。" },
+    "etymology": {
+      "origin": "commentate「解説する」+ -or ← comment",
+      "story": "comment と同じラテン語 commentum から。スポーツの実況解説もする。"
+    },
+    "roots": ["ment"],
+    "family": ["comment（コメント）"],
+    "synonyms": [
+      { "word": "analyst", "meaning": "分析家", "nuance": "専門的に分析する人。", "etymology": "ギリシャ語 analysis" },
+      { "word": "critic", "meaning": "批評家", "nuance": "作品を評価する人。", "etymology": "ギリシャ語 kritikos" }
+    ]
+  },
+  {
+    "id": "scoop", "word": "scoop", "katakana": "スクープ", "pos": "名詞・動詞", "cefr": "C1", "level": 5,
+    "meaning": "特ダネ、すくう（道具）",
+    "scene": "週刊誌のスクープ、アイスのディッシャー。",
+    "example": { "en": "The newspaper got a big scoop.", "ja": "その新聞は大スクープをものにした。" },
+    "etymology": {
+      "origin": "中オランダ語 schōpe「ひしゃく」",
+      "story": "「すくい取る」→ ほかより先にニュースをすくい取る＝特ダネ。アイスクリームを「すくう」道具も scoop。"
+    },
+    "roots": [],
+    "family": ["scooper（すくう人・道具）"],
+    "synonyms": [
+      { "word": "exclusive", "meaning": "独占記事", "nuance": "そこだけの記事。", "etymology": "ラテン語 exclūdere" },
+      { "word": "ladle", "meaning": "ひしゃく", "nuance": "液体をすくう道具。", "etymology": "古英語 hlædel" }
+    ]
+  },
+  {
+    "id": "headline", "word": "headline", "katakana": "ヘッドライン", "pos": "名詞", "cefr": "B1", "level": 5,
+    "meaning": "見出し",
+    "scene": "ニュースのヘッドライン、見出し。",
+    "example": { "en": "The story made headlines around the world.", "ja": "その話は世界中の見出しを飾った。" },
+    "etymology": {
+      "origin": "head「頭」+ line「行」",
+      "story": "新聞のいちばん上の行。make headlines は「大きく報じられる」。"
+    },
+    "roots": [],
+    "family": ["head（頭）"],
+    "synonyms": [
+      { "word": "title", "meaning": "題名", "nuance": "タイトル。", "etymology": "ラテン語 titulus" },
+      { "word": "caption", "meaning": "説明文", "nuance": "写真の説明。", "etymology": "ラテン語 captiō" }
+    ]
+  },
+  {
+    "id": "press", "word": "press", "katakana": "プレス", "pos": "名詞・動詞", "cefr": "B1", "level": 5,
+    "meaning": "押す、報道機関、印刷機",
+    "scene": "プレスリリース、記者会見（press conference）。",
+    "example": { "en": "Press the button to start.", "ja": "ボタンを押してスタート。" },
+    "etymology": {
+      "origin": "古フランス語 presser ← ラテン語 pressāre ← premere「押す」",
+      "story": "「押す」→ 印刷機（紙に押しつける）→ 印刷物、報道機関。print、pressure と同じ家族。"
+    },
+    "roots": ["press"],
+    "family": ["pressure（圧力）、impress（感動させる）"],
+    "synonyms": [
+      { "word": "push", "meaning": "押す", "nuance": "力を加えて動かす。", "etymology": "古フランス語 pousser" },
+      { "word": "media", "meaning": "報道機関", "nuance": "マスコミ全般。", "etymology": "ラテン語 medius" }
+    ]
+  },
+  {
+    "id": "column", "word": "column", "katakana": "コラム", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "柱、（新聞の）コラム、縦の列",
+    "scene": "新聞のコラム、表の列。",
+    "example": { "en": "She writes a weekly column for the paper.", "ja": "彼女は新聞で週に1回コラムを書いている。" },
+    "etymology": {
+      "origin": "古フランス語 colombe ← ラテン語 columna「柱」",
+      "story": "「柱」→ 柱のように縦に細長い欄 → その欄の記事。表の「列（縦）」も column、行（横）は row。"
+    },
+    "roots": [],
+    "family": ["columnist（コラムニスト）"],
+    "synonyms": [
+      { "word": "pillar", "meaning": "柱", "nuance": "建物の柱。", "etymology": "ラテン語 pīla" },
+      { "word": "article", "meaning": "記事", "nuance": "新聞・雑誌の文章。", "etymology": "ラテン語 articulus" }
+    ]
+  },
+  {
+    "id": "magazine", "word": "magazine", "katakana": "マガジン", "pos": "名詞", "cefr": "A2", "level": 5,
+    "meaning": "雑誌、弾倉",
+    "scene": "ファッション雑誌、週刊誌。",
+    "example": { "en": "I read a fashion magazine at the salon.", "ja": "美容院でファッション雑誌を読んだ。" },
+    "etymology": {
+      "origin": "フランス語 magasin「倉庫」← アラビア語 makhāzin「倉庫（複数）」",
+      "story": "「倉庫」→ 情報をたくさん「蓄えた」冊子。銃の弾倉の意味もある。フランス語の magasin は「店」。"
+    },
+    "roots": [],
+    "family": ["magazine rack（雑誌立て）"],
+    "synonyms": [
+      { "word": "journal", "meaning": "専門誌", "nuance": "学会誌など。", "etymology": "フランス語 journal" },
+      { "word": "periodical", "meaning": "定期刊行物", "nuance": "定期的に出る雑誌。", "etymology": "period + -ical" }
+    ]
+  },
+  {
+    "id": "celebrity", "word": "celebrity", "katakana": "セレブ", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "有名人、名声",
+    "scene": "「セレブな暮らし」、ハリウッドセレブ。",
+    "gap": "日本語の「セレブ」は「お金持ち・豪華な」の意味で使うことが多いが、英語の celebrity は「有名人」。お金持ちなら rich / wealthy、「セレブな暮らし」は a luxurious life。",
+    "trapQuiz": {"question": "「セレブな（ぜいたくな）暮らし」に近い英語は？", "answer": "a luxurious life", "wrong": ["a celeb life", "a celebrity-ish life", "a celebrated life"]},
+    "example": { "en": "Many celebrities attended the party.", "ja": "多くの有名人がパーティーに出席した。" },
+    "etymology": {
+      "origin": "ラテン語 celebritās「多くの人が集まること、名声」← celeber「人の多い、有名な」",
+      "story": "celebrate（祝う＝大勢で集まる）と同じ家族。略して celeb。"
+    },
+    "roots": [],
+    "family": ["celebrate（祝う）"],
+    "synonyms": [
+      { "word": "star", "meaning": "スター", "nuance": "人気者。", "etymology": "古英語 steorra" },
+      { "word": "wealthy", "meaning": "裕福な", "nuance": "日本語の「セレブ」に近い。", "etymology": "wealth + -y" }
+    ]
+  },
+  {
+    "id": "gossip", "word": "gossip", "katakana": "ゴシップ", "pos": "名詞・動詞", "cefr": "B2", "level": 5,
+    "meaning": "うわさ話（をする）",
+    "scene": "ゴシップ記事、芸能ゴシップ。",
+    "example": { "en": "Don't believe everything you hear in gossip.", "ja": "うわさ話を全部信じちゃだめだよ。" },
+    "etymology": {
+      "origin": "古英語 godsibb「名づけ親」← god「神」+ sibb「親類」",
+      "story": "子どもの洗礼に立ち会う名づけ親 → 親しい友人 → 親しい人同士の世間話 → うわさ話、と意味が移った。"
+    },
+    "roots": [],
+    "family": ["sibling（きょうだい・sibb と同源）"],
+    "synonyms": [
+      { "word": "rumor", "meaning": "うわさ", "nuance": "確かでない話。", "etymology": "ラテン語 rūmor" },
+      { "word": "chatter", "meaning": "おしゃべり", "nuance": "たわいない話。", "etymology": "擬音語" }
+    ]
   }
 ]
