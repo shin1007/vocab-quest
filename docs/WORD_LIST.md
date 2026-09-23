@@ -2,9 +2,9 @@
 
 > このファイルは `data/words.json` と `data/roots.json` から `python3 scripts/build_wordlist.py` で自動生成されています。直接編集しないでください。
 
-収録語数: **800 語**（類義語 1698 語） / 語根ファミリー: **56 種**
+収録語数: **894 語**（類義語 1886 語） / 語根ファミリー: **56 種**
 
-レベル別: Lv.1 149語 / Lv.2 161語 / Lv.3 164語 / Lv.4 63語 / Lv.5 126語 / Lv.6 25語 / Lv.7 43語 / Lv.8 37語 / Lv.9 14語 / Lv.10 18語
+レベル別: Lv.1 149語 / Lv.2 161語 / Lv.3 164語 / Lv.4 157語 / Lv.5 126語 / Lv.6 25語 / Lv.7 43語 / Lv.8 37語 / Lv.9 14語 / Lv.10 18語
 
 > レベルはこのアプリ独自の分け方です（カタカナとしてのなじみやすさと、英語の難しさで決めています）。
 
@@ -15,7 +15,7 @@
 - Lv.1 ひと目でわかる — [dog](#dog), [cat](#cat), [apple](#apple), [milk](#milk), [tea](#tea), [juice](#juice), [cake](#cake), [table](#table), [bed](#bed), [door](#door), [bus](#bus), [train](#train), [park](#park), [pen](#pen), [music](#music), [piano](#piano), [ball](#ball), [color](#color), [sport](#sport), [egg](#egg), [fish](#fish), [bag](#bag), [cup](#cup), [box](#box), [desk](#desk), [room](#room), [house](#house), [car](#car), [game](#game), [book](#book), [song](#song), [happy](#happy), [home](#home), [watch](#watch), [shoes](#shoes), [shirt](#shirt), [cap](#cap), [ice](#ice), [pizza](#pizza), [soup](#soup), [rice](#rice), [jam](#jam), [candy](#candy), [bear](#bear), [panda](#panda), [bath](#bath), [towel](#towel), [clock](#clock), [dance](#dance), [drum](#drum), [sofa](#sofa), [red](#red), [blue](#blue), [green](#green), [pink](#pink), [black](#black), [white](#white), [big](#big), [nice](#nice), [melon](#melon), [peach](#peach), [kiwi](#kiwi), [cherry](#cherry), [grape](#grape), [cola](#cola), [soda](#soda), [bacon](#bacon), [ham](#ham), [steak](#steak), [curry](#curry), [pasta](#pasta), [pepper](#pepper), [honey](#honey), [toast](#toast), [donut](#donut), [pie](#pie), [zebra](#zebra), [koala](#koala), [gorilla](#gorilla), [shark](#shark), [lamp](#lamp), [mirror](#mirror), [curtain](#curtain), [carpet](#carpet), [toilet](#toilet), [tissue](#tissue), [brush](#brush), [tape](#tape), [hat](#hat), [boots](#boots), [socks](#socks), [belt](#belt), [pocket](#pocket), [jeans](#jeans), [golf](#golf), [ski](#ski), [hit](#hit), [bat](#bat), [net](#net), [radio](#radio), [mail](#mail), [cool](#cool), [hot](#hot), [cute](#cute), [sweet](#sweet), [fresh](#fresh), [soft](#soft), [love](#love), [heart](#heart), [sun](#sun), [moon](#moon), [sky](#sky), [snow](#snow), [rain](#rain), [rainbow](#rainbow), [fire](#fire), [water](#water), [gold](#gold), [silver](#silver), [king](#king), [queen](#queen), [prince](#prince), [princess](#princess), [boy](#boy), [girl](#girl), [lady](#lady), [coin](#coin), [gum](#gum), [jelly](#jelly), [pudding](#pudding), [straw](#straw), [pot](#pot), [doll](#doll), [puzzle](#puzzle), [block](#block), [circle](#circle), [line](#line), [stop](#stop), [kick](#kick), [punch](#punch), [dash](#dash), [jogging](#jogging), [rose](#rose), [tulip](#tulip), [potato](#potato), [onion](#onion), [corn](#corn), [mint](#mint), [pool](#pool)
 - Lv.2 くらしの定番 — [mouse](#mouse), [lion](#lion), [tiger](#tiger), [banana](#banana), [orange](#orange), [lemon](#lemon), [tomato](#tomato), [coffee](#coffee), [bread](#bread), [chocolate](#chocolate), [window](#window), [kitchen](#kitchen), [key](#key), [taxi](#taxi), [hotel](#hotel), [bank](#bank), [pencil](#pencil), [note](#note), [school](#school), [test](#test), [family](#family), [friend](#friend), [baby](#baby), [star](#star), [flower](#flower), [tree](#tree), [camera](#camera), [phone](#phone), [team](#team), [tennis](#tennis), [soccer](#soccer), [hobby](#hobby), [menu](#menu), [salad](#salad), [bike](#bike), [party](#party), [card](#card), [birthday](#birthday), [morning](#morning), [guitar](#guitar), [baseball](#baseball), [swimming](#swimming), [map](#map), [plan](#plan), [dream](#dream), [smile](#smile), [shop](#shop), [fruit](#fruit), [lunch](#lunch), [camp](#camp), [beach](#beach), [river](#river), [size](#size), [hamburger](#hamburger), [monkey](#monkey), [calendar](#calendar), [racket](#racket), [volleyball](#volleyball), [basketball](#basketball), [violin](#violin), [summer](#summer), [winter](#winter), [town](#town), [city](#city), [speed](#speed), [power](#power), [point](#point), [rule](#rule), [club](#club), [drink](#drink), [cream](#cream), [sugar](#sugar), [spoon](#spoon), [fork](#fork), [knife](#knife), [glass](#glass), [plate](#plate), [farm](#farm), [tower](#tower), [boat](#boat), [lucky](#lucky), [easy](#easy), [hard](#hard), [slow](#slow), [short](#short), [top](#top), [skirt](#skirt), [dress](#dress), [coat](#coat), [glove](#glove), [ring](#ring), [strawberry](#strawberry), [pineapple](#pineapple), [avocado](#avocado), [broccoli](#broccoli), [cabbage](#cabbage), [lettuce](#lettuce), [pumpkin](#pumpkin), [popcorn](#popcorn), [vanilla](#vanilla), [pancake](#pancake), [omelet](#omelet), [stew](#stew), [sausage](#sausage), [yogurt](#yogurt), [mayonnaise](#mayonnaise), [ketchup](#ketchup), [dressing](#dressing), [cereal](#cereal), [cocoa](#cocoa), [kangaroo](#kangaroo), [cheetah](#cheetah), [hamster](#hamster), [flamingo](#flamingo), [oven](#oven), [heater](#heater), [closet](#closet), [blanket](#blanket), [cushion](#cushion), [veranda](#veranda), [garage](#garage), [fence](#fence), [gate](#gate), [supermarket](#supermarket), [convenience](#convenience), [bakery](#bakery), [cafe](#cafe), [parking](#parking), [subway](#subway), [tunnel](#tunnel), [drugstore](#drugstore), [cable](#cable), [plug](#plug), [outlet](#outlet), [remote](#remote), [speaker](#speaker), [headphones](#headphones), [keyboard](#keyboard), [printer](#printer), [nurse](#nurse), [chef](#chef), [driver](#driver), [singer](#singer), [free](#free), [sunglasses](#sunglasses), [necktie](#necktie), [parka](#parka), [sneakers](#sneakers), [backpack](#backpack), [mug](#mug), [kettle](#kettle), [napkin](#napkin), [candle](#candle), [poster](#poster), [sticker](#sticker), [handkerchief](#handkerchief), [slippers](#slippers), [lotion](#lotion), [cooking](#cooking), [barbecue](#barbecue), [buffet](#buffet)
 - Lv.3 よく使う — [dragon](#dragon), [level](#level), [hero](#hero), [boss](#boss), [stage](#stage), [fan](#fan), [rabbit](#rabbit), [cookie](#cookie), [cheese](#cheese), [sandwich](#sandwich), [butter](#butter), [hospital](#hospital), [restaurant](#restaurant), [station](#station), [season](#season), [television](#television), [computer](#computer), [robot](#robot), [goal](#goal), [sauce](#sauce), [sign](#sign), [fight](#fight), [event](#event), [present](#present), [idea](#idea), [news](#news), [doctor](#doctor), [animal](#animal), [pants](#pants), [museum](#museum), [library](#library), [concert](#concert), [ticket](#ticket), [vegetable](#vegetable), [dinner](#dinner), [picnic](#picnic), [island](#island), [mountain](#mountain), [jacket](#jacket), [nature](#nature), [future](#future), [simple](#simple), [speech](#speech), [member](#member), [chance](#chance), [airport](#airport), [street](#street), [building](#building), [elevator](#elevator), [letter](#letter), [bottle](#bottle), [garden](#garden), [bridge](#bridge), [rocket](#rocket), [sweater](#sweater), [answer](#answer), [action](#action), [album](#album), [bench](#bench), [button](#button), [center](#center), [change](#change), [check](#check), [choice](#choice), [design](#design), [guide](#guide), [guest](#guest), [group](#group), [jump](#jump), [keep](#keep), [magic](#magic), [mark](#mark), [memory](#memory), [model](#model), [open](#open), [order](#order), [page](#page), [pair](#pair), [pass](#pass), [photo](#photo), [print](#print), [report](#report), [score](#score), [set](#set), [shower](#shower), [skill](#skill), [space](#space), [start](#start), [style](#style), [title](#title), [tour](#tour), [type](#type), [lesson](#lesson), [hiking](#hiking), [stadium](#stadium), [arena](#arena), [gym](#gym), [hall](#hall), [lobby](#lobby), [front](#front), [tent](#tent), [cottage](#cottage), [resort](#resort), [cruise](#cruise), [passport](#passport), [suitcase](#suitcase), [notebook](#notebook), [homeroom](#homeroom), [band](#band), [chorus](#chorus), [orchestra](#orchestra), [melody](#melody), [harmony](#harmony), [cartoon](#cartoon), [character](#character), [story](#story), [novel](#novel), [diary](#diary), [sketch](#sketch), [paint](#paint), [craft](#craft), [yoga](#yoga), [fitness](#fitness), [training](#training), [trophy](#trophy), [medal](#medal), [champion](#champion), [record](#record), [pitcher](#pitcher), [goalkeeper](#goalkeeper), [referee](#referee), [penalty](#penalty), [foul](#foul), [tackle](#tackle), [shoot](#shoot), [serve](#serve), [smash](#smash), [rally](#rally), [relay](#relay), [course](#course), [lane](#lane), [costume](#costume), [makeup](#makeup), [nail](#nail), [accessory](#accessory), [necklace](#necklace), [bracelet](#bracelet), [pouch](#pouch), [drive](#drive), [trip](#trip), [gift](#gift), [surprise](#surprise), [balloon](#balloon), [snack](#snack), [dessert](#dessert), [sweets](#sweets), [takeout](#takeout), [coupon](#coupon), [rental](#rental), [store](#store), [mall](#mall), [rush](#rush), [timing](#timing), [pace](#pace)
-- Lv.4 話が広がる — [monster](#monster), [knight](#knight), [rare](#rare), [attack](#attack), [guard](#guard), [damage](#damage), [challenge](#challenge), [system](#system), [penguin](#penguin), [dolphin](#dolphin), [recipe](#recipe), [fashion](#fashion), [shampoo](#shampoo), [pajamas](#pajamas), [holiday](#holiday), [culture](#culture), [history](#history), [volunteer](#volunteer), [festival](#festival), [message](#message), [communication](#communication), [popular](#popular), [special](#special), [perfect](#perfect), [contest](#contest), [captain](#captain), [uniform](#uniform), [coach](#coach), [trouble](#trouble), [image](#image), [advice](#advice), [schedule](#schedule), [sale](#sale), [online](#online), [drama](#drama), [hint](#hint), [interview](#interview), [marathon](#marathon), [pose](#pose), [program](#program), [sample](#sample), [support](#support), [zone](#zone), [host](#host), [comic](#comic), [cycling](#cycling), [chat](#chat), [clear](#clear), [cost](#cost), [cover](#cover), [follow](#follow), [item](#item), [miss](#miss), [percent](#percent), [plus](#plus), [quiz](#quiz), [repeat](#repeat), [share](#share), [sound](#sound), [stamp](#stamp), [step](#step), [topic](#topic), [video](#video)
+- Lv.4 話が広がる — [monster](#monster), [knight](#knight), [rare](#rare), [attack](#attack), [guard](#guard), [damage](#damage), [challenge](#challenge), [system](#system), [penguin](#penguin), [dolphin](#dolphin), [recipe](#recipe), [fashion](#fashion), [shampoo](#shampoo), [pajamas](#pajamas), [holiday](#holiday), [culture](#culture), [history](#history), [volunteer](#volunteer), [festival](#festival), [message](#message), [communication](#communication), [popular](#popular), [special](#special), [perfect](#perfect), [contest](#contest), [captain](#captain), [uniform](#uniform), [coach](#coach), [trouble](#trouble), [image](#image), [advice](#advice), [schedule](#schedule), [sale](#sale), [online](#online), [drama](#drama), [hint](#hint), [interview](#interview), [marathon](#marathon), [pose](#pose), [program](#program), [sample](#sample), [support](#support), [zone](#zone), [host](#host), [comic](#comic), [cycling](#cycling), [chat](#chat), [clear](#clear), [cost](#cost), [cover](#cover), [follow](#follow), [item](#item), [miss](#miss), [percent](#percent), [plus](#plus), [quiz](#quiz), [repeat](#repeat), [share](#share), [sound](#sound), [stamp](#stamp), [step](#step), [topic](#topic), [video](#video), [emotional](#emotional), [romantic](#romantic), [relax](#relax), [healthy](#healthy), [calorie](#calorie), [vitamin](#vitamin), [protein](#protein), [supplement](#supplement), [allergy](#allergy), [virus](#virus), [vaccine](#vaccine), [care](#care), [clinic](#clinic), [massage](#massage), [sauna](#sauna), [smartphone](#smartphone), [app](#app), [internet](#internet), [website](#website), [blog](#blog), [login](#login), [update](#update), [wireless](#wireless), [selfie](#selfie), [streaming](#streaming), [podcast](#podcast), [keyword](#keyword), [icon](#icon), [tap](#tap), [click](#click), [scroll](#scroll), [copy](#copy), [cloud](#cloud), [server](#server), [drone](#drone), [plastic](#plastic), [solar](#solar), [gas](#gas), [oil](#oil), [engine](#engine), [motor](#motor), [brake](#brake), [tire](#tire), [gasoline](#gasoline), [manner](#manner), [etiquette](#etiquette), [pet](#pet), [boom](#boom), [ranking](#ranking), [best](#best), [number](#number), [count](#count), [rank](#rank), [grade](#grade), [class](#class), [coordinate](#coordinate), [denim](#denim), [leather](#leather), [cotton](#cotton), [silk](#silk), [wool](#wool), [rubber](#rubber), [metal](#metal), [concrete](#concrete), [paper](#paper), [vinyl](#vinyl), [aluminum](#aluminum), [steel](#steel), [diamond](#diamond), [crystal](#crystal), [pearl](#pearl), [jewel](#jewel), [purple](#purple), [brown](#brown), [gray](#gray), [beige](#beige), [navy](#navy), [yellow](#yellow), [square](#square), [triangle](#triangle), [cross](#cross), [curve](#curve), [angle](#angle), [corner](#corner), [side](#side), [back](#back), [weight](#weight), [meter](#meter), [dozen](#dozen), [pack](#pack), [master](#master), [tempo](#tempo), [palette](#palette), [canvas](#canvas)
 - Lv.5 よく見聞きする — [spell](#spell), [legend](#legend), [treasure](#treasure), [equipment](#equipment), [critical](#critical), [counter](#counter), [barrier](#barrier), [rival](#rival), [escape](#escape), [mission](#mission), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [smart](#smart), [claim](#claim), [ace](#ace), [spirit](#spirit), [miracle](#miracle), [brave](#brave), [battery](#battery), [energy](#energy), [service](#service), [handle](#handle), [talent](#talent), [diet](#diet), [jungle](#jungle), [stove](#stove), [recycle](#recycle), [balance](#balance), [career](#career), [delivery](#delivery), [password](#password), [data](#data), [technology](#technology), [trainer](#trainer), [cooler](#cooler), [viking](#viking), [bargain](#bargain), [cider](#cider), [comment](#comment), [stress](#stress), [risk](#risk), [professional](#professional), [campaign](#campaign), [brand](#brand), [quality](#quality), [security](#security), [routine](#routine), [license](#license), [gap](#gap), [trend](#trend), [access](#access), [account](#account), [arrange](#arrange), [cancel](#cancel), [catalog](#catalog), [channel](#channel), [charge](#charge), [classic](#classic), [collection](#collection), [download](#download), [entry](#entry), [error](#error), [fake](#fake), [file](#file), [filter](#filter), [frame](#frame), [goods](#goods), [graph](#graph), [impact](#impact), [label](#label), [limit](#limit), [link](#link), [mask](#mask), [media](#media), [mode](#mode), [monitor](#monitor), [option](#option), [original](#original), [pattern](#pattern), [post](#post), [project](#project), [reset](#reset), [rhythm](#rhythm), [seal](#seal), [shock](#shock), [studio](#studio), [total](#total), [pierce](#pierce), [approach](#approach), [benefit](#benefit), [community](#community), [content](#content), [debate](#debate), [device](#device), [digital](#digital), [document](#document), [economy](#economy), [feature](#feature), [global](#global), [humor](#humor), [issue](#issue), [material](#material), [method](#method), [network](#network), [official](#official), [partner](#partner), [performance](#performance), [policy](#policy), [positive](#positive), [negative](#negative), [pressure](#pressure), [public](#public), [rescue](#rescue), [research](#research), [respect](#respect), [series](#series), [source](#source), [symbol](#symbol), [theme](#theme), [theory](#theory), [unique](#unique), [value](#value), [variety](#variety)
 - Lv.6 社会の話題 — [manual](#manual), [amateur](#amateur), [privacy](#privacy), [mental](#mental), [concept](#concept), [context](#context), [crisis](#crisis), [factor](#factor), [flexible](#flexible), [function](#function), [identity](#identity), [logic](#logic), [luxury](#luxury), [marketing](#marketing), [minority](#minority), [operation](#operation), [organic](#organic), [profile](#profile), [scandal](#scandal), [sponsor](#sponsor), [status](#status), [survival](#survival), [trial](#trial), [virtual](#virtual), [vision](#vision)
 - Lv.7 大人の日常語 — [potion](#potion), [quest](#quest), [dungeon](#dungeon), [inventory](#inventory), [avatar](#avatar), [combo](#combo), [revive](#revive), [ultimate](#ultimate), [villain](#villain), [launch](#launch), [android](#android), [gravity](#gravity), [evolution](#evolution), [dimension](#dimension), [portal](#portal), [beam](#beam), [tension](#tension), [rookie](#rookie), [destiny](#destiny), [trigger](#trigger), [sacrifice](#sacrifice), [mentor](#mentor), [mansion](#mansion), [idol](#idol), [motivation](#motivation), [potential](#potential), [priority](#priority), [resource](#resource), [capacity](#capacity), [innovation](#innovation), [evidence](#evidence), [agenda](#agenda), [strategy](#strategy), [veteran](#veteran), [commitment](#commitment), [consultant](#consultant), [diversity](#diversity), [dynamic](#dynamic), [mechanism](#mechanism), [phase](#phase), [scenario](#scenario), [solution](#solution), [feedback](#feedback)
@@ -8728,6 +8728,1521 @@
 | **clip** | 短い動画 | 切り取った映像。 | 古ノルド語 klippa「切る」 |
 | **footage** | 映像 | 撮影された映像素材。 | フィルムの長さ（フィート）から |
 
+<a id="emotional"></a>
+### emotional（エモーショナル）
+
+**形容詞** / Lv.4 話が広がる / CEFR B1 — 感情的な、感動的な
+
+- 📍 シーン: 「エモい」の語源、エモーショナルな曲。
+- 💬 例文: *It was an emotional goodbye.* — 感動的な別れだった。
+- 📜 語源: emotion「感情」+ -al ← ラテン語 ēmovēre「外へ動かす」
+  - 「心を外へ動かすもの」＝感情。motion、motor と同じ movēre の家族。日本語の「エモい」はここから生まれた若者言葉。
+- 💎 語根: `mov / mot / mob`（動かす）
+- 🌳 同じ語源の仲間: emotion（感情）、motion（動き）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **moving** | 感動的な | 心を動かす。 | move + -ing |
+| **sentimental** | 感傷的な | 涙もろい。 | ラテン語 sentīre |
+
+<a id="romantic"></a>
+### romantic（ロマンチック）
+
+**形容詞** / Lv.4 話が広がる / CEFR B1 — ロマンチックな、恋愛の
+
+- 📍 シーン: ロマンチックな夜景、ロマンチスト。
+- 💬 例文: *They had a romantic dinner by the sea.* — 二人は海辺でロマンチックな夕食をとった。
+- 📜 語源: romance「騎士物語」← 古フランス語 romanz「（ラテン語でなく）ローマの民衆語で書かれた物語」
+  - 中世の騎士と姫の恋の物語が「民衆のことば（ロマンス語）」で書かれたことから。「ロマンチスト」は和製英語で、英語では romantic (person)。
+- 🌳 同じ語源の仲間: romance（恋愛）、Roman（ローマの）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **loving** | 愛情のこもった | 優しい。 | love + -ing |
+| **dreamy** | 夢見るような | うっとりした。 | dream + -y |
+
+<a id="relax"></a>
+### relax（リラックス）
+
+**動詞** / Lv.4 話が広がる / CEFR A2 — くつろぐ、ゆるめる
+
+- 📍 シーン: リラックスタイム、リラクゼーション。
+- 💬 例文: *Just relax and enjoy the music.* — リラックスして音楽を楽しんで。
+- 📜 語源: ラテン語 relaxāre「再びゆるめる」← laxus「ゆるい」
+  - lax（ゆるい）、release（解放する）も同じ家族。
+- 🌳 同じ語源の仲間: release（解放する）、relaxation（くつろぎ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **rest** | 休む | 体を休める。 | 古英語 ræst |
+| **chill** | くつろぐ | くだけた言い方（chill out）。 | 古英語 ciele「冷え」 |
+
+<a id="healthy"></a>
+### healthy（ヘルシー） ⚠️
+
+**形容詞** / Lv.4 話が広がる / CEFR A1 — 健康な、健康によい
+
+- 📍 シーン: ヘルシーメニュー、ヘルシー志向。
+- ⚠️ カタカナの罠: 日本語の「ヘルシー」は「低カロリー」の意味で使われがちだが、英語の healthy は「健康な・健康によい」。低カロリーなら low-calorie / light。
+- 💬 例文: *Try to eat a healthy breakfast.* — 健康的な朝食をとるようにしよう。
+- 📜 語源: health「健康」+ -y ← 古英語 hǣlþ ← hāl「完全な」
+  - hāl は whole（全体の）、heal（治す）、holy（聖なる）と同じ語根。「欠けたところがない」が健康。
+- 🌳 同じ語源の仲間: health（健康）、heal（治す）、whole（全体の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **fit** | 体調がよい | 鍛えられた。 | 中英語 fyt |
+| **nutritious** | 栄養のある | 体によい食べ物。 | ラテン語 nūtrīre |
+
+<a id="calorie"></a>
+### calorie（カロリー）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — カロリー
+
+- 📍 シーン: カロリーゼロ、カロリー計算。
+- 💬 例文: *This drink has zero calories.* — この飲み物はカロリーゼロだ。
+- 📜 語源: フランス語 calorie ← ラテン語 calor「熱」
+  - 熱量の単位。calor は calm（穏やか＝昼の暑さに休む）と関係するとも。
+- 🌳 同じ語源の仲間: calorific（熱の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **energy** | エネルギー | 体を動かす力。 | ギリシャ語 energeia |
+| **fat** | 脂肪 | あぶら。 | 古英語 fǣtt |
+
+<a id="vitamin"></a>
+### vitamin（ビタミン）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — ビタミン
+
+- 📍 シーン: ビタミンC、ビタミン剤。
+- 💬 例文: *Oranges are rich in vitamin C.* — オレンジはビタミンCが豊富だ。
+- 📜 語源: ラテン語 vīta「生命」+ amine「アミン（化合物）」（1912年）
+  - 「生命に必要なアミン」として名づけられた。のちにアミンでないものも多いとわかり、つづりの最後の e が落とされた。
+- 💎 語根: `viv / vit`（生きる）
+- 🌳 同じ語源の仲間: vital（生命の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **nutrient** | 栄養素 | 体に必要な成分。 | ラテン語 nūtrīre |
+| **mineral** | ミネラル | 鉄やカルシウムなど。 | 中世ラテン語 minera「鉱石」 |
+
+<a id="protein"></a>
+### protein（プロテイン）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — たんぱく質、プロテイン
+
+- 📍 シーン: プロテインドリンク、高たんぱく。
+- 💬 例文: *Eggs are a good source of protein.* — 卵はよいたんぱく源だ。
+- 📜 語源: ギリシャ語 prōteios「第一の」← prōtos「第一」
+  - 「生命にとって第一に大切な物質」として19世紀に名づけられた。日本語の「プロテイン」は粉末のサプリを指すことが多いが、英語では栄養素そのもの。
+- 🌳 同じ語源の仲間: prototype（試作品）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **nutrient** | 栄養素 | 栄養の成分。 | ラテン語 nūtrīre |
+| **supplement** | サプリ | 補助食品。 | ラテン語 supplēre |
+
+<a id="supplement"></a>
+### supplement（サプリメント）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — 補足、サプリメント
+
+- 📍 シーン: 「サプリ」、付録（supplement）。
+- 💬 例文: *I take a vitamin supplement every day.* — 毎日ビタミンのサプリを飲んでいる。
+- 📜 語源: ラテン語 supplēmentum「補うもの」← supplēre「満たす」
+  - 「足りないものを満たす」。supply（供給）と同じ語。新聞の別冊付録も supplement。
+- 🌳 同じ語源の仲間: supply（供給）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **addition** | 追加 | 付け加えること。 | ラテン語 addere |
+| **vitamin** | ビタミン | 栄養素の一つ。 | ラテン語 vīta |
+
+<a id="allergy"></a>
+### allergy（アレルギー）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — アレルギー
+
+- 📍 シーン: 花粉アレルギー、食物アレルギー。
+- 💬 例文: *I have an allergy to peanuts.* — 私はピーナッツアレルギーだ。
+- 📜 語源: ドイツ語 Allergie ← ギリシャ語 allos「ほかの」+ ergon「働き」（1906年）
+  - 「体がふつうとは違う働きをする」。発音は「アラジー」。日本語の「アレルギー」はドイツ語の読み。
+- 🌳 同じ語源の仲間: allergic（アレルギーの）、energy（エネルギー）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **hay fever** | 花粉症 | 「干し草の熱」。 | hay + fever |
+| **sensitivity** | 過敏さ | 敏感に反応すること。 | ラテン語 sentīre |
+
+<a id="virus"></a>
+### virus（ウイルス）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — ウイルス
+
+- 📍 シーン: コンピューターウイルス、インフルエンザウイルス。
+- 💬 例文: *The virus spread quickly.* — ウイルスは急速に広まった。
+- 📜 語源: ラテン語 vīrus「毒、ねばねばした液」
+  - もとは「毒」。英語の発音は「ヴァイラス」で、日本語の「ウイルス」はドイツ語の読みに近い。
+- 🌳 同じ語源の仲間: viral（ウイルスの、爆発的に広まる）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **germ** | 病原菌 | 細菌やウイルス。 | ラテン語 germen「芽」 |
+| **bacteria** | 細菌 | 単細胞の微生物。 | ギリシャ語 baktērion「小さな杖」 |
+
+<a id="vaccine"></a>
+### vaccine（ワクチン）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — ワクチン
+
+- 📍 シーン: 予防接種、ワクチン接種。
+- 💬 例文: *The vaccine protects you from the flu.* — そのワクチンはインフルエンザから身を守ってくれる。
+- 📜 語源: ラテン語 vaccīnus「牛の」← vacca「雌牛」
+  - 18世紀にジェンナーが「牛痘」を使って天然痘を予防したことから。日本語の「ワクチン」はドイツ語 Vakzin の読み。
+- 🌳 同じ語源の仲間: vaccination（予防接種）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **shot** | 注射 | くだけた言い方。 | 古英語 sceot |
+| **immunization** | 予防接種 | 免疫をつけること。 | ラテン語 immūnis |
+
+<a id="care"></a>
+### care（ケア）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR A2 — 世話、気づかい、気にする
+
+- 📍 シーン: スキンケア、アフターケア。
+- 💬 例文: *Take care of yourself.* — お体を大切に。
+- 📜 語源: 古英語 caru「心配、悲しみ」
+  - もとは「心配」。そこから「気にかける」「世話をする」に。I don't care. は「気にしない」。
+- 🌳 同じ語源の仲間: careful（注意深い）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **concern** | 心配 | 気がかり。 | ラテン語 concernere |
+| **treatment** | 手当て | 治療。 | 古フランス語 traitier |
+
+<a id="clinic"></a>
+### clinic（クリニック）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 診療所、クリニック
+
+- 📍 シーン: 皮膚科クリニック、歯科医院。
+- 💬 例文: *I went to a clinic near my house.* — 家の近くの診療所に行った。
+- 📜 語源: ギリシャ語 klinikē「寝台での（医療）」← klinē「寝台」
+  - 「病床のそばで行う医療」。incline（傾ける）も同じ語根で、寝台＝体を横に傾けるもの。
+- 🌳 同じ語源の仲間: clinical（臨床の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **hospital** | 病院 | 入院設備のある大きな病院。 | ラテン語 hospitālis |
+| **doctor's office** | 診療所 | 医院。 | doctor + office |
+
+<a id="massage"></a>
+### massage（マッサージ）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR B1 — マッサージ（する）
+
+- 📍 シーン: 肩のマッサージ、マッサージチェア。
+- 💬 例文: *A massage helps me relax.* — マッサージを受けるとリラックスできる。
+- 📜 語源: フランス語 massage ← masser「もむ」（アラビア語 massa「触る」とする説など）
+  - 19世紀にフランスから広まった語。語源はアラビア語やポルトガル語など諸説ある。
+- 🌳 同じ語源の仲間: masseur（マッサージ師）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **rub** | こする | 手でこする。 | 中英語 rubben |
+| **therapy** | 療法 | 治療法。 | ギリシャ語 therapeia |
+
+<a id="sauna"></a>
+### sauna（サウナ）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — サウナ
+
+- 📍 シーン: サウナで「ととのう」、サウナ室。
+- 💬 例文: *We relaxed in the sauna after skiing.* — スキーのあとサウナでくつろいだ。
+- 📜 語源: フィンランド語 sauna
+  - フィンランドの伝統的な蒸し風呂。英語に入ったフィンランド語はとても珍しい。
+- 🌳 同じ語源の仲間: sauna bath（サウナ風呂）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **steam bath** | 蒸し風呂 | 湯気の風呂。 | steam + bath |
+| **spa** | スパ | 温泉施設。 | ベルギーの町 Spa |
+
+<a id="smartphone"></a>
+### smartphone（スマホ）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — スマートフォン
+
+- 📍 シーン: 「スマホ見すぎ」、スマホ決済。
+- 💬 例文: *I use my smartphone to pay for things.* — スマホで支払いをしている。
+- 📜 語源: smart「賢い」+ phone「電話」
+  - 「賢い電話」。日常では phone だけで通じることが多い。
+- 💎 語根: `phon`（音・声）
+- 🌳 同じ語源の仲間: phone（電話）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cellphone** | （米）携帯電話 | 携帯全般。 | cellular + phone |
+| **mobile** | （英）携帯電話 | イギリスでの言い方。 | ラテン語 mōbilis |
+
+<a id="app"></a>
+### app（アプリ）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — アプリ
+
+- 📍 シーン: スマホのアプリ、アプリをダウンロード。
+- 💬 例文: *There's an app for that.* — そのためのアプリがあるよ。
+- 📜 語源: application（応用、アプリケーション）の略
+  - application はラテン語 applicāre「当てはめる」から。「課題にソフトを当てはめる」もの。日本語は「アプリ」、英語は「アップ」と略す。
+- 🌳 同じ語源の仲間: application（申し込み、アプリ）、apply（当てはめる）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **software** | ソフトウェア | プログラム類。 | soft + ware |
+| **program** | プログラム | コンピュータの命令。 | ギリシャ語 programma |
+
+<a id="internet"></a>
+### internet（インターネット）
+
+**名詞** / Lv.4 話が広がる / CEFR A1 — インターネット
+
+- 📍 シーン: ネットで調べる、インターネット回線。
+- 💬 例文: *I read the news on the internet.* — インターネットでニュースを読む。
+- 📜 語源: inter-「間の」+ network「網」
+  - 複数のネットワークの「間」をつなぐ網。1970年代の米国の研究から生まれた語。
+- 🌳 同じ語源の仲間: interaction（交流）、network（ネットワーク）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **web** | ウェブ | the Web でインターネット上の情報網。 | 古英語 webb |
+| **online** | オンライン | ネットにつながった。 | on + line |
+
+<a id="website"></a>
+### website（ウェブサイト）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — ウェブサイト
+
+- 📍 シーン: 公式サイト、ホームページ。
+- 💬 例文: *Visit our website for more information.* — くわしくは私たちのウェブサイトをご覧ください。
+- 📜 語源: web「クモの巣」+ site「場所」
+  - 世界中をクモの巣のように結ぶネットワーク上の「場所」。日本語の「ホームページ」はこれ。
+- 🌳 同じ語源の仲間: site（場所）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **homepage** | トップページ | サイトの最初のページ。 | home + page |
+| **page** | ページ | サイトの1画面。 | ラテン語 pāgina |
+
+<a id="blog"></a>
+### blog（ブログ）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — ブログ
+
+- 📍 シーン: ブログ更新、ブロガー。
+- 💬 例文: *She writes a blog about cooking.* — 彼女は料理のブログを書いている。
+- 📜 語源: weblog の略 ← web + log「記録」
+  - 1999年ごろに we blog（私たちはブログする）と冗談で区切られて広まった。log は航海日誌（丸太で速さを測った記録）から。
+- 🌳 同じ語源の仲間: blogger（ブロガー）、log（記録）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **diary** | 日記 | 毎日の記録。 | ラテン語 diārium |
+| **post** | 投稿 | ネットへの書きこみ。 | イタリア語 posta |
+
+<a id="login"></a>
+### login（ログイン）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR B1 — ログイン
+
+- 📍 シーン: ログイン画面、ログインボーナス。
+- 💬 例文: *Enter your password to log in.* — ログインするにはパスワードを入力してください。
+- 📜 語源: log「記録する」+ in
+  - 船の航海日誌（log）に名前を書きこむように、システムに記録を残して入ること。動詞は log in と2語。
+- 🌳 同じ語源の仲間: logout（ログアウト）、log（記録）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **sign in** | サインイン | log in とほぼ同じ。 | sign + in |
+| **access** | アクセスする | 利用する。 | ラテン語 accessus |
+
+<a id="update"></a>
+### update（アップデート）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR B1 — 更新（する）
+
+- 📍 シーン: アプリのアップデート、最新情報。
+- 💬 例文: *Please update the app to the latest version.* — アプリを最新版に更新してください。
+- 📜 語源: up「最新に」+ date「日付」
+  - 「日付を最新にする」。1940年代アメリカの語。
+- 🌳 同じ語源の仲間: date（日付）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **upgrade** | アップグレード | 性能を上げる。 | up + grade |
+| **renew** | 更新する | 期限を延ばす。 | re- + new |
+
+<a id="wireless"></a>
+### wireless（ワイヤレス）
+
+**形容詞** / Lv.4 話が広がる / CEFR B2 — 無線の、ワイヤレスの
+
+- 📍 シーン: ワイヤレスイヤホン、ワイヤレス充電。
+- 💬 例文: *I bought wireless earbuds.* — ワイヤレスイヤホンを買った。
+- 📜 語源: wire「電線」+ -less「〜のない」
+  - 20世紀初めには「無線電信・ラジオ」そのものを the wireless と呼んだ。
+- 🌳 同じ語源の仲間: wire（電線）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cordless** | コードレスの | 線のない。 | cord + -less |
+| **Wi-Fi** | 無線LAN | 商標名から。 | Hi-Fi をもじった語 |
+
+<a id="selfie"></a>
+### selfie（セルフィー）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 自撮り（写真）
+
+- 📍 シーン: 自撮り棒（selfie stick）。
+- 💬 例文: *Let's take a selfie together!* — 一緒に自撮りしよう！
+- 📜 語源: self「自分」+ -ie（愛称の語尾）
+  - 2002年ごろオーストラリアのネット掲示板で使われ、2013年にオックスフォード辞典の「今年の言葉」に選ばれた。
+- 🌳 同じ語源の仲間: self（自分）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **photo** | 写真 | 写真全般。 | ギリシャ語 phōs |
+| **self-portrait** | 自画像 | 自分を描いた絵。 | self + portrait |
+
+<a id="streaming"></a>
+### streaming（ストリーミング）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — ストリーミング（配信）
+
+- 📍 シーン: 動画配信、音楽ストリーミング。
+- 💬 例文: *I watch movies on a streaming service.* — 動画配信サービスで映画を見る。
+- 📜 語源: stream「流れる」+ -ing ← 古英語 strēam「川の流れ」
+  - データを「川の流れ」のように少しずつ受け取りながら再生すること。
+- 🌳 同じ語源の仲間: stream（小川、流れる）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **broadcast** | 放送 | 番組を流すこと。 | broad + cast |
+| **download** | ダウンロード | 保存してから再生。 | down + load |
+
+<a id="podcast"></a>
+### podcast（ポッドキャスト）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — ポッドキャスト
+
+- 📍 シーン: 英語のポッドキャスト、ラジオ番組。
+- 💬 例文: *I listen to podcasts on the train.* — 電車でポッドキャストを聞く。
+- 📜 語源: iPod + broadcast の混成語（2004年）
+  - アップル社の音楽プレーヤー iPod と「放送」を組み合わせた語。今はスマホで聞くのが一般的。
+- 🌳 同じ語源の仲間: broadcast（放送）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **radio show** | ラジオ番組 | 放送の番組。 | radio + show |
+| **audio** | 音声 | 音の情報。 | ラテン語 audiō「私は聞く」 |
+
+<a id="keyword"></a>
+### keyword（キーワード）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — キーワード、手がかりの語
+
+- 📍 シーン: 検索キーワード、今年のキーワード。
+- 💬 例文: *Type a keyword into the search box.* — 検索窓にキーワードを入力して。
+- 📜 語源: key「鍵」+ word「語」
+  - 暗号を解く「鍵となる語」から。
+- 🌳 同じ語源の仲間: key（鍵）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **term** | 用語 | 専門的な言葉。 | ラテン語 terminus |
+| **tag** | タグ | 分類のための語。 | 中英語 tagge |
+
+<a id="icon"></a>
+### icon（アイコン）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — アイコン、象徴的な人
+
+- 📍 シーン: アプリのアイコン、ファッションアイコン。
+- 💬 例文: *Tap the icon to open the app.* — アイコンをタップしてアプリを開いて。
+- 📜 語源: ギリシャ語 eikōn「像、似姿」
+  - もとは東方教会の「聖像画（イコン）」。そこから画面上の小さな絵、時代を象徴する人に。
+- 🌳 同じ語源の仲間: iconic（象徴的な）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **symbol** | 記号、象徴 | 何かを表すしるし。 | ギリシャ語 symbolon |
+| **idol** | アイドル | あこがれの的。 | ギリシャ語 eidōlon |
+
+<a id="tap"></a>
+### tap（タップ）
+
+**動詞・名詞** / Lv.4 話が広がる / CEFR B1 — 軽くたたく、（米）蛇口
+
+- 📍 シーン: 画面をタップ、タップダンス。
+- 💬 例文: *Tap the screen twice.* — 画面を2回タップして。
+- 📜 語源: 「軽くたたく」は古フランス語 taper（擬音語）、「蛇口」は古英語 tæppa「栓」
+  - 同じつづりで語源が違う2語。水道水は tap water。
+- 🌳 同じ語源の仲間: tap dance（タップダンス）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **touch** | 触れる | そっと触る。 | 古フランス語 tochier |
+| **faucet** | （米）蛇口 | アメリカでの言い方。 | 古フランス語 fausset |
+
+<a id="click"></a>
+### click（クリック）
+
+**動詞・名詞** / Lv.4 話が広がる / CEFR B1 — クリック（する）、カチッと鳴る
+
+- 📍 シーン: マウスをクリック、ワンクリック。
+- 💬 例文: *Click here to download.* — ダウンロードはここをクリック。
+- 📜 語源: 擬音語（17世紀）
+  - 「カチッ」という音から。気が合うことも We clicked.（ピンときた）。
+- 🌳 同じ語源の仲間: clicker（カウンター）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **press** | 押す | ボタンを押す。 | ラテン語 pressāre |
+| **select** | 選ぶ | 選択する。 | ラテン語 sēligere |
+
+<a id="scroll"></a>
+### scroll（スクロール）
+
+**動詞・名詞** / Lv.4 話が広がる / CEFR B2 — 画面を動かす、巻物
+
+- 📍 シーン: 画面をスクロール、無限スクロール。
+- 💬 例文: *Scroll down to see more.* — 下にスクロールするともっと見られます。
+- 📜 語源: 古フランス語 escroe「羊皮紙の切れ」
+  - もとは「巻物」。巻物を巻きながら読むように、画面を動かして読むこと。
+- 🌳 同じ語源の仲間: escrow（第三者預託・同じ語源）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **swipe** | スワイプする | 指でさっとなでる。 | sweep の変形 |
+| **browse** | 閲覧する | ざっと見る。 | 古フランス語 brost「若芽（を食べる）」 |
+
+<a id="copy"></a>
+### copy（コピー）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR A2 — 写し、（本の）部、まねる
+
+- 📍 シーン: コピー機、コピペ、キャッチコピー。
+- 💬 例文: *Can you make ten copies of this?* — これを10部コピーしてもらえる？
+- 📜 語源: 中世ラテン語 cōpia「写し」← ラテン語 cōpia「豊富さ」
+  - 「たくさんある」→ 数を増やす写し。本1冊も a copy。「キャッチコピー」は英語では catchphrase / slogan、広告文は ad copy。
+- 🌳 同じ語源の仲間: copyright（著作権）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **duplicate** | 複製 | まったく同じもの。 | ラテン語 duplicāre「二重にする」 |
+| **imitate** | まねる | 手本をまねる。 | ラテン語 imitārī |
+
+<a id="cloud"></a>
+### cloud（クラウド）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — 雲、クラウド（ネット上の保存先）
+
+- 📍 シーン: クラウドに保存、クラウドファンディング（crowd）。
+- 💬 例文: *I back up my photos to the cloud.* — 写真をクラウドにバックアップしている。
+- 📜 語源: 古英語 clūd「岩のかたまり、丘」
+  - もとは「岩のかたまり」で、もくもくした形から「雲」に。ネット上のサーバー群を雲にたとえて the cloud。「クラウドファンディング」の crowd（群衆）は別の語。
+- 🌳 同じ語源の仲間: cloudy（くもりの）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **storage** | 保存場所 | データの保管先。 | store + -age |
+| **mist** | もや | 薄い霧。 | 古英語 mist |
+
+<a id="server"></a>
+### server（サーバー）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — サーバー、給仕係、サーブする人
+
+- 📍 シーン: ウォーターサーバー、ゲームのサーバー。
+- 💬 例文: *The server is down right now.* — 今サーバーが落ちている。
+- 📜 語源: serve「仕える、出す」+ -er
+  - 「仕える人・出す人」→ レストランの給仕、テニスのサーブをする人、データを提供するコンピュータ。
+- 🌳 同じ語源の仲間: serve（仕える）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **host** | ホスト | サービスを提供する側。 | ラテン語 hospes |
+| **waiter** | 給仕係 | レストランの店員。 | wait + -er |
+
+<a id="drone"></a>
+### drone（ドローン）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — ドローン、雄バチ
+
+- 📍 シーン: ドローン撮影、ドローン配送。
+- 💬 例文: *They filmed the festival with a drone.* — お祭りをドローンで撮影した。
+- 📜 語源: 古英語 drān「雄バチ」
+  - 雄バチはブーンと低い音を出し、働かない。そこから「低いうなり音」「怠け者」、さらに無人機の意味に。
+- 🌳 同じ語源の仲間: drone（うなる）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **aircraft** | 航空機 | 飛行する乗り物。 | air + craft |
+| **buzz** | ブーンという音 | 羽音。 | 擬音語 |
+
+<a id="plastic"></a>
+### plastic（プラスチック）
+
+**名詞・形容詞** / Lv.4 話が広がる / CEFR A2 — プラスチック、ビニールの
+
+- 📍 シーン: プラスチックごみ、レジ袋（plastic bag）。
+- 💬 例文: *Please don't use plastic bags.* — レジ袋を使わないでください。
+- 📜 語源: ギリシャ語 plastikos「形作ることのできる」← plassein「形作る」
+  - 「自由に形を作れる」。形成外科 plastic surgery の plastic も「形を作る」意味。日本語の「ビニール袋」は英語では plastic bag。
+- 🌳 同じ語源の仲間: plastic surgery（形成外科）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **vinyl** | ビニール | 樹脂の一種。 | ラテン語 vīnum「ワイン」 |
+| **synthetic** | 合成の | 人工的に作った。 | ギリシャ語 synthesis |
+
+<a id="solar"></a>
+### solar（ソーラー）
+
+**形容詞** / Lv.4 話が広がる / CEFR B1 — 太陽の
+
+- 📍 シーン: ソーラーパネル、太陽光発電。
+- 💬 例文: *Our house uses solar power.* — うちは太陽光発電を使っている。
+- 📜 語源: ラテン語 sōlāris ← sōl「太陽」
+  - 英語の sun と同じ祖先。the solar system は「太陽系」。
+- 🌳 同じ語源の仲間: solstice（夏至・冬至）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **sunny** | 日当たりのよい | 晴れた。 | sun + -y |
+| **lunar** | 月の | 月に関する。 | ラテン語 lūna |
+
+<a id="gas"></a>
+### gas（ガス）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — 気体、ガス、（米）ガソリン
+
+- 📍 シーン: ガスコンロ、ガソリンスタンド（英語は gas station）。
+- 💬 例文: *We need to stop for gas.* — ガソリンを入れに寄らないと。
+- 📜 語源: ギリシャ語 khaos「混沌」をもとに17世紀の化学者ファン・ヘルモントが作った語
+  - オランダ語の g の発音がギリシャ語の kh に近いことから、chaos を gas と書いた。アメリカでは gasoline の略で「ガソリン」の意味にもなる。
+- 🌳 同じ語源の仲間: chaos（混沌）、gasoline（ガソリン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **fuel** | 燃料 | 燃やすもの。 | 古フランス語 fouaille |
+| **vapor** | 蒸気 | 湯気。 | ラテン語 vapor |
+
+<a id="oil"></a>
+### oil（オイル）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — 油、石油
+
+- 📍 シーン: オリーブオイル、オイル交換。
+- 💬 例文: *Heat some oil in a pan.* — フライパンに油を熱して。
+- 📜 語源: 古フランス語 oile ← ラテン語 oleum「オリーブ油」← olea「オリーブ」
+  - もとはオリーブの油。olive（オリーブ）と同じ語根。石油（petroleum）は「石の油」。
+- 🌳 同じ語源の仲間: olive（オリーブ）、petroleum（石油）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **petroleum** | 石油 | 原油。 | ラテン語 petra「石」+ oleum |
+| **grease** | 油脂 | ねっとりした油。 | ラテン語 crassus「太った」 |
+
+<a id="engine"></a>
+### engine（エンジン）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — エンジン、原動力
+
+- 📍 シーン: 車のエンジン、検索エンジン。
+- 💬 例文: *The car's engine won't start.* — 車のエンジンがかからない。
+- 📜 語源: 古フランス語 engin「技能、仕掛け」← ラテン語 ingenium「才能」
+  - 「知恵で作った仕掛け」。engineer（技術者）、ingenious（独創的な）も同じ家族。
+- 🌳 同じ語源の仲間: engineer（技術者）、ingenious（独創的な）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **motor** | モーター | 電気で動く原動機。 | ラテン語 movēre |
+| **machine** | 機械 | 動く装置。 | ギリシャ語 mēkhanē |
+
+<a id="motor"></a>
+### motor（モーター）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — モーター、原動機
+
+- 📍 シーン: 電気モーター、モーターショー。
+- 💬 例文: *The toy car has a small motor.* — そのおもちゃの車には小さなモーターがついている。
+- 📜 語源: ラテン語 mōtor「動かすもの」← movēre「動かす」
+  - motion、emotion、remote と同じ movēre の家族。motorcycle（オートバイ）、motel（モーテル）にも入っている。
+- 💎 語根: `mov / mot / mob`（動かす）
+- 🌳 同じ語源の仲間: motorcycle（オートバイ）、motion（動き）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **engine** | エンジン | 燃料で動く原動機。 | ラテン語 ingenium |
+| **generator** | 発電機 | 電気を作る機械。 | ラテン語 generāre |
+
+<a id="brake"></a>
+### brake（ブレーキ）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR B1 — ブレーキ（をかける）
+
+- 📍 シーン: 急ブレーキ、ブレーキを踏む。
+- 💬 例文: *He hit the brakes just in time.* — 彼はぎりぎりでブレーキを踏んだ。
+- 📜 語源: 中英語 brake（中低地ドイツ語 brake「亜麻を砕く道具」とされる）
+  - 語源ははっきりしない。break（壊す、休憩）と発音が同じなので注意。
+- 🌳 同じ語源の仲間: brake pedal（ブレーキペダル）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **stop** | 止める | 止まる。 | 古英語 stoppian |
+| **slow down** | 減速する | 速度を落とす。 | slow + down |
+
+<a id="tire"></a>
+### tire（タイヤ）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — タイヤ、疲れさせる
+
+- 📍 シーン: スタッドレスタイヤ、パンクしたタイヤ。
+- 💬 例文: *We had a flat tire on the highway.* — 高速道路でタイヤがパンクした。
+- 📜 語源: attire「装い」の略とされる（車輪の「装い」）
+  - 車輪にかぶせる「装い」から。イギリスでは tyre とつづる。「疲れる」の tire は別語源（古英語 tēorian）。「パンク」は英語では flat tire。
+- 🌳 同じ語源の仲間: tired（疲れた）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **wheel** | 車輪 | 回る輪。 | 古英語 hwēol |
+| **flat tire** | パンク | 空気が抜けたタイヤ。 | flat + tire |
+
+<a id="gasoline"></a>
+### gasoline（ガソリン）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — ガソリン
+
+- 📍 シーン: ガソリンスタンド、ガソリン代。
+- 💬 例文: *Gasoline prices went up again.* — ガソリンの値段がまた上がった。
+- 📜 語源: gas + -ol + -ine（19世紀の商標名から）
+  - アメリカでは gas と略す。イギリスでは petrol。「ガソリンスタンド」は gas station（米）/ petrol station（英）。
+- 🌳 同じ語源の仲間: gas（ガス）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **petrol** | （英）ガソリン | イギリスでの言い方。 | フランス語 pétrole |
+| **fuel** | 燃料 | 燃やすもの全般。 | 古フランス語 fouaille |
+
+<a id="manner"></a>
+### manner（マナー） ⚠️
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 方法、態度、（複数形で）行儀
+
+- 📍 シーン: テーブルマナー、マナーモード。
+- ⚠️ カタカナの罠: 「行儀・作法」の意味では英語は必ず複数形 manners（table manners、good manners）。単数の manner は「やり方・態度」。
+- 💬 例文: *It's bad manners to talk with your mouth full.* — 口に物を入れたまま話すのは行儀が悪い。
+- 📜 語源: 古フランス語 maniere「やり方」← ラテン語 manuārius「手の」← manus「手」
+  - 「手の扱い方」→ やり方 → ふるまい方。manual、manage と同じ manus の家族。
+- 💎 語根: `manu / man / main`（手）
+- 🌳 同じ語源の仲間: manual（手動の）、manage（管理する）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **etiquette** | 礼儀作法 | 社交上の決まり。 | フランス語 étiquette |
+| **behavior** | ふるまい | 行動。 | behave + -ior |
+
+<a id="etiquette"></a>
+### etiquette（エチケット）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — 礼儀作法、エチケット
+
+- 📍 シーン: エチケット袋、ネットのエチケット（ネチケット）。
+- 💬 例文: *Business etiquette differs from country to country.* — ビジネスの作法は国によって違う。
+- 📜 語源: フランス語 étiquette「札、張り紙」
+  - ticket（切符）と同じ語。宮廷でその日の作法を書いた札を掲げたことから「礼儀作法」の意味になったとされる。
+- 🌳 同じ語源の仲間: ticket（切符）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **manners** | 行儀 | ふだんの礼儀。 | 古フランス語 maniere |
+| **protocol** | 儀礼 | 公式の決まった手順。 | ギリシャ語 prōtokollon |
+
+<a id="pet"></a>
+### pet（ペット）
+
+**名詞** / Lv.4 話が広がる / CEFR A1 — ペット、お気に入り
+
+- 📍 シーン: ペットショップ、ペット可の物件。
+- 💬 例文: *Do you have any pets?* — 何かペットを飼ってる？
+- 📜 語源: スコットランド語 pet「かわいがられる子羊・子ども」（由来は不明）
+  - 「かわいがるもの」→ ペット。teacher's pet は「先生のお気に入り」。ペットボトルの PET は樹脂の名前で別の語。
+- 🌳 同じ語源の仲間: pet name（愛称）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **animal** | 動物 | 動物全般。 | ラテン語 anima |
+| **companion animal** | 伴侶動物 | ペットの改まった言い方。 | companion + animal |
+
+<a id="boom"></a>
+### boom（ブーム）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — 急な人気、好景気、ドーンという音
+
+- 📍 シーン: タピオカブーム、ベビーブーム。
+- 💬 例文: *There was a camping boom a few years ago.* — 数年前にキャンプブームがあった。
+- 📜 語源: 擬音語（低い響く音）
+  - 大砲のような「ドーン」という音から「急な盛り上がり」の意味に。baby boom は出生数の急増。
+- 🌳 同じ語源の仲間: baby boomer（ベビーブーム世代）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **craze** | 大流行 | 熱狂的な流行。 | 中英語 crasen |
+| **trend** | 流行 | 傾向。 | 古英語 trendan |
+
+<a id="ranking"></a>
+### ranking（ランキング）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — 順位、ランキング
+
+- 📍 シーン: 売上ランキング、世界ランキング。
+- 💬 例文: *She is number one in the world rankings.* — 彼女は世界ランキング1位だ。
+- 📜 語源: rank「列、順位」+ -ing
+  - rank は古フランス語 ranc「列」から。arrange（並べる）、range と同じ家族。
+- 🌳 同じ語源の仲間: rank（順位）、range（範囲）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **ratings** | 評価、視聴率 | 点数での評価。 | rate + -ing |
+| **chart** | チャート | ヒット曲の順位表。 | ラテン語 charta |
+
+<a id="best"></a>
+### best（ベスト）
+
+**形容詞** / Lv.4 話が広がる / CEFR A1 — 最もよい、最善
+
+- 📍 シーン: ベストセラー、ベストを尽くす。
+- 💬 例文: *Do your best!* — ベストを尽くして！
+- 📜 語源: 古英語 betst（good の最上級）
+  - good-better-best と不規則に変わる。服の「ベスト」は vest で別の語。
+- 🌳 同じ語源の仲間: better（よりよい）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **finest** | 最上の | 質が最高の。 | fine の最上級 |
+| **top** | トップの | 一番の。 | 古英語 top |
+
+<a id="number"></a>
+### number（ナンバー）
+
+**名詞** / Lv.4 話が広がる / CEFR A1 — 数、番号
+
+- 📍 シーン: ナンバープレート、ナンバーワン。
+- 💬 例文: *What's your phone number?* — 電話番号は？
+- 📜 語源: 古フランス語 nombre ← ラテン語 numerus「数」
+  - numeral（数字）、numerous（たくさんの）も同じ家族。No. は numero（イタリア語）の略。
+- 🌳 同じ語源の仲間: numeral（数字）、numerous（多数の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **figure** | 数字 | 数値。 | ラテン語 figūra |
+| **digit** | 数字（0〜9） | けた。 | ラテン語 digitus「指」 |
+
+<a id="count"></a>
+### count（カウント）
+
+**動詞・名詞** / Lv.4 話が広がる / CEFR A2 — 数える、重要である、伯爵
+
+- 📍 シーン: カウントダウン、ボールカウント。
+- 💬 例文: *Every vote counts.* — 一票一票が大切だ。
+- 📜 語源: 古フランス語 conter ← ラテン語 computāre「計算する」
+  - computer、account と同じ家族。「伯爵」の count は別語源（ラテン語 comes「仲間」）。
+- 🌳 同じ語源の仲間: countdown（秒読み）、account（口座）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **calculate** | 計算する | 数を計算する。 | ラテン語 calculus「小石」 |
+| **matter** | 重要である | 大事だ。 | ラテン語 māteria |
+
+<a id="rank"></a>
+### rank（ランク）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR B2 — 階級、順位、位置づける
+
+- 📍 シーン: ランクアップ、Aランク。
+- 💬 例文: *He was ranked third in the world.* — 彼は世界3位にランクされた。
+- 📜 語源: 古フランス語 ranc「列」
+  - 兵士の「列」→ 階級。the rank and file は「一般兵、平社員」。
+- 🌳 同じ語源の仲間: ranking（ランキング）、arrange（並べる）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **grade** | 等級 | 段階。 | ラテン語 gradus |
+| **status** | 地位 | 社会的な立場。 | ラテン語 status |
+
+<a id="grade"></a>
+### grade（グレード）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR A2 — 等級、成績、（米）学年
+
+- 📍 シーン: グレードアップ、7年生（seventh grade）。
+- 💬 例文: *She's in the eighth grade.* — 彼女は8年生（中学2年）だ。
+- 📜 語源: フランス語 grade ← ラテン語 gradus「段、歩み」
+  - 「階段の一段」。gradual（徐々の）、graduate（卒業する＝段を上がる）も同じ家族。
+- 🌳 同じ語源の仲間: graduate（卒業する）、gradual（徐々の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **level** | レベル | 水準。 | ラテン語 lībella |
+| **mark** | （英）点数 | 成績の点。 | 古英語 mearc |
+
+<a id="class"></a>
+### class（クラス）
+
+**名詞** / Lv.4 話が広がる / CEFR A1 — 学級、授業、階級、等級
+
+- 📍 シーン: クラス替え、ファーストクラス。
+- 💬 例文: *We have English class after lunch.* — お昼のあとに英語の授業がある。
+- 📜 語源: ラテン語 classis「（市民の）区分、階級」
+  - 古代ローマで市民を財産で分けた区分。classic（一流の）も同じ語から。
+- 🌳 同じ語源の仲間: classic（名作）、classify（分類する）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **lesson** | 授業 | 一回分の授業。 | ラテン語 lēctiō |
+| **category** | 部類 | 分類の区分。 | ギリシャ語 katēgoria |
+
+<a id="coordinate"></a>
+### coordinate（コーディネート） ⚠️
+
+**動詞・名詞** / Lv.4 話が広がる / CEFR B2 — 調整する、（服を）組み合わせる、座標
+
+- 📍 シーン: 「今日のコーデ」、インテリアコーディネート。
+- ⚠️ カタカナの罠: 服の「コーデ（組み合わせ）」は英語では outfit / put together an outfit が自然。coordinate は「調整する・協調させる」がふつうの意味。
+- 💬 例文: *She coordinated the event.* — 彼女がそのイベントの調整役をした。
+- 📜 語源: co-「共に」+ ラテン語 ōrdināre「整える」← ōrdō「順序」
+  - 「一緒に順序よく整える」。order（順序）と同じ家族。数学の座標も coordinates。
+- 🌳 同じ語源の仲間: order（順序）、coordinator（調整役）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **organize** | 手配する | まとめる。 | ラテン語 organum |
+| **match** | 合わせる | 色や柄を合わせる。 | 古英語 gemæcca |
+
+<a id="denim"></a>
+### denim（デニム）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — デニム
+
+- 📍 シーン: デニムジャケット、デニムパンツ。
+- 💬 例文: *She wore a denim jacket.* — 彼女はデニムジャケットを着ていた。
+- 📜 語源: フランス語 serge de Nîmes「ニームの綾織り」
+  - 南フランスの町ニーム（Nîmes）の布から。de Nîmes → denim。
+- 🌳 同じ語源の仲間: jeans（ジーンズ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **jeans** | ジーンズ | デニムのズボン。 | ジェノヴァの布 |
+| **canvas** | キャンバス地 | 厚手の布。 | ラテン語 cannabis「麻」 |
+
+<a id="leather"></a>
+### leather（レザー）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 革
+
+- 📍 シーン: レザージャケット、本革。
+- 💬 例文: *This bag is made of real leather.* — このかばんは本革でできている。
+- 📜 語源: 古英語 leþer
+  - 古くからのゲルマン語。「合成皮革」は synthetic leather / faux leather（フェイクレザー）。
+- 🌳 同じ語源の仲間: leathery（革のような）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **hide** | 獣皮 | 加工前の皮。 | 古英語 hȳd |
+| **suede** | スエード | 起毛させた革。 | フランス語 Suède「スウェーデン」 |
+
+<a id="cotton"></a>
+### cotton（コットン）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 綿、木綿
+
+- 📍 シーン: コットン100％、綿棒（cotton swab）。
+- 💬 例文: *This T-shirt is 100% cotton.* — このTシャツは綿100％だ。
+- 📜 語源: アラビア語 quṭn → スペイン語 algodón / フランス語 coton
+  - アラブ世界からヨーロッパに伝わった。「綿棒」は cotton swab / Q-tip（商品名）。
+- 🌳 同じ語源の仲間: cotton candy（綿あめ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **wool** | ウール | 羊毛。 | 古英語 wull |
+| **linen** | リネン | 麻の布。 | 古英語 līnen |
+
+<a id="silk"></a>
+### silk（シルク）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 絹
+
+- 📍 シーン: シルクのスカーフ、シルクロード。
+- 💬 例文: *This scarf is made of silk.* — このスカーフは絹でできている。
+- 📜 語源: 古英語 sioloc ← ラテン語 sēricum「中国の（布）」← ギリシャ語 Sēres「絹の国の人々（中国人）」
+  - 絹を作る遠い東の国の人々の呼び名から。シルクロードは東西を絹が運ばれた道。
+- 🌳 同じ語源の仲間: silky（すべすべした）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **satin** | サテン | 光沢のある布。 | 中国の港町の名とされる |
+| **cotton** | 綿 | 木綿。 | アラビア語 quṭn |
+
+<a id="wool"></a>
+### wool（ウール）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 羊毛、毛糸
+
+- 📍 シーン: ウールのセーター、毛糸。
+- 💬 例文: *This sweater is made of wool.* — このセーターはウールでできている。
+- 📜 語源: 古英語 wull
+  - ラテン語 lāna（羊毛）とも遠い親戚とされる。pull the wool over someone's eyes は「人をだます」。
+- 🌳 同じ語源の仲間: woolen（ウールの）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **yarn** | 毛糸 | 編み物の糸。 | 古英語 gearn |
+| **fleece** | 羊毛、フリース | 羊一頭分の毛。 | 古英語 flēos |
+
+<a id="rubber"></a>
+### rubber（ラバー）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — ゴム、（英）消しゴム
+
+- 📍 シーン: ラバーバンド、ゴム手袋。
+- 💬 例文: *Put a rubber band around the cards.* — カードに輪ゴムをかけて。
+- 📜 語源: rub「こする」+ -er
+  - 18世紀にゴムで鉛筆の字を「こすって消す」ことから rubber と呼ばれた。イギリスでは今も消しゴムを rubber と言う。
+- 🌳 同じ語源の仲間: rub（こする）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **eraser** | 消しゴム | アメリカでの言い方。 | erase + -er |
+| **latex** | ラテックス | ゴムの原料。 | ラテン語 latex「液体」 |
+
+<a id="metal"></a>
+### metal（メタル）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 金属
+
+- 📍 シーン: メタルラック、ヘヴィメタル。
+- 💬 例文: *This chair is made of metal.* — このいすは金属でできている。
+- 📜 語源: ギリシャ語 metallon「鉱山、鉱物」
+  - 「鉱山から掘り出したもの」。medal（メダル）とも関係があるとされる。
+- 🌳 同じ語源の仲間: metallic（金属の）、medal（メダル）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **steel** | 鋼鉄 | はがね。 | 古英語 stēle |
+| **iron** | 鉄 | アイロンも同じ語。 | 古英語 īsern |
+
+<a id="concrete"></a>
+### concrete（コンクリート）
+
+**名詞・形容詞** / Lv.4 話が広がる / CEFR B2 — コンクリート、具体的な
+
+- 📍 シーン: コンクリートの壁、具体的な例。
+- 💬 例文: *Can you give me a concrete example?* — 具体的な例を挙げてもらえますか？
+- 📜 語源: ラテン語 concrētus「固まった」← con- + crēscere「育つ」
+  - 「一緒に育って固まった」→ 形のある、具体的な → コンクリート。反対は abstract（抽象的な）。
+- 🌳 同じ語源の仲間: increase（増える・同じ crēscere）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cement** | セメント | コンクリートの材料。 | ラテン語 caementum「砕石」 |
+| **specific** | 具体的な | はっきり特定した。 | ラテン語 speciēs |
+
+<a id="paper"></a>
+### paper（ペーパー）
+
+**名詞** / Lv.4 話が広がる / CEFR A1 — 紙、新聞、論文
+
+- 📍 シーン: ペーパータオル、ペーパーテスト、ペーパードライバー（和製）。
+- 💬 例文: *I read about it in the paper.* — それは新聞で読んだ。
+- 📜 語源: 古フランス語 papier ← ラテン語 papȳrus ← ギリシャ語 papyros「パピルス」
+  - 古代エジプトの紙の原料植物パピルスから。新聞（newspaper）、論文、答案も paper。「ペーパードライバー」は和製英語で、英語では someone who has a license but rarely drives。
+- 🌳 同じ語源の仲間: papyrus（パピルス）、newspaper（新聞）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **sheet** | （紙の）1枚 | 紙を数える単位。 | 古英語 scēte |
+| **document** | 書類 | 文書。 | ラテン語 documentum |
+
+<a id="vinyl"></a>
+### vinyl（ビニール） ⚠️
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — ビニール（樹脂）、レコード盤
+
+- 📍 シーン: 「ビニール袋」、ビニール傘、アナログレコード。
+- ⚠️ カタカナの罠: 「ビニール袋」「ビニール傘」は英語では plastic bag / clear umbrella。vinyl は樹脂の名前やレコード盤で、袋には使わない。発音も「ヴァイナル」。
+- 💬 例文: *He collects old vinyl records.* — 彼は古いレコード盤を集めている。
+- 📜 語源: ラテン語 vīnum「ワイン」+ -yl（化学の語尾）
+  - 化学物質の名前が、ワインのアルコール（エチル）に関係することからつけられた。
+- 🌳 同じ語源の仲間: wine（ワイン・同じ vīnum）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **plastic** | プラスチック | 日本語の「ビニール」は多くがこれ。 | ギリシャ語 plastikos |
+| **record** | レコード | 音楽の盤。 | ラテン語 recordārī |
+
+<a id="aluminum"></a>
+### aluminum（アルミ）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — アルミニウム
+
+- 📍 シーン: アルミ缶、アルミホイル。
+- 💬 例文: *Aluminum cans can be recycled.* — アルミ缶はリサイクルできる。
+- 📜 語源: ラテン語 alūmen「ミョウバン」から化学者デービーが命名
+  - アメリカでは aluminum（アルーミナム）、イギリスでは aluminium（アルミニアム）とつづりも発音も違う。
+- 🌳 同じ語源の仲間: alum（ミョウバン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **foil** | ホイル | 薄い金属の膜。 | ラテン語 folium「葉」 |
+| **tin** | すず、（英）缶 | 金属の缶。 | 古英語 tin |
+
+<a id="steel"></a>
+### steel（スチール）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 鋼鉄、はがね
+
+- 📍 シーン: スチール缶、ステンレススチール。
+- 💬 例文: *The bridge is made of steel.* — その橋は鋼鉄でできている。
+- 📜 語源: 古英語 stēle
+  - 「かたい」を意味するゲルマン語根から。nerves of steel は「鋼のような神経（動じない）」。「盗む」の steal と発音が同じ。
+- 🌳 同じ語源の仲間: stainless steel（ステンレス）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **iron** | 鉄 | 鉄そのもの。 | 古英語 īsern |
+| **metal** | 金属 | 金属全般。 | ギリシャ語 metallon |
+
+<a id="diamond"></a>
+### diamond（ダイヤモンド）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — ダイヤモンド、ひし形、野球場
+
+- 📍 シーン: ダイヤの指輪、トランプのダイヤ。
+- 💬 例文: *She got a diamond ring.* — 彼女はダイヤの指輪をもらった。
+- 📜 語源: 古フランス語 diamant ← 中世ラテン語 diamas ← ギリシャ語 adamas「征服できない」
+  - 「何にも負けないほどかたい」。adamant（断固とした）も同じ語。
+- 🌳 同じ語源の仲間: adamant（断固とした）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **gem** | 宝石 | 貴重な石。 | ラテン語 gemma |
+| **jewel** | 宝石 | 飾りの宝石。 | 古フランス語 jouel |
+
+<a id="crystal"></a>
+### crystal（クリスタル）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — 水晶、結晶、クリスタルガラス
+
+- 📍 シーン: クリスタルガラス、雪の結晶。
+- 💬 例文: *The answer is crystal clear.* — 答えは明々白々だ。
+- 📜 語源: ギリシャ語 krystallos「氷」← kryos「冷たい」
+  - 古代ギリシャ人は水晶を「溶けない氷」だと考えた。crystal clear は「非常にはっきりした」。
+- 🌳 同じ語源の仲間: crystallize（結晶化する）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **glass** | ガラス | 透明な素材。 | 古英語 glæs |
+| **quartz** | 石英 | 水晶の鉱物名。 | ドイツ語 Quarz |
+
+<a id="pearl"></a>
+### pearl（パール）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 真珠
+
+- 📍 シーン: パールのネックレス、黒真珠。
+- 💬 例文: *She wore a pearl necklace.* — 彼女は真珠のネックレスをつけていた。
+- 📜 語源: 古フランス語 perle ← 俗ラテン語 perla（ラテン語 perna「ハム形の貝」とする説など）
+  - 語源ははっきりしない。pearls of wisdom は「知恵の言葉」。
+- 🌳 同じ語源の仲間: pearly（真珠のような）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **gem** | 宝石 | 貴重な石。 | ラテン語 gemma |
+| **shell** | 貝殻 | 真珠をつくる貝。 | 古英語 sciell |
+
+<a id="jewel"></a>
+### jewel（ジュエル）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — 宝石
+
+- 📍 シーン: ジュエリーショップ、宝石箱。
+- 💬 例文: *The crown was covered in jewels.* — 王冠は宝石で覆われていた。
+- 📜 語源: 古フランス語 jouel「おもちゃ、飾り」（ラテン語 iocus「冗談、遊び」とする説）
+  - 「楽しい飾り」から宝石に。jewelry は宝飾品全般（数えられない）。
+- 🌳 同じ語源の仲間: jewelry（宝飾品）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **gem** | 宝石 | 原石も含む。 | ラテン語 gemma |
+| **treasure** | 宝 | 大切なもの。 | ギリシャ語 thēsauros |
+
+<a id="purple"></a>
+### purple（パープル）
+
+**形容詞・名詞** / Lv.4 話が広がる / CEFR A1 — 紫（の）
+
+- 📍 シーン: パープルのドレス、紫色。
+- 💬 例文: *She painted her room purple.* — 彼女は部屋を紫に塗った。
+- 📜 語源: 古英語 purpul ← ラテン語 purpura ← ギリシャ語 porphyra「紫の染料をとる貝」
+  - 貝から少ししかとれない高価な染料で、ローマ皇帝の色だった。そこから「高貴な色」とされる。
+- 🌳 同じ語源の仲間: porphyry（斑岩）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **violet** | すみれ色 | 青みの紫。 | ラテン語 viola |
+| **lavender** | ラベンダー色 | 淡い紫。 | 中世ラテン語 lavandula |
+
+<a id="brown"></a>
+### brown（ブラウン）
+
+**形容詞・名詞** / Lv.4 話が広がる / CEFR A1 — 茶色（の）
+
+- 📍 シーン: ブラウンシュガー、ブラウン管。
+- 💬 例文: *He has brown eyes.* — 彼の目は茶色だ。
+- 📜 語源: 古英語 brūn ← ゲルマン祖語 *brūnaz
+  - bear（クマ＝茶色いもの）と同じ語根とされる。brunette（ブルネット）も同じ。
+- 🌳 同じ語源の仲間: brunette（ブルネット）、bear（クマ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **tan** | 小麦色 | 日焼けした色。 | 中世ラテン語 tannāre |
+| **beige** | ベージュ | 薄い茶色。 | フランス語 beige |
+
+<a id="gray"></a>
+### gray（グレー）
+
+**形容詞・名詞** / Lv.4 話が広がる / CEFR A1 — 灰色（の）、白髪の
+
+- 📍 シーン: グレーのスーツ、グレーゾーン。
+- 💬 例文: *The sky is gray. It might rain.* — 空が灰色だ。雨が降るかも。
+- 📜 語源: 古英語 grǣg
+  - イギリスでは grey とつづる。gray area は「どちらとも言えない領域」。
+- 🌳 同じ語源の仲間: gray hair（白髪）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **silver** | 銀色 | 光る灰色。 | 古英語 seolfor |
+| **dull** | くすんだ | 明るさがない。 | 古英語 dol |
+
+<a id="beige"></a>
+### beige（ベージュ）
+
+**形容詞・名詞** / Lv.4 話が広がる / CEFR B2 — ベージュ（の）
+
+- 📍 シーン: ベージュのコート、ベージュのカーペット。
+- 💬 例文: *The walls are painted beige.* — 壁はベージュに塗られている。
+- 📜 語源: フランス語 beige「染めていない羊毛（の色）」
+  - 自然のままの羊毛の色から。語源のさらに先ははっきりしない。
+- 🌳 同じ語源の仲間: beige tone（ベージュ系）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cream** | クリーム色 | 薄い黄みがかった白。 | 古フランス語 cresme |
+| **khaki** | カーキ | 黄土色。 | ウルドゥー語 khākī「土色の」 |
+
+<a id="navy"></a>
+### navy（ネイビー）
+
+**形容詞・名詞** / Lv.4 話が広がる / CEFR B1 — 紺色、海軍
+
+- 📍 シーン: ネイビーのジャケット、海軍。
+- 💬 例文: *He's wearing a navy blue suit.* — 彼は紺のスーツを着ている。
+- 📜 語源: 古フランス語 navie「船団」← ラテン語 nāvis「船」
+  - 海軍の制服の色から「紺色」に。navigate（航行する）、nausea（船酔い）も nāvis の家族。
+- 🌳 同じ語源の仲間: navigate（航行する）、naval（海軍の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **dark blue** | 濃い青 | 紺色。 | dark + blue |
+| **fleet** | 艦隊 | 船の一団。 | 古英語 flēot |
+
+<a id="yellow"></a>
+### yellow（イエロー）
+
+**形容詞・名詞** / Lv.4 話が広がる / CEFR A1 — 黄色（の）
+
+- 📍 シーン: イエローカード、黄色信号。
+- 💬 例文: *He got a yellow card for the foul.* — 彼はその反則でイエローカードを受けた。
+- 📜 語源: 古英語 geolu ← 印欧祖語 *ǵʰelh₃-「輝く、黄色い」
+  - gold（金）、yolk（卵黄）と同じ語根。口語で「臆病な」の意味もある。
+- 🌳 同じ語源の仲間: gold（金）、yolk（黄身）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **golden** | 金色の | 輝く黄色。 | gold + -en |
+| **amber** | 琥珀色、黄色信号（英） | 黄みがかった茶。 | アラビア語 ʿanbar |
+
+<a id="square"></a>
+### square（スクエア）
+
+**名詞・形容詞** / Lv.4 話が広がる / CEFR A2 — 正方形、広場、2乗
+
+- 📍 シーン: スクエア型、タイムズスクエア。
+- 💬 例文: *Draw a square on the paper.* — 紙に正方形を描いて。
+- 📜 語源: 古フランス語 esquare ← 俗ラテン語 exquadrāre「四角にする」← quattuor「4」
+  - 「4つの角」。広場も四角い空間から。quarter（4分の1）も同じ家族。
+- 🌳 同じ語源の仲間: quarter（4分の1）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **rectangle** | 長方形 | 長い四角形。 | ラテン語 rēctus「まっすぐな」+ angulus |
+| **plaza** | 広場 | 街の広場。 | スペイン語 plaza |
+
+<a id="triangle"></a>
+### triangle（トライアングル）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 三角形、トライアングル（楽器）
+
+- 📍 シーン: 三角形、楽器のトライアングル。
+- 💬 例文: *A triangle has three sides.* — 三角形には3つの辺がある。
+- 📜 語源: ラテン語 triangulum ← tri-「3」+ angulus「角」
+  - tri- は tricycle（三輪車）、triple（3倍の）の「3」。angle（角度）と同じ家族。
+- 🌳 同じ語源の仲間: angle（角度）、triple（3倍の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pyramid** | ピラミッド | 四角すい。 | ギリシャ語 pyramis |
+| **shape** | 形 | 形全般。 | 古英語 gesceap |
+
+<a id="cross"></a>
+### cross（クロス）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR A2 — 十字、渡る、交差する
+
+- 📍 シーン: クロスワード、赤十字、クロスする。
+- 💬 例文: *Look both ways before you cross the street.* — 道を渡る前に左右を見なさい。
+- 📜 語源: 古英語 cros ← 古アイルランド語 cros ← ラテン語 crux「十字架」
+  - 「十字」→ 交差する → 横切る。crossroads（交差点）。形容詞 cross は「不機嫌な」。
+- 🌳 同じ語源の仲間: crossing（横断歩道）、cruise（クルーズ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **intersect** | 交差する | 線や道が交わる。 | ラテン語 intersecāre |
+| **pass** | 通り過ぎる | 横切る。 | ラテン語 passus |
+
+<a id="curve"></a>
+### curve（カーブ）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR B1 — 曲線、カーブ（する）
+
+- 📍 シーン: 急カーブ、野球のカーブ。
+- 💬 例文: *The road curves to the left.* — 道は左にカーブしている。
+- 📜 語源: ラテン語 curvus「曲がった」
+  - curb（縁石）も同じ語根から。learning curve は「学習曲線（慣れるまでの過程）」。
+- 🌳 同じ語源の仲間: curb（縁石）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **bend** | 曲がり | 道の曲がり目。 | 古英語 bendan |
+| **arc** | 弧 | 円の一部。 | ラテン語 arcus |
+
+<a id="angle"></a>
+### angle（アングル）
+
+**名詞** / Lv.4 話が広がる / CEFR B1 — 角度、観点、アングル
+
+- 📍 シーン: カメラアングル、別の角度から見る。
+- 💬 例文: *Let's look at it from a different angle.* — 別の角度から見てみよう。
+- 📜 語源: ラテン語 angulus「角」
+  - triangle、rectangle と同じ家族。釣りの angle（angler 釣り人）は別語源。
+- 🌳 同じ語源の仲間: triangle（三角形）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **viewpoint** | 観点 | 見方。 | view + point |
+| **perspective** | 視点 | 物の見方。 | ラテン語 perspicere「見通す」 |
+
+<a id="corner"></a>
+### corner（コーナー）
+
+**名詞** / Lv.4 話が広がる / CEFR A1 — 角、すみ、コーナー
+
+- 📍 シーン: コンビニのコーナー、コーナーキック。
+- 💬 例文: *Turn left at the next corner.* — 次の角を左に曲がって。
+- 📜 語源: アングロ・フランス語 corner ← ラテン語 cornū「角（つの）」
+  - 動物の「つの」→ 突き出た角。unicorn（一角獣）の corn も同じ。
+- 🌳 同じ語源の仲間: unicorn（一角獣）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **edge** | 端 | ふち。 | 古英語 ecg |
+| **section** | 売り場 | お店の区画。 | ラテン語 secāre |
+
+<a id="side"></a>
+### side（サイド）
+
+**名詞** / Lv.4 話が広がる / CEFR A1 — 側、横、面
+
+- 📍 シーン: サイドメニュー、サイドミラー、副作用（side effect）。
+- 💬 例文: *Whose side are you on?* — きみはどっちの味方なの？
+- 📜 語源: 古英語 sīde「わき腹、側面」
+  - 「わき腹」→ 側、味方。side effect は「副作用」。
+- 🌳 同じ語源の仲間: sideways（横に）、beside（そばに）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **edge** | 端 | へり。 | 古英語 ecg |
+| **aspect** | 面 | 物事の一面。 | ラテン語 aspicere「見る」 |
+
+<a id="back"></a>
+### back（バック） ⚠️
+
+**名詞・副詞** / Lv.4 話が広がる / CEFR A1 — 背中、後ろ、戻って
+
+- 📍 シーン: 車を「バックする」、バックアップ。
+- ⚠️ カタカナの罠: 車の「バックする」は英語では back up / reverse。back だけでも back the car up のように使えるが、「バックでとめる」は reverse into a parking space。
+- 💬 例文: *I'll be back in five minutes.* — 5分で戻ります。
+- 📜 語源: 古英語 bæc「背中」
+  - 「背中」→ 後ろ、戻って。back up（支える、バックアップする）は「背中を支える」から。
+- 🌳 同じ語源の仲間: backup（予備）、background（背景）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **rear** | 後部 | 車などの後ろ。 | ラテン語 retrō「後ろへ」 |
+| **return** | 戻る | 帰る。 | 古フランス語 retorner |
+
+<a id="weight"></a>
+### weight（ウエイト）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — 重さ、体重、おもり
+
+- 📍 シーン: ウエイトトレーニング、ウエイトコントロール。
+- 💬 例文: *I want to lose weight.* — 体重を減らしたい。
+- 📜 語源: 古英語 wiht ← wegan「運ぶ、重さを量る」
+  - weigh（重さを量る）の名詞形。gh は発音しない。
+- 🌳 同じ語源の仲間: weigh（重さを量る）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **mass** | 質量 | 物理の質量。 | ラテン語 massa |
+| **burden** | 重荷 | 負担。 | 古英語 byrþen |
+
+<a id="meter"></a>
+### meter（メートル）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — メートル、計器
+
+- 📍 シーン: 100メートル走、ガスメーター。
+- 💬 例文: *The pool is 25 meters long.* — プールの長さは25メートルだ。
+- 📜 語源: フランス語 mètre ← ギリシャ語 metron「尺度」
+  - 18世紀のフランスで作られた長さの単位。measure（測る）、symmetry（左右対称）も同じ語根。イギリスでは metre とつづる。
+- 🌳 同じ語源の仲間: thermometer（温度計）、measure（測る）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **gauge** | 計器 | 量を示す装置。 | 古北フランス語 gauge |
+| **measure** | 測る | 大きさを測る。 | ラテン語 mēnsūra |
+
+<a id="dozen"></a>
+### dozen（ダース）
+
+**名詞** / Lv.4 話が広がる / CEFR A2 — 12個（組）、1ダース
+
+- 📍 シーン: 鉛筆1ダース、卵1ダース。
+- 💬 例文: *I bought a dozen eggs.* — 卵を1ダース買った。
+- 📜 語源: 古フランス語 dozaine ← douze「12」← ラテン語 duodecim
+  - duo「2」+ decem「10」＝12。dozens of（何十もの）は「たくさんの」の意味。「ダース」は dozen がなまったもの。
+- 🌳 同じ語源の仲間: dozens（何十もの）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **twelve** | 12 | 数の12。 | 古英語 twelf |
+| **bunch** | 束 | まとまり。 | 中英語 bunche |
+
+<a id="pack"></a>
+### pack（パック）
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR A2 — 包み、荷造りする、群れ
+
+- 📍 シーン: パック旅行、フェイスパック、6缶パック。
+- 💬 例文: *Have you packed your bag yet?* — もう荷造りした？
+- 📜 語源: 中オランダ語 pac「包み」
+  - 包み → 荷造りする → ぎっしり詰める。オオカミの群れも a pack of wolves。顔の「パック」は英語では face mask。
+- 🌳 同じ語源の仲間: package（小包）、packed（満員の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **package** | 小包 | 包装したもの。 | pack + -age |
+| **bundle** | 束 | ひとまとめ。 | 中オランダ語 bundel |
+
+<a id="master"></a>
+### master（マスター） ⚠️
+
+**名詞・動詞** / Lv.4 話が広がる / CEFR B1 — 名人、主人、習得する
+
+- 📍 シーン: 英語をマスターする、マスターキー。
+- ⚠️ カタカナの罠: 喫茶店やバーの「マスター（店主）」は英語では owner / manager。英語の master は「名人・主人・習得する」で、店主を呼ぶときには使わない。
+- 💬 例文: *It takes years to master a language.* — 言語を習得するには何年もかかる。
+- 📜 語源: 古英語 mægester ← ラテン語 magister「長、教師」← magis「より大きく」
+  - 「より上の人」。magistrate（行政官）、maestro（巨匠）も同じ家族。master's degree は修士号。
+- 🌳 同じ語源の仲間: masterpiece（傑作）、maestro（巨匠）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **expert** | 専門家 | くわしい人。 | ラテン語 expertus |
+| **learn** | 習得する | 身につける。 | 古英語 leornian |
+
+<a id="tempo"></a>
+### tempo（テンポ）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — 速さ、テンポ
+
+- 📍 シーン: テンポのいい会話、アップテンポの曲。
+- 💬 例文: *The song has a fast tempo.* — その歌はテンポが速い。
+- 📜 語源: イタリア語 tempo「時」← ラテン語 tempus
+  - temporary（一時的な）、temporal（時の）も同じ家族。
+- 🌳 同じ語源の仲間: temporary（一時的な）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pace** | ペース | 進む速さ。 | ラテン語 passus |
+| **rhythm** | リズム | 規則的な拍。 | ギリシャ語 rhythmos |
+
+<a id="palette"></a>
+### palette（パレット）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — 絵の具を混ぜる板、色の組み合わせ
+
+- 📍 シーン: 絵の具のパレット、カラーパレット。
+- 💬 例文: *Mix the paints on the palette.* — パレットで絵の具を混ぜて。
+- 📜 語源: フランス語 palette「小さなへら」← pale「シャベル」← ラテン語 pāla
+  - 「平たい板」。荷物を載せる台の pallet（パレット）とは別つづり。
+- 🌳 同じ語源の仲間: pallet（荷台）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **color scheme** | 配色 | 色の組み合わせ。 | color + scheme |
+| **range** | 範囲 | 幅。 | 古フランス語 rang |
+
+<a id="canvas"></a>
+### canvas（キャンバス）
+
+**名詞** / Lv.4 話が広がる / CEFR B2 — 画布、帆布
+
+- 📍 シーン: 油絵のキャンバス、キャンバス地のバッグ。
+- 💬 例文: *She painted on a large canvas.* — 彼女は大きなキャンバスに絵を描いた。
+- 📜 語源: アングロ・フランス語 canevas ← ラテン語 cannabis「麻」
+  - 麻で織った丈夫な布。テントや帆、絵を描く布に使った。大学の「キャンパス」は campus で別の語。
+- 🌳 同じ語源の仲間: cannabis（大麻）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **fabric** | 布地 | 織物。 | ラテン語 fabrica |
+| **cloth** | 布 | 布全般。 | 古英語 clāþ |
+
 ## Lv.5 よく見聞きする
 
 <a id="spell"></a>
@@ -13108,7 +14623,7 @@
 | `leg / lect / lig` | 読む・集める・選ぶ | ラテン語 legere | [legend](#legend), [lesson](#lesson), [collection](#collection) | lecture, legible, collect, elect, intelligent |
 | `ven / vent` | 来る | ラテン語 venīre | [inventory](#inventory), [event](#event), [convenience](#convenience) | invent, adventure, convention, prevent |
 | `cri / crit` | 分ける・判断する | ギリシャ語 krīnein | [critical](#critical), [crisis](#crisis) | critic, criterion |
-| `viv / vit` | 生きる | ラテン語 vīvere / vīta | [revive](#revive), [survival](#survival) | survive, vivid, vital, vitamin |
+| `viv / vit` | 生きる | ラテン語 vīvere / vīta | [revive](#revive), [survival](#survival), [vitamin](#vitamin) | survive, vivid, vital |
 | `sta / stat / sist` | 立つ | ラテン語 stāre / ギリシャ語 histanai | [stage](#stage), [system](#system), [station](#station), [cost](#cost), [status](#status) | stable, obstacle, assist |
 | `mit / miss` | 送る | ラテン語 mittere | [mission](#mission), [message](#message), [commitment](#commitment) | missile, transmit, dismiss, submit |
 | `volv / volu` | 巻く・転がる | ラテン語 volvere | [evolution](#evolution) | evolve, revolve, involve, volume, revolution |
@@ -13128,7 +14643,7 @@
 | `astr / aster / star` | 星 | ギリシャ語 astēr / 古英語 steorra | [star](#star) | astronaut, asterisk, disaster, astronomy |
 | `tele` | 遠く | ギリシャ語 tēle | [television](#television), [phone](#phone) | telescope, telegram, telepathy |
 | `vid / vis / id` | 見る | ラテン語 vidēre / ギリシャ語 eidos（同じ印欧語根） | [television](#television), [idol](#idol), [idea](#idea), [advice](#advice), [evidence](#evidence), [interview](#interview), [video](#video), [vision](#vision) | visit |
-| `phon` | 音・声 | ギリシャ語 phōnē | [phone](#phone), [headphones](#headphones) | microphone, symphony, saxophone, phonics |
+| `phon` | 音・声 | ギリシャ語 phōnē | [phone](#phone), [headphones](#headphones), [smartphone](#smartphone) | microphone, symphony, saxophone, phonics |
 | `min` | 小さい | ラテン語 minuere / minor | [menu](#menu), [minority](#minority) | minute, minor, minimum, mini |
 | `cap / cep / cip / ceiv` | 取る・受け取る | ラテン語 capere | [recipe](#recipe), [concept](#concept), [capacity](#capacity) | receive, receipt, accept, capture |
 | `sal / sau` | 塩 | ラテン語 sal | [salad](#salad), [sauce](#sauce), [sausage](#sausage) | salary, salt, salsa |
@@ -13142,9 +14657,9 @@
 | `popul / publ` | 民衆 | ラテン語 populus | [popular](#popular), [public](#public) | people, population |
 | `spec / spic` | 見る | ラテン語 specere | [special](#special), [respect](#respect) | species, inspect, spectacle |
 | `ment / mind` | 心 | ラテン語 mēns | [comment](#comment), [mental](#mental) | mention, mind, dementia |
-| `manu / man / main` | 手 | ラテン語 manus | [manual](#manual), [manicure](#manicure) | manufacture, manage, maintain |
+| `manu / man / main` | 手 | ラテン語 manus | [manual](#manual), [manicure](#manicure), [manner](#manner) | manufacture, manage, maintain |
 | `camp / champ` | 野原 | ラテン語 campus | [camp](#camp), [campaign](#campaign), [champion](#champion) | campus, champagne |
-| `mov / mot / mob` | 動かす | ラテン語 movēre | [motivation](#motivation), [remote](#remote) | move, motion, emotion, motor, mobile |
+| `mov / mot / mob` | 動かす | ラテン語 movēre | [motivation](#motivation), [remote](#remote), [emotional](#emotional), [motor](#motor) | move, motion, emotion, mobile |
 | `nov` | 新しい | ラテン語 novus | [innovation](#innovation), [novel](#novel) | novice, renovate, nova |
 | `ten / tain / tin` | 保つ | ラテン語 tenēre | [sustainable](#sustainable), [content](#content) | contain, maintain, tenant, continue |
 | `ag / act` | 行う・動かす | ラテン語 agere | [action](#action) | act, agent, agenda, active |
