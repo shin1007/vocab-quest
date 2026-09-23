@@ -3,11 +3,13 @@
   "use strict";
 
   // ---------- 学習コンテンツの定義 ----------
-  const TOPICS = {
-    fantasy: { name: "ファンタジー", icon: "🏰", genre: "RPG・剣と魔法" },
-    battle: { name: "アクション", icon: "⚔️", genre: "バトル・格闘" },
-    scifi: { name: "SF", icon: "🚀", genre: "宇宙・ロボット" },
-    story: { name: "学園・ドラマ", icon: "🏫", genre: "スポーツ・日常" },
+  // コースは難易度（CEFR）で分ける。ジャンルでは分けず、身近な語もゲームの語も同じコースに混ぜて出す
+  const COURSES = {
+    a1: { name: "入門", icon: "🌱", cefr: ["A1"], desc: "身の回りの基本語" },
+    a2: { name: "基礎", icon: "🌿", cefr: ["A2"], desc: "毎日よく使うことば" },
+    b1: { name: "標準", icon: "🌳", cefr: ["B1"], desc: "話題が広がることば" },
+    b2: { name: "応用", icon: "⛰️", cefr: ["B2"], desc: "物語やニュースのことば" },
+    c1: { name: "発展", icon: "🏔️", cefr: ["C1", "C2"], desc: "大人も迷うむずかしい語" },
   };
   // 見た目のテーマ（機能は共通）。CSS は app/style.css の [data-theme]
   const THEMES = {
@@ -60,6 +62,9 @@
   const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
   const todayKey = (t = Date.now()) => new Date(t).toLocaleDateString("sv-SE");
   const plainKatakana = (w) => w.katakana.replace(/（.*）/, "");
+  const courseOf = (w) => Object.keys(COURSES).find((k) => COURSES[k].cefr.includes(w.cefr));
+  // 文字列から決まった数を作る（レッスン内の並びを毎回同じにしつつ、ジャンルが偏らないように混ぜる）
+  const mixKey = (s) => [...s].reduce((h, c) => (Math.imul(h, 31) + c.charCodeAt(0)) | 0, 7);
   // 出題文から答えの単語（と派生形）を伏せる: equipment → equip も伏せる
   const mask = (text, w) => text.replace(new RegExp(`\\b${w.word.slice(0, 4)}[a-z]*`, "gi"), "＿＿＿");
   const html = (strings, ...vals) => strings.reduce((out, s, i) => out + s + (i < vals.length ? vals[i] : ""), "");
@@ -103,22 +108,23 @@
   const learnedCount = () => WORDS.filter((w) => level(w.id) >= LEARNED).length;
 
   // ---------- レッスン ----------
-  // 各トピックの単語を CEFR の易しい順に並べ、ほぼ均等に分けてレッスンにする
-  function lessonsOf(topic) {
-    const words = WORDS.filter((w) => w.area === topic)
-      .sort((a, b) => CEFR_ORDER.indexOf(a.cefr) - CEFR_ORDER.indexOf(b.cefr));
+  // 各コースの単語をジャンルが混ざるように並べ、ほぼ均等に分けてレッスンにする
+  function lessonsOf(course) {
+    const words = WORDS.filter((w) => courseOf(w) === course)
+      .sort((a, b) => CEFR_ORDER.indexOf(a.cefr) - CEFR_ORDER.indexOf(b.cefr) || mixKey(a.id) - mixKey(b.id));
     const count = Math.ceil(words.length / LESSON_SIZE);
     const size = Math.ceil(words.length / count);
     return Array.from({ length: count }, (_, i) => {
       const ws = words.slice(i * size, (i + 1) * size);
       const cefr = [...new Set(ws.map((w) => w.cefr))];
-      return { topic, index: i, key: `${topic}-${i}`, words: ws, cefr: cefr.length > 1 ? `${cefr[0]}–${cefr.at(-1)}` : cefr[0] };
+      return { course, index: i, key: `${course}-${i}`, words: ws, cefr: cefr.length > 1 ? `${cefr[0]}–${cefr.at(-1)}` : cefr[0] };
     });
   }
+  const allLessons = () => Object.keys(COURSES).flatMap(lessonsOf);
   const lessonProgress = (ls) => ls.words.reduce((n, w) => n + level(w.id), 0) / (ls.words.length * 5);
   // おすすめ：まだ一度も終えていないレッスンの中で最初のもの。全部終えていれば習熟度が一番低いもの
   function nextLesson() {
-    const all = Object.keys(TOPICS).flatMap(lessonsOf);
+    const all = allLessons();
     return all.find((ls) => !state.done[ls.key]) || all.sort((a, b) => lessonProgress(a) - lessonProgress(b))[0];
   }
 
@@ -179,9 +185,9 @@
     $view.innerHTML = html`
       ${state.welcomed ? "" : html`
         <section class="card welcome pop">
-          <div class="welcome-art" aria-hidden="true">🧪<span>→</span>potion</div>
+          <div class="welcome-art" aria-hidden="true">🐶<span>→</span>dog</div>
           <h1 class="display">知ってるカタカナを<br>英語にしよう</h1>
-          <p>ポーション、クエスト、クリティカル…。ゲームやアニメでおなじみのことばを入り口に、<b>正しいつづり・意味・語源・類義語</b>まで身につけます。</p>
+          <p>ドッグ、キャット、ジュース、ポーション…。身の回りやゲーム・アニメでおなじみのことばを入り口に、<b>正しいつづり・意味・語源・類義語</b>まで身につけます。</p>
           <button class="btn block" id="welcome-ok">はじめる</button>
         </section>`}
 
@@ -201,28 +207,29 @@
       </section>
 
       ${next ? html`
-        <section class="card next-lesson pop" style="--area:var(--area-${next.topic})">
+        <section class="card next-lesson pop" style="--area:var(--area-${next.course})">
           <div class="ribbon">NEXT</div>
           <div class="row">
-            <span class="topic-badge">${TOPICS[next.topic].icon}</span>
+            <span class="topic-badge">${COURSES[next.course].icon}</span>
             <div class="spacer">
-              <div class="small muted">${esc(TOPICS[next.topic].name)} ・ レッスン ${next.index + 1}</div>
+              <div class="small muted">${esc(COURSES[next.course].name)} ・ レッスン ${next.index + 1}</div>
               <div class="lesson-words">${next.words.slice(0, 4).map((w) => esc(plainKatakana(w))).join(" / ")}…</div>
             </div>
           </div>
           <button class="btn block" data-lesson="${next.key}">▶ ${state.done[next.key] ? "練習する" : "レッスンを始める"}</button>
         </section>` : ""}
 
-      <h2 class="section-title">トピック</h2>
-      ${Object.entries(TOPICS).map(([k, t]) => {
+      <h2 class="section-title">コース</h2>
+      ${Object.entries(COURSES).map(([k, t]) => {
         const lessons = lessonsOf(k);
         const words = lessons.flatMap((l) => l.words);
+        if (!words.length) return "";
         const learned = words.filter((w) => level(w.id) >= LEARNED).length;
         return html`
           <section class="card topic" style="--area:var(--area-${k})">
             <div class="topic-head">
               <span class="topic-badge">${t.icon}</span>
-              <div class="spacer"><h3>${esc(t.name)}</h3><div class="small muted">${esc(t.genre)} ・ ${words.length}語</div></div>
+              <div class="spacer"><h3>${esc(t.name)}</h3><div class="small muted">${esc(t.desc)} ・ CEFR ${t.cefr.join("–")} ・ ${words.length}語</div></div>
               ${ring(learned / words.length, `${learned}<small>/${words.length}</small>`)}
             </div>
             <div class="lesson-list">
@@ -248,21 +255,21 @@
     $view.querySelector("#welcome-ok")?.addEventListener("click", () => {
       state.welcomed = true;
       save();
-      startSession({ kind: "lesson", lesson: lessonsOf("fantasy")[0] });
+      startSession({ kind: "lesson", lesson: allLessons()[0] });
     });
     $view.querySelector("#review")?.addEventListener("click", () => startSession({ kind: "review" }));
     $view.querySelectorAll("[data-lesson]").forEach((b) => b.addEventListener("click", () => {
-      const [topic, i] = b.dataset.lesson.split("-");
-      openLesson(lessonsOf(topic)[+i]);
+      const [course, i] = b.dataset.lesson.split("-");
+      openLesson(lessonsOf(course)[+i]);
     }));
     $view.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
   }
 
   function openLesson(ls) {
-    const t = TOPICS[ls.topic];
+    const t = COURSES[ls.course];
     const learned = ls.words.filter((w) => level(w.id) >= LEARNED).length;
     $modalContent.innerHTML = html`
-      <div class="lesson-intro" style="--area:var(--area-${ls.topic})">
+      <div class="lesson-intro" style="--area:var(--area-${ls.course})">
         <span class="topic-badge big">${t.icon}</span>
         <div class="small muted">${esc(t.name)} ・ CEFR ${esc(ls.cefr)}</div>
         <h2 class="display">レッスン ${ls.index + 1}</h2>
@@ -285,8 +292,8 @@
   // ---------- 出題 ----------
   function selectWords({ kind, lesson }) {
     if (kind === "review") return shuffle(dueWords()).slice(0, QUESTIONS_PER_SESSION);
-    // レッスン：レッスンの単語＋同じトピックの復習期限の単語で埋める
-    const extra = shuffle(WORDS.filter((w) => w.area === lesson.topic && isDue(w.id) && !lesson.words.includes(w)));
+    // レッスン：レッスンの単語＋同じコースの復習期限の単語で埋める
+    const extra = shuffle(WORDS.filter((w) => courseOf(w) === lesson.course && isDue(w.id) && !lesson.words.includes(w)));
     return shuffle([...lesson.words, ...extra].slice(0, QUESTIONS_PER_SESSION));
   }
 
@@ -299,8 +306,8 @@
   }
 
   function distractors(w, n, filter = () => true) {
-    const same = WORDS.filter((x) => x.id !== w.id && x.area === w.area && filter(x));
-    const other = WORDS.filter((x) => x.id !== w.id && x.area !== w.area && filter(x));
+    const same = WORDS.filter((x) => x.id !== w.id && courseOf(x) === courseOf(w) && filter(x));
+    const other = WORDS.filter((x) => x.id !== w.id && courseOf(x) !== courseOf(w) && filter(x));
     return [...shuffle(same), ...shuffle(other)].slice(0, n);
   }
 
@@ -309,7 +316,7 @@
     const wordChoices = (label, filter) => shuffle([w, ...distractors(w, 3, filter)]).map((x) => ({ label: label(x), correct: x.id === w.id, ref: x }));
     switch (type) {
       case "kata":
-        q.prompt = html`<span class="big">${esc(w.katakana)}</span><span class="scene">🎮 ${esc(mask(w.scene, w))}</span>英語での正しいつづりは？`;
+        q.prompt = html`<span class="big">${esc(w.katakana)}</span><span class="scene">📍 ${esc(mask(w.scene, w))}</span>英語での正しいつづりは？`;
         q.hint = `意味は「${w.meaning}」`;
         q.choices = wordChoices((x) => x.word);
         break;
@@ -333,7 +340,7 @@
         const s = pick(w.synonyms);
         q.prompt = html`<span class="big en">${esc(s.word)}</span>（${esc(s.meaning)}）<br>この語の<b>類義語</b>はどれ？`;
         q.hint = `${s.word} のニュアンス：${s.nuance}`;
-        q.choices = wordChoices((x) => `${x.word}（${plainKatakana(x)}）`, (x) => !x.synonyms.some((y) => y.word === s.word));
+        q.choices = wordChoices((x) => `${x.word}（${plainKatakana(x)}）`, (x) => x.word !== s.word && !x.synonyms.some((y) => y.word === s.word));
         q.synonym = s;
         break;
       }
@@ -355,7 +362,7 @@
     if (!words.length) { go("home"); return; }
     session = {
       kind, lesson,
-      title: kind === "review" ? "復習" : `${TOPICS[lesson.topic].name} ・ レッスン ${lesson.index + 1}`,
+      title: kind === "review" ? "復習" : `${COURSES[lesson.course].name} ・ レッスン ${lesson.index + 1}`,
       questions: words.map((w) => makeQuestion(w, pick(allowedTypes(w)))),
       index: 0, correct: 0, results: [],
       startLevels: Object.fromEntries(words.map((w) => [w.id, level(w.id)])),
@@ -555,16 +562,16 @@
   }
 
   // ---------- 単語帳 ----------
-  const dexFilter = { q: "", topic: "all", trap: false };
+  const dexFilter = { q: "", course: "all", trap: false };
   function renderDex() {
     const found = WORDS.filter((w) => level(w.id) > 0).length;
     $view.innerHTML = html`
       <h2 class="section-title">単語帳 <span class="small muted">${found}/${WORDS.length} 語 学習済み</span></h2>
       <div class="filters">
         <input id="q" type="search" placeholder="英語・カタカナ・意味で検索" value="${esc(dexFilter.q)}" aria-label="検索">
-        <select id="topic" aria-label="トピック">
+        <select id="course" aria-label="コース">
           <option value="all">すべて</option>
-          ${Object.entries(TOPICS).map(([k, t]) => `<option value="${k}" ${dexFilter.topic === k ? "selected" : ""}>${t.icon} ${esc(t.name)}</option>`).join("")}
+          ${Object.entries(COURSES).map(([k, t]) => `<option value="${k}" ${dexFilter.course === k ? "selected" : ""}>${t.icon} ${esc(t.name)}（${t.cefr.join("–")}）</option>`).join("")}
         </select>
       </div>
       <label class="toggle"><input type="checkbox" id="trap" ${dexFilter.trap ? "checked" : ""}><span></span> ⚠️ カタカナの罠だけ表示</label>
@@ -572,12 +579,12 @@
     const drawGrid = () => {
       const q = dexFilter.q.trim().toLowerCase();
       const list = WORDS.filter((w) =>
-        (dexFilter.topic === "all" || w.area === dexFilter.topic) &&
+        (dexFilter.course === "all" || courseOf(w) === dexFilter.course) &&
         (!dexFilter.trap || w.gap) &&
         (!q || [w.word, w.katakana, w.meaning, ...w.synonyms.map((s) => s.word)].some((t) => t.toLowerCase().includes(q))));
       const grid = $view.querySelector("#grid");
       grid.innerHTML = list.length ? list.map((w) => html`
-        <button class="dex-item ${level(w.id) ? "" : "new"}" data-detail="${w.id}" style="--area:var(--area-${w.area})">
+        <button class="dex-item ${level(w.id) ? "" : "new"}" data-detail="${w.id}" style="--area:var(--area-${courseOf(w)})">
           <span class="w">${esc(w.word)} ${w.gap ? "⚠️" : ""}</span>
           <span class="small muted">${esc(w.katakana)}</span>
           ${meter(level(w.id))}
@@ -585,7 +592,7 @@
       grid.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
     };
     $view.querySelector("#q").addEventListener("input", (e) => { dexFilter.q = e.target.value; drawGrid(); });
-    $view.querySelector("#topic").addEventListener("change", (e) => { dexFilter.topic = e.target.value; drawGrid(); });
+    $view.querySelector("#course").addEventListener("change", (e) => { dexFilter.course = e.target.value; drawGrid(); });
     $view.querySelector("#trap").addEventListener("change", (e) => { dexFilter.trap = e.target.checked; drawGrid(); });
     drawGrid();
   }
@@ -595,9 +602,9 @@
     const lv = level(id);
     const roots = w.roots.map((r) => ROOTS.find((x) => x.id === r));
     $modalContent.innerHTML = html`
-      <div class="detail" style="--area:var(--area-${w.area})">
+      <div class="detail" style="--area:var(--area-${courseOf(w)})">
         <div class="detail-head">
-          <div class="small muted">${TOPICS[w.area].icon} ${esc(TOPICS[w.area].name)} ・ ${esc(w.pos)} ・ CEFR ${esc(w.cefr)}</div>
+          <div class="small muted">${COURSES[courseOf(w)].icon} ${esc(COURSES[courseOf(w)].name)} ・ ${esc(w.pos)} ・ CEFR ${esc(w.cefr)}</div>
           <div class="row">
             <h2 class="display">${esc(w.word)}</h2>
             ${voiceButton(`${w.id}.word`)}
@@ -607,7 +614,7 @@
           <div class="row small">${meter(lv)}<span class="muted">${LEVELS[lv]}</span></div>
         </div>
 
-        <section><h4>🎮 シーン</h4>${esc(w.scene)}</section>
+        <section><h4>📍 シーン</h4>${esc(w.scene)}</section>
         ${w.gap ? `<section><h4>⚠️ カタカナの罠</h4><div class="tip warn">${esc(w.gap)}</div></section>` : ""}
         <section><h4>💬 例文</h4><i>${esc(w.example.en)}</i> ${voiceButton(`${w.id}.example.en`, "🔈")}<br><span class="muted">${esc(w.example.ja)}</span> ${voiceButton(`${w.id}.example.ja`, "🔈")}</section>
         <section><h4>📜 語源 ${voiceButton(`${w.id}.story`, "🔈")}</h4><b>${esc(w.etymology.origin)}</b><p style="margin:6px 0 0">${esc(w.etymology.story)}</p></section>
@@ -672,14 +679,15 @@
   function renderStats() {
     const dist = [0, 1, 2, 3, 4, 5].map((n) => WORDS.filter((w) => level(w.id) === n).length);
     const acc = state.answered ? state.correct / state.answered : 0;
-    const lessons = Object.keys(TOPICS).reduce((n, t) => n + lessonsOf(t).length, 0);
+    const lessons = allLessons();
+    const doneLessons = lessons.filter((ls) => state.done[ls.key]).length;
     $view.innerHTML = html`
       <h2 class="section-title">記録</h2>
       <section class="card result-grid">
         <div>${ring(learnedCount() / WORDS.length, `${learnedCount()}<small>/${WORDS.length}</small>`)}<span>定着した語</span></div>
         <div>${ring(acc, `${Math.round(acc * 100)}<small>%</small>`)}<span>正答率</span></div>
         <div><b>${state.streak}</b><span>🔥 連続日数</span></div>
-        <div><b>${Object.keys(state.done).length}<small>/${lessons}</small></b><span>完了レッスン</span></div>
+        <div><b>${doneLessons}<small>/${lessons.length}</small></b><span>完了レッスン</span></div>
         <div><b>${state.sessions}</b><span>学習回数</span></div>
         <div><b>${state.answered}</b><span>回答数</span></div>
       </section>

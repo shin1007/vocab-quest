@@ -11,13 +11,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WORDS = json.loads((ROOT / "data/words.json").read_text(encoding="utf-8"))
 ROOTS = json.loads((ROOT / "data/roots.json").read_text(encoding="utf-8"))
-AREAS = {
-    "fantasy": "🏰 ファンタジー（RPG・剣と魔法）",
-    "battle": "⚔️ アクション（バトル・格闘）",
-    "scifi": "🚀 SF（宇宙・ロボット）",
-    "story": "🏫 学園・ドラマ（スポーツ・日常）",
+# コースは難易度（CEFR）で分ける（app/app.js の COURSES と同じ）
+COURSES = {
+    "a1": ("🌱 入門（A1）", ["A1"]),
+    "a2": ("🌿 基礎（A2）", ["A2"]),
+    "b1": ("🌳 標準（B1）", ["B1"]),
+    "b2": ("⛰️ 応用（B2）", ["B2"]),
+    "c1": ("🏔️ 発展（C1–C2）", ["C1", "C2"]),
 }
-REQUIRED = ["id", "word", "katakana", "pos", "area", "cefr", "meaning", "scene",
+REQUIRED = ["id", "word", "katakana", "pos", "cefr", "meaning", "scene",
             "example", "etymology", "roots", "family", "synonyms"]
 
 
@@ -31,8 +33,8 @@ def validate():
         for key in REQUIRED:
             if key not in w:
                 errors.append(f"{w.get('id')}: {key} がありません")
-        if w.get("area") not in AREAS:
-            errors.append(f"{w['id']}: 不明な area {w.get('area')}")
+        if not any(w.get("cefr") in levels for _, levels in COURSES.values()):
+            errors.append(f"{w['id']}: 不明な cefr {w.get('cefr')}")
         if len(w.get("synonyms", [])) < 2:
             errors.append(f"{w['id']}: 類義語は2つ以上必要です")
         for s in w.get("synonyms", []):
@@ -70,14 +72,14 @@ def render():
         "## 目次",
         "",
     ]
-    for key, label in AREAS.items():
-        words = [w for w in WORDS if w["area"] == key]
+    for label, levels in COURSES.values():
+        words = [w for w in WORDS if w["cefr"] in levels]
         out.append(f"- {label} — " + ", ".join(f"[{w['word']}](#{w['id']})" for w in words))
     out += ["- [語根ファミリー一覧](#語根ファミリー一覧)", ""]
 
-    for key, label in AREAS.items():
+    for label, levels in COURSES.values():
         out += [f"## {label}", ""]
-        for w in (w for w in WORDS if w["area"] == key):
+        for w in (w for w in WORDS if w["cefr"] in levels):
             trap = " ⚠️" if w.get("gap") else ""
             out += [
                 f'<a id="{w["id"]}"></a>',
@@ -85,7 +87,7 @@ def render():
                 "",
                 f"**{w['pos']}** / CEFR {w['cefr']} — {w['meaning']}",
                 "",
-                f"- 🎮 シーン: {w['scene']}",
+                f"- 📍 シーン: {w['scene']}",
             ]
             if w.get("gap"):
                 out.append(f"- ⚠️ カタカナの罠: {w['gap']}")
