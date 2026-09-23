@@ -1,0 +1,4 @@
+# 生成した音声（容量が大きく、作り直しできるためリポジトリに入れない。配信は docs/VOICE_TTS.md 参照）
+/audio/
+/tts/qa/
+__pycache__/

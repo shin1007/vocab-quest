@@ -79,6 +79,8 @@
   let byId = {};
   let state = null;
   let battle = null;
+  let VOICE = null; // audio/manifest.json（事前生成した音声の一覧）。無ければブラウザの読み上げを使う
+  let CLIPS = {}; // 音声キー → { text, lang }（scripts/tts/tts.py と同じキー）
 
   const $view = document.getElementById("view");
   const $modal = document.getElementById("modal");
@@ -110,6 +112,7 @@
       level: 1, exp: 0, totalExp: 0, gold: 50, items: { potion: 3, ether: 0 },
       cleared: {}, cards: {}, streak: 0, lastDay: null,
       battles: 0, answered: 0, correct: 0, bestCombo: 0, onboarded: false,
+      settings: { autoVoice: true },
     };
   }
   function load() {
@@ -165,6 +168,7 @@
 
   // ---------- 画面切り替え ----------
   function go(tab) {
+    stopVoice();
     document.body.classList.remove("in-battle");
     document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
     ({ map: renderMap, dex: renderDex, roots: renderRoots, status: renderStatus })[tab]();
@@ -472,6 +476,8 @@
     const b = battle;
     const q = b.questions[b.index];
     q.shownAt = Date.now();
+    // 出題文の読み上げ（答えがばれない物だけ）：カタカナ語、または意味を問う英単語
+    const promptVoice = q.type === "kata" || q.type === "spell" ? `${q.word.id}.katakana` : q.type === "meaning" ? `${q.word.id}.word` : null;
     $view.innerHTML = html`
       <div class="battle-top">
         <span class="title small muted">${esc(b.title)}</span>
@@ -485,7 +491,7 @@
       </div>
       <div class="window message" id="msg"></div>
       <div class="window question">
-        <div class="qtype">${QTYPES[q.type]}</div>
+        <div class="qtype row"><span class="spacer">${QTYPES[q.type]}</span>${promptVoice ? voiceButton(promptVoice) : ""}</div>
         <div class="prompt">${q.prompt}</div>
         <div id="hint"></div>
         ${q.type === "spell" ? html`
@@ -503,6 +509,7 @@
     drawCommands("main");
     if (q.type === "spell") bindSpell(q);
     else $view.querySelectorAll(".choice").forEach((el) => el.addEventListener("click", () => answer(q, q.choices[+el.dataset.i], el)));
+    if (promptVoice && state.settings.autoVoice) playVoice([promptVoice]);
   }
 
   function drawCommands(menu) {
@@ -685,7 +692,7 @@
         <span class="stars" title="ことばカードの★">${stars(card(w.id).star)}</span>
       </div>
       <div class="row"><span class="word">${esc(w.word)}</span><span class="muted">${esc(w.katakana)}</span>
-        <button class="speak" aria-label="発音を聞く">🔊</button></div>
+        ${voiceButton(`${w.id}.word,${w.id}.meaning`)}</div>
       <div>${esc(w.meaning)}</div>
       ${q.synonym ? `<div class="tip">🔀 <b>${esc(q.synonym.word)}</b>：${esc(q.synonym.nuance)}</div>` : ""}
       ${wrongRef ? `<div class="tip">🤔 あなたが選んだ <b>${esc(wrongRef.word)}</b> は「${esc(wrongRef.meaning)}」</div>` : ""}
@@ -698,7 +705,7 @@
         <button class="btn" id="next">${over ? "▶ けっかへ" : "▶ つぎへ"}</button>
       </div>`;
     $view.querySelector(".question").after(box);
-    box.querySelector(".speak").addEventListener("click", () => speak(w.word));
+    if (state.settings.autoVoice) playVoice([`${w.id}.word`, `${w.id}.meaning`]);
     box.querySelector("[data-detail]").addEventListener("click", () => openDetail(w.id));
     const next = box.querySelector("#next");
     next.addEventListener("click", () => {
@@ -850,17 +857,17 @@
         <div class="small muted">${REGIONS[w.area].icon} ${esc(REGIONS[w.area].name)} ・ ${esc(w.pos)} ・ CEFR ${esc(w.cefr)}</div>
         <div class="row">
           <h2>${esc(w.word)}</h2>
-          <button class="speak" id="say" aria-label="発音を聞く">🔊</button>
+          ${voiceButton(`${w.id}.word`)}
           <span class="spacer"></span>
           <span class="stars">${s ? stars(s) : "未発見"}</span>
         </div>
-        <div class="muted">${esc(w.katakana)}</div>
-        <p style="font-size:1.1rem;margin:8px 0 0"><b>${esc(w.meaning)}</b></p>
+        <div class="muted">${esc(w.katakana)} ${voiceButton(`${w.id}.katakana`, "🔈")}</div>
+        <p style="font-size:1.1rem;margin:8px 0 0"><b>${esc(w.meaning)}</b> ${voiceButton(`${w.id}.meaning`, "🔈")}</p>
 
         <section><h4>🎮 シーン</h4>${esc(w.scene)}</section>
         ${w.gap ? `<section><h4>⚠️ カタカナの罠</h4><div class="tip warn">${esc(w.gap)}</div></section>` : ""}
-        <section><h4>💬 例文</h4><i>${esc(w.example.en)}</i><br><span class="muted">${esc(w.example.ja)}</span></section>
-        <section><h4>📜 語源</h4><b>${esc(w.etymology.origin)}</b><p style="margin:6px 0 0">${esc(w.etymology.story)}</p></section>
+        <section><h4>💬 例文</h4><i>${esc(w.example.en)}</i> ${voiceButton(`${w.id}.example.en`, "🔈")}<br><span class="muted">${esc(w.example.ja)}</span> ${voiceButton(`${w.id}.example.ja`, "🔈")}</section>
+        <section><h4>📜 語源 ${voiceButton(`${w.id}.story`, "🔈")}</h4><b>${esc(w.etymology.origin)}</b><p style="margin:6px 0 0">${esc(w.etymology.story)}</p></section>
         ${roots.length ? `<section><h4>💎 語根</h4>${roots.map((r) => `<span class="chip">${esc(r.form)}＝${esc(r.meaning)}</span>`).join("")}</section>` : ""}
         ${w.family.length ? `<section><h4>🌳 同じ語源の仲間</h4>${w.family.map((f) => `<span class="chip">${esc(f)}</span>`).join("")}</section>` : ""}
         <section>
@@ -869,7 +876,7 @@
             <thead><tr><th>単語</th><th>ニュアンス</th><th>語源</th></tr></thead>
             <tbody>
               ${w.synonyms.map((x) => html`<tr>
-                <td><b>${esc(x.word)}</b><br><span class="small muted">${esc(x.meaning)}</span></td>
+                <td><b>${esc(x.word)}</b> ${voiceButton(synKey(x.word), "🔈")}<br><span class="small muted">${esc(x.meaning)}</span></td>
                 <td>${esc(x.nuance)}</td>
                 <td class="small">${esc(x.etymology)}</td>
               </tr>`).join("")}
@@ -877,7 +884,6 @@
           </table>
         </section>
       </div>`;
-    $modalContent.querySelector("#say").addEventListener("click", () => speak(w.word));
     openModal();
   }
 
@@ -889,6 +895,7 @@
   }
   function closeModal() {
     if ($modal.hidden) return;
+    stopVoice();
     $modal.hidden = true;
     const cb = onModalClose;
     onModalClose = null;
@@ -961,7 +968,14 @@
             <span style="width:32px;text-align:right">${n}</span>
           </div>`).join("")}
       </div>
+      <div class="window">
+        <h3>🔊 おんせい</h3>
+        <label class="row"><input type="checkbox" id="auto-voice" ${state.settings.autoVoice ? "checked" : ""}> 問題と答えを自動で読み上げる</label>
+        <p class="small muted" style="margin:8px 0 0">声：${VOICE ? esc(VOICE.label) : "ブラウザ標準の読み上げ（音声ファイル未生成）"}</p>
+        ${VOICE?.credit ? `<p class="small muted" style="margin:4px 0 0">${esc(VOICE.credit)}</p>` : ""}
+      </div>
       <button class="btn secondary block" id="reset">🗑 ぼうけんのしょを けす</button>`;
+    $view.querySelector("#auto-voice").addEventListener("change", (e) => { state.settings.autoVoice = e.target.checked; save(); });
     $view.querySelector("#reset").addEventListener("click", () => {
       if (!confirm("ぼうけんのしょ（セーブデータ）を本当に消しますか？")) return;
       state = defaultState();
@@ -972,13 +986,71 @@
   }
 
   // ---------- 音声 ----------
-  function speak(text) {
-    if (!("speechSynthesis" in window)) return;
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "en-US";
-    u.rate = 0.9;
-    speechSynthesis.cancel();
-    speechSynthesis.speak(u);
+  // 事前生成した音声ファイル（scripts/tts/tts.py）を優先し、無いものはブラウザの読み上げで代用する
+  const synKey = (word) => "syn." + word.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const voiceButton = (keys, label = "🔊") => `<button class="speak" data-voice="${esc(keys)}" aria-label="読み上げ">${label}</button>`;
+  let voiceToken = 0;
+  let currentAudio = null;
+  let voiceExt = null;
+
+  function buildClips() {
+    for (const w of WORDS) {
+      CLIPS[`${w.id}.word`] = { text: w.word, lang: "en" };
+      CLIPS[`${w.id}.katakana`] = { text: plainKatakana(w), lang: "ja" };
+      CLIPS[`${w.id}.meaning`] = { text: w.meaning, lang: "ja" };
+      CLIPS[`${w.id}.example.en`] = { text: w.example.en, lang: "en" };
+      CLIPS[`${w.id}.example.ja`] = { text: w.example.ja, lang: "ja" };
+      CLIPS[`${w.id}.story`] = { text: w.etymology.story, lang: "ja" };
+      for (const s of w.synonyms) CLIPS[synKey(s.word)] = { text: s.word, lang: "en" };
+    }
+  }
+
+  function stopVoice() {
+    voiceToken++;
+    if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+    if ("speechSynthesis" in window) speechSynthesis.cancel();
+  }
+
+  function playClip(key) {
+    const clip = CLIPS[key];
+    const hash = VOICE?.items[key];
+    if (hash && voiceExt) {
+      const audio = new Audio(`${VOICE.base}${hash}.${voiceExt}`);
+      currentAudio = audio;
+      return new Promise((done) => {
+        audio.onended = audio.onerror = done;
+        audio.play().catch(done);
+      });
+    }
+    if (!clip || !("speechSynthesis" in window)) return Promise.resolve();
+    return new Promise((done) => {
+      const u = new SpeechSynthesisUtterance(clip.text);
+      u.lang = clip.lang === "ja" ? "ja-JP" : "en-US";
+      u.rate = clip.lang === "ja" ? 1.05 : 0.9;
+      u.onend = u.onerror = done;
+      speechSynthesis.speak(u);
+    });
+  }
+
+  // 複数の音声を順番に再生する（例：英単語 → 日本語の意味）。新しい再生が始まったら前のものは止める
+  async function playVoice(keys) {
+    stopVoice();
+    const token = voiceToken;
+    for (const key of keys) {
+      if (token !== voiceToken) return;
+      await playClip(key);
+    }
+  }
+
+  async function loadVoice() {
+    try {
+      const res = await fetch("audio/manifest.json");
+      if (!res.ok) return;
+      VOICE = await res.json();
+      const probe = document.createElement("audio");
+      const mime = { webm: 'audio/webm; codecs="opus"', m4a: 'audio/mp4; codecs="mp4a.40.2"' };
+      voiceExt = VOICE.formats.find((f) => probe.canPlayType(mime[f])) || null;
+    } catch { /* 音声ファイルが無くてもブラウザの読み上げで動く */ }
   }
 
   // ---------- 起動 ----------
@@ -992,11 +1064,18 @@
       return;
     }
     byId = Object.fromEntries(WORDS.map((w) => [w.id, w]));
+    buildClips();
+    await loadVoice();
     state = load();
+    state.settings = { ...defaultState().settings, ...state.settings };
     document.querySelectorAll("#tabs button").forEach((b) => b.addEventListener("click", () => go(b.dataset.tab)));
     document.getElementById("modal-close").addEventListener("click", closeModal);
     $modal.addEventListener("click", (e) => { if (e.target === $modal) closeModal(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
+    document.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-voice]");
+      if (b) playVoice(b.dataset.voice.split(","));
+    });
     renderHud();
     if (state.onboarded) go("map");
     else renderOnboarding();

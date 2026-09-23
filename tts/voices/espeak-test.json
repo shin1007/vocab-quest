@@ -1,0 +1,10 @@
+{
+  "label": "パイプライン動作確認用（espeak-ng・公開用ではありません）",
+  "version": "espeak-test-1",
+  "backend": "command",
+  "command": ["espeak-ng", "-v", "{lang}", "-f", "{text_file}", "-w", "{out}"],
+  "lang_map": { "ja": "ja", "en": "en-us" },
+  "tiers": ["core", "extended"],
+  "formats": ["webm", "m4a"],
+  "jobs": 8
+}

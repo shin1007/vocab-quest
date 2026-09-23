@@ -1,0 +1,2922 @@
+{
+ "ace.example.en": {
+  "lang": "en",
+  "text": "He is the ace of our pitching staff.",
+  "tier": "core"
+ },
+ "ace.example.ja": {
+  "lang": "ja",
+  "text": "彼はうちの投手陣のエースだ。",
+  "tier": "core"
+ },
+ "ace.katakana": {
+  "lang": "ja",
+  "text": "エース",
+  "tier": "core"
+ },
+ "ace.meaning": {
+  "lang": "ja",
+  "text": "エース、名手、 トランプの 1",
+  "tier": "core"
+ },
+ "ace.story": {
+  "lang": "ja",
+  "text": "サイコロ、トランプの「1」、 最強の札 、 第一次世界大戦で多くの敵機を落としたパイロット 、 名手。",
+  "tier": "extended"
+ },
+ "ace.word": {
+  "lang": "en",
+  "text": "ace",
+  "tier": "core"
+ },
+ "android.example.en": {
+  "lang": "en",
+  "text": "The android could not understand human emotions.",
+  "tier": "core"
+ },
+ "android.example.ja": {
+  "lang": "ja",
+  "text": "そのアンドロイドは人間の感情を理解できなかった。",
+  "tier": "core"
+ },
+ "android.katakana": {
+  "lang": "ja",
+  "text": "アンドロイド",
+  "tier": "core"
+ },
+ "android.meaning": {
+  "lang": "ja",
+  "text": "人造人間、アンドロイド",
+  "tier": "core"
+ },
+ "android.story": {
+  "lang": "ja",
+  "text": "「人の形をしたもの」。-oid は asteroid 星の形、小惑星 、humanoid にも。",
+  "tier": "extended"
+ },
+ "android.word": {
+  "lang": "en",
+  "text": "android",
+  "tier": "core"
+ },
+ "armor.example.en": {
+  "lang": "en",
+  "text": "The robot's armor was made of titanium.",
+  "tier": "core"
+ },
+ "armor.example.ja": {
+  "lang": "ja",
+  "text": "そのロボットの装甲はチタン製だった。",
+  "tier": "core"
+ },
+ "armor.katakana": {
+  "lang": "ja",
+  "text": "アーマー",
+  "tier": "core"
+ },
+ "armor.meaning": {
+  "lang": "ja",
+  "text": "鎧、装甲",
+  "tier": "core"
+ },
+ "armor.story": {
+  "lang": "ja",
+  "text": "army 軍隊 、arms 武器 、そして alarm イタリア語 all'arme「武器を取れ！」 も arma 家族。イギリス英語では armour。",
+  "tier": "extended"
+ },
+ "armor.word": {
+  "lang": "en",
+  "text": "armor",
+  "tier": "core"
+ },
+ "attack.example.en": {
+  "lang": "en",
+  "text": "The enemy attacked from behind.",
+  "tier": "core"
+ },
+ "attack.example.ja": {
+  "lang": "ja",
+  "text": "敵は背後から攻撃してきた。",
+  "tier": "core"
+ },
+ "attack.katakana": {
+  "lang": "ja",
+  "text": "アタック",
+  "tier": "core"
+ },
+ "attack.meaning": {
+  "lang": "ja",
+  "text": "攻撃 する",
+  "tier": "core"
+ },
+ "attack.story": {
+  "lang": "ja",
+  "text": "attach 取り付ける と同じ語から分かれた二重語。敵に「くっつく、接敵する」イメージ。",
+  "tier": "extended"
+ },
+ "attack.word": {
+  "lang": "en",
+  "text": "attack",
+  "tier": "core"
+ },
+ "avatar.example.en": {
+  "lang": "en",
+  "text": "You can customize your avatar's hair and clothes.",
+  "tier": "core"
+ },
+ "avatar.example.ja": {
+  "lang": "ja",
+  "text": "アバターの髪型や服をカスタマイズできる。",
+  "tier": "core"
+ },
+ "avatar.katakana": {
+  "lang": "ja",
+  "text": "アバター",
+  "tier": "core"
+ },
+ "avatar.meaning": {
+  "lang": "ja",
+  "text": "化身、 ネット上の 分身",
+  "tier": "core"
+ },
+ "avatar.story": {
+  "lang": "ja",
+  "text": "ヒンドゥー教で神 ヴィシュヌ が地上に「降りてきた」姿、化身。ユーザーが仮想世界に「降りる」分身として、1980年代からコンピューター用語に。",
+  "tier": "extended"
+ },
+ "avatar.word": {
+  "lang": "en",
+  "text": "avatar",
+  "tier": "core"
+ },
+ "barrier.example.en": {
+  "lang": "en",
+  "text": "Language can be a barrier to making friends.",
+  "tier": "core"
+ },
+ "barrier.example.ja": {
+  "lang": "ja",
+  "text": "言葉は友達を作る上での壁になり得る。",
+  "tier": "core"
+ },
+ "barrier.katakana": {
+  "lang": "ja",
+  "text": "バリア",
+  "tier": "core"
+ },
+ "barrier.meaning": {
+  "lang": "ja",
+  "text": "障壁、柵、障害",
+  "tier": "core"
+ },
+ "barrier.story": {
+  "lang": "ja",
+  "text": "通せんぼする横木が原義。embarrass 恥ずかしい思いをさせる も「棒で邪魔をする」というイタリア語から。",
+  "tier": "extended"
+ },
+ "barrier.word": {
+  "lang": "en",
+  "text": "barrier",
+  "tier": "core"
+ },
+ "beam.example.en": {
+  "lang": "en",
+  "text": "A beam of light shot out of the robot's eyes.",
+  "tier": "core"
+ },
+ "beam.example.ja": {
+  "lang": "ja",
+  "text": "ロボットの目から光線が放たれた。",
+  "tier": "core"
+ },
+ "beam.katakana": {
+  "lang": "ja",
+  "text": "ビーム",
+  "tier": "core"
+ },
+ "beam.meaning": {
+  "lang": "ja",
+  "text": "光線、梁 はり",
+  "tier": "core"
+ },
+ "beam.story": {
+  "lang": "ja",
+  "text": "「丸太、柱」、 まっすぐ伸びる 「光の柱」。建物の梁も beam。ドイツ語 Baum 木 と同源。",
+  "tier": "extended"
+ },
+ "beam.word": {
+  "lang": "en",
+  "text": "beam",
+  "tier": "core"
+ },
+ "berserk.example.en": {
+  "lang": "en",
+  "text": "The crowd went berserk when he scored.",
+  "tier": "core"
+ },
+ "berserk.example.ja": {
+  "lang": "ja",
+  "text": "彼が得点すると観客は熱狂した。",
+  "tier": "core"
+ },
+ "berserk.katakana": {
+  "lang": "ja",
+  "text": "バーサーク",
+  "tier": "core"
+ },
+ "berserk.meaning": {
+  "lang": "ja",
+  "text": "狂暴になって、我を忘れて",
+  "tier": "core"
+ },
+ "berserk.story": {
+  "lang": "ja",
+  "text": "熊の毛皮をまとい、我を忘れて戦った北欧の戦士。「鎧なし bare shirt 」説もある。英語では go berserk「怒り狂う、熱狂する」の形でよく使う。",
+  "tier": "extended"
+ },
+ "berserk.word": {
+  "lang": "en",
+  "text": "berserk",
+  "tier": "core"
+ },
+ "boss.example.en": {
+  "lang": "en",
+  "text": "I need to ask my boss for a day off.",
+  "tier": "core"
+ },
+ "boss.example.ja": {
+  "lang": "ja",
+  "text": "上司に休みをもらえるか聞かないと。",
+  "tier": "core"
+ },
+ "boss.katakana": {
+  "lang": "ja",
+  "text": "ボス",
+  "tier": "core"
+ },
+ "boss.meaning": {
+  "lang": "ja",
+  "text": "上司、親分、ボス",
+  "tier": "core"
+ },
+ "boss.story": {
+  "lang": "ja",
+  "text": "17世紀、オランダ系住民の多いニューヨークで英語に入った。奴隷制を連想させる master を避ける言葉として広まったと言われる。",
+  "tier": "extended"
+ },
+ "boss.word": {
+  "lang": "en",
+  "text": "boss",
+  "tier": "core"
+ },
+ "brave.example.en": {
+  "lang": "en",
+  "text": "It was brave of you to speak up.",
+  "tier": "core"
+ },
+ "brave.example.ja": {
+  "lang": "ja",
+  "text": "声を上げるなんて勇気があったね。",
+  "tier": "core"
+ },
+ "brave.katakana": {
+  "lang": "ja",
+  "text": "ブレイブ",
+  "tier": "core"
+ },
+ "brave.meaning": {
+  "lang": "ja",
+  "text": "勇敢な",
+  "tier": "core"
+ },
+ "brave.story": {
+  "lang": "ja",
+  "text": "拍手の「ブラボー！」と同じ語。さらに古い語源はラテン語 barbarus 野蛮な 説など諸説ある。",
+  "tier": "extended"
+ },
+ "brave.word": {
+  "lang": "en",
+  "text": "brave",
+  "tier": "core"
+ },
+ "challenge.example.en": {
+  "lang": "en",
+  "text": "Learning Japanese was a real challenge for him.",
+  "tier": "core"
+ },
+ "challenge.example.ja": {
+  "lang": "ja",
+  "text": "日本語の習得は彼にとって本当に難題だった。",
+  "tier": "core"
+ },
+ "challenge.katakana": {
+  "lang": "ja",
+  "text": "チャレンジ",
+  "tier": "core"
+ },
+ "challenge.meaning": {
+  "lang": "ja",
+  "text": "難題、挑戦；異議を唱える",
+  "tier": "core"
+ },
+ "challenge.story": {
+  "lang": "ja",
+  "text": "「言いがかり、異議申し立て」、「決闘を申し込む」、「挑戦、難題」と変化した。calumny 中傷 と同源。",
+  "tier": "extended"
+ },
+ "challenge.word": {
+  "lang": "en",
+  "text": "challenge",
+  "tier": "core"
+ },
+ "claim.example.en": {
+  "lang": "en",
+  "text": "He claims that he saw a UFO.",
+  "tier": "core"
+ },
+ "claim.example.ja": {
+  "lang": "ja",
+  "text": "彼はUFOを見たと主張している。",
+  "tier": "core"
+ },
+ "claim.katakana": {
+  "lang": "ja",
+  "text": "クレーム",
+  "tier": "core"
+ },
+ "claim.meaning": {
+  "lang": "ja",
+  "text": "主張 する 、請求 する",
+  "tier": "core"
+ },
+ "claim.story": {
+  "lang": "ja",
+  "text": "「大声で求める」、「権利を主張する」。exclaim 叫ぶ 、proclaim 宣言する も同じ家族。",
+  "tier": "extended"
+ },
+ "claim.word": {
+  "lang": "en",
+  "text": "claim",
+  "tier": "core"
+ },
+ "combo.example.en": {
+  "lang": "en",
+  "text": "He landed a 20-hit combo.",
+  "tier": "core"
+ },
+ "combo.example.ja": {
+  "lang": "ja",
+  "text": "彼は20ヒットのコンボを決めた。",
+  "tier": "core"
+ },
+ "combo.katakana": {
+  "lang": "ja",
+  "text": "コンボ",
+  "tier": "core"
+ },
+ "combo.meaning": {
+  "lang": "ja",
+  "text": "組み合わせ、連続技 口語",
+  "tier": "core"
+ },
+ "combo.story": {
+  "lang": "ja",
+  "text": "「二つずつ組み合わせる」が原義。binary 二進法 も bini から。",
+  "tier": "extended"
+ },
+ "combo.word": {
+  "lang": "en",
+  "text": "combo",
+  "tier": "core"
+ },
+ "counter.example.en": {
+  "lang": "en",
+  "text": "She countered his punch with a kick.",
+  "tier": "core"
+ },
+ "counter.example.ja": {
+  "lang": "ja",
+  "text": "彼女は彼のパンチにキックで反撃した。",
+  "tier": "core"
+ },
+ "counter.katakana": {
+  "lang": "ja",
+  "text": "カウンター",
+  "tier": "core"
+ },
+ "counter.meaning": {
+  "lang": "ja",
+  "text": "反撃 する 、対抗 する",
+  "tier": "core"
+ },
+ "counter.story": {
+  "lang": "ja",
+  "text": "contrary 反対の 、contrast 対照 と同じ contra 家族。",
+  "tier": "extended"
+ },
+ "counter.word": {
+  "lang": "en",
+  "text": "counter",
+  "tier": "core"
+ },
+ "critical.example.en": {
+  "lang": "en",
+  "text": "This is a critical moment for our team.",
+  "tier": "core"
+ },
+ "critical.example.ja": {
+  "lang": "ja",
+  "text": "今はチームにとって重大な局面だ。",
+  "tier": "core"
+ },
+ "critical.katakana": {
+  "lang": "ja",
+  "text": "クリティカル",
+  "tier": "core"
+ },
+ "critical.meaning": {
+  "lang": "ja",
+  "text": "決定的な、重大な、批判的な",
+  "tier": "core"
+ },
+ "critical.story": {
+  "lang": "ja",
+  "text": "「白黒を分ける」、「分かれ目の、決定的な」。crisis 危機、分岐点 、criterion 判断基準 も同じ家族。",
+  "tier": "extended"
+ },
+ "critical.word": {
+  "lang": "en",
+  "text": "critical",
+  "tier": "core"
+ },
+ "cunning.example.en": {
+  "lang": "en",
+  "text": "The fox came up with a cunning plan.",
+  "tier": "core"
+ },
+ "cunning.example.ja": {
+  "lang": "ja",
+  "text": "キツネはずる賢い計画を思いついた。",
+  "tier": "core"
+ },
+ "cunning.katakana": {
+  "lang": "ja",
+  "text": "カンニング",
+  "tier": "core"
+ },
+ "cunning.meaning": {
+  "lang": "ja",
+  "text": "ずる賢い、狡猾な",
+  "tier": "core"
+ },
+ "cunning.story": {
+  "lang": "ja",
+  "text": "「知識がある」、「巧みな」、「ずる賢い」と意味が悪化した。can できる 、know 知る と同じ祖先をもつ。",
+  "tier": "extended"
+ },
+ "cunning.word": {
+  "lang": "en",
+  "text": "cunning",
+  "tier": "core"
+ },
+ "damage.example.en": {
+  "lang": "en",
+  "text": "The storm caused serious damage to the town.",
+  "tier": "core"
+ },
+ "damage.example.ja": {
+  "lang": "ja",
+  "text": "嵐は町に深刻な被害をもたらした。",
+  "tier": "core"
+ },
+ "damage.katakana": {
+  "lang": "ja",
+  "text": "ダメージ",
+  "tier": "core"
+ },
+ "damage.meaning": {
+  "lang": "ja",
+  "text": "損害 を与える",
+  "tier": "core"
+ },
+ "damage.story": {
+  "lang": "ja",
+  "text": "damn 呪う、のろわしい 、condemn 有罪とする と同じ家族。",
+  "tier": "extended"
+ },
+ "damage.word": {
+  "lang": "en",
+  "text": "damage",
+  "tier": "core"
+ },
+ "destiny.example.en": {
+  "lang": "en",
+  "text": "She believed it was her destiny to become a singer.",
+  "tier": "core"
+ },
+ "destiny.example.ja": {
+  "lang": "ja",
+  "text": "歌手になるのが自分の運命だと彼女は信じていた。",
+  "tier": "core"
+ },
+ "destiny.katakana": {
+  "lang": "ja",
+  "text": "ディスティニー",
+  "tier": "core"
+ },
+ "destiny.meaning": {
+  "lang": "ja",
+  "text": "運命、宿命",
+  "tier": "core"
+ },
+ "destiny.story": {
+  "lang": "ja",
+  "text": "あらかじめ「定められた」行き先。destination 目的地 と同源。",
+  "tier": "extended"
+ },
+ "destiny.word": {
+  "lang": "en",
+  "text": "destiny",
+  "tier": "core"
+ },
+ "dimension.example.en": {
+  "lang": "en",
+  "text": "The portal led to another dimension.",
+  "tier": "core"
+ },
+ "dimension.example.ja": {
+  "lang": "ja",
+  "text": "そのポータルは別の次元へ通じていた。",
+  "tier": "core"
+ },
+ "dimension.katakana": {
+  "lang": "ja",
+  "text": "ディメンション",
+  "tier": "core"
+ },
+ "dimension.meaning": {
+  "lang": "ja",
+  "text": "次元、寸法、側面",
+  "tier": "core"
+ },
+ "dimension.story": {
+  "lang": "ja",
+  "text": "「測った大きさ」、「寸法 縦、横、高さ 」、「次元」。measure 測る 、immense 測れないほど巨大な も同じ家族。",
+  "tier": "extended"
+ },
+ "dimension.word": {
+  "lang": "en",
+  "text": "dimension",
+  "tier": "core"
+ },
+ "dragon.example.en": {
+  "lang": "en",
+  "text": "The dragon guarded a mountain of gold.",
+  "tier": "core"
+ },
+ "dragon.example.ja": {
+  "lang": "ja",
+  "text": "竜は金の山を守っていた。",
+  "tier": "core"
+ },
+ "dragon.katakana": {
+  "lang": "ja",
+  "text": "ドラゴン",
+  "tier": "core"
+ },
+ "dragon.meaning": {
+  "lang": "ja",
+  "text": "竜",
+  "tier": "core"
+ },
+ "dragon.story": {
+  "lang": "ja",
+  "text": "「鋭い眼をもつもの」が語源とする説が有力。蛇の睨む目から名付けられた。",
+  "tier": "extended"
+ },
+ "dragon.word": {
+  "lang": "en",
+  "text": "dragon",
+  "tier": "core"
+ },
+ "dungeon.example.en": {
+  "lang": "en",
+  "text": "The prisoner was thrown into the dungeon beneath the castle.",
+  "tier": "core"
+ },
+ "dungeon.example.ja": {
+  "lang": "ja",
+  "text": "囚人は城の下の地下牢に投げ込まれた。",
+  "tier": "core"
+ },
+ "dungeon.katakana": {
+  "lang": "ja",
+  "text": "ダンジョン",
+  "tier": "core"
+ },
+ "dungeon.meaning": {
+  "lang": "ja",
+  "text": "城の 地下牢",
+  "tier": "core"
+ },
+ "dungeon.story": {
+  "lang": "ja",
+  "text": "「領主の塔 天守 」、 その地下にある牢 、 地下牢、と意味が移った。dominate 支配する や、意外にも danger 危険、もとは「支配者が害を与える力」 も同じ家族。",
+  "tier": "extended"
+ },
+ "dungeon.word": {
+  "lang": "en",
+  "text": "dungeon",
+  "tier": "core"
+ },
+ "emergency.example.en": {
+  "lang": "en",
+  "text": "In an emergency, press the red button.",
+  "tier": "core"
+ },
+ "emergency.example.ja": {
+  "lang": "ja",
+  "text": "緊急時には赤いボタンを押せ。",
+  "tier": "core"
+ },
+ "emergency.katakana": {
+  "lang": "ja",
+  "text": "エマージェンシー",
+  "tier": "core"
+ },
+ "emergency.meaning": {
+  "lang": "ja",
+  "text": "緊急事態",
+  "tier": "core"
+ },
+ "emergency.story": {
+  "lang": "ja",
+  "text": "水中から急に浮かび出てくる 、 突然現れた事態 、 緊急事態。merge 合流する 、submerge 沈める と同源。",
+  "tier": "extended"
+ },
+ "emergency.word": {
+  "lang": "en",
+  "text": "emergency",
+  "tier": "core"
+ },
+ "equipment.example.en": {
+  "lang": "en",
+  "text": "Check your equipment before entering the cave.",
+  "tier": "core"
+ },
+ "equipment.example.ja": {
+  "lang": "ja",
+  "text": "洞窟に入る前に装備を確認せよ。",
+  "tier": "core"
+ },
+ "equipment.katakana": {
+  "lang": "ja",
+  "text": "エクイップメント 装備",
+  "tier": "core"
+ },
+ "equipment.meaning": {
+  "lang": "ja",
+  "text": "装備、用具 不可算名詞",
+  "tier": "core"
+ },
+ "equipment.story": {
+  "lang": "ja",
+  "text": "ヴァイキングの言葉 skip 、ship 船 が語源。「船出の準備を整える」が「装備する」になった。",
+  "tier": "extended"
+ },
+ "equipment.word": {
+  "lang": "en",
+  "text": "equipment",
+  "tier": "core"
+ },
+ "escape.example.en": {
+  "lang": "en",
+  "text": "We escaped through a secret tunnel.",
+  "tier": "core"
+ },
+ "escape.example.ja": {
+  "lang": "ja",
+  "text": "私たちは秘密のトンネルから脱出した。",
+  "tier": "core"
+ },
+ "escape.katakana": {
+  "lang": "ja",
+  "text": "エスケープ",
+  "tier": "core"
+ },
+ "escape.meaning": {
+  "lang": "ja",
+  "text": "逃げる；逃亡",
+  "tier": "core"
+ },
+ "escape.story": {
+  "lang": "ja",
+  "text": "つかまれたマントを脱ぎ捨てて逃げる、という情景が語源とされる。cape マント と同源。",
+  "tier": "extended"
+ },
+ "escape.word": {
+  "lang": "en",
+  "text": "escape",
+  "tier": "core"
+ },
+ "evolution.example.en": {
+  "lang": "en",
+  "text": "Darwin's theory of evolution changed science.",
+  "tier": "core"
+ },
+ "evolution.example.ja": {
+  "lang": "ja",
+  "text": "ダーウィンの進化論は科学を変えた。",
+  "tier": "core"
+ },
+ "evolution.katakana": {
+  "lang": "ja",
+  "text": "エボリューション",
+  "tier": "core"
+ },
+ "evolution.meaning": {
+  "lang": "ja",
+  "text": "進化、発展",
+  "tier": "core"
+ },
+ "evolution.story": {
+  "lang": "ja",
+  "text": "巻物をくるくる広げて中身が現れていく様子が「発展、進化」に。volume 巻、巻物 、revolve 回転する 、involve 巻き込む も volvere 家族。",
+  "tier": "extended"
+ },
+ "evolution.word": {
+  "lang": "en",
+  "text": "evolution",
+  "tier": "core"
+ },
+ "fan.example.en": {
+  "lang": "en",
+  "text": "I'm a huge fan of this anime.",
+  "tier": "core"
+ },
+ "fan.example.ja": {
+  "lang": "ja",
+  "text": "私はこのアニメの大ファンだ。",
+  "tier": "core"
+ },
+ "fan.katakana": {
+  "lang": "ja",
+  "text": "ファン",
+  "tier": "core"
+ },
+ "fan.meaning": {
+  "lang": "ja",
+  "text": "ファン、熱心な愛好者",
+  "tier": "core"
+ },
+ "fan.story": {
+  "lang": "ja",
+  "text": "神殿で神に取りつかれたように熱狂する人 、 19世紀アメリカの野球ファンを指す語に。",
+  "tier": "extended"
+ },
+ "fan.word": {
+  "lang": "en",
+  "text": "fan",
+  "tier": "core"
+ },
+ "gravity.example.en": {
+  "lang": "en",
+  "text": "There is almost no gravity in space.",
+  "tier": "core"
+ },
+ "gravity.example.ja": {
+  "lang": "ja",
+  "text": "宇宙にはほとんど重力がない。",
+  "tier": "core"
+ },
+ "gravity.katakana": {
+  "lang": "ja",
+  "text": "グラビティ",
+  "tier": "core"
+ },
+ "gravity.meaning": {
+  "lang": "ja",
+  "text": "重力、重大さ",
+  "tier": "core"
+ },
+ "gravity.story": {
+  "lang": "ja",
+  "text": "「重さ」から「事態の重大さ」も表す。grave 重大な 、grief 重い悲しみ も同源。",
+  "tier": "extended"
+ },
+ "gravity.word": {
+  "lang": "en",
+  "text": "gravity",
+  "tier": "core"
+ },
+ "guard.example.en": {
+  "lang": "en",
+  "text": "Two soldiers guard the gate.",
+  "tier": "core"
+ },
+ "guard.example.ja": {
+  "lang": "ja",
+  "text": "二人の兵士が門を守っている。",
+  "tier": "core"
+ },
+ "guard.katakana": {
+  "lang": "ja",
+  "text": "ガード",
+  "tier": "core"
+ },
+ "guard.meaning": {
+  "lang": "ja",
+  "text": "守る、見張る；護衛",
+  "tier": "core"
+ },
+ "guard.story": {
+  "lang": "ja",
+  "text": "英語 ward 病棟、見張る と同じ語。ゲルマン語の w がフランス語で gu になる法則 war ↔ guerre の代表例。",
+  "tier": "extended"
+ },
+ "guard.word": {
+  "lang": "en",
+  "text": "guard",
+  "tier": "core"
+ },
+ "guild.example.en": {
+  "lang": "en",
+  "text": "Only guild members may sell goods in this town.",
+  "tier": "core"
+ },
+ "guild.example.ja": {
+  "lang": "ja",
+  "text": "この町ではギルドの会員しか商品を売れない。",
+  "tier": "core"
+ },
+ "guild.katakana": {
+  "lang": "ja",
+  "text": "ギルド",
+  "tier": "core"
+ },
+ "guild.meaning": {
+  "lang": "ja",
+  "text": "中世の 同業者組合、ギルド",
+  "tier": "core"
+ },
+ "guild.story": {
+  "lang": "ja",
+  "text": "メンバーがお金 会費 を出し合って作る組合、が原義。yield 産出する、もとは「支払う」 と同系統とされる。",
+  "tier": "extended"
+ },
+ "guild.word": {
+  "lang": "en",
+  "text": "guild",
+  "tier": "core"
+ },
+ "hero.example.en": {
+  "lang": "en",
+  "text": "The firefighter was hailed as a hero.",
+  "tier": "core"
+ },
+ "hero.example.ja": {
+  "lang": "ja",
+  "text": "その消防士は英雄とたたえられた。",
+  "tier": "core"
+ },
+ "hero.katakana": {
+  "lang": "ja",
+  "text": "ヒーロー",
+  "tier": "core"
+ },
+ "hero.meaning": {
+  "lang": "ja",
+  "text": "英雄、主人公",
+  "tier": "core"
+ },
+ "hero.story": {
+  "lang": "ja",
+  "text": "ヘラクレスのような神と人の間の存在。女性形 heroine ヒロイン 。",
+  "tier": "extended"
+ },
+ "hero.word": {
+  "lang": "en",
+  "text": "hero",
+  "tier": "core"
+ },
+ "inventory.example.en": {
+  "lang": "en",
+  "text": "Your inventory is full. Drop an item.",
+  "tier": "core"
+ },
+ "inventory.example.ja": {
+  "lang": "ja",
+  "text": "持ち物がいっぱいです。アイテムを捨ててください。",
+  "tier": "core"
+ },
+ "inventory.katakana": {
+  "lang": "ja",
+  "text": "インベントリ",
+  "tier": "core"
+ },
+ "inventory.meaning": {
+  "lang": "ja",
+  "text": "在庫目録、所持品一覧",
+  "tier": "core"
+ },
+ "inventory.story": {
+  "lang": "ja",
+  "text": "「見つけたもののリスト」が原義。invent 発明、見つけ出す 、event 外へ出て来ること 、adventure やって来ること、冒険 も venire 家族。",
+  "tier": "extended"
+ },
+ "inventory.word": {
+  "lang": "en",
+  "text": "inventory",
+  "tier": "core"
+ },
+ "knight.example.en": {
+  "lang": "en",
+  "text": "The knight swore to protect the queen.",
+  "tier": "core"
+ },
+ "knight.example.ja": {
+  "lang": "ja",
+  "text": "騎士は女王を守ると誓った。",
+  "tier": "core"
+ },
+ "knight.katakana": {
+  "lang": "ja",
+  "text": "ナイト",
+  "tier": "core"
+ },
+ "knight.meaning": {
+  "lang": "ja",
+  "text": "騎士",
+  "tier": "core"
+ },
+ "knight.story": {
+  "lang": "ja",
+  "text": "「若い従者」、「主君に仕える戦士」、「騎士」と格上げされた。昔は k を発音していた ドイツ語 Knecht「下男」と同源 。",
+  "tier": "extended"
+ },
+ "knight.word": {
+  "lang": "en",
+  "text": "knight",
+  "tier": "core"
+ },
+ "launch.example.en": {
+  "lang": "en",
+  "text": "The rocket was launched at dawn.",
+  "tier": "core"
+ },
+ "launch.example.ja": {
+  "lang": "ja",
+  "text": "ロケットは夜明けに打ち上げられた。",
+  "tier": "core"
+ },
+ "launch.katakana": {
+  "lang": "ja",
+  "text": "ローンチ",
+  "tier": "core"
+ },
+ "launch.meaning": {
+  "lang": "ja",
+  "text": "発射する、開始する；発射",
+  "tier": "core"
+ },
+ "launch.story": {
+  "lang": "ja",
+  "text": "槍を投げる動作から「勢いよく送り出す」へ。lance 槍 と同源。",
+  "tier": "extended"
+ },
+ "launch.word": {
+  "lang": "en",
+  "text": "launch",
+  "tier": "core"
+ },
+ "legend.example.en": {
+  "lang": "en",
+  "text": "According to legend, the sword chooses its owner.",
+  "tier": "core"
+ },
+ "legend.example.ja": {
+  "lang": "ja",
+  "text": "伝説によると、その剣は持ち主を選ぶ。",
+  "tier": "core"
+ },
+ "legend.katakana": {
+  "lang": "ja",
+  "text": "レジェンド",
+  "tier": "core"
+ },
+ "legend.meaning": {
+  "lang": "ja",
+  "text": "伝説、伝説的人物",
+  "tier": "core"
+ },
+ "legend.story": {
+  "lang": "ja",
+  "text": "修道院で読まれる聖人伝を指した。lecture 講義、読み上げ 、collect 集める 、intelligent 間から選び取る も legere 家族。",
+  "tier": "extended"
+ },
+ "legend.word": {
+  "lang": "en",
+  "text": "legend",
+  "tier": "core"
+ },
+ "level.example.en": {
+  "lang": "en",
+  "text": "My character reached level 50.",
+  "tier": "core"
+ },
+ "level.example.ja": {
+  "lang": "ja",
+  "text": "私のキャラはレベル50に達した。",
+  "tier": "core"
+ },
+ "level.katakana": {
+  "lang": "ja",
+  "text": "レベル",
+  "tier": "core"
+ },
+ "level.meaning": {
+  "lang": "ja",
+  "text": "水準、段階、高さ",
+  "tier": "core"
+ },
+ "level.story": {
+  "lang": "ja",
+  "text": "水平を測る道具から「高さの水準」へ。星座の天秤座 Libra や、重さの単位 lb. ポンド も libra から。",
+  "tier": "extended"
+ },
+ "level.word": {
+  "lang": "en",
+  "text": "level",
+  "tier": "core"
+ },
+ "mana.example.en": {
+  "lang": "en",
+  "text": "Casting this spell costs a lot of mana.",
+  "tier": "core"
+ },
+ "mana.example.ja": {
+  "lang": "ja",
+  "text": "この呪文を唱えるには多くのマナが必要だ。",
+  "tier": "core"
+ },
+ "mana.katakana": {
+  "lang": "ja",
+  "text": "マナ",
+  "tier": "core"
+ },
+ "mana.meaning": {
+  "lang": "ja",
+  "text": "マナ 超自然的な力",
+  "tier": "core"
+ },
+ "mana.story": {
+  "lang": "ja",
+  "text": "19世紀の人類学者の報告を通じて英語に入り、20世紀にファンタジー小説やゲームで「魔力」として広まった。ラテン語系ではない珍しいゲーム用語。",
+  "tier": "extended"
+ },
+ "mana.word": {
+  "lang": "en",
+  "text": "mana",
+  "tier": "core"
+ },
+ "mentor.example.en": {
+  "lang": "en",
+  "text": "My coach was also my mentor in life.",
+  "tier": "core"
+ },
+ "mentor.example.ja": {
+  "lang": "ja",
+  "text": "コーチは人生の師でもあった。",
+  "tier": "core"
+ },
+ "mentor.katakana": {
+  "lang": "ja",
+  "text": "メンター",
+  "tier": "core"
+ },
+ "mentor.meaning": {
+  "lang": "ja",
+  "text": "指導者、師",
+  "tier": "core"
+ },
+ "mentor.story": {
+  "lang": "ja",
+  "text": "女神アテナがメントールの姿に化けて若きテレマコスを導いた。フランスの小説『テレマックの冒険』 1699 で「良き指導者」の意味が広まった。人名が普通名詞になった例。",
+  "tier": "extended"
+ },
+ "mentor.word": {
+  "lang": "en",
+  "text": "mentor",
+  "tier": "core"
+ },
+ "miracle.example.en": {
+  "lang": "en",
+  "text": "It's a miracle that nobody was hurt.",
+  "tier": "core"
+ },
+ "miracle.example.ja": {
+  "lang": "ja",
+  "text": "誰もけがをしなかったのは奇跡だ。",
+  "tier": "core"
+ },
+ "miracle.katakana": {
+  "lang": "ja",
+  "text": "ミラクル",
+  "tier": "core"
+ },
+ "miracle.meaning": {
+  "lang": "ja",
+  "text": "奇跡",
+  "tier": "core"
+ },
+ "miracle.story": {
+  "lang": "ja",
+  "text": "mirror 鏡、見て驚くもの 、admire 感嘆する 、mirage 蜃気楼 も同じ家族。",
+  "tier": "extended"
+ },
+ "miracle.word": {
+  "lang": "en",
+  "text": "miracle",
+  "tier": "core"
+ },
+ "mission.example.en": {
+  "lang": "en",
+  "text": "Your mission is to reach the space station.",
+  "tier": "core"
+ },
+ "mission.example.ja": {
+  "lang": "ja",
+  "text": "君の任務は宇宙ステーションに到達することだ。",
+  "tier": "core"
+ },
+ "mission.katakana": {
+  "lang": "ja",
+  "text": "ミッション",
+  "tier": "core"
+ },
+ "mission.meaning": {
+  "lang": "ja",
+  "text": "任務、使命",
+  "tier": "core"
+ },
+ "mission.story": {
+  "lang": "ja",
+  "text": "「送り出された者の仕事」。missile 発射されるもの 、message 送られる知らせ 、transmit 向こうへ送る も mittere 家族。",
+  "tier": "extended"
+ },
+ "mission.word": {
+  "lang": "en",
+  "text": "mission",
+  "tier": "core"
+ },
+ "monster.example.en": {
+  "lang": "en",
+  "text": "A huge monster appeared from the lake.",
+  "tier": "core"
+ },
+ "monster.example.ja": {
+  "lang": "ja",
+  "text": "湖から巨大な怪物が現れた。",
+  "tier": "core"
+ },
+ "monster.katakana": {
+  "lang": "ja",
+  "text": "モンスター",
+  "tier": "core"
+ },
+ "monster.meaning": {
+  "lang": "ja",
+  "text": "怪物",
+  "tier": "core"
+ },
+ "monster.story": {
+  "lang": "ja",
+  "text": "奇形の生き物は「神からの警告」と考えられていた。demonstrate はっきり示す と同じく「示す、警告する」がコア。",
+  "tier": "extended"
+ },
+ "monster.word": {
+  "lang": "en",
+  "text": "monster",
+  "tier": "core"
+ },
+ "naive.example.en": {
+  "lang": "en",
+  "text": "It was naive of me to trust him.",
+  "tier": "core"
+ },
+ "naive.example.ja": {
+  "lang": "ja",
+  "text": "彼を信じるなんて私が甘かった。",
+  "tier": "core"
+ },
+ "naive.katakana": {
+  "lang": "ja",
+  "text": "ナイーブ",
+  "tier": "core"
+ },
+ "naive.meaning": {
+  "lang": "ja",
+  "text": "世間知らずの、単純な",
+  "tier": "core"
+ },
+ "naive.story": {
+  "lang": "ja",
+  "text": "「生まれたまま、自然のまま」、「すれていない」、「世間知らず」。native 生まれつきの 、nature 自然 も同じ家族。",
+  "tier": "extended"
+ },
+ "naive.word": {
+  "lang": "en",
+  "text": "naive",
+  "tier": "core"
+ },
+ "pilot.example.en": {
+  "lang": "en",
+  "text": "The young pilot climbed into the robot's cockpit.",
+  "tier": "core"
+ },
+ "pilot.example.ja": {
+  "lang": "ja",
+  "text": "若きパイロットはロボットのコックピットに乗り込んだ。",
+  "tier": "core"
+ },
+ "pilot.katakana": {
+  "lang": "ja",
+  "text": "パイロット",
+  "tier": "core"
+ },
+ "pilot.meaning": {
+  "lang": "ja",
+  "text": "操縦士、水先案内人",
+  "tier": "core"
+ },
+ "pilot.story": {
+  "lang": "ja",
+  "text": "もとは船の舵取り 水先案内人 。飛行機やロボットの操縦士へ広がった。",
+  "tier": "extended"
+ },
+ "pilot.word": {
+  "lang": "en",
+  "text": "pilot",
+  "tier": "core"
+ },
+ "portal.example.en": {
+  "lang": "en",
+  "text": "Step into the portal to return to town.",
+  "tier": "core"
+ },
+ "portal.example.ja": {
+  "lang": "ja",
+  "text": "ポータルに入れば町に戻れる。",
+  "tier": "core"
+ },
+ "portal.katakana": {
+  "lang": "ja",
+  "text": "ポータル",
+  "tier": "core"
+ },
+ "portal.meaning": {
+  "lang": "ja",
+  "text": "入口、ワープゲート",
+  "tier": "core"
+ },
+ "portal.story": {
+  "lang": "ja",
+  "text": "立派な門 大聖堂の正面入口など を指した。Webの「ポータルサイト」は情報への入口。",
+  "tier": "extended"
+ },
+ "portal.word": {
+  "lang": "en",
+  "text": "portal",
+  "tier": "core"
+ },
+ "potion.example.en": {
+  "lang": "en",
+  "text": "She drank a healing potion before the boss fight.",
+  "tier": "core"
+ },
+ "potion.example.ja": {
+  "lang": "ja",
+  "text": "彼女はボス戦の前に回復薬を飲んだ。",
+  "tier": "core"
+ },
+ "potion.katakana": {
+  "lang": "ja",
+  "text": "ポーション",
+  "tier": "core"
+ },
+ "potion.meaning": {
+  "lang": "ja",
+  "text": "薬、魔法の 飲み薬、水薬",
+  "tier": "core"
+ },
+ "potion.story": {
+  "lang": "ja",
+  "text": "古フランス語 pocion を経て英語へ。同じ potio から生まれた poison 毒 は、もともと「 毒を盛った 飲み物」という意味だった。つまりポーションと毒は兄弟語。",
+  "tier": "extended"
+ },
+ "potion.word": {
+  "lang": "en",
+  "text": "potion",
+  "tier": "core"
+ },
+ "quest.example.en": {
+  "lang": "en",
+  "text": "The heroes set out on a quest to find the lost crown.",
+  "tier": "core"
+ },
+ "quest.example.ja": {
+  "lang": "ja",
+  "text": "英雄たちは失われた王冠を探す旅に出た。",
+  "tier": "core"
+ },
+ "quest.katakana": {
+  "lang": "ja",
+  "text": "クエスト",
+  "tier": "core"
+ },
+ "quest.meaning": {
+  "lang": "ja",
+  "text": "長く困難な 探求、探索の旅",
+  "tier": "core"
+ },
+ "quest.story": {
+  "lang": "ja",
+  "text": "「探し求める」が核の意味。question 問い、答えを探すこと 、request 再び求める 、conquest 求めて手に入れる、征服 はすべて同じ家族。",
+  "tier": "extended"
+ },
+ "quest.word": {
+  "lang": "en",
+  "text": "quest",
+  "tier": "core"
+ },
+ "rare.example.en": {
+  "lang": "en",
+  "text": "You got a rare sword from the chest!",
+  "tier": "core"
+ },
+ "rare.example.ja": {
+  "lang": "ja",
+  "text": "宝箱からレアな剣を手に入れた！",
+  "tier": "core"
+ },
+ "rare.katakana": {
+  "lang": "ja",
+  "text": "レア",
+  "tier": "core"
+ },
+ "rare.meaning": {
+  "lang": "ja",
+  "text": "まれな、珍しい",
+  "tier": "core"
+ },
+ "rare.story": {
+  "lang": "ja",
+  "text": "「隙間が多い、まばら」、「数が少ない」、「珍しい」。",
+  "tier": "extended"
+ },
+ "rare.word": {
+  "lang": "en",
+  "text": "rare",
+  "tier": "core"
+ },
+ "relic.example.en": {
+  "lang": "en",
+  "text": "The temple guards an ancient relic.",
+  "tier": "core"
+ },
+ "relic.example.ja": {
+  "lang": "ja",
+  "text": "その神殿は古代の遺物を守っている。",
+  "tier": "core"
+ },
+ "relic.katakana": {
+  "lang": "ja",
+  "text": "レリック",
+  "tier": "core"
+ },
+ "relic.meaning": {
+  "lang": "ja",
+  "text": "遺物、聖遺物",
+  "tier": "core"
+ },
+ "relic.story": {
+  "lang": "ja",
+  "text": "もとは聖人の遺骨、遺品 聖遺物 を指した。relinquish 手放す も同じ家族。",
+  "tier": "extended"
+ },
+ "relic.word": {
+  "lang": "en",
+  "text": "relic",
+  "tier": "core"
+ },
+ "revive.example.en": {
+  "lang": "en",
+  "text": "The healer revived the fallen knight.",
+  "tier": "core"
+ },
+ "revive.example.ja": {
+  "lang": "ja",
+  "text": "ヒーラーは倒れた騎士を蘇生させた。",
+  "tier": "core"
+ },
+ "revive.katakana": {
+  "lang": "ja",
+  "text": "リバイブ",
+  "tier": "core"
+ },
+ "revive.meaning": {
+  "lang": "ja",
+  "text": "生き返らせる、復活させる",
+  "tier": "core"
+ },
+ "revive.story": {
+  "lang": "ja",
+  "text": "survive 上回って生きる、生き残る 、vivid 生き生きした も vivere 家族。",
+  "tier": "extended"
+ },
+ "revive.word": {
+  "lang": "en",
+  "text": "revive",
+  "tier": "core"
+ },
+ "rival.example.en": {
+  "lang": "en",
+  "text": "The two schools have been rivals for years.",
+  "tier": "core"
+ },
+ "rival.example.ja": {
+  "lang": "ja",
+  "text": "その2校は長年のライバルだ。",
+  "tier": "core"
+ },
+ "rival.katakana": {
+  "lang": "ja",
+  "text": "ライバル",
+  "tier": "core"
+ },
+ "rival.meaning": {
+  "lang": "ja",
+  "text": "競争相手、好敵手",
+  "tier": "core"
+ },
+ "rival.story": {
+  "lang": "ja",
+  "text": "同じ小川の水を分け合う 奪い合う 隣人が語源。derive 川から水を引く、由来する も rivus から。",
+  "tier": "extended"
+ },
+ "rival.word": {
+  "lang": "en",
+  "text": "rival",
+  "tier": "core"
+ },
+ "rookie.example.en": {
+  "lang": "en",
+  "text": "Not bad for a rookie!",
+  "tier": "core"
+ },
+ "rookie.example.ja": {
+  "lang": "ja",
+  "text": "新人にしてはやるじゃないか！",
+  "tier": "core"
+ },
+ "rookie.katakana": {
+  "lang": "ja",
+  "text": "ルーキー",
+  "tier": "core"
+ },
+ "rookie.meaning": {
+  "lang": "ja",
+  "text": "新人、新兵",
+  "tier": "core"
+ },
+ "rookie.story": {
+  "lang": "ja",
+  "text": "語源ははっきりせず諸説ある。スポーツの新人を指すのは主にアメリカ英語。",
+  "tier": "extended"
+ },
+ "rookie.word": {
+  "lang": "en",
+  "text": "rookie",
+  "tier": "core"
+ },
+ "sacrifice.example.en": {
+  "lang": "en",
+  "text": "He sacrificed his free time to help his friends.",
+  "tier": "core"
+ },
+ "sacrifice.example.ja": {
+  "lang": "ja",
+  "text": "彼は友人を助けるために自由な時間を犠牲にした。",
+  "tier": "core"
+ },
+ "sacrifice.katakana": {
+  "lang": "ja",
+  "text": "サクリファイス",
+  "tier": "core"
+ },
+ "sacrifice.meaning": {
+  "lang": "ja",
+  "text": "犠牲 にする 、いけにえ",
+  "tier": "core"
+ },
+ "sacrifice.story": {
+  "lang": "ja",
+  "text": "「神聖なものにする」、神に捧げる 、 犠牲。sacred 神聖な 、factory 作る所 と同じ家族。",
+  "tier": "extended"
+ },
+ "sacrifice.word": {
+  "lang": "en",
+  "text": "sacrifice",
+  "tier": "core"
+ },
+ "signal.example.en": {
+  "lang": "en",
+  "text": "We received a signal from an unknown planet.",
+  "tier": "core"
+ },
+ "signal.example.ja": {
+  "lang": "ja",
+  "text": "未知の惑星から信号を受信した。",
+  "tier": "core"
+ },
+ "signal.katakana": {
+  "lang": "ja",
+  "text": "シグナル",
+  "tier": "core"
+ },
+ "signal.meaning": {
+  "lang": "ja",
+  "text": "信号、合図",
+  "tier": "core"
+ },
+ "signal.story": {
+  "lang": "ja",
+  "text": "sign 印、合図 、signature 署名 、design 印をつけて描く も signum 家族。",
+  "tier": "extended"
+ },
+ "signal.word": {
+  "lang": "en",
+  "text": "signal",
+  "tier": "core"
+ },
+ "smart.example.en": {
+  "lang": "en",
+  "text": "She's the smartest student in our class.",
+  "tier": "core"
+ },
+ "smart.example.ja": {
+  "lang": "ja",
+  "text": "彼女はクラスで一番頭がいい生徒だ。",
+  "tier": "core"
+ },
+ "smart.katakana": {
+  "lang": "ja",
+  "text": "スマート",
+  "tier": "core"
+ },
+ "smart.meaning": {
+  "lang": "ja",
+  "text": "賢い、洗練された、おしゃれな",
+  "tier": "core"
+ },
+ "smart.story": {
+  "lang": "ja",
+  "text": "「刺すように痛い」、「鋭い」、「頭の切れる」「きびきびした」と変化。今でも動詞 smart は「ひりひり痛む」の意味で使われる。",
+  "tier": "extended"
+ },
+ "smart.word": {
+  "lang": "en",
+  "text": "smart",
+  "tier": "core"
+ },
+ "spell.example.en": {
+  "lang": "en",
+  "text": "The witch cast a sleeping spell on the princess.",
+  "tier": "core"
+ },
+ "spell.example.ja": {
+  "lang": "ja",
+  "text": "魔女は王女に眠りの呪文をかけた。",
+  "tier": "core"
+ },
+ "spell.katakana": {
+  "lang": "ja",
+  "text": "スペル",
+  "tier": "core"
+ },
+ "spell.meaning": {
+  "lang": "ja",
+  "text": "呪文、魔法",
+  "tier": "core"
+ },
+ "spell.story": {
+  "lang": "ja",
+  "text": "言葉そのものに力が宿ると信じられ「言葉」、「呪文」に。gospel 福音 は god spell「良い知らせ」から。動詞 spell つづる は古フランス語経由で入った別ルートの語。",
+  "tier": "extended"
+ },
+ "spell.word": {
+  "lang": "en",
+  "text": "spell",
+  "tier": "core"
+ },
+ "spirit.example.en": {
+  "lang": "en",
+  "text": "The team showed great fighting spirit.",
+  "tier": "core"
+ },
+ "spirit.example.ja": {
+  "lang": "ja",
+  "text": "チームは素晴らしい闘志を見せた。",
+  "tier": "core"
+ },
+ "spirit.katakana": {
+  "lang": "ja",
+  "text": "スピリット",
+  "tier": "core"
+ },
+ "spirit.meaning": {
+  "lang": "ja",
+  "text": "精神、霊、気力",
+  "tier": "core"
+ },
+ "spirit.story": {
+  "lang": "ja",
+  "text": "「息」、命の源 、「魂、精神」。inspire 息を吹き込む、ひらめかせる 、expire 息を吐き出す、期限が切れる も同じ家族。",
+  "tier": "extended"
+ },
+ "spirit.word": {
+  "lang": "en",
+  "text": "spirit",
+  "tier": "core"
+ },
+ "stage.example.en": {
+  "lang": "en",
+  "text": "The project is still in its early stages.",
+  "tier": "core"
+ },
+ "stage.example.ja": {
+  "lang": "ja",
+  "text": "そのプロジェクトはまだ初期段階だ。",
+  "tier": "core"
+ },
+ "stage.katakana": {
+  "lang": "ja",
+  "text": "ステージ",
+  "tier": "core"
+ },
+ "stage.meaning": {
+  "lang": "ja",
+  "text": "舞台、段階",
+  "tier": "core"
+ },
+ "stage.story": {
+  "lang": "ja",
+  "text": "「立つ場所」、「階、段」、「舞台、段階」。status、station、obstacle と同じ stare 家族。",
+  "tier": "extended"
+ },
+ "stage.word": {
+  "lang": "en",
+  "text": "stage",
+  "tier": "core"
+ },
+ "stealth.example.en": {
+  "lang": "en",
+  "text": "The ninja moved with great stealth.",
+  "tier": "core"
+ },
+ "stealth.example.ja": {
+  "lang": "ja",
+  "text": "忍者はとても静かに忍び歩いた。",
+  "tier": "core"
+ },
+ "stealth.katakana": {
+  "lang": "ja",
+  "text": "ステルス",
+  "tier": "core"
+ },
+ "stealth.meaning": {
+  "lang": "ja",
+  "text": "隠密、こっそりすること",
+  "tier": "core"
+ },
+ "stealth.story": {
+  "lang": "ja",
+  "text": "grow、growth, true、truth と同じ作り方。「盗み」、「こっそりやること」。",
+  "tier": "extended"
+ },
+ "stealth.word": {
+  "lang": "en",
+  "text": "stealth",
+  "tier": "core"
+ },
+ "summon.example.en": {
+  "lang": "en",
+  "text": "The wizard summoned a fire spirit.",
+  "tier": "core"
+ },
+ "summon.example.ja": {
+  "lang": "ja",
+  "text": "魔法使いは火の精霊を召喚した。",
+  "tier": "core"
+ },
+ "summon.katakana": {
+  "lang": "ja",
+  "text": "サモン サモナー",
+  "tier": "core"
+ },
+ "summon.meaning": {
+  "lang": "ja",
+  "text": "呼び出す、召喚する",
+  "tier": "core"
+ },
+ "summon.story": {
+  "lang": "ja",
+  "text": "「こっそり思い出させる」、 中世には「法廷へ呼び出す」の意味に。monster 神からの警告 も同じ monere 家族なので、「モンスターをサモンする」は語源的に親戚同士。",
+  "tier": "extended"
+ },
+ "summon.word": {
+  "lang": "en",
+  "text": "summon",
+  "tier": "core"
+ },
+ "syn.adversary": {
+  "lang": "en",
+  "text": "adversary",
+  "tier": "core"
+ },
+ "syn.aim": {
+  "lang": "en",
+  "text": "aim",
+  "tier": "core"
+ },
+ "syn.alert": {
+  "lang": "en",
+  "text": "alert",
+  "tier": "core"
+ },
+ "syn.alter-ego": {
+  "lang": "en",
+  "text": "alter ego",
+  "tier": "core"
+ },
+ "syn.antagonist": {
+  "lang": "en",
+  "text": "antagonist",
+  "tier": "core"
+ },
+ "syn.armament": {
+  "lang": "en",
+  "text": "armament",
+  "tier": "core"
+ },
+ "syn.artifact": {
+  "lang": "en",
+  "text": "artifact",
+  "tier": "core"
+ },
+ "syn.assault": {
+  "lang": "en",
+  "text": "assault",
+  "tier": "core"
+ },
+ "syn.assert": {
+  "lang": "en",
+  "text": "assert",
+  "tier": "core"
+ },
+ "syn.assignment": {
+  "lang": "en",
+  "text": "assignment",
+  "tier": "core"
+ },
+ "syn.attempt": {
+  "lang": "en",
+  "text": "attempt",
+  "tier": "core"
+ },
+ "syn.aura": {
+  "lang": "en",
+  "text": "aura",
+  "tier": "core"
+ },
+ "syn.automaton": {
+  "lang": "en",
+  "text": "automaton",
+  "tier": "core"
+ },
+ "syn.beacon": {
+  "lang": "en",
+  "text": "beacon",
+  "tier": "core"
+ },
+ "syn.beast": {
+  "lang": "en",
+  "text": "beast",
+  "tier": "core"
+ },
+ "syn.beginner": {
+  "lang": "en",
+  "text": "beginner",
+  "tier": "core"
+ },
+ "syn.bold": {
+  "lang": "en",
+  "text": "bold",
+  "tier": "core"
+ },
+ "syn.call-forth": {
+  "lang": "en",
+  "text": "call forth",
+  "tier": "core"
+ },
+ "syn.captain": {
+  "lang": "en",
+  "text": "captain",
+  "tier": "core"
+ },
+ "syn.catalog": {
+  "lang": "en",
+  "text": "catalog",
+  "tier": "core"
+ },
+ "syn.cause": {
+  "lang": "en",
+  "text": "cause",
+  "tier": "core"
+ },
+ "syn.cavalier": {
+  "lang": "en",
+  "text": "cavalier",
+  "tier": "core"
+ },
+ "syn.cell": {
+  "lang": "en",
+  "text": "cell",
+  "tier": "core"
+ },
+ "syn.chain": {
+  "lang": "en",
+  "text": "chain",
+  "tier": "core"
+ },
+ "syn.champion": {
+  "lang": "en",
+  "text": "champion",
+  "tier": "core"
+ },
+ "syn.charm": {
+  "lang": "en",
+  "text": "charm",
+  "tier": "core"
+ },
+ "syn.cheating": {
+  "lang": "en",
+  "text": "cheating",
+  "tier": "core"
+ },
+ "syn.chief": {
+  "lang": "en",
+  "text": "chief",
+  "tier": "core"
+ },
+ "syn.clan": {
+  "lang": "en",
+  "text": "clan",
+  "tier": "core"
+ },
+ "syn.clever": {
+  "lang": "en",
+  "text": "clever",
+  "tier": "core"
+ },
+ "syn.coach": {
+  "lang": "en",
+  "text": "coach",
+  "tier": "core"
+ },
+ "syn.competitor": {
+  "lang": "en",
+  "text": "competitor",
+  "tier": "core"
+ },
+ "syn.complaint": {
+  "lang": "en",
+  "text": "complaint",
+  "tier": "core"
+ },
+ "syn.conjure": {
+  "lang": "en",
+  "text": "conjure",
+  "tier": "core"
+ },
+ "syn.courageous": {
+  "lang": "en",
+  "text": "courageous",
+  "tier": "core"
+ },
+ "syn.covert": {
+  "lang": "en",
+  "text": "covert",
+  "tier": "core"
+ },
+ "syn.crafty": {
+  "lang": "en",
+  "text": "crafty",
+  "tier": "core"
+ },
+ "syn.creature": {
+  "lang": "en",
+  "text": "creature",
+  "tier": "core"
+ },
+ "syn.crisis": {
+  "lang": "en",
+  "text": "crisis",
+  "tier": "core"
+ },
+ "syn.crucial": {
+  "lang": "en",
+  "text": "crucial",
+  "tier": "core"
+ },
+ "syn.cue": {
+  "lang": "en",
+  "text": "cue",
+  "tier": "core"
+ },
+ "syn.curse": {
+  "lang": "en",
+  "text": "curse",
+  "tier": "core"
+ },
+ "syn.cyborg": {
+  "lang": "en",
+  "text": "cyborg",
+  "tier": "core"
+ },
+ "syn.dare": {
+  "lang": "en",
+  "text": "dare",
+  "tier": "core"
+ },
+ "syn.decisive": {
+  "lang": "en",
+  "text": "decisive",
+  "tier": "core"
+ },
+ "syn.defend": {
+  "lang": "en",
+  "text": "defend",
+  "tier": "core"
+ },
+ "syn.demand": {
+  "lang": "en",
+  "text": "demand",
+  "tier": "core"
+ },
+ "syn.deploy": {
+  "lang": "en",
+  "text": "deploy",
+  "tier": "core"
+ },
+ "syn.development": {
+  "lang": "en",
+  "text": "development",
+  "tier": "core"
+ },
+ "syn.devotee": {
+  "lang": "en",
+  "text": "devotee",
+  "tier": "core"
+ },
+ "syn.dodge": {
+  "lang": "en",
+  "text": "dodge",
+  "tier": "core"
+ },
+ "syn.doom": {
+  "lang": "en",
+  "text": "doom",
+  "tier": "core"
+ },
+ "syn.draught": {
+  "lang": "en",
+  "text": "draught",
+  "tier": "core"
+ },
+ "syn.elixir": {
+  "lang": "en",
+  "text": "elixir",
+  "tier": "core"
+ },
+ "syn.embodiment": {
+  "lang": "en",
+  "text": "embodiment",
+  "tier": "core"
+ },
+ "syn.energy": {
+  "lang": "en",
+  "text": "energy",
+  "tier": "core"
+ },
+ "syn.enthusiast": {
+  "lang": "en",
+  "text": "enthusiast",
+  "tier": "core"
+ },
+ "syn.evade": {
+  "lang": "en",
+  "text": "evade",
+  "tier": "core"
+ },
+ "syn.excitement": {
+  "lang": "en",
+  "text": "excitement",
+  "tier": "core"
+ },
+ "syn.expedition": {
+  "lang": "en",
+  "text": "expedition",
+  "tier": "core"
+ },
+ "syn.expert": {
+  "lang": "en",
+  "text": "expert",
+  "tier": "core"
+ },
+ "syn.extreme": {
+  "lang": "en",
+  "text": "extreme",
+  "tier": "core"
+ },
+ "syn.fable": {
+  "lang": "en",
+  "text": "fable",
+  "tier": "core"
+ },
+ "syn.fate": {
+  "lang": "en",
+  "text": "fate",
+  "tier": "core"
+ },
+ "syn.fiend": {
+  "lang": "en",
+  "text": "fiend",
+  "tier": "core"
+ },
+ "syn.final": {
+  "lang": "en",
+  "text": "final",
+  "tier": "core"
+ },
+ "syn.fire": {
+  "lang": "en",
+  "text": "fire",
+  "tier": "core"
+ },
+ "syn.flash": {
+  "lang": "en",
+  "text": "flash",
+  "tier": "core"
+ },
+ "syn.flee": {
+  "lang": "en",
+  "text": "flee",
+  "tier": "core"
+ },
+ "syn.force-field": {
+  "lang": "en",
+  "text": "force field",
+  "tier": "core"
+ },
+ "syn.forfeit": {
+  "lang": "en",
+  "text": "forfeit",
+  "tier": "core"
+ },
+ "syn.fortune": {
+  "lang": "en",
+  "text": "fortune",
+  "tier": "core"
+ },
+ "syn.framework": {
+  "lang": "en",
+  "text": "framework",
+  "tier": "core"
+ },
+ "syn.frenzied": {
+  "lang": "en",
+  "text": "frenzied",
+  "tier": "core"
+ },
+ "syn.furious": {
+  "lang": "en",
+  "text": "furious",
+  "tier": "core"
+ },
+ "syn.gate": {
+  "lang": "en",
+  "text": "gate",
+  "tier": "core"
+ },
+ "syn.gateway": {
+  "lang": "en",
+  "text": "gateway",
+  "tier": "core"
+ },
+ "syn.gear": {
+  "lang": "en",
+  "text": "gear",
+  "tier": "core"
+ },
+ "syn.ghost": {
+  "lang": "en",
+  "text": "ghost",
+  "tier": "core"
+ },
+ "syn.goal": {
+  "lang": "en",
+  "text": "goal",
+  "tier": "core"
+ },
+ "syn.grade": {
+  "lang": "en",
+  "text": "grade",
+  "tier": "core"
+ },
+ "syn.guide": {
+  "lang": "en",
+  "text": "guide",
+  "tier": "core"
+ },
+ "syn.gullible": {
+  "lang": "en",
+  "text": "gullible",
+  "tier": "core"
+ },
+ "syn.harm": {
+  "lang": "en",
+  "text": "harm",
+  "tier": "core"
+ },
+ "syn.heirloom": {
+  "lang": "en",
+  "text": "heirloom",
+  "tier": "core"
+ },
+ "syn.hoard": {
+  "lang": "en",
+  "text": "hoard",
+  "tier": "core"
+ },
+ "syn.idol": {
+  "lang": "en",
+  "text": "idol",
+  "tier": "core"
+ },
+ "syn.incantation": {
+  "lang": "en",
+  "text": "incantation",
+  "tier": "core"
+ },
+ "syn.incarnation": {
+  "lang": "en",
+  "text": "incarnation",
+  "tier": "core"
+ },
+ "syn.injury": {
+  "lang": "en",
+  "text": "injury",
+  "tier": "core"
+ },
+ "syn.innocent": {
+  "lang": "en",
+  "text": "innocent",
+  "tier": "core"
+ },
+ "syn.intelligent": {
+  "lang": "en",
+  "text": "intelligent",
+  "tier": "core"
+ },
+ "syn.invoke": {
+  "lang": "en",
+  "text": "invoke",
+  "tier": "core"
+ },
+ "syn.labyrinth": {
+  "lang": "en",
+  "text": "labyrinth",
+  "tier": "core"
+ },
+ "syn.laser": {
+  "lang": "en",
+  "text": "laser",
+  "tier": "core"
+ },
+ "syn.leader": {
+  "lang": "en",
+  "text": "leader",
+  "tier": "core"
+ },
+ "syn.league": {
+  "lang": "en",
+  "text": "league",
+  "tier": "core"
+ },
+ "syn.loot": {
+  "lang": "en",
+  "text": "loot",
+  "tier": "core"
+ },
+ "syn.lore": {
+  "lang": "en",
+  "text": "lore",
+  "tier": "core"
+ },
+ "syn.mail": {
+  "lang": "en",
+  "text": "mail",
+  "tier": "core"
+ },
+ "syn.marvel": {
+  "lang": "en",
+  "text": "marvel",
+  "tier": "core"
+ },
+ "syn.mass": {
+  "lang": "en",
+  "text": "mass",
+  "tier": "core"
+ },
+ "syn.master": {
+  "lang": "en",
+  "text": "master",
+  "tier": "core"
+ },
+ "syn.mechanism": {
+  "lang": "en",
+  "text": "mechanism",
+  "tier": "core"
+ },
+ "syn.mission": {
+  "lang": "en",
+  "text": "mission",
+  "tier": "core"
+ },
+ "syn.morale": {
+  "lang": "en",
+  "text": "morale",
+  "tier": "core"
+ },
+ "syn.mutation": {
+  "lang": "en",
+  "text": "mutation",
+  "tier": "core"
+ },
+ "syn.myth": {
+  "lang": "en",
+  "text": "myth",
+  "tier": "core"
+ },
+ "syn.navigator": {
+  "lang": "en",
+  "text": "navigator",
+  "tier": "core"
+ },
+ "syn.nemesis": {
+  "lang": "en",
+  "text": "nemesis",
+  "tier": "core"
+ },
+ "syn.newcomer": {
+  "lang": "en",
+  "text": "newcomer",
+  "tier": "core"
+ },
+ "syn.novice": {
+  "lang": "en",
+  "text": "novice",
+  "tier": "core"
+ },
+ "syn.objective": {
+  "lang": "en",
+  "text": "objective",
+  "tier": "core"
+ },
+ "syn.obstacle": {
+  "lang": "en",
+  "text": "obstacle",
+  "tier": "core"
+ },
+ "syn.offering": {
+  "lang": "en",
+  "text": "offering",
+  "tier": "core"
+ },
+ "syn.operation": {
+  "lang": "en",
+  "text": "operation",
+  "tier": "core"
+ },
+ "syn.operator": {
+  "lang": "en",
+  "text": "operator",
+  "tier": "core"
+ },
+ "syn.opponent": {
+  "lang": "en",
+  "text": "opponent",
+  "tier": "core"
+ },
+ "syn.outfit": {
+  "lang": "en",
+  "text": "outfit",
+  "tier": "core"
+ },
+ "syn.paladin": {
+  "lang": "en",
+  "text": "paladin",
+  "tier": "core"
+ },
+ "syn.phase": {
+  "lang": "en",
+  "text": "phase",
+  "tier": "core"
+ },
+ "syn.phenomenon": {
+  "lang": "en",
+  "text": "phenomenon",
+  "tier": "core"
+ },
+ "syn.pinch": {
+  "lang": "en",
+  "text": "pinch",
+  "tier": "core"
+ },
+ "syn.plane": {
+  "lang": "en",
+  "text": "plane",
+  "tier": "core"
+ },
+ "syn.plating": {
+  "lang": "en",
+  "text": "plating",
+  "tier": "core"
+ },
+ "syn.precious": {
+  "lang": "en",
+  "text": "precious",
+  "tier": "core"
+ },
+ "syn.prison": {
+  "lang": "en",
+  "text": "prison",
+  "tier": "core"
+ },
+ "syn.progress": {
+  "lang": "en",
+  "text": "progress",
+  "tier": "core"
+ },
+ "syn.protagonist": {
+  "lang": "en",
+  "text": "protagonist",
+  "tier": "core"
+ },
+ "syn.protect": {
+  "lang": "en",
+  "text": "protect",
+  "tier": "core"
+ },
+ "syn.protection": {
+  "lang": "en",
+  "text": "protection",
+  "tier": "core"
+ },
+ "syn.provoke": {
+  "lang": "en",
+  "text": "provoke",
+  "tier": "core"
+ },
+ "syn.pursuit": {
+  "lang": "en",
+  "text": "pursuit",
+  "tier": "core"
+ },
+ "syn.raid": {
+  "lang": "en",
+  "text": "raid",
+  "tier": "core"
+ },
+ "syn.rampage": {
+  "lang": "en",
+  "text": "rampage",
+  "tier": "core"
+ },
+ "syn.rank": {
+  "lang": "en",
+  "text": "rank",
+  "tier": "core"
+ },
+ "syn.ray": {
+  "lang": "en",
+  "text": "ray",
+  "tier": "core"
+ },
+ "syn.realm": {
+  "lang": "en",
+  "text": "realm",
+  "tier": "core"
+ },
+ "syn.release": {
+  "lang": "en",
+  "text": "release",
+  "tier": "core"
+ },
+ "syn.remedy": {
+  "lang": "en",
+  "text": "remedy",
+  "tier": "core"
+ },
+ "syn.remnant": {
+  "lang": "en",
+  "text": "remnant",
+  "tier": "core"
+ },
+ "syn.restore": {
+  "lang": "en",
+  "text": "restore",
+  "tier": "core"
+ },
+ "syn.resurrect": {
+  "lang": "en",
+  "text": "resurrect",
+  "tier": "core"
+ },
+ "syn.resuscitate": {
+  "lang": "en",
+  "text": "resuscitate",
+  "tier": "core"
+ },
+ "syn.retaliate": {
+  "lang": "en",
+  "text": "retaliate",
+  "tier": "core"
+ },
+ "syn.riposte": {
+  "lang": "en",
+  "text": "riposte",
+  "tier": "core"
+ },
+ "syn.robot": {
+  "lang": "en",
+  "text": "robot",
+  "tier": "core"
+ },
+ "syn.rogue": {
+  "lang": "en",
+  "text": "rogue",
+  "tier": "core"
+ },
+ "syn.round": {
+  "lang": "en",
+  "text": "round",
+  "tier": "core"
+ },
+ "syn.saga": {
+  "lang": "en",
+  "text": "saga",
+  "tier": "core"
+ },
+ "syn.scarce": {
+  "lang": "en",
+  "text": "scarce",
+  "tier": "core"
+ },
+ "syn.secrecy": {
+  "lang": "en",
+  "text": "secrecy",
+  "tier": "core"
+ },
+ "syn.sensitive": {
+  "lang": "en",
+  "text": "sensitive",
+  "tier": "core"
+ },
+ "syn.sequence": {
+  "lang": "en",
+  "text": "sequence",
+  "tier": "core"
+ },
+ "syn.seriousness": {
+  "lang": "en",
+  "text": "seriousness",
+  "tier": "core"
+ },
+ "syn.serpent": {
+  "lang": "en",
+  "text": "serpent",
+  "tier": "core"
+ },
+ "syn.shield": {
+  "lang": "en",
+  "text": "shield",
+  "tier": "core"
+ },
+ "syn.slender": {
+  "lang": "en",
+  "text": "slender",
+  "tier": "core"
+ },
+ "syn.sly": {
+  "lang": "en",
+  "text": "sly",
+  "tier": "core"
+ },
+ "syn.sneaky": {
+  "lang": "en",
+  "text": "sneaky",
+  "tier": "core"
+ },
+ "syn.soul": {
+  "lang": "en",
+  "text": "soul",
+  "tier": "core"
+ },
+ "syn.spark": {
+  "lang": "en",
+  "text": "spark",
+  "tier": "core"
+ },
+ "syn.step": {
+  "lang": "en",
+  "text": "step",
+  "tier": "core"
+ },
+ "syn.stock": {
+  "lang": "en",
+  "text": "stock",
+  "tier": "core"
+ },
+ "syn.strain": {
+  "lang": "en",
+  "text": "strain",
+  "tier": "core"
+ },
+ "syn.streak": {
+  "lang": "en",
+  "text": "streak",
+  "tier": "core"
+ },
+ "syn.stress": {
+  "lang": "en",
+  "text": "stress",
+  "tier": "core"
+ },
+ "syn.strike": {
+  "lang": "en",
+  "text": "strike",
+  "tier": "core"
+ },
+ "syn.strike-back": {
+  "lang": "en",
+  "text": "strike back",
+  "tier": "core"
+ },
+ "syn.structure": {
+  "lang": "en",
+  "text": "structure",
+  "tier": "core"
+ },
+ "syn.supply": {
+  "lang": "en",
+  "text": "supply",
+  "tier": "core"
+ },
+ "syn.supporter": {
+  "lang": "en",
+  "text": "supporter",
+  "tier": "core"
+ },
+ "syn.supreme": {
+  "lang": "en",
+  "text": "supreme",
+  "tier": "core"
+ },
+ "syn.surrender": {
+  "lang": "en",
+  "text": "surrender",
+  "tier": "core"
+ },
+ "syn.task": {
+  "lang": "en",
+  "text": "task",
+  "tier": "core"
+ },
+ "syn.threshold": {
+  "lang": "en",
+  "text": "threshold",
+  "tier": "core"
+ },
+ "syn.tier": {
+  "lang": "en",
+  "text": "tier",
+  "tier": "core"
+ },
+ "syn.trial": {
+  "lang": "en",
+  "text": "trial",
+  "tier": "core"
+ },
+ "syn.tutor": {
+  "lang": "en",
+  "text": "tutor",
+  "tier": "core"
+ },
+ "syn.union": {
+  "lang": "en",
+  "text": "union",
+  "tier": "core"
+ },
+ "syn.unique": {
+  "lang": "en",
+  "text": "unique",
+  "tier": "core"
+ },
+ "syn.urgency": {
+  "lang": "en",
+  "text": "urgency",
+  "tier": "core"
+ },
+ "syn.valiant": {
+  "lang": "en",
+  "text": "valiant",
+  "tier": "core"
+ },
+ "syn.vigor": {
+  "lang": "en",
+  "text": "vigor",
+  "tier": "core"
+ },
+ "syn.virtuoso": {
+  "lang": "en",
+  "text": "virtuoso",
+  "tier": "core"
+ },
+ "syn.vital": {
+  "lang": "en",
+  "text": "vital",
+  "tier": "core"
+ },
+ "syn.wall": {
+  "lang": "en",
+  "text": "wall",
+  "tier": "core"
+ },
+ "syn.warrior": {
+  "lang": "en",
+  "text": "warrior",
+  "tier": "core"
+ },
+ "syn.weight": {
+  "lang": "en",
+  "text": "weight",
+  "tier": "core"
+ },
+ "syn.wonder": {
+  "lang": "en",
+  "text": "wonder",
+  "tier": "core"
+ },
+ "syn.world": {
+  "lang": "en",
+  "text": "world",
+  "tier": "core"
+ },
+ "syn.wound": {
+  "lang": "en",
+  "text": "wound",
+  "tier": "core"
+ },
+ "syn.wyrm": {
+  "lang": "en",
+  "text": "wyrm",
+  "tier": "core"
+ },
+ "syn.wyvern": {
+  "lang": "en",
+  "text": "wyvern",
+  "tier": "core"
+ },
+ "system.example.en": {
+  "lang": "en",
+  "text": "The ship's defense system is offline.",
+  "tier": "core"
+ },
+ "system.example.ja": {
+  "lang": "ja",
+  "text": "船の防衛システムが停止している。",
+  "tier": "core"
+ },
+ "system.katakana": {
+  "lang": "ja",
+  "text": "システム",
+  "tier": "core"
+ },
+ "system.meaning": {
+  "lang": "ja",
+  "text": "体系、仕組み、装置",
+  "tier": "core"
+ },
+ "system.story": {
+  "lang": "ja",
+  "text": "「一緒に立てたもの」。histanai はラテン語 stare 立つ と同じ祖先をもつので、stage や status の遠い親戚。",
+  "tier": "extended"
+ },
+ "system.word": {
+  "lang": "en",
+  "text": "system",
+  "tier": "core"
+ },
+ "target.example.en": {
+  "lang": "en",
+  "text": "Lock on to the target and fire.",
+  "tier": "core"
+ },
+ "target.example.ja": {
+  "lang": "ja",
+  "text": "標的をロックオンして撃て。",
+  "tier": "core"
+ },
+ "target.katakana": {
+  "lang": "ja",
+  "text": "ターゲット",
+  "tier": "core"
+ },
+ "target.meaning": {
+  "lang": "ja",
+  "text": "標的、目標",
+  "tier": "core"
+ },
+ "target.story": {
+  "lang": "ja",
+  "text": "弓の的が丸い小盾の形をしていたことから「標的」に。",
+  "tier": "extended"
+ },
+ "target.word": {
+  "lang": "en",
+  "text": "target",
+  "tier": "core"
+ },
+ "tension.example.en": {
+  "lang": "en",
+  "text": "You could feel the tension in the room before the final.",
+  "tier": "core"
+ },
+ "tension.example.ja": {
+  "lang": "ja",
+  "text": "決勝前、部屋の張り詰めた空気が感じられた。",
+  "tier": "core"
+ },
+ "tension.katakana": {
+  "lang": "ja",
+  "text": "テンション",
+  "tier": "core"
+ },
+ "tension.meaning": {
+  "lang": "ja",
+  "text": "緊張、張り詰めた状態",
+  "tier": "core"
+ },
+ "tension.story": {
+  "lang": "ja",
+  "text": "糸がピンと張った状態。attention 心をそちらへ伸ばす 、extend 外へ伸ばす も同じ家族。",
+  "tier": "extended"
+ },
+ "tension.word": {
+  "lang": "en",
+  "text": "tension",
+  "tier": "core"
+ },
+ "treasure.example.en": {
+  "lang": "en",
+  "text": "They dug up a chest full of treasure.",
+  "tier": "core"
+ },
+ "treasure.example.ja": {
+  "lang": "ja",
+  "text": "彼らは宝物でいっぱいの箱を掘り出した。",
+  "tier": "core"
+ },
+ "treasure.katakana": {
+  "lang": "ja",
+  "text": "トレジャー",
+  "tier": "core"
+ },
+ "treasure.meaning": {
+  "lang": "ja",
+  "text": "宝物、財宝",
+  "tier": "core"
+ },
+ "treasure.story": {
+  "lang": "ja",
+  "text": "類語辞典 thesaurus シソーラス は「言葉の宝庫」という意味で、treasure と同じ語。",
+  "tier": "extended"
+ },
+ "treasure.word": {
+  "lang": "en",
+  "text": "treasure",
+  "tier": "core"
+ },
+ "trigger.example.en": {
+  "lang": "en",
+  "text": "The loud noise triggered his memories of the war.",
+  "tier": "core"
+ },
+ "trigger.example.ja": {
+  "lang": "ja",
+  "text": "大きな音が彼に戦争の記憶を呼び起こした。",
+  "tier": "core"
+ },
+ "trigger.katakana": {
+  "lang": "ja",
+  "text": "トリガー",
+  "tier": "core"
+ },
+ "trigger.meaning": {
+  "lang": "ja",
+  "text": "引き金 を引く 、きっかけ となる",
+  "tier": "core"
+ },
+ "trigger.story": {
+  "lang": "ja",
+  "text": "「引くもの」、 銃の引き金 、「きっかけ」。trek 苦難の旅 も同じ trekken から。",
+  "tier": "extended"
+ },
+ "trigger.word": {
+  "lang": "en",
+  "text": "trigger",
+  "tier": "core"
+ },
+ "ultimate.example.en": {
+  "lang": "en",
+  "text": "Our ultimate goal is to win the championship.",
+  "tier": "core"
+ },
+ "ultimate.example.ja": {
+  "lang": "ja",
+  "text": "我々の最終目標は優勝することだ。",
+  "tier": "core"
+ },
+ "ultimate.katakana": {
+  "lang": "ja",
+  "text": "アルティメット",
+  "tier": "core"
+ },
+ "ultimate.meaning": {
+  "lang": "ja",
+  "text": "究極の、最終的な",
+  "tier": "core"
+ },
+ "ultimate.story": {
+  "lang": "ja",
+  "text": "ultra 超から と同じく「向こう側」がコア。ultimatum 最後通牒 も同源。",
+  "tier": "extended"
+ },
+ "ultimate.word": {
+  "lang": "en",
+  "text": "ultimate",
+  "tier": "core"
+ },
+ "villain.example.en": {
+  "lang": "en",
+  "text": "Every great story needs a great villain.",
+  "tier": "core"
+ },
+ "villain.example.ja": {
+  "lang": "ja",
+  "text": "優れた物語には優れた悪役が必要だ。",
+  "tier": "core"
+ },
+ "villain.katakana": {
+  "lang": "ja",
+  "text": "ヴィラン",
+  "tier": "core"
+ },
+ "villain.meaning": {
+  "lang": "ja",
+  "text": "悪役、悪党",
+  "tier": "core"
+ },
+ "villain.story": {
+  "lang": "ja",
+  "text": "「農民」、 身分差別的に 「卑しい者」、「悪党」と意味が悪化した例。village 村 、villa 別荘 と同源。",
+  "tier": "extended"
+ },
+ "villain.word": {
+  "lang": "en",
+  "text": "villain",
+  "tier": "core"
+ }
+}

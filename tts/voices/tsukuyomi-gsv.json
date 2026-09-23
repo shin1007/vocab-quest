@@ -1,0 +1,28 @@
+{
+  "label": "つくよみちゃん（GPT-SoVITS v2Pro 追加学習）",
+  "version": "gsv-v2pro-2026-09-a",
+  "credit": "本ソフトウェアの音声合成には、フリー素材キャラクター「つくよみちゃん」（© Rei Yumesaki）が無料公開している音声データを使用しています。■つくよみちゃんコーパス（CV.夢前黎）https://tyc.rei-yumesaki.net/material/corpus/",
+  "backend": "gpt_sovits",
+  "gpt_sovits": {
+    "url": "http://127.0.0.1:9880",
+    "params": {
+      "text_split_method": "cut5",
+      "batch_size": 1,
+      "speed_factor": 1.0,
+      "top_k": 15,
+      "top_p": 1.0,
+      "temperature": 1.0
+    },
+    "ref": {
+      "default": {
+        "ref_audio_path": "/path/to/tsukuyomi_ref/VOICEACTRESS100_001.wav",
+        "prompt_text": "（参照音声の書き起こしをここに）",
+        "prompt_lang": "ja"
+      }
+    }
+  },
+  "lang_map": { "ja": "ja", "en": "en" },
+  "tiers": ["core"],
+  "formats": ["webm"],
+  "jobs": 1
+}
