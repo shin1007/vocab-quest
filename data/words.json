@@ -1,0 +1,1134 @@
+[
+  {
+    "id": "potion", "word": "potion", "katakana": "ポーション", "pos": "名詞", "area": "fantasy", "cefr": "B2",
+    "meaning": "（薬・魔法の）飲み薬、水薬",
+    "scene": "RPGの定番回復アイテム。「ポーションでHP回復！」",
+    "example": { "en": "She drank a healing potion before the boss fight.", "ja": "彼女はボス戦の前に回復薬を飲んだ。" },
+    "etymology": {
+      "origin": "ラテン語 pōtiō「飲み物」← pōtāre「飲む」",
+      "story": "古フランス語 pocion を経て英語へ。同じ pōtiō から生まれた poison（毒）は、もともと「（毒を盛った）飲み物」という意味だった。つまりポーションと毒は兄弟語。"
+    },
+    "roots": ["pot"],
+    "family": ["poison（毒）", "potable（飲用に適した）"],
+    "synonyms": [
+      { "word": "elixir", "meaning": "霊薬、万能薬", "nuance": "不老不死・万病に効くような伝説的な薬。ゲームでは最上位の回復アイテム名。", "etymology": "アラビア語 al-iksīr ← ギリシャ語 xērion「傷に振りかける乾いた粉」← xēros「乾いた」" },
+      { "word": "remedy", "meaning": "治療薬、解決策", "nuance": "病気だけでなく「問題の解決策」にも使える一般語。", "etymology": "ラテン語 remedium ← re-「再び」+ medērī「治す」（medicine と同源）" },
+      { "word": "draught", "meaning": "（液体の）一服、一飲み", "nuance": "文語・ファンタジー調。「眠りの一服 a sleeping draught」のように使う。", "etymology": "古英語 dragan「引く」→ 液体を一気に引き込むこと（draw, draft と同源）" }
+    ]
+  },
+  {
+    "id": "quest", "word": "quest", "katakana": "クエスト", "pos": "名詞", "area": "fantasy", "cefr": "B2",
+    "meaning": "（長く困難な）探求、探索の旅",
+    "scene": "ギルドで受ける依頼や、物語の主目的となる冒険。",
+    "example": { "en": "The heroes set out on a quest to find the lost crown.", "ja": "英雄たちは失われた王冠を探す旅に出た。" },
+    "etymology": {
+      "origin": "ラテン語 quaerere「探し求める」→ 古フランス語 queste",
+      "story": "「探し求める」が核の意味。question（問い＝答えを探すこと）、request（再び求める）、conquest（求めて手に入れる＝征服）はすべて同じ家族。"
+    },
+    "roots": ["quaer"],
+    "family": ["question（質問）", "request（依頼）", "conquest（征服）", "inquire（尋ねる）"],
+    "synonyms": [
+      { "word": "mission", "meaning": "任務、使命", "nuance": "誰かから「送り出されて」与えられた任務。quest は自ら求める旅のニュアンスが強い。", "etymology": "ラテン語 mittere「送る」" },
+      { "word": "expedition", "meaning": "遠征、探検隊", "nuance": "組織的な探検・遠征。山岳や極地の探検にも使う。", "etymology": "ラテン語 expedīre ← ex-「外へ」+ pēs「足」→ 足かせから足を解き放つ" },
+      { "word": "pursuit", "meaning": "追求、追跡", "nuance": "目標を粘り強く追いかけること。the pursuit of happiness（幸福の追求）。", "etymology": "ラテン語 prōsequī ← prō-「前へ」+ sequī「従う」（sequence と同源）" }
+    ]
+  },
+  {
+    "id": "dungeon", "word": "dungeon", "katakana": "ダンジョン", "pos": "名詞", "area": "fantasy", "cefr": "B2",
+    "meaning": "（城の）地下牢",
+    "scene": "モンスターと宝箱が待つ迷宮。",
+    "gap": "ゲームでは「迷宮・洞窟」全般を指すが、英語の本来の意味は「城の地下牢」。迷宮なら labyrinth / maze。",
+    "trapQuiz": {"question": "ゲームの「ダンジョン（迷宮）」の意味に一番近い英語は？", "answer": "labyrinth", "wrong": ["prison", "castle", "tower"]},
+    "example": { "en": "The prisoner was thrown into the dungeon beneath the castle.", "ja": "囚人は城の下の地下牢に投げ込まれた。" },
+    "etymology": {
+      "origin": "古フランス語 donjon「城の天守」← ラテン語 dominus「主人・領主」",
+      "story": "「領主の塔（天守）」→ その地下にある牢 → 地下牢、と意味が移った。dominate（支配する）や、意外にも danger（危険＝もとは「支配者が害を与える力」）も同じ家族。"
+    },
+    "roots": ["dom"],
+    "family": ["dominate（支配する）", "domain（領域）", "danger（危険）"],
+    "synonyms": [
+      { "word": "prison", "meaning": "刑務所、牢獄", "nuance": "現代の刑務所を含む最も一般的な語。", "etymology": "ラテン語 prehendere「つかむ」（comprehend と同源）" },
+      { "word": "cell", "meaning": "独房、小部屋、細胞", "nuance": "牢の一室。生物の「細胞」も同じ語。", "etymology": "ラテン語 cella「小部屋・貯蔵室」" },
+      { "word": "labyrinth", "meaning": "迷宮", "nuance": "ゲームの「ダンジョン」に近いのはむしろこちら。", "etymology": "ギリシャ語 labyrinthos。ミノタウロスの迷宮の名。ギリシャ語以前の言語に由来するとされ、語源は諸説あり" }
+    ]
+  },
+  {
+    "id": "guild", "word": "guild", "katakana": "ギルド", "pos": "名詞", "area": "fantasy", "cefr": "C1",
+    "meaning": "（中世の）同業者組合、ギルド",
+    "scene": "冒険者ギルドで依頼を受け、報酬を受け取る。",
+    "example": { "en": "Only guild members may sell goods in this town.", "ja": "この町ではギルドの会員しか商品を売れない。" },
+    "etymology": {
+      "origin": "古英語 gield / 古ノルド語 gildi「支払い・拠出金」",
+      "story": "メンバーがお金（会費）を出し合って作る組合、が原義。yield（産出する・もとは「支払う」）と同系統とされる。"
+    },
+    "roots": [],
+    "family": ["yield（産出する・譲る）"],
+    "synonyms": [
+      { "word": "union", "meaning": "組合、連合", "nuance": "現代の労働組合（labor union）など。", "etymology": "ラテン語 ūnus「一つ」→ 一つにまとまること" },
+      { "word": "league", "meaning": "同盟、連盟、リーグ", "nuance": "対等な集団同士の結びつき。スポーツのリーグも。", "etymology": "ラテン語 ligāre「結ぶ」（religion も同源とする説がある）" },
+      { "word": "clan", "meaning": "一族、氏族、クラン", "nuance": "血縁でつながる集団。オンラインゲームのチームにも使われる。", "etymology": "スコットランド・ゲール語 clann「子孫」← ラテン語 planta「若枝」" }
+    ]
+  },
+  {
+    "id": "summon", "word": "summon", "katakana": "サモン（サモナー）", "pos": "動詞", "area": "fantasy", "cefr": "C1",
+    "meaning": "呼び出す、召喚する",
+    "scene": "召喚士（サモナー）が魔法陣から精霊を呼び出す。",
+    "example": { "en": "The wizard summoned a fire spirit.", "ja": "魔法使いは火の精霊を召喚した。" },
+    "etymology": {
+      "origin": "ラテン語 summonēre ← sub-「下から、こっそり」+ monēre「警告する・思い出させる」",
+      "story": "「こっそり思い出させる」→ 中世には「法廷へ呼び出す」の意味に。monster（神からの警告）も同じ monēre 家族なので、「モンスターをサモンする」は語源的に親戚同士。"
+    },
+    "roots": ["mon"],
+    "family": ["monster（怪物）", "monitor（監視する）", "demonstrate（実演する）"],
+    "synonyms": [
+      { "word": "invoke", "meaning": "（神・力を）呼び求める、発動する", "nuance": "神の名や力を唱えて呼ぶ。プログラミングで関数を呼ぶ意味にも。", "etymology": "ラテン語 invocāre ← in-「〜に向かって」+ vocāre「呼ぶ」" },
+      { "word": "conjure", "meaning": "（魔法で）呼び出す、出現させる", "nuance": "手品・魔術で何もないところから出すイメージ。", "etymology": "ラテン語 coniūrāre ← con-「共に」+ iūrāre「誓う」" },
+      { "word": "call forth", "meaning": "呼び起こす", "nuance": "日常語に近い言い方。記憶や感情を呼び起こす時にも。", "etymology": "call は古ノルド語 kalla「叫ぶ」" }
+    ]
+  },
+  {
+    "id": "spell", "word": "spell", "katakana": "スペル", "pos": "名詞", "area": "fantasy", "cefr": "B1",
+    "meaning": "呪文、魔法",
+    "scene": "魔法使いが唱える呪文。「スペルカード」など。",
+    "gap": "日本語で「スペル」は「つづり」の意味で使うことが多いが、英語の名詞 spell は「呪文」。つづりは spelling。",
+    "trapQuiz": {"question": "「この単語のスペルを教えて」の「スペル（つづり）」を英語で言うと？", "answer": "spelling", "wrong": ["spell", "speller", "spoke"]},
+    "example": { "en": "The witch cast a sleeping spell on the princess.", "ja": "魔女は王女に眠りの呪文をかけた。" },
+    "etymology": {
+      "origin": "古英語 spell「話・物語・言葉」",
+      "story": "言葉そのものに力が宿ると信じられ「言葉」→「呪文」に。gospel（福音）は god spell「良い知らせ」から。動詞 spell（つづる）は古フランス語経由で入った別ルートの語。"
+    },
+    "roots": [],
+    "family": ["gospel（福音）", "spellbound（魅了された）"],
+    "synonyms": [
+      { "word": "charm", "meaning": "魔よけ、魅力、まじない", "nuance": "現代では「魅力」の意味が中心。", "etymology": "ラテン語 carmen「歌・呪文」" },
+      { "word": "incantation", "meaning": "呪文（を唱えること）", "nuance": "長い呪文を唱える儀式的な響き。", "etymology": "ラテン語 incantāre ← in- + cantāre「歌う」（enchant と同源）" },
+      { "word": "curse", "meaning": "呪い", "nuance": "相手に害を与える呪い。spell は良い魔法にも使える。", "etymology": "古英語 curs。それ以前の語源は不明" }
+    ]
+  },
+  {
+    "id": "relic", "word": "relic", "katakana": "レリック", "pos": "名詞", "area": "fantasy", "cefr": "C1",
+    "meaning": "遺物、聖遺物",
+    "scene": "古代文明の遺跡から見つかる強力なアイテム。",
+    "example": { "en": "The temple guards an ancient relic.", "ja": "その神殿は古代の遺物を守っている。" },
+    "etymology": {
+      "origin": "ラテン語 reliquiae「残されたもの」← relinquere「後に残す」（re- + linquere「去る」）",
+      "story": "もとは聖人の遺骨・遺品（聖遺物）を指した。relinquish（手放す）も同じ家族。"
+    },
+    "roots": ["linqu"],
+    "family": ["relinquish（放棄する）", "delinquent（非行の・義務を怠った）"],
+    "synonyms": [
+      { "word": "artifact", "meaning": "人工物、遺物、アーティファクト", "nuance": "人の手で作られた物。考古学・ゲームの伝説装備にも使う。", "etymology": "ラテン語 arte factum「技によって作られたもの」" },
+      { "word": "heirloom", "meaning": "家宝", "nuance": "代々受け継がれてきた家の品。", "etymology": "heir「相続人」+ loom「道具」（古英語 gelōma）" },
+      { "word": "remnant", "meaning": "残り、名残", "nuance": "何かの一部が残ったもの。貴重さのニュアンスはない。", "etymology": "古フランス語 remenant ← ラテン語 remanēre「とどまる」（remain と同源）" }
+    ]
+  },
+  {
+    "id": "monster", "word": "monster", "katakana": "モンスター", "pos": "名詞", "area": "fantasy", "cefr": "A2",
+    "meaning": "怪物",
+    "scene": "フィールドやダンジョンに出現する敵。",
+    "example": { "en": "A huge monster appeared from the lake.", "ja": "湖から巨大な怪物が現れた。" },
+    "etymology": {
+      "origin": "ラテン語 monstrum「神の警告・凶兆」← monēre「警告する」",
+      "story": "奇形の生き物は「神からの警告」と考えられていた。demonstrate（はっきり示す）と同じく「示す・警告する」がコア。"
+    },
+    "roots": ["mon"],
+    "family": ["summon（召喚する）", "demonstrate（実演する）", "monitor（監視する）"],
+    "synonyms": [
+      { "word": "beast", "meaning": "獣、野獣", "nuance": "四本足の大きな動物・凶暴な者。", "etymology": "ラテン語 bēstia「獣」" },
+      { "word": "creature", "meaning": "生き物、クリーチャー", "nuance": "中立的な「生き物」。ゲームの召喚獣カードにも。", "etymology": "ラテン語 creāre「創る」→「創られたもの」" },
+      { "word": "fiend", "meaning": "悪魔、鬼", "nuance": "悪意のある存在。「〜狂」の意味も（a game fiend）。", "etymology": "古英語 fēond「敵」（ドイツ語 Feind「敵」と同源）" }
+    ]
+  },
+  {
+    "id": "dragon", "word": "dragon", "katakana": "ドラゴン", "pos": "名詞", "area": "fantasy", "cefr": "A2",
+    "meaning": "竜",
+    "scene": "ファンタジーの最強クラスの敵、または相棒。",
+    "example": { "en": "The dragon guarded a mountain of gold.", "ja": "竜は金の山を守っていた。" },
+    "etymology": {
+      "origin": "ギリシャ語 drakōn「大蛇」← derkesthai「はっきり見る」",
+      "story": "「鋭い眼をもつもの」が語源とする説が有力。蛇の睨む目から名付けられた。"
+    },
+    "roots": [],
+    "family": ["draconian（非常に厳しい。※アテネの立法者ドラコンに由来する別系統）"],
+    "synonyms": [
+      { "word": "serpent", "meaning": "大蛇、蛇", "nuance": "聖書や神話に出る蛇。snake より文語的。", "etymology": "ラテン語 serpere「這う」" },
+      { "word": "wyvern", "meaning": "ワイバーン（前脚のない翼竜）", "nuance": "紋章学・ファンタジー用語。", "etymology": "古フランス語 wivre ← ラテン語 vīpera「毒蛇」" },
+      { "word": "wyrm", "meaning": "（古語）竜、大蛇", "nuance": "古風な綴り。現代語の worm（ミミズ）と同じ語。", "etymology": "古英語 wyrm「蛇・竜」" }
+    ]
+  },
+  {
+    "id": "legend", "word": "legend", "katakana": "レジェンド", "pos": "名詞", "area": "fantasy", "cefr": "B1",
+    "meaning": "伝説、伝説的人物",
+    "scene": "伝説の剣、伝説の勇者、スポーツ界のレジェンド。",
+    "example": { "en": "According to legend, the sword chooses its owner.", "ja": "伝説によると、その剣は持ち主を選ぶ。" },
+    "etymology": {
+      "origin": "中世ラテン語 legenda「読まれるべきもの」← legere「読む・集める・選ぶ」",
+      "story": "修道院で読まれる聖人伝を指した。lecture（講義＝読み上げ）、collect（集める）、intelligent（間から選び取る）も legere 家族。"
+    },
+    "roots": ["leg"],
+    "family": ["lecture（講義）", "legible（読みやすい）", "collect（集める）", "intelligent（知的な）"],
+    "synonyms": [
+      { "word": "myth", "meaning": "神話、根拠のない話", "nuance": "神々の物語。また「俗説・作り話」の意味も強い。", "etymology": "ギリシャ語 mythos「話・物語」" },
+      { "word": "saga", "meaning": "サーガ、長編物語", "nuance": "何世代にもわたる壮大な物語。", "etymology": "古ノルド語 saga「語られたもの」（say と同源）" },
+      { "word": "lore", "meaning": "伝承、（ゲームの）世界観設定", "nuance": "ある集団に伝わる知識。ゲームの背景設定を lore と呼ぶ。", "etymology": "古英語 lār「教え」（learn と同源）" },
+      { "word": "fable", "meaning": "寓話", "nuance": "教訓をもつ短い話（イソップ物語など）。", "etymology": "ラテン語 fābula ← fārī「話す」（fate と同源）" }
+    ]
+  },
+  {
+    "id": "treasure", "word": "treasure", "katakana": "トレジャー", "pos": "名詞", "area": "fantasy", "cefr": "B1",
+    "meaning": "宝物、財宝",
+    "scene": "宝箱（treasure chest）を開けるとアイテムが手に入る。",
+    "example": { "en": "They dug up a chest full of treasure.", "ja": "彼らは宝物でいっぱいの箱を掘り出した。" },
+    "etymology": {
+      "origin": "ギリシャ語 thēsauros「宝庫」→ ラテン語 thēsaurus → 古フランス語 tresor",
+      "story": "類語辞典 thesaurus（シソーラス）は「言葉の宝庫」という意味で、treasure と同じ語。"
+    },
+    "roots": [],
+    "family": ["thesaurus（類語辞典）"],
+    "synonyms": [
+      { "word": "hoard", "meaning": "（こっそり貯めた）蓄え、秘蔵", "nuance": "隠して溜め込んだ宝。竜の財宝は dragon's hoard。", "etymology": "古英語 hord「隠された蓄え」" },
+      { "word": "loot", "meaning": "戦利品、略奪品、ドロップ品", "nuance": "ゲームで敵が落とすアイテムは loot と呼ばれる。", "etymology": "ヒンディー語 lūṭ ← サンスクリット lotra「盗品」" },
+      { "word": "fortune", "meaning": "富、運", "nuance": "大金・財産。「運命・運」の意味も。", "etymology": "ラテン語 fortūna「運」（運命の女神 Fortuna）" }
+    ]
+  },
+  {
+    "id": "mana", "word": "mana", "katakana": "マナ", "pos": "名詞", "area": "fantasy", "cefr": "C1",
+    "meaning": "マナ（超自然的な力）",
+    "scene": "魔法を使うと消費される MP（マナ）。",
+    "gap": "ゲームでは「魔力ポイント」の意味だが、英語でも日常語ではない。一般には energy / power / magic を使う。",
+    "example": { "en": "Casting this spell costs a lot of mana.", "ja": "この呪文を唱えるには多くのマナが必要だ。" },
+    "etymology": {
+      "origin": "ポリネシア諸語（マオリ語・ハワイ語など）の mana「超自然的な力・威信」",
+      "story": "19世紀の人類学者の報告を通じて英語に入り、20世紀にファンタジー小説やゲームで「魔力」として広まった。ラテン語系ではない珍しいゲーム用語。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "aura", "meaning": "オーラ、雰囲気", "nuance": "人や物が発する独特の雰囲気・気配。", "etymology": "ギリシャ語 aura「そよ風」" },
+      { "word": "energy", "meaning": "エネルギー、活力", "nuance": "物理的・精神的なエネルギー全般。", "etymology": "ギリシャ語 energeia ← en-「中に」+ ergon「仕事」" },
+      { "word": "vigor", "meaning": "活力、精力", "nuance": "体や心の力強さ。", "etymology": "ラテン語 vigēre「活発である」" }
+    ]
+  },
+  {
+    "id": "inventory", "word": "inventory", "katakana": "インベントリ", "pos": "名詞", "area": "fantasy", "cefr": "B2",
+    "meaning": "在庫目録、所持品一覧",
+    "scene": "持ち物画面。「インベントリがいっぱいです」。",
+    "example": { "en": "Your inventory is full. Drop an item.", "ja": "持ち物がいっぱいです。アイテムを捨ててください。" },
+    "etymology": {
+      "origin": "中世ラテン語 inventōrium「見つけたものの目録」← invenīre「出くわす・見つける」（in- + venīre「来る」）",
+      "story": "「見つけたもののリスト」が原義。invent（発明＝見つけ出す）、event（外へ出て来ること）、adventure（やって来ること→冒険）も venīre 家族。"
+    },
+    "roots": ["ven"],
+    "family": ["invent（発明する）", "event（出来事）", "adventure（冒険）"],
+    "synonyms": [
+      { "word": "stock", "meaning": "在庫、蓄え", "nuance": "店や倉庫の在庫品。", "etymology": "古英語 stocc「木の幹」→ 基盤・蓄え" },
+      { "word": "supply", "meaning": "供給、補給品", "nuance": "必要に応じて補給される物資。", "etymology": "ラテン語 supplēre ← sub-「下から」+ plēre「満たす」" },
+      { "word": "catalog", "meaning": "目録、カタログ", "nuance": "品物を一覧にしたもの。", "etymology": "ギリシャ語 katalogos「数え上げること」← kata-「すっかり」+ legein「言う・数える」" }
+    ]
+  },
+  {
+    "id": "equipment", "word": "equipment", "katakana": "エクイップメント（装備）", "pos": "名詞", "area": "fantasy", "cefr": "B1",
+    "meaning": "装備、用具（不可算名詞）",
+    "scene": "武器・防具を「装備する（equip）」。",
+    "example": { "en": "Check your equipment before entering the cave.", "ja": "洞窟に入る前に装備を確認せよ。" },
+    "etymology": {
+      "origin": "フランス語 équiper「装備する」← 古ノルド語 skipa「（船を）整える」",
+      "story": "ヴァイキングの言葉 skip（＝ship 船）が語源。「船出の準備を整える」が「装備する」になった。"
+    },
+    "roots": [],
+    "family": ["equip（装備する）", "ship（船）"],
+    "synonyms": [
+      { "word": "gear", "meaning": "用具一式、ギア", "nuance": "スポーツ・アウトドア用品など、特定の目的の道具一式。", "etymology": "古ノルド語 gørvi「衣服・装備」" },
+      { "word": "armament", "meaning": "兵器、軍備", "nuance": "軍事的な武装。", "etymology": "ラテン語 armāmenta「道具・船具」← arma「武器」" },
+      { "word": "outfit", "meaning": "服装一式、装備", "nuance": "服のコーディネート一式。ゲームのアバター衣装にも。", "etymology": "out + fit「整える」" }
+    ]
+  },
+  {
+    "id": "knight", "word": "knight", "katakana": "ナイト", "pos": "名詞", "area": "fantasy", "cefr": "A2",
+    "meaning": "騎士",
+    "scene": "盾と剣で仲間を守る職業（ジョブ）。",
+    "example": { "en": "The knight swore to protect the queen.", "ja": "騎士は女王を守ると誓った。" },
+    "etymology": {
+      "origin": "古英語 cniht「少年・召使い」",
+      "story": "「若い従者」→「主君に仕える戦士」→「騎士」と格上げされた。昔は k を発音していた（ドイツ語 Knecht「下男」と同源）。"
+    },
+    "roots": [],
+    "family": ["knighthood（騎士の身分・ナイト爵）"],
+    "synonyms": [
+      { "word": "cavalier", "meaning": "騎士、騎兵；（形）無頓着な", "nuance": "騎馬の戦士。形容詞では「横柄な・軽率な」。", "etymology": "ラテン語 caballus「馬」（chivalry 騎士道と同源）" },
+      { "word": "paladin", "meaning": "聖騎士、パラディン", "nuance": "シャルルマーニュの十二勇士から。ゲームの聖騎士職。", "etymology": "ラテン語 palātīnus「宮廷の」← Palātium（ローマのパラティヌスの丘。palace と同源）" },
+      { "word": "warrior", "meaning": "戦士", "nuance": "騎士に限らない戦う者全般。", "etymology": "古北フランス語 werreieor ← werre「戦争」（war と同源）" }
+    ]
+  },
+  {
+    "id": "avatar", "word": "avatar", "katakana": "アバター", "pos": "名詞", "area": "fantasy", "cefr": "B2",
+    "meaning": "化身、（ネット上の）分身",
+    "scene": "ゲームやSNSで自分の代わりになるキャラクター。",
+    "example": { "en": "You can customize your avatar's hair and clothes.", "ja": "アバターの髪型や服をカスタマイズできる。" },
+    "etymology": {
+      "origin": "サンスクリット語 avatāra「降下」← ava-「下へ」+ tṛ「渡る」",
+      "story": "ヒンドゥー教で神（ヴィシュヌ）が地上に「降りてきた」姿＝化身。ユーザーが仮想世界に「降りる」分身として、1980年代からコンピューター用語に。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "incarnation", "meaning": "化身、生まれ変わり", "nuance": "霊や抽象的なものが肉体をもつこと。", "etymology": "ラテン語 in- + carō, carnis「肉」（carnivore 肉食動物と同源）" },
+      { "word": "embodiment", "meaning": "具現化、化身", "nuance": "考えや性質を形にしたもの。the embodiment of courage。", "etymology": "em-「中に」+ body「体」" },
+      { "word": "alter ego", "meaning": "もう一人の自分、分身", "nuance": "別人格・親友。ヒーローの「正体」にも。", "etymology": "ラテン語「もう一人の私」" }
+    ]
+  },
+  {
+    "id": "rare", "word": "rare", "katakana": "レア", "pos": "形容詞", "area": "fantasy", "cefr": "A2",
+    "meaning": "まれな、珍しい",
+    "scene": "レアアイテム、レアモンスター、ガチャの SR / SSR。",
+    "gap": "ステーキの焼き加減の rare は、実は別の語（古英語 hrēr「生焼けの」）が同じ綴りになったもの。",
+    "example": { "en": "You got a rare sword from the chest!", "ja": "宝箱からレアな剣を手に入れた！" },
+    "etymology": {
+      "origin": "ラテン語 rārus「まばらな・薄い」",
+      "story": "「隙間が多い・まばら」→「数が少ない」→「珍しい」。"
+    },
+    "roots": [],
+    "family": ["rarely（めったに〜ない）", "rarity（希少性）"],
+    "synonyms": [
+      { "word": "scarce", "meaning": "（必要なのに）乏しい", "nuance": "需要に対して足りない。rare は単に珍しい。", "etymology": "古フランス語 escars ← 俗ラテン語 *excarpsus「摘み取られた」" },
+      { "word": "unique", "meaning": "唯一の、独特の", "nuance": "本来は「ただ一つしかない」。", "etymology": "ラテン語 ūnicus ← ūnus「一つ」" },
+      { "word": "precious", "meaning": "貴重な、大切な", "nuance": "価値が高く大事なもの。", "etymology": "ラテン語 pretium「値段」（price, praise と同源）" }
+    ]
+  },
+  {
+    "id": "level", "word": "level", "katakana": "レベル", "pos": "名詞", "area": "fantasy", "cefr": "A2",
+    "meaning": "水準、段階、高さ",
+    "scene": "経験値を貯めてレベルアップ！",
+    "example": { "en": "My character reached level 50.", "ja": "私のキャラはレベル50に達した。" },
+    "etymology": {
+      "origin": "ラテン語 lībella「小さな天秤・水準器」← lībra「天秤」",
+      "story": "水平を測る道具から「高さの水準」へ。星座の天秤座 Libra や、重さの単位 lb.（ポンド）も lībra から。"
+    },
+    "roots": [],
+    "family": ["Libra（天秤座）", "lb.（ポンド）"],
+    "synonyms": [
+      { "word": "rank", "meaning": "階級、順位、ランク", "nuance": "組織の中での地位や順位。", "etymology": "古フランス語 ranc「列」← フランク語 *hring「輪」（ring と同源）" },
+      { "word": "grade", "meaning": "等級、学年、成績", "nuance": "品質・学年など段階的な区分。", "etymology": "ラテン語 gradus「段・歩み」" },
+      { "word": "tier", "meaning": "層、段、ティア", "nuance": "段になった層。ゲームのキャラ評価「Tier1」も。", "etymology": "古フランス語 tire「列・順番」" }
+    ]
+  },
+
+  {
+    "id": "attack", "word": "attack", "katakana": "アタック", "pos": "動詞・名詞", "area": "battle", "cefr": "A2",
+    "meaning": "攻撃（する）",
+    "scene": "コマンド「たたかう」。バレーボールのアタックも。",
+    "example": { "en": "The enemy attacked from behind.", "ja": "敵は背後から攻撃してきた。" },
+    "etymology": {
+      "origin": "イタリア語 attaccare「くっつける → 戦いを交える」",
+      "story": "attach（取り付ける）と同じ語から分かれた二重語。敵に「くっつく＝接敵する」イメージ。"
+    },
+    "roots": [],
+    "family": ["attach（取り付ける）"],
+    "synonyms": [
+      { "word": "assault", "meaning": "襲撃、暴行", "nuance": "激しい突撃。法律用語では暴行罪。", "etymology": "ラテン語 ad-「〜へ」+ saltāre「跳ぶ」→ 跳びかかる" },
+      { "word": "raid", "meaning": "急襲、レイド", "nuance": "奇襲・手入れ。MMOの大人数ボス戦「レイド」。", "etymology": "古英語 rād「騎乗」のスコットランド形（road と二重語）" },
+      { "word": "strike", "meaning": "打撃、攻撃、ストライキ", "nuance": "一撃を加えること。空爆 air strike。", "etymology": "古英語 strīcan「なでる・進む」" }
+    ]
+  },
+  {
+    "id": "guard", "word": "guard", "katakana": "ガード", "pos": "動詞・名詞", "area": "battle", "cefr": "A2",
+    "meaning": "守る、見張る；護衛",
+    "scene": "敵の攻撃をガードしてダメージ軽減。",
+    "example": { "en": "Two soldiers guard the gate.", "ja": "二人の兵士が門を守っている。" },
+    "etymology": {
+      "origin": "古フランス語 garder ← フランク語 *wardōn「見張る」",
+      "story": "英語 ward（病棟・見張る）と同じ語。ゲルマン語の w がフランス語で gu になる法則（war ↔ guerre）の代表例。"
+    },
+    "roots": [],
+    "family": ["ward（病棟・後見）", "guardian（守護者）", "regard（注意して見る）"],
+    "synonyms": [
+      { "word": "protect", "meaning": "保護する", "nuance": "危険から覆い守る最も一般的な語。", "etymology": "ラテン語 prō-「前を」+ tegere「覆う」（detect＝覆いを外す と同源）" },
+      { "word": "defend", "meaning": "防御する、弁護する", "nuance": "攻撃に対して積極的に打ち返して守る。", "etymology": "ラテン語 dēfendere「打ち払う」（fence は defense の短縮形）" },
+      { "word": "shield", "meaning": "盾で守る；盾", "nuance": "間に立ちはだかって守る。", "etymology": "古英語 scield「盾」" }
+    ]
+  },
+  {
+    "id": "critical", "word": "critical", "katakana": "クリティカル", "pos": "形容詞", "area": "battle", "cefr": "B1",
+    "meaning": "決定的な、重大な、批判的な",
+    "scene": "会心の一撃「クリティカルヒット！」",
+    "example": { "en": "This is a critical moment for our team.", "ja": "今はチームにとって重大な局面だ。" },
+    "etymology": {
+      "origin": "ギリシャ語 kritikos「判断できる」← krīnein「分ける・判断する」",
+      "story": "「白黒を分ける」→「分かれ目の・決定的な」。crisis（危機＝分岐点）、criterion（判断基準）も同じ家族。"
+    },
+    "roots": ["crit"],
+    "family": ["crisis（危機）", "critic（批評家）", "criterion（基準）"],
+    "synonyms": [
+      { "word": "crucial", "meaning": "極めて重要な", "nuance": "成否を左右する決定的な。", "etymology": "ラテン語 crux「十字架」→ 分かれ道の十字の道標" },
+      { "word": "vital", "meaning": "不可欠な、命に関わる", "nuance": "生きるのに必要なほど大事な。", "etymology": "ラテン語 vīta「生命」" },
+      { "word": "decisive", "meaning": "決定的な、断固とした", "nuance": "決着をつける。", "etymology": "ラテン語 dēcīdere ← dē-「離して」+ caedere「切る」→ 切って決める" }
+    ]
+  },
+  {
+    "id": "combo", "word": "combo", "katakana": "コンボ", "pos": "名詞", "area": "battle", "cefr": "B2",
+    "meaning": "組み合わせ、連続技（口語）",
+    "scene": "格闘ゲームの連続技。「10コンボ達成！」",
+    "example": { "en": "He landed a 20-hit combo.", "ja": "彼は20ヒットのコンボを決めた。" },
+    "etymology": {
+      "origin": "combination の短縮 ← ラテン語 combīnāre ← com-「共に」+ bīnī「二つずつ」",
+      "story": "「二つずつ組み合わせる」が原義。binary（二進法）も bīnī から。"
+    },
+    "roots": [],
+    "family": ["combination（組み合わせ）", "combine（結合する）", "binary（二進法の）"],
+    "synonyms": [
+      { "word": "chain", "meaning": "鎖、連鎖、チェーン", "nuance": "つながって続くもの。連鎖反応 chain reaction。", "etymology": "ラテン語 catēna「鎖」" },
+      { "word": "sequence", "meaning": "連続、順序", "nuance": "決まった順番で起こる一続き。", "etymology": "ラテン語 sequī「従う・後に続く」" },
+      { "word": "streak", "meaning": "連続、連勝", "nuance": "勝ち・負けなどの連続。winning streak（連勝）。", "etymology": "古英語 strica「線・筋」" }
+    ]
+  },
+  {
+    "id": "damage", "word": "damage", "katakana": "ダメージ", "pos": "名詞・動詞", "area": "battle", "cefr": "A2",
+    "meaning": "損害（を与える）",
+    "scene": "「999のダメージ！」",
+    "gap": "英語の damage は主に「物」への損害。人の怪我には injury / hurt を使うのが自然。",
+    "trapQuiz": {"question": "「足をけがした」の「けが」として自然な英語は？", "answer": "injury", "wrong": ["damage", "loss", "breakage"]},
+    "example": { "en": "The storm caused serious damage to the town.", "ja": "嵐は町に深刻な被害をもたらした。" },
+    "etymology": {
+      "origin": "古フランス語 damage ← ラテン語 damnum「損失・罰金」",
+      "story": "damn（呪う・のろわしい）、condemn（有罪とする）と同じ家族。"
+    },
+    "roots": [],
+    "family": ["damn（ののしる）", "condemn（非難する）"],
+    "synonyms": [
+      { "word": "harm", "meaning": "害", "nuance": "心身や利益に与える害。抽象的にも使う。", "etymology": "古英語 hearm「悲嘆・害」" },
+      { "word": "injury", "meaning": "（人・動物の）けが", "nuance": "事故などによる体の損傷。", "etymology": "ラテン語 iniūria ← in-「否」+ iūs「正義・権利」→ 不当な扱い" },
+      { "word": "wound", "meaning": "（武器による）傷", "nuance": "刃物や銃による傷。", "etymology": "古英語 wund" }
+    ]
+  },
+  {
+    "id": "counter", "word": "counter", "katakana": "カウンター", "pos": "動詞・名詞", "area": "battle", "cefr": "B1",
+    "meaning": "反撃（する）、対抗（する）",
+    "scene": "相手の攻撃に合わせて反撃する「カウンター」。",
+    "gap": "お店の「カウンター（台）」は count（数える）+ -er で、反撃の counter（contra＝反対に）とは別語源。",
+    "example": { "en": "She countered his punch with a kick.", "ja": "彼女は彼のパンチにキックで反撃した。" },
+    "etymology": {
+      "origin": "アングロ・フランス語 countre ← ラテン語 contrā「反対に」",
+      "story": "contrary（反対の）、contrast（対照）と同じ contra 家族。"
+    },
+    "roots": [],
+    "family": ["contrary（反対の）", "contrast（対照）", "encounter（遭遇する）"],
+    "synonyms": [
+      { "word": "retaliate", "meaning": "報復する", "nuance": "やられたことを同じようにやり返す。", "etymology": "ラテン語 re-「返して」+ tālis「同じような」（「目には目を」lex talionis）" },
+      { "word": "riposte", "meaning": "（フェンシングの）突き返し、しっぺ返し", "nuance": "素早く鋭い返し。言葉の切り返しにも。", "etymology": "イタリア語 risposta「返答」" },
+      { "word": "strike back", "meaning": "反撃する", "nuance": "日常的な言い方。", "etymology": "strike は古英語 strīcan" }
+    ]
+  },
+  {
+    "id": "barrier", "word": "barrier", "katakana": "バリア", "pos": "名詞", "area": "battle", "cefr": "B1",
+    "meaning": "障壁、柵、障害",
+    "scene": "魔法やエネルギーの防御壁「バリアを張る」。",
+    "example": { "en": "Language can be a barrier to making friends.", "ja": "言葉は友達を作る上での壁になり得る。" },
+    "etymology": {
+      "origin": "古フランス語 barrière ← barre「棒・横木」",
+      "story": "通せんぼする横木が原義。embarrass（恥ずかしい思いをさせる）も「棒で邪魔をする」というイタリア語から。"
+    },
+    "roots": [],
+    "family": ["bar（棒・酒場）", "embarrass（困らせる）"],
+    "synonyms": [
+      { "word": "obstacle", "meaning": "障害物", "nuance": "前進を妨げるもの。", "etymology": "ラテン語 ob-「前に」+ stāre「立つ」" },
+      { "word": "wall", "meaning": "壁", "nuance": "物理的な壁。比喩的な「壁」にも。", "etymology": "ラテン語 vallum「柵・塁壁」" },
+      { "word": "force field", "meaning": "力場、フォースフィールド", "nuance": "SFでエネルギーのバリアを指す。", "etymology": "force（ラテン語 fortis「強い」）+ field" }
+    ]
+  },
+  {
+    "id": "revive", "word": "revive", "katakana": "リバイブ", "pos": "動詞", "area": "battle", "cefr": "B2",
+    "meaning": "生き返らせる、復活させる",
+    "scene": "倒れた仲間を蘇生する魔法・アイテム。",
+    "example": { "en": "The healer revived the fallen knight.", "ja": "ヒーラーは倒れた騎士を蘇生させた。" },
+    "etymology": {
+      "origin": "ラテン語 revīvere ← re-「再び」+ vīvere「生きる」",
+      "story": "survive（上回って生きる＝生き残る）、vivid（生き生きした）も vīvere 家族。"
+    },
+    "roots": ["viv"],
+    "family": ["survive（生き残る）", "vivid（鮮やかな）", "revival（復活）"],
+    "synonyms": [
+      { "word": "resurrect", "meaning": "（死者を）よみがえらせる", "nuance": "宗教的・劇的な復活。", "etymology": "ラテン語 resurgere ← re-「再び」+ surgere「立ち上がる」（surge と同源）" },
+      { "word": "restore", "meaning": "回復させる、修復する", "nuance": "元の状態に戻す。HPの回復にも。", "etymology": "ラテン語 restaurāre（restaurant＝元気を回復させる所）" },
+      { "word": "resuscitate", "meaning": "蘇生させる", "nuance": "医療で心肺を蘇生させる。", "etymology": "ラテン語 re- + sub- + citāre「呼び起こす」" }
+    ]
+  },
+  {
+    "id": "rival", "word": "rival", "katakana": "ライバル", "pos": "名詞", "area": "battle", "cefr": "B1",
+    "meaning": "競争相手、好敵手",
+    "scene": "主人公と競い合う宿命のライバル。",
+    "example": { "en": "The two schools have been rivals for years.", "ja": "その2校は長年のライバルだ。" },
+    "etymology": {
+      "origin": "ラテン語 rīvālis「同じ川を使う者」← rīvus「小川」",
+      "story": "同じ小川の水を分け合う（奪い合う）隣人が語源。derive（川から水を引く→由来する）も rīvus から。"
+    },
+    "roots": [],
+    "family": ["derive（由来する）", "rivalry（対抗意識）"],
+    "synonyms": [
+      { "word": "opponent", "meaning": "対戦相手", "nuance": "試合・議論で向かい合う相手。感情は含まない。", "etymology": "ラテン語 ob-「向かいに」+ pōnere「置く」" },
+      { "word": "competitor", "meaning": "競争相手、競合", "nuance": "ビジネスや競技で競う相手。", "etymology": "ラテン語 com-「共に」+ petere「求める」" },
+      { "word": "adversary", "meaning": "敵対者", "nuance": "硬い語。敵意のある相手。", "etymology": "ラテン語 adversus「向きを変えた」← ad- + vertere「回す」" }
+    ]
+  },
+  {
+    "id": "ultimate", "word": "ultimate", "katakana": "アルティメット", "pos": "形容詞", "area": "battle", "cefr": "B2",
+    "meaning": "究極の、最終的な",
+    "scene": "究極奥義「アルティメット・スキル」。",
+    "example": { "en": "Our ultimate goal is to win the championship.", "ja": "我々の最終目標は優勝することだ。" },
+    "etymology": {
+      "origin": "ラテン語 ultimus「最も遠い・最後の」",
+      "story": "ultra（超〜）と同じく「向こう側」がコア。ultimatum（最後通牒）も同源。"
+    },
+    "roots": [],
+    "family": ["ultra（超〜）", "ultimatum（最後通牒）"],
+    "synonyms": [
+      { "word": "final", "meaning": "最後の", "nuance": "順番として最後。", "etymology": "ラテン語 fīnis「終わり」" },
+      { "word": "supreme", "meaning": "最高の", "nuance": "地位・程度が最上位。Supreme Court（最高裁）。", "etymology": "ラテン語 suprēmus「最上の」← super「上に」" },
+      { "word": "extreme", "meaning": "極端な", "nuance": "限度を超えるほどの。", "etymology": "ラテン語 extrēmus「最も外側の」" }
+    ]
+  },
+  {
+    "id": "stealth", "word": "stealth", "katakana": "ステルス", "pos": "名詞", "area": "battle", "cefr": "C1",
+    "meaning": "隠密、こっそりすること",
+    "scene": "敵に見つからずに進むステルスゲーム、ステルス機。",
+    "example": { "en": "The ninja moved with great stealth.", "ja": "忍者はとても静かに忍び歩いた。" },
+    "etymology": {
+      "origin": "中英語 stelthe ← steal「盗む」+ -th（名詞を作る語尾）",
+      "story": "grow→growth, true→truth と同じ作り方。「盗み」→「こっそりやること」。"
+    },
+    "roots": [],
+    "family": ["steal（盗む）", "stealthy（こっそりした）"],
+    "synonyms": [
+      { "word": "covert", "meaning": "秘密の、隠れた", "nuance": "作戦などが秘密裏の。covert operation。", "etymology": "古フランス語 covert「覆われた」（cover と同源）" },
+      { "word": "sneaky", "meaning": "こそこそした", "nuance": "口語。ずるいニュアンスも。", "etymology": "sneak（語源はっきりせず、古英語 snīcan「這う」説）" },
+      { "word": "secrecy", "meaning": "秘密（にすること）", "nuance": "秘密を守る状態。", "etymology": "ラテン語 sēcernere ← sē-「離して」+ cernere「分ける」" }
+    ]
+  },
+  {
+    "id": "berserk", "word": "berserk", "katakana": "バーサーク", "pos": "形容詞", "area": "battle", "cefr": "C1",
+    "meaning": "狂暴になって、我を忘れて",
+    "scene": "攻撃力が上がり制御不能になる状態異常「バーサーク」。",
+    "example": { "en": "The crowd went berserk when he scored.", "ja": "彼が得点すると観客は熱狂した。" },
+    "etymology": {
+      "origin": "古ノルド語 berserkr「熊（bear）の上着（serkr）を着た者」",
+      "story": "熊の毛皮をまとい、我を忘れて戦った北欧の戦士。「鎧なし（bare shirt）」説もある。英語では go berserk「怒り狂う・熱狂する」の形でよく使う。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "frenzied", "meaning": "熱狂した、逆上した", "nuance": "激しく興奮した状態。", "etymology": "ギリシャ語 phrenītis「脳炎」← phrēn「心・横隔膜」" },
+      { "word": "furious", "meaning": "激怒した", "nuance": "非常に怒っている。", "etymology": "ラテン語 furia「狂乱」（復讐の女神 Furies）" },
+      { "word": "rampage", "meaning": "暴れ回ること", "nuance": "go on a rampage で「暴れ回る」。", "etymology": "スコットランド語。ramp「（獣が）後ろ足で立つ」から、とされる" }
+    ]
+  },
+  {
+    "id": "hero", "word": "hero", "katakana": "ヒーロー", "pos": "名詞", "area": "battle", "cefr": "A2",
+    "meaning": "英雄、主人公",
+    "scene": "世界を救うヒーロー。",
+    "example": { "en": "The firefighter was hailed as a hero.", "ja": "その消防士は英雄とたたえられた。" },
+    "etymology": {
+      "origin": "ギリシャ語 hērōs「半神の英雄」",
+      "story": "ヘラクレスのような神と人の間の存在。女性形 heroine（ヒロイン）。"
+    },
+    "roots": [],
+    "family": ["heroine（ヒロイン）", "heroic（英雄的な）"],
+    "synonyms": [
+      { "word": "champion", "meaning": "優勝者、擁護者", "nuance": "競技の覇者、または主義の擁護者。", "etymology": "後期ラテン語 campiō「戦場（campus）の戦士」（campus, camp と同源）" },
+      { "word": "protagonist", "meaning": "主人公", "nuance": "物語の中心人物。善人とは限らない。", "etymology": "ギリシャ語 prōtos「最初の」+ agōnistēs「演じる者・競う者」" },
+      { "word": "idol", "meaning": "偶像、アイドル", "nuance": "崇拝の対象。", "etymology": "ギリシャ語 eidōlon「像・幻」" }
+    ]
+  },
+  {
+    "id": "villain", "word": "villain", "katakana": "ヴィラン", "pos": "名詞", "area": "battle", "cefr": "B2",
+    "meaning": "悪役、悪党",
+    "scene": "アメコミ・特撮の敵役。",
+    "example": { "en": "Every great story needs a great villain.", "ja": "優れた物語には優れた悪役が必要だ。" },
+    "etymology": {
+      "origin": "後期ラテン語 villānus「農場（villa）の働き手」",
+      "story": "「農民」→（身分差別的に）「卑しい者」→「悪党」と意味が悪化した例。village（村）、villa（別荘）と同源。"
+    },
+    "roots": [],
+    "family": ["village（村）", "villa（別荘）"],
+    "synonyms": [
+      { "word": "antagonist", "meaning": "敵役、対立者", "nuance": "主人公に対立する人物（物語用語）。", "etymology": "ギリシャ語 anti-「対して」+ agōnizesthai「争う」" },
+      { "word": "nemesis", "meaning": "宿敵、天罰", "nuance": "倒すのが極めて難しい宿命の敵。", "etymology": "ギリシャ神話の応報の女神 Nemesis ← nemein「分配する」" },
+      { "word": "rogue", "meaning": "ならず者、ローグ", "nuance": "悪党だがどこか憎めない。ゲームの盗賊職。", "etymology": "16世紀の隠語。語源ははっきりしない" }
+    ]
+  },
+  {
+    "id": "boss", "word": "boss", "katakana": "ボス", "pos": "名詞", "area": "battle", "cefr": "A2",
+    "meaning": "上司、親分、ボス",
+    "scene": "ステージ最後に待ち受けるボス戦。",
+    "example": { "en": "I need to ask my boss for a day off.", "ja": "上司に休みをもらえるか聞かないと。" },
+    "etymology": {
+      "origin": "オランダ語 baas「親方」",
+      "story": "17世紀、オランダ系住民の多いニューヨークで英語に入った。奴隷制を連想させる master を避ける言葉として広まったと言われる。"
+    },
+    "roots": [],
+    "family": ["bossy（威張り散らす）"],
+    "synonyms": [
+      { "word": "chief", "meaning": "長、主任", "nuance": "組織の長。形容詞で「主要な」。", "etymology": "古フランス語 chef ← ラテン語 caput「頭」" },
+      { "word": "leader", "meaning": "指導者、リーダー", "nuance": "人々を導く人。", "etymology": "古英語 lǣdan「導く」" },
+      { "word": "master", "meaning": "主人、名人", "nuance": "支配者または熟達者。", "etymology": "ラテン語 magister ← magis「より多く」" }
+    ]
+  },
+  {
+    "id": "escape", "word": "escape", "katakana": "エスケープ", "pos": "動詞・名詞", "area": "battle", "cefr": "B1",
+    "meaning": "逃げる；逃亡",
+    "scene": "戦闘コマンド「にげる」、脱出ゲーム、Escキー。",
+    "example": { "en": "We escaped through a secret tunnel.", "ja": "私たちは秘密のトンネルから脱出した。" },
+    "etymology": {
+      "origin": "俗ラテン語 *excappāre ← ex-「外へ」+ cappa「マント」",
+      "story": "つかまれたマントを脱ぎ捨てて逃げる、という情景が語源とされる。cape（マント）と同源。"
+    },
+    "roots": [],
+    "family": ["cape（マント）"],
+    "synonyms": [
+      { "word": "flee", "meaning": "（危険から）逃げる", "nuance": "急いで逃げ去る。過去形 fled。", "etymology": "古英語 flēon" },
+      { "word": "evade", "meaning": "回避する、かわす", "nuance": "巧みに避ける。脱税は tax evasion。", "etymology": "ラテン語 ē-「外へ」+ vādere「行く」（invade＝中へ行く）" },
+      { "word": "dodge", "meaning": "（さっと）かわす", "nuance": "体をひねってよける。ドッジボール。", "etymology": "16世紀〜。語源不詳" }
+    ]
+  },
+  {
+    "id": "stage", "word": "stage", "katakana": "ステージ", "pos": "名詞", "area": "battle", "cefr": "A2",
+    "meaning": "舞台、段階",
+    "scene": "「ステージ1-1」「最終ステージ」。",
+    "example": { "en": "The project is still in its early stages.", "ja": "そのプロジェクトはまだ初期段階だ。" },
+    "etymology": {
+      "origin": "古フランス語 estage「住まい・階」← ラテン語 stāre「立つ」",
+      "story": "「立つ場所」→「階・段」→「舞台・段階」。status、station、obstacle と同じ stāre 家族。"
+    },
+    "roots": ["sta"],
+    "family": ["status（地位）", "station（駅）", "stable（安定した）"],
+    "synonyms": [
+      { "word": "phase", "meaning": "段階、局面、フェーズ", "nuance": "変化の過程の一局面。", "etymology": "ギリシャ語 phasis「現れ」（月の満ち欠け）" },
+      { "word": "round", "meaning": "（試合の）回、ラウンド", "nuance": "繰り返される対戦の一回分。", "etymology": "ラテン語 rotundus「丸い」" },
+      { "word": "step", "meaning": "段階、一歩", "nuance": "手順の一つ。", "etymology": "古英語 steppan「歩む」" }
+    ]
+  },
+  {
+    "id": "challenge", "word": "challenge", "katakana": "チャレンジ", "pos": "名詞・動詞", "area": "battle", "cefr": "A2",
+    "meaning": "難題、挑戦；異議を唱える",
+    "scene": "高難度のチャレンジモード、チャレンジ報酬。",
+    "gap": "日本語の「チャレンジする」は「挑戦してみる」だが、英語の動詞 challenge は「（人に）挑む・異議を唱える」が中心。「〜に挑戦する」は try / take on the challenge of 〜。",
+    "trapQuiz": {"question": "「英検にチャレンジする」を自然な英語にすると？", "answer": "try the Eiken test", "wrong": ["challenge the Eiken", "challenge to Eiken", "make Eiken challenge"]},
+    "example": { "en": "Learning Japanese was a real challenge for him.", "ja": "日本語の習得は彼にとって本当に難題だった。" },
+    "etymology": {
+      "origin": "古フランス語 chalenge「非難・訴え」← ラテン語 calumnia「中傷」",
+      "story": "「言いがかり・異議申し立て」→「決闘を申し込む」→「挑戦・難題」と変化した。calumny（中傷）と同源。"
+    },
+    "roots": [],
+    "family": ["calumny（中傷）", "challenging（やりがいのある）"],
+    "synonyms": [
+      { "word": "dare", "meaning": "あえて〜する、挑発する", "nuance": "I dare you!（やれるもんならやってみろ）", "etymology": "古英語 durran「思い切ってする」" },
+      { "word": "trial", "meaning": "試練、試み、裁判", "nuance": "試されること。trial and error（試行錯誤）。", "etymology": "アングロ・フランス語 trier「試す」" },
+      { "word": "attempt", "meaning": "試み（る）", "nuance": "成功するか分からないことを試みる。", "etymology": "ラテン語 ad- + temptāre「試す」（tempt と同源）" }
+    ]
+  },
+
+  {
+    "id": "mission", "word": "mission", "katakana": "ミッション", "pos": "名詞", "area": "scifi", "cefr": "B1",
+    "meaning": "任務、使命",
+    "scene": "「ミッション開始！」宇宙船やスパイの任務。",
+    "example": { "en": "Your mission is to reach the space station.", "ja": "君の任務は宇宙ステーションに到達することだ。" },
+    "etymology": {
+      "origin": "ラテン語 missiō「送り出すこと」← mittere「送る」",
+      "story": "「送り出された者の仕事」。missile（発射されるもの）、message（送られる知らせ）、transmit（向こうへ送る）も mittere 家族。"
+    },
+    "roots": ["mit"],
+    "family": ["missile（ミサイル）", "message（伝言）", "transmit（送信する）", "dismiss（解散させる）"],
+    "synonyms": [
+      { "word": "task", "meaning": "課題、作業", "nuance": "やるべき個々の仕事。", "etymology": "中世ラテン語 tasca「課された税」（tax と同源）" },
+      { "word": "assignment", "meaning": "割り当てられた仕事、宿題", "nuance": "人に割り振られた仕事。", "etymology": "ラテン語 ad- + signāre「印をつける」（sign と同源）" },
+      { "word": "operation", "meaning": "作戦、手術、操作", "nuance": "組織的な作戦行動。", "etymology": "ラテン語 operārī ← opus「仕事・作品」" }
+    ]
+  },
+  {
+    "id": "launch", "word": "launch", "katakana": "ローンチ", "pos": "動詞・名詞", "area": "scifi", "cefr": "B2",
+    "meaning": "発射する、開始する；発射",
+    "scene": "ロボットの発進シーン、ゲームのローンチ（発売）。",
+    "gap": "カタカナで「ランチ」と書くと lunch（昼食）と紛らわしいため「ローンチ」と書かれることが多い。",
+    "example": { "en": "The rocket was launched at dawn.", "ja": "ロケットは夜明けに打ち上げられた。" },
+    "etymology": {
+      "origin": "古北フランス語 lancher ← 後期ラテン語 lanceāre「槍（lancea）を振るう」",
+      "story": "槍を投げる動作から「勢いよく送り出す」へ。lance（槍）と同源。"
+    },
+    "roots": [],
+    "family": ["lance（槍）"],
+    "synonyms": [
+      { "word": "deploy", "meaning": "配備する、展開する", "nuance": "部隊・システムを配置する。", "etymology": "フランス語 déployer ← ラテン語 displicāre「広げる」（display と同源）" },
+      { "word": "release", "meaning": "解放する、発売する", "nuance": "放つ・公開する。", "etymology": "ラテン語 relaxāre「緩める」（relax と同源）" },
+      { "word": "fire", "meaning": "発射する", "nuance": "銃砲を撃つ。", "etymology": "古英語 fȳr「火」" }
+    ]
+  },
+  {
+    "id": "system", "word": "system", "katakana": "システム", "pos": "名詞", "area": "scifi", "cefr": "A2",
+    "meaning": "体系、仕組み、装置",
+    "scene": "「システム、オールグリーン」。",
+    "example": { "en": "The ship's defense system is offline.", "ja": "船の防衛システムが停止している。" },
+    "etymology": {
+      "origin": "ギリシャ語 systēma「組み立てられた全体」← syn-「共に」+ histanai「立てる」",
+      "story": "「一緒に立てたもの」。histanai はラテン語 stāre（立つ）と同じ祖先をもつので、stage や status の遠い親戚。"
+    },
+    "roots": ["sta"],
+    "family": ["ecosystem（生態系）", "systematic（体系的な）"],
+    "synonyms": [
+      { "word": "structure", "meaning": "構造", "nuance": "部分の組み立て方。", "etymology": "ラテン語 struere「積み上げる」（construct と同源）" },
+      { "word": "mechanism", "meaning": "機構、メカニズム", "nuance": "動く仕組み。", "etymology": "ギリシャ語 mēchanē「仕掛け」（machine と同源）" },
+      { "word": "framework", "meaning": "枠組み、フレームワーク", "nuance": "骨組みとなる枠。", "etymology": "frame（古英語 framian「役立つ」）+ work" }
+    ]
+  },
+  {
+    "id": "android", "word": "android", "katakana": "アンドロイド", "pos": "名詞", "area": "scifi", "cefr": "B2",
+    "meaning": "人造人間、アンドロイド",
+    "scene": "人間そっくりのロボット。",
+    "example": { "en": "The android could not understand human emotions.", "ja": "そのアンドロイドは人間の感情を理解できなかった。" },
+    "etymology": {
+      "origin": "ギリシャ語 anēr, andros「男・人」+ -oeidēs「〜の形をした」",
+      "story": "「人の形をしたもの」。-oid は asteroid（星の形＝小惑星）、humanoid にも。"
+    },
+    "roots": [],
+    "family": ["humanoid（人型）", "asteroid（小惑星）"],
+    "synonyms": [
+      { "word": "robot", "meaning": "ロボット", "nuance": "機械的な自動装置全般。", "etymology": "チェコ語 robota「強制労働」。カレル・チャペックの戯曲『R.U.R.』（1920）で広まった" },
+      { "word": "cyborg", "meaning": "サイボーグ", "nuance": "体の一部を機械化した生物。", "etymology": "cybernetic + organism の混成語（1960年）" },
+      { "word": "automaton", "meaning": "自動人形", "nuance": "からくり人形。機械的に動く人。", "etymology": "ギリシャ語 automatos「自ら動く」（automatic と同源）" }
+    ]
+  },
+  {
+    "id": "gravity", "word": "gravity", "katakana": "グラビティ", "pos": "名詞", "area": "scifi", "cefr": "B2",
+    "meaning": "重力、重大さ",
+    "scene": "重力を操る能力、無重力空間。",
+    "example": { "en": "There is almost no gravity in space.", "ja": "宇宙にはほとんど重力がない。" },
+    "etymology": {
+      "origin": "ラテン語 gravitās「重さ・威厳」← gravis「重い」",
+      "story": "「重さ」から「事態の重大さ」も表す。grave（重大な）、grief（重い悲しみ）も同源。"
+    },
+    "roots": [],
+    "family": ["grave（重大な）", "grief（深い悲しみ）", "aggravate（悪化させる）"],
+    "synonyms": [
+      { "word": "weight", "meaning": "重さ、体重", "nuance": "物の重さ。", "etymology": "古英語 wiht（weigh と同源）" },
+      { "word": "mass", "meaning": "質量、かたまり", "nuance": "物理学の質量。大量 a mass of 〜。", "etymology": "ギリシャ語 maza「大麦の練り粉のかたまり」" },
+      { "word": "seriousness", "meaning": "深刻さ", "nuance": "事態の重大さ（gravity の比喩的意味）。", "etymology": "ラテン語 sērius「まじめな」" }
+    ]
+  },
+  {
+    "id": "evolution", "word": "evolution", "katakana": "エボリューション", "pos": "名詞", "area": "scifi", "cefr": "B2",
+    "meaning": "進化、発展",
+    "scene": "モンスターが「進化」する演出。",
+    "example": { "en": "Darwin's theory of evolution changed science.", "ja": "ダーウィンの進化論は科学を変えた。" },
+    "etymology": {
+      "origin": "ラテン語 ēvolvere「巻物を広げる」← ē-「外へ」+ volvere「巻く・転がす」",
+      "story": "巻物をくるくる広げて中身が現れていく様子が「発展・進化」に。volume（巻＝巻物）、revolve（回転する）、involve（巻き込む）も volvere 家族。"
+    },
+    "roots": ["volv"],
+    "family": ["evolve（進化する）", "revolve（回転する）", "involve（巻き込む）", "volume（巻・量）"],
+    "synonyms": [
+      { "word": "development", "meaning": "発達、開発", "nuance": "徐々に成長・発展すること。", "etymology": "古フランス語 desveloper「包みを解く」" },
+      { "word": "progress", "meaning": "進歩、前進", "nuance": "目標に向かって進むこと。", "etymology": "ラテン語 prō-「前へ」+ gradī「歩む」（grade と同源）" },
+      { "word": "mutation", "meaning": "突然変異", "nuance": "遺伝子の変化。SFのミュータント。", "etymology": "ラテン語 mūtāre「変える」" }
+    ]
+  },
+  {
+    "id": "dimension", "word": "dimension", "katakana": "ディメンション", "pos": "名詞", "area": "scifi", "cefr": "B2",
+    "meaning": "次元、寸法、側面",
+    "scene": "異次元（another dimension）への扉。「2次元キャラ」。",
+    "example": { "en": "The portal led to another dimension.", "ja": "そのポータルは別の次元へ通じていた。" },
+    "etymology": {
+      "origin": "ラテン語 dīmēnsiō ← dīmētīrī「測り分ける」（dis- + mētīrī「測る」）",
+      "story": "「測った大きさ」→「寸法（縦・横・高さ）」→「次元」。measure（測る）、immense（測れないほど巨大な）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["measure（測る）", "immense（巨大な）"],
+    "synonyms": [
+      { "word": "realm", "meaning": "領域、王国", "nuance": "ファンタジーの「〜の国・界」。the realm of the dead（死者の国）。", "etymology": "古フランス語 reaume ← ラテン語 regimen「統治」" },
+      { "word": "plane", "meaning": "平面、（存在の）次元", "nuance": "数学の平面。「アストラル界 astral plane」。", "etymology": "ラテン語 plānum「平らな面」" },
+      { "word": "world", "meaning": "世界", "nuance": "最も一般的な語。", "etymology": "古英語 weorold ← wer「人」+ ald「時代」→「人の世」" }
+    ]
+  },
+  {
+    "id": "portal", "word": "portal", "katakana": "ポータル", "pos": "名詞", "area": "scifi", "cefr": "B2",
+    "meaning": "入口、ワープゲート",
+    "scene": "別の場所や世界へ瞬間移動する門。",
+    "example": { "en": "Step into the portal to return to town.", "ja": "ポータルに入れば町に戻れる。" },
+    "etymology": {
+      "origin": "中世ラテン語 portāle ← ラテン語 porta「門」",
+      "story": "立派な門（大聖堂の正面入口など）を指した。Webの「ポータルサイト」は情報への入口。"
+    },
+    "roots": [],
+    "family": ["porch（玄関）", "portico（柱廊玄関）"],
+    "synonyms": [
+      { "word": "gate", "meaning": "門", "nuance": "一般的な門・ゲート。", "etymology": "古英語 geat「門・開口部」" },
+      { "word": "gateway", "meaning": "出入口、玄関口", "nuance": "比喩的に「〜への入口」。", "etymology": "gate + way" },
+      { "word": "threshold", "meaning": "敷居、入口、しきい値", "nuance": "新しい段階の入口。", "etymology": "古英語 therscold（語源の詳細は不明）" }
+    ]
+  },
+  {
+    "id": "pilot", "word": "pilot", "katakana": "パイロット", "pos": "名詞", "area": "scifi", "cefr": "B1",
+    "meaning": "操縦士、水先案内人",
+    "scene": "巨大ロボットのパイロット。",
+    "example": { "en": "The young pilot climbed into the robot's cockpit.", "ja": "若きパイロットはロボットのコックピットに乗り込んだ。" },
+    "etymology": {
+      "origin": "フランス語 pilote ← イタリア語 pilota ← 中世ギリシャ語 *pēdōtēs「舵取り」← pēdon「オール・舵」",
+      "story": "もとは船の舵取り（水先案内人）。飛行機やロボットの操縦士へ広がった。"
+    },
+    "roots": [],
+    "family": ["autopilot（自動操縦）"],
+    "synonyms": [
+      { "word": "navigator", "meaning": "航海士、ナビゲーター", "nuance": "進路を決める人。", "etymology": "ラテン語 nāvigāre ← nāvis「船」+ agere「動かす」" },
+      { "word": "captain", "meaning": "船長、機長、キャプテン", "nuance": "船・チームの長。", "etymology": "後期ラテン語 capitāneus ← caput「頭」" },
+      { "word": "operator", "meaning": "操作する人、オペレーター", "nuance": "機械・システムを操作する人。", "etymology": "ラテン語 operārī ← opus「仕事」" }
+    ]
+  },
+  {
+    "id": "signal", "word": "signal", "katakana": "シグナル", "pos": "名詞", "area": "scifi", "cefr": "B1",
+    "meaning": "信号、合図",
+    "scene": "謎の信号をキャッチした宇宙船。",
+    "example": { "en": "We received a signal from an unknown planet.", "ja": "未知の惑星から信号を受信した。" },
+    "etymology": {
+      "origin": "中世ラテン語 signāle ← ラテン語 signum「印」",
+      "story": "sign（印・合図）、signature（署名）、design（印をつけて描く）も signum 家族。"
+    },
+    "roots": ["sign"],
+    "family": ["sign（合図）", "signature（署名）", "design（デザイン）"],
+    "synonyms": [
+      { "word": "alert", "meaning": "警報、アラート", "nuance": "危険を知らせる合図。形容詞で「油断のない」。", "etymology": "イタリア語 all'erta「見張り台で」" },
+      { "word": "beacon", "meaning": "かがり火、標識、ビーコン", "nuance": "位置を知らせ導く信号。", "etymology": "古英語 bēacen「合図」（beckon 手招きする と同源）" },
+      { "word": "cue", "meaning": "きっかけ、合図", "nuance": "演劇で次のセリフの合図。", "etymology": "台本の略記 q（ラテン語 quando「いつ」）とする説など諸説" }
+    ]
+  },
+  {
+    "id": "target", "word": "target", "katakana": "ターゲット", "pos": "名詞", "area": "scifi", "cefr": "B1",
+    "meaning": "標的、目標",
+    "scene": "「ターゲット、ロックオン！」",
+    "example": { "en": "Lock on to the target and fire.", "ja": "標的をロックオンして撃て。" },
+    "etymology": {
+      "origin": "古フランス語 targette「小さな盾」← targe「盾」",
+      "story": "弓の的が丸い小盾の形をしていたことから「標的」に。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "aim", "meaning": "狙い、目的", "nuance": "狙いを定めること。", "etymology": "古フランス語 esmer ← ラテン語 aestimāre「見積もる」（estimate と二重語）" },
+      { "word": "goal", "meaning": "ゴール、目標", "nuance": "最終的に到達したい地点。", "etymology": "中英語 gol「境界」とされるが語源不詳" },
+      { "word": "objective", "meaning": "目標、（形）客観的な", "nuance": "具体的な達成目標。ゲームの達成条件も。", "etymology": "ラテン語 ob-「前に」+ iacere「投げる」（object と同源）" }
+    ]
+  },
+  {
+    "id": "armor", "word": "armor", "katakana": "アーマー", "pos": "名詞", "area": "scifi", "cefr": "B1",
+    "meaning": "鎧、装甲",
+    "scene": "パワードスーツ、装甲車。防御力を上げる防具。",
+    "example": { "en": "The robot's armor was made of titanium.", "ja": "そのロボットの装甲はチタン製だった。" },
+    "etymology": {
+      "origin": "ラテン語 armātūra「武装」← arma「武器・道具」",
+      "story": "army（軍隊）、arms（武器）、そして alarm（イタリア語 all'arme「武器を取れ！」）も arma 家族。イギリス英語では armour。"
+    },
+    "roots": ["arm"],
+    "family": ["army（軍隊）", "arms（武器）", "alarm（警報）"],
+    "synonyms": [
+      { "word": "mail", "meaning": "鎖かたびら", "nuance": "chain mail。郵便の mail とは別語。", "etymology": "古フランス語 maille ← ラテン語 macula「網目」" },
+      { "word": "plating", "meaning": "装甲板、メッキ", "nuance": "金属板で覆うこと。", "etymology": "plate ← ギリシャ語 platys「平らな」" },
+      { "word": "protection", "meaning": "防護", "nuance": "守るもの全般。", "etymology": "ラテン語 prō- + tegere「覆う」" }
+    ]
+  },
+  {
+    "id": "emergency", "word": "emergency", "katakana": "エマージェンシー", "pos": "名詞", "area": "scifi", "cefr": "B1",
+    "meaning": "緊急事態",
+    "scene": "赤い警報灯と「エマージェンシー！」の声。",
+    "example": { "en": "In an emergency, press the red button.", "ja": "緊急時には赤いボタンを押せ。" },
+    "etymology": {
+      "origin": "ラテン語 ēmergere「浮かび上がる」← ē-「外へ」+ mergere「沈める」",
+      "story": "水中から急に浮かび出てくる → 突然現れた事態 → 緊急事態。merge（合流する）、submerge（沈める）と同源。"
+    },
+    "roots": ["merg"],
+    "family": ["emerge（現れる）", "merge（合併する）", "submerge（沈める）"],
+    "synonyms": [
+      { "word": "crisis", "meaning": "危機", "nuance": "重大な分かれ目となる局面。", "etymology": "ギリシャ語 krisis「分岐点」← krīnein「分ける」（critical と同源）" },
+      { "word": "urgency", "meaning": "緊急性", "nuance": "急を要すること。", "etymology": "ラテン語 urgēre「押し迫る」" },
+      { "word": "pinch", "meaning": "（つまむこと）；in a pinch＝いざという時", "nuance": "日本語の「ピンチ」は英語では in a pinch / in trouble で表す。", "etymology": "古北フランス語 pincier「つまむ」" }
+    ]
+  },
+  {
+    "id": "beam", "word": "beam", "katakana": "ビーム", "pos": "名詞", "area": "scifi", "cefr": "B2",
+    "meaning": "光線、梁（はり）",
+    "scene": "ロボットの必殺技「ビームライフル」。",
+    "example": { "en": "A beam of light shot out of the robot's eyes.", "ja": "ロボットの目から光線が放たれた。" },
+    "etymology": {
+      "origin": "古英語 bēam「木・柱」",
+      "story": "「丸太・柱」→（まっすぐ伸びる）「光の柱」。建物の梁も beam。ドイツ語 Baum（木）と同源。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "ray", "meaning": "光線", "nuance": "中心から放射状に出る一筋の光。X-ray。", "etymology": "ラテン語 radius「車輪のスポーク・光線」（radio と同源）" },
+      { "word": "laser", "meaning": "レーザー", "nuance": "Light Amplification by Stimulated Emission of Radiation の頭字語。", "etymology": "1950年代の造語（頭字語）" },
+      { "word": "flash", "meaning": "閃光", "nuance": "一瞬の強い光。", "etymology": "中英語。擬音語起源とされる" }
+    ]
+  },
+
+  {
+    "id": "tension", "word": "tension", "katakana": "テンション", "pos": "名詞", "area": "story", "cefr": "B2",
+    "meaning": "緊張、張り詰めた状態",
+    "scene": "「テンション上がる！」（日本語の用法に注意）",
+    "gap": "日本語の「テンションが高い」は「ノリノリ・興奮」だが、英語の tension は「緊張・不安」。ノリノリは excited / hyped / in high spirits。",
+    "trapQuiz": {"question": "「今日はテンション高い！」の気持ちを英語で言うと？", "answer": "I'm so excited today!", "wrong": ["My tension is high today!", "I'm very tense today!", "I have high tension today!"]},
+    "example": { "en": "You could feel the tension in the room before the final.", "ja": "決勝前、部屋の張り詰めた空気が感じられた。" },
+    "etymology": {
+      "origin": "ラテン語 tēnsiō ← tendere「張る・伸ばす」",
+      "story": "糸がピンと張った状態。attention（心をそちらへ伸ばす）、extend（外へ伸ばす）も同じ家族。"
+    },
+    "roots": ["tend"],
+    "family": ["tense（緊張した）", "extend（延長する）", "attention（注意）"],
+    "synonyms": [
+      { "word": "stress", "meaning": "ストレス、圧力", "nuance": "心身への負担。", "etymology": "古フランス語 estrece ← ラテン語 strictus「きつく締められた」（distress の短縮）" },
+      { "word": "strain", "meaning": "負担、張り", "nuance": "引っ張られて無理がかかる状態。", "etymology": "ラテン語 stringere「締める」" },
+      { "word": "excitement", "meaning": "興奮、わくわく", "nuance": "日本語の「テンション高い」に当たるのはこちら。", "etymology": "ラテン語 excitāre「呼び起こす」" }
+    ]
+  },
+  {
+    "id": "smart", "word": "smart", "katakana": "スマート", "pos": "形容詞", "area": "story", "cefr": "B1",
+    "meaning": "賢い、洗練された、おしゃれな",
+    "scene": "「スマートな体型」（日本語の用法に注意）",
+    "gap": "日本語の「スマート」は「細身」の意味が強いが、英語の smart は「頭が良い」「身なりがきちんとした」。細身は slim / slender。",
+    "trapQuiz": {"question": "「彼女はスマート（細身）だね」を英語で言うと？", "answer": "She's slim.", "wrong": ["She's smart.", "She's clever.", "She's intelligent."]},
+    "example": { "en": "She's the smartest student in our class.", "ja": "彼女はクラスで一番頭がいい生徒だ。" },
+    "etymology": {
+      "origin": "古英語 smeortan「ずきずき痛む」",
+      "story": "「刺すように痛い」→「鋭い」→「頭の切れる」「きびきびした」と変化。今でも動詞 smart は「ひりひり痛む」の意味で使われる。"
+    },
+    "roots": [],
+    "family": ["smartphone（スマートフォン）"],
+    "synonyms": [
+      { "word": "clever", "meaning": "利口な、器用な", "nuance": "頭の回転が速い。ずる賢さを含むことも。", "etymology": "中英語 cliver。語源不詳" },
+      { "word": "intelligent", "meaning": "知的な", "nuance": "理解力・思考力が高い。", "etymology": "ラテン語 inter-「間から」+ legere「選ぶ」（legend と同源）" },
+      { "word": "slender", "meaning": "ほっそりした", "nuance": "日本語の「スマート」に当たるのはこちら（slim も）。", "etymology": "中英語 slendre。語源不詳" }
+    ]
+  },
+  {
+    "id": "claim", "word": "claim", "katakana": "クレーム", "pos": "動詞・名詞", "area": "story", "cefr": "B1",
+    "meaning": "主張（する）、請求（する）",
+    "scene": "「お客様からクレームが…」（日本語の用法に注意）",
+    "gap": "日本語の「クレーム」は「苦情」だが、英語の claim は「（正当な権利として）主張・要求する」。苦情は complaint。",
+    "trapQuiz": {"question": "「店にクレームを言う」の「クレーム（苦情）」は英語で？", "answer": "complaint", "wrong": ["claim", "demand", "assert"]},
+    "example": { "en": "He claims that he saw a UFO.", "ja": "彼はUFOを見たと主張している。" },
+    "etymology": {
+      "origin": "ラテン語 clāmāre「叫ぶ」",
+      "story": "「大声で求める」→「権利を主張する」。exclaim（叫ぶ）、proclaim（宣言する）も同じ家族。"
+    },
+    "roots": ["clam"],
+    "family": ["exclaim（叫ぶ）", "proclaim（宣言する）", "clamor（叫び声）"],
+    "synonyms": [
+      { "word": "complaint", "meaning": "苦情、不満", "nuance": "日本語の「クレーム」に当たるのはこちら。", "etymology": "ラテン語 com- + plangere「（胸を叩いて）嘆く」" },
+      { "word": "assert", "meaning": "断言する", "nuance": "自信をもって強く主張する。", "etymology": "ラテン語 ad- + serere「結びつける」" },
+      { "word": "demand", "meaning": "要求する", "nuance": "強く求める。", "etymology": "ラテン語 dē- + mandāre「任せる・命じる」" }
+    ]
+  },
+  {
+    "id": "naive", "word": "naive", "katakana": "ナイーブ", "pos": "形容詞", "area": "story", "cefr": "C1",
+    "meaning": "世間知らずの、単純な",
+    "scene": "「彼はナイーブだから…」（日本語の用法に注意）",
+    "gap": "日本語の「ナイーブ」は「繊細・傷つきやすい」という肯定的な響きもあるが、英語の naive は「世間知らず・考えが甘い」と否定的なことが多い。繊細は sensitive。",
+    "trapQuiz": {"question": "「彼は繊細で傷つきやすい」の「繊細」に当たる英語は？", "answer": "sensitive", "wrong": ["naive", "gullible", "innocent"]},
+    "example": { "en": "It was naive of me to trust him.", "ja": "彼を信じるなんて私が甘かった。" },
+    "etymology": {
+      "origin": "フランス語 naïf ← ラテン語 nātīvus「生まれたままの」",
+      "story": "「生まれたまま・自然のまま」→「すれていない」→「世間知らず」。native（生まれつきの）、nature（自然）も同じ家族。"
+    },
+    "roots": ["nat"],
+    "family": ["native（出身の）", "nature（自然）", "nation（国家）"],
+    "synonyms": [
+      { "word": "innocent", "meaning": "無邪気な、無罪の", "nuance": "罪のない、けがれのない。", "etymology": "ラテン語 in-「否」+ nocēre「害する」" },
+      { "word": "gullible", "meaning": "だまされやすい", "nuance": "人の話をすぐ信じてしまう。", "etymology": "gull「だます」から（語源諸説）" },
+      { "word": "sensitive", "meaning": "繊細な、敏感な", "nuance": "日本語の「ナイーブ」に当たるのはこちら。", "etymology": "ラテン語 sentīre「感じる」" }
+    ]
+  },
+  {
+    "id": "cunning", "word": "cunning", "katakana": "カンニング", "pos": "形容詞", "area": "story", "cefr": "C1",
+    "meaning": "ずる賢い、狡猾な",
+    "scene": "学園もので「テストでカンニング」（日本語の用法に注意）",
+    "gap": "日本語の「カンニング」は試験の不正行為だが、英語の cunning は「ずる賢い」という形容詞。試験の不正は cheating。",
+    "trapQuiz": {"question": "「テストでカンニングする」の「カンニング」は英語で？", "answer": "cheating", "wrong": ["cunning", "sly", "crafty"]},
+    "example": { "en": "The fox came up with a cunning plan.", "ja": "キツネはずる賢い計画を思いついた。" },
+    "etymology": {
+      "origin": "古英語 cunnan「知っている」",
+      "story": "「知識がある」→「巧みな」→「ずる賢い」と意味が悪化した。can（できる）、know（知る）と同じ祖先をもつ。"
+    },
+    "roots": [],
+    "family": ["can（できる）", "know（知る）"],
+    "synonyms": [
+      { "word": "sly", "meaning": "ずるい、いたずらっぽい", "nuance": "こっそり企む。", "etymology": "古ノルド語 slœgr「賢い」" },
+      { "word": "crafty", "meaning": "悪賢い", "nuance": "策略に長けた。", "etymology": "古英語 cræft「力・技術」（craft と同源）" },
+      { "word": "cheating", "meaning": "不正行為、カンニング", "nuance": "日本語の「カンニング」に当たるのはこちら。", "etymology": "中英語 eschete「没収財産」→ だまし取る" }
+    ]
+  },
+  {
+    "id": "ace", "word": "ace", "katakana": "エース", "pos": "名詞", "area": "story", "cefr": "B1",
+    "meaning": "エース、名手、（トランプの）1",
+    "scene": "野球部のエース、撃墜王（エースパイロット）。",
+    "example": { "en": "He is the ace of our pitching staff.", "ja": "彼はうちの投手陣のエースだ。" },
+    "etymology": {
+      "origin": "ラテン語 as「1単位」（ローマの銅貨の単位）",
+      "story": "サイコロ・トランプの「1」→ 最強の札 → 第一次世界大戦で多くの敵機を落としたパイロット → 名手。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "expert", "meaning": "専門家、熟練者", "nuance": "知識・技術が豊富な人。", "etymology": "ラテン語 expertus「試練を経た」（experience と同源）" },
+      { "word": "master", "meaning": "名人、達人", "nuance": "完全に習得した人。", "etymology": "ラテン語 magister ← magis「より多く」" },
+      { "word": "virtuoso", "meaning": "名演奏家、名人", "nuance": "特に音楽の超絶技巧の持ち主。", "etymology": "イタリア語「技に優れた」← ラテン語 virtūs「徳・力」" }
+    ]
+  },
+  {
+    "id": "rookie", "word": "rookie", "katakana": "ルーキー", "pos": "名詞", "area": "story", "cefr": "B2",
+    "meaning": "新人、新兵",
+    "scene": "期待のルーキー、新人王（Rookie of the Year）。",
+    "example": { "en": "Not bad for a rookie!", "ja": "新人にしてはやるじゃないか！" },
+    "etymology": {
+      "origin": "recruit（新兵）の変形と考えられている（19世紀の軍隊スラング）",
+      "story": "語源ははっきりせず諸説ある。スポーツの新人を指すのは主にアメリカ英語。"
+    },
+    "roots": [],
+    "family": ["recruit（新兵・採用する）"],
+    "synonyms": [
+      { "word": "novice", "meaning": "初心者", "nuance": "経験の浅い人全般。", "etymology": "ラテン語 novīcius ← novus「新しい」" },
+      { "word": "newcomer", "meaning": "新参者", "nuance": "新しく来た人。", "etymology": "new + comer" },
+      { "word": "beginner", "meaning": "初心者", "nuance": "始めたばかりの人。最も一般的。", "etymology": "古英語 beginnan「始める」" }
+    ]
+  },
+  {
+    "id": "spirit", "word": "spirit", "katakana": "スピリット", "pos": "名詞", "area": "story", "cefr": "B1",
+    "meaning": "精神、霊、気力",
+    "scene": "スポーツマンシップ（sportsmanship）の精神、精霊。",
+    "example": { "en": "The team showed great fighting spirit.", "ja": "チームは素晴らしい闘志を見せた。" },
+    "etymology": {
+      "origin": "ラテン語 spīritus「息」← spīrāre「呼吸する」",
+      "story": "「息」＝命の源 →「魂・精神」。inspire（息を吹き込む→ひらめかせる）、expire（息を吐き出す→期限が切れる）も同じ家族。"
+    },
+    "roots": ["spir"],
+    "family": ["inspire（ひらめかせる）", "expire（期限が切れる）", "respiration（呼吸）"],
+    "synonyms": [
+      { "word": "soul", "meaning": "魂", "nuance": "肉体とは別の不滅の存在。", "etymology": "古英語 sāwol" },
+      { "word": "ghost", "meaning": "幽霊", "nuance": "死者の霊。", "etymology": "古英語 gāst「霊・息」（h は後の綴り）" },
+      { "word": "morale", "meaning": "士気", "nuance": "集団のやる気。", "etymology": "フランス語 moral（moral と同源）" }
+    ]
+  },
+  {
+    "id": "destiny", "word": "destiny", "katakana": "ディスティニー", "pos": "名詞", "area": "story", "cefr": "B2",
+    "meaning": "運命、宿命",
+    "scene": "「これは運命の出会い…！」",
+    "example": { "en": "She believed it was her destiny to become a singer.", "ja": "歌手になるのが自分の運命だと彼女は信じていた。" },
+    "etymology": {
+      "origin": "古フランス語 destinée ← ラテン語 dēstināre「固定する・定める」",
+      "story": "あらかじめ「定められた」行き先。destination（目的地）と同源。"
+    },
+    "roots": [],
+    "family": ["destination（目的地）", "destined（運命づけられた）"],
+    "synonyms": [
+      { "word": "fate", "meaning": "（不幸な）運命", "nuance": "逆らえない運命。悪い結末に使われやすい。", "etymology": "ラテン語 fātum「（神によって）語られたこと」← fārī「話す」（fable と同源）" },
+      { "word": "doom", "meaning": "悲運、破滅", "nuance": "避けられない破滅。", "etymology": "古英語 dōm「裁き」（deem 判断する と同源）" },
+      { "word": "fortune", "meaning": "運、運勢", "nuance": "幸運・不運を含む巡り合わせ。", "etymology": "ラテン語 fortūna「運」" }
+    ]
+  },
+  {
+    "id": "miracle", "word": "miracle", "katakana": "ミラクル", "pos": "名詞", "area": "story", "cefr": "B1",
+    "meaning": "奇跡",
+    "scene": "9回裏の逆転ホームラン、ミラクルが起きた！",
+    "example": { "en": "It's a miracle that nobody was hurt.", "ja": "誰もけがをしなかったのは奇跡だ。" },
+    "etymology": {
+      "origin": "ラテン語 mīrāculum「驚くべきもの」← mīrārī「驚く」",
+      "story": "mirror（鏡＝見て驚くもの）、admire（感嘆する）、mirage（蜃気楼）も同じ家族。"
+    },
+    "roots": ["mir"],
+    "family": ["admire（感嘆する）", "mirror（鏡）", "mirage（蜃気楼）"],
+    "synonyms": [
+      { "word": "marvel", "meaning": "驚異、驚くべきもの", "nuance": "感嘆すべきもの。miracle と同じ mīrārī 由来。", "etymology": "古フランス語 merveille ← ラテン語 mīrābilia「驚くべきことども」" },
+      { "word": "wonder", "meaning": "驚異、不思議", "nuance": "驚きと好奇心。the Seven Wonders（七不思議）。", "etymology": "古英語 wundor" },
+      { "word": "phenomenon", "meaning": "現象、驚異的な人", "nuance": "観察できる現象。", "etymology": "ギリシャ語 phainomenon「現れるもの」（fantasy と同源）" }
+    ]
+  },
+  {
+    "id": "trigger", "word": "trigger", "katakana": "トリガー", "pos": "名詞・動詞", "area": "story", "cefr": "B2",
+    "meaning": "引き金（を引く）、きっかけ（となる）",
+    "scene": "覚醒のトリガー、トラウマのトリガー。",
+    "example": { "en": "The loud noise triggered his memories of the war.", "ja": "大きな音が彼に戦争の記憶を呼び起こした。" },
+    "etymology": {
+      "origin": "オランダ語 trekker ← trekken「引く」",
+      "story": "「引くもの」→ 銃の引き金 →「きっかけ」。trek（苦難の旅）も同じ trekken から。"
+    },
+    "roots": [],
+    "family": ["trek（長旅）"],
+    "synonyms": [
+      { "word": "provoke", "meaning": "引き起こす、挑発する", "nuance": "感情や反応を呼び起こす。", "etymology": "ラテン語 prō-「前へ」+ vocāre「呼ぶ」（invoke と同源）" },
+      { "word": "spark", "meaning": "火花、きっかけ", "nuance": "小さなきっかけから大きく燃え広がる。", "etymology": "古英語 spearca「火花」" },
+      { "word": "cause", "meaning": "原因（となる）", "nuance": "最も一般的な「原因」。", "etymology": "ラテン語 causa「理由・原因」" }
+    ]
+  },
+  {
+    "id": "sacrifice", "word": "sacrifice", "katakana": "サクリファイス", "pos": "名詞・動詞", "area": "story", "cefr": "B2",
+    "meaning": "犠牲（にする）、いけにえ",
+    "scene": "仲間を守るための自己犠牲。野球の犠牲バント（sacrifice bunt）。",
+    "example": { "en": "He sacrificed his free time to help his friends.", "ja": "彼は友人を助けるために自由な時間を犠牲にした。" },
+    "etymology": {
+      "origin": "ラテン語 sacrificium ← sacer「神聖な」+ facere「作る・行う」",
+      "story": "「神聖なものにする」＝神に捧げる → 犠牲。sacred（神聖な）、factory（作る所）と同じ家族。"
+    },
+    "roots": ["fac"],
+    "family": ["sacred（神聖な）", "factory（工場）"],
+    "synonyms": [
+      { "word": "offering", "meaning": "供え物、提供", "nuance": "神や人に差し出すもの。", "etymology": "ラテン語 offerre ← ob-「前に」+ ferre「運ぶ」" },
+      { "word": "surrender", "meaning": "降伏（する）、引き渡す", "nuance": "相手に明け渡す。", "etymology": "古フランス語 sur-「上に」+ rendre「返す」" },
+      { "word": "forfeit", "meaning": "（罰として）失う、没収", "nuance": "権利などを失う。不戦敗は forfeit。", "etymology": "古フランス語 forfait「犯罪」← ラテン語 forīs「外で」+ facere「行う」" }
+    ]
+  },
+  {
+    "id": "mentor", "word": "mentor", "katakana": "メンター", "pos": "名詞", "area": "story", "cefr": "B2",
+    "meaning": "指導者、師",
+    "scene": "主人公を導く師匠キャラ。",
+    "example": { "en": "My coach was also my mentor in life.", "ja": "コーチは人生の師でもあった。" },
+    "etymology": {
+      "origin": "ギリシャ語 Mentōr（ホメロス『オデュッセイア』の登場人物）",
+      "story": "女神アテナがメントールの姿に化けて若きテレマコスを導いた。フランスの小説『テレマックの冒険』（1699）で「良き指導者」の意味が広まった。人名が普通名詞になった例。"
+    },
+    "roots": [],
+    "family": ["mentee（指導を受ける人）"],
+    "synonyms": [
+      { "word": "tutor", "meaning": "家庭教師、個別指導者", "nuance": "少人数・個別に教える人。", "etymology": "ラテン語 tūtor「保護者」← tuērī「見守る」" },
+      { "word": "coach", "meaning": "コーチ、指導者", "nuance": "スポーツなどの指導者。", "etymology": "ハンガリーの町 Kocs の馬車 →（学生を試験へ「運ぶ」）家庭教師を指す19世紀の大学スラング" },
+      { "word": "guide", "meaning": "案内人、手引き", "nuance": "道を示す人・もの。", "etymology": "古フランス語 guider（ゲルマン語起源）" }
+    ]
+  },
+  {
+    "id": "brave", "word": "brave", "katakana": "ブレイブ", "pos": "形容詞", "area": "story", "cefr": "B1",
+    "meaning": "勇敢な",
+    "scene": "勇者（the brave）、ブレイブハート。",
+    "example": { "en": "It was brave of you to speak up.", "ja": "声を上げるなんて勇気があったね。" },
+    "etymology": {
+      "origin": "イタリア語・スペイン語 bravo「勇敢な・荒々しい」",
+      "story": "拍手の「ブラボー！」と同じ語。さらに古い語源はラテン語 barbarus（野蛮な）説など諸説ある。"
+    },
+    "roots": [],
+    "family": ["bravery（勇気）", "bravo（ブラボー）"],
+    "synonyms": [
+      { "word": "courageous", "meaning": "勇気のある", "nuance": "恐れに打ち勝つ心の強さ。", "etymology": "courage ← ラテン語 cor「心臓・心」" },
+      { "word": "bold", "meaning": "大胆な", "nuance": "思い切りがよい。太字（bold）も。", "etymology": "古英語 bald" },
+      { "word": "valiant", "meaning": "勇ましい", "nuance": "文語的。英雄的な勇敢さ。", "etymology": "ラテン語 valēre「強い」（value と同源）" }
+    ]
+  },
+  {
+    "id": "fan", "word": "fan", "katakana": "ファン", "pos": "名詞", "area": "story", "cefr": "A2",
+    "meaning": "ファン、熱心な愛好者",
+    "scene": "推しのファン、ファンアート。",
+    "gap": "扇風機・うちわの fan（ラテン語 vannus「箕（み）」）とは別語源。",
+    "example": { "en": "I'm a huge fan of this anime.", "ja": "私はこのアニメの大ファンだ。" },
+    "etymology": {
+      "origin": "fanatic（熱狂者）の短縮 ← ラテン語 fānāticus「神殿（fānum）の → 神がかった」",
+      "story": "神殿で神に取りつかれたように熱狂する人 → 19世紀アメリカの野球ファンを指す語に。"
+    },
+    "roots": [],
+    "family": ["fanatic（狂信者）", "fandom（ファン集団）"],
+    "synonyms": [
+      { "word": "enthusiast", "meaning": "熱心な人、愛好家", "nuance": "趣味などに熱中している人。", "etymology": "ギリシャ語 enthousiazein「神が内にいる」← en- + theos「神」" },
+      { "word": "supporter", "meaning": "支持者、サポーター", "nuance": "チームや人を応援・支援する人。", "etymology": "ラテン語 sub-「下から」+ portāre「運ぶ」" },
+      { "word": "devotee", "meaning": "熱心な信奉者", "nuance": "身を捧げるほど熱心。", "etymology": "ラテン語 dēvovēre「誓って捧げる」" }
+    ]
+  }
+]

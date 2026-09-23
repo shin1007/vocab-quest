@@ -1,0 +1,23 @@
+[
+  { "id": "pot",   "form": "pot / poi",        "meaning": "飲む",           "source": "ラテン語 pōtāre",      "words": ["potion"], "extra": ["poison", "potable"] },
+  { "id": "quaer", "form": "quest / quir / quer", "meaning": "探し求める",   "source": "ラテン語 quaerere",    "words": ["quest"], "extra": ["question", "request", "conquest", "inquire", "perquisite (perk)"] },
+  { "id": "dom",   "form": "dom / domin",       "meaning": "主人・家",       "source": "ラテン語 dominus",     "words": ["dungeon"], "extra": ["dominate", "domain", "danger", "domestic"] },
+  { "id": "mon",   "form": "mon / monstr",      "meaning": "警告する・示す", "source": "ラテン語 monēre",      "words": ["summon", "monster"], "extra": ["monitor", "demonstrate", "admonish"] },
+  { "id": "linqu", "form": "linqu / lic",       "meaning": "後に残す",       "source": "ラテン語 linquere",    "words": ["relic"], "extra": ["relinquish", "delinquent"] },
+  { "id": "leg",   "form": "leg / lect / lig",  "meaning": "読む・集める・選ぶ", "source": "ラテン語 legere",   "words": ["legend"], "extra": ["lecture", "legible", "collect", "elect", "intelligent"] },
+  { "id": "ven",   "form": "ven / vent",        "meaning": "来る",           "source": "ラテン語 venīre",      "words": ["inventory"], "extra": ["invent", "event", "adventure", "convention", "prevent"] },
+  { "id": "crit",  "form": "cri / crit",        "meaning": "分ける・判断する", "source": "ギリシャ語 krīnein", "words": ["critical"], "extra": ["crisis", "critic", "criterion"] },
+  { "id": "viv",   "form": "viv / vit",         "meaning": "生きる",         "source": "ラテン語 vīvere / vīta", "words": ["revive"], "extra": ["survive", "vivid", "vital", "vitamin"] },
+  { "id": "sta",   "form": "sta / stat / sist", "meaning": "立つ",           "source": "ラテン語 stāre / ギリシャ語 histanai", "words": ["stage", "system"], "extra": ["status", "station", "stable", "obstacle", "assist"] },
+  { "id": "mit",   "form": "mit / miss",        "meaning": "送る",           "source": "ラテン語 mittere",     "words": ["mission"], "extra": ["missile", "message", "transmit", "dismiss", "submit"] },
+  { "id": "volv",  "form": "volv / volu",       "meaning": "巻く・転がる",   "source": "ラテン語 volvere",     "words": ["evolution"], "extra": ["evolve", "revolve", "involve", "volume", "revolution"] },
+  { "id": "sign",  "form": "sign",              "meaning": "印",             "source": "ラテン語 signum",      "words": ["signal"], "extra": ["sign", "signature", "design", "assign"] },
+  { "id": "arm",   "form": "arm",               "meaning": "武器",           "source": "ラテン語 arma",        "words": ["armor"], "extra": ["army", "arms", "alarm", "armament"] },
+  { "id": "merg",  "form": "merg / mers",       "meaning": "沈む・浸す",     "source": "ラテン語 mergere",     "words": ["emergency"], "extra": ["emerge", "merge", "submerge", "immerse"] },
+  { "id": "tend",  "form": "tend / tens / tent", "meaning": "張る・伸ばす",  "source": "ラテン語 tendere",     "words": ["tension"], "extra": ["tense", "extend", "attention", "intend"] },
+  { "id": "clam",  "form": "claim / clam",      "meaning": "叫ぶ",           "source": "ラテン語 clāmāre",     "words": ["claim"], "extra": ["exclaim", "proclaim", "clamor"] },
+  { "id": "nat",   "form": "nat / nai",         "meaning": "生まれる",       "source": "ラテン語 nāscī / nātus", "words": ["naive"], "extra": ["native", "nature", "nation", "innate"] },
+  { "id": "spir",  "form": "spir",              "meaning": "息をする",       "source": "ラテン語 spīrāre",     "words": ["spirit"], "extra": ["inspire", "expire", "respiration", "conspire"] },
+  { "id": "mir",   "form": "mir / marv",        "meaning": "驚く・見つめる", "source": "ラテン語 mīrārī",      "words": ["miracle"], "extra": ["marvel", "admire", "mirror", "mirage"] },
+  { "id": "fac",   "form": "fac / fic / fact / feit", "meaning": "作る・行う", "source": "ラテン語 facere",    "words": ["sacrifice"], "extra": ["factory", "artifact", "forfeit", "effect", "difficult"] }
+]
