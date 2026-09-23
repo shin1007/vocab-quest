@@ -9,6 +9,13 @@
     scifi: { name: "SF", icon: "🚀", genre: "宇宙・ロボット" },
     story: { name: "学園・ドラマ", icon: "🏫", genre: "スポーツ・日常" },
   };
+  // 見た目のテーマ（機能は共通）。CSS は app/style.css の [data-theme]
+  const THEMES = {
+    stage: { name: "ステージ", desc: "パステル×グラデーション", color: "#eef4ff" },
+    pop: { name: "ポップ", desc: "太いフチどりのカジュアル", color: "#2a168f" },
+    street: { name: "ストリート", desc: "黒×ネオンのステッカー", color: "#0d0d0f" },
+    noble: { name: "ノーブル", desc: "紺と金のファンタジー", color: "#11162c" },
+  };
   const QTYPES = {
     kata: "カタカナ → 英語",
     meaning: "英語 → 意味",
@@ -66,7 +73,7 @@
     return {
       cards: {}, done: {}, streak: 0, lastDay: null,
       sessions: 0, answered: 0, correct: 0, welcomed: false,
-      settings: { autoVoice: true },
+      settings: { autoVoice: true, theme: "stage" },
     };
   }
   function load() {
@@ -113,6 +120,38 @@
   function nextLesson() {
     const all = Object.keys(TOPICS).flatMap(lessonsOf);
     return all.find((ls) => !state.done[ls.key]) || all.sort((a, b) => lessonProgress(a) - lessonProgress(b))[0];
+  }
+
+  // ---------- テーマ ----------
+  function applyTheme() {
+    const t = THEMES[state.settings.theme] ? state.settings.theme : "stage";
+    document.documentElement.dataset.theme = t;
+    document.querySelector('meta[name="theme-color"]').content = THEMES[t].color;
+  }
+  const themeOptions = () => html`
+    <div class="theme-grid">
+      ${Object.entries(THEMES).map(([k, t]) => html`
+        <button class="theme-option" data-theme-pick="${k}" aria-pressed="${state.settings.theme === k}">
+          <span class="pv" data-theme="${k}" aria-hidden="true">
+            <span class="pv-card">Aa<i></i></span>
+            <span class="pv-btn">スタート</span>
+          </span>
+          <b>${esc(t.name)}</b><span class="small muted">${esc(t.desc)}</span>
+        </button>`).join("")}
+    </div>`;
+  function bindThemeOptions(root, onPick) {
+    root.querySelectorAll("[data-theme-pick]").forEach((b) => b.addEventListener("click", () => {
+      state.settings.theme = b.dataset.themePick;
+      save();
+      applyTheme();
+      root.querySelectorAll("[data-theme-pick]").forEach((x) => x.setAttribute("aria-pressed", x === b));
+      onPick?.();
+    }));
+  }
+  function openThemes() {
+    $modalContent.innerHTML = html`<h2>🎨 テーマ</h2><p class="small muted">見た目だけが変わります。学習の記録はそのままです。</p>${themeOptions()}`;
+    bindThemeOptions($modalContent);
+    openModal();
   }
 
   // ---------- HUD ----------
@@ -655,17 +694,24 @@
         <p class="small muted" style="margin:10px 0 0">正解するたびに1段階上がり、次の復習までの間隔が「当日 → 1日 → 3日 → 7日 → 21日」と伸びていきます。</p>
       </section>
       <section class="card">
+        <h3>🎨 テーマ</h3>
+        <p class="small muted" style="margin:0">見た目だけが変わります。学習の記録はそのままです。</p>
+        ${themeOptions()}
+      </section>
+      <section class="card">
         <h3>🔊 音声</h3>
         <label class="toggle"><input type="checkbox" id="auto-voice" ${state.settings.autoVoice ? "checked" : ""}><span></span> 問題と答えを自動で読み上げる</label>
         <p class="small muted" style="margin:8px 0 0">声：${VOICE ? esc(VOICE.label) : "ブラウザ標準の読み上げ（音声ファイル未生成）"}</p>
         ${VOICE?.credit ? `<p class="small muted" style="margin:4px 0 0">${esc(VOICE.credit)}</p>` : ""}
       </section>
       <button class="btn danger block" id="reset">学習記録をリセット</button>`;
+    bindThemeOptions($view);
     $view.querySelector("#auto-voice").addEventListener("change", (e) => { state.settings.autoVoice = e.target.checked; save(); });
     $view.querySelector("#reset").addEventListener("click", () => {
       if (!confirm("学習記録をすべて消しますか？ この操作は取り消せません。")) return;
       state = defaultState();
       save();
+      applyTheme();
       go("home");
     });
   }
@@ -753,6 +799,8 @@
     await loadVoice();
     state = load();
     state.settings = { ...defaultState().settings, ...state.settings };
+    applyTheme();
+    document.getElementById("theme-btn").addEventListener("click", openThemes);
     document.querySelectorAll("#tabs button").forEach((b) => b.addEventListener("click", () => go(b.dataset.tab)));
     document.getElementById("modal-close").addEventListener("click", closeModal);
     $modal.addEventListener("click", (e) => { if (e.target === $modal) closeModal(); });
