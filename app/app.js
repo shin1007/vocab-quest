@@ -346,8 +346,10 @@
   }
 
   function distractors(w, n, filter = () => true) {
-    const same = WORDS.filter((x) => x.id !== w.id && courseOf(x) === courseOf(w) && filter(x));
-    const other = WORDS.filter((x) => x.id !== w.id && courseOf(x) !== courseOf(w) && filter(x));
+    // カタカナが同じ語（bus と bath の「バス」など）は正解と見分けられないので選択肢に出さない
+    const ok = (x) => x.id !== w.id && plainKatakana(x) !== plainKatakana(w) && filter(x);
+    const same = WORDS.filter((x) => ok(x) && courseOf(x) === courseOf(w));
+    const other = WORDS.filter((x) => ok(x) && courseOf(x) !== courseOf(w));
     return [...shuffle(same), ...shuffle(other)].slice(0, n);
   }
 
