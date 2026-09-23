@@ -18855,5 +18855,1415 @@
       { "word": "rapid", "meaning": "快速の", "nuance": "速い。", "etymology": "ラテン語 rapidus" },
       { "word": "convey", "meaning": "伝える", "nuance": "考えを伝える。", "etymology": "ラテン語 convehere" }
     ]
+  },
+  {
+    "id": "platform", "word": "platform", "katakana": "プラットフォーム", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "駅のホーム、壇、基盤",
+    "scene": "配信プラットフォーム、駅の3番線。",
+    "example": { "en": "The train leaves from platform 5.", "ja": "列車は5番線から出発する。" },
+    "etymology": {
+      "origin": "フランス語 plateforme「平らな形」← plat「平らな」+ forme「形」",
+      "story": "平らな台 → 駅のホーム、演壇 → サービスの土台となる仕組み。plate、plateau と同じ「平ら」の家族。"
+    },
+    "roots": ["form"],
+    "family": ["plate（皿）、plateau（高原）"],
+    "synonyms": [
+      { "word": "stage", "meaning": "舞台", "nuance": "演じる台。", "etymology": "古フランス語 estage" },
+      { "word": "base", "meaning": "基盤", "nuance": "土台。", "etymology": "ギリシャ語 basis" }
+    ]
+  },
+  {
+    "id": "branding", "word": "branding", "katakana": "ブランディング", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "ブランド作り",
+    "scene": "企業ブランディング、セルフブランディング。",
+    "example": { "en": "Good branding helps a company stand out.", "ja": "よいブランド作りは会社を目立たせる。" },
+    "etymology": {
+      "origin": "brand「銘柄」+ -ing",
+      "story": "もとは家畜に焼き印を押すこと。自社の「印」を人々の心に焼きつける活動。"
+    },
+    "roots": [],
+    "family": ["brand（ブランド）"],
+    "synonyms": [
+      { "word": "marketing", "meaning": "マーケティング", "nuance": "売るための活動。", "etymology": "market + -ing" },
+      { "word": "image", "meaning": "イメージ", "nuance": "印象。", "etymology": "ラテン語 imāgō" }
+    ]
+  },
+  {
+    "id": "persona", "word": "persona", "katakana": "ペルソナ", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "人物像、仮面",
+    "scene": "マーケティングのペルソナ、ゲームのペルソナ。",
+    "example": { "en": "We created a customer persona for our app.", "ja": "アプリの利用者像を作った。" },
+    "etymology": {
+      "origin": "ラテン語 persōna「（役者の）仮面」",
+      "story": "古代劇の仮面 → 演じる役 → 人。person（人）、personality（人格）も同じ語。"
+    },
+    "roots": [],
+    "family": ["person（人）、personality（性格）"],
+    "synonyms": [
+      { "word": "character", "meaning": "人物", "nuance": "登場人物。", "etymology": "ギリシャ語 kharaktēr" },
+      { "word": "image", "meaning": "像", "nuance": "描く人物像。", "etymology": "ラテン語 imāgō" }
+    ]
+  },
+  {
+    "id": "conversion", "word": "conversion", "katakana": "コンバージョン", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "転換、成果（購入・登録）",
+    "scene": "コンバージョン率（CVR）、改宗。",
+    "example": { "en": "The website's conversion rate went up.", "ja": "サイトの成約率が上がった。" },
+    "etymology": {
+      "origin": "ラテン語 conversiō「向きを変えること」← convertere ← con- + vertere「回す」",
+      "story": "閲覧者が「客に変わる」こと。reverse、version と同じ vertere の家族。"
+    },
+    "roots": ["vert"],
+    "family": ["convert（変える）、version（版）"],
+    "synonyms": [
+      { "word": "change", "meaning": "変化", "nuance": "変わること。", "etymology": "後期ラテン語 cambiāre" },
+      { "word": "transformation", "meaning": "変身", "nuance": "すっかり変わること。", "etymology": "ラテン語 trānsfōrmāre" }
+    ]
+  },
+  {
+    "id": "engagement", "word": "engagement", "katakana": "エンゲージメント", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "婚約、関与、（SNSの）反応",
+    "scene": "エンゲージリング（婚約指輪）、SNSのエンゲージメント率。",
+    "example": { "en": "The post got a lot of engagement.", "ja": "その投稿はたくさんの反応を得た。" },
+    "etymology": {
+      "origin": "engage「約束する、引きこむ」+ -ment ← フランス語 gage「担保」",
+      "story": "「担保を入れて約束する」→ 婚約、深く関わること。社員の会社への「愛着・熱意」の意味でも使う。"
+    },
+    "roots": [],
+    "family": ["engage（従事させる）"],
+    "synonyms": [
+      { "word": "involvement", "meaning": "関与", "nuance": "関わること。", "etymology": "involve + -ment" },
+      { "word": "interaction", "meaning": "交流", "nuance": "やりとり。", "etymology": "inter- + action" }
+    ]
+  },
+  {
+    "id": "retention", "word": "retention", "katakana": "リテンション", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "保持、維持、定着",
+    "scene": "顧客のリテンション、人材の定着。",
+    "example": { "en": "Staff retention is a big problem for the company.", "ja": "社員の定着は会社にとって大きな問題だ。" },
+    "etymology": {
+      "origin": "ラテン語 retentiō「引き留めること」← retinēre ← re- + tenēre「保つ」",
+      "story": "「引き留めておく」。contain、maintain、sustainable と同じ tenēre の家族。"
+    },
+    "roots": ["ten"],
+    "family": ["retain（保つ）、contain（含む）"],
+    "synonyms": [
+      { "word": "keeping", "meaning": "保つこと", "nuance": "維持。", "etymology": "keep + -ing" },
+      { "word": "loyalty", "meaning": "忠誠、愛着", "nuance": "離れないこと。", "etymology": "ラテン語 lēgālis" }
+    ]
+  },
+  {
+    "id": "metrics", "word": "metrics", "katakana": "メトリクス", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "評価指標",
+    "scene": "成果のメトリクス、KPI。",
+    "example": { "en": "We track several metrics to measure success.", "ja": "成功を測るためにいくつかの指標を追っている。" },
+    "etymology": {
+      "origin": "metric「計量の」← ギリシャ語 metron「尺度」",
+      "story": "meter、symmetry と同じ metron の家族。複数形で「指標」。"
+    },
+    "roots": [],
+    "family": ["meter（メートル）"],
+    "synonyms": [
+      { "word": "indicator", "meaning": "指標", "nuance": "状態を示すもの。", "etymology": "ラテン語 indicāre" },
+      { "word": "measure", "meaning": "尺度", "nuance": "測るもの。", "etymology": "ラテン語 mēnsūra" }
+    ]
+  },
+  {
+    "id": "analytics", "word": "analytics", "katakana": "アナリティクス", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "分析、解析",
+    "scene": "データアナリティクス、アクセス解析。",
+    "example": { "en": "We use analytics to understand our users.", "ja": "利用者を理解するために解析を使っている。" },
+    "etymology": {
+      "origin": "analytic「分析の」+ -s ← ギリシャ語 analytikos",
+      "story": "analysis、analyst と同じ家族。ビジネスでは「データ分析」の意味。"
+    },
+    "roots": [],
+    "family": ["analysis（分析）"],
+    "synonyms": [
+      { "word": "analysis", "meaning": "分析", "nuance": "調べて明らかにすること。", "etymology": "ギリシャ語 analysis" },
+      { "word": "statistics", "meaning": "統計", "nuance": "数字のデータ。", "etymology": "ドイツ語 Statistik" }
+    ]
+  },
+  {
+    "id": "dashboard", "word": "dashboard", "katakana": "ダッシュボード", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "計器盤、管理画面",
+    "scene": "車のダッシュボード、分析ダッシュボード。",
+    "example": { "en": "The dashboard shows today's sales.", "ja": "管理画面に今日の売上が表示されている。" },
+    "etymology": {
+      "origin": "dash「はねる」+ board「板」",
+      "story": "もとは馬車の前に立てて、馬がはね上げる泥（dash）を防ぐ板。そこから車の計器盤、データを一覧する画面に。"
+    },
+    "roots": [],
+    "family": ["dash（突進する）"],
+    "synonyms": [
+      { "word": "control panel", "meaning": "操作盤", "nuance": "設定画面。", "etymology": "control + panel" },
+      { "word": "display", "meaning": "表示", "nuance": "画面。", "etymology": "ラテン語 displicāre" }
+    ]
+  },
+  {
+    "id": "insight", "word": "insight", "katakana": "インサイト", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "洞察、本質を見抜く力",
+    "scene": "顧客インサイト、深い洞察。",
+    "example": { "en": "The book gives great insight into Japanese culture.", "ja": "その本は日本文化を深く理解させてくれる。" },
+    "etymology": {
+      "origin": "in「中を」+ sight「見ること」",
+      "story": "「中を見通すこと」。"
+    },
+    "roots": [],
+    "family": ["sight（視力）"],
+    "synonyms": [
+      { "word": "understanding", "meaning": "理解", "nuance": "わかること。", "etymology": "under + stand" },
+      { "word": "perception", "meaning": "認識", "nuance": "感じとること。", "etymology": "ラテン語 percipere" }
+    ]
+  },
+  {
+    "id": "simulation", "word": "simulation", "katakana": "シミュレーション", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "模擬実験、シミュレーション",
+    "scene": "災害シミュレーション、シミュレーションゲーム。",
+    "example": { "en": "We ran a computer simulation of the earthquake.", "ja": "地震のコンピューター・シミュレーションを行った。" },
+    "etymology": {
+      "origin": "ラテン語 simulātiō「まねること、見せかけ」← simulāre「似せる」← similis「似た」",
+      "story": "similar（似た）と同じ家族。"
+    },
+    "roots": [],
+    "family": ["similar（似た）、simulate（まねる）"],
+    "synonyms": [
+      { "word": "model", "meaning": "模型", "nuance": "再現したもの。", "etymology": "イタリア語 modello" },
+      { "word": "imitation", "meaning": "模倣", "nuance": "まね。", "etymology": "ラテン語 imitārī" }
+    ]
+  },
+  {
+    "id": "workflow", "word": "workflow", "katakana": "ワークフロー", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "業務の流れ",
+    "scene": "ワークフローの改善、承認フロー。",
+    "example": { "en": "The new software improved our workflow.", "ja": "新しいソフトで仕事の流れがよくなった。" },
+    "etymology": {
+      "origin": "work「仕事」+ flow「流れ」",
+      "story": "仕事が次々と流れていく手順。"
+    },
+    "roots": [],
+    "family": ["flow（流れ）"],
+    "synonyms": [
+      { "word": "process", "meaning": "工程", "nuance": "手順。", "etymology": "ラテン語 prōcessus" },
+      { "word": "procedure", "meaning": "手続き", "nuance": "決まったやり方。", "etymology": "ラテン語 prōcēdere" }
+    ]
+  },
+  {
+    "id": "process", "word": "process", "katakana": "プロセス", "pos": "名詞・動詞", "cefr": "B1", "level": 8,
+    "meaning": "過程、処理する",
+    "scene": "製造プロセス、データ処理。",
+    "example": { "en": "Learning a language is a long process.", "ja": "言語の学習は長い過程だ。" },
+    "etymology": {
+      "origin": "ラテン語 prōcessus「前進」← prōcēdere ← prō-「前へ」+ cēdere「行く」",
+      "story": "「前へ進むこと」→ 過程、手順。proceed、access、exceed と同じ cēdere の家族。"
+    },
+    "roots": ["ced"],
+    "family": ["proceed（進む）"],
+    "synonyms": [
+      { "word": "procedure", "meaning": "手順", "nuance": "決まったやり方。", "etymology": "ラテン語 prōcēdere" },
+      { "word": "course", "meaning": "過程", "nuance": "物事の進み方。", "etymology": "ラテン語 cursus" }
+    ]
+  },
+  {
+    "id": "pipeline", "word": "pipeline", "katakana": "パイプライン", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "導管、流通経路、進行中の案件",
+    "scene": "石油パイプライン、営業パイプライン。",
+    "example": { "en": "The new product is in the pipeline.", "ja": "新製品は準備中だ。" },
+    "etymology": {
+      "origin": "pipe「管」+ line「線」",
+      "story": "石油などを運ぶ長い管。in the pipeline は「準備中で、近々出てくる」。"
+    },
+    "roots": [],
+    "family": ["pipe（管）"],
+    "synonyms": [
+      { "word": "channel", "meaning": "経路", "nuance": "流れる道。", "etymology": "ラテン語 canālis" },
+      { "word": "conduit", "meaning": "導管", "nuance": "通り道。", "etymology": "古フランス語 conduit" }
+    ]
+  },
+  {
+    "id": "roadmap", "word": "roadmap", "katakana": "ロードマップ", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "道路地図、工程表",
+    "scene": "製品ロードマップ、計画表。",
+    "example": { "en": "We made a roadmap for the next three years.", "ja": "今後3年間の工程表を作った。" },
+    "etymology": {
+      "origin": "road「道路」+ map「地図」",
+      "story": "目的地までの道筋を示す地図 → 計画の見通し。"
+    },
+    "roots": [],
+    "family": ["road（道路）、map（地図）"],
+    "synonyms": [
+      { "word": "plan", "meaning": "計画", "nuance": "予定。", "etymology": "フランス語 plan" },
+      { "word": "timeline", "meaning": "予定表", "nuance": "時間の流れの表。", "etymology": "time + line" }
+    ]
+  },
+  {
+    "id": "milestone", "word": "milestone", "katakana": "マイルストーン", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "画期的な出来事、節目",
+    "scene": "プロジェクトのマイルストーン、節目の年。",
+    "example": { "en": "Graduating from college was a big milestone.", "ja": "大学卒業は大きな節目だった。" },
+    "etymology": {
+      "origin": "mile「マイル」+ stone「石」",
+      "story": "道ばたに1マイルごとに置いた石（一里塚）。そこから人生や計画の「節目」に。"
+    },
+    "roots": [],
+    "family": ["mile（マイル）"],
+    "synonyms": [
+      { "word": "landmark", "meaning": "画期的な出来事、目印", "nuance": "大きな節目。", "etymology": "land + mark" },
+      { "word": "turning point", "meaning": "転機", "nuance": "変わり目。", "etymology": "turning + point" }
+    ]
+  },
+  {
+    "id": "sprint", "word": "sprint", "katakana": "スプリント", "pos": "名詞・動詞", "cefr": "C1", "level": 8,
+    "meaning": "全力疾走、短期集中の開発期間",
+    "scene": "100m走、スプリント開発。",
+    "example": { "en": "He sprinted to the finish line.", "ja": "彼はゴールまで全力で走った。" },
+    "etymology": {
+      "origin": "古ノルド語 spretta「跳び出す」",
+      "story": "短い距離を全力で走ること。ソフト開発では1〜4週間の短い開発期間を sprint と呼ぶ。"
+    },
+    "roots": [],
+    "family": ["sprinter（短距離選手）"],
+    "synonyms": [
+      { "word": "dash", "meaning": "突進", "nuance": "急いで走る。", "etymology": "中英語 dasshen" },
+      { "word": "rush", "meaning": "急ぐ", "nuance": "あわてて急ぐ。", "etymology": "古フランス語 ruser" }
+    ]
+  },
+  {
+    "id": "agile", "word": "agile", "katakana": "アジャイル", "pos": "形容詞", "cefr": "C1", "level": 8,
+    "meaning": "機敏な、アジャイル（開発）",
+    "scene": "アジャイル開発、身のこなしが軽い。",
+    "example": { "en": "Cats are very agile animals.", "ja": "猫はとても身軽な動物だ。" },
+    "etymology": {
+      "origin": "ラテン語 agilis「動きやすい」← agere「動かす」",
+      "story": "agenda、action と同じ agere の家族。ソフト開発で「素早く柔軟に作り直す」方法を指す。"
+    },
+    "roots": ["ag"],
+    "family": ["agility（機敏さ）、action（行動）"],
+    "synonyms": [
+      { "word": "nimble", "meaning": "すばやい", "nuance": "身軽な。", "etymology": "古英語 numol" },
+      { "word": "flexible", "meaning": "柔軟な", "nuance": "融通がきく。", "etymology": "ラテン語 flectere" }
+    ]
+  },
+  {
+    "id": "kickoff", "word": "kickoff", "katakana": "キックオフ", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "試合開始、立ち上げ",
+    "scene": "キックオフミーティング、試合開始。",
+    "example": { "en": "The kickoff is at 7 p.m.", "ja": "試合開始は午後7時だ。" },
+    "etymology": {
+      "origin": "kick「ける」+ off",
+      "story": "サッカーでボールをけって試合を始めることから、プロジェクトの「始まり」に。"
+    },
+    "roots": [],
+    "family": ["kick（ける）"],
+    "synonyms": [
+      { "word": "start", "meaning": "開始", "nuance": "始まり。", "etymology": "古英語 styrtan" },
+      { "word": "launch", "meaning": "立ち上げ", "nuance": "開始。", "etymology": "古北フランス語 lancher" }
+    ]
+  },
+  {
+    "id": "brainstorming", "word": "brainstorming", "katakana": "ブレインストーミング", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "ブレスト、アイデア出し",
+    "scene": "「ブレストしよう」、アイデア会議。",
+    "example": { "en": "Let's do some brainstorming for the new project.", "ja": "新しい企画のためにブレストをしよう。" },
+    "etymology": {
+      "origin": "brain「脳」+ storm「嵐」+ -ing（1940年代の米国の広告業界）",
+      "story": "「頭の中の嵐」＝アイデアを一気に出し合うこと。"
+    },
+    "roots": [],
+    "family": ["brainstorm（ひらめき）"],
+    "synonyms": [
+      { "word": "discussion", "meaning": "話し合い", "nuance": "議論。", "etymology": "ラテン語 discutere" },
+      { "word": "idea generation", "meaning": "アイデア出し", "nuance": "案を出すこと。", "etymology": "idea + generation" }
+    ]
+  },
+  {
+    "id": "workshop", "word": "workshop", "katakana": "ワークショップ", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "研修会、作業場",
+    "scene": "体験型ワークショップ、工作教室。",
+    "example": { "en": "I attended a writing workshop.", "ja": "文章講座のワークショップに参加した。" },
+    "etymology": {
+      "origin": "work「仕事」+ shop「作業場」",
+      "story": "もとは職人の「仕事場」。そこから参加者が手を動かして学ぶ講習会に。"
+    },
+    "roots": [],
+    "family": ["shop（店、作業場）"],
+    "synonyms": [
+      { "word": "seminar", "meaning": "セミナー", "nuance": "講習会。", "etymology": "ラテン語 sēminārium" },
+      { "word": "studio", "meaning": "工房", "nuance": "仕事場。", "etymology": "イタリア語 studio" }
+    ]
+  },
+  {
+    "id": "facilitator", "word": "facilitator", "katakana": "ファシリテーター", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "進行役、まとめ役",
+    "scene": "会議のファシリテーター、ワークショップの進行役。",
+    "example": { "en": "The facilitator kept the discussion on track.", "ja": "進行役が議論を脱線させずにまとめた。" },
+    "etymology": {
+      "origin": "facilitate「容易にする」+ -or ← ラテン語 facilis「容易な」",
+      "story": "「物事を容易にする人」。facility（設備）も facilis の家族。"
+    },
+    "roots": [],
+    "family": ["facility（設備）"],
+    "synonyms": [
+      { "word": "moderator", "meaning": "司会者", "nuance": "討論の仕切り役。", "etymology": "ラテン語 moderārī" },
+      { "word": "organizer", "meaning": "主催者", "nuance": "まとめる人。", "etymology": "organize + -er" }
+    ]
+  },
+  {
+    "id": "moderator", "word": "moderator", "katakana": "モデレーター", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "司会者、（ネット掲示板の）管理人",
+    "scene": "パネル討論のモデレーター、SNSのモデレーター。",
+    "example": { "en": "The moderator introduced the speakers.", "ja": "司会者が登壇者を紹介した。" },
+    "etymology": {
+      "origin": "ラテン語 moderātor「調整する人」← moderārī「ほどよくする」",
+      "story": "moderate（ほどよい）と同じ語。議論が行きすぎないよう調整する人。"
+    },
+    "roots": [],
+    "family": ["moderate（ほどよい）"],
+    "synonyms": [
+      { "word": "host", "meaning": "司会", "nuance": "主催者。", "etymology": "ラテン語 hospes" },
+      { "word": "chair", "meaning": "議長", "nuance": "会議の長。", "etymology": "ギリシャ語 kathedra「座席」" }
+    ]
+  },
+  {
+    "id": "panel", "word": "panel", "katakana": "パネル", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "板、討論者団、パネル",
+    "scene": "ソーラーパネル、パネルディスカッション。",
+    "example": { "en": "A panel of experts answered questions.", "ja": "専門家の討論団が質問に答えた。" },
+    "etymology": {
+      "origin": "古フランス語 panel「布切れ、鞍の下敷き」← ラテン語 pannus「布」",
+      "story": "布切れ → 名簿を書いた羊皮紙 → 選ばれた人々（陪審員団、討論者団）。平らな板の意味も。"
+    },
+    "roots": [],
+    "family": ["pane（窓ガラス）"],
+    "synonyms": [
+      { "word": "board", "meaning": "板、委員会", "nuance": "板や委員会。", "etymology": "古英語 bord" },
+      { "word": "committee", "meaning": "委員会", "nuance": "選ばれた人の集まり。", "etymology": "commit + -ee" }
+    ]
+  },
+  {
+    "id": "session", "word": "session", "katakana": "セッション", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "会期、集まり、一回の活動",
+    "scene": "ジャムセッション、トレーニングの1回分。",
+    "example": { "en": "We had a long study session before the test.", "ja": "テスト前に長い勉強会をした。" },
+    "etymology": {
+      "origin": "ラテン語 sessiō「座ること」← sedēre「座る」",
+      "story": "「座って行う会合」。sedentary（座りがちの）、president（前に座る人）も sedēre の家族。"
+    },
+    "roots": [],
+    "family": ["president（大統領）"],
+    "synonyms": [
+      { "word": "meeting", "meaning": "会合", "nuance": "集まり。", "etymology": "meet + -ing" },
+      { "word": "period", "meaning": "時間", "nuance": "区切られた時間。", "etymology": "ギリシャ語 periodos" }
+    ]
+  },
+  {
+    "id": "keynote", "word": "keynote", "katakana": "キーノート", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "基調（講演）、主眼",
+    "scene": "基調講演、キーノートスピーチ。",
+    "example": { "en": "The CEO gave the keynote speech.", "ja": "CEOが基調講演を行った。" },
+    "etymology": {
+      "origin": "key「調」+ note「音」",
+      "story": "音楽の「主音（その曲の調の基本になる音）」。そこから会議全体の方向を決める講演に。"
+    },
+    "roots": [],
+    "family": ["key（鍵、調）、note（音）"],
+    "synonyms": [
+      { "word": "main speech", "meaning": "主要な演説", "nuance": "メインの講演。", "etymology": "main + speech" },
+      { "word": "theme", "meaning": "主題", "nuance": "中心となるテーマ。", "etymology": "ギリシャ語 thema" }
+    ]
+  },
+  {
+    "id": "pitch", "word": "pitch", "katakana": "ピッチ", "pos": "名詞・動詞", "cefr": "C1", "level": 8,
+    "meaning": "投げる、売りこみ、音の高さ、競技場",
+    "scene": "ピッチ（ペース）を上げる、ピッチコンテスト、サッカーのピッチ。",
+    "example": { "en": "She gave a great pitch to the investors.", "ja": "彼女は投資家に見事な売りこみをした。" },
+    "etymology": {
+      "origin": "中英語 picchen「突き立てる、投げる」",
+      "story": "「投げる」→ 売りこみ（アイデアを投げる）、ボールを投げる、音の高さ。イギリスではサッカー場も pitch。"
+    },
+    "roots": [],
+    "family": ["pitcher（投手）"],
+    "synonyms": [
+      { "word": "presentation", "meaning": "発表", "nuance": "プレゼン。", "etymology": "ラテン語 praesentāre" },
+      { "word": "tone", "meaning": "音の高さ", "nuance": "音程。", "etymology": "ギリシャ語 tonos" }
+    ]
+  },
+  {
+    "id": "proposal", "word": "proposal", "katakana": "プロポーザル", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "提案（書）、結婚の申しこみ",
+    "scene": "企画提案書、プロポーズ。",
+    "example": { "en": "The board accepted our proposal.", "ja": "取締役会は私たちの提案を受け入れた。" },
+    "etymology": {
+      "origin": "propose「提案する」+ -al",
+      "story": "「前に置いたもの」。日本語の「プロポーズ（結婚の申しこみ）」は英語では名詞 proposal。"
+    },
+    "roots": [],
+    "family": ["propose（提案する）"],
+    "synonyms": [
+      { "word": "suggestion", "meaning": "提案", "nuance": "軽い提案。", "etymology": "ラテン語 suggerere" },
+      { "word": "plan", "meaning": "計画", "nuance": "案。", "etymology": "フランス語 plan" }
+    ]
+  },
+  {
+    "id": "summary", "word": "summary", "katakana": "サマリー", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "要約",
+    "scene": "資料のサマリー、要点のまとめ。",
+    "example": { "en": "Write a short summary of the article.", "ja": "その記事の短い要約を書いて。" },
+    "etymology": {
+      "origin": "中世ラテン語 summārium ← ラテン語 summa「合計、要点」",
+      "story": "「合計」→ 全体のまとめ。sum（合計）、summit（頂上）と同じ家族。"
+    },
+    "roots": [],
+    "family": ["sum（合計）、summarize（要約する）"],
+    "synonyms": [
+      { "word": "outline", "meaning": "概要", "nuance": "あらまし。", "etymology": "out + line" },
+      { "word": "abstract", "meaning": "要旨", "nuance": "論文の要約。", "etymology": "ラテン語 abstrahere" }
+    ]
+  },
+  {
+    "id": "executive", "word": "executive", "katakana": "エグゼクティブ", "pos": "名詞・形容詞", "cefr": "C1", "level": 8,
+    "meaning": "重役、経営幹部、執行の",
+    "scene": "エグゼクティブクラス、経営幹部。",
+    "example": { "en": "She is a senior executive at a bank.", "ja": "彼女は銀行の上級幹部だ。" },
+    "etymology": {
+      "origin": "ラテン語 exsequī「最後まで行う」← ex- + sequī「従う」",
+      "story": "「最後までやりとげる（実行する）人」。execute（実行する）、sequence と同じ家族。"
+    },
+    "roots": [],
+    "family": ["execute（実行する）"],
+    "synonyms": [
+      { "word": "manager", "meaning": "管理職", "nuance": "部門の責任者。", "etymology": "manage + -er" },
+      { "word": "director", "meaning": "取締役", "nuance": "経営を指揮する人。", "etymology": "direct + -or" }
+    ]
+  },
+  {
+    "id": "wellbeing", "word": "wellbeing", "katakana": "ウェルビーイング", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "幸福、心身の健康",
+    "scene": "社員のウェルビーイング、幸福度。",
+    "example": { "en": "Exercise is good for your wellbeing.", "ja": "運動は心身の健康によい。" },
+    "etymology": {
+      "origin": "well「よく」+ being「あること」",
+      "story": "「よくある状態」。17世紀からある語で、最近は心身ともに満たされた状態を指すビジネス用語として広まった。well-being とも書く。"
+    },
+    "roots": [],
+    "family": ["well（よく）、being（存在）"],
+    "synonyms": [
+      { "word": "health", "meaning": "健康", "nuance": "体の状態。", "etymology": "古英語 hǣlþ" },
+      { "word": "happiness", "meaning": "幸せ", "nuance": "満たされた気持ち。", "etymology": "happy + -ness" }
+    ]
+  },
+  {
+    "id": "burnout", "word": "burnout", "katakana": "バーンアウト", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "燃え尽き症候群",
+    "scene": "仕事の燃え尽き、燃え尽き症候群。",
+    "example": { "en": "Working too much can lead to burnout.", "ja": "働きすぎは燃え尽きにつながることがある。" },
+    "etymology": {
+      "origin": "burn「燃える」+ out「すっかり」",
+      "story": "燃料が「燃え尽きる」ことから、心身が疲れ果てた状態に。"
+    },
+    "roots": [],
+    "family": ["burn（燃える）"],
+    "synonyms": [
+      { "word": "exhaustion", "meaning": "疲労困憊", "nuance": "ひどい疲れ。", "etymology": "ラテン語 exhaurīre「くみ尽くす」" },
+      { "word": "fatigue", "meaning": "疲労", "nuance": "疲れ。", "etymology": "ラテン語 fatīgāre" }
+    ]
+  },
+  {
+    "id": "workaholic", "word": "workaholic", "katakana": "ワーカホリック", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "仕事中毒の人",
+    "scene": "仕事人間、ワーカホリック。",
+    "example": { "en": "My father is a workaholic.", "ja": "父は仕事中毒だ。" },
+    "etymology": {
+      "origin": "work「仕事」+ alcoholic「アルコール依存の」の混成語（1968年）",
+      "story": "-aholic は「〜中毒の人」を作る語尾になった（shopaholic 買い物中毒）。"
+    },
+    "roots": [],
+    "family": ["alcoholic（アルコール依存の）"],
+    "synonyms": [
+      { "word": "overworker", "meaning": "働きすぎの人", "nuance": "過労の人。", "etymology": "over + work + -er" },
+      { "word": "hard worker", "meaning": "働き者", "nuance": "よく働く人（よい意味）。", "etymology": "hard + worker" }
+    ]
+  },
+  {
+    "id": "onboarding", "word": "onboarding", "katakana": "オンボーディング", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "新人の受け入れ研修",
+    "scene": "新入社員のオンボーディング、アプリの初回案内。",
+    "example": { "en": "The onboarding process takes two weeks.", "ja": "新人研修には2週間かかる。" },
+    "etymology": {
+      "origin": "on board「乗船して」から",
+      "story": "新しい乗組員を船に「乗せる」ことにたとえて、新人を職場に迎え入れ慣れさせること。"
+    },
+    "roots": [],
+    "family": ["board（乗りこむ）"],
+    "synonyms": [
+      { "word": "orientation", "meaning": "オリエンテーション", "nuance": "最初の説明会。", "etymology": "orient「方向を合わせる」" },
+      { "word": "training", "meaning": "研修", "nuance": "訓練。", "etymology": "train + -ing" }
+    ]
+  },
+  {
+    "id": "offshore", "word": "offshore", "katakana": "オフショア", "pos": "形容詞・副詞", "cefr": "C2", "level": 8,
+    "meaning": "沖合の、海外の",
+    "scene": "オフショア開発、沖合の風力発電。",
+    "example": { "en": "The company moved its factory offshore.", "ja": "その会社は工場を海外に移した。" },
+    "etymology": {
+      "origin": "off「離れて」+ shore「岸」",
+      "story": "「岸から離れた」→ 沖合、国外。ビジネスでは人件費の安い海外へ業務を移すこと。"
+    },
+    "roots": [],
+    "family": ["shore（岸）"],
+    "synonyms": [
+      { "word": "overseas", "meaning": "海外の", "nuance": "外国の。", "etymology": "over + seas" },
+      { "word": "abroad", "meaning": "海外で", "nuance": "外国で。", "etymology": "a- + broad" }
+    ]
+  },
+  {
+    "id": "alliance", "word": "alliance", "katakana": "アライアンス", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "同盟、提携",
+    "scene": "業務提携、航空アライアンス。",
+    "example": { "en": "The two companies formed an alliance.", "ja": "2社は提携を結んだ。" },
+    "etymology": {
+      "origin": "古フランス語 aliance ← alier「結びつける」← ラテン語 alligāre",
+      "story": "ally（同盟国）と同じ語。rally（再び集める）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["ally（同盟国）"],
+    "synonyms": [
+      { "word": "partnership", "meaning": "協力関係", "nuance": "組むこと。", "etymology": "partner + -ship" },
+      { "word": "union", "meaning": "連合", "nuance": "結びつき。", "etymology": "ラテン語 ūniō" }
+    ]
+  },
+  {
+    "id": "holdings", "word": "holdings", "katakana": "ホールディングス", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "持ち株会社、保有資産",
+    "scene": "〇〇ホールディングス（持株会社）。",
+    "example": { "en": "The group's holdings include hotels and airlines.", "ja": "そのグループはホテルや航空会社を保有している。" },
+    "etymology": {
+      "origin": "hold「持つ」+ -ing の複数形",
+      "story": "「持っているもの」→ 保有する株や土地。holding company は「持株会社」。"
+    },
+    "roots": [],
+    "family": ["hold（持つ）"],
+    "synonyms": [
+      { "word": "assets", "meaning": "資産", "nuance": "持っている財産。", "etymology": "アングロ・フランス語 asetz" },
+      { "word": "parent company", "meaning": "親会社", "nuance": "子会社を持つ会社。", "etymology": "parent + company" }
+    ]
+  },
+  {
+    "id": "franchise", "word": "franchise", "katakana": "フランチャイズ", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "営業権、チェーン店、選挙権",
+    "scene": "フランチャイズ店、プロ野球の本拠地。",
+    "example": { "en": "He owns a fast-food franchise.", "ja": "彼はファストフードのフランチャイズ店を経営している。" },
+    "etymology": {
+      "origin": "古フランス語 franchise「自由、特権」← franc「自由な」",
+      "story": "「特権を与えること」→ 営業する権利。franc はフランク族（自由民）から来ていて、frank（率直な）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["frank（率直な）"],
+    "synonyms": [
+      { "word": "chain", "meaning": "チェーン店", "nuance": "同じ名前の店の集まり。", "etymology": "ラテン語 catēna" },
+      { "word": "license", "meaning": "許可", "nuance": "認可。", "etymology": "ラテン語 licentia" }
+    ]
+  },
+  {
+    "id": "incubator", "word": "incubator", "katakana": "インキュベーター", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "ふ卵器、起業支援施設",
+    "scene": "スタートアップのインキュベーター、保育器。",
+    "example": { "en": "The baby was kept in an incubator.", "ja": "赤ちゃんは保育器の中にいた。" },
+    "etymology": {
+      "origin": "ラテン語 incubāre「上に寝る、卵を抱く」",
+      "story": "鳥が卵を「抱いて温める」→ ふ卵器、保育器 → 新しい会社を育てる施設。"
+    },
+    "roots": [],
+    "family": ["incubate（卵を抱く）"],
+    "synonyms": [
+      { "word": "accelerator", "meaning": "アクセラレーター", "nuance": "成長を加速させる支援。", "etymology": "ラテン語 accelerāre" },
+      { "word": "nursery", "meaning": "育成所", "nuance": "育てる場所。", "etymology": "nurse + -ery" }
+    ]
+  },
+  {
+    "id": "pivot", "word": "pivot", "katakana": "ピボット", "pos": "名詞・動詞", "cefr": "C2", "level": 8,
+    "meaning": "回転軸、方向転換（する）",
+    "scene": "バスケのピボット、事業のピボット。",
+    "example": { "en": "The startup pivoted to online education.", "ja": "その新興企業はオンライン教育に方向転換した。" },
+    "etymology": {
+      "origin": "フランス語 pivot「軸、ちょうつがい」",
+      "story": "「回転の軸」→ 軸足を残して向きを変えること → 事業の方向転換。"
+    },
+    "roots": [],
+    "family": ["pivotal（重要な）"],
+    "synonyms": [
+      { "word": "shift", "meaning": "転換", "nuance": "移り変わり。", "etymology": "古英語 sciftan" },
+      { "word": "turn", "meaning": "回転", "nuance": "向きを変えること。", "etymology": "ラテン語 tornāre" }
+    ]
+  },
+  {
+    "id": "scale", "word": "scale", "katakana": "スケール", "pos": "名詞・動詞", "cefr": "B2", "level": 8,
+    "meaning": "規模、目盛り、はかり、うろこ、音階",
+    "scene": "スケールの大きい話、体重計、事業をスケールする。",
+    "example": { "en": "The project is huge in scale.", "ja": "その計画は規模が大きい。" },
+    "etymology": {
+      "origin": "目盛り・規模はラテン語 scāla「はしご」、はかりは古ノルド語 skál「皿」、うろこは古フランス語 escale",
+      "story": "同じつづりで3つの別語源がある。「はしご」の段 → 目盛り → 規模。ビジネスで scale up は「規模を拡大する」。"
+    },
+    "roots": [],
+    "family": ["escalator（エスカレーター・scāla と同源）"],
+    "synonyms": [
+      { "word": "size", "meaning": "大きさ", "nuance": "サイズ。", "etymology": "古フランス語 sise" },
+      { "word": "extent", "meaning": "程度", "nuance": "範囲。", "etymology": "ラテン語 extendere" }
+    ]
+  },
+  {
+    "id": "monetize", "word": "monetize", "katakana": "マネタイズ", "pos": "動詞", "cefr": "C2", "level": 8,
+    "meaning": "収益化する",
+    "scene": "動画のマネタイズ、収益化。",
+    "example": { "en": "It's hard to monetize a free app.", "ja": "無料アプリを収益化するのは難しい。" },
+    "etymology": {
+      "origin": "money「お金」+ -ize ← ラテン語 monēta",
+      "story": "money はローマの女神ユーノー・モネタの神殿で貨幣が作られたことから。mint（造幣局）も同じ語。"
+    },
+    "roots": [],
+    "family": ["money（お金）、mint（造幣局）"],
+    "synonyms": [
+      { "word": "profit", "meaning": "利益を得る", "nuance": "もうける。", "etymology": "ラテン語 prōficere" },
+      { "word": "commercialize", "meaning": "商業化する", "nuance": "売り物にする。", "etymology": "commercial + -ize" }
+    ]
+  },
+  {
+    "id": "ecosystem", "word": "ecosystem", "katakana": "エコシステム", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "生態系、事業の協力体制",
+    "scene": "森の生態系、アップルのエコシステム。",
+    "example": { "en": "Pollution damages the ocean ecosystem.", "ja": "汚染は海の生態系をこわす。" },
+    "etymology": {
+      "origin": "eco-「環境の」+ system「体系」（1935年）",
+      "story": "もとは生物学の「生態系」。ビジネスでは企業やサービスが支え合うつながりの意味にも使う。"
+    },
+    "roots": [],
+    "family": ["ecology（生態学）、system（体系）"],
+    "synonyms": [
+      { "word": "environment", "meaning": "環境", "nuance": "まわりの状態。", "etymology": "フランス語 environ" },
+      { "word": "network", "meaning": "ネットワーク", "nuance": "つながり。", "etymology": "net + work" }
+    ]
+  },
+  {
+    "id": "database", "word": "database", "katakana": "データベース", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "データベース",
+    "scene": "顧客データベース、データベース検索。",
+    "example": { "en": "All the information is stored in a database.", "ja": "すべての情報はデータベースに保存されている。" },
+    "etymology": {
+      "origin": "data「データ」+ base「基地」",
+      "story": "データを整理して保管する「基地」。data はラテン語 dare「与える」から。"
+    },
+    "roots": [],
+    "family": ["data（データ）"],
+    "synonyms": [
+      { "word": "archive", "meaning": "記録保管", "nuance": "保存された記録。", "etymology": "ギリシャ語 arkheion" },
+      { "word": "record", "meaning": "記録", "nuance": "残されたデータ。", "etymology": "ラテン語 recordārī" }
+    ]
+  },
+  {
+    "id": "algorithm", "word": "algorithm", "katakana": "アルゴリズム", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "算法、アルゴリズム",
+    "scene": "検索アルゴリズム、SNSのおすすめ表示。",
+    "example": { "en": "The app uses an algorithm to recommend videos.", "ja": "そのアプリはアルゴリズムを使って動画をすすめる。" },
+    "etymology": {
+      "origin": "中世ラテン語 algorismus ← 9世紀の数学者アル＝フワーリズミー（al-Khwārizmī）",
+      "story": "バグダッドの数学者の名前が「計算の方法」を指すようになった。つづりはギリシャ語 arithmos（数）の影響で -rithm に変わった。"
+    },
+    "roots": [],
+    "family": ["arithmetic（算数）"],
+    "synonyms": [
+      { "word": "formula", "meaning": "公式", "nuance": "計算のきまり。", "etymology": "ラテン語 fōrmula" },
+      { "word": "procedure", "meaning": "手順", "nuance": "決まったやり方。", "etymology": "ラテン語 prōcēdere" }
+    ]
+  },
+  {
+    "id": "interface", "word": "interface", "katakana": "インターフェース", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "接点、操作画面",
+    "scene": "ユーザーインターフェース（UI）、接続部。",
+    "example": { "en": "The app has a simple interface.", "ja": "そのアプリは操作画面がシンプルだ。" },
+    "etymology": {
+      "origin": "inter-「間の」+ face「面」",
+      "story": "2つのものが接する「面」。人と機械の間の操作の仕組みにも。"
+    },
+    "roots": [],
+    "family": ["face（顔、面）"],
+    "synonyms": [
+      { "word": "connection", "meaning": "接続", "nuance": "つながり。", "etymology": "ラテン語 connectere" },
+      { "word": "screen", "meaning": "画面", "nuance": "表示面。", "etymology": "古フランス語 escren" }
+    ]
+  },
+  {
+    "id": "backup", "word": "backup", "katakana": "バックアップ", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "予備、支援、バックアップ",
+    "scene": "データのバックアップ、バックアップ体制。",
+    "example": { "en": "Always keep a backup of your files.", "ja": "ファイルのバックアップを必ずとっておいて。" },
+    "etymology": {
+      "origin": "back「後ろ」+ up",
+      "story": "「後ろから支えるもの」→ 予備、支援。"
+    },
+    "roots": [],
+    "family": ["back（後ろ）"],
+    "synonyms": [
+      { "word": "copy", "meaning": "写し", "nuance": "複製。", "etymology": "ラテン語 cōpia" },
+      { "word": "support", "meaning": "支援", "nuance": "支えること。", "etymology": "ラテン語 supportāre" }
+    ]
+  },
+  {
+    "id": "legacy", "word": "legacy", "katakana": "レガシー", "pos": "名詞・形容詞", "cefr": "C1", "level": 8,
+    "meaning": "遺産、受け継がれたもの、古い（システム）",
+    "scene": "オリンピックのレガシー、レガシーシステム。",
+    "example": { "en": "The Olympics left a great legacy for the city.", "ja": "オリンピックは市に大きな遺産を残した。" },
+    "etymology": {
+      "origin": "中世ラテン語 lēgātia「使節の職」← lēgāre「遺言で残す、派遣する」",
+      "story": "「遺言で残されたもの」→ 遺産、後世に残るもの。IT では「古い仕組み」の意味にもなる。"
+    },
+    "roots": [],
+    "family": ["legal（法の）、delegate（代表）"],
+    "synonyms": [
+      { "word": "heritage", "meaning": "遺産", "nuance": "文化的な遺産。", "etymology": "古フランス語 heritage" },
+      { "word": "inheritance", "meaning": "相続財産", "nuance": "受け継いだ財産。", "etymology": "ラテン語 hērēditāre" }
+    ]
+  },
+  {
+    "id": "patent", "word": "patent", "katakana": "パテント", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "特許",
+    "scene": "特許出願、パテント料。",
+    "example": { "en": "The company has a patent on the design.", "ja": "その会社はそのデザインの特許を持っている。" },
+    "etymology": {
+      "origin": "ラテン語 (litterae) patentēs「開かれた（手紙）」← patēre「開いている」",
+      "story": "王が特権を与えた「誰でも読めるように開いた公文書」から「特許」に。patent leather（エナメル革）の patent は「つやのある」。"
+    },
+    "roots": [],
+    "family": ["patently（明らかに）"],
+    "synonyms": [
+      { "word": "copyright", "meaning": "著作権", "nuance": "作品の権利。", "etymology": "copy + right" },
+      { "word": "license", "meaning": "許可", "nuance": "使う権利。", "etymology": "ラテン語 licentia" }
+    ]
+  },
+  {
+    "id": "copyright", "word": "copyright", "katakana": "コピーライト", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "著作権",
+    "scene": "©マーク、著作権侵害。",
+    "example": { "en": "Using this song without permission violates copyright.", "ja": "許可なくこの歌を使うのは著作権侵害だ。" },
+    "etymology": {
+      "origin": "copy「写し」+ right「権利」（18世紀）",
+      "story": "「写しを作る権利」。「コピーライター（copywriter）」は広告文を書く人で別の語。"
+    },
+    "roots": [],
+    "family": ["copy（写し）、right（権利）"],
+    "synonyms": [
+      { "word": "patent", "meaning": "特許", "nuance": "発明の権利。", "etymology": "ラテン語 patēre" },
+      { "word": "intellectual property", "meaning": "知的財産", "nuance": "頭脳の成果の権利。", "etymology": "intellectual + property" }
+    ]
+  },
+  {
+    "id": "logo", "word": "logo", "katakana": "ロゴ", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "ロゴ、社章",
+    "scene": "ロゴマーク（和製）、ロゴデザイン。",
+    "example": { "en": "The company changed its logo.", "ja": "その会社はロゴを変えた。" },
+    "etymology": {
+      "origin": "logotype の略 ← ギリシャ語 logos「言葉」+ typos「型」",
+      "story": "もとは印刷で、単語を一つの活字にまとめたもの。「ロゴマーク」は英語では logo だけでよい。"
+    },
+    "roots": [],
+    "family": ["logic（論理・logos を含む）"],
+    "synonyms": [
+      { "word": "emblem", "meaning": "紋章", "nuance": "象徴のマーク。", "etymology": "ギリシャ語 emblēma" },
+      { "word": "trademark", "meaning": "商標", "nuance": "登録された印。", "etymology": "trade + mark" }
+    ]
+  },
+  {
+    "id": "slogan", "word": "slogan", "katakana": "スローガン", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "標語、スローガン",
+    "scene": "選挙のスローガン、キャッチコピー。",
+    "example": { "en": "\"Just do it\" is a famous slogan.", "ja": "「ジャスト・ドゥー・イット」は有名なスローガンだ。" },
+    "etymology": {
+      "origin": "スコットランド・ゲール語 sluagh-ghairm「戦の叫び」← sluagh「軍勢」+ gairm「叫び」",
+      "story": "スコットランドの氏族が戦いのときに叫んだ声から。"
+    },
+    "roots": [],
+    "family": ["sloganeering（標語の連呼）"],
+    "synonyms": [
+      { "word": "motto", "meaning": "モットー", "nuance": "座右の銘。", "etymology": "イタリア語 motto「言葉」" },
+      { "word": "catchphrase", "meaning": "キャッチフレーズ", "nuance": "決まり文句。", "etymology": "catch + phrase" }
+    ]
+  },
+  {
+    "id": "catchphrase", "word": "catchphrase", "katakana": "キャッチフレーズ", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "決まり文句、宣伝文句",
+    "scene": "キャッチコピー（和製）、お決まりのせりふ。",
+    "example": { "en": "The comedian is known for his catchphrase.", "ja": "その芸人は決めぜりふで知られている。" },
+    "etymology": {
+      "origin": "catch「とらえる」+ phrase「句」",
+      "story": "人の心を「つかむ」言葉。日本語の「キャッチコピー」は英語では catchphrase / slogan / tagline。"
+    },
+    "roots": [],
+    "family": ["phrase（句）"],
+    "synonyms": [
+      { "word": "slogan", "meaning": "スローガン", "nuance": "標語。", "etymology": "ゲール語 sluagh-ghairm" },
+      { "word": "tagline", "meaning": "宣伝文句", "nuance": "広告の決め文句。", "etymology": "tag + line" }
+    ]
+  },
+  {
+    "id": "capital", "word": "capital", "katakana": "キャピタル", "pos": "名詞・形容詞", "cefr": "B1", "level": 8,
+    "meaning": "首都、資本、大文字、主要な",
+    "scene": "首都東京、ベンチャーキャピタル、大文字。",
+    "example": { "en": "Tokyo is the capital of Japan.", "ja": "東京は日本の首都だ。" },
+    "etymology": {
+      "origin": "ラテン語 capitālis「頭の」← caput「頭」",
+      "story": "「頭」→ 国の頭（首都）、文の頭（大文字）、財産の元手（資本）。captain、chef と同じ caput の家族。"
+    },
+    "roots": [],
+    "family": ["capitalism（資本主義）、captain（キャプテン）"],
+    "synonyms": [
+      { "word": "funds", "meaning": "資金", "nuance": "使えるお金。", "etymology": "ラテン語 fundus" },
+      { "word": "chief", "meaning": "主要な", "nuance": "いちばんの。", "etymology": "古フランス語 chef" }
+    ]
+  },
+  {
+    "id": "asset", "word": "asset", "katakana": "アセット", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "資産、強み",
+    "scene": "資産運用、会社の財産。",
+    "example": { "en": "She is a great asset to the team.", "ja": "彼女はチームにとって大切な戦力だ。" },
+    "etymology": {
+      "origin": "アングロ・フランス語 asetz「十分に（借金を払えるだけ）」← ラテン語 ad satis「十分に」",
+      "story": "「借金を払うのに十分な財産」。assets の -s を複数形と誤解して単数 asset が生まれた。satisfy（満足させる）も satis の家族。"
+    },
+    "roots": [],
+    "family": ["satisfy（満足させる）"],
+    "synonyms": [
+      { "word": "property", "meaning": "財産", "nuance": "所有物。", "etymology": "ラテン語 proprietās" },
+      { "word": "strength", "meaning": "強み", "nuance": "長所。", "etymology": "古英語 strengþu" }
+    ]
+  },
+  {
+    "id": "hedge", "word": "hedge", "katakana": "ヘッジ", "pos": "名詞・動詞", "cefr": "C2", "level": 8,
+    "meaning": "生け垣、損失回避（する）",
+    "scene": "リスクヘッジ、ヘッジファンド。",
+    "example": { "en": "Buying insurance is a way to hedge against risk.", "ja": "保険に入るのはリスクを避ける方法のひとつだ。" },
+    "etymology": {
+      "origin": "古英語 hecg「生け垣」",
+      "story": "生け垣で「囲って守る」→ 損失から身を守る手段。日本語の「リスクヘッジ」は英語では hedge against risk / risk management。"
+    },
+    "roots": [],
+    "family": ["hedgehog（ハリネズミ＝生け垣のブタ）"],
+    "synonyms": [
+      { "word": "fence", "meaning": "柵", "nuance": "囲い。", "etymology": "defence の略" },
+      { "word": "protect", "meaning": "守る", "nuance": "保護する。", "etymology": "ラテン語 prōtegere" }
+    ]
+  },
+  {
+    "id": "index", "word": "index", "katakana": "インデックス", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "索引、指数、指標",
+    "scene": "本の索引、株価指数、インデックス投資。",
+    "example": { "en": "Look up the word in the index.", "ja": "索引でその語を調べて。" },
+    "etymology": {
+      "origin": "ラテン語 index「人さし指、指し示すもの」← indicāre「示す」",
+      "story": "「指し示すもの」。index finger は人さし指。indicate（示す）と同じ家族。複数形は indexes / indices。"
+    },
+    "roots": [],
+    "family": ["indicate（示す）、index finger（人さし指）"],
+    "synonyms": [
+      { "word": "list", "meaning": "一覧", "nuance": "リスト。", "etymology": "古フランス語 liste" },
+      { "word": "indicator", "meaning": "指標", "nuance": "状態を示すもの。", "etymology": "ラテン語 indicāre" }
+    ]
+  },
+  {
+    "id": "ownership", "word": "ownership", "katakana": "オーナーシップ", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "所有（権）、当事者意識",
+    "scene": "オーナーシップを持って働く。",
+    "example": { "en": "Take ownership of your mistakes.", "ja": "自分の失敗には責任を持ちなさい。" },
+    "etymology": {
+      "origin": "owner「持ち主」+ -ship ← 古英語 āgnian「所有する」",
+      "story": "own（自分の）と同じ語根。ビジネスでは「自分のこととして責任を持つ姿勢」の意味でよく使う。"
+    },
+    "roots": [],
+    "family": ["own（所有する）、owner（持ち主）"],
+    "synonyms": [
+      { "word": "possession", "meaning": "所有", "nuance": "持っていること。", "etymology": "ラテン語 possidēre" },
+      { "word": "responsibility", "meaning": "責任", "nuance": "果たすべき務め。", "etymology": "ラテン語 respondēre" }
+    ]
+  },
+  {
+    "id": "empowerment", "word": "empowerment", "katakana": "エンパワーメント", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "力を与えること、権限の委譲",
+    "scene": "女性のエンパワーメント、自己肯定感。",
+    "example": { "en": "Education is key to the empowerment of women.", "ja": "教育は女性が力をつけるための鍵だ。" },
+    "etymology": {
+      "origin": "em-「〜にする」+ power「力」+ -ment",
+      "story": "「力を持たせること」。17世紀には「権限を与える」という法律的な意味だった。"
+    },
+    "roots": [],
+    "family": ["power（力）、empower（力を与える）"],
+    "synonyms": [
+      { "word": "enable", "meaning": "可能にする", "nuance": "できるようにする。", "etymology": "en- + able" },
+      { "word": "authorization", "meaning": "権限の付与", "nuance": "許可を与えること。", "etymology": "ラテン語 auctor" }
+    ]
+  },
+  {
+    "id": "assessment", "word": "assessment", "katakana": "アセスメント", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "評価、査定",
+    "scene": "環境アセスメント、成績評価。",
+    "example": { "en": "The teacher made an assessment of each student's progress.", "ja": "先生は生徒一人ひとりの進み具合を評価した。" },
+    "etymology": {
+      "origin": "assess「査定する」+ -ment ← ラテン語 assidēre「そばに座る（補佐する）」",
+      "story": "裁判官の「そばに座って」税額を決める補佐役から。session と同じ sedēre「座る」の家族。"
+    },
+    "roots": [],
+    "family": ["assess（評価する）、session（会合）"],
+    "synonyms": [
+      { "word": "evaluation", "meaning": "評価", "nuance": "価値を判断すること。", "etymology": "フランス語 évaluer" },
+      { "word": "test", "meaning": "テスト", "nuance": "試験。", "etymology": "ラテン語 testum" }
+    ]
+  },
+  {
+    "id": "spec", "word": "spec", "katakana": "スペック", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "仕様、性能",
+    "scene": "パソコンのスペック、「ハイスペック」。",
+    "example": { "en": "What are the specs of this laptop?", "ja": "このノートパソコンの仕様は？" },
+    "etymology": {
+      "origin": "specification「仕様書」の略 ← ラテン語 speciēs「種類、見た目」",
+      "story": "specific（具体的な）、special と同じ家族。「ハイスペック男子」のような人への使い方は和製で、英語では high-spec は機械に使う。"
+    },
+    "roots": ["spec"],
+    "family": ["specific（具体的な）、specify（明記する）"],
+    "synonyms": [
+      { "word": "feature", "meaning": "機能", "nuance": "特徴。", "etymology": "古フランス語 faiture" },
+      { "word": "performance", "meaning": "性能", "nuance": "働き具合。", "etymology": "perform + -ance" }
+    ]
+  },
+  {
+    "id": "beta", "word": "beta", "katakana": "ベータ", "pos": "名詞・形容詞", "cefr": "C1", "level": 8,
+    "meaning": "ベータ版、ギリシャ文字β",
+    "scene": "ベータ版アプリ、β線。",
+    "example": { "en": "The app is still in beta.", "ja": "そのアプリはまだベータ版だ。" },
+    "etymology": {
+      "origin": "ギリシャ文字の2番目 β（beta）",
+      "story": "alpha（α）が1番目なので、α版（社内テスト）の次の段階がβ版。alphabet は alpha + beta。"
+    },
+    "roots": [],
+    "family": ["alphabet（アルファベット）"],
+    "synonyms": [
+      { "word": "trial", "meaning": "試用", "nuance": "お試し。", "etymology": "アングロ・フランス語 trial" },
+      { "word": "test version", "meaning": "試験版", "nuance": "テスト用の版。", "etymology": "test + version" }
+    ]
+  },
+  {
+    "id": "version", "word": "version", "katakana": "バージョン", "pos": "名詞", "cefr": "B1", "level": 8,
+    "meaning": "版、型、説明",
+    "scene": "最新バージョン、アプリの更新。",
+    "example": { "en": "Please update to the latest version.", "ja": "最新版に更新してください。" },
+    "etymology": {
+      "origin": "ラテン語 versiō「回すこと、翻訳」← vertere「回す、変える」",
+      "story": "「変えたもの」→ 翻訳、別の形の版。reverse、conversion と同じ vertere の家族。"
+    },
+    "roots": ["vert"],
+    "family": ["convert（変える）、reverse（逆にする）"],
+    "synonyms": [
+      { "word": "edition", "meaning": "版", "nuance": "出版物の版。", "etymology": "ラテン語 ēditiō" },
+      { "word": "variant", "meaning": "変種", "nuance": "別の型。", "etymology": "ラテン語 variāre" }
+    ]
+  },
+  {
+    "id": "maintenance", "word": "maintenance", "katakana": "メンテナンス", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "維持、保守、整備",
+    "scene": "サーバーメンテナンス、車の整備。",
+    "example": { "en": "The website is down for maintenance.", "ja": "サイトはメンテナンスのため停止中だ。" },
+    "etymology": {
+      "origin": "古フランス語 maintenir「手で保つ」← ラテン語 manū tenēre",
+      "story": "「手（manus）で保つ（tenēre）」。maintain の名詞形。manual、contain の両方の家族。"
+    },
+    "roots": ["ten", "manu"],
+    "family": ["maintain（維持する）"],
+    "synonyms": [
+      { "word": "upkeep", "meaning": "維持", "nuance": "手入れ。", "etymology": "up + keep" },
+      { "word": "repair", "meaning": "修理", "nuance": "直すこと。", "etymology": "ラテン語 reparāre" }
+    ]
+  },
+  {
+    "id": "bug", "word": "bug", "katakana": "バグ", "pos": "名詞", "cefr": "B1", "level": 8,
+    "meaning": "虫、（プログラムの）不具合",
+    "scene": "バグ修正、ゲームのバグ。",
+    "example": { "en": "The game has a bug that makes it crash.", "ja": "そのゲームには落ちてしまう不具合がある。" },
+    "etymology": {
+      "origin": "中英語 bugge（語源は不明）",
+      "story": "機械の不具合を bug と呼ぶのは19世紀から。1947年、計算機に本物の蛾が挟まっていたという有名な話がある（語はそれより前からあった）。"
+    },
+    "roots": [],
+    "family": ["debug（デバッグする）"],
+    "synonyms": [
+      { "word": "error", "meaning": "エラー", "nuance": "誤り。", "etymology": "ラテン語 error" },
+      { "word": "glitch", "meaning": "不具合", "nuance": "ちょっとした故障。", "etymology": "イディッシュ語 glitsh「すべる」" }
+    ]
+  },
+  {
+    "id": "patch", "word": "patch", "katakana": "パッチ", "pos": "名詞・動詞", "cefr": "C1", "level": 8,
+    "meaning": "当て布、修正プログラム",
+    "scene": "アップデートパッチ、目の眼帯（eye patch）。",
+    "example": { "en": "The company released a patch to fix the bug.", "ja": "会社は不具合を直す修正プログラムを出した。" },
+    "etymology": {
+      "origin": "中英語 pacche「布切れ」",
+      "story": "服の穴をふさぐ「当て布」から、プログラムの穴をふさぐ修正に。patchwork も同じ語。"
+    },
+    "roots": [],
+    "family": ["patchwork（パッチワーク）"],
+    "synonyms": [
+      { "word": "fix", "meaning": "修正", "nuance": "直すこと。", "etymology": "ラテン語 fīgere「固定する」" },
+      { "word": "update", "meaning": "更新", "nuance": "最新にすること。", "etymology": "up + date" }
+    ]
+  },
+  {
+    "id": "code", "word": "code", "katakana": "コード", "pos": "名詞", "cefr": "B1", "level": 8,
+    "meaning": "暗号、規則、プログラムのコード",
+    "scene": "QRコード、ドレスコード、プログラムのコード。",
+    "example": { "en": "He writes code for a living.", "ja": "彼はプログラムを書いて生計を立てている。" },
+    "etymology": {
+      "origin": "ラテン語 cōdex「木の板、法典」",
+      "story": "書き板 → 法典（規則集）→ 決まった記号 → 暗号、プログラム。電気の「コード」は cord で別の語。"
+    },
+    "roots": [],
+    "family": ["codex（写本）"],
+    "synonyms": [
+      { "word": "cipher", "meaning": "暗号", "nuance": "秘密の記号。", "etymology": "アラビア語 ṣifr「ゼロ」" },
+      { "word": "rule", "meaning": "規則", "nuance": "決まり。", "etymology": "ラテン語 rēgula" }
+    ]
+  },
+  {
+    "id": "hardware", "word": "hardware", "katakana": "ハードウェア", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "機器、金物",
+    "scene": "パソコンのハード、ホームセンター（hardware store）。",
+    "example": { "en": "The problem is with the hardware, not the software.", "ja": "問題はソフトではなくハードにある。" },
+    "etymology": {
+      "origin": "hard「かたい」+ ware「製品」",
+      "story": "もとは「金物類」。今もアメリカの hardware store は工具や金物の店。コンピュータの機械部分にも使うようになった。"
+    },
+    "roots": [],
+    "family": ["software（ソフトウェア）"],
+    "synonyms": [
+      { "word": "equipment", "meaning": "機器", "nuance": "装備。", "etymology": "フランス語 équiper" },
+      { "word": "device", "meaning": "装置", "nuance": "機器。", "etymology": "古フランス語 devis" }
+    ]
+  },
+  {
+    "id": "software", "word": "software", "katakana": "ソフトウェア", "pos": "名詞", "cefr": "B1", "level": 8,
+    "meaning": "ソフトウェア",
+    "scene": "ソフトを入れる、ウイルス対策ソフト。",
+    "example": { "en": "You need to install the software first.", "ja": "まずそのソフトを入れる必要がある。" },
+    "etymology": {
+      "origin": "soft「やわらかい」+ ware「製品」（1958年ごろ）",
+      "story": "hardware に対して作られた語。"
+    },
+    "roots": [],
+    "family": ["hardware（ハードウェア）"],
+    "synonyms": [
+      { "word": "program", "meaning": "プログラム", "nuance": "命令の集まり。", "etymology": "ギリシャ語 programma" },
+      { "word": "app", "meaning": "アプリ", "nuance": "応用ソフト。", "etymology": "application の略" }
+    ]
+  },
+  {
+    "id": "gadget", "word": "gadget", "katakana": "ガジェット", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "小道具、便利な機器",
+    "scene": "最新ガジェット、ガジェット好き。",
+    "example": { "en": "He loves new tech gadgets.", "ja": "彼は新しいIT機器が大好きだ。" },
+    "etymology": {
+      "origin": "19世紀の船乗りの言葉（語源は不明。フランス語 gâchette「引き金」とする説など）",
+      "story": "船乗りが名前を思い出せない小さな道具を指して gadget と呼んだ。"
+    },
+    "roots": [],
+    "family": ["gadgetry（機器類）"],
+    "synonyms": [
+      { "word": "device", "meaning": "機器", "nuance": "装置。", "etymology": "古フランス語 devis" },
+      { "word": "tool", "meaning": "道具", "nuance": "使う物。", "etymology": "古英語 tōl" }
+    ]
+  },
+  {
+    "id": "wearable", "word": "wearable", "katakana": "ウェアラブル", "pos": "形容詞・名詞", "cefr": "C2", "level": 8,
+    "meaning": "身につけられる（機器）",
+    "scene": "ウェアラブル端末、スマートウォッチ。",
+    "example": { "en": "Wearable devices can track your heart rate.", "ja": "身につける機器で心拍数を記録できる。" },
+    "etymology": {
+      "origin": "wear「身につける」+ -able「〜できる」",
+      "story": "「身につけられる」。服について「着やすい」の意味でも使う。"
+    },
+    "roots": [],
+    "family": ["wear（着る）"],
+    "synonyms": [
+      { "word": "portable", "meaning": "持ち運べる", "nuance": "携帯用の。", "etymology": "ラテン語 portāre" },
+      { "word": "smartwatch", "meaning": "スマートウォッチ", "nuance": "腕時計型の端末。", "etymology": "smart + watch" }
+    ]
+  },
+  {
+    "id": "blockchain", "word": "blockchain", "katakana": "ブロックチェーン", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "ブロックチェーン",
+    "scene": "暗号資産の仕組み、分散型台帳。",
+    "example": { "en": "Bitcoin is based on blockchain technology.", "ja": "ビットコインはブロックチェーン技術に基づいている。" },
+    "etymology": {
+      "origin": "block「かたまり」+ chain「鎖」",
+      "story": "取引の記録を「ブロック」にまとめ、「鎖」のようにつないで改ざんしにくくした仕組み。"
+    },
+    "roots": [],
+    "family": ["block（ブロック）、chain（鎖）"],
+    "synonyms": [
+      { "word": "ledger", "meaning": "台帳", "nuance": "記録帳。", "etymology": "中英語 legger" },
+      { "word": "cryptocurrency", "meaning": "暗号資産", "nuance": "デジタル通貨。", "etymology": "ギリシャ語 kryptos「隠れた」+ currency" }
+    ]
+  },
+  {
+    "id": "metaverse", "word": "metaverse", "katakana": "メタバース", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "仮想空間、メタバース",
+    "scene": "メタバース空間、アバターで参加。",
+    "example": { "en": "People can meet in the metaverse as avatars.", "ja": "人々はアバターとしてメタバースで会うことができる。" },
+    "etymology": {
+      "origin": "meta-「超えた」+ universe「世界」（1992年のSF小説から）",
+      "story": "ニール・スティーヴンスンの小説『スノウ・クラッシュ』で作られた語。avatar もこの小説で広まった。"
+    },
+    "roots": [],
+    "family": ["universe（宇宙）"],
+    "synonyms": [
+      { "word": "virtual world", "meaning": "仮想世界", "nuance": "コンピュータ上の世界。", "etymology": "virtual + world" },
+      { "word": "cyberspace", "meaning": "サイバー空間", "nuance": "ネット上の空間。", "etymology": "cyber + space" }
+    ]
+  },
+  {
+    "id": "hologram", "word": "hologram", "katakana": "ホログラム", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "ホログラム、立体映像",
+    "scene": "お札のホログラム、ホログラムライブ。",
+    "example": { "en": "The singer appeared as a hologram on stage.", "ja": "その歌手はホログラムとして舞台に現れた。" },
+    "etymology": {
+      "origin": "ギリシャ語 holos「全体の」+ gramma「書かれたもの」",
+      "story": "「全体を記録したもの」。光の情報をまるごと記録して立体像を作る。whole、holistic と同じ holos。"
+    },
+    "roots": ["graph"],
+    "family": ["holistic（全体的な）"],
+    "synonyms": [
+      { "word": "image", "meaning": "像", "nuance": "映像。", "etymology": "ラテン語 imāgō" },
+      { "word": "projection", "meaning": "投影", "nuance": "映し出すこと。", "etymology": "ラテン語 prōicere" }
+    ]
+  },
+  {
+    "id": "clone", "word": "clone", "katakana": "クローン", "pos": "名詞・動詞", "cefr": "C2", "level": 8,
+    "meaning": "複製（生物）、クローン",
+    "scene": "クローン羊、スマホのクローン。",
+    "example": { "en": "Scientists cloned a sheep in 1996.", "ja": "科学者たちは1996年に羊のクローンを作った。" },
+    "etymology": {
+      "origin": "ギリシャ語 klōn「小枝、挿し木」",
+      "story": "挿し木で増やした植物は親と同じ遺伝子を持つことから。"
+    },
+    "roots": [],
+    "family": ["cloning（クローン技術）"],
+    "synonyms": [
+      { "word": "copy", "meaning": "写し", "nuance": "複製。", "etymology": "ラテン語 cōpia" },
+      { "word": "replica", "meaning": "複製品", "nuance": "そっくりに作ったもの。", "etymology": "イタリア語 replica" }
+    ]
+  },
+  {
+    "id": "logistics", "word": "logistics", "katakana": "ロジスティクス", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "物流、段取り",
+    "scene": "物流センター、ロジスティクス会社。",
+    "example": { "en": "The company handles logistics for online stores.", "ja": "その会社はネットショップの物流を担っている。" },
+    "etymology": {
+      "origin": "フランス語 logistique ← loger「宿営する」",
+      "story": "もとは軍隊の「宿営や補給の手配」。そこから物の流れや段取りの管理に。"
+    },
+    "roots": [],
+    "family": ["lodge（泊まる）"],
+    "synonyms": [
+      { "word": "distribution", "meaning": "流通", "nuance": "物を配ること。", "etymology": "ラテン語 distribuere" },
+      { "word": "delivery", "meaning": "配送", "nuance": "届けること。", "etymology": "古フランス語 delivrer" }
+    ]
+  },
+  {
+    "id": "container", "word": "container", "katakana": "コンテナ", "pos": "名詞", "cefr": "B2", "level": 8,
+    "meaning": "容器、コンテナ",
+    "scene": "貨物コンテナ、保存容器。",
+    "example": { "en": "Put the leftovers in a container.", "ja": "残り物を容器に入れて。" },
+    "etymology": {
+      "origin": "contain「含む」+ -er ← ラテン語 continēre ← con- + tenēre「保つ」",
+      "story": "「中に保つもの」。content、maintain と同じ tenēre の家族。"
+    },
+    "roots": ["ten"],
+    "family": ["contain（含む）、content（中身）"],
+    "synonyms": [
+      { "word": "box", "meaning": "箱", "nuance": "入れ物。", "etymology": "ラテン語 buxus" },
+      { "word": "vessel", "meaning": "容器、船", "nuance": "液体を入れる器。", "etymology": "ラテン語 vāscellum" }
+    ]
+  },
+  {
+    "id": "cargo", "word": "cargo", "katakana": "カーゴ", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "積み荷、貨物",
+    "scene": "カーゴパンツ、貨物船。",
+    "example": { "en": "The ship was carrying cargo to China.", "ja": "その船は中国へ貨物を運んでいた。" },
+    "etymology": {
+      "origin": "スペイン語 cargo「積み荷」← cargar「積む」← 後期ラテン語 carricāre",
+      "story": "car、carry、charge と同じ carrus「荷車」の家族。カーゴパンツはポケットの多い作業用ズボン。"
+    },
+    "roots": [],
+    "family": ["charge（積む）、carry（運ぶ）"],
+    "synonyms": [
+      { "word": "freight", "meaning": "貨物", "nuance": "運送する荷物。", "etymology": "中オランダ語 vracht" },
+      { "word": "load", "meaning": "積み荷", "nuance": "載せる荷物。", "etymology": "古英語 lād" }
+    ]
+  },
+  {
+    "id": "tracking", "word": "tracking", "katakana": "トラッキング", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "追跡",
+    "scene": "荷物の追跡番号、トラッキング機能。",
+    "example": { "en": "Here is the tracking number for your package.", "ja": "こちらがお荷物の追跡番号です。" },
+    "etymology": {
+      "origin": "track「跡をたどる」+ -ing ← 古フランス語 trac「足跡」",
+      "story": "「足跡をたどる」→ 追跡。陸上のトラック（走路）、曲（track）も同じ語。"
+    },
+    "roots": [],
+    "family": ["track（足跡、走路）"],
+    "synonyms": [
+      { "word": "tracing", "meaning": "追跡", "nuance": "たどること。", "etymology": "古フランス語 tracier" },
+      { "word": "monitoring", "meaning": "監視", "nuance": "見守ること。", "etymology": "ラテン語 monēre" }
+    ]
+  },
+  {
+    "id": "barcode", "word": "barcode", "katakana": "バーコード", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "バーコード",
+    "scene": "商品のバーコード、レジで読み取る。",
+    "example": { "en": "The cashier scanned the barcode.", "ja": "レジ係がバーコードを読み取った。" },
+    "etymology": {
+      "origin": "bar「棒」+ code「符号」",
+      "story": "太さの違う「棒」の並びで情報を表す符号。"
+    },
+    "roots": [],
+    "family": ["bar（棒）、code（符号）"],
+    "synonyms": [
+      { "word": "QR code", "meaning": "QRコード", "nuance": "四角い模様のコード。", "etymology": "Quick Response の略" },
+      { "word": "label", "meaning": "ラベル", "nuance": "貼られた札。", "etymology": "古フランス語 label" }
+    ]
+  },
+  {
+    "id": "payment", "word": "payment", "katakana": "ペイメント", "pos": "名詞", "cefr": "B1", "level": 8,
+    "meaning": "支払い",
+    "scene": "電子決済、ペイメントサービス。",
+    "example": { "en": "We accept payment by card.", "ja": "カードでのお支払いを受け付けています。" },
+    "etymology": {
+      "origin": "pay「支払う」+ -ment ← ラテン語 pācāre「なだめる」← pāx「平和」",
+      "story": "借金を払って相手を「なだめる」ことから「支払う」に。peace（平和）と同じ語根。"
+    },
+    "roots": [],
+    "family": ["pay（払う）、peace（平和）"],
+    "synonyms": [
+      { "word": "settlement", "meaning": "決済", "nuance": "支払いを済ませること。", "etymology": "settle + -ment" },
+      { "word": "fee", "meaning": "料金", "nuance": "払うお金。", "etymology": "アングロ・フランス語 fe" }
+    ]
+  },
+  {
+    "id": "fintech", "word": "fintech", "katakana": "フィンテック", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "金融とITの融合",
+    "scene": "フィンテック企業、スマホ決済。",
+    "example": { "en": "Fintech companies are changing how we pay.", "ja": "フィンテック企業が私たちの支払い方法を変えている。" },
+    "etymology": {
+      "origin": "finance「金融」+ technology の混成語",
+      "story": "finance はフランス語 finer「支払いを終える」← fin「終わり」から。借金を「終わらせる」こと。"
+    },
+    "roots": [],
+    "family": ["finance（金融）、final（最後の）"],
+    "synonyms": [
+      { "word": "online banking", "meaning": "ネットバンキング", "nuance": "ネット上の銀行取引。", "etymology": "online + banking" },
+      { "word": "e-commerce", "meaning": "電子商取引", "nuance": "ネット販売。", "etymology": "electronic + commerce" }
+    ]
+  },
+  {
+    "id": "debit", "word": "debit", "katakana": "デビット", "pos": "名詞・動詞", "cefr": "C1", "level": 8,
+    "meaning": "借方、引き落とし",
+    "scene": "デビットカード、口座引き落とし。",
+    "example": { "en": "I paid with my debit card.", "ja": "デビットカードで払った。" },
+    "etymology": {
+      "origin": "ラテン語 dēbitum「借りているもの」← dēbēre「負っている」",
+      "story": "debt（借金）と同じ語。デビットカードは口座から即時に「引き落とされる」カード。"
+    },
+    "roots": [],
+    "family": ["debt（借金）"],
+    "synonyms": [
+      { "word": "withdrawal", "meaning": "引き出し", "nuance": "口座からお金を出すこと。", "etymology": "withdraw + -al" },
+      { "word": "credit", "meaning": "クレジット、貸方", "nuance": "debit の反対。", "etymology": "ラテン語 crēdere" }
+    ]
+  },
+  {
+    "id": "firewall", "word": "firewall", "katakana": "ファイアウォール", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "防火壁、不正アクセス防止の仕組み",
+    "scene": "セキュリティのファイアウォール。",
+    "example": { "en": "The firewall blocks unsafe websites.", "ja": "ファイアウォールが危険なサイトをブロックする。" },
+    "etymology": {
+      "origin": "fire「火」+ wall「壁」",
+      "story": "もとは建物の「防火壁」。ネットワークに外部からの攻撃が燃え広がらないようにする仕組みにたとえた。"
+    },
+    "roots": [],
+    "family": ["wall（壁）"],
+    "synonyms": [
+      { "word": "barrier", "meaning": "障壁", "nuance": "さえぎるもの。", "etymology": "古フランス語 barriere" },
+      { "word": "filter", "meaning": "フィルター", "nuance": "選り分けるもの。", "etymology": "中世ラテン語 filtrum" }
+    ]
+  },
+  {
+    "id": "guideline", "word": "guideline", "katakana": "ガイドライン", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "指針、ガイドライン",
+    "scene": "感染対策ガイドライン、指針。",
+    "example": { "en": "Please follow the safety guidelines.", "ja": "安全のための指針に従ってください。" },
+    "etymology": {
+      "origin": "guide「導く」+ line「線」",
+      "story": "もとは下書きの「目安の線」。そこから行動の目安に。"
+    },
+    "roots": [],
+    "family": ["guide（案内する）"],
+    "synonyms": [
+      { "word": "rule", "meaning": "規則", "nuance": "決まり。", "etymology": "ラテン語 rēgula" },
+      { "word": "principle", "meaning": "原則", "nuance": "基本の考え。", "etymology": "ラテン語 prīncipium" }
+    ]
+  },
+  {
+    "id": "protocol", "word": "protocol", "katakana": "プロトコル", "pos": "名詞", "cefr": "C2", "level": 8,
+    "meaning": "手順、通信規約、儀礼",
+    "scene": "通信プロトコル、外交儀礼。",
+    "example": { "en": "Doctors follow a strict protocol.", "ja": "医師は厳しい手順に従う。" },
+    "etymology": {
+      "origin": "ギリシャ語 prōtokollon「最初に貼りつけた紙」← prōtos「最初の」+ kolla「のり」",
+      "story": "巻物の最初に貼った「目次の紙」→ 公式記録 → 儀礼の決まり → 通信の規約。"
+    },
+    "roots": [],
+    "family": ["prototype（試作品）"],
+    "synonyms": [
+      { "word": "procedure", "meaning": "手順", "nuance": "やり方。", "etymology": "ラテン語 prōcēdere" },
+      { "word": "etiquette", "meaning": "礼儀作法", "nuance": "社交の決まり。", "etymology": "フランス語 étiquette" }
+    ]
+  },
+  {
+    "id": "standard", "word": "standard", "katakana": "スタンダード", "pos": "名詞・形容詞", "cefr": "B1", "level": 8,
+    "meaning": "基準、標準（の）",
+    "scene": "スタンダードナンバー、国際標準。",
+    "example": { "en": "This is the standard size.", "ja": "これが標準サイズです。" },
+    "etymology": {
+      "origin": "古フランス語 estandart「軍旗」",
+      "story": "戦場で集合の目印に「立てた」旗 → 基準。stand（立つ）の影響を受けた語とされる。"
+    },
+    "roots": [],
+    "family": ["standardize（標準化する）"],
+    "synonyms": [
+      { "word": "norm", "meaning": "標準", "nuance": "ふつうのあり方。", "etymology": "ラテン語 norma「定規」" },
+      { "word": "level", "meaning": "水準", "nuance": "程度。", "etymology": "ラテン語 lībella" }
+    ]
+  },
+  {
+    "id": "quota", "word": "quota", "katakana": "ノルマ", "pos": "名詞", "cefr": "C1", "level": 8,
+    "meaning": "割り当て、ノルマ",
+    "scene": "営業の「ノルマ」、輸入割当。",
+    "gap": "日本語の「ノルマ」はロシア語 norma から来た語で、英語では quota / target と言う。英語で norma とは言わない。",
+    "trapQuiz": {"question": "「今月のノルマを達成した」を英語でいうと？", "answer": "I met my quota this month.", "wrong": ["I cleared my norma this month.", "I did my noruma this month.", "I met my norm this month."]},
+    "example": { "en": "Each salesperson has a monthly quota.", "ja": "営業担当者にはそれぞれ月ごとのノルマがある。" },
+    "etymology": {
+      "origin": "中世ラテン語 quota (pars)「何番目の（部分）」← quot「いくつ」",
+      "story": "「全体のうちの何分の何か」→ 割り当て。quantity（量）、quote（引用する）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["quantity（量）、quote（引用する）"],
+    "synonyms": [
+      { "word": "target", "meaning": "目標", "nuance": "達成すべき数字。", "etymology": "古フランス語 targe「盾」" },
+      { "word": "allocation", "meaning": "割り当て", "nuance": "配分。", "etymology": "ラテン語 allocāre" }
+    ]
   }
 ]
