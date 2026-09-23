@@ -2,9 +2,9 @@
 
 > このファイルは `data/words.json` と `data/roots.json` から `python3 scripts/build_wordlist.py` で自動生成されています。直接編集しないでください。
 
-収録語数: **660 語**（類義語 1418 語） / 語根ファミリー: **56 種**
+収録語数: **730 語**（類義語 1558 語） / 語根ファミリー: **56 種**
 
-レベル別: Lv.1 149語 / Lv.2 91語 / Lv.3 94語 / Lv.4 63語 / Lv.5 126語 / Lv.6 25語 / Lv.7 43語 / Lv.8 37語 / Lv.9 14語 / Lv.10 18語
+レベル別: Lv.1 149語 / Lv.2 161語 / Lv.3 94語 / Lv.4 63語 / Lv.5 126語 / Lv.6 25語 / Lv.7 43語 / Lv.8 37語 / Lv.9 14語 / Lv.10 18語
 
 > レベルはこのアプリ独自の分け方です（カタカナとしてのなじみやすさと、英語の難しさで決めています）。
 
@@ -13,7 +13,7 @@
 ## 目次
 
 - Lv.1 ひと目でわかる — [dog](#dog), [cat](#cat), [apple](#apple), [milk](#milk), [tea](#tea), [juice](#juice), [cake](#cake), [table](#table), [bed](#bed), [door](#door), [bus](#bus), [train](#train), [park](#park), [pen](#pen), [music](#music), [piano](#piano), [ball](#ball), [color](#color), [sport](#sport), [egg](#egg), [fish](#fish), [bag](#bag), [cup](#cup), [box](#box), [desk](#desk), [room](#room), [house](#house), [car](#car), [game](#game), [book](#book), [song](#song), [happy](#happy), [home](#home), [watch](#watch), [shoes](#shoes), [shirt](#shirt), [cap](#cap), [ice](#ice), [pizza](#pizza), [soup](#soup), [rice](#rice), [jam](#jam), [candy](#candy), [bear](#bear), [panda](#panda), [bath](#bath), [towel](#towel), [clock](#clock), [dance](#dance), [drum](#drum), [sofa](#sofa), [red](#red), [blue](#blue), [green](#green), [pink](#pink), [black](#black), [white](#white), [big](#big), [nice](#nice), [melon](#melon), [peach](#peach), [kiwi](#kiwi), [cherry](#cherry), [grape](#grape), [cola](#cola), [soda](#soda), [bacon](#bacon), [ham](#ham), [steak](#steak), [curry](#curry), [pasta](#pasta), [pepper](#pepper), [honey](#honey), [toast](#toast), [donut](#donut), [pie](#pie), [zebra](#zebra), [koala](#koala), [gorilla](#gorilla), [shark](#shark), [lamp](#lamp), [mirror](#mirror), [curtain](#curtain), [carpet](#carpet), [toilet](#toilet), [tissue](#tissue), [brush](#brush), [tape](#tape), [hat](#hat), [boots](#boots), [socks](#socks), [belt](#belt), [pocket](#pocket), [jeans](#jeans), [golf](#golf), [ski](#ski), [hit](#hit), [bat](#bat), [net](#net), [radio](#radio), [mail](#mail), [cool](#cool), [hot](#hot), [cute](#cute), [sweet](#sweet), [fresh](#fresh), [soft](#soft), [love](#love), [heart](#heart), [sun](#sun), [moon](#moon), [sky](#sky), [snow](#snow), [rain](#rain), [rainbow](#rainbow), [fire](#fire), [water](#water), [gold](#gold), [silver](#silver), [king](#king), [queen](#queen), [prince](#prince), [princess](#princess), [boy](#boy), [girl](#girl), [lady](#lady), [coin](#coin), [gum](#gum), [jelly](#jelly), [pudding](#pudding), [straw](#straw), [pot](#pot), [doll](#doll), [puzzle](#puzzle), [block](#block), [circle](#circle), [line](#line), [stop](#stop), [kick](#kick), [punch](#punch), [dash](#dash), [jogging](#jogging), [rose](#rose), [tulip](#tulip), [potato](#potato), [onion](#onion), [corn](#corn), [mint](#mint), [pool](#pool)
-- Lv.2 くらしの定番 — [mouse](#mouse), [lion](#lion), [tiger](#tiger), [banana](#banana), [orange](#orange), [lemon](#lemon), [tomato](#tomato), [coffee](#coffee), [bread](#bread), [chocolate](#chocolate), [window](#window), [kitchen](#kitchen), [key](#key), [taxi](#taxi), [hotel](#hotel), [bank](#bank), [pencil](#pencil), [note](#note), [school](#school), [test](#test), [family](#family), [friend](#friend), [baby](#baby), [star](#star), [flower](#flower), [tree](#tree), [camera](#camera), [phone](#phone), [team](#team), [tennis](#tennis), [soccer](#soccer), [hobby](#hobby), [menu](#menu), [salad](#salad), [bike](#bike), [party](#party), [card](#card), [birthday](#birthday), [morning](#morning), [guitar](#guitar), [baseball](#baseball), [swimming](#swimming), [map](#map), [plan](#plan), [dream](#dream), [smile](#smile), [shop](#shop), [fruit](#fruit), [lunch](#lunch), [camp](#camp), [beach](#beach), [river](#river), [size](#size), [hamburger](#hamburger), [monkey](#monkey), [calendar](#calendar), [racket](#racket), [volleyball](#volleyball), [basketball](#basketball), [violin](#violin), [summer](#summer), [winter](#winter), [town](#town), [city](#city), [speed](#speed), [power](#power), [point](#point), [rule](#rule), [club](#club), [drink](#drink), [cream](#cream), [sugar](#sugar), [spoon](#spoon), [fork](#fork), [knife](#knife), [glass](#glass), [plate](#plate), [farm](#farm), [tower](#tower), [boat](#boat), [lucky](#lucky), [easy](#easy), [hard](#hard), [slow](#slow), [short](#short), [top](#top), [skirt](#skirt), [dress](#dress), [coat](#coat), [glove](#glove), [ring](#ring)
+- Lv.2 くらしの定番 — [mouse](#mouse), [lion](#lion), [tiger](#tiger), [banana](#banana), [orange](#orange), [lemon](#lemon), [tomato](#tomato), [coffee](#coffee), [bread](#bread), [chocolate](#chocolate), [window](#window), [kitchen](#kitchen), [key](#key), [taxi](#taxi), [hotel](#hotel), [bank](#bank), [pencil](#pencil), [note](#note), [school](#school), [test](#test), [family](#family), [friend](#friend), [baby](#baby), [star](#star), [flower](#flower), [tree](#tree), [camera](#camera), [phone](#phone), [team](#team), [tennis](#tennis), [soccer](#soccer), [hobby](#hobby), [menu](#menu), [salad](#salad), [bike](#bike), [party](#party), [card](#card), [birthday](#birthday), [morning](#morning), [guitar](#guitar), [baseball](#baseball), [swimming](#swimming), [map](#map), [plan](#plan), [dream](#dream), [smile](#smile), [shop](#shop), [fruit](#fruit), [lunch](#lunch), [camp](#camp), [beach](#beach), [river](#river), [size](#size), [hamburger](#hamburger), [monkey](#monkey), [calendar](#calendar), [racket](#racket), [volleyball](#volleyball), [basketball](#basketball), [violin](#violin), [summer](#summer), [winter](#winter), [town](#town), [city](#city), [speed](#speed), [power](#power), [point](#point), [rule](#rule), [club](#club), [drink](#drink), [cream](#cream), [sugar](#sugar), [spoon](#spoon), [fork](#fork), [knife](#knife), [glass](#glass), [plate](#plate), [farm](#farm), [tower](#tower), [boat](#boat), [lucky](#lucky), [easy](#easy), [hard](#hard), [slow](#slow), [short](#short), [top](#top), [skirt](#skirt), [dress](#dress), [coat](#coat), [glove](#glove), [ring](#ring), [strawberry](#strawberry), [pineapple](#pineapple), [avocado](#avocado), [broccoli](#broccoli), [cabbage](#cabbage), [lettuce](#lettuce), [pumpkin](#pumpkin), [popcorn](#popcorn), [vanilla](#vanilla), [pancake](#pancake), [omelet](#omelet), [stew](#stew), [sausage](#sausage), [yogurt](#yogurt), [mayonnaise](#mayonnaise), [ketchup](#ketchup), [dressing](#dressing), [cereal](#cereal), [cocoa](#cocoa), [kangaroo](#kangaroo), [cheetah](#cheetah), [hamster](#hamster), [flamingo](#flamingo), [oven](#oven), [heater](#heater), [closet](#closet), [blanket](#blanket), [cushion](#cushion), [veranda](#veranda), [garage](#garage), [fence](#fence), [gate](#gate), [supermarket](#supermarket), [convenience](#convenience), [bakery](#bakery), [cafe](#cafe), [parking](#parking), [subway](#subway), [tunnel](#tunnel), [drugstore](#drugstore), [cable](#cable), [plug](#plug), [outlet](#outlet), [remote](#remote), [speaker](#speaker), [headphones](#headphones), [keyboard](#keyboard), [printer](#printer), [nurse](#nurse), [chef](#chef), [driver](#driver), [singer](#singer), [free](#free), [sunglasses](#sunglasses), [necktie](#necktie), [parka](#parka), [sneakers](#sneakers), [backpack](#backpack), [mug](#mug), [kettle](#kettle), [napkin](#napkin), [candle](#candle), [poster](#poster), [sticker](#sticker), [handkerchief](#handkerchief), [slippers](#slippers), [lotion](#lotion), [cooking](#cooking), [barbecue](#barbecue), [buffet](#buffet)
 - Lv.3 よく使う — [dragon](#dragon), [level](#level), [hero](#hero), [boss](#boss), [stage](#stage), [fan](#fan), [rabbit](#rabbit), [cookie](#cookie), [cheese](#cheese), [sandwich](#sandwich), [butter](#butter), [hospital](#hospital), [restaurant](#restaurant), [station](#station), [season](#season), [television](#television), [computer](#computer), [robot](#robot), [goal](#goal), [sauce](#sauce), [sign](#sign), [fight](#fight), [event](#event), [present](#present), [idea](#idea), [news](#news), [doctor](#doctor), [animal](#animal), [pants](#pants), [museum](#museum), [library](#library), [concert](#concert), [ticket](#ticket), [vegetable](#vegetable), [dinner](#dinner), [picnic](#picnic), [island](#island), [mountain](#mountain), [jacket](#jacket), [nature](#nature), [future](#future), [simple](#simple), [speech](#speech), [member](#member), [chance](#chance), [airport](#airport), [street](#street), [building](#building), [elevator](#elevator), [letter](#letter), [bottle](#bottle), [garden](#garden), [bridge](#bridge), [rocket](#rocket), [sweater](#sweater), [answer](#answer), [action](#action), [album](#album), [bench](#bench), [button](#button), [center](#center), [change](#change), [check](#check), [choice](#choice), [design](#design), [guide](#guide), [guest](#guest), [group](#group), [jump](#jump), [keep](#keep), [magic](#magic), [mark](#mark), [memory](#memory), [model](#model), [open](#open), [order](#order), [page](#page), [pair](#pair), [pass](#pass), [photo](#photo), [print](#print), [report](#report), [score](#score), [set](#set), [shower](#shower), [skill](#skill), [space](#space), [start](#start), [style](#style), [title](#title), [tour](#tour), [type](#type), [lesson](#lesson), [hiking](#hiking)
 - Lv.4 話が広がる — [monster](#monster), [knight](#knight), [rare](#rare), [attack](#attack), [guard](#guard), [damage](#damage), [challenge](#challenge), [system](#system), [penguin](#penguin), [dolphin](#dolphin), [recipe](#recipe), [fashion](#fashion), [shampoo](#shampoo), [pajamas](#pajamas), [holiday](#holiday), [culture](#culture), [history](#history), [volunteer](#volunteer), [festival](#festival), [message](#message), [communication](#communication), [popular](#popular), [special](#special), [perfect](#perfect), [contest](#contest), [captain](#captain), [uniform](#uniform), [coach](#coach), [trouble](#trouble), [image](#image), [advice](#advice), [schedule](#schedule), [sale](#sale), [online](#online), [drama](#drama), [hint](#hint), [interview](#interview), [marathon](#marathon), [pose](#pose), [program](#program), [sample](#sample), [support](#support), [zone](#zone), [host](#host), [comic](#comic), [cycling](#cycling), [chat](#chat), [clear](#clear), [cost](#cost), [cover](#cover), [follow](#follow), [item](#item), [miss](#miss), [percent](#percent), [plus](#plus), [quiz](#quiz), [repeat](#repeat), [share](#share), [sound](#sound), [stamp](#stamp), [step](#step), [topic](#topic), [video](#video)
 - Lv.5 よく見聞きする — [spell](#spell), [legend](#legend), [treasure](#treasure), [equipment](#equipment), [critical](#critical), [counter](#counter), [barrier](#barrier), [rival](#rival), [escape](#escape), [mission](#mission), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [smart](#smart), [claim](#claim), [ace](#ace), [spirit](#spirit), [miracle](#miracle), [brave](#brave), [battery](#battery), [energy](#energy), [service](#service), [handle](#handle), [talent](#talent), [diet](#diet), [jungle](#jungle), [stove](#stove), [recycle](#recycle), [balance](#balance), [career](#career), [delivery](#delivery), [password](#password), [data](#data), [technology](#technology), [trainer](#trainer), [cooler](#cooler), [viking](#viking), [bargain](#bargain), [cider](#cider), [comment](#comment), [stress](#stress), [risk](#risk), [professional](#professional), [campaign](#campaign), [brand](#brand), [quality](#quality), [security](#security), [routine](#routine), [license](#license), [gap](#gap), [trend](#trend), [access](#access), [account](#account), [arrange](#arrange), [cancel](#cancel), [catalog](#catalog), [channel](#channel), [charge](#charge), [classic](#classic), [collection](#collection), [download](#download), [entry](#entry), [error](#error), [fake](#fake), [file](#file), [filter](#filter), [frame](#frame), [goods](#goods), [graph](#graph), [impact](#impact), [label](#label), [limit](#limit), [link](#link), [mask](#mask), [media](#media), [mode](#mode), [monitor](#monitor), [option](#option), [original](#original), [pattern](#pattern), [post](#post), [project](#project), [reset](#reset), [rhythm](#rhythm), [seal](#seal), [shock](#shock), [studio](#studio), [total](#total), [pierce](#pierce), [approach](#approach), [benefit](#benefit), [community](#community), [content](#content), [debate](#debate), [device](#device), [digital](#digital), [document](#document), [economy](#economy), [feature](#feature), [global](#global), [humor](#humor), [issue](#issue), [material](#material), [method](#method), [network](#network), [official](#official), [partner](#partner), [performance](#performance), [policy](#policy), [positive](#positive), [negative](#negative), [pressure](#pressure), [public](#public), [rescue](#rescue), [research](#research), [respect](#respect), [series](#series), [source](#source), [symbol](#symbol), [theme](#theme), [theory](#theory), [unique](#unique), [value](#value), [variety](#variety)
@@ -3894,6 +3894,1137 @@
 |---|---|---|---|
 | **circle** | 円 | 丸い形。 | ラテン語 circulus「小さな輪」 |
 | **chime** | チャイム | 鐘の音、鳴る。 | 中英語 chymbe「シンバル」 |
+
+<a id="strawberry"></a>
+### strawberry（ストロベリー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — イチゴ
+
+- 📍 シーン: ストロベリーパフェ、イチゴ狩り。
+- 💬 例文: *I love strawberries with cream.* — クリームをかけたイチゴが大好きだ。
+- 📜 語源: 古英語 strēawberige ← strēaw「わら」+ berige「実」
+  - なぜ「わらの実」なのかははっきりしない。地面をはうつるが「わら」のように見える、実のつぶつぶがわらくずに見える、など諸説ある。
+- 🌳 同じ語源の仲間: straw（わら）、berry（ベリー）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **berry** | ベリー | 小さな実全般。 | 古英語 berie |
+| **raspberry** | ラズベリー | 木いちご。 | 由来不明の rasp- + berry |
+
+<a id="pineapple"></a>
+### pineapple（パイナップル）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — パイナップル
+
+- 📍 シーン: パイナップルジュース、酢豚のパイナップル。
+- 💬 例文: *Hawaii is famous for pineapples.* — ハワイはパイナップルで有名だ。
+- 📜 語源: pine「松」+ apple「果実」
+  - もとは「松ぼっくり」のこと。17世紀に見た目がそっくりな南米の果物にこの名がついた。
+- 🌳 同じ語源の仲間: pine（松）、apple（リンゴ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **tropical fruit** | 南国の果物 | 熱帯の果物。 | tropic + fruit |
+| **mango** | マンゴー | 南国の甘い果物。 | タミル語 mānkāy |
+
+<a id="avocado"></a>
+### avocado（アボカド）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — アボカド
+
+- 📍 シーン: アボカドサラダ、アボカドトースト。
+- 💬 例文: *I put avocado in my salad.* — サラダにアボカドを入れた。
+- 📜 語源: スペイン語 aguacate ← ナワトル語 āhuacatl
+  - アステカの言葉がスペイン語で「弁護士（avocado）」に似た形に変わった。発音は「アヴォカードウ」。
+- 🌳 同じ語源の仲間: guacamole（ワカモレ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **fruit** | 果物 | 植物学では果物。 | ラテン語 frūctus |
+| **guacamole** | ワカモレ | アボカドのディップ。 | ナワトル語 āhuacamōlli |
+
+<a id="broccoli"></a>
+### broccoli（ブロッコリー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — ブロッコリー
+
+- 📍 シーン: ゆでたブロッコリー、ブロッコリーの芽。
+- 💬 例文: *Eat your broccoli. It's good for you.* — ブロッコリーも食べなさい。体にいいから。
+- 📜 語源: イタリア語 broccoli「芽、小さな枝（複数形）」← brocco「芽」
+  - イタリア語では複数形。英語では数えられない名詞として使う。
+- 🌳 同じ語源の仲間: cauliflower（カリフラワー・近い野菜）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cauliflower** | カリフラワー | 白いブロッコリーの仲間。 | イタリア語 cavolfiore「キャベツの花」 |
+| **greens** | 緑の野菜 | 葉物・緑黄色野菜。 | green の複数形 |
+
+<a id="cabbage"></a>
+### cabbage（キャベツ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — キャベツ
+
+- 📍 シーン: 千切りキャベツ、ロールキャベツ。
+- 💬 例文: *I shredded some cabbage for the salad.* — サラダ用にキャベツを千切りにした。
+- 📜 語源: 古北フランス語 caboche「頭」
+  - 丸い形を「頭」にたとえた。日本語の「キャベツ」は複数形 cabbages が聞き取られたものとされる。
+- 🌳 同じ語源の仲間: cabbage roll（ロールキャベツ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **lettuce** | レタス | 生で食べる葉物。 | ラテン語 lactūca |
+| **kale** | ケール | キャベツの仲間の葉物。 | ラテン語 caulis「茎」 |
+
+<a id="lettuce"></a>
+### lettuce（レタス）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — レタス
+
+- 📍 シーン: レタスサラダ、レタスチャーハン。
+- 💬 例文: *Wash the lettuce before you eat it.* — 食べる前にレタスを洗って。
+- 📜 語源: 古フランス語 laitues（複数形）← ラテン語 lactūca ← lac「乳」
+  - 切ると白い乳のような汁が出ることから「乳の草」。lactose（乳糖）と同じ lac の家族。
+- 🌳 同じ語源の仲間: lactose（乳糖）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cabbage** | キャベツ | 丸い葉物。 | 古北フランス語 caboche |
+| **salad** | サラダ | 生野菜の料理。 | ラテン語 sal |
+
+<a id="pumpkin"></a>
+### pumpkin（パンプキン）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — かぼちゃ
+
+- 📍 シーン: パンプキンパイ、ハロウィンのかぼちゃ。
+- 💬 例文: *We carved a face into a pumpkin.* — かぼちゃに顔をくりぬいた。
+- 📜 語源: フランス語 pompon ← ギリシャ語 pepōn「熟したうり」
+  - 語尾が英語で -kin（小さいもの）に変わった。英語の pumpkin はふつうオレンジ色の西洋かぼちゃ。日本のかぼちゃは kabocha squash とも言う。
+- 🌳 同じ語源の仲間: melon（メロン・同じ pepōn を含む）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **squash** | （米）うり類、かぼちゃ | かぼちゃやズッキーニの総称。 | ナラガンセット語 askutasquash |
+| **gourd** | ひょうたん | 皮のかたいうり。 | ラテン語 cucurbita |
+
+<a id="popcorn"></a>
+### popcorn（ポップコーン）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ポップコーン
+
+- 📍 シーン: 映画館のポップコーン、キャラメルポップコーン。
+- 💬 例文: *Let's get popcorn before the movie starts.* — 映画が始まる前にポップコーンを買おう。
+- 📜 語源: pop「ポンとはじける」+ corn「とうもろこし」
+  - 熱でとうもろこしの粒がポンとはじけることから。アメリカ先住民は古くからこの食べ方をしていた。
+- 🌳 同じ語源の仲間: pop（はじける）、corn（とうもろこし）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **snack** | 軽食 | おやつ。 | 中オランダ語 snacken |
+| **chips** | ポテトチップス | 米国での言い方。 | chip「かけら」 |
+
+<a id="vanilla"></a>
+### vanilla（バニラ）
+
+**名詞・形容詞** / Lv.2 くらしの定番 / CEFR B1 — バニラ、ありきたりの
+
+- 📍 シーン: バニラアイス、バニラエッセンス。
+- 💬 例文: *I'll have vanilla ice cream.* — バニラアイスをください。
+- 📜 語源: スペイン語 vainilla「小さなさや」← ラテン語 vāgīna「さや」
+  - 香料のもとになる細長い「さや」から。いちばん定番の味なので、vanilla は「ふつうの、ありきたりの」の意味にもなる。
+- 🌳 同じ語源の仲間: vanilla bean（バニラビーンズ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **flavor** | 風味 | 味と香り。 | 古フランス語 flaor |
+| **plain** | 何も入っていない、ふつうの | 飾りのない。 | ラテン語 plānus |
+
+<a id="pancake"></a>
+### pancake（パンケーキ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — パンケーキ、ホットケーキ
+
+- 📍 シーン: ふわふわパンケーキ、ホットケーキ（和製英語）。
+- 💬 例文: *We had pancakes with maple syrup.* — メープルシロップをかけたパンケーキを食べた。
+- 📜 語源: pan「平なべ」+ cake
+  - 「フライパンで焼くケーキ」。日本の「ホットケーキ」は英語では pancake（hotcake も通じる）。
+- 🌳 同じ語源の仲間: pan（フライパン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **crepe** | クレープ | 薄く焼いたもの。 | フランス語 crêpe「縮れた」 |
+| **waffle** | ワッフル | 格子模様の焼き菓子。 | オランダ語 wafel |
+
+<a id="omelet"></a>
+### omelet（オムレツ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — オムレツ
+
+- 📍 シーン: オムレツ、オムライス（和製）。
+- 💬 例文: *He made a cheese omelet for breakfast.* — 彼は朝食にチーズオムレツを作った。
+- 📜 語源: フランス語 omelette ← alumelle「薄い刃」とされる
+  - 薄く平たい形を刃にたとえたとされる。イギリスでは omelette とつづる。「オムライス」は omelet + rice の和製語。
+- 🌳 同じ語源の仲間: omelette（オムレツ・英つづり）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **scrambled eggs** | スクランブルエッグ | いり卵。 | scramble「かき混ぜる」 |
+| **frittata** | フリッタータ | イタリア風の厚いオムレツ。 | イタリア語 friggere「揚げる」 |
+
+<a id="stew"></a>
+### stew（シチュー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — シチュー、煮込み
+
+- 📍 シーン: クリームシチュー、ビーフシチュー。
+- 💬 例文: *Mom made beef stew for dinner.* — 母が夕食にビーフシチューを作った。
+- 📜 語源: 古フランス語 estuver「蒸し風呂に入れる」
+  - もとは「蒸し風呂（stove）」の意味。そこから「とろ火で煮込む」に。stove（コンロ）と同じ家族。
+- 🌳 同じ語源の仲間: stove（コンロ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **soup** | スープ | 汁物。 | 後期ラテン語 suppa |
+| **curry** | カレー | 香辛料の煮込み。 | タミル語 kari |
+
+<a id="sausage"></a>
+### sausage（ソーセージ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ソーセージ
+
+- 📍 シーン: ウインナーソーセージ、フランクフルト。
+- 💬 例文: *We grilled sausages at the barbecue.* — バーベキューでソーセージを焼いた。
+- 📜 語源: 古北フランス語 saussiche ← ラテン語 salsus「塩をした」← sal「塩」
+  - 塩漬けの肉を腸に詰めたもの。salad、sauce と同じ「塩」の家族。「ウインナー」はウィーン（Wien）風ソーセージの意味。
+- 💎 語根: `sal / sau`（塩）
+- 🌳 同じ語源の仲間: salad（サラダ）、sauce（ソース）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **ham** | ハム | もも肉の加工品。 | 古英語 ham |
+| **hot dog** | ホットドッグ | ソーセージをはさんだパン。 | hot + dog |
+
+<a id="yogurt"></a>
+### yogurt（ヨーグルト）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ヨーグルト
+
+- 📍 シーン: 飲むヨーグルト、ギリシャヨーグルト。
+- 💬 例文: *I have yogurt with honey every morning.* — 毎朝はちみつをかけたヨーグルトを食べる。
+- 📜 語源: トルコ語 yoğurt ← yoğurmak「こねる、固める」
+  - トルコの遊牧民の食べ物から。つづりは yoghurt、yoghourt など何通りもある。
+- 🌳 同じ語源の仲間: yogurt drink（飲むヨーグルト）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **dairy** | 乳製品 | 牛乳から作ったもの。 | 中英語 deie |
+| **curd** | 凝乳 | 固まった乳。 | 中英語 crudde |
+
+<a id="mayonnaise"></a>
+### mayonnaise（マヨネーズ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — マヨネーズ
+
+- 📍 シーン: ツナマヨ、マヨラー。
+- 💬 例文: *Would you like mayonnaise on your sandwich?* — サンドイッチにマヨネーズをつけますか？
+- 📜 語源: フランス語 mayonnaise（語源は諸説）
+  - スペインのメノルカ島の港町マオン（Mahón）にちなむという説が有名だが、確かではない。口語では mayo。
+- 🌳 同じ語源の仲間: mayo（マヨ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **sauce** | ソース | 料理にかけるもの。 | ラテン語 salsa |
+| **dressing** | ドレッシング | サラダにかけるもの。 | dress + -ing |
+
+<a id="ketchup"></a>
+### ketchup（ケチャップ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ケチャップ
+
+- 📍 シーン: トマトケチャップ、オムライスのケチャップ。
+- 💬 例文: *Do you want ketchup on your fries?* — ポテトにケチャップつける？
+- 📜 語源: 中国南部の言語（閩南語）kê-tsiap「魚の漬け汁」とされる
+  - もとは東南アジアの魚醤。イギリスでキノコやクルミで作るソースになり、19世紀アメリカでトマト味が定番になった。catsup とつづることもある。
+- 🌳 同じ語源の仲間: catsup（ケチャップの別つづり）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **sauce** | ソース | かけるたれ全般。 | ラテン語 salsa |
+| **mustard** | マスタード | からし。 | ラテン語 mustum「ぶどう汁」 |
+
+<a id="dressing"></a>
+### dressing（ドレッシング）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — ドレッシング、手当て用の包帯
+
+- 📍 シーン: 和風ドレッシング、フレンチドレッシング。
+- 💬 例文: *What kind of dressing would you like?* — ドレッシングは何になさいますか？
+- 📜 語源: dress「整える」+ -ing
+  - 料理を「整える・仕上げる」もの。けがの「手当て（包帯）」も dressing。七面鳥の詰め物も dressing と呼ぶ。
+- 🌳 同じ語源の仲間: dress（整える）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **sauce** | ソース | かけるたれ。 | ラテン語 salsa |
+| **vinaigrette** | ビネグレット | 酢と油のドレッシング。 | フランス語 vinaigre「酢」 |
+
+<a id="cereal"></a>
+### cereal（シリアル）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — シリアル、穀物
+
+- 📍 シーン: 朝食のシリアル、コーンフレーク。
+- 💬 例文: *I eat cereal with milk every morning.* — 毎朝シリアルに牛乳をかけて食べる。
+- 📜 語源: ラテン語 Cereālis「ケレスの」← ローマの農業の女神ケレス（Ceres）
+  - 豊作の女神の名前から「穀物」に。serial（連続の）とは発音が同じだが別の語。
+- 🌳 同じ語源の仲間: Ceres（ケレス）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **grain** | 穀物 | 米・麦など。 | ラテン語 grānum |
+| **oatmeal** | オートミール | オーツ麦のおかゆ。 | oat + meal「粉」 |
+
+<a id="cocoa"></a>
+### cocoa（ココア）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ココア
+
+- 📍 シーン: ホットココア、ココアパウダー。
+- 💬 例文: *A cup of hot cocoa warms you up.* — 温かいココアを飲むと体が温まる。
+- 📜 語源: cacao のつづりが変わったもの ← ナワトル語 cacahuatl
+  - 18世紀にココヤシ（coconut）と混同されて cocoa というつづりになったとされる。chocolate と同じアステカの言葉から。
+- 🌳 同じ語源の仲間: cacao（カカオ）、chocolate（チョコレート）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **hot chocolate** | ホットチョコレート | ココアとほぼ同じ飲み物。 | hot + chocolate |
+| **cacao** | カカオ | ココアの原料の豆。 | ナワトル語 |
+
+<a id="kangaroo"></a>
+### kangaroo（カンガルー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — カンガルー
+
+- 📍 シーン: オーストラリアのカンガルー。
+- 💬 例文: *Kangaroos carry their babies in a pouch.* — カンガルーは袋に子どもを入れて運ぶ。
+- 📜 語源: オーストラリア先住民のグーグ・イミディル語 gangurru
+  - 「わからない」という意味だという話が有名だが、これは俗説。実際はこの言語で大型のカンガルーの一種を指す語だったと確認されている。
+- 🌳 同じ語源の仲間: koala（コアラ・同じ有袋類）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **wallaby** | ワラビー | 小型のカンガルー。 | 先住民の言語 |
+| **marsupial** | 有袋類 | 袋で子を育てる動物。 | ラテン語 marsūpium |
+
+<a id="cheetah"></a>
+### cheetah（チーター）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — チーター
+
+- 📍 シーン: 陸上最速の動物。
+- 💬 例文: *The cheetah is the fastest land animal.* — チーターは陸上で最も速い動物だ。
+- 📜 語源: ヒンディー語 cītā ← サンスクリット語 citraka「まだら模様の」
+  - 体の斑点模様から。インドでは昔、チーターを狩りに使っていた。
+- 🌳 同じ語源の仲間: chintz（更紗・同じ語根とされる）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **leopard** | ヒョウ | 斑点のある大型ネコ。 | ギリシャ語 leōn + pardos |
+| **big cat** | 大型ネコ科動物 | ライオン・トラなど。 | big + cat |
+
+<a id="hamster"></a>
+### hamster（ハムスター）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ハムスター
+
+- 📍 シーン: ペットのハムスター、ほお袋。
+- 💬 例文: *My hamster runs on its wheel all night.* — うちのハムスターは一晩中回し車で走っている。
+- 📜 語源: ドイツ語 Hamster（古高ドイツ語 hamustro「コクゾウムシ」）
+  - ほおに食べ物をためこむことで有名。ドイツ語の hamstern は「ため込む」という意味。
+- 🌳 同じ語源の仲間: guinea pig（モルモット・近いペット）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **rodent** | げっ歯類 | ネズミの仲間。 | ラテン語 rōdere「かじる」 |
+| **guinea pig** | モルモット | 実験台の意味も。 | guinea + pig |
+
+<a id="flamingo"></a>
+### flamingo（フラミンゴ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — フラミンゴ
+
+- 📍 シーン: ピンクのフラミンゴ、片足立ち。
+- 💬 例文: *Flamingos often stand on one leg.* — フラミンゴはよく片足で立っている。
+- 📜 語源: ポルトガル語 flamengo ← ラテン語 flamma「炎」
+  - 炎のような赤い色から。flame（炎）と同じ家族。
+- 🌳 同じ語源の仲間: flame（炎）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **heron** | サギ | 足の長い水鳥。 | 古フランス語 hairon |
+| **crane** | ツル | 首の長い鳥。 | 古英語 cran |
+
+<a id="oven"></a>
+### oven（オーブン）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — オーブン
+
+- 📍 シーン: オーブントースター、オーブン料理。
+- 💬 例文: *Bake the cake in the oven for 30 minutes.* — ケーキをオーブンで30分焼いてください。
+- 📜 語源: 古英語 ofen ← ゲルマン祖語 *ufnaz
+  - 古くからある語。電子レンジは microwave (oven)。「オーブントースター」は英語では toaster oven。
+- 🌳 同じ語源の仲間: microwave oven（電子レンジ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **stove** | コンロ | 上で煮炊きする台。 | 中低地ドイツ語 stove |
+| **microwave** | 電子レンジ | 日本語の「レンジ」はこれ。 | micro + wave |
+
+<a id="heater"></a>
+### heater（ヒーター）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 暖房器具、ヒーター
+
+- 📍 シーン: 電気ヒーター、ファンヒーター。
+- 💬 例文: *Could you turn on the heater?* — ヒーターをつけてくれる？
+- 📜 語源: heat「熱する」+ -er
+  - 日本で「ストーブ」と呼ぶものは英語ではたいてい heater。
+- 🌳 同じ語源の仲間: heat（熱）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **stove** | （米）コンロ、（薪）ストーブ | 料理用のことが多い。 | 中低地ドイツ語 stove |
+| **radiator** | 放熱器 | 温水式の暖房器。 | ラテン語 radius |
+
+<a id="closet"></a>
+### closet（クローゼット）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 押し入れ、クローゼット
+
+- 📍 シーン: ウォークインクローゼット。
+- 💬 例文: *Hang your coat in the closet.* — コートはクローゼットにかけて。
+- 📜 語源: 古フランス語 closet「小さな囲まれた部屋」← clos「閉じた」
+  - close（閉じる）と同じ家族。come out of the closet は「（秘密を）公にする」。
+- 🌳 同じ語源の仲間: close（閉じる）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **wardrobe** | 洋服だんす | 家具としての衣装箱。 | 古北フランス語 warderobe「服の番」 |
+| **cupboard** | 戸棚 | 食器などをしまう棚。 | cup + board |
+
+<a id="blanket"></a>
+### blanket（ブランケット）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 毛布
+
+- 📍 シーン: ひざかけのブランケット、電気毛布。
+- 💬 例文: *It's cold. Can I have another blanket?* — 寒いな。毛布をもう1枚もらえる？
+- 📜 語源: 古フランス語 blanquette「白い毛織物」← blanc「白い」
+  - もとは染めていない白い毛織物のこと。blank（空白の）と同じ家族。
+- 🌳 同じ語源の仲間: blank（空白の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **quilt** | キルト | 綿入れのかけ布団。 | ラテン語 culcita「マットレス」 |
+| **duvet** | 羽毛布団 | ふかふかの掛け布団。 | フランス語「羽毛」 |
+
+<a id="cushion"></a>
+### cushion（クッション）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — クッション
+
+- 📍 シーン: ソファのクッション、衝撃をやわらげるクッション材。
+- 💬 例文: *She leaned back against the cushion.* — 彼女はクッションにもたれた。
+- 📜 語源: 古フランス語 coissin ← 俗ラテン語 coxīnum「腰を置くもの」← coxa「腰」
+  - 「腰の下に置くもの」が原義。動詞 cushion は「衝撃をやわらげる」。
+- 🌳 同じ語源の仲間: cushioning（緩衝材）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pillow** | 枕 | 寝るときに頭をのせる。 | 古英語 pyle |
+| **pad** | パッド | 当て物。 | 由来不明 |
+
+<a id="veranda"></a>
+### veranda（ベランダ） ⚠️
+
+**名詞** / Lv.2 くらしの定番 / CEFR B2 — ベランダ、縁側
+
+- 📍 シーン: ベランダに洗濯物を干す。
+- ⚠️ カタカナの罠: 日本のマンションの「ベランダ」は英語では balcony が自然。veranda（porch）は1階にある屋根つきの縁側・ポーチを指すことが多い。
+- 💬 例文: *We sat on the veranda and watched the sunset.* — 縁側に座って夕日を見た。
+- 📜 語源: ヒンディー語 varaṇḍā ← ポルトガル語 varanda
+  - インドを経て英語に入った。暑い土地の家の、屋根のある開けた縁側。
+- 🌳 同じ語源の仲間: porch（ポーチ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **balcony** | バルコニー | 2階以上の張り出し。日本の「ベランダ」はこれ。 | イタリア語 balcone |
+| **porch** | ポーチ | 玄関前の屋根つきの場所。 | ラテン語 porticus |
+
+<a id="garage"></a>
+### garage（ガレージ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — 車庫、修理工場
+
+- 📍 シーン: ガレージセール、ガレージバンド。
+- 💬 例文: *My dad parks his car in the garage.* — 父は車をガレージにとめる。
+- 📜 語源: フランス語 garage「しまうこと」← garer「避難させる、しまう」
+  - 車を「しまう場所」。修理工場の意味もあり、ガソリンスタンドを garage と呼ぶ地域もある。
+- 🌳 同じ語源の仲間: garage sale（ガレージセール）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **carport** | カーポート | 屋根だけの車置き場。 | car + port |
+| **parking lot** | 駐車場 | 屋外の駐車場。 | parking + lot |
+
+<a id="fence"></a>
+### fence（フェンス）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 柵、塀、フェンシングをする
+
+- 📍 シーン: 金網フェンス、フェンス越えのホームラン。
+- 💬 例文: *The dog jumped over the fence.* — 犬が柵を飛び越えた。
+- 📜 語源: defence（守り）の頭音が落ちた形
+  - 「守るもの」→ 柵。フェンシング（fencing）も「身を守る剣術」から。
+- 🌳 同じ語源の仲間: defense（防御）、fencing（フェンシング）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **wall** | 壁、塀 | 石やコンクリートの壁。 | ラテン語 vallum |
+| **barrier** | 障壁 | 行く手をさえぎるもの。 | 古フランス語 barriere |
+
+<a id="gate"></a>
+### gate（ゲート）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 門、搭乗口
+
+- 📍 シーン: 空港のゲート、改札（ticket gate）。
+- 💬 例文: *Our flight leaves from Gate 12.* — 私たちの便は12番ゲートから出る。
+- 📜 語源: 古英語 geat「すき間、通り道」
+  - 塀の「切れ目」が原義。スキャンダルの「〜ゲート」はウォーターゲート事件から。
+- 🌳 同じ語源の仲間: gateway（入口）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **door** | ドア | 建物の出入り口。 | 古英語 duru |
+| **entrance** | 入口 | 入る場所。 | フランス語 entrer |
+
+<a id="supermarket"></a>
+### supermarket（スーパー） ⚠️
+
+**名詞** / Lv.2 くらしの定番 / CEFR A1 — スーパーマーケット
+
+- 📍 シーン: 「スーパーで買い物」。
+- ⚠️ カタカナの罠: 日本語の「スーパー」は supermarket の略だが、英語で super だけでは「すごい、超〜」の意味になる。お店なら supermarket / grocery store。
+- 💬 例文: *I buy groceries at the supermarket.* — スーパーで食料品を買う。
+- 📜 語源: super-「上の、超えた」+ market「市場」（1930年代アメリカ）
+  - 「超・市場」。セルフサービスの大型食料品店として広まった。
+- 🌳 同じ語源の仲間: market（市場）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **grocery store** | 食料品店 | 食料品を売る店。 | grocer「食料品商」 |
+| **convenience store** | コンビニ | 小さな24時間の店。 | convenience + store |
+
+<a id="convenience"></a>
+### convenience（コンビニ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — 便利、好都合、（convenience store で）コンビニ
+
+- 📍 シーン: 「コンビニ行こう」、コンビニ弁当。
+- 💬 例文: *There's a convenience store near my house.* — 家の近くにコンビニがある。
+- 📜 語源: ラテン語 convenientia「一致、ふさわしさ」← convenīre「共に来る、合う」
+  - 「うまく合う」→ 都合がよい → 便利。「コンビニ」は convenience store の略。英語で convenience だけではお店を指さない。
+- 💎 語根: `ven / vent`（来る）
+- 🌳 同じ語源の仲間: convenient（便利な）、convention（集まり）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **ease** | 気楽さ、容易さ | 楽なこと。 | 古フランス語 aise |
+| **comfort** | 快適さ | 心地よさ。 | ラテン語 confortāre |
+
+<a id="bakery"></a>
+### bakery（ベーカリー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — パン屋
+
+- 📍 シーン: 駅前のベーカリー、焼きたてパン。
+- 💬 例文: *I buy bread at the bakery every morning.* — 毎朝パン屋でパンを買う。
+- 📜 語源: bake「焼く」+ -ery「場所」
+  - bake は古英語 bacan から。-ery は「〜する場所」を表し、brewery（醸造所）、gallery にも見られる。
+- 🌳 同じ語源の仲間: baker（パン職人）、bake（焼く）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cafe** | カフェ | 飲み物と軽食の店。 | フランス語 café |
+| **patisserie** | ケーキ屋 | 洋菓子店。 | フランス語 pâtisserie |
+
+<a id="cafe"></a>
+### cafe（カフェ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A1 — 喫茶店、カフェ
+
+- 📍 シーン: カフェラテ、ネットカフェ。
+- 💬 例文: *Let's meet at the cafe near the station.* — 駅の近くのカフェで会おう。
+- 📜 語源: フランス語 café「コーヒー、喫茶店」← トルコ語 kahve
+  - 「コーヒー」がそのまま「コーヒーを飲む店」に。フランス語ではアクセント記号つきの café。
+- 🌳 同じ語源の仲間: coffee（コーヒー）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **coffee shop** | 喫茶店 | コーヒーを出す店。 | coffee + shop |
+| **diner** | 大衆食堂 | アメリカの気軽な食堂。 | dine + -er |
+
+<a id="parking"></a>
+### parking（パーキング）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 駐車、駐車場
+
+- 📍 シーン: コインパーキング、パーキングエリア。
+- 💬 例文: *There's no parking here.* — ここは駐車禁止です。
+- 📜 語源: park「駐車する」+ -ing
+  - 軍隊が大砲や車両を並べておく場所（park）から「駐車する」の意味になった。駐車場は parking lot（米）/ car park（英）。
+- 🌳 同じ語源の仲間: park（公園、駐車する）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **garage** | 車庫 | 屋根のある車置き場。 | フランス語 garage |
+| **car park** | （英）駐車場 | イギリスでの言い方。 | car + park |
+
+<a id="subway"></a>
+### subway（サブウェイ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — （米）地下鉄、（英）地下道
+
+- 📍 シーン: ニューヨークの地下鉄。
+- 💬 例文: *I take the subway to work.* — 地下鉄で通勤している。
+- 📜 語源: sub-「下の」+ way「道」
+  - イギリスでは subway は「地下道」で、地下鉄は the Underground / the Tube。
+- 🌳 同じ語源の仲間: underground（地下の）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **metro** | 地下鉄 | パリなどでの言い方。 | フランス語 métropolitain の略 |
+| **tube** | （英）ロンドンの地下鉄 | 丸いトンネルの形から。 | ラテン語 tubus |
+
+<a id="tunnel"></a>
+### tunnel（トンネル）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — トンネル
+
+- 📍 シーン: 青函トンネル、トンネルを抜けると。
+- 💬 例文: *The train went through a long tunnel.* — 列車は長いトンネルを抜けた。
+- 📜 語源: 古フランス語 tonel「たる」← tonne「大だる」
+  - たるの丸い形から「筒状の通路」に。ton（トン）も大だるの容量から来た語。
+- 🌳 同じ語源の仲間: ton（トン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **passage** | 通路 | 通り抜ける道。 | ラテン語 passus |
+| **underpass** | 地下道 | 道路の下をくぐる道。 | under + pass |
+
+<a id="drugstore"></a>
+### drugstore（ドラッグストア）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ドラッグストア、薬局
+
+- 📍 シーン: 駅前のドラッグストア。
+- 💬 例文: *I bought some medicine at the drugstore.* — ドラッグストアで薬を買った。
+- 📜 語源: drug「薬」+ store「店」
+  - drug はもともと「薬」だが、「麻薬」の意味もあるので注意。イギリスでは chemist's / pharmacy が一般的。
+- 🌳 同じ語源の仲間: drug（薬）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pharmacy** | 薬局 | 処方薬を扱う店。 | ギリシャ語 pharmakon「薬」 |
+| **chemist** | （英）薬局、化学者 | イギリスの言い方。 | alchemist の略 |
+
+<a id="cable"></a>
+### cable（ケーブル）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — 太い綱、電線、ケーブル
+
+- 📍 シーン: USBケーブル、ケーブルカー、ケーブルテレビ。
+- 💬 例文: *I forgot my charging cable.* — 充電ケーブルを忘れた。
+- 📜 語源: 古北フランス語 cable ← 中世ラテン語 capulum「綱」
+  - もとは船をつなぐ太い綱。電線や通信線にも使われるようになった。
+- 🌳 同じ語源の仲間: cable car（ケーブルカー）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cord** | コード | 細い電線。 | ギリシャ語 khordē「弦」 |
+| **wire** | 針金、電線 | 金属の線。 | 古英語 wīr |
+
+<a id="plug"></a>
+### plug（プラグ）
+
+**名詞・動詞** / Lv.2 くらしの定番 / CEFR B1 — 差しこみ、栓、プラグを差す
+
+- 📍 シーン: 電源プラグ、プラグイン。
+- 💬 例文: *Plug in the charger.* — 充電器をコンセントに差して。
+- 📜 語源: 中オランダ語 plugge「栓、くさび」
+  - もとは穴をふさぐ「栓」。電気の差しこみにも使うようになった。
+- 🌳 同じ語源の仲間: plug-in（プラグイン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **socket** | 差しこみ口 | 受ける側。 | 古フランス語 soket |
+| **stopper** | 栓 | びんの口をふさぐもの。 | stop + -er |
+
+<a id="outlet"></a>
+### outlet（アウトレット）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B2 — 出口、直売店、（米）コンセント
+
+- 📍 シーン: アウトレットモール、壁のコンセント。
+- 💬 例文: *Is there an outlet near the desk?* — 机の近くにコンセントはある？
+- 📜 語源: out「外へ」+ let「出す」
+  - 「外に出す口」。水の出口、商品を安く出す店、電気の差しこみ口（米）などに使う。ストレスの「はけ口」も outlet。
+- 🌳 同じ語源の仲間: let（させる）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **socket** | （英）コンセント | イギリスでの言い方。 | 古フランス語 soket |
+| **exit** | 出口 | 人が出る所。 | ラテン語 exīre |
+
+<a id="remote"></a>
+### remote（リモート）
+
+**形容詞・名詞** / Lv.2 くらしの定番 / CEFR B1 — 遠くの、リモコン
+
+- 📍 シーン: リモートワーク、テレビのリモコン。
+- 💬 例文: *Where's the TV remote?* — テレビのリモコンどこ？
+- 📜 語源: ラテン語 remōtus「遠ざけられた」← removēre「取り除く」
+  - 「遠く離れた」。remote control（遠隔操作）の略で「リモコン」。remove（取り除く）と同じ家族。
+- 💎 語根: `mov / mot / mob`（動かす）
+- 🌳 同じ語源の仲間: remove（取り除く）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **distant** | 遠い | 距離が離れた。 | ラテン語 distāre |
+| **controller** | コントローラー | ゲーム機の操作器。 | control + -er |
+
+<a id="speaker"></a>
+### speaker（スピーカー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 話し手、スピーカー
+
+- 📍 シーン: Bluetoothスピーカー、ネイティブスピーカー。
+- 💬 例文: *She is a native speaker of English.* — 彼女は英語の母語話者だ。
+- 📜 語源: speak「話す」+ -er
+  - 「話す人」→ 音を出す機器。議会の議長も the Speaker。
+- 🌳 同じ語源の仲間: speak（話す）、speech（スピーチ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **loudspeaker** | 拡声器 | 大きな音を出す装置。 | loud + speaker |
+| **lecturer** | 講演者 | 講義をする人。 | lecture + -er |
+
+<a id="headphones"></a>
+### headphones（ヘッドホン）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ヘッドホン
+
+- 📍 シーン: ワイヤレスヘッドホン、ノイズキャンセリング。
+- 💬 例文: *I listen to music with headphones.* — ヘッドホンで音楽を聞く。
+- 📜 語源: head「頭」+ phone「音」
+  - phone はギリシャ語 phōnē「音、声」。いつも複数形。耳に入れるものは earphones / earbuds。
+- 💎 語根: `phon`（音・声）
+- 🌳 同じ語源の仲間: earphones（イヤホン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **earbuds** | 耳に入れるイヤホン | 小型のもの。 | ear + bud「つぼみ」 |
+| **headset** | ヘッドセット | マイクつき。 | head + set |
+
+<a id="keyboard"></a>
+### keyboard（キーボード）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — キーボード、鍵盤
+
+- 📍 シーン: パソコンのキーボード、電子キーボード。
+- 💬 例文: *I bought a new keyboard for my computer.* — パソコン用の新しいキーボードを買った。
+- 📜 語源: key「鍵、キー」+ board「板」
+  - もとはピアノやオルガンの鍵盤。タイプライター、パソコンにも使われるようになった。
+- 🌳 同じ語源の仲間: key（キー）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **keypad** | キーパッド | 数字キーの小さな盤。 | key + pad |
+| **piano** | ピアノ | 鍵盤楽器。 | イタリア語 |
+
+<a id="printer"></a>
+### printer（プリンター）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — プリンター、印刷業者
+
+- 📍 シーン: インクジェットプリンター、3Dプリンター。
+- 💬 例文: *The printer is out of paper.* — プリンターの紙が切れている。
+- 📜 語源: print「印刷する」+ -er ← ラテン語 premere「押す」
+  - もとは「印刷する人・業者」。press（押す）と同じ家族。
+- 💎 語根: `press / print`（押す）
+- 🌳 同じ語源の仲間: print（印刷する）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **copier** | コピー機 | 複写機。 | copy + -er |
+| **scanner** | スキャナー | 読み取り機。 | scan + -er |
+
+<a id="nurse"></a>
+### nurse（ナース）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A1 — 看護師
+
+- 📍 シーン: ナースコール、ナースステーション。
+- 💬 例文: *The nurse took my temperature.* — 看護師さんが体温を測ってくれた。
+- 📜 語源: 古フランス語 norrice「乳母」← ラテン語 nūtrīre「養う」
+  - もとは赤ちゃんに乳を与えて育てる「乳母」。そこから病人の世話をする人に。nutrition（栄養）、nourish（養う）も同じ家族。
+- 🌳 同じ語源の仲間: nutrition（栄養）、nursery（保育園）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **caregiver** | 介護者 | 世話をする人。 | care + give + -er |
+| **doctor** | 医者 | 診断・治療をする人。 | ラテン語 doctor |
+
+<a id="chef"></a>
+### chef（シェフ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 料理長、シェフ
+
+- 📍 シーン: 三つ星シェフ、シェフのおすすめ。
+- 💬 例文: *The chef recommended the fish.* — シェフは魚料理をすすめた。
+- 📜 語源: フランス語 chef「長、かしら」← ラテン語 caput「頭」
+  - chef de cuisine（台所の長）の略。chief（長）、captain と同じ caput「頭」の家族。
+- 🌳 同じ語源の仲間: chief（長）、captain（キャプテン）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cook** | 料理人 | 料理をする人全般。 | ラテン語 coquere |
+| **chief** | 長 | 組織の長。 | 古フランス語 chef |
+
+<a id="driver"></a>
+### driver（ドライバー） ⚠️
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 運転手、ドライバー（ゴルフ・ソフト）
+
+- 📍 シーン: タクシードライバー、プリンタードライバー。
+- ⚠️ カタカナの罠: ねじを回す工具の「ドライバー」は英語では screwdriver。driver だけだとふつう「運転手」。
+- 💬 例文: *The taxi driver knew a shortcut.* — タクシーの運転手は近道を知っていた。
+- 📜 語源: drive「追い立てる、運転する」+ -er ← 古英語 drīfan
+  - 家畜を「追い立てる人」→ 運転手。ソフトウェアのドライバーは機器を「動かすもの」。
+- 🌳 同じ語源の仲間: drive（運転する）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **chauffeur** | お抱え運転手 | 雇われた運転手。 | フランス語「火をたく人」 |
+| **screwdriver** | ねじ回し | 日本語の工具の「ドライバー」。 | screw + driver |
+
+<a id="singer"></a>
+### singer（シンガー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A1 — 歌手
+
+- 📍 シーン: シンガーソングライター。
+- 💬 例文: *She wants to be a singer.* — 彼女は歌手になりたい。
+- 📜 語源: sing「歌う」+ -er
+  - singer-songwriter は「自分で曲を作って歌う人」。
+- 🌳 同じ語源の仲間: sing（歌う）、song（歌）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **vocalist** | ボーカル | バンドの歌い手。 | vocal + -ist |
+| **musician** | 音楽家 | 音楽をする人全般。 | music + -ian |
+
+<a id="free"></a>
+### free（フリー） ⚠️
+
+**形容詞** / Lv.2 くらしの定番 / CEFR A1 — 自由な、無料の、〜のない
+
+- 📍 シーン: フリーWi-Fi、バリアフリー、フリーター（和製）。
+- ⚠️ カタカナの罠: 「フリーサイズ」「フリーダイヤル」は和製英語で、英語では one size fits all / toll-free number。英語の free は「自由な・無料の・〜のない（sugar-free）」。
+- 💬 例文: *Admission is free for children.* — 子どもの入場は無料です。
+- 📜 語源: 古英語 frēo「自由な」← ゲルマン祖語 *frijaz「愛される」
+  - もとは「愛される家族の一員」＝奴隷ではない人。friend（友だち）と同じ語根。
+- 🌳 同じ語源の仲間: freedom（自由）、friend（友だち）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **complimentary** | 無料の | サービスとしてのタダ。 | compliment「ほめ言葉」 |
+| **independent** | 独立した | 束縛されない。 | in- + depend |
+
+<a id="sunglasses"></a>
+### sunglasses（サングラス）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — サングラス
+
+- 📍 シーン: 夏のサングラス、UVカット。
+- 💬 例文: *Don't forget your sunglasses.* — サングラスを忘れないで。
+- 📜 語源: sun「太陽」+ glasses「めがね」
+  - いつも複数形で a pair of sunglasses。口語では shades とも言う。
+- 🌳 同じ語源の仲間: glasses（めがね）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **shades** | サングラス | くだけた言い方。 | shade「陰」 |
+| **goggles** | ゴーグル | 目を守るめがね。 | goggle「目をむく」 |
+
+<a id="necktie"></a>
+### necktie（ネクタイ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ネクタイ
+
+- 📍 シーン: スーツにネクタイ、クールビズ。
+- 💬 例文: *He wears a necktie to work.* — 彼はネクタイをして仕事に行く。
+- 📜 語源: neck「首」+ tie「結ぶもの」
+  - ふつうは tie だけで通じる。蝶ネクタイは bow tie。
+- 🌳 同じ語源の仲間: tie（結ぶ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **tie** | ネクタイ | ふつうの言い方。 | 古英語 tīgan |
+| **scarf** | スカーフ、マフラー | 首に巻く布。 | 古北フランス語 escarpe |
+
+<a id="parka"></a>
+### parka（パーカー） ⚠️
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — 防寒用のフードつき上着
+
+- 📍 シーン: 「パーカー着てる」。
+- ⚠️ カタカナの罠: 日本語の「パーカー」はフードつきのトレーナーを指すことが多いが、英語の parka は厚手の防寒ジャケット。フードつきのトレーナーは hoodie。
+- 💬 例文: *He wore a warm parka in the snow.* — 彼は雪の中、暖かい防寒ジャケットを着ていた。
+- 📜 語源: ネネツ語（シベリア）→ ロシア語 parka「毛皮の上着」
+  - 北極圏の人々の毛皮の上着の名前。アリュート語を経て英語に入った。
+- 🌳 同じ語源の仲間: anorak（アノラック・同じような上着）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **hoodie** | フードつきトレーナー | 日本語の「パーカー」はこれ。 | hood + -ie |
+| **anorak** | アノラック | 防風用の上着。 | グリーンランド語 annoraaq |
+
+<a id="sneakers"></a>
+### sneakers（スニーカー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — スニーカー
+
+- 📍 シーン: 白いスニーカー、スニーカー通学。
+- 💬 例文: *These sneakers are very comfortable.* — このスニーカーはとてもはき心地がいい。
+- 📜 語源: sneak「こっそり歩く」+ -er
+  - ゴム底で足音がしないので「こっそり歩ける靴」。イギリスでは trainers と言う。
+- 🌳 同じ語源の仲間: sneak（こっそり動く）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **trainers** | （英）スニーカー | イギリスでの言い方。 | train + -er |
+| **running shoes** | ランニングシューズ | 走る用の靴。 | running + shoes |
+
+<a id="backpack"></a>
+### backpack（バックパック）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — リュックサック
+
+- 📍 シーン: 「リュック」、バックパッカー。
+- 💬 例文: *I carry my books in a backpack.* — 私は本をリュックに入れて持ち歩く。
+- 📜 語源: back「背中」+ pack「包み」
+  - 日本語の「リュック」はドイツ語 Rucksack（背中の袋）から。英語では backpack がふつう。
+- 🌳 同じ語源の仲間: backpacker（バックパッカー）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **rucksack** | リュックサック | イギリスでも使う。 | ドイツ語 Rücken「背中」+ Sack |
+| **knapsack** | ナップサック | 小さな背負い袋。 | 低地ドイツ語 knappen「かむ」+ sack |
+
+<a id="mug"></a>
+### mug（マグ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — マグカップ
+
+- 📍 シーン: マグカップ、お気に入りのマグ。
+- 💬 例文: *I drink coffee from my favorite mug.* — お気に入りのマグでコーヒーを飲む。
+- 📜 語源: スカンジナビア系の語（ノルウェー語 mugge）とされる
+  - 英語では mug だけで「マグカップ」。口語で「顔」の意味もあり、mug shot は犯罪者の顔写真。
+- 🌳 同じ語源の仲間: mug shot（顔写真）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cup** | カップ | 取っ手つきの器。 | 後期ラテン語 cuppa |
+| **tumbler** | タンブラー | 取っ手のない筒形の器。 | tumble「転がる」 |
+
+<a id="kettle"></a>
+### kettle（ケトル）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — やかん、電気ケトル
+
+- 📍 シーン: 電気ケトル、ティーケトル。
+- 💬 例文: *I'll put the kettle on.* — お湯をわかすね。
+- 📜 語源: 古ノルド語 ketill ← ラテン語 catīnus「深皿」
+  - I'll put the kettle on. は、イギリスで「お茶にしよう」の決まり文句。
+- 🌳 同じ語源の仲間: kettledrum（ティンパニ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **pot** | ポット、深なべ | ふたつきの入れ物。 | 古英語 pott |
+| **teapot** | ティーポット | お茶をいれる器。 | tea + pot |
+
+<a id="napkin"></a>
+### napkin（ナプキン）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — ナプキン
+
+- 📍 シーン: 紙ナプキン、テーブルナプキン。
+- 💬 例文: *Could I have some napkins, please?* — ナプキンをいただけますか？
+- 📜 語源: 古フランス語 nape「テーブルクロス」+ -kin「小さい」
+  - 「小さなテーブルクロス」。nape はラテン語 mappa（布）から来ていて、map（地図）と同じ家族。
+- 🌳 同じ語源の仲間: map（地図）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **tissue** | ティッシュ | 薄い紙。 | 古フランス語 tissu |
+| **serviette** | （英）ナプキン | イギリスでの言い方。 | フランス語 servir |
+
+<a id="candle"></a>
+### candle（キャンドル）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ろうそく
+
+- 📍 シーン: キャンドルライト、アロマキャンドル。
+- 💬 例文: *She blew out the candles on the cake.* — 彼女はケーキのろうそくを吹き消した。
+- 📜 語源: 古英語 candel ← ラテン語 candēla ← candēre「白く輝く」
+  - candid（率直な＝白く輝いて曇りのない）、candidate（候補者＝白い服を着た人）も同じ家族。
+- 🌳 同じ語源の仲間: candid（率直な）、candidate（候補者）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **lantern** | ランタン | 覆いのある明かり。 | ギリシャ語 lamptēr |
+| **torch** | たいまつ、（英）懐中電灯 | 持ち運ぶ明かり。 | 古フランス語 torche |
+
+<a id="poster"></a>
+### poster（ポスター）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ポスター
+
+- 📍 シーン: 映画のポスター、ポスター発表。
+- 💬 例文: *He has a movie poster on his wall.* — 彼の部屋の壁には映画のポスターが貼ってある。
+- 📜 語源: post「柱に貼る」+ -er
+  - 柱（post）に貼り出す紙から。ネットの掲示板に投稿する人も poster。
+- 🌳 同じ語源の仲間: post（柱、掲示する）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **flyer** | チラシ | 配る広告の紙。 | fly + -er |
+| **banner** | 横断幕、バナー | 細長い旗や広告。 | 古フランス語 baniere |
+
+<a id="sticker"></a>
+### sticker（ステッカー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ステッカー、シール
+
+- 📍 シーン: 車のステッカー、LINEのスタンプ（英語では sticker）。
+- 💬 例文: *My laptop is covered in stickers.* — 私のノートパソコンはシールだらけだ。
+- 📜 語源: stick「貼りつける」+ -er
+  - 日本語の「シール」や「スタンプ」は英語では sticker と言う。
+- 🌳 同じ語源の仲間: stick（貼る）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **label** | ラベル | 商品に貼る札。 | 古フランス語 label |
+| **decal** | 転写シール | 貼り付ける図柄。 | フランス語 décalcomanie |
+
+<a id="handkerchief"></a>
+### handkerchief（ハンカチ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — ハンカチ
+
+- 📍 シーン: ハンカチを持っていく、ハンカチ王子。
+- 💬 例文: *He wiped his face with a handkerchief.* — 彼はハンカチで顔をふいた。
+- 📜 語源: hand「手」+ kerchief「頭にかぶる布」← 古フランス語 couvrechef「頭をおおうもの」
+  - もとは頭にかぶる布（kerchief）を手に持つもの。couvre（おおう）+ chef（頭）で、cover、chef と同じ家族。
+- 🌳 同じ語源の仲間: kerchief（スカーフ）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **tissue** | ティッシュ | 紙のハンカチ。 | 古フランス語 tissu |
+| **hanky** | ハンカチ | くだけた言い方。 | handkerchief の略 |
+
+<a id="slippers"></a>
+### slippers（スリッパ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — 室内履き
+
+- 📍 シーン: 家のスリッパ、トイレのスリッパ。
+- 💬 例文: *Put on your slippers. The floor is cold.* — スリッパをはきなさい。床が冷たいよ。
+- 📜 語源: slip「すべりこむ」+ -er
+  - 足を「すっと入れる」履物。英語の slippers はかかとまでおおう室内履きも含む。いつも複数形。
+- 🌳 同じ語源の仲間: slip（すべる）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **sandals** | サンダル | 屋外用のつっかけ。 | ギリシャ語 sandalon |
+| **flip-flops** | ビーチサンダル | 鼻緒のあるサンダル。 | 擬音語 |
+
+<a id="lotion"></a>
+### lotion（ローション）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B2 — 化粧水、ローション
+
+- 📍 シーン: ボディローション、日焼け止めローション。
+- 💬 例文: *Put on some sunscreen lotion.* — 日焼け止めを塗って。
+- 📜 語源: ラテン語 lōtiō「洗うこと」← lavāre「洗う」
+  - lavatory（洗面所）、laundry（洗濯）も lavāre の家族。
+- 🌳 同じ語源の仲間: laundry（洗濯）、lavatory（洗面所）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cream** | クリーム | 肌に塗る濃いもの。 | 古フランス語 cresme |
+| **moisturizer** | 保湿剤 | 肌をうるおすもの。 | moisture + -izer |
+
+<a id="cooking"></a>
+### cooking（クッキング）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A1 — 料理
+
+- 📍 シーン: クッキングスクール、クッキングシート。
+- 💬 例文: *Cooking is my hobby.* — 料理が趣味だ。
+- 📜 語源: cook「料理する」+ -ing ← ラテン語 coquere
+  - kitchen、biscuit と同じ coquere の家族。
+- 💎 語根: `coqu / coc / cook`（料理する・煮る）
+- 🌳 同じ語源の仲間: cook（料理人）、kitchen（台所）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cuisine** | 料理（法） | ある国や地域の料理。 | フランス語 cuisine |
+| **baking** | パンや菓子を焼くこと | オーブンで焼く料理。 | bake + -ing |
+
+<a id="barbecue"></a>
+### barbecue（バーベキュー）
+
+**名詞** / Lv.2 くらしの定番 / CEFR A2 — バーベキュー
+
+- 📍 シーン: 河原でバーベキュー、BBQ。
+- 💬 例文: *We had a barbecue in the backyard.* — 裏庭でバーベキューをした。
+- 📜 語源: スペイン語 barbacoa ← カリブのタイノ語「木の焼き網」
+  - 木を組んだ台で肉をいぶし焼きにしたことから。BBQ と略す。
+- 🌳 同じ語源の仲間: grill（焼き網）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **grill** | 網焼き | 網で焼く料理。 | ラテン語 crātīcula |
+| **cookout** | （米）野外料理 | 屋外の食事会。 | cook + out |
+
+<a id="buffet"></a>
+### buffet（ビュッフェ）
+
+**名詞** / Lv.2 くらしの定番 / CEFR B1 — 立食、ビュッフェ
+
+- 📍 シーン: ホテルのビュッフェ、ランチビュッフェ。
+- 💬 例文: *The hotel has a breakfast buffet.* — そのホテルには朝食ビュッフェがある。
+- 📜 語源: フランス語 buffet「食器棚、配膳台」
+  - 料理を並べた台から自分で取る形式。日本語の「バイキング」はこれ。「殴る」の buffet（バフェット）は別の語。
+- 🌳 同じ語源の仲間: Viking（バイキング・日本での呼び名）
+
+| 類義語 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **all-you-can-eat** | 食べ放題 | 決まった値段で好きなだけ。 | all + you + can + eat |
+| **smorgasbord** | スモーガスボード | 北欧の立食料理。 | スウェーデン語 |
 
 ## Lv.3 よく使う
 
@@ -10846,7 +11977,7 @@
 | `mon / monstr` | 警告する・示す | ラテン語 monēre | [summon](#summon), [monster](#monster), [monitor](#monitor) | demonstrate, admonish |
 | `linqu / lic` | 後に残す | ラテン語 linquere | [relic](#relic) | relinquish, delinquent |
 | `leg / lect / lig` | 読む・集める・選ぶ | ラテン語 legere | [legend](#legend), [lesson](#lesson), [collection](#collection) | lecture, legible, collect, elect, intelligent |
-| `ven / vent` | 来る | ラテン語 venīre | [inventory](#inventory), [event](#event) | invent, adventure, convention, prevent |
+| `ven / vent` | 来る | ラテン語 venīre | [inventory](#inventory), [event](#event), [convenience](#convenience) | invent, adventure, convention, prevent |
 | `cri / crit` | 分ける・判断する | ギリシャ語 krīnein | [critical](#critical), [crisis](#crisis) | critic, criterion |
 | `viv / vit` | 生きる | ラテン語 vīvere / vīta | [revive](#revive), [survival](#survival) | survive, vivid, vital, vitamin |
 | `sta / stat / sist` | 立つ | ラテン語 stāre / ギリシャ語 histanai | [stage](#stage), [system](#system), [station](#station), [cost](#cost), [status](#status) | stable, obstacle, assist |
@@ -10861,17 +11992,17 @@
 | `spir` | 息をする | ラテン語 spīrāre | [spirit](#spirit) | inspire, expire, respiration, conspire |
 | `mir / marv` | 驚く・見つめる | ラテン語 mīrārī | [miracle](#miracle), [mirror](#mirror) | marvel, admire, mirage |
 | `fac / fic / fact / feit` | 作る・行う | ラテン語 facere | [sacrifice](#sacrifice), [fashion](#fashion), [perfect](#perfect), [benefit](#benefit), [factor](#factor), [feature](#feature), [official](#official) | factory, artifact, forfeit, effect, difficult |
-| `coqu / coc / cook` | 料理する・煮る | ラテン語 coquere | [kitchen](#kitchen) | cook, biscuit, precocious, concoct |
+| `coqu / coc / cook` | 料理する・煮る | ラテン語 coquere | [kitchen](#kitchen), [cooking](#cooking) | cook, biscuit, precocious, concoct |
 | `man / main` | とどまる | ラテン語 manēre | [mansion](#mansion) | remain, permanent, manor |
 | `tract / trai / treat` | 引く | ラテン語 trahere | [train](#train), [trainer](#trainer) | tractor, attract, contract, portrait |
 | `hosp / host / hot` | 客・もてなす人 | ラテン語 hospes | [hotel](#hotel), [hospital](#hospital), [host](#host) | hostel, hospitality |
 | `astr / aster / star` | 星 | ギリシャ語 astēr / 古英語 steorra | [star](#star) | astronaut, asterisk, disaster, astronomy |
 | `tele` | 遠く | ギリシャ語 tēle | [television](#television), [phone](#phone) | telescope, telegram, telepathy |
 | `vid / vis / id` | 見る | ラテン語 vidēre / ギリシャ語 eidos（同じ印欧語根） | [television](#television), [idol](#idol), [idea](#idea), [advice](#advice), [evidence](#evidence), [interview](#interview), [video](#video), [vision](#vision) | visit |
-| `phon` | 音・声 | ギリシャ語 phōnē | [phone](#phone) | microphone, symphony, saxophone, phonics |
+| `phon` | 音・声 | ギリシャ語 phōnē | [phone](#phone), [headphones](#headphones) | microphone, symphony, saxophone, phonics |
 | `min` | 小さい | ラテン語 minuere / minor | [menu](#menu), [minority](#minority) | minute, minor, minimum, mini |
 | `cap / cep / cip / ceiv` | 取る・受け取る | ラテン語 capere | [recipe](#recipe), [concept](#concept), [capacity](#capacity) | receive, receipt, accept, capture |
-| `sal / sau` | 塩 | ラテン語 sal | [salad](#salad), [sauce](#sauce) | salary, sausage, salt, salsa |
+| `sal / sau` | 塩 | ラテン語 sal | [salad](#salad), [sauce](#sauce), [sausage](#sausage) | salary, salt, salsa |
 | `sent / sens` | 感じる | ラテン語 sentīre | [consent](#consent), [consensus](#consensus) | sense, sentence, sentiment, sensitive |
 | `cycl` | 輪・円 | ギリシャ語 kyklos | [bike](#bike), [recycle](#recycle), [cycling](#cycling) | cycle, encyclopedia, cyclone |
 | `form` | 形 | ラテン語 fōrma | [reform](#reform), [uniform](#uniform) | form, formal, transform, inform |
@@ -10884,12 +12015,12 @@
 | `ment / mind` | 心 | ラテン語 mēns | [comment](#comment), [mental](#mental) | mention, mind, dementia |
 | `manu / man / main` | 手 | ラテン語 manus | [manual](#manual), [manicure](#manicure) | manufacture, manage, maintain |
 | `camp / champ` | 野原 | ラテン語 campus | [camp](#camp), [campaign](#campaign) | campus, champion, champagne |
-| `mov / mot / mob` | 動かす | ラテン語 movēre | [motivation](#motivation) | move, motion, emotion, motor, mobile |
+| `mov / mot / mob` | 動かす | ラテン語 movēre | [motivation](#motivation), [remote](#remote) | move, motion, emotion, motor, mobile |
 | `nov` | 新しい | ラテン語 novus | [innovation](#innovation) | novel, novice, renovate, nova |
 | `ten / tain / tin` | 保つ | ラテン語 tenēre | [sustainable](#sustainable), [content](#content) | contain, maintain, tenant, continue |
 | `ag / act` | 行う・動かす | ラテン語 agere | [action](#action) | act, agent, agenda, active |
 | `graph / gram` | 書く・描く | ギリシャ語 graphein | [photo](#photo), [program](#program), [graph](#graph) | autograph, paragraph, telegram, biography |
-| `press / print` | 押す | ラテン語 premere / pressāre | [print](#print), [pressure](#pressure) | press, impress, express, depress |
+| `press / print` | 押す | ラテン語 premere / pressāre | [print](#print), [pressure](#pressure), [printer](#printer) | press, impress, express, depress |
 | `ced / cess / ceed` | 行く・譲る | ラテン語 cēdere | [access](#access) | exceed, succeed, process, proceed |
 | `log / logy` | 言葉・理性 | ギリシャ語 logos / legein | [catalog](#catalog), [logic](#logic), [ideology](#ideology) | dialogue, biology, apology, prologue |
 | `ject` | 投げる | ラテン語 iacere | [project](#project) | reject, object, inject, subject |
