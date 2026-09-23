@@ -11903,5 +11903,1133 @@
       { "word": "all-you-can-eat", "meaning": "食べ放題", "nuance": "決まった値段で好きなだけ。", "etymology": "all + you + can + eat" },
       { "word": "smorgasbord", "meaning": "スモーガスボード", "nuance": "北欧の立食料理。", "etymology": "スウェーデン語" }
     ]
+  },
+  {
+    "id": "stadium", "word": "stadium", "katakana": "スタジアム", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "競技場、スタジアム",
+    "scene": "サッカースタジアム、ドーム球場。",
+    "example": { "en": "The stadium holds 50,000 people.", "ja": "そのスタジアムは5万人を収容できる。" },
+    "etymology": {
+      "origin": "ラテン語 stadium ← ギリシャ語 stadion「長さの単位（約185m）、競走路」",
+      "story": "古代オリンピックで走った約185mの直線コースの名前。競走路 → 観客席のある競技場に。"
+    },
+    "roots": [],
+    "family": ["stage（舞台・別語源）"],
+    "synonyms": [
+      { "word": "arena", "meaning": "アリーナ", "nuance": "屋内の競技場。", "etymology": "ラテン語 harēna「砂」" },
+      { "word": "ballpark", "meaning": "野球場", "nuance": "アメリカの野球場。", "etymology": "ball + park" }
+    ]
+  },
+  {
+    "id": "arena", "word": "arena", "katakana": "アリーナ", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "競技場、アリーナ、活動の場",
+    "scene": "アリーナ席、ライブ会場。",
+    "example": { "en": "The concert was held in a big arena.", "ja": "コンサートは大きなアリーナで行われた。" },
+    "etymology": {
+      "origin": "ラテン語 harēna「砂」",
+      "story": "古代ローマの円形闘技場では、血を吸わせるために地面に砂をまいた。「砂の場所」→ 競技場。the political arena（政治の舞台）のようにも使う。"
+    },
+    "roots": [],
+    "family": ["sand（砂・意味が同じ別語）"],
+    "synonyms": [
+      { "word": "stadium", "meaning": "スタジアム", "nuance": "屋外の大きな競技場。", "etymology": "ギリシャ語 stadion" },
+      { "word": "field", "meaning": "分野、場", "nuance": "活動の場。", "etymology": "古英語 feld" }
+    ]
+  },
+  {
+    "id": "gym", "word": "gym", "katakana": "ジム", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "体育館、ジム",
+    "scene": "スポーツジム、体育（gym class）。",
+    "example": { "en": "I go to the gym three times a week.", "ja": "週に3回ジムに通っている。" },
+    "etymology": {
+      "origin": "gymnasium の略 ← ギリシャ語 gymnasion ← gymnos「裸の」",
+      "story": "古代ギリシャでは裸で運動したことから「裸で鍛える場所」。ドイツ語 Gymnasium は「中高一貫校」の意味になった。"
+    },
+    "roots": [],
+    "family": ["gymnastics（体操）"],
+    "synonyms": [
+      { "word": "fitness center", "meaning": "フィットネスクラブ", "nuance": "運動施設。", "etymology": "fitness + center" },
+      { "word": "gymnasium", "meaning": "体育館", "nuance": "正式な言い方。", "etymology": "ギリシャ語 gymnasion" }
+    ]
+  },
+  {
+    "id": "hall", "word": "hall", "katakana": "ホール", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "会館、ホール、玄関の廊下",
+    "scene": "コンサートホール、市民ホール。",
+    "example": { "en": "The ceremony was held in the school hall.", "ja": "式典は学校の講堂で行われた。" },
+    "etymology": {
+      "origin": "古英語 heall「大きな屋根のある建物」",
+      "story": "もとは王や領主の館の大広間。今は廊下（hallway）や会館にも使う。"
+    },
+    "roots": [],
+    "family": ["hallway（廊下）"],
+    "synonyms": [
+      { "word": "auditorium", "meaning": "講堂", "nuance": "聴衆が座る大きな部屋。", "etymology": "ラテン語 audīre「聞く」" },
+      { "word": "corridor", "meaning": "廊下", "nuance": "建物の中の通路。", "etymology": "イタリア語 corridore" }
+    ]
+  },
+  {
+    "id": "lobby", "word": "lobby", "katakana": "ロビー", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "ロビー、圧力団体、陳情する",
+    "scene": "ホテルのロビー、ロビー活動。",
+    "example": { "en": "Let's meet in the hotel lobby.", "ja": "ホテルのロビーで会おう。" },
+    "etymology": {
+      "origin": "中世ラテン語 lobia「回廊」（ゲルマン語起源）",
+      "story": "議会のロビーで議員に働きかけたことから「陳情活動（lobbying）」の意味が生まれた。"
+    },
+    "roots": [],
+    "family": ["lobbyist（ロビイスト）"],
+    "synonyms": [
+      { "word": "foyer", "meaning": "ホワイエ", "nuance": "劇場などの入口の広間。", "etymology": "フランス語「暖炉のある部屋」" },
+      { "word": "entrance hall", "meaning": "玄関ホール", "nuance": "入口の広間。", "etymology": "entrance + hall" }
+    ]
+  },
+  {
+    "id": "front", "word": "front", "katakana": "フロント", "pos": "名詞・形容詞", "cefr": "A2", "level": 3,
+    "meaning": "前、正面",
+    "scene": "ホテルの「フロント」、フロントガラス。",
+    "gap": "ホテルの「フロント」は英語では front desk / reception。front だけでは「前、正面」の意味。「フロントガラス」は windshield（米）/ windscreen（英）。",
+    "trapQuiz": {"question": "ホテルで「フロントに電話してください」を英語でいうと？", "answer": "Please call the front desk.", "wrong": ["Please call the front.", "Please call front glass.", "Please call the forward."]},
+    "example": { "en": "Please sit in the front row.", "ja": "前の列に座ってください。" },
+    "etymology": {
+      "origin": "古フランス語 front ← ラテン語 frōns「額」",
+      "story": "「額（ひたい）」→ 顔の前 → 正面。戦いの「前線」も front。"
+    },
+    "roots": [],
+    "family": ["frontier（辺境）、confront（立ち向かう）"],
+    "synonyms": [
+      { "word": "reception", "meaning": "受付、フロント", "nuance": "ホテルや会社の受付。", "etymology": "ラテン語 recipere" },
+      { "word": "facade", "meaning": "建物の正面", "nuance": "見かけ。", "etymology": "フランス語 façade" }
+    ]
+  },
+  {
+    "id": "tent", "word": "tent", "katakana": "テント", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "テント",
+    "scene": "キャンプのテント、ワンタッチテント。",
+    "example": { "en": "We put up our tent by the river.", "ja": "川のそばにテントを張った。" },
+    "etymology": {
+      "origin": "古フランス語 tente ← ラテン語 tenta「張られたもの」← tendere「張る」",
+      "story": "布を「張って」作る住まい。tension（緊張）、extend（伸ばす）と同じ tendere の家族。"
+    },
+    "roots": ["tend"],
+    "family": ["tension（張り）、extend（伸ばす）"],
+    "synonyms": [
+      { "word": "shelter", "meaning": "避難所", "nuance": "雨風をしのぐ所。", "etymology": "中英語 sheltroun" },
+      { "word": "camp", "meaning": "キャンプ", "nuance": "野営地。", "etymology": "ラテン語 campus" }
+    ]
+  },
+  {
+    "id": "cottage", "word": "cottage", "katakana": "コテージ", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "小さな家、コテージ",
+    "scene": "貸別荘のコテージ。",
+    "example": { "en": "We rented a cottage by the lake.", "ja": "湖のそばのコテージを借りた。" },
+    "etymology": {
+      "origin": "アングロ・フランス語 cotage ← cot「小屋」",
+      "story": "もとは農民の小さな家。今は田舎や避暑地のこぢんまりした家を指すことが多い。"
+    },
+    "roots": [],
+    "family": ["cot（小屋）"],
+    "synonyms": [
+      { "word": "cabin", "meaning": "丸太小屋", "nuance": "木造の小屋。", "etymology": "後期ラテン語 capanna" },
+      { "word": "villa", "meaning": "別荘", "nuance": "大きめの別荘。", "etymology": "ラテン語 villa" }
+    ]
+  },
+  {
+    "id": "resort", "word": "resort", "katakana": "リゾート", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "行楽地、リゾート、頼みの手段",
+    "scene": "リゾートホテル、スキーリゾート。",
+    "example": { "en": "As a last resort, we called his parents.", "ja": "最後の手段として、彼の両親に電話した。" },
+    "etymology": {
+      "origin": "古フランス語 resortir「再び出かける」",
+      "story": "「人がよく出かける先」→ 行楽地。a last resort（最後の頼み）のように「頼る先」の意味もある。"
+    },
+    "roots": [],
+    "family": ["resource（資源・語源は別）"],
+    "synonyms": [
+      { "word": "holiday spot", "meaning": "行楽地", "nuance": "休暇に行く場所。", "etymology": "holiday + spot" },
+      { "word": "spa", "meaning": "温泉地", "nuance": "保養地。", "etymology": "ベルギーの町 Spa" }
+    ]
+  },
+  {
+    "id": "cruise", "word": "cruise", "katakana": "クルーズ", "pos": "名詞・動詞", "cefr": "B1", "level": 3,
+    "meaning": "船旅、巡航する",
+    "scene": "クルーズ船、ナイトクルーズ。",
+    "example": { "en": "They went on a cruise around the islands.", "ja": "彼らは島々をめぐる船旅に出た。" },
+    "etymology": {
+      "origin": "オランダ語 kruisen「横切る、行ったり来たりする」← kruis「十字」",
+      "story": "「十字に行き来する」→ 巡航する。cross（十字）と同じ語根。cruise control は車の自動定速走行。"
+    },
+    "roots": [],
+    "family": ["cross（十字）"],
+    "synonyms": [
+      { "word": "voyage", "meaning": "航海", "nuance": "長い船旅。", "etymology": "ラテン語 viāticum「旅の食料」" },
+      { "word": "sail", "meaning": "航海する", "nuance": "船で進む。", "etymology": "古英語 segl「帆」" }
+    ]
+  },
+  {
+    "id": "passport", "word": "passport", "katakana": "パスポート", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "旅券、パスポート",
+    "scene": "パスポート申請、出国審査。",
+    "example": { "en": "Don't forget your passport.", "ja": "パスポートを忘れないで。" },
+    "etymology": {
+      "origin": "フランス語 passeport「港を通る許可」← passer「通る」+ port「港」",
+      "story": "船で港を通るための許可証から。今は「成功へのパスポート（手段）」の比喩にも。"
+    },
+    "roots": [],
+    "family": ["pass（通る）、port（港）"],
+    "synonyms": [
+      { "word": "visa", "meaning": "ビザ", "nuance": "入国許可。", "etymology": "ラテン語 vīsa「見られたもの」" },
+      { "word": "ID", "meaning": "身分証", "nuance": "身分を証明するもの。", "etymology": "identity の略" }
+    ]
+  },
+  {
+    "id": "suitcase", "word": "suitcase", "katakana": "スーツケース", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "スーツケース",
+    "scene": "旅行用スーツケース、キャリーケース。",
+    "example": { "en": "My suitcase is too heavy.", "ja": "スーツケースが重すぎる。" },
+    "etymology": {
+      "origin": "suit「一そろいの服」+ case「入れ物」",
+      "story": "もとはスーツ一式を入れるケース。「キャリーケース」は英語では rolling suitcase / carry-on。"
+    },
+    "roots": [],
+    "family": ["suit（スーツ）"],
+    "synonyms": [
+      { "word": "luggage", "meaning": "手荷物", "nuance": "旅行の荷物全体（数えられない）。", "etymology": "lug「引きずる」" },
+      { "word": "baggage", "meaning": "手荷物", "nuance": "luggage とほぼ同じ。", "etymology": "古フランス語 bagage" }
+    ]
+  },
+  {
+    "id": "notebook", "word": "notebook", "katakana": "ノートブック", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "ノート、ノートパソコン",
+    "scene": "大学ノート、ノートパソコン。",
+    "example": { "en": "I wrote the words in my notebook.", "ja": "その単語をノートに書いた。" },
+    "etymology": {
+      "origin": "note「メモ」+ book「本」",
+      "story": "日本語の「ノート」はこちら。ノートパソコンは notebook (computer) / laptop。"
+    },
+    "roots": [],
+    "family": ["note（メモ）"],
+    "synonyms": [
+      { "word": "notepad", "meaning": "メモ帳", "nuance": "はがして使うメモ用紙。", "etymology": "note + pad" },
+      { "word": "laptop", "meaning": "ノートパソコン", "nuance": "ひざの上で使うパソコン。", "etymology": "lap + top" }
+    ]
+  },
+  {
+    "id": "homeroom", "word": "homeroom", "katakana": "ホームルーム", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "ホームルーム（の時間・教室）",
+    "scene": "朝のホームルーム、HR。",
+    "example": { "en": "We have homeroom before first period.", "ja": "1時間目の前にホームルームがある。" },
+    "etymology": {
+      "origin": "home「本拠」+ room「部屋」（アメリカの学校用語）",
+      "story": "アメリカの学校で、生徒が出欠確認などのために毎朝集まる自分の教室。イギリスでは form room / registration と言う。"
+    },
+    "roots": [],
+    "family": ["classroom（教室）"],
+    "synonyms": [
+      { "word": "class", "meaning": "クラス", "nuance": "学級。", "etymology": "ラテン語 classis" },
+      { "word": "assembly", "meaning": "朝礼、集会", "nuance": "全校集会。", "etymology": "古フランス語 assembler" }
+    ]
+  },
+  {
+    "id": "band", "word": "band", "katakana": "バンド", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "楽団、バンド、帯",
+    "scene": "ロックバンド、ヘアバンド。",
+    "example": { "en": "My brother plays guitar in a band.", "ja": "兄はバンドでギターを弾いている。" },
+    "etymology": {
+      "origin": "「帯」は古ノルド語 band、「楽団」はフランス語 bande「一団」から",
+      "story": "同じつづりでも「ひも・帯」と「一団」は別ルートで英語に入った。ばんそうこうの Band-Aid は商品名。"
+    },
+    "roots": [],
+    "family": ["bandage（包帯）"],
+    "synonyms": [
+      { "word": "group", "meaning": "グループ", "nuance": "人の集まり。", "etymology": "イタリア語 gruppo" },
+      { "word": "orchestra", "meaning": "オーケストラ", "nuance": "大編成の楽団。", "etymology": "ギリシャ語 orkhēstra" }
+    ]
+  },
+  {
+    "id": "chorus", "word": "chorus", "katakana": "コーラス", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "合唱（団）、サビ",
+    "scene": "合唱コンクール、コーラス部。",
+    "example": { "en": "Everyone sang the chorus together.", "ja": "みんなでサビを一緒に歌った。" },
+    "etymology": {
+      "origin": "ラテン語 chorus ← ギリシャ語 khoros「踊りと歌の一団」",
+      "story": "古代ギリシャ劇で歌い踊る一団。choir（聖歌隊）、choreography（振り付け）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["choir（聖歌隊）、choreography（振り付け）"],
+    "synonyms": [
+      { "word": "choir", "meaning": "聖歌隊、合唱団", "nuance": "教会などの合唱団。", "etymology": "ギリシャ語 khoros" },
+      { "word": "refrain", "meaning": "くり返し部分", "nuance": "歌のくり返し。", "etymology": "フランス語 refraindre" }
+    ]
+  },
+  {
+    "id": "orchestra", "word": "orchestra", "katakana": "オーケストラ", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "管弦楽団",
+    "scene": "吹奏楽部、交響楽団。",
+    "example": { "en": "The orchestra played Beethoven's Ninth.", "ja": "管弦楽団がベートーヴェンの第九を演奏した。" },
+    "etymology": {
+      "origin": "ギリシャ語 orkhēstra「（劇場の）踊り場」← orkheisthai「踊る」",
+      "story": "古代ギリシャの劇場で合唱団が踊った舞台前の場所。そこに楽団が座るようになり、楽団そのものの名前に。"
+    },
+    "roots": [],
+    "family": ["orchestral（管弦楽の）"],
+    "synonyms": [
+      { "word": "band", "meaning": "楽団", "nuance": "小さめの楽団。", "etymology": "フランス語 bande" },
+      { "word": "ensemble", "meaning": "アンサンブル", "nuance": "小編成の合奏団。", "etymology": "フランス語「一緒に」" }
+    ]
+  },
+  {
+    "id": "melody", "word": "melody", "katakana": "メロディー", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "旋律、メロディー",
+    "scene": "きれいなメロディー、着メロ。",
+    "example": { "en": "I can't get this melody out of my head.", "ja": "このメロディーが頭から離れない。" },
+    "etymology": {
+      "origin": "ギリシャ語 melōidia「歌うこと」← melos「歌、節」+ ōidē「歌」",
+      "story": "ōidē は ode（頌歌）、comedy、tragedy の -edy と同じ家族。"
+    },
+    "roots": [],
+    "family": ["melodious（旋律の美しい）"],
+    "synonyms": [
+      { "word": "tune", "meaning": "曲", "nuance": "メロディー。", "etymology": "tone の変形" },
+      { "word": "harmony", "meaning": "和音", "nuance": "重なり合う音。", "etymology": "ギリシャ語 harmonia" }
+    ]
+  },
+  {
+    "id": "harmony", "word": "harmony", "katakana": "ハーモニー", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "調和、和音",
+    "scene": "美しいハーモニー、自然との調和。",
+    "example": { "en": "People and nature should live in harmony.", "ja": "人と自然は調和して生きるべきだ。" },
+    "etymology": {
+      "origin": "ギリシャ語 harmonia「つなぎ合わせ、調和」",
+      "story": "もとは大工が木材を「つなぎ合わせる」こと。そこから音の調和、ものごとの調和に。"
+    },
+    "roots": [],
+    "family": ["harmonica（ハーモニカ）"],
+    "synonyms": [
+      { "word": "balance", "meaning": "つり合い", "nuance": "バランス。", "etymology": "後期ラテン語 bilanx" },
+      { "word": "unity", "meaning": "一致、まとまり", "nuance": "ひとつにまとまること。", "etymology": "ラテン語 ūnitās" }
+    ]
+  },
+  {
+    "id": "cartoon", "word": "cartoon", "katakana": "カートゥーン", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "漫画、アニメ",
+    "scene": "アメリカのアニメ（カートゥーン）、風刺漫画。",
+    "example": { "en": "The kids are watching cartoons.", "ja": "子どもたちはアニメを見ている。" },
+    "etymology": {
+      "origin": "イタリア語 cartone「厚紙」← carta「紙」",
+      "story": "壁画などの下絵を厚紙に描いたことから。19世紀に雑誌の風刺画を指すようになり、アニメにも使われるように。card、chart と同じ家族。"
+    },
+    "roots": [],
+    "family": ["card（カード）、carton（紙箱）"],
+    "synonyms": [
+      { "word": "comic", "meaning": "漫画", "nuance": "コマ割り漫画。", "etymology": "ギリシャ語 kōmikos" },
+      { "word": "animation", "meaning": "アニメーション", "nuance": "動く絵。", "etymology": "ラテン語 anima" }
+    ]
+  },
+  {
+    "id": "character", "word": "character", "katakana": "キャラクター", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "登場人物、性格、文字",
+    "scene": "アニメのキャラクター、キャラ。",
+    "example": { "en": "The main character is a young wizard.", "ja": "主人公は若い魔法使いだ。" },
+    "etymology": {
+      "origin": "ギリシャ語 kharaktēr「刻印、特徴」← kharassein「刻む」",
+      "story": "「刻みつけたしるし」→ その人に刻まれた性格、登場人物、文字（漢字は Chinese characters）。"
+    },
+    "roots": [],
+    "family": ["characteristic（特徴）"],
+    "synonyms": [
+      { "word": "personality", "meaning": "性格、人柄", "nuance": "その人らしさ。", "etymology": "ラテン語 persōna" },
+      { "word": "figure", "meaning": "人物", "nuance": "目立つ人。", "etymology": "ラテン語 figūra" }
+    ]
+  },
+  {
+    "id": "story", "word": "story", "katakana": "ストーリー", "pos": "名詞", "cefr": "A1", "level": 3,
+    "meaning": "物語、話、（建物の）階",
+    "scene": "ストーリー展開、インスタのストーリーズ。",
+    "example": { "en": "Tell me a story before bed.", "ja": "寝る前にお話をして。" },
+    "etymology": {
+      "origin": "古フランス語 estoire ← ラテン語 historia",
+      "story": "history と同じ語。建物の「階（story）」も、窓に歴史物語の絵が描かれていたことから、という説がある。"
+    },
+    "roots": [],
+    "family": ["history（歴史）"],
+    "synonyms": [
+      { "word": "tale", "meaning": "物語", "nuance": "昔話やおとぎ話。", "etymology": "古英語 talu" },
+      { "word": "plot", "meaning": "筋", "nuance": "物語の展開。", "etymology": "古英語 plot" }
+    ]
+  },
+  {
+    "id": "novel", "word": "novel", "katakana": "ノベル", "pos": "名詞・形容詞", "cefr": "B1", "level": 3,
+    "meaning": "小説、斬新な",
+    "scene": "ライトノベル、ノベルゲーム。",
+    "example": { "en": "I'm reading a mystery novel.", "ja": "ミステリー小説を読んでいる。" },
+    "etymology": {
+      "origin": "イタリア語 novella「新しい話」← ラテン語 novus「新しい」",
+      "story": "「目新しい話」→ 長い物語。形容詞では「斬新な」。innovation、renovate と同じ novus の家族。"
+    },
+    "roots": ["nov"],
+    "family": ["innovation（革新）、novice（初心者）"],
+    "synonyms": [
+      { "word": "fiction", "meaning": "フィクション", "nuance": "作り話。", "etymology": "ラテン語 fingere「形作る」" },
+      { "word": "book", "meaning": "本", "nuance": "本全般。", "etymology": "古英語 bōc" }
+    ]
+  },
+  {
+    "id": "diary", "word": "diary", "katakana": "ダイアリー", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "日記",
+    "scene": "交換日記、ダイアリー帳。",
+    "example": { "en": "I write in my diary every night.", "ja": "毎晩日記を書いている。" },
+    "etymology": {
+      "origin": "ラテン語 diārium「一日の手当」← diēs「日」",
+      "story": "もとはローマ兵に毎日支給された食料・手当。そこから「毎日の記録」に。daily、journal と同じく「日」の語。"
+    },
+    "roots": [],
+    "family": ["daily（毎日の）"],
+    "synonyms": [
+      { "word": "journal", "meaning": "日誌", "nuance": "日々の記録。", "etymology": "フランス語 jour「日」" },
+      { "word": "blog", "meaning": "ブログ", "nuance": "ネット上の日記。", "etymology": "weblog の略" }
+    ]
+  },
+  {
+    "id": "sketch", "word": "sketch", "katakana": "スケッチ", "pos": "名詞・動詞", "cefr": "B1", "level": 3,
+    "meaning": "下絵、写生、スケッチする",
+    "scene": "スケッチブック、写生大会。",
+    "example": { "en": "She made a quick sketch of the mountain.", "ja": "彼女は山をさっとスケッチした。" },
+    "etymology": {
+      "origin": "オランダ語 schets ← イタリア語 schizzo「はね、下書き」",
+      "story": "「さっと描いたもの」。コントのような短い劇も sketch。"
+    },
+    "roots": [],
+    "family": ["sketchbook（スケッチブック）"],
+    "synonyms": [
+      { "word": "drawing", "meaning": "線画", "nuance": "鉛筆などで描いた絵。", "etymology": "draw「引く」" },
+      { "word": "outline", "meaning": "概略", "nuance": "おおまかな形。", "etymology": "out + line" }
+    ]
+  },
+  {
+    "id": "paint", "word": "paint", "katakana": "ペイント", "pos": "名詞・動詞", "cefr": "A1", "level": 3,
+    "meaning": "ペンキ、絵の具、塗る、描く",
+    "scene": "ペイントツール、フェイスペイント。",
+    "example": { "en": "We painted the wall white.", "ja": "壁を白く塗った。" },
+    "etymology": {
+      "origin": "古フランス語 peint ← ラテン語 pingere「描く、色を塗る」",
+      "story": "picture（絵）、pigment（顔料）も pingere の家族。"
+    },
+    "roots": [],
+    "family": ["painting（絵画）、picture（絵）"],
+    "synonyms": [
+      { "word": "draw", "meaning": "線で描く", "nuance": "鉛筆などで描く。", "etymology": "古英語 dragan" },
+      { "word": "color", "meaning": "色を塗る", "nuance": "着色する。", "etymology": "ラテン語 color" }
+    ]
+  },
+  {
+    "id": "craft", "word": "craft", "katakana": "クラフト", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "工芸、技術、手作り",
+    "scene": "クラフトビール、ペーパークラフト。",
+    "example": { "en": "She sells her crafts at the market.", "ja": "彼女は手作り品を市場で売っている。" },
+    "etymology": {
+      "origin": "古英語 cræft「力、技」",
+      "story": "「力」→「技術」→ 手仕事。aircraft（航空機）、spacecraft（宇宙船）の craft は「技術で作った乗り物」。"
+    },
+    "roots": [],
+    "family": ["aircraft（航空機）、crafty（ずる賢い）"],
+    "synonyms": [
+      { "word": "handicraft", "meaning": "手工芸品", "nuance": "手で作る品。", "etymology": "hand + craft" },
+      { "word": "skill", "meaning": "技能", "nuance": "うまくできる力。", "etymology": "古ノルド語 skil" }
+    ]
+  },
+  {
+    "id": "yoga", "word": "yoga", "katakana": "ヨガ", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "ヨガ",
+    "scene": "ホットヨガ、ヨガマット。",
+    "example": { "en": "I do yoga every morning.", "ja": "毎朝ヨガをしている。" },
+    "etymology": {
+      "origin": "サンスクリット語 yoga「結びつけること」",
+      "story": "心と体を「結びつける」修行。英語の yoke（くびき）と同じ印欧語根。"
+    },
+    "roots": [],
+    "family": ["yoke（くびき）"],
+    "synonyms": [
+      { "word": "stretching", "meaning": "ストレッチ", "nuance": "体を伸ばす運動。", "etymology": "stretch + -ing" },
+      { "word": "meditation", "meaning": "瞑想", "nuance": "心を静めること。", "etymology": "ラテン語 meditārī" }
+    ]
+  },
+  {
+    "id": "fitness", "word": "fitness", "katakana": "フィットネス", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "健康、体力",
+    "scene": "フィットネスクラブ、フィットネスアプリ。",
+    "example": { "en": "Swimming is good for your fitness.", "ja": "水泳は体力づくりによい。" },
+    "etymology": {
+      "origin": "fit「適した、健康な」+ -ness",
+      "story": "fit はもとは「ふさわしい」。そこから「体調がよい」に。survival of the fittest は「適者生存」。"
+    },
+    "roots": [],
+    "family": ["fit（合う、健康な）"],
+    "synonyms": [
+      { "word": "health", "meaning": "健康", "nuance": "体の状態。", "etymology": "古英語 hǣlþ" },
+      { "word": "exercise", "meaning": "運動", "nuance": "体を動かすこと。", "etymology": "ラテン語 exercēre" }
+    ]
+  },
+  {
+    "id": "training", "word": "training", "katakana": "トレーニング", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "訓練、トレーニング",
+    "scene": "筋トレ、研修（トレーニング）。",
+    "example": { "en": "New employees get two weeks of training.", "ja": "新入社員は2週間の研修を受ける。" },
+    "etymology": {
+      "origin": "train「訓練する」+ -ing ← 古フランス語 trahiner「引く」",
+      "story": "植物の枝を「引っぱって」形を整えることから「鍛える」に。train（列車）と同じ語。"
+    },
+    "roots": ["trah"],
+    "family": ["train（訓練する）、trainer（トレーナー）"],
+    "synonyms": [
+      { "word": "practice", "meaning": "練習", "nuance": "くり返し練習すること。", "etymology": "ギリシャ語 praktikos" },
+      { "word": "workout", "meaning": "トレーニング", "nuance": "運動の一回分。", "etymology": "work + out" }
+    ]
+  },
+  {
+    "id": "trophy", "word": "trophy", "katakana": "トロフィー", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "優勝カップ、トロフィー",
+    "scene": "優勝トロフィー、トロフィーを掲げる。",
+    "example": { "en": "Our team won the trophy.", "ja": "私たちのチームがトロフィーを勝ち取った。" },
+    "etymology": {
+      "origin": "ギリシャ語 tropaion「敵が背を向けた記念」← tropē「向きを変えること」",
+      "story": "古代ギリシャで敵が「背を向けて逃げた」場所に、奪った武器を飾って勝利の記念にした。"
+    },
+    "roots": [],
+    "family": ["tropic（回帰線・同じ tropē から）"],
+    "synonyms": [
+      { "word": "cup", "meaning": "優勝カップ", "nuance": "杯の形の賞。", "etymology": "後期ラテン語 cuppa" },
+      { "word": "prize", "meaning": "賞", "nuance": "ごほうび全般。", "etymology": "ラテン語 pretium「価値」" }
+    ]
+  },
+  {
+    "id": "medal", "word": "medal", "katakana": "メダル", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "メダル",
+    "scene": "金メダル、メダリスト。",
+    "example": { "en": "She won a silver medal in the Olympics.", "ja": "彼女はオリンピックで銀メダルをとった。" },
+    "etymology": {
+      "origin": "フランス語 médaille ← イタリア語 medaglia ← 俗ラテン語 medālia「半ペニー硬貨」",
+      "story": "もとは小さな硬貨。そこから記念の金属片に。metal（金属）とも関係があるとされる。"
+    },
+    "roots": [],
+    "family": ["medalist（メダリスト）"],
+    "synonyms": [
+      { "word": "award", "meaning": "賞", "nuance": "与えられる賞。", "etymology": "古北フランス語 awarder" },
+      { "word": "badge", "meaning": "バッジ", "nuance": "身につけるしるし。", "etymology": "中英語 bage" }
+    ]
+  },
+  {
+    "id": "champion", "word": "champion", "katakana": "チャンピオン", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "優勝者、王者",
+    "scene": "世界チャンピオン、チャンピオンベルト。",
+    "example": { "en": "She is the national tennis champion.", "ja": "彼女はテニスの全国チャンピオンだ。" },
+    "etymology": {
+      "origin": "後期ラテン語 campiō「戦士」← campus「野原、戦場」",
+      "story": "「戦場で戦う者」。camp、campaign と同じ campus の家族。championship は「選手権」。"
+    },
+    "roots": ["camp"],
+    "family": ["championship（選手権）、camp（キャンプ）"],
+    "synonyms": [
+      { "word": "winner", "meaning": "勝者", "nuance": "勝った人。", "etymology": "win + -er" },
+      { "word": "titleholder", "meaning": "タイトル保持者", "nuance": "称号を持つ人。", "etymology": "title + holder" }
+    ]
+  },
+  {
+    "id": "record", "word": "record", "katakana": "レコード", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
+    "meaning": "記録、レコード、記録する",
+    "scene": "世界記録、レコード盤、録画。",
+    "example": { "en": "She broke the world record.", "ja": "彼女は世界記録を破った。" },
+    "etymology": {
+      "origin": "ラテン語 recordārī「思い出す」← re- + cor「心」",
+      "story": "「心に呼び戻す」→ 書き留める → 記録。cor（心）は courage（勇気）、core とも関係がある。"
+    },
+    "roots": [],
+    "family": ["recorder（リコーダー、録音機）"],
+    "synonyms": [
+      { "word": "document", "meaning": "記録文書", "nuance": "書類。", "etymology": "ラテン語 documentum" },
+      { "word": "archive", "meaning": "記録保管", "nuance": "保存された記録。", "etymology": "ギリシャ語 arkheion" }
+    ]
+  },
+  {
+    "id": "pitcher", "word": "pitcher", "katakana": "ピッチャー", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "投手、水差し",
+    "scene": "エースピッチャー、ビールのピッチャー。",
+    "example": { "en": "He is the best pitcher on the team.", "ja": "彼はチームで一番の投手だ。" },
+    "etymology": {
+      "origin": "pitch「投げる」+ -er。水差しは古フランス語 pichier から",
+      "story": "投手の pitcher と水差しの pitcher は語源が別。ビールの「ピッチャー」は水差しのほう。"
+    },
+    "roots": [],
+    "family": ["pitch（投げる、音の高さ）"],
+    "synonyms": [
+      { "word": "thrower", "meaning": "投げる人", "nuance": "投げる人一般。", "etymology": "throw + -er" },
+      { "word": "jug", "meaning": "水差し", "nuance": "取っ手つきの容器。", "etymology": "Joan の愛称とされる" }
+    ]
+  },
+  {
+    "id": "goalkeeper", "word": "goalkeeper", "katakana": "ゴールキーパー", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "ゴールキーパー",
+    "scene": "サッカーのGK、キーパー。",
+    "example": { "en": "The goalkeeper saved a penalty kick.", "ja": "ゴールキーパーがPKを止めた。" },
+    "etymology": {
+      "origin": "goal「ゴール」+ keeper「守る人」",
+      "story": "keeper は keep（守る）+ -er。略して keeper、goalie とも言う。"
+    },
+    "roots": [],
+    "family": ["keeper（番人）"],
+    "synonyms": [
+      { "word": "goalie", "meaning": "キーパー", "nuance": "くだけた言い方。", "etymology": "goal + -ie" },
+      { "word": "defender", "meaning": "ディフェンダー", "nuance": "守備の選手。", "etymology": "ラテン語 dēfendere" }
+    ]
+  },
+  {
+    "id": "referee", "word": "referee", "katakana": "レフェリー", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "審判",
+    "scene": "サッカーの審判、レフェリーストップ。",
+    "example": { "en": "The referee showed him a yellow card.", "ja": "審判は彼にイエローカードを出した。" },
+    "etymology": {
+      "origin": "refer「任せる、委ねる」+ -ee「〜される人」",
+      "story": "「判断を委ねられる人」。employee（雇われる人）の -ee と同じ。野球の審判は umpire。"
+    },
+    "roots": [],
+    "family": ["refer（参照する、委ねる）"],
+    "synonyms": [
+      { "word": "umpire", "meaning": "審判", "nuance": "野球・テニスの審判。", "etymology": "古フランス語 nonper「対等でない人」" },
+      { "word": "judge", "meaning": "審査員、裁判官", "nuance": "判定する人。", "etymology": "ラテン語 iūdex" }
+    ]
+  },
+  {
+    "id": "penalty", "word": "penalty", "katakana": "ペナルティ", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "罰、罰則、ペナルティ",
+    "scene": "ペナルティキック（PK）、延滞のペナルティ。",
+    "example": { "en": "There is a penalty for late payment.", "ja": "支払いが遅れると罰金がある。" },
+    "etymology": {
+      "origin": "中世ラテン語 poenālitās ← ラテン語 poena「罰」",
+      "story": "pain（痛み）、punish（罰する）、penal（刑罰の）も poena の家族。"
+    },
+    "roots": [],
+    "family": ["punish（罰する）、pain（痛み）"],
+    "synonyms": [
+      { "word": "punishment", "meaning": "罰", "nuance": "罰すること全般。", "etymology": "ラテン語 pūnīre" },
+      { "word": "fine", "meaning": "罰金", "nuance": "お金による罰。", "etymology": "ラテン語 fīnis「終わり（決着）」" }
+    ]
+  },
+  {
+    "id": "foul", "word": "foul", "katakana": "ファウル", "pos": "名詞・形容詞", "cefr": "B2", "level": 3,
+    "meaning": "反則、不正な、汚い",
+    "scene": "ファウルボール、「ファウル！」。",
+    "example": { "en": "He committed a foul in the second half.", "ja": "彼は後半に反則を犯した。" },
+    "etymology": {
+      "origin": "古英語 fūl「腐った、汚い」",
+      "story": "「汚い」→ ルール違反。foul smell（悪臭）のように「不快な」の意味もある。"
+    },
+    "roots": [],
+    "family": ["filth（汚物・同じ語根）"],
+    "synonyms": [
+      { "word": "violation", "meaning": "違反", "nuance": "規則を破ること。", "etymology": "ラテン語 violāre" },
+      { "word": "dirty", "meaning": "汚い", "nuance": "よごれた。", "etymology": "dirt + -y" }
+    ]
+  },
+  {
+    "id": "tackle", "word": "tackle", "katakana": "タックル", "pos": "名詞・動詞", "cefr": "B2", "level": 3,
+    "meaning": "タックル（する）、取り組む",
+    "scene": "ラグビーのタックル、問題に取り組む。",
+    "example": { "en": "We need to tackle this problem now.", "ja": "今この問題に取り組む必要がある。" },
+    "etymology": {
+      "origin": "中低地ドイツ語 takel「船の索具」",
+      "story": "もとは船の「ロープや滑車の道具」。釣り道具も tackle。「つかみかかる」→「問題に取り組む」に。"
+    },
+    "roots": [],
+    "family": ["fishing tackle（釣り道具）"],
+    "synonyms": [
+      { "word": "deal with", "meaning": "対処する", "nuance": "問題を処理する。", "etymology": "deal + with" },
+      { "word": "block", "meaning": "ブロックする", "nuance": "進路をふさぐ。", "etymology": "オランダ語 blok" }
+    ]
+  },
+  {
+    "id": "shoot", "word": "shoot", "katakana": "シュート", "pos": "動詞", "cefr": "A2", "level": 3,
+    "meaning": "撃つ、シュートする、撮影する",
+    "scene": "サッカーのシュート、撮影（シュート）。",
+    "gap": "サッカーやバスケの「シュート」は名詞では shot（a great shot）。shoot は動詞で「撃つ、シュートする、撮影する」。",
+    "trapQuiz": {"question": "「ナイスシュート！」を英語でいうと？", "answer": "Nice shot!", "wrong": ["Nice shoot!", "Good shooting ball!", "Nice shooter!"]},
+    "example": { "en": "He shot the ball into the net.", "ja": "彼はボールをネットにシュートした。" },
+    "etymology": {
+      "origin": "古英語 scēotan「すばやく動く、放つ」",
+      "story": "「すばやく放つ」→ 矢や弾を撃つ、ボールを打つ、写真を撮る（photo shoot）。植物の新芽も shoot。"
+    },
+    "roots": [],
+    "family": ["shot（一撃、シュート）"],
+    "synonyms": [
+      { "word": "fire", "meaning": "発射する", "nuance": "銃を撃つ。", "etymology": "古英語 fȳr" },
+      { "word": "score", "meaning": "得点する", "nuance": "点を入れる。", "etymology": "古ノルド語 skor" }
+    ]
+  },
+  {
+    "id": "serve", "word": "serve", "katakana": "サーブ", "pos": "動詞", "cefr": "A2", "level": 3,
+    "meaning": "仕える、（料理を）出す、サーブする",
+    "scene": "テニスのサーブ、ランチを出す。",
+    "example": { "en": "Dinner is served at seven.", "ja": "夕食は7時にお出しします。" },
+    "etymology": {
+      "origin": "古フランス語 servir ← ラテン語 servīre「仕える」← servus「召使い」",
+      "story": "「仕える」→ 料理を出す → テニスで球を「差し出す」。service、servant と同じ家族。"
+    },
+    "roots": [],
+    "family": ["service（サービス）、servant（召使い）"],
+    "synonyms": [
+      { "word": "offer", "meaning": "差し出す", "nuance": "提供する。", "etymology": "ラテン語 offerre" },
+      { "word": "wait on", "meaning": "給仕する", "nuance": "客の世話をする。", "etymology": "wait + on" }
+    ]
+  },
+  {
+    "id": "smash", "word": "smash", "katakana": "スマッシュ", "pos": "名詞・動詞", "cefr": "B2", "level": 3,
+    "meaning": "粉々にする、強打、大ヒット",
+    "scene": "テニスのスマッシュ、スマッシュヒット。",
+    "example": { "en": "The movie was a smash hit.", "ja": "その映画は大ヒットだった。" },
+    "etymology": {
+      "origin": "18世紀の英語（擬音語とされる）",
+      "story": "「ガシャン」とたたき割る音から。強打・大成功の意味にも。"
+    },
+    "roots": [],
+    "family": ["smash hit（大ヒット）"],
+    "synonyms": [
+      { "word": "crush", "meaning": "押しつぶす", "nuance": "力でつぶす。", "etymology": "古フランス語 cruisir" },
+      { "word": "shatter", "meaning": "粉々に割る", "nuance": "ガラスなどが砕ける。", "etymology": "中英語 schateren" }
+    ]
+  },
+  {
+    "id": "rally", "word": "rally", "katakana": "ラリー", "pos": "名詞・動詞", "cefr": "B2", "level": 3,
+    "meaning": "打ち合い、集会、立て直す",
+    "scene": "テニスのラリー、自動車ラリー、決起集会。",
+    "example": { "en": "Thousands of people joined the rally.", "ja": "何千人もの人がその集会に参加した。" },
+    "etymology": {
+      "origin": "フランス語 rallier「再び集める」← re- + allier「結びつける」",
+      "story": "散らばった兵を「再び集める」→ 集会、持ち直す。テニスの打ち合いも「行ったり来たり続く」ことから。ally（同盟する）と同じ家族。"
+    },
+    "roots": [],
+    "family": ["ally（同盟国）"],
+    "synonyms": [
+      { "word": "gathering", "meaning": "集会", "nuance": "人の集まり。", "etymology": "gather + -ing" },
+      { "word": "recover", "meaning": "持ち直す", "nuance": "回復する。", "etymology": "ラテン語 recuperāre" }
+    ]
+  },
+  {
+    "id": "relay", "word": "relay", "katakana": "リレー", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "リレー、中継",
+    "scene": "運動会のリレー、中継放送。",
+    "example": { "en": "Our class won the relay race.", "ja": "私たちのクラスがリレーで勝った。" },
+    "etymology": {
+      "origin": "古フランス語 relaier「（猟犬や馬を）交代させる」",
+      "story": "狩りで疲れた犬や馬を、新しいものに取り替えて走らせたことから。情報の中継にも使う。"
+    },
+    "roots": [],
+    "family": ["relay station（中継局）"],
+    "synonyms": [
+      { "word": "baton", "meaning": "バトン", "nuance": "リレーで渡す棒。", "etymology": "フランス語 bâton「棒」" },
+      { "word": "broadcast", "meaning": "放送", "nuance": "番組を流すこと。", "etymology": "broad + cast" }
+    ]
+  },
+  {
+    "id": "course", "word": "course", "katakana": "コース", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "進路、講座、（料理の）一品",
+    "scene": "マラソンコース、フルコース、英会話コース。",
+    "example": { "en": "I'm taking an English course online.", "ja": "オンラインで英語の講座を受けている。" },
+    "etymology": {
+      "origin": "古フランス語 cours ← ラテン語 cursus「走ること」← currere「走る」",
+      "story": "「走ること」→ 進む道 → 学習の道筋 → 料理の順番。current（流れ）、cursor（カーソル）も同じ家族。Of course.（もちろん）は「当然の成り行き」から。"
+    },
+    "roots": [],
+    "family": ["current（流れ）、cursor（カーソル）"],
+    "synonyms": [
+      { "word": "route", "meaning": "経路", "nuance": "通る道。", "etymology": "古フランス語 rute" },
+      { "word": "class", "meaning": "講座", "nuance": "授業。", "etymology": "ラテン語 classis" }
+    ]
+  },
+  {
+    "id": "lane", "word": "lane", "katakana": "レーン", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "車線、小道、コース",
+    "scene": "ボウリングのレーン、プールのコース、自転車レーン。",
+    "example": { "en": "Stay in your lane.", "ja": "自分の車線（コース）を守って。" },
+    "etymology": {
+      "origin": "古英語 lanu「小道」",
+      "story": "田舎の小道から、車線や競技のコースに。Stay in your lane. は口語で「自分の領分をわきまえて」。"
+    },
+    "roots": [],
+    "family": ["lane change（車線変更）"],
+    "synonyms": [
+      { "word": "path", "meaning": "小道", "nuance": "歩く道。", "etymology": "古英語 pæþ" },
+      { "word": "track", "meaning": "トラック", "nuance": "競技の走路。", "etymology": "古フランス語 trac「跡」" }
+    ]
+  },
+  {
+    "id": "costume", "word": "costume", "katakana": "コスチューム", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "衣装、仮装",
+    "scene": "ハロウィンのコスチューム、コスプレ。",
+    "example": { "en": "The kids wore Halloween costumes.", "ja": "子どもたちはハロウィンの仮装をした。" },
+    "etymology": {
+      "origin": "イタリア語 costume「習慣、服装」← ラテン語 cōnsuētūdō「慣習」",
+      "story": "「習慣」→ その時代や土地の服装 → 衣装。custom（習慣）と同じ語。「コスプレ」は costume play の和製略語。"
+    },
+    "roots": [],
+    "family": ["custom（習慣）"],
+    "synonyms": [
+      { "word": "outfit", "meaning": "服装一式", "nuance": "組み合わせた服。", "etymology": "out + fit" },
+      { "word": "disguise", "meaning": "変装", "nuance": "正体を隠す装い。", "etymology": "古フランス語 desguisier" }
+    ]
+  },
+  {
+    "id": "makeup", "word": "makeup", "katakana": "メイク", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "化粧、メイク",
+    "scene": "メイク道具、ナチュラルメイク。",
+    "example": { "en": "She doesn't wear much makeup.", "ja": "彼女はあまり化粧をしない。" },
+    "etymology": {
+      "origin": "make「作る」+ up「仕上げて」",
+      "story": "顔を「作り上げる」もの。動詞では make up（化粧する、仲直りする、作り話をする）。"
+    },
+    "roots": [],
+    "family": ["make up（化粧する、仲直りする）"],
+    "synonyms": [
+      { "word": "cosmetics", "meaning": "化粧品", "nuance": "化粧品全般。", "etymology": "ギリシャ語 kosmos「秩序、飾り」" },
+      { "word": "foundation", "meaning": "ファンデーション", "nuance": "下地の化粧品。", "etymology": "ラテン語 fundāre" }
+    ]
+  },
+  {
+    "id": "nail", "word": "nail", "katakana": "ネイル", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "爪、くぎ",
+    "scene": "ネイルサロン、ネイルアート。",
+    "example": { "en": "She painted her nails pink.", "ja": "彼女は爪をピンクに塗った。" },
+    "etymology": {
+      "origin": "古英語 nægl「爪、くぎ」",
+      "story": "爪とくぎは同じ語。hit the nail on the head（くぎの頭を打つ）は「的を射る」。"
+    },
+    "roots": [],
+    "family": ["fingernail（指の爪）"],
+    "synonyms": [
+      { "word": "claw", "meaning": "（動物の）かぎ爪", "nuance": "鋭い爪。", "etymology": "古英語 clawu" },
+      { "word": "manicure", "meaning": "ネイルケア", "nuance": "手と爪の手入れ。", "etymology": "ラテン語 manus + cūra" }
+    ]
+  },
+  {
+    "id": "accessory", "word": "accessory", "katakana": "アクセサリー", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "装身具、付属品",
+    "scene": "アクセサリーショップ、スマホアクセサリー。",
+    "example": { "en": "This shop sells phone accessories.", "ja": "この店はスマホの付属品を売っている。" },
+    "etymology": {
+      "origin": "中世ラテン語 accessōrius「付け加わるもの」← accēdere「近づく、加わる」",
+      "story": "「追加されるもの」。服の「アクセサリー」も「付属品」も同じ語。access と同じ家族。"
+    },
+    "roots": ["ced"],
+    "family": ["access（アクセス）"],
+    "synonyms": [
+      { "word": "jewelry", "meaning": "宝飾品", "nuance": "宝石・貴金属の飾り。", "etymology": "古フランス語 jouel" },
+      { "word": "add-on", "meaning": "追加機能", "nuance": "付け足し。", "etymology": "add + on" }
+    ]
+  },
+  {
+    "id": "necklace", "word": "necklace", "katakana": "ネックレス", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "首飾り",
+    "scene": "パールのネックレス。",
+    "example": { "en": "She wore a gold necklace.", "ja": "彼女は金のネックレスをつけていた。" },
+    "etymology": {
+      "origin": "neck「首」+ lace「ひも」",
+      "story": "「首のひも」。lace（レース、ひも）はラテン語 laqueus「わな、輪なわ」から。"
+    },
+    "roots": [],
+    "family": ["lace（レース、ひも）"],
+    "synonyms": [
+      { "word": "pendant", "meaning": "ペンダント", "nuance": "下げ飾り。", "etymology": "ラテン語 pendēre「ぶら下がる」" },
+      { "word": "chain", "meaning": "鎖", "nuance": "金属の輪をつないだもの。", "etymology": "ラテン語 catēna" }
+    ]
+  },
+  {
+    "id": "bracelet", "word": "bracelet", "katakana": "ブレスレット", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "腕輪",
+    "scene": "ミサンガ、ブレスレット。",
+    "example": { "en": "He gave her a silver bracelet.", "ja": "彼は彼女に銀のブレスレットを贈った。" },
+    "etymology": {
+      "origin": "古フランス語 bracel「小さな腕輪」← ラテン語 bracchium「腕」",
+      "story": "「腕」の語から。embrace（抱きしめる＝腕に入れる）も同じ家族。"
+    },
+    "roots": [],
+    "family": ["embrace（抱きしめる）"],
+    "synonyms": [
+      { "word": "bangle", "meaning": "バングル", "nuance": "固い腕輪。", "etymology": "ヒンディー語 baṅglī" },
+      { "word": "wristband", "meaning": "リストバンド", "nuance": "手首に巻く帯。", "etymology": "wrist + band" }
+    ]
+  },
+  {
+    "id": "pouch", "word": "pouch", "katakana": "ポーチ", "pos": "名詞", "cefr": "B2", "level": 3,
+    "meaning": "小袋、ポーチ",
+    "scene": "化粧ポーチ、カンガルーの袋。",
+    "example": { "en": "I keep my pens in a small pouch.", "ja": "ペンを小さなポーチに入れている。" },
+    "etymology": {
+      "origin": "古北フランス語 pouche「袋」",
+      "story": "pocket（ポケット）と同じ系統の語。カンガルーのおなかの袋も pouch。家の「ポーチ（玄関先）」は porch で別の語。"
+    },
+    "roots": [],
+    "family": ["pocket（ポケット）"],
+    "synonyms": [
+      { "word": "purse", "meaning": "財布", "nuance": "小銭入れ。", "etymology": "ギリシャ語 byrsa" },
+      { "word": "case", "meaning": "ケース", "nuance": "入れ物。", "etymology": "ラテン語 capsa" }
+    ]
+  },
+  {
+    "id": "drive", "word": "drive", "katakana": "ドライブ", "pos": "名詞・動詞", "cefr": "A1", "level": 3,
+    "meaning": "運転する、ドライブ、原動力",
+    "scene": "海までドライブ、USBドライブ。",
+    "example": { "en": "Let's go for a drive this weekend.", "ja": "今週末ドライブに行こう。" },
+    "etymology": {
+      "origin": "古英語 drīfan「追い立てる」",
+      "story": "家畜を追う → 車を走らせる。「やる気・原動力」も drive。パソコンのドライブは記録盤を回して動かす装置。"
+    },
+    "roots": [],
+    "family": ["driver（運転手）"],
+    "synonyms": [
+      { "word": "ride", "meaning": "乗ること", "nuance": "乗り物に乗る。", "etymology": "古英語 rīdan" },
+      { "word": "motivation", "meaning": "やる気", "nuance": "動機。", "etymology": "ラテン語 movēre" }
+    ]
+  },
+  {
+    "id": "trip", "word": "trip", "katakana": "トリップ", "pos": "名詞", "cefr": "A1", "level": 3,
+    "meaning": "旅行、つまずく",
+    "scene": "日帰り旅行（day trip）、修学旅行。",
+    "example": { "en": "We took a trip to Kyoto.", "ja": "京都へ旅行した。" },
+    "etymology": {
+      "origin": "古フランス語 triper「跳ねる、踊る」",
+      "story": "「軽い足取りで出かける」→ 短い旅。つまずく（trip over）も同じ語。"
+    },
+    "roots": [],
+    "family": ["tripwire（仕掛け線）"],
+    "synonyms": [
+      { "word": "journey", "meaning": "旅", "nuance": "長い道のり。", "etymology": "古フランス語 jornee" },
+      { "word": "tour", "meaning": "ツアー", "nuance": "見て回る旅。", "etymology": "古フランス語 tour" }
+    ]
+  },
+  {
+    "id": "gift", "word": "gift", "katakana": "ギフト", "pos": "名詞", "cefr": "A1", "level": 3,
+    "meaning": "贈り物、才能",
+    "scene": "ギフトカード、ギフトショップ。",
+    "example": { "en": "Thank you for the lovely gift.", "ja": "すてきな贈り物をありがとう。" },
+    "etymology": {
+      "origin": "古英語・古ノルド語 gift ← give「与える」",
+      "story": "「与えられたもの」。才能も「神からの贈り物」。ドイツ語の Gift は「毒」になっている（「与えるもの＝服用量」から）。"
+    },
+    "roots": [],
+    "family": ["give（与える）、gifted（才能のある）"],
+    "synonyms": [
+      { "word": "present", "meaning": "プレゼント", "nuance": "贈り物。", "etymology": "ラテン語 praesēns" },
+      { "word": "talent", "meaning": "才能", "nuance": "生まれつきの力。", "etymology": "ギリシャ語 talanton" }
+    ]
+  },
+  {
+    "id": "surprise", "word": "surprise", "katakana": "サプライズ", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
+    "meaning": "驚き、驚かせる",
+    "scene": "サプライズパーティー、サプライズプレゼント。",
+    "example": { "en": "We threw her a surprise party.", "ja": "彼女のためにサプライズパーティーを開いた。" },
+    "etymology": {
+      "origin": "古フランス語 surprise「不意につかまえること」← sur-「上から」+ prendre「つかむ」",
+      "story": "「上から不意につかむ」。prison（牢獄）、comprehend（理解する）も prendre（ラテン語 prehendere）の家族。"
+    },
+    "roots": [],
+    "family": ["comprehend（理解する）"],
+    "synonyms": [
+      { "word": "shock", "meaning": "衝撃", "nuance": "悪い驚き。", "etymology": "フランス語 choc" },
+      { "word": "astonish", "meaning": "びっくりさせる", "nuance": "強く驚かせる。", "etymology": "古フランス語 estoner「雷で打つ」" }
+    ]
+  },
+  {
+    "id": "balloon", "word": "balloon", "katakana": "バルーン", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "風船、気球",
+    "scene": "風船、熱気球（hot-air balloon）。",
+    "example": { "en": "The child let go of her balloon.", "ja": "子どもが風船を放してしまった。" },
+    "etymology": {
+      "origin": "イタリア語 ballone「大きな球」← balla「球」",
+      "story": "「大きな球」。ball と同じ語根。"
+    },
+    "roots": [],
+    "family": ["ball（ボール）"],
+    "synonyms": [
+      { "word": "bubble", "meaning": "泡", "nuance": "空気の玉。", "etymology": "擬音語" },
+      { "word": "blimp", "meaning": "飛行船", "nuance": "小型の飛行船。", "etymology": "由来不明" }
+    ]
+  },
+  {
+    "id": "snack", "word": "snack", "katakana": "スナック", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "軽食、おやつ",
+    "scene": "スナック菓子、おやつタイム。",
+    "gap": "日本語の「スナック（店）」はお酒を出す小さな飲み屋のことだが、英語の snack は「軽食・おやつ」だけ。飲み屋なら bar。",
+    "trapQuiz": {"question": "英語で Let's have a snack. と言ったら、何をしようと誘っている？", "answer": "軽く何か食べよう", "wrong": ["飲み屋に行こう", "ポテチを買おう", "夕食を作ろう"]},
+    "example": { "en": "I had a snack after school.", "ja": "放課後におやつを食べた。" },
+    "etymology": {
+      "origin": "中オランダ語 snacken「パクッとかむ」",
+      "story": "「さっとかじるもの」→ 軽食。"
+    },
+    "roots": [],
+    "family": ["snack bar（軽食堂）"],
+    "synonyms": [
+      { "word": "refreshment", "meaning": "軽い飲食物", "nuance": "会合で出す茶菓。", "etymology": "refresh + -ment" },
+      { "word": "bite", "meaning": "ひと口", "nuance": "a bite to eat で軽い食事。", "etymology": "古英語 bītan" }
+    ]
+  },
+  {
+    "id": "dessert", "word": "dessert", "katakana": "デザート", "pos": "名詞", "cefr": "A1", "level": 3,
+    "meaning": "デザート",
+    "scene": "デザートビュッフェ、食後のデザート。",
+    "example": { "en": "What would you like for dessert?", "ja": "デザートは何にしますか？" },
+    "etymology": {
+      "origin": "フランス語 dessert ← desservir「食卓を片づける」",
+      "story": "料理の皿を下げたあとに出すもの。desert（砂漠）とつづりが s 1つ違い。「s が2つ（sweet stuff）は甘いもの」と覚える。"
+    },
+    "roots": [],
+    "family": ["serve（出す）"],
+    "synonyms": [
+      { "word": "sweets", "meaning": "甘いもの", "nuance": "お菓子。", "etymology": "sweet の複数形" },
+      { "word": "pudding", "meaning": "（英）デザート", "nuance": "イギリスでの言い方。", "etymology": "中英語 poding" }
+    ]
+  },
+  {
+    "id": "sweets", "word": "sweets", "katakana": "スイーツ", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "（英）お菓子、甘いもの",
+    "scene": "コンビニスイーツ、スイーツ巡り。",
+    "example": { "en": "Don't eat too many sweets.", "ja": "甘いものを食べすぎないで。" },
+    "etymology": {
+      "origin": "sweet「甘い」の複数形",
+      "story": "イギリスではキャンディやチョコなどのお菓子。アメリカでは candy がふつう。日本の「スイーツ」のようなケーキ類は desserts / pastries と言うことが多い。"
+    },
+    "roots": [],
+    "family": ["sweet（甘い）"],
+    "synonyms": [
+      { "word": "candy", "meaning": "（米）お菓子", "nuance": "アメリカでの言い方。", "etymology": "アラビア語 qandī" },
+      { "word": "dessert", "meaning": "デザート", "nuance": "食後の甘いもの。", "etymology": "フランス語" }
+    ]
+  },
+  {
+    "id": "takeout", "word": "takeout", "katakana": "テイクアウト", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "持ち帰り（の料理）",
+    "scene": "テイクアウト可、お持ち帰り。",
+    "example": { "en": "Let's get takeout tonight.", "ja": "今夜は持ち帰りの料理にしよう。" },
+    "etymology": {
+      "origin": "take「持つ」+ out「外へ」",
+      "story": "イギリスでは takeaway。店で「持ち帰りで」は To go, please.（米）とも言う。"
+    },
+    "roots": [],
+    "family": ["take（取る）"],
+    "synonyms": [
+      { "word": "to go", "meaning": "持ち帰りで", "nuance": "注文時の言い方（米）。", "etymology": "to + go" },
+      { "word": "takeaway", "meaning": "（英）持ち帰り", "nuance": "イギリスでの言い方。", "etymology": "take + away" }
+    ]
+  },
+  {
+    "id": "coupon", "word": "coupon", "katakana": "クーポン", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "割引券、クーポン",
+    "scene": "クーポン券、アプリのクーポン。",
+    "example": { "en": "I used a coupon to get 20% off.", "ja": "クーポンを使って2割引にしてもらった。" },
+    "etymology": {
+      "origin": "フランス語 coupon「切り取ったもの」← couper「切る」",
+      "story": "券を「切り取って」使うことから。coup（一撃）と同じ語根。"
+    },
+    "roots": [],
+    "family": ["coup（一撃、クーデター）"],
+    "synonyms": [
+      { "word": "voucher", "meaning": "引換券", "nuance": "商品と交換できる券。", "etymology": "vouch「保証する」" },
+      { "word": "discount", "meaning": "割引", "nuance": "値引き。", "etymology": "dis- + count" }
+    ]
+  },
+  {
+    "id": "rental", "word": "rental", "katakana": "レンタル", "pos": "名詞・形容詞", "cefr": "B1", "level": 3,
+    "meaning": "賃貸、レンタル",
+    "scene": "レンタカー、レンタル自転車。",
+    "example": { "en": "We got a rental car at the airport.", "ja": "空港でレンタカーを借りた。" },
+    "etymology": {
+      "origin": "rent「賃借りする」+ -al ← 古フランス語 rente「収入」",
+      "story": "rent はもともと「決まって入ってくる収入」。家賃も rent。"
+    },
+    "roots": [],
+    "family": ["rent（家賃、借りる）"],
+    "synonyms": [
+      { "word": "lease", "meaning": "賃貸借", "nuance": "長期の貸し借り。", "etymology": "古フランス語 lesser「任せる」" },
+      { "word": "hire", "meaning": "（英）賃借り", "nuance": "イギリスでは車の貸し借りに。", "etymology": "古英語 hȳr" }
+    ]
+  },
+  {
+    "id": "store", "word": "store", "katakana": "ストア", "pos": "名詞・動詞", "cefr": "A1", "level": 3,
+    "meaning": "店、たくわえる",
+    "scene": "アップストア、ストアの営業時間。",
+    "example": { "en": "I stored the photos on my computer.", "ja": "写真をパソコンに保存した。" },
+    "etymology": {
+      "origin": "古フランス語 estor「たくわえ」← ラテン語 instaurāre「備える」",
+      "story": "「たくわえ」→ たくわえた物を売る所＝店。storage（保管）も同じ語。"
+    },
+    "roots": [],
+    "family": ["storage（保管）"],
+    "synonyms": [
+      { "word": "shop", "meaning": "店", "nuance": "イギリスでよく使う。", "etymology": "古英語 sceoppa" },
+      { "word": "keep", "meaning": "しまっておく", "nuance": "保管する。", "etymology": "古英語 cēpan" }
+    ]
+  },
+  {
+    "id": "mall", "word": "mall", "katakana": "モール", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "ショッピングモール",
+    "scene": "ショッピングモール、アウトレットモール。",
+    "example": { "en": "We went shopping at the mall.", "ja": "モールに買い物に行った。" },
+    "etymology": {
+      "origin": "ロンドンの並木道 The Mall ← 球技 pall-mall の競技場",
+      "story": "17世紀の球技「ペルメル」をした細長い並木道の名前から、遊歩道 → 商店街 → ショッピングモールに。"
+    },
+    "roots": [],
+    "family": ["pall-mall（ペルメル・昔の球技）"],
+    "synonyms": [
+      { "word": "shopping center", "meaning": "ショッピングセンター", "nuance": "店の集まった施設。", "etymology": "shopping + center" },
+      { "word": "arcade", "meaning": "アーケード", "nuance": "屋根つきの商店街。", "etymology": "ラテン語 arcus「弓」" }
+    ]
+  },
+  {
+    "id": "rush", "word": "rush", "katakana": "ラッシュ", "pos": "名詞・動詞", "cefr": "B1", "level": 3,
+    "meaning": "急ぐ、殺到、混雑",
+    "scene": "通勤ラッシュ、ゴールドラッシュ。",
+    "example": { "en": "I'm in a rush. Can we talk later?", "ja": "急いでるんだ。あとで話せる？" },
+    "etymology": {
+      "origin": "古フランス語 ruser「追い払う」",
+      "story": "「勢いよく突進する」→ 急ぐ、殺到。通勤時の混雑は rush hour。"
+    },
+    "roots": [],
+    "family": ["rush hour（ラッシュアワー）"],
+    "synonyms": [
+      { "word": "hurry", "meaning": "急ぐ", "nuance": "あわてて急ぐ。", "etymology": "中英語 horyen" },
+      { "word": "crowd", "meaning": "混雑", "nuance": "人の群れ。", "etymology": "古英語 crūdan" }
+    ]
+  },
+  {
+    "id": "timing", "word": "timing", "katakana": "タイミング", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "タイミング、時機",
+    "scene": "「タイミングが悪い」、ベストタイミング。",
+    "example": { "en": "Your timing is perfect!", "ja": "ちょうどいいタイミングだね！" },
+    "etymology": {
+      "origin": "time「時」+ -ing",
+      "story": "「時を合わせること」。Timing is everything.（タイミングがすべて）はよく使う言い方。"
+    },
+    "roots": [],
+    "family": ["time（時間）"],
+    "synonyms": [
+      { "word": "moment", "meaning": "瞬間", "nuance": "ある時点。", "etymology": "ラテン語 mōmentum" },
+      { "word": "occasion", "meaning": "機会", "nuance": "ちょうどよい時。", "etymology": "ラテン語 occāsiō" }
+    ]
+  },
+  {
+    "id": "pace", "word": "pace", "katakana": "ペース", "pos": "名詞", "cefr": "B1", "level": 3,
+    "meaning": "歩調、速さ、ペース",
+    "scene": "マイペース（和製英語）、ハイペース。",
+    "gap": "「マイペース」は和製英語。英語で my pace とはあまり言わない。「マイペースな人」は someone who does things at their own pace / easygoing person。",
+    "trapQuiz": {"question": "「彼はマイペースだ」に近い英語は？", "answer": "He does things at his own pace.", "wrong": ["He is my pace.", "He is a my-pace man.", "He is pace-my."]},
+    "example": { "en": "Walk at your own pace.", "ja": "自分のペースで歩いて。" },
+    "etymology": {
+      "origin": "古フランス語 pas「歩み」← ラテン語 passus",
+      "story": "「一歩」→ 歩く速さ。pass（通る）と同じ passus の家族。"
+    },
+    "roots": [],
+    "family": ["pass（通る）"],
+    "synonyms": [
+      { "word": "speed", "meaning": "速さ", "nuance": "速度。", "etymology": "古英語 spēd" },
+      { "word": "tempo", "meaning": "テンポ", "nuance": "音楽や物事の速さ。", "etymology": "イタリア語 tempo" }
+    ]
   }
 ]
