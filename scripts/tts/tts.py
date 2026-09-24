@@ -68,7 +68,9 @@ def build_utterances():
         items[key] = {"lang": lang, "text": text, "tier": tier}
 
     for w in words:
-        add(f"{w['id']}.word", "en", w["word"])
+        # 英語以外の形（lang がある語）はアプリがブラウザの読み上げでその言語の発音にする
+        if "lang" not in w:
+            add(f"{w['id']}.word", "en", w["word"])
         add(f"{w['id']}.katakana", "ja", ja_for_speech(w["katakana"]))
         add(f"{w['id']}.meaning", "ja", ja_for_speech(w["meaning"]))
         add(f"{w['id']}.example.en", "en", w["example"]["en"])

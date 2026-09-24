@@ -48,7 +48,7 @@ python3 -m unittest discover -s scripts/tts         # 音声パイプライン�
 注意点：
 
 - レベル（`level`）は英検の級に対応する（1=5級 … 7=1級）。英語としての難しさで決め、ジャンルでは分けない。
-- カタカナが同じになる語（staff / stuff、bus / bath など）は、必ず `data/pairs.json` のどこかのセットに入れる（`build_wordlist.py` が確認する）。
+- カタカナが同じになる語（staff / stuff、bus / bath など）は、必ず `data/pairs.json` のどこかのセットに入れる（`build_wordlist.py` が確認する）。ただし、同じ名前の別の言語形（`group` が同じ Michel / Michelle など）と、大文字・小文字だけがちがう同じつづりの語（echo / 神話の Echo など）は空所補充で区別できないので、セットにしなくてよい。
 - 語源は Online Etymology Dictionary などの一般的な説に基づいて書き、諸説ある語はその旨を書く。
 - README や `docs/` に書いてある語数などの数字が変わったら、あわせて更新する。
 
