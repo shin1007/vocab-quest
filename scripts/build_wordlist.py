@@ -22,18 +22,15 @@ PAIR_KINDS = {
     "spelling": "✍️ つづりが似ている",
     "derived": "🧬 形が似た派生語",
 }
-# コースはこのアプリ独自のレベル（app/app.js の COURSES と同じ）
+# コースは英検の級に合わせたレベル（app/app.js の COURSES と同じ。level 1=5級 … 7=1級）
 COURSES = {
-    1: "Lv.1 ひと目でわかる",
-    2: "Lv.2 くらしの定番",
-    3: "Lv.3 よく使う",
-    4: "Lv.4 話が広がる",
-    5: "Lv.5 よく見聞きする",
-    6: "Lv.6 社会の話題",
-    7: "Lv.7 大人の日常語",
-    8: "Lv.8 ビジネス",
-    9: "Lv.9 教養",
-    10: "Lv.10 マスター",
+    1: "5級 はじめの一歩",
+    2: "4級 くらしの基本",
+    3: "3級 中学卒業",
+    4: "準2級 高校なかば",
+    5: "2級 高校卒業",
+    6: "準1級 大学なかば",
+    7: "1級 マスター",
 }
 CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"]
 REQUIRED = ["id", "word", "katakana", "pos", "cefr", "level", "meaning", "scene",
@@ -106,9 +103,9 @@ def render():
         f"収録語数: **{len(WORDS)} 語**（類義語 {sum(len(w['synonyms']) for w in WORDS)} 語） / "
         f"語根ファミリー: **{len(ROOTS)} 種** / 似た単語セット: **{len(PAIRS)} セット**",
         "",
-        "レベル別: " + " / ".join(f"Lv.{key} {sum(w['level'] == key for w in WORDS)}語" for key in COURSES),
+        "レベル別: " + " / ".join(f"{COURSES[key].split()[0]} {sum(w['level'] == key for w in WORDS)}語" for key in COURSES),
         "",
-        "> レベルはこのアプリ独自の分け方です（カタカナとしてのなじみやすさと、英語の難しさで決めています）。",
+        "> レベルは英検の級にあわせたおおよその目安です（英語としての難しさで分けています）。",
         "",
         "凡例: ⚠️ = カタカナの罠（日本語での意味と英語の意味がずれている語）",
         "",
@@ -158,7 +155,7 @@ def render():
         out += [f"### {label}", "", "| レベル | 単語 | ここがちがう |", "|---|---|---|"]
         for p in sorted((p for p in PAIRS if p["kind"] == kind), key=lambda p: p["level"]):
             ws = "<br>".join(f"**{x['word']}** /{x['ipa']}/ {x['meaning']}" for x in p["words"])
-            out.append(f"| Lv.{p['level']} | {ws} | {p['point']} |")
+            out.append(f"| {COURSES[p['level']].split()[0]} | {ws} | {p['point']} |")
         out.append("")
 
     out += ["## 語根ファミリー一覧", "", "| 語根 | 意味 | 由来 | 収録語 | その他の仲間 |", "|---|---|---|---|---|"]

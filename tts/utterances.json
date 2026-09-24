@@ -1,4 +1,34 @@
 {
+ "absorb.example.en": {
+  "lang": "en",
+  "text": "He was absorbed in the game for hours.",
+  "tier": "core"
+ },
+ "absorb.example.ja": {
+  "lang": "ja",
+  "text": "彼は何時間もゲームに夢中になっていた。",
+  "tier": "core"
+ },
+ "absorb.katakana": {
+  "lang": "ja",
+  "text": "アブソーブ",
+  "tier": "core"
+ },
+ "absorb.meaning": {
+  "lang": "ja",
+  "text": "吸収する、夢中にさせる",
+  "tier": "core"
+ },
+ "absorb.story": {
+  "lang": "ja",
+  "text": "「吸い込んで見えなくする」が原義。sorbet シャーベット も「すする飲み物」と関係がある。",
+  "tier": "extended"
+ },
+ "absorb.word": {
+  "lang": "en",
+  "text": "absorb",
+  "tier": "core"
+ },
  "access.example.en": {
   "lang": "en",
   "text": "All students have access to the library.",
@@ -299,6 +329,36 @@
   "text": "agile",
   "tier": "core"
  },
+ "agility.example.en": {
+  "lang": "en",
+  "text": "Cats are known for their agility.",
+  "tier": "core"
+ },
+ "agility.example.ja": {
+  "lang": "ja",
+  "text": "猫は身のこなしのすばやさで知られている。",
+  "tier": "core"
+ },
+ "agility.katakana": {
+  "lang": "ja",
+  "text": "アジリティ",
+  "tier": "core"
+ },
+ "agility.meaning": {
+  "lang": "ja",
+  "text": "敏しょうさ、すばやさ",
+  "tier": "core"
+ },
+ "agility.story": {
+  "lang": "ja",
+  "text": "agile すばやい の名詞形。act、agent と同じ ag- 動かす の仲間。",
+  "tier": "extended"
+ },
+ "agility.word": {
+  "lang": "en",
+  "text": "agility",
+  "tier": "core"
+ },
  "airline.example.en": {
   "lang": "en",
   "text": "Which airline are you flying with?",
@@ -417,6 +477,36 @@
  "album.word": {
   "lang": "en",
   "text": "album",
+  "tier": "core"
+ },
+ "alchemist.example.en": {
+  "lang": "en",
+  "text": "The alchemist tried to turn lead into gold.",
+  "tier": "core"
+ },
+ "alchemist.example.ja": {
+  "lang": "ja",
+  "text": "錬金術師は鉛を金に変えようとした。",
+  "tier": "core"
+ },
+ "alchemist.katakana": {
+  "lang": "ja",
+  "text": "アルケミスト",
+  "tier": "core"
+ },
+ "alchemist.meaning": {
+  "lang": "ja",
+  "text": "錬金術師",
+  "tier": "core"
+ },
+ "alchemist.story": {
+  "lang": "ja",
+  "text": "al はアラビア語の定冠詞。al を取った chemistry 化学 は錬金術から生まれた学問。",
+  "tier": "extended"
+ },
+ "alchemist.word": {
+  "lang": "en",
+  "text": "alchemist",
   "tier": "core"
  },
  "alcohol.example.en": {
@@ -539,6 +629,36 @@
   "text": "alliance",
   "tier": "core"
  },
+ "altar.example.en": {
+  "lang": "en",
+  "text": "They placed flowers on the altar.",
+  "tier": "core"
+ },
+ "altar.example.ja": {
+  "lang": "ja",
+  "text": "彼らは祭壇に花を供えた。",
+  "tier": "core"
+ },
+ "altar.katakana": {
+  "lang": "ja",
+  "text": "アルター",
+  "tier": "core"
+ },
+ "altar.meaning": {
+  "lang": "ja",
+  "text": "祭壇",
+  "tier": "core"
+ },
+ "altar.story": {
+  "lang": "ja",
+  "text": "「高く盛り上げた台」から。altitude 高度 、alto アルト も altus の仲間。alter 変える とは別の語。",
+  "tier": "extended"
+ },
+ "altar.word": {
+  "lang": "en",
+  "text": "altar",
+  "tier": "core"
+ },
  "aluminum.example.en": {
   "lang": "en",
   "text": "Aluminum cans can be recycled.",
@@ -657,6 +777,36 @@
  "amenity.word": {
   "lang": "en",
   "text": "amenity",
+  "tier": "core"
+ },
+ "amulet.example.en": {
+  "lang": "en",
+  "text": "She wore an amulet to protect her from evil.",
+  "tier": "core"
+ },
+ "amulet.example.ja": {
+  "lang": "ja",
+  "text": "彼女は魔よけのお守りを身につけていた。",
+  "tier": "core"
+ },
+ "amulet.katakana": {
+  "lang": "ja",
+  "text": "アミュレット",
+  "tier": "core"
+ },
+ "amulet.meaning": {
+  "lang": "ja",
+  "text": "お守り、護符",
+  "tier": "core"
+ },
+ "amulet.story": {
+  "lang": "ja",
+  "text": "ラテン語の語源ははっきりしない。古代ローマの博物学者プリニウスの著作に出てくる。",
+  "tier": "extended"
+ },
+ "amulet.word": {
+  "lang": "en",
+  "text": "amulet",
   "tier": "core"
  },
  "anachronism.example.en": {
@@ -807,6 +957,36 @@
  "android.word": {
   "lang": "en",
   "text": "android",
+  "tier": "core"
+ },
+ "angel.example.en": {
+  "lang": "en",
+  "text": "Thank you for helping me. You're an angel!",
+  "tier": "core"
+ },
+ "angel.example.ja": {
+  "lang": "ja",
+  "text": "助けてくれてありがとう。あなたは天使だね！",
+  "tier": "core"
+ },
+ "angel.katakana": {
+  "lang": "ja",
+  "text": "エンジェル",
+  "tier": "core"
+ },
+ "angel.meaning": {
+  "lang": "ja",
+  "text": "天使",
+  "tier": "core"
+ },
+ "angel.story": {
+  "lang": "ja",
+  "text": "神の言葉を伝える「使い」が原義。都市名 Los Angeles はスペイン語で「天使たち」。",
+  "tier": "extended"
+ },
+ "angel.word": {
+  "lang": "en",
+  "text": "angel",
   "tier": "core"
  },
  "angle.example.en": {
@@ -1079,6 +1259,36 @@
   "text": "apartment",
   "tier": "core"
  },
+ "apocalypse.example.en": {
+  "lang": "en",
+  "text": "The movie is about a zombie apocalypse.",
+  "tier": "core"
+ },
+ "apocalypse.example.ja": {
+  "lang": "ja",
+  "text": "その映画はゾンビによる世界の終末を描いている。",
+  "tier": "core"
+ },
+ "apocalypse.katakana": {
+  "lang": "ja",
+  "text": "アポカリプス",
+  "tier": "core"
+ },
+ "apocalypse.meaning": {
+  "lang": "ja",
+  "text": "世界の 終末、大災害、黙示録",
+  "tier": "core"
+ },
+ "apocalypse.story": {
+  "lang": "ja",
+  "text": "もとは「隠されたものを明かす」こと。新約聖書の『ヨハネの黙示録』が世界の終わりを描いたことから「終末」の意味に。",
+  "tier": "extended"
+ },
+ "apocalypse.word": {
+  "lang": "en",
+  "text": "apocalypse",
+  "tier": "core"
+ },
  "app.example.en": {
   "lang": "en",
   "text": "There's an app for that.",
@@ -1197,6 +1407,36 @@
  "approach.word": {
   "lang": "en",
   "text": "approach",
+  "tier": "core"
+ },
+ "archer.example.en": {
+  "lang": "en",
+  "text": "The archer hit the center of the target.",
+  "tier": "core"
+ },
+ "archer.example.ja": {
+  "lang": "ja",
+  "text": "射手は的のど真ん中に当てた。",
+  "tier": "core"
+ },
+ "archer.katakana": {
+  "lang": "ja",
+  "text": "アーチャー",
+  "tier": "core"
+ },
+ "archer.meaning": {
+  "lang": "ja",
+  "text": "弓の射手",
+  "tier": "core"
+ },
+ "archer.story": {
+  "lang": "ja",
+  "text": "arcus 弓 から。arc 弧 、arch アーチ も弓の形から来た同じ語源。",
+  "tier": "extended"
+ },
+ "archer.word": {
+  "lang": "en",
+  "text": "archer",
   "tier": "core"
  },
  "architect.example.en": {
@@ -1409,6 +1649,36 @@
   "text": "arrange",
   "tier": "core"
  },
+ "arrow.example.en": {
+  "lang": "en",
+  "text": "Click the arrow to go to the next page.",
+  "tier": "core"
+ },
+ "arrow.example.ja": {
+  "lang": "ja",
+  "text": "矢印をクリックすると次のページへ進む。",
+  "tier": "core"
+ },
+ "arrow.katakana": {
+  "lang": "ja",
+  "text": "アロー",
+  "tier": "core"
+ },
+ "arrow.meaning": {
+  "lang": "ja",
+  "text": "矢、矢印",
+  "tier": "core"
+ },
+ "arrow.story": {
+  "lang": "ja",
+  "text": "ラテン語 arcus 弓 と同じ語根から来た「弓のもの」という意味とされる。",
+  "tier": "extended"
+ },
+ "arrow.word": {
+  "lang": "en",
+  "text": "arrow",
+  "tier": "core"
+ },
  "artist.example.en": {
   "lang": "en",
   "text": "Picasso was a famous artist.",
@@ -1437,6 +1707,36 @@
  "artist.word": {
   "lang": "en",
   "text": "artist",
+  "tier": "core"
+ },
+ "assassin.example.en": {
+  "lang": "en",
+  "text": "The assassin hid in the shadows.",
+  "tier": "core"
+ },
+ "assassin.example.ja": {
+  "lang": "ja",
+  "text": "暗殺者は物陰に隠れた。",
+  "tier": "core"
+ },
+ "assassin.katakana": {
+  "lang": "ja",
+  "text": "アサシン",
+  "tier": "core"
+ },
+ "assassin.meaning": {
+  "lang": "ja",
+  "text": "暗殺者",
+  "tier": "core"
+ },
+ "assassin.story": {
+  "lang": "ja",
+  "text": "11から13世紀、中東で要人暗殺を行った教団の呼び名から。十字軍を通してヨーロッパに伝わった。",
+  "tier": "extended"
+ },
+ "assassin.word": {
+  "lang": "en",
+  "text": "assassin",
   "tier": "core"
  },
  "assessment.example.en": {
@@ -1737,6 +2037,36 @@
  "avocado.word": {
   "lang": "en",
   "text": "avocado",
+  "tier": "core"
+ },
+ "axe.example.en": {
+  "lang": "en",
+  "text": "He cut the tree down with an axe.",
+  "tier": "core"
+ },
+ "axe.example.ja": {
+  "lang": "ja",
+  "text": "彼はおので木を切り倒した。",
+  "tier": "core"
+ },
+ "axe.katakana": {
+  "lang": "ja",
+  "text": "アックス",
+  "tier": "core"
+ },
+ "axe.meaning": {
+  "lang": "ja",
+  "text": "おの",
+  "tier": "core"
+ },
+ "axe.story": {
+  "lang": "ja",
+  "text": "ギリシャ語 axine おの とも関係がある古い語。get the axe は「クビになる」。",
+  "tier": "extended"
+ },
+ "axe.word": {
+  "lang": "en",
+  "text": "axe",
   "tier": "core"
  },
  "baby.example.en": {
@@ -2279,6 +2609,36 @@
   "text": "barcode",
   "tier": "core"
  },
+ "bard.example.en": {
+  "lang": "en",
+  "text": "The bard sang songs about the hero.",
+  "tier": "core"
+ },
+ "bard.example.ja": {
+  "lang": "ja",
+  "text": "吟遊詩人は英雄の歌を歌った。",
+  "tier": "core"
+ },
+ "bard.katakana": {
+  "lang": "ja",
+  "text": "バード",
+  "tier": "core"
+ },
+ "bard.meaning": {
+  "lang": "ja",
+  "text": "吟遊詩人",
+  "tier": "core"
+ },
+ "bard.story": {
+  "lang": "ja",
+  "text": "古代ケルト社会で、王や英雄の歌を伝えた詩人。鳥 bird とは別の語。",
+  "tier": "extended"
+ },
+ "bard.word": {
+  "lang": "en",
+  "text": "bard",
+  "tier": "core"
+ },
  "bargain.example.en": {
   "lang": "en",
   "text": "This jacket was a bargain at only 2,000 yen.",
@@ -2427,6 +2787,36 @@
  "baseball.word": {
   "lang": "en",
   "text": "baseball",
+  "tier": "core"
+ },
+ "basilisk.example.en": {
+  "lang": "en",
+  "text": "The hero used a mirror to defeat the basilisk.",
+  "tier": "core"
+ },
+ "basilisk.example.ja": {
+  "lang": "ja",
+  "text": "英雄は鏡を使ってバシリスクを倒した。",
+  "tier": "core"
+ },
+ "basilisk.katakana": {
+  "lang": "ja",
+  "text": "バジリスク",
+  "tier": "core"
+ },
+ "basilisk.meaning": {
+  "lang": "ja",
+  "text": "バシリスク にらむだけで殺す伝説の大蛇",
+  "tier": "core"
+ },
+ "basilisk.story": {
+  "lang": "ja",
+  "text": "頭に王冠のような模様があるとされ「ヘビの王」と呼ばれた。basil ハーブのバジル も「王の 草 」という意味で同じ語源。",
+  "tier": "extended"
+ },
+ "basilisk.word": {
+  "lang": "en",
+  "text": "basilisk",
   "tier": "core"
  },
  "basket.example.en": {
@@ -2727,6 +3117,36 @@
  "beer.word": {
   "lang": "en",
   "text": "beer",
+  "tier": "core"
+ },
+ "beetle.example.en": {
+  "lang": "en",
+  "text": "My son caught a beetle in the forest.",
+  "tier": "core"
+ },
+ "beetle.example.ja": {
+  "lang": "ja",
+  "text": "息子が森でカブトムシをつかまえた。",
+  "tier": "core"
+ },
+ "beetle.katakana": {
+  "lang": "ja",
+  "text": "ビートル",
+  "tier": "core"
+ },
+ "beetle.meaning": {
+  "lang": "ja",
+  "text": "甲虫 カブトムシなど",
+  "tier": "core"
+ },
+ "beetle.story": {
+  "lang": "ja",
+  "text": "「かみつく虫」が原義で、bite かむ と同じ語源。ビートルズの名前は beetle と beat ビート をかけたもの。",
+  "tier": "extended"
+ },
+ "beetle.word": {
+  "lang": "en",
+  "text": "beetle",
   "tier": "core"
  },
  "beige.example.en": {
@@ -3149,6 +3569,36 @@
   "text": "black",
   "tier": "core"
  },
+ "blade.example.en": {
+  "lang": "en",
+  "text": "The blade of this knife is very sharp.",
+  "tier": "core"
+ },
+ "blade.example.ja": {
+  "lang": "ja",
+  "text": "このナイフの刃はとても鋭い。",
+  "tier": "core"
+ },
+ "blade.katakana": {
+  "lang": "ja",
+  "text": "ブレード",
+  "tier": "core"
+ },
+ "blade.meaning": {
+  "lang": "ja",
+  "text": "刃、刀身",
+  "tier": "core"
+ },
+ "blade.story": {
+  "lang": "ja",
+  "text": "もとは草の「葉」。葉のように平たく薄いものとして刃の意味になった。今でも a blade of grass は「草の葉1枚」。",
+  "tier": "extended"
+ },
+ "blade.word": {
+  "lang": "en",
+  "text": "blade",
+  "tier": "core"
+ },
  "blanket.example.en": {
   "lang": "en",
   "text": "It's cold. Can I have another blanket?",
@@ -3177,6 +3627,96 @@
  "blanket.word": {
   "lang": "en",
   "text": "blanket",
+  "tier": "core"
+ },
+ "blast.example.en": {
+  "lang": "en",
+  "text": "We had a blast at the party.",
+  "tier": "core"
+ },
+ "blast.example.ja": {
+  "lang": "ja",
+  "text": "パーティーはすごく楽しかった。",
+  "tier": "core"
+ },
+ "blast.katakana": {
+  "lang": "ja",
+  "text": "ブラスト",
+  "tier": "core"
+ },
+ "blast.meaning": {
+  "lang": "ja",
+  "text": "爆発、爆風、突風／爆破する",
+  "tier": "core"
+ },
+ "blast.story": {
+  "lang": "ja",
+  "text": "blow 吹く と同じ語根。風のひと吹き 、 爆風 、 爆発の意味に。",
+  "tier": "extended"
+ },
+ "blast.word": {
+  "lang": "en",
+  "text": "blast",
+  "tier": "core"
+ },
+ "blaze.example.en": {
+  "lang": "en",
+  "text": "Firefighters put out the blaze.",
+  "tier": "core"
+ },
+ "blaze.example.ja": {
+  "lang": "ja",
+  "text": "消防士が火事を消し止めた。",
+  "tier": "core"
+ },
+ "blaze.katakana": {
+  "lang": "ja",
+  "text": "ブレイズ",
+  "tier": "core"
+ },
+ "blaze.meaning": {
+  "lang": "ja",
+  "text": "燃えさかる炎、火事／赤々と燃える",
+  "tier": "core"
+ },
+ "blaze.story": {
+  "lang": "ja",
+  "text": "明るく燃える炎から、「光り輝く」の意味にも。blazer ブレザー は、ボート部のまっ赤な上着が「燃えるよう」だったことから。",
+  "tier": "extended"
+ },
+ "blaze.word": {
+  "lang": "en",
+  "text": "blaze",
+  "tier": "core"
+ },
+ "blizzard.example.en": {
+  "lang": "en",
+  "text": "The blizzard closed all the roads.",
+  "tier": "core"
+ },
+ "blizzard.example.ja": {
+  "lang": "ja",
+  "text": "猛吹雪ですべての道が通行止めになった。",
+  "tier": "core"
+ },
+ "blizzard.katakana": {
+  "lang": "ja",
+  "text": "ブリザード",
+  "tier": "core"
+ },
+ "blizzard.meaning": {
+  "lang": "ja",
+  "text": "猛吹雪",
+  "tier": "core"
+ },
+ "blizzard.story": {
+  "lang": "ja",
+  "text": "もとは「激しい一撃、一斉射撃」の意味で、1880年代に猛吹雪の意味で広まった。",
+  "tier": "extended"
+ },
+ "blizzard.word": {
+  "lang": "en",
+  "text": "blizzard",
   "tier": "core"
  },
  "block.example.en": {
@@ -3357,6 +3897,36 @@
  "bohemian.word": {
   "lang": "en",
   "text": "bohemian",
+  "tier": "core"
+ },
+ "bomb.example.en": {
+  "lang": "en",
+  "text": "The bomb squad arrived quickly.",
+  "tier": "core"
+ },
+ "bomb.example.ja": {
+  "lang": "ja",
+  "text": "爆弾処理班がすぐに到着した。",
+  "tier": "core"
+ },
+ "bomb.katakana": {
+  "lang": "ja",
+  "text": "ボム",
+  "tier": "core"
+ },
+ "bomb.meaning": {
+  "lang": "ja",
+  "text": "爆弾",
+  "tier": "core"
+ },
+ "bomb.story": {
+  "lang": "ja",
+  "text": "低くうなる音を表した擬音語から。bombard 砲撃する も同じ語源。",
+  "tier": "extended"
+ },
+ "bomb.word": {
+  "lang": "en",
+  "text": "bomb",
   "tier": "core"
  },
  "bonus.example.en": {
@@ -3597,6 +4167,36 @@
  "bourgeois.word": {
   "lang": "en",
   "text": "bourgeois",
+  "tier": "core"
+ },
+ "bow.example.en": {
+  "lang": "en",
+  "text": "He pulled back the bow and shot an arrow.",
+  "tier": "core"
+ },
+ "bow.example.ja": {
+  "lang": "ja",
+  "text": "彼は弓を引いて矢を放った。",
+  "tier": "core"
+ },
+ "bow.katakana": {
+  "lang": "ja",
+  "text": "ボウ",
+  "tier": "core"
+ },
+ "bow.meaning": {
+  "lang": "ja",
+  "text": "弓、 リボンの ちょう結び",
+  "tier": "core"
+ },
+ "bow.story": {
+  "lang": "ja",
+  "text": "「曲がったもの」が原義で、発音 /boʊ/。同じつづりで /baʊ/ と読むと「おじぎ する 」になる。rainbow は「雨の弓」。",
+  "tier": "extended"
+ },
+ "bow.word": {
+  "lang": "en",
+  "text": "bow",
   "tier": "core"
  },
  "bowling.example.en": {
@@ -4289,6 +4889,36 @@
   "text": "burnout",
   "tier": "core"
  },
+ "burst.example.en": {
+  "lang": "en",
+  "text": "The balloon burst with a loud bang.",
+  "tier": "core"
+ },
+ "burst.example.ja": {
+  "lang": "ja",
+  "text": "風船が大きな音をたてて破裂した。",
+  "tier": "core"
+ },
+ "burst.katakana": {
+  "lang": "ja",
+  "text": "バースト",
+  "tier": "core"
+ },
+ "burst.meaning": {
+  "lang": "ja",
+  "text": "破裂する、急にからしだす／破裂、ほとばしり",
+  "tier": "core"
+ },
+ "burst.story": {
+  "lang": "ja",
+  "text": "過去形、過去分詞も burst のまま。「内側からの力ではじける」イメージ。",
+  "tier": "extended"
+ },
+ "burst.word": {
+  "lang": "en",
+  "text": "burst",
+  "tier": "core"
+ },
  "bus.example.en": {
   "lang": "en",
   "text": "I take the bus to school every day.",
@@ -4949,6 +5579,36 @@
   "text": "candy",
   "tier": "core"
  },
+ "cannon.example.en": {
+  "lang": "en",
+  "text": "The pirates fired their cannons at the ship.",
+  "tier": "core"
+ },
+ "cannon.example.ja": {
+  "lang": "ja",
+  "text": "海賊は船に向けて大砲を撃った。",
+  "tier": "core"
+ },
+ "cannon.katakana": {
+  "lang": "ja",
+  "text": "キャノン",
+  "tier": "core"
+ },
+ "cannon.meaning": {
+  "lang": "ja",
+  "text": "大砲",
+  "tier": "core"
+ },
+ "cannon.story": {
+  "lang": "ja",
+  "text": "「管」を意味する語から。canal 運河 、cane 杖 と同じ仲間。規範を意味する canon キヤノン とは別語。",
+  "tier": "extended"
+ },
+ "cannon.word": {
+  "lang": "en",
+  "text": "cannon",
+  "tier": "core"
+ },
  "canvas.example.en": {
   "lang": "en",
   "text": "She painted on a large canvas.",
@@ -5579,6 +6239,36 @@
   "text": "caster",
   "tier": "core"
  },
+ "castle.example.en": {
+  "lang": "en",
+  "text": "We visited an old castle in Scotland.",
+  "tier": "core"
+ },
+ "castle.example.ja": {
+  "lang": "ja",
+  "text": "スコットランドの古い城を訪れた。",
+  "tier": "core"
+ },
+ "castle.katakana": {
+  "lang": "ja",
+  "text": "キャッスル",
+  "tier": "core"
+ },
+ "castle.meaning": {
+  "lang": "ja",
+  "text": "城",
+  "tier": "core"
+ },
+ "castle.story": {
+  "lang": "ja",
+  "text": "t は発音しない。地名の -chester マンチェスター 、-caster ランカスター も castrum から。",
+  "tier": "extended"
+ },
+ "castle.word": {
+  "lang": "en",
+  "text": "castle",
+  "tier": "core"
+ },
  "casual.example.en": {
   "lang": "en",
   "text": "You can wear casual clothes on Fridays.",
@@ -5759,6 +6449,36 @@
   "text": "catharsis",
   "tier": "core"
  },
+ "cave.example.en": {
+  "lang": "en",
+  "text": "Bats live in this cave.",
+  "tier": "core"
+ },
+ "cave.example.ja": {
+  "lang": "ja",
+  "text": "この洞くつにはコウモリが住んでいる。",
+  "tier": "core"
+ },
+ "cave.katakana": {
+  "lang": "ja",
+  "text": "ケイブ",
+  "tier": "core"
+ },
+ "cave.meaning": {
+  "lang": "ja",
+  "text": "洞くつ、ほら穴",
+  "tier": "core"
+ },
+ "cave.story": {
+  "lang": "ja",
+  "text": "cavity 虫歯の穴 、excavate 発掘する と同じ語源。",
+  "tier": "extended"
+ },
+ "cave.word": {
+  "lang": "en",
+  "text": "cave",
+  "tier": "core"
+ },
  "celebrity.example.en": {
   "lang": "en",
   "text": "Many celebrities attended the party.",
@@ -5877,6 +6597,36 @@
  "ceremony.word": {
   "lang": "en",
   "text": "ceremony",
+  "tier": "core"
+ },
+ "chain.example.en": {
+  "lang": "en",
+  "text": "One small mistake started a chain of problems.",
+  "tier": "core"
+ },
+ "chain.example.ja": {
+  "lang": "ja",
+  "text": "一つの小さなミスが問題の連鎖を引き起こした。",
+  "tier": "core"
+ },
+ "chain.katakana": {
+  "lang": "ja",
+  "text": "チェーン",
+  "tier": "core"
+ },
+ "chain.meaning": {
+  "lang": "ja",
+  "text": "鎖、連鎖、チェーン店／鎖でつなぐ",
+  "tier": "core"
+ },
+ "chain.story": {
+  "lang": "ja",
+  "text": "ラテン語 catena から。concatenate 連結する も同じ語根。",
+  "tier": "extended"
+ },
+ "chain.word": {
+  "lang": "en",
+  "text": "chain",
   "tier": "core"
  },
  "challenge.example.en": {
@@ -6209,6 +6959,36 @@
   "text": "charity",
   "tier": "core"
  },
+ "charm.example.en": {
+  "lang": "en",
+  "text": "She charmed everyone with her smile.",
+  "tier": "core"
+ },
+ "charm.example.ja": {
+  "lang": "ja",
+  "text": "彼女は笑顔でみんなを魅了した。",
+  "tier": "core"
+ },
+ "charm.katakana": {
+  "lang": "ja",
+  "text": "チャーム",
+  "tier": "core"
+ },
+ "charm.meaning": {
+  "lang": "ja",
+  "text": "魅力、お守り／魅了する",
+  "tier": "core"
+ },
+ "charm.story": {
+  "lang": "ja",
+  "text": "もとは「呪文の歌」。人をとりこにする魔法 、 魅力、という意味に。charming は「魅力的な」。",
+  "tier": "extended"
+ },
+ "charm.word": {
+  "lang": "en",
+  "text": "charm",
+  "tier": "core"
+ },
  "chart.example.en": {
   "lang": "en",
   "text": "The song reached number one on the charts.",
@@ -6417,6 +7197,36 @@
  "cherry.word": {
   "lang": "en",
   "text": "cherry",
+  "tier": "core"
+ },
+ "chest.example.en": {
+  "lang": "en",
+  "text": "We found a treasure chest in the cave.",
+  "tier": "core"
+ },
+ "chest.example.ja": {
+  "lang": "ja",
+  "text": "洞くつで宝箱を見つけた。",
+  "tier": "core"
+ },
+ "chest.katakana": {
+  "lang": "ja",
+  "text": "チェスト",
+  "tier": "core"
+ },
+ "chest.meaning": {
+  "lang": "ja",
+  "text": "胸、 ふたつきの 大箱",
+  "tier": "core"
+ },
+ "chest.story": {
+  "lang": "ja",
+  "text": "「箱」がもとの意味。肋骨で囲まれた体の部分を「箱」にたとえて「胸」の意味も生まれた。",
+  "tier": "extended"
+ },
+ "chest.word": {
+  "lang": "en",
+  "text": "chest",
   "tier": "core"
  },
  "chic.example.en": {
@@ -7049,6 +7859,36 @@
   "text": "clip",
   "tier": "core"
  },
+ "cloak.example.en": {
+  "lang": "en",
+  "text": "The thief wore a dark cloak.",
+  "tier": "core"
+ },
+ "cloak.example.ja": {
+  "lang": "ja",
+  "text": "盗賊は黒っぽいマントを着ていた。",
+  "tier": "core"
+ },
+ "cloak.katakana": {
+  "lang": "ja",
+  "text": "クローク",
+  "tier": "core"
+ },
+ "cloak.meaning": {
+  "lang": "ja",
+  "text": "マント、外套／覆い隠すもの",
+  "tier": "core"
+ },
+ "cloak.story": {
+  "lang": "ja",
+  "text": "広がった形が鐘 clock と同じ語源 に似ていたことから。「クローク」は cloakroom コート預かり所 の略。",
+  "tier": "extended"
+ },
+ "cloak.word": {
+  "lang": "en",
+  "text": "cloak",
+  "tier": "core"
+ },
  "clock.example.en": {
   "lang": "en",
   "text": "The clock on the wall is five minutes fast.",
@@ -7287,6 +8127,36 @@
  "coat.word": {
   "lang": "en",
   "text": "coat",
+  "tier": "core"
+ },
+ "cobra.example.en": {
+  "lang": "en",
+  "text": "The cobra spread its hood and hissed.",
+  "tier": "core"
+ },
+ "cobra.example.ja": {
+  "lang": "ja",
+  "text": "コブラは首を広げてシューッと威嚇した。",
+  "tier": "core"
+ },
+ "cobra.katakana": {
+  "lang": "ja",
+  "text": "コブラ",
+  "tier": "core"
+ },
+ "cobra.meaning": {
+  "lang": "ja",
+  "text": "コブラ",
+  "tier": "core"
+ },
+ "cobra.story": {
+  "lang": "ja",
+  "text": "インドにいたポルトガル人が名づけた。首を広げた姿がずきん capelo をかぶったように見えることから。",
+  "tier": "extended"
+ },
+ "cobra.word": {
+  "lang": "en",
+  "text": "cobra",
   "tier": "core"
  },
  "cocktail.example.en": {
@@ -9329,6 +10199,36 @@
   "text": "craft",
   "tier": "core"
  },
+ "crash.example.en": {
+  "lang": "en",
+  "text": "My computer crashed and I lost my file.",
+  "tier": "core"
+ },
+ "crash.example.ja": {
+  "lang": "ja",
+  "text": "パソコンが落ちてファイルが消えた。",
+  "tier": "core"
+ },
+ "crash.katakana": {
+  "lang": "ja",
+  "text": "クラッシュ",
+  "tier": "core"
+ },
+ "crash.meaning": {
+  "lang": "ja",
+  "text": "衝突する、壊れる、 PCが 落ちる／衝突、墜落",
+  "tier": "core"
+ },
+ "crash.story": {
+  "lang": "ja",
+  "text": "何かが壊れる大きな音から。「株価の暴落」も crash。",
+  "tier": "extended"
+ },
+ "crash.word": {
+  "lang": "en",
+  "text": "crash",
+  "tier": "core"
+ },
  "cream.example.en": {
   "lang": "en",
   "text": "Would you like cream in your coffee?",
@@ -9599,6 +10499,66 @@
   "text": "cross",
   "tier": "core"
  },
+ "crossbow.example.en": {
+  "lang": "en",
+  "text": "He loaded a bolt into the crossbow.",
+  "tier": "core"
+ },
+ "crossbow.example.ja": {
+  "lang": "ja",
+  "text": "彼はクロスボウに矢を装填した。",
+  "tier": "core"
+ },
+ "crossbow.katakana": {
+  "lang": "ja",
+  "text": "クロスボウ",
+  "tier": "core"
+ },
+ "crossbow.meaning": {
+  "lang": "ja",
+  "text": "クロスボウ、石弓 ボウガン",
+  "tier": "core"
+ },
+ "crossbow.story": {
+  "lang": "ja",
+  "text": "弓が台座に十字に取りつけられている形から。「ボウガン」は日本で商標から広まった言い方。",
+  "tier": "extended"
+ },
+ "crossbow.word": {
+  "lang": "en",
+  "text": "crossbow",
+  "tier": "core"
+ },
+ "crown.example.en": {
+  "lang": "en",
+  "text": "The queen wore a golden crown.",
+  "tier": "core"
+ },
+ "crown.example.ja": {
+  "lang": "ja",
+  "text": "女王は金の王冠をかぶっていた。",
+  "tier": "core"
+ },
+ "crown.katakana": {
+  "lang": "ja",
+  "text": "クラウン",
+  "tier": "core"
+ },
+ "crown.meaning": {
+  "lang": "ja",
+  "text": "王冠",
+  "tier": "core"
+ },
+ "crown.story": {
+  "lang": "ja",
+  "text": "ラテン語 corona は「輪、花の冠」。太陽のコロナも、コロナウイルスも、形が冠に似ていることから。",
+  "tier": "extended"
+ },
+ "crown.word": {
+  "lang": "en",
+  "text": "crown",
+  "tier": "core"
+ },
  "cruise.example.en": {
   "lang": "en",
   "text": "They went on a cruise around the islands.",
@@ -9779,6 +10739,36 @@
   "text": "cup",
   "tier": "core"
  },
+ "cure.example.en": {
+  "lang": "en",
+  "text": "Scientists are trying to find a cure for the disease.",
+  "tier": "core"
+ },
+ "cure.example.ja": {
+  "lang": "ja",
+  "text": "科学者たちはその病気の治療法を見つけようとしている。",
+  "tier": "core"
+ },
+ "cure.katakana": {
+  "lang": "ja",
+  "text": "キュア",
+  "tier": "core"
+ },
+ "cure.meaning": {
+  "lang": "ja",
+  "text": "治す／治療法",
+  "tier": "core"
+ },
+ "cure.story": {
+  "lang": "ja",
+  "text": "「世話をする」から「治す」へ。curious 好奇心の強い、気にかける 、accurate 正確な、気をつけた も同じ語源。",
+  "tier": "extended"
+ },
+ "cure.word": {
+  "lang": "en",
+  "text": "cure",
+  "tier": "core"
+ },
  "curriculum.example.en": {
   "lang": "en",
   "text": "Programming is now part of the school curriculum.",
@@ -9837,6 +10827,36 @@
  "curry.word": {
   "lang": "en",
   "text": "curry",
+  "tier": "core"
+ },
+ "curse.example.en": {
+  "lang": "en",
+  "text": "The witch put a curse on the prince.",
+  "tier": "core"
+ },
+ "curse.example.ja": {
+  "lang": "ja",
+  "text": "魔女は王子に呪いをかけた。",
+  "tier": "core"
+ },
+ "curse.katakana": {
+  "lang": "ja",
+  "text": "カース",
+  "tier": "core"
+ },
+ "curse.meaning": {
+  "lang": "ja",
+  "text": "呪い／呪う、ののしる",
+  "tier": "core"
+ },
+ "curse.story": {
+  "lang": "ja",
+  "text": "由来ははっきりしない古い語。「ののしる」「悪態をつく」の意味でもよく使う。",
+  "tier": "extended"
+ },
+ "curse.word": {
+  "lang": "en",
+  "text": "curse",
   "tier": "core"
  },
  "curtain.example.en": {
@@ -10079,6 +11099,36 @@
   "text": "cycling",
   "tier": "core"
  },
+ "cyclone.example.en": {
+  "lang": "en",
+  "text": "The cyclone hit the coast last night.",
+  "tier": "core"
+ },
+ "cyclone.example.ja": {
+  "lang": "ja",
+  "text": "昨夜サイクロンが沿岸を襲った。",
+  "tier": "core"
+ },
+ "cyclone.katakana": {
+  "lang": "ja",
+  "text": "サイクロン",
+  "tier": "core"
+ },
+ "cyclone.meaning": {
+  "lang": "ja",
+  "text": "サイクロン インド洋などの熱帯低気圧 、竜巻",
+  "tier": "core"
+ },
+ "cyclone.story": {
+  "lang": "ja",
+  "text": "「円を描いて回る風」として19世紀に名づけられた。cycle 周期 、bicycle 自転車 と同じ仲間。",
+  "tier": "extended"
+ },
+ "cyclone.word": {
+  "lang": "en",
+  "text": "cyclone",
+  "tier": "core"
+ },
  "cynical.example.en": {
   "lang": "en",
   "text": "He's cynical about politicians.",
@@ -10107,6 +11157,36 @@
  "cynical.word": {
   "lang": "en",
   "text": "cynical",
+  "tier": "core"
+ },
+ "dagger.example.en": {
+  "lang": "en",
+  "text": "The thief hid a dagger in his boot.",
+  "tier": "core"
+ },
+ "dagger.example.ja": {
+  "lang": "ja",
+  "text": "盗賊はブーツの中に短剣を隠していた。",
+  "tier": "core"
+ },
+ "dagger.katakana": {
+  "lang": "ja",
+  "text": "ダガー",
+  "tier": "core"
+ },
+ "dagger.meaning": {
+  "lang": "ja",
+  "text": "短剣",
+  "tier": "core"
+ },
+ "dagger.story": {
+  "lang": "ja",
+  "text": "語源ははっきりしないが、中世から「短剣」の意味で使われている。look daggers at は「にらみつける」。",
+  "tier": "extended"
+ },
+ "dagger.word": {
+  "lang": "en",
+  "text": "dagger",
   "tier": "core"
  },
  "damage.example.en": {
@@ -10197,6 +11277,36 @@
  "dandy.word": {
   "lang": "en",
   "text": "dandy",
+  "tier": "core"
+ },
+ "dark.example.en": {
+  "lang": "en",
+  "text": "It gets dark early in winter.",
+  "tier": "core"
+ },
+ "dark.example.ja": {
+  "lang": "ja",
+  "text": "冬は早く暗くなる。",
+  "tier": "core"
+ },
+ "dark.katakana": {
+  "lang": "ja",
+  "text": "ダーク",
+  "tier": "core"
+ },
+ "dark.meaning": {
+  "lang": "ja",
+  "text": "暗い、 色が 濃い",
+  "tier": "core"
+ },
+ "dark.story": {
+  "lang": "ja",
+  "text": "ゲルマン語の古い語。the Dark Ages 暗黒時代 、dark horse ダークホース、予想外の有力者 など。",
+  "tier": "extended"
+ },
+ "dark.word": {
+  "lang": "en",
+  "text": "dark",
   "tier": "core"
  },
  "dash.example.en": {
@@ -10529,6 +11639,36 @@
   "text": "decadence",
   "tier": "core"
  },
+ "defense.example.en": {
+  "lang": "en",
+  "text": "Our team has a strong defense.",
+  "tier": "core"
+ },
+ "defense.example.ja": {
+  "lang": "ja",
+  "text": "私たちのチームは守備が強い。",
+  "tier": "core"
+ },
+ "defense.katakana": {
+  "lang": "ja",
+  "text": "ディフェンス",
+  "tier": "core"
+ },
+ "defense.meaning": {
+  "lang": "ja",
+  "text": "防御、守備",
+  "tier": "core"
+ },
+ "defense.story": {
+  "lang": "ja",
+  "text": "de-「離して」+ -fendere「打つ」で「打ち払う」。offense 攻撃 と対になる。",
+  "tier": "extended"
+ },
+ "defense.word": {
+  "lang": "en",
+  "text": "defense",
+  "tier": "core"
+ },
  "deflation.example.en": {
   "lang": "en",
   "text": "Japan struggled with deflation for years.",
@@ -10617,6 +11757,36 @@
  "democracy.word": {
   "lang": "en",
   "text": "democracy",
+  "tier": "core"
+ },
+ "demon.example.en": {
+  "lang": "en",
+  "text": "The hero sealed the demon inside the stone.",
+  "tier": "core"
+ },
+ "demon.example.ja": {
+  "lang": "ja",
+  "text": "英雄は悪魔を石の中に封印した。",
+  "tier": "core"
+ },
+ "demon.katakana": {
+  "lang": "ja",
+  "text": "デーモン",
+  "tier": "core"
+ },
+ "demon.meaning": {
+  "lang": "ja",
+  "text": "悪魔、鬼",
+  "tier": "core"
+ },
+ "demon.story": {
+  "lang": "ja",
+  "text": "もとはよい霊にも悪い霊にも使う中立の語だった。キリスト教で「悪霊」の意味に固まった。コンピュータの裏で動くプログラム daemon も同じ語。",
+  "tier": "extended"
+ },
+ "demon.word": {
+  "lang": "en",
+  "text": "demon",
   "tier": "core"
  },
  "demonstration.example.en": {
@@ -10887,6 +12057,36 @@
  "device.word": {
   "lang": "en",
   "text": "device",
+  "tier": "core"
+ },
+ "devil.example.en": {
+  "lang": "en",
+  "text": "Speak of the devil! Here he comes.",
+  "tier": "core"
+ },
+ "devil.example.ja": {
+  "lang": "ja",
+  "text": "うわさをすれば影、ほら彼が来た。",
+  "tier": "core"
+ },
+ "devil.katakana": {
+  "lang": "ja",
+  "text": "デビル",
+  "tier": "core"
+ },
+ "devil.meaning": {
+  "lang": "ja",
+  "text": "悪魔",
+  "tier": "core"
+ },
+ "devil.story": {
+  "lang": "ja",
+  "text": "dia「横切って」+ ballein「投げる」で「悪口を投げつける者」。diabolic 悪魔的な も同じ語源。",
+  "tier": "extended"
+ },
+ "devil.word": {
+  "lang": "en",
+  "text": "devil",
   "tier": "core"
  },
  "diamond.example.en": {
@@ -11699,6 +12899,36 @@
   "text": "dragon",
   "tier": "core"
  },
+ "drain.example.en": {
+  "lang": "en",
+  "text": "The long meeting drained all my energy.",
+  "tier": "core"
+ },
+ "drain.example.ja": {
+  "lang": "ja",
+  "text": "長い会議でエネルギーを吸い取られた。",
+  "tier": "core"
+ },
+ "drain.katakana": {
+  "lang": "ja",
+  "text": "ドレイン",
+  "tier": "core"
+ },
+ "drain.meaning": {
+  "lang": "ja",
+  "text": "水を 抜く、吸い取る、疲れさせる／排水管",
+  "tier": "core"
+ },
+ "drain.story": {
+  "lang": "ja",
+  "text": "dry 乾いた と同じ語根とされる。brain drain は「頭脳流出」。",
+  "tier": "extended"
+ },
+ "drain.word": {
+  "lang": "en",
+  "text": "drain",
+  "tier": "core"
+ },
  "drama.example.en": {
   "lang": "en",
   "text": "I'm watching a Korean drama.",
@@ -12089,6 +13319,36 @@
   "text": "dystopia",
   "tier": "core"
  },
+ "eagle.example.en": {
+  "lang": "en",
+  "text": "An eagle was flying high above the mountain.",
+  "tier": "core"
+ },
+ "eagle.example.ja": {
+  "lang": "ja",
+  "text": "ワシが山の上空高く飛んでいた。",
+  "tier": "core"
+ },
+ "eagle.katakana": {
+  "lang": "ja",
+  "text": "イーグル",
+  "tier": "core"
+ },
+ "eagle.meaning": {
+  "lang": "ja",
+  "text": "ワシ",
+  "tier": "core"
+ },
+ "eagle.story": {
+  "lang": "ja",
+  "text": "ラテン語 aquila は「黒っぽい」を意味する語から来たという説がある。ローマ軍の軍旗もワシの像だった。",
+  "tier": "extended"
+ },
+ "eagle.word": {
+  "lang": "en",
+  "text": "eagle",
+  "tier": "core"
+ },
  "easy.example.en": {
   "lang": "en",
   "text": "The test was easier than I expected.",
@@ -12117,6 +13377,36 @@
  "easy.word": {
   "lang": "en",
   "text": "easy",
+  "tier": "core"
+ },
+ "eclipse.example.en": {
+  "lang": "en",
+  "text": "We watched the solar eclipse through special glasses.",
+  "tier": "core"
+ },
+ "eclipse.example.ja": {
+  "lang": "ja",
+  "text": "私たちは専用のめがねで日食を見た。",
+  "tier": "core"
+ },
+ "eclipse.katakana": {
+  "lang": "ja",
+  "text": "エクリプス",
+  "tier": "core"
+ },
+ "eclipse.meaning": {
+  "lang": "ja",
+  "text": "日食、月食の 食、かげり",
+  "tier": "core"
+ },
+ "eclipse.story": {
+  "lang": "ja",
+  "text": "太陽や月が「いなくなる」ことから。動詞では「からをしのぐ、影を薄くする」。",
+  "tier": "extended"
+ },
+ "eclipse.word": {
+  "lang": "en",
+  "text": "eclipse",
   "tier": "core"
  },
  "ecology.example.en": {
@@ -12389,6 +13679,66 @@
   "text": "elite",
   "tier": "core"
  },
+ "elixir.example.en": {
+  "lang": "en",
+  "text": "People once searched for an elixir of life.",
+  "tier": "core"
+ },
+ "elixir.example.ja": {
+  "lang": "ja",
+  "text": "人々はかつて不老不死の霊薬を探し求めた。",
+  "tier": "core"
+ },
+ "elixir.katakana": {
+  "lang": "ja",
+  "text": "エリクサー",
+  "tier": "core"
+ },
+ "elixir.meaning": {
+  "lang": "ja",
+  "text": "霊薬、万能薬",
+  "tier": "core"
+ },
+ "elixir.story": {
+  "lang": "ja",
+  "text": "錬金術で、金属を金に変えたり命を延ばしたりすると信じられた物質。al はアラビア語の定冠詞。",
+  "tier": "extended"
+ },
+ "elixir.word": {
+  "lang": "en",
+  "text": "elixir",
+  "tier": "core"
+ },
+ "emerald.example.en": {
+  "lang": "en",
+  "text": "She has an emerald ring from her grandmother.",
+  "tier": "core"
+ },
+ "emerald.example.ja": {
+  "lang": "ja",
+  "text": "彼女は祖母からもらったエメラルドの指輪を持っている。",
+  "tier": "core"
+ },
+ "emerald.katakana": {
+  "lang": "ja",
+  "text": "エメラルド",
+  "tier": "core"
+ },
+ "emerald.meaning": {
+  "lang": "ja",
+  "text": "エメラルド／エメラルドグリーンの",
+  "tier": "core"
+ },
+ "emerald.story": {
+  "lang": "ja",
+  "text": "さらにセム語「光る」から来たといわれる。スペイン語の名前エスメラルダも同じ。",
+  "tier": "extended"
+ },
+ "emerald.word": {
+  "lang": "en",
+  "text": "emerald",
+  "tier": "core"
+ },
  "emergency.example.en": {
   "lang": "en",
   "text": "In an emergency, press the red button.",
@@ -12447,6 +13797,36 @@
  "emotional.word": {
   "lang": "en",
   "text": "emotional",
+  "tier": "core"
+ },
+ "emperor.example.en": {
+  "lang": "en",
+  "text": "The emperor ruled a huge empire.",
+  "tier": "core"
+ },
+ "emperor.example.ja": {
+  "lang": "ja",
+  "text": "皇帝は巨大な帝国を治めた。",
+  "tier": "core"
+ },
+ "emperor.katakana": {
+  "lang": "ja",
+  "text": "エンペラー",
+  "tier": "core"
+ },
+ "emperor.meaning": {
+  "lang": "ja",
+  "text": "皇帝",
+  "tier": "core"
+ },
+ "emperor.story": {
+  "lang": "ja",
+  "text": "empire 帝国 、imperial 帝国の も同じ語源。女性形は empress。",
+  "tier": "extended"
+ },
+ "emperor.word": {
+  "lang": "en",
+  "text": "emperor",
   "tier": "core"
  },
  "empowerment.example.en": {
@@ -13469,6 +14849,36 @@
   "text": "fair",
   "tier": "core"
  },
+ "fairy.example.en": {
+  "lang": "en",
+  "text": "She read her son a fairy tale before bed.",
+  "tier": "core"
+ },
+ "fairy.example.ja": {
+  "lang": "ja",
+  "text": "彼女は寝る前に息子におとぎ話を読んだ。",
+  "tier": "core"
+ },
+ "fairy.katakana": {
+  "lang": "ja",
+  "text": "フェアリー",
+  "tier": "core"
+ },
+ "fairy.meaning": {
+  "lang": "ja",
+  "text": "妖精",
+  "tier": "core"
+ },
+ "fairy.story": {
+  "lang": "ja",
+  "text": "もとは「妖精の国、魔法」を指し、のちに妖精そのものを表すようになった。fate 運命 と同じ語源。",
+  "tier": "extended"
+ },
+ "fairy.word": {
+  "lang": "en",
+  "text": "fairy",
+  "tier": "core"
+ },
  "fake.example.en": {
   "lang": "en",
   "text": "Be careful of fake news online.",
@@ -13497,6 +14907,36 @@
  "fake.word": {
   "lang": "en",
   "text": "fake",
+  "tier": "core"
+ },
+ "falcon.example.en": {
+  "lang": "en",
+  "text": "The falcon dived at great speed.",
+  "tier": "core"
+ },
+ "falcon.example.ja": {
+  "lang": "ja",
+  "text": "ハヤブサはものすごい速さで急降下した。",
+  "tier": "core"
+ },
+ "falcon.katakana": {
+  "lang": "ja",
+  "text": "ファルコン",
+  "tier": "core"
+ },
+ "falcon.meaning": {
+  "lang": "ja",
+  "text": "ハヤブサ",
+  "tier": "core"
+ },
+ "falcon.story": {
+  "lang": "ja",
+  "text": "鋭く曲がったかぎづめが鎌 falx に似ているからという説がある。鷹狩りは falconry。",
+  "tier": "extended"
+ },
+ "falcon.word": {
+  "lang": "en",
+  "text": "falcon",
   "tier": "core"
  },
  "family.example.en": {
@@ -13829,6 +15269,36 @@
   "text": "fight",
   "tier": "core"
  },
+ "fighter.example.en": {
+  "lang": "en",
+  "text": "He is a brave fighter.",
+  "tier": "core"
+ },
+ "fighter.example.ja": {
+  "lang": "ja",
+  "text": "彼は勇敢な戦士だ。",
+  "tier": "core"
+ },
+ "fighter.katakana": {
+  "lang": "ja",
+  "text": "ファイター",
+  "tier": "core"
+ },
+ "fighter.meaning": {
+  "lang": "ja",
+  "text": "戦う人、格闘家、戦闘機",
+  "tier": "core"
+ },
+ "fighter.story": {
+  "lang": "ja",
+  "text": "fight 戦う の人を表す形。firefighter は「消防士 火と戦う人 」。",
+  "tier": "extended"
+ },
+ "fighter.word": {
+  "lang": "en",
+  "text": "fighter",
+  "tier": "core"
+ },
  "file.example.en": {
   "lang": "en",
   "text": "Save the file before you close it.",
@@ -14069,6 +15539,36 @@
   "text": "fitness",
   "tier": "core"
  },
+ "flame.example.en": {
+  "lang": "en",
+  "text": "The flame of the candle moved in the wind.",
+  "tier": "core"
+ },
+ "flame.example.ja": {
+  "lang": "ja",
+  "text": "ろうそくの炎が風でゆれた。",
+  "tier": "core"
+ },
+ "flame.katakana": {
+  "lang": "ja",
+  "text": "フレイム",
+  "tier": "core"
+ },
+ "flame.meaning": {
+  "lang": "ja",
+  "text": "炎",
+  "tier": "core"
+ },
+ "flame.story": {
+  "lang": "ja",
+  "text": "flamingo フラミンゴ も「炎のような色の鳥」という意味で同じ語源。",
+  "tier": "extended"
+ },
+ "flame.word": {
+  "lang": "en",
+  "text": "flame",
+  "tier": "core"
+ },
  "flamingo.example.en": {
   "lang": "en",
   "text": "Flamingos often stand on one leg.",
@@ -14097,6 +15597,36 @@
  "flamingo.word": {
   "lang": "en",
   "text": "flamingo",
+  "tier": "core"
+ },
+ "flare.example.en": {
+  "lang": "en",
+  "text": "The sailors sent up a flare to call for help.",
+  "tier": "core"
+ },
+ "flare.example.ja": {
+  "lang": "ja",
+  "text": "船乗りたちは助けを呼ぶために信号弾を打ち上げた。",
+  "tier": "core"
+ },
+ "flare.katakana": {
+  "lang": "ja",
+  "text": "フレア",
+  "tier": "core"
+ },
+ "flare.meaning": {
+  "lang": "ja",
+  "text": "ゆらめく炎、閃光、信号弾／ぱっと燃え上がる",
+  "tier": "core"
+ },
+ "flare.story": {
+  "lang": "ja",
+  "text": "「ぱっと燃え広がる」動きから、「裾が広がる」「 怒りなどが 急に燃え上がる」の意味にも。",
+  "tier": "extended"
+ },
+ "flare.word": {
+  "lang": "en",
+  "text": "flare",
   "tier": "core"
  },
  "fleece.example.en": {
@@ -14519,6 +16049,36 @@
   "text": "format",
   "tier": "core"
  },
+ "fortress.example.en": {
+  "lang": "en",
+  "text": "The fortress was built on top of the hill.",
+  "tier": "core"
+ },
+ "fortress.example.ja": {
+  "lang": "ja",
+  "text": "要塞は丘の上に建てられた。",
+  "tier": "core"
+ },
+ "fortress.katakana": {
+  "lang": "ja",
+  "text": "フォートレス",
+  "tier": "core"
+ },
+ "fortress.meaning": {
+  "lang": "ja",
+  "text": "要塞、とりで",
+  "tier": "core"
+ },
+ "fortress.story": {
+  "lang": "ja",
+  "text": "ラテン語 fortis 強い から。fort とりで 、forte 得意 、comfort 快適さ、強めること と同じ仲間。",
+  "tier": "extended"
+ },
+ "fortress.word": {
+  "lang": "en",
+  "text": "fortress",
+  "tier": "core"
+ },
  "forum.example.en": {
   "lang": "en",
   "text": "The city held a forum on the new park.",
@@ -14819,6 +16379,36 @@
   "text": "front",
   "tier": "core"
  },
+ "frost.example.en": {
+  "lang": "en",
+  "text": "There was frost on the car window this morning.",
+  "tier": "core"
+ },
+ "frost.example.ja": {
+  "lang": "ja",
+  "text": "今朝は車の窓に霜が降りていた。",
+  "tier": "core"
+ },
+ "frost.katakana": {
+  "lang": "ja",
+  "text": "フロスト",
+  "tier": "core"
+ },
+ "frost.meaning": {
+  "lang": "ja",
+  "text": "霜、凍えるような寒さ",
+  "tier": "core"
+ },
+ "frost.story": {
+  "lang": "ja",
+  "text": "freeze 凍る と同じ語源。Jack Frost は冬の寒さを擬人化した妖精。",
+  "tier": "extended"
+ },
+ "frost.word": {
+  "lang": "en",
+  "text": "frost",
+  "tier": "core"
+ },
  "fruit.example.en": {
   "lang": "en",
   "text": "I try to eat fruit every day.",
@@ -14907,6 +16497,36 @@
  "fund.word": {
   "lang": "en",
   "text": "fund",
+  "tier": "core"
+ },
+ "fusion.example.en": {
+  "lang": "en",
+  "text": "This restaurant serves Japanese-French fusion food.",
+  "tier": "core"
+ },
+ "fusion.example.ja": {
+  "lang": "ja",
+  "text": "このレストランは和食とフランス料理の融合料理を出す。",
+  "tier": "core"
+ },
+ "fusion.katakana": {
+  "lang": "ja",
+  "text": "フュージョン",
+  "tier": "core"
+ },
+ "fusion.meaning": {
+  "lang": "ja",
+  "text": "融合、核融合",
+  "tier": "core"
+ },
+ "fusion.story": {
+  "lang": "ja",
+  "text": "金属を溶かして混ぜ合わせることから「融合」に。fuse ヒューズ 、confuse 混乱させる、一緒に注ぐ も同じ語源。",
+  "tier": "extended"
+ },
+ "fusion.word": {
+  "lang": "en",
+  "text": "fusion",
   "tier": "core"
  },
  "future.example.en": {
@@ -15299,6 +16919,66 @@
   "text": "gauge",
   "tier": "core"
  },
+ "gauntlet.example.en": {
+  "lang": "en",
+  "text": "He threw down the gauntlet and challenged the champion.",
+  "tier": "core"
+ },
+ "gauntlet.example.ja": {
+  "lang": "ja",
+  "text": "彼は挑戦状をたたきつけてチャンピオンに挑んだ。",
+  "tier": "core"
+ },
+ "gauntlet.katakana": {
+  "lang": "ja",
+  "text": "ガントレット",
+  "tier": "core"
+ },
+ "gauntlet.meaning": {
+  "lang": "ja",
+  "text": "こて よろいの手袋",
+  "tier": "core"
+ },
+ "gauntlet.story": {
+  "lang": "ja",
+  "text": "中世の騎士は決闘を申し込むとき、こてを投げつけた。そこから throw down the gauntlet 挑戦する という言い方が生まれた。",
+  "tier": "extended"
+ },
+ "gauntlet.word": {
+  "lang": "en",
+  "text": "gauntlet",
+  "tier": "core"
+ },
+ "gem.example.en": {
+  "lang": "en",
+  "text": "This small cafe is a hidden gem.",
+  "tier": "core"
+ },
+ "gem.example.ja": {
+  "lang": "ja",
+  "text": "この小さなカフェは隠れた名店だ。",
+  "tier": "core"
+ },
+ "gem.katakana": {
+  "lang": "ja",
+  "text": "ジェム",
+  "tier": "core"
+ },
+ "gem.meaning": {
+  "lang": "ja",
+  "text": "宝石",
+  "tier": "core"
+ },
+ "gem.story": {
+  "lang": "ja",
+  "text": "植物の「芽」がつやつや光る様子から宝石の意味に。",
+  "tier": "extended"
+ },
+ "gem.word": {
+  "lang": "en",
+  "text": "gem",
+  "tier": "core"
+ },
  "gender.example.en": {
   "lang": "en",
   "text": "We should end gender discrimination.",
@@ -15387,6 +17067,36 @@
  "generation.word": {
   "lang": "en",
   "text": "generation",
+  "tier": "core"
+ },
+ "genesis.example.en": {
+  "lang": "en",
+  "text": "The book explains the genesis of the idea.",
+  "tier": "core"
+ },
+ "genesis.example.ja": {
+  "lang": "ja",
+  "text": "その本はその考えの起源を説明している。",
+  "tier": "core"
+ },
+ "genesis.katakana": {
+  "lang": "ja",
+  "text": "ジェネシス",
+  "tier": "core"
+ },
+ "genesis.meaning": {
+  "lang": "ja",
+  "text": "起源、始まり、 聖書の 創世記",
+  "tier": "core"
+ },
+ "genesis.story": {
+  "lang": "ja",
+  "text": "gene 遺伝子 、generation 世代 、generate 生み出す と同じ語根。旧約聖書の最初の書の名前でもある。",
+  "tier": "extended"
+ },
+ "genesis.word": {
+  "lang": "en",
+  "text": "genesis",
   "tier": "core"
  },
  "genocide.example.en": {
@@ -15507,6 +17217,66 @@
  "gestalt.word": {
   "lang": "en",
   "text": "gestalt",
+  "tier": "core"
+ },
+ "ghost.example.en": {
+  "lang": "en",
+  "text": "My sister says there is a ghost in the old house.",
+  "tier": "core"
+ },
+ "ghost.example.ja": {
+  "lang": "ja",
+  "text": "妹はその古い家に幽霊がいると言う。",
+  "tier": "core"
+ },
+ "ghost.katakana": {
+  "lang": "ja",
+  "text": "ゴースト",
+  "tier": "core"
+ },
+ "ghost.meaning": {
+  "lang": "ja",
+  "text": "幽霊、おばけ",
+  "tier": "core"
+ },
+ "ghost.story": {
+  "lang": "ja",
+  "text": "もとは「魂、生命の息」で、聖書の Holy Ghost 聖霊 にその意味が残る。gh のつづりは15世紀にフラマン語の影響で入った。",
+  "tier": "extended"
+ },
+ "ghost.word": {
+  "lang": "en",
+  "text": "ghost",
+  "tier": "core"
+ },
+ "giant.example.en": {
+  "lang": "en",
+  "text": "The giant picked up the house with one hand.",
+  "tier": "core"
+ },
+ "giant.example.ja": {
+  "lang": "ja",
+  "text": "巨人は片手で家を持ち上げた。",
+  "tier": "core"
+ },
+ "giant.katakana": {
+  "lang": "ja",
+  "text": "ジャイアント",
+  "tier": "core"
+ },
+ "giant.meaning": {
+  "lang": "ja",
+  "text": "巨人／巨大な",
+  "tier": "core"
+ },
+ "giant.story": {
+  "lang": "ja",
+  "text": "ラテン語、古フランス語を経て英語へ。gigantic 巨大な 、giga- 10億 も同じ語源。",
+  "tier": "extended"
+ },
+ "giant.word": {
+  "lang": "en",
+  "text": "giant",
   "tier": "core"
  },
  "gift.example.en": {
@@ -15749,6 +17519,36 @@
   "text": "goalkeeper",
   "tier": "core"
  },
+ "goblin.example.en": {
+  "lang": "en",
+  "text": "A goblin stole the gold from the treasure room.",
+  "tier": "core"
+ },
+ "goblin.example.ja": {
+  "lang": "ja",
+  "text": "ゴブリンが宝物庫から金を盗んだ。",
+  "tier": "core"
+ },
+ "goblin.katakana": {
+  "lang": "ja",
+  "text": "ゴブリン",
+  "tier": "core"
+ },
+ "goblin.meaning": {
+  "lang": "ja",
+  "text": "ゴブリン いたずら好きの小鬼",
+  "tier": "core"
+ },
+ "goblin.story": {
+  "lang": "ja",
+  "text": "ギリシャ語 kobalos いたずらな精霊 にさかのぼるという説があり、ドイツ語 Kobold コボルト と親戚ともいわれる。",
+  "tier": "extended"
+ },
+ "goblin.word": {
+  "lang": "en",
+  "text": "goblin",
+  "tier": "core"
+ },
  "gold.example.en": {
   "lang": "en",
   "text": "She won a gold medal.",
@@ -15777,6 +17577,36 @@
  "gold.word": {
   "lang": "en",
   "text": "gold",
+  "tier": "core"
+ },
+ "golem.example.en": {
+  "lang": "en",
+  "text": "The golem was made of clay and brought to life by magic.",
+  "tier": "core"
+ },
+ "golem.example.ja": {
+  "lang": "ja",
+  "text": "そのゴーレムは粘土で作られ、魔法で命を吹き込まれた。",
+  "tier": "core"
+ },
+ "golem.katakana": {
+  "lang": "ja",
+  "text": "ゴーレム",
+  "tier": "core"
+ },
+ "golem.meaning": {
+  "lang": "ja",
+  "text": "ゴーレム 土や石で作られた動く人形",
+  "tier": "core"
+ },
+ "golem.story": {
+  "lang": "ja",
+  "text": "ユダヤの伝説で、ラビ 宗教指導者 が土から作って動かした人形。旧約聖書では「胎児」のような未完成のものを指す語だった。",
+  "tier": "extended"
+ },
+ "golem.word": {
+  "lang": "en",
+  "text": "golem",
   "tier": "core"
  },
  "golf.example.en": {
@@ -16229,6 +18059,36 @@
   "text": "green",
   "tier": "core"
  },
+ "griffin.example.en": {
+  "lang": "en",
+  "text": "The knight flew over the mountains on a griffin.",
+  "tier": "core"
+ },
+ "griffin.example.ja": {
+  "lang": "ja",
+  "text": "騎士はグリフィンに乗って山を越えた。",
+  "tier": "core"
+ },
+ "griffin.katakana": {
+  "lang": "ja",
+  "text": "グリフォン",
+  "tier": "core"
+ },
+ "griffin.meaning": {
+  "lang": "ja",
+  "text": "グリフィン ワシの頭とライオンの体をもつ怪物",
+  "tier": "core"
+ },
+ "griffin.story": {
+  "lang": "ja",
+  "text": "ギリシャ語 gryps は「曲がったくちばし」を意味する語と関係があるとされる。黄金を守る獣として古代から描かれた。",
+  "tier": "extended"
+ },
+ "griffin.word": {
+  "lang": "en",
+  "text": "griffin",
+  "tier": "core"
+ },
  "grill.example.en": {
   "lang": "en",
   "text": "Let's grill some fish for dinner.",
@@ -16589,6 +18449,36 @@
   "text": "hacker",
   "tier": "core"
  },
+ "halberd.example.en": {
+  "lang": "en",
+  "text": "The guard at the gate held a halberd.",
+  "tier": "core"
+ },
+ "halberd.example.ja": {
+  "lang": "ja",
+  "text": "門の衛兵はハルバードを持っていた。",
+  "tier": "core"
+ },
+ "halberd.katakana": {
+  "lang": "ja",
+  "text": "ハルバード",
+  "tier": "core"
+ },
+ "halberd.meaning": {
+  "lang": "ja",
+  "text": "ハルバード、ほこやり",
+  "tier": "core"
+ },
+ "halberd.story": {
+  "lang": "ja",
+  "text": "「柄のついたおの」という意味。スイスの傭兵が使って有名になり、今もバチカンの衛兵が持っている。",
+  "tier": "extended"
+ },
+ "halberd.word": {
+  "lang": "en",
+  "text": "halberd",
+  "tier": "core"
+ },
  "hall.example.en": {
   "lang": "en",
   "text": "The ceremony was held in the school hall.",
@@ -16677,6 +18567,36 @@
  "hamburger.word": {
   "lang": "en",
   "text": "hamburger",
+  "tier": "core"
+ },
+ "hammer.example.en": {
+  "lang": "en",
+  "text": "I need a hammer to fix this chair.",
+  "tier": "core"
+ },
+ "hammer.example.ja": {
+  "lang": "ja",
+  "text": "このいすを直すのにハンマーが必要だ。",
+  "tier": "core"
+ },
+ "hammer.katakana": {
+  "lang": "ja",
+  "text": "ハンマー",
+  "tier": "core"
+ },
+ "hammer.meaning": {
+  "lang": "ja",
+  "text": "ハンマー、金づち",
+  "tier": "core"
+ },
+ "hammer.story": {
+  "lang": "ja",
+  "text": "古ノルド語 hamarr は「石」の意味もあり、最初の金づちは石だったと考えられる。",
+  "tier": "extended"
+ },
+ "hammer.word": {
+  "lang": "en",
+  "text": "hammer",
   "tier": "core"
  },
  "hamster.example.en": {
@@ -17159,6 +19079,36 @@
   "text": "headphones",
   "tier": "core"
  },
+ "heal.example.en": {
+  "lang": "en",
+  "text": "The cut on my finger healed quickly.",
+  "tier": "core"
+ },
+ "heal.example.ja": {
+  "lang": "ja",
+  "text": "指の切り傷はすぐに治った。",
+  "tier": "core"
+ },
+ "heal.katakana": {
+  "lang": "ja",
+  "text": "ヒール",
+  "tier": "core"
+ },
+ "heal.meaning": {
+  "lang": "ja",
+  "text": "傷、病気を 治す、いやす",
+  "tier": "core"
+ },
+ "heal.story": {
+  "lang": "ja",
+  "text": "whole 完全な 、health 健康 と同じ語源。靴のヒール heel とは別の語。",
+  "tier": "extended"
+ },
+ "heal.word": {
+  "lang": "en",
+  "text": "heal",
+  "tier": "core"
+ },
  "healing.example.en": {
   "lang": "en",
   "text": "This music has a healing effect.",
@@ -17397,6 +19347,36 @@
  "helmet.word": {
   "lang": "en",
   "text": "helmet",
+  "tier": "core"
+ },
+ "herb.example.en": {
+  "lang": "en",
+  "text": "She grows herbs in her garden.",
+  "tier": "core"
+ },
+ "herb.example.ja": {
+  "lang": "ja",
+  "text": "彼女は庭でハーブを育てている。",
+  "tier": "core"
+ },
+ "herb.katakana": {
+  "lang": "ja",
+  "text": "ハーブ",
+  "tier": "core"
+ },
+ "herb.meaning": {
+  "lang": "ja",
+  "text": "薬草、香草",
+  "tier": "core"
+ },
+ "herb.story": {
+  "lang": "ja",
+  "text": "アメリカ英語では h を発音しない アーブ ことが多い。herbivore は「草食動物」。",
+  "tier": "extended"
+ },
+ "herb.word": {
+  "lang": "en",
+  "text": "herb",
   "tier": "core"
  },
  "hero.example.en": {
@@ -17759,6 +19739,36 @@
   "text": "hologram",
   "tier": "core"
  },
+ "holy.example.en": {
+  "lang": "en",
+  "text": "Jerusalem is a holy city for many people.",
+  "tier": "core"
+ },
+ "holy.example.ja": {
+  "lang": "ja",
+  "text": "エルサレムは多くの人にとって聖地だ。",
+  "tier": "core"
+ },
+ "holy.katakana": {
+  "lang": "ja",
+  "text": "ホーリー",
+  "tier": "core"
+ },
+ "holy.meaning": {
+  "lang": "ja",
+  "text": "神聖な、聖なる",
+  "tier": "core"
+ },
+ "holy.story": {
+  "lang": "ja",
+  "text": "whole 完全な や health 健康 と同じ語根で、「欠けたところのない」が原義とされる。holiday 休日 はもと「聖なる日」。",
+  "tier": "extended"
+ },
+ "holy.word": {
+  "lang": "en",
+  "text": "holy",
+  "tier": "core"
+ },
  "homage.example.en": {
   "lang": "en",
   "text": "The film is a homage to classic horror movies.",
@@ -17907,6 +19917,36 @@
  "hormone.word": {
   "lang": "en",
   "text": "hormone",
+  "tier": "core"
+ },
+ "hornet.example.en": {
+  "lang": "en",
+  "text": "A hornet built a nest under the roof.",
+  "tier": "core"
+ },
+ "hornet.example.ja": {
+  "lang": "ja",
+  "text": "スズメバチが屋根の下に巣を作った。",
+  "tier": "core"
+ },
+ "hornet.katakana": {
+  "lang": "ja",
+  "text": "ホーネット",
+  "tier": "core"
+ },
+ "hornet.meaning": {
+  "lang": "ja",
+  "text": "スズメバチ",
+  "tier": "core"
+ },
+ "hornet.story": {
+  "lang": "ja",
+  "text": "ラテン語 crabro スズメバチ と同じ語源とされる。「角 horn 」とは関係ないといわれる。",
+  "tier": "extended"
+ },
+ "hornet.word": {
+  "lang": "en",
+  "text": "hornet",
   "tier": "core"
  },
  "horror.example.en": {
@@ -18237,6 +20277,36 @@
  "hybrid.word": {
   "lang": "en",
   "text": "hybrid",
+  "tier": "core"
+ },
+ "hydra.example.en": {
+  "lang": "en",
+  "text": "Hercules fought the hydra, which grew two heads for every one he cut off.",
+  "tier": "core"
+ },
+ "hydra.example.ja": {
+  "lang": "ja",
+  "text": "ヘラクレスは、首を1本切るごとに2本生えるヒュドラと戦った。",
+  "tier": "core"
+ },
+ "hydra.katakana": {
+  "lang": "ja",
+  "text": "ヒドラ",
+  "tier": "core"
+ },
+ "hydra.meaning": {
+  "lang": "ja",
+  "text": "ヒュドラ 首が多い大蛇 、手ごわい難題",
+  "tier": "core"
+ },
+ "hydra.story": {
+  "lang": "ja",
+  "text": "沼に住む水蛇だったので「水」の語根をもつ。hydrogen 水素 、hydrant 消火栓 と同じ仲間。",
+  "tier": "extended"
+ },
+ "hydra.word": {
+  "lang": "en",
+  "text": "hydra",
   "tier": "core"
  },
  "hysterical.example.en": {
@@ -18717,6 +20787,36 @@
  "indoor.word": {
   "lang": "en",
   "text": "indoor",
+  "tier": "core"
+ },
+ "inferno.example.en": {
+  "lang": "en",
+  "text": "The building became an inferno within minutes.",
+  "tier": "core"
+ },
+ "inferno.example.ja": {
+  "lang": "ja",
+  "text": "数分で建物は火の海になった。",
+  "tier": "core"
+ },
+ "inferno.katakana": {
+  "lang": "ja",
+  "text": "インフェルノ",
+  "tier": "core"
+ },
+ "inferno.meaning": {
+  "lang": "ja",
+  "text": "大火災、地獄 のような場所",
+  "tier": "core"
+ },
+ "inferno.story": {
+  "lang": "ja",
+  "text": "「地下の世界」が原義。inferior 下の、劣った と同じ語根。",
+  "tier": "extended"
+ },
+ "inferno.word": {
+  "lang": "en",
+  "text": "inferno",
   "tier": "core"
  },
  "inflation.example.en": {
@@ -19529,6 +21629,36 @@
   "text": "journalist",
   "tier": "core"
  },
+ "judgment.example.en": {
+  "lang": "en",
+  "text": "Use your own judgment.",
+  "tier": "core"
+ },
+ "judgment.example.ja": {
+  "lang": "ja",
+  "text": "自分で判断しなさい。",
+  "tier": "core"
+ },
+ "judgment.katakana": {
+  "lang": "ja",
+  "text": "ジャッジメント",
+  "tier": "core"
+ },
+ "judgment.meaning": {
+  "lang": "ja",
+  "text": "判断、審判、判決",
+  "tier": "core"
+ },
+ "judgment.story": {
+  "lang": "ja",
+  "text": "「法を告げる」が原義。judge 裁判官 、justice 正義 も同じ語根。Judgment Day は「最後の審判の日」。",
+  "tier": "extended"
+ },
+ "judgment.word": {
+  "lang": "en",
+  "text": "judgment",
+  "tier": "core"
+ },
  "juice.example.en": {
   "lang": "en",
   "text": "I squeezed fresh orange juice for breakfast.",
@@ -20189,6 +22319,36 @@
   "text": "koala",
   "tier": "core"
  },
+ "kraken.example.en": {
+  "lang": "en",
+  "text": "Sailors feared the kraken more than storms.",
+  "tier": "core"
+ },
+ "kraken.example.ja": {
+  "lang": "ja",
+  "text": "船乗りたちは嵐よりもクラーケンを恐れた。",
+  "tier": "core"
+ },
+ "kraken.katakana": {
+  "lang": "ja",
+  "text": "クラーケン",
+  "tier": "core"
+ },
+ "kraken.meaning": {
+  "lang": "ja",
+  "text": "クラーケン 北欧伝説の巨大な海の怪物",
+  "tier": "core"
+ },
+ "kraken.story": {
+  "lang": "ja",
+  "text": "ノルウェーの船乗りの伝説から。18世紀の博物誌に記録され、巨大ダイオウイカの目撃談がもとになったともいわれる。",
+  "tier": "extended"
+ },
+ "kraken.word": {
+  "lang": "en",
+  "text": "kraken",
+  "tier": "core"
+ },
  "label.example.en": {
   "lang": "en",
   "text": "Read the label before you take the medicine.",
@@ -20337,6 +22497,36 @@
  "lamp.word": {
   "lang": "en",
   "text": "lamp",
+  "tier": "core"
+ },
+ "lance.example.en": {
+  "lang": "en",
+  "text": "The knight charged with his lance.",
+  "tier": "core"
+ },
+ "lance.example.ja": {
+  "lang": "ja",
+  "text": "騎士はやりを構えて突撃した。",
+  "tier": "core"
+ },
+ "lance.katakana": {
+  "lang": "ja",
+  "text": "ランス",
+  "tier": "core"
+ },
+ "lance.meaning": {
+  "lang": "ja",
+  "text": "騎兵の やり",
+  "tier": "core"
+ },
+ "lance.story": {
+  "lang": "ja",
+  "text": "launch 発射する も「やりを投げる」から来た同じ語源。フリーランス freelance はもと「どの主君にも仕えないやり使い 傭兵 」。",
+  "tier": "extended"
+ },
+ "lance.word": {
+  "lang": "en",
+  "text": "lance",
   "tier": "core"
  },
  "lane.example.en": {
@@ -21029,6 +23219,36 @@
   "text": "lifestyle",
   "tier": "core"
  },
+ "lightning.example.en": {
+  "lang": "en",
+  "text": "Lightning struck the tall tree.",
+  "tier": "core"
+ },
+ "lightning.example.ja": {
+  "lang": "ja",
+  "text": "高い木に雷が落ちた。",
+  "tier": "core"
+ },
+ "lightning.katakana": {
+  "lang": "ja",
+  "text": "ライトニング",
+  "tier": "core"
+ },
+ "lightning.meaning": {
+  "lang": "ja",
+  "text": "稲妻、稲光",
+  "tier": "core"
+ },
+ "lightning.story": {
+  "lang": "ja",
+  "text": "light 光 から。lightening 軽くすること とはつづりが違うので注意。",
+  "tier": "extended"
+ },
+ "lightning.word": {
+  "lang": "en",
+  "text": "lightning",
+  "tier": "core"
+ },
  "limit.example.en": {
   "lang": "en",
   "text": "There is a limit to what I can do.",
@@ -21207,6 +23427,36 @@
  "live.word": {
   "lang": "en",
   "text": "live",
+  "tier": "core"
+ },
+ "lizard.example.en": {
+  "lang": "en",
+  "text": "A small lizard ran across the wall.",
+  "tier": "core"
+ },
+ "lizard.example.ja": {
+  "lang": "ja",
+  "text": "小さなトカゲが壁を走っていった。",
+  "tier": "core"
+ },
+ "lizard.katakana": {
+  "lang": "ja",
+  "text": "リザード",
+  "tier": "core"
+ },
+ "lizard.meaning": {
+  "lang": "ja",
+  "text": "トカゲ",
+  "tier": "core"
+ },
+ "lizard.story": {
+  "lang": "ja",
+  "text": "ラテン語 lacerta はさらに「腕の筋肉」を表す lacertus と同じ語。alligator ワニ はスペイン語 el lagarto そのトカゲ から。",
+  "tier": "extended"
+ },
+ "lizard.word": {
+  "lang": "en",
+  "text": "lizard",
   "tier": "core"
  },
  "loan.example.en": {
@@ -21599,6 +23849,36 @@
   "text": "love",
   "tier": "core"
  },
+ "luck.example.en": {
+  "lang": "en",
+  "text": "Good luck on your test!",
+  "tier": "core"
+ },
+ "luck.example.ja": {
+  "lang": "ja",
+  "text": "テストがんばってね！",
+  "tier": "core"
+ },
+ "luck.katakana": {
+  "lang": "ja",
+  "text": "ラック",
+  "tier": "core"
+ },
+ "luck.meaning": {
+  "lang": "ja",
+  "text": "運",
+  "tier": "core"
+ },
+ "luck.story": {
+  "lang": "ja",
+  "text": "15世紀ごろ、ギャンブルの言葉としてオランダ語から入ったといわれる。形容詞は lucky。",
+  "tier": "extended"
+ },
+ "luck.word": {
+  "lang": "en",
+  "text": "luck",
+  "tier": "core"
+ },
  "lucky.example.en": {
   "lang": "en",
   "text": "You're lucky to have such good friends.",
@@ -21687,6 +23967,36 @@
  "luxury.word": {
   "lang": "en",
   "text": "luxury",
+  "tier": "core"
+ },
+ "mace.example.en": {
+  "lang": "en",
+  "text": "The priest fought with a heavy mace.",
+  "tier": "core"
+ },
+ "mace.example.ja": {
+  "lang": "ja",
+  "text": "神官は重いメイスで戦った。",
+  "tier": "core"
+ },
+ "mace.katakana": {
+  "lang": "ja",
+  "text": "メイス",
+  "tier": "core"
+ },
+ "mace.meaning": {
+  "lang": "ja",
+  "text": "メイス 先に重い頭がついた打撃武器 、職杖",
+  "tier": "core"
+ },
+ "mace.story": {
+  "lang": "ja",
+  "text": "よろいの上からでも打撃を与えられるため中世の騎士が愛用した。香辛料の mace メース は別語源。",
+  "tier": "extended"
+ },
+ "mace.word": {
+  "lang": "en",
+  "text": "mace",
   "tier": "core"
  },
  "maestro.example.en": {
@@ -22167,6 +24477,66 @@
  "mansion.word": {
   "lang": "en",
   "text": "mansion",
+  "tier": "core"
+ },
+ "mantis.example.en": {
+  "lang": "en",
+  "text": "A mantis held its front legs up as if praying.",
+  "tier": "core"
+ },
+ "mantis.example.ja": {
+  "lang": "ja",
+  "text": "カマキリは祈るように前足を上げていた。",
+  "tier": "core"
+ },
+ "mantis.katakana": {
+  "lang": "ja",
+  "text": "マンティス",
+  "tier": "core"
+ },
+ "mantis.meaning": {
+  "lang": "ja",
+  "text": "カマキリ",
+  "tier": "core"
+ },
+ "mantis.story": {
+  "lang": "ja",
+  "text": "前足を合わせる姿が祈る予言者に見えたことから。英語では praying mantis 祈るカマキリ とも。",
+  "tier": "extended"
+ },
+ "mantis.word": {
+  "lang": "en",
+  "text": "mantis",
+  "tier": "core"
+ },
+ "mantle.example.en": {
+  "lang": "en",
+  "text": "He took on the mantle of team captain.",
+  "tier": "core"
+ },
+ "mantle.example.ja": {
+  "lang": "ja",
+  "text": "彼はチームのキャプテンという役目を引き継いだ。",
+  "tier": "core"
+ },
+ "mantle.katakana": {
+  "lang": "ja",
+  "text": "マント",
+  "tier": "core"
+ },
+ "mantle.meaning": {
+  "lang": "ja",
+  "text": "マント、外套／ 地球の マントル",
+  "tier": "core"
+ },
+ "mantle.story": {
+  "lang": "ja",
+  "text": "「覆うもの」が原義。地殻の下を覆う層もマントルと呼ぶ。take on the mantle は「 前任者の 役目を引き継ぐ」。",
+  "tier": "extended"
+ },
+ "mantle.word": {
+  "lang": "en",
+  "text": "mantle",
   "tier": "core"
  },
  "mantra.example.en": {
@@ -23129,6 +25499,66 @@
   "text": "menu",
   "tier": "core"
  },
+ "mercenary.example.en": {
+  "lang": "en",
+  "text": "The king hired mercenaries to fight the war.",
+  "tier": "core"
+ },
+ "mercenary.example.ja": {
+  "lang": "ja",
+  "text": "王は戦争のために傭兵を雇った。",
+  "tier": "core"
+ },
+ "mercenary.katakana": {
+  "lang": "ja",
+  "text": "マーセナリー",
+  "tier": "core"
+ },
+ "mercenary.meaning": {
+  "lang": "ja",
+  "text": "傭兵／金目当ての",
+  "tier": "core"
+ },
+ "mercenary.story": {
+  "lang": "ja",
+  "text": "merchant 商人 、market 市場 、commerce 商業 と同じ merc- 取引 の仲間。",
+  "tier": "extended"
+ },
+ "mercenary.word": {
+  "lang": "en",
+  "text": "mercenary",
+  "tier": "core"
+ },
+ "mermaid.example.en": {
+  "lang": "en",
+  "text": "The mermaid sang to the sailors.",
+  "tier": "core"
+ },
+ "mermaid.example.ja": {
+  "lang": "ja",
+  "text": "人魚は船乗りたちに歌いかけた。",
+  "tier": "core"
+ },
+ "mermaid.katakana": {
+  "lang": "ja",
+  "text": "マーメイド",
+  "tier": "core"
+ },
+ "mermaid.meaning": {
+  "lang": "ja",
+  "text": "人魚",
+  "tier": "core"
+ },
+ "mermaid.story": {
+  "lang": "ja",
+  "text": "mere は古い英語で「海、湖」。フランス語 mer 海 、ラテン語 mare 海 と同じ仲間で、marine 海の もここから。",
+  "tier": "extended"
+ },
+ "mermaid.word": {
+  "lang": "en",
+  "text": "mermaid",
+  "tier": "core"
+ },
  "message.example.en": {
   "lang": "en",
   "text": "Can I leave a message for Ms. Sato?",
@@ -23277,6 +25707,36 @@
  "metaverse.word": {
   "lang": "en",
   "text": "metaverse",
+  "tier": "core"
+ },
+ "meteor.example.en": {
+  "lang": "en",
+  "text": "We watched a meteor shower last night.",
+  "tier": "core"
+ },
+ "meteor.example.ja": {
+  "lang": "ja",
+  "text": "昨夜、流星群を見た。",
+  "tier": "core"
+ },
+ "meteor.katakana": {
+  "lang": "ja",
+  "text": "メテオ",
+  "tier": "core"
+ },
+ "meteor.meaning": {
+  "lang": "ja",
+  "text": "流星",
+  "tier": "core"
+ },
+ "meteor.story": {
+  "lang": "ja",
+  "text": "もとは空で起こる現象すべてを指した。そこから meteorology は「気象学」になった。",
+  "tier": "extended"
+ },
+ "meteor.word": {
+  "lang": "en",
+  "text": "meteor",
   "tier": "core"
  },
  "meter.example.en": {
@@ -23487,6 +25947,36 @@
  "milk.word": {
   "lang": "en",
   "text": "milk",
+  "tier": "core"
+ },
+ "mimic.example.en": {
+  "lang": "en",
+  "text": "Some insects mimic leaves to hide from birds.",
+  "tier": "core"
+ },
+ "mimic.example.ja": {
+  "lang": "ja",
+  "text": "鳥から隠れるために葉に擬態する虫もいる。",
+  "tier": "core"
+ },
+ "mimic.katakana": {
+  "lang": "ja",
+  "text": "ミミック",
+  "tier": "core"
+ },
+ "mimic.meaning": {
+  "lang": "ja",
+  "text": "まねをする／まねのうまい人",
+  "tier": "core"
+ },
+ "mimic.story": {
+  "lang": "ja",
+  "text": "パントマイム pantomime の mime と同じ語源。宝箱のミミックは「宝箱をまねるもの」ということ。",
+  "tier": "extended"
+ },
+ "mimic.word": {
+  "lang": "en",
+  "text": "mimic",
   "tier": "core"
  },
  "mindfulness.example.en": {
@@ -24027,6 +26517,36 @@
  "monitor.word": {
   "lang": "en",
   "text": "monitor",
+  "tier": "core"
+ },
+ "monk.example.en": {
+  "lang": "en",
+  "text": "The monk lived alone in the mountains.",
+  "tier": "core"
+ },
+ "monk.example.ja": {
+  "lang": "ja",
+  "text": "その僧は山の中でひとりで暮らしていた。",
+  "tier": "core"
+ },
+ "monk.katakana": {
+  "lang": "ja",
+  "text": "モンク",
+  "tier": "core"
+ },
+ "monk.meaning": {
+  "lang": "ja",
+  "text": "修道士、僧",
+  "tier": "core"
+ },
+ "monk.story": {
+  "lang": "ja",
+  "text": "mono- 一つ と同じ語根。monastery は「修道院」。",
+  "tier": "extended"
+ },
+ "monk.word": {
+  "lang": "en",
+  "text": "monk",
   "tier": "core"
  },
  "monkey.example.en": {
@@ -24929,6 +27449,36 @@
   "text": "necktie",
   "tier": "core"
  },
+ "necromancer.example.en": {
+  "lang": "en",
+  "text": "The necromancer raised an army of skeletons.",
+  "tier": "core"
+ },
+ "necromancer.example.ja": {
+  "lang": "ja",
+  "text": "死霊使いはがい骨の軍団をよみがえらせた。",
+  "tier": "core"
+ },
+ "necromancer.katakana": {
+  "lang": "ja",
+  "text": "ネクロマンサー",
+  "tier": "core"
+ },
+ "necromancer.meaning": {
+  "lang": "ja",
+  "text": "死霊使い、降霊術師",
+  "tier": "core"
+ },
+ "necromancer.story": {
+  "lang": "ja",
+  "text": "もとは「死者の霊を呼んで未来を占う人」。romance ロマンス とは関係がない。",
+  "tier": "extended"
+ },
+ "necromancer.word": {
+  "lang": "en",
+  "text": "necromancer",
+  "tier": "core"
+ },
  "negative.example.en": {
   "lang": "en",
   "text": "The test result was negative.",
@@ -25649,6 +28199,36 @@
   "text": "offshore",
   "tier": "core"
  },
+ "ogre.example.en": {
+  "lang": "en",
+  "text": "The ogre lived in a cave and ate travelers.",
+  "tier": "core"
+ },
+ "ogre.example.ja": {
+  "lang": "ja",
+  "text": "その鬼は洞くつに住み、旅人を食べていた。",
+  "tier": "core"
+ },
+ "ogre.katakana": {
+  "lang": "ja",
+  "text": "オーガ",
+  "tier": "core"
+ },
+ "ogre.meaning": {
+  "lang": "ja",
+  "text": "人食いの 鬼、大鬼",
+  "tier": "core"
+ },
+ "ogre.story": {
+  "lang": "ja",
+  "text": "17世紀フランスの童話から英語に入った。語源は不明だが、ラテン語 Orcus 冥界の神 と関係づける説がある。",
+  "tier": "extended"
+ },
+ "ogre.word": {
+  "lang": "en",
+  "text": "ogre",
+  "tier": "core"
+ },
  "oil.example.en": {
   "lang": "en",
   "text": "Heat some oil in a pan.",
@@ -25977,6 +28557,36 @@
  "orange.word": {
   "lang": "en",
   "text": "orange",
+  "tier": "core"
+ },
+ "orb.example.en": {
+  "lang": "en",
+  "text": "The wizard held a glowing orb in his hand.",
+  "tier": "core"
+ },
+ "orb.example.ja": {
+  "lang": "ja",
+  "text": "魔法使いは光る玉を手に持っていた。",
+  "tier": "core"
+ },
+ "orb.katakana": {
+  "lang": "ja",
+  "text": "オーブ",
+  "tier": "core"
+ },
+ "orb.meaning": {
+  "lang": "ja",
+  "text": "球、宝珠",
+  "tier": "core"
+ },
+ "orb.story": {
+  "lang": "ja",
+  "text": "「輪」から「球体」へ。orbit 軌道 も同じ語源で、天体が描く「輪」のこと。",
+  "tier": "extended"
+ },
+ "orb.word": {
+  "lang": "en",
+  "text": "orb",
   "tier": "core"
  },
  "orchestra.example.en": {
@@ -26489,6 +29099,36 @@
   "text": "pajamas",
   "tier": "core"
  },
+ "paladin.example.en": {
+  "lang": "en",
+  "text": "He was a paladin of the poor.",
+  "tier": "core"
+ },
+ "paladin.example.ja": {
+  "lang": "ja",
+  "text": "彼は貧しい人々を守る闘士だった。",
+  "tier": "core"
+ },
+ "paladin.katakana": {
+  "lang": "ja",
+  "text": "パラディン",
+  "tier": "core"
+ },
+ "paladin.meaning": {
+  "lang": "ja",
+  "text": "聖騎士、 主義を守る 闘士",
+  "tier": "core"
+ },
+ "paladin.story": {
+  "lang": "ja",
+  "text": "シャルルマーニュ カール大帝 に仕えた12人の勇士のこと。palace 宮殿 と同じ語源。",
+  "tier": "extended"
+ },
+ "paladin.word": {
+  "lang": "en",
+  "text": "paladin",
+  "tier": "core"
+ },
  "palette.example.en": {
   "lang": "en",
   "text": "Mix the paints on the palette.",
@@ -26637,6 +29277,36 @@
  "panel.word": {
   "lang": "en",
   "text": "panel",
+  "tier": "core"
+ },
+ "panther.example.en": {
+  "lang": "en",
+  "text": "A black panther moved quietly through the jungle.",
+  "tier": "core"
+ },
+ "panther.example.ja": {
+  "lang": "ja",
+  "text": "黒ヒョウがジャングルを静かに進んでいた。",
+  "tier": "core"
+ },
+ "panther.katakana": {
+  "lang": "ja",
+  "text": "パンサー",
+  "tier": "core"
+ },
+ "panther.meaning": {
+  "lang": "ja",
+  "text": "ヒョウ、黒ヒョウ",
+  "tier": "core"
+ },
+ "panther.story": {
+  "lang": "ja",
+  "text": "「すべての pan 獣 ther 」という俗説があるが、実際はインドの言葉からの借用とされる。",
+  "tier": "extended"
+ },
+ "panther.word": {
+  "lang": "en",
+  "text": "panther",
   "tier": "core"
  },
  "pants.example.en": {
@@ -26967,6 +29637,36 @@
  "parody.word": {
   "lang": "en",
   "text": "parody",
+  "tier": "core"
+ },
+ "parry.example.en": {
+  "lang": "en",
+  "text": "She parried the question with a joke.",
+  "tier": "core"
+ },
+ "parry.example.ja": {
+  "lang": "ja",
+  "text": "彼女はその質問を冗談でかわした。",
+  "tier": "core"
+ },
+ "parry.katakana": {
+  "lang": "ja",
+  "text": "パリィ",
+  "tier": "core"
+ },
+ "parry.meaning": {
+  "lang": "ja",
+  "text": "攻撃を 受け流す、 質問を かわす",
+  "tier": "core"
+ },
+ "parry.story": {
+  "lang": "ja",
+  "text": "フェンシングのかけ声から。prepare 準備する 、parachute パラシュート、落下を防ぐもの と同じ語源。",
+  "tier": "extended"
+ },
+ "parry.word": {
+  "lang": "en",
+  "text": "parry",
   "tier": "core"
  },
  "partner.example.en": {
@@ -28489,6 +31189,36 @@
   "text": "pencil",
   "tier": "core"
  },
+ "pendant.example.en": {
+  "lang": "en",
+  "text": "She wore a silver pendant.",
+  "tier": "core"
+ },
+ "pendant.example.ja": {
+  "lang": "ja",
+  "text": "彼女は銀のペンダントをつけていた。",
+  "tier": "core"
+ },
+ "pendant.katakana": {
+  "lang": "ja",
+  "text": "ペンダント",
+  "tier": "core"
+ },
+ "pendant.meaning": {
+  "lang": "ja",
+  "text": "ペンダント",
+  "tier": "core"
+ },
+ "pendant.story": {
+  "lang": "ja",
+  "text": "pend「ぶら下がる」の仲間には depend からに頼る、ぶら下がる 、suspend つるす、停止する がある。",
+  "tier": "extended"
+ },
+ "pendant.word": {
+  "lang": "en",
+  "text": "pendant",
+  "tier": "core"
+ },
  "penguin.example.en": {
   "lang": "en",
   "text": "Penguins cannot fly, but they are excellent swimmers.",
@@ -28877,6 +31607,36 @@
  "phishing.word": {
   "lang": "en",
   "text": "phishing",
+  "tier": "core"
+ },
+ "phoenix.example.en": {
+  "lang": "en",
+  "text": "Like a phoenix, the team rose again after the defeat.",
+  "tier": "core"
+ },
+ "phoenix.example.ja": {
+  "lang": "ja",
+  "text": "不死鳥のように、チームは敗北から立ち上がった。",
+  "tier": "core"
+ },
+ "phoenix.katakana": {
+  "lang": "ja",
+  "text": "フェニックス",
+  "tier": "core"
+ },
+ "phoenix.meaning": {
+  "lang": "ja",
+  "text": "不死鳥",
+  "tier": "core"
+ },
+ "phoenix.story": {
+  "lang": "ja",
+  "text": "赤紫色の染料で知られたフェニキアと同じ語で、炎のような色の鳥を表したと考えられる。500年ごとに自らを焼いて灰から生まれ変わるとされた。",
+  "tier": "extended"
+ },
+ "phoenix.word": {
+  "lang": "en",
+  "text": "phoenix",
   "tier": "core"
  },
  "phone.example.en": {
@@ -29689,6 +32449,36 @@
   "text": "point",
   "tier": "core"
  },
+ "poison.example.en": {
+  "lang": "en",
+  "text": "Some mushrooms contain poison.",
+  "tier": "core"
+ },
+ "poison.example.ja": {
+  "lang": "ja",
+  "text": "毒をもつキノコもある。",
+  "tier": "core"
+ },
+ "poison.katakana": {
+  "lang": "ja",
+  "text": "ポイズン",
+  "tier": "core"
+ },
+ "poison.meaning": {
+  "lang": "ja",
+  "text": "毒／毒を盛る",
+  "tier": "core"
+ },
+ "poison.story": {
+  "lang": "ja",
+  "text": "potion と同じ potio から。もとは「飲み物」だったが、「毒の入った飲み物」、「毒」になった。",
+  "tier": "extended"
+ },
+ "poison.word": {
+  "lang": "en",
+  "text": "poison",
+  "tier": "core"
+ },
  "policy.example.en": {
   "lang": "en",
   "text": "The school has a strict no-phone policy.",
@@ -30409,6 +33199,36 @@
   "text": "price",
   "tier": "core"
  },
+ "priest.example.en": {
+  "lang": "en",
+  "text": "The priest prayed for the sick.",
+  "tier": "core"
+ },
+ "priest.example.ja": {
+  "lang": "ja",
+  "text": "司祭は病人のために祈った。",
+  "tier": "core"
+ },
+ "priest.katakana": {
+  "lang": "ja",
+  "text": "プリースト",
+  "tier": "core"
+ },
+ "priest.meaning": {
+  "lang": "ja",
+  "text": "司祭、神官",
+  "tier": "core"
+ },
+ "priest.story": {
+  "lang": "ja",
+  "text": "もとは教会の「長老」。短く縮まって priest になった。",
+  "tier": "extended"
+ },
+ "priest.word": {
+  "lang": "en",
+  "text": "priest",
+  "tier": "core"
+ },
  "prince.example.en": {
   "lang": "en",
   "text": "The prince fell in love with a poor girl.",
@@ -30977,6 +33797,36 @@
  "propose.word": {
   "lang": "en",
   "text": "propose",
+  "tier": "core"
+ },
+ "protect.example.en": {
+  "lang": "en",
+  "text": "Wear a hat to protect your head from the sun.",
+  "tier": "core"
+ },
+ "protect.example.ja": {
+  "lang": "ja",
+  "text": "日差しから頭を守るために帽子をかぶりなさい。",
+  "tier": "core"
+ },
+ "protect.katakana": {
+  "lang": "ja",
+  "text": "プロテクト",
+  "tier": "core"
+ },
+ "protect.meaning": {
+  "lang": "ja",
+  "text": "守る、保護する",
+  "tier": "core"
+ },
+ "protect.story": {
+  "lang": "ja",
+  "text": "「前に覆いをかける」が原義。detect 見つける は「覆いを取る」で同じ tegere の仲間。",
+  "tier": "extended"
+ },
+ "protect.word": {
+  "lang": "en",
+  "text": "protect",
   "tier": "core"
  },
  "protein.example.en": {
@@ -32539,6 +35389,36 @@
   "text": "radio",
   "tier": "core"
  },
+ "raid.example.en": {
+  "lang": "en",
+  "text": "We joined a raid to defeat the giant boss.",
+  "tier": "core"
+ },
+ "raid.example.ja": {
+  "lang": "ja",
+  "text": "巨大ボスを倒すためにレイドに参加した。",
+  "tier": "core"
+ },
+ "raid.katakana": {
+  "lang": "ja",
+  "text": "レイド",
+  "tier": "core"
+ },
+ "raid.meaning": {
+  "lang": "ja",
+  "text": "急襲、手入れ／急襲する",
+  "tier": "core"
+ },
+ "raid.story": {
+  "lang": "ja",
+  "text": "road 道 、ride 乗る と同じ語源。「馬で乗りこむ」、「襲撃」。19世紀に小説家スコットが広めた。",
+  "tier": "extended"
+ },
+ "raid.word": {
+  "lang": "en",
+  "text": "raid",
+  "tier": "core"
+ },
  "rain.example.en": {
   "lang": "en",
   "text": "It's raining hard outside.",
@@ -32629,6 +35509,36 @@
   "text": "rally",
   "tier": "core"
  },
+ "ranger.example.en": {
+  "lang": "en",
+  "text": "The park ranger showed us the trail.",
+  "tier": "core"
+ },
+ "ranger.example.ja": {
+  "lang": "ja",
+  "text": "公園のレンジャーが山道を案内してくれた。",
+  "tier": "core"
+ },
+ "ranger.katakana": {
+  "lang": "ja",
+  "text": "レンジャー",
+  "tier": "core"
+ },
+ "ranger.meaning": {
+  "lang": "ja",
+  "text": "森林警備員、レンジャー",
+  "tier": "core"
+ },
+ "ranger.story": {
+  "lang": "ja",
+  "text": "「広い範囲 range を歩き回る人」から。森を見回る警備員や特殊部隊の名前に。",
+  "tier": "extended"
+ },
+ "ranger.word": {
+  "lang": "en",
+  "text": "ranger",
+  "tier": "core"
+ },
  "rank.example.en": {
   "lang": "en",
   "text": "He was ranked third in the world.",
@@ -32689,6 +35599,36 @@
   "text": "ranking",
   "tier": "core"
  },
+ "rapier.example.en": {
+  "lang": "en",
+  "text": "The duelist thrust his rapier forward.",
+  "tier": "core"
+ },
+ "rapier.example.ja": {
+  "lang": "ja",
+  "text": "決闘者はレイピアを前に突き出した。",
+  "tier": "core"
+ },
+ "rapier.katakana": {
+  "lang": "ja",
+  "text": "レイピア",
+  "tier": "core"
+ },
+ "rapier.meaning": {
+  "lang": "ja",
+  "text": "レイピア 細身の突き剣",
+  "tier": "core"
+ },
+ "rapier.story": {
+  "lang": "ja",
+  "text": "16世紀のヨーロッパで貴族が身につけた決闘用の剣。rapier wit は「鋭い機知」。",
+  "tier": "extended"
+ },
+ "rapier.word": {
+  "lang": "en",
+  "text": "rapier",
+  "tier": "core"
+ },
  "rare.example.en": {
   "lang": "en",
   "text": "You got a rare sword from the chest!",
@@ -32717,6 +35657,36 @@
  "rare.word": {
   "lang": "en",
   "text": "rare",
+  "tier": "core"
+ },
+ "raven.example.en": {
+  "lang": "en",
+  "text": "A raven sat on the castle tower.",
+  "tier": "core"
+ },
+ "raven.example.ja": {
+  "lang": "ja",
+  "text": "城の塔にワタリガラスがとまっていた。",
+  "tier": "core"
+ },
+ "raven.katakana": {
+  "lang": "ja",
+  "text": "レイヴン",
+  "tier": "core"
+ },
+ "raven.meaning": {
+  "lang": "ja",
+  "text": "ワタリガラス、大ガラス",
+  "tier": "core"
+ },
+ "raven.story": {
+  "lang": "ja",
+  "text": "北欧神話で主神オーディンに仕える2羽のカラスが有名。形容詞 raven は「 髪が つやのある黒の」。",
+  "tier": "extended"
+ },
+ "raven.word": {
+  "lang": "en",
+  "text": "raven",
   "tier": "core"
  },
  "realism.example.en": {
@@ -32987,6 +35957,36 @@
  "referee.word": {
   "lang": "en",
   "text": "referee",
+  "tier": "core"
+ },
+ "reflect.example.en": {
+  "lang": "en",
+  "text": "The lake reflected the mountains.",
+  "tier": "core"
+ },
+ "reflect.example.ja": {
+  "lang": "ja",
+  "text": "湖に山が映っていた。",
+  "tier": "core"
+ },
+ "reflect.katakana": {
+  "lang": "ja",
+  "text": "リフレクト",
+  "tier": "core"
+ },
+ "reflect.meaning": {
+  "lang": "ja",
+  "text": "反射する、反映する、よく考える",
+  "tier": "core"
+ },
+ "reflect.story": {
+  "lang": "ja",
+  "text": "光を「曲げ戻す」、反射。心の中で「振り返る」、よく考える、に広がった。flexible 曲げやすい も flectere の仲間。",
+  "tier": "extended"
+ },
+ "reflect.word": {
+  "lang": "en",
+  "text": "reflect",
   "tier": "core"
  },
  "reform.example.en": {
@@ -33499,6 +36499,36 @@
   "text": "reporter",
   "tier": "core"
  },
+ "requiem.example.en": {
+  "lang": "en",
+  "text": "The choir sang a requiem for the victims.",
+  "tier": "core"
+ },
+ "requiem.example.ja": {
+  "lang": "ja",
+  "text": "合唱団は犠牲者のために鎮魂曲を歌った。",
+  "tier": "core"
+ },
+ "requiem.katakana": {
+  "lang": "ja",
+  "text": "レクイエム",
+  "tier": "core"
+ },
+ "requiem.meaning": {
+  "lang": "ja",
+  "text": "鎮魂曲、レクイエム",
+  "tier": "core"
+ },
+ "requiem.story": {
+  "lang": "ja",
+  "text": "死者のためのミサが Requiem aeternam 永遠の安息を という言葉で始まることから。quiet 静かな と同じ語根。",
+  "tier": "extended"
+ },
+ "requiem.word": {
+  "lang": "en",
+  "text": "requiem",
+  "tier": "core"
+ },
  "rescue.example.en": {
   "lang": "en",
   "text": "The firefighters rescued a cat from the roof.",
@@ -33857,6 +36887,36 @@
  "return.word": {
   "lang": "en",
   "text": "return",
+  "tier": "core"
+ },
+ "revenge.example.en": {
+  "lang": "en",
+  "text": "The villain wanted revenge on the hero.",
+  "tier": "core"
+ },
+ "revenge.example.ja": {
+  "lang": "ja",
+  "text": "悪役は英雄に復讐したがっていた。",
+  "tier": "core"
+ },
+ "revenge.katakana": {
+  "lang": "ja",
+  "text": "リベンジ",
+  "tier": "core"
+ },
+ "revenge.meaning": {
+  "lang": "ja",
+  "text": "復讐、仕返し",
+  "tier": "core"
+ },
+ "revenge.story": {
+  "lang": "ja",
+  "text": "vengeance 復讐 、avenge かたきを討つ も同じ語源。映画『アベンジャーズ』も「復讐者たち」。",
+  "tier": "extended"
+ },
+ "revenge.word": {
+  "lang": "en",
+  "text": "revenge",
   "tier": "core"
  },
  "review.example.en": {
@@ -34249,6 +37309,36 @@
   "text": "roadmap",
   "tier": "core"
  },
+ "robe.example.en": {
+  "lang": "en",
+  "text": "The wizard wore a long blue robe.",
+  "tier": "core"
+ },
+ "robe.example.ja": {
+  "lang": "ja",
+  "text": "魔法使いは長い青いローブを着ていた。",
+  "tier": "core"
+ },
+ "robe.katakana": {
+  "lang": "ja",
+  "text": "ローブ",
+  "tier": "core"
+ },
+ "robe.meaning": {
+  "lang": "ja",
+  "text": "ローブ、長い衣、バスローブ",
+  "tier": "core"
+ },
+ "robe.story": {
+  "lang": "ja",
+  "text": "もとは「奪い取った衣服」。rob 奪う と同じ語源。wardrobe 衣装だんす は「ローブを守るもの」。",
+  "tier": "extended"
+ },
+ "robe.word": {
+  "lang": "en",
+  "text": "robe",
+  "tier": "core"
+ },
  "robot.example.en": {
   "lang": "en",
   "text": "This factory uses robots to build cars.",
@@ -34337,6 +37427,36 @@
  "rococo.word": {
   "lang": "en",
   "text": "rococo",
+  "tier": "core"
+ },
+ "rod.example.en": {
+  "lang": "en",
+  "text": "My grandfather gave me a fishing rod.",
+  "tier": "core"
+ },
+ "rod.example.ja": {
+  "lang": "ja",
+  "text": "祖父が釣りざおをくれた。",
+  "tier": "core"
+ },
+ "rod.katakana": {
+  "lang": "ja",
+  "text": "ロッド",
+  "tier": "core"
+ },
+ "rod.meaning": {
+  "lang": "ja",
+  "text": "棒、さお、ロッド",
+  "tier": "core"
+ },
+ "rod.story": {
+  "lang": "ja",
+  "text": "もとは「細い枝」。そこから棒、さお、むちの意味に。lightning rod は「避雷針」。",
+  "tier": "extended"
+ },
+ "rod.word": {
+  "lang": "en",
+  "text": "rod",
   "tier": "core"
  },
  "romance.example.en": {
@@ -34579,6 +37699,36 @@
   "text": "rubber",
   "tier": "core"
  },
+ "ruby.example.en": {
+  "lang": "en",
+  "text": "The crown was decorated with a large ruby.",
+  "tier": "core"
+ },
+ "ruby.example.ja": {
+  "lang": "ja",
+  "text": "その王冠は大きなルビーで飾られていた。",
+  "tier": "core"
+ },
+ "ruby.katakana": {
+  "lang": "ja",
+  "text": "ルビー",
+  "tier": "core"
+ },
+ "ruby.meaning": {
+  "lang": "ja",
+  "text": "ルビー",
+  "tier": "core"
+ },
+ "ruby.story": {
+  "lang": "ja",
+  "text": "red と同じ印欧語の「赤」の語根。rubella 風疹 も「赤い 発疹 」から。",
+  "tier": "extended"
+ },
+ "ruby.word": {
+  "lang": "en",
+  "text": "ruby",
+  "tier": "core"
+ },
  "rugby.example.en": {
   "lang": "en",
   "text": "Rugby is popular in New Zealand.",
@@ -34607,6 +37757,36 @@
  "rugby.word": {
   "lang": "en",
   "text": "rugby",
+  "tier": "core"
+ },
+ "ruins.example.en": {
+  "lang": "en",
+  "text": "We explored the ancient ruins.",
+  "tier": "core"
+ },
+ "ruins.example.ja": {
+  "lang": "ja",
+  "text": "私たちは古代の遺跡を探検した。",
+  "tier": "core"
+ },
+ "ruins.katakana": {
+  "lang": "ja",
+  "text": "ルーイン",
+  "tier": "core"
+ },
+ "ruins.meaning": {
+  "lang": "ja",
+  "text": "遺跡、廃墟",
+  "tier": "core"
+ },
+ "ruins.story": {
+  "lang": "ja",
+  "text": "「崩れ落ちた建物」から遺跡の意味に。遺跡の意味ではふつう複数形 ruins を使う。",
+  "tier": "extended"
+ },
+ "ruins.word": {
+  "lang": "en",
+  "text": "ruins",
   "tier": "core"
  },
  "rule.example.en": {
@@ -34639,6 +37819,36 @@
   "text": "rule",
   "tier": "core"
  },
+ "rune.example.en": {
+  "lang": "en",
+  "text": "Strange runes were carved on the stone.",
+  "tier": "core"
+ },
+ "rune.example.ja": {
+  "lang": "ja",
+  "text": "その石には奇妙なルーン文字が刻まれていた。",
+  "tier": "core"
+ },
+ "rune.katakana": {
+  "lang": "ja",
+  "text": "ルーン",
+  "tier": "core"
+ },
+ "rune.meaning": {
+  "lang": "ja",
+  "text": "ルーン文字",
+  "tier": "core"
+ },
+ "rune.story": {
+  "lang": "ja",
+  "text": "もとは「秘密、神秘」。古代ゲルマン人が使った文字で、魔よけや占いにも使われた。",
+  "tier": "extended"
+ },
+ "rune.word": {
+  "lang": "en",
+  "text": "rune",
+  "tier": "core"
+ },
  "rush.example.en": {
   "lang": "en",
   "text": "I'm in a rush. Can we talk later?",
@@ -34667,6 +37877,36 @@
  "rush.word": {
   "lang": "en",
   "text": "rush",
+  "tier": "core"
+ },
+ "saber.example.en": {
+  "lang": "en",
+  "text": "The officer wore a saber at his side.",
+  "tier": "core"
+ },
+ "saber.example.ja": {
+  "lang": "ja",
+  "text": "将校は腰にサーベルを下げていた。",
+  "tier": "core"
+ },
+ "saber.katakana": {
+  "lang": "ja",
+  "text": "サーベル",
+  "tier": "core"
+ },
+ "saber.meaning": {
+  "lang": "ja",
+  "text": "サーベル 反りのある片刃の剣",
+  "tier": "core"
+ },
+ "saber.story": {
+  "lang": "ja",
+  "text": "ハンガリーの騎兵が使った剣がヨーロッパに広まった。szablya は「切る」を意味する語から。",
+  "tier": "extended"
+ },
+ "saber.word": {
+  "lang": "en",
+  "text": "saber",
   "tier": "core"
  },
  "sabotage.example.en": {
@@ -35027,6 +38267,36 @@
  "sandwich.word": {
   "lang": "en",
   "text": "sandwich",
+  "tier": "core"
+ },
+ "sapphire.example.en": {
+  "lang": "en",
+  "text": "Her eyes were as blue as sapphires.",
+  "tier": "core"
+ },
+ "sapphire.example.ja": {
+  "lang": "ja",
+  "text": "彼女の瞳はサファイアのように青かった。",
+  "tier": "core"
+ },
+ "sapphire.katakana": {
+  "lang": "ja",
+  "text": "サファイア",
+  "tier": "core"
+ },
+ "sapphire.meaning": {
+  "lang": "ja",
+  "text": "サファイア",
+  "tier": "core"
+ },
+ "sapphire.story": {
+  "lang": "ja",
+  "text": "古代にはラピスラズリのような青い石を指していたとされる。",
+  "tier": "extended"
+ },
+ "sapphire.word": {
+  "lang": "en",
+  "text": "sapphire",
   "tier": "core"
  },
  "satellite.example.en": {
@@ -35479,6 +38749,36 @@
   "text": "score",
   "tier": "core"
  },
+ "scorpion.example.en": {
+  "lang": "en",
+  "text": "A scorpion was hiding under the rock.",
+  "tier": "core"
+ },
+ "scorpion.example.ja": {
+  "lang": "ja",
+  "text": "岩の下にサソリが隠れていた。",
+  "tier": "core"
+ },
+ "scorpion.katakana": {
+  "lang": "ja",
+  "text": "スコーピオン",
+  "tier": "core"
+ },
+ "scorpion.meaning": {
+  "lang": "ja",
+  "text": "サソリ",
+  "tier": "core"
+ },
+ "scorpion.story": {
+  "lang": "ja",
+  "text": "古フランス語 escorpion を経て英語へ。星座の「さそり座」は Scorpio。古代ローマでは石を飛ばす投石機も scorpio と呼んだ。",
+  "tier": "extended"
+ },
+ "scorpion.word": {
+  "lang": "en",
+  "text": "scorpion",
+  "tier": "core"
+ },
  "scroll.example.en": {
   "lang": "en",
   "text": "Scroll down to see more.",
@@ -35507,6 +38807,36 @@
  "scroll.word": {
   "lang": "en",
   "text": "scroll",
+  "tier": "core"
+ },
+ "scythe.example.en": {
+  "lang": "en",
+  "text": "The farmer cut the grass with a scythe.",
+  "tier": "core"
+ },
+ "scythe.example.ja": {
+  "lang": "ja",
+  "text": "農夫は大鎌で草を刈った。",
+  "tier": "core"
+ },
+ "scythe.katakana": {
+  "lang": "ja",
+  "text": "サイス",
+  "tier": "core"
+ },
+ "scythe.meaning": {
+  "lang": "ja",
+  "text": "大鎌",
+  "tier": "core"
+ },
+ "scythe.story": {
+  "lang": "ja",
+  "text": "sc- のつづりは、ラテン語 scindere 切る と関係があると思われて後からつけられたもの。発音は /saɪð/ サイズ 。",
+  "tier": "extended"
+ },
+ "scythe.word": {
+  "lang": "en",
+  "text": "scythe",
   "tier": "core"
  },
  "seal.example.en": {
@@ -35839,6 +39169,36 @@
   "text": "series",
   "tier": "core"
  },
+ "serpent.example.en": {
+  "lang": "en",
+  "text": "In the story, a giant serpent guarded the island.",
+  "tier": "core"
+ },
+ "serpent.example.ja": {
+  "lang": "ja",
+  "text": "その物語では巨大な大蛇が島を守っていた。",
+  "tier": "core"
+ },
+ "serpent.katakana": {
+  "lang": "ja",
+  "text": "サーペント",
+  "tier": "core"
+ },
+ "serpent.meaning": {
+  "lang": "ja",
+  "text": "大きな ヘビ、大蛇",
+  "tier": "core"
+ },
+ "serpent.story": {
+  "lang": "ja",
+  "text": "「地面をはうもの」が原義。旧約聖書でイブをそそのかしたヘビも the serpent と呼ばれる。",
+  "tier": "extended"
+ },
+ "serpent.word": {
+  "lang": "en",
+  "text": "serpent",
+  "tier": "core"
+ },
  "serve.example.en": {
   "lang": "en",
   "text": "Dinner is served at seven.",
@@ -35989,6 +39349,36 @@
   "text": "set",
   "tier": "core"
  },
+ "shadow.example.en": {
+  "lang": "en",
+  "text": "My shadow gets longer in the evening.",
+  "tier": "core"
+ },
+ "shadow.example.ja": {
+  "lang": "ja",
+  "text": "夕方になると影が長くなる。",
+  "tier": "core"
+ },
+ "shadow.katakana": {
+  "lang": "ja",
+  "text": "シャドウ",
+  "tier": "core"
+ },
+ "shadow.meaning": {
+  "lang": "ja",
+  "text": "影",
+  "tier": "core"
+ },
+ "shadow.story": {
+  "lang": "ja",
+  "text": "shade 日陰 と同じ語源。shadow は形のある影、shade は日の当たらない場所。",
+  "tier": "extended"
+ },
+ "shadow.word": {
+  "lang": "en",
+  "text": "shadow",
+  "tier": "core"
+ },
  "shaman.example.en": {
   "lang": "en",
   "text": "The shaman performed a healing ceremony.",
@@ -36137,6 +39527,36 @@
  "shelter.word": {
   "lang": "en",
   "text": "shelter",
+  "tier": "core"
+ },
+ "shield.example.en": {
+  "lang": "en",
+  "text": "Sunglasses shield your eyes from the sun.",
+  "tier": "core"
+ },
+ "shield.example.ja": {
+  "lang": "ja",
+  "text": "サングラスは日差しから目を守る。",
+  "tier": "core"
+ },
+ "shield.katakana": {
+  "lang": "ja",
+  "text": "シールド",
+  "tier": "core"
+ },
+ "shield.meaning": {
+  "lang": "ja",
+  "text": "盾／守る",
+  "tier": "core"
+ },
+ "shield.story": {
+  "lang": "ja",
+  "text": "ゲルマン語の古い語で「切り分けた板」に関係するといわれる。紋章の盾形はエンブレムのデザインにも使われる。",
+  "tier": "extended"
+ },
+ "shield.word": {
+  "lang": "en",
+  "text": "shield",
   "tier": "core"
  },
  "shirt.example.en": {
@@ -36469,6 +39889,36 @@
   "text": "signal",
   "tier": "core"
  },
+ "silence.example.en": {
+  "lang": "en",
+  "text": "There was a long silence after he spoke.",
+  "tier": "core"
+ },
+ "silence.example.ja": {
+  "lang": "ja",
+  "text": "彼が話したあと、長い沈黙があった。",
+  "tier": "core"
+ },
+ "silence.katakana": {
+  "lang": "ja",
+  "text": "サイレンス",
+  "tier": "core"
+ },
+ "silence.meaning": {
+  "lang": "ja",
+  "text": "静けさ、沈黙",
+  "tier": "core"
+ },
+ "silence.story": {
+  "lang": "ja",
+  "text": "silent 静かな の名詞形。サイレンサー silencer は音を消す装置。",
+  "tier": "extended"
+ },
+ "silence.word": {
+  "lang": "en",
+  "text": "silence",
+  "tier": "core"
+ },
  "silhouette.example.en": {
   "lang": "en",
   "text": "We saw the silhouette of a cat on the wall.",
@@ -36769,6 +40219,36 @@
   "text": "skate",
   "tier": "core"
  },
+ "skeleton.example.en": {
+  "lang": "en",
+  "text": "The museum has a dinosaur skeleton.",
+  "tier": "core"
+ },
+ "skeleton.example.ja": {
+  "lang": "ja",
+  "text": "その博物館には恐竜の骨格標本がある。",
+  "tier": "core"
+ },
+ "skeleton.katakana": {
+  "lang": "ja",
+  "text": "スケルトン",
+  "tier": "core"
+ },
+ "skeleton.meaning": {
+  "lang": "ja",
+  "text": "骨格、がい骨",
+  "tier": "core"
+ },
+ "skeleton.story": {
+  "lang": "ja",
+  "text": "「ミイラのように乾いた体」が原義。そこから骨組みだけのもの 、 透けて中が見える構造、という意味にも広がった。",
+  "tier": "extended"
+ },
+ "skeleton.word": {
+  "lang": "en",
+  "text": "skeleton",
+  "tier": "core"
+ },
  "sketch.example.en": {
   "lang": "en",
   "text": "She made a quick sketch of the mountain.",
@@ -36917,6 +40397,66 @@
  "sky.word": {
   "lang": "en",
   "text": "sky",
+  "tier": "core"
+ },
+ "slash.example.en": {
+  "lang": "en",
+  "text": "The company slashed prices by 50 percent.",
+  "tier": "core"
+ },
+ "slash.example.ja": {
+  "lang": "ja",
+  "text": "その会社は価格を50パーセント大幅に下げた。",
+  "tier": "core"
+ },
+ "slash.katakana": {
+  "lang": "ja",
+  "text": "スラッシュ",
+  "tier": "core"
+ },
+ "slash.meaning": {
+  "lang": "ja",
+  "text": "切りつける、大幅に削る／切りつけ、斜線 /",
+  "tier": "core"
+ },
+ "slash.story": {
+  "lang": "ja",
+  "text": "剣を振る音「シュッ」から来たといわれる。/ の記号は切りつけた線のように見えることから。",
+  "tier": "extended"
+ },
+ "slash.word": {
+  "lang": "en",
+  "text": "slash",
+  "tier": "core"
+ },
+ "slime.example.en": {
+  "lang": "en",
+  "text": "The snail left a trail of slime on the leaf.",
+  "tier": "core"
+ },
+ "slime.example.ja": {
+  "lang": "ja",
+  "text": "カタツムリは葉にぬるぬるした跡を残した。",
+  "tier": "core"
+ },
+ "slime.katakana": {
+  "lang": "ja",
+  "text": "スライム",
+  "tier": "core"
+ },
+ "slime.meaning": {
+  "lang": "ja",
+  "text": "ぬるぬるしたもの、粘液",
+  "tier": "core"
+ },
+ "slime.story": {
+  "lang": "ja",
+  "text": "ドイツ語 Schleim 粘液 と同じゲルマン語の仲間。形容詞 slimy は「ぬるぬるした」、「いやらしい人」の意味にも。",
+  "tier": "extended"
+ },
+ "slime.word": {
+  "lang": "en",
+  "text": "slime",
   "tier": "core"
  },
  "slippers.example.en": {
@@ -37579,6 +41119,36 @@
   "text": "song",
   "tier": "core"
  },
+ "sorcerer.example.en": {
+  "lang": "en",
+  "text": "The evil sorcerer turned the king into a frog.",
+  "tier": "core"
+ },
+ "sorcerer.example.ja": {
+  "lang": "ja",
+  "text": "悪い魔術師が王様をカエルに変えた。",
+  "tier": "core"
+ },
+ "sorcerer.katakana": {
+  "lang": "ja",
+  "text": "ソーサラー",
+  "tier": "core"
+ },
+ "sorcerer.meaning": {
+  "lang": "ja",
+  "text": "魔術師、妖術師",
+  "tier": "core"
+ },
+ "sorcerer.story": {
+  "lang": "ja",
+  "text": "「くじで運命を占う人」が原義。sort 種類、分ける も sors から来た同じ仲間。",
+  "tier": "extended"
+ },
+ "sorcerer.word": {
+  "lang": "en",
+  "text": "sorcerer",
+  "tier": "core"
+ },
  "sound.example.en": {
   "lang": "en",
   "text": "That sounds like a great idea!",
@@ -37819,6 +41389,36 @@
   "text": "speaker",
   "tier": "core"
  },
+ "spear.example.en": {
+  "lang": "en",
+  "text": "The hunter threw his spear at the boar.",
+  "tier": "core"
+ },
+ "spear.example.ja": {
+  "lang": "ja",
+  "text": "狩人はイノシシにやりを投げた。",
+  "tier": "core"
+ },
+ "spear.katakana": {
+  "lang": "ja",
+  "text": "スピア",
+  "tier": "core"
+ },
+ "spear.meaning": {
+  "lang": "ja",
+  "text": "やり",
+  "tier": "core"
+ },
+ "spear.story": {
+  "lang": "ja",
+  "text": "ゲルマン語の古い語。Shakespeare シェイクスピア の名前は「やりを振る shake 」から。",
+  "tier": "extended"
+ },
+ "spear.word": {
+  "lang": "en",
+  "text": "spear",
+  "tier": "core"
+ },
  "spec.example.en": {
   "lang": "en",
   "text": "What are the specs of this laptop?",
@@ -37997,6 +41597,36 @@
  "spell.word": {
   "lang": "en",
   "text": "spell",
+  "tier": "core"
+ },
+ "spider.example.en": {
+  "lang": "en",
+  "text": "There is a big spider on the wall.",
+  "tier": "core"
+ },
+ "spider.example.ja": {
+  "lang": "ja",
+  "text": "壁に大きなクモがいる。",
+  "tier": "core"
+ },
+ "spider.katakana": {
+  "lang": "ja",
+  "text": "スパイダー",
+  "tier": "core"
+ },
+ "spider.meaning": {
+  "lang": "ja",
+  "text": "クモ",
+  "tier": "core"
+ },
+ "spider.story": {
+  "lang": "ja",
+  "text": "「糸を紡ぐもの」がもとの意味。spin 回す、紡ぐ と同じ語源。",
+  "tier": "extended"
+ },
+ "spider.word": {
+  "lang": "en",
+  "text": "spider",
   "tier": "core"
  },
  "spiral.example.en": {
@@ -38357,6 +41987,36 @@
  "stakeholder.word": {
   "lang": "en",
   "text": "stakeholder",
+  "tier": "core"
+ },
+ "stamina.example.en": {
+  "lang": "en",
+  "text": "You need a lot of stamina to run a marathon.",
+  "tier": "core"
+ },
+ "stamina.example.ja": {
+  "lang": "ja",
+  "text": "マラソンを走るには多くのスタミナが必要だ。",
+  "tier": "core"
+ },
+ "stamina.katakana": {
+  "lang": "ja",
+  "text": "スタミナ",
+  "tier": "core"
+ },
+ "stamina.meaning": {
+  "lang": "ja",
+  "text": "スタミナ、持久力",
+  "tier": "core"
+ },
+ "stamina.story": {
+  "lang": "ja",
+  "text": "運命の女神が紡ぐ「命の糸」から「生きる力、持久力」の意味になった。",
+  "tier": "extended"
+ },
+ "stamina.word": {
+  "lang": "en",
+  "text": "stamina",
   "tier": "core"
  },
  "stamp.example.en": {
@@ -38929,6 +42589,36 @@
   "text": "store",
   "tier": "core"
  },
+ "storm.example.en": {
+  "lang": "en",
+  "text": "The storm knocked down many trees.",
+  "tier": "core"
+ },
+ "storm.example.ja": {
+  "lang": "ja",
+  "text": "嵐で多くの木が倒れた。",
+  "tier": "core"
+ },
+ "storm.katakana": {
+  "lang": "ja",
+  "text": "ストーム",
+  "tier": "core"
+ },
+ "storm.meaning": {
+  "lang": "ja",
+  "text": "嵐",
+  "tier": "core"
+ },
+ "storm.story": {
+  "lang": "ja",
+  "text": "ゲルマン語の古い語で、stir かき混ぜる と同じ語根とされる。",
+  "tier": "extended"
+ },
+ "storm.word": {
+  "lang": "en",
+  "text": "storm",
+  "tier": "core"
+ },
  "story.example.en": {
   "lang": "en",
   "text": "Tell me a story before bed.",
@@ -39257,6 +42947,36 @@
  "studio.word": {
   "lang": "en",
   "text": "studio",
+  "tier": "core"
+ },
+ "stun.example.en": {
+  "lang": "en",
+  "text": "The news stunned everyone.",
+  "tier": "core"
+ },
+ "stun.example.ja": {
+  "lang": "ja",
+  "text": "そのニュースにみんながぼう然とした。",
+  "tier": "core"
+ },
+ "stun.katakana": {
+  "lang": "ja",
+  "text": "スタン",
+  "tier": "core"
+ },
+ "stun.meaning": {
+  "lang": "ja",
+  "text": "気絶させる、ぼう然とさせる",
+  "tier": "core"
+ },
+ "stun.story": {
+  "lang": "ja",
+  "text": "astonish 驚かせる と同じ語源。stunning は「驚くほど美しい」。",
+  "tier": "extended"
+ },
+ "stun.word": {
+  "lang": "en",
+  "text": "stun",
   "tier": "core"
  },
  "style.example.en": {
@@ -40129,6 +43849,36 @@
   "text": "swimming",
   "tier": "core"
  },
+ "sword.example.en": {
+  "lang": "en",
+  "text": "The knight drew his sword.",
+  "tier": "core"
+ },
+ "sword.example.ja": {
+  "lang": "ja",
+  "text": "騎士は剣を抜いた。",
+  "tier": "core"
+ },
+ "sword.katakana": {
+  "lang": "ja",
+  "text": "ソード",
+  "tier": "core"
+ },
+ "sword.meaning": {
+  "lang": "ja",
+  "text": "剣",
+  "tier": "core"
+ },
+ "sword.story": {
+  "lang": "ja",
+  "text": "ゲルマン語共通の古い語で、w は発音しない ソード /sɔːrd/ 。swordsman は「剣士」。",
+  "tier": "extended"
+ },
+ "sword.word": {
+  "lang": "en",
+  "text": "sword",
+  "tier": "core"
+ },
  "syllabus.example.en": {
   "lang": "en",
   "text": "Check the syllabus for the test dates.",
@@ -40322,6 +44072,11 @@
  "syn.abroad": {
   "lang": "en",
   "text": "abroad",
+  "tier": "core"
+ },
+ "syn.absorb": {
+  "lang": "en",
+  "text": "absorb",
   "tier": "core"
  },
  "syn.abstract": {
@@ -40569,6 +44324,16 @@
   "text": "amber",
   "tier": "core"
  },
+ "syn.ambush": {
+  "lang": "en",
+  "text": "ambush",
+  "tier": "core"
+ },
+ "syn.amulet": {
+  "lang": "en",
+  "text": "amulet",
+  "tier": "core"
+ },
  "syn.analysis": {
   "lang": "en",
   "text": "analysis",
@@ -40582,6 +44347,11 @@
  "syn.anchor": {
   "lang": "en",
   "text": "anchor",
+  "tier": "core"
+ },
+ "syn.angel": {
+  "lang": "en",
+  "text": "angel",
   "tier": "core"
  },
  "syn.animal": {
@@ -40669,6 +44439,11 @@
   "text": "aqua",
   "tier": "core"
  },
+ "syn.aquamarine": {
+  "lang": "en",
+  "text": "aquamarine",
+  "tier": "core"
+ },
  "syn.arc": {
   "lang": "en",
   "text": "arc",
@@ -40677,6 +44452,11 @@
  "syn.arcade": {
   "lang": "en",
   "text": "arcade",
+  "tier": "core"
+ },
+ "syn.archery": {
+  "lang": "en",
+  "text": "archery",
   "tier": "core"
  },
  "syn.architect": {
@@ -40709,6 +44489,11 @@
   "text": "armament",
   "tier": "core"
  },
+ "syn.armor": {
+  "lang": "en",
+  "text": "armor",
+  "tier": "core"
+ },
  "syn.arrange": {
   "lang": "en",
   "text": "arrange",
@@ -40719,6 +44504,11 @@
   "text": "arrangement",
   "tier": "core"
  },
+ "syn.arrow": {
+  "lang": "en",
+  "text": "arrow",
+  "tier": "core"
+ },
  "syn.article": {
   "lang": "en",
   "text": "article",
@@ -40727,6 +44517,11 @@
  "syn.artifact": {
   "lang": "en",
   "text": "artifact",
+  "tier": "core"
+ },
+ "syn.artillery": {
+  "lang": "en",
+  "text": "artillery",
   "tier": "core"
  },
  "syn.artist": {
@@ -40784,6 +44579,11 @@
   "text": "assortment",
   "tier": "core"
  },
+ "syn.asteroid": {
+  "lang": "en",
+  "text": "asteroid",
+  "tier": "core"
+ },
  "syn.astonish": {
   "lang": "en",
   "text": "astonish",
@@ -40837,6 +44637,11 @@
  "syn.attitude": {
   "lang": "en",
   "text": "attitude",
+  "tier": "core"
+ },
+ "syn.attract": {
+  "lang": "en",
+  "text": "attract",
   "tier": "core"
  },
  "syn.audio": {
@@ -40899,6 +44704,11 @@
   "text": "automobile",
   "tier": "core"
  },
+ "syn.avalanche": {
+  "lang": "en",
+  "text": "avalanche",
+  "tier": "core"
+ },
  "syn.avant-garde": {
   "lang": "en",
   "text": "avant-garde",
@@ -40922,6 +44732,16 @@
  "syn.awesome": {
   "lang": "en",
   "text": "awesome",
+  "tier": "core"
+ },
+ "syn.axe": {
+  "lang": "en",
+  "text": "axe",
+  "tier": "core"
+ },
+ "syn.azure": {
+  "lang": "en",
+  "text": "azure",
   "tier": "core"
  },
  "syn.back-up": {
@@ -41039,6 +44859,11 @@
   "text": "banner",
   "tier": "core"
  },
+ "syn.bar": {
+  "lang": "en",
+  "text": "bar",
+  "tier": "core"
+ },
  "syn.barbecue": {
   "lang": "en",
   "text": "barbecue",
@@ -41124,6 +44949,11 @@
   "text": "beat",
   "tier": "core"
  },
+ "syn.bee": {
+  "lang": "en",
+  "text": "bee",
+  "tier": "core"
+ },
  "syn.beef": {
   "lang": "en",
   "text": "beef",
@@ -41137,6 +44967,11 @@
  "syn.beginner": {
   "lang": "en",
   "text": "beginner",
+  "tier": "core"
+ },
+ "syn.beginning": {
+  "lang": "en",
+  "text": "beginning",
   "tier": "core"
  },
  "syn.behavior": {
@@ -41229,6 +45064,11 @@
   "text": "biography",
   "tier": "core"
  },
+ "syn.birth": {
+  "lang": "en",
+  "text": "birth",
+  "tier": "core"
+ },
  "syn.birthday": {
   "lang": "en",
   "text": "birthday",
@@ -41237,6 +45077,11 @@
  "syn.biscuit": {
   "lang": "en",
   "text": "biscuit",
+  "tier": "core"
+ },
+ "syn.bishop": {
+  "lang": "en",
+  "text": "bishop",
   "tier": "core"
  },
  "syn.bite": {
@@ -41249,6 +45094,11 @@
   "text": "bizarre",
   "tier": "core"
  },
+ "syn.black": {
+  "lang": "en",
+  "text": "black",
+  "tier": "core"
+ },
  "syn.blade": {
   "lang": "en",
   "text": "blade",
@@ -41259,6 +45109,11 @@
   "text": "blank",
   "tier": "core"
  },
+ "syn.blast": {
+  "lang": "en",
+  "text": "blast",
+  "tier": "core"
+ },
  "syn.blaze": {
   "lang": "en",
   "text": "blaze",
@@ -41267,6 +45122,16 @@
  "syn.blazer": {
   "lang": "en",
   "text": "blazer",
+  "tier": "core"
+ },
+ "syn.blend": {
+  "lang": "en",
+  "text": "blend",
+  "tier": "core"
+ },
+ "syn.blessing": {
+  "lang": "en",
+  "text": "blessing",
   "tier": "core"
  },
  "syn.blimp": {
@@ -41299,6 +45164,11 @@
   "text": "blog",
   "tier": "core"
  },
+ "syn.bloodsucker": {
+  "lang": "en",
+  "text": "bloodsucker",
+  "tier": "core"
+ },
  "syn.bloom": {
   "lang": "en",
   "text": "bloom",
@@ -41329,9 +45199,19 @@
   "text": "bold",
   "tier": "core"
  },
+ "syn.bolt": {
+  "lang": "en",
+  "text": "bolt",
+  "tier": "core"
+ },
  "syn.bond": {
   "lang": "en",
   "text": "bond",
+  "tier": "core"
+ },
+ "syn.bone": {
+  "lang": "en",
+  "text": "bone",
   "tier": "core"
  },
  "syn.bonito": {
@@ -41384,6 +45264,11 @@
   "text": "boss",
   "tier": "core"
  },
+ "syn.bounce": {
+  "lang": "en",
+  "text": "bounce",
+  "tier": "core"
+ },
  "syn.boundary": {
   "lang": "en",
   "text": "boundary",
@@ -41399,9 +45284,24 @@
   "text": "bow",
   "tier": "core"
  },
+ "syn.bowman": {
+  "lang": "en",
+  "text": "bowman",
+  "tier": "core"
+ },
  "syn.box": {
   "lang": "en",
   "text": "box",
+  "tier": "core"
+ },
+ "syn.boxer": {
+  "lang": "en",
+  "text": "boxer",
+  "tier": "core"
+ },
+ "syn.bracer": {
+  "lang": "en",
+  "text": "bracer",
   "tier": "core"
  },
  "syn.brainwashing": {
@@ -41427,6 +45327,11 @@
  "syn.breakthrough": {
   "lang": "en",
   "text": "breakthrough",
+  "tier": "core"
+ },
+ "syn.breast": {
+  "lang": "en",
+  "text": "breast",
   "tier": "core"
  },
  "syn.brew": {
@@ -41482,6 +45387,11 @@
  "syn.bubble": {
   "lang": "en",
   "text": "bubble",
+  "tier": "core"
+ },
+ "syn.buckler": {
+  "lang": "en",
+  "text": "buckler",
   "tier": "core"
  },
  "syn.buddy": {
@@ -41557,6 +45467,16 @@
  "syn.burger": {
   "lang": "en",
   "text": "burger",
+  "tier": "core"
+ },
+ "syn.burglar": {
+  "lang": "en",
+  "text": "burglar",
+  "tier": "core"
+ },
+ "syn.burst": {
+  "lang": "en",
+  "text": "burst",
   "tier": "core"
  },
  "syn.bus": {
@@ -41689,6 +45609,11 @@
   "text": "capability",
   "tier": "core"
  },
+ "syn.cape": {
+  "lang": "en",
+  "text": "cape",
+  "tier": "core"
+ },
  "syn.captain": {
   "lang": "en",
   "text": "captain",
@@ -41739,9 +45664,24 @@
   "text": "case",
   "tier": "core"
  },
+ "syn.castle": {
+  "lang": "en",
+  "text": "castle",
+  "tier": "core"
+ },
  "syn.catalog": {
   "lang": "en",
   "text": "catalog",
+  "tier": "core"
+ },
+ "syn.catapult": {
+  "lang": "en",
+  "text": "catapult",
+  "tier": "core"
+ },
+ "syn.catastrophe": {
+  "lang": "en",
+  "text": "catastrophe",
   "tier": "core"
  },
  "syn.catch": {
@@ -41779,6 +45719,11 @@
   "text": "cavalier",
   "tier": "core"
  },
+ "syn.cavern": {
+  "lang": "en",
+  "text": "cavern",
+  "tier": "core"
+ },
  "syn.celebration": {
   "lang": "en",
   "text": "celebration",
@@ -41792,6 +45737,11 @@
  "syn.cell": {
   "lang": "en",
   "text": "cell",
+  "tier": "core"
+ },
+ "syn.cellar": {
+  "lang": "en",
+  "text": "cellar",
   "tier": "core"
  },
  "syn.cellphone": {
@@ -41852,6 +45802,11 @@
  "syn.championship": {
   "lang": "en",
   "text": "championship",
+  "tier": "core"
+ },
+ "syn.chance": {
+  "lang": "en",
+  "text": "chance",
   "tier": "core"
  },
  "syn.change": {
@@ -41969,6 +45924,11 @@
   "text": "cherish",
   "tier": "core"
  },
+ "syn.cherub": {
+  "lang": "en",
+  "text": "cherub",
+  "tier": "core"
+ },
  "syn.chief": {
   "lang": "en",
   "text": "chief",
@@ -41992,6 +45952,11 @@
  "syn.chime": {
   "lang": "en",
   "text": "chime",
+  "tier": "core"
+ },
+ "syn.chimera": {
+  "lang": "en",
+  "text": "chimera",
   "tier": "core"
  },
  "syn.chimpanzee": {
@@ -42034,6 +45999,11 @@
   "text": "chunk",
   "tier": "core"
  },
+ "syn.church": {
+  "lang": "en",
+  "text": "church",
+  "tier": "core"
+ },
  "syn.cider": {
   "lang": "en",
   "text": "cider",
@@ -42047,6 +46017,16 @@
  "syn.circle": {
   "lang": "en",
   "text": "circle",
+  "tier": "core"
+ },
+ "syn.circlet": {
+  "lang": "en",
+  "text": "circlet",
+  "tier": "core"
+ },
+ "syn.citadel": {
+  "lang": "en",
+  "text": "citadel",
   "tier": "core"
  },
  "syn.citrus": {
@@ -42094,6 +46074,11 @@
   "text": "clearance",
   "tier": "core"
  },
+ "syn.cleric": {
+  "lang": "en",
+  "text": "cleric",
+  "tier": "core"
+ },
  "syn.clever": {
   "lang": "en",
   "text": "clever",
@@ -42122,6 +46107,11 @@
  "syn.clip": {
   "lang": "en",
   "text": "clip",
+  "tier": "core"
+ },
+ "syn.cloak": {
+  "lang": "en",
+  "text": "cloak",
   "tier": "core"
  },
  "syn.clock": {
@@ -42167,6 +46157,11 @@
  "syn.coat": {
   "lang": "en",
   "text": "coat",
+  "tier": "core"
+ },
+ "syn.cockatrice": {
+  "lang": "en",
+  "text": "cockatrice",
   "tier": "core"
  },
  "syn.cocoa": {
@@ -42219,6 +46214,11 @@
   "text": "college",
   "tier": "core"
  },
+ "syn.collide": {
+  "lang": "en",
+  "text": "collide",
+  "tier": "core"
+ },
  "syn.color": {
   "lang": "en",
   "text": "color",
@@ -42229,6 +46229,11 @@
   "text": "color scheme",
   "tier": "core"
  },
+ "syn.colossus": {
+  "lang": "en",
+  "text": "colossus",
+  "tier": "core"
+ },
  "syn.comb": {
   "lang": "en",
   "text": "comb",
@@ -42237,6 +46242,16 @@
  "syn.combination": {
   "lang": "en",
   "text": "combination",
+  "tier": "core"
+ },
+ "syn.combo": {
+  "lang": "en",
+  "text": "combo",
+  "tier": "core"
+ },
+ "syn.comet": {
+  "lang": "en",
+  "text": "comet",
   "tier": "core"
  },
  "syn.comfort": {
@@ -42409,6 +46424,11 @@
   "text": "condo",
   "tier": "core"
  },
+ "syn.condor": {
+  "lang": "en",
+  "text": "condor",
+  "tier": "core"
+ },
  "syn.conductor": {
   "lang": "en",
   "text": "conductor",
@@ -42452,6 +46472,11 @@
  "syn.conservation": {
   "lang": "en",
   "text": "conservation",
+  "tier": "core"
+ },
+ "syn.consider": {
+  "lang": "en",
+  "text": "consider",
   "tier": "core"
  },
  "syn.consistency": {
@@ -42524,6 +46549,11 @@
   "text": "conversation",
   "tier": "core"
  },
+ "syn.convert": {
+  "lang": "en",
+  "text": "convert",
+  "tier": "core"
+ },
  "syn.convey": {
   "lang": "en",
   "text": "convey",
@@ -42582,6 +46612,11 @@
  "syn.corporation": {
   "lang": "en",
   "text": "corporation",
+  "tier": "core"
+ },
+ "syn.corpse": {
+  "lang": "en",
+  "text": "corpse",
   "tier": "core"
  },
  "syn.correspondent": {
@@ -42794,6 +46829,16 @@
   "text": "critique",
   "tier": "core"
  },
+ "syn.crossbow": {
+  "lang": "en",
+  "text": "crossbow",
+  "tier": "core"
+ },
+ "syn.crow": {
+  "lang": "en",
+  "text": "crow",
+  "tier": "core"
+ },
  "syn.crowd": {
   "lang": "en",
   "text": "crowd",
@@ -42804,9 +46849,19 @@
   "text": "crowd-pleasing",
   "tier": "core"
  },
+ "syn.crown": {
+  "lang": "en",
+  "text": "crown",
+  "tier": "core"
+ },
  "syn.crucial": {
   "lang": "en",
   "text": "crucial",
+  "tier": "core"
+ },
+ "syn.crusader": {
+  "lang": "en",
+  "text": "crusader",
   "tier": "core"
  },
  "syn.crush": {
@@ -42859,6 +46914,11 @@
   "text": "curd",
   "tier": "core"
  },
+ "syn.cure": {
+  "lang": "en",
+  "text": "cure",
+  "tier": "core"
+ },
  "syn.curfew": {
   "lang": "en",
   "text": "curfew",
@@ -42899,6 +46959,16 @@
   "text": "customer",
   "tier": "core"
  },
+ "syn.cut": {
+  "lang": "en",
+  "text": "cut",
+  "tier": "core"
+ },
+ "syn.cutlass": {
+  "lang": "en",
+  "text": "cutlass",
+  "tier": "core"
+ },
  "syn.cutter": {
   "lang": "en",
   "text": "cutter",
@@ -42917,6 +46987,11 @@
  "syn.cyborg": {
   "lang": "en",
   "text": "cyborg",
+  "tier": "core"
+ },
+ "syn.cyclone": {
+  "lang": "en",
+  "text": "cyclone",
   "tier": "core"
  },
  "syn.cynicism": {
@@ -42954,9 +47029,19 @@
   "text": "dark blue",
   "tier": "core"
  },
+ "syn.darkness": {
+  "lang": "en",
+  "text": "darkness",
+  "tier": "core"
+ },
  "syn.darling": {
   "lang": "en",
   "text": "darling",
+  "tier": "core"
+ },
+ "syn.dart": {
+  "lang": "en",
+  "text": "dart",
   "tier": "core"
  },
  "syn.dash": {
@@ -42979,6 +47064,11 @@
   "text": "day",
   "tier": "core"
  },
+ "syn.daze": {
+  "lang": "en",
+  "text": "daze",
+  "tier": "core"
+ },
  "syn.deal": {
   "lang": "en",
   "text": "deal",
@@ -42997,6 +47087,11 @@
  "syn.decal": {
   "lang": "en",
   "text": "decal",
+  "tier": "core"
+ },
+ "syn.decision": {
+  "lang": "en",
+  "text": "decision",
   "tier": "core"
  },
  "syn.decisive": {
@@ -43039,6 +47134,11 @@
   "text": "defender",
   "tier": "core"
  },
+ "syn.deflect": {
+  "lang": "en",
+  "text": "deflect",
+  "tier": "core"
+ },
  "syn.delegation": {
   "lang": "en",
   "text": "delegation",
@@ -43072,6 +47172,11 @@
  "syn.demand": {
   "lang": "en",
   "text": "demand",
+  "tier": "core"
+ },
+ "syn.demon": {
+  "lang": "en",
+  "text": "demon",
   "tier": "core"
  },
  "syn.demonstration": {
@@ -43149,9 +47254,24 @@
   "text": "device",
   "tier": "core"
  },
+ "syn.devil": {
+  "lang": "en",
+  "text": "devil",
+  "tier": "core"
+ },
  "syn.devotee": {
   "lang": "en",
   "text": "devotee",
+  "tier": "core"
+ },
+ "syn.dexterity": {
+  "lang": "en",
+  "text": "dexterity",
+  "tier": "core"
+ },
+ "syn.diadem": {
+  "lang": "en",
+  "text": "diadem",
   "tier": "core"
  },
  "syn.diagram": {
@@ -43204,6 +47324,11 @@
   "text": "dilemma",
   "tier": "core"
  },
+ "syn.dim": {
+  "lang": "en",
+  "text": "dim",
+  "tier": "core"
+ },
  "syn.dimension": {
   "lang": "en",
   "text": "dimension",
@@ -43232,6 +47357,16 @@
  "syn.director": {
   "lang": "en",
   "text": "director",
+  "tier": "core"
+ },
+ "syn.dirge": {
+  "lang": "en",
+  "text": "dirge",
+  "tier": "core"
+ },
+ "syn.dirk": {
+  "lang": "en",
+  "text": "dirk",
   "tier": "core"
  },
  "syn.dirty": {
@@ -43324,6 +47459,11 @@
   "text": "divide",
   "tier": "core"
  },
+ "syn.divine": {
+  "lang": "en",
+  "text": "divine",
+  "tier": "core"
+ },
  "syn.dna": {
   "lang": "en",
   "text": "DNA",
@@ -43392,6 +47532,21 @@
  "syn.draft": {
   "lang": "en",
   "text": "draft",
+  "tier": "core"
+ },
+ "syn.dragon": {
+  "lang": "en",
+  "text": "dragon",
+  "tier": "core"
+ },
+ "syn.drain": {
+  "lang": "en",
+  "text": "drain",
+  "tier": "core"
+ },
+ "syn.drake": {
+  "lang": "en",
+  "text": "drake",
   "tier": "core"
  },
  "syn.drape": {
@@ -43494,6 +47649,11 @@
   "text": "e-commerce",
   "tier": "core"
  },
+ "syn.eagle": {
+  "lang": "en",
+  "text": "eagle",
+  "tier": "core"
+ },
  "syn.earbuds": {
   "lang": "en",
   "text": "earbuds",
@@ -43589,9 +47749,19 @@
   "text": "electronic payment",
   "tier": "core"
  },
+ "syn.elegy": {
+  "lang": "en",
+  "text": "elegy",
+  "tier": "core"
+ },
  "syn.element": {
   "lang": "en",
   "text": "element",
+  "tier": "core"
+ },
+ "syn.elf": {
+  "lang": "en",
+  "text": "elf",
   "tier": "core"
  },
  "syn.elixir": {
@@ -43612,6 +47782,11 @@
  "syn.embodiment": {
   "lang": "en",
   "text": "embodiment",
+  "tier": "core"
+ },
+ "syn.emerald": {
+  "lang": "en",
+  "text": "emerald",
   "tier": "core"
  },
  "syn.emergency": {
@@ -43647,6 +47822,11 @@
  "syn.empress": {
   "lang": "en",
   "text": "empress",
+  "tier": "core"
+ },
+ "syn.empty": {
+  "lang": "en",
+  "text": "empty",
   "tier": "core"
  },
  "syn.enable": {
@@ -43702,6 +47882,11 @@
  "syn.engineering": {
   "lang": "en",
   "text": "engineering",
+  "tier": "core"
+ },
+ "syn.engross": {
+  "lang": "en",
+  "text": "engross",
   "tier": "core"
  },
  "syn.ensemble": {
@@ -43834,6 +48019,11 @@
   "text": "event",
   "tier": "core"
  },
+ "syn.evolve": {
+  "lang": "en",
+  "text": "evolve",
+  "tier": "core"
+ },
  "syn.exam": {
   "lang": "en",
   "text": "exam",
@@ -43867,6 +48057,11 @@
  "syn.exercise": {
   "lang": "en",
   "text": "exercise",
+  "tier": "core"
+ },
+ "syn.exhaust": {
+  "lang": "en",
+  "text": "exhaust",
   "tier": "core"
  },
  "syn.exhaustion": {
@@ -43907,6 +48102,21 @@
  "syn.explanation": {
   "lang": "en",
   "text": "explanation",
+  "tier": "core"
+ },
+ "syn.explode": {
+  "lang": "en",
+  "text": "explode",
+  "tier": "core"
+ },
+ "syn.explosion": {
+  "lang": "en",
+  "text": "explosion",
+  "tier": "core"
+ },
+ "syn.explosive": {
+  "lang": "en",
+  "text": "explosive",
   "tier": "core"
  },
  "syn.extend": {
@@ -43974,6 +48184,11 @@
   "text": "fake",
   "tier": "core"
  },
+ "syn.falcon": {
+  "lang": "en",
+  "text": "falcon",
+  "tier": "core"
+ },
  "syn.falling-prices": {
   "lang": "en",
   "text": "falling prices",
@@ -44007,6 +48222,11 @@
  "syn.farming": {
   "lang": "en",
   "text": "farming",
+  "tier": "core"
+ },
+ "syn.fascinate": {
+  "lang": "en",
+  "text": "fascinate",
   "tier": "core"
  },
  "syn.fashion": {
@@ -44124,6 +48344,11 @@
   "text": "fight",
   "tier": "core"
  },
+ "syn.fighter": {
+  "lang": "en",
+  "text": "fighter",
+  "tier": "core"
+ },
  "syn.figure": {
   "lang": "en",
   "text": "figure",
@@ -44169,6 +48394,11 @@
   "text": "fire",
   "tier": "core"
  },
+ "syn.firebird": {
+  "lang": "en",
+  "text": "firebird",
+  "tier": "core"
+ },
  "syn.fireplace": {
   "lang": "en",
   "text": "fireplace",
@@ -44197,6 +48427,11 @@
  "syn.flame": {
   "lang": "en",
   "text": "flame",
+  "tier": "core"
+ },
+ "syn.flare": {
+  "lang": "en",
+  "text": "flare",
   "tier": "core"
  },
  "syn.flash": {
@@ -44364,6 +48599,11 @@
   "text": "formula",
   "tier": "core"
  },
+ "syn.fortress": {
+  "lang": "en",
+  "text": "fortress",
+  "tier": "core"
+ },
  "syn.fortunate": {
   "lang": "en",
   "text": "fortunate",
@@ -44384,6 +48624,11 @@
   "text": "founder",
   "tier": "core"
  },
+ "syn.fox": {
+  "lang": "en",
+  "text": "fox",
+  "tier": "core"
+ },
  "syn.foyer": {
   "lang": "en",
   "text": "foyer",
@@ -44397,6 +48642,11 @@
  "syn.fragrance": {
   "lang": "en",
   "text": "fragrance",
+  "tier": "core"
+ },
+ "syn.frame": {
+  "lang": "en",
+  "text": "frame",
   "tier": "core"
  },
  "syn.framework": {
@@ -44437,6 +48687,16 @@
  "syn.freedom": {
   "lang": "en",
   "text": "freedom",
+  "tier": "core"
+ },
+ "syn.freelance": {
+  "lang": "en",
+  "text": "freelance",
+  "tier": "core"
+ },
+ "syn.freeze": {
+  "lang": "en",
+  "text": "freeze",
   "tier": "core"
  },
  "syn.freight": {
@@ -44519,6 +48779,11 @@
   "text": "gadget",
   "tier": "core"
  },
+ "syn.gale": {
+  "lang": "en",
+  "text": "gale",
+  "tier": "core"
+ },
  "syn.galette": {
   "lang": "en",
   "text": "galette",
@@ -44559,6 +48824,11 @@
   "text": "garlic",
   "tier": "core"
  },
+ "syn.garnet": {
+  "lang": "en",
+  "text": "garnet",
+  "tier": "core"
+ },
  "syn.gate": {
   "lang": "en",
   "text": "gate",
@@ -44584,9 +48854,19 @@
   "text": "gauge",
   "tier": "core"
  },
+ "syn.gaze": {
+  "lang": "en",
+  "text": "gaze",
+  "tier": "core"
+ },
  "syn.gear": {
   "lang": "en",
   "text": "gear",
+  "tier": "core"
+ },
+ "syn.gecko": {
+  "lang": "en",
+  "text": "gecko",
   "tier": "core"
  },
  "syn.gelatin": {
@@ -44634,6 +48914,16 @@
   "text": "ghost",
   "tier": "core"
  },
+ "syn.ghoul": {
+  "lang": "en",
+  "text": "ghoul",
+  "tier": "core"
+ },
+ "syn.giant": {
+  "lang": "en",
+  "text": "giant",
+  "tier": "core"
+ },
  "syn.gift": {
   "lang": "en",
   "text": "gift",
@@ -44674,6 +48964,11 @@
   "text": "gloom",
   "tier": "core"
  },
+ "syn.gloomy": {
+  "lang": "en",
+  "text": "gloomy",
+  "tier": "core"
+ },
  "syn.glove": {
   "lang": "en",
   "text": "glove",
@@ -44682,6 +48977,11 @@
  "syn.glue": {
   "lang": "en",
   "text": "glue",
+  "tier": "core"
+ },
+ "syn.glyph": {
+  "lang": "en",
+  "text": "glyph",
   "tier": "core"
  },
  "syn.go-viral": {
@@ -44699,6 +48999,11 @@
   "text": "goalie",
   "tier": "core"
  },
+ "syn.goblin": {
+  "lang": "en",
+  "text": "goblin",
+  "tier": "core"
+ },
  "syn.goggles": {
   "lang": "en",
   "text": "goggles",
@@ -44712,6 +49017,11 @@
  "syn.golden": {
   "lang": "en",
   "text": "golden",
+  "tier": "core"
+ },
+ "syn.goo": {
+  "lang": "en",
+  "text": "goo",
   "tier": "core"
  },
  "syn.goods": {
@@ -44774,6 +49084,11 @@
   "text": "graph",
   "tier": "core"
  },
+ "syn.grasshopper": {
+  "lang": "en",
+  "text": "grasshopper",
+  "tier": "core"
+ },
  "syn.gravy": {
   "lang": "en",
   "text": "gravy",
@@ -44787,6 +49102,11 @@
  "syn.greens": {
   "lang": "en",
   "text": "greens",
+  "tier": "core"
+ },
+ "syn.grenade": {
+  "lang": "en",
+  "text": "grenade",
   "tier": "core"
  },
  "syn.grid": {
@@ -44812,6 +49132,11 @@
  "syn.grocery-store": {
   "lang": "en",
   "text": "grocery store",
+  "tier": "core"
+ },
+ "syn.grotto": {
+  "lang": "en",
+  "text": "grotto",
   "tier": "core"
  },
  "syn.grounds": {
@@ -44864,6 +49189,16 @@
   "text": "gullible",
   "tier": "core"
  },
+ "syn.gun": {
+  "lang": "en",
+  "text": "gun",
+  "tier": "core"
+ },
+ "syn.gust": {
+  "lang": "en",
+  "text": "gust",
+  "tier": "core"
+ },
  "syn.gymnasium": {
   "lang": "en",
   "text": "gymnasium",
@@ -44872,6 +49207,11 @@
  "syn.habit": {
   "lang": "en",
   "text": "habit",
+  "tier": "core"
+ },
+ "syn.hag": {
+  "lang": "en",
+  "text": "hag",
   "tier": "core"
  },
  "syn.hairdresser": {
@@ -44892,6 +49232,11 @@
  "syn.ham": {
   "lang": "en",
   "text": "ham",
+  "tier": "core"
+ },
+ "syn.hammer": {
+  "lang": "en",
+  "text": "hammer",
   "tier": "core"
  },
  "syn.hamper": {
@@ -44974,9 +49319,19 @@
   "text": "hat",
   "tier": "core"
  },
+ "syn.hatchet": {
+  "lang": "en",
+  "text": "hatchet",
+  "tier": "core"
+ },
  "syn.haven": {
   "lang": "en",
   "text": "haven",
+  "tier": "core"
+ },
+ "syn.hawk": {
+  "lang": "en",
+  "text": "hawk",
   "tier": "core"
  },
  "syn.hay": {
@@ -45009,6 +49364,11 @@
   "text": "headset",
   "tier": "core"
  },
+ "syn.heal": {
+  "lang": "en",
+  "text": "heal",
+  "tier": "core"
+ },
  "syn.health": {
   "lang": "en",
   "text": "health",
@@ -45029,6 +49389,16 @@
   "text": "heaven",
   "tier": "core"
  },
+ "syn.heavyweight": {
+  "lang": "en",
+  "text": "heavyweight",
+  "tier": "core"
+ },
+ "syn.heckler": {
+  "lang": "en",
+  "text": "heckler",
+  "tier": "core"
+ },
  "syn.heir": {
   "lang": "en",
   "text": "heir",
@@ -45037,6 +49407,11 @@
  "syn.heirloom": {
   "lang": "en",
   "text": "heirloom",
+  "tier": "core"
+ },
+ "syn.hell": {
+  "lang": "en",
+  "text": "hell",
   "tier": "core"
  },
  "syn.helmet": {
@@ -45069,6 +49444,11 @@
   "text": "heritage",
   "tier": "core"
  },
+ "syn.hermit": {
+  "lang": "en",
+  "text": "hermit",
+  "tier": "core"
+ },
  "syn.hero": {
   "lang": "en",
   "text": "hero",
@@ -45077,6 +49457,11 @@
  "syn.heron": {
   "lang": "en",
   "text": "heron",
+  "tier": "core"
+ },
+ "syn.hex": {
+  "lang": "en",
+  "text": "hex",
   "tier": "core"
  },
  "syn.hide": {
@@ -45114,9 +49499,19 @@
   "text": "hill",
   "tier": "core"
  },
+ "syn.hippogriff": {
+  "lang": "en",
+  "text": "hippogriff",
+  "tier": "core"
+ },
  "syn.hire": {
   "lang": "en",
   "text": "hire",
+  "tier": "core"
+ },
+ "syn.hireling": {
+  "lang": "en",
+  "text": "hireling",
   "tier": "core"
  },
  "syn.history": {
@@ -45127,6 +49522,11 @@
  "syn.hit": {
   "lang": "en",
   "text": "hit",
+  "tier": "core"
+ },
+ "syn.hitman": {
+  "lang": "en",
+  "text": "hitman",
   "tier": "core"
  },
  "syn.hoard": {
@@ -45289,6 +49689,16 @@
   "text": "humor",
   "tier": "core"
  },
+ "syn.hunter": {
+  "lang": "en",
+  "text": "hunter",
+  "tier": "core"
+ },
+ "syn.hurricane": {
+  "lang": "en",
+  "text": "hurricane",
+  "tier": "core"
+ },
  "syn.hurry": {
   "lang": "en",
   "text": "hurry",
@@ -45299,6 +49709,11 @@
   "text": "hut",
   "tier": "core"
  },
+ "syn.hymn": {
+  "lang": "en",
+  "text": "hymn",
+  "tier": "core"
+ },
  "syn.hype": {
   "lang": "en",
   "text": "hype",
@@ -45307,6 +49722,11 @@
  "syn.hypothesis": {
   "lang": "en",
   "text": "hypothesis",
+  "tier": "core"
+ },
+ "syn.ice": {
+  "lang": "en",
+  "text": "ice",
   "tier": "core"
  },
  "syn.ice-cream": {
@@ -45379,6 +49799,11 @@
   "text": "immunization",
   "tier": "core"
  },
+ "syn.imp": {
+  "lang": "en",
+  "text": "imp",
+  "tier": "core"
+ },
  "syn.impression": {
   "lang": "en",
   "text": "impression",
@@ -45434,6 +49859,11 @@
   "text": "infant",
   "tier": "core"
  },
+ "syn.inferno": {
+  "lang": "en",
+  "text": "inferno",
+  "tier": "core"
+ },
  "syn.infirmary": {
   "lang": "en",
   "text": "infirmary",
@@ -45477,6 +49907,11 @@
  "syn.innovation": {
   "lang": "en",
   "text": "innovation",
+  "tier": "core"
+ },
+ "syn.insect": {
+  "lang": "en",
+  "text": "insect",
   "tier": "core"
  },
  "syn.insecurity": {
@@ -45559,6 +49994,11 @@
   "text": "intruder",
   "tier": "core"
  },
+ "syn.invasion": {
+  "lang": "en",
+  "text": "invasion",
+  "tier": "core"
+ },
  "syn.invention": {
   "lang": "en",
   "text": "invention",
@@ -45619,6 +50059,16 @@
   "text": "jacket",
   "tier": "core"
  },
+ "syn.jade": {
+  "lang": "en",
+  "text": "jade",
+  "tier": "core"
+ },
+ "syn.jaguar": {
+  "lang": "en",
+  "text": "jaguar",
+  "tier": "core"
+ },
  "syn.jam": {
   "lang": "en",
   "text": "jam",
@@ -45627,6 +50077,11 @@
  "syn.jar": {
   "lang": "en",
   "text": "jar",
+  "tier": "core"
+ },
+ "syn.javelin": {
+  "lang": "en",
+  "text": "javelin",
   "tier": "core"
  },
  "syn.jeans": {
@@ -45719,6 +50174,11 @@
   "text": "kale",
   "tier": "core"
  },
+ "syn.katana": {
+  "lang": "en",
+  "text": "katana",
+  "tier": "core"
+ },
  "syn.keep": {
   "lang": "en",
   "text": "keep",
@@ -45769,6 +50229,11 @@
   "text": "kid",
   "tier": "core"
  },
+ "syn.killer": {
+  "lang": "en",
+  "text": "killer",
+  "tier": "core"
+ },
  "syn.kilt": {
   "lang": "en",
   "text": "kilt",
@@ -45777,6 +50242,11 @@
  "syn.kind": {
   "lang": "en",
   "text": "kind",
+  "tier": "core"
+ },
+ "syn.king": {
+  "lang": "en",
+  "text": "king",
   "tier": "core"
  },
  "syn.kit": {
@@ -45797,6 +50267,16 @@
  "syn.knapsack": {
   "lang": "en",
   "text": "knapsack",
+  "tier": "core"
+ },
+ "syn.knife": {
+  "lang": "en",
+  "text": "knife",
+  "tier": "core"
+ },
+ "syn.knight": {
+  "lang": "en",
+  "text": "knight",
   "tier": "core"
  },
  "syn.knob": {
@@ -45839,9 +50319,19 @@
   "text": "lady",
   "tier": "core"
  },
+ "syn.ladybug": {
+  "lang": "en",
+  "text": "ladybug",
+  "tier": "core"
+ },
  "syn.lager": {
   "lang": "en",
   "text": "lager",
+  "tier": "core"
+ },
+ "syn.lance": {
+  "lang": "en",
+  "text": "lance",
   "tier": "core"
  },
  "syn.landmark": {
@@ -45867,6 +50357,11 @@
  "syn.laser": {
   "lang": "en",
   "text": "laser",
+  "tier": "core"
+ },
+ "syn.lash": {
+  "lang": "en",
+  "text": "lash",
   "tier": "core"
  },
  "syn.lass": {
@@ -45902,6 +50397,11 @@
  "syn.launch": {
   "lang": "en",
   "text": "launch",
+  "tier": "core"
+ },
+ "syn.launcher": {
+  "lang": "en",
+  "text": "launcher",
   "tier": "core"
  },
  "syn.lavender": {
@@ -46004,6 +50504,11 @@
   "text": "lesson",
   "tier": "core"
  },
+ "syn.letter": {
+  "lang": "en",
+  "text": "letter",
+  "tier": "core"
+ },
  "syn.lettering": {
   "lang": "en",
   "text": "lettering",
@@ -46017,6 +50522,11 @@
  "syn.level": {
   "lang": "en",
   "text": "level",
+  "tier": "core"
+ },
+ "syn.leviathan": {
+  "lang": "en",
+  "text": "leviathan",
   "tier": "core"
  },
  "syn.library": {
@@ -46044,6 +50554,11 @@
   "text": "light",
   "tier": "core"
  },
+ "syn.lightning": {
+  "lang": "en",
+  "text": "lightning",
+  "tier": "core"
+ },
  "syn.like": {
   "lang": "en",
   "text": "like",
@@ -46067,6 +50582,11 @@
  "syn.link": {
   "lang": "en",
   "text": "link",
+  "tier": "core"
+ },
+ "syn.lion": {
+  "lang": "en",
+  "text": "lion",
   "tier": "core"
  },
  "syn.lioness": {
@@ -46122,6 +50642,11 @@
  "syn.lock": {
   "lang": "en",
   "text": "lock",
+  "tier": "core"
+ },
+ "syn.locket": {
+  "lang": "en",
+  "text": "locket",
   "tier": "core"
  },
  "syn.logo": {
@@ -46249,14 +50774,29 @@
   "text": "lyrics",
   "tier": "core"
  },
+ "syn.mace": {
+  "lang": "en",
+  "text": "mace",
+  "tier": "core"
+ },
  "syn.machine": {
   "lang": "en",
   "text": "machine",
   "tier": "core"
  },
+ "syn.mage": {
+  "lang": "en",
+  "text": "mage",
+  "tier": "core"
+ },
  "syn.magenta": {
   "lang": "en",
   "text": "magenta",
+  "tier": "core"
+ },
+ "syn.magician": {
+  "lang": "en",
+  "text": "magician",
   "tier": "core"
  },
  "syn.magnify": {
@@ -46297,6 +50837,16 @@
  "syn.major": {
   "lang": "en",
   "text": "major",
+  "tier": "core"
+ },
+ "syn.malice": {
+  "lang": "en",
+  "text": "malice",
+  "tier": "core"
+ },
+ "syn.mallet": {
+  "lang": "en",
+  "text": "mallet",
   "tier": "core"
  },
  "syn.manage": {
@@ -46342,6 +50892,11 @@
  "syn.manners": {
   "lang": "en",
   "text": "manners",
+  "tier": "core"
+ },
+ "syn.mantle": {
+  "lang": "en",
+  "text": "mantle",
   "tier": "core"
  },
  "syn.manufacturer": {
@@ -46402,6 +50957,11 @@
  "syn.marvel": {
   "lang": "en",
   "text": "marvel",
+  "tier": "core"
+ },
+ "syn.mascot": {
+  "lang": "en",
+  "text": "mascot",
   "tier": "core"
  },
  "syn.mass": {
@@ -46479,6 +51039,11 @@
   "text": "media",
   "tier": "core"
  },
+ "syn.medicine": {
+  "lang": "en",
+  "text": "medicine",
+  "tier": "core"
+ },
  "syn.medicine-man": {
   "lang": "en",
   "text": "medicine man",
@@ -46492,6 +51057,11 @@
  "syn.meditation": {
   "lang": "en",
   "text": "meditation",
+  "tier": "core"
+ },
+ "syn.medium": {
+  "lang": "en",
+  "text": "medium",
   "tier": "core"
  },
  "syn.meeting": {
@@ -46532,6 +51102,11 @@
  "syn.merchandise": {
   "lang": "en",
   "text": "merchandise",
+  "tier": "core"
+ },
+ "syn.merge": {
+  "lang": "en",
+  "text": "merge",
   "tier": "core"
  },
  "syn.mesh": {
@@ -46634,6 +51209,16 @@
   "text": "mineral",
   "tier": "core"
  },
+ "syn.minstrel": {
+  "lang": "en",
+  "text": "minstrel",
+  "tier": "core"
+ },
+ "syn.mirror": {
+  "lang": "en",
+  "text": "mirror",
+  "tier": "core"
+ },
  "syn.missile": {
   "lang": "en",
   "text": "missile",
@@ -46734,6 +51319,11 @@
   "text": "monitoring",
   "tier": "core"
  },
+ "syn.monk": {
+  "lang": "en",
+  "text": "monk",
+  "tier": "core"
+ },
  "syn.monster": {
   "lang": "en",
   "text": "monster",
@@ -46824,6 +51414,11 @@
   "text": "moving",
   "tier": "core"
  },
+ "syn.mud": {
+  "lang": "en",
+  "text": "mud",
+  "tier": "core"
+ },
  "syn.muffler": {
   "lang": "en",
   "text": "muffler",
@@ -46862,6 +51457,11 @@
  "syn.mutation": {
   "lang": "en",
   "text": "mutation",
+  "tier": "core"
+ },
+ "syn.mute": {
+  "lang": "en",
+  "text": "mute",
   "tier": "core"
  },
  "syn.mystery": {
@@ -46917,6 +51517,11 @@
  "syn.near": {
   "lang": "en",
   "text": "near",
+  "tier": "core"
+ },
+ "syn.necklace": {
+  "lang": "en",
+  "text": "necklace",
   "tier": "core"
  },
  "syn.nectarine": {
@@ -46977,6 +51582,11 @@
  "syn.nimble": {
   "lang": "en",
   "text": "nimble",
+  "tier": "core"
+ },
+ "syn.ninja": {
+  "lang": "en",
+  "text": "ninja",
   "tier": "core"
  },
  "syn.noble": {
@@ -47044,6 +51654,11 @@
   "text": "novice",
   "tier": "core"
  },
+ "syn.nun": {
+  "lang": "en",
+  "text": "nun",
+  "tier": "core"
+ },
  "syn.nuptial": {
   "lang": "en",
   "text": "nuptial",
@@ -47067,6 +51682,11 @@
  "syn.nutritious": {
   "lang": "en",
   "text": "nutritious",
+  "tier": "core"
+ },
+ "syn.nymph": {
+  "lang": "en",
+  "text": "nymph",
   "tier": "core"
  },
  "syn.oatmeal": {
@@ -47119,9 +51739,19 @@
   "text": "occasion",
   "tier": "core"
  },
+ "syn.octopus": {
+  "lang": "en",
+  "text": "octopus",
+  "tier": "core"
+ },
  "syn.off-limits": {
   "lang": "en",
   "text": "off-limits",
+  "tier": "core"
+ },
+ "syn.offense": {
+  "lang": "en",
+  "text": "offense",
   "tier": "core"
  },
  "syn.offer": {
@@ -47137,6 +51767,11 @@
  "syn.official": {
   "lang": "en",
   "text": "official",
+  "tier": "core"
+ },
+ "syn.ogre": {
+  "lang": "en",
+  "text": "ogre",
   "tier": "core"
  },
  "syn.old-fashioned": {
@@ -47212,6 +51847,11 @@
  "syn.orbit": {
   "lang": "en",
   "text": "orbit",
+  "tier": "core"
+ },
+ "syn.orc": {
+  "lang": "en",
+  "text": "orc",
   "tier": "core"
  },
  "syn.orchestra": {
@@ -47314,6 +51954,11 @@
   "text": "overseas",
   "tier": "core"
  },
+ "syn.overshadow": {
+  "lang": "en",
+  "text": "overshadow",
+  "tier": "core"
+ },
  "syn.overthrow": {
   "lang": "en",
   "text": "overthrow",
@@ -47322,6 +51967,11 @@
  "syn.overworker": {
   "lang": "en",
   "text": "overworker",
+  "tier": "core"
+ },
+ "syn.owl": {
+  "lang": "en",
+  "text": "owl",
   "tier": "core"
  },
  "syn.pace": {
@@ -47369,6 +52019,11 @@
   "text": "pair",
   "tier": "core"
  },
+ "syn.palace": {
+  "lang": "en",
+  "text": "palace",
+  "tier": "core"
+ },
  "syn.paladin": {
   "lang": "en",
   "text": "paladin",
@@ -47382,6 +52037,11 @@
  "syn.pan": {
   "lang": "en",
   "text": "pan",
+  "tier": "core"
+ },
+ "syn.panacea": {
+  "lang": "en",
+  "text": "panacea",
   "tier": "core"
  },
  "syn.pancake": {
@@ -47432,6 +52092,11 @@
  "syn.paradise": {
   "lang": "en",
   "text": "paradise",
+  "tier": "core"
+ },
+ "syn.paralyze": {
+  "lang": "en",
+  "text": "paralyze",
   "tier": "core"
  },
  "syn.parcel": {
@@ -47574,6 +52239,11 @@
   "text": "pay",
   "tier": "core"
  },
+ "syn.payback": {
+  "lang": "en",
+  "text": "payback",
+  "tier": "core"
+ },
  "syn.peak": {
   "lang": "en",
   "text": "peak",
@@ -47582,6 +52252,16 @@
  "syn.pecking-order": {
   "lang": "en",
   "text": "pecking order",
+  "tier": "core"
+ },
+ "syn.pedestal": {
+  "lang": "en",
+  "text": "pedestal",
+  "tier": "core"
+ },
+ "syn.pegasus": {
+  "lang": "en",
+  "text": "pegasus",
   "tier": "core"
  },
  "syn.pen": {
@@ -47679,6 +52359,11 @@
   "text": "petroleum",
   "tier": "core"
  },
+ "syn.phantom": {
+  "lang": "en",
+  "text": "phantom",
+  "tier": "core"
+ },
  "syn.pharmacy": {
   "lang": "en",
   "text": "pharmacy",
@@ -47729,6 +52414,11 @@
   "text": "picture",
   "tier": "core"
  },
+ "syn.pike": {
+  "lang": "en",
+  "text": "pike",
+  "tier": "core"
+ },
  "syn.pill": {
   "lang": "en",
   "text": "pill",
@@ -47757,6 +52447,16 @@
  "syn.pirate": {
   "lang": "en",
   "text": "pirate",
+  "tier": "core"
+ },
+ "syn.pitfall": {
+  "lang": "en",
+  "text": "pitfall",
+  "tier": "core"
+ },
+ "syn.pixie": {
+  "lang": "en",
+  "text": "pixie",
   "tier": "core"
  },
  "syn.plain": {
@@ -47854,6 +52554,11 @@
   "text": "plot",
   "tier": "core"
  },
+ "syn.poet": {
+  "lang": "en",
+  "text": "poet",
+  "tier": "core"
+ },
  "syn.point": {
   "lang": "en",
   "text": "point",
@@ -47862,6 +52567,21 @@
  "syn.points": {
   "lang": "en",
   "text": "points",
+  "tier": "core"
+ },
+ "syn.poison": {
+  "lang": "en",
+  "text": "poison",
+  "tier": "core"
+ },
+ "syn.pole": {
+  "lang": "en",
+  "text": "pole",
+  "tier": "core"
+ },
+ "syn.polearm": {
+  "lang": "en",
+  "text": "polearm",
   "tier": "core"
  },
  "syn.poll": {
@@ -47942,6 +52662,11 @@
  "syn.pot": {
   "lang": "en",
   "text": "pot",
+  "tier": "core"
+ },
+ "syn.potion": {
+  "lang": "en",
+  "text": "potion",
   "tier": "core"
  },
  "syn.pouch": {
@@ -48244,6 +52969,11 @@
   "text": "psychological",
   "tier": "core"
  },
+ "syn.pub": {
+  "lang": "en",
+  "text": "pub",
+  "tier": "core"
+ },
  "syn.publicity": {
   "lang": "en",
   "text": "publicity",
@@ -48334,6 +53064,11 @@
   "text": "pyramid",
   "tier": "core"
  },
+ "syn.python": {
+  "lang": "en",
+  "text": "python",
+  "tier": "core"
+ },
  "syn.qr-code": {
   "lang": "en",
   "text": "QR code",
@@ -48377,6 +53112,16 @@
  "syn.queue": {
   "lang": "en",
   "text": "queue",
+  "tier": "core"
+ },
+ "syn.quickness": {
+  "lang": "en",
+  "text": "quickness",
+  "tier": "core"
+ },
+ "syn.quiet": {
+  "lang": "en",
+  "text": "quiet",
   "tier": "core"
  },
  "syn.quill": {
@@ -48489,6 +53234,11 @@
   "text": "rapid",
   "tier": "core"
  },
+ "syn.rapier": {
+  "lang": "en",
+  "text": "rapier",
+  "tier": "core"
+ },
  "syn.raspberry": {
   "lang": "en",
   "text": "raspberry",
@@ -48517,6 +53267,11 @@
  "syn.realm": {
   "lang": "en",
   "text": "realm",
+  "tier": "core"
+ },
+ "syn.reaper": {
+  "lang": "en",
+  "text": "reaper",
   "tier": "core"
  },
  "syn.rear": {
@@ -48684,6 +53439,11 @@
   "text": "regulation",
   "tier": "core"
  },
+ "syn.reign": {
+  "lang": "en",
+  "text": "reign",
+  "tier": "core"
+ },
  "syn.relative": {
   "lang": "en",
   "text": "relative",
@@ -48707,6 +53467,11 @@
  "syn.relief": {
   "lang": "en",
   "text": "relief",
+  "tier": "core"
+ },
+ "syn.remains": {
+  "lang": "en",
+  "text": "remains",
   "tier": "core"
  },
  "syn.remark": {
@@ -48787,6 +53552,11 @@
  "syn.reporter": {
   "lang": "en",
   "text": "reporter",
+  "tier": "core"
+ },
+ "syn.reptile": {
+  "lang": "en",
+  "text": "reptile",
   "tier": "core"
  },
  "syn.republic": {
@@ -48884,6 +53654,11 @@
   "text": "retaliate",
   "tier": "core"
  },
+ "syn.retaliation": {
+  "lang": "en",
+  "text": "retaliation",
+  "tier": "core"
+ },
  "syn.retreat": {
   "lang": "en",
   "text": "retreat",
@@ -48904,6 +53679,11 @@
   "text": "reuse",
   "tier": "core"
  },
+ "syn.revelation": {
+  "lang": "en",
+  "text": "revelation",
+  "tier": "core"
+ },
  "syn.revenue": {
   "lang": "en",
   "text": "revenue",
@@ -48919,6 +53699,11 @@
   "text": "revival",
   "tier": "core"
  },
+ "syn.revive": {
+  "lang": "en",
+  "text": "revive",
+  "tier": "core"
+ },
  "syn.revolution": {
   "lang": "en",
   "text": "revolution",
@@ -48927,6 +53712,11 @@
  "syn.reward": {
   "lang": "en",
   "text": "reward",
+  "tier": "core"
+ },
+ "syn.rhinoceros": {
+  "lang": "en",
+  "text": "rhinoceros",
   "tier": "core"
  },
  "syn.rhythm": {
@@ -48989,6 +53779,16 @@
   "text": "roast",
   "tier": "core"
  },
+ "syn.robber": {
+  "lang": "en",
+  "text": "robber",
+  "tier": "core"
+ },
+ "syn.robe": {
+  "lang": "en",
+  "text": "robe",
+  "tier": "core"
+ },
  "syn.robot": {
   "lang": "en",
   "text": "robot",
@@ -48997,6 +53797,11 @@
  "syn.rocket": {
   "lang": "en",
   "text": "rocket",
+  "tier": "core"
+ },
+ "syn.rod": {
+  "lang": "en",
+  "text": "rod",
   "tier": "core"
  },
  "syn.rodent": {
@@ -49017,6 +53822,11 @@
  "syn.room": {
   "lang": "en",
   "text": "room",
+  "tier": "core"
+ },
+ "syn.rope": {
+  "lang": "en",
+  "text": "rope",
   "tier": "core"
  },
  "syn.rose": {
@@ -49052,6 +53862,11 @@
  "syn.rub": {
   "lang": "en",
   "text": "rub",
+  "tier": "core"
+ },
+ "syn.ruby": {
+  "lang": "en",
+  "text": "ruby",
   "tier": "core"
  },
  "syn.rucksack": {
@@ -49104,9 +53919,19 @@
   "text": "rush",
   "tier": "core"
  },
+ "syn.saber": {
+  "lang": "en",
+  "text": "saber",
+  "tier": "core"
+ },
  "syn.sack": {
   "lang": "en",
   "text": "sack",
+  "tier": "core"
+ },
+ "syn.sacred": {
+  "lang": "en",
+  "text": "sacred",
   "tier": "core"
  },
  "syn.sad": {
@@ -49117,6 +53942,11 @@
  "syn.sadness": {
   "lang": "en",
   "text": "sadness",
+  "tier": "core"
+ },
+ "syn.safe": {
+  "lang": "en",
+  "text": "safe",
   "tier": "core"
  },
  "syn.safety": {
@@ -49132,6 +53962,11 @@
  "syn.sail": {
   "lang": "en",
   "text": "sail",
+  "tier": "core"
+ },
+ "syn.saint": {
+  "lang": "en",
+  "text": "saint",
   "tier": "core"
  },
  "syn.salad": {
@@ -49154,9 +53989,19 @@
   "text": "salmon",
   "tier": "core"
  },
+ "syn.sanctuary": {
+  "lang": "en",
+  "text": "sanctuary",
+  "tier": "core"
+ },
  "syn.sandals": {
   "lang": "en",
   "text": "sandals",
+  "tier": "core"
+ },
+ "syn.sapphire": {
+  "lang": "en",
+  "text": "sapphire",
   "tier": "core"
  },
  "syn.sarcasm": {
@@ -49167,6 +54012,11 @@
  "syn.sarcastic": {
   "lang": "en",
   "text": "sarcastic",
+  "tier": "core"
+ },
+ "syn.satan": {
+  "lang": "en",
+  "text": "Satan",
   "tier": "core"
  },
  "syn.satin": {
@@ -49234,6 +54084,11 @@
   "text": "scent",
   "tier": "core"
  },
+ "syn.scepter": {
+  "lang": "en",
+  "text": "scepter",
+  "tier": "core"
+ },
  "syn.schedule": {
   "lang": "en",
   "text": "schedule",
@@ -49257,6 +54112,11 @@
  "syn.score": {
   "lang": "en",
   "text": "score",
+  "tier": "core"
+ },
+ "syn.scout": {
+  "lang": "en",
+  "text": "scout",
   "tier": "core"
  },
  "syn.scouting": {
@@ -49307,6 +54167,11 @@
  "syn.scrum": {
   "lang": "en",
   "text": "scrum",
+  "tier": "core"
+ },
+ "syn.scythe": {
+  "lang": "en",
+  "text": "scythe",
   "tier": "core"
  },
  "syn.seabird": {
@@ -49404,6 +54269,11 @@
   "text": "sensor",
   "tier": "core"
  },
+ "syn.sentence": {
+  "lang": "en",
+  "text": "sentence",
+  "tier": "core"
+ },
  "syn.sentimental": {
   "lang": "en",
   "text": "sentimental",
@@ -49499,6 +54369,11 @@
   "text": "shadow",
   "tier": "core"
  },
+ "syn.shaft": {
+  "lang": "en",
+  "text": "shaft",
+  "tier": "core"
+ },
  "syn.shape": {
   "lang": "en",
   "text": "shape",
@@ -49569,6 +54444,11 @@
   "text": "shoes",
   "tier": "core"
  },
+ "syn.shooting-star": {
+  "lang": "en",
+  "text": "shooting star",
+  "tier": "core"
+ },
  "syn.shop": {
   "lang": "en",
   "text": "shop",
@@ -49609,6 +54489,11 @@
   "text": "shrimp",
   "tier": "core"
  },
+ "syn.shrine": {
+  "lang": "en",
+  "text": "shrine",
+  "tier": "core"
+ },
  "syn.shutter": {
   "lang": "en",
   "text": "shutter",
@@ -49617,6 +54502,11 @@
  "syn.shuttle": {
   "lang": "en",
   "text": "shuttle",
+  "tier": "core"
+ },
+ "syn.sickle": {
+  "lang": "en",
+  "text": "sickle",
   "tier": "core"
  },
  "syn.sightseeing": {
@@ -49642,6 +54532,11 @@
  "syn.silencer": {
   "lang": "en",
   "text": "silencer",
+  "tier": "core"
+ },
+ "syn.silhouette": {
+  "lang": "en",
+  "text": "silhouette",
   "tier": "core"
  },
  "syn.silver": {
@@ -49739,6 +54634,11 @@
   "text": "skipper",
   "tier": "core"
  },
+ "syn.skull": {
+  "lang": "en",
+  "text": "skull",
+  "tier": "core"
+ },
  "syn.skyscraper": {
   "lang": "en",
   "text": "skyscraper",
@@ -49789,6 +54689,11 @@
   "text": "smartwatch",
   "tier": "core"
  },
+ "syn.smash": {
+  "lang": "en",
+  "text": "smash",
+  "tier": "core"
+ },
  "syn.smooth": {
   "lang": "en",
   "text": "smooth",
@@ -49809,9 +54714,19 @@
   "text": "snack",
   "tier": "core"
  },
+ "syn.snake": {
+  "lang": "en",
+  "text": "snake",
+  "tier": "core"
+ },
  "syn.snapshot": {
   "lang": "en",
   "text": "snapshot",
+  "tier": "core"
+ },
+ "syn.snare": {
+  "lang": "en",
+  "text": "snare",
   "tier": "core"
  },
  "syn.sneakers": {
@@ -49824,6 +54739,11 @@
   "text": "sneaky",
   "tier": "core"
  },
+ "syn.sniper": {
+  "lang": "en",
+  "text": "sniper",
+  "tier": "core"
+ },
  "syn.snorkeling": {
   "lang": "en",
   "text": "snorkeling",
@@ -49832,6 +54752,16 @@
  "syn.snowboard": {
   "lang": "en",
   "text": "snowboard",
+  "tier": "core"
+ },
+ "syn.snowstorm": {
+  "lang": "en",
+  "text": "snowstorm",
+  "tier": "core"
+ },
+ "syn.soak-up": {
+  "lang": "en",
+  "text": "soak up",
   "tier": "core"
  },
  "syn.soap": {
@@ -49874,6 +54804,11 @@
   "text": "solar",
   "tier": "core"
  },
+ "syn.soldier": {
+  "lang": "en",
+  "text": "soldier",
+  "tier": "core"
+ },
  "syn.solid": {
   "lang": "en",
   "text": "solid",
@@ -49902,6 +54837,16 @@
  "syn.sophisticated": {
   "lang": "en",
   "text": "sophisticated",
+  "tier": "core"
+ },
+ "syn.sorcerer": {
+  "lang": "en",
+  "text": "sorcerer",
+  "tier": "core"
+ },
+ "syn.sorceress": {
+  "lang": "en",
+  "text": "sorceress",
   "tier": "core"
  },
  "syn.sorcery": {
@@ -49974,6 +54919,11 @@
   "text": "sparkling wine",
   "tier": "core"
  },
+ "syn.spear": {
+  "lang": "en",
+  "text": "spear",
+  "tier": "core"
+ },
  "syn.specialist": {
   "lang": "en",
   "text": "specialist",
@@ -50009,6 +54959,11 @@
   "text": "speed",
   "tier": "core"
  },
+ "syn.spell": {
+  "lang": "en",
+  "text": "spell",
+  "tier": "core"
+ },
  "syn.sphere": {
   "lang": "en",
   "text": "sphere",
@@ -50024,6 +54979,11 @@
   "text": "spicy",
   "tier": "core"
  },
+ "syn.spider": {
+  "lang": "en",
+  "text": "spider",
+  "tier": "core"
+ },
  "syn.spike": {
   "lang": "en",
   "text": "spike",
@@ -50032,6 +54992,11 @@
  "syn.spin": {
   "lang": "en",
   "text": "spin",
+  "tier": "core"
+ },
+ "syn.spiral": {
+  "lang": "en",
+  "text": "spiral",
   "tier": "core"
  },
  "syn.spire": {
@@ -50069,6 +55034,11 @@
   "text": "sprint",
   "tier": "core"
  },
+ "syn.sprite": {
+  "lang": "en",
+  "text": "sprite",
+  "tier": "core"
+ },
  "syn.squad": {
   "lang": "en",
   "text": "squad",
@@ -50077,6 +55047,11 @@
  "syn.squash": {
   "lang": "en",
   "text": "squash",
+  "tier": "core"
+ },
+ "syn.squid": {
+  "lang": "en",
+  "text": "squid",
   "tier": "core"
  },
  "syn.stability": {
@@ -50094,6 +55069,11 @@
   "text": "staff",
   "tier": "core"
  },
+ "syn.stag-beetle": {
+  "lang": "en",
+  "text": "stag beetle",
+  "tier": "core"
+ },
  "syn.stage": {
   "lang": "en",
   "text": "stage",
@@ -50102,6 +55082,11 @@
  "syn.stair": {
   "lang": "en",
   "text": "stair",
+  "tier": "core"
+ },
+ "syn.stamina": {
+  "lang": "en",
+  "text": "stamina",
   "tier": "core"
  },
  "syn.stamp": {
@@ -50137,6 +55122,11 @@
  "syn.statistics": {
   "lang": "en",
   "text": "statistics",
+  "tier": "core"
+ },
+ "syn.statue": {
+  "lang": "en",
+  "text": "statue",
   "tier": "core"
  },
  "syn.status": {
@@ -50189,9 +55179,19 @@
   "text": "sticker",
   "tier": "core"
  },
+ "syn.stiletto": {
+  "lang": "en",
+  "text": "stiletto",
+  "tier": "core"
+ },
  "syn.stimulant": {
   "lang": "en",
   "text": "stimulant",
+  "tier": "core"
+ },
+ "syn.sting": {
+  "lang": "en",
+  "text": "sting",
   "tier": "core"
  },
  "syn.stock": {
@@ -50202,6 +55202,11 @@
  "syn.stockings": {
   "lang": "en",
   "text": "stockings",
+  "tier": "core"
+ },
+ "syn.stone": {
+  "lang": "en",
+  "text": "stone",
   "tier": "core"
  },
  "syn.stool": {
@@ -50307,6 +55312,11 @@
  "syn.stripe": {
   "lang": "en",
   "text": "stripe",
+  "tier": "core"
+ },
+ "syn.stronghold": {
+  "lang": "en",
+  "text": "stronghold",
   "tier": "core"
  },
  "syn.structure": {
@@ -50534,6 +55544,11 @@
   "text": "sweets",
   "tier": "core"
  },
+ "syn.swift": {
+  "lang": "en",
+  "text": "swift",
+  "tier": "core"
+ },
  "syn.swimming": {
   "lang": "en",
   "text": "swimming",
@@ -50547,6 +55562,11 @@
  "syn.switch": {
   "lang": "en",
   "text": "switch",
+  "tier": "core"
+ },
+ "syn.sword": {
+  "lang": "en",
+  "text": "sword",
   "tier": "core"
  },
  "syn.syllabus": {
@@ -50629,6 +55649,11 @@
   "text": "talent",
   "tier": "core"
  },
+ "syn.talisman": {
+  "lang": "en",
+  "text": "talisman",
+  "tier": "core"
+ },
  "syn.talk": {
   "lang": "en",
   "text": "talk",
@@ -50692,6 +55717,16 @@
  "syn.technique": {
   "lang": "en",
   "text": "technique",
+  "tier": "core"
+ },
+ "syn.tempest": {
+  "lang": "en",
+  "text": "tempest",
+  "tier": "core"
+ },
+ "syn.temple": {
+  "lang": "en",
+  "text": "temple",
   "tier": "core"
  },
  "syn.tempo": {
@@ -50784,6 +55819,11 @@
   "text": "thriller",
   "tier": "core"
  },
+ "syn.throne": {
+  "lang": "en",
+  "text": "throne",
+  "tier": "core"
+ },
  "syn.throw": {
   "lang": "en",
   "text": "throw",
@@ -50792,6 +55832,21 @@
  "syn.thrower": {
   "lang": "en",
   "text": "thrower",
+  "tier": "core"
+ },
+ "syn.thrust": {
+  "lang": "en",
+  "text": "thrust",
+  "tier": "core"
+ },
+ "syn.thunder": {
+  "lang": "en",
+  "text": "thunder",
+  "tier": "core"
+ },
+ "syn.tiara": {
+  "lang": "en",
+  "text": "tiara",
   "tier": "core"
  },
  "syn.ticket": {
@@ -50807,6 +55862,11 @@
  "syn.tier": {
   "lang": "en",
   "text": "tier",
+  "tier": "core"
+ },
+ "syn.tiger": {
+  "lang": "en",
+  "text": "tiger",
   "tier": "core"
  },
  "syn.tights": {
@@ -50859,6 +55919,11 @@
   "text": "tissue",
   "tier": "core"
  },
+ "syn.titan": {
+  "lang": "en",
+  "text": "titan",
+  "tier": "core"
+ },
  "syn.title": {
   "lang": "en",
   "text": "title",
@@ -50899,6 +55964,11 @@
   "text": "tolerant",
   "tier": "core"
  },
+ "syn.tomahawk": {
+  "lang": "en",
+  "text": "tomahawk",
+  "tier": "core"
+ },
  "syn.tomorrow": {
   "lang": "en",
   "text": "tomorrow",
@@ -50934,6 +56004,11 @@
   "text": "torn",
   "tier": "core"
  },
+ "syn.tornado": {
+  "lang": "en",
+  "text": "tornado",
+  "tier": "core"
+ },
  "syn.totalitarianism": {
   "lang": "en",
   "text": "totalitarianism",
@@ -50957,6 +56032,16 @@
  "syn.tournament": {
   "lang": "en",
   "text": "tournament",
+  "tier": "core"
+ },
+ "syn.tower": {
+  "lang": "en",
+  "text": "tower",
+  "tier": "core"
+ },
+ "syn.toxin": {
+  "lang": "en",
+  "text": "toxin",
   "tier": "core"
  },
  "syn.tracing": {
@@ -51099,9 +56184,19 @@
   "text": "trick",
   "tier": "core"
  },
+ "syn.trident": {
+  "lang": "en",
+  "text": "trident",
+  "tier": "core"
+ },
  "syn.trip": {
   "lang": "en",
   "text": "trip",
+  "tier": "core"
+ },
+ "syn.troll": {
+  "lang": "en",
+  "text": "troll",
   "tier": "core"
  },
  "syn.troops": {
@@ -51114,6 +56209,11 @@
   "text": "tropical fruit",
   "tier": "core"
  },
+ "syn.troubadour": {
+  "lang": "en",
+  "text": "troubadour",
+  "tier": "core"
+ },
  "syn.trousers": {
   "lang": "en",
   "text": "trousers",
@@ -51122,6 +56222,11 @@
  "syn.trout": {
   "lang": "en",
   "text": "trout",
+  "tier": "core"
+ },
+ "syn.trunk": {
+  "lang": "en",
+  "text": "trunk",
   "tier": "core"
  },
  "syn.trust": {
@@ -51164,6 +56269,21 @@
   "text": "tune",
   "tier": "core"
  },
+ "syn.tunic": {
+  "lang": "en",
+  "text": "tunic",
+  "tier": "core"
+ },
+ "syn.tunnel": {
+  "lang": "en",
+  "text": "tunnel",
+  "tier": "core"
+ },
+ "syn.turmoil": {
+  "lang": "en",
+  "text": "turmoil",
+  "tier": "core"
+ },
  "syn.turn": {
   "lang": "en",
   "text": "turn",
@@ -51189,6 +56309,16 @@
   "text": "twelve",
   "tier": "core"
  },
+ "syn.twister": {
+  "lang": "en",
+  "text": "twister",
+  "tier": "core"
+ },
+ "syn.tycoon": {
+  "lang": "en",
+  "text": "tycoon",
+  "tier": "core"
+ },
  "syn.type": {
   "lang": "en",
   "text": "type",
@@ -51197,6 +56327,11 @@
  "syn.typeface": {
   "lang": "en",
   "text": "typeface",
+  "tier": "core"
+ },
+ "syn.typhoon": {
+  "lang": "en",
+  "text": "typhoon",
   "tier": "core"
  },
  "syn.ukulele": {
@@ -51217,6 +56352,11 @@
  "syn.unconventional": {
   "lang": "en",
   "text": "unconventional",
+  "tier": "core"
+ },
+ "syn.undead": {
+  "lang": "en",
+  "text": "undead",
   "tier": "core"
  },
  "syn.undermine": {
@@ -51414,9 +56554,19 @@
   "text": "vendor",
   "tier": "core"
  },
+ "syn.venom": {
+  "lang": "en",
+  "text": "venom",
+  "tier": "core"
+ },
  "syn.venture": {
   "lang": "en",
   "text": "venture",
+  "tier": "core"
+ },
+ "syn.verdict": {
+  "lang": "en",
+  "text": "verdict",
   "tier": "core"
  },
  "syn.version": {
@@ -51489,6 +56639,11 @@
   "text": "violet",
   "tier": "core"
  },
+ "syn.viper": {
+  "lang": "en",
+  "text": "viper",
+  "tier": "core"
+ },
  "syn.virtual": {
   "lang": "en",
   "text": "virtual",
@@ -51522,6 +56677,11 @@
  "syn.vital": {
   "lang": "en",
   "text": "vital",
+  "tier": "core"
+ },
+ "syn.vitality": {
+  "lang": "en",
+  "text": "vitality",
   "tier": "core"
  },
  "syn.vitamin": {
@@ -51619,9 +56779,19 @@
   "text": "wallaby",
   "tier": "core"
  },
+ "syn.wand": {
+  "lang": "en",
+  "text": "wand",
+  "tier": "core"
+ },
  "syn.wardrobe": {
   "lang": "en",
   "text": "wardrobe",
+  "tier": "core"
+ },
+ "syn.warlock": {
+  "lang": "en",
+  "text": "warlock",
   "tier": "core"
  },
  "syn.warm": {
@@ -51642,6 +56812,11 @@
  "syn.warrior": {
   "lang": "en",
   "text": "warrior",
+  "tier": "core"
+ },
+ "syn.wasp": {
+  "lang": "en",
+  "text": "wasp",
   "tier": "core"
  },
  "syn.watch": {
@@ -51709,6 +56884,16 @@
   "text": "wheel",
   "tier": "core"
  },
+ "syn.whirlpool": {
+  "lang": "en",
+  "text": "whirlpool",
+  "tier": "core"
+ },
+ "syn.whirlwind": {
+  "lang": "en",
+  "text": "whirlwind",
+  "tier": "core"
+ },
  "syn.whistle": {
   "lang": "en",
   "text": "whistle",
@@ -51734,6 +56919,11 @@
   "text": "wine steward",
   "tier": "core"
  },
+ "syn.wing": {
+  "lang": "en",
+  "text": "wing",
+  "tier": "core"
+ },
  "syn.winner": {
   "lang": "en",
   "text": "winner",
@@ -51754,9 +56944,19 @@
   "text": "wit",
   "tier": "core"
  },
+ "syn.witch": {
+  "lang": "en",
+  "text": "witch",
+  "tier": "core"
+ },
  "syn.withdrawal": {
   "lang": "en",
   "text": "withdrawal",
+  "tier": "core"
+ },
+ "syn.wizard": {
+  "lang": "en",
+  "text": "wizard",
   "tier": "core"
  },
  "syn.woman": {
@@ -51837,6 +57037,21 @@
  "syn.wrap": {
   "lang": "en",
   "text": "wrap",
+  "tier": "core"
+ },
+ "syn.wreath": {
+  "lang": "en",
+  "text": "wreath",
+  "tier": "core"
+ },
+ "syn.wreck": {
+  "lang": "en",
+  "text": "wreck",
+  "tier": "core"
+ },
+ "syn.wrestler": {
+  "lang": "en",
+  "text": "wrestler",
   "tier": "core"
  },
  "syn.wristband": {
@@ -52219,6 +57434,36 @@
   "text": "talent",
   "tier": "core"
  },
+ "talisman.example.en": {
+  "lang": "en",
+  "text": "He carried the talisman for good luck.",
+  "tier": "core"
+ },
+ "talisman.example.ja": {
+  "lang": "ja",
+  "text": "彼は幸運のお守りを持ち歩いていた。",
+  "tier": "core"
+ },
+ "talisman.katakana": {
+  "lang": "ja",
+  "text": "タリスマン",
+  "tier": "core"
+ },
+ "talisman.meaning": {
+  "lang": "ja",
+  "text": "護符、お守り",
+  "tier": "core"
+ },
+ "talisman.story": {
+  "lang": "ja",
+  "text": "ギリシャ語「儀式で清めたもの」がアラビア語を経て伝わった。",
+  "tier": "extended"
+ },
+ "talisman.word": {
+  "lang": "en",
+  "text": "talisman",
+  "tier": "core"
+ },
  "talk.example.en": {
   "lang": "en",
   "text": "Can we talk for a minute?",
@@ -52367,6 +57612,36 @@
  "task.word": {
   "lang": "en",
   "text": "task",
+  "tier": "core"
+ },
+ "tavern.example.en": {
+  "lang": "en",
+  "text": "The travelers stopped at a tavern for the night.",
+  "tier": "core"
+ },
+ "tavern.example.ja": {
+  "lang": "ja",
+  "text": "旅人たちは宿屋に一晩泊まった。",
+  "tier": "core"
+ },
+ "tavern.katakana": {
+  "lang": "ja",
+  "text": "タバーン",
+  "tier": "core"
+ },
+ "tavern.meaning": {
+  "lang": "ja",
+  "text": "酒場、宿屋",
+  "tier": "core"
+ },
+ "tavern.story": {
+  "lang": "ja",
+  "text": "もとは板でできた小屋。そこから店や酒場の意味になった。",
+  "tier": "extended"
+ },
+ "tavern.word": {
+  "lang": "en",
+  "text": "tavern",
   "tier": "core"
  },
  "taxi.example.en": {
@@ -52609,6 +57884,36 @@
   "text": "telework",
   "tier": "core"
  },
+ "tempest.example.en": {
+  "lang": "en",
+  "text": "The ship was lost in a tempest.",
+  "tier": "core"
+ },
+ "tempest.example.ja": {
+  "lang": "ja",
+  "text": "その船は大嵐の中で行方不明になった。",
+  "tier": "core"
+ },
+ "tempest.katakana": {
+  "lang": "ja",
+  "text": "テンペスト",
+  "tier": "core"
+ },
+ "tempest.meaning": {
+  "lang": "ja",
+  "text": "大嵐",
+  "tier": "core"
+ },
+ "tempest.story": {
+  "lang": "ja",
+  "text": "「時」、「その時の天気」、「悪天候、嵐」と意味が変わった。tempo テンポ 、temporary 一時的な も同じ語源。",
+  "tier": "extended"
+ },
+ "tempest.word": {
+  "lang": "en",
+  "text": "tempest",
+  "tier": "core"
+ },
  "template.example.en": {
   "lang": "en",
   "text": "Use this template for your report.",
@@ -52637,6 +57942,36 @@
  "template.word": {
   "lang": "en",
   "text": "template",
+  "tier": "core"
+ },
+ "temple.example.en": {
+  "lang": "en",
+  "text": "We visited a temple in Kyoto.",
+  "tier": "core"
+ },
+ "temple.example.ja": {
+  "lang": "ja",
+  "text": "京都でお寺を訪れた。",
+  "tier": "core"
+ },
+ "temple.katakana": {
+  "lang": "ja",
+  "text": "テンプル",
+  "tier": "core"
+ },
+ "temple.meaning": {
+  "lang": "ja",
+  "text": "神殿、寺",
+  "tier": "core"
+ },
+ "temple.story": {
+  "lang": "ja",
+  "text": "もとは占い師が空を見るために区切った場所。こめかみを表す temple は別の語源。",
+  "tier": "extended"
+ },
+ "temple.word": {
+  "lang": "en",
+  "text": "temple",
   "tier": "core"
  },
  "tempo.example.en": {
@@ -52999,6 +58334,66 @@
   "text": "thesis",
   "tier": "core"
  },
+ "thief.example.en": {
+  "lang": "en",
+  "text": "The thief stole my bike.",
+  "tier": "core"
+ },
+ "thief.example.ja": {
+  "lang": "ja",
+  "text": "泥棒が私の自転車を盗んだ。",
+  "tier": "core"
+ },
+ "thief.katakana": {
+  "lang": "ja",
+  "text": "シーフ",
+  "tier": "core"
+ },
+ "thief.meaning": {
+  "lang": "ja",
+  "text": "泥棒、盗賊",
+  "tier": "core"
+ },
+ "thief.story": {
+  "lang": "ja",
+  "text": "ゲルマン語の古い語。動詞は steal、盗みは theft。",
+  "tier": "extended"
+ },
+ "thief.word": {
+  "lang": "en",
+  "text": "thief",
+  "tier": "core"
+ },
+ "throne.example.en": {
+  "lang": "en",
+  "text": "The prince will take the throne next year.",
+  "tier": "core"
+ },
+ "throne.example.ja": {
+  "lang": "ja",
+  "text": "王子は来年王位につく。",
+  "tier": "core"
+ },
+ "throne.katakana": {
+  "lang": "ja",
+  "text": "スローン",
+  "tier": "core"
+ },
+ "throne.meaning": {
+  "lang": "ja",
+  "text": "王座、王位",
+  "tier": "core"
+ },
+ "throne.story": {
+  "lang": "ja",
+  "text": "神や王が座る高い椅子から、王の地位そのものも表すようになった。",
+  "tier": "extended"
+ },
+ "throne.word": {
+  "lang": "en",
+  "text": "throne",
+  "tier": "core"
+ },
  "thumbnail.example.en": {
   "lang": "en",
   "text": "Click the thumbnail to see the full picture.",
@@ -53027,6 +58422,66 @@
  "thumbnail.word": {
   "lang": "en",
   "text": "thumbnail",
+  "tier": "core"
+ },
+ "thunder.example.en": {
+  "lang": "en",
+  "text": "The thunder was so loud that the dog hid under the bed.",
+  "tier": "core"
+ },
+ "thunder.example.ja": {
+  "lang": "ja",
+  "text": "雷がとても大きくて、犬はベッドの下に隠れた。",
+  "tier": "core"
+ },
+ "thunder.katakana": {
+  "lang": "ja",
+  "text": "サンダー",
+  "tier": "core"
+ },
+ "thunder.meaning": {
+  "lang": "ja",
+  "text": "雷 の音 、雷鳴",
+  "tier": "core"
+ },
+ "thunder.story": {
+  "lang": "ja",
+  "text": "北欧神話の雷神トール Thor と同じ語源。Thursday 木曜日 は「トールの日」。",
+  "tier": "extended"
+ },
+ "thunder.word": {
+  "lang": "en",
+  "text": "thunder",
+  "tier": "core"
+ },
+ "tiara.example.en": {
+  "lang": "en",
+  "text": "The princess wore a diamond tiara.",
+  "tier": "core"
+ },
+ "tiara.example.ja": {
+  "lang": "ja",
+  "text": "王女はダイヤのティアラをつけていた。",
+  "tier": "core"
+ },
+ "tiara.katakana": {
+  "lang": "ja",
+  "text": "ティアラ",
+  "tier": "core"
+ },
+ "tiara.meaning": {
+  "lang": "ja",
+  "text": "ティアラ 宝石の髪飾り",
+  "tier": "core"
+ },
+ "tiara.story": {
+  "lang": "ja",
+  "text": "もとはペルシャの王がかぶった帽子。のちにローマ教皇の三重冠を指し、今の女性の髪飾りの意味になった。",
+  "tier": "extended"
+ },
+ "tiara.word": {
+  "lang": "en",
+  "text": "tiara",
   "tier": "core"
  },
  "ticket.example.en": {
@@ -53177,6 +58632,36 @@
  "tissue.word": {
   "lang": "en",
   "text": "tissue",
+  "tier": "core"
+ },
+ "titan.example.en": {
+  "lang": "en",
+  "text": "He was a titan of the car industry.",
+  "tier": "core"
+ },
+ "titan.example.ja": {
+  "lang": "ja",
+  "text": "彼は自動車業界の大物だった。",
+  "tier": "core"
+ },
+ "titan.katakana": {
+  "lang": "ja",
+  "text": "タイタン",
+  "tier": "core"
+ },
+ "titan.meaning": {
+  "lang": "ja",
+  "text": "巨人、 業界の 大物",
+  "tier": "core"
+ },
+ "titan.story": {
+  "lang": "ja",
+  "text": "オリュンポスの神々に敗れた巨神族の名前から。沈まないはずの豪華客船タイタニック Titanic も「巨大な」という意味。",
+  "tier": "extended"
+ },
+ "titan.word": {
+  "lang": "en",
+  "text": "titan",
   "tier": "core"
  },
  "title.example.en": {
@@ -53387,6 +58872,36 @@
  "topic.word": {
   "lang": "en",
   "text": "topic",
+  "tier": "core"
+ },
+ "tornado.example.en": {
+  "lang": "en",
+  "text": "The tornado destroyed several houses.",
+  "tier": "core"
+ },
+ "tornado.example.ja": {
+  "lang": "ja",
+  "text": "竜巻で数軒の家が壊れた。",
+  "tier": "core"
+ },
+ "tornado.katakana": {
+  "lang": "ja",
+  "text": "トルネード",
+  "tier": "core"
+ },
+ "tornado.meaning": {
+  "lang": "ja",
+  "text": "竜巻",
+  "tier": "core"
+ },
+ "tornado.story": {
+  "lang": "ja",
+  "text": "もとは「雷雨」だったが、「回る」と結びついて「うず巻く風」の意味になった。",
+  "tier": "extended"
+ },
+ "tornado.word": {
+  "lang": "en",
+  "text": "tornado",
   "tier": "core"
  },
  "total.example.en": {
@@ -53749,6 +59264,36 @@
   "text": "training",
   "tier": "core"
  },
+ "transform.example.en": {
+  "lang": "en",
+  "text": "The caterpillar transformed into a butterfly.",
+  "tier": "core"
+ },
+ "transform.example.ja": {
+  "lang": "ja",
+  "text": "イモムシがチョウに変身した。",
+  "tier": "core"
+ },
+ "transform.katakana": {
+  "lang": "ja",
+  "text": "トランスフォーム",
+  "tier": "core"
+ },
+ "transform.meaning": {
+  "lang": "ja",
+  "text": "変える、変身させる",
+  "tier": "core"
+ },
+ "transform.story": {
+  "lang": "ja",
+  "text": "「形を越える」、姿形がすっかり変わること。変圧器 トランス も transformer。",
+  "tier": "extended"
+ },
+ "transform.word": {
+  "lang": "en",
+  "text": "transform",
+  "tier": "core"
+ },
  "transit.example.en": {
   "lang": "en",
   "text": "We had a five-hour transit in Dubai.",
@@ -53777,6 +59322,36 @@
  "transit.word": {
   "lang": "en",
   "text": "transit",
+  "tier": "core"
+ },
+ "trap.example.en": {
+  "lang": "en",
+  "text": "Watch out! There might be a trap in this room.",
+  "tier": "core"
+ },
+ "trap.example.ja": {
+  "lang": "ja",
+  "text": "気をつけて！この部屋にはわながあるかもしれない。",
+  "tier": "core"
+ },
+ "trap.katakana": {
+  "lang": "ja",
+  "text": "トラップ",
+  "tier": "core"
+ },
+ "trap.meaning": {
+  "lang": "ja",
+  "text": "わな／わなにかける、閉じ込める",
+  "tier": "core"
+ },
+ "trap.story": {
+  "lang": "ja",
+  "text": "動物をとらえるわなから。be trapped で「閉じ込められる」。サッカーのトラップはボールを「捕らえる」こと。",
+  "tier": "extended"
+ },
+ "trap.word": {
+  "lang": "en",
+  "text": "trap",
   "tier": "core"
  },
  "trauma.example.en": {
@@ -54047,6 +59622,36 @@
  "trip.word": {
   "lang": "en",
   "text": "trip",
+  "tier": "core"
+ },
+ "troll.example.en": {
+  "lang": "en",
+  "text": "Don't feed the trolls on the internet.",
+  "tier": "core"
+ },
+ "troll.example.ja": {
+  "lang": "ja",
+  "text": "ネットの荒らしは相手にするな。",
+  "tier": "core"
+ },
+ "troll.katakana": {
+  "lang": "ja",
+  "text": "トロール",
+  "tier": "core"
+ },
+ "troll.meaning": {
+  "lang": "ja",
+  "text": "トロール 北欧の怪物 、ネットで荒らす人",
+  "tier": "core"
+ },
+ "troll.story": {
+  "lang": "ja",
+  "text": "北欧神話、民話の怪物。ネット用語の troll は、釣り糸を流して魚を誘う trolling 引き釣り と重ねた言い方でもある。",
+  "tier": "extended"
+ },
+ "troll.word": {
+  "lang": "en",
+  "text": "troll",
   "tier": "core"
  },
  "trophy.example.en": {
@@ -54347,6 +59952,36 @@
  "ultimate.word": {
   "lang": "en",
   "text": "ultimate",
+  "tier": "core"
+ },
+ "unicorn.example.en": {
+  "lang": "en",
+  "text": "The girl drew a unicorn with a rainbow mane.",
+  "tier": "core"
+ },
+ "unicorn.example.ja": {
+  "lang": "ja",
+  "text": "その女の子は虹色のたてがみのユニコーンを描いた。",
+  "tier": "core"
+ },
+ "unicorn.katakana": {
+  "lang": "ja",
+  "text": "ユニコーン",
+  "tier": "core"
+ },
+ "unicorn.meaning": {
+  "lang": "ja",
+  "text": "一角獣",
+  "tier": "core"
+ },
+ "unicorn.story": {
+  "lang": "ja",
+  "text": "「一本角」そのままの名前。uni- は uniform 同じ形 、corn は corner 角 と同じ語根。",
+  "tier": "extended"
+ },
+ "unicorn.word": {
+  "lang": "en",
+  "text": "unicorn",
   "tier": "core"
  },
  "uniform.example.en": {
@@ -54709,6 +60344,36 @@
   "text": "value",
   "tier": "core"
  },
+ "vampire.example.en": {
+  "lang": "en",
+  "text": "The vampire only comes out at night.",
+  "tier": "core"
+ },
+ "vampire.example.ja": {
+  "lang": "ja",
+  "text": "吸血鬼は夜にしか出てこない。",
+  "tier": "core"
+ },
+ "vampire.katakana": {
+  "lang": "ja",
+  "text": "ヴァンパイア",
+  "tier": "core"
+ },
+ "vampire.meaning": {
+  "lang": "ja",
+  "text": "吸血鬼",
+  "tier": "core"
+ },
+ "vampire.story": {
+  "lang": "ja",
+  "text": "東欧の民間伝承から18世紀に西欧へ伝わった。小説『ドラキュラ』で一気に有名になった。血を吸うコウモリ vampire bat はあとから名づけられた。",
+  "tier": "extended"
+ },
+ "vampire.word": {
+  "lang": "en",
+  "text": "vampire",
+  "tier": "core"
+ },
  "vanilla.example.en": {
   "lang": "en",
   "text": "I'll have vanilla ice cream.",
@@ -54767,6 +60432,36 @@
  "variety.word": {
   "lang": "en",
   "text": "variety",
+  "tier": "core"
+ },
+ "vault.example.en": {
+  "lang": "en",
+  "text": "The gold is kept in a bank vault.",
+  "tier": "core"
+ },
+ "vault.example.ja": {
+  "lang": "ja",
+  "text": "金は銀行の金庫室に保管されている。",
+  "tier": "core"
+ },
+ "vault.katakana": {
+  "lang": "ja",
+  "text": "ヴォルト",
+  "tier": "core"
+ },
+ "vault.meaning": {
+  "lang": "ja",
+  "text": "金庫室、地下室、丸天井",
+  "tier": "core"
+ },
+ "vault.story": {
+  "lang": "ja",
+  "text": "アーチ型の丸天井から、その下の地下室、金庫室の意味に。「跳ぶ」の vault はイタリア語 voltare 回る から。",
+  "tier": "extended"
+ },
+ "vault.word": {
+  "lang": "en",
+  "text": "vault",
   "tier": "core"
  },
  "vector.example.en": {
@@ -54917,6 +60612,36 @@
  "vendor.word": {
   "lang": "en",
   "text": "vendor",
+  "tier": "core"
+ },
+ "venom.example.en": {
+  "lang": "en",
+  "text": "The snake's venom can kill a man.",
+  "tier": "core"
+ },
+ "venom.example.ja": {
+  "lang": "ja",
+  "text": "そのヘビの毒は人を殺すことがある。",
+  "tier": "core"
+ },
+ "venom.katakana": {
+  "lang": "ja",
+  "text": "ヴェノム",
+  "tier": "core"
+ },
+ "venom.meaning": {
+  "lang": "ja",
+  "text": "ヘビ、クモなどの 毒、悪意",
+  "tier": "core"
+ },
+ "venom.story": {
+  "lang": "ja",
+  "text": "愛の女神ウェヌス Venus と関係があり、もとは「ほれ薬」だったという説がある。",
+  "tier": "extended"
+ },
+ "venom.word": {
+  "lang": "en",
+  "text": "venom",
   "tier": "core"
  },
  "venture.example.en": {
@@ -55369,6 +61094,36 @@
   "text": "vision",
   "tier": "core"
  },
+ "vitality.example.en": {
+  "lang": "en",
+  "text": "She is full of vitality.",
+  "tier": "core"
+ },
+ "vitality.example.ja": {
+  "lang": "ja",
+  "text": "彼女は活力にあふれている。",
+  "tier": "core"
+ },
+ "vitality.katakana": {
+  "lang": "ja",
+  "text": "バイタリティ",
+  "tier": "core"
+ },
+ "vitality.meaning": {
+  "lang": "ja",
+  "text": "活力、生命力",
+  "tier": "core"
+ },
+ "vitality.story": {
+  "lang": "ja",
+  "text": "vital 命にかかわる、重要な の名詞形。vitamin ビタミン も「生命に必要なアミン」。",
+  "tier": "extended"
+ },
+ "vitality.word": {
+  "lang": "en",
+  "text": "vitality",
+  "tier": "core"
+ },
  "vitamin.example.en": {
   "lang": "en",
   "text": "Oranges are rich in vitamin C.",
@@ -55459,6 +61214,36 @@
   "text": "volunteer",
   "tier": "core"
  },
+ "vortex.example.en": {
+  "lang": "en",
+  "text": "The boat was pulled into the vortex.",
+  "tier": "core"
+ },
+ "vortex.example.ja": {
+  "lang": "ja",
+  "text": "ボートはうずに引き込まれた。",
+  "tier": "core"
+ },
+ "vortex.katakana": {
+  "lang": "ja",
+  "text": "ボルテックス",
+  "tier": "core"
+ },
+ "vortex.meaning": {
+  "lang": "ja",
+  "text": "うず、うず巻き",
+  "tier": "core"
+ },
+ "vortex.story": {
+  "lang": "ja",
+  "text": "vertere 回す から。vertical 垂直の 、version 版、変えたもの 、reverse 逆にする も同じ語根。",
+  "tier": "extended"
+ },
+ "vortex.word": {
+  "lang": "en",
+  "text": "vortex",
+  "tier": "core"
+ },
  "waffle.example.en": {
   "lang": "en",
   "text": "We had waffles with strawberries.",
@@ -55517,6 +61302,66 @@
  "wallet.word": {
   "lang": "en",
   "text": "wallet",
+  "tier": "core"
+ },
+ "wand.example.en": {
+  "lang": "en",
+  "text": "The wizard waved his wand and the door opened.",
+  "tier": "core"
+ },
+ "wand.example.ja": {
+  "lang": "ja",
+  "text": "魔法使いが杖を振ると扉が開いた。",
+  "tier": "core"
+ },
+ "wand.katakana": {
+  "lang": "ja",
+  "text": "ワンド",
+  "tier": "core"
+ },
+ "wand.meaning": {
+  "lang": "ja",
+  "text": "魔法の 杖、棒",
+  "tier": "core"
+ },
+ "wand.story": {
+  "lang": "ja",
+  "text": "しなやかな小枝が原義。wind 巻く と同じ語根とされる。",
+  "tier": "extended"
+ },
+ "wand.word": {
+  "lang": "en",
+  "text": "wand",
+  "tier": "core"
+ },
+ "warrior.example.en": {
+  "lang": "en",
+  "text": "The warrior protected the village.",
+  "tier": "core"
+ },
+ "warrior.example.ja": {
+  "lang": "ja",
+  "text": "戦士は村を守った。",
+  "tier": "core"
+ },
+ "warrior.katakana": {
+  "lang": "ja",
+  "text": "ウォリアー",
+  "tier": "core"
+ },
+ "warrior.meaning": {
+  "lang": "ja",
+  "text": "戦士",
+  "tier": "core"
+ },
+ "warrior.story": {
+  "lang": "ja",
+  "text": "war 戦争 と同じ語源。フランス語では guerre 戦争 、ゲリラ guerrilla もそこから。",
+  "tier": "extended"
+ },
+ "warrior.word": {
+  "lang": "en",
+  "text": "warrior",
   "tier": "core"
  },
  "watch.example.en": {
@@ -55759,6 +61604,36 @@
   "text": "wellbeing",
   "tier": "core"
  },
+ "whip.example.en": {
+  "lang": "en",
+  "text": "She whipped the cream until it was stiff.",
+  "tier": "core"
+ },
+ "whip.example.ja": {
+  "lang": "ja",
+  "text": "彼女は角が立つまでクリームを泡立てた。",
+  "tier": "core"
+ },
+ "whip.katakana": {
+  "lang": "ja",
+  "text": "ウィップ",
+  "tier": "core"
+ },
+ "whip.meaning": {
+  "lang": "ja",
+  "text": "むち／むちで打つ、泡立てる",
+  "tier": "core"
+ },
+ "whip.story": {
+  "lang": "ja",
+  "text": "「さっと振る」動きから、むちで打つ、泡立てる whipped cream の意味に広がった。",
+  "tier": "extended"
+ },
+ "whip.word": {
+  "lang": "en",
+  "text": "whip",
+  "tier": "core"
+ },
  "whiskey.example.en": {
   "lang": "en",
   "text": "He likes whiskey with soda.",
@@ -55937,6 +61812,96 @@
  "wireless.word": {
   "lang": "en",
   "text": "wireless",
+  "tier": "core"
+ },
+ "witch.example.en": {
+  "lang": "en",
+  "text": "The witch flew on a broom.",
+  "tier": "core"
+ },
+ "witch.example.ja": {
+  "lang": "ja",
+  "text": "魔女はほうきに乗って飛んだ。",
+  "tier": "core"
+ },
+ "witch.katakana": {
+  "lang": "ja",
+  "text": "ウィッチ",
+  "tier": "core"
+ },
+ "witch.meaning": {
+  "lang": "ja",
+  "text": "魔女",
+  "tier": "core"
+ },
+ "witch.story": {
+  "lang": "ja",
+  "text": "語源ははっきりしない。which どちら と発音が同じなので注意。witchcraft は「魔術」。",
+  "tier": "extended"
+ },
+ "witch.word": {
+  "lang": "en",
+  "text": "witch",
+  "tier": "core"
+ },
+ "wizard.example.en": {
+  "lang": "en",
+  "text": "He is a wizard with computers.",
+  "tier": "core"
+ },
+ "wizard.example.ja": {
+  "lang": "ja",
+  "text": "彼はコンピュータの名人だ。",
+  "tier": "core"
+ },
+ "wizard.katakana": {
+  "lang": "ja",
+  "text": "ウィザード",
+  "tier": "core"
+ },
+ "wizard.meaning": {
+  "lang": "ja",
+  "text": "魔法使い、名人",
+  "tier": "core"
+ },
+ "wizard.story": {
+  "lang": "ja",
+  "text": "もとは「賢者」。wise 賢い 、wisdom 知恵 と同じ語源。-ard は drunkard 酔っぱらい などにもつく。",
+  "tier": "extended"
+ },
+ "wizard.word": {
+  "lang": "en",
+  "text": "wizard",
+  "tier": "core"
+ },
+ "wolf.example.en": {
+  "lang": "en",
+  "text": "We heard a wolf howling at night.",
+  "tier": "core"
+ },
+ "wolf.example.ja": {
+  "lang": "ja",
+  "text": "夜にオオカミの遠ぼえが聞こえた。",
+  "tier": "core"
+ },
+ "wolf.katakana": {
+  "lang": "ja",
+  "text": "ウルフ",
+  "tier": "core"
+ },
+ "wolf.meaning": {
+  "lang": "ja",
+  "text": "オオカミ",
+  "tier": "core"
+ },
+ "wolf.story": {
+  "lang": "ja",
+  "text": "複数形は wolves。ラテン語 lupus オオカミ とも遠い親戚で、lupine オオカミのような はそちらから。",
+  "tier": "extended"
+ },
+ "wolf.word": {
+  "lang": "en",
+  "text": "wolf",
   "tier": "core"
  },
  "wool.example.en": {
@@ -56119,6 +62084,36 @@
   "text": "writer",
   "tier": "core"
  },
+ "wyvern.example.en": {
+  "lang": "en",
+  "text": "A wyvern swooped down from the cliff.",
+  "tier": "core"
+ },
+ "wyvern.example.ja": {
+  "lang": "ja",
+  "text": "ワイバーンが崖から急降下してきた。",
+  "tier": "core"
+ },
+ "wyvern.katakana": {
+  "lang": "ja",
+  "text": "ワイバーン",
+  "tier": "core"
+ },
+ "wyvern.meaning": {
+  "lang": "ja",
+  "text": "ワイバーン 二本足で翼をもつ竜",
+  "tier": "core"
+ },
+ "wyvern.story": {
+  "lang": "ja",
+  "text": "もとは「毒ヘビ」。viper と同じ語源で、語末の -n はあとから付いた。",
+  "tier": "extended"
+ },
+ "wyvern.word": {
+  "lang": "en",
+  "text": "wyvern",
+  "tier": "core"
+ },
  "yellow.example.en": {
   "lang": "en",
   "text": "He got a yellow card for the foul.",
@@ -56267,6 +62262,36 @@
  "zipper.word": {
   "lang": "en",
   "text": "zipper",
+  "tier": "core"
+ },
+ "zombie.example.en": {
+  "lang": "en",
+  "text": "The town was full of zombies in the game.",
+  "tier": "core"
+ },
+ "zombie.example.ja": {
+  "lang": "ja",
+  "text": "ゲームの中でその町はゾンビだらけだった。",
+  "tier": "core"
+ },
+ "zombie.katakana": {
+  "lang": "ja",
+  "text": "ゾンビ",
+  "tier": "core"
+ },
+ "zombie.meaning": {
+  "lang": "ja",
+  "text": "ゾンビ、生ける屍",
+  "tier": "core"
+ },
+ "zombie.story": {
+  "lang": "ja",
+  "text": "ハイチのブードゥー信仰で、呪術で操られる死者を指した。映画を通して世界に広まった。",
+  "tier": "extended"
+ },
+ "zombie.word": {
+  "lang": "en",
+  "text": "zombie",
   "tier": "core"
  },
  "zone.example.en": {
