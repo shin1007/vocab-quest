@@ -363,9 +363,11 @@
   function allowedTypes(w) {
     const lv = level(w.id);
     const pair = pairsByWord[w.word] ? ["pair"] : [];
+    // つづり並べは英字だけの語に限る（gas station のような語句は文字タイルにしにくい）
+    const spell = /^[A-Za-z]+$/.test(w.word) ? ["spell"] : [];
     if (lv <= 1) return ["kata", "meaning"];
-    if (lv === 2) return ["kata", "meaning", "spell", "etym", ...pair];
-    return ["spell", "etym", "syn", ...(w.trapQuiz ? ["trap"] : []), ...pair];
+    if (lv === 2) return ["kata", "meaning", ...spell, "etym", ...pair];
+    return [...spell, "etym", "syn", ...(w.trapQuiz ? ["trap"] : []), ...pair];
   }
 
   function distractors(w, n, filter = () => true) {
