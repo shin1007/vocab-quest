@@ -33,6 +33,12 @@ COURSES = {
     6: "準1級 大学なかば",
     7: "1級 マスター",
 }
+# 英語以外の形で収録した語の言語（app/app.js の LANGS と同じ）
+LANGS = {"fr": "フランス語", "de": "ドイツ語", "es": "スペイン語", "it": "イタリア語", "pt": "ポルトガル語",
+         "nl": "オランダ語", "ru": "ロシア語", "pl": "ポーランド語", "cs": "チェコ語", "sv": "スウェーデン語",
+         "ga": "アイルランド語", "he": "ヘブライ語", "la": "ラテン語", "el": "ギリシャ語"}
+# 固有名詞の品詞。類義語の代わりに「別名・関連する名前」を載せている
+PROPER = {"地名", "神名", "神話", "人名"}
 CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"]
 REQUIRED = ["id", "word", "katakana", "pos", "cefr", "level", "meaning", "scene",
             "example", "etymology", "roots", "family", "synonyms"]
@@ -61,9 +67,18 @@ def validate():
         tq = w.get("trapQuiz")
         if tq and (not w.get("gap") or len(tq["wrong"]) != 3 or tq["answer"] in tq["wrong"]):
             errors.append(f"{w['id']}: trapQuiz が不正です（gap 必須・誤答は3つ）")
+        if "lang" in w and w["lang"] not in LANGS:
+            errors.append(f"{w['id']}: 不明な lang {w['lang']}")
         for r in w.get("roots", []):
             if r not in root_ids:
                 errors.append(f"{w['id']}: 未定義の語根 {r}")
+    groups = {}
+    for w in WORDS:
+        if "group" in w:
+            groups.setdefault(w["group"], []).append(w["id"])
+    for g, members in groups.items():
+        if len(members) < 2:
+            errors.append(f"group {g}: 仲間が {members[0]} しかいません")
     for r in ROOTS:
         for wid in r["words"]:
             match = next((w for w in WORDS if w["id"] == wid), None)
@@ -126,7 +141,7 @@ def render():
                 f'<a id="{w["id"]}"></a>',
                 f"### {w['word']}（{w['katakana']}）{trap}",
                 "",
-                f"**{w['pos']}** / {COURSES[w['level']]} / CEFR {w['cefr']} — {w['meaning']}",
+                f"**{w['pos']}{'（' + LANGS[w['lang']] + '）' if 'lang' in w else ''}** / {COURSES[w['level']]} / CEFR {w['cefr']} — {w['meaning']}",
                 "",
                 f"- 📍 シーン: {w['scene']}",
             ]
@@ -144,7 +159,7 @@ def render():
                 out.append("- 🌳 同じ語源の仲間: " + "、".join(w["family"]))
             out += [
                 "",
-                "| 類義語 | 意味 | ニュアンスの違い | 語源 |",
+                f"| {'別名・関連する名前' if w['pos'] in PROPER else '類義語'} | 意味 | ニュアンスの違い | 語源 |",
                 "|---|---|---|---|",
             ]
             for s in w["synonyms"]:
@@ -176,11 +191,21 @@ def coverage():
 
 
 def katakana_clashes():
-    """カタカナが同じなのに、似た単語セットで一緒に練習できない語（bus と bath など）を返す"""
+    """カタカナが同じなのに、似た単語セットで一緒に練習できない語（bus と bath など）を返す
+
+    同じ名前の別の言語形（group が同じ Michel と Michelle）や、大文字・小文字だけがちがう同じつづりの語
+    （echo と神話の Echo）は、空所補充で区別できないのでセットにせず、選択肢にも一緒に出さない。
+    """
     groups = {}
     for w in WORDS:
-        groups.setdefault(re.sub(r"（.*）", "", w["katakana"]), []).append(w["word"])
+        groups.setdefault(re.sub(r"（.*）", "", w["katakana"]), []).append(w)
     together = {(a["word"], b["word"]) for p in PAIRS for a in p["words"] for b in p["words"] if a is not b}
+    for ws in groups.values():
+        for a in ws:
+            for b in ws:
+                if a is not b and (a["word"].lower() == b["word"].lower() or (a.get("group") and a.get("group") == b.get("group"))):
+                    together.add((a["word"], b["word"]))
+    groups = {kata: list(dict.fromkeys(w["word"] for w in ws)) for kata, ws in groups.items()}
     out = []
     for kata, words in groups.items():
         lonely = [a for a in words if len(words) > 1 and not any((a, b) in together for b in words if b != a)]

@@ -41,6 +41,29 @@
     spelling: { name: "つづりが似ている", icon: "✍️", listen: false },
     derived: { name: "形が似た派生語", icon: "🧬", listen: false },
   };
+  // 英語以外の形で収録した語（人名のフランス語形など）の言語。words.json の lang。speech はブラウザ読み上げの言語
+  const LANGS = {
+    fr: { name: "フランス語", speech: "fr-FR" },
+    de: { name: "ドイツ語", speech: "de-DE" },
+    es: { name: "スペイン語", speech: "es-ES" },
+    it: { name: "イタリア語", speech: "it-IT" },
+    pt: { name: "ポルトガル語", speech: "pt-PT" },
+    nl: { name: "オランダ語", speech: "nl-NL" },
+    ru: { name: "ロシア語", speech: "ru-RU" },
+    pl: { name: "ポーランド語", speech: "pl-PL" },
+    cs: { name: "チェコ語", speech: "cs-CZ" },
+    sv: { name: "スウェーデン語", speech: "sv-SE" },
+    ga: { name: "アイルランド語", speech: "ga-IE" },
+    he: { name: "ヘブライ語", speech: "he-IL" },
+    la: { name: "ラテン語", speech: "it-IT" },
+    el: { name: "ギリシャ語", speech: "el-GR" },
+  };
+  // 固有名詞の品詞。類義語の代わりに「別名・関連する名前」を載せている
+  const PROPER = new Set(["地名", "神名", "神話", "人名"]);
+  const KINDS = { common: "一般の語", 地名: "地名", 神名: "神名・神話", 人名: "人名" };
+  const kindOf = (w) => (!PROPER.has(w.pos) ? "common" : w.pos === "神話" ? "神名" : w.pos);
+  const synLabel = (w) => (PROPER.has(w.pos) ? "別名・関連する名前" : "類義語");
+  const langName = (w) => (w.lang ? LANGS[w.lang].name : "");
   // 習熟度（0〜5）。間隔反復のボックスに対応する
   const LEVELS = ["未学習", "出会った", "覚えかけ", "定着中", "得意", "完璧"];
   const INTERVAL_DAYS = [0, 0, 1, 3, 7, 21]; // 習熟度ごとの次回出題までの日数
@@ -366,14 +389,17 @@
   function allowedTypes(w) {
     const lv = level(w.id);
     const pair = pairsByWord[w.word] ? ["pair"] : [];
+    // つづり並べは英字だけの語に限る（gas station のような語句は文字タイルにしにくい）
+    const spell = /^[A-Za-z]+$/.test(w.word) ? ["spell"] : [];
     if (lv <= 1) return ["kata", "meaning"];
-    if (lv === 2) return ["kata", "meaning", "spell", "etym", ...pair];
-    return ["spell", "etym", "syn", ...(w.trapQuiz ? ["trap"] : []), ...pair];
+    if (lv === 2) return ["kata", "meaning", ...spell, "etym", ...pair];
+    return [...spell, "etym", "syn", ...(w.trapQuiz ? ["trap"] : []), ...pair];
   }
 
   function distractors(w, n, filter = () => true) {
     // カタカナが同じ語（bus と bath の「バス」など）は正解と見分けられないので選択肢に出さない
-    const ok = (x) => x.id !== w.id && plainKatakana(x) !== plainKatakana(w) && filter(x);
+    // 同じつづりの語（英語の Michael とドイツ語の Michael）や、同じ名前の別の言語形も正解と紛らわしいので除く
+    const ok = (x) => x.id !== w.id && plainKatakana(x) !== plainKatakana(w) && x.word.toLowerCase() !== w.word.toLowerCase() && !(w.group && x.group === w.group) && filter(x);
     const same = WORDS.filter((x) => ok(x) && courseOf(x) === courseOf(w));
     const other = WORDS.filter((x) => ok(x) && courseOf(x) !== courseOf(w));
     return [...shuffle(same), ...shuffle(other)].slice(0, n);
@@ -384,12 +410,12 @@
     const wordChoices = (label, filter) => shuffle([w, ...distractors(w, 3, filter)]).map((x) => ({ label: label(x), correct: x.id === w.id, ref: x }));
     switch (type) {
       case "kata":
-        q.prompt = html`<span class="big">${esc(w.katakana)}</span><span class="scene">📍 ${esc(mask(w.scene, w))}</span>英語での正しいつづりは？`;
+        q.prompt = html`<span class="big">${esc(w.katakana)}</span><span class="scene">📍 ${esc(mask(w.scene, w))}</span>${w.lang ? `${langName(w)}での` : "英語での正しい"}つづりは？`;
         q.hint = `意味は「${w.meaning}」`;
         q.choices = wordChoices((x) => x.word);
         break;
       case "meaning":
-        q.prompt = html`<span class="big en">${esc(w.word)}</span>英語での意味は？`;
+        q.prompt = html`<span class="big en">${esc(w.word)}</span>${w.lang ? `（${langName(w)}）意味は？` : "英語での意味は？"}`;
         q.hint = `カタカナでは「${w.katakana}」。${w.scene}`;
         q.choices = wordChoices((x) => x.meaning);
         break;
@@ -406,7 +432,7 @@
         break;
       case "syn": {
         const s = pick(w.synonyms);
-        q.prompt = html`<span class="big en">${esc(s.word)}</span>（${esc(s.meaning)}）<br>この語の<b>類義語</b>はどれ？`;
+        q.prompt = html`<span class="big en">${esc(s.word)}</span>（${esc(s.meaning)}）<br>この語の<b>${synLabel(w)}</b>はどれ？`;
         q.hint = `${s.word} のニュアンス：${s.nuance}`;
         q.choices = wordChoices((x) => `${x.word}（${plainKatakana(x)}）`, (x) => x.word !== s.word && !x.synonyms.some((y) => y.word === s.word));
         q.synonym = s;
@@ -645,7 +671,7 @@
   }
 
   // ---------- 単語帳 ----------
-  const dexFilter = { q: "", course: "all", trap: false };
+  const dexFilter = { q: "", course: "all", kind: "all", trap: false };
   function renderDex() {
     const found = WORDS.filter((w) => level(w.id) > 0).length;
     $view.innerHTML = html`
@@ -656,6 +682,10 @@
           <option value="all">すべて</option>
           ${COURSE_ORDER.map((k) => `<option value="${k}" ${dexFilter.course === k ? "selected" : ""}>${esc(COURSES[k].name)} ${esc(COURSES[k].title)}</option>`).join("")}
         </select>
+        <select id="kind" aria-label="種類">
+          <option value="all">全種類</option>
+          ${Object.entries(KINDS).map(([k, v]) => `<option value="${k}" ${dexFilter.kind === k ? "selected" : ""}>${esc(v)}</option>`).join("")}
+        </select>
       </div>
       <label class="toggle"><input type="checkbox" id="trap" ${dexFilter.trap ? "checked" : ""}><span></span> ⚠️ カタカナの罠だけ表示</label>
       <div class="dex-grid" id="grid"></div>`;
@@ -663,13 +693,14 @@
       const q = dexFilter.q.trim().toLowerCase();
       const list = WORDS.filter((w) =>
         (dexFilter.course === "all" || courseOf(w) === dexFilter.course) &&
+        (dexFilter.kind === "all" || kindOf(w) === dexFilter.kind) &&
         (!dexFilter.trap || w.gap) &&
         (!q || [w.word, w.katakana, w.meaning, ...w.synonyms.map((s) => s.word)].some((t) => t.toLowerCase().includes(q))));
       const grid = $view.querySelector("#grid");
       grid.innerHTML = list.length ? list.map((w) => html`
         <button class="dex-item ${level(w.id) ? "" : "new"}" data-detail="${w.id}" style="--area:var(--area-${courseOf(w)})">
           <span class="w">${esc(w.word)} ${w.gap ? "⚠️" : ""}</span>
-          <span class="small muted">${esc(w.katakana)}</span>
+          <span class="small muted">${esc(w.katakana)}${w.lang ? `・${esc(langName(w))}` : ""}</span>
           <span class="grade-chip">${esc(COURSES[courseOf(w)].name)}</span>
           ${meter(level(w.id))}
         </button>`).join("") : `<p class="muted">見つかりませんでした</p>`;
@@ -677,6 +708,7 @@
     };
     $view.querySelector("#q").addEventListener("input", (e) => { dexFilter.q = e.target.value; drawGrid(); });
     $view.querySelector("#course").addEventListener("change", (e) => { dexFilter.course = e.target.value; drawGrid(); });
+    $view.querySelector("#kind").addEventListener("change", (e) => { dexFilter.kind = e.target.value; drawGrid(); });
     $view.querySelector("#trap").addEventListener("change", (e) => { dexFilter.trap = e.target.checked; drawGrid(); });
     drawGrid();
   }
@@ -688,7 +720,7 @@
     $modalContent.innerHTML = html`
       <div class="detail" style="--area:var(--area-${courseOf(w)})">
         <div class="detail-head">
-          <div class="small muted"><span class="grade-chip">${esc(courseLabel(courseOf(w)))}</span> ${esc(w.pos)}</div>
+          <div class="small muted"><span class="grade-chip">${esc(courseLabel(courseOf(w)))}</span> ${esc(w.pos)}${w.lang ? `（${esc(langName(w))}）` : ""}</div>
           <div class="row">
             <h2 class="display">${esc(w.word)}</h2>
             ${voiceButton(`${w.id}.word`)}
@@ -706,7 +738,7 @@
         ${w.family.length ? `<section><h4>🌳 同じ語源の仲間</h4>${w.family.map((f) => `<span class="chip">${esc(f)}</span>`).join("")}</section>` : ""}
         ${pairsByWord[w.word] ? html`<section><h4>👯 まぎらわしい単語</h4>${pairsByWord[w.word].map((p) => `<button class="chip" data-pair="${p.id}">${p.words.map((x) => esc(x.word)).join(" / ")}</button>`).join("")}</section>` : ""}
         <section>
-          <h4>🔀 類義語（ニュアンスと語源）</h4>
+          <h4>🔀 ${synLabel(w)}（ニュアンスと語源）</h4>
           <table class="syn-table">
             <thead><tr><th>単語</th><th>ニュアンス</th><th>語源</th></tr></thead>
             <tbody>
@@ -1048,7 +1080,7 @@
 
   function buildClips() {
     for (const w of WORDS) {
-      CLIPS[`${w.id}.word`] = { text: w.word, lang: "en" };
+      CLIPS[`${w.id}.word`] = { text: w.word, lang: w.lang || "en" };
       CLIPS[`${w.id}.katakana`] = { text: plainKatakana(w), lang: "ja" };
       CLIPS[`${w.id}.meaning`] = { text: w.meaning, lang: "ja" };
       CLIPS[`${w.id}.example.en`] = { text: w.example.en, lang: "en" };
@@ -1084,7 +1116,7 @@
     if (!clip || !("speechSynthesis" in window)) return Promise.resolve();
     return new Promise((done) => {
       const u = new SpeechSynthesisUtterance(clip.text);
-      u.lang = clip.lang === "ja" ? "ja-JP" : "en-US";
+      u.lang = clip.lang === "ja" ? "ja-JP" : LANGS[clip.lang]?.speech || "en-US";
       u.rate = clip.lang === "ja" ? 1.05 : 0.9;
       u.onend = u.onerror = done;
       speechSynthesis.speak(u);
