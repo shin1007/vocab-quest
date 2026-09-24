@@ -3688,7 +3688,7 @@
     "scene": "写真コンテスト、ミスコン。",
     "example": { "en": "She won first prize in the piano contest.", "ja": "彼女はピアノコンクールで1位をとった。" },
     "etymology": {
-      "origin": "ラテン語 contestārī「証人を立てて訴える」← con- + testis「証人」",
+      "origin": "ラテン語 contestārī「証人を立てて訴える」← con-「共に」+ testis「証人」",
       "story": "もとは裁判で双方が証人を立てて争うこと。「争う」→「競い合う」に。testify（証言する）、protest（抗議する）も testis の家族。つづりは似ているが test（試験）は別の語源。"
     },
     "roots": [],
@@ -3914,7 +3914,7 @@
     "scene": "フードデリバリー、宅配ピザ。",
     "example": { "en": "Free delivery on orders over 3,000 yen.", "ja": "3000円以上のご注文で配達無料。" },
     "etymology": {
-      "origin": "古フランス語 delivrer「自由にする、引き渡す」← ラテン語 dē- + līberāre「自由にする」",
+      "origin": "古フランス語 delivrer「自由にする、引き渡す」← ラテン語 dē-「離れて」+ līberāre「自由にする」",
       "story": "「解き放つ」→「手放して相手に渡す」＝配達。赤ちゃんを「世に解き放つ」ことから出産の意味にもなる。liberty（自由）と同じ家族。"
     },
     "roots": [],
@@ -4344,7 +4344,7 @@
     "scene": "コンセプトカフェ、商品のコンセプト。",
     "example": { "en": "The concept of zero was a great invention.", "ja": "ゼロという概念は偉大な発明だった。" },
     "etymology": {
-      "origin": "ラテン語 conceptum「受け取られたもの」← concipere「受け取る、身ごもる」← con- + capere「取る」",
+      "origin": "ラテン語 conceptum「受け取られたもの」← concipere「受け取る、身ごもる」← con-「すっかり」+ capere「取る」",
       "story": "「心に受けとめたもの」＝考え。conceive（思いつく、身ごもる）と同じ語。capere「取る」の家族で、recipe（レシピ）や receive（受け取る）の親戚。"
     },
     "roots": ["cap"],
@@ -4441,7 +4441,7 @@
     "scene": "技術革新、イノベーションを起こす。",
     "example": { "en": "Smartphones were a major innovation.", "ja": "スマートフォンは大きな革新だった。" },
     "etymology": {
-      "origin": "ラテン語 innovāre「新しくする」← in- + novus「新しい」",
+      "origin": "ラテン語 innovāre「新しくする」← in-「中へ」+ novus「新しい」",
       "story": "novus「新しい」の家族には novel（小説＝新しい話）、novice（新人）、renovate（改装する）、nova（新星）がある。英語の new とも同じ印欧語根。"
     },
     "roots": ["nov"],
@@ -5990,7 +5990,7 @@
     "scene": "デザイナー、ウェブデザイン。",
     "example": { "en": "Who designed this building?", "ja": "この建物は誰が設計したの？" },
     "etymology": {
-      "origin": "ラテン語 dēsignāre「しるしをつける、指定する」← dē- + signum「しるし」",
+      "origin": "ラテン語 dēsignāre「しるしをつける、指定する」← dē-「はっきりと」+ signum「しるし」",
       "story": "「しるしを描いて示す」→ 設計図を描く。sign（しるし）、signal、designate（指定する）と同じ家族。"
     },
     "roots": ["sign"],
@@ -6362,7 +6362,7 @@
     "trapQuiz": {"question": "大学の授業で出す「レポート（論文課題）」に近い英語は？", "answer": "a paper", "wrong": ["a repeat", "a reporter", "a record"]},
     "example": { "en": "The news reported heavy rain in the north.", "ja": "ニュースは北部の大雨を報じた。" },
     "etymology": {
-      "origin": "ラテン語 reportāre「運び戻す」← re- + portāre「運ぶ」",
+      "origin": "ラテン語 reportāre「運び戻す」← re-「元へ」+ portāre「運ぶ」",
       "story": "「（見たことを）持ち帰る」→ 報告。transport（輸送）、export（輸出）、sport も portāre の家族。"
     },
     "roots": ["port"],
@@ -6378,7 +6378,7 @@
     "scene": "無料サンプル、食品サンプル。",
     "example": { "en": "They gave out free samples of the new drink.", "ja": "新しい飲み物の無料サンプルが配られた。" },
     "etymology": {
-      "origin": "example の頭音が落ちた形 ← 古フランス語 essample ← ラテン語 exemplum",
+      "origin": "example の頭音が落ちた形 ← 古フランス語 essample ← ラテン語 exemplum「手本」",
       "story": "example（例）と同じ語。刺しゅうの見本布 sampler も同じ。"
     },
     "roots": [],
@@ -6702,7 +6702,7 @@
     "trapQuiz": {"question": "「このレシピを自分流にアレンジした」に近い英語は？", "answer": "I put my own twist on this recipe.", "wrong": ["I arranged this recipe.", "I did an arrange on this recipe.", "I arranged up this recipe."]},
     "example": { "en": "I arranged a meeting for next Monday.", "ja": "来週月曜日に会議の手配をした。" },
     "etymology": {
-      "origin": "古フランス語 arengier「列に並べる」← a- + rang「列」",
+      "origin": "古フランス語 arengier「列に並べる」← a-「〜へ」+ rang「列」",
       "story": "rank（列、地位）、range（並び、範囲）と同じ語根。音楽の「編曲」は音を並べ直すこと。"
     },
     "roots": [],
@@ -6848,7 +6848,7 @@
     "scene": "コスト削減、コスパ（コストパフォーマンス、和製英語）。",
     "example": { "en": "How much does it cost?", "ja": "それはいくらかかりますか？" },
     "etymology": {
-      "origin": "古フランス語 coster ← ラテン語 cōnstāre「〜の値がつく、しっかり立つ」← con- + stāre「立つ」",
+      "origin": "古フランス語 coster ← ラテン語 cōnstāre「〜の値がつく、しっかり立つ」← con-「しっかり」+ stāre「立つ」",
       "story": "「値段として立つ」。「コスパがいい」は英語では good value (for money)。"
     },
     "roots": ["sta"],
@@ -7284,7 +7284,7 @@
     "scene": "郵便ポスト、SNSへの投稿、次期社長のポスト。",
     "example": { "en": "I posted a photo on Instagram.", "ja": "インスタに写真を投稿した。" },
     "etymology": {
-      "origin": "郵便・地位は イタリア語 posta「置かれた（中継地）」← ラテン語 positus。柱は古英語 post ← ラテン語 postis",
+      "origin": "郵便・地位は イタリア語 posta「置かれた（中継地）」← ラテン語 positus「置かれた」。柱は古英語 post ← ラテン語 postis「柱」",
       "story": "昔、手紙を運ぶ馬を乗りつぐ中継地点を post と呼んだ。「柱」の post は別語源で、掲示板の柱に貼り出す → 投稿、につながった。郵便ポストは英語では mailbox（米）/ postbox（英）。"
     },
     "roots": [],
@@ -7332,7 +7332,7 @@
     "scene": "リピート再生、リピーター。",
     "example": { "en": "Could you repeat that, please?", "ja": "もう一度言っていただけますか？" },
     "etymology": {
-      "origin": "ラテン語 repetere「再び求める、くり返す」← re- + petere「求める、向かう」",
+      "origin": "ラテン語 repetere「再び求める、くり返す」← re-「再び」+ petere「求める、向かう」",
       "story": "petere の家族には compete（競う＝共に求める）、appetite（食欲＝求める気持ち）、petition（請願）がある。"
     },
     "roots": [],
@@ -7382,7 +7382,7 @@
     "trapQuiz": {"question": "ノートに貼るキャラクターの「シール」を英語でいうと？", "answer": "a sticker", "wrong": ["a seal", "a label seal", "a paste"]},
     "example": { "en": "The letter was sealed with wax.", "ja": "手紙はろうで封をされていた。" },
     "etymology": {
-      "origin": "古フランス語 seel ← ラテン語 sigillum「小さなしるし」← signum",
+      "origin": "古フランス語 seel ← ラテン語 sigillum「小さなしるし」← signum「しるし」",
       "story": "sign（しるし）の家族。ろうに押す印章 → 封。動物のアザラシの seal は古英語 seolh から来た別の語。"
     },
     "roots": ["sign"],
@@ -7608,7 +7608,7 @@
     "scene": "動画コンテンツ、デジタルコンテンツ。",
     "example": { "en": "The content of the speech was excellent.", "ja": "スピーチの内容はすばらしかった。" },
     "etymology": {
-      "origin": "ラテン語 contentum「含まれたもの」← continēre「含む」← con- + tenēre「保つ」",
+      "origin": "ラテン語 contentum「含まれたもの」← continēre「含む」← con-「まとめて」+ tenēre「保つ」",
       "story": "contain（含む）と同じ語。アクセントを後ろに置く content（満足した）は「（欲が）内に保たれた」から。"
     },
     "roots": ["ten"],
@@ -7624,7 +7624,7 @@
     "scene": "「文脈（コンテクスト）で意味が変わる」。",
     "example": { "en": "You can guess the meaning from the context.", "ja": "文脈から意味を推測できる。" },
     "etymology": {
-      "origin": "ラテン語 contextus「織り合わせ」← con- + texere「織る」",
+      "origin": "ラテン語 contextus「織り合わせ」← con-「共に」+ texere「織る」",
       "story": "「一緒に織りこまれたもの」。text（本文＝織られたもの）、textile（織物）、texture（手ざわり）も texere の家族。"
     },
     "roots": ["text"],
@@ -7656,7 +7656,7 @@
     "scene": "英語ディベート大会、テレビ討論。",
     "example": { "en": "We had a debate about school uniforms.", "ja": "制服について討論した。" },
     "etymology": {
-      "origin": "古フランス語 debatre「打ち合う」← de- + battre「打つ」",
+      "origin": "古フランス語 debatre「打ち合う」← de-「すっかり」+ battre「打つ」",
       "story": "「言葉で打ち合う」。battle（戦い）、battery（電池、砲列）と同じ battre の家族。"
     },
     "roots": [],
@@ -8040,7 +8040,7 @@
     "scene": "パフォーマンスが高いPC、路上パフォーマンス。",
     "example": { "en": "Her performance in the play was amazing.", "ja": "劇での彼女の演技はすばらしかった。" },
     "etymology": {
-      "origin": "古フランス語 parfournir「やりとげる」← par- + fournir「供給する」",
+      "origin": "古フランス語 parfournir「やりとげる」← par-「完全に」+ fournir「供給する」",
       "story": "「最後までやりとげる」→ 演じる、成果。furnish（備えつける）と同じ家族。「パフォーマンス（見せかけの行動）」の意味は英語では a show / an act に近い。"
     },
     "roots": [],
@@ -8152,7 +8152,7 @@
     "scene": "レスキュー隊、救助活動。",
     "example": { "en": "The firefighters rescued a cat from the roof.", "ja": "消防士が屋根から猫を救出した。" },
     "etymology": {
-      "origin": "古フランス語 rescoure ← ラテン語 re- + excutere「振り払う」",
+      "origin": "古フランス語 rescoure ← ラテン語 re-「再び」+ excutere「振り払う」",
       "story": "「振りほどいて取り戻す」。つかまえている手を振り払って救い出すイメージ。"
     },
     "roots": [],
@@ -8168,7 +8168,7 @@
     "scene": "市場リサーチ、研究者。",
     "example": { "en": "She is doing research on climate change.", "ja": "彼女は気候変動の研究をしている。" },
     "etymology": {
-      "origin": "古フランス語 recercher「くまなく探す」← re- + cercher「探す」← ラテン語 circāre「ぐるぐる回る」",
+      "origin": "古フランス語 recercher「くまなく探す」← re-「くり返し」+ cercher「探す」← ラテン語 circāre「ぐるぐる回る」",
       "story": "「ぐるりと探し回る」。search（探す）、circle（円）と同じ家族。"
     },
     "roots": [],
@@ -8184,7 +8184,7 @@
     "scene": "「先輩をリスペクトしてる」。",
     "example": { "en": "We should respect other people's opinions.", "ja": "他人の意見を尊重すべきだ。" },
     "etymology": {
-      "origin": "ラテン語 respectus「振り返って見ること」← re- + specere「見る」",
+      "origin": "ラテン語 respectus「振り返って見ること」← re-「後ろへ」+ specere「見る」",
       "story": "「振り返って見る」→ 注目する → 敬う。in this respect（この点で）の「点」の意味もある。spectator（観客）、inspect も同じ家族。"
     },
     "roots": ["spec"],
@@ -8442,7 +8442,7 @@
     "scene": "「結果にコミットする」。",
     "example": { "en": "Learning a language takes time and commitment.", "ja": "語学の習得には時間と本気の取り組みが必要だ。" },
     "etymology": {
-      "origin": "commit「ゆだねる、約束する」← ラテン語 committere「まとめて送る、ゆだねる」← com- + mittere「送る」",
+      "origin": "commit「ゆだねる、約束する」← ラテン語 committere「まとめて送る、ゆだねる」← com-「まとめて」+ mittere「送る」",
       "story": "「すっかりゆだねる」→ 身をささげる、約束する。「罪を犯す（commit a crime）」も同じ語。mission、message と同じ mittere の家族。"
     },
     "roots": ["mit"],
@@ -8474,7 +8474,7 @@
     "scene": "ダイバーシティ推進、生物多様性。",
     "example": { "en": "Our school values cultural diversity.", "ja": "私たちの学校は文化の多様性を大切にしている。" },
     "etymology": {
-      "origin": "ラテン語 dīversitās ← dīversus「別々の方向に向いた」← dī- + vertere「向ける」",
+      "origin": "ラテン語 dīversitās ← dīversus「別々の方向に向いた」← dī-「離れて」+ vertere「向ける」",
       "story": "「別の方向を向いた」→ さまざまな。divert（そらす）、reverse（逆にする）、version（版）も vertere の家族。"
     },
     "roots": ["vert"],
@@ -8506,7 +8506,7 @@
     "scene": "インクルーシブ教育、ダイバーシティ＆インクルージョン。",
     "example": { "en": "The school promotes the inclusion of all students.", "ja": "その学校はすべての生徒を受け入れることを進めている。" },
     "etymology": {
-      "origin": "ラテン語 inclūsiō ← inclūdere「閉じこめる、含める」← in- + claudere「閉じる」",
+      "origin": "ラテン語 inclūsiō ← inclūdere「閉じこめる、含める」← in-「中に」+ claudere「閉じる」",
       "story": "include（含む）、exclude（締め出す）、close（閉じる）も claudere の家族。"
     },
     "roots": [],
@@ -8666,7 +8666,7 @@
     "scene": "「心のレジリエンス」、災害に強いまちづくり。",
     "example": { "en": "Children often show amazing resilience.", "ja": "子どもはしばしば驚くほどの回復力を見せる。" },
     "etymology": {
-      "origin": "ラテン語 resilīre「はね返る」← re- + salīre「跳ぶ」",
+      "origin": "ラテン語 resilīre「はね返る」← re-「後ろへ」+ salīre「跳ぶ」",
       "story": "ばねのように「はね返る力」。salmon（サケ＝跳ねる魚）、assault（襲撃＝跳びかかる）も salīre の家族とされる。"
     },
     "roots": [],
@@ -9072,7 +9072,7 @@
     "scene": "政治イデオロギー、左右の対立。",
     "example": { "en": "The two parties have very different ideologies.", "ja": "2つの政党はまったく違う思想をもっている。" },
     "etymology": {
-      "origin": "フランス語 idéologie「観念の学」← ギリシャ語 idea + -logia",
+      "origin": "フランス語 idéologie「観念の学」← ギリシャ語 idea「観念、考え」+ -logia「学問」",
       "story": "18世紀末のフランスで作られた語。「イデオロギー」はドイツ語 Ideologie の読み。英語の発音は「アイディオロジー」。idea、logic と同じ家族。"
     },
     "roots": ["log"],
@@ -9120,7 +9120,7 @@
     "scene": "ルネサンス美術、レオナルド・ダ・ヴィンチ。",
     "example": { "en": "The city is enjoying a cultural renaissance.", "ja": "その都市では文化の復興が進んでいる。" },
     "etymology": {
-      "origin": "フランス語 renaissance「再生」← renaître「生まれ変わる」← ラテン語 re- + nāscī「生まれる」",
+      "origin": "フランス語 renaissance「再生」← renaître「生まれ変わる」← ラテン語 re-「再び」+ nāscī「生まれる」",
       "story": "14〜16世紀、古代ギリシャ・ローマの文化が「生まれ変わった」時代。nature、native、naive と同じ nāscī の家族。"
     },
     "roots": ["nat"],
@@ -10924,7 +10924,7 @@
     "scene": "ふわふわパンケーキ、ホットケーキ（和製英語）。",
     "example": { "en": "We had pancakes with maple syrup.", "ja": "メープルシロップをかけたパンケーキを食べた。" },
     "etymology": {
-      "origin": "pan「平なべ」+ cake",
+      "origin": "pan「平なべ」+ cake「焼き菓子」",
       "story": "「フライパンで焼くケーキ」。日本の「ホットケーキ」は英語では pancake（hotcake も通じる）。"
     },
     "roots": [],
@@ -12440,7 +12440,7 @@
     "scene": "世界記録、レコード盤、録画。",
     "example": { "en": "She broke the world record.", "ja": "彼女は世界記録を破った。" },
     "etymology": {
-      "origin": "ラテン語 recordārī「思い出す」← re- + cor「心」",
+      "origin": "ラテン語 recordārī「思い出す」← re-「再び」+ cor「心」",
       "story": "「心に呼び戻す」→ 書き留める → 記録。cor（心）は courage（勇気）、core とも関係がある。"
     },
     "roots": [],
@@ -12602,7 +12602,7 @@
     "scene": "テニスのラリー、自動車ラリー、決起集会。",
     "example": { "en": "Thousands of people joined the rally.", "ja": "何千人もの人がその集会に参加した。" },
     "etymology": {
-      "origin": "フランス語 rallier「再び集める」← re- + allier「結びつける」",
+      "origin": "フランス語 rallier「再び集める」← re-「再び」+ allier「結びつける」",
       "story": "散らばった兵を「再び集める」→ 集会、持ち直す。テニスの打ち合いも「行ったり来たり続く」ことから。ally（同盟する）と同じ家族。"
     },
     "roots": [],
@@ -13344,7 +13344,7 @@
     "scene": "ブログ更新、ブロガー。",
     "example": { "en": "She writes a blog about cooking.", "ja": "彼女は料理のブログを書いている。" },
     "etymology": {
-      "origin": "weblog の略 ← web + log「記録」",
+      "origin": "weblog の略 ← web「クモの巣、（インター）ネット」+ log「記録」",
       "story": "1999年ごろに we blog（私たちはブログする）と冗談で区切られて広まった。log は航海日誌（丸太で速さを測った記録）から。"
     },
     "roots": [],
@@ -13360,7 +13360,7 @@
     "scene": "ログイン画面、ログインボーナス。",
     "example": { "en": "Enter your password to log in.", "ja": "ログインするにはパスワードを入力してください。" },
     "etymology": {
-      "origin": "log「記録する」+ in",
+      "origin": "log「記録する」+ in「中へ」",
       "story": "船の航海日誌（log）に名前を書きこむように、システムに記録を残して入ること。動詞は log in と2語。"
     },
     "roots": [],
@@ -13728,7 +13728,7 @@
     "scene": "ガソリンスタンド、ガソリン代。",
     "example": { "en": "Gasoline prices went up again.", "ja": "ガソリンの値段がまた上がった。" },
     "etymology": {
-      "origin": "gas + -ol + -ine（19世紀の商標名から）",
+      "origin": "gas「ガス、気体」+ -ol + -ine（19世紀の商標名から）",
       "story": "アメリカでは gas と略す。イギリスでは petrol。「ガソリンスタンド」は gas station（米）/ petrol station（英）。"
     },
     "roots": [],
@@ -14052,7 +14052,7 @@
     "scene": "コンクリートの壁、具体的な例。",
     "example": { "en": "Can you give me a concrete example?", "ja": "具体的な例を挙げてもらえますか？" },
     "etymology": {
-      "origin": "ラテン語 concrētus「固まった」← con- + crēscere「育つ」",
+      "origin": "ラテン語 concrētus「固まった」← con-「一緒に」+ crēscere「育つ」",
       "story": "「一緒に育って固まった」→ 形のある、具体的な → コンクリート。反対は abstract（抽象的な）。"
     },
     "roots": [],
@@ -15072,7 +15072,7 @@
     "scene": "ワイドショーのコメンテーター、スポーツ解説者。",
     "example": { "en": "The commentator explained the rules.", "ja": "解説者がルールを説明した。" },
     "etymology": {
-      "origin": "commentate「解説する」+ -or ← comment",
+      "origin": "commentate「解説する」+ -or ← comment「論評、解説」",
       "story": "comment と同じラテン語 commentum から。スポーツの実況解説もする。"
     },
     "roots": ["ment"],
@@ -15266,7 +15266,7 @@
     "scene": "記者会見（press conference）、学会。",
     "example": { "en": "She spoke at an international conference.", "ja": "彼女は国際会議で講演した。" },
     "etymology": {
-      "origin": "中世ラテン語 cōnferentia ← cōnferre「持ち寄る」← con- + ferre「運ぶ」",
+      "origin": "中世ラテン語 cōnferentia ← cōnferre「持ち寄る」← con-「共に」+ ferre「運ぶ」",
       "story": "「意見を持ち寄る」。transfer（移す）、prefer（好む）、offer も ferre の家族。"
     },
     "roots": [],
@@ -15314,7 +15314,7 @@
     "scene": "インフレ率、物価高。",
     "example": { "en": "Inflation is making everything more expensive.", "ja": "インフレで何もかも高くなっている。" },
     "etymology": {
-      "origin": "ラテン語 īnflātiō「ふくらませること」← in- + flāre「吹く」",
+      "origin": "ラテン語 īnflātiō「ふくらませること」← in-「中へ」+ flāre「吹く」",
       "story": "風船を吹いて「ふくらませる」ように、お金の量がふくらみ物価が上がること。flute（フルート＝吹く楽器）も flāre の家族。"
     },
     "roots": [],
@@ -15410,7 +15410,7 @@
     "scene": "データのインポート、輸入品。",
     "example": { "en": "Japan imports a lot of food.", "ja": "日本はたくさんの食料を輸入している。" },
     "etymology": {
-      "origin": "ラテン語 importāre「中へ運ぶ」← in- + portāre「運ぶ」",
+      "origin": "ラテン語 importāre「中へ運ぶ」← in-「中へ」+ portāre「運ぶ」",
       "story": "「港の中へ運ぶ」。important（重要な）も importāre の「（意味を）もたらす」から。"
     },
     "roots": ["port"],
@@ -15426,7 +15426,7 @@
     "scene": "データのエクスポート、輸出産業。",
     "example": { "en": "The company exports cars to Europe.", "ja": "その会社はヨーロッパに車を輸出している。" },
     "etymology": {
-      "origin": "ラテン語 exportāre「外へ運ぶ」← ex- + portāre",
+      "origin": "ラテン語 exportāre「外へ運ぶ」← ex-「外へ」+ portāre「運ぶ」",
       "story": "import の反対。port（港）を「出ていく」イメージ。"
     },
     "roots": ["port"],
@@ -16056,7 +16056,7 @@
     "scene": "スタートアップ企業、ITベンチャー。",
     "example": { "en": "He left his job to join a startup.", "ja": "彼は会社をやめて新興企業に入った。" },
     "etymology": {
-      "origin": "start「始める」+ up",
+      "origin": "start「始める」+ up「上へ（立ち上げる）」",
       "story": "「立ち上げたばかりの会社」。パソコンの「起動」も startup。"
     },
     "roots": [],
@@ -16476,7 +16476,7 @@
     "scene": "買い物のレシート、領収書。",
     "example": { "en": "Can I have a receipt, please?", "ja": "レシートをもらえますか？" },
     "etymology": {
-      "origin": "アングロ・フランス語 receite ← ラテン語 recepta「受け取ったもの」← recipere",
+      "origin": "アングロ・フランス語 receite ← ラテン語 recepta「受け取ったもの」← recipere「受け取る」",
       "story": "receive、recipe と同じ語。p は発音しない（ラテン語のつづりをまねて後から入れた）。"
     },
     "roots": ["cap"],
@@ -17120,7 +17120,7 @@
     "scene": "ゲストハウス、ユースホステル。",
     "example": { "en": "We stayed at a cheap hostel in Paris.", "ja": "パリでは安いホステルに泊まった。" },
     "etymology": {
-      "origin": "古フランス語 hostel「宿」← ラテン語 hospitāle",
+      "origin": "古フランス語 hostel「宿」← ラテン語 hospitāle「客をもてなす場所」",
       "story": "hotel と同じ語から分かれたもの。hospital、host と同じ hospes の家族。"
     },
     "roots": ["hosp"],
@@ -17136,7 +17136,7 @@
     "scene": "画像のモザイク、モザイクタイル。",
     "example": { "en": "The floor was decorated with a beautiful mosaic.", "ja": "床は美しいモザイクで飾られていた。" },
     "etymology": {
-      "origin": "中世ラテン語 mūsāicum「ミューズの（作品）」← ギリシャ語 mousa",
+      "origin": "中世ラテン語 mūsāicum「ミューズの（作品）」← ギリシャ語 mousa「ムーサ（芸術の女神ミューズ）」",
       "story": "芸術の女神ミューズにささげられた装飾から、とされる。music、museum と同じ家族。映像の「モザイク処理」は英語では pixelation / blur。"
     },
     "roots": [],
@@ -17184,7 +17184,7 @@
     "scene": "リマインダーメール、スマホのリマインダー。",
     "example": { "en": "I set a reminder on my phone.", "ja": "スマホにリマインダーを設定した。" },
     "etymology": {
-      "origin": "remind「思い出させる」+ -er ← re- + mind「心」",
+      "origin": "remind「思い出させる」+ -er ← re-「再び」+ mind「心」",
       "story": "「もう一度心に入れるもの」。"
     },
     "roots": [],
@@ -17360,7 +17360,7 @@
     "scene": "新商品（new product）、プロダクトデザイン。",
     "example": { "en": "This product is made in Japan.", "ja": "この製品は日本製だ。" },
     "etymology": {
-      "origin": "ラテン語 prōductum「生み出されたもの」← prōdūcere",
+      "origin": "ラテン語 prōductum「生み出されたもの」← prōdūcere「前に導く、生み出す」",
       "story": "produce、producer と同じ家族。数学の「積」も product。"
     },
     "roots": [],
@@ -18910,7 +18910,7 @@
     "scene": "コンバージョン率（CVR）、改宗。",
     "example": { "en": "The website's conversion rate went up.", "ja": "サイトの成約率が上がった。" },
     "etymology": {
-      "origin": "ラテン語 conversiō「向きを変えること」← convertere ← con- + vertere「回す」",
+      "origin": "ラテン語 conversiō「向きを変えること」← convertere ← con-「すっかり」+ vertere「回す」",
       "story": "閲覧者が「客に変わる」こと。reverse、version と同じ vertere の家族。"
     },
     "roots": ["vert"],
@@ -18942,7 +18942,7 @@
     "scene": "顧客のリテンション、人材の定着。",
     "example": { "en": "Staff retention is a big problem for the company.", "ja": "社員の定着は会社にとって大きな問題だ。" },
     "etymology": {
-      "origin": "ラテン語 retentiō「引き留めること」← retinēre ← re- + tenēre「保つ」",
+      "origin": "ラテン語 retentiō「引き留めること」← retinēre ← re-「後ろへ」+ tenēre「保つ」",
       "story": "「引き留めておく」。contain、maintain、sustainable と同じ tenēre の家族。"
     },
     "roots": ["ten"],
@@ -19150,7 +19150,7 @@
     "scene": "キックオフミーティング、試合開始。",
     "example": { "en": "The kickoff is at 7 p.m.", "ja": "試合開始は午後7時だ。" },
     "etymology": {
-      "origin": "kick「ける」+ off",
+      "origin": "kick「ける」+ off「離れて（ボールを蹴り出す）」",
       "story": "サッカーでボールをけって試合を始めることから、プロジェクトの「始まり」に。"
     },
     "roots": [],
@@ -19326,7 +19326,7 @@
     "scene": "エグゼクティブクラス、経営幹部。",
     "example": { "en": "She is a senior executive at a bank.", "ja": "彼女は銀行の上級幹部だ。" },
     "etymology": {
-      "origin": "ラテン語 exsequī「最後まで行う」← ex- + sequī「従う」",
+      "origin": "ラテン語 exsequī「最後まで行う」← ex-「最後まで」+ sequī「従う」",
       "story": "「最後までやりとげる（実行する）人」。execute（実行する）、sequence と同じ家族。"
     },
     "roots": [],
@@ -19598,7 +19598,7 @@
     "scene": "データのバックアップ、バックアップ体制。",
     "example": { "en": "Always keep a backup of your files.", "ja": "ファイルのバックアップを必ずとっておいて。" },
     "etymology": {
-      "origin": "back「後ろ」+ up",
+      "origin": "back「後ろ」+ up「しっかり（支える）」",
       "story": "「後ろから支えるもの」→ 予備、支援。"
     },
     "roots": [],
@@ -19870,7 +19870,7 @@
     "scene": "サーバーメンテナンス、車の整備。",
     "example": { "en": "The website is down for maintenance.", "ja": "サイトはメンテナンスのため停止中だ。" },
     "etymology": {
-      "origin": "古フランス語 maintenir「手で保つ」← ラテン語 manū tenēre",
+      "origin": "古フランス語 maintenir「手で保つ」← ラテン語 manū「手で」+ tenēre「保つ」",
       "story": "「手（manus）で保つ（tenēre）」。maintain の名詞形。manual、contain の両方の家族。"
     },
     "roots": ["ten", "manu"],
@@ -20078,7 +20078,7 @@
     "scene": "貨物コンテナ、保存容器。",
     "example": { "en": "Put the leftovers in a container.", "ja": "残り物を容器に入れて。" },
     "etymology": {
-      "origin": "contain「含む」+ -er ← ラテン語 continēre ← con- + tenēre「保つ」",
+      "origin": "contain「含む」+ -er ← ラテン語 continēre ← con-「まとめて」+ tenēre「保つ」",
       "story": "「中に保つもの」。content、maintain と同じ tenēre の家族。"
     },
     "roots": ["ten"],
@@ -20320,7 +20320,7 @@
     "scene": "〜へのアンチテーゼ、真逆。",
     "example": { "en": "Her style is the antithesis of his.", "ja": "彼女のやり方は彼とまったく正反対だ。" },
     "etymology": {
-      "origin": "ギリシャ語 antithesis「反対に置くこと」← anti-「反対に」+ thesis",
+      "origin": "ギリシャ語 antithesis「反対に置くこと」← anti-「反対に」+ thesis「置くこと、主張」",
       "story": "ヘーゲルの弁証法の「正・反・合」の「反」。英語では「正反対のもの」の意味でよく使う。"
     },
     "roots": [],
@@ -20384,7 +20384,7 @@
     "scene": "「シュールな笑い」、シュールレアリスム。",
     "example": { "en": "Meeting my hero was a surreal experience.", "ja": "憧れの人に会えたのは夢のような体験だった。" },
     "etymology": {
-      "origin": "surrealism「超現実主義」から ← フランス語 sur-「超えた」+ réalisme",
+      "origin": "surrealism「超現実主義」から ← フランス語 sur-「超えた」+ réalisme「写実主義」",
       "story": "1920年代の芸術運動シュールレアリスム（ダリなど）から。日本語の「シュール」はここから来た語。"
     },
     "roots": [],
@@ -20528,7 +20528,7 @@
     "scene": "エリート社員、エリート校。",
     "example": { "en": "He went to an elite university.", "ja": "彼はエリート大学に通っていた。" },
     "etymology": {
-      "origin": "フランス語 élite「選ばれた者」← élire「選ぶ」← ラテン語 ēligere",
+      "origin": "フランス語 élite「選ばれた者」← élire「選ぶ」← ラテン語 ēligere「選び出す」",
       "story": "elect（選ぶ）と同じ語。英語では集団を指すことが多い（the elite）。"
     },
     "roots": ["leg"],
@@ -20578,7 +20578,7 @@
     "trapQuiz": {"question": "「背が低いのがコンプレックスだ」に近い英語は？", "answer": "I'm insecure about being short.", "wrong": ["I have a complex about short.", "My complex is short.", "I'm complex of short."]},
     "example": { "en": "This is a very complex problem.", "ja": "これはとても複雑な問題だ。" },
     "etymology": {
-      "origin": "ラテン語 complexus「編み合わされた」← com- + plectere「編む」",
+      "origin": "ラテン語 complexus「編み合わされた」← com-「共に」+ plectere「編む」",
       "story": "「いくつも編み合わさった」→ 複雑な、複合体。心理学では「絡み合った感情のかたまり」。simple（一重の）の反対。"
     },
     "roots": [],
@@ -21218,7 +21218,7 @@
     "scene": "マエストロ（指揮者）、料理の巨匠。",
     "example": { "en": "The maestro conducted the orchestra brilliantly.", "ja": "巨匠はオーケストラを見事に指揮した。" },
     "etymology": {
-      "origin": "イタリア語 maestro「先生、名人」← ラテン語 magister",
+      "origin": "イタリア語 maestro「先生、名人」← ラテン語 magister「先生、長」",
       "story": "master（名人）と同じ語。特に偉大な指揮者や音楽家を呼ぶ。"
     },
     "roots": [],
@@ -21426,7 +21426,7 @@
     "scene": "目の錯覚、イリュージョンマジック。",
     "example": { "en": "The picture creates an optical illusion.", "ja": "その絵は目の錯覚を起こす。" },
     "etymology": {
-      "origin": "ラテン語 illūsiō「あざけり、だまし」← illūdere「からかう」← in- + lūdere「遊ぶ」",
+      "origin": "ラテン語 illūsiō「あざけり、だまし」← illūdere「からかう」← in-「〜に向かって」+ lūdere「遊ぶ」",
       "story": "「目をからかうもの」。ludicrous（ばかげた）も lūdere の家族。"
     },
     "roots": [],
@@ -21810,7 +21810,7 @@
     "scene": "ワーグナーのライトモチーフ、作品を貫くテーマ。",
     "example": { "en": "Loneliness is a leitmotif in her novels.", "ja": "孤独は彼女の小説にくり返し現れる主題だ。" },
     "etymology": {
-      "origin": "ドイツ語 Leitmotiv「導く動機」← leiten「導く」+ Motiv",
+      "origin": "ドイツ語 Leitmotiv「導く動機」← leiten「導く」+ Motiv「動機、モチーフ」",
       "story": "ワーグナーのオペラで、人物や考えを表すくり返しの旋律。lead（導く）と同じ語根、motif と同じ語。"
     },
     "roots": ["mov"],
@@ -22274,7 +22274,7 @@
     "scene": "チョコレートパフェ、いちごパフェ。",
     "example": { "en": "She ordered a chocolate parfait.", "ja": "彼女はチョコレートパフェを注文した。" },
     "etymology": {
-      "origin": "フランス語 parfait「完璧な」← ラテン語 perfectus",
+      "origin": "フランス語 parfait「完璧な」← ラテン語 perfectus「完全な」",
       "story": "「完璧なデザート」の意味。perfect と同じ語。英語の発音は「パーフェイ」。"
     },
     "roots": ["fac"],
