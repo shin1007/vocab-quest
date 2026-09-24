@@ -2003,7 +2003,7 @@
 
 - 📍 シーン: ディズニープリンセス、お姫様。
 - 💬 例文: *The princess wore a beautiful dress.* — 王女は美しいドレスを着ていた。
-- 📜 語源: 古フランス語 princesse ← prince + -esse（女性形）
+- 📜 語源: 古フランス語 princesse ← prince「王子・君主」+ -esse（女性形）
   - -ess は女性を表す語尾（actress、lioness）。今はジェンダーに中立な言い方が好まれ、actress より actor が使われることも多い。
 - 🌳 同じ語源の仲間: prince（王子）
 
