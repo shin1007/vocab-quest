@@ -605,7 +605,7 @@ button.chip:active { transform: translateY(2px); }
 
 /* ---------- 単語帳 ---------- */
 .filters { display: grid; grid-template-columns: 1fr auto; gap: 8px; margin-bottom: 10px; }
-.filters input, .filters select {
+.filters input, .filters select, .setting-select {
   min-height: 48px; padding: 8px 14px; border-radius: var(--radius-sm); border: var(--bw-sm) solid var(--edge); box-shadow: var(--shadow-sm);
   background: var(--input-bg); color: var(--text); font: inherit; font-weight: 700; min-width: 0;
 }
