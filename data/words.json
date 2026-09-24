@@ -25681,5 +25681,2479 @@
       { "word": "spice", "meaning": "スパイス", "nuance": "香辛料。", "etymology": "ラテン語 speciēs「種類、品物」" },
       { "word": "medicine", "meaning": "薬", "nuance": "病気を治す薬。", "etymology": "ラテン語 medicīna" }
     ]
+  },
+  {
+    "id": "cape", "word": "cape", "katakana": "ケープ", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "ケープ、肩マント／岬",
+    "scene": "肩にかける短いマント。ヒーローの「ケープ」。地名の「喜望峰」は the Cape of Good Hope。",
+    "example": { "en": "The hero's red cape waved in the wind.", "ja": "ヒーローの赤いケープが風になびいた。" },
+    "etymology": {
+      "origin": "ラテン語 cappa「頭巾つきの外套」／「岬」はラテン語 caput「頭」から",
+      "story": "服のケープは cappa（cap と同じ語源）、岬のケープは caput（頭＝突き出た所）から。二つは別ルートでできた同じつづりの語。"
+    },
+    "roots": [],
+    "family": ["cap（帽子）", "capital（首都＝頭の都市）"],
+    "synonyms": [
+      { "word": "cloak", "meaning": "マント", "nuance": "体をすっぽり包む外套。", "etymology": "古フランス語 cloque" },
+      { "word": "mantle", "meaning": "マント", "nuance": "袖のない外套。", "etymology": "ラテン語 mantellum" },
+      { "word": "shawl", "meaning": "ショール", "nuance": "肩にかける布。", "etymology": "ペルシャ語 shāl" }
+    ]
+  },
+  {
+    "id": "hood", "word": "hood", "katakana": "フード", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "フード、ずきん",
+    "scene": "顔を隠す「フード」付きのローブ。パーカーのフードも hood。食べ物の food とは別の語。",
+    "example": { "en": "She put up her hood because it was raining.", "ja": "雨が降っていたので彼女はフードをかぶった。" },
+    "etymology": {
+      "origin": "古英語 hōd「頭巾」",
+      "story": "hat（帽子）と同じ語根。childhood の -hood（〜の状態）とは別の語。"
+    },
+    "roots": [],
+    "family": ["hoodie（パーカー）", "Robin Hood（ロビン・フッド）"],
+    "synonyms": [
+      { "word": "cap", "meaning": "キャップ", "nuance": "つばのある帽子。", "etymology": "後期ラテン語 cappa" },
+      { "word": "cowl", "meaning": "修道士のずきん", "nuance": "修道士の外套についたずきん。", "etymology": "ラテン語 cucullus" },
+      { "word": "veil", "meaning": "ベール", "nuance": "顔をおおう薄い布。", "etymology": "ラテン語 vēlum「覆い」" }
+    ]
+  },
+  {
+    "id": "earring", "word": "earring", "katakana": "イヤリング", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "イヤリング、ピアス",
+    "scene": "耳につけるアクセサリー装備。英語では穴をあけるピアスも earring。",
+    "gap": "日本語では「イヤリング（はさむ）」と「ピアス（穴をあける）」を分けるが、英語ではどちらも earring。pierce は「穴をあける」という動詞。",
+    "trapQuiz": {"question": "耳に穴をあけてつける「ピアス」を英語でいうと？", "answer": "earrings", "wrong": ["pierces", "piercers", "ear pierces"]},
+    "example": { "en": "She lost one of her earrings.", "ja": "彼女はイヤリングを片方なくした。" },
+    "etymology": {
+      "origin": "ear「耳」+ ring「輪」",
+      "story": "そのまま「耳の輪」。日本語の「ピアス」は英語では pierced earrings といい、pierce は「穴をあける」という動詞。"
+    },
+    "roots": [],
+    "family": ["ring（指輪）"],
+    "synonyms": [
+      { "word": "pierced earring", "meaning": "ピアス", "nuance": "日本語の「ピアス」。", "etymology": "pierce「穴をあける」+ earring" },
+      { "word": "necklace", "meaning": "ネックレス", "nuance": "首の飾り。", "etymology": "neck + lace" },
+      { "word": "jewelry", "meaning": "宝飾品", "nuance": "アクセサリー全般。", "etymology": "古フランス語 jouel" }
+    ]
+  },
+  {
+    "id": "tunic", "word": "tunic", "katakana": "チュニック", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "チュニック（ひざ丈の上着）",
+    "scene": "序盤の布の防具。ファッションの「チュニック」も同じ。",
+    "example": { "en": "The soldier wore a leather tunic.", "ja": "兵士は革のチュニックを着ていた。" },
+    "etymology": {
+      "origin": "ラテン語 tunica「下着、上着」",
+      "story": "古代ローマの人々が着た、頭からかぶる衣服。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "robe", "meaning": "ローブ", "nuance": "長いゆったりした衣。", "etymology": "古フランス語 robe" },
+      { "word": "shirt", "meaning": "シャツ", "nuance": "上半身に着る服。", "etymology": "古英語 scyrte" },
+      { "word": "jerkin", "meaning": "胴着", "nuance": "中世の袖なし革上着。", "etymology": "語源不詳" }
+    ]
+  },
+  {
+    "id": "gown", "word": "gown", "katakana": "ガウン", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "ガウン、（長い）ドレス",
+    "scene": "魔法使いの装備やお姫様のドレス。卒業式のガウンも。",
+    "example": { "en": "The princess wore a beautiful gown to the ball.", "ja": "王女は舞踏会に美しいドレスを着ていった。" },
+    "etymology": {
+      "origin": "古フランス語 goune ← 後期ラテン語 gunna「毛皮の衣」",
+      "story": "もとは毛皮の上着。今は正装の長いドレスや、医師・卒業生・裁判官のガウンを指す。"
+    },
+    "roots": [],
+    "family": ["nightgown（ネグリジェ）"],
+    "synonyms": [
+      { "word": "dress", "meaning": "ドレス", "nuance": "ワンピース全般。", "etymology": "古フランス語 dresser「整える」" },
+      { "word": "robe", "meaning": "ローブ", "nuance": "ゆったりした長い衣。", "etymology": "古フランス語 robe" },
+      { "word": "costume", "meaning": "衣装", "nuance": "舞台や仮装の衣装。", "etymology": "イタリア語 costume「習慣」" }
+    ]
+  },
+  {
+    "id": "buckler", "word": "buckler", "katakana": "バックラー", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "バックラー（手に持つ小さな丸盾）",
+    "scene": "軽くて扱いやすい小盾。受け流しに使う。",
+    "example": { "en": "The swordsman carried a small buckler.", "ja": "剣士は小さな丸盾を持っていた。" },
+    "etymology": {
+      "origin": "古フランス語 bocler ← boucle「盾の中央の突起」",
+      "story": "盾の真ん中の金具 boucle から。buckle（ベルトのバックル）と同じ語源。"
+    },
+    "roots": [],
+    "family": ["buckle（バックル）"],
+    "synonyms": [
+      { "word": "shield", "meaning": "盾", "nuance": "盾全般。", "etymology": "古英語 scield" },
+      { "word": "targe", "meaning": "丸盾", "nuance": "スコットランドの丸い盾。target（的）の語源。", "etymology": "古フランス語 targe" },
+      { "word": "guard", "meaning": "守り", "nuance": "防御全般。", "etymology": "古フランス語 garder" }
+    ]
+  },
+  {
+    "id": "visor", "word": "visor", "katakana": "バイザー", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "（かぶとの）面頬、帽子のひさし、サンバイザー",
+    "scene": "かぶとの顔をおおう部分。ゴルフの「サンバイザー」も。",
+    "example": { "en": "The knight lowered his visor before the fight.", "ja": "騎士は戦いの前に面頬を下ろした。" },
+    "etymology": {
+      "origin": "古フランス語 visiere ← vis「顔」← ラテン語 vīsus「見ること」",
+      "story": "「顔」の部分をおおう物。vision（視力）、visit（訪れる＝見に行く）と同じ vis-（見る）の仲間。"
+    },
+    "roots": ["vid"],
+    "family": ["vision（視覚）", "visit（訪問する）"],
+    "synonyms": [
+      { "word": "helmet", "meaning": "ヘルメット、かぶと", "nuance": "頭全体を守る防具。", "etymology": "古フランス語 helmet" },
+      { "word": "mask", "meaning": "仮面", "nuance": "顔をおおうもの。", "etymology": "イタリア語 maschera" },
+      { "word": "goggles", "meaning": "ゴーグル", "nuance": "目を守るめがね。", "etymology": "中英語 gogelen「横目で見る」" }
+    ]
+  },
+  {
+    "id": "pike", "word": "pike", "katakana": "パイク", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "長やり／カワカマス（魚）",
+    "scene": "歩兵が並んで構える長いやり。騎兵の突撃を止める。",
+    "example": { "en": "The soldiers stood in a line with their pikes.", "ja": "兵士たちは長やりを構えて一列に並んだ。" },
+    "etymology": {
+      "origin": "フランス語 pique ← piquer「刺す」",
+      "story": "「刺す」ものから。とがった魚カワカマスも pike。pick（つつく）、picnic とも関係があるとされる。"
+    },
+    "roots": [],
+    "family": ["pick（つつく）"],
+    "synonyms": [
+      { "word": "spear", "meaning": "やり", "nuance": "ふつうのやり。", "etymology": "古英語 spere" },
+      { "word": "lance", "meaning": "騎兵のやり", "nuance": "馬上のやり。", "etymology": "ラテン語 lancea" },
+      { "word": "halberd", "meaning": "ほこやり", "nuance": "おのがついたやり。", "etymology": "中高ドイツ語 helmbarde" }
+    ]
+  },
+  {
+    "id": "trident", "word": "trident", "katakana": "トライデント", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "三つまたのほこ",
+    "scene": "海の神ポセイドンの武器。水属性の最強武器に多い。",
+    "example": { "en": "The sea god raised his trident.", "ja": "海の神は三つまたのほこを掲げた。" },
+    "etymology": {
+      "origin": "ラテン語 tridēns ← tri-「3」+ dēns「歯」",
+      "story": "「3本の歯」。dentist（歯医者）の dent も同じ「歯」。tri- は triangle（三角形）の tri。"
+    },
+    "roots": [],
+    "family": ["dentist（歯医者）", "triangle（三角形）"],
+    "synonyms": [
+      { "word": "spear", "meaning": "やり", "nuance": "先が1本のやり。", "etymology": "古英語 spere" },
+      { "word": "fork", "meaning": "フォーク", "nuance": "先が分かれた道具。", "etymology": "ラテン語 furca" },
+      { "word": "harpoon", "meaning": "もり", "nuance": "魚や鯨を突く道具。", "etymology": "フランス語 harpon" }
+    ]
+  },
+  {
+    "id": "sickle", "word": "sickle", "katakana": "シックル", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "（片手用の）鎌",
+    "scene": "草を刈る小さな鎌。二刀流の鎌の武器や、暗殺者の武器に。",
+    "example": { "en": "The farmer cut the rice with a sickle.", "ja": "農夫は鎌で稲を刈った。" },
+    "etymology": {
+      "origin": "古英語 sicol ← ラテン語 secula ← secāre「切る」",
+      "story": "secāre（切る）から。section（区切り）、insect（切れ目のある虫）も同じ語根。"
+    },
+    "roots": [],
+    "family": ["section（部分）", "insect（昆虫）"],
+    "synonyms": [
+      { "word": "scythe", "meaning": "大鎌", "nuance": "両手で使う大きな鎌。", "etymology": "古英語 sīthe" },
+      { "word": "knife", "meaning": "ナイフ", "nuance": "刃物全般。", "etymology": "古ノルド語 knífr" },
+      { "word": "hook", "meaning": "かぎ", "nuance": "曲がった道具。", "etymology": "古英語 hōc" }
+    ]
+  },
+  {
+    "id": "gun", "word": "gun", "katakana": "ガン", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "銃",
+    "scene": "射撃ゲームの武器全般。「ガンマン」「エアガン」も。",
+    "example": { "en": "The police officer had a gun.", "ja": "警察官は銃を持っていた。" },
+    "etymology": {
+      "origin": "中英語 gunne（女性名 Gunnhildr の愛称から）",
+      "story": "中世の大きな投石機や大砲に、北欧の女性名 Gunnhildr（gunnr も hildr も「戦い」の意味）の愛称をつけたのが始まりといわれる。"
+    },
+    "roots": [],
+    "family": ["gunman（ガンマン）", "shotgun（散弾銃）"],
+    "synonyms": [
+      { "word": "rifle", "meaning": "ライフル", "nuance": "銃身の長い銃。", "etymology": "フランス語 rifler「引っかく」" },
+      { "word": "pistol", "meaning": "ピストル", "nuance": "片手で撃つ銃。", "etymology": "チェコ語 píšťala「笛」" },
+      { "word": "weapon", "meaning": "武器", "nuance": "武器全般。", "etymology": "古英語 wǣpen" }
+    ]
+  },
+  {
+    "id": "rifle", "word": "rifle", "katakana": "ライフル", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "ライフル銃",
+    "scene": "遠くを狙う銃。FPS ゲームの定番武器。",
+    "example": { "en": "The hunter aimed his rifle at the deer.", "ja": "猟師はシカにライフルを向けた。" },
+    "etymology": {
+      "origin": "フランス語 rifler「引っかく」",
+      "story": "銃身の内側に「らせん状の溝（rifling）」を刻んだ銃。溝で弾が回転してまっすぐ飛ぶ。"
+    },
+    "roots": [],
+    "family": ["rifling（ライフリング）"],
+    "synonyms": [
+      { "word": "gun", "meaning": "銃", "nuance": "銃全般。", "etymology": "中英語 gunne" },
+      { "word": "musket", "meaning": "マスケット銃", "nuance": "昔の先込め銃。", "etymology": "イタリア語 moschetto「ハイタカ」" },
+      { "word": "sniper", "meaning": "狙撃手", "nuance": "ライフルで遠くを狙う人。", "etymology": "snipe + -er" }
+    ]
+  },
+  {
+    "id": "pistol", "word": "pistol", "katakana": "ピストル", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "ピストル、拳銃",
+    "scene": "片手で撃てる小さな銃。ハンドガン。",
+    "example": { "en": "The pistol was hidden in a drawer.", "ja": "拳銃は引き出しに隠されていた。" },
+    "etymology": {
+      "origin": "フランス語 pistole ← ドイツ語 Pistole ← チェコ語 píšťala「笛」",
+      "story": "15世紀のフス戦争で使われた小さな銃を、形が似ている「笛」と呼んだのが始まりとされる。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "handgun", "meaning": "拳銃", "nuance": "片手で撃つ銃の一般的な言い方。", "etymology": "hand + gun" },
+      { "word": "revolver", "meaning": "リボルバー", "nuance": "弾倉が回転する拳銃。", "etymology": "revolve「回る」+ -er" },
+      { "word": "gun", "meaning": "銃", "nuance": "銃全般。", "etymology": "中英語 gunne" }
+    ]
+  },
+  {
+    "id": "scepter", "word": "scepter", "katakana": "セプター", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "（王の）しゃく、王笏",
+    "scene": "王や魔法使いの豪華な杖。魔力を上げる杖の上位装備に。イギリス式つづりは sceptre。",
+    "example": { "en": "The king held a golden scepter.", "ja": "王は金の王笏を持っていた。" },
+    "etymology": {
+      "origin": "ギリシャ語 skēptron「杖」← skḗptesthai「寄りかかる」",
+      "story": "もとは体を支える「杖」。そこから王の権力のしるしになった。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "staff", "meaning": "杖", "nuance": "長い杖。", "etymology": "古英語 stæf" },
+      { "word": "wand", "meaning": "魔法の杖", "nuance": "短い杖。", "etymology": "古ノルド語 vǫndr" },
+      { "word": "crown", "meaning": "王冠", "nuance": "同じく王の権力のしるし。", "etymology": "ラテン語 corōna" }
+    ]
+  },
+  {
+    "id": "claw", "word": "claw", "katakana": "クロー", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "（鳥獣の）かぎづめ、はさみ",
+    "scene": "モンスターのつめ攻撃や、つめ型の武器「クロー」。クレーンゲームは claw machine。",
+    "example": { "en": "The cat scratched me with its claws.", "ja": "猫がつめで私を引っかいた。" },
+    "etymology": {
+      "origin": "古英語 clawu",
+      "story": "ゲルマン語の古い語。カニのはさみも claw。"
+    },
+    "roots": [],
+    "family": ["claw machine（クレーンゲーム）"],
+    "synonyms": [
+      { "word": "nail", "meaning": "つめ", "nuance": "人のつめ。", "etymology": "古英語 nægl" },
+      { "word": "talon", "meaning": "（猛きんの）かぎづめ", "nuance": "ワシやタカのつめ。", "etymology": "ラテン語 tālus「かかと」" },
+      { "word": "fang", "meaning": "きば", "nuance": "動物の鋭い歯。", "etymology": "古英語 fang「つかむこと」" }
+    ]
+  },
+  {
+    "id": "fang", "word": "fang", "katakana": "ファング", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "きば",
+    "scene": "オオカミや吸血鬼のきば。技名「〇〇ファング」も。",
+    "example": { "en": "The wolf showed its sharp fangs.", "ja": "オオカミは鋭いきばを見せた。" },
+    "etymology": {
+      "origin": "古英語 fang「つかむこと、獲物」",
+      "story": "もとは「つかまえたもの、獲物」。獲物をつかむ歯として「きば」の意味になった。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "tusk", "meaning": "（ゾウなどの）きば", "nuance": "口の外に長く伸びたきば。", "etymology": "古英語 tūx" },
+      { "word": "tooth", "meaning": "歯", "nuance": "歯全般。", "etymology": "古英語 tōth" },
+      { "word": "claw", "meaning": "かぎづめ", "nuance": "つめの攻撃。", "etymology": "古英語 clawu" }
+    ]
+  },
+  {
+    "id": "boomerang", "word": "boomerang", "katakana": "ブーメラン", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "ブーメラン",
+    "scene": "投げると戻ってくる武器。「ブーメラン発言（自分に返ってくる）」も。",
+    "example": { "en": "He threw the boomerang and it came back to him.", "ja": "彼がブーメランを投げると手元に戻ってきた。" },
+    "etymology": {
+      "origin": "オーストラリア先住民の言葉（ダルク語 bumariny とされる）",
+      "story": "オーストラリアの狩りの道具から。動詞で「（悪いことが）自分に返ってくる」という意味にも使う。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "frisbee", "meaning": "フリスビー", "nuance": "投げて遊ぶ円盤。", "etymology": "商標（パイ屋 Frisbie の皿から）" },
+      { "word": "backfire", "meaning": "裏目に出る", "nuance": "「自分に返ってくる」比喩の言いかえ。", "etymology": "back + fire" },
+      { "word": "throw", "meaning": "投げる", "nuance": "投げること全般。", "etymology": "古英語 thrāwan「ねじる」" }
+    ]
+  },
+  {
+    "id": "flail", "word": "flail", "katakana": "フレイル", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "フレイル（鎖でつながった打撃武器）、からざお",
+    "scene": "柄に鎖で鉄球をつないだ武器。もとは麦を打つ農具。",
+    "example": { "en": "The warrior swung a spiked flail.", "ja": "戦士はとげのついたフレイルを振り回した。" },
+    "etymology": {
+      "origin": "古英語 fligel ← ラテン語 flagellum「むち」",
+      "story": "麦の穂を叩いて実を落とす農具「からざお」から武器になった。動詞で「手足をばたばたさせる」。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "mace", "meaning": "メイス", "nuance": "柄と頭が一体の打撃武器。", "etymology": "古フランス語 masse" },
+      { "word": "whip", "meaning": "むち", "nuance": "しなるむち。", "etymology": "中英語 wippen" },
+      { "word": "chain", "meaning": "鎖", "nuance": "つなぐ鎖。", "etymology": "ラテン語 catēna" }
+    ]
+  },
+  {
+    "id": "orc", "word": "orc", "katakana": "オーク", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "オーク（ファンタジーの醜い戦士種族）",
+    "scene": "『指輪物語』から広まった怪物。ゲームではゴブリンより強い敵。",
+    "example": { "en": "An army of orcs attacked the village.", "ja": "オークの軍勢が村を襲った。" },
+    "etymology": {
+      "origin": "古英語 orc「悪魔」（ラテン語 Orcus「冥界の神」から）",
+      "story": "トールキンが古英語の orc（悪魔）を使って名づけた。海の生き物シャチ（orca）とは別語。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "goblin", "meaning": "ゴブリン", "nuance": "小さな鬼。", "etymology": "古フランス語 gobelin" },
+      { "word": "ogre", "meaning": "人食い鬼", "nuance": "大きな鬼。", "etymology": "フランス語 ogre" },
+      { "word": "brute", "meaning": "けだもの、乱暴者", "nuance": "力まかせの乱暴者。", "etymology": "ラテン語 brūtus「鈍い」" }
+    ]
+  },
+  {
+    "id": "drake", "word": "drake", "katakana": "ドレイク", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "竜（古語）、雄ガモ",
+    "scene": "小型の竜や、竜系モンスターの名前に。",
+    "example": { "en": "A fire drake guarded the treasure.", "ja": "火竜が宝を守っていた。" },
+    "etymology": {
+      "origin": "古英語 draca ← ラテン語 dracō「竜」",
+      "story": "dragon と同じ語源。「雄ガモ」の drake は別語源（ゲルマン語）。"
+    },
+    "roots": [],
+    "family": ["dragon（竜）"],
+    "synonyms": [
+      { "word": "dragon", "meaning": "竜", "nuance": "ふつうの言い方。", "etymology": "ギリシャ語 drákōn" },
+      { "word": "wyvern", "meaning": "ワイバーン", "nuance": "二本足の飛竜。", "etymology": "ラテン語 vīpera" },
+      { "word": "serpent", "meaning": "大蛇", "nuance": "竜に近い大きなヘビ。", "etymology": "ラテン語 serpēns" }
+    ]
+  },
+  {
+    "id": "pegasus", "word": "pegasus", "katakana": "ペガサス", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "ペガサス（翼のある馬）",
+    "scene": "空を飛ぶ白い馬。騎乗できる乗り物や、星座「ペガスス座」。",
+    "example": { "en": "The knight rode a pegasus across the sky.", "ja": "騎士はペガサスに乗って空を駆けた。" },
+    "etymology": {
+      "origin": "ギリシャ語 Pḗgasos（ギリシャ神話の天馬）",
+      "story": "英雄ペルセウスがメドゥーサを倒したとき、その血から生まれたとされる。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "unicorn", "meaning": "ユニコーン", "nuance": "角のある馬。", "etymology": "ラテン語 ūnicornis" },
+      { "word": "horse", "meaning": "馬", "nuance": "ふつうの馬。", "etymology": "古英語 hors" },
+      { "word": "griffin", "meaning": "グリフィン", "nuance": "ワシとライオンの獣。", "etymology": "ギリシャ語 grýps" }
+    ]
+  },
+  {
+    "id": "leviathan", "word": "leviathan", "katakana": "リヴァイアサン", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "リヴァイアサン（海の巨獣）、巨大なもの",
+    "scene": "海の召喚獣やボス。巨大な組織・国家のたとえにも。",
+    "example": { "en": "The company has become a leviathan of the tech world.", "ja": "その会社はIT業界の巨大企業になった。" },
+    "etymology": {
+      "origin": "ヘブライ語 liwyāthān（旧約聖書の海の怪物）",
+      "story": "ホッブズが国家を巨大な怪物にたとえた本『リヴァイアサン』でも有名。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "kraken", "meaning": "クラーケン", "nuance": "北欧伝説の海の怪物。", "etymology": "ノルウェー語 krake" },
+      { "word": "behemoth", "meaning": "ベヒモス", "nuance": "陸の巨獣。", "etymology": "ヘブライ語 bəhēmōth" },
+      { "word": "giant", "meaning": "巨大なもの", "nuance": "大きなものの一般語。", "etymology": "ギリシャ語 gígas" }
+    ]
+  },
+  {
+    "id": "behemoth", "word": "behemoth", "katakana": "ベヒモス", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "ベヒモス（陸の巨獣）、巨大なもの",
+    "scene": "角と怪力をもつ巨大な獣のボス。巨大企業のたとえにも。",
+    "example": { "en": "The new stadium is a behemoth.", "ja": "新しいスタジアムは巨大だ。" },
+    "etymology": {
+      "origin": "ヘブライ語 bəhēmōth「けものたち」",
+      "story": "旧約聖書ヨブ記の陸の怪物。海の怪物リヴァイアサンと対になる。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "leviathan", "meaning": "リヴァイアサン", "nuance": "海の巨獣。", "etymology": "ヘブライ語 liwyāthān" },
+      { "word": "monster", "meaning": "怪物", "nuance": "怪物全般。", "etymology": "ラテン語 mōnstrum" },
+      { "word": "giant", "meaning": "巨人、巨大なもの", "nuance": "一般的な語。", "etymology": "ギリシャ語 gígas" }
+    ]
+  },
+  {
+    "id": "minotaur", "word": "minotaur", "katakana": "ミノタウロス", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "ミノタウロス（牛頭人身の怪物）",
+    "scene": "迷宮のボスの定番。大きなおのを持つ牛の頭の怪物。",
+    "example": { "en": "Theseus killed the minotaur in the labyrinth.", "ja": "テセウスは迷宮でミノタウロスを倒した。" },
+    "etymology": {
+      "origin": "ギリシャ語 Mīnṓtauros ← Mínōs（クレタの王）+ taûros「雄牛」",
+      "story": "「ミノス王の雄牛」。taurus（おうし座）と同じ taur-（雄牛）。"
+    },
+    "roots": [],
+    "family": ["Taurus（おうし座）"],
+    "synonyms": [
+      { "word": "bull", "meaning": "雄牛", "nuance": "ふつうの雄牛。", "etymology": "古英語 bula" },
+      { "word": "centaur", "meaning": "ケンタウロス", "nuance": "馬の体に人の上半身。", "etymology": "ギリシャ語 Kéntauros" },
+      { "word": "labyrinth", "meaning": "迷宮", "nuance": "ミノタウロスがいた場所。", "etymology": "ギリシャ語 labýrinthos" }
+    ]
+  },
+  {
+    "id": "cyclops", "word": "cyclops", "katakana": "サイクロプス", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "キュクロプス（一つ目の巨人）",
+    "scene": "目が一つの巨人。岩を投げてくるボス。",
+    "example": { "en": "The cyclops had one huge eye.", "ja": "キュクロプスには大きな目が一つあった。" },
+    "etymology": {
+      "origin": "ギリシャ語 Kýklōps ← kýklos「円」+ ṓps「目」",
+      "story": "「丸い目」。cycle（円）と同じ kyklos。複数形は cyclopes。"
+    },
+    "roots": ["cycl"],
+    "family": ["cycle（周期）"],
+    "synonyms": [
+      { "word": "giant", "meaning": "巨人", "nuance": "大きな人。", "etymology": "ギリシャ語 gígas" },
+      { "word": "titan", "meaning": "巨神", "nuance": "神話の巨人族。", "etymology": "ギリシャ語 Titân" },
+      { "word": "ogre", "meaning": "人食い鬼", "nuance": "乱暴な大鬼。", "etymology": "フランス語 ogre" }
+    ]
+  },
+  {
+    "id": "harpy", "word": "harpy", "katakana": "ハーピー", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "ハルピュイア（女の顔と鳥の体の怪物）",
+    "scene": "空から襲ってくる鳥女の魔物。",
+    "example": { "en": "A harpy swooped down and grabbed the bag.", "ja": "ハーピーが急降下してかばんをつかんだ。" },
+    "etymology": {
+      "origin": "ギリシャ語 Hárpyiai「ひったくるもの」← harpázein「奪う」",
+      "story": "「さらっていくもの」が原義。ワシのハーピーイーグルはここから名づけられた。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "siren", "meaning": "セイレーン", "nuance": "歌で惑わす海の魔物。", "etymology": "ギリシャ語 Seirḗn" },
+      { "word": "griffin", "meaning": "グリフィン", "nuance": "空を飛ぶ獣。", "etymology": "ギリシャ語 grýps" },
+      { "word": "vulture", "meaning": "ハゲワシ", "nuance": "死肉を食べる鳥。", "etymology": "ラテン語 vultur" }
+    ]
+  },
+  {
+    "id": "centaur", "word": "centaur", "katakana": "ケンタウロス", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "ケンタウロス（上半身が人、下半身が馬）",
+    "scene": "弓を持った半人半馬の種族。星座の「いて座」「ケンタウルス座」も。",
+    "example": { "en": "The centaur was a skilled archer.", "ja": "そのケンタウロスは腕のいい射手だった。" },
+    "etymology": {
+      "origin": "ギリシャ語 Kéntauros（語源不詳）",
+      "story": "語源ははっきりしない。ギリシャ神話では賢者ケイローンが英雄たちの師として有名。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "minotaur", "meaning": "ミノタウロス", "nuance": "牛の頭の怪物。", "etymology": "ギリシャ語 Mīnṓtauros" },
+      { "word": "horse", "meaning": "馬", "nuance": "ケンタウロスの下半身。", "etymology": "古英語 hors" },
+      { "word": "archer", "meaning": "射手", "nuance": "ケンタウロスは弓の名手とされる。", "etymology": "ラテン語 arcus" }
+    ]
+  },
+  {
+    "id": "werewolf", "word": "werewolf", "katakana": "ウェアウルフ", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "オオカミ男、人狼",
+    "scene": "満月の夜にオオカミに変身する人。人狼ゲームは werewolf game。",
+    "example": { "en": "In the story, he turns into a werewolf at the full moon.", "ja": "物語では彼は満月の夜にオオカミ男になる。" },
+    "etymology": {
+      "origin": "古英語 werwulf ← wer「男、人」+ wulf「オオカミ」",
+      "story": "wer は「男」の古い語で、ラテン語 vir（男、virtue の語源）の親戚。つまり「人オオカミ」。"
+    },
+    "roots": [],
+    "family": ["wolf（オオカミ）"],
+    "synonyms": [
+      { "word": "wolf", "meaning": "オオカミ", "nuance": "ふつうのオオカミ。", "etymology": "古英語 wulf" },
+      { "word": "lycanthrope", "meaning": "人狼", "nuance": "学問的な言い方。", "etymology": "ギリシャ語 lýkos「オオカミ」+ ánthrōpos「人」" },
+      { "word": "shapeshifter", "meaning": "変身する者", "nuance": "姿を変える者全般。", "etymology": "shape + shift + -er" }
+    ]
+  },
+  {
+    "id": "specter", "word": "specter", "katakana": "スペクター", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "亡霊、（迫りくる）不安",
+    "scene": "不気味な亡霊の敵。「〜の影（恐れ）」の比喩でも使う。イギリス式つづりは spectre。",
+    "example": { "en": "The specter of war hung over the country.", "ja": "戦争の影がその国をおおっていた。" },
+    "etymology": {
+      "origin": "ラテン語 spectrum「姿、幻」← specere「見る」",
+      "story": "「見えるもの」が原義。spectrum（スペクトル）、spectator（観客）も同じ spec-（見る）。"
+    },
+    "roots": ["spec"],
+    "family": ["spectrum（スペクトル）", "spectator（観客）"],
+    "synonyms": [
+      { "word": "ghost", "meaning": "幽霊", "nuance": "ふつうの言い方。", "etymology": "古英語 gāst" },
+      { "word": "phantom", "meaning": "幻影", "nuance": "実体のない幻。", "etymology": "ギリシャ語 phántasma" },
+      { "word": "wraith", "meaning": "生霊、亡霊", "nuance": "死ぬ直前に現れる霊。", "etymology": "スコットランド語（語源不詳）" }
+    ]
+  },
+  {
+    "id": "wraith", "word": "wraith", "katakana": "レイス", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "亡霊、生霊",
+    "scene": "鎌を持つ死神のような霊の敵。",
+    "example": { "en": "A pale wraith drifted through the ruins.", "ja": "青白い亡霊が遺跡の中を漂っていた。" },
+    "etymology": {
+      "origin": "スコットランド語 wraith（16世紀、語源不詳）",
+      "story": "もとは「死ぬ直前の人の前に現れる、その人そっくりの霊」。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "ghost", "meaning": "幽霊", "nuance": "一般的な言い方。", "etymology": "古英語 gāst" },
+      { "word": "specter", "meaning": "亡霊", "nuance": "不気味な霊。", "etymology": "ラテン語 spectrum" },
+      { "word": "doppelganger", "meaning": "ドッペルゲンガー", "nuance": "自分とそっくりの分身。", "etymology": "ドイツ語 Doppelgänger" }
+    ]
+  },
+  {
+    "id": "mummy", "word": "mummy", "katakana": "マミー", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "ミイラ／ママ（イギリス英語）",
+    "scene": "包帯を巻いたミイラの敵。イギリスでは子どもが言う「ママ」も mummy。",
+    "example": { "en": "The mummy was found inside a pyramid.", "ja": "そのミイラはピラミッドの中で見つかった。" },
+    "etymology": {
+      "origin": "アラビア語 mūmiyā「防腐用のタール」← ペルシャ語 mūm「ろう」",
+      "story": "遺体に塗った防腐剤の名前が遺体そのものを表すようになった。「ママ」の mummy は別語源。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "corpse", "meaning": "死体", "nuance": "死体全般。", "etymology": "ラテン語 corpus" },
+      { "word": "zombie", "meaning": "ゾンビ", "nuance": "動く死体。", "etymology": "ハイチのクレオール語 zonbi" },
+      { "word": "pharaoh", "meaning": "ファラオ", "nuance": "古代エジプトの王。", "etymology": "エジプト語 pr-ʿꜣ「大きな家」" }
+    ]
+  },
+  {
+    "id": "imp", "word": "imp", "katakana": "インプ", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "小悪魔、いたずらっ子",
+    "scene": "小さな悪魔の雑魚敵。いたずらな子どものたとえにも。",
+    "example": { "en": "The little imp stole my coins.", "ja": "小悪魔が私のコインを盗んだ。" },
+    "etymology": {
+      "origin": "古英語 impa「若枝、接ぎ木」",
+      "story": "「接ぎ木の若枝」→「子孫、子ども」→「悪魔の子」→「小悪魔」と意味が変わった。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "goblin", "meaning": "小鬼", "nuance": "いたずら好きの小鬼。", "etymology": "古フランス語 gobelin" },
+      { "word": "demon", "meaning": "悪魔", "nuance": "悪魔全般。", "etymology": "ギリシャ語 daímōn" },
+      { "word": "rascal", "meaning": "いたずらっ子", "nuance": "わんぱくな子。", "etymology": "古フランス語 rascaille「くず」" }
+    ]
+  },
+  {
+    "id": "gargoyle", "word": "gargoyle", "katakana": "ガーゴイル", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "ガーゴイル（怪物の形をした雨どいの彫刻）",
+    "scene": "石像のふりをして動き出す魔物。本来は教会の屋根の雨水の吐き口。",
+    "example": { "en": "Gargoyles sit on the roof of the old church.", "ja": "古い教会の屋根にはガーゴイルが並んでいる。" },
+    "etymology": {
+      "origin": "古フランス語 gargouille「のど」",
+      "story": "口から雨水を吐き出す「のど」だったから。gargle（うがいする）も同じ語源。"
+    },
+    "roots": [],
+    "family": ["gargle（うがいする）"],
+    "synonyms": [
+      { "word": "statue", "meaning": "像", "nuance": "石や金属の像。", "etymology": "ラテン語 statua" },
+      { "word": "golem", "meaning": "ゴーレム", "nuance": "動く人形。", "etymology": "ヘブライ語 gōlem" },
+      { "word": "demon", "meaning": "悪魔", "nuance": "悪魔の姿の元。", "etymology": "ギリシャ語 daímōn" }
+    ]
+  },
+  {
+    "id": "snake", "word": "snake", "katakana": "スネーク", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "ヘビ",
+    "scene": "毒をもつ敵や、ゲーム「スネーク」。",
+    "example": { "en": "I saw a snake in the grass.", "ja": "草むらでヘビを見た。" },
+    "etymology": {
+      "origin": "古英語 snaca「はうもの」",
+      "story": "「はう」を意味する語根から。snail（カタツムリ）と関係があるとされる。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "serpent", "meaning": "大蛇", "nuance": "文学的な大きなヘビ。", "etymology": "ラテン語 serpēns" },
+      { "word": "cobra", "meaning": "コブラ", "nuance": "首を広げる毒ヘビ。", "etymology": "ポルトガル語 cobra" },
+      { "word": "viper", "meaning": "毒ヘビ", "nuance": "クサリヘビの仲間。", "etymology": "ラテン語 vīpera" }
+    ]
+  },
+  {
+    "id": "bee", "word": "bee", "katakana": "ビー", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "ミツバチ、ハチ",
+    "scene": "ハチ系の敵やキャラ。spelling bee は「つづり大会」。",
+    "example": { "en": "A bee landed on the flower.", "ja": "ハチが花にとまった。" },
+    "etymology": {
+      "origin": "古英語 bēo",
+      "story": "ゲルマン語の古い語。「集まり」の意味の bee（spelling bee）はハチが集まる様子から。"
+    },
+    "roots": [],
+    "family": ["beehive（ミツバチの巣）", "spelling bee（つづり大会）"],
+    "synonyms": [
+      { "word": "wasp", "meaning": "スズメバチ類", "nuance": "攻撃的な細い腰のハチ。", "etymology": "古英語 wæps" },
+      { "word": "hornet", "meaning": "スズメバチ", "nuance": "大きなハチ。", "etymology": "古英語 hyrnet" },
+      { "word": "honey", "meaning": "ハチミツ", "nuance": "ミツバチがつくるもの。", "etymology": "古英語 hunig" }
+    ]
+  },
+  {
+    "id": "hawk", "word": "hawk", "katakana": "ホーク", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "タカ、（政治の）タカ派",
+    "scene": "空から襲う鳥の敵や、鋭い目のキャラ名に。野球の「ホークス」も。",
+    "example": { "en": "The hawk caught a mouse.", "ja": "タカがネズミをつかまえた。" },
+    "etymology": {
+      "origin": "古英語 hafoc",
+      "story": "ゲルマン語の古い語で「つかむ」を意味する語根から。強硬派を hawk、穏健派を dove（ハト派）という。"
+    },
+    "roots": [],
+    "family": ["hawk-eyed（目の鋭い）"],
+    "synonyms": [
+      { "word": "eagle", "meaning": "ワシ", "nuance": "より大きな猛きん類。", "etymology": "ラテン語 aquila" },
+      { "word": "falcon", "meaning": "ハヤブサ", "nuance": "速い猛きん類。", "etymology": "ラテン語 falcō" },
+      { "word": "dove", "meaning": "ハト", "nuance": "ハト派（hawk の反対）。", "etymology": "古英語 *dūfe" }
+    ]
+  },
+  {
+    "id": "owl", "word": "owl", "katakana": "アウル", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "フクロウ",
+    "scene": "夜の森の敵や、知恵のある案内役。night owl は「夜型の人」。",
+    "example": { "en": "I'm a night owl, so I work best at night.", "ja": "私は夜型なので夜のほうが仕事がはかどる。" },
+    "etymology": {
+      "origin": "古英語 ūle",
+      "story": "鳴き声「ウー」をまねた語とされる。ギリシャ神話では知恵の女神アテナの鳥。"
+    },
+    "roots": [],
+    "family": ["owlet（フクロウのひな）"],
+    "synonyms": [
+      { "word": "raven", "meaning": "ワタリガラス", "nuance": "不吉な黒い鳥。", "etymology": "古英語 hræfn" },
+      { "word": "hawk", "meaning": "タカ", "nuance": "昼の猛きん類。", "etymology": "古英語 hafoc" },
+      { "word": "bat", "meaning": "コウモリ", "nuance": "夜に飛ぶほ乳類。", "etymology": "中英語 bakke" }
+    ]
+  },
+  {
+    "id": "crow", "word": "crow", "katakana": "クロウ", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "カラス",
+    "scene": "カラスの敵や、闇のキャラ名に。",
+    "example": { "en": "A crow was looking for food in the trash.", "ja": "カラスがゴミの中で食べ物を探していた。" },
+    "etymology": {
+      "origin": "古英語 crāwe",
+      "story": "鳴き声「カー」をまねた語。動詞の crow は「おんどりが鳴く、自慢する」。"
+    },
+    "roots": [],
+    "family": ["crowbar（バール）"],
+    "synonyms": [
+      { "word": "raven", "meaning": "ワタリガラス", "nuance": "大きなカラス。", "etymology": "古英語 hræfn" },
+      { "word": "blackbird", "meaning": "クロウタドリ", "nuance": "黒い小鳥。", "etymology": "black + bird" },
+      { "word": "magpie", "meaning": "カササギ", "nuance": "光るものを集める鳥。", "etymology": "Mag（女性名）+ pie「カササギ」" }
+    ]
+  },
+  {
+    "id": "octopus", "word": "octopus", "katakana": "オクトパス", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "タコ",
+    "scene": "足で絡みつく海の敵。",
+    "example": { "en": "An octopus has eight arms.", "ja": "タコには8本の腕がある。" },
+    "etymology": {
+      "origin": "ギリシャ語 oktṓpous ← oktṓ「8」+ poús「足」",
+      "story": "「8本足」。October（10月）ももとは「8番目の月」で、oct- は 8。"
+    },
+    "roots": [],
+    "family": ["October（10月）", "octave（オクターブ）"],
+    "synonyms": [
+      { "word": "squid", "meaning": "イカ", "nuance": "足が10本。", "etymology": "語源不詳" },
+      { "word": "kraken", "meaning": "クラーケン", "nuance": "伝説の巨大なイカ・タコ。", "etymology": "ノルウェー語 krake" },
+      { "word": "jellyfish", "meaning": "クラゲ", "nuance": "ぷかぷか浮く海の生き物。", "etymology": "jelly + fish" }
+    ]
+  },
+  {
+    "id": "squid", "word": "squid", "katakana": "スクイッド", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "イカ",
+    "scene": "墨を吐く海の敵。「イカ」のゲームやキャラでも。",
+    "example": { "en": "The squid shot out black ink.", "ja": "イカが黒い墨を吐いた。" },
+    "etymology": {
+      "origin": "語源不詳（17世紀の船乗りことば）",
+      "story": "水をしぶき（squirt）のように吐き出すことからという説がある。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "octopus", "meaning": "タコ", "nuance": "足が8本。", "etymology": "ギリシャ語 oktṓpous" },
+      { "word": "cuttlefish", "meaning": "コウイカ", "nuance": "甲のあるイカ。", "etymology": "古英語 cudele + fish" },
+      { "word": "calamari", "meaning": "イカ料理", "nuance": "料理名としてのイカ。", "etymology": "イタリア語 calamaro" }
+    ]
+  },
+  {
+    "id": "crab", "word": "crab", "katakana": "クラブ", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "カニ",
+    "scene": "かたい甲羅とはさみの敵。クラブ（club）とはつづりも発音も違う。",
+    "example": { "en": "A crab walked sideways on the beach.", "ja": "浜辺でカニが横歩きしていた。" },
+    "etymology": {
+      "origin": "古英語 crabba",
+      "story": "「引っかく」を意味するゲルマン語の語根から。星座のかに座は Cancer。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "lobster", "meaning": "ロブスター", "nuance": "大きなエビ。", "etymology": "古英語 loppestre" },
+      { "word": "shrimp", "meaning": "小エビ", "nuance": "小さなエビ。", "etymology": "中英語 shrimpe" },
+      { "word": "shell", "meaning": "殻", "nuance": "カニの甲羅。", "etymology": "古英語 sciell" }
+    ]
+  },
+  {
+    "id": "freeze", "word": "freeze", "katakana": "フリーズ", "pos": "動詞", "cefr": "B1", "level": 4,
+    "meaning": "凍る、凍らせる、（画面が）固まる",
+    "scene": "敵を凍らせる氷魔法や、ゲームが止まる「フリーズ」。",
+    "example": { "en": "The lake will freeze if it gets colder.", "ja": "もっと寒くなれば湖が凍るだろう。" },
+    "etymology": {
+      "origin": "古英語 frēosan「凍る」",
+      "story": "frost（霜）と同じ語源。過去形 froze、過去分詞 frozen（アナと雪の女王の原題 Frozen）。"
+    },
+    "roots": [],
+    "family": ["frozen（凍った）", "freezer（冷凍庫）", "frost（霜）"],
+    "synonyms": [
+      { "word": "chill", "meaning": "冷やす", "nuance": "ひんやりさせる。", "etymology": "古英語 ciele" },
+      { "word": "stop", "meaning": "止まる", "nuance": "動きが止まる。", "etymology": "古英語 -stoppian" },
+      { "word": "hang", "meaning": "（PCが）固まる", "nuance": "パソコンが止まる別の言い方。", "etymology": "古英語 hangian" }
+    ]
+  },
+  {
+    "id": "bolt", "word": "bolt", "katakana": "ボルト", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "稲妻、太矢、ボルト（ねじ）",
+    "scene": "雷の一撃「サンダーボルト」。ねじの「ボルト」、陸上のボルト選手と同じつづり。",
+    "example": { "en": "A bolt of lightning hit the tower.", "ja": "稲妻が塔を直撃した。" },
+    "etymology": {
+      "origin": "古英語 bolt「（クロスボウの）太矢」",
+      "story": "まっすぐ飛ぶ矢から、稲妻・かんぬき・ねじの意味に。bolt upright は「まっすぐに」。"
+    },
+    "roots": [],
+    "family": ["thunderbolt（雷電）"],
+    "synonyms": [
+      { "word": "lightning", "meaning": "稲妻", "nuance": "雷の光。", "etymology": "中英語 lightnen" },
+      { "word": "arrow", "meaning": "矢", "nuance": "弓の矢。", "etymology": "古英語 earh" },
+      { "word": "screw", "meaning": "ねじ", "nuance": "ねじの一般語。", "etymology": "古フランス語 escroue" }
+    ]
+  },
+  {
+    "id": "spark", "word": "spark", "katakana": "スパーク", "pos": "名詞・動詞", "cefr": "B2", "level": 5,
+    "meaning": "火花／火花を出す、引き起こす",
+    "scene": "電気の小さな魔法や「スパーク」する演出。「議論を引き起こす」にも使う。",
+    "example": { "en": "His comment sparked a big debate.", "ja": "彼の発言は大きな議論を引き起こした。" },
+    "etymology": {
+      "origin": "古英語 spearca",
+      "story": "パチッと飛ぶ火花から、「きっかけになる」の意味に。sparkle は「きらきら光る」。"
+    },
+    "roots": [],
+    "family": ["sparkle（きらめく）", "sparkling（炭酸入りの）"],
+    "synonyms": [
+      { "word": "flash", "meaning": "閃光", "nuance": "ぱっと光ること。", "etymology": "中英語 flaschen" },
+      { "word": "trigger", "meaning": "引き起こす", "nuance": "きっかけになる。", "etymology": "オランダ語 trekker" },
+      { "word": "flicker", "meaning": "ちらちらする", "nuance": "明かりがゆらぐ。", "etymology": "古英語 flicorian" }
+    ]
+  },
+  {
+    "id": "wind", "word": "wind", "katakana": "ウインド", "pos": "名詞", "cefr": "A1", "level": 2,
+    "meaning": "風",
+    "scene": "風属性の魔法。「ウインドブレーカー」も。",
+    "example": { "en": "The wind is very strong today.", "ja": "今日は風がとても強い。" },
+    "etymology": {
+      "origin": "古英語 wind",
+      "story": "ラテン語 ventus（風、ventilation 換気の語源）と同じ印欧語の語根。「巻く」の wind（ワインド）は別の語。"
+    },
+    "roots": [],
+    "family": ["windmill（風車）", "window（窓＝風の目）"],
+    "synonyms": [
+      { "word": "breeze", "meaning": "そよ風", "nuance": "おだやかな風。", "etymology": "スペイン語 briza" },
+      { "word": "gust", "meaning": "突風", "nuance": "急に吹く強い風。", "etymology": "古ノルド語 gustr" },
+      { "word": "storm", "meaning": "嵐", "nuance": "強い雨風。", "etymology": "古英語 storm" }
+    ]
+  },
+  {
+    "id": "gust", "word": "gust", "katakana": "ガスト", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "突風",
+    "scene": "風の魔法「ガスト」。敵を吹き飛ばす一陣の風。",
+    "example": { "en": "A gust of wind blew my hat off.", "ja": "突風で帽子が飛ばされた。" },
+    "etymology": {
+      "origin": "古ノルド語 gustr「ひと吹き」",
+      "story": "急に強く吹く風。gusty は「突風の多い」。"
+    },
+    "roots": [],
+    "family": ["gusty（突風の吹く）"],
+    "synonyms": [
+      { "word": "wind", "meaning": "風", "nuance": "風全般。", "etymology": "古英語 wind" },
+      { "word": "blast", "meaning": "突風、爆風", "nuance": "強い一吹き。", "etymology": "古英語 blǣst" },
+      { "word": "breeze", "meaning": "そよ風", "nuance": "弱い風。", "etymology": "スペイン語 briza" }
+    ]
+  },
+  {
+    "id": "quake", "word": "quake", "katakana": "クエイク", "pos": "名詞・動詞", "cefr": "C1", "level": 6,
+    "meaning": "地震（口語）／揺れる、震える",
+    "scene": "大地を揺らす土魔法「クエイク」。",
+    "example": { "en": "The ground began to quake.", "ja": "地面が揺れ始めた。" },
+    "etymology": {
+      "origin": "古英語 cwacian「震える」",
+      "story": "earthquake（地震）の短い言い方としても使う。"
+    },
+    "roots": [],
+    "family": ["earthquake（地震）"],
+    "synonyms": [
+      { "word": "shake", "meaning": "揺れる", "nuance": "ふつうの「揺れる」。", "etymology": "古英語 sceacan" },
+      { "word": "tremble", "meaning": "震える", "nuance": "小刻みに震える。", "etymology": "ラテン語 tremulus" },
+      { "word": "earthquake", "meaning": "地震", "nuance": "正式な言い方。", "etymology": "earth + quake" }
+    ]
+  },
+  {
+    "id": "earthquake", "word": "earthquake", "katakana": "アースクエイク", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "地震",
+    "scene": "全体攻撃の土魔法。",
+    "example": { "en": "There was a small earthquake last night.", "ja": "昨夜小さな地震があった。" },
+    "etymology": {
+      "origin": "earth「大地」+ quake「揺れる」",
+      "story": "「大地の揺れ」そのまま。"
+    },
+    "roots": [],
+    "family": ["quake（揺れる）"],
+    "synonyms": [
+      { "word": "quake", "meaning": "地震（口語）", "nuance": "短い言い方。", "etymology": "古英語 cwacian" },
+      { "word": "tremor", "meaning": "微震、震え", "nuance": "小さな揺れ。", "etymology": "ラテン語 tremor" },
+      { "word": "tsunami", "meaning": "津波", "nuance": "日本語から英語になった語。", "etymology": "日本語「津波」" }
+    ]
+  },
+  {
+    "id": "comet", "word": "comet", "katakana": "コメット", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "彗星",
+    "scene": "空から降る流星系の魔法「コメット」。",
+    "example": { "en": "We saw a comet in the night sky.", "ja": "夜空に彗星が見えた。" },
+    "etymology": {
+      "origin": "ギリシャ語 komḗtēs「長い髪の（星）」← kómē「髪」",
+      "story": "長く尾をひく姿を髪にたとえた。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "meteor", "meaning": "流星", "nuance": "大気中で燃える小さな天体。", "etymology": "ギリシャ語 metéōron" },
+      { "word": "star", "meaning": "星", "nuance": "星全般。", "etymology": "古英語 steorra" },
+      { "word": "asteroid", "meaning": "小惑星", "nuance": "太陽を回る岩の天体。", "etymology": "ギリシャ語 astēr + -oid" }
+    ]
+  },
+  {
+    "id": "void", "word": "void", "katakana": "ヴォイド", "pos": "名詞・形容詞", "cefr": "C1", "level": 6,
+    "meaning": "空虚、何もない空間／無効の",
+    "scene": "闇や無属性の奥義「ヴォイド」。契約が「無効」の意味も。",
+    "example": { "en": "His death left a void in her life.", "ja": "彼の死は彼女の人生にぽっかり穴をあけた。" },
+    "etymology": {
+      "origin": "古フランス語 voide「空の」← ラテン語 vacuus「空の」",
+      "story": "vacuum（真空）、vacant（空いている）、avoid（避ける）と同じ語源。"
+    },
+    "roots": [],
+    "family": ["avoid（避ける）", "vacuum（真空）"],
+    "synonyms": [
+      { "word": "emptiness", "meaning": "からっぽ", "nuance": "何もない状態。", "etymology": "古英語 ǣmettig" },
+      { "word": "vacuum", "meaning": "真空", "nuance": "空気のない空間。", "etymology": "ラテン語 vacuus" },
+      { "word": "abyss", "meaning": "深淵", "nuance": "底知れない深み。", "etymology": "ギリシャ語 ábyssos「底なしの」" }
+    ]
+  },
+  {
+    "id": "shell", "word": "shell", "katakana": "シェル", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "殻、貝殻、砲弾",
+    "scene": "防御魔法「シェル」や、かたい殻の敵。石油会社シェルのマークも貝殻。",
+    "example": { "en": "We collected shells on the beach.", "ja": "浜辺で貝殻を集めた。" },
+    "etymology": {
+      "origin": "古英語 sciell",
+      "story": "殻のようにおおうものから、コンピュータの「シェル」やからの「砲弾」の意味にも。"
+    },
+    "roots": [],
+    "family": ["seashell（貝殻）", "shellfish（貝・甲殻類）"],
+    "synonyms": [
+      { "word": "husk", "meaning": "外皮", "nuance": "穀物の皮。", "etymology": "中英語 huske" },
+      { "word": "armor", "meaning": "よろい", "nuance": "体を守るもの。", "etymology": "ラテン語 armātūra" },
+      { "word": "barrier", "meaning": "障壁", "nuance": "防ぐ壁。", "etymology": "古フランス語 barriere" }
+    ]
+  },
+  {
+    "id": "haste", "word": "haste", "katakana": "ヘイスト", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "急ぐこと、あわてること",
+    "scene": "素早さを上げる補助魔法「ヘイスト」。Haste makes waste. は「急いては事をし損じる」。",
+    "example": { "en": "Haste makes waste.", "ja": "急いては事をし損じる。" },
+    "etymology": {
+      "origin": "古フランス語 haste（ゲルマン語起源）",
+      "story": "形容詞 hasty は「急いだ、軽率な」。"
+    },
+    "roots": [],
+    "family": ["hasty（急いだ）", "hasten（急がせる）"],
+    "synonyms": [
+      { "word": "hurry", "meaning": "急ぐこと", "nuance": "日常語。", "etymology": "語源不詳（16世紀〜）" },
+      { "word": "speed", "meaning": "速さ", "nuance": "速度。", "etymology": "古英語 spēd" },
+      { "word": "rush", "meaning": "急ぐこと", "nuance": "大急ぎ。", "etymology": "古フランス語 ruser" }
+    ]
+  },
+  {
+    "id": "sleep", "word": "sleep", "katakana": "スリープ", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
+    "meaning": "眠る／眠り",
+    "scene": "敵を眠らせる状態異常「スリープ」。パソコンの「スリープ」も。",
+    "example": { "en": "I usually sleep for seven hours.", "ja": "私はふだん7時間眠る。" },
+    "etymology": {
+      "origin": "古英語 slǣpan",
+      "story": "過去形は slept。sleepy は「眠い」、asleep は「眠って」。"
+    },
+    "roots": [],
+    "family": ["sleepy（眠い）", "asleep（眠って）"],
+    "synonyms": [
+      { "word": "nap", "meaning": "昼寝", "nuance": "短い眠り。", "etymology": "古英語 hnappian" },
+      { "word": "rest", "meaning": "休む", "nuance": "体を休める。", "etymology": "古英語 ræst" },
+      { "word": "doze", "meaning": "うたた寝する", "nuance": "うとうとする。", "etymology": "古ノルド語 dúsa" }
+    ]
+  },
+  {
+    "id": "confuse", "word": "confuse", "katakana": "コンフュ", "pos": "動詞", "cefr": "B1", "level": 4,
+    "meaning": "混乱させる、取り違える",
+    "scene": "敵が味方を攻撃する状態異常「混乱（コンフュ）」。",
+    "example": { "en": "These two words always confuse me.", "ja": "この二つの単語はいつもまぎらわしい。" },
+    "etymology": {
+      "origin": "ラテン語 cōnfundere「混ぜ合わせる」← con-「一緒に」+ fundere「注ぐ」",
+      "story": "「一緒に注いで混ぜる」→「区別がつかなくする」。fusion（融合）と同じ fundere の仲間。"
+    },
+    "roots": [],
+    "family": ["confusion（混乱）", "fusion（融合）"],
+    "synonyms": [
+      { "word": "puzzle", "meaning": "悩ませる", "nuance": "考えこませる。", "etymology": "語源不詳（16世紀〜）" },
+      { "word": "mix up", "meaning": "取り違える", "nuance": "日常語の「ごっちゃにする」。", "etymology": "ラテン語 mixtus" },
+      { "word": "bewilder", "meaning": "当惑させる", "nuance": "すっかり迷わせる。", "etymology": "be- + wilder「迷わせる」" }
+    ]
+  },
+  {
+    "id": "paralyze", "word": "paralyze", "katakana": "パラライズ", "pos": "動詞", "cefr": "C1", "level": 6,
+    "meaning": "まひさせる、動けなくする",
+    "scene": "動けなくなる状態異常「まひ（パラライズ）」。イギリス式つづりは paralyse。",
+    "example": { "en": "The snake's venom can paralyze its prey.", "ja": "そのヘビの毒は獲物をまひさせる。" },
+    "etymology": {
+      "origin": "ギリシャ語 parálysis「体の片側がゆるむこと」← pará-「そばで」+ lýein「ゆるめる」",
+      "story": "名詞は paralysis（まひ）。交通がまひする、のようにも使う。"
+    },
+    "roots": [],
+    "family": ["paralysis（まひ）"],
+    "synonyms": [
+      { "word": "stun", "meaning": "気絶させる", "nuance": "一時的に動けなくする。", "etymology": "古フランス語 estoner" },
+      { "word": "freeze", "meaning": "固まらせる", "nuance": "動きを止める。", "etymology": "古英語 frēosan" },
+      { "word": "numb", "meaning": "しびれさせる", "nuance": "感覚をなくす。", "etymology": "中英語 nomen「取られた」" }
+    ]
+  },
+  {
+    "id": "break", "word": "break", "katakana": "ブレイク", "pos": "動詞・名詞", "cefr": "A1", "level": 2,
+    "meaning": "壊す、破る／休憩",
+    "scene": "敵の防御を崩す「ブレイク」。「ブレイクする（大人気になる）」「コーヒーブレイク」も。",
+    "gap": "日本語の「ブレイクする（大人気になる）」は英語では make it big や become a hit。英語の break は「壊す」「休憩」がふつうの意味。",
+    "example": { "en": "Let's take a short break.", "ja": "少し休憩しよう。" },
+    "etymology": {
+      "origin": "古英語 brecan",
+      "story": "過去形 broke、過去分詞 broken。「流れを破る」ことから休憩、breakfast（断食を破る＝朝食）も。"
+    },
+    "roots": [],
+    "family": ["breakfast（朝食）", "broken（壊れた）"],
+    "synonyms": [
+      { "word": "smash", "meaning": "粉々にする", "nuance": "強く打ち砕く。", "etymology": "擬音語" },
+      { "word": "crack", "meaning": "ひびを入れる", "nuance": "割れ目を入れる。", "etymology": "古英語 cracian" },
+      { "word": "rest", "meaning": "休憩", "nuance": "「休憩」の意味での言いかえ。", "etymology": "古英語 ræst" }
+    ]
+  },
+  {
+    "id": "dodge", "word": "dodge", "katakana": "ドッジ", "pos": "動詞", "cefr": "C1", "level": 6,
+    "meaning": "（さっと）よける、かわす",
+    "scene": "攻撃を回避する「ドッジ」。「ドッジボール」は dodgeball。",
+    "example": { "en": "He dodged the ball.", "ja": "彼はボールをさっとよけた。" },
+    "etymology": {
+      "origin": "語源不詳（16世紀〜）",
+      "story": "「身をかわす」から、質問や税金を「うまく逃れる」の意味にも使う（tax dodge）。"
+    },
+    "roots": [],
+    "family": ["dodgeball（ドッジボール）"],
+    "synonyms": [
+      { "word": "avoid", "meaning": "避ける", "nuance": "近づかないようにする。", "etymology": "古フランス語 esvuidier" },
+      { "word": "evade", "meaning": "かわす、逃れる", "nuance": "うまく逃れる。", "etymology": "ラテン語 ēvādere" },
+      { "word": "parry", "meaning": "受け流す", "nuance": "武器で攻撃をそらす。", "etymology": "フランス語 parer" }
+    ]
+  },
+  {
+    "id": "finish", "word": "finish", "katakana": "フィニッシュ", "pos": "動詞・名詞", "cefr": "A2", "level": 3,
+    "meaning": "終える／終わり、仕上げ",
+    "scene": "とどめの「フィニッシュ」技。体操の「フィニッシュ」も。",
+    "example": { "en": "I finished my homework before dinner.", "ja": "夕食前に宿題を終えた。" },
+    "etymology": {
+      "origin": "古フランス語 finir ← ラテン語 fīnīre ← fīnis「終わり」",
+      "story": "final（最後の）、finale（フィナーレ）、define（定義する＝境界を決める）と同じ fin-（終わり）。"
+    },
+    "roots": [],
+    "family": ["final（最後の）", "finale（フィナーレ）"],
+    "synonyms": [
+      { "word": "end", "meaning": "終える", "nuance": "ふつうの「終わる」。", "etymology": "古英語 ende" },
+      { "word": "complete", "meaning": "完成させる", "nuance": "すべてやり遂げる。", "etymology": "ラテン語 complēre「満たす」" },
+      { "word": "conclude", "meaning": "締めくくる", "nuance": "結論を出して終える。", "etymology": "ラテン語 conclūdere" }
+    ]
+  },
+  {
+    "id": "wave", "word": "wave", "katakana": "ウェーブ", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
+    "meaning": "波／手を振る",
+    "scene": "衝撃波の技「〇〇ウェーブ」や、敵が押し寄せる「ウェーブ」。",
+    "example": { "en": "She waved goodbye to us.", "ja": "彼女は私たちに手を振って別れを告げた。" },
+    "etymology": {
+      "origin": "古英語 wafian「手を振る」",
+      "story": "手を揺らす動作から「波」の意味が生まれた。heat wave は「熱波」。"
+    },
+    "roots": [],
+    "family": ["microwave（電子レンジ）", "heat wave（熱波）"],
+    "synonyms": [
+      { "word": "tide", "meaning": "潮", "nuance": "潮の満ち引き。", "etymology": "古英語 tīd「時」" },
+      { "word": "ripple", "meaning": "さざ波", "nuance": "小さな波。", "etymology": "語源不詳" },
+      { "word": "surge", "meaning": "大波、急増", "nuance": "押し寄せる波。", "etymology": "ラテン語 surgere「立ち上がる」" }
+    ]
+  },
+  {
+    "id": "nova", "word": "nova", "katakana": "ノヴァ", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "新星（急に明るく輝く星）",
+    "scene": "爆発的な光の魔法「ノヴァ」「スーパーノヴァ」。",
+    "example": { "en": "A nova can suddenly become thousands of times brighter.", "ja": "新星は突然何千倍も明るくなることがある。" },
+    "etymology": {
+      "origin": "ラテン語 nova (stella)「新しい（星）」",
+      "story": "急に明るくなった星が「新しく生まれた星」に見えたことから。novel（新しい、小説）と同じ nov-。"
+    },
+    "roots": ["nov"],
+    "family": ["supernova（超新星）", "novel（小説）"],
+    "synonyms": [
+      { "word": "star", "meaning": "星", "nuance": "星全般。", "etymology": "古英語 steorra" },
+      { "word": "explosion", "meaning": "爆発", "nuance": "激しい破裂。", "etymology": "ラテン語 explōdere" },
+      { "word": "flare", "meaning": "閃光", "nuance": "ぱっと燃える光。", "etymology": "語源不詳" }
+    ]
+  },
+  {
+    "id": "strength", "word": "strength", "katakana": "ストレングス", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "力、強さ、長所",
+    "scene": "ステータスの「力（STR）」。「強み」の意味でもよく使う。",
+    "example": { "en": "Patience is one of her strengths.", "ja": "忍耐強さは彼女の長所の一つだ。" },
+    "etymology": {
+      "origin": "古英語 strengthu ← strang「強い」",
+      "story": "strong（強い）の名詞形。strengthen は「強める」。"
+    },
+    "roots": [],
+    "family": ["strong（強い）", "strengthen（強化する）"],
+    "synonyms": [
+      { "word": "power", "meaning": "力", "nuance": "力全般。", "etymology": "ラテン語 posse「できる」" },
+      { "word": "might", "meaning": "力", "nuance": "文語的な大きな力。", "etymology": "古英語 miht" },
+      { "word": "weakness", "meaning": "弱さ、短所", "nuance": "strength の反対。", "etymology": "古ノルド語 veikr" }
+    ]
+  },
+  {
+    "id": "experience", "word": "experience", "katakana": "エクスペリエンス", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "経験",
+    "scene": "敵を倒すともらえる「経験値（EXP）」。",
+    "example": { "en": "I got a lot of experience points from the boss.", "ja": "ボスからたくさん経験値をもらった。" },
+    "etymology": {
+      "origin": "ラテン語 experientia「試すこと」← experīrī「試す」",
+      "story": "experiment（実験）、expert（専門家＝試した人）と同じ語源。"
+    },
+    "roots": [],
+    "family": ["experiment（実験）", "expert（専門家）"],
+    "synonyms": [
+      { "word": "practice", "meaning": "練習", "nuance": "くり返しやること。", "etymology": "ギリシャ語 praktikós" },
+      { "word": "knowledge", "meaning": "知識", "nuance": "知っていること。", "etymology": "古英語 cnāwan" },
+      { "word": "skill", "meaning": "技能", "nuance": "身につけた腕前。", "etymology": "古ノルド語 skil" }
+    ]
+  },
+  {
+    "id": "buff", "word": "buff", "katakana": "バフ", "pos": "名詞・動詞", "cefr": "C1", "level": 6,
+    "meaning": "（ゲーム）強化／磨く、〜マニア",
+    "scene": "味方の能力を上げる「バフ」。映画好きは film buff。",
+    "example": { "en": "The healer gave everyone a speed buff.", "ja": "回復役が全員に速さのバフをかけた。" },
+    "etymology": {
+      "origin": "フランス語 buffle「水牛」",
+      "story": "水牛の革で金属を磨いたことから「磨く」。筋肉を「磨いた」体を buff（ムキムキの）といい、ゲームでは「強化」の意味に。"
+    },
+    "roots": [],
+    "family": ["buffalo（水牛）"],
+    "synonyms": [
+      { "word": "boost", "meaning": "押し上げる", "nuance": "数値を上げる。", "etymology": "語源不詳（19世紀アメリカ）" },
+      { "word": "enhance", "meaning": "高める", "nuance": "質を高める。", "etymology": "古フランス語 enhaucier" },
+      { "word": "debuff", "meaning": "弱体化", "nuance": "buff の反対。", "etymology": "de- + buff" }
+    ]
+  },
+  {
+    "id": "debuff", "word": "debuff", "katakana": "デバフ", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "（ゲーム）弱体化",
+    "scene": "敵の能力を下げる「デバフ」。",
+    "example": { "en": "The boss put a debuff on our whole team.", "ja": "ボスがチーム全体にデバフをかけた。" },
+    "etymology": {
+      "origin": "de-「下げる」+ buff「強化」",
+      "story": "ゲームから生まれた新しい語。de- は decrease（減る）、devalue（価値を下げる）の de-。"
+    },
+    "roots": [],
+    "family": ["buff（強化）"],
+    "synonyms": [
+      { "word": "weaken", "meaning": "弱める", "nuance": "力を落とす。", "etymology": "古ノルド語 veikr" },
+      { "word": "curse", "meaning": "呪い", "nuance": "悪い効果をかける。", "etymology": "古英語 curs" },
+      { "word": "penalty", "meaning": "ペナルティ", "nuance": "罰。", "etymology": "ラテン語 poena" }
+    ]
+  },
+  {
+    "id": "cooldown", "word": "cooldown", "katakana": "クールダウン", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "（技の）再使用までの待ち時間、整理運動",
+    "scene": "技を使ったあとにもう一度使えるまでの時間「クールタイム」。運動後の「クールダウン」も。",
+    "gap": "日本語の「クールタイム」は和製英語で、英語では cooldown という。",
+    "example": { "en": "This skill has a ten-second cooldown.", "ja": "この技は再使用まで10秒かかる。" },
+    "etymology": {
+      "origin": "cool「冷ます」+ down",
+      "story": "熱くなった機械やからだを「冷ます」ことから。日本語の「クールタイム」は和製英語。"
+    },
+    "roots": [],
+    "family": ["cool down（冷ます）"],
+    "synonyms": [
+      { "word": "recharge", "meaning": "再充電", "nuance": "エネルギーをためなおす。", "etymology": "re- + charge" },
+      { "word": "delay", "meaning": "遅れ", "nuance": "待ち時間。", "etymology": "古フランス語 delaier" },
+      { "word": "rest", "meaning": "休憩", "nuance": "体を休める。", "etymology": "古英語 ræst" }
+    ]
+  },
+  {
+    "id": "spawn", "word": "spawn", "katakana": "スポーン", "pos": "動詞・名詞", "cefr": "C1", "level": 6,
+    "meaning": "（キャラや敵が）出現する、生み出す／（魚などの）卵",
+    "scene": "敵が出てくる「スポーン」、倒れたあとの「リスポーン（respawn）」。",
+    "example": { "en": "Enemies spawn near the gate every minute.", "ja": "敵は1分ごとに門の近くに出現する。" },
+    "etymology": {
+      "origin": "古フランス語 espandre「まき散らす」← ラテン語 expandere「広げる」",
+      "story": "魚やカエルが卵を「まき散らす」ことから「生み出す」に。expand（広げる）と同じ語源。"
+    },
+    "roots": [],
+    "family": ["respawn（再出現）", "expand（広げる）"],
+    "synonyms": [
+      { "word": "appear", "meaning": "現れる", "nuance": "姿を見せる。", "etymology": "ラテン語 appārēre" },
+      { "word": "generate", "meaning": "生み出す", "nuance": "つくり出す。", "etymology": "ラテン語 generāre" },
+      { "word": "breed", "meaning": "繁殖する", "nuance": "子を産んで増える。", "etymology": "古英語 brēdan" }
+    ]
+  },
+  {
+    "id": "loot", "word": "loot", "katakana": "ルート", "pos": "名詞・動詞", "cefr": "C1", "level": 6,
+    "meaning": "戦利品、ドロップ品／略奪する",
+    "scene": "敵を倒して拾うアイテム「ルート」。route（道）とは別の語。",
+    "example": { "en": "We collected all the loot after the battle.", "ja": "戦いのあと、戦利品をすべて集めた。" },
+    "etymology": {
+      "origin": "ヒンディー語 lūṭ「略奪品」← サンスクリット語 luṇṭ「奪う」",
+      "story": "18世紀にインドから英語に入った。現実には「略奪する」という重い意味。"
+    },
+    "roots": [],
+    "family": ["looting（略奪）"],
+    "synonyms": [
+      { "word": "treasure", "meaning": "宝", "nuance": "価値のある物。", "etymology": "ギリシャ語 thēsaurós" },
+      { "word": "prize", "meaning": "賞品", "nuance": "勝って得るもの。", "etymology": "古フランス語 pris「値段」" },
+      { "word": "booty", "meaning": "戦利品", "nuance": "奪った財宝。", "etymology": "中低地ドイツ語 bute" }
+    ]
+  },
+  {
+    "id": "drop", "word": "drop", "katakana": "ドロップ", "pos": "動詞・名詞", "cefr": "A2", "level": 3,
+    "meaning": "落とす、落ちる／しずく、ドロップ品",
+    "scene": "敵がアイテムを落とす「ドロップ」。飴の「ドロップ」もしずく形から。",
+    "example": { "en": "The boss dropped a rare sword.", "ja": "ボスがレアな剣を落とした。" },
+    "etymology": {
+      "origin": "古英語 dropa「しずく」",
+      "story": "しずくが「落ちる」ことから動詞に。drop out は「脱落する」。"
+    },
+    "roots": [],
+    "family": ["dropout（中退者）", "raindrop（雨粒）"],
+    "synonyms": [
+      { "word": "fall", "meaning": "落ちる", "nuance": "自然に落ちる。", "etymology": "古英語 feallan" },
+      { "word": "loot", "meaning": "戦利品", "nuance": "ゲームで拾うもの。", "etymology": "ヒンディー語 lūṭ" },
+      { "word": "drip", "meaning": "したたる", "nuance": "ぽたぽた落ちる。", "etymology": "古英語 dryppan" }
+    ]
+  },
+  {
+    "id": "mage", "word": "mage", "katakana": "メイジ", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "魔法使い、魔導士",
+    "scene": "ゲームの魔法職の名前。wizard より格式ばった響き。",
+    "example": { "en": "The mage cast a fire spell.", "ja": "魔導士は炎の呪文を唱えた。" },
+    "etymology": {
+      "origin": "ラテン語 magus「（ペルシャの）祭司、魔術師」",
+      "story": "magic（魔法）、magician と同じ語源。聖書の東方の三博士は the Magi。"
+    },
+    "roots": [],
+    "family": ["magic（魔法）", "Magi（東方の三博士）"],
+    "synonyms": [
+      { "word": "wizard", "meaning": "魔法使い", "nuance": "一般的な言い方。", "etymology": "中英語 wysard" },
+      { "word": "sorcerer", "meaning": "魔術師", "nuance": "闇の魔法も使う。", "etymology": "古フランス語 sorcier" },
+      { "word": "magician", "meaning": "マジシャン", "nuance": "手品師。", "etymology": "ギリシャ語 magikós" }
+    ]
+  },
+  {
+    "id": "hunter", "word": "hunter", "katakana": "ハンター", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "狩人、ハンター",
+    "scene": "モンスターを狩る職業。「〇〇ハンター」系のゲームも。",
+    "example": { "en": "The hunter walked into the forest.", "ja": "狩人は森に入っていった。" },
+    "etymology": {
+      "origin": "古英語 huntian「狩る」+ -er",
+      "story": "hunt（狩る）の人。job hunting は「就職活動」。"
+    },
+    "roots": [],
+    "family": ["hunt（狩る）", "headhunter（ヘッドハンター）"],
+    "synonyms": [
+      { "word": "ranger", "meaning": "レンジャー", "nuance": "野外で活動する人。", "etymology": "range + -er" },
+      { "word": "archer", "meaning": "射手", "nuance": "弓を使う人。", "etymology": "ラテン語 arcus" },
+      { "word": "tracker", "meaning": "追跡者", "nuance": "足跡を追う人。", "etymology": "古フランス語 trac" }
+    ]
+  },
+  {
+    "id": "rogue", "word": "rogue", "katakana": "ローグ", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "ならず者、悪党、（ゲーム）盗賊職",
+    "scene": "すばやい盗賊の職業。「ローグライク」というゲームジャンルは古いゲーム Rogue から。",
+    "example": { "en": "He was a lovable rogue.", "ja": "彼は憎めない悪党だった。" },
+    "etymology": {
+      "origin": "語源不詳（16世紀。ラテン語 rogāre「頼む」→「物乞い」とも）",
+      "story": "もとは「放浪する物乞い」。群れから離れて暴れる象は rogue elephant。"
+    },
+    "roots": [],
+    "family": ["roguelike（ローグライク）"],
+    "synonyms": [
+      { "word": "thief", "meaning": "泥棒", "nuance": "盗む人。", "etymology": "古英語 thēof" },
+      { "word": "villain", "meaning": "悪役", "nuance": "物語の悪者。", "etymology": "ラテン語 vīllānus「農場の人」" },
+      { "word": "rascal", "meaning": "いたずら者", "nuance": "悪がき。", "etymology": "古フランス語 rascaille" }
+    ]
+  },
+  {
+    "id": "cleric", "word": "cleric", "katakana": "クレリック", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "聖職者、（ゲーム）僧侶",
+    "scene": "回復魔法と打撃武器を使う職業。",
+    "example": { "en": "The cleric healed the wounded knight.", "ja": "僧侶は傷ついた騎士を治した。" },
+    "etymology": {
+      "origin": "ギリシャ語 klērikós ← klêros「くじ、神に割り当てられた分」",
+      "story": "clerk（事務員）も同じ語源。昔は読み書きできるのは聖職者だったため。"
+    },
+    "roots": [],
+    "family": ["clerk（事務員）", "clergy（聖職者たち）"],
+    "synonyms": [
+      { "word": "priest", "meaning": "司祭", "nuance": "聖職者。", "etymology": "ギリシャ語 presbýteros" },
+      { "word": "monk", "meaning": "修道士", "nuance": "修道院の人。", "etymology": "ギリシャ語 monachós" },
+      { "word": "healer", "meaning": "回復役", "nuance": "いやす人。", "etymology": "heal + -er" }
+    ]
+  },
+  {
+    "id": "dancer", "word": "dancer", "katakana": "ダンサー", "pos": "名詞", "cefr": "A1", "level": 2,
+    "meaning": "ダンサー、踊り手",
+    "scene": "踊りで味方を強化する職業。",
+    "example": { "en": "She wants to be a professional dancer.", "ja": "彼女はプロのダンサーになりたい。" },
+    "etymology": {
+      "origin": "dance「踊る」+ -er ← 古フランス語 dancer",
+      "story": "dance はさらにフランク語から来たとされる。"
+    },
+    "roots": [],
+    "family": ["dance（踊る）"],
+    "synonyms": [
+      { "word": "performer", "meaning": "演者", "nuance": "舞台で演じる人。", "etymology": "perform + -er" },
+      { "word": "ballerina", "meaning": "バレリーナ", "nuance": "女性のバレエダンサー。", "etymology": "イタリア語 ballerina" },
+      { "word": "singer", "meaning": "歌手", "nuance": "歌う人。", "etymology": "sing + -er" }
+    ]
+  },
+  {
+    "id": "summoner", "word": "summoner", "katakana": "サモナー", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "召喚士",
+    "scene": "召喚獣を呼び出して戦う職業。",
+    "example": { "en": "The summoner called a dragon to fight.", "ja": "召喚士は戦うために竜を呼び出した。" },
+    "etymology": {
+      "origin": "summon「呼び出す」+ -er",
+      "story": "summon はラテン語 summonēre「そっと思い出させる」から。中世では裁判所に呼び出す役人のことだった。"
+    },
+    "roots": ["mon"],
+    "family": ["summon（召喚する）"],
+    "synonyms": [
+      { "word": "conjurer", "meaning": "魔術師、呼び出す者", "nuance": "霊を呼び出す人。", "etymology": "ラテン語 coniūrāre「誓い合う」" },
+      { "word": "sorcerer", "meaning": "魔術師", "nuance": "魔法を使う人。", "etymology": "古フランス語 sorcier" },
+      { "word": "tamer", "meaning": "調教師", "nuance": "動物を手なずける人。", "etymology": "tame + -er" }
+    ]
+  },
+  {
+    "id": "merchant", "word": "merchant", "katakana": "マーチャント", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "商人",
+    "scene": "アイテムを売り買いする職業や、町の商人。",
+    "example": { "en": "The merchant sold potions and herbs.", "ja": "商人は回復薬と薬草を売っていた。" },
+    "etymology": {
+      "origin": "古フランス語 marchant ← ラテン語 mercārī「取引する」",
+      "story": "market（市場）、commerce（商業）、mercenary（傭兵）と同じ merc-（取引）。"
+    },
+    "roots": [],
+    "family": ["market（市場）", "commerce（商業）"],
+    "synonyms": [
+      { "word": "trader", "meaning": "貿易商、トレーダー", "nuance": "取引をする人。", "etymology": "trade + -er" },
+      { "word": "dealer", "meaning": "販売業者", "nuance": "特定の商品を扱う人。", "etymology": "古英語 dǣlan「分ける」" },
+      { "word": "vendor", "meaning": "売り手", "nuance": "物を売る人。", "etymology": "ラテン語 vendere" }
+    ]
+  },
+  {
+    "id": "blacksmith", "word": "blacksmith", "katakana": "ブラックスミス", "pos": "名詞", "cefr": "C1", "level": 6,
+    "meaning": "鍛冶屋",
+    "scene": "武器を作ったり強化したりしてくれる町の鍛冶屋。",
+    "example": { "en": "The blacksmith made a new sword for me.", "ja": "鍛冶屋が私に新しい剣を作ってくれた。" },
+    "etymology": {
+      "origin": "black「黒い」+ smith「金属を打つ職人」",
+      "story": "黒い鉄を扱う職人のこと。姓の Smith（スミス）は「鍛冶屋」から。"
+    },
+    "roots": [],
+    "family": ["Smith（スミス姓）", "goldsmith（金細工師）"],
+    "synonyms": [
+      { "word": "smith", "meaning": "鍛冶職人", "nuance": "金属職人。", "etymology": "古英語 smith" },
+      { "word": "craftsman", "meaning": "職人", "nuance": "手仕事の職人。", "etymology": "craft + man" },
+      { "word": "armorer", "meaning": "武具師", "nuance": "よろいを作る職人。", "etymology": "armor + -er" }
+    ]
+  },
+  {
+    "id": "guardian", "word": "guardian", "katakana": "ガーディアン", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "守護者、保護者",
+    "scene": "神殿を守る「ガーディアン」。学校の書類の「保護者」も guardian。",
+    "example": { "en": "Please ask your parent or guardian to sign this.", "ja": "保護者の方にこれに署名してもらってください。" },
+    "etymology": {
+      "origin": "古フランス語 gardien ← garder「守る」",
+      "story": "guard（守る）の人。warden（管理人）も同じ語源のゲルマン語形。"
+    },
+    "roots": [],
+    "family": ["guard（守る）", "warden（管理人）"],
+    "synonyms": [
+      { "word": "protector", "meaning": "守る人", "nuance": "保護する人。", "etymology": "ラテン語 prōtegere" },
+      { "word": "keeper", "meaning": "番人", "nuance": "管理する人。", "etymology": "keep + -er" },
+      { "word": "sentinel", "meaning": "見張り", "nuance": "番兵。", "etymology": "イタリア語 sentinella" }
+    ]
+  },
+  {
+    "id": "lord", "word": "lord", "katakana": "ロード", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "領主、君主、支配者",
+    "scene": "「ダークロード」「オーバーロード」など支配者の称号。road や load とは別の語。",
+    "example": { "en": "The lord of the castle was very kind.", "ja": "その城の領主はとても親切だった。" },
+    "etymology": {
+      "origin": "古英語 hlāford ← hlāf「パン」+ weard「守る人」",
+      "story": "「パンを守る人」＝家の主人。lady（婦人）は hlǣfdīge「パンをこねる人」から。"
+    },
+    "roots": [],
+    "family": ["lady（婦人）", "landlord（家主）"],
+    "synonyms": [
+      { "word": "king", "meaning": "王", "nuance": "国の王。", "etymology": "古英語 cyning" },
+      { "word": "master", "meaning": "主人", "nuance": "支配する人。", "etymology": "ラテン語 magister" },
+      { "word": "ruler", "meaning": "支配者", "nuance": "治める人。", "etymology": "ラテン語 rēgula" }
+    ]
+  },
+  {
+    "id": "shrine", "word": "shrine", "katakana": "シュライン", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "神社、聖堂、祠",
+    "scene": "ダンジョンの「祠」。英語で日本の神社は shrine、お寺は temple。",
+    "example": { "en": "We visited a shrine on New Year's Day.", "ja": "元日に神社にお参りした。" },
+    "etymology": {
+      "origin": "古英語 scrīn ← ラテン語 scrīnium「箱」",
+      "story": "聖人の遺物を入れる「箱」→ それを祀る場所。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "temple", "meaning": "寺、神殿", "nuance": "仏教寺院など。", "etymology": "ラテン語 templum" },
+      { "word": "altar", "meaning": "祭壇", "nuance": "ささげ物を置く台。", "etymology": "ラテン語 altāre" },
+      { "word": "sanctuary", "meaning": "聖域", "nuance": "聖なる場所。", "etymology": "ラテン語 sānctus" }
+    ]
+  },
+  {
+    "id": "inn", "word": "inn", "katakana": "イン", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "宿屋",
+    "scene": "HPを回復するために泊まる「宿屋」。ホテル名の「〇〇イン」も。",
+    "example": { "en": "We stayed at an inn by the lake.", "ja": "湖のそばの宿屋に泊まった。" },
+    "etymology": {
+      "origin": "古英語 inn「住まい、宿」",
+      "story": "in（中に）と同じ語根で「中に入る場所」。"
+    },
+    "roots": [],
+    "family": ["innkeeper（宿の主人）"],
+    "synonyms": [
+      { "word": "hotel", "meaning": "ホテル", "nuance": "大きな宿泊施設。", "etymology": "フランス語 hôtel" },
+      { "word": "tavern", "meaning": "酒場", "nuance": "飲食する店。", "etymology": "ラテン語 taberna" },
+      { "word": "lodge", "meaning": "山小屋", "nuance": "山や森の宿。", "etymology": "古フランス語 loge" }
+    ]
+  },
+  {
+    "id": "colosseum", "word": "colosseum", "katakana": "コロシアム", "pos": "名詞", "cefr": "C2", "level": 7,
+    "meaning": "コロッセオ、大闘技場",
+    "scene": "闘技場で連戦するモード「コロシアム」。ローマのコロッセオから。",
+    "example": { "en": "Tourists line up to see the Colosseum in Rome.", "ja": "観光客はローマのコロッセオを見るために並ぶ。" },
+    "etymology": {
+      "origin": "ラテン語 colossēum ← colossus「巨像」",
+      "story": "近くに皇帝ネロの巨像（colossus）があったことからの名とされる。colossal（巨大な）も同じ語源。"
+    },
+    "roots": [],
+    "family": ["colossal（巨大な）"],
+    "synonyms": [
+      { "word": "arena", "meaning": "アリーナ、闘技場", "nuance": "競技場。", "etymology": "ラテン語 harēna「砂」" },
+      { "word": "stadium", "meaning": "スタジアム", "nuance": "競技場。", "etymology": "ギリシャ語 stádion" },
+      { "word": "amphitheater", "meaning": "円形劇場", "nuance": "観客席が円形の劇場。", "etymology": "ギリシャ語 amphi-「両側」+ théātron" }
+    ]
+  },
+  {
+    "id": "village", "word": "village", "katakana": "ヴィレッジ", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "村",
+    "scene": "冒険が始まる「はじまりの村」。",
+    "example": { "en": "My grandmother lives in a small village.", "ja": "祖母は小さな村に住んでいる。" },
+    "etymology": {
+      "origin": "ラテン語 vīllāticum ← vīlla「田舎の屋敷」",
+      "story": "villa（別荘）と同じ語源。villain（悪役）ももとは「農場の人」。"
+    },
+    "roots": [],
+    "family": ["villa（別荘）", "villain（悪役）"],
+    "synonyms": [
+      { "word": "town", "meaning": "町", "nuance": "村より大きい。", "etymology": "古英語 tūn" },
+      { "word": "hamlet", "meaning": "小村", "nuance": "村より小さい集落。", "etymology": "古フランス語 hamelet" },
+      { "word": "city", "meaning": "都市", "nuance": "大きな町。", "etymology": "ラテン語 cīvitās" }
+    ]
+  },
+  {
+    "id": "forest", "word": "forest", "katakana": "フォレスト", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "森",
+    "scene": "迷いの森などのフィールド。",
+    "example": { "en": "We got lost in the forest.", "ja": "私たちは森で道に迷った。" },
+    "etymology": {
+      "origin": "古フランス語 forest ← 中世ラテン語 forestis (silva)「外の（森）」",
+      "story": "もとは「（塀の）外にある王の狩り場の森」。foreign（外国の）と同じ fores「外」とする説がある。"
+    },
+    "roots": [],
+    "family": ["forestry（林業）"],
+    "synonyms": [
+      { "word": "woods", "meaning": "森", "nuance": "forest より小さめの林。", "etymology": "古英語 wudu" },
+      { "word": "jungle", "meaning": "ジャングル", "nuance": "熱帯の密林。", "etymology": "ヒンディー語 jaṅgal" },
+      { "word": "grove", "meaning": "木立ち", "nuance": "小さな林。", "etymology": "古英語 grāf" }
+    ]
+  },
+  {
+    "id": "desert", "word": "desert", "katakana": "デザート", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "砂漠",
+    "scene": "サソリやミイラが出る砂漠ステージ。食後のデザート（dessert）とはつづりが違う。",
+    "example": { "en": "It rarely rains in the desert.", "ja": "砂漠ではめったに雨が降らない。" },
+    "etymology": {
+      "origin": "ラテン語 dēsertum「見捨てられた（土地）」← dēserere「見捨てる」",
+      "story": "「人が見捨てた土地」。動詞の desert（ディザート）は「見捨てる」。dessert は別語源（フランス語「片づける」）。"
+    },
+    "roots": [],
+    "family": ["deserted（人のいない）"],
+    "synonyms": [
+      { "word": "dune", "meaning": "砂丘", "nuance": "風でできた砂の丘。", "etymology": "オランダ語 dūne" },
+      { "word": "wasteland", "meaning": "荒れ地", "nuance": "何もない土地。", "etymology": "waste + land" },
+      { "word": "oasis", "meaning": "オアシス", "nuance": "砂漠の水場。", "etymology": "エジプト語 wḥꜣt" }
+    ]
+  },
+  {
+    "id": "volcano", "word": "volcano", "katakana": "ボルケーノ", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "火山",
+    "scene": "溶岩が流れる火山ステージ。",
+    "example": { "en": "The volcano erupted last year.", "ja": "その火山は去年噴火した。" },
+    "etymology": {
+      "origin": "イタリア語 volcano ← ラテン語 Vulcānus（ローマの火の神）",
+      "story": "火と鍛冶の神ウルカヌスから。Vulcan は英語でも火の神の名。"
+    },
+    "roots": [],
+    "family": ["volcanic（火山の）"],
+    "synonyms": [
+      { "word": "mountain", "meaning": "山", "nuance": "山全般。", "etymology": "ラテン語 mōns" },
+      { "word": "lava", "meaning": "溶岩", "nuance": "流れ出るマグマ。", "etymology": "イタリア語 lava" },
+      { "word": "crater", "meaning": "火口", "nuance": "火山の口。", "etymology": "ギリシャ語 kratḗr「混ぜる器」" }
+    ]
+  },
+  {
+    "id": "compass", "word": "compass", "katakana": "コンパス", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "方位磁石、コンパス",
+    "scene": "方角を示すアイテム。製図用の「コンパス」は英語では compasses とも。",
+    "example": { "en": "We used a compass to find north.", "ja": "方位磁石で北を探した。" },
+    "etymology": {
+      "origin": "古フランス語 compas ← compasser「歩幅で測る」← ラテン語 com-「共に」+ passus「歩み」",
+      "story": "「歩幅で測る」から、円を描く道具や方角を測る道具の意味に。pass（通る）と同じ passus。"
+    },
+    "roots": [],
+    "family": ["pace（歩調）", "pass（通る）"],
+    "synonyms": [
+      { "word": "map", "meaning": "地図", "nuance": "場所を示す図。", "etymology": "ラテン語 mappa「布」" },
+      { "word": "guide", "meaning": "案内", "nuance": "道を示すもの。", "etymology": "古フランス語 guider" },
+      { "word": "navigation", "meaning": "航法", "nuance": "進路を決めること。", "etymology": "ラテン語 nāvigāre" }
+    ]
+  },
+  {
+    "id": "light", "word": "light", "katakana": "ライト", "pos": "名詞・形容詞", "cefr": "A1", "level": 1,
+    "meaning": "光、明かり／軽い、明るい",
+    "scene": "光属性の魔法やライトアップ。「ライト（軽い）」なユーザーも。right・write も同じ「ライト」。",
+    "example": { "en": "Turn on the light, please.", "ja": "明かりをつけてください。" },
+    "etymology": {
+      "origin": "古英語 lēoht「光」／lēoht「軽い」（別の語）",
+      "story": "「光」と「軽い」は別々の古英語が同じ形になったもの。L の音で舌先を歯ぐきにつける。"
+    },
+    "roots": [],
+    "family": ["lightning（稲妻）", "highlight（ハイライト）"],
+    "synonyms": [
+      { "word": "lamp", "meaning": "ランプ", "nuance": "明かりをともす器具。", "etymology": "ギリシャ語 lampás「たいまつ」" },
+      { "word": "bright", "meaning": "明るい", "nuance": "光が強い。", "etymology": "古英語 beorht" },
+      { "word": "shine", "meaning": "輝き", "nuance": "光ること。", "etymology": "古英語 scīnan" }
+    ]
+  },
+  {
+    "id": "right", "word": "right", "katakana": "ライト", "pos": "形容詞・名詞", "cefr": "A1", "level": 1,
+    "meaning": "正しい、右の／権利",
+    "scene": "野球の「ライト（右翼）」。light・write も同じ「ライト」なので R の音に注意。",
+    "example": { "en": "Turn right at the next corner.", "ja": "次の角を右に曲がって。" },
+    "etymology": {
+      "origin": "古英語 riht「まっすぐな、正しい」",
+      "story": "「まっすぐ」→「正しい」→（多くの人の利き手である）「右」。権利（human rights）の意味も。"
+    },
+    "roots": [],
+    "family": ["copyright（著作権）", "rightly（正しく）"],
+    "synonyms": [
+      { "word": "correct", "meaning": "正しい", "nuance": "間違いがない。", "etymology": "ラテン語 corrigere" },
+      { "word": "proper", "meaning": "適切な", "nuance": "ふさわしい。", "etymology": "ラテン語 proprius" },
+      { "word": "left", "meaning": "左", "nuance": "right の反対。", "etymology": "古英語 lyft「弱い」" }
+    ]
+  },
+  {
+    "id": "write", "word": "write", "katakana": "ライト", "pos": "動詞", "cefr": "A1", "level": 1,
+    "meaning": "書く",
+    "scene": "「コピーライト（copyright）」は right、「ライター（writer）」は write。w は発音しない。",
+    "example": { "en": "Please write your name here.", "ja": "ここに名前を書いてください。" },
+    "etymology": {
+      "origin": "古英語 wrītan「刻む、引っかく」",
+      "story": "もとは石や木に「刻む」こと。過去形 wrote、過去分詞 written。"
+    },
+    "roots": [],
+    "family": ["writer（作家）", "handwriting（手書き）"],
+    "synonyms": [
+      { "word": "type", "meaning": "打ち込む", "nuance": "キーボードで書く。", "etymology": "ギリシャ語 týpos「打つこと」" },
+      { "word": "note", "meaning": "書き留める", "nuance": "メモする。", "etymology": "ラテン語 nota「しるし」" },
+      { "word": "draw", "meaning": "描く", "nuance": "絵をかく。", "etymology": "古英語 dragan「引く」" }
+    ]
+  },
+  {
+    "id": "base", "word": "base", "katakana": "ベース", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "基地、土台、（野球の）ベース",
+    "scene": "拠点の「ベース」や、野球の塁。音楽の bass（ベース）とは別の語。",
+    "example": { "en": "The soldiers returned to their base.", "ja": "兵士たちは基地に戻った。" },
+    "etymology": {
+      "origin": "ギリシャ語 básis「足場、踏むこと」",
+      "story": "basic（基本の）、basis（基礎）と同じ語源。"
+    },
+    "roots": [],
+    "family": ["basic（基本の）", "basement（地下室）"],
+    "synonyms": [
+      { "word": "foundation", "meaning": "土台", "nuance": "建物の基礎。", "etymology": "ラテン語 fundāre" },
+      { "word": "camp", "meaning": "キャンプ、野営地", "nuance": "一時的な拠点。", "etymology": "ラテン語 campus" },
+      { "word": "headquarters", "meaning": "本部", "nuance": "中心になる拠点。", "etymology": "head + quarters" }
+    ]
+  },
+  {
+    "id": "board", "word": "board", "katakana": "ボード", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "板、ボード、掲示板",
+    "scene": "「ボードゲーム」「ホワイトボード」。乗り物に乗る（board a plane）動詞にも。",
+    "example": { "en": "The teacher wrote on the board.", "ja": "先生は黒板に書いた。" },
+    "etymology": {
+      "origin": "古英語 bord「板」",
+      "story": "板 → 船の甲板 → 乗り込む（on board）。会議の机（board）から「役員会」の意味にも。"
+    },
+    "roots": [],
+    "family": ["keyboard（キーボード）", "on board（乗って）"],
+    "synonyms": [
+      { "word": "plank", "meaning": "厚板", "nuance": "長く厚い板。", "etymology": "ラテン語 planca" },
+      { "word": "panel", "meaning": "パネル", "nuance": "はめこむ板。", "etymology": "古フランス語 panel" },
+      { "word": "sign", "meaning": "看板", "nuance": "文字の書かれた板。", "etymology": "ラテン語 signum" }
+    ]
+  },
+  {
+    "id": "bird", "word": "bird", "katakana": "バード", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "鳥",
+    "scene": "「バードウォッチング」。b の音は唇を閉じてから。",
+    "example": { "en": "A bird is singing in the tree.", "ja": "木の上で鳥が鳴いている。" },
+    "etymology": {
+      "origin": "古英語 bridd「ひな鳥」",
+      "story": "もとは「ひな」の意味で、成長した鳥は fowl と言った。r と i の順番が入れかわって bird になった。"
+    },
+    "roots": [],
+    "family": ["early bird（早起きの人）"],
+    "synonyms": [
+      { "word": "fowl", "meaning": "家きん", "nuance": "ニワトリなど。", "etymology": "古英語 fugol" },
+      { "word": "chick", "meaning": "ひな", "nuance": "鳥の子。", "etymology": "古英語 cicen" },
+      { "word": "eagle", "meaning": "ワシ", "nuance": "大きな鳥。", "etymology": "ラテン語 aquila" }
+    ]
+  },
+  {
+    "id": "berry", "word": "berry", "katakana": "ベリー", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "ベリー（イチゴ類の小さな実）",
+    "scene": "ストロベリー、ブルーベリー。回復アイテムの「〇〇のみ」も berry。",
+    "example": { "en": "We picked berries in the forest.", "ja": "森でベリーを摘んだ。" },
+    "etymology": {
+      "origin": "古英語 berie",
+      "story": "very（ヴェリー）と区別するには、b は唇を閉じて、v は下唇をかむ。"
+    },
+    "roots": [],
+    "family": ["strawberry（イチゴ）", "blueberry（ブルーベリー）"],
+    "synonyms": [
+      { "word": "fruit", "meaning": "果物", "nuance": "果物全般。", "etymology": "ラテン語 frūctus" },
+      { "word": "cherry", "meaning": "サクランボ", "nuance": "小さな赤い実。", "etymology": "ギリシャ語 kerasós" },
+      { "word": "grape", "meaning": "ブドウ", "nuance": "房になる実。", "etymology": "古フランス語 grape" }
+    ]
+  },
+  {
+    "id": "close", "word": "close", "katakana": "クローズ", "pos": "動詞・形容詞", "cefr": "A1", "level": 1,
+    "meaning": "閉める（クローズ）／近い（クロース）",
+    "scene": "お店の「クローズ」。形容詞「近い」は発音が /kloʊs/（クロース）。",
+    "example": { "en": "Please close the door.", "ja": "ドアを閉めてください。" },
+    "etymology": {
+      "origin": "古フランス語 clos ← ラテン語 claudere「閉じる」",
+      "story": "「閉じた」→「すき間がない」→「近い」。closet（クローゼット）は「閉じた小部屋」。"
+    },
+    "roots": [],
+    "family": ["closet（クローゼット）", "include（含む）"],
+    "synonyms": [
+      { "word": "shut", "meaning": "閉める", "nuance": "ぴしゃっと閉める。", "etymology": "古英語 scyttan" },
+      { "word": "near", "meaning": "近い", "nuance": "形容詞「近い」の言いかえ。", "etymology": "古英語 nēar" },
+      { "word": "open", "meaning": "開ける", "nuance": "close の反対。", "etymology": "古英語 open" }
+    ]
+  },
+  {
+    "id": "cloth", "word": "cloth", "katakana": "クロス", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "布",
+    "scene": "「テーブルクロス」。clothes（服）とは発音もちがう。",
+    "example": { "en": "Wipe the table with a wet cloth.", "ja": "ぬれた布でテーブルをふいて。" },
+    "etymology": {
+      "origin": "古英語 clāth「布」",
+      "story": "複数形 cloths は「布きれ」、clothes は「服」。cross（十字）とは別の語。"
+    },
+    "roots": [],
+    "family": ["clothes（服）", "clothing（衣類）"],
+    "synonyms": [
+      { "word": "fabric", "meaning": "布地", "nuance": "織物、生地。", "etymology": "ラテン語 fabrica「作業場」" },
+      { "word": "textile", "meaning": "織物", "nuance": "繊維製品。", "etymology": "ラテン語 texere「織る」" },
+      { "word": "towel", "meaning": "タオル", "nuance": "ふく布。", "etymology": "古フランス語 toaille" }
+    ]
+  },
+  {
+    "id": "custom", "word": "custom", "katakana": "カスタム", "pos": "名詞・形容詞", "cefr": "B1", "level": 4,
+    "meaning": "習慣、しきたり／注文製の",
+    "scene": "ゲームの「カスタム」設定。名詞では「習慣」、customs は「税関」。",
+    "gap": "日本語の「カスタム」は「自分好みに変える」だが、英語の名詞 custom は「習慣、しきたり」。「変える」は customize。",
+    "example": { "en": "It is a Japanese custom to bow.", "ja": "おじぎをするのは日本の習慣だ。" },
+    "etymology": {
+      "origin": "古フランス語 costume ← ラテン語 cōnsuētūdō「習慣」",
+      "story": "costume（衣装）と同じ語源。customer（客）は「いつも来る人」、customize は「注文に合わせる」。"
+    },
+    "roots": [],
+    "family": ["customer（客）", "customize（カスタマイズする）", "customs（税関）"],
+    "synonyms": [
+      { "word": "habit", "meaning": "（個人の）くせ", "nuance": "個人の習慣。", "etymology": "ラテン語 habitus" },
+      { "word": "tradition", "meaning": "伝統", "nuance": "受け継がれたしきたり。", "etymology": "ラテン語 trāditiō" },
+      { "word": "custom-made", "meaning": "オーダーメイドの", "nuance": "注文して作った。", "etymology": "custom + made" }
+    ]
+  },
+  {
+    "id": "cut", "word": "cut", "katakana": "カット", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
+    "meaning": "切る／切ること、カット",
+    "scene": "「ヘアカット」「カット（場面）」。",
+    "example": { "en": "Cut the cake into eight pieces.", "ja": "ケーキを8つに切って。" },
+    "etymology": {
+      "origin": "中英語 cutten（語源不詳。スカンジナビア語とも）",
+      "story": "過去形も過去分詞も cut。cut in line は「列に割り込む」。"
+    },
+    "roots": [],
+    "family": ["haircut（散髪）", "shortcut（近道）"],
+    "synonyms": [
+      { "word": "slice", "meaning": "薄く切る", "nuance": "パンなどを薄く。", "etymology": "古フランス語 esclice" },
+      { "word": "chop", "meaning": "たたき切る", "nuance": "包丁で刻む。", "etymology": "中英語 choppen" },
+      { "word": "trim", "meaning": "切りそろえる", "nuance": "整えるように切る。", "etymology": "古英語 trymian" }
+    ]
+  },
+  {
+    "id": "fly", "word": "fly", "katakana": "フライ", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
+    "meaning": "飛ぶ／ハエ、（野球の）フライ",
+    "scene": "野球の「フライ」、魔法の「フライ（飛行）」。fry（揚げる）も同じ「フライ」。",
+    "example": { "en": "Birds fly south in winter.", "ja": "鳥は冬に南へ飛ぶ。" },
+    "etymology": {
+      "origin": "古英語 flēogan「飛ぶ」",
+      "story": "「飛ぶ虫」でハエ。過去形 flew、過去分詞 flown。flight（飛行）も同じ語源。"
+    },
+    "roots": [],
+    "family": ["flight（飛行）", "butterfly（チョウ）"],
+    "synonyms": [
+      { "word": "soar", "meaning": "舞い上がる", "nuance": "高く飛ぶ。", "etymology": "ラテン語 exaurāre" },
+      { "word": "glide", "meaning": "滑空する", "nuance": "すべるように飛ぶ。", "etymology": "古英語 glīdan" },
+      { "word": "float", "meaning": "浮かぶ", "nuance": "ふわふわ浮く。", "etymology": "古英語 flotian" }
+    ]
+  },
+  {
+    "id": "fry", "word": "fry", "katakana": "フライ", "pos": "動詞", "cefr": "B1", "level": 4,
+    "meaning": "（油で）いためる、揚げる",
+    "scene": "エビフライ・フライドポテト。英語の fry は「油で焼く・いためる」も含む。",
+    "gap": "日本語の「フライ」は揚げ物だが、英語の fry は「いためる・油で焼く」も含む。揚げ物ははっきり言うなら deep-fry。料理の「エビフライ」は fried shrimp。",
+    "example": { "en": "Fry the onions until they are brown.", "ja": "タマネギをきつね色になるまでいためて。" },
+    "etymology": {
+      "origin": "古フランス語 frire ← ラテン語 frīgere「焼く」",
+      "story": "フライドポテトは英語では French fries（イギリスでは chips）。たっぷりの油で揚げるのは deep-fry。"
+    },
+    "roots": [],
+    "family": ["French fries（フライドポテト）", "frying pan（フライパン）"],
+    "synonyms": [
+      { "word": "deep-fry", "meaning": "揚げる", "nuance": "たっぷりの油で揚げる。", "etymology": "deep + fry" },
+      { "word": "sauté", "meaning": "ソテーする", "nuance": "少ない油で焼く。", "etymology": "フランス語 sauter「跳ねる」" },
+      { "word": "grill", "meaning": "網で焼く", "nuance": "直火で焼く。", "etymology": "フランス語 gril" }
+    ]
+  },
+  {
+    "id": "full", "word": "full", "katakana": "フル", "pos": "形容詞", "cefr": "A1", "level": 1,
+    "meaning": "いっぱいの、満腹の、完全な",
+    "scene": "「HPフル」「フルコース」「フルマラソン」。",
+    "example": { "en": "I'm full. I can't eat any more.", "ja": "おなかいっぱい。もう食べられない。" },
+    "etymology": {
+      "origin": "古英語 full",
+      "story": "fill（満たす）と同じ語根。-ful は beautiful のように「〜でいっぱいの」を作る。"
+    },
+    "roots": [],
+    "family": ["fill（満たす）", "fully（完全に）"],
+    "synonyms": [
+      { "word": "complete", "meaning": "完全な", "nuance": "欠けたところがない。", "etymology": "ラテン語 complēre" },
+      { "word": "entire", "meaning": "全体の", "nuance": "まるごとの。", "etymology": "ラテン語 integer" },
+      { "word": "empty", "meaning": "からの", "nuance": "full の反対。", "etymology": "古英語 ǣmettig" }
+    ]
+  },
+  {
+    "id": "grass", "word": "grass", "katakana": "グラス", "pos": "名詞", "cefr": "A1", "level": 2,
+    "meaning": "草、芝生",
+    "scene": "草属性のモンスターや「グラスホッパー（バッタ）」。glass（ガラス）と同じ「グラス」。",
+    "example": { "en": "Keep off the grass.", "ja": "芝生に入らないでください。" },
+    "etymology": {
+      "origin": "古英語 græs",
+      "story": "grow（育つ）、green（緑）と同じ語根とされる。"
+    },
+    "roots": [],
+    "family": ["grasshopper（バッタ）", "green（緑）"],
+    "synonyms": [
+      { "word": "lawn", "meaning": "芝生", "nuance": "手入れした芝。", "etymology": "古フランス語 launde" },
+      { "word": "weed", "meaning": "雑草", "nuance": "じゃまな草。", "etymology": "古英語 wēod" },
+      { "word": "herb", "meaning": "ハーブ", "nuance": "役に立つ草。", "etymology": "ラテン語 herba" }
+    ]
+  },
+  {
+    "id": "hole", "word": "hole", "katakana": "ホール", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "穴",
+    "scene": "「ブラックホール」「ホールインワン」。hall（会場）、whole（全体）も「ホール」。",
+    "example": { "en": "There is a hole in my sock.", "ja": "靴下に穴があいている。" },
+    "etymology": {
+      "origin": "古英語 hol「うつろ、穴」",
+      "story": "hollow（空洞の）と同じ語源。"
+    },
+    "roots": [],
+    "family": ["black hole（ブラックホール）", "hollow（空洞の）"],
+    "synonyms": [
+      { "word": "gap", "meaning": "すき間", "nuance": "あいている空間。", "etymology": "古ノルド語 gap「裂け目」" },
+      { "word": "pit", "meaning": "くぼみ、穴", "nuance": "地面の穴。", "etymology": "ラテン語 puteus「井戸」" },
+      { "word": "cave", "meaning": "洞くつ", "nuance": "大きなほら穴。", "etymology": "ラテン語 cavea" }
+    ]
+  },
+  {
+    "id": "whole", "word": "whole", "katakana": "ホール", "pos": "形容詞・名詞", "cefr": "A2", "level": 3,
+    "meaning": "全体の、まるごとの／全体",
+    "scene": "切っていない「ホールケーキ」の「ホール」はこちら。hole（穴）ではない。",
+    "example": { "en": "He ate the whole cake by himself.", "ja": "彼はケーキをまるごと一人で食べた。" },
+    "etymology": {
+      "origin": "古英語 hāl「完全な、健康な」",
+      "story": "heal（治す）、health（健康）、holy（神聖な）と同じ語源。w は15世紀ごろ加わったつづりで発音しない。"
+    },
+    "roots": [],
+    "family": ["wholesale（卸売り）", "health（健康）"],
+    "synonyms": [
+      { "word": "entire", "meaning": "全体の", "nuance": "欠けるところのない。", "etymology": "ラテン語 integer" },
+      { "word": "complete", "meaning": "完全な", "nuance": "そろっている。", "etymology": "ラテン語 complēre" },
+      { "word": "total", "meaning": "全部の", "nuance": "合計の。", "etymology": "ラテン語 tōtus" }
+    ]
+  },
+  {
+    "id": "lead", "word": "lead", "katakana": "リード", "pos": "動詞・名詞", "cefr": "A2", "level": 3,
+    "meaning": "導く、先頭に立つ／リード、先頭",
+    "scene": "試合で「リードする」。金属の鉛（lead、発音はレッド）と同じつづり。",
+    "example": { "en": "She will lead the team this year.", "ja": "今年は彼女がチームを率いる。" },
+    "etymology": {
+      "origin": "古英語 lǣdan「導く」",
+      "story": "過去形 led。leader（リーダー）は「導く人」。read（読む）も同じ「リード」なので L と R に注意。"
+    },
+    "roots": [],
+    "family": ["leader（リーダー）", "leadership（統率力）"],
+    "synonyms": [
+      { "word": "guide", "meaning": "案内する", "nuance": "道を示す。", "etymology": "古フランス語 guider" },
+      { "word": "direct", "meaning": "指揮する", "nuance": "向きを決める。", "etymology": "ラテン語 dīrigere" },
+      { "word": "follow", "meaning": "ついていく", "nuance": "lead の反対。", "etymology": "古英語 folgian" }
+    ]
+  },
+  {
+    "id": "load", "word": "load", "katakana": "ロード", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
+    "meaning": "荷物、負担／積む、（データを）読み込む",
+    "scene": "ゲームの「ロード中」「セーブデータをロード」。road（道）も同じ「ロード」。",
+    "example": { "en": "The game takes a long time to load.", "ja": "そのゲームは読み込みに時間がかかる。" },
+    "etymology": {
+      "origin": "古英語 lād「道、運ぶこと」",
+      "story": "もとは「運ぶ道」で、road と同じ語源ともいわれる。「運ぶもの」→「荷物」→「読み込む」。download は「下に読み込む」。"
+    },
+    "roots": [],
+    "family": ["download（ダウンロード）", "upload（アップロード）"],
+    "synonyms": [
+      { "word": "burden", "meaning": "重荷", "nuance": "重い負担。", "etymology": "古英語 byrthen" },
+      { "word": "cargo", "meaning": "貨物", "nuance": "船や飛行機の荷。", "etymology": "スペイン語 cargo" },
+      { "word": "save", "meaning": "セーブする", "nuance": "ゲームで load の対になる操作。", "etymology": "ラテン語 salvāre" }
+    ]
+  },
+  {
+    "id": "road", "word": "road", "katakana": "ロード", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "道路",
+    "scene": "「ロードバイク」「ロードマップ」。load（荷物）も同じ「ロード」。",
+    "example": { "en": "Be careful when you cross the road.", "ja": "道路を渡るときは気をつけて。" },
+    "etymology": {
+      "origin": "古英語 rād「馬で行くこと」",
+      "story": "ride（乗る）、raid（襲撃）と同じ語源。「馬で行く道」。"
+    },
+    "roots": [],
+    "family": ["railroad（鉄道）", "raid（急襲）"],
+    "synonyms": [
+      { "word": "street", "meaning": "通り", "nuance": "町の中の道。", "etymology": "ラテン語 strāta" },
+      { "word": "path", "meaning": "小道", "nuance": "歩く道。", "etymology": "古英語 pæth" },
+      { "word": "route", "meaning": "ルート", "nuance": "目的地までの道すじ。", "etymology": "ラテン語 rupta (via)" }
+    ]
+  },
+  {
+    "id": "long", "word": "long", "katakana": "ロング", "pos": "形容詞", "cefr": "A1", "level": 1,
+    "meaning": "長い",
+    "scene": "「ロングソード」「ロングヘア」。",
+    "example": { "en": "She has long hair.", "ja": "彼女は髪が長い。" },
+    "etymology": {
+      "origin": "古英語 lang",
+      "story": "length（長さ）、belong（属する）と同じ語根。動詞 long for は「〜を切望する」。"
+    },
+    "roots": [],
+    "family": ["length（長さ）", "along（〜に沿って）"],
+    "synonyms": [
+      { "word": "lengthy", "meaning": "長ったらしい", "nuance": "長すぎる。", "etymology": "length + -y" },
+      { "word": "tall", "meaning": "背が高い", "nuance": "縦に高い。", "etymology": "古英語 getæl" },
+      { "word": "short", "meaning": "短い", "nuance": "long の反対。", "etymology": "古英語 sceort" }
+    ]
+  },
+  {
+    "id": "loose", "word": "loose", "katakana": "ルーズ", "pos": "形容詞", "cefr": "B1", "level": 4,
+    "meaning": "ゆるい、ほどけた、放たれた",
+    "scene": "「ルーズな服（ゆったり）」。時間に「ルーズ」の意味は英語にはない。",
+    "gap": "日本語の「時間にルーズ」は英語では not punctual や sloppy。英語の loose は「ゆるい、ほどけた」。",
+    "trapQuiz": {"question": "「彼は時間にルーズだ」に近い英語は？", "answer": "He is never on time.", "wrong": ["He is loose with time.", "He is a loose man.", "He has loose time."]},
+    "example": { "en": "These pants are too loose.", "ja": "このズボンはゆるすぎる。" },
+    "etymology": {
+      "origin": "古ノルド語 lauss「自由な、ほどけた」",
+      "story": "lose（失う）とは別の語で、発音も loose は /luːs/（ルース）、lose は /luːz/（ルーズ）。"
+    },
+    "roots": [],
+    "family": ["loosen（ゆるめる）"],
+    "synonyms": [
+      { "word": "baggy", "meaning": "だぶだぶの", "nuance": "服が大きすぎる。", "etymology": "bag + -y" },
+      { "word": "sloppy", "meaning": "だらしない", "nuance": "日本語の「ルーズ」に近い。", "etymology": "slop「泥」+ -y" },
+      { "word": "tight", "meaning": "きつい", "nuance": "loose の反対。", "etymology": "古ノルド語 þéttr" }
+    ]
+  },
+  {
+    "id": "low", "word": "low", "katakana": "ロー", "pos": "形容詞", "cefr": "A1", "level": 2,
+    "meaning": "低い",
+    "scene": "「ローキック」「ロースペック」。row（列、ロウ）とは別の語。",
+    "example": { "en": "The price is very low.", "ja": "値段がとても安い。" },
+    "etymology": {
+      "origin": "古ノルド語 lágr",
+      "story": "lie（横たわる）と同じ語根で「低く横たわる」。"
+    },
+    "roots": [],
+    "family": ["lower（下げる）", "below（下に）"],
+    "synonyms": [
+      { "word": "short", "meaning": "低い（背が）", "nuance": "背が低い。", "etymology": "古英語 sceort" },
+      { "word": "cheap", "meaning": "安い", "nuance": "値段が低い。", "etymology": "古英語 cēap「取引」" },
+      { "word": "high", "meaning": "高い", "nuance": "low の反対。", "etymology": "古英語 hēah" }
+    ]
+  },
+  {
+    "id": "match", "word": "match", "katakana": "マッチ", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
+    "meaning": "試合、マッチ棒／似合う、一致する",
+    "scene": "対戦の「マッチング」、火をつける「マッチ」。",
+    "example": { "en": "Your shirt matches your shoes.", "ja": "シャツが靴とよく合っている。" },
+    "etymology": {
+      "origin": "古英語 gemæcca「仲間、つれあい」／マッチ棒は古フランス語 meiche「ろうそくの芯」",
+      "story": "「仲間・対になる相手」から試合・一致の意味に。マッチ棒の match は別語源。"
+    },
+    "roots": [],
+    "family": ["matching（マッチング）"],
+    "synonyms": [
+      { "word": "game", "meaning": "試合", "nuance": "勝負。", "etymology": "古英語 gamen「遊び」" },
+      { "word": "suit", "meaning": "似合う", "nuance": "ふさわしい。", "etymology": "古フランス語 suite" },
+      { "word": "fit", "meaning": "合う", "nuance": "サイズや形が合う。", "etymology": "中英語 fitten" }
+    ]
+  },
+  {
+    "id": "meat", "word": "meat", "katakana": "ミート", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "肉",
+    "scene": "「ミートソース」「ミートボール」。meet（会う）も同じ「ミート」。",
+    "example": { "en": "I don't eat much meat.", "ja": "私はあまり肉を食べない。" },
+    "etymology": {
+      "origin": "古英語 mete「食べ物」",
+      "story": "もとは食べ物全般。sweetmeat（砂糖菓子）に昔の意味が残る。"
+    },
+    "roots": [],
+    "family": ["meatball（ミートボール）"],
+    "synonyms": [
+      { "word": "beef", "meaning": "牛肉", "nuance": "牛の肉。", "etymology": "古フランス語 boef" },
+      { "word": "pork", "meaning": "豚肉", "nuance": "豚の肉。", "etymology": "ラテン語 porcus" },
+      { "word": "flesh", "meaning": "肉、生身", "nuance": "生き物の体の肉。", "etymology": "古英語 flǣsc" }
+    ]
+  },
+  {
+    "id": "meet", "word": "meet", "katakana": "ミート", "pos": "動詞", "cefr": "A1", "level": 1,
+    "meaning": "会う、出会う、（条件を）満たす",
+    "scene": "野球の「ミート（芯でとらえる）」。meat（肉）も同じ「ミート」。",
+    "example": { "en": "Nice to meet you.", "ja": "はじめまして。" },
+    "etymology": {
+      "origin": "古英語 mētan",
+      "story": "過去形 met。meeting（ミーティング）は「会うこと」。"
+    },
+    "roots": [],
+    "family": ["meeting（会議）"],
+    "synonyms": [
+      { "word": "see", "meaning": "会う", "nuance": "（知り合いに）会う。", "etymology": "古英語 sēon" },
+      { "word": "encounter", "meaning": "出くわす", "nuance": "偶然会う。", "etymology": "ラテン語 in- + contrā" },
+      { "word": "gather", "meaning": "集まる", "nuance": "大勢が集まる。", "etymology": "古英語 gaderian" }
+    ]
+  },
+  {
+    "id": "piece", "word": "piece", "katakana": "ピース", "pos": "名詞", "cefr": "A1", "level": 2,
+    "meaning": "一切れ、一個、（パズルの）ピース",
+    "scene": "パズルの「ピース」、a piece of cake（楽勝）。peace（平和）も同じ「ピース」。",
+    "example": { "en": "Can I have a piece of cake?", "ja": "ケーキを一切れもらえる？" },
+    "etymology": {
+      "origin": "古フランス語 piece「一片」（ケルト語起源とされる）",
+      "story": "数えられない名詞を数えるとき a piece of paper（紙1枚）のように使う。"
+    },
+    "roots": [],
+    "family": ["masterpiece（傑作）"],
+    "synonyms": [
+      { "word": "part", "meaning": "部分", "nuance": "全体の一部。", "etymology": "ラテン語 pars" },
+      { "word": "slice", "meaning": "一切れ", "nuance": "薄く切ったもの。", "etymology": "古フランス語 esclice" },
+      { "word": "bit", "meaning": "少し、かけら", "nuance": "小さなかけら。", "etymology": "古英語 bita" }
+    ]
+  },
+  {
+    "id": "peace", "word": "peace", "katakana": "ピース", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "平和、安らぎ",
+    "scene": "写真の「ピースサイン」。piece も同じ「ピース」。",
+    "example": { "en": "We all hope for world peace.", "ja": "私たちはみな世界平和を願っている。" },
+    "etymology": {
+      "origin": "古フランス語 pais ← ラテン語 pāx「平和」",
+      "story": "pay（払う）も同じ語根で「なだめる」から。"
+    },
+    "roots": [],
+    "family": ["peaceful（平和な）", "pacific（太平洋、穏やかな）"],
+    "synonyms": [
+      { "word": "harmony", "meaning": "調和", "nuance": "争いのないこと。", "etymology": "ギリシャ語 harmonía" },
+      { "word": "calm", "meaning": "静けさ", "nuance": "おだやかさ。", "etymology": "ギリシャ語 kaûma" },
+      { "word": "war", "meaning": "戦争", "nuance": "peace の反対。", "etymology": "古北フランス語 werre" }
+    ]
+  },
+  {
+    "id": "play", "word": "play", "katakana": "プレイ", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
+    "meaning": "遊ぶ、（試合を）する、演奏する／劇",
+    "scene": "「ゲームをプレイ」「プレイヤー」。pray（祈る）とは L と R がちがう。",
+    "example": { "en": "Let's play a video game.", "ja": "テレビゲームをしよう。" },
+    "etymology": {
+      "origin": "古英語 plegan「楽しむ、動き回る」",
+      "story": "遊び・試合・演奏・劇など「楽しんで何かをする」こと全般。"
+    },
+    "roots": [],
+    "family": ["player（プレイヤー）", "replay（リプレイ）"],
+    "synonyms": [
+      { "word": "game", "meaning": "ゲーム", "nuance": "遊び、試合。", "etymology": "古英語 gamen" },
+      { "word": "perform", "meaning": "演じる", "nuance": "舞台で演じる。", "etymology": "古フランス語 parfornir" },
+      { "word": "pray", "meaning": "祈る", "nuance": "L と R で意味がちがう。", "etymology": "ラテン語 precārī" }
+    ]
+  },
+  {
+    "id": "rock", "word": "rock", "katakana": "ロック", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "岩、ロック（音楽）",
+    "scene": "岩属性の敵や「ロックンロール」。lock（鍵）も同じ「ロック」。",
+    "example": { "en": "He climbed up the big rock.", "ja": "彼は大きな岩をよじ登った。" },
+    "etymology": {
+      "origin": "古フランス語 roche「岩」／音楽は rock「揺らす」（古英語 roccian）",
+      "story": "岩の rock と、揺らす rock は別語源。rocking chair は揺りいす。"
+    },
+    "roots": [],
+    "family": ["rocky（岩の多い）", "rock and roll（ロックンロール）"],
+    "synonyms": [
+      { "word": "stone", "meaning": "石", "nuance": "石全般。", "etymology": "古英語 stān" },
+      { "word": "boulder", "meaning": "大きな岩", "nuance": "丸く大きな岩。", "etymology": "スウェーデン語 bullersten" },
+      { "word": "cliff", "meaning": "がけ", "nuance": "岩の壁。", "etymology": "古英語 clif" }
+    ]
+  },
+  {
+    "id": "root", "word": "root", "katakana": "ルート", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "根、根源、（数学の）ルート",
+    "scene": "植物の根や、数学の「ルート（平方根）」。route（道）も同じ「ルート」。",
+    "example": { "en": "The tree has deep roots.", "ja": "その木は深く根を張っている。" },
+    "etymology": {
+      "origin": "古ノルド語 rót",
+      "story": "the root of the problem は「問題の根っこ」。square root は「平方根」。"
+    },
+    "roots": [],
+    "family": ["square root（平方根）"],
+    "synonyms": [
+      { "word": "origin", "meaning": "起源", "nuance": "もとになったもの。", "etymology": "ラテン語 orīrī" },
+      { "word": "source", "meaning": "源", "nuance": "出どころ。", "etymology": "古フランス語 sourse" },
+      { "word": "base", "meaning": "土台", "nuance": "基礎。", "etymology": "ギリシャ語 básis" }
+    ]
+  },
+  {
+    "id": "route", "word": "route", "katakana": "ルート", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "ルート、道すじ、路線",
+    "scene": "「攻略ルート」「最短ルート」。root（根）も同じ「ルート」。",
+    "example": { "en": "This is the fastest route to the station.", "ja": "これが駅への一番速い道すじだ。" },
+    "etymology": {
+      "origin": "古フランス語 route ← ラテン語 rupta (via)「切り開かれた（道）」",
+      "story": "ラテン語 rumpere（壊す）から。「森を切り開いた道」。routine（決まった手順）も同じ語源。"
+    },
+    "roots": [],
+    "family": ["routine（ルーティン）"],
+    "synonyms": [
+      { "word": "road", "meaning": "道路", "nuance": "車の通る道。", "etymology": "古英語 rād" },
+      { "word": "path", "meaning": "小道", "nuance": "歩く道。", "etymology": "古英語 pæth" },
+      { "word": "course", "meaning": "進路", "nuance": "進むコース。", "etymology": "ラテン語 cursus" }
+    ]
+  },
+  {
+    "id": "royal", "word": "royal", "katakana": "ロイヤル", "pos": "形容詞", "cefr": "B1", "level": 4,
+    "meaning": "王の、王室の",
+    "scene": "「ロイヤルファミリー」「ロイヤルガード」。loyal（忠実な）とは L と R がちがう。",
+    "example": { "en": "The royal family lives in the palace.", "ja": "王室は宮殿に住んでいる。" },
+    "etymology": {
+      "origin": "古フランス語 roial ← ラテン語 rēgālis「王の」← rēx「王」",
+      "story": "regal（王者らしい）、reign（治世）と同じ語源。royalty は「王族」「印税」。"
+    },
+    "roots": [],
+    "family": ["royalty（王族、印税）", "reign（治世）"],
+    "synonyms": [
+      { "word": "regal", "meaning": "王者らしい", "nuance": "堂々とした。", "etymology": "ラテン語 rēgālis" },
+      { "word": "noble", "meaning": "高貴な", "nuance": "身分の高い。", "etymology": "ラテン語 nōbilis" },
+      { "word": "loyal", "meaning": "忠実な", "nuance": "L と R で意味がちがう。", "etymology": "古フランス語 loial" }
+    ]
+  },
+  {
+    "id": "loyal", "word": "loyal", "katakana": "ロイヤル", "pos": "形容詞", "cefr": "B2", "level": 5,
+    "meaning": "忠実な、誠実な",
+    "scene": "王に仕える忠実な騎士。「ロイヤルカスタマー（常連客）」は loyal。",
+    "example": { "en": "The dog is very loyal to its owner.", "ja": "その犬は飼い主にとても忠実だ。" },
+    "etymology": {
+      "origin": "古フランス語 loial ← ラテン語 lēgālis「法にかなった」← lēx「法」",
+      "story": "legal（合法の）と同じ語源。royal とは L と R で意味がまったくちがう。"
+    },
+    "roots": [],
+    "family": ["loyalty（忠誠心）", "legal（合法の）"],
+    "synonyms": [
+      { "word": "faithful", "meaning": "忠実な", "nuance": "信頼を裏切らない。", "etymology": "faith + -ful" },
+      { "word": "devoted", "meaning": "献身的な", "nuance": "身をささげた。", "etymology": "ラテン語 dēvovēre" },
+      { "word": "royal", "meaning": "王の", "nuance": "L と R で意味がちがう。", "etymology": "ラテン語 rēgālis" }
+    ]
+  },
+  {
+    "id": "run", "word": "run", "katakana": "ラン", "pos": "動詞", "cefr": "A1", "level": 1,
+    "meaning": "走る、運営する",
+    "scene": "「ホームラン」「ランニング」。ゲームの「1回のプレイ」も a run。",
+    "example": { "en": "I run in the park every morning.", "ja": "毎朝公園を走っている。" },
+    "etymology": {
+      "origin": "古英語 rinnan「流れる」",
+      "story": "過去形 ran、過去分詞 run。「会社を運営する」run a company のようにも使う。"
+    },
+    "roots": [],
+    "family": ["runner（ランナー）", "home run（ホームラン）"],
+    "synonyms": [
+      { "word": "jog", "meaning": "ジョギングする", "nuance": "ゆっくり走る。", "etymology": "中英語 joggen" },
+      { "word": "dash", "meaning": "突進する", "nuance": "全力で走る。", "etymology": "中英語 dasshen" },
+      { "word": "sprint", "meaning": "全力疾走する", "nuance": "短い距離を全速力で。", "etymology": "古ノルド語 spretta" }
+    ]
+  },
+  {
+    "id": "sea", "word": "sea", "katakana": "シー", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "海",
+    "scene": "「シーフード」「シーサーペント（海蛇）」。see（見る）も同じ「シー」。",
+    "example": { "en": "We swam in the sea.", "ja": "私たちは海で泳いだ。" },
+    "etymology": {
+      "origin": "古英語 sǣ",
+      "story": "ゲルマン語の古い語。ocean は大洋、sea はより小さな海や「海」一般。"
+    },
+    "roots": [],
+    "family": ["seafood（シーフード）", "seaside（海辺）"],
+    "synonyms": [
+      { "word": "ocean", "meaning": "大洋", "nuance": "大きな海。", "etymology": "ギリシャ語 ōkeanós" },
+      { "word": "beach", "meaning": "浜辺", "nuance": "海辺の砂浜。", "etymology": "古英語 bæce" },
+      { "word": "wave", "meaning": "波", "nuance": "海の波。", "etymology": "古英語 wafian" }
+    ]
+  },
+  {
+    "id": "seat", "word": "seat", "katakana": "シート", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "席、座席",
+    "scene": "「チャイルドシート」「シートベルト」。sheet（シート、紙）とは別の語。",
+    "example": { "en": "Please take a seat.", "ja": "どうぞおかけください。" },
+    "etymology": {
+      "origin": "古ノルド語 sæti",
+      "story": "sit（座る）と同じ語根。sheet（1枚の紙や布）は別語源。"
+    },
+    "roots": [],
+    "family": ["seat belt（シートベルト）"],
+    "synonyms": [
+      { "word": "chair", "meaning": "いす", "nuance": "背もたれのあるいす。", "etymology": "ギリシャ語 kathédra" },
+      { "word": "bench", "meaning": "ベンチ", "nuance": "長いす。", "etymology": "古英語 benc" },
+      { "word": "sheet", "meaning": "シート、1枚", "nuance": "紙や布の1枚。", "etymology": "古英語 scēte" }
+    ]
+  },
+  {
+    "id": "ship", "word": "ship", "katakana": "シップ", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "船",
+    "scene": "「スターシップ」「バトルシップ」。ship は大きな船、boat は小さな船。",
+    "example": { "en": "The ship sailed across the ocean.", "ja": "その船は大洋を渡った。" },
+    "etymology": {
+      "origin": "古英語 scip",
+      "story": "動詞 ship は「発送する」（船で送ったことから）。-ship（friendship）は別の語。"
+    },
+    "roots": [],
+    "family": ["spaceship（宇宙船）", "shipping（発送）"],
+    "synonyms": [
+      { "word": "boat", "meaning": "ボート", "nuance": "小さな船。", "etymology": "古英語 bāt" },
+      { "word": "vessel", "meaning": "船舶", "nuance": "かたい言い方の船。", "etymology": "ラテン語 vāscellum「小さな器」" },
+      { "word": "sheep", "meaning": "ヒツジ", "nuance": "母音の長さでちがう語になる。", "etymology": "古英語 scēap" }
+    ]
+  },
+  {
+    "id": "sink", "word": "sink", "katakana": "シンク", "pos": "名詞・動詞", "cefr": "B1", "level": 4,
+    "meaning": "（台所の）流し／沈む",
+    "scene": "台所の「シンク」。think（考える）も「シンク」なので TH の音に注意。",
+    "example": { "en": "The ship began to sink.", "ja": "船が沈み始めた。" },
+    "etymology": {
+      "origin": "古英語 sincan「沈む」",
+      "story": "「水が沈んでいく場所」で流しの意味に。過去形 sank、過去分詞 sunk。"
+    },
+    "roots": [],
+    "family": ["sunken（沈んだ）"],
+    "synonyms": [
+      { "word": "basin", "meaning": "洗面器", "nuance": "水をためる器。", "etymology": "古フランス語 bacin" },
+      { "word": "drown", "meaning": "おぼれる", "nuance": "水に沈んで死ぬ。", "etymology": "中英語 drounen" },
+      { "word": "float", "meaning": "浮かぶ", "nuance": "sink の反対。", "etymology": "古英語 flotian" }
+    ]
+  },
+  {
+    "id": "think", "word": "think", "katakana": "シンク", "pos": "動詞", "cefr": "A1", "level": 1,
+    "meaning": "考える、思う",
+    "scene": "「シンクタンク（think tank）」。th は舌先を歯ではさむ音。sink とちがう。",
+    "example": { "en": "I think you are right.", "ja": "あなたは正しいと思う。" },
+    "etymology": {
+      "origin": "古英語 thencan",
+      "story": "過去形 thought。thank（感謝する）ももとは「思う」と同じ語根。"
+    },
+    "roots": [],
+    "family": ["thought（考え）", "think tank（シンクタンク）"],
+    "synonyms": [
+      { "word": "believe", "meaning": "信じる", "nuance": "本当だと思う。", "etymology": "古英語 gelēfan" },
+      { "word": "consider", "meaning": "よく考える", "nuance": "じっくり考える。", "etymology": "ラテン語 cōnsīderāre" },
+      { "word": "guess", "meaning": "推測する", "nuance": "たぶんと思う。", "etymology": "中英語 gessen" }
+    ]
+  },
+  {
+    "id": "stuff", "word": "stuff", "katakana": "スタッフ", "pos": "名詞・動詞", "cefr": "B1", "level": 4,
+    "meaning": "もの、こと／詰め込む",
+    "scene": "「スタッフ（職員）」は staff。stuff は「もの、あれこれ」。つづりに注意。",
+    "gap": "日本語の「スタッフ（職員）」は英語では staff。stuff は「もの、こと」という全然ちがう意味。",
+    "example": { "en": "I have a lot of stuff to do today.", "ja": "今日はやることがたくさんある。" },
+    "etymology": {
+      "origin": "古フランス語 estoffe「材料」",
+      "story": "「材料、中身」から「もの全般」「詰め込む」に。stuffed animal は「ぬいぐるみ」。"
+    },
+    "roots": [],
+    "family": ["stuffed animal（ぬいぐるみ）", "stuffing（詰め物）"],
+    "synonyms": [
+      { "word": "thing", "meaning": "もの", "nuance": "ものの一般語。", "etymology": "古英語 thing" },
+      { "word": "material", "meaning": "材料", "nuance": "作るもとになるもの。", "etymology": "ラテン語 māteria" },
+      { "word": "staff", "meaning": "スタッフ、職員", "nuance": "つづりのちがう別の語。", "etymology": "古英語 stæf「杖」" }
+    ]
+  },
+  {
+    "id": "van", "word": "van", "katakana": "バン", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "バン（箱型の車）",
+    "scene": "荷物を運ぶ「バン」。ban（禁止）も同じ「バン」。v は下唇をかむ。",
+    "example": { "en": "The delivery van stopped in front of my house.", "ja": "配達のバンが家の前に止まった。" },
+    "etymology": {
+      "origin": "caravan（キャラバン、隊商）の短縮形",
+      "story": "caravan はペルシャ語 kārvān（隊商）から。のちに荷馬車、そして箱型の車に。"
+    },
+    "roots": [],
+    "family": ["caravan（キャラバン）"],
+    "synonyms": [
+      { "word": "truck", "meaning": "トラック", "nuance": "荷物用の大型車。", "etymology": "ラテン語 trochus「車輪」" },
+      { "word": "wagon", "meaning": "ワゴン", "nuance": "荷車、ワゴン車。", "etymology": "オランダ語 wagen" },
+      { "word": "minivan", "meaning": "ミニバン", "nuance": "家族向けの車。", "etymology": "mini + van" }
+    ]
+  },
+  {
+    "id": "walk", "word": "walk", "katakana": "ウォーク", "pos": "動詞", "cefr": "A1", "level": 1,
+    "meaning": "歩く、散歩する",
+    "scene": "「ウォーキング」「ムーンウォーク」。work（働く）と母音がちがう。",
+    "example": { "en": "I walk to school every day.", "ja": "私は毎日歩いて学校に行く。" },
+    "etymology": {
+      "origin": "古英語 wealcan「転がる、動き回る」",
+      "story": "l は発音しない（ウォーク /wɔːk/）。walk the dog は「犬を散歩させる」。"
+    },
+    "roots": [],
+    "family": ["walking（ウォーキング）", "sidewalk（歩道）"],
+    "synonyms": [
+      { "word": "stroll", "meaning": "ぶらぶら歩く", "nuance": "のんびり散歩する。", "etymology": "ドイツ語 strollen" },
+      { "word": "hike", "meaning": "ハイキングする", "nuance": "山歩きをする。", "etymology": "語源不詳" },
+      { "word": "march", "meaning": "行進する", "nuance": "足並みをそろえて歩く。", "etymology": "フランス語 marcher" }
+    ]
+  },
+  {
+    "id": "work", "word": "work", "katakana": "ワーク", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
+    "meaning": "働く、うまくいく／仕事、作品",
+    "scene": "「ワークショップ」「チームワーク」。walk（歩く）と母音がちがう。",
+    "example": { "en": "My plan worked!", "ja": "私の計画はうまくいった！" },
+    "etymology": {
+      "origin": "古英語 weorc",
+      "story": "energy（エネルギー）のギリシャ語 érgon と同じ印欧語の語根。「うまく働く」から「うまくいく」。"
+    },
+    "roots": [],
+    "family": ["worker（労働者）", "homework（宿題）"],
+    "synonyms": [
+      { "word": "job", "meaning": "仕事", "nuance": "職、仕事。", "etymology": "語源不詳（16世紀）" },
+      { "word": "labor", "meaning": "労働", "nuance": "体を使う労働。", "etymology": "ラテン語 labor" },
+      { "word": "task", "meaning": "作業", "nuance": "やるべき作業。", "etymology": "ラテン語 taxāre" }
+    ]
+  },
+  {
+    "id": "week", "word": "week", "katakana": "ウィーク", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "週",
+    "scene": "「ゴールデンウィーク」。weak（弱い）も同じ「ウィーク」。",
+    "example": { "en": "I play soccer twice a week.", "ja": "週に2回サッカーをする。" },
+    "etymology": {
+      "origin": "古英語 wice「順番、交代」",
+      "story": "「交代で回ってくる期間」が原義とされる。weekend は「週末」。"
+    },
+    "roots": [],
+    "family": ["weekend（週末）", "weekly（毎週の）"],
+    "synonyms": [
+      { "word": "weekend", "meaning": "週末", "nuance": "土日。", "etymology": "week + end" },
+      { "word": "fortnight", "meaning": "2週間", "nuance": "イギリス英語。", "etymology": "fourteen nights" },
+      { "word": "month", "meaning": "月", "nuance": "約4週間。", "etymology": "古英語 mōnath" }
+    ]
+  },
+  {
+    "id": "weak", "word": "weak", "katakana": "ウィーク", "pos": "形容詞", "cefr": "A2", "level": 3,
+    "meaning": "弱い",
+    "scene": "「ウィークポイント（弱点）」、属性の弱点も weak。week（週）も同じ「ウィーク」。",
+    "example": { "en": "Fire is weak against water.", "ja": "炎は水に弱い。" },
+    "etymology": {
+      "origin": "古ノルド語 veikr「しなやかな、弱い」",
+      "story": "weakness は「弱点」。weaken は「弱める」。"
+    },
+    "roots": [],
+    "family": ["weakness（弱点）", "weaken（弱める）"],
+    "synonyms": [
+      { "word": "feeble", "meaning": "弱々しい", "nuance": "力がない。", "etymology": "ラテン語 flēbilis「泣くべき」" },
+      { "word": "fragile", "meaning": "こわれやすい", "nuance": "もろい。", "etymology": "ラテン語 fragilis" },
+      { "word": "strong", "meaning": "強い", "nuance": "weak の反対。", "etymology": "古英語 strang" }
+    ]
+  },
+  {
+    "id": "feel", "word": "feel", "katakana": "フィール", "pos": "動詞", "cefr": "A1", "level": 1,
+    "meaning": "感じる",
+    "scene": "「フィーリング」。fill（満たす）とは母音の長さがちがう。",
+    "example": { "en": "I feel happy today.", "ja": "今日は幸せな気分だ。" },
+    "etymology": {
+      "origin": "古英語 fēlan「さわる、感じる」",
+      "story": "もとは手で「さわる」こと。過去形 felt。feeling（気持ち）。"
+    },
+    "roots": [],
+    "family": ["feeling（フィーリング）"],
+    "synonyms": [
+      { "word": "sense", "meaning": "感じとる", "nuance": "なんとなく気づく。", "etymology": "ラテン語 sentīre" },
+      { "word": "touch", "meaning": "さわる", "nuance": "手でふれる。", "etymology": "古フランス語 tochier" },
+      { "word": "fill", "meaning": "満たす", "nuance": "母音の長さでちがう語。", "etymology": "古英語 fyllan" }
+    ]
+  },
+  {
+    "id": "fool", "word": "fool", "katakana": "フール", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "ばか者、道化",
+    "scene": "「エイプリルフール（April Fool）」。full（いっぱいの）とは母音の長さがちがう。",
+    "example": { "en": "Don't be a fool!", "ja": "ばかなことを言うな！" },
+    "etymology": {
+      "origin": "古フランス語 fol ← ラテン語 follis「ふいご、風袋」",
+      "story": "中身が空気だけの「ふいご」→「からっぽの頭の人」。"
+    },
+    "roots": [],
+    "family": ["foolish（ばかげた）", "April Fool（エイプリルフール）"],
+    "synonyms": [
+      { "word": "idiot", "meaning": "ばか", "nuance": "強い悪口。", "etymology": "ギリシャ語 idiṓtēs「素人」" },
+      { "word": "clown", "meaning": "道化", "nuance": "サーカスのピエロ。", "etymology": "語源不詳（16世紀）" },
+      { "word": "jester", "meaning": "宮廷の道化師", "nuance": "王に仕える道化。", "etymology": "古フランス語 geste「武勲の物語」" }
+    ]
+  },
+  {
+    "id": "alternative", "word": "alternative", "katakana": "オルタナティブ", "pos": "名詞・形容詞", "cefr": "B2", "level": 5,
+    "meaning": "代わりのもの、選択肢／代わりの",
+    "scene": "「オルタナティブロック」。alternate（交互の）と形が似ている。",
+    "example": { "en": "We need an alternative plan.", "ja": "代わりの計画が必要だ。" },
+    "etymology": {
+      "origin": "ラテン語 alternāre「交互にする」← alter「（二つのうち）もう一方の」",
+      "story": "alter（変える）、alien（よそ者）と同じ語根。"
+    },
+    "roots": [],
+    "family": ["alternate（交互の）", "alter（変える）"],
+    "synonyms": [
+      { "word": "option", "meaning": "選択肢", "nuance": "選べるもの。", "etymology": "ラテン語 optiō" },
+      { "word": "substitute", "meaning": "代わりの物・人", "nuance": "代用品。", "etymology": "ラテン語 substituere" },
+      { "word": "choice", "meaning": "選択", "nuance": "選ぶこと。", "etymology": "古フランス語 chois" }
+    ]
+  },
+  {
+    "id": "personal", "word": "personal", "katakana": "パーソナル", "pos": "形容詞", "cefr": "A2", "level": 3,
+    "meaning": "個人の、個人的な",
+    "scene": "「パーソナルトレーナー」「パソコン（personal computer）」。",
+    "example": { "en": "Can I ask you a personal question?", "ja": "個人的な質問をしてもいい？" },
+    "etymology": {
+      "origin": "ラテン語 persōnālis ← persōna「仮面、人格」",
+      "story": "persona（ペルソナ）、person（人）と同じ語源。personnel（職員）とはつづりも意味もちがう。"
+    },
+    "roots": [],
+    "family": ["person（人）", "personality（性格）"],
+    "synonyms": [
+      { "word": "private", "meaning": "私的な", "nuance": "人に見せない。", "etymology": "ラテン語 prīvātus" },
+      { "word": "individual", "meaning": "個々の", "nuance": "一人ひとりの。", "etymology": "ラテン語 individuus「分けられない」" },
+      { "word": "personnel", "meaning": "職員", "nuance": "形が似た別の語。", "etymology": "フランス語 personnel" }
+    ]
+  },
+  {
+    "id": "sensitive", "word": "sensitive", "katakana": "センシティブ", "pos": "形容詞", "cefr": "B1", "level": 4,
+    "meaning": "敏感な、傷つきやすい、取り扱い注意の",
+    "scene": "「センシティブな話題」「敏感肌（sensitive skin）」。sensible（分別のある）とまぎらわしい。",
+    "example": { "en": "She has very sensitive skin.", "ja": "彼女はとても敏感な肌をしている。" },
+    "etymology": {
+      "origin": "ラテン語 sēnsitīvus ← sentīre「感じる」",
+      "story": "sense（感覚）、sensor（センサー）と同じ語源。"
+    },
+    "roots": ["sent"],
+    "family": ["sensor（センサー）", "sense（感覚）"],
+    "synonyms": [
+      { "word": "delicate", "meaning": "繊細な", "nuance": "扱いに注意が必要。", "etymology": "ラテン語 dēlicātus" },
+      { "word": "touchy", "meaning": "神経質な", "nuance": "すぐ怒る。", "etymology": "touch + -y" },
+      { "word": "sensible", "meaning": "分別のある", "nuance": "形が似た別の語。", "etymology": "ラテン語 sēnsibilis" }
+    ]
+  },
+  {
+    "id": "industrial", "word": "industrial", "katakana": "インダストリアル", "pos": "形容詞", "cefr": "B2", "level": 5,
+    "meaning": "産業の、工業の",
+    "scene": "「インダストリアルデザイン」「インダストリアルな内装」。industrious（勤勉な）とまぎらわしい。",
+    "example": { "en": "This is an industrial area with many factories.", "ja": "ここは工場の多い工業地帯だ。" },
+    "etymology": {
+      "origin": "ラテン語 industria「勤勉」",
+      "story": "「よく働くこと」→「産業」。industrious（勤勉な）には元の意味が残る。"
+    },
+    "roots": [],
+    "family": ["industry（産業）", "industrious（勤勉な）"],
+    "synonyms": [
+      { "word": "commercial", "meaning": "商業の", "nuance": "売り買いの。", "etymology": "ラテン語 commercium" },
+      { "word": "manufacturing", "meaning": "製造の", "nuance": "ものづくりの。", "etymology": "ラテン語 manū factum「手で作られた」" },
+      { "word": "industrious", "meaning": "勤勉な", "nuance": "形が似た別の語。", "etymology": "ラテン語 industria" }
+    ]
+  },
+  {
+    "id": "breath", "word": "breath", "katakana": "ブレス", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "息、呼吸",
+    "scene": "ドラゴンの「ブレス（炎の息）」攻撃。動詞 breathe（ブリーズ）と発音がちがう。",
+    "example": { "en": "The dragon's breath burned the forest.", "ja": "ドラゴンの吐く炎で森が焼けた。" },
+    "etymology": {
+      "origin": "古英語 brǣth「におい、蒸気」",
+      "story": "take a deep breath は「深呼吸する」。out of breath は「息を切らして」。"
+    },
+    "roots": [],
+    "family": ["breathe（呼吸する）", "breathless（息を切らした）"],
+    "synonyms": [
+      { "word": "sigh", "meaning": "ため息", "nuance": "はあっとつく息。", "etymology": "古英語 sīcan" },
+      { "word": "gasp", "meaning": "あえぎ", "nuance": "はっと息をのむ。", "etymology": "古ノルド語 geispa" },
+      { "word": "breathe", "meaning": "呼吸する", "nuance": "動詞の形。", "etymology": "中英語 brethen" }
+    ]
+  },
+  {
+    "id": "ban", "word": "ban", "katakana": "バン", "pos": "名詞・動詞", "cefr": "B2", "level": 5,
+    "meaning": "禁止／禁止する",
+    "scene": "ネットゲームで「BANされる（アカウント停止）」。van（車）も同じ「バン」。",
+    "example": { "en": "He was banned from the game for cheating.", "ja": "彼はチートでゲームから締め出された。" },
+    "etymology": {
+      "origin": "古英語 bannan「呼び出す、布告する」",
+      "story": "もとは「おおやけに告げる」。そこから「禁止を告げる」に。banish（追放する）も同じ語源。"
+    },
+    "roots": [],
+    "family": ["banish（追放する）"],
+    "synonyms": [
+      { "word": "prohibit", "meaning": "禁止する", "nuance": "かたい言い方。", "etymology": "ラテン語 prohibēre" },
+      { "word": "forbid", "meaning": "禁じる", "nuance": "許さない。", "etymology": "古英語 forbēodan" },
+      { "word": "block", "meaning": "ブロックする", "nuance": "相手を締め出す。", "etymology": "古フランス語 bloc" }
+    ]
+  },
+  {
+    "id": "carry", "word": "carry", "katakana": "キャリー", "pos": "動詞", "cefr": "A1", "level": 2,
+    "meaning": "運ぶ、持ち歩く",
+    "scene": "「キャリーバッグ」。ゲームで弱い仲間を勝たせる「キャリー」も。",
+    "example": { "en": "Can you carry this box for me?", "ja": "この箱を運んでくれる？" },
+    "etymology": {
+      "origin": "古北フランス語 carier ← ラテン語 carrus「荷車」",
+      "story": "car（車）、cargo（貨物）と同じ語源。"
+    },
+    "roots": [],
+    "family": ["car（車）", "carrier（運送業者）"],
+    "synonyms": [
+      { "word": "bring", "meaning": "持ってくる", "nuance": "こちらへ運ぶ。", "etymology": "古英語 bringan" },
+      { "word": "hold", "meaning": "持つ", "nuance": "手に持っている。", "etymology": "古英語 healdan" },
+      { "word": "transport", "meaning": "輸送する", "nuance": "大規模に運ぶ。", "etymology": "ラテン語 trānsportāre" }
+    ]
+  },
+  {
+    "id": "raise", "word": "raise", "katakana": "レイズ", "pos": "動詞", "cefr": "B1", "level": 4,
+    "meaning": "上げる、育てる、（お金を）集める",
+    "scene": "倒れた仲間を起こす魔法「レイズ」、ポーカーの「レイズ（賭け金を上げる）」。rise（上がる）と区別。",
+    "example": { "en": "Raise your hand if you have a question.", "ja": "質問があれば手を挙げて。" },
+    "etymology": {
+      "origin": "古ノルド語 reisa「起こす」",
+      "story": "rise（上がる）と同じ語根。raise は「〜を上げる」（目的語が必要）、rise は「上がる」。"
+    },
+    "roots": [],
+    "family": ["fundraising（資金集め）"],
+    "synonyms": [
+      { "word": "lift", "meaning": "持ち上げる", "nuance": "物を持ち上げる。", "etymology": "古ノルド語 lypta" },
+      { "word": "revive", "meaning": "生き返らせる", "nuance": "ゲームの「レイズ」の意味。", "etymology": "ラテン語 revīvere" },
+      { "word": "rise", "meaning": "上がる", "nuance": "自分が上がる。", "etymology": "古英語 rīsan" }
+    ]
+  },
+  {
+    "id": "save", "word": "save", "katakana": "セーブ", "pos": "動詞", "cefr": "A2", "level": 3,
+    "meaning": "救う、節約する、（データを）保存する",
+    "scene": "ゲームの「セーブ」。サッカーのゴールキーパーの「セーブ」も。",
+    "example": { "en": "Don't forget to save your game.", "ja": "ゲームをセーブするのを忘れないで。" },
+    "etymology": {
+      "origin": "古フランス語 sauver ← ラテン語 salvāre「救う」← salvus「無事な」",
+      "story": "「無事にする」→「救う」→「取っておく」→「保存する」。safe（安全な）と同じ語源。"
+    },
+    "roots": [],
+    "family": ["safe（安全な）", "saving（節約）"],
+    "synonyms": [
+      { "word": "rescue", "meaning": "救助する", "nuance": "危険から助け出す。", "etymology": "古フランス語 rescourre" },
+      { "word": "store", "meaning": "たくわえる", "nuance": "しまっておく。", "etymology": "ラテン語 īnstaurāre" },
+      { "word": "load", "meaning": "ロードする", "nuance": "ゲームで save の対になる操作。", "etymology": "古英語 lād" }
+    ]
+  },
+  {
+    "id": "read", "word": "read", "katakana": "リード", "pos": "動詞", "cefr": "A1", "level": 1,
+    "meaning": "読む",
+    "scene": "「リーダー（reader、読む人）」。lead（導く）も同じ「リード」なので R の音に注意。",
+    "example": { "en": "I like to read before bed.", "ja": "寝る前に本を読むのが好きだ。" },
+    "etymology": {
+      "origin": "古英語 rǣdan「助言する、解き明かす」",
+      "story": "もとは「なぞを解き明かす」こと。過去形も read（発音はレッド）。riddle（なぞなぞ）と同じ語源。"
+    },
+    "roots": [],
+    "family": ["reader（読者）", "riddle（なぞなぞ）"],
+    "synonyms": [
+      { "word": "study", "meaning": "勉強する", "nuance": "調べて学ぶ。", "etymology": "ラテン語 studium" },
+      { "word": "scan", "meaning": "ざっと目を通す", "nuance": "すばやく読む。", "etymology": "ラテン語 scandere" },
+      { "word": "lead", "meaning": "導く", "nuance": "L と R で意味がちがう。", "etymology": "古英語 lǣdan" }
+    ]
+  },
+  {
+    "id": "see", "word": "see", "katakana": "シー", "pos": "動詞", "cefr": "A1", "level": 1,
+    "meaning": "見る、見える、わかる、会う",
+    "scene": "「シースルー（see-through）」。sea（海）も同じ「シー」。",
+    "example": { "en": "I see what you mean.", "ja": "言いたいことはわかるよ。" },
+    "etymology": {
+      "origin": "古英語 sēon",
+      "story": "過去形 saw、過去分詞 seen。I see.（なるほど）のように「わかる」の意味でもよく使う。"
+    },
+    "roots": [],
+    "family": ["sight（視力）", "seesaw（シーソー）"],
+    "synonyms": [
+      { "word": "look", "meaning": "見る", "nuance": "意識して目を向ける。", "etymology": "古英語 lōcian" },
+      { "word": "watch", "meaning": "じっと見る", "nuance": "動くものを見続ける。", "etymology": "古英語 wæccan" },
+      { "word": "notice", "meaning": "気づく", "nuance": "目にとまる。", "etymology": "ラテン語 nōtitia" }
+    ]
   }
 ]

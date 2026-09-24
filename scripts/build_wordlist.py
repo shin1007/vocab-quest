@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 WORDS = json.loads((ROOT / "data/words.json").read_text(encoding="utf-8"))
 ROOTS = json.loads((ROOT / "data/roots.json").read_text(encoding="utf-8"))
 PAIRS = json.loads((ROOT / "data/pairs.json").read_text(encoding="utf-8"))
+CANDIDATES = json.loads((ROOT / "data/candidates.json").read_text(encoding="utf-8"))
 PAIR_KINDS = {
     "vowel": "🗣️ 母音のちがい",
     "lr": "👅 L と R",
@@ -166,6 +167,14 @@ def render():
     return "\n".join(out)
 
 
+def coverage():
+    """候補リスト（data/candidates.json）のうち、まだ単語リストにない語を分野ごとに返す"""
+    have = {w["word"] for w in WORDS}
+    skip = set(CANDIDATES["exclude"])
+    return {cat: [x for x in words if x not in have and x not in skip]
+            for cat, words in CANDIDATES["categories"].items()}
+
+
 def main():
     errors = validate()
     if errors:
@@ -181,6 +190,11 @@ def main():
         return
     target.write_text(text, encoding="utf-8")
     print(f"生成しました: {target.relative_to(ROOT)}（{len(WORDS)} 語）")
+    missing = coverage()
+    print(f"候補リストのうち未収録: {sum(map(len, missing.values()))} 語")
+    for cat, words in missing.items():
+        if words:
+            print(f"  {cat}: {' '.join(words)}")
 
 
 if __name__ == "__main__":
