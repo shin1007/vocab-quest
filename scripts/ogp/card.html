@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- SNS のリンクカード用画像（icons/ogp.png, 1200×630）の元。render.mjs で PNG にする -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&family=Montserrat:ital,wght@1,900&display=swap">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 36px;
+    font-family: "M PLUS Rounded 1c", sans-serif; color: #3a3d5c;
+    background:
+      radial-gradient(55% 45% at 100% 0%, rgba(255, 128, 190, .38), transparent 70%),
+      radial-gradient(50% 45% at 0% 25%, rgba(64, 220, 205, .36), transparent 70%),
+      radial-gradient(60% 50% at 50% 100%, rgba(140, 150, 255, .28), transparent 70%),
+      repeating-linear-gradient(-60deg, rgba(110, 150, 220, .08) 0 3px, transparent 3px 36px),
+      linear-gradient(180deg, #f8fbff, #e8f0ff);
+  }
+  .key { font-size: 120px; line-height: 1; filter: drop-shadow(0 10px 18px rgba(90, 110, 190, .25)); }
+  .brand {
+    font-family: "Montserrat", sans-serif; font-style: italic; font-weight: 900; font-size: 136px;
+    letter-spacing: .04em; line-height: 1; padding: 0 .12em;
+    background: linear-gradient(90deg, #1fc2b2, #5a86ff 55%, #ff64a4);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    filter: drop-shadow(0 3px 0 rgba(255, 255, 255, .9)) drop-shadow(0 10px 20px rgba(90, 110, 190, .22));
+  }
+  .brand span { margin-left: .12em; }
+  .tagline {
+    font-size: 44px; font-weight: 800; padding: 16px 44px; border-radius: 999px;
+    background: rgba(255, 255, 255, .85); border: 2px solid rgba(150, 170, 215, .45);
+    box-shadow: 0 10px 28px rgba(80, 100, 170, .14);
+  }
+</style>
+</head>
+<body>
+  <div class="key">🗝️</div>
+  <div class="brand">VOCAB<span>QUEST</span></div>
+  <div class="tagline">身の回りのカタカナ語から英単語を学ぶ</div>
+</body>
+</html>

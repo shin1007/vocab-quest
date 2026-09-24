@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 WORDS = json.loads((ROOT / "data/words.json").read_text(encoding="utf-8"))
 ROOTS = json.loads((ROOT / "data/roots.json").read_text(encoding="utf-8"))
 PAIRS = json.loads((ROOT / "data/pairs.json").read_text(encoding="utf-8"))
+CANDIDATES = json.loads((ROOT / "data/candidates.json").read_text(encoding="utf-8"))
 PAIR_KINDS = {
     "vowel": "🗣️ 母音のちがい",
     "lr": "👅 L と R",
@@ -22,18 +23,15 @@ PAIR_KINDS = {
     "spelling": "✍️ つづりが似ている",
     "derived": "🧬 形が似た派生語",
 }
-# コースはこのアプリ独自のレベル（app/app.js の COURSES と同じ）
+# コースは英検の級に合わせたレベル（app/app.js の COURSES と同じ。level 1=5級 … 7=1級）
 COURSES = {
-    1: "Lv.1 ひと目でわかる",
-    2: "Lv.2 くらしの定番",
-    3: "Lv.3 よく使う",
-    4: "Lv.4 話が広がる",
-    5: "Lv.5 よく見聞きする",
-    6: "Lv.6 社会の話題",
-    7: "Lv.7 大人の日常語",
-    8: "Lv.8 ビジネス",
-    9: "Lv.9 教養",
-    10: "Lv.10 マスター",
+    1: "5級 はじめの一歩",
+    2: "4級 くらしの基本",
+    3: "3級 中学卒業",
+    4: "準2級 高校なかば",
+    5: "2級 高校卒業",
+    6: "準1級 大学なかば",
+    7: "1級 マスター",
 }
 # 英語以外の形で収録した語の言語（app/app.js の LANGS と同じ）
 LANGS = {"fr": "フランス語", "de": "ドイツ語", "es": "スペイン語", "it": "イタリア語", "pt": "ポルトガル語",
@@ -121,9 +119,9 @@ def render():
         f"収録語数: **{len(WORDS)} 語**（類義語 {sum(len(w['synonyms']) for w in WORDS)} 語） / "
         f"語根ファミリー: **{len(ROOTS)} 種** / 似た単語セット: **{len(PAIRS)} セット**",
         "",
-        "レベル別: " + " / ".join(f"Lv.{key} {sum(w['level'] == key for w in WORDS)}語" for key in COURSES),
+        "レベル別: " + " / ".join(f"{COURSES[key].split()[0]} {sum(w['level'] == key for w in WORDS)}語" for key in COURSES),
         "",
-        "> レベルはこのアプリ独自の分け方です（カタカナとしてのなじみやすさと、英語の難しさで決めています）。",
+        "> レベルは英検の級にあわせたおおよその目安です（英語としての難しさで分けています）。",
         "",
         "凡例: ⚠️ = カタカナの罠（日本語での意味と英語の意味がずれている語）",
         "",
@@ -173,7 +171,7 @@ def render():
         out += [f"### {label}", "", "| レベル | 単語 | ここがちがう |", "|---|---|---|"]
         for p in sorted((p for p in PAIRS if p["kind"] == kind), key=lambda p: p["level"]):
             ws = "<br>".join(f"**{x['word']}** /{x['ipa']}/ {x['meaning']}" for x in p["words"])
-            out.append(f"| Lv.{p['level']} | {ws} | {p['point']} |")
+            out.append(f"| {COURSES[p['level']].split()[0]} | {ws} | {p['point']} |")
         out.append("")
 
     out += ["## 語根ファミリー一覧", "", "| 語根 | 意味 | 由来 | 収録語 | その他の仲間 |", "|---|---|---|---|---|"]
@@ -182,6 +180,28 @@ def render():
         out.append(f"| `{r['form']}` | {r['meaning']} | {r['source']} | {main} | {', '.join(r['extra'])} |")
     out.append("")
     return "\n".join(out)
+
+
+def coverage():
+    """候補リスト（data/candidates.json）のうち、まだ単語リストにない語を分野ごとに返す"""
+    have = {w["word"] for w in WORDS}
+    skip = set(CANDIDATES["exclude"])
+    return {cat: [x for x in words if x not in have and x not in skip]
+            for cat, words in CANDIDATES["categories"].items()}
+
+
+def katakana_clashes():
+    """カタカナが同じなのに、似た単語セットで一緒に練習できない語（bus と bath など）を返す"""
+    groups = {}
+    for w in WORDS:
+        groups.setdefault(re.sub(r"（.*）", "", w["katakana"]), []).append(w["word"])
+    together = {(a["word"], b["word"]) for p in PAIRS for a in p["words"] for b in p["words"] if a is not b}
+    out = []
+    for kata, words in groups.items():
+        lonely = [a for a in words if len(words) > 1 and not any((a, b) in together for b in words if b != a)]
+        if lonely:
+            out.append(f"{kata}（{' / '.join(words)}）")
+    return out
 
 
 def main():
@@ -199,6 +219,15 @@ def main():
         return
     target.write_text(text, encoding="utf-8")
     print(f"生成しました: {target.relative_to(ROOT)}（{len(WORDS)} 語）")
+    missing = coverage()
+    print(f"候補リストのうち未収録: {sum(map(len, missing.values()))} 語")
+    for cat, words in missing.items():
+        if words:
+            print(f"  {cat}: {' '.join(words)}")
+    clashes = katakana_clashes()
+    print(f"カタカナが同じなのに似た単語セットがない組: {len(clashes)} 組")
+    for c in clashes:
+        print(f"  {c}")
 
 
 if __name__ == "__main__":

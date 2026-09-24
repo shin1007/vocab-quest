@@ -3,19 +3,16 @@
   "use strict";
 
   // ---------- 学習コンテンツの定義 ----------
-  // コースはこのアプリ独自のレベル（words.json の level）。カタカナとしてのなじみやすさと英語の難しさで分ける。
+  // コースは英検の級に合わせたざっくりしたレベル（words.json の level: 1=5級 … 7=1級）。英語としての難しさで分ける。
   // ジャンルでは分けず、身近な語もゲームの語も同じレベルに混ぜて出す
   const COURSES = {
-    "1": { name: "Lv.1", title: "ひと目でわかる", desc: "誰でも知っているカタカナ。英語も短くてやさしい" },
-    "2": { name: "Lv.2", title: "くらしの定番", desc: "家・食べ物・街など、毎日の生活で使うことば" },
-    "3": { name: "Lv.3", title: "よく使う", desc: "学校・趣味・お出かけでよく使うことば" },
-    "4": { name: "Lv.4", title: "話が広がる", desc: "身近な話題を広げることば" },
-    "5": { name: "Lv.5", title: "よく見聞きする", desc: "ネットやテレビでよく見聞きすることば" },
-    "6": { name: "Lv.6", title: "社会の話題", desc: "ニュースや社会の話題に出てくることば" },
-    "7": { name: "Lv.7", title: "大人の日常語", desc: "仕事や生活で大人がよく使うカタカナ" },
-    "8": { name: "Lv.8", title: "ビジネス", desc: "会議や資料に出てくるカタカナ" },
-    "9": { name: "Lv.9", title: "教養", desc: "本や評論で出会う知的なことば" },
-    "10": { name: "Lv.10", title: "マスター", desc: "知っていれば上級者。大人も迷うことば" },
+    "1": { name: "5級", title: "はじめの一歩", desc: "中学1年程度。誰でも知っている身近なことば" },
+    "2": { name: "4級", title: "くらしの基本", desc: "中学2年程度。家・食べ物・街など毎日のことば" },
+    "3": { name: "3級", title: "中学卒業", desc: "中学卒業程度。学校・趣味・お出かけのことば" },
+    "4": { name: "準2級", title: "高校なかば", desc: "高校中級程度。ネットやテレビでよく見聞きすることば" },
+    "5": { name: "2級", title: "高校卒業", desc: "高校卒業程度。ニュースや社会の話題のことば" },
+    "6": { name: "準1級", title: "大学なかば", desc: "大学中級程度。仕事・教養・ファンタジーの少し難しいことば" },
+    "7": { name: "1級", title: "マスター", desc: "大学上級程度。知っていれば上級者のことば" },
   };
   const COURSE_ORDER = Object.keys(COURSES).sort((a, b) => a - b);
   // 見た目のテーマ（機能は共通）。CSS は app/style.css の [data-theme]
@@ -76,6 +73,8 @@
   const DAY = 24 * 60 * 60 * 1000;
   const STORE_KEY = "vocab-quest-save-v3";
   const OLD_STORE_KEY = "vocab-quest-save-v2";
+  // コースの分け方を変えたら上げる。レッスンの並びが変わるので、完了印（done）だけ消して単語ごとの習熟度は残す
+  const COURSE_VERSION = 2;
 
   let WORDS = [];
   let ROOTS = [];
@@ -120,7 +119,7 @@
   // ---------- セーブデータ ----------
   function defaultState() {
     return {
-      cards: {}, done: {}, streak: 0, lastDay: null,
+      cards: {}, done: {}, courseVersion: COURSE_VERSION, streak: 0, lastDay: null,
       sessions: 0, answered: 0, correct: 0, welcomed: false,
       settings: { autoVoice: true, theme: "stage" },
     };
@@ -128,7 +127,11 @@
   function load() {
     try {
       const raw = localStorage.getItem(STORE_KEY);
-      if (raw) return { ...defaultState(), ...JSON.parse(raw) };
+      if (raw) {
+        const saved = JSON.parse(raw);
+        if (saved.courseVersion !== COURSE_VERSION) { saved.done = {}; saved.courseVersion = COURSE_VERSION; }
+        return { ...defaultState(), ...saved };
+      }
       // 旧バージョン（RPG 版）のセーブから学習記録だけ引き継ぐ
       const old = JSON.parse(localStorage.getItem(OLD_STORE_KEY) || "null");
       if (!old) return defaultState();
@@ -299,7 +302,7 @@
         </section>` : ""}
 
       <h2 class="section-title">レベル別コース</h2>
-      <p class="small lead">レベルはこのアプリ独自の分け方です。カタカナとしてのなじみやすさと、英語のつづり・意味の難しさで決めています。</p>
+      <p class="small lead">レベルは英検の級にあわせたおおよその目安です。英語のつづり・意味の難しさで分けています。</p>
       ${COURSE_ORDER.map((k) => {
         const t = COURSES[k];
         const lessons = lessonsOf(k);
@@ -806,7 +809,7 @@
     return html`
       <section class="card pair-card" style="--area:var(--area-${p.level})">
         <div class="row small">
-          <span class="grade-chip">Lv.${p.level}</span>
+          <span class="grade-chip">${esc(COURSES[p.level].name)}</span>
           <span class="muted">${k.icon} ${esc(k.name)}</span>
           <span class="spacer"></span>${meter(level(pairKey(p)))}
         </div>
