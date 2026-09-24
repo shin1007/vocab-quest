@@ -27,7 +27,7 @@
   };
   const QTYPES = {
     kata: "カタカナ → 英語",
-    meaning: "英語 → 意味",
+    meaning: "意味 → 英語",
     spell: "つづり",
     etym: "語源",
     syn: "類義語",
@@ -386,9 +386,10 @@
         q.choices = wordChoices((x) => x.word);
         break;
       case "meaning":
-        q.prompt = html`<span class="big en">${esc(w.word)}</span>英語での意味は？`;
-        q.hint = `カタカナでは「${w.katakana}」。${w.scene}`;
-        q.choices = wordChoices((x) => x.meaning);
+        q.prompt = html`<span class="big">${esc(w.meaning)}</span>この意味の英単語は？`;
+        q.hint = `📍 ${mask(w.scene, w)}`;
+        // 意味が同じ語は正解と見分けられないので選択肢に出さない
+        q.choices = wordChoices((x) => x.word, (x) => x.meaning !== w.meaning);
         break;
       case "spell":
         q.prompt = html`<span class="big">${esc(w.katakana)}</span>${esc(w.meaning)}<span class="scene">文字をタップしてつづりを完成させよう</span>`;
@@ -450,8 +451,8 @@
   function renderQuestion() {
     const s = session;
     const q = s.questions[s.index];
-    // 出題文の読み上げ（答えがばれない物だけ）：カタカナ語、または意味を問う英単語
-    const promptVoice = q.type === "kata" || q.type === "spell" ? `${q.word.id}.katakana` : q.type === "meaning" ? `${q.word.id}.word` : null;
+    // 出題文の読み上げ（答えがばれない物だけ）：カタカナ語、または日本語の意味
+    const promptVoice = q.type === "kata" || q.type === "spell" ? `${q.word.id}.katakana` : q.type === "meaning" ? `${q.word.id}.meaning` : null;
     $view.innerHTML = html`
       <div class="quiz-top">
         <button class="icon-btn" id="quit" aria-label="やめる">✕</button>
