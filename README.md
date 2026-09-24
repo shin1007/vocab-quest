@@ -15,7 +15,7 @@
 | パス | 内容 |
 |---|---|
 | [`docs/UX_DESIGN.md`](docs/UX_DESIGN.md) | UX デザイン（学習の流れ、問題タイプ、習熟度と復習、ビジュアル、KPI） |
-| [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（3909語・類義語8674語・語根56種）— 語源・類義語つき、人が読む用 |
+| [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（4626語・類義語10110語・語根56種）— 語源・類義語つき、人が読む用 |
 | `data/words.json` | 単語データ（正本） |
 | `data/roots.json` | 語根ファミリーデータ |
 | `data/pairs.json` | 似た単語セット（母音・L/R・B/V・TH・同音語・つづり・派生語の7種類） |

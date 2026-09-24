@@ -616,7 +616,8 @@ button.chip:active { transform: translateY(2px); }
 .drops h4:first-child { margin-top: 0; }
 
 /* ---------- 単語帳 ---------- */
-.filters { display: grid; grid-template-columns: 1fr auto; gap: 8px; margin-bottom: 10px; }
+.filters { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+.filters input { grid-column: 1 / -1; }
 .filters input, .filters select {
   min-height: 48px; padding: 8px 14px; border-radius: var(--radius-sm); border: var(--bw-sm) solid var(--edge); box-shadow: var(--shadow-sm);
   background: var(--input-bg); color: var(--text); font: inherit; font-weight: 700; min-width: 0;

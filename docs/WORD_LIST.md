@@ -2,9 +2,9 @@
 
 > このファイルは `data/words.json` と `data/roots.json` から `python3 scripts/build_wordlist.py` で自動生成されています。直接編集しないでください。
 
-収録語数: **3909 語**（類義語 8674 語） / 語根ファミリー: **56 種** / 似た単語セット: **100 セット**
+収録語数: **4626 語**（類義語 10110 語） / 語根ファミリー: **56 種** / 似た単語セット: **100 セット**
 
-レベル別: Lv.1 303語 / Lv.2 370語 / Lv.3 398語 / Lv.4 415語 / Lv.5 488語 / Lv.6 511語 / Lv.7 409語 / Lv.8 399語 / Lv.9 293語 / Lv.10 323語
+レベル別: Lv.1 320語 / Lv.2 397語 / Lv.3 464語 / Lv.4 504語 / Lv.5 601語 / Lv.6 688語 / Lv.7 514語 / Lv.8 479語 / Lv.9 318語 / Lv.10 341語
 
 > レベルはこのアプリ独自の分け方です（カタカナとしてのなじみやすさと、英語の難しさで決めています）。
 
@@ -12,16 +12,16 @@
 
 ## 目次
 
-- Lv.1 ひと目でわかる — [dog](#dog), [cat](#cat), [apple](#apple), [milk](#milk), [tea](#tea), [juice](#juice), [cake](#cake), [table](#table), [bed](#bed), [door](#door), [bus](#bus), [train](#train), [park](#park), [pen](#pen), [music](#music), [piano](#piano), [ball](#ball), [color](#color), [sport](#sport), [egg](#egg), [fish](#fish), [bag](#bag), [cup](#cup), [box](#box), [desk](#desk), [room](#room), [house](#house), [car](#car), [game](#game), [book](#book), [song](#song), [happy](#happy), [home](#home), [watch](#watch), [shoes](#shoes), [shirt](#shirt), [cap](#cap), [ice](#ice), [pizza](#pizza), [soup](#soup), [rice](#rice), [jam](#jam), [candy](#candy), [bear](#bear), [panda](#panda), [bath](#bath), [towel](#towel), [clock](#clock), [dance](#dance), [drum](#drum), [sofa](#sofa), [red](#red), [blue](#blue), [green](#green), [pink](#pink), [black](#black), [white](#white), [big](#big), [nice](#nice), [melon](#melon), [peach](#peach), [kiwi](#kiwi), [cherry](#cherry), [grape](#grape), [cola](#cola), [soda](#soda), [bacon](#bacon), [ham](#ham), [steak](#steak), [curry](#curry), [pasta](#pasta), [pepper](#pepper), [honey](#honey), [toast](#toast), [donut](#donut), [pie](#pie), [zebra](#zebra), [koala](#koala), [gorilla](#gorilla), [shark](#shark), [lamp](#lamp), [mirror](#mirror), [curtain](#curtain), [carpet](#carpet), [toilet](#toilet), [tissue](#tissue), [brush](#brush), [tape](#tape), [hat](#hat), [boots](#boots), [socks](#socks), [belt](#belt), [pocket](#pocket), [jeans](#jeans), [golf](#golf), [ski](#ski), [hit](#hit), [bat](#bat), [net](#net), [radio](#radio), [mail](#mail), [cool](#cool), [hot](#hot), [cute](#cute), [sweet](#sweet), [fresh](#fresh), [soft](#soft), [love](#love), [heart](#heart), [sun](#sun), [moon](#moon), [sky](#sky), [snow](#snow), [rain](#rain), [rainbow](#rainbow), [fire](#fire), [water](#water), [gold](#gold), [silver](#silver), [king](#king), [queen](#queen), [prince](#prince), [princess](#princess), [boy](#boy), [girl](#girl), [lady](#lady), [coin](#coin), [gum](#gum), [jelly](#jelly), [pudding](#pudding), [straw](#straw), [pot](#pot), [doll](#doll), [puzzle](#puzzle), [block](#block), [circle](#circle), [line](#line), [stop](#stop), [kick](#kick), [punch](#punch), [dash](#dash), [jogging](#jogging), [rose](#rose), [tulip](#tulip), [potato](#potato), [onion](#onion), [corn](#corn), [mint](#mint), [pool](#pool), [kiss](#kiss), [jazz](#jazz), [chess](#chess), [bell](#bell), [pin](#pin), [mix](#mix), [cut](#cut), [chicken](#chicken), [beef](#beef), [meat](#meat), [ink](#ink), [show](#show), [swan](#swan), [snake](#snake), [jet](#jet), [pipe](#pipe), [rope](#rope), [hair](#hair), [neck](#neck), [skin](#skin), [bowl](#bowl), [tray](#tray), [chalk](#chalk), [almond](#almond), [peanut](#peanut), [celery](#celery), [parsley](#parsley), [cinnamon](#cinnamon), [herb](#herb), [spice](#spice), [sandal](#sandal), [apron](#apron), [earring](#earring), [cracker](#cracker), [hammer](#hammer), [tank](#tank), [dome](#dome), [dot](#dot), [drop](#drop), [dry](#dry), [deep](#deep), [dark](#dark), [heavy](#heavy), [pure](#pure), [rich](#rich), [wild](#wild), [wide](#wide), [long](#long), [last](#last), [first](#first), [second](#second), [half](#half), [double](#double), [triple](#triple), [full](#full), [real](#real), [normal](#normal), [basic](#basic), [main](#main), [tube](#tube), [toaster](#toaster), [dryer](#dryer), [tile](#tile), [mat](#mat), [camping](#camping), [ferry](#ferry), [yacht](#yacht), [canoe](#canoe), [cage](#cage), [case](#case), [kite](#kite), [bingo](#bingo), [whistle](#whistle), [circus](#circus), [parade](#parade), [Christmas](#christmas), [Easter](#easter), [Halloween](#halloween), [chime](#chime), [ice cream](#ice-cream), [up](#up), [after](#after), [afternoon](#afternoon), [hour](#hour), [under](#under), [it](#it), [eleven](#eleven), [woman](#woman), [week](#week), [way](#way), [eight](#eight), [only](#only), [good](#good), [great](#great), [call](#call), [cold](#cold), [third](#third), [thank you](#thank-you), [Santa Claus](#santa-claus), [shopping](#shopping), [giraffe](#giraffe), [stand](#stand), [spring](#spring), [seven](#seven), [turn](#turn), [time](#time), [fall](#fall), [chair](#chair), [child](#child), [ten](#ten), [try](#try), [travel](#travel), [nine](#nine), [nothing](#nothing), [new](#new), [name](#name), [high](#high), [how](#how), [hello](#hello), [hand](#hand), [dad](#dad), [beautiful](#beautiful), [people](#people), [picture](#picture), [finish](#finish), [football](#football), [French](#french), [break](#break), [pretty](#pretty), [play](#play), [head](#head), [better](#better), [pay](#pay), [my](#my), [money](#money), [man](#man), [you](#you), [life](#life), [run](#run), [little](#little), [lake](#lake), [low](#low), [true](#true), [no](#no), [wonderful](#wonderful), [all](#all), [hear](#hear), [day](#day), [four](#four), [Japanese](#japanese), [Japan](#japan), [Chinese](#chinese), [China](#china), [mom](#mom)
-- Lv.2 くらしの定番 — [mouse](#mouse), [lion](#lion), [tiger](#tiger), [banana](#banana), [orange](#orange), [lemon](#lemon), [tomato](#tomato), [coffee](#coffee), [bread](#bread), [chocolate](#chocolate), [window](#window), [kitchen](#kitchen), [key](#key), [taxi](#taxi), [hotel](#hotel), [bank](#bank), [pencil](#pencil), [note](#note), [school](#school), [test](#test), [family](#family), [friend](#friend), [baby](#baby), [star](#star), [flower](#flower), [tree](#tree), [camera](#camera), [phone](#phone), [team](#team), [tennis](#tennis), [soccer](#soccer), [hobby](#hobby), [menu](#menu), [salad](#salad), [bike](#bike), [party](#party), [card](#card), [birthday](#birthday), [morning](#morning), [guitar](#guitar), [baseball](#baseball), [swimming](#swimming), [map](#map), [plan](#plan), [dream](#dream), [smile](#smile), [shop](#shop), [fruit](#fruit), [lunch](#lunch), [camp](#camp), [beach](#beach), [river](#river), [size](#size), [hamburger](#hamburger), [monkey](#monkey), [calendar](#calendar), [racket](#racket), [volleyball](#volleyball), [basketball](#basketball), [violin](#violin), [summer](#summer), [winter](#winter), [town](#town), [city](#city), [speed](#speed), [power](#power), [point](#point), [rule](#rule), [club](#club), [drink](#drink), [cream](#cream), [sugar](#sugar), [spoon](#spoon), [fork](#fork), [knife](#knife), [glass](#glass), [plate](#plate), [farm](#farm), [tower](#tower), [boat](#boat), [lucky](#lucky), [easy](#easy), [hard](#hard), [slow](#slow), [short](#short), [top](#top), [skirt](#skirt), [dress](#dress), [coat](#coat), [glove](#glove), [ring](#ring), [strawberry](#strawberry), [pineapple](#pineapple), [avocado](#avocado), [broccoli](#broccoli), [cabbage](#cabbage), [lettuce](#lettuce), [pumpkin](#pumpkin), [popcorn](#popcorn), [vanilla](#vanilla), [pancake](#pancake), [omelet](#omelet), [stew](#stew), [sausage](#sausage), [yogurt](#yogurt), [mayonnaise](#mayonnaise), [ketchup](#ketchup), [dressing](#dressing), [cereal](#cereal), [cocoa](#cocoa), [kangaroo](#kangaroo), [cheetah](#cheetah), [hamster](#hamster), [flamingo](#flamingo), [oven](#oven), [heater](#heater), [closet](#closet), [blanket](#blanket), [cushion](#cushion), [veranda](#veranda), [garage](#garage), [fence](#fence), [gate](#gate), [supermarket](#supermarket), [convenience](#convenience), [bakery](#bakery), [cafe](#cafe), [parking](#parking), [subway](#subway), [tunnel](#tunnel), [drugstore](#drugstore), [cable](#cable), [plug](#plug), [outlet](#outlet), [remote](#remote), [speaker](#speaker), [headphones](#headphones), [keyboard](#keyboard), [printer](#printer), [nurse](#nurse), [chef](#chef), [driver](#driver), [singer](#singer), [free](#free), [sunglasses](#sunglasses), [necktie](#necktie), [parka](#parka), [sneakers](#sneakers), [backpack](#backpack), [mug](#mug), [kettle](#kettle), [napkin](#napkin), [candle](#candle), [poster](#poster), [sticker](#sticker), [handkerchief](#handkerchief), [slippers](#slippers), [lotion](#lotion), [cooking](#cooking), [barbecue](#barbecue), [buffet](#buffet), [noodle](#noodle), [spaghetti](#spaghetti), [biscuit](#biscuit), [waffle](#waffle), [crepe](#crepe), [parfait](#parfait), [mango](#mango), [salmon](#salmon), [tuna](#tuna), [lobster](#lobster), [truck](#truck), [helicopter](#helicopter), [scooter](#scooter), [sponge](#sponge), [bucket](#bucket), [hanger](#hanger), [basket](#basket), [marker](#marker), [stapler](#stapler), [clip](#clip), [folder](#folder), [skate](#skate), [rugby](#rugby), [hockey](#hockey), [boxing](#boxing), [bowling](#bowling), [ribbon](#ribbon), [zipper](#zipper), [switch](#switch), [clean](#clean), [cleaning](#cleaning), [touch](#touch), [bar](#bar), [burger](#burger), [cabinet](#cabinet), [dining](#dining), [living](#living), [bathroom](#bathroom), [balcony](#balcony), [laundry](#laundry), [locker](#locker), [pad](#pad), [powder](#powder), [pastel](#pastel), [blouse](#blouse), [stockings](#stockings), [tights](#tights), [pumps](#pumps), [heel](#heel), [hood](#hood), [ponytail](#ponytail), [perm](#perm), [wagon](#wagon), [sedan](#sedan), [trailer](#trailer), [tractor](#tractor), [bumper](#bumper), [wheel](#wheel), [pedal](#pedal), [tag](#tag), [badge](#badge), [timer](#timer), [dial](#dial), [screen](#screen), [cordless](#cordless), [stereo](#stereo), [audio](#audio), [pilaf](#pilaf), [macaroni](#macaroni), [margarine](#margarine), [mustard](#mustard), [sherbet](#sherbet), [sundae](#sundae), [caramel](#caramel), [grapefruit](#grapefruit), [seafood](#seafood), [lamb](#lamb), [roast](#roast), [mixer](#mixer), [shovel](#shovel), [screw](#screw), [spray](#spray), [stopwatch](#stopwatch), [swing](#swing), [slide](#slide), [spin](#spin), [catch](#catch), [shot](#shot), [save](#save), [safe](#safe), [catcher](#catcher), [runner](#runner), [swimmer](#swimmer), [dancer](#dancer), [drummer](#drummer), [pianist](#pianist), [hunter](#hunter), [rider](#rider), [magician](#magician), [comedian](#comedian), [waitress](#waitress), [babysitter](#babysitter), [helper](#helper), [owner](#owner), [visitor](#visitor), [beginner](#beginner), [classmate](#classmate), [boyfriend](#boyfriend), [sister](#sister), [art](#art), [earth](#earth), [air](#air), [wing](#wing), [web](#web), [wave](#wave), [wet](#wet), [welcome](#welcome), [wood](#wood), [arm](#arm), [ice hockey](#ice-hockey), [around](#around), [eve](#eve), [weekday](#weekday), [wind](#wind), [wear](#wear), [air conditioner](#air-conditioner), [ever](#ever), [girlfriend](#girlfriend), [kid](#kid), [Christmas Eve](#christmas-eve), [Christmas card](#christmas-card), [Christmas tree](#christmas-tree), [coffee shop](#coffee-shop), [sheet](#sheet), [seat](#seat), [shake](#shake), [ship](#ship), [shorts](#shorts), [thin](#thin), [stick](#stick), [storm](#storm), [centimeter](#centimeter), [soap](#soap), [tie](#tie), [church](#church), [tourist](#tourist), [tool](#tool), [twin](#twin), [teenager](#teenager), [tennis court](#tennis-court), [telephone](#telephone), [dictionary](#dictionary), [department store](#department-store), [toilet paper](#toilet-paper), [draw](#draw), [number one](#number-one), [knee](#knee), [high school](#high-school), [hang](#hang), [hamburger steak](#hamburger-steak), [part-time job](#part-time-job), [Valentine's Day](#valentine-s-day), [part](#part), [pineapple juice](#pineapple-juice), [personal computer](#personal-computer), [heat](#heat), [village](#village), [fast food](#fast-food), [fantastic](#fantastic), [fit](#fit), [form](#form), [fried chicken](#fried-chicken), [frying pan](#frying-pan), [friendly](#friendly), [push](#push), [health](#health), [base](#base), [ballpoint pen](#ballpoint-pen), [pop music](#pop-music), [potato chips](#potato-chips), [police](#police), [mushroom](#mushroom), [meal](#meal), [Mrs.](#mrs), [midnight](#midnight), [middle](#middle), [million](#million), [ride](#ride), [land](#land), [running](#running), [reach](#reach), [reading](#reading), [roof](#roof), [raincoat](#raincoat), [rest](#rest), [worst](#worst), [World Cup](#world-cup), [wow](#wow), [iced coffee](#iced-coffee), [curry and rice](#curry-and-rice), [email address](#email-address), [kids](#kids), [used](#used), [shape](#shape), [cheesecake](#cheesecake), [coffee cup](#coffee-cup), [beans](#beans), [nervous](#nervous), [Korea](#korea)
-- Lv.3 よく使う — [dragon](#dragon), [level](#level), [hero](#hero), [boss](#boss), [stage](#stage), [fan](#fan), [rabbit](#rabbit), [cookie](#cookie), [cheese](#cheese), [sandwich](#sandwich), [butter](#butter), [hospital](#hospital), [restaurant](#restaurant), [station](#station), [season](#season), [television](#television), [computer](#computer), [robot](#robot), [goal](#goal), [sauce](#sauce), [sign](#sign), [fight](#fight), [event](#event), [present](#present), [idea](#idea), [news](#news), [doctor](#doctor), [animal](#animal), [pants](#pants), [museum](#museum), [library](#library), [concert](#concert), [ticket](#ticket), [vegetable](#vegetable), [dinner](#dinner), [picnic](#picnic), [island](#island), [mountain](#mountain), [jacket](#jacket), [nature](#nature), [future](#future), [simple](#simple), [speech](#speech), [member](#member), [chance](#chance), [airport](#airport), [street](#street), [building](#building), [elevator](#elevator), [letter](#letter), [bottle](#bottle), [garden](#garden), [bridge](#bridge), [rocket](#rocket), [sweater](#sweater), [answer](#answer), [action](#action), [album](#album), [bench](#bench), [button](#button), [center](#center), [change](#change), [check](#check), [choice](#choice), [design](#design), [guide](#guide), [guest](#guest), [group](#group), [jump](#jump), [keep](#keep), [magic](#magic), [mark](#mark), [memory](#memory), [model](#model), [open](#open), [order](#order), [page](#page), [pair](#pair), [pass](#pass), [photo](#photo), [print](#print), [report](#report), [score](#score), [set](#set), [shower](#shower), [skill](#skill), [space](#space), [start](#start), [style](#style), [title](#title), [tour](#tour), [type](#type), [lesson](#lesson), [hiking](#hiking), [stadium](#stadium), [arena](#arena), [gym](#gym), [hall](#hall), [lobby](#lobby), [front](#front), [tent](#tent), [cottage](#cottage), [resort](#resort), [cruise](#cruise), [passport](#passport), [suitcase](#suitcase), [notebook](#notebook), [homeroom](#homeroom), [band](#band), [chorus](#chorus), [orchestra](#orchestra), [melody](#melody), [harmony](#harmony), [cartoon](#cartoon), [character](#character), [story](#story), [novel](#novel), [diary](#diary), [sketch](#sketch), [paint](#paint), [craft](#craft), [yoga](#yoga), [fitness](#fitness), [training](#training), [trophy](#trophy), [medal](#medal), [champion](#champion), [record](#record), [pitcher](#pitcher), [goalkeeper](#goalkeeper), [referee](#referee), [penalty](#penalty), [foul](#foul), [tackle](#tackle), [shoot](#shoot), [serve](#serve), [smash](#smash), [rally](#rally), [relay](#relay), [course](#course), [lane](#lane), [costume](#costume), [makeup](#makeup), [nail](#nail), [accessory](#accessory), [necklace](#necklace), [bracelet](#bracelet), [pouch](#pouch), [drive](#drive), [trip](#trip), [gift](#gift), [surprise](#surprise), [balloon](#balloon), [snack](#snack), [dessert](#dessert), [sweets](#sweets), [takeout](#takeout), [coupon](#coupon), [rental](#rental), [store](#store), [mall](#mall), [rush](#rush), [timing](#timing), [pace](#pace), [musical](#musical), [flute](#flute), [trumpet](#trumpet), [harp](#harp), [anime](#anime), [syrup](#syrup), [weekend](#weekend), [scarf](#scarf), [muffler](#muffler), [mitten](#mitten), [court](#court), [track](#track), [lock](#lock), [grill](#grill), [microwave](#microwave), [laptop](#laptop), [alarm](#alarm), [siren](#siren), [ballet](#ballet), [wallet](#wallet), [oatmeal](#oatmeal), [cook](#cook), [mascot](#mascot), [jersey](#jersey), [helmet](#helmet), [gesture](#gesture), [joke](#joke), [gag](#gag), [spy](#spy), [pistol](#pistol), [jumbo](#jumbo), [giant](#giant), [joker](#joker), [jewelry](#jewelry), [noise](#noise), [nickname](#nickname), [nest](#nest), [knock](#knock), [needs](#needs), [natural](#natural), [national](#national), [hungry](#hungry), [handsome](#handsome), [hurricane](#hurricane), [honeymoon](#honeymoon), [hike](#hike), [highway](#highway), [harbor](#harbor), [handbag](#handbag), [handbook](#handbook), [bazaar](#bazaar), [badminton](#badminton), [butterfly](#butterfly), [background](#background), [baton](#baton), [pyramid](#pyramid), [pinch](#pinch), [peak](#peak), [peace](#peace), [pill](#pill), [period](#period), [pick](#pick), [fighter](#fighter), [final](#final), [figure](#figure), [field](#field), [fever](#fever), [feeling](#feeling), [film](#film), [face](#face), [flag](#flag), [flash](#flash), [floor](#floor), [phrase](#phrase), [float](#float), [pride](#pride), [private](#private), [plain](#plain), [player](#player), [hope](#hope), [horn](#horn), [holder](#holder), [bone](#bone), [board](#board), [body](#body), [voice](#voice), [volume](#volume), [bottom](#bottom), [pole](#pole), [position](#position), [pop](#pop), [poem](#poem), [minus](#minus), [mild](#mild), [mind](#mind), [magnet](#magnet), [machine](#machine), [mood](#mood), [movie](#movie), [merit](#merit), [modern](#modern), [motto](#motto), [monument](#monument), [young](#young), [youth](#youth), [unit](#unit), [light](#light), [round](#round), [rough](#rough), [random](#random), [list](#list), [rate](#rate), [route](#route), [loop](#loop), [look](#look), [race](#race), [rail](#rail), [regular](#regular), [range](#range), [road](#road), [roll](#roll), [loss](#loss), [word](#word), [work](#work), [worker](#worker), [world](#world), [wire](#wire), [electric](#electric), [angel](#angel), [end](#end), [evening](#evening), [eagle](#eagle), [arrow](#arrow), [beast](#beast), [vampire](#vampire), [iron](#iron), [active](#active), [actress](#actress), [American football](#american-football), [American](#american), [aluminum foil](#aluminum-foil), [even](#even), [international](#international), [information](#information), [winter sports](#winter-sports), [wedding cake](#wedding-cake), [wedding dress](#wedding-dress), [April Fools' Day](#april-fools-day), [electric guitar](#electric-guitar), [Olympics](#olympics), [cart](#cart), [gas station](#gas-station), [gun](#gun), [keychain](#keychain), [camel](#camel), [kill](#kill), [guitarist](#guitarist), [give up](#give-up), [cleaner](#cleaner), [crazy](#crazy), [credit card](#credit-card), [ground](#ground), [green peas](#green-peas), [roller coaster](#roller-coaster), [contact lens](#contact-lens), [Golden Week](#golden-week), [office worker](#office-worker), [sunshine](#sunshine), [seat belt](#seat-belt), [mechanical pencil](#mechanical-pencil), [shopping cart](#shopping-cart), [shopping mall](#shopping-mall), [jigsaw puzzle](#jigsaw-puzzle), [joy](#joy), [swimming club](#swimming-club), [skating](#skating), [straight](#straight), [speed up](#speed-up), [sports car](#sports-car), [smooth](#smooth), [slice](#slice), [taste](#taste), [softball](#softball), [time machine](#time-machine), [tough](#tough), [tongue](#tongue), [dancing](#dancing), [cheer](#cheer), [check-in](#check-in), [theme park](#theme-park), [daily](#daily), [discover](#discover), [dead](#dead), [dodgeball](#dodgeball), [drawing](#drawing), [nut](#nut), [happy ending](#happy-ending), [parts](#parts), [part-time](#part-time), [powerful](#powerful), [human](#human), [businessman](#businessman), [bit](#bit), [ping-pong](#ping-pong), [fashion show](#fashion-show), [French bread](#french-bread), [flea market](#flea-market), [frozen food](#frozen-food), [brunch](#brunch), [hairstyle](#hairstyle), [home run](#home-run), [mic](#mic), [sewing machine](#sewing-machine), [mister](#mister), [mini](#mini), [main street](#main-street), [rush hour](#rush-hour), [plastic wrap](#plastic-wrap), [love song](#love-song), [love letter](#love-letter), [lead](#lead), [receive](#receive), [cash register](#cash-register), [rental car](#rental-car), [soft drink](#soft-drink), [homepage](#homepage), [dog food](#dog-food), [pet food](#pet-food), [web page](#web-page), [bus tour](#bus-tour), [card game](#card-game), [baby food](#baby-food), [experience](#experience), [rock-paper-scissors](#rock-paper-scissors)
-- Lv.4 話が広がる — [monster](#monster), [knight](#knight), [rare](#rare), [attack](#attack), [guard](#guard), [damage](#damage), [challenge](#challenge), [system](#system), [penguin](#penguin), [dolphin](#dolphin), [recipe](#recipe), [fashion](#fashion), [shampoo](#shampoo), [pajamas](#pajamas), [holiday](#holiday), [culture](#culture), [history](#history), [volunteer](#volunteer), [festival](#festival), [message](#message), [communication](#communication), [popular](#popular), [special](#special), [perfect](#perfect), [contest](#contest), [captain](#captain), [uniform](#uniform), [coach](#coach), [trouble](#trouble), [image](#image), [advice](#advice), [schedule](#schedule), [sale](#sale), [online](#online), [drama](#drama), [hint](#hint), [interview](#interview), [marathon](#marathon), [pose](#pose), [program](#program), [sample](#sample), [support](#support), [zone](#zone), [host](#host), [comic](#comic), [cycling](#cycling), [chat](#chat), [clear](#clear), [cost](#cost), [cover](#cover), [follow](#follow), [item](#item), [miss](#miss), [percent](#percent), [plus](#plus), [quiz](#quiz), [repeat](#repeat), [share](#share), [sound](#sound), [stamp](#stamp), [step](#step), [topic](#topic), [video](#video), [emotional](#emotional), [romantic](#romantic), [relax](#relax), [healthy](#healthy), [calorie](#calorie), [vitamin](#vitamin), [protein](#protein), [supplement](#supplement), [allergy](#allergy), [virus](#virus), [vaccine](#vaccine), [care](#care), [clinic](#clinic), [massage](#massage), [sauna](#sauna), [smartphone](#smartphone), [app](#app), [internet](#internet), [website](#website), [blog](#blog), [login](#login), [update](#update), [wireless](#wireless), [selfie](#selfie), [streaming](#streaming), [podcast](#podcast), [keyword](#keyword), [icon](#icon), [tap](#tap), [click](#click), [scroll](#scroll), [copy](#copy), [cloud](#cloud), [server](#server), [drone](#drone), [plastic](#plastic), [solar](#solar), [gas](#gas), [oil](#oil), [engine](#engine), [motor](#motor), [brake](#brake), [tire](#tire), [gasoline](#gasoline), [manner](#manner), [etiquette](#etiquette), [pet](#pet), [boom](#boom), [ranking](#ranking), [best](#best), [number](#number), [count](#count), [rank](#rank), [grade](#grade), [class](#class), [coordinate](#coordinate), [denim](#denim), [leather](#leather), [cotton](#cotton), [silk](#silk), [wool](#wool), [rubber](#rubber), [metal](#metal), [concrete](#concrete), [paper](#paper), [vinyl](#vinyl), [aluminum](#aluminum), [steel](#steel), [diamond](#diamond), [crystal](#crystal), [pearl](#pearl), [jewel](#jewel), [purple](#purple), [brown](#brown), [gray](#gray), [beige](#beige), [navy](#navy), [yellow](#yellow), [square](#square), [triangle](#triangle), [cross](#cross), [curve](#curve), [angle](#angle), [corner](#corner), [side](#side), [back](#back), [weight](#weight), [meter](#meter), [dozen](#dozen), [pack](#pack), [master](#master), [tempo](#tempo), [palette](#palette), [canvas](#canvas), [accident](#accident), [adventure](#adventure), [address](#address), [announce](#announce), [analog](#analog), [average](#average), [alphabet](#alphabet), [anchor](#anchor), [antenna](#antenna), [equal](#equal), [illustration](#illustration), [instant](#instant), [instructor](#instructor), [influenza](#influenza), [wink](#wink), [waist](#waist), [emerald](#emerald), [area](#area), [enjoy](#enjoy), [alien](#alien), [echo](#echo), [edge](#edge), [escalator](#escalator), [extra](#extra), [ending](#ending), [endless](#endless), [ocean](#ocean), [opening](#opening), [operator](#operator), [orientation](#orientation), [cursor](#cursor), [carnival](#carnival), [carnation](#carnation), [curl](#curl), [cowboy](#cowboy), [cutter](#cutter), [cutlet](#cutlet), [cafeteria](#cafeteria), [comeback](#comeback), [chameleon](#chameleon), [colorful](#colorful), [college](#college), [guardrail](#guardrail), [guy](#guy), [guidance](#guidance), [guidebook](#guidebook), [gown](#gown), [guts](#guts), [gallon](#gallon), [kit](#kit), [caravan](#caravan), [carry](#carry), [cue](#cue), [killer](#killer), [gear](#gear), [gallery](#gallery), [gang](#gang), [quick](#quick), [crown](#crown), [crash](#crash), [clutch](#clutch), [cricket](#cricket), [crater](#crater), [crane](#crane), [close](#close), [crawl](#crawl), [crossword](#crossword), [choir](#choir), [glider](#glider), [grip](#grip), [cape](#cape), [coil](#coil), [cockpit](#cockpit), [cobra](#cobra), [commercial](#commercial), [command](#command), [comical](#comical), [collector](#collector), [contact](#contact), [conductor](#conductor), [condition](#condition), [controller](#controller), [compact](#compact), [goggles](#goggles), [gorgeous](#gorgeous), [ghost](#ghost), [golden](#golden), [search](#search), [site](#site), [silent](#silent), [success](#success), [saxophone](#saxophone), [saddle](#saddle), [submarine](#submarine), [supporter](#supporter), [soundtrack](#soundtrack), [secret](#secret), [shield](#shield), [scene](#scene), [theater](#theater), [situation](#situation), [shift](#shift), [sharp](#sharp), [shy](#shy), [shadow](#shadow), [chandelier](#chandelier), [shortcut](#shortcut), [shocking](#shocking), [serious](#serious), [sink](#sink), [zigzag](#zigzag), [jaguar](#jaguar), [just](#just), [jack](#jack), [judge](#judge), [junction](#junction), [guardian](#guardian), [lever](#lever), [yeast](#yeast), [oak](#oak), [arch](#arch), [arcade](#arcade), [archery](#archery), [iris](#iris), [accent](#accent), [inning](#inning), [earphones](#earphones), [intonation](#intonation), [animation](#animation), [amusement](#amusement), [eyeshadow](#eyeshadow), [attraction](#attraction), [adapter](#adapter), [assistant](#assistant), [eyeliner](#eyeliner), [assist](#assist), [appeal](#appeal), [underline](#underline), [unfair](#unfair), [imagination](#imagination), [intelligent](#intelligent), [intro](#intro), [weekly](#weekly), [well-done](#well-done), [western](#western), [watching](#watching), [yell](#yell), [airbag](#airbag), [airmail](#airmail), [excite](#excite), [auto](#auto), [okra](#okra), [orangutan](#orangutan), [custom](#custom), [security guard](#security-guard), [classical](#classical), [creative](#creative), [grand piano](#grand-piano), [glue](#glue), [gain](#gain), [connection](#connection), [comics](#comics), [combine](#combine), [combination](#combination), [golfer](#golfer), [Thanksgiving](#thanksgiving), [seed](#seed), [ceiling](#ceiling), [shell](#shell), [shutter](#shutter), [shuttle bus](#shuttle-bus), [shop window](#shop-window), [shoulder bag](#shoulder-bag), [skier](#skier), [skin care](#skin-care), [skater](#skater), [skating rink](#skating-rink), [sketchbook](#sketchbook), [starting line](#starting-line), [steam](#steam), [state](#state), [spare](#spare), [spot](#spot), [sponge cake](#sponge-cake), [slip](#slip), [slope](#slope), [cell](#cell), [self-service](#self-service), [Scotch tape](#scotch-tape), [society](#society), [tight](#tight), [direct](#direct), [downtown](#downtown), [chief](#chief), [chain](#chain), [checkout](#checkout), [chapter](#chapter), [tissue paper](#tissue-paper), [defense](#defense), [decoration](#decoration), [talk show](#talk-show), [trick](#trick), [high heels](#high-heels), [handball](#handball), [handmade](#handmade), [bun](#bun), [patrol car](#patrol-car), [panic](#panic), [Paralympics](#paralympics), [flat tire](#flat-tire), [hip](#hip), [beaver](#beaver), [victory](#victory), [big event](#big-event), [familiar](#familiar), [fiction](#fiction), [force](#force), [fault](#fault), [walk](#walk), [forward](#forward), [hook](#hook), [deep-fried food](#deep-fried-food), [freeze](#freeze), [flavor](#flavor), [flow](#flow), [blind](#blind), [blank](#blank), [branch](#branch), [breathing](#breathing), [produce](#produce), [hell](#hell), [pale](#pale), [homesick](#homesick), [homestay](#homestay), [possibility](#possibility), [march](#march), [Ms.](#ms), [minimum](#minimum), [ground meat](#ground-meat), [movement](#movement), [merry](#merry), [motion](#motion), [learning](#learning), [league](#league), [reasonable](#reasonable), [liquid](#liquid), [reserve](#reserve), [lift](#lift), [conditioner](#conditioner), [length](#length), [working](#working), [wise](#wise), [copy and paste](#copy-and-paste), [bookmark](#bookmark), [non-alcoholic](#non-alcoholic), [couple rings](#couple-rings), [safe driving](#safe-driving), [Pacific](#pacific)
-- Lv.5 よく見聞きする — [spell](#spell), [legend](#legend), [treasure](#treasure), [equipment](#equipment), [critical](#critical), [counter](#counter), [barrier](#barrier), [rival](#rival), [escape](#escape), [mission](#mission), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [smart](#smart), [claim](#claim), [ace](#ace), [spirit](#spirit), [miracle](#miracle), [brave](#brave), [battery](#battery), [energy](#energy), [service](#service), [handle](#handle), [talent](#talent), [diet](#diet), [jungle](#jungle), [stove](#stove), [recycle](#recycle), [balance](#balance), [career](#career), [delivery](#delivery), [password](#password), [data](#data), [technology](#technology), [trainer](#trainer), [cooler](#cooler), [viking](#viking), [bargain](#bargain), [cider](#cider), [comment](#comment), [stress](#stress), [risk](#risk), [professional](#professional), [campaign](#campaign), [brand](#brand), [quality](#quality), [security](#security), [routine](#routine), [license](#license), [gap](#gap), [trend](#trend), [access](#access), [account](#account), [arrange](#arrange), [cancel](#cancel), [catalog](#catalog), [channel](#channel), [charge](#charge), [classic](#classic), [collection](#collection), [download](#download), [entry](#entry), [error](#error), [fake](#fake), [file](#file), [filter](#filter), [frame](#frame), [goods](#goods), [graph](#graph), [impact](#impact), [label](#label), [limit](#limit), [link](#link), [mask](#mask), [media](#media), [mode](#mode), [monitor](#monitor), [option](#option), [original](#original), [pattern](#pattern), [post](#post), [project](#project), [reset](#reset), [rhythm](#rhythm), [seal](#seal), [shock](#shock), [studio](#studio), [total](#total), [pierce](#pierce), [approach](#approach), [benefit](#benefit), [community](#community), [content](#content), [debate](#debate), [device](#device), [digital](#digital), [document](#document), [economy](#economy), [feature](#feature), [global](#global), [humor](#humor), [issue](#issue), [material](#material), [method](#method), [network](#network), [official](#official), [partner](#partner), [performance](#performance), [policy](#policy), [positive](#positive), [negative](#negative), [pressure](#pressure), [public](#public), [rescue](#rescue), [research](#research), [respect](#respect), [series](#series), [source](#source), [symbol](#symbol), [theme](#theme), [theory](#theory), [unique](#unique), [value](#value), [variety](#variety), [live](#live), [talk](#talk), [comedy](#comedy), [episode](#episode), [genre](#genre), [fantasy](#fantasy), [horror](#horror), [mystery](#mystery), [suspense](#suspense), [documentary](#documentary), [cast](#cast), [producer](#producer), [audition](#audition), [debut](#debut), [encore](#encore), [release](#release), [chart](#chart), [remix](#remix), [playlist](#playlist), [influencer](#influencer), [follower](#follower), [hashtag](#hashtag), [buzz](#buzz), [review](#review), [meme](#meme), [caption](#caption), [thumbnail](#thumbnail), [highlight](#highlight), [replay](#replay), [announcer](#announcer), [reporter](#reporter), [caster](#caster), [commentator](#commentator), [scoop](#scoop), [headline](#headline), [press](#press), [column](#column), [magazine](#magazine), [celebrity](#celebrity), [gossip](#gossip), [cycle](#cycle), [tone](#tone), [focus](#focus), [zoom](#zoom), [paradise](#paradise), [gauge](#gauge), [vegan](#vegan), [vegetarian](#vegetarian), [sensation](#sensation), [sensational](#sensational), [spotlight](#spotlight), [superstar](#superstar), [digest](#digest), [display](#display), [delete](#delete), [detail](#detail), [discussion](#discussion), [text](#text), [timely](#timely), [trendy](#trendy), [naming](#naming), [nonfiction](#nonfiction), [narration](#narration), [narrator](#narrator), [newsletter](#newsletter), [heading](#heading), [visual](#visual), [vivid](#vivid), [view](#view), [billboard](#billboard), [panorama](#panorama), [pamphlet](#pamphlet), [portable](#portable), [promoter](#promoter), [production](#production), [projector](#projector), [bestseller](#bestseller), [replica](#replica), [remake](#remake), [revival](#revival), [rehearsal](#rehearsal), [recording](#recording), [recorder](#recorder), [request](#request), [reply](#reply), [reaction](#reaction), [listener](#listener), [lineup](#lineup), [location](#location), [thriller](#thriller), [thrill](#thrill), [spectacle](#spectacle), [subtitle](#subtitle), [secretary](#secretary), [nostalgic](#nostalgic), [renewal](#renewal), [sepia](#sepia), [dramatic](#dramatic), [independent](#independent), [windbreaker](#windbreaker), [ultra](#ultra), [exciting](#exciting), [expo](#expo), [enamel](#enamel), [electronics](#electronics), [overlap](#overlap), [opinion](#opinion), [offside](#offside), [upper](#upper), [adult](#adult), [athletic](#athletic), [asparagus](#asparagus), [accordion](#accordion), [acrobat](#acrobat), [asphalt](#asphalt), [acacia](#acacia), [athletics](#athletics), [at sign](#at-sign), [ad](#ad), [avenue](#avenue), [appetizer](#appetizer), [armadillo](#armadillo), [underground](#underground), [anti](#anti), [amp](#amp), [illustrator](#illustrator), [illumination](#illumination), [interchange](#interchange), [turn signal](#turn-signal), [weak point](#weak-point), [windsurfing](#windsurfing), [watercolor](#watercolor), [walnut](#walnut), [washer](#washer), [overcoat](#overcoat), [all-night](#all-night), [off-season](#off-season), [orienteering](#orienteering), [on air](#on-air), [car chase](#car-chase), [car ferry](#car-ferry), [curling](#curling), [car race](#car-race), [cassette](#cassette), [kayak](#kayak), [culture shock](#culture-shock), [key point](#key-point), [kickboxing](#kickboxing), [cash card](#cash-card), [camper van](#camper-van), [Cupid](#cupid), [giga](#giga), [clerk](#clerk), [crack](#crack), [clay](#clay), [close-up](#close-up), [graphics](#graphics), [grand](#grand), [chemical](#chemical), [video arcade](#video-arcade), [coaster](#coaster), [cordless phone](#cordless-phone), [core](#core), [coin-operated locker](#coin-operated-locker), [cosplay](#cosplay), [comma](#comma), [go-kart](#go-kart), [ghost town](#ghost-town), [surfer](#surfer), [supper](#supper), [sub](#sub), [summer school](#summer-school), [surround](#surround), [sharing](#sharing), [severe](#severe), [singer-songwriter](#singer-songwriter), [jeep](#jeep), [beer mug](#beer-mug), [superman](#superman), [scout](#scout), [skunk](#skunk), [scan](#scan), [scuba](#scuba), [squeeze](#squeeze), [scrap](#scrap), [scoreboard](#scoreboard), [starter](#starter), [stamina](#stamina), [flight attendant](#flight-attendant), [walking stick](#walking-stick), [snap](#snap), [spark](#spark), [spike](#spike), [leggings](#leggings), [split](#split), [space shuttle](#space-shuttle), [smoker](#smoker), [thrilling](#thrilling), [salesman](#salesman), [sexy](#sexy), [seller](#seller), [photocopy](#photocopy), [typewriter](#typewriter), [tab](#tab), [darling](#darling), [dam](#dam), [dump truck](#dump-truck), [cello](#cello), [charming](#charming), [tape recorder](#tape-recorder), [theme song](#theme-song), [technical](#technical), [technique](#technique), [terrace](#terrace), [disc jockey](#disc-jockey), [deck](#deck), [disadvantage](#disadvantage), [duty-free](#duty-free), [duet](#duet), [deli](#deli), [delicate](#delicate), [tournament](#tournament), [toss](#toss), [trap](#trap), [trunks](#trunks), [treatment](#treatment), [trench coat](#trench-coat), [trombone](#trombone), [domino](#domino), [dried flowers](#dried-flowers), [drill](#drill), [nursery](#nursery), [nightclub](#nightclub), [nonsense](#nonsense), [license plate](#license-plate), [newcomer](#newcomer), [naked](#naked), [no comment](#no-comment), [knob](#knob), [non](#non), [nonstop](#nonstop), [hard disk](#hard-disk), [hurdle](#hurdle), [halftime](#halftime), [hiker](#hiker), [fast pace](#fast-pace), [incident](#incident), [hunting](#hunting), [burst](#burst), [bartender](#bartender), [birdwatching](#birdwatching), [violinist](#violinist), [Bible](#bible), [bilingual](#bilingual), [bounce](#bounce), [batting](#batting), [passion](#passion), [paddle](#paddle), [parachute](#parachute), [satellite dish](#satellite-dish), [beads](#beads), [beer garden](#beer-garden), [bikini](#bikini), [videotape](#videotape), [fiber](#fiber), [fashionable](#fashionable), [fifty-fifty](#fifty-fifty), [fair play](#fair-play), [folk song](#folk-song), [fortune](#fortune), [flower arrangement](#flower-arrangement), [frank](#frank), [free kick](#free-kick), [freestyle](#freestyle), [freshman](#freshman), [frost](#frost), [booth](#booth), [buzzer](#buzzer), [bra](#bra), [brass band](#brass-band), [bull](#bull), [blues](#blues), [blade](#blade), [blend](#blend), [plastic model kit](#plastic-model-kit), [hair care](#hair-care), [headlight](#headlight), [heavy smoker](#heavy-smoker), [top ten](#top-ten), [conveyor belt](#conveyor-belt), [pen name](#pen-name), [hop](#hop), [bow](#bow), [Boy Scouts](#boy-scouts), [vocalist](#vocalist), [vocal](#vocal), [bold](#bold), [boxer](#boxer), [bolt](#bolt), [port](#port), [pocket money](#pocket-money), [answer sheet](#answer-sheet), [marble](#marble), [mermaid](#mermaid), [minibus](#minibus), [at my own pace](#at-my-own-pace), [mass](#mass), [max](#max), [marine](#marine), [monthly](#monthly), [mysterious](#mysterious), [miniskirt](#miniskirt), [mate](#mate), [maid](#maid), [mechanic](#mechanic), [mega](#mega), [memory card](#memory-card), [mental health](#mental-health), [monorail](#monorail), [youth hostel](#youth-hostel), [humorous](#humorous), [rug](#rug), [rack](#rack), [romantic comedy](#romantic-comedy), [landing](#landing), [landmark](#landmark), [leak](#leak), [rear](#rear), [reality](#reality), [resort hotel](#resort-hotel), [rename](#rename), [refresh](#refresh), [limited](#limited), [relief](#relief), [roots](#roots), [looks](#looks), [racer](#racer), [race car](#race-car), [recreation](#recreation), [wrestling](#wrestling), [tow truck](#tow-truck), [X-ray](#x-ray), [roller skating](#roller-skating), [log](#log), [locker room](#locker-room), [rock 'n' roll](#rock-n-roll), [windshield wiper](#windshield-wiper), [studio apartment](#studio-apartment), [alert](#alert), [silent mode](#silent-mode), [all-star](#all-star), [portrait](#portrait), [fan site](#fan-site), [coronavirus](#coronavirus), [tattoo](#tattoo), [eco](#eco), [dog park](#dog-park), [lime](#lime), [leading](#leading), [stained glass](#stained-glass), [stainless steel](#stainless-steel), [atlas](#atlas)
-- Lv.6 社会の話題 — [manual](#manual), [amateur](#amateur), [privacy](#privacy), [mental](#mental), [concept](#concept), [context](#context), [crisis](#crisis), [factor](#factor), [flexible](#flexible), [function](#function), [identity](#identity), [logic](#logic), [luxury](#luxury), [marketing](#marketing), [minority](#minority), [operation](#operation), [organic](#organic), [profile](#profile), [scandal](#scandal), [sponsor](#sponsor), [status](#status), [survival](#survival), [trial](#trial), [virtual](#virtual), [vision](#vision), [democracy](#democracy), [demonstration](#demonstration), [leader](#leader), [summit](#summit), [conference](#conference), [forum](#forum), [symposium](#symposium), [inflation](#inflation), [deflation](#deflation), [bubble](#bubble), [market](#market), [stock](#stock), [trade](#trade), [import](#import), [export](#export), [local](#local), [urban](#urban), [gender](#gender), [harassment](#harassment), [charity](#charity), [terrorism](#terrorism), [patrol](#patrol), [hazard](#hazard), [pandemic](#pandemic), [lockdown](#lockdown), [cluster](#cluster), [ecology](#ecology), [carbon](#carbon), [cyber](#cyber), [hacker](#hacker), [spam](#spam), [phishing](#phishing), [science](#science), [laboratory](#laboratory), [genome](#genome), [bacteria](#bacteria), [calcium](#calcium), [ion](#ion), [galaxy](#galaxy), [satellite](#satellite), [sensor](#sensor), [chip](#chip), [laser](#laser), [radar](#radar), [hybrid](#hybrid), [company](#company), [office](#office), [business](#business), [manager](#manager), [staff](#staff), [salary](#salary), [bonus](#bonus), [freelance](#freelance), [startup](#startup), [venture](#venture), [deadline](#deadline), [meeting](#meeting), [presentation](#presentation), [task](#task), [sales](#sales), [customer](#customer), [tourism](#tourism), [visa](#visa), [border](#border), [army](#army), [missile](#missile), [union](#union), [strike](#strike), [boycott](#boycott), [revolution](#revolution), [liberal](#liberal), [journalist](#journalist), [editor](#editor), [survey](#survey), [consumer](#consumer), [cashless](#cashless), [credit](#credit), [loan](#loan), [cash](#cash), [receipt](#receipt), [discount](#discount), [price](#price), [return](#return), [fund](#fund), [factory](#factory), [safari](#safari), [therapy](#therapy), [counseling](#counseling), [rehabilitation](#rehabilitation), [capsule](#capsule), [tablet](#tablet), [metabolism](#metabolism), [campus](#campus), [seminar](#seminar), [lecture](#lecture), [essay](#essay), [internship](#internship), [recruit](#recruit), [curriculum](#curriculum), [syllabus](#syllabus), [athlete](#athlete), [doping](#doping), [fair](#fair), [lifestyle](#lifestyle), [leisure](#leisure), [outdoor](#outdoor), [indoor](#indoor), [vacation](#vacation), [single](#single), [couple](#couple), [senior](#senior), [junior](#junior), [teen](#teen), [generation](#generation), [apartment](#apartment), [interior](#interior), [exterior](#exterior), [renovation](#renovation), [shelter](#shelter), [hostel](#hostel), [mosaic](#mosaic), [climax](#climax), [elegant](#elegant), [retro](#retro), [chaos](#chaos), [universe](#universe), [contrast](#contrast), [texture](#texture), [opera](#opera), [hormone](#hormone), [terror](#terror), [terrorist](#terrorist), [hijack](#hijack), [recession](#recession), [statement](#statement), [spokesman](#spokesman), [tabloid](#tabloid), [surveillance](#surveillance), [feminist](#feminist), [frustration](#frustration), [freedom](#freedom), [frontier](#frontier), [pioneer](#pioneer), [demand](#demand), [deposit](#deposit), [developer](#developer), [diesel](#diesel), [dealer](#dealer), [donor](#donor), [drug](#drug), [drastic](#drastic), [tenant](#tenant), [territory](#territory), [temporary](#temporary), [tanker](#tanker), [colony](#colony), [constant](#constant), [ozone](#ozone), [smog](#smog), [monsoon](#monsoon), [cyclone](#cyclone), [magnitude](#magnitude), [malaria](#malaria), [mineral](#mineral), [nicotine](#nicotine), [cholesterol](#cholesterol), [polio](#polio), [hospice](#hospice), [emperor](#emperor), [royal](#royal), [palace](#palace), [president](#president), [major](#major), [minor](#minor), [manifesto](#manifesto), [moratorium](#moratorium), [recall](#recall), [lease](#lease), [tariff](#tariff), [sanction](#sanction), [embargo](#embargo), [euro](#euro), [currency](#currency), [subsidy](#subsidy), [dumping](#dumping), [cartel](#cartel), [monopoly](#monopoly), [immigrant](#immigrant), [ranger](#ranger), [bunker](#bunker), [barricade](#barricade), [millennium](#millennium), [aggressive](#aggressive), [ivory](#ivory), [alibi](#alibi), [inspiration](#inspiration), [intern](#intern), [Earth Day](#earth-day), [association](#association), [atopy](#atopy), [affair](#affair), [alpine](#alpine), [antonym](#antonym), [imbalance](#imbalance), [ampere](#ampere), [insulin](#insulin), [industrial](#industrial), [wheelie](#wheelie), [acre](#acre), [aerosol](#aerosol), [extension](#extension), [escalate](#escalate), [escort](#escort), [beauty salon](#beauty-salon), [essence](#essence), [edition](#edition), [entertainer](#entertainer), [embassy](#embassy), [orchard](#orchard), [overheat](#overheat), [almighty](#almighty), [all-round](#all-round), [ozone hole](#ozone-hole), [off-road](#off-road), [organizer](#organizer), [ounce](#ounce), [cartridge](#cartridge), [cub](#cub), [carat](#carat), [cultural center](#cultural-center), [gas mask](#gas-mask), [fist pump](#fist-pump), [kiosk](#kiosk), [caddie](#caddie), [caviar](#caviar), [carol](#carol), [camper](#camper), [kilowatt](#kilowatt), [fee](#fee), [gal](#gal), [gambler](#gambler), [Christian](#christian), [cruising](#cruising), [cleanser](#cleanser), [cleansing cream](#cleansing-cream), [cloakroom](#cloakroom), [cross-country](#cross-country), [glamorous](#glamorous), [gay](#gay), [co-op](#co-op), [cornstarch](#cornstarch), [commit](#commit), [collie](#collie), [corona](#corona), [colon](#colon), [companion](#companion), [component](#component), [cross the finish line](#cross-the-finish-line), [prime time](#prime-time), [goal line](#goal-line), [grounder](#grounder), [gong](#gong), [circuit](#circuit), [service area](#service-area), [sirloin](#sirloin), [savanna](#savanna), [summarize](#summarize), [sandpaper](#sandpaper), [sunroof](#sunroof), [seek](#seek), [seasoning](#seasoning), [shaker](#shaker), [shaver](#shaver), [get in shape](#get-in-shape), [German shepherd](#german-shepherd), [synonym](#synonym), [showcase](#showcase), [shawl](#shawl), [showroom](#showroom), [cylinder](#cylinder), [singles](#singles), [synthesizer](#synthesizer), [jealousy](#jealousy), [thermos](#thermos), [jasmine](#jasmine), [jukebox](#jukebox), [June bride](#june-bride), [joint](#joint), [gin](#gin), [supermarket chain](#supermarket-chain), [Super Bowl](#super-bowl), [squash](#squash), [scholarship](#scholarship), [physical affection](#physical-affection), [scramble](#scramble), [Scotch](#scotch), [styling](#styling), [starting lineup](#starting-lineup), [stopper](#stopper), [striker](#striker), [stroke](#stroke), [speedy](#speedy), [sprinter](#sprinter), [sportsman](#sportsman), [slider](#slider), [sliding](#sliding), [slacks](#slacks), [slump](#slump), [body measurements](#body-measurements), [slave](#slave), [zoom lens](#zoom-lens), [sex](#sex), [gelatin](#gelatin), [sewing kit](#sewing-kit), [turbo](#turbo), [diagram](#diagram), [dunk](#dunk), [dump](#dump), [checkers](#checkers), [chapel](#chapel), [tutor](#tutor), [touring](#touring), [tester](#tester), [on-screen captions](#on-screen-captions), [demon](#demon), [deluxe](#deluxe), [torch](#torch), [top-class](#top-class), [top news](#top-news), [trace](#trace), [dock](#dock), [dribble](#dribble), [night game](#night-game), [new town](#new-town), [neon](#neon), [stay out of](#stay-out-of), [noble](#noble), [hardcover](#hardcover), [hard rock](#hard-rock), [harmonica](#harmonica), [heights](#heights), [late teens](#late-teens), [high-tech](#high-tech), [hyper](#hyper), [HDTV](#hdtv), [hibiscus](#hibiscus), [high-level](#high-level), [how-to](#how-to), [handicap](#handicap), [burner](#burner), [barbell](#barbell), [bio](#bio), [buggy](#buggy), [backhand](#backhand), [pass the baton](#pass-the-baton), [variation](#variation), [advance](#advance), [par](#par), [part-timer](#part-timer), [packing](#packing), [patchwork](#patchwork), [papaya](#papaya), [parasol](#parasol), [pulse](#pulse), [power up](#power-up), [pansy](#pansy), [hitchhike](#hitchhike), [beet](#beet), [billiards](#billiards), [built-in](#built-in), [pickup service](#pickup-service), [pitching](#pitching), [pit](#pit), [pinch hitter](#pinch-hitter), [fighting spirit](#fighting-spirit), [five-star](#five-star), [great play](#great-play), [fin](#fin), [fencing](#fencing), [forehand](#forehand), [footwork](#footwork), [false start](#false-start), [toll-free number](#toll-free-number), [free pass](#free-pass), [flooring](#flooring), [floppy disk](#floppy-disk), [booing](#booing), [boomerang](#boomerang), [booklet](#booklet), [boutique](#boutique), [briefs](#briefs), [bulldozer](#bulldozer), [breaker](#breaker), [blow-dry](#blow-dry), [plaza](#plaza), [planter](#planter), [pre](#pre), [playoff](#playoff), [play ball](#play-ball), [proper](#proper), [professional wrestling](#professional-wrestling), [header](#header), [head coach](#head-coach), [helium](#helium), [health club](#health-club), [pay raise](#pay-raise), [base camp](#base-camp), [plywood](#plywood), [belly dance](#belly-dance), [pelican](#pelican), [bed-and-breakfast](#bed-and-breakfast), [cross home plate](#cross-home-plate), [home ground](#home-ground), [home security](#home-security), [family drama](#family-drama), [caregiver](#caregiver), [hostess](#hostess), [voice recorder](#voice-recorder), [bob](#bob), [volt](#volt), [volley](#volley), [bond](#bond), [poker](#poker), [porter](#porter), [pocket-size](#pocket-size), [private car](#private-car), [micro](#micro), [own home](#own-home), [mount](#mount), [mass media](#mass-media), [multi](#multi), [one-on-one](#one-on-one), [miniature](#miniature), [moody](#moody), [megaphone](#megaphone), [metallic](#metallic), [medley](#medley), [memorial](#memorial), [motor show](#motor-show), [modern dance](#modern-dance), [younger generation](#younger-generation), [universal](#universal), [lard](#lard), [station wagon](#station-wagon), [liner](#liner), [live music venue](#live-music-venue), [loudspeaker](#loudspeaker), [boombox](#boombox), [final sprint](#final-sprint), [raft](#raft), [leaflet](#leaflet), [secondhand store](#secondhand-store), [recital](#recital), [rematch](#rematch), [reversible](#reversible), [rebound](#rebound), [liberty](#liberty), [repeat customer](#repeat-customer), [rib](#rib), [limousine](#limousine), [reggae](#reggae), [receiver](#receiver), [left field](#left-field), [loin](#loin), [lotus](#lotus), [traffic circle](#traffic-circle), [rotation](#rotation), [road race](#road-race), [ropeway](#ropeway), [roller](#roller), [rod](#rod), [word processor](#word-processor), [World Series](#world-series), [watt](#watt), [one-touch](#one-touch), [one-man](#one-man), [whitening](#whitening), [flash sale](#flash-sale), [pass holder](#pass-holder), [coaching](#coaching), [May Day](#may-day), [bonnet](#bonnet), [unmarked](#unmarked), [tank truck](#tank-truck), [two-piece](#two-piece), [nice figure](#nice-figure)
-- Lv.7 大人の日常語 — [potion](#potion), [quest](#quest), [dungeon](#dungeon), [inventory](#inventory), [avatar](#avatar), [combo](#combo), [revive](#revive), [ultimate](#ultimate), [villain](#villain), [launch](#launch), [android](#android), [gravity](#gravity), [evolution](#evolution), [dimension](#dimension), [portal](#portal), [beam](#beam), [tension](#tension), [rookie](#rookie), [destiny](#destiny), [trigger](#trigger), [sacrifice](#sacrifice), [mentor](#mentor), [mansion](#mansion), [idol](#idol), [motivation](#motivation), [potential](#potential), [priority](#priority), [resource](#resource), [capacity](#capacity), [innovation](#innovation), [evidence](#evidence), [agenda](#agenda), [strategy](#strategy), [veteran](#veteran), [commitment](#commitment), [consultant](#consultant), [diversity](#diversity), [dynamic](#dynamic), [mechanism](#mechanism), [phase](#phase), [scenario](#scenario), [solution](#solution), [feedback](#feedback), [appointment](#appointment), [memo](#memo), [reminder](#reminder), [margin](#margin), [commission](#commission), [royalty](#royalty), [negotiation](#negotiation), [deal](#deal), [client](#client), [user](#user), [vendor](#vendor), [supplier](#supplier), [maker](#maker), [product](#product), [control](#control), [management](#management), [leadership](#leadership), [teamwork](#teamwork), [format](#format), [template](#template), [layout](#layout), [font](#font), [draft](#draft), [telework](#telework), [invoice](#invoice), [promotion](#promotion), [headhunting](#headhunting), [resume](#resume), [specialist](#specialist), [generalist](#generalist), [expert](#expert), [analyst](#analyst), [engineer](#engineer), [designer](#designer), [architect](#architect), [programmer](#programmer), [creator](#creator), [artist](#artist), [musician](#musician), [director](#director), [writer](#writer), [photographer](#photographer), [stylist](#stylist), [sommelier](#sommelier), [barista](#barista), [counselor](#counselor), [gardening](#gardening), [wine](#wine), [beer](#beer), [whiskey](#whiskey), [cocktail](#cocktail), [champagne](#champagne), [alcohol](#alcohol), [caffeine](#caffeine), [gourmet](#gourmet), [casual](#casual), [formal](#formal), [suit](#suit), [cardigan](#cardigan), [vest](#vest), [fleece](#fleece), [auction](#auction), [minimalist](#minimalist), [healing](#healing), [aroma](#aroma), [meditation](#meditation), [mindfulness](#mindfulness), [detox](#detox), [stretch](#stretch), [workout](#workout), [triathlon](#triathlon), [snowboard](#snowboard), [surfing](#surfing), [diving](#diving), [climbing](#climbing), [casino](#casino), [gamble](#gamble), [wedding](#wedding), [bridal](#bridal), [propose](#propose), [romance](#romance), [date](#date), [anniversary](#anniversary), [ceremony](#ceremony), [reception](#reception), [banquet](#banquet), [catering](#catering), [hospitality](#hospitality), [concierge](#concierge), [suite](#suite), [lounge](#lounge), [amenity](#amenity), [spa](#spa), [glamping](#glamping), [package](#package), [airline](#airline), [flight](#flight), [transit](#transit), [terminal](#terminal), [cabin](#cabin), [crew](#crew), [mileage](#mileage), [upgrade](#upgrade), [shuttle](#shuttle), [navigation](#navigation), [express](#express), [ego](#ego), [complex](#complex), [moral](#moral), [exotic](#exotic), [ethnic](#ethnic), [aura](#aura), [spiral](#spiral), [silhouette](#silhouette), [sentimental](#sentimental), [oasis](#oasis), [symphony](#symphony), [collage](#collage), [syndrome](#syndrome), [graffiti](#graffiti), [accelerator](#accelerator), [about](#about), [stroller](#stroller), [pliers](#pliers), [convertible](#convertible), [loose](#loose), [hearing](#hearing), [minivan](#minivan), [cheerleader](#cheerleader), [trump](#trump), [motorcycle](#motorcycle), [through](#through), [fries](#fries), [condominium](#condominium), [freelancer](#freelancer), [outsider](#outsider), [insider](#insider), [outlaw](#outlaw), [mortgage](#mortgage), [tailor](#tailor), [tuxedo](#tuxedo), [blazer](#blazer), [brooch](#brooch), [pendant](#pendant), [ruby](#ruby), [sapphire](#sapphire), [bronze](#bronze), [brandy](#brandy), [pub](#pub), [lodge](#lodge), [patio](#patio), [loft](#loft), [residence](#residence), [mattress](#mattress), [shredder](#shredder), [sprinkler](#sprinkler), [manhole](#manhole), [nozzle](#nozzle), [valve](#valve), [fuse](#fuse), [boiler](#boiler), [coating](#coating), [cement](#cement), [veil](#veil), [pleats](#pleats), [fringe](#fringe), [stripe](#stripe), [knit](#knit), [felt](#felt), [nylon](#nylon), [mesh](#mesh), [sporty](#sporty), [slim](#slim), [slender](#slender), [wrapping](#wrapping), [perfume](#perfume), [gel](#gel), [polish](#polish), [wax](#wax), [pedicure](#pedicure), [aerobics](#aerobics), [ascot tie](#ascot-tie), [aluminum sash](#aluminum-sash), [wit](#wit), [air rifle](#air-rifle), [encounter](#encounter), [end line](#end-line), [made-to-order](#made-to-order), [car camping](#car-camping), [automatic lock](#automatic-lock), [off the record](#off-the-record), [couch potato](#couch-potato), [cuffs](#cuffs), [fundraising](#fundraising), [gut](#gut), [key person](#key-person), [casting](#casting), [spring training](#spring-training), [quart](#quart), [crime story](#crime-story), [cruiser](#cruiser), [fiberglass](#fiberglass), [gray area](#gray-area), [grotesque](#grotesque), [cobalt blue](#cobalt-blue), [continental](#continental), [condom](#condom), [condor](#condor), [converter](#converter), [convention center](#convention-center), [compost](#compost), [godfather](#godfather), [searchlight](#searchlight), [side business](#side-business), [suspension](#suspension), [sudden death](#sudden-death), [sanitary](#sanitary), [thoroughbred](#thoroughbred), [seamless](#seamless), [thesaurus](#thesaurus), [screenwriter](#screenwriter), [shaft](#shaft), [silicone](#silicone), [silicon](#silicon), [artistic swimming](#artistic-swimming), [journal](#journal), [jinx](#jinx), [scarlet](#scarlet), [skyline](#skyline), [scandalous](#scandalous), [scope](#scope), [stance](#stance), [stole](#stole), [strip](#strip), [span](#span), [slit](#slit), [slate](#slate), [sexual harassment](#sexual-harassment), [semicolon](#semicolon), [ceramic](#ceramic), [social worker](#social-worker), [turbine](#turbine), [tar](#tar), [typist](#typist), [tuck](#tuck), [dynamite](#dynamite), [duct](#duct), [dummy](#dummy), [chairman](#chairman), [charter](#charter), [technician](#technician), [tenor](#tenor), [close race](#close-race), [false rumor](#false-rumor), [toll](#toll), [transformer](#transformer), [twilight](#twilight), [durian](#durian), [knuckle](#knuckle), [nano](#nano), [navigator](#navigator), [near miss](#near-miss), [nickel](#nickel), [news source](#news-source), [nude](#nude), [know-how](#know-how), [knockdown](#knockdown), [nominate](#nominate), [Nordic](#nordic), [hard-boiled](#hard-boiled), [highland](#highland), [housing](#housing), [husky](#husky), [hustle](#hustle), [hatch](#hatch), [virgin](#virgin), [birdie](#birdie), [bourbon](#bourbon), [barrel](#barrel), [vitality](#vitality), [bypass](#bypass), [bust](#bust), [backbone](#backbone), [shack](#shack), [percussion](#percussion), [panelist](#panelist), [pavilion](#pavilion), [publicity](#publicity), [panties](#panties), [hippie](#hippie), [Hindu](#hindu), [businesslike](#businesslike), [Big Bang](#big-bang), [pinpoint](#pinpoint), [fuzzy](#fuzzy), [faraway](#faraway), [funky](#funky), [fieldwork](#fieldwork), [fitting](#fitting), [formation](#formation), [pinfall](#pinfall), [flap](#flap), [free agent](#free-agent), [flip-flop](#flip-flop), [flare](#flare), [flextime](#flextime), [black market](#black-market), [flicker](#flicker), [blue-collar](#blue-collar), [brunette](#brunette), [brains](#brains), [breaststroke](#breaststroke), [playboy](#playboy), [Protestant](#protestant), [propeller](#propeller), [pacemaker](#pacemaker), [hotline](#hotline), [white-collar](#white-collar), [borderline](#borderline), [voltage](#voltage), [pop art](#pop-art), [mama's boy](#mama-s-boy), [machine gun](#machine-gun), [maniac](#maniac), [mannequin](#mannequin), [Mafia](#mafia), [multimedia](#multimedia), [rut](#rut), [misprint](#misprint), [mimic](#mimic), [million seller](#million-seller), [medalist](#medalist), [mosque](#mosque), [mono](#mono), [Yankee](#yankee), [rifle](#rifle), [life's work](#life-s-work), [radiator](#radiator), [radical](#radical), [reel](#reel), [recruiter](#recruiter), [rhythmical](#rhythmical), [lip service](#lip-service), [linear](#linear), [revision](#revision), [rim](#rim), [lure](#lure), [rake](#rake), [leotard](#leotard), [repertoire](#repertoire), [rolling](#rolling), [long run](#long-run), [warp](#warp), [restructuring](#restructuring), [stalker](#stalker), [spear](#spear), [stun](#stun), [Alzheimer's](#alzheimer-s), [implant](#implant), [group home](#group-home), [compilation](#compilation), [metabolic](#metabolic), [new wave](#new-wave), [air ambulance](#air-ambulance), [stall](#stall), [jazzman](#jazzman)
-- Lv.8 ビジネス — [naive](#naive), [cunning](#cunning), [consent](#consent), [reform](#reform), [incentive](#incentive), [literacy](#literacy), [bias](#bias), [dilemma](#dilemma), [nuance](#nuance), [sustainable](#sustainable), [stoic](#stoic), [inclusion](#inclusion), [infrastructure](#infrastructure), [initiative](#initiative), [leverage](#leverage), [nostalgia](#nostalgia), [portfolio](#portfolio), [premium](#premium), [prototype](#prototype), [resilience](#resilience), [segment](#segment), [stakeholder](#stakeholder), [stereotype](#stereotype), [subscription](#subscription), [synergy](#synergy), [trauma](#trauma), [utopia](#utopia), [vintage](#vintage), [charisma](#charisma), [propaganda](#propaganda), [irony](#irony), [paradox](#paradox), [manicure](#manicure), [mania](#mania), [outsourcing](#outsourcing), [benchmark](#benchmark), [tactics](#tactics), [platform](#platform), [branding](#branding), [persona](#persona), [conversion](#conversion), [engagement](#engagement), [retention](#retention), [metrics](#metrics), [analytics](#analytics), [dashboard](#dashboard), [insight](#insight), [simulation](#simulation), [workflow](#workflow), [process](#process), [pipeline](#pipeline), [roadmap](#roadmap), [milestone](#milestone), [sprint](#sprint), [agile](#agile), [kickoff](#kickoff), [brainstorming](#brainstorming), [workshop](#workshop), [facilitator](#facilitator), [moderator](#moderator), [panel](#panel), [session](#session), [keynote](#keynote), [pitch](#pitch), [proposal](#proposal), [summary](#summary), [executive](#executive), [wellbeing](#wellbeing), [burnout](#burnout), [workaholic](#workaholic), [onboarding](#onboarding), [offshore](#offshore), [alliance](#alliance), [holdings](#holdings), [franchise](#franchise), [incubator](#incubator), [pivot](#pivot), [scale](#scale), [monetize](#monetize), [ecosystem](#ecosystem), [database](#database), [algorithm](#algorithm), [interface](#interface), [backup](#backup), [legacy](#legacy), [patent](#patent), [copyright](#copyright), [logo](#logo), [slogan](#slogan), [catchphrase](#catchphrase), [capital](#capital), [asset](#asset), [hedge](#hedge), [index](#index), [ownership](#ownership), [empowerment](#empowerment), [assessment](#assessment), [spec](#spec), [beta](#beta), [version](#version), [maintenance](#maintenance), [bug](#bug), [patch](#patch), [code](#code), [hardware](#hardware), [software](#software), [gadget](#gadget), [wearable](#wearable), [blockchain](#blockchain), [metaverse](#metaverse), [hologram](#hologram), [clone](#clone), [logistics](#logistics), [container](#container), [cargo](#cargo), [tracking](#tracking), [barcode](#barcode), [payment](#payment), [fintech](#fintech), [debit](#debit), [firewall](#firewall), [guideline](#guideline), [protocol](#protocol), [standard](#standard), [quota](#quota), [dandy](#dandy), [karma](#karma), [guru](#guru), [dopamine](#dopamine), [consulting](#consulting), [supervisor](#supervisor), [coordinator](#coordinator), [collaboration](#collaboration), [consortium](#consortium), [corporation](#corporation), [convention](#convention), [competition](#competition), [agency](#agency), [agent](#agent), [finance](#finance), [facility](#facility), [foundation](#foundation), [input](#input), [output](#output), [integration](#integration), [intelligence](#intelligence), [interactive](#interactive), [industry](#industry), [engineering](#engineering), [entertainment](#entertainment), [enterprise](#enterprise), [application](#application), [activity](#activity), [advantage](#advantage), [adviser](#adviser), [architecture](#architecture), [automation](#automation), [automatic](#automatic), [buyer](#buyer), [broker](#broker), [configuration](#configuration), [directory](#directory), [disclosure](#disclosure), [disk](#disk), [monitoring](#monitoring), [mismatch](#mismatch), [manpower](#manpower), [personal](#personal), [personality](#personality), [planner](#planner), [planning](#planning), [plant](#plant), [processor](#processor), [rebate](#rebate), [refinance](#refinance), [retire](#retire), [sampling](#sampling), [scanner](#scanner), [sector](#sector), [section](#section), [selection](#selection), [setting](#setting), [simulator](#simulator), [slot](#slot), [swap](#swap), [supply](#supply), [trademark](#trademark), [traffic](#traffic), [trust](#trust), [workstation](#workstation), [warrant](#warrant), [downsizing](#downsizing), [layoff](#layoff), [merger](#merger), [audit](#audit), [dividend](#dividend), [equity](#equity), [acquisition](#acquisition), [archiver](#archiver), [art director](#art-director), [accord](#accord), [attaché case](#attach-case), [achievement test](#achievement-test), [advertising balloon](#advertising-balloon), [availability](#availability), [abort](#abort), [under par](#under-par), [eastern grip](#eastern-grip), [even par](#even-par), [institution](#institution), [inverter](#inverter), [widget](#widget), [winning shot](#winning-shot), [winning ball](#winning-ball), [waiver](#waiver), [walkathon](#walkathon), [walk-through](#walk-through), [urethane foam](#urethane-foam), [airbus](#airbus), [economist](#economist), [estate](#estate), [essayist](#essayist), [endive](#endive), [overrun](#overrun), [all-star cast](#all-star-cast), [oil fence](#oil-fence), [opinion leader](#opinion-leader), [observer](#observer), [Canadian canoe](#canadian-canoe), [color coordinator](#color-coordinator), [cardamom](#cardamom), [carotene](#carotene), [key station](#key-station), [catwalk](#catwalk), [curator](#curator), [cooling-off](#cooling-off), [clan](#clan), [clean hit](#clean-hit), [clay court](#clay-court), [gravure](#gravure), [glee club](#glee-club), [green fee](#green-fee), [case study](#case-study), [caseworker](#caseworker), [gateball](#gateball), [game, set and match](#game-set-and-match), [corkscrew](#corkscrew), [cornering](#cornering), [called game](#called-game), [coma](#coma), [commissioner](#commissioner), [columnist](#columnist), [coliseum](#coliseum), [Columbus Day](#columbus-day), [concourse](#concourse), [storyboard](#storyboard), [contemporary](#contemporary), [sidecar](#sidecar), [silo](#silo), [southpaw](#southpaw), [sash](#sash), [sari](#sari), [saloon](#saloon), [seesaw game](#seesaw-game), [sherry](#sherry), [civic](#civic), [shutout](#shutout), [respite care](#respite-care), [think tank](#think-tank), [paint thinner](#paint-thinner), [jab](#jab), [jury](#jury), [sweeper](#sweeper), [scrum](#scrum), [squall](#squall), [Stars and Stripes](#stars-and-stripes), [stonewash](#stonewash), [strobe](#strobe), [snow boat](#snow-boat), [spurt](#spurt), [sparring](#sparring), [speedway](#speedway), [spacing](#spacing), [spoke](#spoke), [centering](#centering), [general manager](#general-manager), [tie-up](#tie-up), [tie game](#tie-game), [tugboat](#tugboat), [dubbing](#dubbing), [dance hall](#dance-hall), [changer](#changer), [tuner](#tuner), [taping](#taping), [test case](#test-case), [day game](#day-game), [distortion](#distortion), [decibel](#decibel), [democrat](#democrat), [top star](#top-star), [leadoff hitter](#leadoff-hitter), [trad](#trad), [traveler's check](#traveler-s-check), [transceiver](#transceiver), [trekker](#trekker), [docking](#docking), [dolphin kick](#dolphin-kick), [nightingale](#nightingale), [naturalist](#naturalist), [varnish](#varnish), [knickers](#knickers), [new media](#new-media), [full time](#full-time), [normalize](#normalize), [knocker](#knocker), [hi-fi](#hi-fi), [chauffeured car](#chauffeured-car), [crowbar](#crowbar), [biathlon](#biathlon), [barium](#barium), [baritone](#baritone), [barometer](#barometer), [bunt](#bunt), [parlor](#parlor), [parentheses](#parentheses), [putter](#putter), [putting](#putting), [putt](#putt), [patron](#patron), [paraglider](#paraglider), [pulp](#pulp), [power steering](#power-steering), [pantomime](#pantomime), [beaker](#beaker), [beagle](#beagle), [piston](#piston), [final set](#final-set), [viewfinder](#viewfinder), [funk](#funk), [fairway](#fairway), [feint](#feint), [federation](#federation), [ferret](#ferret), [freeter](#freeter), [freehand](#freehand), [buoy](#buoy), [bullpen](#bullpen), [broiler](#broiler), [blocker](#blocker), [publicity photo](#publicity-photo), [placard](#placard), [press release](#press-release), [prefab](#prefab), [hem](#hem), [heliport](#heliport), [bearing](#bearing), [pennant](#pennant), [penicillin](#penicillin), [hook and eye](#hook-and-eye), [Holocaust](#holocaust), [bogey](#bogey), [body-conscious](#body-conscious), [bobsled](#bobsled), [pager](#pager), [polo](#polo), [mart](#mart), [mime](#mime), [mounting](#mounting), [mound](#mound), [maxi](#maxi), [Mother Goose](#mother-goose), [mast](#mast), [marina](#marina), [marimba](#marimba), [multinational](#multinational), [mandolin](#mandolin), [mitt](#mitt), [mink](#mink), [medley relay](#medley-relay), [moss green](#moss-green), [modem](#modem), [motocross](#motocross), [yacht harbor](#yacht-harbor), [lager](#lager), [snowplow](#snowplow), [lavatory](#lavatory), [rough play](#rough-play), [leaguer](#leaguer), [rape](#rape), [shin guard](#shin-guard), [first run](#first-run), [rodeo](#rodeo), [lob](#lob), [long seller](#long-seller), [infotainment show](#infotainment-show), [hinge](#hinge), [affiliate](#affiliate), [ware](#ware), [cesium](#cesium)
-- Lv.9 教養 — [guild](#guild), [summon](#summon), [relic](#relic), [mana](#mana), [stealth](#stealth), [berserk](#berserk), [compliance](#compliance), [consensus](#consensus), [hierarchy](#hierarchy), [scheme](#scheme), [aesthetic](#aesthetic), [ideology](#ideology), [renaissance](#renaissance), [entrepreneur](#entrepreneur), [philosophy](#philosophy), [metaphor](#metaphor), [thesis](#thesis), [antithesis](#antithesis), [narrative](#narrative), [realism](#realism), [modernism](#modernism), [surreal](#surreal), [minimalism](#minimalism), [baroque](#baroque), [gothic](#gothic), [dystopia](#dystopia), [nationalism](#nationalism), [populism](#populism), [fascism](#fascism), [anarchy](#anarchy), [elite](#elite), [intellectual](#intellectual), [sympathy](#sympathy), [cosmopolitan](#cosmopolitan), [folklore](#folklore), [saga](#saga), [chronicle](#chronicle), [archive](#archive), [anthology](#anthology), [prologue](#prologue), [epilogue](#epilogue), [finale](#finale), [parody](#parody), [homage](#homage), [motif](#motif), [chic](#chic), [cosmos](#cosmos), [parameter](#parameter), [matrix](#matrix), [vector](#vector), [symmetry](#symmetry), [gradation](#gradation), [perspective](#perspective), [mentality](#mentality), [maestro](#maestro), [optimism](#optimism), [pessimism](#pessimism), [cynical](#cynical), [hysterical](#hysterical), [humanism](#humanism), [sanctuary](#sanctuary), [labyrinth](#labyrinth), [mirage](#mirage), [phantom](#phantom), [illusion](#illusion), [montage](#montage), [atelier](#atelier), [plasma](#plasma), [placebo](#placebo), [calligraphy](#calligraphy), [typography](#typography), [academic](#academic), [academy](#academy), [acoustic](#acoustic), [eccentric](#eccentric), [elegance](#elegance), [epic](#epic), [occult](#occult), [originality](#originality), [cult](#cult), [capitalism](#capitalism), [journalism](#journalism), [gospel](#gospel), [symbolic](#symbolic), [pathos](#pathos), [pragmatism](#pragmatism), [prism](#prism), [fusion](#fusion), [feminism](#feminism), [heroism](#heroism), [heroine](#heroine), [doctrine](#doctrine), [mythology](#mythology), [monologue](#monologue), [melodrama](#melodrama), [metropolitan](#metropolitan), [monotone](#monotone), [monochrome](#monochrome), [lullaby](#lullaby), [requiem](#requiem), [sonnet](#sonnet), [tragedy](#tragedy), [satire](#satire), [oracle](#oracle), [oriental](#oriental), [mammoth](#mammoth), [aurora](#aurora), [planetarium](#planetarium), [plankton](#plankton), [magma](#magma), [neuron](#neuron), [gene](#gene), [isotope](#isotope), [atom](#atom), [adrenaline](#adrenaline), [amoeba](#amoeba), [elegy](#elegy), [emblem](#emblem), [ethos](#ethos), [muse](#muse), [fable](#fable), [archetype](#archetype), [arc](#arc), [early American](#early-american), [agitation](#agitation), [acetone](#acetone), [alcove](#alcove), [albatross](#albatross), [array](#array), [ammonite](#ammonite), [imperial](#imperial), [economic animal](#economic-animal), [estrogen](#estrogen), [etching](#etching), [erotic](#erotic), [open set](#open-set), [omnibus](#omnibus), [caldera](#caldera), [gas turbine](#gas-turbine), [caterpillar track](#caterpillar-track), [caching](#caching), [carburetor](#carburetor), [kooky](#kooky), [Queen's English](#queen-s-english), [crank](#crank), [start of filming](#start-of-filming), [heart of the order](#heart-of-the-order), [clinch](#clinch), [Greco-Roman](#greco-roman), [caulking](#caulking), [cobalt](#cobalt), [capacitor](#capacitor), [compressor](#compressor), [convoy](#convoy), [sadist](#sadist), [sarin](#sarin), [sampler](#sampler), [Secret Service](#secret-service), [syringe](#syringe), [sinker](#sinker), [sympathizer](#sympathizer), [gypsy](#gypsy), [skipper](#skipper), [scapegoat](#scapegoat), [stun gun](#stun-gun), [steroid](#steroid), [snatch](#snatch), [slack](#slack), [general contractor](#general-contractor), [timestamp](#timestamp), [tandem](#tandem), [dynamics](#dynamics), [teleconference](#teleconference), [telegraph](#telegraph), [telecom](#telecom), [data bank](#data-bank), [dinghy](#dinghy), [decoder](#decoder), [delegation](#delegation), [topper](#topper), [topless](#topless), [transistor](#transistor), [torque](#torque), [dogfight](#dogfight), [dolly](#dolly), [national chain](#national-chain), [National League](#national-league), [nick](#nick), [new leader](#new-leader), [Neanderthal](#neanderthal), [neo](#neo), [neckerchief](#neckerchief), [net play](#net-play), [no-hitter](#no-hitter), [high-cut](#high-cut), [halogen](#halogen), [hunger strike](#hunger-strike), [barter](#barter), [biotechnology](#biotechnology), [backstop](#backstop), [balance sheet](#balance-sheet), [perspective drawing](#perspective-drawing), [pagoda](#pagoda), [flash headlights](#flash-headlights), [putty](#putty), [paddock](#paddock), [punt](#punt), [victor](#victor), [bureau](#bureau), [lock picking](#lock-picking), [filing system](#filing-system), [facsimile](#facsimile), [fundamentals](#fundamentals), [feeder](#feeder), [fixer](#fixer), [fjord](#fjord), [philharmonic](#philharmonic), [fellowship](#fellowship), [pheromone](#pheromone), [forkball](#forkball), [formula car](#formula-car), [foreman](#foreman), [foster child](#foster-child), [fluke](#fluke), [CFC](#cfc), [butane](#butane), [booker](#booker), [bluebird](#bluebird), [push-button phone](#push-button-phone), [plutonium](#plutonium), [playgirl](#playgirl), [press club](#press-club), [press center](#press-center), [prelude](#prelude), [propane](#propane), [teleprompter](#teleprompter), [hemoglobin](#hemoglobin), [hertz](#hertz), [heroin](#heroin), [pain clinic](#pain-clinic), [pedometer](#pedometer), [Pentagon](#pentagon), [homer](#homer), [holster](#holster), [balk](#balk), [boat people](#boat-people), [body blow](#body-blow), [positioning](#positioning), [poly](#poly), [polyp](#polyp), [polka](#polka), [porn](#porn), [martini](#martini), [microfilm](#microfilm), [microcomputer](#microcomputer), [macro](#macro), [magnesium](#magnesium), [match play](#match-play), [Mach](#mach), [money game](#money-game), [mangrove](#mangrove), [midi](#midi), [MiniDisc](#minidisc), [military look](#military-look), [head table](#head-table), [methane](#methane), [mecca](#mecca), [memorial hall](#memorial-hall), [mobile home](#mobile-home), [mock-up](#mock-up), [replica gun](#replica-gun), [model example](#model-example), [mortar](#mortar), [radium](#radium), [latch](#latch), [latex](#latex), [laminate](#laminate), [leadoff man](#leadoff-man), [lithium](#lithium), [maglev](#maglev), [ringside](#ringside), [lynching](#lynching), [reportage](#reportage), [laserdisc](#laserdisc), [rayon](#rayon), [regatta](#regatta), [lettering](#lettering), [rockabilly](#rockabilly), [location scouting](#location-scouting), [wallaby](#wallaby), [ogre](#ogre), [lance](#lance), [weblog](#weblog)
-- Lv.10 マスター — [governance](#governance), [paradigm](#paradigm), [accountability](#accountability), [anachronism](#anachronism), [cliche](#cliche), [melancholy](#melancholy), [narcissist](#narcissist), [sabotage](#sabotage), [taboo](#taboo), [catharsis](#catharsis), [ambivalent](#ambivalent), [rhetoric](#rhetoric), [dogma](#dogma), [hegemony](#hegemony), [epoch](#epoch), [bourgeois](#bourgeois), [nihilism](#nihilism), [euphoria](#euphoria), [entropy](#entropy), [ennui](#ennui), [decadence](#decadence), [bohemian](#bohemian), [genocide](#genocide), [coup](#coup), [regime](#regime), [orthodox](#orthodox), [mantra](#mantra), [nirvana](#nirvana), [shaman](#shaman), [nemesis](#nemesis), [odyssey](#odyssey), [chimera](#chimera), [doppelganger](#doppelganger), [poltergeist](#poltergeist), [gestalt](#gestalt), [kitsch](#kitsch), [leitmotif](#leitmotif), [crescendo](#crescendo), [sonata](#sonata), [concerto](#concerto), [rhapsody](#rhapsody), [serenade](#serenade), [nocturne](#nocturne), [etude](#etude), [pastiche](#pastiche), [fresco](#fresco), [quantum](#quantum), [rococo](#rococo), [cubism](#cubism), [aphorism](#aphorism), [facade](#facade), [pedantic](#pedantic), [schema](#schema), [tautology](#tautology), [vandalism](#vandalism), [apartheid](#apartheid), [dilettante](#dilettante), [hysteria](#hysteria), [snob](#snob), [trivia](#trivia), [sadistic](#sadistic), [egoism](#egoism), [romanticism](#romanticism), [idealism](#idealism), [symbolism](#symbolism), [paternalism](#paternalism), [patriotism](#patriotism), [globalism](#globalism), [technocrat](#technocrat), [lobbyist](#lobbyist), [syndicate](#syndicate), [junkie](#junkie), [pessimistic](#pessimistic), [optimist](#optimist), [liberalism](#liberalism), [bureaucracy](#bureaucracy), [racism](#racism), [skeptic](#skeptic), [urbanity](#urbanity), [einsteinium](#einsteinium), [academism](#academism), [agoraphobia](#agoraphobia), [acetylcholine](#acetylcholine), [attest](#attest), [annealing](#annealing), [amalgam](#amalgam), [amnesty](#amnesty), [aristocracy](#aristocracy), [algorithmic](#algorithmic), [aldehyde](#aldehyde), [albumin](#albumin), [alexandrite](#alexandrite), [angelus](#angelus), [untied loan](#untied-loan), [ism](#ism), [id](#id), [eonism](#eonism), [ecumenism](#ecumenism), [equitable](#equitable), [exorcist](#exorcist), [esquire](#esquire), [ester](#ester), [ethylene](#ethylene), [evangelist](#evangelist), [emigrant](#emigrant), [erythropoietin](#erythropoietin), [erbium](#erbium), [endian](#endian), [ode](#ode), [old guard](#old-guard), [Orientalism](#orientalism), [oligomer](#oligomer), [kern](#kern), [Catholicism](#catholicism), [cadmium](#cadmium), [coupler](#coupler), [cummerbund](#cummerbund), [cam](#cam), [corolla](#corolla), [cant](#cant), [Gaussian](#gaussian), [gasohol](#gasohol), [gully](#gully), [gallium](#gallium), [keel](#keel), [kinesiology](#kinesiology), [chinoform](#chinoform), [cat's-eye](#cat-s-eye), [capital gain](#capital-gain), [curie](#curie), [Cyrillic](#cyrillic), [galloping inflation](#galloping-inflation), [quasar](#quasar), [cleek](#cleek), [creole](#creole), [creatinine clearance](#creatinine-clearance), [creosote](#creosote), [credibility gap](#credibility-gap), [chronoscope](#chronoscope), [graphic equalizer](#graphic-equalizer), [glycogen](#glycogen), [Gregorian](#gregorian), [gay liberation](#gay-liberation), [corporate identity](#corporate-identity), [cox](#cox), [colloid](#colloid), [contra](#contra), [safari rally](#safari-rally), [thunderbird](#thunderbird), [Zionism](#zionism), [city air terminal](#city-air-terminal), [citron](#citron), [civilian control](#civilian-control), [sharkskin](#sharkskin), [shirring](#shirring), [symbolist](#symbolist), [gerontocracy](#gerontocracy), [dystrophy](#dystrophy), [jib](#jib), [clean and jerk](#clean-and-jerk), [gyroscope](#gyroscope), [japonica](#japonica), [joule](#joule), [jubilee](#jubilee), [duralumin](#duralumin), [scull](#scull), [script supervisor](#script-supervisor), [squawker](#squawker), [Stirling engine](#stirling-engine), [stymie](#stymie), [stub](#stub), [Stoicism](#stoicism), [streaker](#streaker), [stripper](#stripper), [strontium](#strontium), [spirulina](#spirulina), [spencer](#spencer), [cerium](#cerium), [celluloid](#celluloid), [general strike](#general-strike), [the Times](#the-times), [thallium](#thallium), [talc](#talc), [diode](#diode), [dynamism](#dynamism), [Charleston](#charleston), [channeling](#channeling), [tilde](#tilde), [tyranny](#tyranny), [fiberboard](#fiberboard), [tetrachloroethylene](#tetrachloroethylene), [telex](#telex), [telemeter](#telemeter), [denier](#denier), [redenomination](#redenomination), [talkie](#talkie), [tomahawk](#tomahawk), [tommy gun](#tommy-gun), [trough](#trough), [tranquilizer](#tranquilizer), [transponder](#transponder), [trichloroethylene](#trichloroethylene), [TNT](#tnt), [tribune](#tribune), [toluene](#toluene), [trawl](#trawl), [troy](#troy), [dormer](#dormer), [Nazism](#nazism), [naphtha](#naphtha), [narrowcasting](#narrowcasting), [newton](#newton), [neuro](#neuro), [neo-Nazi](#neo-nazi), [hardtop](#hardtop), [halon](#halon), [birdcall](#birdcall), [burlesque](#burlesque), [vagabond](#vagabond), [slash bunt](#slash-bunt), [batter's eye](#batter-s-eye), [Baptist](#baptist), [vulcanized rubber](#vulcanized-rubber), [purge](#purge), [perceptron](#perceptron), [palm ball](#palm-ball), [pascal](#pascal), [parabola](#parabola), [pulsar](#pulsar), [Pan-Americanism](#pan-americanism), [pantograph](#pantograph), [pampas](#pampas), [Peter Pan syndrome](#peter-pan-syndrome), [Peeping Tom](#peeping-tom), [pico](#pico), [fascist](#fascist), [fiscal policy](#fiscal-policy), [fielder's choice](#fielder-s-choice), [ford](#ford), [foxtrot](#foxtrot), [hooker](#hooker), [flywheel](#flywheel), [frigate](#frigate), [bookmaker](#bookmaker), [brassie](#brassie), [broadcloth](#broadcloth), [prime rate](#prime-rate), [propjet](#propjet), [hecto](#hecto), [heather](#heather), [Hebraism](#hebraism), [herald](#herald), [herringbone](#herringbone), [Hellenism](#hellenism), [betta](#betta), [Bedouin](#bedouin), [Venetian glass](#venetian-glass), [pessary](#pessary), [pepsin](#pepsin), [PEN International](#pen-international), [homing](#homing), [holography](#holography), [bowing](#bowing), [boardsailing](#boardsailing), [voyager](#voyager), [vocoder](#vocoder), [polypropylene](#polypropylene), [polymer](#polymer), [macadam](#macadam), [magnum](#magnum), [mothering](#mothering), [mass games](#mass-games), [masochist](#masochist), [madras](#madras), [money supply](#money-supply), [marine snow](#marine-snow), [mantle](#mantle), [mambo](#mambo), [me-ism](#me-ism), [mitochondria](#mitochondria), [par four](#par-four), [millibar](#millibar), [mustang](#mustang), [main bank](#main-bank), [megahertz](#megahertz), [Messiah](#messiah), [Methodist](#methodist), [medical engineering](#medical-engineering), [melanin](#melanin), [motorization](#motorization), [modiste](#modiste), [monaural](#monaural), [Morris dance](#morris-dance), [morgue](#morgue), [Universiade](#universiade), [urea](#urea), [yoke](#yoke), [liability](#liability), [radial](#radial), [lath](#lath), [rudder](#rudder), [radon](#radon), [lithograph](#lithograph), [linoleic acid](#linoleic-acid), [liberalist](#liberalist), [lute](#lute), [linkage](#linkage), [luminescence](#luminescence), [luminol](#luminol), [Leghorn](#leghorn), [rotor](#rotor), [loam](#loam), [laurel](#laurel), [rock wool](#rock-wool), [par five](#par-five), [halberd](#halberd), [ghoul](#ghoul), [stinger](#stinger), [demi](#demi), [trooper](#trooper), [nonbank](#nonbank), [logic analyzer](#logic-analyzer), [atto](#atto)
+- Lv.1 ひと目でわかる — [dog](#dog), [cat](#cat), [apple](#apple), [milk](#milk), [tea](#tea), [juice](#juice), [cake](#cake), [table](#table), [bed](#bed), [door](#door), [bus](#bus), [train](#train), [park](#park), [pen](#pen), [music](#music), [piano](#piano), [ball](#ball), [color](#color), [sport](#sport), [egg](#egg), [fish](#fish), [bag](#bag), [cup](#cup), [box](#box), [desk](#desk), [room](#room), [house](#house), [car](#car), [game](#game), [book](#book), [song](#song), [happy](#happy), [home](#home), [watch](#watch), [shoes](#shoes), [shirt](#shirt), [cap](#cap), [ice](#ice), [pizza](#pizza), [soup](#soup), [rice](#rice), [jam](#jam), [candy](#candy), [bear](#bear), [panda](#panda), [bath](#bath), [towel](#towel), [clock](#clock), [dance](#dance), [drum](#drum), [sofa](#sofa), [red](#red), [blue](#blue), [green](#green), [pink](#pink), [black](#black), [white](#white), [big](#big), [nice](#nice), [melon](#melon), [peach](#peach), [kiwi](#kiwi), [cherry](#cherry), [grape](#grape), [cola](#cola), [soda](#soda), [bacon](#bacon), [ham](#ham), [steak](#steak), [curry](#curry), [pasta](#pasta), [pepper](#pepper), [honey](#honey), [toast](#toast), [donut](#donut), [pie](#pie), [zebra](#zebra), [koala](#koala), [gorilla](#gorilla), [shark](#shark), [lamp](#lamp), [mirror](#mirror), [curtain](#curtain), [carpet](#carpet), [toilet](#toilet), [tissue](#tissue), [brush](#brush), [tape](#tape), [hat](#hat), [boots](#boots), [socks](#socks), [belt](#belt), [pocket](#pocket), [jeans](#jeans), [golf](#golf), [ski](#ski), [hit](#hit), [bat](#bat), [net](#net), [radio](#radio), [mail](#mail), [cool](#cool), [hot](#hot), [cute](#cute), [sweet](#sweet), [fresh](#fresh), [soft](#soft), [love](#love), [heart](#heart), [sun](#sun), [moon](#moon), [sky](#sky), [snow](#snow), [rain](#rain), [rainbow](#rainbow), [fire](#fire), [water](#water), [gold](#gold), [silver](#silver), [king](#king), [queen](#queen), [prince](#prince), [princess](#princess), [boy](#boy), [girl](#girl), [lady](#lady), [coin](#coin), [gum](#gum), [jelly](#jelly), [pudding](#pudding), [straw](#straw), [pot](#pot), [doll](#doll), [puzzle](#puzzle), [block](#block), [circle](#circle), [line](#line), [stop](#stop), [kick](#kick), [punch](#punch), [dash](#dash), [jogging](#jogging), [rose](#rose), [tulip](#tulip), [potato](#potato), [onion](#onion), [corn](#corn), [mint](#mint), [pool](#pool), [kiss](#kiss), [jazz](#jazz), [chess](#chess), [bell](#bell), [pin](#pin), [mix](#mix), [cut](#cut), [chicken](#chicken), [beef](#beef), [meat](#meat), [ink](#ink), [show](#show), [swan](#swan), [snake](#snake), [jet](#jet), [pipe](#pipe), [rope](#rope), [hair](#hair), [neck](#neck), [skin](#skin), [bowl](#bowl), [tray](#tray), [chalk](#chalk), [almond](#almond), [peanut](#peanut), [celery](#celery), [parsley](#parsley), [cinnamon](#cinnamon), [herb](#herb), [spice](#spice), [sandal](#sandal), [apron](#apron), [earring](#earring), [cracker](#cracker), [hammer](#hammer), [tank](#tank), [dome](#dome), [dot](#dot), [drop](#drop), [dry](#dry), [deep](#deep), [dark](#dark), [heavy](#heavy), [pure](#pure), [rich](#rich), [wild](#wild), [wide](#wide), [long](#long), [last](#last), [first](#first), [second](#second), [half](#half), [double](#double), [triple](#triple), [full](#full), [real](#real), [normal](#normal), [basic](#basic), [main](#main), [tube](#tube), [toaster](#toaster), [dryer](#dryer), [tile](#tile), [mat](#mat), [camping](#camping), [ferry](#ferry), [yacht](#yacht), [canoe](#canoe), [cage](#cage), [case](#case), [kite](#kite), [bingo](#bingo), [whistle](#whistle), [circus](#circus), [parade](#parade), [Christmas](#christmas), [Easter](#easter), [Halloween](#halloween), [chime](#chime), [ice cream](#ice-cream), [up](#up), [after](#after), [afternoon](#afternoon), [hour](#hour), [under](#under), [it](#it), [eleven](#eleven), [woman](#woman), [week](#week), [way](#way), [eight](#eight), [only](#only), [good](#good), [great](#great), [call](#call), [cold](#cold), [third](#third), [thank you](#thank-you), [Santa Claus](#santa-claus), [shopping](#shopping), [giraffe](#giraffe), [stand](#stand), [spring](#spring), [seven](#seven), [turn](#turn), [time](#time), [fall](#fall), [chair](#chair), [child](#child), [ten](#ten), [try](#try), [travel](#travel), [nine](#nine), [nothing](#nothing), [new](#new), [name](#name), [high](#high), [how](#how), [hello](#hello), [hand](#hand), [dad](#dad), [beautiful](#beautiful), [people](#people), [picture](#picture), [finish](#finish), [football](#football), [French](#french), [break](#break), [pretty](#pretty), [play](#play), [head](#head), [better](#better), [pay](#pay), [my](#my), [money](#money), [man](#man), [you](#you), [life](#life), [run](#run), [little](#little), [lake](#lake), [low](#low), [true](#true), [no](#no), [wonderful](#wonderful), [all](#all), [hear](#hear), [day](#day), [four](#four), [Japanese](#japanese), [Japan](#japan), [Chinese](#chinese), [China](#china), [mom](#mom), [United Kingdom](#united-kingdom), [England](#england), [France](#france), [Germany](#germany), [Italy](#italy), [Spain](#spain), [India](#india), [United States](#united-states), [America](#america), [Canada](#canada), [Australia](#australia), [Asia](#asia), [Europe](#europe), [Africa](#africa), [London](#london), [Paris](#paris), [New York](#new-york)
+- Lv.2 くらしの定番 — [mouse](#mouse), [lion](#lion), [tiger](#tiger), [banana](#banana), [orange](#orange), [lemon](#lemon), [tomato](#tomato), [coffee](#coffee), [bread](#bread), [chocolate](#chocolate), [window](#window), [kitchen](#kitchen), [key](#key), [taxi](#taxi), [hotel](#hotel), [bank](#bank), [pencil](#pencil), [note](#note), [school](#school), [test](#test), [family](#family), [friend](#friend), [baby](#baby), [star](#star), [flower](#flower), [tree](#tree), [camera](#camera), [phone](#phone), [team](#team), [tennis](#tennis), [soccer](#soccer), [hobby](#hobby), [menu](#menu), [salad](#salad), [bike](#bike), [party](#party), [card](#card), [birthday](#birthday), [morning](#morning), [guitar](#guitar), [baseball](#baseball), [swimming](#swimming), [map](#map), [plan](#plan), [dream](#dream), [smile](#smile), [shop](#shop), [fruit](#fruit), [lunch](#lunch), [camp](#camp), [beach](#beach), [river](#river), [size](#size), [hamburger](#hamburger), [monkey](#monkey), [calendar](#calendar), [racket](#racket), [volleyball](#volleyball), [basketball](#basketball), [violin](#violin), [summer](#summer), [winter](#winter), [town](#town), [city](#city), [speed](#speed), [power](#power), [point](#point), [rule](#rule), [club](#club), [drink](#drink), [cream](#cream), [sugar](#sugar), [spoon](#spoon), [fork](#fork), [knife](#knife), [glass](#glass), [plate](#plate), [farm](#farm), [tower](#tower), [boat](#boat), [lucky](#lucky), [easy](#easy), [hard](#hard), [slow](#slow), [short](#short), [top](#top), [skirt](#skirt), [dress](#dress), [coat](#coat), [glove](#glove), [ring](#ring), [strawberry](#strawberry), [pineapple](#pineapple), [avocado](#avocado), [broccoli](#broccoli), [cabbage](#cabbage), [lettuce](#lettuce), [pumpkin](#pumpkin), [popcorn](#popcorn), [vanilla](#vanilla), [pancake](#pancake), [omelet](#omelet), [stew](#stew), [sausage](#sausage), [yogurt](#yogurt), [mayonnaise](#mayonnaise), [ketchup](#ketchup), [dressing](#dressing), [cereal](#cereal), [cocoa](#cocoa), [kangaroo](#kangaroo), [cheetah](#cheetah), [hamster](#hamster), [flamingo](#flamingo), [oven](#oven), [heater](#heater), [closet](#closet), [blanket](#blanket), [cushion](#cushion), [veranda](#veranda), [garage](#garage), [fence](#fence), [gate](#gate), [supermarket](#supermarket), [convenience](#convenience), [bakery](#bakery), [cafe](#cafe), [parking](#parking), [subway](#subway), [tunnel](#tunnel), [drugstore](#drugstore), [cable](#cable), [plug](#plug), [outlet](#outlet), [remote](#remote), [speaker](#speaker), [headphones](#headphones), [keyboard](#keyboard), [printer](#printer), [nurse](#nurse), [chef](#chef), [driver](#driver), [singer](#singer), [free](#free), [sunglasses](#sunglasses), [necktie](#necktie), [parka](#parka), [sneakers](#sneakers), [backpack](#backpack), [mug](#mug), [kettle](#kettle), [napkin](#napkin), [candle](#candle), [poster](#poster), [sticker](#sticker), [handkerchief](#handkerchief), [slippers](#slippers), [lotion](#lotion), [cooking](#cooking), [barbecue](#barbecue), [buffet](#buffet), [noodle](#noodle), [spaghetti](#spaghetti), [biscuit](#biscuit), [waffle](#waffle), [crepe](#crepe), [parfait](#parfait), [mango](#mango), [salmon](#salmon), [tuna](#tuna), [lobster](#lobster), [truck](#truck), [helicopter](#helicopter), [scooter](#scooter), [sponge](#sponge), [bucket](#bucket), [hanger](#hanger), [basket](#basket), [marker](#marker), [stapler](#stapler), [clip](#clip), [folder](#folder), [skate](#skate), [rugby](#rugby), [hockey](#hockey), [boxing](#boxing), [bowling](#bowling), [ribbon](#ribbon), [zipper](#zipper), [switch](#switch), [clean](#clean), [cleaning](#cleaning), [touch](#touch), [bar](#bar), [burger](#burger), [cabinet](#cabinet), [dining](#dining), [living](#living), [bathroom](#bathroom), [balcony](#balcony), [laundry](#laundry), [locker](#locker), [pad](#pad), [powder](#powder), [pastel](#pastel), [blouse](#blouse), [stockings](#stockings), [tights](#tights), [pumps](#pumps), [heel](#heel), [hood](#hood), [ponytail](#ponytail), [perm](#perm), [wagon](#wagon), [sedan](#sedan), [trailer](#trailer), [tractor](#tractor), [bumper](#bumper), [wheel](#wheel), [pedal](#pedal), [tag](#tag), [badge](#badge), [timer](#timer), [dial](#dial), [screen](#screen), [cordless](#cordless), [stereo](#stereo), [audio](#audio), [pilaf](#pilaf), [macaroni](#macaroni), [margarine](#margarine), [mustard](#mustard), [sherbet](#sherbet), [sundae](#sundae), [caramel](#caramel), [grapefruit](#grapefruit), [seafood](#seafood), [lamb](#lamb), [roast](#roast), [mixer](#mixer), [shovel](#shovel), [screw](#screw), [spray](#spray), [stopwatch](#stopwatch), [swing](#swing), [slide](#slide), [spin](#spin), [catch](#catch), [shot](#shot), [save](#save), [safe](#safe), [catcher](#catcher), [runner](#runner), [swimmer](#swimmer), [dancer](#dancer), [drummer](#drummer), [pianist](#pianist), [hunter](#hunter), [rider](#rider), [magician](#magician), [comedian](#comedian), [waitress](#waitress), [babysitter](#babysitter), [helper](#helper), [owner](#owner), [visitor](#visitor), [beginner](#beginner), [classmate](#classmate), [boyfriend](#boyfriend), [sister](#sister), [art](#art), [earth](#earth), [air](#air), [wing](#wing), [web](#web), [wave](#wave), [wet](#wet), [welcome](#welcome), [wood](#wood), [arm](#arm), [ice hockey](#ice-hockey), [around](#around), [eve](#eve), [weekday](#weekday), [wind](#wind), [wear](#wear), [air conditioner](#air-conditioner), [ever](#ever), [girlfriend](#girlfriend), [kid](#kid), [Christmas Eve](#christmas-eve), [Christmas card](#christmas-card), [Christmas tree](#christmas-tree), [coffee shop](#coffee-shop), [sheet](#sheet), [seat](#seat), [shake](#shake), [ship](#ship), [shorts](#shorts), [thin](#thin), [stick](#stick), [storm](#storm), [centimeter](#centimeter), [soap](#soap), [tie](#tie), [church](#church), [tourist](#tourist), [tool](#tool), [twin](#twin), [teenager](#teenager), [tennis court](#tennis-court), [telephone](#telephone), [dictionary](#dictionary), [department store](#department-store), [toilet paper](#toilet-paper), [draw](#draw), [number one](#number-one), [knee](#knee), [high school](#high-school), [hang](#hang), [hamburger steak](#hamburger-steak), [part-time job](#part-time-job), [Valentine's Day](#valentine-s-day), [part](#part), [pineapple juice](#pineapple-juice), [personal computer](#personal-computer), [heat](#heat), [village](#village), [fast food](#fast-food), [fantastic](#fantastic), [fit](#fit), [form](#form), [fried chicken](#fried-chicken), [frying pan](#frying-pan), [friendly](#friendly), [push](#push), [health](#health), [base](#base), [ballpoint pen](#ballpoint-pen), [pop music](#pop-music), [potato chips](#potato-chips), [police](#police), [mushroom](#mushroom), [meal](#meal), [Mrs.](#mrs), [midnight](#midnight), [middle](#middle), [million](#million), [ride](#ride), [land](#land), [running](#running), [reach](#reach), [reading](#reading), [roof](#roof), [raincoat](#raincoat), [rest](#rest), [worst](#worst), [World Cup](#world-cup), [wow](#wow), [iced coffee](#iced-coffee), [curry and rice](#curry-and-rice), [email address](#email-address), [kids](#kids), [used](#used), [shape](#shape), [cheesecake](#cheesecake), [coffee cup](#coffee-cup), [beans](#beans), [nervous](#nervous), [Korea](#korea), [Michael](#michael), [John](#john), [Peter](#peter), [Paul](#paul), [George](#george), [Charles](#charles), [William](#william), [Mary](#mary), [Anne](#anne), [James](#james), [Scotland](#scotland), [Netherlands](#netherlands), [Switzerland](#switzerland), [Greece](#greece), [Russia](#russia), [South Korea](#south-korea), [Thailand](#thailand), [Egypt](#egypt), [Mexico](#mexico), [Brazil](#brazil), [New Zealand](#new-zealand), [Hawaii](#hawaii), [Rome](#rome), [Berlin](#berlin), [Washington](#washington), [Los Angeles](#los-angeles), [California](#california)
+- Lv.3 よく使う — [dragon](#dragon), [level](#level), [hero](#hero), [boss](#boss), [stage](#stage), [fan](#fan), [rabbit](#rabbit), [cookie](#cookie), [cheese](#cheese), [sandwich](#sandwich), [butter](#butter), [hospital](#hospital), [restaurant](#restaurant), [station](#station), [season](#season), [television](#television), [computer](#computer), [robot](#robot), [goal](#goal), [sauce](#sauce), [sign](#sign), [fight](#fight), [event](#event), [present](#present), [idea](#idea), [news](#news), [doctor](#doctor), [animal](#animal), [pants](#pants), [museum](#museum), [library](#library), [concert](#concert), [ticket](#ticket), [vegetable](#vegetable), [dinner](#dinner), [picnic](#picnic), [island](#island), [mountain](#mountain), [jacket](#jacket), [nature](#nature), [future](#future), [simple](#simple), [speech](#speech), [member](#member), [chance](#chance), [airport](#airport), [street](#street), [building](#building), [elevator](#elevator), [letter](#letter), [bottle](#bottle), [garden](#garden), [bridge](#bridge), [rocket](#rocket), [sweater](#sweater), [answer](#answer), [action](#action), [album](#album), [bench](#bench), [button](#button), [center](#center), [change](#change), [check](#check), [choice](#choice), [design](#design), [guide](#guide), [guest](#guest), [group](#group), [jump](#jump), [keep](#keep), [magic](#magic), [mark](#mark), [memory](#memory), [model](#model), [open](#open), [order](#order), [page](#page), [pair](#pair), [pass](#pass), [photo](#photo), [print](#print), [report](#report), [score](#score), [set](#set), [shower](#shower), [skill](#skill), [space](#space), [start](#start), [style](#style), [title](#title), [tour](#tour), [type](#type), [lesson](#lesson), [hiking](#hiking), [stadium](#stadium), [arena](#arena), [gym](#gym), [hall](#hall), [lobby](#lobby), [front](#front), [tent](#tent), [cottage](#cottage), [resort](#resort), [cruise](#cruise), [passport](#passport), [suitcase](#suitcase), [notebook](#notebook), [homeroom](#homeroom), [band](#band), [chorus](#chorus), [orchestra](#orchestra), [melody](#melody), [harmony](#harmony), [cartoon](#cartoon), [character](#character), [story](#story), [novel](#novel), [diary](#diary), [sketch](#sketch), [paint](#paint), [craft](#craft), [yoga](#yoga), [fitness](#fitness), [training](#training), [trophy](#trophy), [medal](#medal), [champion](#champion), [record](#record), [pitcher](#pitcher), [goalkeeper](#goalkeeper), [referee](#referee), [penalty](#penalty), [foul](#foul), [tackle](#tackle), [shoot](#shoot), [serve](#serve), [smash](#smash), [rally](#rally), [relay](#relay), [course](#course), [lane](#lane), [costume](#costume), [makeup](#makeup), [nail](#nail), [accessory](#accessory), [necklace](#necklace), [bracelet](#bracelet), [pouch](#pouch), [drive](#drive), [trip](#trip), [gift](#gift), [surprise](#surprise), [balloon](#balloon), [snack](#snack), [dessert](#dessert), [sweets](#sweets), [takeout](#takeout), [coupon](#coupon), [rental](#rental), [store](#store), [mall](#mall), [rush](#rush), [timing](#timing), [pace](#pace), [musical](#musical), [flute](#flute), [trumpet](#trumpet), [harp](#harp), [anime](#anime), [syrup](#syrup), [weekend](#weekend), [scarf](#scarf), [muffler](#muffler), [mitten](#mitten), [court](#court), [track](#track), [lock](#lock), [grill](#grill), [microwave](#microwave), [laptop](#laptop), [alarm](#alarm), [siren](#siren), [ballet](#ballet), [wallet](#wallet), [oatmeal](#oatmeal), [cook](#cook), [mascot](#mascot), [jersey](#jersey), [helmet](#helmet), [gesture](#gesture), [joke](#joke), [gag](#gag), [spy](#spy), [pistol](#pistol), [jumbo](#jumbo), [giant](#giant), [joker](#joker), [jewelry](#jewelry), [noise](#noise), [nickname](#nickname), [nest](#nest), [knock](#knock), [needs](#needs), [natural](#natural), [national](#national), [hungry](#hungry), [handsome](#handsome), [hurricane](#hurricane), [honeymoon](#honeymoon), [hike](#hike), [highway](#highway), [harbor](#harbor), [handbag](#handbag), [handbook](#handbook), [bazaar](#bazaar), [badminton](#badminton), [butterfly](#butterfly), [background](#background), [baton](#baton), [pyramid](#pyramid), [pinch](#pinch), [peak](#peak), [peace](#peace), [pill](#pill), [period](#period), [pick](#pick), [fighter](#fighter), [final](#final), [figure](#figure), [field](#field), [fever](#fever), [feeling](#feeling), [film](#film), [face](#face), [flag](#flag), [flash](#flash), [floor](#floor), [phrase](#phrase), [float](#float), [pride](#pride), [private](#private), [plain](#plain), [player](#player), [hope](#hope), [horn](#horn), [holder](#holder), [bone](#bone), [board](#board), [body](#body), [voice](#voice), [volume](#volume), [bottom](#bottom), [pole](#pole), [position](#position), [pop](#pop), [poem](#poem), [minus](#minus), [mild](#mild), [mind](#mind), [magnet](#magnet), [machine](#machine), [mood](#mood), [movie](#movie), [merit](#merit), [modern](#modern), [motto](#motto), [monument](#monument), [young](#young), [youth](#youth), [unit](#unit), [light](#light), [round](#round), [rough](#rough), [random](#random), [list](#list), [rate](#rate), [route](#route), [loop](#loop), [look](#look), [race](#race), [rail](#rail), [regular](#regular), [range](#range), [road](#road), [roll](#roll), [loss](#loss), [word](#word), [work](#work), [worker](#worker), [world](#world), [wire](#wire), [electric](#electric), [angel](#angel), [end](#end), [evening](#evening), [eagle](#eagle), [arrow](#arrow), [beast](#beast), [vampire](#vampire), [iron](#iron), [active](#active), [actress](#actress), [American football](#american-football), [American](#american), [aluminum foil](#aluminum-foil), [even](#even), [international](#international), [information](#information), [winter sports](#winter-sports), [wedding cake](#wedding-cake), [wedding dress](#wedding-dress), [April Fools' Day](#april-fools-day), [electric guitar](#electric-guitar), [Olympics](#olympics), [cart](#cart), [gas station](#gas-station), [gun](#gun), [keychain](#keychain), [camel](#camel), [kill](#kill), [guitarist](#guitarist), [give up](#give-up), [cleaner](#cleaner), [crazy](#crazy), [credit card](#credit-card), [ground](#ground), [green peas](#green-peas), [roller coaster](#roller-coaster), [contact lens](#contact-lens), [Golden Week](#golden-week), [office worker](#office-worker), [sunshine](#sunshine), [seat belt](#seat-belt), [mechanical pencil](#mechanical-pencil), [shopping cart](#shopping-cart), [shopping mall](#shopping-mall), [jigsaw puzzle](#jigsaw-puzzle), [joy](#joy), [swimming club](#swimming-club), [skating](#skating), [straight](#straight), [speed up](#speed-up), [sports car](#sports-car), [smooth](#smooth), [slice](#slice), [taste](#taste), [softball](#softball), [time machine](#time-machine), [tough](#tough), [tongue](#tongue), [dancing](#dancing), [cheer](#cheer), [check-in](#check-in), [theme park](#theme-park), [daily](#daily), [discover](#discover), [dead](#dead), [dodgeball](#dodgeball), [drawing](#drawing), [nut](#nut), [happy ending](#happy-ending), [parts](#parts), [part-time](#part-time), [powerful](#powerful), [human](#human), [businessman](#businessman), [bit](#bit), [ping-pong](#ping-pong), [fashion show](#fashion-show), [French bread](#french-bread), [flea market](#flea-market), [frozen food](#frozen-food), [brunch](#brunch), [hairstyle](#hairstyle), [home run](#home-run), [mic](#mic), [sewing machine](#sewing-machine), [mister](#mister), [mini](#mini), [main street](#main-street), [rush hour](#rush-hour), [plastic wrap](#plastic-wrap), [love song](#love-song), [love letter](#love-letter), [lead](#lead), [receive](#receive), [cash register](#cash-register), [rental car](#rental-car), [soft drink](#soft-drink), [homepage](#homepage), [dog food](#dog-food), [pet food](#pet-food), [web page](#web-page), [bus tour](#bus-tour), [card game](#card-game), [baby food](#baby-food), [experience](#experience), [rock-paper-scissors](#rock-paper-scissors), [Michelle](#michelle), [Jane](#jane), [Charlotte](#charlotte), [Henry](#henry), [Louis](#louis), [Joseph](#joseph), [Maria](#maria), [Elizabeth](#elizabeth), [Lisa](#lisa), [Catherine](#catherine), [Anna](#anna), [Alexander](#alexander), [Nicholas](#nicholas), [Stephen](#stephen), [Andrew](#andrew), [Anthony](#anthony), [Julia](#julia), [Christopher](#christopher), [Sophia](#sophia), [Helen](#helen), [Margaret](#margaret), [Richard](#richard), [Philip](#philip), [Mark](#mark-name), [Zeus](#zeus), [Adam](#adam), [Eve](#eve-name), [Britain](#britain), [Ireland](#ireland), [Portugal](#portugal), [Belgium](#belgium), [Austria](#austria), [Denmark](#denmark), [Sweden](#sweden), [Norway](#norway), [Finland](#finland), [Poland](#poland), [Taiwan](#taiwan), [Hong Kong](#hong-kong), [Vietnam](#vietnam), [Singapore](#singapore), [Indonesia](#indonesia), [Philippines](#philippines), [Turkey](#turkey-country), [Argentina](#argentina), [Chile](#chile), [Everest](#everest), [Amazon](#amazon), [Nile](#nile), [Vienna](#vienna), [Moscow](#moscow), [Athens](#athens), [Madrid](#madrid), [Barcelona](#barcelona), [Istanbul](#istanbul), [Seoul](#seoul), [Beijing](#beijing), [Shanghai](#shanghai), [Bangkok](#bangkok), [Sydney](#sydney), [Hollywood](#hollywood), [San Francisco](#san-francisco), [Las Vegas](#las-vegas), [Alaska](#alaska), [Florida](#florida), [Texas](#texas)
+- Lv.4 話が広がる — [monster](#monster), [knight](#knight), [rare](#rare), [attack](#attack), [guard](#guard), [damage](#damage), [challenge](#challenge), [system](#system), [penguin](#penguin), [dolphin](#dolphin), [recipe](#recipe), [fashion](#fashion), [shampoo](#shampoo), [pajamas](#pajamas), [holiday](#holiday), [culture](#culture), [history](#history), [volunteer](#volunteer), [festival](#festival), [message](#message), [communication](#communication), [popular](#popular), [special](#special), [perfect](#perfect), [contest](#contest), [captain](#captain), [uniform](#uniform), [coach](#coach), [trouble](#trouble), [image](#image), [advice](#advice), [schedule](#schedule), [sale](#sale), [online](#online), [drama](#drama), [hint](#hint), [interview](#interview), [marathon](#marathon), [pose](#pose), [program](#program), [sample](#sample), [support](#support), [zone](#zone), [host](#host), [comic](#comic), [cycling](#cycling), [chat](#chat), [clear](#clear), [cost](#cost), [cover](#cover), [follow](#follow), [item](#item), [miss](#miss), [percent](#percent), [plus](#plus), [quiz](#quiz), [repeat](#repeat), [share](#share), [sound](#sound), [stamp](#stamp), [step](#step), [topic](#topic), [video](#video), [emotional](#emotional), [romantic](#romantic), [relax](#relax), [healthy](#healthy), [calorie](#calorie), [vitamin](#vitamin), [protein](#protein), [supplement](#supplement), [allergy](#allergy), [virus](#virus), [vaccine](#vaccine), [care](#care), [clinic](#clinic), [massage](#massage), [sauna](#sauna), [smartphone](#smartphone), [app](#app), [internet](#internet), [website](#website), [blog](#blog), [login](#login), [update](#update), [wireless](#wireless), [selfie](#selfie), [streaming](#streaming), [podcast](#podcast), [keyword](#keyword), [icon](#icon), [tap](#tap), [click](#click), [scroll](#scroll), [copy](#copy), [cloud](#cloud), [server](#server), [drone](#drone), [plastic](#plastic), [solar](#solar), [gas](#gas), [oil](#oil), [engine](#engine), [motor](#motor), [brake](#brake), [tire](#tire), [gasoline](#gasoline), [manner](#manner), [etiquette](#etiquette), [pet](#pet), [boom](#boom), [ranking](#ranking), [best](#best), [number](#number), [count](#count), [rank](#rank), [grade](#grade), [class](#class), [coordinate](#coordinate), [denim](#denim), [leather](#leather), [cotton](#cotton), [silk](#silk), [wool](#wool), [rubber](#rubber), [metal](#metal), [concrete](#concrete), [paper](#paper), [vinyl](#vinyl), [aluminum](#aluminum), [steel](#steel), [diamond](#diamond), [crystal](#crystal), [pearl](#pearl), [jewel](#jewel), [purple](#purple), [brown](#brown), [gray](#gray), [beige](#beige), [navy](#navy), [yellow](#yellow), [square](#square), [triangle](#triangle), [cross](#cross), [curve](#curve), [angle](#angle), [corner](#corner), [side](#side), [back](#back), [weight](#weight), [meter](#meter), [dozen](#dozen), [pack](#pack), [master](#master), [tempo](#tempo), [palette](#palette), [canvas](#canvas), [accident](#accident), [adventure](#adventure), [address](#address), [announce](#announce), [analog](#analog), [average](#average), [alphabet](#alphabet), [anchor](#anchor), [antenna](#antenna), [equal](#equal), [illustration](#illustration), [instant](#instant), [instructor](#instructor), [influenza](#influenza), [wink](#wink), [waist](#waist), [emerald](#emerald), [area](#area), [enjoy](#enjoy), [alien](#alien), [echo](#echo), [edge](#edge), [escalator](#escalator), [extra](#extra), [ending](#ending), [endless](#endless), [ocean](#ocean), [opening](#opening), [operator](#operator), [orientation](#orientation), [cursor](#cursor), [carnival](#carnival), [carnation](#carnation), [curl](#curl), [cowboy](#cowboy), [cutter](#cutter), [cutlet](#cutlet), [cafeteria](#cafeteria), [comeback](#comeback), [chameleon](#chameleon), [colorful](#colorful), [college](#college), [guardrail](#guardrail), [guy](#guy), [guidance](#guidance), [guidebook](#guidebook), [gown](#gown), [guts](#guts), [gallon](#gallon), [kit](#kit), [caravan](#caravan), [carry](#carry), [cue](#cue), [killer](#killer), [gear](#gear), [gallery](#gallery), [gang](#gang), [quick](#quick), [crown](#crown), [crash](#crash), [clutch](#clutch), [cricket](#cricket), [crater](#crater), [crane](#crane), [close](#close), [crawl](#crawl), [crossword](#crossword), [choir](#choir), [glider](#glider), [grip](#grip), [cape](#cape), [coil](#coil), [cockpit](#cockpit), [cobra](#cobra), [commercial](#commercial), [command](#command), [comical](#comical), [collector](#collector), [contact](#contact), [conductor](#conductor), [condition](#condition), [controller](#controller), [compact](#compact), [goggles](#goggles), [gorgeous](#gorgeous), [ghost](#ghost), [golden](#golden), [search](#search), [site](#site), [silent](#silent), [success](#success), [saxophone](#saxophone), [saddle](#saddle), [submarine](#submarine), [supporter](#supporter), [soundtrack](#soundtrack), [secret](#secret), [shield](#shield), [scene](#scene), [theater](#theater), [situation](#situation), [shift](#shift), [sharp](#sharp), [shy](#shy), [shadow](#shadow), [chandelier](#chandelier), [shortcut](#shortcut), [shocking](#shocking), [serious](#serious), [sink](#sink), [zigzag](#zigzag), [jaguar](#jaguar), [just](#just), [jack](#jack), [judge](#judge), [junction](#junction), [guardian](#guardian), [lever](#lever), [yeast](#yeast), [oak](#oak), [arch](#arch), [arcade](#arcade), [archery](#archery), [iris](#iris), [accent](#accent), [inning](#inning), [earphones](#earphones), [intonation](#intonation), [animation](#animation), [amusement](#amusement), [eyeshadow](#eyeshadow), [attraction](#attraction), [adapter](#adapter), [assistant](#assistant), [eyeliner](#eyeliner), [assist](#assist), [appeal](#appeal), [underline](#underline), [unfair](#unfair), [imagination](#imagination), [intelligent](#intelligent), [intro](#intro), [weekly](#weekly), [well-done](#well-done), [western](#western), [watching](#watching), [yell](#yell), [airbag](#airbag), [airmail](#airmail), [excite](#excite), [auto](#auto), [okra](#okra), [orangutan](#orangutan), [custom](#custom), [security guard](#security-guard), [classical](#classical), [creative](#creative), [grand piano](#grand-piano), [glue](#glue), [gain](#gain), [connection](#connection), [comics](#comics), [combine](#combine), [combination](#combination), [golfer](#golfer), [Thanksgiving](#thanksgiving), [seed](#seed), [ceiling](#ceiling), [shell](#shell), [shutter](#shutter), [shuttle bus](#shuttle-bus), [shop window](#shop-window), [shoulder bag](#shoulder-bag), [skier](#skier), [skin care](#skin-care), [skater](#skater), [skating rink](#skating-rink), [sketchbook](#sketchbook), [starting line](#starting-line), [steam](#steam), [state](#state), [spare](#spare), [spot](#spot), [sponge cake](#sponge-cake), [slip](#slip), [slope](#slope), [cell](#cell), [self-service](#self-service), [Scotch tape](#scotch-tape), [society](#society), [tight](#tight), [direct](#direct), [downtown](#downtown), [chief](#chief), [chain](#chain), [checkout](#checkout), [chapter](#chapter), [tissue paper](#tissue-paper), [defense](#defense), [decoration](#decoration), [talk show](#talk-show), [trick](#trick), [high heels](#high-heels), [handball](#handball), [handmade](#handmade), [bun](#bun), [patrol car](#patrol-car), [panic](#panic), [Paralympics](#paralympics), [flat tire](#flat-tire), [hip](#hip), [beaver](#beaver), [victory](#victory), [big event](#big-event), [familiar](#familiar), [fiction](#fiction), [force](#force), [fault](#fault), [walk](#walk), [forward](#forward), [hook](#hook), [deep-fried food](#deep-fried-food), [freeze](#freeze), [flavor](#flavor), [flow](#flow), [blind](#blind), [blank](#blank), [branch](#branch), [breathing](#breathing), [produce](#produce), [hell](#hell), [pale](#pale), [homesick](#homesick), [homestay](#homestay), [possibility](#possibility), [march](#march), [Ms.](#ms), [minimum](#minimum), [ground meat](#ground-meat), [movement](#movement), [merry](#merry), [motion](#motion), [learning](#learning), [league](#league), [reasonable](#reasonable), [liquid](#liquid), [reserve](#reserve), [lift](#lift), [conditioner](#conditioner), [length](#length), [working](#working), [wise](#wise), [copy and paste](#copy-and-paste), [bookmark](#bookmark), [non-alcoholic](#non-alcoholic), [couple rings](#couple-rings), [safe driving](#safe-driving), [Pacific](#pacific), [Michael](#michael-archangel), [Michel](#michel), [Jean](#jean), [Hans](#hans), [Sean](#sean), [Pierre](#pierre), [Pablo](#pablo), [Paula](#paula), [Karl](#karl), [Carlos](#carlos), [Caroline](#caroline), [Louis](#louis-fr), [Luigi](#luigi), [Louise](#louise), [Marie](#marie), [Elsa](#elsa), [Hannah](#hannah), [Nicole](#nicole), [Stephanie](#stephanie), [Jacob](#jacob), [Jacques](#jacques), [Diego](#diego), [Francis](#francis), [Antonio](#antonio), [Julie](#julie), [Juliet](#juliet), [Christina](#christina), [Sophie](#sophie), [Marco](#marco), [Athena](#athena), [Apollo](#apollo), [Hermes](#hermes), [Poseidon](#poseidon), [Phoenix](#phoenix), [Jupiter](#jupiter), [Venus](#venus), [Mars](#mars), [Thor](#thor), [Eva](#eva), [Noah](#noah), [Wales](#wales), [Holland](#holland), [Iceland](#iceland), [Czechia](#czechia), [Hungary](#hungary), [Ukraine](#ukraine), [Monaco](#monaco), [North Korea](#north-korea), [Mongolia](#mongolia), [Cambodia](#cambodia), [Malaysia](#malaysia), [Pakistan](#pakistan), [Nepal](#nepal), [Iran](#iran), [Israel](#israel), [Saudi Arabia](#saudi-arabia), [Arabia](#arabia), [Kenya](#kenya), [Ghana](#ghana), [South Africa](#south-africa), [Cuba](#cuba), [Jamaica](#jamaica), [Peru](#peru), [Oceania](#oceania), [Antarctica](#antarctica), [Arctic](#arctic), [Middle East](#middle-east), [Silk Road](#silk-road), [Atlantic](#atlantic), [Sahara](#sahara), [Alps](#alps), [Himalayas](#himalayas), [Grand Canyon](#grand-canyon), [Bali](#bali), [Venice](#venice), [Milan](#milan), [Cairo](#cairo), [Manila](#manila), [Toronto](#toronto), [Chicago](#chicago), [Boston](#boston), [Rio de Janeiro](#rio-de-janeiro), [Amsterdam](#amsterdam), [Oxford](#oxford), [Seattle](#seattle), [Miami](#miami), [Honolulu](#honolulu), [Taipei](#taipei), [Dubai](#dubai)
+- Lv.5 よく見聞きする — [spell](#spell), [legend](#legend), [treasure](#treasure), [equipment](#equipment), [critical](#critical), [counter](#counter), [barrier](#barrier), [rival](#rival), [escape](#escape), [mission](#mission), [pilot](#pilot), [signal](#signal), [target](#target), [armor](#armor), [emergency](#emergency), [smart](#smart), [claim](#claim), [ace](#ace), [spirit](#spirit), [miracle](#miracle), [brave](#brave), [battery](#battery), [energy](#energy), [service](#service), [handle](#handle), [talent](#talent), [diet](#diet), [jungle](#jungle), [stove](#stove), [recycle](#recycle), [balance](#balance), [career](#career), [delivery](#delivery), [password](#password), [data](#data), [technology](#technology), [trainer](#trainer), [cooler](#cooler), [viking](#viking), [bargain](#bargain), [cider](#cider), [comment](#comment), [stress](#stress), [risk](#risk), [professional](#professional), [campaign](#campaign), [brand](#brand), [quality](#quality), [security](#security), [routine](#routine), [license](#license), [gap](#gap), [trend](#trend), [access](#access), [account](#account), [arrange](#arrange), [cancel](#cancel), [catalog](#catalog), [channel](#channel), [charge](#charge), [classic](#classic), [collection](#collection), [download](#download), [entry](#entry), [error](#error), [fake](#fake), [file](#file), [filter](#filter), [frame](#frame), [goods](#goods), [graph](#graph), [impact](#impact), [label](#label), [limit](#limit), [link](#link), [mask](#mask), [media](#media), [mode](#mode), [monitor](#monitor), [option](#option), [original](#original), [pattern](#pattern), [post](#post), [project](#project), [reset](#reset), [rhythm](#rhythm), [seal](#seal), [shock](#shock), [studio](#studio), [total](#total), [pierce](#pierce), [approach](#approach), [benefit](#benefit), [community](#community), [content](#content), [debate](#debate), [device](#device), [digital](#digital), [document](#document), [economy](#economy), [feature](#feature), [global](#global), [humor](#humor), [issue](#issue), [material](#material), [method](#method), [network](#network), [official](#official), [partner](#partner), [performance](#performance), [policy](#policy), [positive](#positive), [negative](#negative), [pressure](#pressure), [public](#public), [rescue](#rescue), [research](#research), [respect](#respect), [series](#series), [source](#source), [symbol](#symbol), [theme](#theme), [theory](#theory), [unique](#unique), [value](#value), [variety](#variety), [live](#live), [talk](#talk), [comedy](#comedy), [episode](#episode), [genre](#genre), [fantasy](#fantasy), [horror](#horror), [mystery](#mystery), [suspense](#suspense), [documentary](#documentary), [cast](#cast), [producer](#producer), [audition](#audition), [debut](#debut), [encore](#encore), [release](#release), [chart](#chart), [remix](#remix), [playlist](#playlist), [influencer](#influencer), [follower](#follower), [hashtag](#hashtag), [buzz](#buzz), [review](#review), [meme](#meme), [caption](#caption), [thumbnail](#thumbnail), [highlight](#highlight), [replay](#replay), [announcer](#announcer), [reporter](#reporter), [caster](#caster), [commentator](#commentator), [scoop](#scoop), [headline](#headline), [press](#press), [column](#column), [magazine](#magazine), [celebrity](#celebrity), [gossip](#gossip), [cycle](#cycle), [tone](#tone), [focus](#focus), [zoom](#zoom), [paradise](#paradise), [gauge](#gauge), [vegan](#vegan), [vegetarian](#vegetarian), [sensation](#sensation), [sensational](#sensational), [spotlight](#spotlight), [superstar](#superstar), [digest](#digest), [display](#display), [delete](#delete), [detail](#detail), [discussion](#discussion), [text](#text), [timely](#timely), [trendy](#trendy), [naming](#naming), [nonfiction](#nonfiction), [narration](#narration), [narrator](#narrator), [newsletter](#newsletter), [heading](#heading), [visual](#visual), [vivid](#vivid), [view](#view), [billboard](#billboard), [panorama](#panorama), [pamphlet](#pamphlet), [portable](#portable), [promoter](#promoter), [production](#production), [projector](#projector), [bestseller](#bestseller), [replica](#replica), [remake](#remake), [revival](#revival), [rehearsal](#rehearsal), [recording](#recording), [recorder](#recorder), [request](#request), [reply](#reply), [reaction](#reaction), [listener](#listener), [lineup](#lineup), [location](#location), [thriller](#thriller), [thrill](#thrill), [spectacle](#spectacle), [subtitle](#subtitle), [secretary](#secretary), [nostalgic](#nostalgic), [renewal](#renewal), [sepia](#sepia), [dramatic](#dramatic), [independent](#independent), [windbreaker](#windbreaker), [ultra](#ultra), [exciting](#exciting), [expo](#expo), [enamel](#enamel), [electronics](#electronics), [overlap](#overlap), [opinion](#opinion), [offside](#offside), [upper](#upper), [adult](#adult), [athletic](#athletic), [asparagus](#asparagus), [accordion](#accordion), [acrobat](#acrobat), [asphalt](#asphalt), [acacia](#acacia), [athletics](#athletics), [at sign](#at-sign), [ad](#ad), [avenue](#avenue), [appetizer](#appetizer), [armadillo](#armadillo), [underground](#underground), [anti](#anti), [amp](#amp), [illustrator](#illustrator), [illumination](#illumination), [interchange](#interchange), [turn signal](#turn-signal), [weak point](#weak-point), [windsurfing](#windsurfing), [watercolor](#watercolor), [walnut](#walnut), [washer](#washer), [overcoat](#overcoat), [all-night](#all-night), [off-season](#off-season), [orienteering](#orienteering), [on air](#on-air), [car chase](#car-chase), [car ferry](#car-ferry), [curling](#curling), [car race](#car-race), [cassette](#cassette), [kayak](#kayak), [culture shock](#culture-shock), [key point](#key-point), [kickboxing](#kickboxing), [cash card](#cash-card), [camper van](#camper-van), [Cupid](#cupid), [giga](#giga), [clerk](#clerk), [crack](#crack), [clay](#clay), [close-up](#close-up), [graphics](#graphics), [grand](#grand), [chemical](#chemical), [video arcade](#video-arcade), [coaster](#coaster), [cordless phone](#cordless-phone), [core](#core), [coin-operated locker](#coin-operated-locker), [cosplay](#cosplay), [comma](#comma), [go-kart](#go-kart), [ghost town](#ghost-town), [surfer](#surfer), [supper](#supper), [sub](#sub), [summer school](#summer-school), [surround](#surround), [sharing](#sharing), [severe](#severe), [singer-songwriter](#singer-songwriter), [jeep](#jeep), [beer mug](#beer-mug), [superman](#superman), [scout](#scout), [skunk](#skunk), [scan](#scan), [scuba](#scuba), [squeeze](#squeeze), [scrap](#scrap), [scoreboard](#scoreboard), [starter](#starter), [stamina](#stamina), [flight attendant](#flight-attendant), [walking stick](#walking-stick), [snap](#snap), [spark](#spark), [spike](#spike), [leggings](#leggings), [split](#split), [space shuttle](#space-shuttle), [smoker](#smoker), [thrilling](#thrilling), [salesman](#salesman), [sexy](#sexy), [seller](#seller), [photocopy](#photocopy), [typewriter](#typewriter), [tab](#tab), [darling](#darling), [dam](#dam), [dump truck](#dump-truck), [cello](#cello), [charming](#charming), [tape recorder](#tape-recorder), [theme song](#theme-song), [technical](#technical), [technique](#technique), [terrace](#terrace), [disc jockey](#disc-jockey), [deck](#deck), [disadvantage](#disadvantage), [duty-free](#duty-free), [duet](#duet), [deli](#deli), [delicate](#delicate), [tournament](#tournament), [toss](#toss), [trap](#trap), [trunks](#trunks), [treatment](#treatment), [trench coat](#trench-coat), [trombone](#trombone), [domino](#domino), [dried flowers](#dried-flowers), [drill](#drill), [nursery](#nursery), [nightclub](#nightclub), [nonsense](#nonsense), [license plate](#license-plate), [newcomer](#newcomer), [naked](#naked), [no comment](#no-comment), [knob](#knob), [non](#non), [nonstop](#nonstop), [hard disk](#hard-disk), [hurdle](#hurdle), [halftime](#halftime), [hiker](#hiker), [fast pace](#fast-pace), [incident](#incident), [hunting](#hunting), [burst](#burst), [bartender](#bartender), [birdwatching](#birdwatching), [violinist](#violinist), [Bible](#bible), [bilingual](#bilingual), [bounce](#bounce), [batting](#batting), [passion](#passion), [paddle](#paddle), [parachute](#parachute), [satellite dish](#satellite-dish), [beads](#beads), [beer garden](#beer-garden), [bikini](#bikini), [videotape](#videotape), [fiber](#fiber), [fashionable](#fashionable), [fifty-fifty](#fifty-fifty), [fair play](#fair-play), [folk song](#folk-song), [fortune](#fortune), [flower arrangement](#flower-arrangement), [frank](#frank), [free kick](#free-kick), [freestyle](#freestyle), [freshman](#freshman), [frost](#frost), [booth](#booth), [buzzer](#buzzer), [bra](#bra), [brass band](#brass-band), [bull](#bull), [blues](#blues), [blade](#blade), [blend](#blend), [plastic model kit](#plastic-model-kit), [hair care](#hair-care), [headlight](#headlight), [heavy smoker](#heavy-smoker), [top ten](#top-ten), [conveyor belt](#conveyor-belt), [pen name](#pen-name), [hop](#hop), [bow](#bow), [Boy Scouts](#boy-scouts), [vocalist](#vocalist), [vocal](#vocal), [bold](#bold), [boxer](#boxer), [bolt](#bolt), [port](#port), [pocket money](#pocket-money), [answer sheet](#answer-sheet), [marble](#marble), [mermaid](#mermaid), [minibus](#minibus), [at my own pace](#at-my-own-pace), [mass](#mass), [max](#max), [marine](#marine), [monthly](#monthly), [mysterious](#mysterious), [miniskirt](#miniskirt), [mate](#mate), [maid](#maid), [mechanic](#mechanic), [mega](#mega), [memory card](#memory-card), [mental health](#mental-health), [monorail](#monorail), [youth hostel](#youth-hostel), [humorous](#humorous), [rug](#rug), [rack](#rack), [romantic comedy](#romantic-comedy), [landing](#landing), [landmark](#landmark), [leak](#leak), [rear](#rear), [reality](#reality), [resort hotel](#resort-hotel), [rename](#rename), [refresh](#refresh), [limited](#limited), [relief](#relief), [roots](#roots), [looks](#looks), [racer](#racer), [race car](#race-car), [recreation](#recreation), [wrestling](#wrestling), [tow truck](#tow-truck), [X-ray](#x-ray), [roller skating](#roller-skating), [log](#log), [locker room](#locker-room), [rock 'n' roll](#rock-n-roll), [windshield wiper](#windshield-wiper), [studio apartment](#studio-apartment), [alert](#alert), [silent mode](#silent-mode), [all-star](#all-star), [portrait](#portrait), [fan site](#fan-site), [coronavirus](#coronavirus), [tattoo](#tattoo), [eco](#eco), [dog park](#dog-park), [lime](#lime), [leading](#leading), [stained glass](#stained-glass), [stainless steel](#stainless-steel), [atlas](#atlas), [Michael](#michael-de), [Miguel](#miguel), [Jeanne](#jeanne), [Johann](#johann), [Juan](#juan), [Ivan](#ivan), [Peter](#peter-de), [Pedro](#pedro), [Luis](#luis), [José](#jos), [Isabella](#isabella), [Alexandra](#alexandra), [André](#andr), [Francisco](#francisco), [Julian](#julian), [Margherita](#margherita), [Hera](#hera), [Artemis](#artemis), [Aphrodite](#aphrodite), [Hades](#hades), [Pandora](#pandora), [Nike](#nike), [Hercules](#hercules), [Achilles](#achilles), [Sphinx](#sphinx), [Pegasus](#pegasus), [Olympus](#olympus), [Diana](#diana), [Mercury](#mercury), [Neptune](#neptune), [Pluto](#pluto), [Saturn](#saturn), [Odin](#odin), [Satan](#satan), [Gabriel](#gabriel), [Moses](#moses), [Eden](#eden), [Northern Ireland](#northern-ireland), [Luxembourg](#luxembourg), [Romania](#romania), [Bulgaria](#bulgaria), [Croatia](#croatia), [Vatican City](#vatican-city), [Myanmar](#myanmar), [Bangladesh](#bangladesh), [Sri Lanka](#sri-lanka), [Afghanistan](#afghanistan), [Persia](#persia), [Iraq](#iraq), [Syria](#syria), [Palestine](#palestine), [Jordan](#jordan-country), [United Arab Emirates](#united-arab-emirates), [Morocco](#morocco), [Ethiopia](#ethiopia), [Nigeria](#nigeria), [Madagascar](#madagascar), [Panama](#panama), [Colombia](#colombia), [Greenland](#greenland), [Latin America](#latin-america), [Caribbean](#caribbean), [Scandinavia](#scandinavia), [Siberia](#siberia), [Mediterranean](#mediterranean), [Indian Ocean](#indian-ocean), [Mont Blanc](#mont-blanc), [Kilimanjaro](#kilimanjaro), [Andes](#andes), [Rockies](#rockies), [Mississippi](#mississippi), [Thames](#thames), [Seine](#seine), [Niagara](#niagara), [Easter Island](#easter-island), [Munich](#munich), [Florence](#florence), [Naples](#naples), [Lisbon](#lisbon), [Prague](#prague), [Warsaw](#warsaw), [Jerusalem](#jerusalem), [Delhi](#delhi), [Jakarta](#jakarta), [Vancouver](#vancouver), [Brussels](#brussels), [Cambridge](#cambridge), [Arizona](#arizona), [Colorado](#colorado), [Georgia](#georgia), [Kentucky](#kentucky), [Nevada](#nevada), [Canberra](#canberra), [Ottawa](#ottawa), [Montreal](#montreal), [Houston](#houston), [Manchester](#manchester), [Liverpool](#liverpool), [Dublin](#dublin), [Stockholm](#stockholm), [Oslo](#oslo), [Copenhagen](#copenhagen), [Helsinki](#helsinki), [Kyiv](#kyiv), [Frankfurt](#frankfurt), [Hamburg](#hamburg), [Pisa](#pisa), [Hanoi](#hanoi), [Melbourne](#melbourne), [Casablanca](#casablanca), [Mexico City](#mexico-city), [Buenos Aires](#buenos-aires), [Havana](#havana)
+- Lv.6 社会の話題 — [manual](#manual), [amateur](#amateur), [privacy](#privacy), [mental](#mental), [concept](#concept), [context](#context), [crisis](#crisis), [factor](#factor), [flexible](#flexible), [function](#function), [identity](#identity), [logic](#logic), [luxury](#luxury), [marketing](#marketing), [minority](#minority), [operation](#operation), [organic](#organic), [profile](#profile), [scandal](#scandal), [sponsor](#sponsor), [status](#status), [survival](#survival), [trial](#trial), [virtual](#virtual), [vision](#vision), [democracy](#democracy), [demonstration](#demonstration), [leader](#leader), [summit](#summit), [conference](#conference), [forum](#forum), [symposium](#symposium), [inflation](#inflation), [deflation](#deflation), [bubble](#bubble), [market](#market), [stock](#stock), [trade](#trade), [import](#import), [export](#export), [local](#local), [urban](#urban), [gender](#gender), [harassment](#harassment), [charity](#charity), [terrorism](#terrorism), [patrol](#patrol), [hazard](#hazard), [pandemic](#pandemic), [lockdown](#lockdown), [cluster](#cluster), [ecology](#ecology), [carbon](#carbon), [cyber](#cyber), [hacker](#hacker), [spam](#spam), [phishing](#phishing), [science](#science), [laboratory](#laboratory), [genome](#genome), [bacteria](#bacteria), [calcium](#calcium), [ion](#ion), [galaxy](#galaxy), [satellite](#satellite), [sensor](#sensor), [chip](#chip), [laser](#laser), [radar](#radar), [hybrid](#hybrid), [company](#company), [office](#office), [business](#business), [manager](#manager), [staff](#staff), [salary](#salary), [bonus](#bonus), [freelance](#freelance), [startup](#startup), [venture](#venture), [deadline](#deadline), [meeting](#meeting), [presentation](#presentation), [task](#task), [sales](#sales), [customer](#customer), [tourism](#tourism), [visa](#visa), [border](#border), [army](#army), [missile](#missile), [union](#union), [strike](#strike), [boycott](#boycott), [revolution](#revolution), [liberal](#liberal), [journalist](#journalist), [editor](#editor), [survey](#survey), [consumer](#consumer), [cashless](#cashless), [credit](#credit), [loan](#loan), [cash](#cash), [receipt](#receipt), [discount](#discount), [price](#price), [return](#return), [fund](#fund), [factory](#factory), [safari](#safari), [therapy](#therapy), [counseling](#counseling), [rehabilitation](#rehabilitation), [capsule](#capsule), [tablet](#tablet), [metabolism](#metabolism), [campus](#campus), [seminar](#seminar), [lecture](#lecture), [essay](#essay), [internship](#internship), [recruit](#recruit), [curriculum](#curriculum), [syllabus](#syllabus), [athlete](#athlete), [doping](#doping), [fair](#fair), [lifestyle](#lifestyle), [leisure](#leisure), [outdoor](#outdoor), [indoor](#indoor), [vacation](#vacation), [single](#single), [couple](#couple), [senior](#senior), [junior](#junior), [teen](#teen), [generation](#generation), [apartment](#apartment), [interior](#interior), [exterior](#exterior), [renovation](#renovation), [shelter](#shelter), [hostel](#hostel), [mosaic](#mosaic), [climax](#climax), [elegant](#elegant), [retro](#retro), [chaos](#chaos), [universe](#universe), [contrast](#contrast), [texture](#texture), [opera](#opera), [hormone](#hormone), [terror](#terror), [terrorist](#terrorist), [hijack](#hijack), [recession](#recession), [statement](#statement), [spokesman](#spokesman), [tabloid](#tabloid), [surveillance](#surveillance), [feminist](#feminist), [frustration](#frustration), [freedom](#freedom), [frontier](#frontier), [pioneer](#pioneer), [demand](#demand), [deposit](#deposit), [developer](#developer), [diesel](#diesel), [dealer](#dealer), [donor](#donor), [drug](#drug), [drastic](#drastic), [tenant](#tenant), [territory](#territory), [temporary](#temporary), [tanker](#tanker), [colony](#colony), [constant](#constant), [ozone](#ozone), [smog](#smog), [monsoon](#monsoon), [cyclone](#cyclone), [magnitude](#magnitude), [malaria](#malaria), [mineral](#mineral), [nicotine](#nicotine), [cholesterol](#cholesterol), [polio](#polio), [hospice](#hospice), [emperor](#emperor), [royal](#royal), [palace](#palace), [president](#president), [major](#major), [minor](#minor), [manifesto](#manifesto), [moratorium](#moratorium), [recall](#recall), [lease](#lease), [tariff](#tariff), [sanction](#sanction), [embargo](#embargo), [euro](#euro), [currency](#currency), [subsidy](#subsidy), [dumping](#dumping), [cartel](#cartel), [monopoly](#monopoly), [immigrant](#immigrant), [ranger](#ranger), [bunker](#bunker), [barricade](#barricade), [millennium](#millennium), [aggressive](#aggressive), [ivory](#ivory), [alibi](#alibi), [inspiration](#inspiration), [intern](#intern), [Earth Day](#earth-day), [association](#association), [atopy](#atopy), [affair](#affair), [alpine](#alpine), [antonym](#antonym), [imbalance](#imbalance), [ampere](#ampere), [insulin](#insulin), [industrial](#industrial), [wheelie](#wheelie), [acre](#acre), [aerosol](#aerosol), [extension](#extension), [escalate](#escalate), [escort](#escort), [beauty salon](#beauty-salon), [essence](#essence), [edition](#edition), [entertainer](#entertainer), [embassy](#embassy), [orchard](#orchard), [overheat](#overheat), [almighty](#almighty), [all-round](#all-round), [ozone hole](#ozone-hole), [off-road](#off-road), [organizer](#organizer), [ounce](#ounce), [cartridge](#cartridge), [cub](#cub), [carat](#carat), [cultural center](#cultural-center), [gas mask](#gas-mask), [fist pump](#fist-pump), [kiosk](#kiosk), [caddie](#caddie), [caviar](#caviar), [carol](#carol), [camper](#camper), [kilowatt](#kilowatt), [fee](#fee), [gal](#gal), [gambler](#gambler), [Christian](#christian), [cruising](#cruising), [cleanser](#cleanser), [cleansing cream](#cleansing-cream), [cloakroom](#cloakroom), [cross-country](#cross-country), [glamorous](#glamorous), [gay](#gay), [co-op](#co-op), [cornstarch](#cornstarch), [commit](#commit), [collie](#collie), [corona](#corona), [colon](#colon), [companion](#companion), [component](#component), [cross the finish line](#cross-the-finish-line), [prime time](#prime-time), [goal line](#goal-line), [grounder](#grounder), [gong](#gong), [circuit](#circuit), [service area](#service-area), [sirloin](#sirloin), [savanna](#savanna), [summarize](#summarize), [sandpaper](#sandpaper), [sunroof](#sunroof), [seek](#seek), [seasoning](#seasoning), [shaker](#shaker), [shaver](#shaver), [get in shape](#get-in-shape), [German shepherd](#german-shepherd), [synonym](#synonym), [showcase](#showcase), [shawl](#shawl), [showroom](#showroom), [cylinder](#cylinder), [singles](#singles), [synthesizer](#synthesizer), [jealousy](#jealousy), [thermos](#thermos), [jasmine](#jasmine), [jukebox](#jukebox), [June bride](#june-bride), [joint](#joint), [gin](#gin), [supermarket chain](#supermarket-chain), [Super Bowl](#super-bowl), [squash](#squash), [scholarship](#scholarship), [physical affection](#physical-affection), [scramble](#scramble), [Scotch](#scotch), [styling](#styling), [starting lineup](#starting-lineup), [stopper](#stopper), [striker](#striker), [stroke](#stroke), [speedy](#speedy), [sprinter](#sprinter), [sportsman](#sportsman), [slider](#slider), [sliding](#sliding), [slacks](#slacks), [slump](#slump), [body measurements](#body-measurements), [slave](#slave), [zoom lens](#zoom-lens), [sex](#sex), [gelatin](#gelatin), [sewing kit](#sewing-kit), [turbo](#turbo), [diagram](#diagram), [dunk](#dunk), [dump](#dump), [checkers](#checkers), [chapel](#chapel), [tutor](#tutor), [touring](#touring), [tester](#tester), [on-screen captions](#on-screen-captions), [demon](#demon), [deluxe](#deluxe), [torch](#torch), [top-class](#top-class), [top news](#top-news), [trace](#trace), [dock](#dock), [dribble](#dribble), [night game](#night-game), [new town](#new-town), [neon](#neon), [stay out of](#stay-out-of), [noble](#noble), [hardcover](#hardcover), [hard rock](#hard-rock), [harmonica](#harmonica), [heights](#heights), [late teens](#late-teens), [high-tech](#high-tech), [hyper](#hyper), [HDTV](#hdtv), [hibiscus](#hibiscus), [high-level](#high-level), [how-to](#how-to), [handicap](#handicap), [burner](#burner), [barbell](#barbell), [bio](#bio), [buggy](#buggy), [backhand](#backhand), [pass the baton](#pass-the-baton), [variation](#variation), [advance](#advance), [par](#par), [part-timer](#part-timer), [packing](#packing), [patchwork](#patchwork), [papaya](#papaya), [parasol](#parasol), [pulse](#pulse), [power up](#power-up), [pansy](#pansy), [hitchhike](#hitchhike), [beet](#beet), [billiards](#billiards), [built-in](#built-in), [pickup service](#pickup-service), [pitching](#pitching), [pit](#pit), [pinch hitter](#pinch-hitter), [fighting spirit](#fighting-spirit), [five-star](#five-star), [great play](#great-play), [fin](#fin), [fencing](#fencing), [forehand](#forehand), [footwork](#footwork), [false start](#false-start), [toll-free number](#toll-free-number), [free pass](#free-pass), [flooring](#flooring), [floppy disk](#floppy-disk), [booing](#booing), [boomerang](#boomerang), [booklet](#booklet), [boutique](#boutique), [briefs](#briefs), [bulldozer](#bulldozer), [breaker](#breaker), [blow-dry](#blow-dry), [plaza](#plaza), [planter](#planter), [pre](#pre), [playoff](#playoff), [play ball](#play-ball), [proper](#proper), [professional wrestling](#professional-wrestling), [header](#header), [head coach](#head-coach), [helium](#helium), [health club](#health-club), [pay raise](#pay-raise), [base camp](#base-camp), [plywood](#plywood), [belly dance](#belly-dance), [pelican](#pelican), [bed-and-breakfast](#bed-and-breakfast), [cross home plate](#cross-home-plate), [home ground](#home-ground), [home security](#home-security), [family drama](#family-drama), [caregiver](#caregiver), [hostess](#hostess), [voice recorder](#voice-recorder), [bob](#bob), [volt](#volt), [volley](#volley), [bond](#bond), [poker](#poker), [porter](#porter), [pocket-size](#pocket-size), [private car](#private-car), [micro](#micro), [own home](#own-home), [mount](#mount), [mass media](#mass-media), [multi](#multi), [one-on-one](#one-on-one), [miniature](#miniature), [moody](#moody), [megaphone](#megaphone), [metallic](#metallic), [medley](#medley), [memorial](#memorial), [motor show](#motor-show), [modern dance](#modern-dance), [younger generation](#younger-generation), [universal](#universal), [lard](#lard), [station wagon](#station-wagon), [liner](#liner), [live music venue](#live-music-venue), [loudspeaker](#loudspeaker), [boombox](#boombox), [final sprint](#final-sprint), [raft](#raft), [leaflet](#leaflet), [secondhand store](#secondhand-store), [recital](#recital), [rematch](#rematch), [reversible](#reversible), [rebound](#rebound), [liberty](#liberty), [repeat customer](#repeat-customer), [rib](#rib), [limousine](#limousine), [reggae](#reggae), [receiver](#receiver), [left field](#left-field), [loin](#loin), [lotus](#lotus), [traffic circle](#traffic-circle), [rotation](#rotation), [road race](#road-race), [ropeway](#ropeway), [roller](#roller), [rod](#rod), [word processor](#word-processor), [World Series](#world-series), [watt](#watt), [one-touch](#one-touch), [one-man](#one-man), [whitening](#whitening), [flash sale](#flash-sale), [pass holder](#pass-holder), [coaching](#coaching), [May Day](#may-day), [bonnet](#bonnet), [unmarked](#unmarked), [tank truck](#tank-truck), [two-piece](#two-piece), [nice figure](#nice-figure), [Michele](#michele), [Mikhail](#mikhail), [Giovanni](#giovanni), [Johanna](#johanna), [Pietro](#pietro), [Petra](#petra), [Paul](#paul-de), [Paolo](#paolo), [Georges](#georges), [Jorge](#jorge), [Giorgio](#giorgio), [Georgina](#georgina), [Charles](#charles-fr), [Carlo](#carlo), [Wilhelm](#wilhelm), [Henri](#henri), [Enrique](#enrique), [Josef](#josef), [Josephine](#josephine), [Miriam](#miriam), [Marianne](#marianne), [Isabel](#isabel), [Catherine](#catherine-fr), [Katharina](#katharina), [Catalina](#catalina), [Anne](#anne-fr), [Anita](#anita), [Annette](#annette), [Alexandre](#alexandre), [Alejandro](#alejandro), [Sasha](#sasha), [Nicolas](#nicolas), [Nikolai](#nikolai), [Klaus](#klaus), [Andreas](#andreas), [Andrea](#andrea), [Andrei](#andrei), [François](#fran-ois), [Francesco](#francesco), [Franz](#franz), [Anton](#anton), [Antonia](#antonia), [Antoinette](#antoinette), [Julius](#julius), [Jules](#jules), [Christine](#christine), [Sofia](#sofia-name), [Elena](#elena), [Helena](#helena), [Margarita](#margarita), [Greta](#greta), [Ricardo](#ricardo), [Philippe](#philippe), [Felipe](#felipe), [Marc](#marc), [Marcus](#marcus), [Marcel](#marcel), [Ares](#ares), [Eros](#eros), [Gaia](#gaia), [Titan](#titan), [Atlas](#atlas-titan), [Pan](#pan-god), [Echo](#echo-nymph), [Medusa](#medusa), [Andromeda](#andromeda), [Icarus](#icarus), [Minotaur](#minotaur), [Cyclops](#cyclops), [Hydra](#hydra), [Cerberus](#cerberus), [Bacchus](#bacchus), [Loki](#loki), [Valkyrie](#valkyrie), [Valhalla](#valhalla), [Ra](#ra), [Anubis](#anubis), [Shiva](#shiva), [Ganesha](#ganesha), [Allah](#allah), [Lucifer](#lucifer), [Gabrielle](#gabrielle), [Raphael](#raphael), [Rafael](#rafael), [Babel](#babel), [Armageddon](#armageddon), [Slovakia](#slovakia), [Serbia](#serbia), [Estonia](#estonia), [Malta](#malta), [Macau](#macau), [Laos](#laos), [Bhutan](#bhutan), [Maldives](#maldives), [Lebanon](#lebanon), [Qatar](#qatar), [Georgia](#georgia-country), [Kazakhstan](#kazakhstan), [Uzbekistan](#uzbekistan), [Tibet](#tibet), [Libya](#libya), [Tunisia](#tunisia), [Algeria](#algeria), [Sudan](#sudan), [Tanzania](#tanzania), [Ivory Coast](#ivory-coast), [Congo](#congo), [Guatemala](#guatemala), [Costa Rica](#costa-rica), [Bahamas](#bahamas), [Venezuela](#venezuela), [Ecuador](#ecuador), [Bolivia](#bolivia), [Uruguay](#uruguay), [Puerto Rico](#puerto-rico), [Fiji](#fiji), [Far East](#far-east), [Orient](#orient), [Balkans](#balkans), [Mesopotamia](#mesopotamia), [Polynesia](#polynesia), [Gobi](#gobi), [Matterhorn](#matterhorn), [Rhine](#rhine), [Danube](#danube), [Ganges](#ganges), [Mekong](#mekong), [Tahiti](#tahiti), [Sicily](#sicily), [Crete](#crete), [Java](#java), [Patagonia](#patagonia), [Normandy](#normandy), [Atlantis](#atlantis), [El Dorado](#el-dorado), [Budapest](#budapest), [Babylon](#babylon), [Troy](#troy-city), [Mumbai](#mumbai), [Nice](#nice-city), [Geneva](#geneva), [Edinburgh](#edinburgh), [Alabama](#alabama), [Illinois](#illinois), [Indiana](#indiana), [Kansas](#kansas), [Louisiana](#louisiana), [Massachusetts](#massachusetts), [Michigan](#michigan), [New Jersey](#new-jersey), [New Mexico](#new-mexico), [Ohio](#ohio), [Oregon](#oregon), [Pennsylvania](#pennsylvania), [Tennessee](#tennessee), [Virginia](#virginia), [Quebec](#quebec), [Calgary](#calgary), [Detroit](#detroit), [Dallas](#dallas), [Philadelphia](#philadelphia), [New Orleans](#new-orleans), [San Diego](#san-diego), [Birmingham](#birmingham), [Saint Petersburg](#saint-petersburg), [Cologne](#cologne), [Salzburg](#salzburg), [Zurich](#zurich), [Marseille](#marseille), [Pompeii](#pompeii), [Alexandria](#alexandria), [Sparta](#sparta), [Ho Chi Minh City](#ho-chi-minh-city), [Kuala Lumpur](#kuala-lumpur), [Cape Town](#cape-town), [Nairobi](#nairobi), [Monte Carlo](#monte-carlo)
+- Lv.7 大人の日常語 — [potion](#potion), [quest](#quest), [dungeon](#dungeon), [inventory](#inventory), [avatar](#avatar), [combo](#combo), [revive](#revive), [ultimate](#ultimate), [villain](#villain), [launch](#launch), [android](#android), [gravity](#gravity), [evolution](#evolution), [dimension](#dimension), [portal](#portal), [beam](#beam), [tension](#tension), [rookie](#rookie), [destiny](#destiny), [trigger](#trigger), [sacrifice](#sacrifice), [mentor](#mentor), [mansion](#mansion), [idol](#idol), [motivation](#motivation), [potential](#potential), [priority](#priority), [resource](#resource), [capacity](#capacity), [innovation](#innovation), [evidence](#evidence), [agenda](#agenda), [strategy](#strategy), [veteran](#veteran), [commitment](#commitment), [consultant](#consultant), [diversity](#diversity), [dynamic](#dynamic), [mechanism](#mechanism), [phase](#phase), [scenario](#scenario), [solution](#solution), [feedback](#feedback), [appointment](#appointment), [memo](#memo), [reminder](#reminder), [margin](#margin), [commission](#commission), [royalty](#royalty), [negotiation](#negotiation), [deal](#deal), [client](#client), [user](#user), [vendor](#vendor), [supplier](#supplier), [maker](#maker), [product](#product), [control](#control), [management](#management), [leadership](#leadership), [teamwork](#teamwork), [format](#format), [template](#template), [layout](#layout), [font](#font), [draft](#draft), [telework](#telework), [invoice](#invoice), [promotion](#promotion), [headhunting](#headhunting), [resume](#resume), [specialist](#specialist), [generalist](#generalist), [expert](#expert), [analyst](#analyst), [engineer](#engineer), [designer](#designer), [architect](#architect), [programmer](#programmer), [creator](#creator), [artist](#artist), [musician](#musician), [director](#director), [writer](#writer), [photographer](#photographer), [stylist](#stylist), [sommelier](#sommelier), [barista](#barista), [counselor](#counselor), [gardening](#gardening), [wine](#wine), [beer](#beer), [whiskey](#whiskey), [cocktail](#cocktail), [champagne](#champagne), [alcohol](#alcohol), [caffeine](#caffeine), [gourmet](#gourmet), [casual](#casual), [formal](#formal), [suit](#suit), [cardigan](#cardigan), [vest](#vest), [fleece](#fleece), [auction](#auction), [minimalist](#minimalist), [healing](#healing), [aroma](#aroma), [meditation](#meditation), [mindfulness](#mindfulness), [detox](#detox), [stretch](#stretch), [workout](#workout), [triathlon](#triathlon), [snowboard](#snowboard), [surfing](#surfing), [diving](#diving), [climbing](#climbing), [casino](#casino), [gamble](#gamble), [wedding](#wedding), [bridal](#bridal), [propose](#propose), [romance](#romance), [date](#date), [anniversary](#anniversary), [ceremony](#ceremony), [reception](#reception), [banquet](#banquet), [catering](#catering), [hospitality](#hospitality), [concierge](#concierge), [suite](#suite), [lounge](#lounge), [amenity](#amenity), [spa](#spa), [glamping](#glamping), [package](#package), [airline](#airline), [flight](#flight), [transit](#transit), [terminal](#terminal), [cabin](#cabin), [crew](#crew), [mileage](#mileage), [upgrade](#upgrade), [shuttle](#shuttle), [navigation](#navigation), [express](#express), [ego](#ego), [complex](#complex), [moral](#moral), [exotic](#exotic), [ethnic](#ethnic), [aura](#aura), [spiral](#spiral), [silhouette](#silhouette), [sentimental](#sentimental), [oasis](#oasis), [symphony](#symphony), [collage](#collage), [syndrome](#syndrome), [graffiti](#graffiti), [accelerator](#accelerator), [about](#about), [stroller](#stroller), [pliers](#pliers), [convertible](#convertible), [loose](#loose), [hearing](#hearing), [minivan](#minivan), [cheerleader](#cheerleader), [trump](#trump), [motorcycle](#motorcycle), [through](#through), [fries](#fries), [condominium](#condominium), [freelancer](#freelancer), [outsider](#outsider), [insider](#insider), [outlaw](#outlaw), [mortgage](#mortgage), [tailor](#tailor), [tuxedo](#tuxedo), [blazer](#blazer), [brooch](#brooch), [pendant](#pendant), [ruby](#ruby), [sapphire](#sapphire), [bronze](#bronze), [brandy](#brandy), [pub](#pub), [lodge](#lodge), [patio](#patio), [loft](#loft), [residence](#residence), [mattress](#mattress), [shredder](#shredder), [sprinkler](#sprinkler), [manhole](#manhole), [nozzle](#nozzle), [valve](#valve), [fuse](#fuse), [boiler](#boiler), [coating](#coating), [cement](#cement), [veil](#veil), [pleats](#pleats), [fringe](#fringe), [stripe](#stripe), [knit](#knit), [felt](#felt), [nylon](#nylon), [mesh](#mesh), [sporty](#sporty), [slim](#slim), [slender](#slender), [wrapping](#wrapping), [perfume](#perfume), [gel](#gel), [polish](#polish), [wax](#wax), [pedicure](#pedicure), [aerobics](#aerobics), [ascot tie](#ascot-tie), [aluminum sash](#aluminum-sash), [wit](#wit), [air rifle](#air-rifle), [encounter](#encounter), [end line](#end-line), [made-to-order](#made-to-order), [car camping](#car-camping), [automatic lock](#automatic-lock), [off the record](#off-the-record), [couch potato](#couch-potato), [cuffs](#cuffs), [fundraising](#fundraising), [gut](#gut), [key person](#key-person), [casting](#casting), [spring training](#spring-training), [quart](#quart), [crime story](#crime-story), [cruiser](#cruiser), [fiberglass](#fiberglass), [gray area](#gray-area), [grotesque](#grotesque), [cobalt blue](#cobalt-blue), [continental](#continental), [condom](#condom), [condor](#condor), [converter](#converter), [convention center](#convention-center), [compost](#compost), [godfather](#godfather), [searchlight](#searchlight), [side business](#side-business), [suspension](#suspension), [sudden death](#sudden-death), [sanitary](#sanitary), [thoroughbred](#thoroughbred), [seamless](#seamless), [thesaurus](#thesaurus), [screenwriter](#screenwriter), [shaft](#shaft), [silicone](#silicone), [silicon](#silicon), [artistic swimming](#artistic-swimming), [journal](#journal), [jinx](#jinx), [scarlet](#scarlet), [skyline](#skyline), [scandalous](#scandalous), [scope](#scope), [stance](#stance), [stole](#stole), [strip](#strip), [span](#span), [slit](#slit), [slate](#slate), [sexual harassment](#sexual-harassment), [semicolon](#semicolon), [ceramic](#ceramic), [social worker](#social-worker), [turbine](#turbine), [tar](#tar), [typist](#typist), [tuck](#tuck), [dynamite](#dynamite), [duct](#duct), [dummy](#dummy), [chairman](#chairman), [charter](#charter), [technician](#technician), [tenor](#tenor), [close race](#close-race), [false rumor](#false-rumor), [toll](#toll), [transformer](#transformer), [twilight](#twilight), [durian](#durian), [knuckle](#knuckle), [nano](#nano), [navigator](#navigator), [near miss](#near-miss), [nickel](#nickel), [news source](#news-source), [nude](#nude), [know-how](#know-how), [knockdown](#knockdown), [nominate](#nominate), [Nordic](#nordic), [hard-boiled](#hard-boiled), [highland](#highland), [housing](#housing), [husky](#husky), [hustle](#hustle), [hatch](#hatch), [virgin](#virgin), [birdie](#birdie), [bourbon](#bourbon), [barrel](#barrel), [vitality](#vitality), [bypass](#bypass), [bust](#bust), [backbone](#backbone), [shack](#shack), [percussion](#percussion), [panelist](#panelist), [pavilion](#pavilion), [publicity](#publicity), [panties](#panties), [hippie](#hippie), [Hindu](#hindu), [businesslike](#businesslike), [Big Bang](#big-bang), [pinpoint](#pinpoint), [fuzzy](#fuzzy), [faraway](#faraway), [funky](#funky), [fieldwork](#fieldwork), [fitting](#fitting), [formation](#formation), [pinfall](#pinfall), [flap](#flap), [free agent](#free-agent), [flip-flop](#flip-flop), [flare](#flare), [flextime](#flextime), [black market](#black-market), [flicker](#flicker), [blue-collar](#blue-collar), [brunette](#brunette), [brains](#brains), [breaststroke](#breaststroke), [playboy](#playboy), [Protestant](#protestant), [propeller](#propeller), [pacemaker](#pacemaker), [hotline](#hotline), [white-collar](#white-collar), [borderline](#borderline), [voltage](#voltage), [pop art](#pop-art), [mama's boy](#mama-s-boy), [machine gun](#machine-gun), [maniac](#maniac), [mannequin](#mannequin), [Mafia](#mafia), [multimedia](#multimedia), [rut](#rut), [misprint](#misprint), [mimic](#mimic), [million seller](#million-seller), [medalist](#medalist), [mosque](#mosque), [mono](#mono), [Yankee](#yankee), [rifle](#rifle), [life's work](#life-s-work), [radiator](#radiator), [radical](#radical), [reel](#reel), [recruiter](#recruiter), [rhythmical](#rhythmical), [lip service](#lip-service), [linear](#linear), [revision](#revision), [rim](#rim), [lure](#lure), [rake](#rake), [leotard](#leotard), [repertoire](#repertoire), [rolling](#rolling), [long run](#long-run), [warp](#warp), [restructuring](#restructuring), [stalker](#stalker), [spear](#spear), [stun](#stun), [Alzheimer's](#alzheimer-s), [implant](#implant), [group home](#group-home), [compilation](#compilation), [metabolic](#metabolic), [new wave](#new-wave), [air ambulance](#air-ambulance), [stall](#stall), [jazzman](#jazzman), [Pyotr](#pyotr), [Pavel](#pavel), [Georg](#georg), [Guillaume](#guillaume), [Guillermo](#guillermo), [Heinrich](#heinrich), [Enrico](#enrico), [Henrietta](#henrietta), [Ludwig](#ludwig), [Giuseppe](#giuseppe), [Elisabeth](#elisabeth), [Caterina](#caterina), [Ekaterina](#ekaterina), [Alessandro](#alessandro), [Stefan](#stefan), [Stéphane](#st-phane), [Esteban](#esteban), [Andrés](#andr-s), [Jakob](#jakob), [Jaime](#jaime), [Giacomo](#giacomo), [Françoise](#fran-oise), [Antoine](#antoine), [Christophe](#christophe), [Sonya](#sonya), [Hélène](#h-l-ne), [Marguerite](#marguerite), [Margot](#margot), [Richard](#richard-de), [Hephaestus](#hephaestus), [Dionysus](#dionysus), [Demeter](#demeter), [Prometheus](#prometheus), [Psyche](#psyche), [Helios](#helios), [Narcissus](#narcissus), [Odysseus](#odysseus), [Perseus](#perseus), [Juno](#juno), [Minerva](#minerva), [Vulcan](#vulcan), [Freya](#freya), [Asgard](#asgard), [Ragnarok](#ragnarok), [Osiris](#osiris), [Isis](#isis), [Horus](#horus), [Garuda](#garuda), [Gabriela](#gabriela), [Raffaello](#raffaello), [Leviathan](#leviathan), [Slovenia](#slovenia), [Latvia](#latvia), [Lithuania](#lithuania), [Belarus](#belarus), [Cyprus](#cyprus), [Brunei](#brunei), [Yemen](#yemen), [Oman](#oman), [Bahrain](#bahrain), [Kuwait](#kuwait), [Armenia](#armenia), [Somalia](#somalia), [Uganda](#uganda), [Rwanda](#rwanda), [Senegal](#senegal), [Mali](#mali), [Cameroon](#cameroon), [Angola](#angola), [Zambia](#zambia), [Zimbabwe](#zimbabwe), [Haiti](#haiti), [Dominican Republic](#dominican-republic), [Paraguay](#paraguay), [Samoa](#samoa), [Tonga](#tonga), [Caucasus](#caucasus), [Volga](#volga), [Borneo](#borneo), [Gibraltar](#gibraltar), [Suez](#suez), [Riviera](#riviera), [Bavaria](#bavaria), [Tuscany](#tuscany), [Transylvania](#transylvania), [Kashmir](#kashmir), [Connecticut](#connecticut), [Iowa](#iowa), [Maine](#maine), [Maryland](#maryland), [Minnesota](#minnesota), [Missouri](#missouri), [Montana](#montana), [North Carolina](#north-carolina), [Oklahoma](#oklahoma), [South Carolina](#south-carolina), [Utah](#utah), [Memphis](#memphis), [Vladivostok](#vladivostok), [Carthage](#carthage), [Tel Aviv](#tel-aviv), [Beirut](#beirut), [Brisbane](#brisbane), [Cusco](#cusco), [Chernobyl](#chernobyl)
+- Lv.8 ビジネス — [naive](#naive), [cunning](#cunning), [consent](#consent), [reform](#reform), [incentive](#incentive), [literacy](#literacy), [bias](#bias), [dilemma](#dilemma), [nuance](#nuance), [sustainable](#sustainable), [stoic](#stoic), [inclusion](#inclusion), [infrastructure](#infrastructure), [initiative](#initiative), [leverage](#leverage), [nostalgia](#nostalgia), [portfolio](#portfolio), [premium](#premium), [prototype](#prototype), [resilience](#resilience), [segment](#segment), [stakeholder](#stakeholder), [stereotype](#stereotype), [subscription](#subscription), [synergy](#synergy), [trauma](#trauma), [utopia](#utopia), [vintage](#vintage), [charisma](#charisma), [propaganda](#propaganda), [irony](#irony), [paradox](#paradox), [manicure](#manicure), [mania](#mania), [outsourcing](#outsourcing), [benchmark](#benchmark), [tactics](#tactics), [platform](#platform), [branding](#branding), [persona](#persona), [conversion](#conversion), [engagement](#engagement), [retention](#retention), [metrics](#metrics), [analytics](#analytics), [dashboard](#dashboard), [insight](#insight), [simulation](#simulation), [workflow](#workflow), [process](#process), [pipeline](#pipeline), [roadmap](#roadmap), [milestone](#milestone), [sprint](#sprint), [agile](#agile), [kickoff](#kickoff), [brainstorming](#brainstorming), [workshop](#workshop), [facilitator](#facilitator), [moderator](#moderator), [panel](#panel), [session](#session), [keynote](#keynote), [pitch](#pitch), [proposal](#proposal), [summary](#summary), [executive](#executive), [wellbeing](#wellbeing), [burnout](#burnout), [workaholic](#workaholic), [onboarding](#onboarding), [offshore](#offshore), [alliance](#alliance), [holdings](#holdings), [franchise](#franchise), [incubator](#incubator), [pivot](#pivot), [scale](#scale), [monetize](#monetize), [ecosystem](#ecosystem), [database](#database), [algorithm](#algorithm), [interface](#interface), [backup](#backup), [legacy](#legacy), [patent](#patent), [copyright](#copyright), [logo](#logo), [slogan](#slogan), [catchphrase](#catchphrase), [capital](#capital), [asset](#asset), [hedge](#hedge), [index](#index), [ownership](#ownership), [empowerment](#empowerment), [assessment](#assessment), [spec](#spec), [beta](#beta), [version](#version), [maintenance](#maintenance), [bug](#bug), [patch](#patch), [code](#code), [hardware](#hardware), [software](#software), [gadget](#gadget), [wearable](#wearable), [blockchain](#blockchain), [metaverse](#metaverse), [hologram](#hologram), [clone](#clone), [logistics](#logistics), [container](#container), [cargo](#cargo), [tracking](#tracking), [barcode](#barcode), [payment](#payment), [fintech](#fintech), [debit](#debit), [firewall](#firewall), [guideline](#guideline), [protocol](#protocol), [standard](#standard), [quota](#quota), [dandy](#dandy), [karma](#karma), [guru](#guru), [dopamine](#dopamine), [consulting](#consulting), [supervisor](#supervisor), [coordinator](#coordinator), [collaboration](#collaboration), [consortium](#consortium), [corporation](#corporation), [convention](#convention), [competition](#competition), [agency](#agency), [agent](#agent), [finance](#finance), [facility](#facility), [foundation](#foundation), [input](#input), [output](#output), [integration](#integration), [intelligence](#intelligence), [interactive](#interactive), [industry](#industry), [engineering](#engineering), [entertainment](#entertainment), [enterprise](#enterprise), [application](#application), [activity](#activity), [advantage](#advantage), [adviser](#adviser), [architecture](#architecture), [automation](#automation), [automatic](#automatic), [buyer](#buyer), [broker](#broker), [configuration](#configuration), [directory](#directory), [disclosure](#disclosure), [disk](#disk), [monitoring](#monitoring), [mismatch](#mismatch), [manpower](#manpower), [personal](#personal), [personality](#personality), [planner](#planner), [planning](#planning), [plant](#plant), [processor](#processor), [rebate](#rebate), [refinance](#refinance), [retire](#retire), [sampling](#sampling), [scanner](#scanner), [sector](#sector), [section](#section), [selection](#selection), [setting](#setting), [simulator](#simulator), [slot](#slot), [swap](#swap), [supply](#supply), [trademark](#trademark), [traffic](#traffic), [trust](#trust), [workstation](#workstation), [warrant](#warrant), [downsizing](#downsizing), [layoff](#layoff), [merger](#merger), [audit](#audit), [dividend](#dividend), [equity](#equity), [acquisition](#acquisition), [archiver](#archiver), [art director](#art-director), [accord](#accord), [attaché case](#attach-case), [achievement test](#achievement-test), [advertising balloon](#advertising-balloon), [availability](#availability), [abort](#abort), [under par](#under-par), [eastern grip](#eastern-grip), [even par](#even-par), [institution](#institution), [inverter](#inverter), [widget](#widget), [winning shot](#winning-shot), [winning ball](#winning-ball), [waiver](#waiver), [walkathon](#walkathon), [walk-through](#walk-through), [urethane foam](#urethane-foam), [airbus](#airbus), [economist](#economist), [estate](#estate), [essayist](#essayist), [endive](#endive), [overrun](#overrun), [all-star cast](#all-star-cast), [oil fence](#oil-fence), [opinion leader](#opinion-leader), [observer](#observer), [Canadian canoe](#canadian-canoe), [color coordinator](#color-coordinator), [cardamom](#cardamom), [carotene](#carotene), [key station](#key-station), [catwalk](#catwalk), [curator](#curator), [cooling-off](#cooling-off), [clan](#clan), [clean hit](#clean-hit), [clay court](#clay-court), [gravure](#gravure), [glee club](#glee-club), [green fee](#green-fee), [case study](#case-study), [caseworker](#caseworker), [gateball](#gateball), [game, set and match](#game-set-and-match), [corkscrew](#corkscrew), [cornering](#cornering), [called game](#called-game), [coma](#coma), [commissioner](#commissioner), [columnist](#columnist), [coliseum](#coliseum), [Columbus Day](#columbus-day), [concourse](#concourse), [storyboard](#storyboard), [contemporary](#contemporary), [sidecar](#sidecar), [silo](#silo), [southpaw](#southpaw), [sash](#sash), [sari](#sari), [saloon](#saloon), [seesaw game](#seesaw-game), [sherry](#sherry), [civic](#civic), [shutout](#shutout), [respite care](#respite-care), [think tank](#think-tank), [paint thinner](#paint-thinner), [jab](#jab), [jury](#jury), [sweeper](#sweeper), [scrum](#scrum), [squall](#squall), [Stars and Stripes](#stars-and-stripes), [stonewash](#stonewash), [strobe](#strobe), [snow boat](#snow-boat), [spurt](#spurt), [sparring](#sparring), [speedway](#speedway), [spacing](#spacing), [spoke](#spoke), [centering](#centering), [general manager](#general-manager), [tie-up](#tie-up), [tie game](#tie-game), [tugboat](#tugboat), [dubbing](#dubbing), [dance hall](#dance-hall), [changer](#changer), [tuner](#tuner), [taping](#taping), [test case](#test-case), [day game](#day-game), [distortion](#distortion), [decibel](#decibel), [democrat](#democrat), [top star](#top-star), [leadoff hitter](#leadoff-hitter), [trad](#trad), [traveler's check](#traveler-s-check), [transceiver](#transceiver), [trekker](#trekker), [docking](#docking), [dolphin kick](#dolphin-kick), [nightingale](#nightingale), [naturalist](#naturalist), [varnish](#varnish), [knickers](#knickers), [new media](#new-media), [full time](#full-time), [normalize](#normalize), [knocker](#knocker), [hi-fi](#hi-fi), [chauffeured car](#chauffeured-car), [crowbar](#crowbar), [biathlon](#biathlon), [barium](#barium), [baritone](#baritone), [barometer](#barometer), [bunt](#bunt), [parlor](#parlor), [parentheses](#parentheses), [putter](#putter), [putting](#putting), [putt](#putt), [patron](#patron), [paraglider](#paraglider), [pulp](#pulp), [power steering](#power-steering), [pantomime](#pantomime), [beaker](#beaker), [beagle](#beagle), [piston](#piston), [final set](#final-set), [viewfinder](#viewfinder), [funk](#funk), [fairway](#fairway), [feint](#feint), [federation](#federation), [ferret](#ferret), [freeter](#freeter), [freehand](#freehand), [buoy](#buoy), [bullpen](#bullpen), [broiler](#broiler), [blocker](#blocker), [publicity photo](#publicity-photo), [placard](#placard), [press release](#press-release), [prefab](#prefab), [hem](#hem), [heliport](#heliport), [bearing](#bearing), [pennant](#pennant), [penicillin](#penicillin), [hook and eye](#hook-and-eye), [Holocaust](#holocaust), [bogey](#bogey), [body-conscious](#body-conscious), [bobsled](#bobsled), [pager](#pager), [polo](#polo), [mart](#mart), [mime](#mime), [mounting](#mounting), [mound](#mound), [maxi](#maxi), [Mother Goose](#mother-goose), [mast](#mast), [marina](#marina), [marimba](#marimba), [multinational](#multinational), [mandolin](#mandolin), [mitt](#mitt), [mink](#mink), [medley relay](#medley-relay), [moss green](#moss-green), [modem](#modem), [motocross](#motocross), [yacht harbor](#yacht-harbor), [lager](#lager), [snowplow](#snowplow), [lavatory](#lavatory), [rough play](#rough-play), [leaguer](#leaguer), [rape](#rape), [shin guard](#shin-guard), [first run](#first-run), [rodeo](#rodeo), [lob](#lob), [long seller](#long-seller), [infotainment show](#infotainment-show), [hinge](#hinge), [affiliate](#affiliate), [ware](#ware), [cesium](#cesium), [Wilhelmina](#wilhelmina), [Cristóbal](#crist-bal), [Riccardo](#riccardo), [Filippo](#filippo), [Persephone](#persephone), [Cronus](#cronus), [Selene](#selene), [Hypnos](#hypnos), [Morpheus](#morpheus), [Ulysses](#ulysses), [Orpheus](#orpheus), [Oedipus](#oedipus), [Theseus](#theseus), [Ceres](#ceres), [Janus](#janus), [Fortuna](#fortuna), [Yggdrasil](#yggdrasil), [Fenrir](#fenrir), [Brahma](#brahma), [Vishnu](#vishnu), [Indra](#indra), [Krishna](#krishna), [Kali](#kali), [Gilgamesh](#gilgamesh), [Ishtar](#ishtar), [Jehovah](#jehovah), [Yahweh](#yahweh), [Beelzebub](#beelzebub), [Uriel](#uriel), [Behemoth](#behemoth), [Bosnia and Herzegovina](#bosnia-and-herzegovina), [Montenegro](#montenegro), [North Macedonia](#north-macedonia), [Albania](#albania), [Moldova](#moldova), [Andorra](#andorra), [Liechtenstein](#liechtenstein), [San Marino](#san-marino), [Azerbaijan](#azerbaijan), [Turkmenistan](#turkmenistan), [Kyrgyzstan](#kyrgyzstan), [Tajikistan](#tajikistan), [South Sudan](#south-sudan), [Eritrea](#eritrea), [Djibouti](#djibouti), [Niger](#niger), [Mauritania](#mauritania), [Guinea](#guinea-country), [Liberia](#liberia), [Chad](#chad-country), [Mozambique](#mozambique), [Mauritius](#mauritius), [Seychelles](#seychelles), [Namibia](#namibia), [Botswana](#botswana), [Belize](#belize), [Honduras](#honduras), [El Salvador](#el-salvador), [Nicaragua](#nicaragua), [Barbados](#barbados), [Papua New Guinea](#papua-new-guinea), [Palau](#palau), [Micronesia](#micronesia), [Levant](#levant), [Melanesia](#melanesia), [Anatolia](#anatolia), [Arkansas](#arkansas), [Delaware](#delaware), [Idaho](#idaho), [Nebraska](#nebraska), [New Hampshire](#new-hampshire), [North Dakota](#north-dakota), [Rhode Island](#rhode-island), [South Dakota](#south-dakota), [Vermont](#vermont), [West Virginia](#west-virginia), [Wisconsin](#wisconsin), [Wyoming](#wyoming), [Milwaukee](#milwaukee), [Karachi](#karachi)
+- Lv.9 教養 — [guild](#guild), [summon](#summon), [relic](#relic), [mana](#mana), [stealth](#stealth), [berserk](#berserk), [compliance](#compliance), [consensus](#consensus), [hierarchy](#hierarchy), [scheme](#scheme), [aesthetic](#aesthetic), [ideology](#ideology), [renaissance](#renaissance), [entrepreneur](#entrepreneur), [philosophy](#philosophy), [metaphor](#metaphor), [thesis](#thesis), [antithesis](#antithesis), [narrative](#narrative), [realism](#realism), [modernism](#modernism), [surreal](#surreal), [minimalism](#minimalism), [baroque](#baroque), [gothic](#gothic), [dystopia](#dystopia), [nationalism](#nationalism), [populism](#populism), [fascism](#fascism), [anarchy](#anarchy), [elite](#elite), [intellectual](#intellectual), [sympathy](#sympathy), [cosmopolitan](#cosmopolitan), [folklore](#folklore), [saga](#saga), [chronicle](#chronicle), [archive](#archive), [anthology](#anthology), [prologue](#prologue), [epilogue](#epilogue), [finale](#finale), [parody](#parody), [homage](#homage), [motif](#motif), [chic](#chic), [cosmos](#cosmos), [parameter](#parameter), [matrix](#matrix), [vector](#vector), [symmetry](#symmetry), [gradation](#gradation), [perspective](#perspective), [mentality](#mentality), [maestro](#maestro), [optimism](#optimism), [pessimism](#pessimism), [cynical](#cynical), [hysterical](#hysterical), [humanism](#humanism), [sanctuary](#sanctuary), [labyrinth](#labyrinth), [mirage](#mirage), [phantom](#phantom), [illusion](#illusion), [montage](#montage), [atelier](#atelier), [plasma](#plasma), [placebo](#placebo), [calligraphy](#calligraphy), [typography](#typography), [academic](#academic), [academy](#academy), [acoustic](#acoustic), [eccentric](#eccentric), [elegance](#elegance), [epic](#epic), [occult](#occult), [originality](#originality), [cult](#cult), [capitalism](#capitalism), [journalism](#journalism), [gospel](#gospel), [symbolic](#symbolic), [pathos](#pathos), [pragmatism](#pragmatism), [prism](#prism), [fusion](#fusion), [feminism](#feminism), [heroism](#heroism), [heroine](#heroine), [doctrine](#doctrine), [mythology](#mythology), [monologue](#monologue), [melodrama](#melodrama), [metropolitan](#metropolitan), [monotone](#monotone), [monochrome](#monochrome), [lullaby](#lullaby), [requiem](#requiem), [sonnet](#sonnet), [tragedy](#tragedy), [satire](#satire), [oracle](#oracle), [oriental](#oriental), [mammoth](#mammoth), [aurora](#aurora), [planetarium](#planetarium), [plankton](#plankton), [magma](#magma), [neuron](#neuron), [gene](#gene), [isotope](#isotope), [atom](#atom), [adrenaline](#adrenaline), [amoeba](#amoeba), [elegy](#elegy), [emblem](#emblem), [ethos](#ethos), [muse](#muse), [fable](#fable), [archetype](#archetype), [arc](#arc), [early American](#early-american), [agitation](#agitation), [acetone](#acetone), [alcove](#alcove), [albatross](#albatross), [array](#array), [ammonite](#ammonite), [imperial](#imperial), [economic animal](#economic-animal), [estrogen](#estrogen), [etching](#etching), [erotic](#erotic), [open set](#open-set), [omnibus](#omnibus), [caldera](#caldera), [gas turbine](#gas-turbine), [caterpillar track](#caterpillar-track), [caching](#caching), [carburetor](#carburetor), [kooky](#kooky), [Queen's English](#queen-s-english), [crank](#crank), [start of filming](#start-of-filming), [heart of the order](#heart-of-the-order), [clinch](#clinch), [Greco-Roman](#greco-roman), [caulking](#caulking), [cobalt](#cobalt), [capacitor](#capacitor), [compressor](#compressor), [convoy](#convoy), [sadist](#sadist), [sarin](#sarin), [sampler](#sampler), [Secret Service](#secret-service), [syringe](#syringe), [sinker](#sinker), [sympathizer](#sympathizer), [gypsy](#gypsy), [skipper](#skipper), [scapegoat](#scapegoat), [stun gun](#stun-gun), [steroid](#steroid), [snatch](#snatch), [slack](#slack), [general contractor](#general-contractor), [timestamp](#timestamp), [tandem](#tandem), [dynamics](#dynamics), [teleconference](#teleconference), [telegraph](#telegraph), [telecom](#telecom), [data bank](#data-bank), [dinghy](#dinghy), [decoder](#decoder), [delegation](#delegation), [topper](#topper), [topless](#topless), [transistor](#transistor), [torque](#torque), [dogfight](#dogfight), [dolly](#dolly), [national chain](#national-chain), [National League](#national-league), [nick](#nick), [new leader](#new-leader), [Neanderthal](#neanderthal), [neo](#neo), [neckerchief](#neckerchief), [net play](#net-play), [no-hitter](#no-hitter), [high-cut](#high-cut), [halogen](#halogen), [hunger strike](#hunger-strike), [barter](#barter), [biotechnology](#biotechnology), [backstop](#backstop), [balance sheet](#balance-sheet), [perspective drawing](#perspective-drawing), [pagoda](#pagoda), [flash headlights](#flash-headlights), [putty](#putty), [paddock](#paddock), [punt](#punt), [victor](#victor), [bureau](#bureau), [lock picking](#lock-picking), [filing system](#filing-system), [facsimile](#facsimile), [fundamentals](#fundamentals), [feeder](#feeder), [fixer](#fixer), [fjord](#fjord), [philharmonic](#philharmonic), [fellowship](#fellowship), [pheromone](#pheromone), [forkball](#forkball), [formula car](#formula-car), [foreman](#foreman), [foster child](#foster-child), [fluke](#fluke), [CFC](#cfc), [butane](#butane), [booker](#booker), [bluebird](#bluebird), [push-button phone](#push-button-phone), [plutonium](#plutonium), [playgirl](#playgirl), [press club](#press-club), [press center](#press-center), [prelude](#prelude), [propane](#propane), [teleprompter](#teleprompter), [hemoglobin](#hemoglobin), [hertz](#hertz), [heroin](#heroin), [pain clinic](#pain-clinic), [pedometer](#pedometer), [Pentagon](#pentagon), [homer](#homer), [holster](#holster), [balk](#balk), [boat people](#boat-people), [body blow](#body-blow), [positioning](#positioning), [poly](#poly), [polyp](#polyp), [polka](#polka), [porn](#porn), [martini](#martini), [microfilm](#microfilm), [microcomputer](#microcomputer), [macro](#macro), [magnesium](#magnesium), [match play](#match-play), [Mach](#mach), [money game](#money-game), [mangrove](#mangrove), [midi](#midi), [MiniDisc](#minidisc), [military look](#military-look), [head table](#head-table), [methane](#methane), [mecca](#mecca), [memorial hall](#memorial-hall), [mobile home](#mobile-home), [mock-up](#mock-up), [replica gun](#replica-gun), [model example](#model-example), [mortar](#mortar), [radium](#radium), [latch](#latch), [latex](#latex), [laminate](#laminate), [leadoff man](#leadoff-man), [lithium](#lithium), [maglev](#maglev), [ringside](#ringside), [lynching](#lynching), [reportage](#reportage), [laserdisc](#laserdisc), [rayon](#rayon), [regatta](#regatta), [lettering](#lettering), [rockabilly](#rockabilly), [location scouting](#location-scouting), [wallaby](#wallaby), [ogre](#ogre), [lance](#lance), [weblog](#weblog), [Guglielmo](#guglielmo), [Thanatos](#thanatos), [Wotan](#wotan), [Tyr](#tyr), [Amun](#amun), [Thoth](#thoth), [Bastet](#bastet), [Tiamat](#tiamat), [Kosovo](#kosovo), [Timor-Leste](#timor-leste), [Burundi](#burundi), [Gambia](#gambia), [Sierra Leone](#sierra-leone), [Burkina Faso](#burkina-faso), [Togo](#togo), [Benin](#benin), [Central African Republic](#central-african-republic), [Gabon](#gabon), [Malawi](#malawi), [Trinidad and Tobago](#trinidad-and-tobago), [Guyana](#guyana), [Suriname](#suriname), [Vanuatu](#vanuatu), [Solomon Islands](#solomon-islands), [Tuvalu](#tuvalu)
+- Lv.10 マスター — [governance](#governance), [paradigm](#paradigm), [accountability](#accountability), [anachronism](#anachronism), [cliche](#cliche), [melancholy](#melancholy), [narcissist](#narcissist), [sabotage](#sabotage), [taboo](#taboo), [catharsis](#catharsis), [ambivalent](#ambivalent), [rhetoric](#rhetoric), [dogma](#dogma), [hegemony](#hegemony), [epoch](#epoch), [bourgeois](#bourgeois), [nihilism](#nihilism), [euphoria](#euphoria), [entropy](#entropy), [ennui](#ennui), [decadence](#decadence), [bohemian](#bohemian), [genocide](#genocide), [coup](#coup), [regime](#regime), [orthodox](#orthodox), [mantra](#mantra), [nirvana](#nirvana), [shaman](#shaman), [nemesis](#nemesis), [odyssey](#odyssey), [chimera](#chimera), [doppelganger](#doppelganger), [poltergeist](#poltergeist), [gestalt](#gestalt), [kitsch](#kitsch), [leitmotif](#leitmotif), [crescendo](#crescendo), [sonata](#sonata), [concerto](#concerto), [rhapsody](#rhapsody), [serenade](#serenade), [nocturne](#nocturne), [etude](#etude), [pastiche](#pastiche), [fresco](#fresco), [quantum](#quantum), [rococo](#rococo), [cubism](#cubism), [aphorism](#aphorism), [facade](#facade), [pedantic](#pedantic), [schema](#schema), [tautology](#tautology), [vandalism](#vandalism), [apartheid](#apartheid), [dilettante](#dilettante), [hysteria](#hysteria), [snob](#snob), [trivia](#trivia), [sadistic](#sadistic), [egoism](#egoism), [romanticism](#romanticism), [idealism](#idealism), [symbolism](#symbolism), [paternalism](#paternalism), [patriotism](#patriotism), [globalism](#globalism), [technocrat](#technocrat), [lobbyist](#lobbyist), [syndicate](#syndicate), [junkie](#junkie), [pessimistic](#pessimistic), [optimist](#optimist), [liberalism](#liberalism), [bureaucracy](#bureaucracy), [racism](#racism), [skeptic](#skeptic), [urbanity](#urbanity), [einsteinium](#einsteinium), [academism](#academism), [agoraphobia](#agoraphobia), [acetylcholine](#acetylcholine), [attest](#attest), [annealing](#annealing), [amalgam](#amalgam), [amnesty](#amnesty), [aristocracy](#aristocracy), [algorithmic](#algorithmic), [aldehyde](#aldehyde), [albumin](#albumin), [alexandrite](#alexandrite), [angelus](#angelus), [untied loan](#untied-loan), [ism](#ism), [id](#id), [eonism](#eonism), [ecumenism](#ecumenism), [equitable](#equitable), [exorcist](#exorcist), [esquire](#esquire), [ester](#ester), [ethylene](#ethylene), [evangelist](#evangelist), [emigrant](#emigrant), [erythropoietin](#erythropoietin), [erbium](#erbium), [endian](#endian), [ode](#ode), [old guard](#old-guard), [Orientalism](#orientalism), [oligomer](#oligomer), [kern](#kern), [Catholicism](#catholicism), [cadmium](#cadmium), [coupler](#coupler), [cummerbund](#cummerbund), [cam](#cam), [corolla](#corolla), [cant](#cant), [Gaussian](#gaussian), [gasohol](#gasohol), [gully](#gully), [gallium](#gallium), [keel](#keel), [kinesiology](#kinesiology), [chinoform](#chinoform), [cat's-eye](#cat-s-eye), [capital gain](#capital-gain), [curie](#curie), [Cyrillic](#cyrillic), [galloping inflation](#galloping-inflation), [quasar](#quasar), [cleek](#cleek), [creole](#creole), [creatinine clearance](#creatinine-clearance), [creosote](#creosote), [credibility gap](#credibility-gap), [chronoscope](#chronoscope), [graphic equalizer](#graphic-equalizer), [glycogen](#glycogen), [Gregorian](#gregorian), [gay liberation](#gay-liberation), [corporate identity](#corporate-identity), [cox](#cox), [colloid](#colloid), [contra](#contra), [safari rally](#safari-rally), [thunderbird](#thunderbird), [Zionism](#zionism), [city air terminal](#city-air-terminal), [citron](#citron), [civilian control](#civilian-control), [sharkskin](#sharkskin), [shirring](#shirring), [symbolist](#symbolist), [gerontocracy](#gerontocracy), [dystrophy](#dystrophy), [jib](#jib), [clean and jerk](#clean-and-jerk), [gyroscope](#gyroscope), [japonica](#japonica), [joule](#joule), [jubilee](#jubilee), [duralumin](#duralumin), [scull](#scull), [script supervisor](#script-supervisor), [squawker](#squawker), [Stirling engine](#stirling-engine), [stymie](#stymie), [stub](#stub), [Stoicism](#stoicism), [streaker](#streaker), [stripper](#stripper), [strontium](#strontium), [spirulina](#spirulina), [spencer](#spencer), [cerium](#cerium), [celluloid](#celluloid), [general strike](#general-strike), [the Times](#the-times), [thallium](#thallium), [talc](#talc), [diode](#diode), [dynamism](#dynamism), [Charleston](#charleston), [channeling](#channeling), [tilde](#tilde), [tyranny](#tyranny), [fiberboard](#fiberboard), [tetrachloroethylene](#tetrachloroethylene), [telex](#telex), [telemeter](#telemeter), [denier](#denier), [redenomination](#redenomination), [talkie](#talkie), [tomahawk](#tomahawk), [tommy gun](#tommy-gun), [trough](#trough), [tranquilizer](#tranquilizer), [transponder](#transponder), [trichloroethylene](#trichloroethylene), [TNT](#tnt), [tribune](#tribune), [toluene](#toluene), [trawl](#trawl), [troy](#troy), [dormer](#dormer), [Nazism](#nazism), [naphtha](#naphtha), [narrowcasting](#narrowcasting), [newton](#newton), [neuro](#neuro), [neo-Nazi](#neo-nazi), [hardtop](#hardtop), [halon](#halon), [birdcall](#birdcall), [burlesque](#burlesque), [vagabond](#vagabond), [slash bunt](#slash-bunt), [batter's eye](#batter-s-eye), [Baptist](#baptist), [vulcanized rubber](#vulcanized-rubber), [purge](#purge), [perceptron](#perceptron), [palm ball](#palm-ball), [pascal](#pascal), [parabola](#parabola), [pulsar](#pulsar), [Pan-Americanism](#pan-americanism), [pantograph](#pantograph), [pampas](#pampas), [Peter Pan syndrome](#peter-pan-syndrome), [Peeping Tom](#peeping-tom), [pico](#pico), [fascist](#fascist), [fiscal policy](#fiscal-policy), [fielder's choice](#fielder-s-choice), [ford](#ford), [foxtrot](#foxtrot), [hooker](#hooker), [flywheel](#flywheel), [frigate](#frigate), [bookmaker](#bookmaker), [brassie](#brassie), [broadcloth](#broadcloth), [prime rate](#prime-rate), [propjet](#propjet), [hecto](#hecto), [heather](#heather), [Hebraism](#hebraism), [herald](#herald), [herringbone](#herringbone), [Hellenism](#hellenism), [betta](#betta), [Bedouin](#bedouin), [Venetian glass](#venetian-glass), [pessary](#pessary), [pepsin](#pepsin), [PEN International](#pen-international), [homing](#homing), [holography](#holography), [bowing](#bowing), [boardsailing](#boardsailing), [voyager](#voyager), [vocoder](#vocoder), [polypropylene](#polypropylene), [polymer](#polymer), [macadam](#macadam), [magnum](#magnum), [mothering](#mothering), [mass games](#mass-games), [masochist](#masochist), [madras](#madras), [money supply](#money-supply), [marine snow](#marine-snow), [mantle](#mantle), [mambo](#mambo), [me-ism](#me-ism), [mitochondria](#mitochondria), [par four](#par-four), [millibar](#millibar), [mustang](#mustang), [main bank](#main-bank), [megahertz](#megahertz), [Messiah](#messiah), [Methodist](#methodist), [medical engineering](#medical-engineering), [melanin](#melanin), [motorization](#motorization), [modiste](#modiste), [monaural](#monaural), [Morris dance](#morris-dance), [morgue](#morgue), [Universiade](#universiade), [urea](#urea), [yoke](#yoke), [liability](#liability), [radial](#radial), [lath](#lath), [rudder](#rudder), [radon](#radon), [lithograph](#lithograph), [linoleic acid](#linoleic-acid), [liberalist](#liberalist), [lute](#lute), [linkage](#linkage), [luminescence](#luminescence), [luminol](#luminol), [Leghorn](#leghorn), [rotor](#rotor), [loam](#loam), [laurel](#laurel), [rock wool](#rock-wool), [par five](#par-five), [halberd](#halberd), [ghoul](#ghoul), [stinger](#stinger), [demi](#demi), [trooper](#trooper), [nonbank](#nonbank), [logic analyzer](#logic-analyzer), [atto](#atto), [Marduk](#marduk), [Quetzalcoatl](#quetzalcoatl), [Guinea-Bissau](#guinea-bissau), [Equatorial Guinea](#equatorial-guinea), [Comoros](#comoros), [Cape Verde](#cape-verde), [São Tomé and Príncipe](#s-o-tom-and-pr-ncipe), [Lesotho](#lesotho), [Eswatini](#eswatini), [Dominica](#dominica), [Grenada](#grenada), [Saint Lucia](#saint-lucia), [Antigua and Barbuda](#antigua-and-barbuda), [Saint Kitts and Nevis](#saint-kitts-and-nevis), [Saint Vincent and the Grenadines](#saint-vincent-and-the-grenadines), [Kiribati](#kiribati), [Nauru](#nauru), [Marshall Islands](#marshall-islands)
 - [語根ファミリー一覧](#語根ファミリー一覧)
 - [似た単語セット](#似た単語セット)
 
@@ -4837,7 +4837,7 @@
 <a id="japan"></a>
 ### Japan（ジャパン）
 
-**名詞** / Lv.1 ひと目でわかる / CEFR A1 — 日本
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — 日本
 
 - 📍 シーン: チームジャパン、メイド・イン・ジャパン。
 - 💬 例文: *I was born in Japan.* — 私は日本で生まれた。
@@ -4845,10 +4845,10 @@
   - 小文字の japan は「漆器」の意味。
 - 🌳 同じ語源の仲間: Japanese（日本の）
 
-| 類義語 | 意味 | ニュアンスの違い | 語源 |
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
 |---|---|---|---|
-| **nation** | 国家 | 国民のまとまり。 | ラテン語 nātiō |
-| **country** | 国 | 国土。 | ラテン語 contrāta |
+| **Nippon** | ニッポン | 日本語での国名。切手やスポーツのユニフォームに使われる。 | 日本語「日の本」 |
+| **Land of the Rising Sun** | 日出づる国 | 日本の愛称。 | 英語 |
 
 <a id="chinese"></a>
 ### Chinese（チャイニーズ）
@@ -4869,7 +4869,7 @@
 <a id="china"></a>
 ### China（チャイナ）
 
-**名詞** / Lv.1 ひと目でわかる / CEFR A1 — 中国
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — 中国
 
 - 📍 シーン: チャイナドレス、チャイナタウン。
 - 💬 例文: *China has a long history.* — 中国は長い歴史をもつ。
@@ -4877,10 +4877,10 @@
   - 小文字の china は「磁器、陶磁器」。
 - 🌳 同じ語源の仲間: Chinese（中国の）
 
-| 類義語 | 意味 | ニュアンスの違い | 語源 |
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
 |---|---|---|---|
-| **porcelain** | 磁器 | 白く焼いた焼き物。 | イタリア語 porcellana |
-| **country** | 国 | 国土。 | ラテン語 contrāta |
+| **Zhongguo** | チョンクオ（中国） | 中国語での国名「中央の国」。 | 中国語 Zhōngguó |
+| **Cathay** | キャセイ | 中世ヨーロッパでの中国の呼び名。航空会社名にも。 | 契丹（Khitan）から |
 
 <a id="mom"></a>
 ### mom（マム）
@@ -4897,6 +4897,279 @@
 |---|---|---|---|
 | **mother** | 母 | 親のうち女性。 | 古英語 mōdor |
 | **mommy** | ママ | 子どもが使う言い方。 | mom + -y |
+
+<a id="united-kingdom"></a>
+### United Kingdom（イギリス） ⚠️
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — イギリス（連合王国）。イングランド・スコットランド・ウェールズ・北アイルランドから成る国
+
+- 📍 シーン: 首都ロンドン。サッカーやラグビーは4つの国が別々の代表で出場する。
+- ⚠️ カタカナの罠: 「イギリス」はポルトガル語 Inglês（イングランドの）から。英語で England というとイングランドだけを指し、スコットランドの人には失礼になることもある。国全体は the United Kingdom / the UK / Britain。
+- 💬 例文: *The United Kingdom is made up of four countries.* — イギリスは4つの国から成り立っている。
+- 📜 語源: 正式名 the United Kingdom of Great Britain and Northern Ireland（グレートブリテンおよび北アイルランド連合王国）
+  - 1707年にイングランドとスコットランドが合同し、1801年にアイルランドが加わった（のちに北部のみ残る）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Britain** | ブリテン | イギリスの通称。 | ラテン語 Britannia |
+| **UK** | ユーケー | 略称。 | United Kingdom の頭文字 |
+
+<a id="england"></a>
+### England（イングランド） ⚠️
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — イングランド（イギリスを構成する国の一つ）
+
+- 📍 シーン: 首都ロンドン。サッカーのイングランド代表。
+- ⚠️ カタカナの罠: 日本語の「イギリス」全体の意味で England を使うのは不正確。England はスコットランド・ウェールズ・北アイルランドを含まない。
+- 💬 例文: *London is the capital of England.* — ロンドンはイングランドの首都だ。
+- 📜 語源: 古英語 Englaland「アングル人の土地」
+  - 5世紀ごろ大陸から来たアングル人の名から。English（英語）も同じ。
+- 🌳 同じ語源の仲間: English（英語）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Albion** | アルビオン | 古い詩的な呼び名。 | ラテン語 albus「白い」 |
+| **Anglia** | アングリア | ラテン語での呼び名。 | ラテン語 Anglia |
+
+<a id="france"></a>
+### France（フランス）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — フランス
+
+- 📍 シーン: パリ、エッフェル塔、ワインとチーズ。
+- 💬 例文: *France is famous for its food and wine.* — フランスは料理とワインで有名だ。
+- 📜 語源: ラテン語 Francia「フランク人の国」
+  - ゲルマン系のフランク人の名から。frank（率直な）ももとは「自由なフランク人」。
+- 🌳 同じ語源の仲間: French（フランスの）、frank（率直な）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hexagon** | エグザゴン（六角形） | 国の形からついた愛称。 | ギリシャ語 hex「6」+ gōnia「角」 |
+| **Gaul** | ガリア | 古代ローマ時代の呼び名。 | ラテン語 Gallia |
+
+<a id="germany"></a>
+### Germany（ドイツ） ⚠️
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — ドイツ
+
+- 📍 シーン: ビール、ソーセージ、サッカー、自動車。首都ベルリン。
+- ⚠️ カタカナの罠: 「ドイツ」はオランダ語 Duits（ドイツの）から。英語では Germany。英語の Dutch は「オランダの」なので注意。
+- 💬 例文: *Germany is the largest economy in Europe.* — ドイツはヨーロッパ最大の経済大国だ。
+- 📜 語源: ラテン語 Germānia（古代ローマ人がライン川の東の人々を呼んだ名）
+  - ドイツ語では Deutschland、フランス語では Allemagne、ポーランド語では Niemcy と、国によって呼び名がまったく違う。
+- 🌳 同じ語源の仲間: German（ドイツの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Deutschland** | ドイチュラント | ドイツ語での国名。 | 古高ドイツ語 diutisc「民衆の」 |
+| **Allemagne** | アルマーニュ | フランス語での呼び名。 | アレマン人の名から |
+
+<a id="italy"></a>
+### Italy（イタリア）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — イタリア
+
+- 📍 シーン: ピザ、パスタ、ローマ、ベネチア。
+- 💬 例文: *Italy is shaped like a boot.* — イタリアは長靴のような形をしている。
+- 📜 語源: ラテン語 Italia（半島南部の古い地名。「子牛の国」の説）
+  - 1861年に統一されるまで多くの国に分かれていた。
+- 🌳 同じ語源の仲間: Italian（イタリアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Italia** | イタリア | イタリア語での国名。 | ラテン語 Italia |
+| **the Boot** | 長靴 | 国の形からの愛称。 | 英語 |
+
+<a id="spain"></a>
+### Spain（スペイン）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — スペイン
+
+- 📍 シーン: フラメンコ、パエリア、サグラダ・ファミリア。首都マドリード。
+- 💬 例文: *Spain is famous for flamenco and paella.* — スペインはフラメンコとパエリアで有名だ。
+- 📜 語源: ラテン語 Hispānia（語源不詳。フェニキア語「ウサギの島」の説）
+  - スペイン語では España。Hispanic（スペイン語圏の）は Hispania から。
+- 🌳 同じ語源の仲間: Spanish（スペインの）、Hispanic（ヒスパニック）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **España** | エスパーニャ | スペイン語での国名。 | ラテン語 Hispānia |
+| **Iberia** | イベリア | 半島の古い呼び名。 | ギリシャ語 Ibēria |
+
+<a id="india"></a>
+### India（インド）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — インド
+
+- 📍 シーン: カレー、ヨガ、タージ・マハル。首都ニューデリー。
+- 💬 例文: *India has the largest population in the world.* — インドは世界最大の人口をもつ。
+- 📜 語源: ギリシャ語 India ← インダス川（サンスクリット語 Sindhu「川」）
+  - Hindu（ヒンドゥー）、Indus（インダス）も同じ Sindhu から。ヒンディー語では Bharat（バーラト）。
+- 🌳 同じ語源の仲間: Indian（インドの）、Hindu（ヒンドゥー）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bharat** | バーラト | ヒンディー語での国名。 | サンスクリット語 Bhārata |
+| **Hindustan** | ヒンドゥスタン | ペルシア語由来の古い呼び名。 | ペルシア語「ヒンドゥーの国」 |
+
+<a id="united-states"></a>
+### United States（アメリカ合衆国）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — アメリカ合衆国
+
+- 📍 シーン: 首都ワシントンD.C.、50の州。
+- 💬 例文: *The United States has fifty states.* — アメリカ合衆国には50の州がある。
+- 📜 語源: 正式名 the United States of America「アメリカの合衆国」
+  - 英語では the US、the States、America とも呼ぶ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **USA** | ユーエスエー | 略称。 | 頭文字 |
+| **the States** | ザ・ステイツ | 話し言葉での呼び名。 | 英語 |
+
+<a id="america"></a>
+### America（アメリカ）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — アメリカ（合衆国の通称）。南北アメリカ大陸
+
+- 📍 シーン: 「アメリカンドリーム」。大陸全体を the Americas とも言う。
+- 💬 例文: *Columbus reached America in 1492.* — コロンブスは1492年にアメリカに到達した。
+- 📜 語源: 探検家アメリゴ・ヴェスプッチ（ラテン語 Americus Vespucius）の名から
+  - 新大陸が「アジアではない」と主張した探検家の名が大陸名になった。
+- 🌳 同じ語源の仲間: American（アメリカの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **United States** | 合衆国 | 国の正式名の一部。 | 英語 |
+| **New World** | 新世界 | ヨーロッパから見た南北アメリカ。 | 英語 |
+
+<a id="canada"></a>
+### Canada（カナダ）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — カナダ
+
+- 📍 シーン: メープルシロップ、ナイアガラの滝、首都オタワ。
+- 💬 例文: *Canada is the second largest country in the world.* — カナダは世界で2番目に大きな国だ。
+- 📜 語源: 先住民イロコイ語 kanata「村」
+  - 探検家カルティエが「村」という言葉を土地の名前だと思ったことから。
+- 🌳 同じ語源の仲間: Canadian（カナダの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Great White North** | グレート・ホワイト・ノース | 雪の多い北の国の愛称。 | 英語 |
+| **Ottawa** | オタワ | 首都。 | 先住民の民族名 |
+
+<a id="australia"></a>
+### Australia（オーストラリア）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — オーストラリア
+
+- 📍 シーン: コアラ、カンガルー、シドニーのオペラハウス。首都キャンベラ。
+- 💬 例文: *Kangaroos live only in Australia.* — カンガルーはオーストラリアにしか住んでいない。
+- 📜 語源: ラテン語 terra australis「南の土地」
+  - Austria（東の国）とは別の語源。愛称は Aussie、Oz。
+- 🌳 同じ語源の仲間: Aussie（オーストラリア人）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Oz** | オズ | くだけた愛称。 | Aus の発音から |
+| **Down Under** | ダウン・アンダー | 「地球の下側」という愛称。 | 英語 |
+
+<a id="asia"></a>
+### Asia（アジア）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — アジア
+
+- 📍 シーン: アジア大会、東アジア、東南アジア。
+- 💬 例文: *Asia is the largest continent.* — アジアは最大の大陸だ。
+- 📜 語源: ギリシャ語 Asia（アッシリア語 asu「日の出」の説）
+  - もとはトルコ西部の地域名で、しだいに東の広い地域を指すようになった。
+- 🌳 同じ語源の仲間: Asian（アジアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Orient** | オリエント | 「東方」を表す古い呼び名。 | ラテン語 oriēns「昇る（太陽）」 |
+| **Eurasia** | ユーラシア | ヨーロッパとアジアを合わせた大陸。 | Europe + Asia |
+
+<a id="europe"></a>
+### Europe（ヨーロッパ）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — ヨーロッパ
+
+- 📍 シーン: EU（ヨーロッパ連合）、ユーロ。
+- 💬 例文: *Paris and Rome are two famous cities in Europe.* — パリとローマはヨーロッパの有名な2つの都市だ。
+- 📜 語源: ギリシャ神話の王女エウロペ（Eurōpē）から
+  - ゼウスが牛に化けてさらった王女の名とされる。「ヨーロッパ」はポルトガル語・オランダ語風の読み。
+- 🌳 同じ語源の仲間: European（ヨーロッパの）、euro（ユーロ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **the Continent** | 大陸 | イギリスから見たヨーロッパ大陸。 | 英語 |
+| **Occident** | 西洋 | 「西方」を表す古い呼び名。 | ラテン語 occidēns「沈む（太陽）」 |
+
+<a id="africa"></a>
+### Africa（アフリカ）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — アフリカ
+
+- 📍 シーン: サバンナ、サハラ砂漠、54の国々。
+- 💬 例文: *Africa has 54 countries.* — アフリカには54の国がある。
+- 📜 語源: ラテン語 Africa（カルタゴ周辺の民族 Afri の名から）
+  - もとは今のチュニジア周辺の名前だった。
+- 🌳 同じ語源の仲間: African（アフリカの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Dark Continent** | 暗黒大陸 | 昔のヨーロッパでの呼び名（今は差別的とされる）。 | 英語 |
+| **sub-Saharan Africa** | サハラ以南アフリカ | サハラ砂漠より南の地域。 | 英語 |
+
+<a id="london"></a>
+### London（ロンドン）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — ロンドン（イギリスの首都）
+
+- 📍 シーン: ビッグ・ベン、ロンドン・アイ、二階建てバス。
+- 💬 例文: *London is the capital of the United Kingdom.* — ロンドンはイギリスの首都だ。
+- 📜 語源: ラテン語 Londinium（ケルト語起源、語源不詳）
+  - ローマ人が築いた町が始まり。
+- 🌳 同じ語源の仲間: Londoner（ロンドンっ子）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Big Smoke** | ビッグ・スモーク | ロンドンの古い愛称。 | 英語 |
+| **the City** | シティ | 中心の金融街。 | 英語 |
+
+<a id="paris"></a>
+### Paris（パリ）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — パリ（フランスの首都）
+
+- 📍 シーン: エッフェル塔、ルーブル美術館、凱旋門。
+- 💬 例文: *The Eiffel Tower is in Paris.* — エッフェル塔はパリにある。
+- 📜 語源: ラテン語 Parisii（この地にいたケルト系の部族名）
+  - 英語では s を発音して「パリス」。
+- 🌳 同じ語源の仲間: Parisian（パリの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **City of Light** | 光の都 | パリの愛称。 | フランス語 Ville Lumière |
+| **Lutetia** | ルテティア | ローマ時代の名。 | ラテン語 Lutetia |
+
+<a id="new-york"></a>
+### New York（ニューヨーク）
+
+**地名** / Lv.1 ひと目でわかる / CEFR A1 — ニューヨーク（アメリカ最大の都市・州）
+
+- 📍 シーン: 自由の女神、タイムズスクエア、ブロードウェイ。
+- 💬 例文: *The Statue of Liberty stands in New York Harbor.* — 自由の女神はニューヨーク港に立っている。
+- 📜 語源: 英国のヨーク公（Duke of York、のちのジェームズ2世）の名から
+  - もとはオランダの植民地ニューアムステルダム。
+- 🌳 同じ語源の仲間: New Yorker（ニューヨーカー）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Big Apple** | ビッグアップル | ニューヨーク市の愛称。 | 英語 |
+| **Gotham** | ゴッサム | 古いあだ名。バットマンの町の名にも。 | 英国の村の名 |
 
 ## Lv.2 くらしの定番
 
@@ -10826,7 +11099,7 @@
 <a id="korea"></a>
 ### Korea（コリア）
 
-**名詞** / Lv.2 くらしの定番 / CEFR A1 — 朝鮮、韓国
+**地名** / Lv.2 くらしの定番 / CEFR A1 — 朝鮮、韓国
 
 - 📍 シーン: コリアタウン。
 - 💬 例文: *My friend is from Korea.* — 私の友だちは韓国出身だ。
@@ -10834,10 +11107,444 @@
   - 韓国は South Korea、北朝鮮は North Korea。
 - 🌳 同じ語源の仲間: Korean（韓国の、韓国語）
 
-| 類義語 | 意味 | ニュアンスの違い | 語源 |
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
 |---|---|---|---|
-| **peninsula** | 半島 | 三方を海に囲まれた陸地。 | ラテン語 paene「ほとんど」+ īnsula「島」 |
-| **country** | 国 | 国土。 | ラテン語 contrāta |
+| **South Korea** | 韓国 | 大韓民国。 | south + Korea |
+| **North Korea** | 北朝鮮 | 朝鮮民主主義人民共和国。 | north + Korea |
+
+<a id="michael"></a>
+### Michael（マイケル）
+
+**人名** / Lv.2 くらしの定番 / CEFR A1 — 男性名（英語形）。もとの意味は「神に似た者は誰か」
+
+- 📍 シーン: マイケル・ジャクソン、マイケル・ジョーダン。
+- 💬 例文: *Michael is one of the most common boys' names in America.* — マイケルはアメリカで最もよくある男の子の名前の一つだ。
+- 📜 語源: ヘブライ語 Mīkhāʼēl「誰が神（エル）に似ているか」
+  - 大天使ミカエルの名が各国に広まり、国ごとに読み方が変わった。愛称は Mike、Mikey、Mick。
+- 🌳 同じ語源の仲間: Mike（マイク）、Mickey（ミッキー）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Michel** | ミシェル（フランス語） | フランス語形の男性名。 | 同じヘブライ語 Mīkhāʼēl から |
+| **Miguel** | ミゲル（スペイン語） | スペイン語・ポルトガル語形。 | 同じヘブライ語 Mīkhāʼēl から |
+| **Mikhail** | ミハイル（ロシア語） | ロシア語形。 | 同じヘブライ語 Mīkhāʼēl から |
+
+<a id="john"></a>
+### John（ジョン）
+
+**人名** / Lv.2 くらしの定番 / CEFR A1 — 男性名（英語形）。もとの意味は「神は恵み深い」
+
+- 📍 シーン: ジョン・レノン、ジョン万次郎。
+- 💬 例文: *John Lennon was a member of the Beatles.* — ジョン・レノンはビートルズのメンバーだった。
+- 📜 語源: ヘブライ語 Yōḥānān「ヤハウェは恵み深い」→ ラテン語 Iohannes
+  - 洗礼者ヨハネと使徒ヨハネの名。世界で最も多くの言語形をもつ名前の一つ。女性形は Jane、Joan。
+- 🌳 同じ語源の仲間: Johnny（ジョニー）、Jack（ジャック：愛称）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jean** | ジャン（フランス語） | フランス語形。 | 同じヘブライ語 Yōḥānān から |
+| **Johann** | ヨハン（ドイツ語） | ドイツ語形。 | 同じヘブライ語 Yōḥānān から |
+| **Ivan** | イワン（ロシア語） | ロシア語形。 | 同じヘブライ語 Yōḥānān から |
+
+<a id="peter"></a>
+### Peter（ピーター）
+
+**人名** / Lv.2 くらしの定番 / CEFR A1 — 男性名（英語形）。もとの意味は「岩、石」
+
+- 📍 シーン: ピーター・パン、ピーター・ラビット。
+- 💬 例文: *Peter Pan never grows up.* — ピーター・パンは決して大人にならない。
+- 📜 語源: ギリシャ語 Petros「岩」← petra
+  - イエスが弟子シモンに「岩」というあだ名をつけたのが始まり。ローマのサン・ピエトロ大聖堂は聖ペテロの墓の上に建つ。
+- 🌳 同じ語源の仲間: petroleum（石油＝岩の油）、Pete（ピート）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pierre** | ピエール（フランス語） | フランス語形。pierre は普通名詞で「石」。 | 同じギリシャ語 Petros から |
+| **Pedro** | ペドロ（スペイン語） | スペイン語・ポルトガル語形。 | 同じギリシャ語 Petros から |
+
+<a id="paul"></a>
+### Paul（ポール）
+
+**人名** / Lv.2 くらしの定番 / CEFR A1 — 男性名（英語・フランス語形）。もとの意味は「小さい」
+
+- 📍 シーン: ポール・マッカートニー、画家ポール・セザンヌ。
+- 💬 例文: *Paul McCartney wrote many songs for the Beatles.* — ポール・マッカートニーはビートルズのために多くの曲を書いた。
+- 📜 語源: ラテン語 Paulus「小さい」
+  - 使徒パウロの名。フランス語でも同じつづりで「ポール」と読む。
+- 🌳 同じ語源の仲間: Pauline（ポーリーン）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pablo** | パブロ（スペイン語） | スペイン語形。 | 同じラテン語 Paulus から |
+| **Paolo** | パオロ（イタリア語） | イタリア語形。 | 同じラテン語 Paulus から |
+
+<a id="george"></a>
+### George（ジョージ）
+
+**人名** / Lv.2 くらしの定番 / CEFR A1 — 男性名（英語形）。もとの意味は「農夫」
+
+- 📍 シーン: ジョージ・ワシントン、竜退治の聖ジョージ。
+- 💬 例文: *George Washington was the first President of the United States.* — ジョージ・ワシントンはアメリカの初代大統領だった。
+- 📜 語源: ギリシャ語 Geōrgios「農夫」← gē「大地」+ ergon「仕事」
+  - 竜を倒した聖ゲオルギウスはイングランドの守護聖人。アメリカのジョージア州は英国王ジョージ2世にちなむ。
+- 🌳 同じ語源の仲間: geography（地理）、energy（エネルギー）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Georges** | ジョルジュ（フランス語） | フランス語形。 | 同じギリシャ語 Geōrgios から |
+| **Jorge** | ホルヘ（スペイン語） | スペイン語形。 | 同じギリシャ語 Geōrgios から |
+
+<a id="charles"></a>
+### Charles（チャールズ）
+
+**人名** / Lv.2 くらしの定番 / CEFR A2 — 男性名（英語形）。もとの意味は「自由人、男」
+
+- 📍 シーン: チャールズ・ダーウィン、英国王チャールズ3世。
+- 💬 例文: *Charles Darwin wrote On the Origin of Species.* — チャールズ・ダーウィンは『種の起源』を書いた。
+- 📜 語源: ゲルマン語 karl「自由人、男」→ ラテン語 Carolus
+  - フランク王国のカール大帝（Charlemagne＝偉大なカール）で広まった。愛称は Charlie。
+- 🌳 同じ語源の仲間: Charlie（チャーリー）、Charlemagne（シャルルマーニュ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Karl** | カール（ドイツ語） | ドイツ語形。 | 同じゲルマン語 karl から |
+| **Carlos** | カルロス（スペイン語） | スペイン語形。 | 同じゲルマン語 karl から |
+
+<a id="william"></a>
+### William（ウィリアム）
+
+**人名** / Lv.2 くらしの定番 / CEFR A2 — 男性名（英語形）。もとの意味は「意志の兜（かぶと）」
+
+- 📍 シーン: ウィリアム・シェイクスピア、ウィリアム王子。
+- 💬 例文: *William Shakespeare wrote Romeo and Juliet.* — ウィリアム・シェイクスピアは『ロミオとジュリエット』を書いた。
+- 📜 語源: ゲルマン語 wil「意志」+ helm「兜」
+  - 1066年にイングランドを征服したウィリアム征服王で英国に広まった。愛称は Will、Bill。
+- 🌳 同じ語源の仲間: Bill（ビル）、Will（ウィル）、helmet（ヘルメット）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Wilhelm** | ヴィルヘルム（ドイツ語） | ドイツ語形。 | 同じゲルマン語から |
+| **Guillaume** | ギヨーム（フランス語） | フランス語形。 | 同じゲルマン語から |
+
+<a id="mary"></a>
+### Mary（メアリー）
+
+**人名** / Lv.2 くらしの定番 / CEFR A1 — 女性名（英語形）。聖母マリアの名
+
+- 📍 シーン: 童謡『メリーさんのひつじ（Mary Had a Little Lamb）』、メアリー・ポピンズ。
+- 💬 例文: *Mary had a little lamb.* — メリーさんはひつじを飼っていた。
+- 📜 語源: ヘブライ語 Miryām → ギリシャ語 Maria → ラテン語 Maria
+  - 意味ははっきりせず「海のしずく」「愛される者」など諸説ある。愛称は Molly、Polly。
+- 🌳 同じ語源の仲間: Molly（モリー）、Marilyn（マリリン）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Maria** | マリア（ラテン語など） | 多くの言語で使う形。 | 同じヘブライ語 Miryām から |
+| **Marie** | マリー（フランス語） | フランス語形。 | 同じヘブライ語 Miryām から |
+
+<a id="anne"></a>
+### Anne（アン）
+
+**人名** / Lv.2 くらしの定番 / CEFR A1 — 女性名（英語形）。もとの意味は「恵み」
+
+- 📍 シーン: 『赤毛のアン』、『アンネの日記』のアンネ（ドイツ語・オランダ語読み）。
+- 💬 例文: *Anne of Green Gables is loved by many Japanese readers.* — 『赤毛のアン』は多くの日本の読者に愛されている。
+- 📜 語源: ヘブライ語 Ḥannāh「恵み」→ ギリシャ語 Anna → フランス語 Anne
+  - 聖母マリアの母アンナの名。英語で e をつけると Anne、つけないと Ann。
+- 🌳 同じ語源の仲間: Annie（アニー）、Nancy（ナンシー：愛称から）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Anna** | アンナ | ラテン語・多くの言語の形。 | 同じヘブライ語から |
+| **Hannah** | ハンナ（ヘブライ語） | もとの形。 | ヘブライ語 Ḥannāh |
+
+<a id="james"></a>
+### James（ジェームズ）
+
+**人名** / Lv.2 くらしの定番 / CEFR A1 — 男性名（英語形）。Jacob（ヤコブ）と同じ名前から
+
+- 📍 シーン: ジェームズ・ボンド、ジェームズ・ディーン。
+- 💬 例文: *James Bond is a famous spy in films.* — ジェームズ・ボンドは映画の有名なスパイだ。
+- 📜 語源: ヘブライ語 Yaʻaqōv → ラテン語 Iacobus → 後期ラテン語 Iacomus → 古フランス語 James
+  - Jacob と James はもとは同じ名前。途中で b が m に変わった。愛称は Jim、Jimmy、Jamie。
+- 🌳 同じ語源の仲間: Jim（ジム）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jacob** | ジェイコブ | 同じ名前の古い形。 | ヘブライ語 Yaʻaqōv から |
+| **Jacques** | ジャック（フランス語） | フランス語形。 | 同じヘブライ語から |
+
+<a id="scotland"></a>
+### Scotland（スコットランド）
+
+**地名** / Lv.2 くらしの定番 / CEFR A2 — スコットランド（イギリスを構成する国の一つ）
+
+- 📍 シーン: バグパイプ、タータンチェック、スコッチウイスキー、ネス湖。
+- 💬 例文: *Scotland has its own parliament.* — スコットランドには独自の議会がある。
+- 📜 語源: ラテン語 Scotia ← アイルランドから移り住んだスコット人（Scoti）
+  - 首都はエディンバラ。スコットランド語（ゲール語）では Alba（アルバ）。
+- 🌳 同じ語源の仲間: Scottish（スコットランドの）、Scotch（スコッチ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Caledonia** | カレドニア | ラテン語での古い呼び名。 | ラテン語 Calēdonia |
+| **Alba** | アルバ | ゲール語での呼び名。 | スコットランド・ゲール語 Alba |
+
+<a id="netherlands"></a>
+### Netherlands（オランダ） ⚠️
+
+**地名** / Lv.2 くらしの定番 / CEFR A2 — オランダ（ネーデルラント）
+
+- 📍 シーン: チューリップ、風車、首都アムステルダム。
+- ⚠️ カタカナの罠: 「オランダ」はポルトガル語 Holanda から。英語では the Netherlands が正式で、Holland は2つの州だけを指す。オランダの人・言葉は Dutch。
+- 💬 例文: *The Netherlands has many windmills and canals.* — オランダには風車と運河がたくさんある。
+- 📜 語源: オランダ語 Nederland「低い土地」
+  - 国土の約4分の1が海面より低い。首都はアムステルダムだが政府はハーグにある。
+- 🌳 同じ語源の仲間: Dutch（オランダの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Holland** | ホラント | 通称。本来は西部の2州の名。 | オランダ語 holt「森」+ land |
+| **Nederland** | ネーデルラント | オランダ語での国名。 | neder「低い」+ land |
+
+<a id="switzerland"></a>
+### Switzerland（スイス） ⚠️
+
+**地名** / Lv.2 くらしの定番 / CEFR A2 — スイス
+
+- 📍 シーン: アルプス、時計、チーズフォンデュ、永世中立国。
+- ⚠️ カタカナの罠: 「スイス」はフランス語 Suisse から。英語では Switzerland。形容詞・人は Swiss。
+- 💬 例文: *Switzerland has four official languages.* — スイスには4つの公用語がある。
+- 📜 語源: ドイツ語 Schweiz ← シュヴィーツ州（Schwyz）の名
+  - 公式な略称は CH（ラテン語 Confoederatio Helvetica「ヘルウェティア連邦」）。
+- 🌳 同じ語源の仲間: Swiss（スイスの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Helvetia** | ヘルウェティア | ラテン語での呼び名。切手に書かれる。 | ラテン語 Helvētia |
+| **Schweiz** | シュヴァイツ | ドイツ語での国名。 | ドイツ語 Schweiz |
+
+<a id="greece"></a>
+### Greece（ギリシャ） ⚠️
+
+**地名** / Lv.2 くらしの定番 / CEFR A2 — ギリシャ
+
+- 📍 シーン: 首都アテネ、パルテノン神殿、オリンピック発祥の地。
+- ⚠️ カタカナの罠: 「ギリシャ」はポルトガル語 Grécia から。英語では Greece、ギリシャ語では Hellas。
+- 💬 例文: *Greece has thousands of islands.* — ギリシャには何千もの島がある。
+- 📜 語源: ラテン語 Graecia ← Graecī（ギリシャ人の一部族の名）
+  - ギリシャ人自身は国を Hellas（ヘラス）と呼ぶ。Hellenism（ヘレニズム）はここから。
+- 🌳 同じ語源の仲間: Greek（ギリシャの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hellas** | ヘラス | ギリシャ語での国名。 | ギリシャ語 Hellas |
+| **Hellenic Republic** | ギリシャ共和国 | 正式な国名。 | 英語 |
+
+<a id="russia"></a>
+### Russia（ロシア）
+
+**地名** / Lv.2 くらしの定番 / CEFR A1 — ロシア
+
+- 📍 シーン: 首都モスクワ、世界最大の国土。
+- 💬 例文: *Russia is the largest country in the world.* — ロシアは世界最大の国だ。
+- 📜 語源: 中世ラテン語 Russia ← ルーシ（Rus'、東スラヴの国）
+  - ルーシはスカンジナビアから来たバイキングの名とされる。
+- 🌳 同じ語源の仲間: Russian（ロシアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Rossiya** | ロシーヤ | ロシア語での国名。 | ロシア語 Россия |
+| **Russian Federation** | ロシア連邦 | 正式な国名。 | 英語 |
+
+<a id="south-korea"></a>
+### South Korea（韓国）
+
+**地名** / Lv.2 くらしの定番 / CEFR A1 — 韓国（大韓民国）
+
+- 📍 シーン: K-POP、韓国ドラマ、首都ソウル。
+- 💬 例文: *South Korea is famous for K-pop and dramas.* — 韓国はK-POPとドラマで有名だ。
+- 📜 語源: South「南の」+ Korea ← 高麗（Goryeo）
+  - 正式名は Republic of Korea（ROK）。韓国語では Hanguk（ハングク）。
+- 🌳 同じ語源の仲間: Korean（韓国の、韓国語）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Republic of Korea** | 大韓民国 | 正式な国名。 | 英語 |
+| **Hanguk** | ハングク | 韓国語での国名。 | 韓国語 한국 |
+
+<a id="thailand"></a>
+### Thailand（タイ） ⚠️
+
+**地名** / Lv.2 くらしの定番 / CEFR A1 — タイ
+
+- 📍 シーン: トムヤムクン、ムエタイ、首都バンコク。
+- ⚠️ カタカナの罠: 日本語の「タイ」だけでは英語で通じない。国名は Thailand、形容詞・言語・人は Thai。
+- 💬 例文: *Thailand was never colonized by a European country.* — タイはヨーロッパの国に植民地化されたことがない。
+- 📜 語源: タイ語 Prathet Thai「自由の国」
+  - 1939年までの国名は Siam（シャム）。シャム猫、シャム双生児の「シャム」。
+- 🌳 同じ語源の仲間: Thai（タイの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Siam** | シャム | 昔の国名。 | サンスクリット語由来とされる |
+| **Prathet Thai** | プラテート・タイ | タイ語での国名。 | タイ語 |
+
+<a id="egypt"></a>
+### Egypt（エジプト）
+
+**地名** / Lv.2 くらしの定番 / CEFR A1 — エジプト
+
+- 📍 シーン: ピラミッド、スフィンクス、ナイル川。首都カイロ。
+- 💬 例文: *The pyramids of Egypt are over 4,000 years old.* — エジプトのピラミッドは4千年以上前のものだ。
+- 📜 語源: ギリシャ語 Aigyptos ← エジプト語 Ḥwt-kꜣ-Ptḥ「プタハ神の魂の館」（古都メンフィスの名）
+  - Copt（コプト）、gypsy（ジプシー：エジプトから来たと誤解された）も同じ語から。
+- 🌳 同じ語源の仲間: Egyptian（エジプトの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Misr** | ミスル | アラビア語での国名。 | アラビア語 Miṣr |
+| **Land of the Pharaohs** | ファラオの国 | 愛称。 | 英語 |
+
+<a id="mexico"></a>
+### Mexico（メキシコ）
+
+**地名** / Lv.2 くらしの定番 / CEFR A1 — メキシコ
+
+- 📍 シーン: タコス、マリアッチ、ピラミッド。首都メキシコシティ。
+- 💬 例文: *Tacos come from Mexico.* — タコスはメキシコから来た。
+- 📜 語源: ナワトル語 Mēxihco（アステカの都の名）
+  - スペイン語では México（メヒコ）と読む。
+- 🌳 同じ語源の仲間: Mexican（メキシコの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **México** | メヒコ | スペイン語での国名。 | ナワトル語 |
+| **Aztec** | アステカ | かつての帝国。 | ナワトル語 |
+
+<a id="brazil"></a>
+### Brazil（ブラジル）
+
+**地名** / Lv.2 くらしの定番 / CEFR A1 — ブラジル
+
+- 📍 シーン: サッカー、サンバ、アマゾン。首都ブラジリア。
+- 💬 例文: *Brazil has won the World Cup five times.* — ブラジルはワールドカップで5回優勝している。
+- 📜 語源: ポルトガル語 pau-brasil「ブラジルボク（赤い染料がとれる木）」← brasa「燃えさし」
+  - 木の名前が国名になった。ポルトガル語では Brasil。
+- 🌳 同じ語源の仲間: Brazilian（ブラジルの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Brasil** | ブラジウ | ポルトガル語での国名。 | ポルトガル語 |
+| **Brasília** | ブラジリア | 首都。 | ポルトガル語 |
+
+<a id="new-zealand"></a>
+### New Zealand（ニュージーランド）
+
+**地名** / Lv.2 くらしの定番 / CEFR A2 — ニュージーランド
+
+- 📍 シーン: 羊、キウイ、ラグビーのオールブラックス、映画『ロード・オブ・ザ・リング』のロケ地。
+- 💬 例文: *New Zealand has more sheep than people.* — ニュージーランドには人より多くの羊がいる。
+- 📜 語源: オランダのゼーラント州（Zeeland「海の土地」）の名から
+  - マオリ語では Aotearoa（アオテアロア、「長い白い雲の国」）。
+- 🌳 同じ語源の仲間: Kiwi（ニュージーランド人）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Aotearoa** | アオテアロア | マオリ語での呼び名。 | マオリ語 |
+| **Kiwi** | キウイ | 国民の愛称。 | マオリ語 kiwi（鳥の名） |
+
+<a id="hawaii"></a>
+### Hawaii（ハワイ）
+
+**地名** / Lv.2 くらしの定番 / CEFR A1 — ハワイ（アメリカの州、ハワイ諸島）
+
+- 📍 シーン: ワイキキ、フラダンス、アロハシャツ。
+- 💬 例文: *Hawaii became the 50th US state in 1959.* — ハワイは1959年にアメリカの50番目の州になった。
+- 📜 語源: ハワイ語 Hawaiʻi（伝説の故郷 Hawaiki の説）
+  - 英語での発音は「ハワイイ」に近い。州都ホノルル。
+- 🌳 同じ語源の仲間: Hawaiian（ハワイの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Aloha State** | アロハ州 | 州の愛称。 | 英語 |
+| **Honolulu** | ホノルル | 州都。 | ハワイ語「守られた湾」 |
+
+<a id="rome"></a>
+### Rome（ローマ）
+
+**地名** / Lv.2 くらしの定番 / CEFR A1 — ローマ（イタリアの首都。古代ローマ帝国の都）
+
+- 📍 シーン: コロッセオ、トレビの泉。「すべての道はローマに通ず」。
+- 💬 例文: *All roads lead to Rome.* — すべての道はローマに通ず。
+- 📜 語源: ラテン語 Rōma（伝説の建国者ロムルスの名から）
+  - romance（恋愛物語）はもとは「ローマの言葉（俗ラテン語）で書かれた物語」。
+- 🌳 同じ語源の仲間: Roman（ローマの）、romance（ロマンス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Eternal City** | 永遠の都 | ローマの愛称。 | ラテン語 Urbs Aeterna |
+| **Roma** | ローマ | イタリア語での名。 | ラテン語 |
+
+<a id="berlin"></a>
+### Berlin（ベルリン）
+
+**地名** / Lv.2 くらしの定番 / CEFR A2 — ベルリン（ドイツの首都）
+
+- 📍 シーン: ブランデンブルク門、ベルリンの壁。
+- 💬 例文: *The Berlin Wall fell in 1989.* — ベルリンの壁は1989年に崩壊した。
+- 📜 語源: スラヴ語 berl-「沼地」の説
+  - 1961年から1989年まで東西に分断されていた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Brandenburg Gate** | ブランデンブルク門 | 町の象徴。 | 英語 |
+| **Berliner** | ベルリン市民 | 町の人。 | Berlin + -er |
+
+<a id="washington"></a>
+### Washington（ワシントン）
+
+**地名** / Lv.2 くらしの定番 / CEFR A2 — ワシントン（アメリカの首都ワシントンD.C.、および西海岸のワシントン州）
+
+- 📍 シーン: ホワイトハウス、リンカーン記念堂。
+- 💬 例文: *The White House is in Washington, D.C.* — ホワイトハウスはワシントンD.C.にある。
+- 📜 語源: 初代大統領ジョージ・ワシントンの名から
+  - D.C. は District of Columbia（コロンビア特別区）。どの州にも属さない。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **D.C.** | ディーシー | 首都の略称。 | District of Columbia |
+| **Washington State** | ワシントン州 | 同名の西海岸の州。 | 英語 |
+
+<a id="los-angeles"></a>
+### Los Angeles（ロサンゼルス）
+
+**地名** / Lv.2 くらしの定番 / CEFR A2 — ロサンゼルス（アメリカ西海岸の大都市）
+
+- 📍 シーン: ハリウッド、ビバリーヒルズ。略して LA。
+- 💬 例文: *Hollywood is a district of Los Angeles.* — ハリウッドはロサンゼルスの一地区だ。
+- 📜 語源: スペイン語 los ángeles「天使たち」
+  - 正式にはもっと長い「天使たちの女王の町」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **LA** | エルエー | 略称。 | 頭文字 |
+| **City of Angels** | 天使の町 | 愛称。 | 英語 |
+
+<a id="california"></a>
+### California（カリフォルニア）
+
+**地名** / Lv.2 くらしの定番 / CEFR A2 — カリフォルニア州（アメリカ西海岸の州）
+
+- 📍 シーン: ハリウッド、シリコンバレー、サンフランシスコ。州都はサクラメント。
+- 💬 例文: *Sacramento is the capital of California.* — サクラメントはカリフォルニア州の州都だ。
+- 📜 語源: スペインの騎士物語に出てくる架空の島の名
+  - 1848年のゴールドラッシュで人が押し寄せた。アメリカで最も人口の多い州。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Golden State** | 黄金の州 | 州の愛称。 | 英語 |
+| **CA** | CA（略号） | 郵便などで使う2文字の州の略号。 | California の略 |
 
 ## Lv.3 よく使う
 
@@ -17261,6 +17968,1039 @@
 |---|---|---|---|
 | **coin toss** | コイントス | 硬貨で決めること。 | coin + toss |
 | **game** | 遊び | ルールのある遊び。 | 古英語 gamen |
+
+<a id="michelle"></a>
+### Michelle（ミシェル）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名。Michael（マイケル）の女性形
+
+- 📍 シーン: ミシェル・オバマ元大統領夫人。ビートルズの曲「ミッシェル」。
+- 💬 例文: *Michelle Obama wrote a best-selling memoir.* — ミシェル・オバマはベストセラーの回想録を書いた。
+- 📜 語源: フランス語 Michel の女性形 Michèle ← ヘブライ語 Mīkhāʼēl
+  - 英語圏でも1960年代から人気の女性名に。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Michaela** | ミカエラ | ドイツ語・英語の女性形。 | Michael + 女性語尾 -a |
+| **Michel** | ミシェル（フランス語・男性） | もとの男性形。 | 同じヘブライ語から |
+
+<a id="jane"></a>
+### Jane（ジェーン）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名（英語形）。John の女性形
+
+- 📍 シーン: 『ジェーン・エア』、名なしの女性を表す Jane Doe。
+- 💬 例文: *Jane Austen wrote Pride and Prejudice.* — ジェーン・オースティンは『高慢と偏見』を書いた。
+- 📜 語源: 古フランス語 Jehanne ← ラテン語 Iohanna
+  - 身元不明の男性は John Doe、女性は Jane Doe と呼ぶ。
+- 🌳 同じ語源の仲間: Janet（ジャネット）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jeanne** | ジャンヌ（フランス語） | フランス語の女性形。 | 同じラテン語 Iohanna から |
+| **Joan** | ジョーン | 英語の古い女性形。 | 同じラテン語 Iohanna から |
+
+<a id="charlotte"></a>
+### Charlotte（シャーロット）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名。Charles の女性形
+
+- 📍 シーン: 『シャーロットのおくりもの』、作家シャーロット・ブロンテ。
+- 💬 例文: *Charlotte Brontë wrote Jane Eyre.* — シャーロット・ブロンテは『ジェーン・エア』を書いた。
+- 📜 語源: フランス語 Charlotte ← Charles + 指小辞 -otte
+  - フランス語では「シャルロット」。お菓子のシャルロットもこの名前から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Caroline** | キャロライン | 同じく Charles の女性形。 | ラテン語 Carolus + -ine |
+| **Carla** | カーラ | イタリア語などの女性形。 | Carlo + 女性語尾 -a |
+
+<a id="henry"></a>
+### Henry（ヘンリー）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語形）。もとの意味は「家の主」
+
+- 📍 シーン: ヘンリー8世、ヘンリー・フォード。
+- 💬 例文: *Henry Ford made cars that ordinary people could buy.* — ヘンリー・フォードは普通の人が買える車を作った。
+- 📜 語源: ゲルマン語 haim「家」+ rīk「支配者」
+  - 英国王やフランス王に多い名前。愛称は Harry（ハリー）、Hal。
+- 🌳 同じ語源の仲間: Harry（ハリー）、home（家）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Henri** | アンリ（フランス語） | フランス語形。 | 同じゲルマン語から |
+| **Heinrich** | ハインリヒ（ドイツ語） | ドイツ語形。 | 同じゲルマン語から |
+
+<a id="louis"></a>
+### Louis（ルイス）
+
+**人名** / Lv.3 よく使う / CEFR B1 — 男性名（英語での読み）。もとの意味は「名高い戦士」
+
+- 📍 シーン: ジャズのルイ・アームストロング（本人は英語風に「ルイス」と発音）。
+- 💬 例文: *Louis Armstrong was a great jazz trumpeter.* — ルイ・アームストロングは偉大なジャズのトランペット奏者だった。
+- 📜 語源: ゲルマン語 hlūd「名高い」+ wīg「戦い」→ フランク語 Chlodowig
+  - フランク王クローヴィスの名が変化したもの。英語では Lewis ともつづる。
+- 🌳 同じ語源の仲間: Lewis（ルイス）、Ludwig（ルートヴィヒ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ludwig** | ルートヴィヒ（ドイツ語） | ドイツ語形。 | 同じフランク語 Chlodowig から |
+| **Luigi** | ルイージ（イタリア語） | イタリア語形。 | 同じフランク語 Chlodowig から |
+
+<a id="joseph"></a>
+### Joseph（ジョセフ）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語・フランス語形）。もとの意味は「神が（子を）加えてくださる」
+
+- 📍 シーン: 聖母マリアの夫ヨセフ、『旧約聖書』のヨセフ物語。
+- 💬 例文: *Joseph was the husband of Mary in the Bible.* — 聖書でジョセフ（ヨセフ）はマリアの夫だった。
+- 📜 語源: ヘブライ語 Yōsēf「（神が）加える」
+  - フランス語でも Joseph とつづり「ジョゼフ」と読む。愛称は Joe、Joey。
+- 🌳 同じ語源の仲間: Joe（ジョー）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Josef** | ヨーゼフ（ドイツ語） | ドイツ語形。 | 同じヘブライ語 Yōsēf から |
+| **José** | ホセ（スペイン語） | スペイン語形。 | 同じヘブライ語 Yōsēf から |
+
+<a id="maria"></a>
+### Maria（マリア）
+
+**人名（ラテン語）** / Lv.3 よく使う / CEFR A2 — 女性名（ラテン語・イタリア語・スペイン語・ドイツ語などの形）。英語の Mary にあたる
+
+- 📍 シーン: 聖母マリア、「アヴェ・マリア」、『サウンド・オブ・ミュージック』のマリア。
+- 💬 例文: *Maria teaches the children to sing in The Sound of Music.* — 『サウンド・オブ・ミュージック』でマリアは子どもたちに歌を教える。
+- 📜 語源: ヘブライ語 Miryām → ギリシャ語 Maria
+  - 多くの国でそのままのつづりで使われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mary** | メアリー（英語） | 英語形。 | 同じヘブライ語から |
+| **Miriam** | ミリアム（ヘブライ語） | もとの形に近い名。 | ヘブライ語 Miryām |
+
+<a id="elizabeth"></a>
+### Elizabeth（エリザベス）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名（英語形）。もとの意味は「神は誓い」
+
+- 📍 シーン: エリザベス女王、ジェーン・オースティン『高慢と偏見』のエリザベス。
+- 💬 例文: *Queen Elizabeth II reigned for seventy years.* — エリザベス2世は70年間在位した。
+- 📜 語源: ヘブライ語 Elīsheva「わが神は誓い」→ ギリシャ語 Elisabet
+  - 洗礼者ヨハネの母エリサベトの名。愛称が非常に多い：Liz、Beth、Betty、Eliza、Lisa、Elsie など。
+- 🌳 同じ語源の仲間: Liz（リズ）、Betty（ベティ）、Beth（ベス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Elisabeth** | エリーザベト（ドイツ語） | ドイツ語形。 | 同じヘブライ語から |
+| **Isabel** | イサベル（スペイン語） | スペイン語形。 | 同じヘブライ語から |
+
+<a id="lisa"></a>
+### Lisa（リサ）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名。Elisabeth（Elizabeth）を短くした形
+
+- 📍 シーン: 『モナ・リザ（Mona Lisa）』、BLACKPINK のリサ。
+- 💬 例文: *Mona Lisa means "Madam Lisa" in old Italian.* — モナ・リザは古いイタリア語で「リザ夫人」という意味だ。
+- 📜 語源: Elisabeth の短縮形
+  - モナ・リザのモデルはリザ・ゲラルディーニという女性とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Elizabeth** | エリザベス | もとの長い形。 | ヘブライ語 Elīsheva から |
+| **Eliza** | イライザ | 英語の短い形。『マイ・フェア・レディ』の主人公。 | Elizabeth の短縮 |
+
+<a id="catherine"></a>
+### Catherine（キャサリン）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名（英語形）。「純粋な」の意味と結びつけられた
+
+- 📍 シーン: キャサリン妃、女優キャサリン・ゼタ＝ジョーンズ。
+- 💬 例文: *Catherine is the Princess of Wales.* — キャサリンはウェールズ公妃だ。
+- 📜 語源: ギリシャ語 Aikaterinē（語源不詳）→ ギリシャ語 katharos「純粋な」と結びつけられた
+  - 綴りに th が入ったのは katharos との連想から。Katherine、Kathryn とも書く。愛称は Kate、Kathy。
+- 🌳 同じ語源の仲間: Kate（ケイト）、catharsis（カタルシス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Katharina** | カタリーナ（ドイツ語） | ドイツ語形。 | 同じギリシャ語から |
+| **Ekaterina** | エカテリーナ（ロシア語） | ロシア語形。 | 同じギリシャ語から |
+
+<a id="anna"></a>
+### Anna（アンナ）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名（ラテン語・ロシア語・ドイツ語・イタリア語など）。英語の Anne にあたる
+
+- 📍 シーン: トルストイ『アンナ・カレーニナ』、『アナと雪の女王』のアナ。
+- 💬 例文: *Anna Karenina is a novel by Leo Tolstoy.* — 『アンナ・カレーニナ』はトルストイの小説だ。
+- 📜 語源: ヘブライ語 Ḥannāh → ギリシャ語・ラテン語 Anna
+  - 前から読んでも後ろから読んでも Anna（回文）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Anne** | アン（英語） | 英語形。 | 同じヘブライ語から |
+| **Anita** | アニータ（スペイン語） | スペイン語の愛称形。 | Ana + 指小辞 -ita |
+
+<a id="alexander"></a>
+### Alexander（アレクサンダー）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語・ドイツ語形）。もとの意味は「人々を守る者」
+
+- 📍 シーン: アレクサンドロス大王（Alexander the Great）、電話を発明したグラハム・ベル（Alexander Graham Bell）。
+- 💬 例文: *Alexander the Great built a huge empire.* — アレクサンダー大王は巨大な帝国を築いた。
+- 📜 語源: ギリシャ語 Alexandros ← alexein「守る」+ anēr「男、人」
+  - エジプトのアレクサンドリアは大王が築いた都市。愛称は Alex、Sandy、Sasha。
+- 🌳 同じ語源の仲間: Alex（アレックス）、Alexandria（アレクサンドリア）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Alexandre** | アレクサンドル（フランス語） | フランス語形。 | 同じギリシャ語から |
+| **Alejandro** | アレハンドロ（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="nicholas"></a>
+### Nicholas（ニコラス）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語形）。もとの意味は「民衆の勝利」
+
+- 📍 シーン: サンタクロースのモデル聖ニコラウス、俳優ニコラス・ケイジ。
+- 💬 例文: *Saint Nicholas is the model for Santa Claus.* — 聖ニコラスはサンタクロースのモデルだ。
+- 📜 語源: ギリシャ語 Nikolaos ← nikē「勝利」+ laos「民衆」
+  - Santa Claus はオランダ語 Sinterklaas（聖ニコラス）から。愛称は Nick。
+- 🌳 同じ語源の仲間: Nick（ニック）、Santa Claus（サンタクロース）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nicolas** | ニコラ（フランス語） | フランス語形。 | 同じギリシャ語から |
+| **Nikolai** | ニコライ（ロシア語） | ロシア語形。 | 同じギリシャ語から |
+
+<a id="stephen"></a>
+### Stephen（スティーブン）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語形）。もとの意味は「冠」
+
+- 📍 シーン: 物理学者スティーブン・ホーキング、作家スティーヴン・キング。
+- 💬 例文: *Stephen Hawking studied black holes.* — スティーブン・ホーキングはブラックホールを研究した。
+- 📜 語源: ギリシャ語 Stephanos「冠、花輪」
+  - キリスト教最初の殉教者ステファノの名。Steven ともつづる。愛称は Steve。
+- 🌳 同じ語源の仲間: Steve（スティーブ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Stefan** | シュテファン（ドイツ語） | ドイツ語形。 | 同じギリシャ語から |
+| **Esteban** | エステバン（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="andrew"></a>
+### Andrew（アンドリュー）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語形）。もとの意味は「男らしい」
+
+- 📍 シーン: 聖アンデレはスコットランドの守護聖人。ゴルフの聖地セント・アンドリュース。
+- 💬 例文: *Saint Andrew is the patron saint of Scotland.* — 聖アンドリューはスコットランドの守護聖人だ。
+- 📜 語源: ギリシャ語 Andreas ← anēr（andr-）「男」
+  - 英国旗の白い斜め十字は聖アンドリュー十字。愛称は Andy、Drew。
+- 🌳 同じ語源の仲間: android（アンドロイド：男に似たもの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **André** | アンドレ（フランス語） | フランス語形。 | 同じギリシャ語から |
+| **Andreas** | アンドレアス（ドイツ語） | ドイツ語・ギリシャ語形。 | 同じギリシャ語から |
+
+<a id="anthony"></a>
+### Anthony（アンソニー）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語形）。ローマの氏族名アントニウスから
+
+- 📍 シーン: 俳優アンソニー・ホプキンス、マルクス・アントニウス（Mark Antony）。
+- 💬 例文: *Anthony Hopkins won an Oscar for The Silence of the Lambs.* — アンソニー・ホプキンスは『羊たちの沈黙』でアカデミー賞を受賞した。
+- 📜 語源: ラテン語 Antonius（ローマの氏族名、語源不詳）
+  - ギリシャ語 anthos「花」と結びつけられて h が入った。Antony ともつづる。愛称は Tony。
+- 🌳 同じ語源の仲間: Tony（トニー）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Antoine** | アントワーヌ（フランス語） | フランス語形。 | 同じラテン語から |
+| **Antonio** | アントニオ（イタリア語） | イタリア語・スペイン語形。 | 同じラテン語から |
+
+<a id="julia"></a>
+### Julia（ジュリア）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名。Julius の女性形
+
+- 📍 シーン: 女優ジュリア・ロバーツ。
+- 💬 例文: *Julia Roberts starred in Pretty Woman.* — ジュリア・ロバーツは『プリティ・ウーマン』に主演した。
+- 📜 語源: ラテン語 Iulia ← Iulius
+  - ドイツ語では「ユリア」、スペイン語では Julia を「フリア」と読む。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Julie** | ジュリー（フランス語） | フランス語形。 | ラテン語 Iulia |
+| **Juliet** | ジュリエット | 愛称形。 | イタリア語 Giulietta |
+
+<a id="christopher"></a>
+### Christopher（クリストファー）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語形）。もとの意味は「キリストを運ぶ者」
+
+- 📍 シーン: コロンブス（Christopher Columbus）、映画監督クリストファー・ノーラン。
+- 💬 例文: *Christopher Columbus crossed the Atlantic in 1492.* — クリストファー・コロンブスは1492年に大西洋を渡った。
+- 📜 語源: ギリシャ語 Khristophoros ← Khristos「キリスト」+ pherein「運ぶ」
+  - 幼いキリストを背負って川を渡った聖クリストフォロスの伝説から。旅の守護聖人。愛称は Chris。
+- 🌳 同じ語源の仲間: Chris（クリス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Christophe** | クリストフ（フランス語） | フランス語形。 | 同じギリシャ語から |
+| **Cristóbal** | クリストバル（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="sophia"></a>
+### Sophia（ソフィア）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名。もとの意味は「知恵」
+
+- 📍 シーン: 女優ソフィア・ローレン、東京の上智（Sophia）大学。
+- 💬 例文: *Sophia means "wisdom" in Greek.* — ソフィアはギリシャ語で「知恵」という意味だ。
+- 📜 語源: ギリシャ語 sophia「知恵」
+  - philosophy（哲学）は「知恵を愛すること」。イスタンブールのアヤ・ソフィアは「聖なる知恵」。
+- 🌳 同じ語源の仲間: philosophy（哲学）、sophisticated（洗練された）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sophie** | ソフィー（フランス語） | フランス語形。 | 同じギリシャ語から |
+| **Sofia** | ソフィア（イタリア語・スペイン語） | 南欧の形。 | 同じギリシャ語から |
+
+<a id="helen"></a>
+### Helen（ヘレン）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名（英語形）。ギリシャ神話の美女ヘレネーの名
+
+- 📍 シーン: ヘレン・ケラー、トロイのヘレン。
+- 💬 例文: *Helen Keller learned to read and write though she could not see or hear.* — ヘレン・ケラーは目も耳も不自由だったが読み書きを学んだ。
+- 📜 語源: ギリシャ語 Helenē（語源不詳。「たいまつ」「光」などの説）
+  - トロイア戦争の原因となった美女ヘレネー。Ellen、Eleanor も同じ系統とされる。
+- 🌳 同じ語源の仲間: Ellen（エレン）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hélène** | エレーヌ（フランス語） | フランス語形。 | 同じギリシャ語から |
+| **Elena** | エレナ（イタリア語・スペイン語） | 南欧の形。 | 同じギリシャ語から |
+
+<a id="margaret"></a>
+### Margaret（マーガレット）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 女性名（英語形）。もとの意味は「真珠」
+
+- 📍 シーン: 英国首相マーガレット・サッチャー、花のマーガレット。
+- 💬 例文: *Margaret Thatcher was the first woman Prime Minister of Britain.* — マーガレット・サッチャーはイギリス初の女性首相だった。
+- 📜 語源: ギリシャ語 margaritēs「真珠」
+  - 花のマーガレットはフランス語 marguerite（ヒナギク）から。愛称は Maggie、Meg、Peggy、Greta など多い。
+- 🌳 同じ語源の仲間: Maggie（マギー）、Meg（メグ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Marguerite** | マルグリット（フランス語） | フランス語形。 | 同じギリシャ語から |
+| **Margherita** | マルゲリータ（イタリア語） | イタリア語形。 | 同じギリシャ語から |
+
+<a id="richard"></a>
+### Richard（リチャード）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語形）。もとの意味は「強い支配者」
+
+- 📍 シーン: 獅子心王リチャード1世、リチャード・ギア。
+- 💬 例文: *Richard the Lionheart was a king of England.* — 獅子心王リチャードはイングランドの王だった。
+- 📜 語源: ゲルマン語 rīc「支配者」+ hard「強い、固い」
+  - 愛称は Rick、Dick。hard は今の英語 hard と同じ。
+- 🌳 同じ語源の仲間: Dick（ディック）、hard（かたい）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ricardo** | リカルド（スペイン語） | スペイン語・ポルトガル語形。 | 同じゲルマン語から |
+| **Riccardo** | リッカルド（イタリア語） | イタリア語形。 | 同じゲルマン語から |
+
+<a id="philip"></a>
+### Philip（フィリップ）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語形）。もとの意味は「馬を愛する者」
+
+- 📍 シーン: エディンバラ公フィリップ殿下。フィリピン（Philippines）はスペイン王フェリペ2世にちなむ。
+- 💬 例文: *The Philippines were named after King Philip II of Spain.* — フィリピンはスペイン王フェリペ2世にちなんで名づけられた。
+- 📜 語源: ギリシャ語 Philippos ← philos「愛する」+ hippos「馬」
+  - アレクサンドロス大王の父もフィリッポス2世。Phillip ともつづる。愛称は Phil。
+- 🌳 同じ語源の仲間: hippopotamus（カバ：川の馬）、philosophy（哲学）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Philippe** | フィリップ（フランス語） | フランス語形。 | 同じギリシャ語から |
+| **Felipe** | フェリペ（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="mark-name"></a>
+### Mark（マーク）
+
+**人名** / Lv.3 よく使う / CEFR A2 — 男性名（英語形）。軍神マルスにちなむ名前
+
+- 📍 シーン: 作家マーク・トウェイン、福音書記者マルコ。
+- 💬 例文: *Mark Twain wrote The Adventures of Tom Sawyer.* — マーク・トウェインは『トム・ソーヤーの冒険』を書いた。
+- 📜 語源: ラテン語 Marcus ← 軍神 Mars「マルス」
+  - 普通名詞の mark（しるし）とは別の語。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Marc** | マルク（フランス語） | フランス語形。 | 同じラテン語から |
+| **Marco** | マルコ（イタリア語） | イタリア語形。 | 同じラテン語から |
+
+<a id="zeus"></a>
+### Zeus（ゼウス）
+
+**神名** / Lv.3 よく使う / CEFR B1 — ゼウス（ギリシャ神話の最高神。天空と雷の神）
+
+- 📍 シーン: ゲームや漫画の「全知全能の神」。オリンポス十二神の長。
+- 💬 例文: *Zeus threw thunderbolts at his enemies.* — ゼウスは敵に雷を投げつけた。
+- 📜 語源: ギリシャ語 Zeus ← 印欧祖語 *dyēus「天空、昼の光」
+  - ラテン語 deus（神）、英語 divine（神の）と同じ語根。ローマ神話のユピテル（Jupiter）にあたる。
+- 🌳 同じ語源の仲間: divine（神の）、Jupiter（ユピテル）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jupiter** | ユピテル（ローマ神話） | ローマ神話で対応する最高神。 | ラテン語 Iuppiter ← *dyēu-pater「天空の父」 |
+| **Jove** | ジョーヴ | ユピテルの別名。詩で使う。 | ラテン語 Iovis |
+
+<a id="adam"></a>
+### Adam（アダム）
+
+**人名** / Lv.3 よく使う / CEFR A2 — アダム（聖書で神が最初に作った男性）。男性名アダム
+
+- 📍 シーン: アダムとイブ、経済学者アダム・スミス。
+- 💬 例文: *Adam Smith is called the father of economics.* — アダム・スミスは経済学の父と呼ばれる。
+- 📜 語源: ヘブライ語 ʼādām「人」← ʼădāmāh「土」
+  - 土から作られたので「人」を意味する名前。のどぼとけは Adam's apple（禁断の果実がつかえた）。
+- 🌳 同じ語源の仲間: Adam's apple（のどぼとけ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Eve** | イブ | 最初の女性。アダムの妻。 | ヘブライ語 Ḥawwāh「生きる者」 |
+| **first man** | 最初の人 | 最初に作られた人間。 | 英語 |
+
+<a id="eve-name"></a>
+### Eve（イブ）
+
+**人名** / Lv.3 よく使う / CEFR A2 — イブ（聖書で最初の女性）。女性名イブ
+
+- 📍 シーン: アダムとイブ、禁断の果実。
+- 💬 例文: *Eve ate the forbidden fruit in the Garden of Eden.* — イブはエデンの園で禁断の果実を食べた。
+- 📜 語源: ヘブライ語 Ḥawwāh「生きる者、命」
+  - クリスマス・イブの eve（前夜）とは別の語。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Eva** | エヴァ | 多くの言語での形。 | ヘブライ語 Ḥawwāh |
+| **Adam** | アダム | 最初の男性。 | ヘブライ語 ʼādām |
+
+<a id="britain"></a>
+### Britain（ブリテン）
+
+**地名** / Lv.3 よく使う / CEFR A2 — イギリス（の通称）。グレートブリテン島
+
+- 📍 シーン: 「大英帝国（the British Empire）」、Brexit（ブレグジット＝ Britain + exit）。
+- 💬 例文: *Britain voted to leave the European Union in 2016.* — イギリスは2016年にEU離脱を投票で決めた。
+- 📜 語源: ラテン語 Britannia ← ケルト系のブリトン人（Britons）
+  - Great Britain はフランスのブルターニュ（小ブリテン）と区別するための呼び名。
+- 🌳 同じ語源の仲間: British（イギリスの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **United Kingdom** | 連合王国 | 正式な国名。 | 英語 |
+| **Albion** | アルビオン | イギリスの古い詩的な呼び名。 | ラテン語 albus「白い」（白い崖から） |
+
+<a id="ireland"></a>
+### Ireland（アイルランド）
+
+**地名** / Lv.3 よく使う / CEFR A2 — アイルランド（島、およびアイルランド共和国）
+
+- 📍 シーン: 聖パトリックの祝日、ギネスビール、ケルト音楽。首都ダブリン。
+- 💬 例文: *Ireland is called the Emerald Isle because it is so green.* — アイルランドは緑豊かなのでエメラルドの島と呼ばれる。
+- 📜 語源: 古英語 Īraland ← アイルランド語 Ériu（女神の名）
+  - アイルランド語では Éire（エール）。
+- 🌳 同じ語源の仲間: Irish（アイルランドの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Éire** | エール | アイルランド語での国名。 | アイルランド語 Éire |
+| **Emerald Isle** | エメラルドの島 | アイルランドの愛称。 | 英語 |
+
+<a id="portugal"></a>
+### Portugal（ポルトガル）
+
+**地名** / Lv.3 よく使う / CEFR A2 — ポルトガル
+
+- 📍 シーン: カステラやパンは16世紀にポルトガルから伝わった。首都リスボン。
+- 💬 例文: *Portugal was the first European country to trade with Japan.* — ポルトガルは日本と貿易した最初のヨーロッパの国だった。
+- 📜 語源: ラテン語 Portus Cale「カレの港」（今のポルト市）
+  - ポルトガル語由来の日本語が多い（パン、カルタ、ボタン、コップ、タバコなど）。
+- 🌳 同じ語源の仲間: Portuguese（ポルトガルの）、port（港）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lusitania** | ルシタニア | ローマ時代の呼び名。 | ラテン語 Lūsītānia |
+| **Iberia** | イベリア | 半島の古い呼び名。 | ギリシャ語 Ibēria |
+
+<a id="belgium"></a>
+### Belgium（ベルギー）
+
+**地名** / Lv.3 よく使う / CEFR A2 — ベルギー
+
+- 📍 シーン: チョコレート、ワッフル、首都ブリュッセル（EU本部）。
+- 💬 例文: *Belgium is famous for chocolate and waffles.* — ベルギーはチョコレートとワッフルで有名だ。
+- 📜 語源: ラテン語 Belgae（古代のベルガエ族）
+  - 「ベルギー」はオランダ語 België から。オランダ語・フランス語・ドイツ語が公用語。
+- 🌳 同じ語源の仲間: Belgian（ベルギーの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **België** | ベルヒエ | オランダ語での国名。 | ラテン語 Belgica |
+| **Belgique** | ベルジック | フランス語での国名。 | ラテン語 Belgica |
+
+<a id="austria"></a>
+### Austria（オーストリア） ⚠️
+
+**地名** / Lv.3 よく使う / CEFR A2 — オーストリア
+
+- 📍 シーン: 首都ウィーン、モーツァルト、『サウンド・オブ・ミュージック』。
+- ⚠️ カタカナの罠: Australia（オーストラリア）と間違えやすい。「オーストリアにはカンガルーはいない」というTシャツが売られているほど。
+- 💬 例文: *Mozart was born in Austria.* — モーツァルトはオーストリアで生まれた。
+- 📜 語源: ドイツ語 Österreich「東の国」のラテン語化
+  - Australia（南の国）とは別の語源。
+- 🌳 同じ語源の仲間: Austrian（オーストリアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Österreich** | エスターライヒ | ドイツ語での国名。 | ドイツ語 ost「東」+ Reich「国」 |
+| **Habsburg** | ハプスブルク | 長く治めた王家の名。 | ドイツ語 Habichtsburg「鷹の城」 |
+
+<a id="denmark"></a>
+### Denmark（デンマーク）
+
+**地名** / Lv.3 よく使う / CEFR A2 — デンマーク
+
+- 📍 シーン: アンデルセン、レゴ、首都コペンハーゲン。
+- 💬 例文: *LEGO bricks were invented in Denmark.* — レゴブロックはデンマークで発明された。
+- 📜 語源: 古ノルド語 Danmǫrk「デーン人の境界地」
+  - mark はここでは「国境地帯」の意味。
+- 🌳 同じ語源の仲間: Danish（デンマークの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Danmark** | ダンマーク | デンマーク語での国名。 | 古ノルド語 Danmǫrk |
+| **Scandinavia** | スカンジナビア | 北欧の地域名。 | ラテン語 Scandia |
+
+<a id="sweden"></a>
+### Sweden（スウェーデン）
+
+**地名** / Lv.3 よく使う / CEFR A2 — スウェーデン
+
+- 📍 シーン: IKEA、ノーベル賞、首都ストックホルム。
+- 💬 例文: *The Nobel Prizes are given in Sweden and Norway.* — ノーベル賞はスウェーデンとノルウェーで授与される。
+- 📜 語源: 古英語 Swēoþēod「スウェード人の民族」
+  - スウェーデン語では Sverige（スヴェリエ）。
+- 🌳 同じ語源の仲間: Swedish（スウェーデンの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sverige** | スヴェリエ | スウェーデン語での国名。 | 古ノルド語 Svíaríki「スウェード人の国」 |
+| **Scandinavia** | スカンジナビア | 北欧の地域名。 | ラテン語 Scandia |
+
+<a id="norway"></a>
+### Norway（ノルウェー）
+
+**地名** / Lv.3 よく使う / CEFR A2 — ノルウェー
+
+- 📍 シーン: フィヨルド、オーロラ、サーモン。首都オスロ。
+- 💬 例文: *Norway is famous for its beautiful fjords.* — ノルウェーは美しいフィヨルドで有名だ。
+- 📜 語源: 古ノルド語 Norðvegr「北への道」
+  - 海岸沿いの航路の名前が国名になった。
+- 🌳 同じ語源の仲間: Norwegian（ノルウェーの）、north（北）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Norge** | ノルゲ | ノルウェー語での国名。 | 古ノルド語 Norðvegr |
+| **Scandinavia** | スカンジナビア | 北欧の地域名。 | ラテン語 Scandia |
+
+<a id="finland"></a>
+### Finland（フィンランド）
+
+**地名** / Lv.3 よく使う / CEFR A2 — フィンランド
+
+- 📍 シーン: ムーミン、サンタクロース村、サウナ。首都ヘルシンキ。
+- 💬 例文: *The word sauna comes from Finland.* — サウナという言葉はフィンランドから来た。
+- 📜 語源: スウェーデン語 Finland「フィン人の土地」
+  - フィンランド語では Suomi（スオミ）。
+- 🌳 同じ語源の仲間: Finnish（フィンランドの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Suomi** | スオミ | フィンランド語での国名。 | フィンランド語 suomi（語源不詳） |
+| **Nordic countries** | 北欧諸国 | 北欧の国々。 | 英語 |
+
+<a id="poland"></a>
+### Poland（ポーランド）
+
+**地名** / Lv.3 よく使う / CEFR A2 — ポーランド
+
+- 📍 シーン: ショパンやキュリー夫人の祖国。首都ワルシャワ。
+- 💬 例文: *Chopin was born in Poland.* — ショパンはポーランドで生まれた。
+- 📜 語源: ポーランド語 Polska ← pole「平原」
+  - 「平原の民」ポラン族の名から。
+- 🌳 同じ語源の仲間: Polish（ポーランドの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Polska** | ポルスカ | ポーランド語での国名。 | ポーランド語 pole「平原」 |
+| **Polonia** | ポロニア | ラテン語での呼び名。 | ラテン語 Polonia |
+
+<a id="taiwan"></a>
+### Taiwan（台湾）
+
+**地名** / Lv.3 よく使う / CEFR A2 — 台湾
+
+- 📍 シーン: タピオカミルクティー、夜市、首都台北。
+- 💬 例文: *Taiwan is famous for its night markets.* — 台湾は夜市で有名だ。
+- 📜 語源: 中国語 Táiwān（台湾）
+  - ポルトガル人が「美しい島」と呼んだので、欧米では Formosa（フォルモサ）とも呼ばれた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Formosa** | フォルモサ | 古い欧米での呼び名。 | ポルトガル語 formosa「美しい」 |
+| **Republic of China** | 中華民国 | 台湾当局の正式名。 | 英語 |
+
+<a id="hong-kong"></a>
+### Hong Kong（香港）
+
+**地名** / Lv.3 よく使う / CEFR A2 — 香港
+
+- 📍 シーン: 百万ドルの夜景、飲茶、金融の中心地。
+- 💬 例文: *Hong Kong is famous for its night view.* — 香港は夜景で有名だ。
+- 📜 語源: 広東語 Hēunggóng「香りの港」
+  - 1997年にイギリスから中国に返還された。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **HK** | エイチケー | 略称。 | 頭文字 |
+| **Pearl of the Orient** | 東洋の真珠 | 香港の愛称。 | 英語 |
+
+<a id="vietnam"></a>
+### Vietnam（ベトナム）
+
+**地名** / Lv.3 よく使う / CEFR A2 — ベトナム
+
+- 📍 シーン: フォー、バインミー、アオザイ。首都ハノイ。
+- 💬 例文: *Pho is a famous noodle soup from Vietnam.* — フォーはベトナムの有名な麺料理だ。
+- 📜 語源: ベトナム語 Việt Nam「越の南」
+  - 漢字では「越南」。
+- 🌳 同じ語源の仲間: Vietnamese（ベトナムの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Viet Nam** | ヴィエットナム | ベトナム語に近い表記。 | 越南 |
+| **Indochina** | インドシナ | かつての地域名。 | India + China |
+
+<a id="singapore"></a>
+### Singapore（シンガポール）
+
+**地名** / Lv.3 よく使う / CEFR A2 — シンガポール
+
+- 📍 シーン: マーライオン、マリーナベイ・サンズ。
+- 💬 例文: *Singapore is both a city and a country.* — シンガポールは都市であり国でもある。
+- 📜 語源: サンスクリット語 Siṃhapura「ライオンの町」
+  - 実際にはライオンは住んでいなかった。マーライオンは名前にちなんだ像。
+- 🌳 同じ語源の仲間: Singaporean（シンガポールの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lion City** | ライオンの町 | 国名の意味からの愛称。 | 英語 |
+| **Singapura** | シンガプーラ | マレー語での国名。 | サンスクリット語 Siṃhapura |
+
+<a id="indonesia"></a>
+### Indonesia（インドネシア）
+
+**地名** / Lv.3 よく使う / CEFR A2 — インドネシア
+
+- 📍 シーン: バリ島、ナシゴレン、首都ジャカルタ。
+- 💬 例文: *Indonesia is made up of more than 17,000 islands.* — インドネシアは1万7千以上の島から成る。
+- 📜 語源: ギリシャ語 Indos「インド」+ nēsos「島」＝「インドの島々」
+  - Polynesia（多くの島々）、Micronesia（小さな島々）と同じ nēsos。
+- 🌳 同じ語源の仲間: Indonesian（インドネシアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **East Indies** | 東インド諸島 | 昔の呼び名。 | 英語 |
+| **Nusantara** | ヌサンタラ | インドネシア語での美称。新首都の名にも。 | 古ジャワ語「外の島々」 |
+
+<a id="philippines"></a>
+### Philippines（フィリピン）
+
+**地名** / Lv.3 よく使う / CEFR A2 — フィリピン
+
+- 📍 シーン: マニラ、セブ島、英語留学。
+- 💬 例文: *The Philippines was named after King Philip II of Spain.* — フィリピンはスペイン王フェリペ2世にちなんで名づけられた。
+- 📜 語源: スペイン語 Las Islas Filipinas「フェリペの島々」
+  - 英語では the Philippines と複数形で冠詞をつける。人は Filipino（フィリピノ）。
+- 🌳 同じ語源の仲間: Filipino（フィリピン人）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pilipinas** | ピリピナス | フィリピノ語での国名。 | スペイン語 Filipinas |
+| **Philip** | フィリップ | 国名の元になった王の名。 | ギリシャ語 Philippos |
+
+<a id="turkey-country"></a>
+### Turkey（トルコ） ⚠️
+
+**地名** / Lv.3 よく使う / CEFR A2 — トルコ（テュルキエ）
+
+- 📍 シーン: イスタンブール、トルコアイス、カッパドキア。
+- ⚠️ カタカナの罠: 「トルコ」はポルトガル語 Turco から。英語 turkey は鳥の「七面鳥」も指す。2022年から国連では Türkiye（テュルキエ）が正式な英語名。
+- 💬 例文: *Turkey connects Europe and Asia.* — トルコはヨーロッパとアジアをつないでいる。
+- 📜 語源: トルコ人（Turk）+ 地名の語尾 -ey
+  - 七面鳥は「トルコ経由で来た鳥」と誤解されて turkey と呼ばれた。
+- 🌳 同じ語源の仲間: Turkish（トルコの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Türkiye** | テュルキエ | トルコ語での国名。現在の正式英語名。 | トルコ語 |
+| **Anatolia** | アナトリア | 国土の大部分を占める半島。 | ギリシャ語「日の出の地」 |
+
+<a id="argentina"></a>
+### Argentina（アルゼンチン）
+
+**地名** / Lv.3 よく使う / CEFR A2 — アルゼンチン
+
+- 📍 シーン: タンゴ、サッカーのメッシ、首都ブエノスアイレス。
+- 💬 例文: *Tango was born in Argentina.* — タンゴはアルゼンチンで生まれた。
+- 📜 語源: ラテン語 argentum「銀」
+  - 銀が取れると期待された。元素記号 Ag も argentum から。
+- 🌳 同じ語源の仲間: Argentine（アルゼンチンの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Buenos Aires** | ブエノスアイレス | 首都（「良い空気」）。 | スペイン語 |
+| **Patagonia** | パタゴニア | 南部の地方名。 | スペイン語 |
+
+<a id="chile"></a>
+### Chile（チリ）
+
+**地名** / Lv.3 よく使う / CEFR A2 — チリ
+
+- 📍 シーン: 細長い国土、ワイン、モアイ像のイースター島。
+- 💬 例文: *Chile is more than 4,000 kilometers long.* — チリは長さが4千キロ以上ある。
+- 📜 語源: 先住民の言葉で「地の果て」「寒い」などの説
+  - 唐辛子の chili とは別の語。
+- 🌳 同じ語源の仲間: Chilean（チリの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Santiago** | サンティアゴ | 首都。 | スペイン語「聖ヤコブ」 |
+| **Rapa Nui** | ラパ・ヌイ | チリ領イースター島の現地名。 | ポリネシア語 |
+
+<a id="everest"></a>
+### Everest（エベレスト）
+
+**地名** / Lv.3 よく使う / CEFR A2 — エベレスト（世界最高峰）
+
+- 📍 シーン: 標高8848メートル。
+- 💬 例文: *Mount Everest is the highest mountain in the world.* — エベレストは世界で最も高い山だ。
+- 📜 語源: 英国の測量局長ジョージ・エベレスト（George Everest）の名から
+  - チベット語では Chomolungma（チョモランマ、「大地の母神」）、ネパール語では Sagarmatha。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Chomolungma** | チョモランマ | チベット語での名。 | チベット語 |
+| **Sagarmatha** | サガルマータ | ネパール語での名。 | ネパール語「空の額」 |
+
+<a id="amazon"></a>
+### Amazon（アマゾン）
+
+**地名** / Lv.3 よく使う / CEFR A2 — アマゾン川（流域）
+
+- 📍 シーン: 世界最大の熱帯雨林、通販会社の名前。
+- 💬 例文: *The Amazon carries more water than any other river.* — アマゾン川はほかのどの川よりも多くの水を運ぶ。
+- 📜 語源: ギリシャ神話の女戦士族アマゾン（Amazōn）から
+  - 探検家が戦う女性たちに出会ったという話からこの名がついた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Amazon rainforest** | アマゾンの熱帯雨林 | 流域の森林。 | 英語 |
+| **Amazonia** | アマゾニア | アマゾン流域全体。 | ラテン語風 |
+
+<a id="nile"></a>
+### Nile（ナイル）
+
+**地名** / Lv.3 よく使う / CEFR A2 — ナイル川
+
+- 📍 シーン: 世界最長級の川。エジプト文明を育てた。
+- 💬 例文: *The Nile flows north into the Mediterranean.* — ナイル川は北へ流れて地中海に注ぐ。
+- 📜 語源: ギリシャ語 Neilos（語源不詳）
+  - 「エジプトはナイルの賜物」はヘロドトスの言葉。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **White Nile** | 白ナイル | 支流の一つ。 | 英語 |
+| **Blue Nile** | 青ナイル | 支流の一つ。 | 英語 |
+
+<a id="vienna"></a>
+### Vienna（ウィーン） ⚠️
+
+**地名** / Lv.3 よく使う / CEFR A2 — ウィーン（オーストリアの首都）
+
+- 📍 シーン: 音楽の都、ウィーン少年合唱団、ザッハトルテ。
+- ⚠️ カタカナの罠: 「ウィーン」はドイツ語 Wien から。英語では Vienna（ヴィエナ）。ウインナーコーヒーやウインナーソーセージの「ウインナー」は Wiener（ウィーンの）。
+- 💬 例文: *Vienna is known as the City of Music.* — ウィーンは音楽の都として知られている。
+- 📜 語源: ラテン語 Vindobona（ケルト語「白い土地」の説）→ ドイツ語 Wien
+  - モーツァルト、ベートーヴェン、シューベルトが活躍した。
+- 🌳 同じ語源の仲間: wiener（ウインナー）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Wien** | ヴィーン | ドイツ語での名。 | ドイツ語 |
+| **City of Music** | 音楽の都 | 愛称。 | 英語 |
+
+<a id="moscow"></a>
+### Moscow（モスクワ） ⚠️
+
+**地名** / Lv.3 よく使う / CEFR A2 — モスクワ（ロシアの首都）
+
+- 📍 シーン: 赤の広場、クレムリン、ボリショイ劇場。
+- ⚠️ カタカナの罠: 「モスクワ」はロシア語 Moskva から。英語では Moscow（モスコウ）。
+- 💬 例文: *The Kremlin is in the center of Moscow.* — クレムリンはモスクワの中心にある。
+- 📜 語源: ロシア語 Moskva（モスクワ川の名。語源不詳）
+  - カクテルのモスコミュール（Moscow mule）の Moscow。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Moskva** | モスクワ | ロシア語での名。 | ロシア語 |
+| **Kremlin** | クレムリン | 中心の城塞。ロシア政府の代名詞。 | ロシア語 kreml'「城塞」 |
+
+<a id="athens"></a>
+### Athens（アテネ） ⚠️
+
+**地名** / Lv.3 よく使う / CEFR A2 — アテネ（ギリシャの首都）
+
+- 📍 シーン: パルテノン神殿、古代民主政治、2004年五輪。
+- ⚠️ カタカナの罠: 「アテネ」はギリシャ語 Athēnai から。英語では Athens（アセンズ）。
+- 💬 例文: *Democracy was born in ancient Athens.* — 民主主義は古代アテネで生まれた。
+- 📜 語源: ギリシャ語 Athēnai（女神アテナの名から）
+  - 町の守護神の名前がそのまま町の名になった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Athina** | アシーナ | 現代ギリシャ語での名。 | ギリシャ語 |
+| **Acropolis** | アクロポリス | 丘の上の神殿地区。 | ギリシャ語「高い町」 |
+
+<a id="madrid"></a>
+### Madrid（マドリード）
+
+**地名** / Lv.3 よく使う / CEFR A2 — マドリード（スペインの首都）
+
+- 📍 シーン: プラド美術館、レアル・マドリード。
+- 💬 例文: *Real Madrid is a famous football club.* — レアル・マドリードは有名なサッカークラブだ。
+- 📜 語源: アラビア語 majrīṭ「水路」の説
+  - イスラム時代の砦から発展した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Madrileño** | マドリレーニョ | マドリード市民。 | スペイン語 |
+| **Castile** | カスティーリャ | 町がある地方。 | スペイン語「城の地」 |
+
+<a id="barcelona"></a>
+### Barcelona（バルセロナ）
+
+**地名** / Lv.3 よく使う / CEFR A2 — バルセロナ（スペイン・カタルーニャの都市）
+
+- 📍 シーン: サグラダ・ファミリア、ガウディ、FCバルセロナ。
+- 💬 例文: *The Sagrada Família in Barcelona is still under construction.* — バルセロナのサグラダ・ファミリアはまだ建設中だ。
+- 📜 語源: ラテン語 Barcino（カルタゴのバルカ家の名の説）
+  - カタルーニャ語とスペイン語が話される。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Barça** | バルサ | サッカークラブの愛称。 | カタルーニャ語 |
+| **Catalonia** | カタルーニャ | 町がある州。 | カタルーニャ語 Catalunya |
+
+<a id="istanbul"></a>
+### Istanbul（イスタンブール）
+
+**地名** / Lv.3 よく使う / CEFR A2 — イスタンブール（トルコ最大の都市）
+
+- 📍 シーン: アヤソフィア、ブルーモスク、ボスポラス海峡。
+- 💬 例文: *Istanbul is on two continents, Europe and Asia.* — イスタンブールはヨーロッパとアジアの2つの大陸にまたがっている。
+- 📜 語源: ギリシャ語 eis tēn polin「町へ」の説
+  - 昔の名はビザンティウム、コンスタンティノープル。首都はアンカラ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Constantinople** | コンスタンティノープル | 東ローマ帝国時代の名。 | コンスタンティヌス帝の町 |
+| **Byzantium** | ビザンティウム | 古代の名。 | ギリシャ語 |
+
+<a id="seoul"></a>
+### Seoul（ソウル）
+
+**地名** / Lv.3 よく使う / CEFR A2 — ソウル（韓国の首都）
+
+- 📍 シーン: 明洞、景福宮、Kカルチャーの中心。
+- 💬 例文: *Seoul is the capital of South Korea.* — ソウルは韓国の首都だ。
+- 📜 語源: 韓国語 서울「都」
+  - 漢字の当て字がない珍しい地名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hanyang** | 漢陽 | 朝鮮時代の名。 | 朝鮮語 |
+| **South Korea** | 韓国 | 町がある国。 | 英語 |
+
+<a id="beijing"></a>
+### Beijing（北京）
+
+**地名** / Lv.3 よく使う / CEFR A2 — 北京（中国の首都）
+
+- 📍 シーン: 天安門、万里の長城、北京ダック。
+- 💬 例文: *The Great Wall is not far from Beijing.* — 万里の長城は北京からそれほど遠くない。
+- 📜 語源: 中国語 Běijīng「北の都」
+  - 以前は英語で Peking（ペキン）と書いた。Peking duck（北京ダック）に名残がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Peking** | ペキン | 昔の英語でのつづり。 | 中国語 |
+| **Nanjing** | 南京 | 「南の都」。 | 中国語 |
+
+<a id="shanghai"></a>
+### Shanghai（上海）
+
+**地名** / Lv.3 よく使う / CEFR A2 — 上海（中国最大の都市）
+
+- 📍 シーン: 外灘の夜景、上海蟹。
+- 💬 例文: *Shanghai is one of the biggest cities in the world.* — 上海は世界最大級の都市だ。
+- 📜 語源: 中国語 Shànghǎi「海へ上る所」
+  - 英語の動詞 shanghai は「（船乗りにするため）無理やり連れて行く」の意味。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pudong** | 浦東 | 新しい金融地区。 | 中国語 |
+| **the Bund** | 外灘 | 川沿いの歴史的な通り。 | 英語 |
+
+<a id="bangkok"></a>
+### Bangkok（バンコク）
+
+**地名** / Lv.3 よく使う / CEFR A2 — バンコク（タイの首都）
+
+- 📍 シーン: 寺院、屋台、トゥクトゥク。
+- 💬 例文: *Bangkok is famous for its street food.* — バンコクは屋台料理で有名だ。
+- 📜 語源: タイ語 Bang Kok「オリーブの村」の説
+  - タイ語での正式名はとても長く、「天使の都（Krung Thep）」で始まる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Krung Thep** | クルンテープ | タイ語での呼び名「天使の都」。 | タイ語 |
+| **Thailand** | タイ | 町がある国。 | タイ語 |
+
+<a id="sydney"></a>
+### Sydney（シドニー） ⚠️
+
+**地名** / Lv.3 よく使う / CEFR A2 — シドニー（オーストラリア最大の都市）
+
+- 📍 シーン: オペラハウス、ハーバーブリッジ。首都はキャンベラ。
+- ⚠️ カタカナの罠: シドニーはオーストラリアの首都ではない。首都はキャンベラ（Canberra）。
+- 💬 例文: *Many people think Sydney is the capital of Australia, but it isn't.* — シドニーがオーストラリアの首都だと思っている人は多いが、そうではない。
+- 📜 語源: 英国の政治家シドニー卿（Lord Sydney）の名から
+  - 人名 Sidney と同じく、フランスの地名 Saint-Denis からとも言われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Canberra** | キャンベラ | 本当の首都。 | 先住民の言葉「集会所」 |
+| **Harbour City** | ハーバーシティ | 愛称。 | 英語 |
+
+<a id="hollywood"></a>
+### Hollywood（ハリウッド）
+
+**地名** / Lv.3 よく使う / CEFR A2 — ハリウッド（ロサンゼルスの地区。アメリカ映画界）
+
+- 📍 シーン: ハリウッドサイン、アカデミー賞。
+- 💬 例文: *Hollywood is the center of the American film industry.* — ハリウッドはアメリカ映画産業の中心だ。
+- 📜 語源: holly「ヒイラギ」+ wood「森」
+  - 不動産開発業者の妻がつけた名前と言われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Tinseltown** | ティンゼルタウン | ハリウッドの皮肉をこめた愛称（見かけだけ華やか）。 | tinsel + town |
+| **Bollywood** | ボリウッド | インドの映画界。 | Bombay + Hollywood |
+
+<a id="san-francisco"></a>
+### San Francisco（サンフランシスコ）
+
+**地名** / Lv.3 よく使う / CEFR A2 — サンフランシスコ
+
+- 📍 シーン: ゴールデン・ゲート・ブリッジ、ケーブルカー、坂道。
+- 💬 例文: *The Golden Gate Bridge is in San Francisco.* — ゴールデン・ゲート・ブリッジはサンフランシスコにある。
+- 📜 語源: スペイン語「聖フランシスコ（アッシジの聖フランチェスコ）」
+  - 地元の人は「フリスコ」と呼ばれるのを嫌う。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **SF** | エスエフ | 略称。 | 頭文字 |
+| **Golden Gate** | ゴールデンゲート | 湾口の海峡と橋の名。 | 英語 |
+
+<a id="las-vegas"></a>
+### Las Vegas（ラスベガス）
+
+**地名** / Lv.3 よく使う / CEFR A2 — ラスベガス（ネバダ州のカジノの町）
+
+- 📍 シーン: カジノ、ショー、砂漠の中のネオンの町。
+- 💬 例文: *Las Vegas is in the middle of the desert.* — ラスベガスは砂漠の真ん中にある。
+- 📜 語源: スペイン語 las vegas「牧草地」
+  - 砂漠の中に水と草のある場所があったことから。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Vegas** | ベガス | 略称。 | スペイン語 |
+| **Sin City** | 罪の町 | 愛称。 | 英語 |
+
+<a id="alaska"></a>
+### Alaska（アラスカ）
+
+**地名** / Lv.3 よく使う / CEFR A2 — アラスカ州（アメリカ最北の州）
+
+- 📍 シーン: オーロラ、氷河、クマ、デナリ山。州都はジュノー。
+- 💬 例文: *Juneau is the capital of Alaska.* — ジュノーはアラスカ州の州都だ。
+- 📜 語源: アレウト語 alaxsxaq「本土」
+  - 1867年にロシアから720万ドルで買われた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Last Frontier** | 最後のフロンティア | 州の愛称。 | 英語 |
+| **AK** | AK（略号） | 郵便などで使う2文字の州の略号。 | Alaska の略 |
+
+<a id="florida"></a>
+### Florida（フロリダ）
+
+**地名** / Lv.3 よく使う / CEFR A2 — フロリダ州（アメリカ南東端の州）
+
+- 📍 シーン: ディズニー・ワールド、マイアミ、ロケット発射場。州都はタラハシー。
+- 💬 例文: *Tallahassee is the capital of Florida.* — タラハシーはフロリダ州の州都だ。
+- 📜 語源: スペイン語 Pascua florida「花の復活祭」
+  - 1513年の復活祭の時期にスペイン人が到着した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sunshine State** | 太陽の州 | 州の愛称。 | 英語 |
+| **FL** | FL（略号） | 郵便などで使う2文字の州の略号。 | Florida の略 |
+
+<a id="texas"></a>
+### Texas（テキサス）
+
+**地名** / Lv.3 よく使う / CEFR A2 — テキサス州（アメリカ南部の大きな州）
+
+- 📍 シーン: カウボーイ、テキサスバーベキュー、ヒューストンの宇宙センター。州都はオースティン。
+- 💬 例文: *Austin is the capital of Texas.* — オースティンはテキサス州の州都だ。
+- 📜 語源: カド語 táyshaʔ「友」（スペイン語経由）
+  - アラスカに次いで2番目に大きな州。一時期は独立国だった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lone Star State** | 一つ星の州 | 州の愛称。 | 英語 |
+| **TX** | TX（略号） | 郵便などで使う2文字の州の略号。 | Texas の略 |
 
 ## Lv.4 話が広がる
 
@@ -23967,6 +25707,1375 @@
 |---|---|---|---|
 | **peaceful** | 平和な | 争いのない。 | peace + -ful |
 | **ocean** | 大洋 | 広い海。 | ギリシャ語 ōkeanos |
+
+<a id="michael-archangel"></a>
+### Michael（ミカエル）
+
+**神名** / Lv.4 話が広がる / CEFR B1 — 大天使ミカエル
+
+- 📍 シーン: 竜を退治する天使として絵画やゲームに登場する。
+- 💬 例文: *In the painting, Michael defeats the dragon with his sword.* — その絵では、ミカエルが剣で竜を倒している。
+- 📜 語源: ヘブライ語 Mīkhāʼēl「誰が神に似ているか」
+  - 聖書で天使軍の長とされる。フランスのモン・サン・ミシェル（Mont-Saint-Michel）はミカエルにささげた修道院。
+- 🌳 同じ語源の仲間: Mont-Saint-Michel（モン・サン・ミシェル）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **archangel** | 大天使 | 天使の中でも位の高い者。 | ギリシャ語 arkhi-「長」+ angelos「使者」 |
+| **Gabriel** | ガブリエル | 同じく大天使。お告げの天使。 | ヘブライ語「神は私の力」 |
+
+<a id="michel"></a>
+### Michel（ミシェル）
+
+**人名（フランス語）** / Lv.4 話が広がる / CEFR B1 — 男性名（フランス語形）。英語の Michael にあたる
+
+- 📍 シーン: 作曲家ミシェル・ルグラン、修道院モン・サン・ミシェル。
+- 💬 例文: *Michel is a common name in France.* — ミシェルはフランスでよくある名前だ。
+- 📜 語源: ヘブライ語 Mīkhāʼēl → ラテン語 Michaēl → フランス語 Michel
+  - 女性形は Michèle / Michelle。発音は同じ「ミシェル」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Michelle** | ミシェル（女性形） | 英語・フランス語の女性名。 | Michel + 女性語尾 -le |
+| **Michael** | マイケル（英語） | 英語形。 | 同じヘブライ語から |
+
+<a id="jean"></a>
+### Jean（ジャン）
+
+**人名（フランス語）** / Lv.4 話が広がる / CEFR B1 — 男性名（フランス語形）。英語の John にあたる
+
+- 📍 シーン: 哲学者ジャン＝ジャック・ルソー、ジャン・レノ。
+- 💬 例文: *Jean is the French form of John.* — ジャンはジョンのフランス語形だ。
+- 📜 語源: ヘブライ語 Yōḥānān → ラテン語 Iohannes → フランス語 Jean
+  - 英語で Jean と書くと女性名「ジーン」にもなる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **John** | ジョン（英語） | 英語形。 | 同じヘブライ語から |
+| **Jeanne** | ジャンヌ（女性形） | フランス語の女性形。 | Jean + 女性語尾 -ne |
+
+<a id="hans"></a>
+### Hans（ハンス）
+
+**人名（ドイツ語）** / Lv.4 話が広がる / CEFR B1 — 男性名（ドイツ語・オランダ語）。Johannes を短くした形
+
+- 📍 シーン: 童話作家ハンス・クリスチャン・アンデルセン（デンマーク）。
+- 💬 例文: *Hans is a typical German name in old stories.* — ハンスは昔話によく出てくるドイツらしい名前だ。
+- 📜 語源: ドイツ語 Johannes の短縮形 ← ヘブライ語 Yōḥānān
+  - グリム童話「幸せなハンス」など、ドイツ人の代表的な名前として使われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Johann** | ヨハン | もとの長い形。 | ヘブライ語 Yōḥānān から |
+| **Jack** | ジャック（英語） | 英語の John の愛称。 | John の愛称形 |
+
+<a id="sean"></a>
+### Sean（ショーン）
+
+**人名（アイルランド語）** / Lv.4 話が広がる / CEFR B1 — 男性名（アイルランド語形）。英語の John にあたる
+
+- 📍 シーン: 俳優ショーン・コネリー。
+- 💬 例文: *Sean Connery was the first actor to play James Bond in a film.* — ショーン・コネリーは映画で初めてジェームズ・ボンドを演じた俳優だ。
+- 📜 語源: ヘブライ語 Yōḥānān → ノルマン・フランス語 Jehan → アイルランド語 Seán
+  - アイルランド語では s が「シ」の音になるので Sean は「ショーン」。Shaun、Shawn ともつづる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **John** | ジョン（英語） | 英語形。 | 同じヘブライ語から |
+| **Ian** | イアン（スコットランド） | スコットランド・ゲール語形。 | 同じヘブライ語から |
+
+<a id="pierre"></a>
+### Pierre（ピエール）
+
+**人名（フランス語）** / Lv.4 話が広がる / CEFR B1 — 男性名（フランス語形）。英語の Peter にあたる
+
+- 📍 シーン: キュリー夫人の夫ピエール・キュリー、ピエール・カルダン。
+- 💬 例文: *Pierre Curie shared the Nobel Prize with his wife.* — ピエール・キュリーは妻とノーベル賞を分け合った。
+- 📜 語源: ギリシャ語 Petros → ラテン語 Petrus → フランス語 Pierre
+  - フランス語では普通名詞の pierre も「石」。名前と「石」がそのまま同じ語。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Peter** | ピーター（英語） | 英語形。 | 同じギリシャ語から |
+| **Pedro** | ペドロ（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="pablo"></a>
+### Pablo（パブロ）
+
+**人名（スペイン語）** / Lv.4 話が広がる / CEFR B1 — 男性名（スペイン語形）。英語の Paul にあたる
+
+- 📍 シーン: 画家パブロ・ピカソ、チェロ奏者パブロ・カザルス。
+- 💬 例文: *Pablo Picasso was born in Spain.* — パブロ・ピカソはスペインで生まれた。
+- 📜 語源: ラテン語 Paulus → スペイン語 Pablo
+  - ラテン語の -ul- がスペイン語で -bl- に変わった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Paul** | ポール（英語） | 英語形。 | 同じラテン語から |
+| **Paolo** | パオロ（イタリア語） | イタリア語形。 | 同じラテン語から |
+
+<a id="paula"></a>
+### Paula（ポーラ）
+
+**人名** / Lv.4 話が広がる / CEFR B1 — 女性名。Paul の女性形
+
+- 📍 シーン: 英語・スペイン語・ドイツ語などで使われる。
+- 💬 例文: *Paula is the feminine form of Paul.* — ポーラはポールの女性形だ。
+- 📜 語源: ラテン語 Paula「小さい（女性形）」
+  - 英語では「ポーラ」、スペイン語やドイツ語では「パウラ」と読む。
+- 🌳 同じ語源の仲間: Pauline（ポーリーン）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pauline** | ポーリーン | フランス語由来の女性形。 | Paula + 指小辞 -ine |
+| **Paul** | ポール | 男性形。 | 同じラテン語から |
+
+<a id="karl"></a>
+### Karl（カール）
+
+**人名（ドイツ語）** / Lv.4 話が広がる / CEFR B1 — 男性名（ドイツ語形）。英語の Charles にあたる
+
+- 📍 シーン: 経済学者カール・マルクス、カール大帝。
+- 💬 例文: *Karl Marx wrote Das Kapital.* — カール・マルクスは『資本論』を書いた。
+- 📜 語源: ゲルマン語 karl「自由人、男」
+  - 英語の churl（無作法者）も同じ語から。英語では Carl ともつづる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Charles** | チャールズ（英語） | 英語形。 | 同じゲルマン語から |
+| **Carlos** | カルロス（スペイン語） | スペイン語形。 | 同じゲルマン語から |
+
+<a id="carlos"></a>
+### Carlos（カルロス）
+
+**人名（スペイン語）** / Lv.4 話が広がる / CEFR B1 — 男性名（スペイン語・ポルトガル語形）。英語の Charles にあたる
+
+- 📍 シーン: ギタリストのカルロス・サンタナ、スペイン国王フアン・カルロス。
+- 💬 例文: *Carlos Santana is a famous guitarist.* — カルロス・サンタナは有名なギタリストだ。
+- 📜 語源: ゲルマン語 karl → ラテン語 Carolus → スペイン語 Carlos
+  - 神聖ローマ皇帝カール5世はスペイン王としては Carlos I（カルロス1世）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Charles** | チャールズ（英語） | 英語形。 | 同じゲルマン語から |
+| **Carlo** | カルロ（イタリア語） | イタリア語形。 | 同じゲルマン語から |
+
+<a id="caroline"></a>
+### Caroline（キャロライン）
+
+**人名** / Lv.4 話が広がる / CEFR B1 — 女性名。Charles（ラテン語 Carolus）の女性形
+
+- 📍 シーン: 米国のカロライナ州（Carolina）も同じ名前から。
+- 💬 例文: *Caroline Kennedy is the daughter of President John F. Kennedy.* — キャロライン・ケネディはケネディ大統領の娘だ。
+- 📜 語源: ラテン語 Carolus + 女性語尾 -ine
+  - Carolina は英国王チャールズ1世にちなむ州名。フランス語では「カロリーヌ」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Carolina** | カロライナ | ラテン語風の女性形。州名にもなった。 | Carolus + -ina |
+| **Charlotte** | シャーロット | 同じく Charles の女性形。 | Charles + -otte |
+
+<a id="louis-fr"></a>
+### Louis（ルイ）
+
+**人名（フランス語）** / Lv.4 話が広がる / CEFR B1 — 男性名（フランス語での読み）。英語のルイスと同じつづり
+
+- 📍 シーン: 太陽王ルイ14世、ルイ・ヴィトン、アメリカのルイジアナ州。
+- 💬 例文: *Louis XIV built the Palace of Versailles.* — ルイ14世はベルサイユ宮殿を建てた。
+- 📜 語源: フランク語 Chlodowig → 古フランス語 Clovis → Louis
+  - フランス王に18人もいる名前。ルイジアナ（Louisiana）はルイ14世にちなむ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Louis** | ルイス（英語） | 同じつづりの英語読み。 | 同じフランク語から |
+| **Luis** | ルイス（スペイン語） | スペイン語形。 | 同じフランク語から |
+
+<a id="luigi"></a>
+### Luigi（ルイージ）
+
+**人名（イタリア語）** / Lv.4 話が広がる / CEFR B1 — 男性名（イタリア語形）。英語の Louis にあたる
+
+- 📍 シーン: マリオの弟ルイージ、作家ルイジ・ピランデッロ。
+- 💬 例文: *Luigi is Mario's younger brother in the video games.* — ゲームでルイージはマリオの弟だ。
+- 📜 語源: フランク語 Chlodowig → イタリア語 Luigi
+  - イタリア語では Ludovico（ルドヴィーコ）という古い形もある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Louis** | ルイ（フランス語） | フランス語形。 | 同じフランク語から |
+| **Ludwig** | ルートヴィヒ（ドイツ語） | ドイツ語形。 | 同じフランク語から |
+
+<a id="louise"></a>
+### Louise（ルイーズ）
+
+**人名** / Lv.4 話が広がる / CEFR B1 — 女性名。Louis の女性形
+
+- 📍 シーン: 映画『テルマ＆ルイーズ』。
+- 💬 例文: *Louise is the feminine form of Louis.* — ルイーズはルイの女性形だ。
+- 📜 語源: フランス語 Louis + 女性語尾 -e
+  - Louisa（ルイーザ）はラテン語風の形。『若草物語』の作者ルイーザ・メイ・オルコット。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Louisa** | ルイーザ | ラテン語風の女性形。 | Louis + -a |
+| **Luisa** | ルイーサ（スペイン語・イタリア語） | 南欧の女性形。 | Luis + -a |
+
+<a id="marie"></a>
+### Marie（マリー）
+
+**人名（フランス語）** / Lv.4 話が広がる / CEFR B1 — 女性名（フランス語形）。英語の Mary にあたる
+
+- 📍 シーン: マリー・アントワネット、マリー・キュリー（キュリー夫人）。
+- 💬 例文: *Marie Curie won two Nobel Prizes.* — マリー・キュリーはノーベル賞を2回受賞した。
+- 📜 語源: ヘブライ語 Miryām → ラテン語 Maria → フランス語 Marie
+  - フランスでは男性の名前の一部にも使う（Jean-Marie など）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mary** | メアリー（英語） | 英語形。 | 同じヘブライ語から |
+| **Marianne** | マリアンヌ | Marie と Anne を合わせた名。 | Marie + Anne |
+
+<a id="elsa"></a>
+### Elsa（エルザ）
+
+**人名（ドイツ語）** / Lv.4 話が広がる / CEFR B1 — 女性名（ドイツ語など）。Elisabeth を短くした形
+
+- 📍 シーン: 映画『アナと雪の女王』のエルサ、ワーグナーのオペラ『ローエングリン』のエルザ。
+- 💬 例文: *Elsa is the queen with ice magic in Frozen.* — エルサは『アナと雪の女王』に出てくる氷の魔法をもつ女王だ。
+- 📜 語源: ドイツ語 Elisabeth の短縮形
+  - 英語では「エルサ」、ドイツ語では「エルザ」と読む。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Elisabeth** | エリーザベト | もとの長い形。 | ヘブライ語 Elīsheva から |
+| **Lisa** | リサ | 同じく Elisabeth の短い形。 | Elisabeth の短縮 |
+
+<a id="hannah"></a>
+### Hannah（ハンナ）
+
+**人名（ヘブライ語）** / Lv.4 話が広がる / CEFR A2 — 女性名（ヘブライ語形）。Anne、Anna のもとの形
+
+- 📍 シーン: 旧約聖書で預言者サムエルの母ハンナ。英語圏でも人気。
+- 💬 例文: *Hannah is also a palindrome, like Anna.* — ハンナも Anna と同じく回文だ。
+- 📜 語源: ヘブライ語 Ḥannāh「恵み」
+  - 英語圏では近年とても人気の女性名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Anna** | アンナ | ギリシャ語・ラテン語の形。 | ヘブライ語 Ḥannāh から |
+| **Anne** | アン（英語） | 英語形。 | ヘブライ語 Ḥannāh から |
+
+<a id="nicole"></a>
+### Nicole（ニコル）
+
+**人名** / Lv.4 話が広がる / CEFR A2 — 女性名。Nicolas の女性形（フランス語から）
+
+- 📍 シーン: 女優ニコール・キッドマン。
+- 💬 例文: *Nicole Kidman was born in Hawaii.* — ニコール・キッドマンはハワイで生まれた。
+- 📜 語源: フランス語 Nicolas の女性形 Nicole
+  - 英語では「ニコール」と伸ばすことが多い。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nicola** | ニコラ | イタリア語では男性名、英語では女性名。 | ギリシャ語 Nikolaos から |
+| **Nicholas** | ニコラス | 男性形。 | ギリシャ語 Nikolaos |
+
+<a id="stephanie"></a>
+### Stephanie（ステファニー）
+
+**人名** / Lv.4 話が広がる / CEFR B1 — 女性名。Stephen の女性形
+
+- 📍 シーン: フランス語 Stéphanie から英語に入った。
+- 💬 例文: *Stephanie is the feminine form of Stephen.* — ステファニーはスティーブンの女性形だ。
+- 📜 語源: ギリシャ語 Stephanos「冠」→ フランス語 Stéphanie
+  - 愛称は Steph、Stevie。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Stéphane** | ステファン（フランス語） | 男性形。 | 同じギリシャ語から |
+| **Stephen** | スティーブン | 英語の男性形。 | 同じギリシャ語から |
+
+<a id="jacob"></a>
+### Jacob（ジェイコブ）
+
+**人名** / Lv.4 話が広がる / CEFR A2 — 男性名（英語形）。聖書のヤコブ
+
+- 📍 シーン: 旧約聖書のヤコブ、グリム兄弟の兄ヤーコプ（Jacob Grimm）。
+- 💬 例文: *In the Bible, Jacob had twelve sons.* — 聖書でヤコブには12人の息子がいた。
+- 📜 語源: ヘブライ語 Yaʻaqōv「かかとをつかむ者」
+  - 双子の兄のかかとをつかんで生まれたという話から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **James** | ジェームズ | 同じ名前が変化した形。 | ヘブライ語 Yaʻaqōv から |
+| **Jakob** | ヤーコプ（ドイツ語） | ドイツ語形。 | 同じヘブライ語から |
+
+<a id="jacques"></a>
+### Jacques（ジャック）
+
+**人名（フランス語）** / Lv.4 話が広がる / CEFR B1 — 男性名（フランス語形）。英語の James（Jacob）にあたる
+
+- 📍 シーン: 探検家ジャック・クストー、哲学者ジャン＝ジャック・ルソー。
+- 💬 例文: *Jacques Cousteau explored the ocean.* — ジャック・クストーは海を探検した。
+- 📜 語源: ラテン語 Iacobus → フランス語 Jacques
+  - 英語の Jack（ジャック）は John の愛称で、Jacques とは別の名前。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **James** | ジェームズ（英語） | 英語形。 | 同じヘブライ語から |
+| **Diego** | ディエゴ（スペイン語） | スペイン語形の一つ。 | 同じヘブライ語から |
+
+<a id="diego"></a>
+### Diego（ディエゴ）
+
+**人名（スペイン語）** / Lv.4 話が広がる / CEFR B1 — 男性名（スペイン語）。James（Jacob）と同じ名前から
+
+- 📍 シーン: サッカーのディエゴ・マラドーナ、画家ディエゴ・ベラスケス。
+- 💬 例文: *Diego Maradona was one of the greatest football players.* — ディエゴ・マラドーナは史上最高のサッカー選手の一人だった。
+- 📜 語源: スペイン語 Santiago（Sant Iago＝聖ヤコブ）を Sant Diego と区切り直した形とされる
+  - サンディエゴ（San Diego）もこの名前。語源には異説もある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **James** | ジェームズ（英語） | 英語形。 | 同じヘブライ語から |
+| **Jaime** | ハイメ（スペイン語） | スペイン語のもう一つの形。 | 同じヘブライ語から |
+
+<a id="francis"></a>
+### Francis（フランシス）
+
+**人名** / Lv.4 話が広がる / CEFR B1 — 男性名（英語形）。もとの意味は「フランク人」
+
+- 📍 シーン: アッシジの聖フランチェスコ、日本に来たフランシスコ・ザビエル、哲学者フランシス・ベーコン。
+- 💬 例文: *Francis Bacon said that knowledge is power.* — フランシス・ベーコンは「知は力なり」と言った。
+- 📜 語源: ラテン語 Franciscus「フランク人（フランス人）の」
+  - 同じ発音の女性名は Frances。愛称は Frank。
+- 🌳 同じ語源の仲間: France（フランス）、frank（率直な）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **François** | フランソワ（フランス語） | フランス語形。 | 同じラテン語から |
+| **Francisco** | フランシスコ（スペイン語） | スペイン語形。 | 同じラテン語から |
+
+<a id="antonio"></a>
+### Antonio（アントニオ）
+
+**人名（イタリア語）** / Lv.4 話が広がる / CEFR B1 — 男性名（イタリア語・スペイン語形）。英語の Anthony にあたる
+
+- 📍 シーン: 作曲家アントニオ・ヴィヴァルディ、建築家アントニ・ガウディ、アントニオ猪木。
+- 💬 例文: *Antonio Vivaldi composed The Four Seasons.* — アントニオ・ヴィヴァルディは『四季』を作曲した。
+- 📜 語源: ラテン語 Antonius → イタリア語 Antonio
+  - シェイクスピア『ヴェニスの商人』の商人もアントーニオ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Anthony** | アンソニー（英語） | 英語形。 | 同じラテン語から |
+| **Antoine** | アントワーヌ（フランス語） | フランス語形。 | 同じラテン語から |
+
+<a id="julie"></a>
+### Julie（ジュリー）
+
+**人名（フランス語）** / Lv.4 話が広がる / CEFR B1 — 女性名（フランス語形）。英語の Julia にあたる
+
+- 📍 シーン: 映画『メリー・ポピンズ』の女優ジュリー・アンドリュース（英語圏でも使う）。
+- 💬 例文: *Julie Andrews played Mary Poppins.* — ジュリー・アンドリュースはメアリー・ポピンズを演じた。
+- 📜 語源: ラテン語 Iulia → フランス語 Julie
+  - 英語圏でも広く使われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Julia** | ジュリア | ラテン語形。 | ラテン語 Iulia |
+| **Juliet** | ジュリエット | 愛称形。 | イタリア語 Giulietta |
+
+<a id="juliet"></a>
+### Juliet（ジュリエット）
+
+**人名** / Lv.4 話が広がる / CEFR A2 — 女性名。Julia の愛称形
+
+- 📍 シーン: シェイクスピア『ロミオとジュリエット』。
+- 💬 例文: *Romeo and Juliet is a tragic love story.* — 『ロミオとジュリエット』は悲しい恋の物語だ。
+- 📜 語源: イタリア語 Giulietta ← Giulia + 指小辞 -etta
+  - 物語の舞台はイタリアのヴェローナ。フランス語では Juliette。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Julia** | ジュリア | もとの形。 | ラテン語 Iulia |
+| **Julie** | ジュリー（フランス語） | フランス語形。 | ラテン語 Iulia |
+
+<a id="christina"></a>
+### Christina（クリスティーナ）
+
+**人名** / Lv.4 話が広がる / CEFR B1 — 女性名。「キリスト教徒の」の意味
+
+- 📍 シーン: スウェーデン女王クリスティーナ、歌手クリスティーナ・アギレラ。
+- 💬 例文: *Queen Christina of Sweden gave up her throne.* — スウェーデンのクリスティーナ女王は王位を捨てた。
+- 📜 語源: ラテン語 Christiana「キリスト教徒の（女性）」
+  - Christopher とは別の語だが、同じ「キリスト」を含む名前の仲間。
+- 🌳 同じ語源の仲間: Christian（キリスト教徒）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Christine** | クリスティーヌ（フランス語） | フランス語形。 | ラテン語 Christiana |
+| **Kristin** | クリスティン（北欧） | 北欧の形。 | ラテン語 Christiana |
+
+<a id="sophie"></a>
+### Sophie（ソフィー）
+
+**人名（フランス語）** / Lv.4 話が広がる / CEFR B1 — 女性名（フランス語・ドイツ語形）。Sophia にあたる
+
+- 📍 シーン: 『ソフィーの世界』、映画『ハウルの動く城』のソフィー。
+- 💬 例文: *Sophie's World is a novel about the history of philosophy.* — 『ソフィーの世界』は哲学の歴史についての小説だ。
+- 📜 語源: ギリシャ語 sophia「知恵」→ フランス語 Sophie
+  - 英語圏でも広く使われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sophia** | ソフィア | ギリシャ語に近い形。 | ギリシャ語 sophia |
+| **Sonya** | ソーニャ（ロシア語） | ロシア語の愛称。 | ロシア語 Sofya の愛称 |
+
+<a id="marco"></a>
+### Marco（マルコ）
+
+**人名（イタリア語）** / Lv.4 話が広がる / CEFR B1 — 男性名（イタリア語・スペイン語形）。英語の Mark にあたる
+
+- 📍 シーン: 探検家マルコ・ポーロ、アニメ『母をたずねて三千里』のマルコ。
+- 💬 例文: *Marco Polo wrote about his travels to China.* — マルコ・ポーロは中国への旅について書いた。
+- 📜 語源: ラテン語 Marcus → イタリア語 Marco
+  - マルコ・ポーロは日本を「黄金の国ジパング」として西洋に伝えた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mark** | マーク（英語） | 英語形。 | 同じラテン語から |
+| **Marc** | マルク（フランス語） | フランス語形。 | 同じラテン語から |
+
+<a id="athena"></a>
+### Athena（アテナ）
+
+**神名** / Lv.4 話が広がる / CEFR B1 — アテナ（ギリシャ神話の知恵と戦いの女神）
+
+- 📍 シーン: アテネ（Athens）の守護神。パルテノン神殿はアテナの神殿。
+- 💬 例文: *The city of Athens was named after Athena.* — アテネの町はアテナにちなんで名づけられた。
+- 📜 語源: ギリシャ語 Athēnā（語源不詳）
+  - ゼウスの頭から武装した姿で生まれたとされる。ふくろうが象徴。ローマ神話のミネルウァ（Minerva）にあたる。
+- 🌳 同じ語源の仲間: Athens（アテネ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Minerva** | ミネルウァ（ローマ神話） | ローマ神話で対応する女神。 | ラテン語 Minerva |
+| **Pallas** | パラス | アテナの呼び名。 | ギリシャ語 Pallas |
+
+<a id="apollo"></a>
+### Apollo（アポロン）
+
+**神名** / Lv.4 話が広がる / CEFR B1 — アポロン（ギリシャ神話の光・音楽・予言の神）
+
+- 📍 シーン: 月面着陸したアポロ計画（Apollo program）の名前。
+- 💬 例文: *The Apollo missions were named after the Greek god.* — アポロ計画はギリシャの神にちなんで名づけられた。
+- 📜 語源: ギリシャ語 Apollōn（語源不詳）
+  - 英語では Apollo（アポロ）。ギリシャでもローマでも同じ名前で呼ばれた数少ない神。
+- 🌳 同じ語源の仲間: Apollo program（アポロ計画）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Phoebus** | ポイボス | アポロンの呼び名「輝く者」。 | ギリシャ語 Phoibos「輝く」 |
+| **Helios** | ヘリオス | 太陽神。のちにアポロンと同一視された。 | ギリシャ語 hēlios「太陽」 |
+
+<a id="hermes"></a>
+### Hermes（ヘルメス）
+
+**神名** / Lv.4 話が広がる / CEFR B1 — ヘルメス（ギリシャ神話の使者の神。旅・商売・盗みの守り神）
+
+- 📍 シーン: 翼のついたサンダルの神。ブランド名エルメス（Hermès）はフランスの創業者の名字。
+- 💬 例文: *Hermes carried messages between the gods and people.* — ヘルメスは神々と人間の間で伝言を運んだ。
+- 📜 語源: ギリシャ語 Hermēs（herma「石の道しるべ」と関連か）
+  - hermetic（密閉した）は錬金術の祖とされたヘルメス・トリスメギストスから。ローマ神話のメルクリウス（Mercury）にあたる。
+- 🌳 同じ語源の仲間: hermetic（密閉した）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mercury** | メルクリウス（ローマ神話） | ローマ神話で対応する神。 | ラテン語 Mercurius ← merx「商品」 |
+| **messenger** | 使者 | 伝言を運ぶ者。 | 古フランス語 messager |
+
+<a id="poseidon"></a>
+### Poseidon（ポセイドン）
+
+**神名** / Lv.4 話が広がる / CEFR B1 — ポセイドン（ギリシャ神話の海と地震の神）
+
+- 📍 シーン: 三叉の矛（トライデント）を持つ海の神。
+- 💬 例文: *Poseidon could raise storms with his trident.* — ポセイドンは三叉の矛で嵐を起こすことができた。
+- 📜 語源: ギリシャ語 Poseidōn（「大地の夫」などの説）
+  - ゼウスの兄。ローマ神話のネプトゥヌス（Neptune）にあたる。
+- 🌳 同じ語源の仲間: trident（三叉の矛）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Neptune** | ネプトゥヌス（ローマ神話） | ローマ神話で対応する神。 | ラテン語 Neptūnus |
+| **sea god** | 海の神 | 海を支配する神。 | 英語 |
+
+<a id="phoenix"></a>
+### Phoenix（フェニックス）
+
+**神話** / Lv.4 話が広がる / CEFR B1 — 不死鳥、フェニックス。アメリカの都市フェニックス
+
+- 📍 シーン: 火の中からよみがえる鳥。手塚治虫『火の鳥』。
+- 💬 例文: *Like a phoenix, the team rose again after losing everything.* — 不死鳥のように、そのチームはすべてを失ったあと再び立ち上がった。
+- 📜 語源: ギリシャ語 phoinix「赤紫色、フェニキア」
+  - 灰の中から生まれ変わる、よみがえりの象徴。アリゾナ州の州都の名前にもなった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **firebird** | 火の鳥 | 炎をまとう伝説の鳥。 | fire + bird |
+| **rebirth** | 再生 | 生まれ変わり。 | re- + birth |
+
+<a id="jupiter"></a>
+### Jupiter（ジュピター）
+
+**神名** / Lv.4 話が広がる / CEFR B1 — ユピテル（ローマ神話の最高神）。木星
+
+- 📍 シーン: ホルスト『惑星』の「木星（ジュピター）」、太陽系最大の惑星。
+- 💬 例文: *Jupiter is the largest planet in the solar system.* — 木星は太陽系で最も大きな惑星だ。
+- 📜 語源: ラテン語 Iuppiter ← 印欧祖語 *dyēu-pater「天空の父」
+  - ギリシャ神話のゼウスにあたる。最大の惑星に最高神の名がついた。英語の形容詞 jovial（陽気な）は木星生まれの人は陽気だという占星術から。
+- 🌳 同じ語源の仲間: jovial（陽気な）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Zeus** | ゼウス（ギリシャ神話） | ギリシャ神話で対応する神。 | ギリシャ語 Zeus |
+| **Jove** | ジョーヴ | ユピテルの別名。 | ラテン語 Iovis |
+
+<a id="venus"></a>
+### Venus（ヴィーナス）
+
+**神名** / Lv.4 話が広がる / CEFR B1 — ウェヌス（ローマ神話の愛と美の女神）。金星
+
+- 📍 シーン: 『ミロのヴィーナス』、ボッティチェリ『ヴィーナスの誕生』。夜明けや夕方に明るく光る金星。
+- 💬 例文: *Venus is the brightest planet in the night sky.* — 金星は夜空で最も明るい惑星だ。
+- 📜 語源: ラテン語 Venus「愛、魅力」
+  - ギリシャ神話のアフロディテにあたる。venerate（敬う）、venereal（性の）も同じ語根。
+- 🌳 同じ語源の仲間: venerate（敬う）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Aphrodite** | アフロディテ（ギリシャ神話） | ギリシャ神話で対応する女神。 | ギリシャ語 Aphroditē |
+| **morning star** | 明けの明星 | 明け方の金星。 | 英語 |
+
+<a id="mars"></a>
+### Mars（マーズ）
+
+**神名** / Lv.4 話が広がる / CEFR B1 — マルス（ローマ神話の戦いの神）。火星
+
+- 📍 シーン: 赤い惑星、火星。3月（March）の名前の由来。
+- 💬 例文: *Scientists are looking for signs of water on Mars.* — 科学者たちは火星で水の証拠を探している。
+- 📜 語源: ラテン語 Mārs（語源不詳）
+  - 血のように赤い星なので戦いの神の名がついた。martial（戦いの）も同じ語。
+- 🌳 同じ語源の仲間: March（3月）、martial（戦いの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ares** | アレス（ギリシャ神話） | ギリシャ神話で対応する神。 | ギリシャ語 Arēs |
+| **Red Planet** | 赤い惑星 | 火星の呼び名。 | 英語 |
+
+<a id="thor"></a>
+### Thor（トール）
+
+**神名** / Lv.4 話が広がる / CEFR B1 — トール（北欧神話の雷神。ハンマーを持つ）
+
+- 📍 シーン: マーベル映画『マイティ・ソー』。木曜日（Thursday）の語源。
+- 💬 例文: *Thursday means "Thor's day."* — 木曜日は「トールの日」という意味だ。
+- 📜 語源: 古ノルド語 Þórr「雷」
+  - 英語の thunder（雷）と同じ語。ハンマーの名はミョルニル。
+- 🌳 同じ語源の仲間: Thursday（木曜日）、thunder（雷）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Donar** | ドナール（ドイツ語） | 古いドイツでの呼び名。 | 古高ドイツ語 Donar「雷」 |
+| **thunder god** | 雷神 | 雷をつかさどる神。 | 英語 |
+
+<a id="eva"></a>
+### Eva（エヴァ）
+
+**人名（ドイツ語）** / Lv.4 話が広がる / CEFR B1 — 女性名（ドイツ語・スペイン語・イタリア語など）。Eve にあたる
+
+- 📍 シーン: アルゼンチンのエバ・ペロン（エビータ）。
+- 💬 例文: *Eva is the form of Eve used in many European languages.* — エヴァは多くのヨーロッパの言語で使われるイブの形だ。
+- 📜 語源: ヘブライ語 Ḥawwāh → ラテン語 Eva
+  - 日本語では「エバ」「エヴァ」と書く。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Eve** | イブ | 英語形。 | 同じヘブライ語から |
+| **Evelyn** | エブリン | 似た響きの英語の名前（別語源）。 | ノルマン語 Aveline |
+
+<a id="noah"></a>
+### Noah（ノア）
+
+**人名** / Lv.4 話が広がる / CEFR A2 — ノア（聖書で方舟を作り大洪水を生き延びた人物）。男性名ノア
+
+- 📍 シーン: 「ノアの方舟（Noah's Ark）」。英語圏で人気の男の子の名前。
+- 💬 例文: *Noah built a huge ark to survive the flood.* — ノアは洪水を生き延びるために巨大な方舟を作った。
+- 📜 語源: ヘブライ語 Nōaḥ「休息、なぐさめ」
+  - 近年のアメリカで最も人気のある男の子の名前の一つ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **ark** | 方舟 | ノアが作った大きな船。 | ラテン語 arca「箱」 |
+| **Gilgamesh** | ギルガメシュ | 似た洪水の話がある英雄。 | シュメール語 |
+
+<a id="wales"></a>
+### Wales（ウェールズ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ウェールズ（イギリスを構成する国の一つ）
+
+- 📍 シーン: ラグビーの強豪国。英国の皇太子は「プリンス・オブ・ウェールズ」と呼ばれる。
+- 💬 例文: *People in Wales speak both Welsh and English.* — ウェールズの人々はウェールズ語と英語の両方を話す。
+- 📜 語源: 古英語 Wealas「よそ者たち」
+  - アングロ・サクソン人が先住のケルト人を「よそ者」と呼んだことから。自分たちの言葉では Cymru（カムリ）。
+- 🌳 同じ語源の仲間: Welsh（ウェールズの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Cymru** | カムリ | ウェールズ語での呼び名。 | ウェールズ語 Cymru「同胞の地」 |
+| **Cambria** | カンブリア | ラテン語での呼び名。 | Cymru のラテン語化 |
+
+<a id="holland"></a>
+### Holland（ホラント）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ホラント（オランダ西部の地方）。オランダの通称
+
+- 📍 シーン: アムステルダムがある北ホラント州、ハーグがある南ホラント州。
+- 💬 例文: *People often say Holland when they mean the Netherlands.* — オランダ全体のことを言うのに Holland と言う人は多い。
+- 📜 語源: オランダ語 Holtland「森の土地」
+  - 2020年からオランダ政府は国名として the Netherlands を使うよう呼びかけている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Netherlands** | ネーデルラント | 正式な国名。 | オランダ語 Nederland |
+| **Dutch** | オランダの | 形容詞・国民・言語。 | 中期オランダ語 duutsch「民衆の」 |
+
+<a id="iceland"></a>
+### Iceland（アイスランド）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — アイスランド
+
+- 📍 シーン: 火山と氷河の島、オーロラ、温泉ブルーラグーン。
+- 💬 例文: *Iceland has many volcanoes and hot springs.* — アイスランドには火山と温泉がたくさんある。
+- 📜 語源: 古ノルド語 Ísland「氷の島」
+  - 緑の多いアイスランドと、氷に覆われたグリーンランドという名前は逆だとよく言われる。
+- 🌳 同じ語源の仲間: Icelandic（アイスランドの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ísland** | イースラント | アイスランド語での国名。 | 古ノルド語 Ísland |
+| **Land of Fire and Ice** | 火と氷の国 | 愛称。 | 英語 |
+
+<a id="czechia"></a>
+### Czechia（チェコ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — チェコ
+
+- 📍 シーン: 首都プラハ、ビールの国。
+- 💬 例文: *Prague is the capital of Czechia.* — プラハはチェコの首都だ。
+- 📜 語源: チェコ語 Česko ← チェコ人（Čech）の名
+  - 英語では the Czech Republic とも言う。1993年にスロバキアと分かれた。
+- 🌳 同じ語源の仲間: Czech（チェコの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Czech Republic** | チェコ共和国 | 正式な国名。 | 英語 |
+| **Bohemia** | ボヘミア | 西部の歴史的な地方名。 | ラテン語 Boiohaemum「ボイイ族の地」 |
+
+<a id="hungary"></a>
+### Hungary（ハンガリー）
+
+**地名** / Lv.4 話が広がる / CEFR A2 — ハンガリー
+
+- 📍 シーン: 首都ブダペスト、グヤーシュ（シチュー）、ルービックキューブの発明国。
+- 💬 例文: *The Rubik's Cube was invented in Hungary.* — ルービックキューブはハンガリーで発明された。
+- 📜 語源: 中世ラテン語 Hungaria ← トルコ系部族名 Onogur「10の部族」
+  - ハンガリー人自身は国を Magyarország（マジャル人の国）と呼ぶ。
+- 🌳 同じ語源の仲間: Hungarian（ハンガリーの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Magyarország** | マジャロルサーグ | ハンガリー語での国名。 | Magyar「マジャル人」+ ország「国」 |
+| **Magyar** | マジャル | ハンガリー人の自称。 | ハンガリー語 |
+
+<a id="ukraine"></a>
+### Ukraine（ウクライナ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ウクライナ
+
+- 📍 シーン: 首都キーウ。国旗は青い空と黄色い麦畑。
+- 💬 例文: *Ukraine is one of the largest wheat producers in the world.* — ウクライナは世界有数の小麦の生産国だ。
+- 📜 語源: 古い東スラヴ語 ukraina「辺境、国境地帯」
+  - 英語では以前 the Ukraine と冠詞をつけたが、今は Ukraine が普通。
+- 🌳 同じ語源の仲間: Ukrainian（ウクライナの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ukraina** | ウクライーナ | ウクライナ語での国名。 | ウクライナ語 |
+| **Kyiv** | キーウ | 首都。 | ウクライナ語 Київ |
+
+<a id="monaco"></a>
+### Monaco（モナコ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — モナコ
+
+- 📍 シーン: F1モナコグランプリ、カジノのモンテカルロ。
+- 💬 例文: *Monaco is the second smallest country in the world.* — モナコは世界で2番目に小さい国だ。
+- 📜 語源: ギリシャ語 monoikos「ひとりで住む」（ヘラクレスの神殿の呼び名）
+  - 女優グレース・ケリーが王妃になった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Monte Carlo** | モンテカルロ | カジノで有名な地区。 | イタリア語「カルロの山」 |
+| **principality** | 公国 | 大公が治める小さな国。 | ラテン語 prīncipālitās |
+
+<a id="north-korea"></a>
+### North Korea（北朝鮮）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — 北朝鮮（朝鮮民主主義人民共和国）
+
+- 📍 シーン: 首都ピョンヤン。
+- 💬 例文: *North Korea and South Korea are divided by the DMZ.* — 北朝鮮と韓国は非武装地帯で分けられている。
+- 📜 語源: North「北の」+ Korea ← 高麗
+  - 正式名は Democratic People's Republic of Korea（DPRK）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **DPRK** | 朝鮮民主主義人民共和国 | 正式名の略称。 | 英語の頭文字 |
+| **Pyongyang** | ピョンヤン | 首都。 | 朝鮮語 평양 |
+
+<a id="mongolia"></a>
+### Mongolia（モンゴル）
+
+**地名** / Lv.4 話が広がる / CEFR A2 — モンゴル
+
+- 📍 シーン: 大相撲の力士、草原とゲル、チンギス・ハン。
+- 💬 例文: *Many sumo wrestlers come from Mongolia.* — 多くの力士がモンゴル出身だ。
+- 📜 語源: モンゴル人（Mongol）の名 + ラテン語風の -ia
+  - 13世紀にチンギス・ハンが史上最大級の帝国を築いた。
+- 🌳 同じ語源の仲間: Mongolian（モンゴルの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mongol Uls** | モンゴル・ウルス | モンゴル語での国名。 | モンゴル語「モンゴル国」 |
+| **Outer Mongolia** | 外モンゴル | 昔の呼び名。 | 英語 |
+
+<a id="cambodia"></a>
+### Cambodia（カンボジア）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — カンボジア
+
+- 📍 シーン: アンコール・ワット。首都プノンペン。
+- 💬 例文: *Angkor Wat is in Cambodia.* — アンコール・ワットはカンボジアにある。
+- 📜 語源: サンスクリット語 Kambuja（伝説の王カンブの子孫）
+  - カンボジア語では Kampuchea（カンプチア）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kampuchea** | カンプチア | クメール語での国名。 | クメール語 |
+| **Khmer** | クメール | 多数派の民族・言語名。 | クメール語 |
+
+<a id="malaysia"></a>
+### Malaysia（マレーシア）
+
+**地名** / Lv.4 話が広がる / CEFR A2 — マレーシア
+
+- 📍 シーン: 首都クアラルンプール、ペトロナス・ツインタワー。
+- 💬 例文: *Kuala Lumpur is the capital of Malaysia.* — クアラルンプールはマレーシアの首都だ。
+- 📜 語源: マレー人（Malay）+ ギリシャ語風の -sia
+  - マレー半島とボルネオ島北部から成る。
+- 🌳 同じ語源の仲間: Malay（マレーの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Malaya** | マラヤ | 半島部の昔の名。 | マレー語 |
+| **Kuala Lumpur** | クアラルンプール | 首都。 | マレー語「泥の合流点」 |
+
+<a id="pakistan"></a>
+### Pakistan（パキスタン）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — パキスタン
+
+- 📍 シーン: 首都イスラマバード、K2 などの高峰。
+- 💬 例文: *Pakistan became independent in 1947.* — パキスタンは1947年に独立した。
+- 📜 語源: ウルドゥー語 pāk「清らかな」+ -stān「国」＝「清浄な国」
+  - 地方名の頭文字（Punjab, Afghania, Kashmir）を合わせたという説もある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Islamic Republic of Pakistan** | パキスタン・イスラム共和国 | 正式な国名。 | 英語 |
+| **-stan** | 〜スタン | 「国、土地」を表すペルシア語の語尾。 | ペルシア語 -stān |
+
+<a id="nepal"></a>
+### Nepal（ネパール）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ネパール
+
+- 📍 シーン: エベレスト、首都カトマンズ、四角くない国旗。
+- 💬 例文: *Mount Everest is on the border of Nepal and China.* — エベレストはネパールと中国の国境にある。
+- 📜 語源: 語源不詳（サンスクリット語などの諸説）
+  - 国旗は世界で唯一、長方形ではない。
+- 🌳 同じ語源の仲間: Nepali（ネパールの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Himalayas** | ヒマラヤ | 国にある山脈。 | サンスクリット語「雪の住みか」 |
+| **Kathmandu** | カトマンズ | 首都。 | サンスクリット語「木の寺」 |
+
+<a id="iran"></a>
+### Iran（イラン）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — イラン
+
+- 📍 シーン: ペルシャじゅうたん、首都テヘラン。
+- 💬 例文: *Iran was called Persia until 1935.* — イランは1935年までペルシャと呼ばれていた。
+- 📜 語源: ペルシア語 Īrān「アーリア人の国」
+  - 1935年に英語での国名をペルシャからイランに変えた。
+- 🌳 同じ語源の仲間: Iranian（イランの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Persia** | ペルシャ | 昔の呼び名。 | ギリシャ語 Persis（ファールス地方） |
+| **Islamic Republic of Iran** | イラン・イスラム共和国 | 正式な国名。 | 英語 |
+
+<a id="israel"></a>
+### Israel（イスラエル）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — イスラエル
+
+- 📍 シーン: エルサレム、死海。
+- 💬 例文: *The Dead Sea is between Israel and Jordan.* — 死海はイスラエルとヨルダンの間にある。
+- 📜 語源: ヘブライ語 Yiśrāʼēl「神と闘う者」（ヤコブに与えられた名）
+  - 聖書でヤコブが天使と格闘したあと名づけられた。
+- 🌳 同じ語源の仲間: Israeli（イスラエルの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Zion** | シオン | エルサレムの丘。ユダヤ人の故郷の象徴。 | ヘブライ語 Ṣiyyōn |
+| **Holy Land** | 聖地 | パレスチナ一帯の呼び名。 | 英語 |
+
+<a id="saudi-arabia"></a>
+### Saudi Arabia（サウジアラビア）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — サウジアラビア
+
+- 📍 シーン: メッカ、石油、砂漠。
+- 💬 例文: *Saudi Arabia is one of the largest oil producers.* — サウジアラビアは最大級の石油生産国だ。
+- 📜 語源: 王家サウード家（Saud）+ Arabia
+  - 国名に王家の名前が入っている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Arabia** | アラビア | 半島の名。 | ギリシャ語 Arabia |
+| **Riyadh** | リヤド | 首都。 | アラビア語「庭園」 |
+
+<a id="arabia"></a>
+### Arabia（アラビア）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — アラビア（アラビア半島）
+
+- 📍 シーン: 『アラビアンナイト（千夜一夜物語）』、アラビア数字。
+- 💬 例文: *Arabic numerals came to Europe from Arabia and India.* — アラビア数字はアラビアとインドからヨーロッパに伝わった。
+- 📜 語源: ギリシャ語 Arabia ← アラブ人（Arab）
+  - Arab（人）、Arabic（言語）、Arabian（地域の）と使い分ける。
+- 🌳 同じ語源の仲間: Arabic（アラビア語）、Arab（アラブ人）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Arabian Peninsula** | アラビア半島 | 地理上の名。 | 英語 |
+| **Middle East** | 中東 | この地域を含む呼び名。 | 英語 |
+
+<a id="kenya"></a>
+### Kenya（ケニア）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ケニア
+
+- 📍 シーン: サファリ、マサイ族、マラソン選手。首都ナイロビ。
+- 💬 例文: *Many great marathon runners come from Kenya.* — 多くの偉大なマラソン選手がケニア出身だ。
+- 📜 語源: ケニア山（キクユ語 Kĩrĩnyaga の聞き取りなど）
+  - 国名は山の名前から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nairobi** | ナイロビ | 首都（マサイ語「冷たい水」）。 | マサイ語 |
+| **safari** | サファリ | 野生動物を見る旅。スワヒリ語「旅」。 | スワヒリ語 |
+
+<a id="ghana"></a>
+### Ghana（ガーナ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ガーナ
+
+- 📍 シーン: カカオの産地（チョコレートの名前）、野口英世が亡くなった地。
+- 💬 例文: *Ghana is one of the largest cocoa producers.* — ガーナは最大級のカカオ生産国だ。
+- 📜 語源: 中世のガーナ王国の名（「戦士の王」の意味）
+  - 1957年、サハラ以南で最初に独立した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gold Coast** | 黄金海岸 | 植民地時代の呼び名。 | 英語 |
+| **Accra** | アクラ | 首都。 | アカン語「アリ」 |
+
+<a id="south-africa"></a>
+### South Africa（南アフリカ）
+
+**地名** / Lv.4 話が広がる / CEFR A2 — 南アフリカ（南アフリカ共和国）
+
+- 📍 シーン: 喜望峰、ネルソン・マンデラ、ラグビー。
+- 💬 例文: *Nelson Mandela was the first Black president of South Africa.* — ネルソン・マンデラは南アフリカ初の黒人大統領だった。
+- 📜 語源: south「南の」+ Africa
+  - 首都が3つ（行政プレトリア、立法ケープタウン、司法ブルームフォンテーン）ある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **RSA** | アールエスエー | 正式名 Republic of South Africa の略。 | 頭文字 |
+| **Rainbow Nation** | 虹の国 | 多民族国家を表す愛称。 | 英語 |
+
+<a id="cuba"></a>
+### Cuba（キューバ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — キューバ
+
+- 📍 シーン: 葉巻、サルサ、クラシックカー。首都ハバナ。
+- 💬 例文: *Havana is the capital of Cuba.* — ハバナはキューバの首都だ。
+- 📜 語源: タイノ語 cubao「肥えた土地」などの説
+  - スペイン語では「クーバ」。
+- 🌳 同じ語源の仲間: Cuban（キューバの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Havana** | ハバナ | 首都。 | タイノ語 |
+| **Pearl of the Antilles** | アンティルの真珠 | 愛称。 | 英語 |
+
+<a id="jamaica"></a>
+### Jamaica（ジャマイカ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ジャマイカ
+
+- 📍 シーン: レゲエ、ボブ・マーリー、陸上のウサイン・ボルト。
+- 💬 例文: *Reggae music comes from Jamaica.* — レゲエ音楽はジャマイカから来た。
+- 📜 語源: タイノ語 Xaymaca「木と水の土地」
+  - ブルーマウンテンコーヒーの産地。
+- 🌳 同じ語源の仲間: Jamaican（ジャマイカの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kingston** | キングストン | 首都。 | king + town |
+| **Caribbean** | カリブ | この地域。 | カリブ族の名 |
+
+<a id="peru"></a>
+### Peru（ペルー）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ペルー
+
+- 📍 シーン: マチュピチュ、ナスカの地上絵、インカ帝国。
+- 💬 例文: *Machu Picchu is an Inca city in Peru.* — マチュピチュはペルーにあるインカの都市だ。
+- 📜 語源: 先住民の首長ビルー（Birú）の名からとされる
+  - 首都リマ。
+- 🌳 同じ語源の仲間: Peruvian（ペルーの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Inca** | インカ | かつての帝国。 | ケチュア語「王」 |
+| **Lima** | リマ | 首都。 | ケチュア語 Rimaq「話す者」 |
+
+<a id="oceania"></a>
+### Oceania（オセアニア）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — オセアニア（オーストラリアと太平洋の島々）
+
+- 📍 シーン: オーストラリア、ニュージーランド、太平洋の島国。
+- 💬 例文: *Oceania includes Australia and the Pacific islands.* — オセアニアにはオーストラリアと太平洋の島々が含まれる。
+- 📜 語源: ocean「大洋」+ 地名語尾 -ia
+  - ポリネシア・メラネシア・ミクロネシアに分けられる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Australasia** | オーストララシア | オーストラリア周辺の地域名。 | Australia + Asia |
+| **South Seas** | 南洋 | 南太平洋の昔の呼び名。 | 英語 |
+
+<a id="antarctica"></a>
+### Antarctica（南極大陸）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — 南極大陸
+
+- 📍 シーン: 昭和基地、ペンギン、氷床。
+- 💬 例文: *Antarctica is the coldest place on Earth.* — 南極大陸は地球で最も寒い場所だ。
+- 📜 語源: ギリシャ語 antarktikos「北極の反対の」← anti「反対」+ arktikos「北の」
+  - arktikos は「クマ（おおぐま座）の方角の」という意味。
+- 🌳 同じ語源の仲間: Antarctic（南極の）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **South Pole** | 南極点 | 地球の南の端。 | 英語 |
+| **the Antarctic** | 南極地方 | 南極の周りの地域。 | ギリシャ語 |
+
+<a id="arctic"></a>
+### Arctic（北極）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — 北極（地方）。北極の
+
+- 📍 シーン: 北極海、ホッキョクグマ、オーロラ。
+- 💬 例文: *Polar bears live in the Arctic.* — ホッキョクグマは北極に住んでいる。
+- 📜 語源: ギリシャ語 arktikos「クマの（北の）」← arktos「クマ」
+  - 北の空に見えるおおぐま座から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **North Pole** | 北極点 | 地球の北の端。 | 英語 |
+| **polar** | 極地の | 北極・南極の。 | ラテン語 polus「軸」 |
+
+<a id="middle-east"></a>
+### Middle East（中東）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — 中東
+
+- 📍 シーン: 石油、砂漠、イスラム教の国々。
+- 💬 例文: *Many countries in the Middle East produce oil.* — 中東の多くの国が石油を産出する。
+- 📜 語源: middle「中間の」+ east「東」
+  - ヨーロッパから見て「近東」と「極東」の間。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Near East** | 近東 | トルコ周辺を指す古い呼び名。 | 英語 |
+| **Levant** | レバント | 地中海東岸地方。 | フランス語 levant |
+
+<a id="silk-road"></a>
+### Silk Road（シルクロード）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — シルクロード（古代の東西交易路）
+
+- 📍 シーン: 中国と地中海を結んだ道。正倉院の宝物もこの道を通った。
+- 💬 例文: *Silk and spices were traded along the Silk Road.* — 絹や香辛料がシルクロードで取引された。
+- 📜 語源: silk「絹」+ road「道」（ドイツ語 Seidenstraße の訳）
+  - 19世紀ドイツの地理学者リヒトホーフェンが名づけた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Silk Route** | シルクルート | 別の呼び方。 | 英語 |
+| **trade route** | 交易路 | 商品を運ぶ道。 | 英語 |
+
+<a id="atlantic"></a>
+### Atlantic（大西洋）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — 大西洋。大西洋の
+
+- 📍 シーン: タイタニック号が沈んだ海。
+- 💬 例文: *Columbus crossed the Atlantic in 1492.* — コロンブスは1492年に大西洋を渡った。
+- 📜 語源: ギリシャ語 Atlantikos「アトラスの（海）」
+  - 天を支える巨神アトラスの名から。伝説の大陸アトランティスも同じ。
+- 🌳 同じ語源の仲間: Atlantis（アトランティス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Atlantic Ocean** | 大西洋 | 正式な呼び名。 | 英語 |
+| **the pond** | 池 | 英米の間の大西洋をふざけて言う言い方。 | 英語 |
+
+<a id="sahara"></a>
+### Sahara（サハラ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — サハラ砂漠
+
+- 📍 シーン: 世界最大の暑い砂漠。
+- 💬 例文: *The Sahara is the largest hot desert in the world.* — サハラ砂漠は世界最大の暑い砂漠だ。
+- 📜 語源: アラビア語 ṣaḥrāʼ「砂漠」
+  - Sahara Desert は「砂漠砂漠」という意味になる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **desert** | 砂漠 | 雨の少ない乾いた土地。 | ラテン語 dēsertum「見捨てられた」 |
+| **Gobi** | ゴビ砂漠 | アジアの大砂漠。 | モンゴル語 |
+
+<a id="alps"></a>
+### Alps（アルプス）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — アルプス山脈
+
+- 📍 シーン: モンブラン、マッターホルン、日本アルプス。
+- 💬 例文: *The Alps stretch across eight countries.* — アルプス山脈は8か国にまたがっている。
+- 📜 語源: ラテン語 Alpēs（ケルト語 alb「高い」または albus「白い」の説）
+  - 日本の飛騨・木曽・赤石山脈は明治に英国人が「日本アルプス」と名づけた。
+- 🌳 同じ語源の仲間: alpine（高山の）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mont Blanc** | モンブラン | アルプスの最高峰。 | フランス語「白い山」 |
+| **Matterhorn** | マッターホルン | アルプスの名峰。 | ドイツ語 |
+
+<a id="himalayas"></a>
+### Himalayas（ヒマラヤ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ヒマラヤ山脈
+
+- 📍 シーン: エベレストなど8000メートル級の山々。
+- 💬 例文: *The Himalayas have the highest mountains in the world.* — ヒマラヤ山脈には世界で最も高い山々がある。
+- 📜 語源: サンスクリット語 hima「雪」+ ālaya「住みか」＝「雪の住みか」
+  - ヒマラヤスギ、ヒマラヤン（猫）の名前にも。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Everest** | エベレスト | 最高峰。 | 人名 |
+| **roof of the world** | 世界の屋根 | ヒマラヤ・チベット一帯の呼び名。 | 英語 |
+
+<a id="grand-canyon"></a>
+### Grand Canyon（グランドキャニオン）
+
+**地名** / Lv.4 話が広がる / CEFR A2 — グランドキャニオン（アリゾナ州の大峡谷）
+
+- 📍 シーン: コロラド川が作った巨大な谷。
+- 💬 例文: *The Grand Canyon was carved by the Colorado River.* — グランドキャニオンはコロラド川によって削られた。
+- 📜 語源: grand「壮大な」+ canyon「峡谷」← スペイン語 cañón「管」
+  - 深さ約1.6キロ、20億年分の地層が見られる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **canyon** | 峡谷 | 川が作った深い谷。 | スペイン語 cañón |
+| **gorge** | 峡谷 | 狭く深い谷。 | フランス語 gorge「のど」 |
+
+<a id="bali"></a>
+### Bali（バリ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — バリ島（インドネシア）
+
+- 📍 シーン: 「神々の島」、ヒンドゥー文化、リゾート。
+- 💬 例文: *Bali is called the Island of the Gods.* — バリ島は神々の島と呼ばれる。
+- 📜 語源: サンスクリット語 bali「供物」の説
+  - イスラム教徒が多いインドネシアの中でヒンドゥー教が中心の島。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Island of the Gods** | 神々の島 | 愛称。 | 英語 |
+| **Indonesia** | インドネシア | 島がある国。 | ギリシャ語「インドの島々」 |
+
+<a id="venice"></a>
+### Venice（ベネチア） ⚠️
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ベネチア（ベニス。イタリアの水の都）
+
+- 📍 シーン: ゴンドラ、運河、サン・マルコ広場、『ヴェニスの商人』。
+- ⚠️ カタカナの罠: 「ベネチア」はイタリア語 Venezia から。英語では Venice（ヴェニス）。
+- 💬 例文: *There are no cars in Venice, only boats.* — ベネチアには車がなく、船だけがある。
+- 📜 語源: ラテン語 Venetia（ウェネティ族の名）
+  - venetian blind（ブラインド）もこの町の名から。
+- 🌳 同じ語源の仲間: Venetian（ベネチアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Venezia** | ヴェネツィア | イタリア語での名。 | イタリア語 |
+| **Queen of the Adriatic** | アドリア海の女王 | 愛称。 | 英語 |
+
+<a id="milan"></a>
+### Milan（ミラノ） ⚠️
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ミラノ（イタリア北部の都市）
+
+- 📍 シーン: ファッションの都、ACミラン、ドゥオーモ、『最後の晩餐』。
+- ⚠️ カタカナの罠: 「ミラノ」はイタリア語 Milano から。英語では Milan（ミラン）。
+- 💬 例文: *Milan is famous for fashion.* — ミラノはファッションで有名だ。
+- 📜 語源: ラテン語 Mediolānum「平野の真ん中」
+  - milliner（婦人帽子屋）はもとは「ミラノの品を売る人」。
+- 🌳 同じ語源の仲間: milliner（帽子屋）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Milano** | ミラノ | イタリア語での名。 | イタリア語 |
+| **Mediolanum** | メディオラヌム | ローマ時代の名。 | ラテン語 |
+
+<a id="cairo"></a>
+### Cairo（カイロ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — カイロ（エジプトの首都）
+
+- 📍 シーン: ピラミッドのあるギザの近く、ナイル川沿いの大都市。
+- 💬 例文: *The pyramids of Giza are near Cairo.* — ギザのピラミッドはカイロの近くにある。
+- 📜 語源: アラビア語 al-Qāhira「勝利者」（火星の別名）
+  - 町を築いた日に火星が昇っていたからという説がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **al-Qahira** | アル・カーヒラ | アラビア語での名。 | アラビア語 |
+| **Giza** | ギザ | ピラミッドのある町。 | アラビア語 |
+
+<a id="manila"></a>
+### Manila（マニラ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — マニラ（フィリピンの首都）
+
+- 📍 シーン: マニラ湾の夕日。マニラ封筒、マニラ麻。
+- 💬 例文: *Manila envelopes are named after Manila hemp.* — マニラ封筒はマニラ麻にちなんで名づけられた。
+- 📜 語源: タガログ語 may-nilad「ニラッド（植物）がある所」
+  - スペイン統治時代の城壁都市イントラムロスがある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Manila Bay** | マニラ湾 | 湾の名。 | 英語 |
+| **Philippines** | フィリピン | 町がある国。 | スペイン語 |
+
+<a id="toronto"></a>
+### Toronto（トロント）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — トロント（カナダ最大の都市）
+
+- 📍 シーン: CNタワー、野球のブルージェイズ。首都はオタワ。
+- 💬 例文: *Toronto is the largest city in Canada.* — トロントはカナダ最大の都市だ。
+- 📜 語源: モホーク語 tkaronto「水中に木が立つ所」
+  - 首都はオタワ（Ottawa）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ottawa** | オタワ | カナダの首都。 | 先住民の民族名 |
+| **the Six** | ザ・シックス | トロントの愛称（市外局番416から）。 | 英語 |
+
+<a id="chicago"></a>
+### Chicago（シカゴ）
+
+**地名** / Lv.4 話が広がる / CEFR A2 — シカゴ（アメリカ中西部の大都市）
+
+- 📍 シーン: 摩天楼、シカゴピザ、ブルース。
+- 💬 例文: *Chicago is called the Windy City.* — シカゴは「風の町」と呼ばれる。
+- 📜 語源: マイアミ・イリノイ語 shikaakwa「野生のタマネギ」
+  - 近代的な高層ビル（摩天楼）発祥の地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Windy City** | 風の町 | 愛称。 | 英語 |
+| **Chi-Town** | シャイタウン | くだけた愛称。 | 英語 |
+
+<a id="boston"></a>
+### Boston（ボストン）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ボストン（アメリカ北東部の歴史ある都市）
+
+- 📍 シーン: ボストン茶会事件、ハーバード大学、ボストンマラソン。
+- 💬 例文: *The Boston Tea Party happened in 1773.* — ボストン茶会事件は1773年に起きた。
+- 📜 語源: イングランドのボストン（「聖ボトルフの石」）から
+  - アメリカ独立運動の中心地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Beantown** | ビーンタウン | 豆料理にちなむ愛称。 | 英語 |
+| **Massachusetts** | マサチューセッツ | 町がある州。 | 先住民の言葉 |
+
+<a id="rio-de-janeiro"></a>
+### Rio de Janeiro（リオデジャネイロ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — リオデジャネイロ（ブラジルの都市）
+
+- 📍 シーン: カーニバル、コパカバーナ海岸、キリスト像。
+- 💬 例文: *Rio de Janeiro means "River of January."* — リオデジャネイロは「1月の川」という意味だ。
+- 📜 語源: ポルトガル語 rio de janeiro「1月の川」
+  - 1月に湾を川の河口と思って名づけた。2016年夏季五輪の開催地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Rio** | リオ | 略称。 | ポルトガル語 |
+| **Marvelous City** | すばらしい町 | 愛称。 | ポルトガル語 Cidade Maravilhosa |
+
+<a id="amsterdam"></a>
+### Amsterdam（アムステルダム）
+
+**地名** / Lv.4 話が広がる / CEFR A2 — アムステルダム（オランダの首都）
+
+- 📍 シーン: 運河、自転車、ゴッホ美術館、アンネ・フランクの家。
+- 💬 例文: *Amsterdam has more bicycles than people.* — アムステルダムには人より多くの自転車がある。
+- 📜 語源: オランダ語 Amstel（川の名）+ dam「ダム」
+  - アムステル川をせき止めたダムから。ロッテルダムも同じくロッテ川のダム。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Venice of the North** | 北のベネチア | 愛称。 | 英語 |
+| **Netherlands** | オランダ | 町がある国。 | オランダ語 |
+
+<a id="oxford"></a>
+### Oxford（オックスフォード）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — オックスフォード（イギリスの大学都市）
+
+- 📍 シーン: オックスフォード大学、オックスフォードシャツ。
+- 💬 例文: *Oxford is the oldest university in the English-speaking world.* — オックスフォードは英語圏で最も古い大学だ。
+- 📜 語源: 古英語 Oxenaford「牛の渡し場」
+  - ox（雄牛）+ ford（浅瀬）。
+- 🌳 同じ語源の仲間: ox（雄牛）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Cambridge** | ケンブリッジ | ライバルの大学都市。 | 古英語「ケム川の橋」 |
+| **Oxbridge** | オックスブリッジ | 2大学を合わせた呼び名。 | Oxford + Cambridge |
+
+<a id="seattle"></a>
+### Seattle（シアトル）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — シアトル（アメリカの都市）
+
+- 📍 シーン: スターバックス1号店、マイクロソフト、イチローのマリナーズ。
+- 💬 例文: *Seattle is a city in the United States.* — シアトルはアメリカの都市だ。
+- 📜 語源: 先住民の首長シアトル（Si'ahl）の名
+  - 雨の多い町として知られる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Emerald City** | エメラルドシティ | 緑の多い町の愛称。 | 英語 |
+| **Space Needle** | スペース・ニードル | 町のシンボルの塔。 | 英語 |
+
+<a id="miami"></a>
+### Miami（マイアミ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — マイアミ（アメリカの都市）
+
+- 📍 シーン: ビーチ、ラテン文化、マイアミ・バイス。
+- 💬 例文: *Miami is a city in the United States.* — マイアミはアメリカの都市だ。
+- 📜 語源: 先住民の言葉 Mayaimi（「大きな水」の説）
+  - 中南米からの移民が多く、スペイン語もよく聞かれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Magic City** | マジックシティ | 急成長したことからの愛称。 | 英語 |
+| **Florida** | フロリダ | 町がある州。 | スペイン語「花の」 |
+
+<a id="honolulu"></a>
+### Honolulu（ホノルル）
+
+**地名** / Lv.4 話が広がる / CEFR A2 — ホノルル（アメリカの都市）
+
+- 📍 シーン: ワイキキビーチ、ダイヤモンドヘッド。ハワイ州の州都。
+- 💬 例文: *Honolulu is a city in the United States.* — ホノルルはアメリカの都市だ。
+- 📜 語源: ハワイ語 hono「湾」+ lulu「守られた」
+  - ホノルルマラソンには日本からも多くの人が参加する。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Waikiki** | ワイキキ | 有名な浜辺の地区。 | ハワイ語「わき出る水」 |
+| **Oahu** | オアフ島 | 町がある島。 | ハワイ語 |
+
+<a id="taipei"></a>
+### Taipei（台北）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — 台北（台湾の都市）
+
+- 📍 シーン: 台北101、故宮博物院、夜市。
+- 💬 例文: *Taipei is a city in Taiwan.* — 台北は台湾の都市だ。
+- 📜 語源: 中国語「台湾の北」
+  - 台湾の中心都市。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Taipei 101** | 台北101 | 有名な超高層ビル。 | 英語 |
+| **Formosa** | フォルモサ | 台湾の古い欧米での呼び名。 | ポルトガル語 |
+
+<a id="dubai"></a>
+### Dubai（ドバイ）
+
+**地名** / Lv.4 話が広がる / CEFR B1 — ドバイ（アラブ首長国連邦の都市）
+
+- 📍 シーン: 世界一高いビル、ブルジュ・ハリファ。人工島。
+- 💬 例文: *Dubai is a city in the United Arab Emirates.* — ドバイはアラブ首長国連邦の都市だ。
+- 📜 語源: アラビア語（語源不詳）
+  - 砂漠の漁村から数十年で超近代都市になった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Burj Khalifa** | ブルジュ・ハリファ | 世界一高いビル。 | アラビア語 |
+| **Abu Dhabi** | アブダビ | 首都。 | アラビア語「ガゼルの父」 |
 
 ## Lv.5 よく見聞きする
 
@@ -31769,6 +34878,1735 @@
 |---|---|---|---|
 | **map** | 地図 | 土地を表した図。 | ラテン語 mappa「布」 |
 | **globe** | 地球儀 | 丸い地図。 | ラテン語 globus「球」 |
+
+<a id="michael-de"></a>
+### Michael（ミハエル）
+
+**人名（ドイツ語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（ドイツ語での読み）。英語のマイケルと同じつづり
+
+- 📍 シーン: F1 レーサーのミハエル・シューマッハ。
+- 💬 例文: *Michael Schumacher won seven world titles.* — ミハエル・シューマッハは7回世界チャンピオンになった。
+- 📜 語源: ヘブライ語 Mīkhāʼēl → ドイツ語 Michael
+  - ドイツ語では ch を「ハ」に近い音で読み、a と e を分けて「ミ・ハ・エル」と発音する。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Michael** | マイケル（英語） | 同じつづりの英語読み。 | 同じヘブライ語から |
+| **Michel** | ミシェル（フランス語） | フランス語形。 | 同じヘブライ語から |
+
+<a id="miguel"></a>
+### Miguel（ミゲル）
+
+**人名（スペイン語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（スペイン語・ポルトガル語形）。英語の Michael にあたる
+
+- 📍 シーン: 『ドン・キホーテ』の作者ミゲル・デ・セルバンテス。
+- 💬 例文: *Miguel de Cervantes wrote Don Quixote.* — ミゲル・デ・セルバンテスは『ドン・キホーテ』を書いた。
+- 📜 語源: ヘブライ語 Mīkhāʼēl → ラテン語 Michaēl → スペイン語 Miguel
+  - gue の u は読まないので「ミゲル」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Michael** | マイケル（英語） | 英語形。 | 同じヘブライ語から |
+| **Michele** | ミケーレ（イタリア語） | イタリア語形。 | 同じヘブライ語から |
+
+<a id="jeanne"></a>
+### Jeanne（ジャンヌ）
+
+**人名（フランス語）** / Lv.5 よく見聞きする / CEFR B1 — 女性名（フランス語形）。Jean（ジャン）の女性形
+
+- 📍 シーン: ジャンヌ・ダルク（Jeanne d'Arc）。
+- 💬 例文: *Jeanne d'Arc led the French army when she was only seventeen.* — ジャンヌ・ダルクはわずか17歳でフランス軍を率いた。
+- 📜 語源: フランス語 Jean の女性形 ← ラテン語 Iohanna
+  - 英語では Joan of Arc（ジョーン・オブ・アーク）と呼ぶ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jane** | ジェーン（英語） | 英語の女性形。 | 同じラテン語 Iohanna から |
+| **Johanna** | ヨハンナ（ドイツ語） | ドイツ語の女性形。 | 同じラテン語 Iohanna から |
+
+<a id="johann"></a>
+### Johann（ヨハン）
+
+**人名（ドイツ語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（ドイツ語形）。英語の John にあたる
+
+- 📍 シーン: 作曲家ヨハン・セバスティアン・バッハ、ヨハン・シュトラウス。
+- 💬 例文: *Johann Sebastian Bach composed hundreds of works.* — ヨハン・セバスティアン・バッハは何百もの作品を作曲した。
+- 📜 語源: ヘブライ語 Yōḥānān → ラテン語 Iohannes → ドイツ語 Johann
+  - 短くなった形が Hans（ハンス）。Johannes（ヨハネス）とも。
+- 🌳 同じ語源の仲間: Johannes（ヨハネス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hans** | ハンス | Johann の短い形。 | Johannes の短縮 |
+| **John** | ジョン（英語） | 英語形。 | 同じヘブライ語から |
+
+<a id="juan"></a>
+### Juan（ファン）
+
+**人名（スペイン語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（スペイン語形）。英語の John にあたる
+
+- 📍 シーン: 伝説の色男ドン・ファン（Don Juan）。
+- 💬 例文: *Don Juan is a legendary lover in Spanish stories.* — ドン・ファンはスペインの物語に出てくる伝説の色男だ。
+- 📜 語源: ヘブライ語 Yōḥānān → ラテン語 Iohannes → スペイン語 Juan
+  - スペイン語の j は「ハ行」の音なので「ホアン」「フアン」とも書く。
+- 🌳 同じ語源の仲間: Don Juan（ドン・ファン）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **John** | ジョン（英語） | 英語形。 | 同じヘブライ語から |
+| **Giovanni** | ジョバンニ（イタリア語） | イタリア語形。 | 同じヘブライ語から |
+
+<a id="ivan"></a>
+### Ivan（イワン）
+
+**人名（ロシア語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（ロシア語形）。英語の John にあたる
+
+- 📍 シーン: イワン雷帝、トルストイの『イワンのばか』。
+- 💬 例文: *Ivan the Terrible was the first Tsar of Russia.* — イワン雷帝はロシアの最初のツァーリだった。
+- 📜 語源: ヘブライ語 Yōḥānān → ギリシャ語 Iōannēs → ロシア語 Иван
+  - ロシア人男性の代表的な名前とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **John** | ジョン（英語） | 英語形。 | 同じヘブライ語から |
+| **Johann** | ヨハン（ドイツ語） | ドイツ語形。 | 同じヘブライ語から |
+
+<a id="peter-de"></a>
+### Peter（ペーター）
+
+**人名（ドイツ語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（ドイツ語での読み）。英語のピーターと同じつづり
+
+- 📍 シーン: 『アルプスの少女ハイジ』のヤギ飼いの少年ペーター。
+- 💬 例文: *Heidi's friend Peter takes care of the goats.* — ハイジの友だちのペーターはヤギの世話をしている。
+- 📜 語源: ギリシャ語 Petros「岩」→ ドイツ語 Peter
+  - ドイツ語では e を長く「エー」と読むので「ペーター」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Peter** | ピーター（英語） | 同じつづりの英語読み。 | 同じギリシャ語から |
+| **Pietro** | ピエトロ（イタリア語） | イタリア語形。 | 同じギリシャ語から |
+
+<a id="pedro"></a>
+### Pedro（ペドロ）
+
+**人名（スペイン語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（スペイン語・ポルトガル語形）。英語の Peter にあたる
+
+- 📍 シーン: ブラジル初代皇帝ペドロ1世。
+- 💬 例文: *Pedro is a very common name in Spain and Brazil.* — ペドロはスペインとブラジルでとてもよくある名前だ。
+- 📜 語源: ギリシャ語 Petros → ラテン語 Petrus → スペイン語 Pedro
+  - スペイン語では piedra が「石」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Peter** | ピーター（英語） | 英語形。 | 同じギリシャ語から |
+| **Pietro** | ピエトロ（イタリア語） | イタリア語形。 | 同じギリシャ語から |
+
+<a id="luis"></a>
+### Luis（ルイス）
+
+**人名（スペイン語）** / Lv.5 よく見聞きする / CEFR B2 — 男性名（スペイン語・ポルトガル語形）。英語の Louis にあたる
+
+- 📍 シーン: 作家ホルヘ・ルイス・ボルヘス、サッカー選手ルイス・スアレス。
+- 💬 例文: *Luis Suárez scored many goals for Barcelona.* — ルイス・スアレスはバルセロナで多くのゴールを決めた。
+- 📜 語源: フランク語 Chlodowig → スペイン語 Luis
+  - ポルトガル語では Luís（ルイス）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Louis** | ルイ（フランス語） | フランス語形。 | 同じフランク語から |
+| **Luigi** | ルイージ（イタリア語） | イタリア語形。 | 同じフランク語から |
+
+<a id="jos"></a>
+### José（ホセ）
+
+**人名（スペイン語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（スペイン語・ポルトガル語形）。英語の Joseph にあたる
+
+- 📍 シーン: サッカー監督ジョゼ・モウリーニョ（ポルトガル語読み）。
+- 💬 例文: *José is one of the most common names in Spain and Mexico.* — ホセはスペインやメキシコで最もよくある名前の一つだ。
+- 📜 語源: ヘブライ語 Yōsēf → スペイン語 José
+  - スペイン語では「ホセ」、ポルトガル語では「ジョゼ」と読む。愛称は Pepe（ペペ）。
+- 🌳 同じ語源の仲間: Pepe（ペペ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Joseph** | ジョセフ（英語） | 英語形。 | 同じヘブライ語から |
+| **Josef** | ヨーゼフ（ドイツ語） | ドイツ語形。 | 同じヘブライ語から |
+
+<a id="isabella"></a>
+### Isabella（イザベラ）
+
+**人名（イタリア語）** / Lv.5 よく見聞きする / CEFR B1 — 女性名（イタリア語形）。英語の Elizabeth にあたる
+
+- 📍 シーン: 英語圏でも人気の名前。紀行作家イザベラ・バードは明治の日本を旅した。
+- 💬 例文: *Isabella Bird wrote a book about her travels in Japan.* — イザベラ・バードは日本を旅した本を書いた。
+- 📜 語源: スペイン語 Isabel → イタリア語 Isabella
+  - 近年アメリカでも女の子の名前の上位に入る。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Isabel** | イサベル（スペイン語） | スペイン語形。 | 同じヘブライ語から |
+| **Elizabeth** | エリザベス（英語） | 英語形。 | 同じヘブライ語から |
+
+<a id="alexandra"></a>
+### Alexandra（アレクサンドラ）
+
+**人名** / Lv.5 よく見聞きする / CEFR B1 — 女性名。Alexander の女性形
+
+- 📍 シーン: ロシア最後の皇后アレクサンドラ。
+- 💬 例文: *Alexandra is the feminine form of Alexander.* — アレクサンドラはアレクサンダーの女性形だ。
+- 📜 語源: ギリシャ語 Alexandra ← Alexandros
+  - 愛称は Alex、Sandra、Sasha。Sandra（サンドラ）はここから独立した名前。
+- 🌳 同じ語源の仲間: Sandra（サンドラ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sasha** | サーシャ（ロシア語） | 男女とも使う愛称。 | ロシア語 Aleksandr / Aleksandra の愛称 |
+| **Alexander** | アレクサンダー | 男性形。 | ギリシャ語 Alexandros |
+
+<a id="andr"></a>
+### André（アンドレ）
+
+**人名（フランス語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（フランス語・ポルトガル語形）。英語の Andrew にあたる
+
+- 📍 シーン: 『ベルサイユのばら』のアンドレ、作家アンドレ・ジッド。
+- 💬 例文: *André is the French form of Andrew.* — アンドレはアンドリューのフランス語形だ。
+- 📜 語源: ギリシャ語 Andreas → フランス語 André
+  - 女性形は Andrée。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Andrew** | アンドリュー（英語） | 英語形。 | 同じギリシャ語から |
+| **Andrés** | アンドレス（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="francisco"></a>
+### Francisco（フランシスコ）
+
+**人名（スペイン語）** / Lv.5 よく見聞きする / CEFR B1 — 男性名（スペイン語・ポルトガル語形）。英語の Francis にあたる
+
+- 📍 シーン: 宣教師フランシスコ・ザビエル（スペイン・ナバラ出身）、サンフランシスコ。
+- 💬 例文: *Francisco Xavier brought Christianity to Japan in 1549.* — フランシスコ・ザビエルは1549年に日本へキリスト教を伝えた。
+- 📜 語源: ラテン語 Franciscus → スペイン語 Francisco
+  - 愛称は Paco（パコ）、Pancho（パンチョ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Francis** | フランシス（英語） | 英語形。 | 同じラテン語から |
+| **Francesco** | フランチェスコ（イタリア語） | イタリア語形。 | 同じラテン語から |
+
+<a id="julian"></a>
+### Julian（ジュリアン）
+
+**人名** / Lv.5 よく見聞きする / CEFR B1 — 男性名（英語形）。Julius から派生した名前
+
+- 📍 シーン: ローマ皇帝ユリアヌス（英語で Julian）。ドイツ語では「ユリアン」と読む。
+- 💬 例文: *Julian is a name that comes from Julius.* — ジュリアンはユリウスから生まれた名前だ。
+- 📜 語源: ラテン語 Iulianus「ユリウス家の」
+  - フランス語では Julien（ジュリアン）。女性名の Jillian も同じ系統。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Julius** | ユリウス | もとの名前。 | ラテン語 Iulius |
+| **Jules** | ジュール（フランス語） | フランス語形。 | ラテン語 Iulius |
+
+<a id="margherita"></a>
+### Margherita（マルゲリータ）
+
+**人名（イタリア語）** / Lv.5 よく見聞きする / CEFR B1 — 女性名（イタリア語形）。英語の Margaret にあたる
+
+- 📍 シーン: ピザ・マルゲリータはイタリア王妃マルゲリータにちなむ。
+- 💬 例文: *Pizza Margherita is named after an Italian queen.* — ピザ・マルゲリータはイタリアの王妃にちなんで名づけられた。
+- 📜 語源: ギリシャ語 margaritēs → イタリア語 Margherita
+  - トマトの赤、モッツァレラの白、バジルの緑でイタリア国旗を表したという話がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Margaret** | マーガレット（英語） | 英語形。 | 同じギリシャ語から |
+| **Margarita** | マルガリータ（スペイン語） | スペイン語形。カクテルの名前にも。 | 同じギリシャ語から |
+
+<a id="hera"></a>
+### Hera（ヘラ）
+
+**神名** / Lv.5 よく見聞きする / CEFR B2 — ヘラ（ギリシャ神話の女神。ゼウスの妻で結婚の守り神）
+
+- 📍 シーン: 嫉妬深い女神として神話に登場する。
+- 💬 例文: *Hera was the queen of the gods.* — ヘラは神々の女王だった。
+- 📜 語源: ギリシャ語 Hērā（語源不詳）
+  - ヘラクレス（Heracles）は「ヘラの栄光」という意味。ローマ神話のユノ（Juno）にあたる。
+- 🌳 同じ語源の仲間: Heracles（ヘラクレス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Juno** | ユノ（ローマ神話） | ローマ神話で対応する女神。 | ラテン語 Iūnō |
+| **queen of heaven** | 天の女王 | ヘラの呼び名。 | 英語 |
+
+<a id="artemis"></a>
+### Artemis（アルテミス）
+
+**神名** / Lv.5 よく見聞きする / CEFR B2 — アルテミス（ギリシャ神話の狩りと月の女神）
+
+- 📍 シーン: NASA の月探査計画アルテミス計画（アポロの双子の姉の名）。
+- 💬 例文: *NASA's Artemis program aims to return people to the Moon.* — NASAのアルテミス計画は再び人を月に送ることを目指している。
+- 📜 語源: ギリシャ語 Artemis（語源不詳）
+  - アポロンの双子の姉（妹）。ローマ神話のディアナ（Diana）にあたる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Diana** | ディアナ（ローマ神話） | ローマ神話で対応する女神。 | ラテン語 Diāna |
+| **Selene** | セレネ | 月の女神。 | ギリシャ語 selēnē「月」 |
+
+<a id="aphrodite"></a>
+### Aphrodite（アフロディテ）
+
+**神名** / Lv.5 よく見聞きする / CEFR B2 — アフロディテ（ギリシャ神話の愛と美の女神）
+
+- 📍 シーン: 海の泡から生まれたとされる。ボッティチェリ『ヴィーナスの誕生』。
+- 💬 例文: *Aphrodite was born from the foam of the sea.* — アフロディテは海の泡から生まれた。
+- 📜 語源: ギリシャ語 Aphroditē（aphros「泡」と結びつけられた）
+  - aphrodisiac（媚薬）はこの名前から。ローマ神話のウェヌス（Venus）にあたる。
+- 🌳 同じ語源の仲間: aphrodisiac（媚薬）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Venus** | ヴィーナス（ローマ神話） | ローマ神話で対応する女神。 | ラテン語 Venus「愛」 |
+| **Eros** | エロス | アフロディテの息子の愛の神。 | ギリシャ語 erōs「愛」 |
+
+<a id="hades"></a>
+### Hades（ハデス）
+
+**神名** / Lv.5 よく見聞きする / CEFR B2 — ハデス（ギリシャ神話の冥界の王）。冥界そのものも指す
+
+- 📍 シーン: 英語では「地獄」を遠回しに言うときにも使う。
+- 💬 例文: *Hades ruled the underworld.* — ハデスは冥界を支配した。
+- 📜 語源: ギリシャ語 Haidēs「見えない者」
+  - ゼウスの兄。ローマ神話のプルート（Pluto）にあたる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pluto** | プルート（ローマ神話） | ローマ神話で対応する神。冥王星の名前。 | ギリシャ語 Ploutōn「富める者」 |
+| **underworld** | 冥界 | 死者の世界。 | under + world |
+
+<a id="pandora"></a>
+### Pandora（パンドラ）
+
+**神話** / Lv.5 よく見聞きする / CEFR B1 — パンドラ（ギリシャ神話で最初の女性）
+
+- 📍 シーン: 「パンドラの箱（Pandora's box）」＝開けると災いが飛び出すもの。
+- 💬 例文: *Opening that file would be like opening Pandora's box.* — そのファイルを開くのはパンドラの箱を開けるようなものだ。
+- 📜 語源: ギリシャ語 Pandōra「すべての贈り物」← pan「すべて」+ dōron「贈り物」
+  - 箱（本当はつぼ）から災いが広がり、最後に「希望」だけが残った。
+- 🌳 同じ語源の仲間: pandemic（パンデミック：すべての人々の）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pandora's box** | パンドラの箱 | 災いのもと。 | 英語 |
+| **Eve** | イブ | 聖書で最初の女性。 | ヘブライ語 Ḥawwāh |
+
+<a id="nike"></a>
+### Nike（ニケ）
+
+**神名** / Lv.5 よく見聞きする / CEFR B2 — ニケ（ギリシャ神話の勝利の女神）
+
+- 📍 シーン: スポーツブランド「ナイキ（Nike）」の名前の由来。ルーブル美術館の『サモトラケのニケ』。
+- 💬 例文: *The brand Nike is named after the Greek goddess of victory.* — ブランドのナイキはギリシャの勝利の女神にちなんで名づけられた。
+- 📜 語源: ギリシャ語 nīkē「勝利」
+  - 英語では「ナイキ」と読む。人名 Nicholas（民衆の勝利）にも nikē が入っている。
+- 🌳 同じ語源の仲間: Nicholas（ニコラス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Victoria** | ウィクトリア（ローマ神話） | ローマ神話の勝利の女神。 | ラテン語 victōria「勝利」 |
+| **victory** | 勝利 | 勝つこと。 | ラテン語 victōria |
+
+<a id="hercules"></a>
+### Hercules（ヘラクレス）
+
+**神話** / Lv.5 よく見聞きする / CEFR B1 — ヘラクレス（ギリシャ神話の怪力の英雄）
+
+- 📍 シーン: 12の難業を成し遂げた英雄。ディズニー映画『ヘラクレス』。
+- 💬 例文: *Hercules was famous for his great strength.* — ヘラクレスは怪力で有名だった。
+- 📜 語源: ラテン語 Herculēs ← ギリシャ語 Hēraklēs「ヘラの栄光」
+  - 英語の Hercules はラテン語形で「ハーキュリーズ」と読む。herculean は「非常に困難な」。
+- 🌳 同じ語源の仲間: herculean（大変な）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Heracles** | ヘラクレス（ギリシャ語） | ギリシャ語での名前。 | ギリシャ語 Hēraklēs |
+| **hero** | 英雄 | すぐれた勇者。 | ギリシャ語 hērōs |
+
+<a id="achilles"></a>
+### Achilles（アキレス）
+
+**神話** / Lv.5 よく見聞きする / CEFR B1 — アキレウス（トロイア戦争のギリシャ最強の英雄）
+
+- 📍 シーン: アキレス腱（Achilles tendon）の由来。「アキレスと亀」。
+- 💬 例文: *Achilles' only weak spot was his heel.* — アキレウスの唯一の弱点はかかとだった。
+- 📜 語源: ギリシャ語 Akhilleus（語源不詳）
+  - 母が不死の川にひたしたとき、つかんでいたかかとだけが弱点になった。Achilles' heel は「弱点」。
+- 🌳 同じ語源の仲間: Achilles tendon（アキレス腱）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Achilles' heel** | アキレス腱（弱点） | 唯一の弱点。 | 英語 |
+| **hero** | 英雄 | すぐれた勇者。 | ギリシャ語 hērōs |
+
+<a id="sphinx"></a>
+### Sphinx（スフィンクス）
+
+**神話** / Lv.5 よく見聞きする / CEFR B1 — スフィンクス（人の頭とライオンの体をもつ怪物）
+
+- 📍 シーン: エジプト・ギザの大スフィンクス、ギリシャ神話のなぞかけの怪物。
+- 💬 例文: *The Sphinx asked travelers a difficult riddle.* — スフィンクスは旅人に難しいなぞを出した。
+- 📜 語源: ギリシャ語 Sphinx（「しめつける者」と解釈された）
+  - 「朝は4本足、昼は2本足、夜は3本足」＝人間、というなぞが有名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **riddle** | なぞ | なぞなぞ。 | 古英語 rǣdels |
+| **Oedipus** | オイディプス | なぞを解いた人物。 | ギリシャ語 Oidipous |
+
+<a id="pegasus"></a>
+### Pegasus（ペガサス）
+
+**神話** / Lv.5 よく見聞きする / CEFR B1 — ペガサス（翼をもつ天馬）
+
+- 📍 シーン: ペガスス座、ゲームの天馬。
+- 💬 例文: *Pegasus was a horse with wings.* — ペガサスは翼のある馬だった。
+- 📜 語源: ギリシャ語 Pēgasos（pēgē「泉」と結びつけられた）
+  - メドゥーサの首から生まれたとされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **unicorn** | ユニコーン | 一本角の馬。 | ラテン語 ūnicornis |
+| **winged horse** | 天馬 | 翼のある馬。 | 英語 |
+
+<a id="olympus"></a>
+### Olympus（オリンポス）
+
+**地名** / Lv.5 よく見聞きする / CEFR B2 — オリンポス山（ギリシャの最高峰。神々の住む山）
+
+- 📍 シーン: オリンポス十二神、オリンピック（Olympics）の語源の地オリンピアとは別の場所。
+- 💬 例文: *The Greek gods lived on Mount Olympus.* — ギリシャの神々はオリンポス山に住んでいた。
+- 📜 語源: ギリシャ語 Olympos（語源不詳）
+  - オリンピックはゼウスの聖地オリンピア（Olympia）で開かれた競技会から。
+- 🌳 同じ語源の仲間: Olympian（オリンポスの神）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Olympia** | オリンピア | 古代オリンピックの開催地。 | ギリシャ語 Olympia |
+| **Mount Olympus** | オリンポス山 | 山としての呼び方。 | 英語 |
+
+<a id="diana"></a>
+### Diana（ダイアナ）
+
+**神名** / Lv.5 よく見聞きする / CEFR B1 — ディアナ（ローマ神話の狩りと月の女神）。女性名ダイアナ
+
+- 📍 シーン: ダイアナ元英国皇太子妃、ワンダーウーマンの本名ダイアナ。
+- 💬 例文: *Diana was the Roman goddess of the hunt.* — ディアナはローマの狩りの女神だった。
+- 📜 語源: ラテン語 Diāna ← dīus「天の、神の」
+  - ギリシャ神話のアルテミスにあたる。女性名としても広く使われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Artemis** | アルテミス（ギリシャ神話） | ギリシャ神話で対応する女神。 | ギリシャ語 Artemis |
+| **Luna** | ルナ | 月の女神。 | ラテン語 lūna「月」 |
+
+<a id="mercury"></a>
+### Mercury（マーキュリー）
+
+**神名** / Lv.5 よく見聞きする / CEFR B1 — メルクリウス（ローマ神話の商業と使者の神）。水星。水銀
+
+- 📍 シーン: NASA のマーキュリー計画、クイーンのフレディ・マーキュリー、化学の水銀。
+- 💬 例文: *Mercury is the planet closest to the sun.* — 水星は太陽に最も近い惑星だ。
+- 📜 語源: ラテン語 Mercurius ← merx「商品」
+  - 動きの速い神なので、空を速く動く水星や、流れ動く金属の水銀の名前になった。merchant（商人）と同じ語根。
+- 🌳 同じ語源の仲間: merchant（商人）、mercury（水銀）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hermes** | ヘルメス（ギリシャ神話） | ギリシャ神話で対応する神。 | ギリシャ語 Hermēs |
+| **quicksilver** | 水銀 | 「生きている銀」という古い呼び名。 | quick「生きた」+ silver |
+
+<a id="neptune"></a>
+### Neptune（ネプチューン）
+
+**神名** / Lv.5 よく見聞きする / CEFR B2 — ネプトゥヌス（ローマ神話の海の神）。海王星
+
+- 📍 シーン: 太陽系で一番外側の惑星、海王星。
+- 💬 例文: *Neptune was discovered by using mathematics.* — 海王星は数学を使って発見された。
+- 📜 語源: ラテン語 Neptūnus（語源不詳）
+  - ギリシャ神話のポセイドンにあたる。青い惑星なので海の神の名がついた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Poseidon** | ポセイドン（ギリシャ神話） | ギリシャ神話で対応する神。 | ギリシャ語 Poseidōn |
+| **sea god** | 海の神 | 海を支配する神。 | 英語 |
+
+<a id="pluto"></a>
+### Pluto（プルート）
+
+**神名** / Lv.5 よく見聞きする / CEFR B1 — プルート（ローマ神話の冥界の神）。冥王星
+
+- 📍 シーン: 2006年に惑星から準惑星になった冥王星、ディズニーの犬プルート。
+- 💬 例文: *Pluto is no longer called a planet.* — 冥王星はもう惑星とは呼ばれない。
+- 📜 語源: ギリシャ語 Ploutōn「富める者」← ploutos「富」
+  - 地下の鉱物の富を持つ神とされた。plutonium（プルトニウム）はこの星から名づけられた。
+- 🌳 同じ語源の仲間: plutonium（プルトニウム）、plutocracy（金権政治）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hades** | ハデス（ギリシャ神話） | ギリシャ神話で対応する神。 | ギリシャ語 Haidēs |
+| **Dis** | ディス | ローマでの別名。 | ラテン語 Dīs「富める」 |
+
+<a id="saturn"></a>
+### Saturn（サターン）
+
+**神名** / Lv.5 よく見聞きする / CEFR B1 — サトゥルヌス（ローマ神話の農耕神）。土星
+
+- 📍 シーン: 輪のある惑星、土星。土曜日（Saturday）の語源。
+- 💬 例文: *Saturday is named after Saturn.* — 土曜日は土星（サトゥルヌス）にちなんで名づけられた。
+- 📜 語源: ラテン語 Sāturnus（語源不詳）
+  - ギリシャ神話のクロノスと同一視された。ローマの祭りサトゥルナリア（Saturnalia）は冬の大騒ぎの祭り。
+- 🌳 同じ語源の仲間: Saturday（土曜日）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Cronus** | クロノス（ギリシャ神話） | ギリシャ神話で対応する神。 | ギリシャ語 Kronos |
+| **ringed planet** | 輪のある惑星 | 土星の呼び名。 | 英語 |
+
+<a id="odin"></a>
+### Odin（オーディン）
+
+**神名** / Lv.5 よく見聞きする / CEFR B2 — オーディン（北欧神話の最高神。知恵と戦いの神）
+
+- 📍 シーン: ゲームの召喚獣。片目を代償に知恵を得た神。
+- 💬 例文: *Odin gave up one eye to gain wisdom.* — オーディンは知恵を得るために片目を差し出した。
+- 📜 語源: 古ノルド語 Óðinn ← óðr「狂乱、詩的霊感」
+  - 水曜日（Wednesday）は古英語の Woden（オーディン）の日。
+- 🌳 同じ語源の仲間: Wednesday（水曜日）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Woden** | ウォーデン（古英語） | 古英語での呼び名。 | 古英語 Wōden |
+| **Wotan** | ヴォータン（ドイツ語） | ドイツ語での呼び名。ワーグナーのオペラ。 | 古高ドイツ語 Wuotan |
+
+<a id="satan"></a>
+### Satan（サタン）
+
+**神名** / Lv.5 よく見聞きする / CEFR B1 — サタン（聖書の悪魔、神に敵対する者）
+
+- 📍 シーン: ゲームや漫画の魔王。
+- 💬 例文: *In the story, Satan tempts Jesus in the desert.* — 物語では、サタンが荒野でイエスを誘惑する。
+- 📜 語源: ヘブライ語 śāṭān「敵対者、告発者」
+  - もとは普通名詞で「訴える者」。satanic は「悪魔的な」。
+- 🌳 同じ語源の仲間: satanic（悪魔的な）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **devil** | 悪魔 | 悪の化身。 | ギリシャ語 diabolos「中傷する者」 |
+| **Lucifer** | ルシファー | 堕天使。サタンと同一視される。 | ラテン語 lūcifer「光をもたらす者」 |
+
+<a id="gabriel"></a>
+### Gabriel（ガブリエル）
+
+**神名** / Lv.5 よく見聞きする / CEFR B1 — 大天使ガブリエル。男性名ガブリエル
+
+- 📍 シーン: マリアにキリストの誕生を告げた「受胎告知」の天使。
+- 💬 例文: *In the Bible, Gabriel tells Mary she will have a son.* — 聖書でガブリエルはマリアに男の子が生まれると告げる。
+- 📜 語源: ヘブライ語 Gavrīʼēl「神は私の力」
+  - イスラム教ではムハンマドに啓示を伝えた天使ジブリール。人名としても使われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gabrielle** | ガブリエル（女性形） | フランス語の女性形。 | Gabriel + 女性語尾 |
+| **Michael** | ミカエル | 同じく大天使。 | ヘブライ語 Mīkhāʼēl |
+
+<a id="moses"></a>
+### Moses（モーセ）
+
+**人名** / Lv.5 よく見聞きする / CEFR B1 — モーセ（聖書でイスラエル人をエジプトから導き出した指導者）
+
+- 📍 シーン: 海を割る「モーセの十戒」の場面。
+- 💬 例文: *Moses led his people out of Egypt.* — モーセは民をエジプトから導き出した。
+- 📜 語源: ヘブライ語 Mōšeh（エジプト語 ms「子」と関連か）
+  - 英語読みは「モーゼス」。十戒を神から授かった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **prophet** | 預言者 | 神の言葉を伝える人。 | ギリシャ語 prophētēs |
+| **Ten Commandments** | 十戒 | モーセが授かった十の戒め。 | 英語 |
+
+<a id="eden"></a>
+### Eden（エデン）
+
+**地名** / Lv.5 よく見聞きする / CEFR B2 — エデンの園（聖書でアダムとイブが住んだ楽園）
+
+- 📍 シーン: 映画『エデンの東』。楽園のたとえ。
+- 💬 例文: *Adam and Eve lived in the Garden of Eden.* — アダムとイブはエデンの園に住んでいた。
+- 📜 語源: ヘブライ語 ʻĒḏen（「喜び」の意味と解釈された）
+  - 禁断の果実を食べたため二人は追い出された。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **paradise** | 楽園 | 幸福な場所。 | ペルシア語 pairidaēza「囲まれた庭」 |
+| **utopia** | 理想郷 | 理想の社会。 | ギリシャ語 ou「ない」+ topos「場所」 |
+
+<a id="northern-ireland"></a>
+### Northern Ireland（北アイルランド）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — 北アイルランド（イギリスを構成する地域）
+
+- 📍 シーン: 首都ベルファスト。タイタニック号が造られた町。
+- 💬 例文: *Northern Ireland shares a border with the Republic of Ireland.* — 北アイルランドはアイルランド共和国と国境を接している。
+- 📜 語源: Northern「北の」+ Ireland「アイルランド」
+  - 1921年のアイルランド分割でイギリスに残った。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ulster** | アルスター | 北部地方の歴史的な呼び名。 | 古ノルド語・アイルランド語 |
+| **Belfast** | ベルファスト | 首都。 | アイルランド語 Béal Feirste |
+
+<a id="luxembourg"></a>
+### Luxembourg（ルクセンブルク）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ルクセンブルク
+
+- 📍 シーン: 世界でも一人あたりの所得が特に高い小国。
+- 💬 例文: *Luxembourg is one of the smallest countries in Europe.* — ルクセンブルクはヨーロッパで最も小さな国の一つだ。
+- 📜 語源: 古高ドイツ語 Lucilinburhuc「小さな城」
+  - ベルギー・オランダと合わせて「ベネルクス（Benelux）」と呼ばれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Benelux** | ベネルクス | ベルギー・オランダ・ルクセンブルクの総称。 | 3国名の頭文字 |
+| **Grand Duchy** | 大公国 | ルクセンブルクの国の形。 | 英語 |
+
+<a id="romania"></a>
+### Romania（ルーマニア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ルーマニア
+
+- 📍 シーン: ドラキュラ伝説のトランシルバニア地方。
+- 💬 例文: *Romania's language comes from Latin.* — ルーマニアの言語はラテン語から来ている。
+- 📜 語源: ルーマニア語 România「ローマ人の国」
+  - 東欧にありながらラテン語系の言語を話す。
+- 🌳 同じ語源の仲間: Romanian（ルーマニアの）、Roman（ローマの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **România** | ロムニア | ルーマニア語での国名。 | ラテン語 Rōmānus |
+| **Transylvania** | トランシルバニア | 中部の地方名。 | ラテン語「森の向こう」 |
+
+<a id="bulgaria"></a>
+### Bulgaria（ブルガリア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ブルガリア
+
+- 📍 シーン: ヨーグルトで有名。首都ソフィア。
+- 💬 例文: *Bulgaria is famous for its yogurt and roses.* — ブルガリアはヨーグルトとバラで有名だ。
+- 📜 語源: ブルガール人（テュルク系の民族）の名
+  - キリル文字はブルガリアで生まれたとされる。
+- 🌳 同じ語源の仲間: Bulgarian（ブルガリアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Balgariya** | バルガリヤ | ブルガリア語での国名。 | ブルガリア語 България |
+| **Balkans** | バルカン | この地域の呼び名。 | トルコ語 balkan「山脈」 |
+
+<a id="croatia"></a>
+### Croatia（クロアチア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — クロアチア
+
+- 📍 シーン: アドリア海の港町ドブロブニク。ネクタイ（cravat）の発祥地。
+- 💬 例文: *The necktie was first worn by soldiers from Croatia.* — ネクタイはクロアチアの兵士が最初に身につけた。
+- 📜 語源: クロアチア語 Hrvatska ← クロアチア人（Hrvati）
+  - フランス語 cravate（ネクタイ）は「クロアチア人」という意味。
+- 🌳 同じ語源の仲間: cravat（スカーフ状のネクタイ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hrvatska** | フルヴァツカ | クロアチア語での国名。 | クロアチア語 |
+| **Balkans** | バルカン | この地域の呼び名。 | トルコ語 balkan |
+
+<a id="vatican-city"></a>
+### Vatican City（バチカン）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — バチカン市国（ローマ教皇が治める世界最小の国）
+
+- 📍 シーン: サン・ピエトロ大聖堂、システィーナ礼拝堂。
+- 💬 例文: *Vatican City is the smallest country in the world.* — バチカン市国は世界で最も小さい国だ。
+- 📜 語源: ラテン語 Mons Vāticānus「バチカンの丘」
+  - ローマ市内にある。the Vatican はローマ教皇庁そのものを指すこともある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Holy See** | 聖座 | ローマ教皇庁の呼び名。 | 英語 |
+| **Vatican** | バチカン | 略した呼び名。 | ラテン語 Vāticānus |
+
+<a id="myanmar"></a>
+### Myanmar（ミャンマー）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ミャンマー
+
+- 📍 シーン: 黄金の仏塔シュエダゴン・パゴダ。旧首都ヤンゴン。
+- 💬 例文: *Myanmar used to be called Burma.* — ミャンマーは以前ビルマと呼ばれていた。
+- 📜 語源: ビルマ語 Myanma（ビルマ人の文語的な自称）
+  - 1989年に英語名を Burma から Myanmar に変えた。『ビルマの竪琴』。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Burma** | ビルマ | 旧英語名。 | ビルマ語 Bama（口語） |
+| **Yangon** | ヤンゴン | 最大都市・旧首都。 | ビルマ語「戦いの終わり」 |
+
+<a id="bangladesh"></a>
+### Bangladesh（バングラデシュ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — バングラデシュ
+
+- 📍 シーン: 首都ダッカ。衣料品の生産国。
+- 💬 例文: *Many clothes are made in Bangladesh.* — 多くの衣料品がバングラデシュで作られている。
+- 📜 語源: ベンガル語 Bangla「ベンガル」+ desh「国」
+  - 1971年にパキスタンから独立した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bengal** | ベンガル | 地方名。 | ベンガル語 Bangla |
+| **East Pakistan** | 東パキスタン | 独立前の名称。 | 英語 |
+
+<a id="sri-lanka"></a>
+### Sri Lanka（スリランカ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — スリランカ
+
+- 📍 シーン: セイロンティー、仏教遺跡。
+- 💬 例文: *Ceylon tea comes from Sri Lanka.* — セイロンティーはスリランカ産だ。
+- 📜 語源: シンハラ語 śrī「光り輝く」+ laṅkā「島」
+  - 1972年までの国名は Ceylon（セイロン）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ceylon** | セイロン | 旧国名。 | ポルトガル語 Ceilão |
+| **Serendip** | セレンディップ | 古いペルシア語の呼び名。serendipity の語源。 | ペルシア語 Sarandīp |
+
+<a id="afghanistan"></a>
+### Afghanistan（アフガニスタン）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — アフガニスタン
+
+- 📍 シーン: 首都カブール。
+- 💬 例文: *Afghanistan has no coastline.* — アフガニスタンには海岸線がない。
+- 📜 語源: ペルシア語 Afghān（パシュトゥーン人の呼び名）+ -stān「国」
+  - 犬のアフガンハウンドの原産地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **-stan** | 〜スタン | 「国、土地」を表す語尾。 | ペルシア語 -stān |
+| **Kabul** | カブール | 首都。 | 語源不詳 |
+
+<a id="persia"></a>
+### Persia（ペルシャ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ペルシャ（イランの昔の呼び名）
+
+- 📍 シーン: ペルシャ猫、ペルシャじゅうたん、ペルシャ湾。
+- 💬 例文: *The Persian Empire was once the largest in the world.* — ペルシャ帝国はかつて世界最大の帝国だった。
+- 📜 語源: ギリシャ語 Persis ← 古代ペルシア語 Pārsa（ファールス地方）
+  - ペルシア語は今もイランの公用語（Farsi）。
+- 🌳 同じ語源の仲間: Persian（ペルシャの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Iran** | イラン | 今の国名。 | ペルシア語 Īrān |
+| **Farsi** | ファールシー | ペルシア語の自称。 | ペルシア語 Fārsī |
+
+<a id="iraq"></a>
+### Iraq（イラク）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — イラク
+
+- 📍 シーン: 首都バグダッド、古代メソポタミア文明の地。
+- 💬 例文: *The ancient city of Babylon was in what is now Iraq.* — 古代都市バビロンは今のイラクにあった。
+- 📜 語源: アラビア語 al-ʿIrāq（「岸」「根」などの説）
+  - チグリス川とユーフラテス川が流れる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mesopotamia** | メソポタミア | 古代の呼び名。 | ギリシャ語「川の間」 |
+| **Baghdad** | バグダッド | 首都。 | ペルシア語「神の贈り物」 |
+
+<a id="syria"></a>
+### Syria（シリア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — シリア
+
+- 📍 シーン: 首都ダマスカス。
+- 💬 例文: *Damascus in Syria is one of the oldest cities in the world.* — シリアのダマスカスは世界最古の都市の一つだ。
+- 📜 語源: ギリシャ語 Syria（アッシリアの短縮形とされる）
+  - 織物ダマスク（damask）はダマスカスから。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Levant** | レバント | 地中海東岸地方の呼び名。 | フランス語 levant「日の出る」 |
+| **Damascus** | ダマスカス | 首都。 | 語源不詳 |
+
+<a id="palestine"></a>
+### Palestine（パレスチナ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — パレスチナ
+
+- 📍 シーン: ガザ地区、ヨルダン川西岸地区。
+- 💬 例文: *Bethlehem is a town in Palestine.* — ベツレヘムはパレスチナの町だ。
+- 📜 語源: ギリシャ語 Palaistinē ← ペリシテ人（Philistines）
+  - 地中海東岸の地域名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Holy Land** | 聖地 | この地域の呼び名。 | 英語 |
+| **Levant** | レバント | 地中海東岸地方。 | フランス語 levant |
+
+<a id="jordan-country"></a>
+### Jordan（ヨルダン）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ヨルダン
+
+- 📍 シーン: 岩の都ペトラ、死海。
+- 💬 例文: *Petra is an ancient city in Jordan.* — ペトラはヨルダンにある古代都市だ。
+- 📜 語源: ヨルダン川（ヘブライ語 Yardēn「下る者」）
+  - 英語読みは「ジョーダン」。マイケル・ジョーダンの名字も同じ語。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hashemite Kingdom of Jordan** | ヨルダン・ハシェミット王国 | 正式な国名。 | 英語 |
+| **Petra** | ペトラ | 有名な遺跡。 | ギリシャ語「岩」 |
+
+<a id="united-arab-emirates"></a>
+### United Arab Emirates（アラブ首長国連邦）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — アラブ首長国連邦（UAE）
+
+- 📍 シーン: ドバイのブルジュ・ハリファ、首都アブダビ。
+- 💬 例文: *The United Arab Emirates is made up of seven emirates.* — アラブ首長国連邦は7つの首長国から成る。
+- 📜 語源: emirate「首長国」← アラビア語 amīr「首長」
+  - admiral（提督）も amīr から。
+- 🌳 同じ語源の仲間: emir（首長）、admiral（提督）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **UAE** | ユーエーイー | 略称。 | 頭文字 |
+| **Dubai** | ドバイ | 最大の都市。 | アラビア語 |
+
+<a id="morocco"></a>
+### Morocco（モロッコ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — モロッコ
+
+- 📍 シーン: 映画『カサブランカ』、迷路の町マラケシュ、タジン鍋。
+- 💬 例文: *Casablanca is the largest city in Morocco.* — カサブランカはモロッコ最大の都市だ。
+- 📜 語源: 古都マラケシュ（Marrakesh）の名がなまったもの
+  - 羊皮のモロッコ革（morocco）も国名から。アラビア語では al-Maghrib（西の国）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Maghrib** | マグリブ | アラビア語での国名「日の沈む所」。 | アラビア語 |
+| **Marrakesh** | マラケシュ | 国名の元になった古都。 | ベルベル語 |
+
+<a id="ethiopia"></a>
+### Ethiopia（エチオピア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — エチオピア
+
+- 📍 シーン: コーヒー発祥の地、マラソンの強豪国。首都アディスアベバ。
+- 💬 例文: *Coffee was first discovered in Ethiopia.* — コーヒーはエチオピアで最初に発見された。
+- 📜 語源: ギリシャ語 Aithiopia「日に焼けた顔の人々の国」
+  - 植民地にならなかった数少ないアフリカの国。昔は Abyssinia（アビシニア）とも。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Abyssinia** | アビシニア | 昔の呼び名。 | アラビア語 Ḥabashah |
+| **Addis Ababa** | アディスアベバ | 首都（「新しい花」）。 | アムハラ語 |
+
+<a id="nigeria"></a>
+### Nigeria（ナイジェリア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ナイジェリア
+
+- 📍 シーン: アフリカ最大の人口をもつ国。映画産業「ノリウッド」。
+- 💬 例文: *Nigeria has the largest population in Africa.* — ナイジェリアはアフリカ最大の人口をもつ。
+- 📜 語源: ニジェール川（Niger）の名 + -ia
+  - 英国の記者フローラ・ショーが名づけたとされる。首都アブジャ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nollywood** | ノリウッド | ナイジェリアの映画産業。 | Nigeria + Hollywood |
+| **Lagos** | ラゴス | 最大都市。 | ポルトガル語「湖」 |
+
+<a id="madagascar"></a>
+### Madagascar（マダガスカル）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — マダガスカル
+
+- 📍 シーン: バオバブの並木、キツネザル。世界で4番目に大きな島。
+- 💬 例文: *Lemurs live only in Madagascar.* — キツネザルはマダガスカルにしか住んでいない。
+- 📜 語源: マルコ・ポーロが書いた名前（ソマリアのモガディシュと混同されたとされる）
+  - 首都アンタナナリボ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Antananarivo** | アンタナナリボ | 首都（「千人の町」）。 | マダガスカル語 |
+| **lemur** | キツネザル | 固有の動物。 | ラテン語 lemurēs「亡霊」 |
+
+<a id="panama"></a>
+### Panama（パナマ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — パナマ
+
+- 📍 シーン: 太平洋と大西洋を結ぶパナマ運河。
+- 💬 例文: *The Panama Canal connects two oceans.* — パナマ運河は2つの大洋をつないでいる。
+- 📜 語源: 先住民の言葉で「魚の多い所」などの説
+  - パナマ帽（Panama hat）は実はエクアドル産。パナマ運河経由で広まった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Panama Canal** | パナマ運河 | 有名な運河。 | 英語 |
+| **isthmus** | 地峡 | 2つの陸をつなぐ細い土地。 | ギリシャ語 isthmos |
+
+<a id="colombia"></a>
+### Colombia（コロンビア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — コロンビア
+
+- 📍 シーン: コーヒー、エメラルド、首都ボゴタ。
+- 💬 例文: *Colombia is famous for its coffee.* — コロンビアはコーヒーで有名だ。
+- 📜 語源: コロンブス（Columbus、スペイン語 Colón）の名から
+  - アメリカの Columbia（コロンビア大学など）はつづりが違う。
+- 🌳 同じ語源の仲間: Columbus（コロンブス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bogotá** | ボゴタ | 首都。 | 先住民の言葉 |
+| **Columbia** | コロンビア | つづりが違う、米国の地名・大学名。 | Columbus から |
+
+<a id="greenland"></a>
+### Greenland（グリーンランド）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — グリーンランド（世界最大の島。デンマーク領）
+
+- 📍 シーン: 氷床に覆われた島。
+- 💬 例文: *Greenland is the largest island in the world.* — グリーンランドは世界最大の島だ。
+- 📜 語源: 古ノルド語 Grœnland「緑の土地」
+  - 移住者を集めるため、赤毛のエイリークが魅力的な名前をつけたと言われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kalaallit Nunaat** | カラーリット・ヌナート | グリーンランド語での名。 | 「人々の土地」 |
+| **Iceland** | アイスランド | 名前が逆だとよく言われる国。 | 古ノルド語「氷の島」 |
+
+<a id="latin-america"></a>
+### Latin America（ラテンアメリカ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ラテンアメリカ（中南米）
+
+- 📍 シーン: スペイン語・ポルトガル語を話す中南米の国々。
+- 💬 例文: *Spanish and Portuguese are the main languages of Latin America.* — スペイン語とポルトガル語がラテンアメリカの主な言語だ。
+- 📜 語源: Latin（ラテン系の言語の）+ America
+  - 19世紀にフランスで使われ始めた呼び名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **South America** | 南アメリカ | 南米大陸。 | 英語 |
+| **Central America** | 中央アメリカ | 中米。 | 英語 |
+
+<a id="caribbean"></a>
+### Caribbean（カリブ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — カリブ海（地域）
+
+- 📍 シーン: 『パイレーツ・オブ・カリビアン』、カリブの島々。
+- 💬 例文: *Jamaica and Cuba are islands in the Caribbean.* — ジャマイカとキューバはカリブ海の島だ。
+- 📜 語源: 先住民カリブ族（Carib）の名
+  - cannibal（人食い）も同じ民族名がなまったもの。
+- 🌳 同じ語源の仲間: cannibal（人食い）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **West Indies** | 西インド諸島 | カリブの島々の昔の呼び名。 | 英語 |
+| **Antilles** | アンティル諸島 | カリブの島々。 | 伝説の島 Antilia から |
+
+<a id="scandinavia"></a>
+### Scandinavia（スカンジナビア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — スカンジナビア（北欧）
+
+- 📍 シーン: ノルウェー・スウェーデン・デンマーク。
+- 💬 例文: *Scandinavia includes Norway, Sweden, and Denmark.* — スカンジナビアにはノルウェー、スウェーデン、デンマークが含まれる。
+- 📜 語源: ラテン語 Scandia（南スウェーデンの地名）
+  - フィンランドとアイスランドを含めると Nordic countries（北欧諸国）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nordic countries** | 北欧諸国 | 北欧5か国。 | 英語 |
+| **Norse** | 北欧の | 古い北欧の。 | 古ノルド語 norrœnn |
+
+<a id="siberia"></a>
+### Siberia（シベリア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — シベリア
+
+- 📍 シーン: 極寒の地、シベリア鉄道、シベリアン・ハスキー。
+- 💬 例文: *The Trans-Siberian Railway crosses Siberia.* — シベリア鉄道はシベリアを横断している。
+- 📜 語源: シビル・ハン国（Sibir）の名から
+  - ロシア領土のおよそ4分の3を占める。
+- 🌳 同じ語源の仲間: Siberian（シベリアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Trans-Siberian Railway** | シベリア鉄道 | 世界最長の鉄道。 | 英語 |
+| **tundra** | ツンドラ | 寒冷な平原。 | サーミ語 |
+
+<a id="mediterranean"></a>
+### Mediterranean（地中海）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — 地中海。地中海の
+
+- 📍 シーン: 地中海料理、地中海性気候。
+- 💬 例文: *Olive trees grow well in the Mediterranean climate.* — オリーブの木は地中海性気候でよく育つ。
+- 📜 語源: ラテン語 mediterrāneus「陸の真ん中の」← medius「真ん中」+ terra「陸」
+  - ヨーロッパ・アジア・アフリカに囲まれた海。
+- 🌳 同じ語源の仲間: terrain（地形）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mare Nostrum** | マーレ・ノストルム | 古代ローマの呼び名「我らの海」。 | ラテン語 |
+| **Med** | メッド | くだけた略称。 | 英語 |
+
+<a id="indian-ocean"></a>
+### Indian Ocean（インド洋）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — インド洋
+
+- 📍 シーン: モルディブ、マダガスカル、スリランカがある海。
+- 💬 例文: *The Maldives is in the Indian Ocean.* — モルディブはインド洋にある。
+- 📜 語源: Indian「インドの」+ ocean
+  - 世界で3番目に大きい海。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pacific** | 太平洋 | 世界最大の海。 | ラテン語 pācificus |
+| **Atlantic** | 大西洋 | 2番目に大きい海。 | ギリシャ語 Atlantikos |
+
+<a id="mont-blanc"></a>
+### Mont Blanc（モンブラン）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — モンブラン（アルプスの最高峰）
+
+- 📍 シーン: 栗のケーキ「モンブラン」は、この山に似せた形。
+- 💬 例文: *The cake Mont Blanc is named after the mountain.* — ケーキのモンブランはこの山にちなんで名づけられた。
+- 📜 語源: フランス語 mont blanc「白い山」
+  - フランスとイタリアの国境にある。イタリア語では Monte Bianco。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Monte Bianco** | モンテ・ビアンコ | イタリア語での呼び名。 | イタリア語「白い山」 |
+| **Alps** | アルプス | この山がある山脈。 | ラテン語 Alpēs |
+
+<a id="kilimanjaro"></a>
+### Kilimanjaro（キリマンジャロ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B2 — キリマンジャロ（アフリカ最高峰）
+
+- 📍 シーン: 赤道近くの雪山。キリマンジャロコーヒー。
+- 💬 例文: *Kilimanjaro is the highest mountain in Africa.* — キリマンジャロはアフリカで最も高い山だ。
+- 📜 語源: スワヒリ語 kilima「山」+ njaro（「白い」「輝く」の説）
+  - タンザニアにある。温暖化で山頂の氷河が小さくなっている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Uhuru Peak** | ウフル・ピーク | 山頂の名（「自由」）。 | スワヒリ語 |
+| **Tanzania** | タンザニア | 山がある国。 | Tanganyika + Zanzibar |
+
+<a id="andes"></a>
+### Andes（アンデス）
+
+**地名** / Lv.5 よく見聞きする / CEFR B2 — アンデス山脈
+
+- 📍 シーン: 南米西部を南北に走る世界最長の山脈。インカ帝国、アルパカ。
+- 💬 例文: *The Andes are the longest mountain range in the world.* — アンデス山脈は世界最長の山脈だ。
+- 📜 語源: ケチュア語 anti「東」（またはアンデネス＝段々畑）の説
+  - 最高峰はアコンカグア。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Cordillera** | コルディエラ | 山脈を表すスペイン語。 | スペイン語 |
+| **Aconcagua** | アコンカグア | 最高峰。 | ケチュア語 |
+
+<a id="rockies"></a>
+### Rockies（ロッキー）
+
+**地名** / Lv.5 よく見聞きする / CEFR B2 — ロッキー山脈
+
+- 📍 シーン: 北アメリカ西部を走る大山脈。
+- 💬 例文: *The Rockies run from Canada to New Mexico.* — ロッキー山脈はカナダからニューメキシコまで続いている。
+- 📜 語源: 英語 rocky「岩の多い」
+  - 正式には the Rocky Mountains。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Rocky Mountains** | ロッキー山脈 | 正式な呼び名。 | 英語 |
+| **Continental Divide** | 大陸分水嶺 | 山脈に沿った分水界。 | 英語 |
+
+<a id="mississippi"></a>
+### Mississippi（ミシシッピ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ミシシッピ川。ミシシッピ州
+
+- 📍 シーン: マーク・トウェイン『トム・ソーヤーの冒険』の舞台。
+- 💬 例文: *Mark Twain wrote about life on the Mississippi.* — マーク・トウェインはミシシッピ川での暮らしについて書いた。
+- 📜 語源: オジブウェ語 misi-ziibi「大きな川」
+  - つづりを覚えるのが難しい単語の代表。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Old Man River** | オールマン・リバー | ミシシッピ川の愛称。 | 英語 |
+| **Missouri** | ミズーリ川 | 最大の支流。 | 先住民の名 |
+
+<a id="thames"></a>
+### Thames（テムズ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — テムズ川（ロンドンを流れる川）
+
+- 📍 シーン: ビッグ・ベン、タワー・ブリッジ。
+- 💬 例文: *The Thames flows through London.* — テムズ川はロンドンを流れている。
+- 📜 語源: ケルト語 Tamesas「暗い」の説
+  - th を「ト」と読むのに注意（「テムズ」）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **River Thames** | テムズ川 | 正式な呼び方。 | 英語 |
+| **London** | ロンドン | 川沿いの首都。 | ラテン語 Londinium |
+
+<a id="seine"></a>
+### Seine（セーヌ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B2 — セーヌ川（パリを流れる川）
+
+- 📍 シーン: パリの橋、シテ島、ノートルダム大聖堂。
+- 💬 例文: *Paris is built on both banks of the Seine.* — パリはセーヌ川の両岸に広がっている。
+- 📜 語源: ラテン語 Sēquana（川の女神の名）
+  - 2024年パリ五輪の開会式はセーヌ川で行われた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Rive Gauche** | 左岸 | セーヌ南岸（芸術家の地区）。 | フランス語 |
+| **Paris** | パリ | 川沿いの首都。 | ラテン語 Parisii |
+
+<a id="niagara"></a>
+### Niagara（ナイアガラ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ナイアガラ（の滝）
+
+- 📍 シーン: アメリカとカナダの国境にある大瀑布。
+- 💬 例文: *Niagara Falls is on the border between the US and Canada.* — ナイアガラの滝はアメリカとカナダの国境にある。
+- 📜 語源: 先住民イロコイ語 Onguiaahra「海峡」の説
+  - 新婚旅行の名所として有名だった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Niagara Falls** | ナイアガラの滝 | 正式な呼び方。 | 英語 |
+| **waterfall** | 滝 | 高い所から落ちる水。 | water + fall |
+
+<a id="easter-island"></a>
+### Easter Island（イースター島）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — イースター島（チリ領）
+
+- 📍 シーン: 巨大な石像モアイ。
+- 💬 例文: *The moai statues stand on Easter Island.* — モアイ像はイースター島に立っている。
+- 📜 語源: 1722年の復活祭（Easter）の日にオランダ人が到着したことから
+  - 現地語では Rapa Nui（ラパ・ヌイ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Rapa Nui** | ラパ・ヌイ | 現地での名。 | ポリネシア語 |
+| **moai** | モアイ | 島の石像。 | ラパ・ヌイ語 |
+
+<a id="munich"></a>
+### Munich（ミュンヘン） ⚠️
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ミュンヘン（ドイツ南部の都市）
+
+- 📍 シーン: オクトーバーフェスト、サッカーのバイエルン・ミュンヘン。
+- ⚠️ カタカナの罠: 「ミュンヘン」はドイツ語 München から。英語では Munich（ミューニック）。
+- 💬 例文: *Oktoberfest is held in Munich every autumn.* — オクトーバーフェストは毎年秋にミュンヘンで開かれる。
+- 📜 語源: ドイツ語 München ← 古高ドイツ語 munih「修道士」
+  - 修道士の住む場所だったので「修道士たちの町」。イタリア語では Monaco（モナコ）と呼ぶ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **München** | ミュンヒェン | ドイツ語での名。 | ドイツ語 |
+| **Bavaria** | バイエルン | 町がある州。 | ラテン語 |
+
+<a id="florence"></a>
+### Florence（フィレンツェ） ⚠️
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — フィレンツェ（イタリアのルネサンスの都）。女性名フローレンス
+
+- 📍 シーン: ウフィツィ美術館、ドゥオーモ、ダヴィデ像。
+- ⚠️ カタカナの罠: 「フィレンツェ」はイタリア語 Firenze から。英語では Florence（フローレンス）で、女性名と同じ。
+- 💬 例文: *Florence was the center of the Renaissance.* — フィレンツェはルネサンスの中心だった。
+- 📜 語源: ラテン語 Florentia「花咲く（町）」
+  - 看護師ナイチンゲール（Florence Nightingale）はフィレンツェ生まれでこの名がついた。
+- 🌳 同じ語源の仲間: flower（花）、Florida（フロリダ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Firenze** | フィレンツェ | イタリア語での名。 | イタリア語 |
+| **Tuscany** | トスカーナ | 町がある州。 | ラテン語 Tuscī |
+
+<a id="naples"></a>
+### Naples（ナポリ） ⚠️
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ナポリ（イタリア南部の港町）
+
+- 📍 シーン: ピザ発祥の地、ベスビオ火山。「ナポリを見てから死ね」。
+- ⚠️ カタカナの罠: 「ナポリ」はイタリア語 Napoli から。英語では Naples（ネイプルズ）。
+- 💬 例文: *Pizza was born in Naples.* — ピザはナポリで生まれた。
+- 📜 語源: ギリシャ語 Neapolis「新しい町」← neos「新しい」+ polis「町」
+  - 古代ギリシャ人が作った植民市。スパゲッティ・ナポリタンは日本生まれの料理。
+- 🌳 同じ語源の仲間: metropolis（大都市）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Napoli** | ナポリ | イタリア語での名。 | イタリア語 |
+| **Neapolis** | ネアポリス | 古代ギリシャ語での名。 | ギリシャ語「新しい町」 |
+
+<a id="lisbon"></a>
+### Lisbon（リスボン） ⚠️
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — リスボン（ポルトガルの首都）
+
+- 📍 シーン: 坂道と路面電車、エッグタルト、ファド。
+- ⚠️ カタカナの罠: 「リスボン」は英語・フランス語 Lisbon/Lisbonne から。ポルトガル語では Lisboa（リジュボア）。
+- 💬 例文: *Lisbon is built on seven hills.* — リスボンは7つの丘の上に築かれている。
+- 📜 語源: ラテン語 Olisipo（フェニキア語「安全な港」の説）
+  - 1755年の大地震で大きな被害を受けた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lisboa** | リジュボア | ポルトガル語での名。 | ポルトガル語 |
+| **City of Seven Hills** | 七つの丘の町 | 愛称。 | 英語 |
+
+<a id="prague"></a>
+### Prague（プラハ） ⚠️
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — プラハ（チェコの首都）
+
+- 📍 シーン: 百塔の町、カレル橋、カフカの町。
+- ⚠️ カタカナの罠: 「プラハ」はチェコ語 Praha から。英語では Prague（プラーグ）。
+- 💬 例文: *Prague is called the City of a Hundred Spires.* — プラハは百塔の町と呼ばれる。
+- 📜 語源: チェコ語 Praha「浅瀬」の説
+  - 1968年の民主化運動は「プラハの春」と呼ばれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Praha** | プラハ | チェコ語での名。 | チェコ語 |
+| **City of a Hundred Spires** | 百塔の町 | 愛称。 | 英語 |
+
+<a id="warsaw"></a>
+### Warsaw（ワルシャワ） ⚠️
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ワルシャワ（ポーランドの首都）
+
+- 📍 シーン: ショパンの心臓が眠る町、戦後に復元された旧市街。
+- ⚠️ カタカナの罠: 「ワルシャワ」はポーランド語 Warszawa から。英語では Warsaw（ウォーソー）。
+- 💬 例文: *The old town of Warsaw was rebuilt after the war.* — ワルシャワの旧市街は戦後に再建された。
+- 📜 語源: ポーランド語 Warszawa（人名 Warsz の所有地の説）
+  - 伝説では人魚が町を守るという。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Warszawa** | ヴァルシャヴァ | ポーランド語での名。 | ポーランド語 |
+| **Varsovia** | バルソビア | ラテン語・スペイン語での名。 | ラテン語 |
+
+<a id="jerusalem"></a>
+### Jerusalem（エルサレム）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — エルサレム
+
+- 📍 シーン: ユダヤ教・キリスト教・イスラム教の聖地。嘆きの壁。
+- 💬 例文: *Jerusalem is a holy city for three religions.* — エルサレムは3つの宗教の聖地だ。
+- 📜 語源: ヘブライ語 Yərūšālayim（「平和の町」と解釈される）
+  - アラビア語では al-Quds（聖なる所）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Zion** | シオン | エルサレムの丘、聖地の呼び名。 | ヘブライ語 |
+| **al-Quds** | アル・クドゥス | アラビア語での名。 | アラビア語 |
+
+<a id="delhi"></a>
+### Delhi（デリー）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — デリー（インドの首都圏。ニューデリーを含む）
+
+- 📍 シーン: タージ・マハルへの玄関口、ムガル帝国の都。
+- 💬 例文: *New Delhi is the capital of India.* — ニューデリーはインドの首都だ。
+- 📜 語源: 語源不詳（ヒンディー語 dehlī「敷居」の説など）
+  - 首都は正式にはニューデリー。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **New Delhi** | ニューデリー | 首都の正式名。 | 英語 |
+| **Old Delhi** | オールドデリー | 旧市街。 | 英語 |
+
+<a id="jakarta"></a>
+### Jakarta（ジャカルタ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ジャカルタ（インドネシアの首都）
+
+- 📍 シーン: 東南アジア最大級の都市。首都移転計画がある。
+- 💬 例文: *Jakarta is one of the largest cities in Southeast Asia.* — ジャカルタは東南アジア最大級の都市だ。
+- 📜 語源: サンスクリット語 Jayakarta「勝利の町」
+  - オランダ統治時代の名はバタビア（Batavia）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Batavia** | バタビア | オランダ統治時代の名。 | ラテン語 |
+| **Nusantara** | ヌサンタラ | 新首都の名。 | 古ジャワ語 |
+
+<a id="vancouver"></a>
+### Vancouver（バンクーバー）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — バンクーバー（カナダ西海岸の都市）
+
+- 📍 シーン: 2010年冬季五輪、スタンレー・パーク。
+- 💬 例文: *Vancouver hosted the Winter Olympics in 2010.* — バンクーバーは2010年に冬季五輪を開催した。
+- 📜 語源: 英国の探検家ジョージ・バンクーバーの名から
+  - 住みやすい都市ランキングの常連。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Raincouver** | レインクーバー | 雨が多いことからのあだ名。 | rain + Vancouver |
+| **British Columbia** | ブリティッシュコロンビア | 町がある州。 | 英語 |
+
+<a id="brussels"></a>
+### Brussels（ブリュッセル）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ブリュッセル（ベルギーの首都。EUの本部）
+
+- 📍 シーン: 小便小僧、グラン・プラス、芽キャベツ（Brussels sprouts）。
+- 💬 例文: *The European Union has its headquarters in Brussels.* — EUはブリュッセルに本部がある。
+- 📜 語源: オランダ語 Brussel「沼地の家」
+  - EU の政治そのものを指すこともある。
+- 🌳 同じ語源の仲間: Brussels sprouts（芽キャベツ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bruxelles** | ブリュッセル | フランス語での名。 | フランス語 |
+| **Brussel** | ブリュッセル | オランダ語での名。 | オランダ語 |
+
+<a id="cambridge"></a>
+### Cambridge（ケンブリッジ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ケンブリッジ（イギリスの大学都市。米国マサチューセッツ州の都市）
+
+- 📍 シーン: ケンブリッジ大学、ニュートン、アメリカのハーバード大学・MIT。
+- 💬 例文: *Newton studied at Cambridge.* — ニュートンはケンブリッジで学んだ。
+- 📜 語源: 古英語 Grantebrycge「グランタ川の橋」
+  - アメリカのケンブリッジは英国のこの町にちなむ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Oxford** | オックスフォード | ライバルの大学都市。 | 古英語「牛の渡し場」 |
+| **Oxbridge** | オックスブリッジ | 2大学を合わせた呼び名。 | Oxford + Cambridge |
+
+<a id="arizona"></a>
+### Arizona（アリゾナ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — アリゾナ州（アメリカ南西部の州）
+
+- 📍 シーン: グランドキャニオン、サボテンの砂漠。州都はフェニックス。
+- 💬 例文: *Phoenix is the capital of Arizona.* — フェニックスはアリゾナ州の州都だ。
+- 📜 語源: オーダム語 ali ṣonak「小さな泉」の説
+  - 州都フェニックスは夏に気温が45度を超えることもある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Grand Canyon State** | グランドキャニオン州 | 州の愛称。 | 英語 |
+| **AZ** | AZ（略号） | 郵便などで使う2文字の州の略号。 | Arizona の略 |
+
+<a id="colorado"></a>
+### Colorado（コロラド）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — コロラド州（アメリカロッキー山脈の州）
+
+- 📍 シーン: ロッキー山脈、スキーリゾート。州都はデンバー。
+- 💬 例文: *Denver is the capital of Colorado.* — デンバーはコロラド州の州都だ。
+- 📜 語源: スペイン語 colorado「赤く色づいた」（コロラド川の赤い水から）
+  - 州都デンバーは標高1マイル（約1600m）で Mile High City と呼ばれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Centennial State** | 百年祭の州 | 州の愛称。 | 英語 |
+| **CO** | CO（略号） | 郵便などで使う2文字の州の略号。 | Colorado の略 |
+
+<a id="georgia"></a>
+### Georgia（ジョージア）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ジョージア州（アメリカ南東部の州）
+
+- 📍 シーン: コカ・コーラの本社があるアトランタ、桃。州都はアトランタ。
+- 💬 例文: *Atlanta is the capital of Georgia.* — アトランタはジョージア州の州都だ。
+- 📜 語源: 英国王ジョージ2世の名
+  - 同名の国ジョージア（コーカサス）とは別。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Peach State** | 桃の州 | 州の愛称。 | 英語 |
+| **GA** | GA（略号） | 郵便などで使う2文字の州の略号。 | Georgia の略 |
+
+<a id="kentucky"></a>
+### Kentucky（ケンタッキー）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ケンタッキー州（アメリカ南東部の州）
+
+- 📍 シーン: ケンタッキー・フライドチキン、競馬ケンタッキー・ダービー、バーボン。州都はフランクフォート。
+- 💬 例文: *Frankfort is the capital of Kentucky.* — フランクフォートはケンタッキー州の州都だ。
+- 📜 語源: イロコイ語「草原」の説
+  - カーネル・サンダースはこの州から「カーネル（名誉大佐）」の称号を受けた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bluegrass State** | ブルーグラス州 | 州の愛称。 | 英語 |
+| **KY** | KY（略号） | 郵便などで使う2文字の州の略号。 | Kentucky の略 |
+
+<a id="nevada"></a>
+### Nevada（ネバダ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ネバダ州（アメリカ西部の州）
+
+- 📍 シーン: ラスベガス、砂漠。州都はカーソンシティ。
+- 💬 例文: *Carson City is the capital of Nevada.* — カーソンシティはネバダ州の州都だ。
+- 📜 語源: スペイン語 nevada「雪に覆われた」（シエラネバダ山脈から）
+  - アメリカで最も雨の少ない州。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Silver State** | 銀の州 | 州の愛称。 | 英語 |
+| **NV** | NV（略号） | 郵便などで使う2文字の州の略号。 | Nevada の略 |
+
+<a id="canberra"></a>
+### Canberra（キャンベラ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — キャンベラ（オーストラリアの首都）
+
+- 📍 シーン: 計画的に作られた首都。
+- 💬 例文: *Canberra is the capital of Australia.* — キャンベラはオーストラリアの首都だ。
+- 📜 語源: 先住民の言葉「集会所」の説
+  - シドニーとメルボルンが首都を争ったため、間に新しく作られた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Australian Capital Territory** | オーストラリア首都特別地域 | 首都がある特別区。 | 英語 |
+| **Bush Capital** | ブッシュ・キャピタル | 緑の多さからの愛称。 | 英語 |
+
+<a id="ottawa"></a>
+### Ottawa（オタワ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — オタワ（カナダの首都）
+
+- 📍 シーン: カナダの首都。国会議事堂、リドー運河。
+- 💬 例文: *Ottawa is the capital of Canada.* — オタワはカナダの首都だ。
+- 📜 語源: 先住民オダワ族（「交易する人」）の名
+  - 英語圏とフランス語圏の境目にあるため首都に選ばれた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bytown** | バイタウン | 昔の名。 | 人名 John By から |
+| **National Capital Region** | 首都圏 | オタワを中心とする首都地域。 | 英語 |
+
+<a id="montreal"></a>
+### Montreal（モントリオール）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — モントリオール（カナダの都市）
+
+- 📍 シーン: フランス語圏の大都市。1976年夏季五輪。
+- 💬 例文: *Montreal is a city in Canada.* — モントリオールはカナダの都市だ。
+- 📜 語源: フランス語 Mont Royal「王の山」
+  - パリに次いで世界で2番目に大きいフランス語圏の都市と言われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Montréal** | モンレアル | フランス語での名。 | フランス語 |
+| **Mount Royal** | モン・ロワイヤル | 町の名前の元の山。 | 英語 |
+
+<a id="houston"></a>
+### Houston（ヒューストン）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ヒューストン（アメリカの都市）
+
+- 📍 シーン: NASA のジョンソン宇宙センター、石油産業。
+- 💬 例文: *Houston is a city in the United States.* — ヒューストンはアメリカの都市だ。
+- 📜 語源: テキサス共和国の大統領サム・ヒューストンの名
+  - アポロ13号の「ヒューストン、問題が発生した」は有名な言葉。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Space City** | スペースシティ | 愛称。 | 英語 |
+| **Texas** | テキサス | 町がある州。 | カド語「友」 |
+
+<a id="manchester"></a>
+### Manchester（マンチェスター）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — マンチェスター（イギリスの都市）
+
+- 📍 シーン: サッカーのマンチェスター・ユナイテッドとシティ、産業革命の町。
+- 💬 例文: *Manchester is a city in the United Kingdom.* — マンチェスターはイギリスの都市だ。
+- 📜 語源: ラテン語 Mamucium + 古英語 ceaster「城塞」
+  - -chester、-caster はローマ時代の砦のあった町を表す（Winchester、Lancaster）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Manc** | マンク | 町の人のくだけた呼び名。 | 英語 |
+| **Cottonopolis** | コットノポリス | 綿工業で栄えたころの愛称。 | cotton + polis |
+
+<a id="liverpool"></a>
+### Liverpool（リバプール）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — リバプール（イギリスの都市）
+
+- 📍 シーン: ビートルズの故郷、サッカーのリバプールFC。
+- 💬 例文: *Liverpool is a city in the United Kingdom.* — リバプールはイギリスの都市だ。
+- 📜 語源: 古英語 lifer「濁った」+ pōl「池」
+  - 大西洋貿易の港町として栄えた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Scouse** | スカウス | リバプールの人・方言。 | lobscouse（シチュー）から |
+| **Merseyside** | マージーサイド | 町がある地域。 | 英語 |
+
+<a id="dublin"></a>
+### Dublin（ダブリン）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ダブリン（アイルランドの首都）
+
+- 📍 シーン: ギネスビールの工場、作家ジョイスの町。
+- 💬 例文: *Dublin is the capital of Ireland.* — ダブリンはアイルランドの首都だ。
+- 📜 語源: アイルランド語 Dubh Linn「黒い池」
+  - バイキングが築いた港町から発展した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Baile Átha Cliath** | バーラ・アハ・クリア | アイルランド語での名。 | アイルランド語 |
+| **Emerald Isle** | エメラルドの島 | 国の愛称。 | 英語 |
+
+<a id="stockholm"></a>
+### Stockholm（ストックホルム）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ストックホルム（スウェーデンの首都）
+
+- 📍 シーン: ノーベル賞の授賞式、14の島の上の町。
+- 💬 例文: *Stockholm is the capital of Sweden.* — ストックホルムはスウェーデンの首都だ。
+- 📜 語源: スウェーデン語 stock「丸太」+ holm「小島」
+  - 「ストックホルム症候群」はこの町の銀行強盗事件から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Venice of the North** | 北のベネチア | 水の都の愛称。 | 英語 |
+| **Gamla stan** | ガムラスタン | 旧市街。 | スウェーデン語「古い町」 |
+
+<a id="oslo"></a>
+### Oslo（オスロ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — オスロ（ノルウェーの首都）
+
+- 📍 シーン: ノーベル平和賞の授賞式、ムンク美術館。
+- 💬 例文: *Oslo is the capital of Norway.* — オスロはノルウェーの首都だ。
+- 📜 語源: 古ノルド語（「神々の草原」などの説）
+  - 1925年までの名はクリスチャニア（Christiania）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Christiania** | クリスチャニア | 昔の名。 | デンマーク王の名 |
+| **Oslofjord** | オスロフィヨルド | 町が面するフィヨルド。 | ノルウェー語 |
+
+<a id="copenhagen"></a>
+### Copenhagen（コペンハーゲン）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — コペンハーゲン（デンマークの首都）
+
+- 📍 シーン: 人魚姫の像、チボリ公園。
+- 💬 例文: *Copenhagen is the capital of Denmark.* — コペンハーゲンはデンマークの首都だ。
+- 📜 語源: デンマーク語 Købmandshavn「商人の港」
+  - デンマーク語では København（ケーベンハウン）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **København** | ケーベンハウン | デンマーク語での名。 | デンマーク語 |
+| **merchants' harbor** | 商人の港 | 名前の意味。 | 英語 |
+
+<a id="helsinki"></a>
+### Helsinki（ヘルシンキ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ヘルシンキ（フィンランドの首都）
+
+- 📍 シーン: デザインの町、サウナ、港。
+- 💬 例文: *Helsinki is the capital of Finland.* — ヘルシンキはフィンランドの首都だ。
+- 📜 語源: スウェーデン語 Helsingfors の最初の部分から
+  - スウェーデン語での名は Helsingfors。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Helsingfors** | ヘルシングフォシュ | スウェーデン語での名。 | スウェーデン語 |
+| **Daughter of the Baltic** | バルト海の乙女 | 愛称。 | 英語 |
+
+<a id="kyiv"></a>
+### Kyiv（キーウ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — キーウ（ウクライナの首都）
+
+- 📍 シーン: 黄金のドームの聖ソフィア大聖堂。
+- 💬 例文: *Kyiv is the capital of Ukraine.* — キーウはウクライナの首都だ。
+- 📜 語源: 伝説の建国者キイ（Kyi）の名
+  - 2022年から日本語での表記がロシア語読みの「キエフ」からウクライナ語読みの「キーウ」に変わった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kiev** | キエフ | ロシア語に基づく以前の表記。 | ロシア語 Kiev |
+| **Mother of Rus' cities** | ルーシの諸都市の母 | 古くからの呼び名。 | 英語 |
+
+<a id="frankfurt"></a>
+### Frankfurt（フランクフルト）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — フランクフルト（ドイツの都市）
+
+- 📍 シーン: ヨーロッパの金融の中心、国際空港、ゲーテの生家。
+- 💬 例文: *Frankfurt is a city in Germany.* — フランクフルトはドイツの都市だ。
+- 📜 語源: ドイツ語「フランク人の浅瀬（渡し場）」
+  - フランクフルトソーセージ（frankfurter）はこの町の名から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **frankfurter** | フランクフルトソーセージ | 町の名のついたソーセージ。 | ドイツ語 |
+| **Mainhattan** | マインハッタン | 高層ビル街の愛称。 | Main（川）+ Manhattan |
+
+<a id="hamburg"></a>
+### Hamburg（ハンブルク）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ハンブルク（ドイツの都市）
+
+- 📍 シーン: 港町、ビートルズが修業した町。
+- 💬 例文: *Hamburg is a city in Germany.* — ハンブルクはドイツの都市だ。
+- 📜 語源: 古ザクセン語 hamma「湿地」+ burg「城」の説
+  - ハンバーガー（hamburger）は「ハンブルクの（料理）」という意味。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **hamburger** | ハンバーガー | 町の名がついた料理。 | ドイツ語 |
+| **Hansestadt** | ハンザ都市 | 中世の商業同盟の町。 | ドイツ語 |
+
+<a id="pisa"></a>
+### Pisa（ピサ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ピサ（イタリアの都市）
+
+- 📍 シーン: ピサの斜塔。ガリレオの生地。
+- 💬 例文: *Pisa is a city in Italy.* — ピサはイタリアの都市だ。
+- 📜 語源: 語源不詳（エトルリア語など）
+  - ガリレオが斜塔から物を落とす実験をしたという話は伝説とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Leaning Tower** | 斜塔 | 町の有名な塔。 | 英語 |
+| **Tuscany** | トスカーナ | 町がある州。 | ラテン語 |
+
+<a id="hanoi"></a>
+### Hanoi（ハノイ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ハノイ（ベトナムの首都）
+
+- 📍 シーン: ベトナムの首都。旧市街、ホー・チ・ミン廟。
+- 💬 例文: *Hanoi is the capital of Vietnam.* — ハノイはベトナムの首都だ。
+- 📜 語源: ベトナム語 Hà Nội「川の内側」
+  - 紅河の湾曲部の内側にあることから。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ho Chi Minh City** | ホーチミン市 | ベトナム最大の都市。旧サイゴン。 | 人名 |
+| **Thang Long** | タンロン | 昔の名「昇る竜」。 | ベトナム語 |
+
+<a id="melbourne"></a>
+### Melbourne（メルボルン）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — メルボルン（オーストラリアの都市）
+
+- 📍 シーン: テニス全豪オープン、カフェ文化、路面電車。
+- 💬 例文: *Melbourne is a city in Australia.* — メルボルンはオーストラリアの都市だ。
+- 📜 語源: 英国首相メルバーン卿（Lord Melbourne）の名
+  - 1927年までオーストラリアの臨時首都だった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Melbs** | メルブズ | くだけた愛称。 | 英語 |
+| **Victoria** | ビクトリア | 町がある州。 | 女王の名 |
+
+<a id="casablanca"></a>
+### Casablanca（カサブランカ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — カサブランカ（モロッコの都市）
+
+- 📍 シーン: 映画『カサブランカ』、ハッサン2世モスク。
+- 💬 例文: *Casablanca is a city in Morocco.* — カサブランカはモロッコの都市だ。
+- 📜 語源: スペイン語 casa blanca「白い家」
+  - モロッコ最大の都市。首都はラバト。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Dar el Beida** | ダル・エル・ベイダ | アラビア語での名「白い家」。 | アラビア語 |
+| **Rabat** | ラバト | 首都。 | アラビア語 |
+
+<a id="mexico-city"></a>
+### Mexico City（メキシコシティ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — メキシコシティ（メキシコの首都）
+
+- 📍 シーン: アステカの都テノチティトランの跡に建つ高地の大都市。
+- 💬 例文: *Mexico City is the capital of Mexico.* — メキシコシティはメキシコの首都だ。
+- 📜 語源: 国名 Mexico + city
+  - 湖を埋め立てた土地の上にあり、少しずつ沈んでいる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Tenochtitlan** | テノチティトラン | アステカ時代の都。 | ナワトル語 |
+| **CDMX** | シーディーエムエックス | スペイン語名の略称。 | Ciudad de México |
+
+<a id="buenos-aires"></a>
+### Buenos Aires（ブエノスアイレス）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ブエノスアイレス（アルゼンチンの首都）
+
+- 📍 シーン: タンゴ発祥の地、「南米のパリ」。
+- 💬 例文: *Buenos Aires is the capital of Argentina.* — ブエノスアイレスはアルゼンチンの首都だ。
+- 📜 語源: スペイン語 buenos aires「良い空気、順風」
+  - 船乗りの守護聖母「良い風の聖母」の名から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Paris of South America** | 南米のパリ | 愛称。 | 英語 |
+| **porteño** | ポルテーニョ | 町の人（港の人）。 | スペイン語 |
+
+<a id="havana"></a>
+### Havana（ハバナ）
+
+**地名** / Lv.5 よく見聞きする / CEFR B1 — ハバナ（キューバの首都）
+
+- 📍 シーン: 旧市街、クラシックカー、葉巻。
+- 💬 例文: *Havana is the capital of Cuba.* — ハバナはキューバの首都だ。
+- 📜 語源: タイノ族の首長ハバグアネクス（Habaguanex）の名の説
+  - スペイン語では La Habana（ラ・アバナ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **La Habana** | ラ・アバナ | スペイン語での名。 | スペイン語 |
+| **Habano** | ハバノ | キューバ産葉巻。 | スペイン語 |
 
 ## Lv.6 社会の話題
 
@@ -39909,6 +44747,2690 @@
 | **physique** | 体格 | 体つき。 | フランス語 physique |
 | **shape** | 体型、形 | 外形。 | 古英語 gesceap |
 
+<a id="michele"></a>
+### Michele（ミケーレ）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（イタリア語形）。英語の Michael にあたる
+
+- 📍 シーン: ミケランジェロ（Michelangelo＝ミケーレ＋天使）の名前の一部。
+- 💬 例文: *Michele is a man's name in Italy, not a woman's.* — イタリアではミケーレは女性ではなく男性の名前だ。
+- 📜 語源: ヘブライ語 Mīkhāʼēl → イタリア語 Michele
+  - Michelangelo は「天使ミカエル」の意味。イタリア語の che は「ケ」と読む。
+- 🌳 同じ語源の仲間: Michelangelo（ミケランジェロ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Michael** | マイケル（英語） | 英語形。 | 同じヘブライ語から |
+| **Miguel** | ミゲル（スペイン語） | スペイン語形。 | 同じヘブライ語から |
+
+<a id="mikhail"></a>
+### Mikhail（ミハイル）
+
+**人名（ロシア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ロシア語形）。英語の Michael にあたる
+
+- 📍 シーン: ソ連最後の指導者ミハイル・ゴルバチョフ。
+- 💬 例文: *Mikhail Gorbachev was the last leader of the Soviet Union.* — ミハイル・ゴルバチョフはソ連最後の指導者だった。
+- 📜 語源: ヘブライ語 Mīkhāʼēl → ギリシャ語 Mikhaēl → ロシア語 Михаил
+  - 愛称は Misha（ミーシャ）。
+- 🌳 同じ語源の仲間: Misha（ミーシャ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Michael** | マイケル（英語） | 英語形。 | 同じヘブライ語から |
+| **Michel** | ミシェル（フランス語） | フランス語形。 | 同じヘブライ語から |
+
+<a id="giovanni"></a>
+### Giovanni（ジョバンニ）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（イタリア語形）。英語の John にあたる
+
+- 📍 シーン: 『銀河鉄道の夜』の主人公ジョバンニ。
+- 💬 例文: *Giovanni is the main character of Night on the Galactic Railroad.* — ジョバンニは『銀河鉄道の夜』の主人公だ。
+- 📜 語源: ヘブライ語 Yōḥānān → ラテン語 Iohannes → イタリア語 Giovanni
+  - 宮沢賢治はイタリア語の名前を登場人物に使った。カムパネルラも同じくイタリア語風の名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **John** | ジョン（英語） | 英語形。 | 同じヘブライ語から |
+| **Juan** | ファン（スペイン語） | スペイン語形。 | 同じヘブライ語から |
+
+<a id="johanna"></a>
+### Johanna（ヨハンナ）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（ドイツ語形）。Johann の女性形
+
+- 📍 シーン: 『アルプスの少女ハイジ』の作者ヨハンナ・シュピリ。
+- 💬 例文: *Johanna Spyri wrote the story of Heidi.* — ヨハンナ・シュピリはハイジの物語を書いた。
+- 📜 語源: ラテン語 Iohanna ← ヘブライ語 Yōḥānān
+  - 英語では Joanna（ジョアンナ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jane** | ジェーン（英語） | 英語の女性形。 | 同じラテン語から |
+| **Jeanne** | ジャンヌ（フランス語） | フランス語の女性形。 | 同じラテン語から |
+
+<a id="pietro"></a>
+### Pietro（ピエトロ）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（イタリア語形）。英語の Peter にあたる
+
+- 📍 シーン: バチカンのサン・ピエトロ大聖堂（聖ペテロ大聖堂）。
+- 💬 例文: *Saint Peter's Basilica is called San Pietro in Italian.* — 聖ペテロ大聖堂はイタリア語でサン・ピエトロと呼ばれる。
+- 📜 語源: ギリシャ語 Petros → ラテン語 Petrus → イタリア語 Pietro
+  - 日本語の「ペテロ」はラテン語 Petrus に近い読み。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Peter** | ピーター（英語） | 英語形。 | 同じギリシャ語から |
+| **Pierre** | ピエール（フランス語） | フランス語形。 | 同じギリシャ語から |
+
+<a id="petra"></a>
+### Petra（ペトラ）
+
+**人名** / Lv.6 社会の話題 / CEFR B2 — 女性名。Peter の女性形。ヨルダンの遺跡ペトラの名でもある
+
+- 📍 シーン: 岩をくりぬいた古代都市ペトラ（ヨルダン）。
+- 💬 例文: *Petra is a popular girl's name in Germany and Central Europe.* — ペトラはドイツや中欧で人気の女の子の名前だ。
+- 📜 語源: ギリシャ語 petra「岩」
+  - 男性形 Petros（ピーター）と同じ語。遺跡ペトラも「岩」の意味。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Peter** | ピーター | 男性形。 | 同じギリシャ語から |
+| **Pierrette** | ピエレット（フランス語） | フランス語の女性形。 | Pierre + 女性語尾 -ette |
+
+<a id="paul-de"></a>
+### Paul（パウル）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ドイツ語での読み）。英語のポールと同じつづり
+
+- 📍 シーン: 画家パウル・クレー。
+- 💬 例文: *Paul Klee painted colorful, dreamlike pictures.* — パウル・クレーは色鮮やかで夢のような絵を描いた。
+- 📜 語源: ラテン語 Paulus「小さい」→ ドイツ語 Paul
+  - ドイツ語では au を「アウ」と読む。聖書の「パウロ」もラテン語読み。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Paul** | ポール（英語） | 同じつづりの英語読み。 | 同じラテン語から |
+| **Pavel** | パーヴェル（ロシア語） | ロシア語形。 | 同じラテン語から |
+
+<a id="paolo"></a>
+### Paolo（パオロ）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（イタリア語形）。英語の Paul にあたる
+
+- 📍 シーン: サッカー選手パオロ・マルディーニ。
+- 💬 例文: *Paolo Maldini played for AC Milan for his whole career.* — パオロ・マルディーニは選手生活をずっと ACミランで過ごした。
+- 📜 語源: ラテン語 Paulus → イタリア語 Paolo
+  - イタリア語では l が母音に変わることがある（Paulus → Paolo）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Paul** | ポール（英語） | 英語形。 | 同じラテン語から |
+| **Pablo** | パブロ（スペイン語） | スペイン語形。 | 同じラテン語から |
+
+<a id="georges"></a>
+### Georges（ジョルジュ）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語形）。英語の George にあたる
+
+- 📍 シーン: 作家ジョルジュ・シムノン、画家ジョルジュ・スーラ。
+- 💬 例文: *Georges Seurat painted with tiny dots of color.* — ジョルジュ・スーラは小さな色の点で絵を描いた。
+- 📜 語源: ギリシャ語 Geōrgios → ラテン語 Georgius → フランス語 Georges
+  - 最後の s は読まない。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **George** | ジョージ（英語） | 英語形。 | 同じギリシャ語から |
+| **Giorgio** | ジョルジョ（イタリア語） | イタリア語形。 | 同じギリシャ語から |
+
+<a id="jorge"></a>
+### Jorge（ホルヘ）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（スペイン語・ポルトガル語形）。英語の George にあたる
+
+- 📍 シーン: 作家ホルヘ・ルイス・ボルヘス（アルゼンチン）。
+- 💬 例文: *Jorge Luis Borges wrote strange and clever short stories.* — ホルヘ・ルイス・ボルヘスは奇妙で巧みな短編を書いた。
+- 📜 語源: ギリシャ語 Geōrgios → スペイン語 Jorge
+  - スペイン語の j は「ハ行」の音なので「ホルヘ」。ポルトガル語では「ジョルジ」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **George** | ジョージ（英語） | 英語形。 | 同じギリシャ語から |
+| **Georges** | ジョルジュ（フランス語） | フランス語形。 | 同じギリシャ語から |
+
+<a id="giorgio"></a>
+### Giorgio（ジョルジョ）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（イタリア語形）。英語の George にあたる
+
+- 📍 シーン: デザイナーのジョルジオ・アルマーニ。
+- 💬 例文: *Giorgio Armani is a famous Italian fashion designer.* — ジョルジオ・アルマーニは有名なイタリアのデザイナーだ。
+- 📜 語源: ギリシャ語 Geōrgios → イタリア語 Giorgio
+  - 日本では「ジョルジオ」と書くことも多い。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **George** | ジョージ（英語） | 英語形。 | 同じギリシャ語から |
+| **Georg** | ゲオルク（ドイツ語） | ドイツ語形。 | 同じギリシャ語から |
+
+<a id="georgina"></a>
+### Georgina（ジョージナ）
+
+**人名** / Lv.6 社会の話題 / CEFR B2 — 女性名。George の女性形
+
+- 📍 シーン: 英語圏の女性名。Georgia（ジョージア）も女性名として使う。
+- 💬 例文: *Georgina is the feminine form of George.* — ジョージナはジョージの女性形だ。
+- 📜 語源: George + 女性語尾 -ina
+  - 18世紀イギリスで、国王ジョージにあやかってつけられるようになった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Georgia** | ジョージア | 同じく女性形。州名・国名でもある。 | George + -ia |
+| **George** | ジョージ | 男性形。 | ギリシャ語 Geōrgios |
+
+<a id="charles-fr"></a>
+### Charles（シャルル）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語での読み）。英語のチャールズと同じつづり
+
+- 📍 シーン: シャルル・ド・ゴール空港、詩人シャルル・ボードレール。
+- 💬 例文: *Charles de Gaulle Airport is named after a French president.* — シャルル・ド・ゴール空港はフランスの大統領にちなんで名づけられた。
+- 📜 語源: ゲルマン語 karl → ラテン語 Carolus → フランス語 Charles
+  - フランス語では ch を「シャ」と読み、最後の s は読まない。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Charles** | チャールズ（英語） | 同じつづりの英語読み。 | 同じゲルマン語から |
+| **Carlo** | カルロ（イタリア語） | イタリア語形。 | 同じゲルマン語から |
+
+<a id="carlo"></a>
+### Carlo（カルロ）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（イタリア語形）。英語の Charles にあたる
+
+- 📍 シーン: 『ピノッキオの冒険』の作者カルロ・コッローディ。
+- 💬 例文: *Carlo Collodi wrote The Adventures of Pinocchio.* — カルロ・コッローディは『ピノッキオの冒険』を書いた。
+- 📜 語源: ゲルマン語 karl → ラテン語 Carolus → イタリア語 Carlo
+  - モンテカルロ（Monte Carlo）は「カルロ（シャルル3世）の山」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Charles** | チャールズ（英語） | 英語形。 | 同じゲルマン語から |
+| **Karl** | カール（ドイツ語） | ドイツ語形。 | 同じゲルマン語から |
+
+<a id="wilhelm"></a>
+### Wilhelm（ヴィルヘルム）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ドイツ語形）。英語の William にあたる
+
+- 📍 シーン: ドイツ皇帝ヴィルヘルム2世、グリム兄弟の弟ヴィルヘルム。
+- 💬 例文: *Wilhelm Grimm and his brother collected fairy tales.* — ヴィルヘルム・グリムは兄と一緒に童話を集めた。
+- 📜 語源: ゲルマン語 wil「意志」+ helm「兜」
+  - ドイツ語の w は「ヴ」の音。Helm は今もドイツ語で「ヘルメット」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **William** | ウィリアム（英語） | 英語形。 | 同じゲルマン語から |
+| **Guillermo** | ギジェルモ（スペイン語） | スペイン語形。 | 同じゲルマン語から |
+
+<a id="henri"></a>
+### Henri（アンリ）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語形）。英語の Henry にあたる
+
+- 📍 シーン: 画家アンリ・マティス、アンリ・ルソー。
+- 💬 例文: *Henri Matisse used bright, bold colors.* — アンリ・マティスは明るく大胆な色を使った。
+- 📜 語源: ゲルマン語 Heimrich → フランス語 Henri
+  - フランス語では h を読まないので「アンリ」になる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Henry** | ヘンリー（英語） | 英語形。 | 同じゲルマン語から |
+| **Enrique** | エンリケ（スペイン語） | スペイン語形。 | 同じゲルマン語から |
+
+<a id="enrique"></a>
+### Enrique（エンリケ）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（スペイン語・ポルトガル語形）。英語の Henry にあたる
+
+- 📍 シーン: 歌手エンリケ・イグレシアス。ポルトガルのエンリケ航海王子（Henrique）も同じ名前。
+- 💬 例文: *Enrique Iglesias is a singer from Spain.* — エンリケ・イグレシアスはスペイン出身の歌手だ。
+- 📜 語源: ゲルマン語 Heimrich → スペイン語 Enrique
+  - ポルトガル語では Henrique とつづる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Henry** | ヘンリー（英語） | 英語形。 | 同じゲルマン語から |
+| **Henri** | アンリ（フランス語） | フランス語形。 | 同じゲルマン語から |
+
+<a id="josef"></a>
+### Josef（ヨーゼフ）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ドイツ語・チェコ語形）。英語の Joseph にあたる
+
+- 📍 シーン: 作曲家ヨーゼフ・ハイドン（Franz Joseph Haydn）、オーストリア皇帝フランツ・ヨーゼフ。
+- 💬 例文: *Josef is how Joseph is spelled in German.* — ヨーゼフはジョセフのドイツ語でのつづりだ。
+- 📜 語源: ヘブライ語 Yōsēf → ドイツ語 Josef
+  - ドイツ語の j は「ヤ行」の音なので「ヨーゼフ」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Joseph** | ジョセフ（英語） | 英語形。 | 同じヘブライ語から |
+| **Giuseppe** | ジュゼッペ（イタリア語） | イタリア語形。 | 同じヘブライ語から |
+
+<a id="josephine"></a>
+### Josephine（ジョセフィーヌ）
+
+**人名** / Lv.6 社会の話題 / CEFR B2 — 女性名。Joseph の女性形
+
+- 📍 シーン: ナポレオンの妻ジョゼフィーヌ。
+- 💬 例文: *Josephine was the first wife of Napoleon.* — ジョセフィーヌはナポレオンの最初の妻だった。
+- 📜 語源: フランス語 Joséphine ← Joseph + 女性語尾 -ine
+  - 英語では「ジョセフィン」と読む。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Josefina** | ホセフィーナ（スペイン語） | スペイン語の女性形。 | José + -ina |
+| **Joseph** | ジョセフ | 男性形。 | ヘブライ語 Yōsēf |
+
+<a id="miriam"></a>
+### Miriam（ミリアム）
+
+**人名（ヘブライ語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（ヘブライ語形）。Mary、Maria のもとの形
+
+- 📍 シーン: 旧約聖書でモーセの姉ミリアム。
+- 💬 例文: *In the Bible, Miriam is the sister of Moses.* — 聖書でミリアムはモーセの姉だ。
+- 📜 語源: ヘブライ語 Miryām
+  - これがギリシャ語で Mariam、Maria になった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Maria** | マリア | ギリシャ語・ラテン語での形。 | ヘブライ語 Miryām から |
+| **Mary** | メアリー（英語） | 英語形。 | ヘブライ語 Miryām から |
+
+<a id="marianne"></a>
+### Marianne（マリアンヌ）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（フランス語）。フランス共和国を表す女性像の名前
+
+- 📍 シーン: フランスの切手や硬貨に描かれる自由の女神マリアンヌ。
+- 💬 例文: *Marianne is the symbol of the French Republic.* — マリアンヌはフランス共和国の象徴だ。
+- 📜 語源: Marie + Anne、または Mariamne（ヘブライ語 Miryām のギリシャ語形）
+  - ドラクロワの絵『民衆を導く自由の女神』もマリアンヌとして知られる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Marie** | マリー | フランス語形。 | ヘブライ語 Miryām から |
+| **Anne** | アンヌ | フランス語の女性名。 | ヘブライ語 Ḥannāh から |
+
+<a id="isabel"></a>
+### Isabel（イサベル）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（スペイン語・ポルトガル語形）。英語の Elizabeth にあたる
+
+- 📍 シーン: コロンブスを支援したカスティーリャ女王イサベル1世。
+- 💬 例文: *Queen Isabel helped Columbus sail to America.* — イサベル女王はコロンブスのアメリカへの航海を支援した。
+- 📜 語源: ヘブライ語 Elīsheva → 古スペイン語 Isabel
+  - 語尾の -beth が -bel に変わった形。英語では「イザベル」と読む。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Elizabeth** | エリザベス（英語） | 英語形。 | 同じヘブライ語から |
+| **Isabella** | イザベラ（イタリア語） | イタリア語形。 | 同じヘブライ語から |
+
+<a id="catherine-fr"></a>
+### Catherine（カトリーヌ）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（フランス語での読み）。英語のキャサリンと同じつづり
+
+- 📍 シーン: 女優カトリーヌ・ドヌーヴ、王妃カトリーヌ・ド・メディシス。
+- 💬 例文: *Catherine Deneuve is a famous French actress.* — カトリーヌ・ドヌーヴは有名なフランスの女優だ。
+- 📜 語源: ギリシャ語 Aikaterinē → フランス語 Catherine
+  - 同じつづりでも国によって読みが大きく変わる例。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Catherine** | キャサリン（英語） | 同じつづりの英語読み。 | 同じギリシャ語から |
+| **Caterina** | カテリーナ（イタリア語） | イタリア語形。 | 同じギリシャ語から |
+
+<a id="katharina"></a>
+### Katharina（カタリーナ）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（ドイツ語形）。英語の Catherine にあたる
+
+- 📍 シーン: シェイクスピア『じゃじゃ馬ならし』の主人公カタリーナ。
+- 💬 例文: *Katharina is the German form of Catherine.* — カタリーナはキャサリンのドイツ語形だ。
+- 📜 語源: ギリシャ語 Aikaterinē → ドイツ語 Katharina
+  - 愛称は Käthe（ケーテ）、Katja（カーチャ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Catherine** | キャサリン（英語） | 英語形。 | 同じギリシャ語から |
+| **Catalina** | カタリナ（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="catalina"></a>
+### Catalina（カタリナ）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（スペイン語形）。英語の Catherine にあたる
+
+- 📍 シーン: ヘンリー8世の最初の妃キャサリン・オブ・アラゴンはスペイン名カタリナ。米国のカタリナ島。
+- 💬 例文: *Catalina is the Spanish form of Catherine.* — カタリナはキャサリンのスペイン語形だ。
+- 📜 語源: ギリシャ語 Aikaterinē → スペイン語 Catalina
+  - 母音の間の r が l に変わった形。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Catherine** | キャサリン（英語） | 英語形。 | 同じギリシャ語から |
+| **Caterina** | カテリーナ（イタリア語） | イタリア語形。 | 同じギリシャ語から |
+
+<a id="anne-fr"></a>
+### Anne（アンヌ）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（フランス語での読み）。英語のアンと同じつづり
+
+- 📍 シーン: 英国王妃アン・ブーリンもフランス風の名。フランスでは「アンヌ」。
+- 💬 例文: *Anne is pronounced differently in French and English.* — アンヌはフランス語と英語で発音が違う。
+- 📜 語源: ヘブライ語 Ḥannāh → ラテン語 Anna → フランス語 Anne
+  - フランス語では語末の e を軽く発音して「アンヌ」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Anne** | アン（英語） | 同じつづりの英語読み。 | 同じヘブライ語から |
+| **Annette** | アネット | フランス語の愛称形。 | Anne + 指小辞 -ette |
+
+<a id="anita"></a>
+### Anita（アニータ）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（スペイン語）。Ana（Anne）の愛称形
+
+- 📍 シーン: 『ウエスト・サイド物語』のアニータ。
+- 💬 例文: *Anita is a small form of Ana in Spanish.* — アニータはスペイン語で Ana の愛称だ。
+- 📜 語源: スペイン語 Ana + 指小辞 -ita「小さな」
+  - -ita / -ito は「小さな、かわいい」を表すスペイン語の語尾（Juanita、Carlito など）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Anna** | アンナ | もとの形。 | ヘブライ語 Ḥannāh から |
+| **Annette** | アネット（フランス語） | フランス語の愛称形。 | Anne + -ette |
+
+<a id="annette"></a>
+### Annette（アネット）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（フランス語）。Anne の愛称形
+
+- 📍 シーン: 映画『アネット』。
+- 💬 例文: *Annette is a French pet form of Anne.* — アネットはアンヌのフランス語の愛称だ。
+- 📜 語源: フランス語 Anne + 指小辞 -ette「小さな」
+  - -ette は「小さな」を表す（cigarette＝小さな葉巻、kitchenette）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Anne** | アンヌ（フランス語） | もとの形。 | ヘブライ語 Ḥannāh から |
+| **Anita** | アニータ（スペイン語） | スペイン語の愛称形。 | Ana + -ita |
+
+<a id="alexandre"></a>
+### Alexandre（アレクサンドル）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語・ポルトガル語形）。英語の Alexander にあたる
+
+- 📍 シーン: 『三銃士』の作家アレクサンドル・デュマ。
+- 💬 例文: *Alexandre Dumas wrote The Three Musketeers.* — アレクサンドル・デュマは『三銃士』を書いた。
+- 📜 語源: ギリシャ語 Alexandros → フランス語 Alexandre
+  - ロシア語の Aleksandr（アレクサンドル）も同じ読み。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Alexander** | アレクサンダー（英語） | 英語形。 | 同じギリシャ語から |
+| **Alessandro** | アレッサンドロ（イタリア語） | イタリア語形。 | 同じギリシャ語から |
+
+<a id="alejandro"></a>
+### Alejandro（アレハンドロ）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（スペイン語形）。英語の Alexander にあたる
+
+- 📍 シーン: 映画監督アレハンドロ・イニャリトゥ。
+- 💬 例文: *Alejandro is the Spanish form of Alexander.* — アレハンドロはアレクサンダーのスペイン語形だ。
+- 📜 語源: ギリシャ語 Alexandros → スペイン語 Alejandro
+  - x が j（ハ行の音）に変わった。メキシコ（México）の x も昔は同じ音。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Alexander** | アレクサンダー（英語） | 英語形。 | 同じギリシャ語から |
+| **Alexandre** | アレクサンドル（フランス語） | フランス語形。 | 同じギリシャ語から |
+
+<a id="sasha"></a>
+### Sasha（サーシャ）
+
+**人名（ロシア語）** / Lv.6 社会の話題 / CEFR B2 — 男女の名（ロシア語）。Aleksandr、Aleksandra の愛称
+
+- 📍 シーン: ロシアの小説によく出てくる愛称。英語圏では独立した名前としても使う。
+- 💬 例文: *In Russian novels, Sasha is a short name for Alexander.* — ロシアの小説で、サーシャはアレクサンドルの愛称だ。
+- 📜 語源: ロシア語 Александр / Александра の愛称 Саша
+  - ロシア語の名前には決まった愛称がある（Mikhail → Misha、Ivan → Vanya）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Alexander** | アレクサンダー | もとの男性名。 | ギリシャ語 Alexandros |
+| **Alexandra** | アレクサンドラ | もとの女性名。 | ギリシャ語 Alexandra |
+
+<a id="nicolas"></a>
+### Nicolas（ニコラ）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語形）。英語の Nicholas にあたる
+
+- 📍 シーン: フランス大統領ニコラ・サルコジ。
+- 💬 例文: *Nicolas is how Nicholas is written in French.* — ニコラはニコラスのフランス語でのつづりだ。
+- 📜 語源: ギリシャ語 Nikolaos → フランス語 Nicolas
+  - フランス語では語末の s を読まないので「ニコラ」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nicholas** | ニコラス（英語） | 英語形。 | 同じギリシャ語から |
+| **Klaus** | クラウス（ドイツ語） | ドイツ語の短い形。 | 同じギリシャ語から |
+
+<a id="nikolai"></a>
+### Nikolai（ニコライ）
+
+**人名（ロシア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ロシア語形）。英語の Nicholas にあたる
+
+- 📍 シーン: 東京・御茶ノ水のニコライ堂（ニコライ主教にちなむ）、ロシア皇帝ニコライ2世。
+- 💬 例文: *Nikolai Cathedral in Tokyo is named after a Russian bishop.* — 東京のニコライ堂はロシア人の主教にちなんで名づけられた。
+- 📜 語源: ギリシャ語 Nikolaos → ロシア語 Николай
+  - 大津事件で襲われたのは皇太子時代のニコライ2世。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nicholas** | ニコラス（英語） | 英語形。 | 同じギリシャ語から |
+| **Nicolas** | ニコラ（フランス語） | フランス語形。 | 同じギリシャ語から |
+
+<a id="klaus"></a>
+### Klaus（クラウス）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ドイツ語）。Nikolaus を短くした形
+
+- 📍 シーン: サンタクロース（Santa Claus）の Claus。
+- 💬 例文: *Klaus is a short form of Nikolaus in German.* — クラウスはドイツ語で Nikolaus の短い形だ。
+- 📜 語源: ドイツ語 Nikolaus の後半 → Klaus
+  - 前半を落として後半だけが名前になった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nicholas** | ニコラス（英語） | 英語形。 | 同じギリシャ語から |
+| **Nikolai** | ニコライ（ロシア語） | ロシア語形。 | 同じギリシャ語から |
+
+<a id="andreas"></a>
+### Andreas（アンドレアス）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ドイツ語・ギリシャ語形）。英語の Andrew にあたる
+
+- 📍 シーン: ドイツ語圏やギリシャに多い名前。
+- 💬 例文: *Andreas is a common name in Germany and Greece.* — アンドレアスはドイツとギリシャでよくある名前だ。
+- 📜 語源: ギリシャ語 Andreas「男らしい」
+  - 聖書のギリシャ語の形がそのまま残っている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Andrew** | アンドリュー（英語） | 英語形。 | 同じギリシャ語から |
+| **Andrei** | アンドレイ（ロシア語） | ロシア語形。 | 同じギリシャ語から |
+
+<a id="andrea"></a>
+### Andrea（アンドレア）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（イタリア語）。英語の Andrew にあたる。英語やドイツ語では女性名
+
+- 📍 シーン: 歌手アンドレア・ボチェッリ（男性）。
+- 💬 例文: *In Italy, Andrea is a man's name.* — イタリアではアンドレアは男性の名前だ。
+- 📜 語源: ギリシャ語 Andreas → イタリア語 Andrea
+  - 語尾が -a でも男性名。英語圏やドイツでは女性名になるので国によって性別が逆になる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Andrew** | アンドリュー（英語） | 英語形。 | 同じギリシャ語から |
+| **Andrei** | アンドレイ（ロシア語） | ロシア語形。 | 同じギリシャ語から |
+
+<a id="andrei"></a>
+### Andrei（アンドレイ）
+
+**人名（ロシア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ロシア語・ルーマニア語形）。英語の Andrew にあたる
+
+- 📍 シーン: 『戦争と平和』のアンドレイ公爵、映画監督アンドレイ・タルコフスキー。
+- 💬 例文: *Prince Andrei is a hero of War and Peace.* — アンドレイ公爵は『戦争と平和』の主人公の一人だ。
+- 📜 語源: ギリシャ語 Andreas → ロシア語 Андрей
+  - Andrey ともつづる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Andrew** | アンドリュー（英語） | 英語形。 | 同じギリシャ語から |
+| **Andreas** | アンドレアス（ドイツ語） | ドイツ語形。 | 同じギリシャ語から |
+
+<a id="fran-ois"></a>
+### François（フランソワ）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語形）。英語の Francis にあたる
+
+- 📍 シーン: フランス王フランソワ1世、詩人フランソワ・ヴィヨン。
+- 💬 例文: *François I invited Leonardo da Vinci to France.* — フランソワ1世はレオナルド・ダ・ヴィンチをフランスに招いた。
+- 📜 語源: ラテン語 Franciscus → フランス語 François
+  - 「フランス人」を意味する古い語 françois（今の français）と同じ。
+- 🌳 同じ語源の仲間: français（フランス語）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Francis** | フランシス（英語） | 英語形。 | 同じラテン語から |
+| **Françoise** | フランソワーズ | 女性形。 | 同じラテン語から |
+
+<a id="francesco"></a>
+### Francesco（フランチェスコ）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（イタリア語形）。英語の Francis にあたる
+
+- 📍 シーン: アッシジの聖フランチェスコ。
+- 💬 例文: *Saint Francesco of Assisi loved animals and nature.* — アッシジの聖フランチェスコは動物と自然を愛した。
+- 📜 語源: ラテン語 Franciscus → イタリア語 Francesco
+  - 父がフランスで商売をしていたので「フランスっ子」とあだ名された、という話がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Francis** | フランシス（英語） | 英語形。 | 同じラテン語から |
+| **Franz** | フランツ（ドイツ語） | ドイツ語形。 | 同じラテン語から |
+
+<a id="franz"></a>
+### Franz（フランツ）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ドイツ語形）。英語の Francis にあたる
+
+- 📍 シーン: 作家フランツ・カフカ、作曲家フランツ・シューベルト、フランツ・リスト。
+- 💬 例文: *Franz Kafka wrote The Metamorphosis.* — フランツ・カフカは『変身』を書いた。
+- 📜 語源: ラテン語 Franciscus → ドイツ語 Franziskus → Franz
+  - オーストリア皇帝フランツ・ヨーゼフ1世も。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Francis** | フランシス（英語） | 英語形。 | 同じラテン語から |
+| **François** | フランソワ（フランス語） | フランス語形。 | 同じラテン語から |
+
+<a id="anton"></a>
+### Anton（アントン）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ドイツ語・ロシア語・北欧形）。英語の Anthony にあたる
+
+- 📍 シーン: 作家アントン・チェーホフ、作曲家アントン・ブルックナー。
+- 💬 例文: *Anton Chekhov wrote The Cherry Orchard.* — アントン・チェーホフは『桜の園』を書いた。
+- 📜 語源: ラテン語 Antonius → Anton
+  - 語尾が落ちた短い形。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Anthony** | アンソニー（英語） | 英語形。 | 同じラテン語から |
+| **Antonio** | アントニオ（イタリア語） | イタリア語形。 | 同じラテン語から |
+
+<a id="antonia"></a>
+### Antonia（アントニア）
+
+**人名** / Lv.6 社会の話題 / CEFR B2 — 女性名。Antonius（Anthony）の女性形
+
+- 📍 シーン: ローマ時代から使われる女性名。
+- 💬 例文: *Antonia is the feminine form of Antonio.* — アントニアはアントニオの女性形だ。
+- 📜 語源: ラテン語 Antonia ← Antonius
+  - フランス語では Antoinette（アントワネット）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Antoinette** | アントワネット（フランス語） | フランス語の女性形。 | Antoine + 指小辞 -ette |
+| **Antonio** | アントニオ | 男性形。 | ラテン語 Antonius |
+
+<a id="antoinette"></a>
+### Antoinette（アントワネット）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（フランス語）。Antoine の女性形
+
+- 📍 シーン: フランス王妃マリー・アントワネット。
+- 💬 例文: *Marie Antoinette was the last Queen of France before the Revolution.* — マリー・アントワネットは革命前のフランス最後の王妃だった。
+- 📜 語源: フランス語 Antoine + 指小辞 -ette
+  - 本名はドイツ語で Maria Antonia（マリア・アントーニア）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Antonia** | アントニア | もとの女性形。 | ラテン語 Antonia |
+| **Antoine** | アントワーヌ | 男性形。 | ラテン語 Antonius |
+
+<a id="julius"></a>
+### Julius（ユリウス）
+
+**人名（ラテン語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ラテン語・ドイツ語形）。ローマの氏族名
+
+- 📍 シーン: ユリウス・カエサル（ジュリアス・シーザー）、ユリウス暦。
+- 💬 例文: *Julius Caesar was killed in 44 BC.* — ユリウス・カエサルは紀元前44年に殺された。
+- 📜 語源: ラテン語 Iulius（氏族名。「若々しい」など諸説）
+  - 英語読みは「ジュリアス」。7月（July）はユリウス・カエサルにちなむ。
+- 🌳 同じ語源の仲間: July（7月）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Julian** | ジュリアン | 派生した男性名。 | ラテン語 Iulianus |
+| **Julia** | ジュリア | 女性形。 | ラテン語 Iulia |
+
+<a id="jules"></a>
+### Jules（ジュール）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語形）。Julius にあたる
+
+- 📍 シーン: 『海底二万里』の作家ジュール・ヴェルヌ。
+- 💬 例文: *Jules Verne wrote Twenty Thousand Leagues Under the Seas.* — ジュール・ヴェルヌは『海底二万里』を書いた。
+- 📜 語源: ラテン語 Iulius → フランス語 Jules
+  - エネルギーの単位ジュール（joule）は英国の物理学者 Joule の名で、別の名前。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Julius** | ユリウス | もとのラテン語形。 | ラテン語 Iulius |
+| **Julian** | ジュリアン | 派生した男性名。 | ラテン語 Iulianus |
+
+<a id="christine"></a>
+### Christine（クリスティーヌ）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（フランス語形）。Christina にあたる
+
+- 📍 シーン: 『オペラ座の怪人』のヒロイン、クリスティーヌ。
+- 💬 例文: *Christine is the heroine of The Phantom of the Opera.* — クリスティーヌは『オペラ座の怪人』のヒロインだ。
+- 📜 語源: ラテン語 Christiana → フランス語 Christine
+  - 英語では「クリスティーン」と読む。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Christina** | クリスティーナ | ラテン語風の形。 | ラテン語 Christiana |
+| **Christian** | クリスチャン | 男性形。 | ラテン語 Christianus |
+
+<a id="sofia-name"></a>
+### Sofia（ソフィア）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（イタリア語・スペイン語・ロシア語などの形）。Sophia にあたる
+
+- 📍 シーン: ブルガリアの首都ソフィア（Sofia）も同じ名前。映画監督ソフィア・コッポラ。
+- 💬 例文: *Sofia Coppola is a film director.* — ソフィア・コッポラは映画監督だ。
+- 📜 語源: ギリシャ語 sophia → Sofia
+  - ph を f で書く言語で使われるつづり。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sophia** | ソフィア | ph でつづる形。 | ギリシャ語 sophia |
+| **Sophie** | ソフィー（フランス語） | フランス語形。 | ギリシャ語 sophia |
+
+<a id="elena"></a>
+### Elena（エレナ）
+
+**人名（イタリア語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（イタリア語・スペイン語・ロシア語などの形）。英語の Helen にあたる
+
+- 📍 シーン: フィギュアスケートや音楽で聞く名前。
+- 💬 例文: *Elena is a popular name in Italy and Spain.* — エレナはイタリアとスペインで人気の名前だ。
+- 📜 語源: ギリシャ語 Helenē → Elena
+  - h が落ちた形。ロシア語では Yelena（エレーナ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Helen** | ヘレン（英語） | 英語形。 | 同じギリシャ語から |
+| **Helena** | ヘレナ | ラテン語・ドイツ語などの形。 | 同じギリシャ語から |
+
+<a id="helena"></a>
+### Helena（ヘレナ）
+
+**人名（ラテン語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（ラテン語・ドイツ語・北欧などの形）。英語の Helen にあたる
+
+- 📍 シーン: ナポレオンが流された島セントヘレナ（Saint Helena）。
+- 💬 例文: *Napoleon died on the island of Saint Helena.* — ナポレオンはセントヘレナ島で亡くなった。
+- 📜 語源: ギリシャ語 Helenē → ラテン語 Helena
+  - コンスタンティヌス帝の母、聖ヘレナにちなむ島の名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Helen** | ヘレン（英語） | 英語形。 | 同じギリシャ語から |
+| **Elena** | エレナ | h のない形。 | 同じギリシャ語から |
+
+<a id="margarita"></a>
+### Margarita（マルガリータ）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（スペイン語・ロシア語形）。英語の Margaret にあたる。カクテルの名前でもある
+
+- 📍 シーン: カクテルのマルガリータ、ブルガーコフ『巨匠とマルガリータ』。
+- 💬 例文: *A margarita is a cocktail, and Margarita is also a woman's name.* — マルガリータはカクテルで、女性の名前でもある。
+- 📜 語源: ギリシャ語 margaritēs → スペイン語 Margarita
+  - スペイン語 margarita は花の「ヒナギク」も意味する。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Margaret** | マーガレット（英語） | 英語形。 | 同じギリシャ語から |
+| **Margherita** | マルゲリータ（イタリア語） | イタリア語形。 | 同じギリシャ語から |
+
+<a id="greta"></a>
+### Greta（グレタ）
+
+**人名（ドイツ語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（ドイツ語・北欧）。Margareta を短くした形
+
+- 📍 シーン: 女優グレタ・ガルボ、環境活動家グレタ・トゥーンベリ。
+- 💬 例文: *Greta Garbo was a Swedish film star.* — グレタ・ガルボはスウェーデン出身の映画スターだった。
+- 📜 語源: Margareta の後半 → Greta
+  - 同じ系統の短い形に Gretel（『ヘンゼルとグレーテル』）もある。
+- 🌳 同じ語源の仲間: Gretel（グレーテル）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Margaret** | マーガレット（英語） | 英語形。 | 同じギリシャ語から |
+| **Margot** | マルゴ（フランス語） | フランス語の愛称。 | Marguerite の愛称 |
+
+<a id="ricardo"></a>
+### Ricardo（リカルド）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（スペイン語・ポルトガル語形）。英語の Richard にあたる
+
+- 📍 シーン: サッカーのリカルド・カカ（カカ）。
+- 💬 例文: *Ricardo is the Spanish form of Richard.* — リカルドはリチャードのスペイン語形だ。
+- 📜 語源: ゲルマン語 Richard → スペイン語 Ricardo
+  - 経済学者リカード（David Ricardo）の名字も同じ語から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Richard** | リチャード（英語） | 英語形。 | 同じゲルマン語から |
+| **Riccardo** | リッカルド（イタリア語） | イタリア語形。 | 同じゲルマン語から |
+
+<a id="philippe"></a>
+### Philippe（フィリップ）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語形）。英語の Philip にあたる
+
+- 📍 シーン: フランス王フィリップ4世、ベルギー国王フィリップ。
+- 💬 例文: *Philippe is the French form of Philip.* — フィリップはフィリップ（Philip）のフランス語形だ。
+- 📜 語源: ギリシャ語 Philippos → フランス語 Philippe
+  - ドイツ語では Philipp とつづる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Philip** | フィリップ（英語） | 英語形。 | 同じギリシャ語から |
+| **Filippo** | フィリッポ（イタリア語） | イタリア語形。 | 同じギリシャ語から |
+
+<a id="felipe"></a>
+### Felipe（フェリペ）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（スペイン語・ポルトガル語形）。英語の Philip にあたる
+
+- 📍 シーン: スペイン王フェリペ2世、現国王フェリペ6世。
+- 💬 例文: *King Felipe II ruled Spain in the 16th century.* — フェリペ2世は16世紀にスペインを治めた。
+- 📜 語源: ギリシャ語 Philippos → スペイン語 Felipe
+  - スペイン語では ph を f と書く。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Philip** | フィリップ（英語） | 英語形。 | 同じギリシャ語から |
+| **Philippe** | フィリップ（フランス語） | フランス語形。 | 同じギリシャ語から |
+
+<a id="marc"></a>
+### Marc（マルク）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語形）。英語の Mark にあたる
+
+- 📍 シーン: 画家マルク・シャガール。
+- 💬 例文: *Marc Chagall painted people floating in the sky.* — マルク・シャガールは空に浮かぶ人々を描いた。
+- 📜 語源: ラテン語 Marcus → フランス語 Marc
+  - 語末の c を読んで「マルク」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mark** | マーク（英語） | 英語形。 | 同じラテン語から |
+| **Marcus** | マルクス（ラテン語） | もとの形。 | ラテン語 Marcus |
+
+<a id="marcus"></a>
+### Marcus（マルクス）
+
+**人名（ラテン語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（ラテン語形）。英語の Mark のもとの形
+
+- 📍 シーン: 哲人皇帝マルクス・アウレリウス。
+- 💬 例文: *Marcus Aurelius wrote the Meditations.* — マルクス・アウレリウスは『自省録』を書いた。
+- 📜 語源: ラテン語 Marcus ← Mars「軍神マルス」
+  - 経済学者マルクス（Marx）は名字で、つづりが違う。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mark** | マーク（英語） | 英語形。 | 同じラテン語から |
+| **Marcel** | マルセル（フランス語） | 派生した名前。 | ラテン語 Marcellus |
+
+<a id="marcel"></a>
+### Marcel（マルセル）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（フランス語）。Marcus から派生した名前
+
+- 📍 シーン: 作家マルセル・プルースト、美術家マルセル・デュシャン。
+- 💬 例文: *Marcel Proust wrote In Search of Lost Time.* — マルセル・プルーストは『失われた時を求めて』を書いた。
+- 📜 語源: ラテン語 Marcellus「小さなマルクス」← Marcus
+  - 女性形は Marcelle、Marcela。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Marcus** | マルクス | もとの名前。 | ラテン語 Marcus |
+| **Marc** | マルク（フランス語） | 同じ系統のフランス語名。 | ラテン語 Marcus |
+
+<a id="ares"></a>
+### Ares（アレス）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — アレス（ギリシャ神話の戦いの神）
+
+- 📍 シーン: 荒々しい戦いの神。火星の衛星フォボス（恐怖）とダイモス（敗走）はアレスの息子の名。
+- 💬 例文: *Ares loved war and violence.* — アレスは戦争と暴力を好んだ。
+- 📜 語源: ギリシャ語 Arēs（「破滅」などの説）
+  - ローマ神話のマルス（Mars）にあたる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mars** | マルス（ローマ神話） | ローマ神話で対応する神。火星の名前。 | ラテン語 Mars |
+| **god of war** | 戦いの神 | 戦争をつかさどる神。 | 英語 |
+
+<a id="eros"></a>
+### Eros（エロス）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — エロス（ギリシャ神話の愛の神）
+
+- 📍 シーン: 弓矢で人を恋に落とす神。英語 erotic の語源。
+- 💬 例文: *Eros shoots arrows that make people fall in love.* — エロスは人を恋に落とす矢を放つ。
+- 📜 語源: ギリシャ語 erōs「愛、欲望」
+  - ローマ神話のクピド（Cupid）にあたる。ロンドンのピカデリーサーカスの像もエロスと呼ばれる。
+- 🌳 同じ語源の仲間: erotic（官能的な）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Cupid** | キューピッド（ローマ神話） | ローマ神話での愛の神。 | ラテン語 Cupīdō「欲望」 |
+| **Amor** | アモル | ローマ神話での別名。 | ラテン語 amor「愛」 |
+
+<a id="gaia"></a>
+### Gaia（ガイア）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — ガイア（ギリシャ神話の大地の女神）
+
+- 📍 シーン: 地球を一つの生命体とみなす「ガイア理論」。
+- 💬 例文: *In Greek myth, Gaia is the mother of the Titans.* — ギリシャ神話でガイアはティタン族の母だ。
+- 📜 語源: ギリシャ語 Gaia / Gē「大地」
+  - geography（地理）、geology（地質学）の geo- も同じ語。
+- 🌳 同じ語源の仲間: geography（地理）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Terra** | テラ（ローマ神話） | ローマ神話の大地の女神。 | ラテン語 terra「大地」 |
+| **Mother Earth** | 母なる大地 | 大地を母にたとえた言い方。 | 英語 |
+
+<a id="titan"></a>
+### Titan（タイタン）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — ティタン（ギリシャ神話の巨神族）。巨人のような大物
+
+- 📍 シーン: 映画『タイタニック』の船名、ゲームの巨人キャラクター。
+- 💬 例文: *The Titans ruled the world before the gods of Olympus.* — ティタン族はオリンポスの神々の前に世界を支配していた。
+- 📜 語源: ギリシャ語 Tītān（語源不詳）
+  - titanic（巨大な）、元素チタン（titanium）はこの名前から。
+- 🌳 同じ語源の仲間: titanic（巨大な）、titanium（チタン）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **giant** | 巨人 | とても大きな人。 | ギリシャ語 gigas |
+| **colossus** | 巨像 | とても大きな像やもの。 | ギリシャ語 kolossos |
+
+<a id="atlas-titan"></a>
+### Atlas（アトラス）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — アトラス（天空を肩で支えるティタン）
+
+- 📍 シーン: 地図帳（atlas）や大西洋（Atlantic）の名前の由来。
+- 💬 例文: *Atlas was punished by holding up the sky forever.* — アトラスは永遠に天を支える罰を受けた。
+- 📜 語源: ギリシャ語 Atlas「耐える者」
+  - 北アフリカのアトラス山脈も彼の名から。
+- 🌳 同じ語源の仲間: atlas（地図帳）、Atlantic（大西洋）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Titan** | ティタン | アトラスの属する巨神族。 | ギリシャ語 Tītān |
+| **Prometheus** | プロメテウス | アトラスの兄弟。 | ギリシャ語 Promētheus |
+
+<a id="pan-god"></a>
+### Pan（パン）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — パン（ギリシャ神話の牧神。ヤギの足をもつ）
+
+- 📍 シーン: 英語 panic（パニック）の語源。楽器パンフルート。
+- 💬 例文: *The god Pan could cause sudden fear in people.* — パンの神は人々に突然の恐怖を起こすことができた。
+- 📜 語源: ギリシャ語 Pān（「牧者」の意味か）
+  - 森で彼の声を聞くと人はあわてふためいた、ということから panic が生まれた。
+- 🌳 同じ語源の仲間: panic（パニック）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Faunus** | ファウヌス（ローマ神話） | ローマ神話で対応する神。 | ラテン語 Faunus |
+| **satyr** | サテュロス | ヤギの足をもつ森の精。 | ギリシャ語 saturos |
+
+<a id="echo-nymph"></a>
+### Echo（エコー）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — エコー（ギリシャ神話の山の妖精）
+
+- 📍 シーン: ナルキッソスに恋し、声だけになった妖精。英語 echo（こだま）の語源。
+- 💬 例文: *Echo could only repeat the last words of others.* — エコーは他人の最後の言葉を繰り返すことしかできなかった。
+- 📜 語源: ギリシャ語 ēkhō「音、こだま」
+  - 恋が実らず体が消え、声だけが残ったという。
+- 🌳 同じ語源の仲間: echo（こだま）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **nymph** | ニンフ | 山や川の妖精。 | ギリシャ語 nymphē |
+| **Narcissus** | ナルキッソス | エコーが恋した美少年。 | ギリシャ語 Narkissos |
+
+<a id="medusa"></a>
+### Medusa（メドゥーサ）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — メドゥーサ（見た者を石にする髪がヘビの怪物）
+
+- 📍 シーン: ゲームの定番モンスター。英語 medusa はクラゲも指す。
+- 💬 例文: *Anyone who looked at Medusa turned to stone.* — メドゥーサを見た者はみな石になった。
+- 📜 語源: ギリシャ語 Medousa「守る女、支配する女」
+  - 英雄ペルセウスが鏡のように磨いた盾を使って退治した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gorgon** | ゴルゴン | メドゥーサたち三姉妹の怪物。 | ギリシャ語 gorgos「恐ろしい」 |
+| **Perseus** | ペルセウス | メドゥーサを倒した英雄。 | ギリシャ語 Perseus |
+
+<a id="andromeda"></a>
+### Andromeda（アンドロメダ）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — アンドロメダ（ペルセウスに救われた王女）。アンドロメダ銀河
+
+- 📍 シーン: 天の川のとなりの大銀河、アンドロメダ銀河。
+- 💬 例文: *The Andromeda Galaxy is our closest large neighbor.* — アンドロメダ銀河は私たちに最も近い大きな銀河だ。
+- 📜 語源: ギリシャ語 Andromedē「男の支配者」
+  - 海の怪物の生けにえにされるところをペルセウスに助けられた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Perseus** | ペルセウス | アンドロメダを救った英雄。 | ギリシャ語 Perseus |
+| **galaxy** | 銀河 | 星の大集団。 | ギリシャ語 galaxias「乳の」 |
+
+<a id="icarus"></a>
+### Icarus（イカロス）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — イカロス（ろうの翼で太陽に近づきすぎて落ちた若者）
+
+- 📍 シーン: 無謀な挑戦の象徴。JAXA のソーラー電力セイル実証機「IKAROS」。
+- 💬 例文: *Icarus flew too close to the sun, and his wings melted.* — イカロスは太陽に近づきすぎて、翼が溶けてしまった。
+- 📜 語源: ギリシャ語 Īkaros（語源不詳）
+  - 父ダイダロスが迷宮から逃げるために作った翼だった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Daedalus** | ダイダロス | イカロスの父。名工。 | ギリシャ語 Daidalos「巧みな」 |
+| **hubris** | 傲慢 | 神をおそれない思い上がり。 | ギリシャ語 hybris |
+
+<a id="minotaur"></a>
+### Minotaur（ミノタウロス）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — ミノタウロス（牛の頭をもつ怪物。迷宮に住む）
+
+- 📍 シーン: ゲームの定番モンスター。クレタ島の迷宮ラビュリントス。
+- 💬 例文: *The Minotaur lived at the center of a great maze.* — ミノタウロスは巨大な迷路の中心に住んでいた。
+- 📜 語源: ギリシャ語 Mīnōtauros「ミノス王の牛」← Mīnōs + tauros「雄牛」
+  - 英雄テセウスが糸玉を頼りに迷宮から戻った。taurus（牡牛座）と同じ tauros。
+- 🌳 同じ語源の仲間: Taurus（牡牛座）、labyrinth（迷宮）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **labyrinth** | 迷宮 | ミノタウロスが閉じ込められた迷路。 | ギリシャ語 labyrinthos |
+| **Theseus** | テセウス | ミノタウロスを倒した英雄。 | ギリシャ語 Thēseus |
+
+<a id="cyclops"></a>
+### Cyclops（サイクロプス）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — キュクロプス（一つ目の巨人）
+
+- 📍 シーン: ゲームや映画に出てくる一つ目の巨人。
+- 💬 例文: *The Cyclops had only one eye in the middle of his forehead.* — キュクロプスは額の真ん中に目が一つしかなかった。
+- 📜 語源: ギリシャ語 Kyklōps「丸い目」← kyklos「円」+ ōps「目」
+  - cycle（サイクル）と同じ kyklos。複数形は Cyclopes。
+- 🌳 同じ語源の仲間: cycle（循環）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **giant** | 巨人 | とても大きな人。 | ギリシャ語 gigas |
+| **Titan** | ティタン | 巨神族。 | ギリシャ語 Tītān |
+
+<a id="hydra"></a>
+### Hydra（ヒドラ）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — ヒュドラ（首を切っても生えてくる多頭の大蛇）
+
+- 📍 シーン: ゲームのモンスター、生物のヒドラ（再生力が高い）。
+- 💬 例文: *Every time Hercules cut off one of the Hydra's heads, two more grew back.* — ヘラクレスがヒュドラの首を一つ切るたびに、二つ生えてきた。
+- 📜 語源: ギリシャ語 hydra「水ヘビ」← hydōr「水」
+  - hydrogen（水素）と同じ hydōr。「一つ解決しても次々に出てくる問題」のたとえ。
+- 🌳 同じ語源の仲間: hydrogen（水素）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **serpent** | 大蛇 | 大きなヘビ。 | ラテン語 serpēns |
+| **dragon** | 竜 | 伝説の怪物。 | ギリシャ語 drakōn |
+
+<a id="cerberus"></a>
+### Cerberus（ケルベロス）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — ケルベロス（冥界の門を守る三つ頭の犬）
+
+- 📍 シーン: ゲームの番犬モンスター。
+- 💬 例文: *Cerberus guarded the gates of the underworld.* — ケルベロスは冥界の門を守っていた。
+- 📜 語源: ギリシャ語 Kerberos（語源不詳）
+  - 英語では「厳しい番人」のたとえ。音楽で眠らされたこともある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **watchdog** | 番犬 | 見張りの犬。 | watch + dog |
+| **Hades** | ハデス | ケルベロスの主人。 | ギリシャ語 Haidēs |
+
+<a id="bacchus"></a>
+### Bacchus（バッカス）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — バッカス（ローマ神話の酒の神）
+
+- 📍 シーン: 酒好きの人や酒場の名前によく使われる。
+- 💬 例文: *Bacchus is often shown holding grapes and wine.* — バッカスはよくぶどうとぶどう酒を持った姿で描かれる。
+- 📜 語源: ギリシャ語 Bakkhos（ディオニュソスの別名）
+  - 酒神の祭り bacchanal は「どんちゃん騒ぎ」の意味になった。
+- 🌳 同じ語源の仲間: bacchanal（どんちゃん騒ぎ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Dionysus** | ディオニュソス（ギリシャ神話） | ギリシャ神話での名前。 | ギリシャ語 Dionȳsos |
+| **god of wine** | 酒の神 | ぶどう酒をつかさどる神。 | 英語 |
+
+<a id="loki"></a>
+### Loki（ロキ）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — ロキ（北欧神話のいたずら好きの神）
+
+- 📍 シーン: マーベル映画のロキ。神々を助けたりだましたりするトリックスター。
+- 💬 例文: *Loki is a trickster who causes trouble for the gods.* — ロキは神々に面倒を起こすトリックスターだ。
+- 📜 語源: 古ノルド語 Loki（語源不詳）
+  - 巨狼フェンリルや大蛇ヨルムンガンドの父とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **trickster** | トリックスター | いたずらで秩序をかき回す存在。 | trick + -ster |
+| **Fenrir** | フェンリル | ロキの子の巨大な狼。 | 古ノルド語 Fenrir |
+
+<a id="valkyrie"></a>
+### Valkyrie（ワルキューレ）
+
+**神話** / Lv.6 社会の話題 / CEFR B2 — ワルキューレ（戦死した勇者をヴァルハラへ運ぶ戦乙女）
+
+- 📍 シーン: ワーグナー『ワルキューレの騎行』。ゲームの戦乙女。
+- 💬 例文: *The Valkyries carried fallen heroes to Valhalla.* — ワルキューレたちは倒れた英雄をヴァルハラへ運んだ。
+- 📜 語源: 古ノルド語 valkyrja「戦死者を選ぶ者」← valr「戦死者」+ kjósa「選ぶ」
+  - ワルキューレはドイツ語読み。英語読みは「ヴァルキリー」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **shieldmaiden** | 盾の乙女 | 戦う女性。 | shield + maiden |
+| **Valhalla** | ヴァルハラ | 勇者の魂が行く館。 | 古ノルド語 Valhǫll |
+
+<a id="valhalla"></a>
+### Valhalla（ヴァルハラ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ヴァルハラ（北欧神話の戦死した勇者の館）
+
+- 📍 シーン: ゲームや音楽によく出てくる名前。
+- 💬 例文: *Warriors who died in battle went to Valhalla.* — 戦いで死んだ戦士はヴァルハラへ行った。
+- 📜 語源: 古ノルド語 Valhǫll「戦死者の館」
+  - 勇者たちはラグナロクの日まで毎日戦い、夜は宴会をするという。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **paradise** | 楽園 | 死後の幸福な世界。 | ペルシア語 pairidaēza「囲まれた庭」 |
+| **Asgard** | アースガルズ | 神々の国。 | 古ノルド語 Ásgarðr |
+
+<a id="ra"></a>
+### Ra（ラー）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — ラー（古代エジプトの太陽神）
+
+- 📍 シーン: 太陽の船で空を渡る、はやぶさの頭をもつ神。
+- 💬 例文: *The ancient Egyptians worshipped Ra as the sun god.* — 古代エジプト人はラーを太陽神として崇めた。
+- 📜 語源: エジプト語 rꜥ「太陽」
+  - Re（レー）とも書く。のちにアメン神と合わさってアメン・ラーになった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Amun** | アメン | のちにラーと合わさった神。 | エジプト語 jmn「隠れた者」 |
+| **sun god** | 太陽神 | 太陽をつかさどる神。 | 英語 |
+
+<a id="anubis"></a>
+### Anubis（アヌビス）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — アヌビス（古代エジプトの山犬の頭をもつ死者の神）
+
+- 📍 シーン: ミイラ作りと死者の魂の審判を見守る神。ゲームの定番キャラクター。
+- 💬 例文: *Anubis weighed the hearts of the dead.* — アヌビスは死者の心臓の重さを量った。
+- 📜 語源: エジプト語 jnpw（ギリシャ語 Anoubis）
+  - 心臓と真理の羽根をてんびんにかける「死者の書」の場面が有名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **jackal** | ジャッカル | アヌビスの姿の動物。 | ペルシア語 shagāl |
+| **mummy** | ミイラ | アヌビスが守った遺体。 | アラビア語 mūmiyā |
+
+<a id="shiva"></a>
+### Shiva（シヴァ）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — シヴァ（ヒンドゥー教の破壊と再生の神）
+
+- 📍 シーン: 踊る神ナタラージャ、ゲームの氷の召喚獣の名前。
+- 💬 例文: *Shiva destroys the world so that it can be reborn.* — シヴァは世界が生まれ変わるためにそれを破壊する。
+- 📜 語源: サンスクリット語 Śiva「めでたい、慈悲深い」
+  - 恐ろしい神だが、名前は「めでたい」という遠回しな呼び名。仏教では大自在天。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mahadeva** | マハーデーヴァ | シヴァの呼び名「偉大な神」。 | サンスクリット語 mahā「偉大な」+ deva「神」 |
+| **Rudra** | ルドラ | シヴァの前身とされる嵐の神。 | サンスクリット語 Rudra |
+
+<a id="ganesha"></a>
+### Ganesha（ガネーシャ）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — ガネーシャ（ヒンドゥー教の象の頭をもつ神。障害を除き商売を守る）
+
+- 📍 シーン: 『夢をかなえるゾウ』のガネーシャ。インドで最も人気のある神の一柱。
+- 💬 例文: *Ganesha is worshipped before starting something new.* — ガネーシャは何か新しいことを始める前に祈られる。
+- 📜 語源: サンスクリット語 Gaṇeśa「群れの主」
+  - シヴァの息子。日本では歓喜天（聖天）として祀られる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ganapati** | ガナパティ | ガネーシャの別名。 | サンスクリット語「群れの主」 |
+| **elephant** | 象 | ガネーシャの頭の動物。 | ギリシャ語 elephas |
+
+<a id="allah"></a>
+### Allah（アッラー）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — アッラー（イスラム教の唯一神）
+
+- 📍 シーン: アラビア語で「神」の意味。アラビア語を話すキリスト教徒も使う。
+- 💬 例文: *Muslims pray to Allah five times a day.* — イスラム教徒は1日5回アッラーに祈る。
+- 📜 語源: アラビア語 Allāh ← al-「その」+ ʼilāh「神」
+  - ヘブライ語の Elohim と同じ系統の語。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **God** | 神 | 英語での唯一神の呼び名。 | 古英語 god |
+| **Elohim** | エロヒム | ヘブライ語の神の呼び名。同系統の語。 | ヘブライ語 ʼĕlōhīm |
+
+<a id="lucifer"></a>
+### Lucifer（ルシファー）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — ルシファー（天から落ちた天使。明けの明星）
+
+- 📍 シーン: ゲームや漫画の堕天使。ミルトン『失楽園』。
+- 💬 例文: *Lucifer was once the most beautiful angel.* — ルシファーはかつて最も美しい天使だった。
+- 📜 語源: ラテン語 lūcifer「光をもたらす者」← lūx「光」+ ferre「運ぶ」
+  - もとは明けの明星（金星）の呼び名。のちに堕天使サタンの名とされた。
+- 🌳 同じ語源の仲間: lucid（明快な）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Satan** | サタン | 同一視される悪魔。 | ヘブライ語 śāṭān |
+| **fallen angel** | 堕天使 | 天から追放された天使。 | 英語 |
+
+<a id="gabrielle"></a>
+### Gabrielle（ガブリエル）
+
+**人名（フランス語）** / Lv.6 社会の話題 / CEFR B2 — 女性名（フランス語）。Gabriel の女性形
+
+- 📍 シーン: シャネルの創業者ガブリエル（ココ）・シャネル。
+- 💬 例文: *Gabrielle Chanel was known as Coco.* — ガブリエル・シャネルはココと呼ばれた。
+- 📜 語源: フランス語 Gabriel + 女性語尾 -le
+  - 発音は男性形と同じ「ガブリエル」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gabriela** | ガブリエラ（スペイン語） | スペイン語の女性形。 | Gabriel + 女性語尾 -a |
+| **Gabriel** | ガブリエル | 男性形。 | ヘブライ語 Gavrīʼēl |
+
+<a id="raphael"></a>
+### Raphael（ラファエル）
+
+**神名** / Lv.6 社会の話題 / CEFR B2 — 大天使ラファエル。男性名ラファエル
+
+- 📍 シーン: 旅と癒しの天使。ルネサンスの画家ラファエロもこの名。
+- 💬 例文: *Raphael is the angel of healing.* — ラファエルは癒しの天使だ。
+- 📜 語源: ヘブライ語 Rəfāʼēl「神は癒やす」
+  - 『トビト記』で少年トビアの旅に付き添う。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Rafael** | ラファエル（スペイン語） | スペイン語の男性名。 | 同じヘブライ語から |
+| **Raffaello** | ラファエロ（イタリア語） | イタリア語形。 | 同じヘブライ語から |
+
+<a id="rafael"></a>
+### Rafael（ラファエル）
+
+**人名（スペイン語）** / Lv.6 社会の話題 / CEFR B2 — 男性名（スペイン語・ポルトガル語形）。Raphael にあたる
+
+- 📍 シーン: テニスのラファエル・ナダル。
+- 💬 例文: *Rafael Nadal won the French Open many times.* — ラファエル・ナダルは全仏オープンで何度も優勝した。
+- 📜 語源: ヘブライ語 Rəfāʼēl → スペイン語 Rafael
+  - スペイン語では ph を f と書く。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Raphael** | ラファエル | 英語・フランス語などの形。 | 同じヘブライ語から |
+| **Raffaello** | ラファエロ（イタリア語） | イタリア語形。 | 同じヘブライ語から |
+
+<a id="babel"></a>
+### Babel（バベル）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — バベル（聖書で天に届く塔を建てようとした町）
+
+- 📍 シーン: 「バベルの塔」。ことばが通じない混乱のたとえ。
+- 💬 例文: *God confused the languages of the builders of Babel.* — 神はバベルの建設者たちの言葉を混乱させた。
+- 📜 語源: ヘブライ語 Bāḇel（バビロン）。聖書では bālal「混乱させる」と結びつけた
+  - 世界にさまざまな言語がある理由を説明する物語。babble（わけのわからないおしゃべり）と音が似ているが別の語。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Babylon** | バビロン | 古代メソポタミアの都市。 | アッカド語 Bāb-ili「神の門」 |
+| **confusion** | 混乱 | 入り乱れること。 | ラテン語 confūsiō |
+
+<a id="armageddon"></a>
+### Armageddon（アルマゲドン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ハルマゲドン（聖書で世界の終わりの最終戦争の場所）
+
+- 📍 シーン: 映画『アルマゲドン』。世界の終わりの大戦争のたとえ。
+- 💬 例文: *Some people feared that nuclear war would bring Armageddon.* — 核戦争がハルマゲドンをもたらすと恐れる人もいた。
+- 📜 語源: ヘブライ語 Har Məḡiddō「メギドの丘」
+  - イスラエルの古戦場メギドの名から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **apocalypse** | 黙示、終末 | 世界の終わり。 | ギリシャ語 apokalypsis |
+| **doomsday** | 最後の審判の日 | 世界の終わりの日。 | doom + day |
+
+<a id="slovakia"></a>
+### Slovakia（スロバキア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — スロバキア
+
+- 📍 シーン: 首都ブラチスラバ。1993年にチェコと分かれた。
+- 💬 例文: *Czechoslovakia split into Czechia and Slovakia in 1993.* — チェコスロバキアは1993年にチェコとスロバキアに分かれた。
+- 📜 語源: スロバキア語 Slovensko ← スラヴ人（Slovák）
+  - 隣国スロベニアと名前が似ていて混同されやすい。
+- 🌳 同じ語源の仲間: Slovak（スロバキアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Slovensko** | スロヴェンスコ | スロバキア語での国名。 | スロバキア語 |
+| **Czechoslovakia** | チェコスロバキア | かつての国名。 | Czech + Slovakia |
+
+<a id="serbia"></a>
+### Serbia（セルビア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — セルビア
+
+- 📍 シーン: 首都ベオグラード。テニスのジョコビッチの祖国。
+- 💬 例文: *Novak Djokovic is from Serbia.* — ノバク・ジョコビッチはセルビア出身だ。
+- 📜 語源: セルビア語 Srbija ← セルビア人（Srbi）
+  - 旧ユーゴスラビアの中心だった。
+- 🌳 同じ語源の仲間: Serbian（セルビアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Srbija** | スルビヤ | セルビア語での国名。 | セルビア語 |
+| **Yugoslavia** | ユーゴスラビア | かつての連邦国家。 | 「南スラヴ人の国」 |
+
+<a id="estonia"></a>
+### Estonia（エストニア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — エストニア
+
+- 📍 シーン: バルト三国の一つ。Skype が生まれた IT 先進国。
+- 💬 例文: *Estonia is known for its advanced digital government.* — エストニアは進んだ電子政府で知られている。
+- 📜 語源: ラテン語 Aestii（古代の民族名）
+  - バルト三国の中で唯一、フィンランド語に近い言語を話す。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Eesti** | エースティ | エストニア語での国名。 | エストニア語 |
+| **Baltic states** | バルト三国 | エストニア・ラトビア・リトアニア。 | 英語 |
+
+<a id="malta"></a>
+### Malta（マルタ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — マルタ
+
+- 📍 シーン: 地中海の島国。マルタ騎士団、語学留学先。
+- 💬 例文: *English is an official language in Malta.* — マルタでは英語が公用語の一つだ。
+- 📜 語源: ギリシャ語 Melitē「蜜」（またはフェニキア語「避難所」）
+  - アラビア語系の言語をラテン文字で書くマルタ語を話す。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Melita** | メリタ | 古い呼び名。 | ギリシャ語 Melitē |
+| **Mediterranean** | 地中海 | マルタがある海。 | ラテン語「陸の真ん中の」 |
+
+<a id="macau"></a>
+### Macau（マカオ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — マカオ
+
+- 📍 シーン: カジノの町、エッグタルト。1999年にポルトガルから中国に返還された。
+- 💬 例文: *Macau is famous for its casinos.* — マカオはカジノで有名だ。
+- 📜 語源: 媽閣（Ma Kok、航海の女神の廟）のポルトガル語での聞き取りから
+  - Macao ともつづる。東洋と西洋が混ざった町並みが世界遺産。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Macao** | マカオ | 別のつづり。 | ポルトガル語 |
+| **Hong Kong** | 香港 | となりの特別行政区。 | 広東語 |
+
+<a id="laos"></a>
+### Laos（ラオス）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ラオス
+
+- 📍 シーン: メコン川沿いの内陸国。古都ルアンパバーン。
+- 💬 例文: *Laos is the only landlocked country in Southeast Asia.* — ラオスは東南アジアで唯一の内陸国だ。
+- 📜 語源: ラオ人（Lao）の名 + フランス語の複数の s
+  - フランス植民地時代に「ラオ人たち」の意味で s がついた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lao PDR** | ラオス人民民主共和国 | 正式名の略称。 | 英語 |
+| **Mekong** | メコン川 | 国を流れる大河。 | タイ語系「母なる水」 |
+
+<a id="bhutan"></a>
+### Bhutan（ブータン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ブータン
+
+- 📍 シーン: 「国民総幸福量（GNH）」を掲げる国。
+- 💬 例文: *Bhutan measures Gross National Happiness.* — ブータンは国民総幸福量を測っている。
+- 📜 語源: サンスクリット語 Bhoṭānta「チベットの端」とされる
+  - 自国語では Druk Yul（竜の国）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Druk Yul** | ドゥク・ユル | ゾンカ語での国名「雷竜の国」。 | ゾンカ語 |
+| **Land of the Thunder Dragon** | 雷竜の国 | 愛称。 | 英語 |
+
+<a id="maldives"></a>
+### Maldives（モルディブ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — モルディブ
+
+- 📍 シーン: インド洋のサンゴ礁の島々。水上コテージ。
+- 💬 例文: *The Maldives is the lowest country in the world.* — モルディブは世界で最も標高の低い国だ。
+- 📜 語源: サンスクリット語 mālā「花輪」+ dvīpa「島」の説
+  - 海面上昇で国土がなくなる心配がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **atoll** | 環礁 | 輪の形のサンゴ礁。 | ディベヒ語 atholhu |
+| **Indian Ocean** | インド洋 | 国がある海。 | 英語 |
+
+<a id="lebanon"></a>
+### Lebanon（レバノン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — レバノン
+
+- 📍 シーン: 首都ベイルート、国旗のレバノン杉。
+- 💬 例文: *The cedar tree appears on the flag of Lebanon.* — レバノンの国旗には杉の木が描かれている。
+- 📜 語源: アラム語 lbn「白い」（雪をかぶった山から）
+  - 古代フェニキア人の本拠地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Levant** | レバント | 地中海東岸地方。 | フランス語 levant |
+| **Beirut** | ベイルート | 首都。 | フェニキア語「井戸」 |
+
+<a id="qatar"></a>
+### Qatar（カタール）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — カタール
+
+- 📍 シーン: 2022年サッカーW杯開催国、衛星テレビ局アルジャジーラ。
+- 💬 例文: *Qatar hosted the 2022 World Cup.* — カタールは2022年のワールドカップを開催した。
+- 📜 語源: アラビア語 Qaṭar（語源不詳）
+  - 天然ガスで豊かになった。英語での発音は「カッター」「クタル」に近い。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Doha** | ドーハ | 首都。「ドーハの悲劇」で知られる。 | アラビア語 |
+| **Gulf states** | 湾岸諸国 | ペルシャ湾岸の国々。 | 英語 |
+
+<a id="georgia-country"></a>
+### Georgia（ジョージア） ⚠️
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ジョージア（コーカサスの国）
+
+- 📍 シーン: ワイン発祥の地とされる国。首都トビリシ。以前は日本で「グルジア」と呼んだ。
+- ⚠️ カタカナの罠: 日本では2015年まで「グルジア」（ロシア語 Gruziya から）と呼んでいたが、英語名に合わせて「ジョージア」に変わった。アメリカのジョージア州とは別。
+- 💬 例文: *Georgia may be the oldest wine-making country in the world.* — ジョージアは世界最古のワイン造りの国かもしれない。
+- 📜 語源: ペルシア語 gorj（語源不詳）。聖ゲオルギウスと結びつけられた
+  - 自国語では Sakartvelo（サカルトヴェロ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sakartvelo** | サカルトヴェロ | ジョージア語での国名。 | ジョージア語 |
+| **Gruzia** | グルジア | ロシア語での呼び名。 | ロシア語 Грузия |
+
+<a id="kazakhstan"></a>
+### Kazakhstan（カザフスタン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — カザフスタン
+
+- 📍 シーン: 世界最大の内陸国。宇宙基地バイコヌール。
+- 💬 例文: *Kazakhstan is the largest landlocked country in the world.* — カザフスタンは世界最大の内陸国だ。
+- 📜 語源: カザフ人（「自由な放浪者」の意味とされる）+ -stan「国」
+  - cossack（コサック）も同じ語源とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **-stan** | 〜スタン | 「国、土地」を表す語尾。 | ペルシア語 -stān |
+| **Astana** | アスタナ | 首都（カザフ語で「首都」）。 | カザフ語 |
+
+<a id="uzbekistan"></a>
+### Uzbekistan（ウズベキスタン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ウズベキスタン
+
+- 📍 シーン: シルクロードの青の都サマルカンド。
+- 💬 例文: *Samarkand in Uzbekistan was a city on the Silk Road.* — ウズベキスタンのサマルカンドはシルクロードの都市だった。
+- 📜 語源: ウズベク人 + -stan「国」
+  - 二重内陸国（内陸国にだけ囲まれた国）の一つ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **-stan** | 〜スタン | 「国、土地」を表す語尾。 | ペルシア語 -stān |
+| **Samarkand** | サマルカンド | 古都。 | ソグド語「石の町」 |
+
+<a id="tibet"></a>
+### Tibet（チベット）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — チベット（中国の自治区。チベット高原）
+
+- 📍 シーン: ポタラ宮、ダライ・ラマ、「世界の屋根」。
+- 💬 例文: *Tibet is often called the Roof of the World.* — チベットはよく「世界の屋根」と呼ばれる。
+- 📜 語源: アラビア語・トルコ語 Tübüt などから（語源不詳）
+  - チベット人自身は Bod（プー）と呼ぶ。
+- 🌳 同じ語源の仲間: Tibetan（チベットの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Roof of the World** | 世界の屋根 | 愛称。 | 英語 |
+| **Lhasa** | ラサ | 中心都市。 | チベット語「神の地」 |
+
+<a id="libya"></a>
+### Libya（リビア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — リビア
+
+- 📍 シーン: 首都トリポリ、サハラ砂漠。
+- 💬 例文: *Most of Libya is covered by the Sahara Desert.* — リビアの大部分はサハラ砂漠に覆われている。
+- 📜 語源: ギリシャ語 Libyē（古代ギリシャ人が北アフリカ全体を呼んだ名）
+  - 古代にはアフリカ大陸そのものを指すこともあった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Tripoli** | トリポリ | 首都。 | ギリシャ語「三つの町」 |
+| **Maghreb** | マグレブ | 北アフリカ西部の呼び名。 | アラビア語「日の沈む所」 |
+
+<a id="tunisia"></a>
+### Tunisia（チュニジア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — チュニジア
+
+- 📍 シーン: 古代カルタゴの遺跡、映画『スター・ウォーズ』のロケ地。
+- 💬 例文: *The ruins of Carthage are in Tunisia.* — カルタゴの遺跡はチュニジアにある。
+- 📜 語源: 首都チュニス（Tunis）の名から
+  - 2011年の「アラブの春」はチュニジアから始まった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Carthage** | カルタゴ | 古代の都市国家。 | フェニキア語「新しい町」 |
+| **Maghreb** | マグレブ | 北アフリカ西部。 | アラビア語「日の沈む所」 |
+
+<a id="algeria"></a>
+### Algeria（アルジェリア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — アルジェリア
+
+- 📍 シーン: アフリカ最大の国土をもつ国。首都アルジェ。
+- 💬 例文: *Algeria is the largest country in Africa.* — アルジェリアはアフリカ最大の国だ。
+- 📜 語源: 首都アルジェ（アラビア語 al-Jazāʼir「島々」）
+  - カミュ『異邦人』の舞台。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Algiers** | アルジェ | 首都。 | アラビア語「島々」 |
+| **Maghreb** | マグレブ | 北アフリカ西部。 | アラビア語 |
+
+<a id="sudan"></a>
+### Sudan（スーダン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — スーダン
+
+- 📍 シーン: 青ナイルと白ナイルが合流する首都ハルツーム。
+- 💬 例文: *The Blue Nile and White Nile meet in Sudan.* — 青ナイルと白ナイルはスーダンで合流する。
+- 📜 語源: アラビア語 bilād as-sūdān「黒い人々の国」
+  - 2011年に南部が南スーダンとして独立した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Khartoum** | ハルツーム | 首都。 | アラビア語「象の鼻」 |
+| **Nubia** | ヌビア | 北部の歴史的な地方名。 | 語源不詳 |
+
+<a id="tanzania"></a>
+### Tanzania（タンザニア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — タンザニア
+
+- 📍 シーン: キリマンジャロ、セレンゲティ、ザンジバル島。
+- 💬 例文: *Mount Kilimanjaro is in Tanzania.* — キリマンジャロはタンザニアにある。
+- 📜 語源: Tanganyika + Zanzibar を合わせた名
+  - 1964年に2つの国が合併してできた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Tanganyika** | タンガニーカ | 合併前の本土の国名。 | 語源不詳 |
+| **Zanzibar** | ザンジバル | 合併したもう一方の島。 | ペルシア語「黒人の海岸」 |
+
+<a id="ivory-coast"></a>
+### Ivory Coast（コートジボワール） ⚠️
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — コートジボワール（象牙海岸）
+
+- 📍 シーン: カカオ豆の世界最大の生産国。
+- ⚠️ カタカナの罠: 日本語の「コートジボワール」はフランス語 Côte d'Ivoire から。英語の意味は Ivory Coast（象牙の海岸）で、国はフランス語名を正式としている。
+- 💬 例文: *Ivory Coast is the world's largest producer of cocoa beans.* — コートジボワールは世界最大のカカオ豆生産国だ。
+- 📜 語源: フランス語 Côte d'Ivoire「象牙の海岸」
+  - 昔ここで象牙の取引が行われていたことから。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Côte d'Ivoire** | コートジボワール | フランス語での正式国名。 | フランス語 |
+| **Abidjan** | アビジャン | 最大都市。 | 語源不詳 |
+
+<a id="congo"></a>
+### Congo（コンゴ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — コンゴ（コンゴ共和国とコンゴ民主共和国）
+
+- 📍 シーン: コンゴ川、熱帯雨林、ゴリラ。
+- 💬 例文: *The Congo River is the deepest river in the world.* — コンゴ川は世界で最も深い川だ。
+- 📜 語源: コンゴ王国（コンゴ語 nkongo「狩人」の説）
+  - 首都ブラザビルの「コンゴ共和国」と、首都キンシャサの「コンゴ民主共和国（DRC）」の2か国がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **DRC** | コンゴ民主共和国 | 大きい方のコンゴの略称。 | 英語の頭文字 |
+| **Zaire** | ザイール | コンゴ民主共和国の旧国名。 | コンゴ語 nzere「川」 |
+
+<a id="guatemala"></a>
+### Guatemala（グアテマラ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — グアテマラ
+
+- 📍 シーン: マヤ遺跡ティカル、コーヒーの産地。
+- 💬 例文: *Guatemala is famous for its coffee and Maya ruins.* — グアテマラはコーヒーとマヤ遺跡で有名だ。
+- 📜 語源: ナワトル語 Cuauhtēmallān「木の多い土地」
+  - 中米で最も人口の多い国。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Maya** | マヤ | この地で栄えた文明。 | マヤ語 |
+| **Central America** | 中米 | この地域の呼び名。 | 英語 |
+
+<a id="costa-rica"></a>
+### Costa Rica（コスタリカ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — コスタリカ
+
+- 📍 シーン: 軍隊を持たない国、エコツーリズム。
+- 💬 例文: *Costa Rica has had no army since 1948.* — コスタリカは1948年から軍隊を持っていない。
+- 📜 語源: スペイン語 costa rica「豊かな海岸」
+  - 金が見つかると期待されてこの名がついたとされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **San José** | サンホセ | 首都。 | スペイン語「聖ヨセフ」 |
+| **rich coast** | 豊かな海岸 | 国名の意味。 | 英語 |
+
+<a id="bahamas"></a>
+### Bahamas（バハマ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — バハマ
+
+- 📍 シーン: 大西洋のリゾート島々。
+- 💬 例文: *The Bahamas is made up of about 700 islands.* — バハマは約700の島から成る。
+- 📜 語源: スペイン語 baja mar「浅い海」の説
+  - 英語では the Bahamas と冠詞をつける。コロンブスが最初に上陸した島がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nassau** | ナッソー | 首都。 | 人名 |
+| **Caribbean** | カリブ | 近くの地域。 | カリブ族の名 |
+
+<a id="venezuela"></a>
+### Venezuela（ベネズエラ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ベネズエラ
+
+- 📍 シーン: 世界最大の石油埋蔵量、世界最長の滝エンジェルフォール。
+- 💬 例文: *Angel Falls in Venezuela is the highest waterfall in the world.* — ベネズエラのエンジェルフォールは世界で最も高い滝だ。
+- 📜 語源: スペイン語 Venezuela「小さなベネチア」
+  - 水上に建つ先住民の家をベネチアにたとえたとされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Little Venice** | 小さなベネチア | 国名の意味。 | 英語 |
+| **Caracas** | カラカス | 首都。 | 先住民の名 |
+
+<a id="ecuador"></a>
+### Ecuador（エクアドル）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — エクアドル
+
+- 📍 シーン: ガラパゴス諸島、バナナの輸出国。
+- 💬 例文: *Ecuador means "equator" in Spanish.* — エクアドルはスペイン語で「赤道」という意味だ。
+- 📜 語源: スペイン語 ecuador「赤道」
+  - 首都キトは赤道のすぐ近くの高地にある。
+- 🌳 同じ語源の仲間: equator（赤道）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **equator** | 赤道 | 国名の意味。 | ラテン語 aequātor |
+| **Galápagos** | ガラパゴス | 国の諸島。 | スペイン語「ゾウガメ」 |
+
+<a id="bolivia"></a>
+### Bolivia（ボリビア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ボリビア
+
+- 📍 シーン: 天空の鏡ウユニ塩湖、チチカカ湖。
+- 💬 例文: *The Uyuni Salt Flat in Bolivia looks like a huge mirror.* — ボリビアのウユニ塩湖は巨大な鏡のように見える。
+- 📜 語源: 独立の英雄シモン・ボリバル（Bolívar）の名から
+  - 政府所在地ラパスは世界一高い首都とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **La Paz** | ラパス | 政府所在地（「平和」）。 | スペイン語 |
+| **Sucre** | スクレ | 憲法上の首都。 | 人名 |
+
+<a id="uruguay"></a>
+### Uruguay（ウルグアイ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ウルグアイ
+
+- 📍 シーン: 第1回サッカーW杯の開催国・優勝国。
+- 💬 例文: *Uruguay won the first World Cup in 1930.* — ウルグアイは1930年の第1回ワールドカップで優勝した。
+- 📜 語源: グアラニー語「鳥の川」などの説（ウルグアイ川の名）
+  - 首都モンテビデオ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Montevideo** | モンテビデオ | 首都。 | スペイン語「山が見えた」の説 |
+| **Río de la Plata** | ラ・プラタ川 | 国が面する河口。 | スペイン語「銀の川」 |
+
+<a id="puerto-rico"></a>
+### Puerto Rico（プエルトリコ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — プエルトリコ（アメリカの自治領）
+
+- 📍 シーン: 野球選手、サルサ、レゲトン。
+- 💬 例文: *Puerto Rico means "rich port" in Spanish.* — プエルトリコはスペイン語で「豊かな港」という意味だ。
+- 📜 語源: スペイン語 puerto rico「豊かな港」
+  - もとは首都サンフアンの港の名前だった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **San Juan** | サンフアン | 首都。 | スペイン語「聖ヨハネ」 |
+| **Borinquen** | ボリンケン | 先住民タイノ族の呼び名。 | タイノ語 |
+
+<a id="fiji"></a>
+### Fiji（フィジー）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — フィジー
+
+- 📍 シーン: 南太平洋のリゾート、ラグビーの強豪国。
+- 💬 例文: *Fiji is a popular place for diving.* — フィジーはダイビングに人気の場所だ。
+- 📜 語源: トンガ語での呼び名 Fisi から
+  - 首都スバ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Suva** | スバ | 首都。 | フィジー語 |
+| **Melanesia** | メラネシア | この地域の呼び名。 | ギリシャ語「黒い島々」 |
+
+<a id="far-east"></a>
+### Far East（極東）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — 極東（東アジア）
+
+- 📍 シーン: ヨーロッパから見た日本・中国・朝鮮など。
+- 💬 例文: *Japan was once called part of the Far East.* — 日本はかつて極東の一部と呼ばれた。
+- 📜 語源: far「遠い」+ east「東」
+  - ヨーロッパ中心の見方から生まれた言葉。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **East Asia** | 東アジア | 現在よく使う呼び名。 | 英語 |
+| **Orient** | オリエント | 東方。 | ラテン語 oriēns |
+
+<a id="orient"></a>
+### Orient（オリエント）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — 東洋、東方（古い言い方）
+
+- 📍 シーン: オリエント急行、古代オリエント文明。
+- 💬 例文: *The Orient Express ran from Paris to Istanbul.* — オリエント急行はパリからイスタンブールまで走った。
+- 📜 語源: ラテン語 oriēns「昇る（太陽）」
+  - 「方向を知る」orient（動詞）は、東を基準に位置を定めたことから。
+- 🌳 同じ語源の仲間: orientation（方向づけ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **East** | 東 | 東の地域。 | 古英語 ēast |
+| **Occident** | 西洋 | 反対の「西方」。 | ラテン語 occidēns |
+
+<a id="balkans"></a>
+### Balkans（バルカン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — バルカン半島
+
+- 📍 シーン: 「ヨーロッパの火薬庫」と呼ばれた地域。
+- 💬 例文: *The Balkans were called the powder keg of Europe.* — バルカン半島はヨーロッパの火薬庫と呼ばれた。
+- 📜 語源: トルコ語 balkan「山脈」
+  - 地域が細かく分かれることを balkanization（バルカン化）という。
+- 🌳 同じ語源の仲間: balkanize（小国に分裂させる）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Balkan Peninsula** | バルカン半島 | 地理上の名。 | 英語 |
+| **Southeast Europe** | 南東ヨーロッパ | 地域名。 | 英語 |
+
+<a id="mesopotamia"></a>
+### Mesopotamia（メソポタミア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — メソポタミア（チグリス川とユーフラテス川の間の地域）
+
+- 📍 シーン: 世界最古の文明の一つ。くさび形文字、ハンムラビ法典。
+- 💬 例文: *Writing was invented in Mesopotamia.* — 文字はメソポタミアで発明された。
+- 📜 語源: ギリシャ語 mesos「中間」+ potamos「川」＝「川の間」
+  - 今のイラクのあたり。hippopotamus（カバ＝川の馬）と同じ potamos。
+- 🌳 同じ語源の仲間: hippopotamus（カバ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Fertile Crescent** | 肥沃な三日月地帯 | 農業が始まった地域。 | 英語 |
+| **Babylon** | バビロン | 古代の都市。 | アッカド語 |
+
+<a id="polynesia"></a>
+### Polynesia（ポリネシア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ポリネシア（太平洋東部の島々）
+
+- 📍 シーン: ハワイ、タヒチ、ニュージーランド、イースター島を結ぶ三角形。
+- 💬 例文: *Hawaii and Tahiti are part of Polynesia.* — ハワイとタヒチはポリネシアの一部だ。
+- 📜 語源: ギリシャ語 poly「多くの」+ nēsos「島」
+  - 古代ポリネシア人はカヌーで広大な海を渡った。
+- 🌳 同じ語源の仲間: polygon（多角形）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Micronesia** | ミクロネシア | 「小さな島々」の地域。 | ギリシャ語 |
+| **Melanesia** | メラネシア | 「黒い島々」の地域。 | ギリシャ語 |
+
+<a id="gobi"></a>
+### Gobi（ゴビ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ゴビ砂漠
+
+- 📍 シーン: モンゴルと中国にまたがる砂漠。恐竜の化石の宝庫。
+- 💬 例文: *Many dinosaur fossils have been found in the Gobi.* — ゴビ砂漠では多くの恐竜の化石が見つかっている。
+- 📜 語源: モンゴル語 gobi「草のまばらな乾いた土地」
+  - 黄砂の発生源の一つ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sahara** | サハラ砂漠 | アフリカの大砂漠。 | アラビア語 |
+| **steppe** | ステップ | 草原。 | ロシア語 step' |
+
+<a id="matterhorn"></a>
+### Matterhorn（マッターホルン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — マッターホルン（スイスとイタリアの国境の名峰）
+
+- 📍 シーン: ピラミッド形の山。トブラローネのパッケージの山。
+- 💬 例文: *The Matterhorn has a famous pyramid shape.* — マッターホルンは有名なピラミッドの形をしている。
+- 📜 語源: ドイツ語 Matte「牧草地」+ Horn「角」
+  - イタリア語では Monte Cervino。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Monte Cervino** | モンテ・チェルヴィーノ | イタリア語での呼び名。 | イタリア語 |
+| **Alps** | アルプス | この山がある山脈。 | ラテン語 Alpēs |
+
+<a id="rhine"></a>
+### Rhine（ライン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ライン川
+
+- 📍 シーン: ドイツのワイン、ローレライの岩、古城。
+- 💬 例文: *The Rhine flows from Switzerland to the North Sea.* — ライン川はスイスから北海へ流れる。
+- 📜 語源: ラテン語 Rhēnus ← ケルト語「流れる」
+  - ドイツ語では Rhein。フランスとドイツの国境の一部。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Rhein** | ライン | ドイツ語での名。 | ドイツ語 |
+| **Lorelei** | ローレライ | 川沿いの伝説の岩。 | ドイツ語 |
+
+<a id="danube"></a>
+### Danube（ドナウ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ドナウ川
+
+- 📍 シーン: ヨハン・シュトラウス『美しく青きドナウ』。
+- 💬 例文: *The Danube flows through ten countries.* — ドナウ川は10か国を流れる。
+- 📜 語源: ラテン語 Dānuvius（「川」を表す印欧語から）
+  - 「ドナウ」はドイツ語 Donau から。英語では Danube（ダニューブ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Donau** | ドナウ | ドイツ語での名。 | ドイツ語 |
+| **Blue Danube** | 美しく青きドナウ | 有名なワルツ。 | 英語 |
+
+<a id="ganges"></a>
+### Ganges（ガンジス）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ガンジス川
+
+- 📍 シーン: ヒンドゥー教の聖なる川。バラナシの沐浴。
+- 💬 例文: *Hindus bathe in the Ganges to wash away their sins.* — ヒンドゥー教徒は罪を洗い流すためにガンジス川で沐浴する。
+- 📜 語源: サンスクリット語 Gaṅgā（女神の名）
+  - インドでは Ganga（ガンガー）と呼ぶ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ganga** | ガンガー | インドでの名。 | サンスクリット語 |
+| **Varanasi** | バラナシ | 川沿いの聖地。 | サンスクリット語 |
+
+<a id="mekong"></a>
+### Mekong（メコン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — メコン川
+
+- 📍 シーン: 東南アジア6か国を流れる大河。メコンデルタ。
+- 💬 例文: *The Mekong flows through six countries.* — メコン川は6か国を流れる。
+- 📜 語源: タイ語系 mae nam khong「母なる水コン」
+  - ベトナムでは「九つの竜の川」とも呼ばれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mekong Delta** | メコンデルタ | 河口の三角州。 | 英語 |
+| **Mother of Waters** | 水の母 | 名前の意味。 | 英語 |
+
+<a id="tahiti"></a>
+### Tahiti（タヒチ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — タヒチ（フランス領ポリネシアの島）
+
+- 📍 シーン: ゴーギャンが描いた南の島。
+- 💬 例文: *Gauguin painted many pictures in Tahiti.* — ゴーギャンはタヒチで多くの絵を描いた。
+- 📜 語源: タヒチ語 Tahiti（語源不詳）
+  - 首都パペーテ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **French Polynesia** | フランス領ポリネシア | 島がある地域。 | 英語 |
+| **Papeete** | パペーテ | 中心都市。 | タヒチ語 |
+
+<a id="sicily"></a>
+### Sicily（シチリア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — シチリア島（イタリア）
+
+- 📍 シーン: 映画『ゴッドファーザー』、エトナ火山、カンノーリ。
+- 💬 例文: *Sicily is the largest island in the Mediterranean.* — シチリア島は地中海最大の島だ。
+- 📜 語源: ラテン語 Sicilia（先住民シケル人の名）
+  - イタリア語では Sicilia。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sicilia** | シチリア | イタリア語での名。 | ラテン語 |
+| **Etna** | エトナ | 島の活火山。 | ギリシャ語 |
+
+<a id="crete"></a>
+### Crete（クレタ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — クレタ島（ギリシャ）
+
+- 📍 シーン: ミノア文明、クノッソス宮殿、ミノタウロスの迷宮伝説。
+- 💬 例文: *The palace of Knossos is on Crete.* — クノッソス宮殿はクレタ島にある。
+- 📜 語源: ギリシャ語 Krētē（語源不詳）
+  - ギリシャ最大の島。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Minoan civilization** | ミノア文明 | この島の古代文明。 | ミノス王の名から |
+| **Knossos** | クノッソス | 古代の宮殿。 | ギリシャ語 |
+
+<a id="java"></a>
+### Java（ジャワ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ジャワ島（インドネシア）。プログラミング言語 Java
+
+- 📍 シーン: 首都ジャカルタ、ボロブドゥール遺跡、コーヒー。
+- 💬 例文: *Java is the most populated island in the world.* — ジャワ島は世界で最も人口の多い島だ。
+- 📜 語源: サンスクリット語 yava「大麦、穀物」の説
+  - アメリカ英語で java はくだけて「コーヒー」の意味。プログラミング言語の名はここから。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jawa** | ジャワ | インドネシア語での名。 | インドネシア語 |
+| **Sumatra** | スマトラ | となりの大きな島。 | サンスクリット語 |
+
+<a id="patagonia"></a>
+### Patagonia（パタゴニア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — パタゴニア（南米南端の地方）
+
+- 📍 シーン: 氷河と強風の大地。アウトドアブランドの名前。
+- 💬 例文: *Patagonia is famous for its glaciers and strong winds.* — パタゴニアは氷河と強風で有名だ。
+- 📜 語源: スペイン語 patagón（「大きな足の人」の説）
+  - マゼランが出会った先住民を巨人と記録した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Tierra del Fuego** | ティエラ・デル・フエゴ | 最南端の島（「火の土地」）。 | スペイン語 |
+| **Andes** | アンデス | この地方を走る山脈。 | ケチュア語 |
+
+<a id="normandy"></a>
+### Normandy（ノルマンディー）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ノルマンディー（フランス北西部の地方）
+
+- 📍 シーン: 第二次世界大戦のノルマンディー上陸作戦、モン・サン・ミシェル、カマンベールチーズ。
+- 💬 例文: *The Allies landed in Normandy on D-Day.* — 連合軍はDデーにノルマンディーに上陸した。
+- 📜 語源: フランス語 Normandie「北の人（ノルマン人）の土地」
+  - バイキングの子孫ノルマン人が1066年にイングランドを征服した。
+- 🌳 同じ語源の仲間: Norman（ノルマン人）、north（北）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Normandie** | ノルマンディー | フランス語での名。 | フランス語 |
+| **D-Day** | Dデー | 上陸作戦の日。 | 英語 |
+
+<a id="atlantis"></a>
+### Atlantis（アトランティス）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — アトランティス（海に沈んだとされる伝説の大陸）
+
+- 📍 シーン: プラトンが書いた幻の大陸。映画やゲームの舞台。
+- 💬 例文: *Plato wrote that Atlantis sank into the sea in a single day.* — プラトンはアトランティスが一日で海に沈んだと書いた。
+- 📜 語源: ギリシャ語 Atlantis「アトラスの（島）」
+  - 大西洋（Atlantic）と同じく巨神アトラスの名から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mu** | ムー大陸 | 太平洋に沈んだとされる伝説の大陸。 | 20世紀の創作 |
+| **lost continent** | 失われた大陸 | 伝説の沈んだ大陸。 | 英語 |
+
+<a id="el-dorado"></a>
+### El Dorado（エルドラド）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — エルドラド（伝説の黄金郷）
+
+- 📍 シーン: 南米にあると信じられた黄金の国。
+- 💬 例文: *Explorers searched for El Dorado but never found it.* — 探検家たちはエルドラドを探したが、見つけることはなかった。
+- 📜 語源: スペイン語 el dorado「金色の（人）」
+  - もとは全身に金粉を塗った王の儀式の話だった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Shangri-La** | シャングリラ | 理想郷。小説『失われた地平線』から。 | 小説の創作 |
+| **utopia** | 理想郷 | 理想の社会。 | ギリシャ語「どこにもない場所」 |
+
+<a id="budapest"></a>
+### Budapest（ブダペスト）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ブダペスト（ハンガリーの首都）
+
+- 📍 シーン: ドナウの真珠、温泉、国会議事堂。
+- 💬 例文: *Budapest was formed by joining Buda and Pest.* — ブダペストはブダとペストが合わさってできた。
+- 📜 語源: ドナウ川西岸の Buda + 東岸の Pest（「かまど」の説）
+  - 1873年に2つの町が合併した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pearl of the Danube** | ドナウの真珠 | 愛称。 | 英語 |
+| **Hungary** | ハンガリー | 町がある国。 | 中世ラテン語 |
+
+<a id="babylon"></a>
+### Babylon（バビロン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — バビロン（古代メソポタミアの都）
+
+- 📍 シーン: 空中庭園、バベルの塔、ハンムラビ法典。
+- 💬 例文: *The Hanging Gardens of Babylon were a wonder of the ancient world.* — バビロンの空中庭園は古代世界の七不思議の一つだった。
+- 📜 語源: アッカド語 Bāb-ili「神の門」
+  - 堕落した大都会のたとえにも使われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Babel** | バベル | 聖書でのヘブライ語名。 | ヘブライ語 |
+| **Mesopotamia** | メソポタミア | 都があった地域。 | ギリシャ語 |
+
+<a id="troy-city"></a>
+### Troy（トロイ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — トロイア（トロイ。古代の都市）
+
+- 📍 シーン: トロイの木馬、トロイア戦争、シュリーマンの発掘。
+- 💬 例文: *The Greeks tricked Troy with a wooden horse.* — ギリシャ軍は木馬でトロイアをだました。
+- 📜 語源: ギリシャ語 Troia（ラテン語 Troia）
+  - コンピュータウイルスの「トロイの木馬（Trojan horse）」はここから。
+- 🌳 同じ語源の仲間: Trojan（トロイアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ilion** | イリオン | ギリシャ語での別名。『イリアス』の題名。 | ギリシャ語 |
+| **Trojan Horse** | トロイの木馬 | 有名な作戦。 | 英語 |
+
+<a id="mumbai"></a>
+### Mumbai（ムンバイ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ムンバイ（インド最大の商業都市。旧ボンベイ）
+
+- 📍 シーン: 映画産業ボリウッド。
+- 💬 例文: *Mumbai used to be called Bombay.* — ムンバイは以前ボンベイと呼ばれていた。
+- 📜 語源: 女神ムンバー・デーヴィー（Mumbā Devī）の名から
+  - Bollywood は Bombay + Hollywood。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bombay** | ボンベイ | 旧名。 | ポルトガル語 bom baía「良い湾」の説 |
+| **Bollywood** | ボリウッド | インドの映画産業。 | Bombay + Hollywood |
+
+<a id="nice-city"></a>
+### Nice（ニース）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ニース（南フランスの保養地）
+
+- 📍 シーン: コート・ダジュール、プロムナード・デ・ザングレ。
+- 💬 例文: *Nice is a beautiful city on the French Riviera.* — ニースはフランスのリビエラにある美しい町だ。
+- 📜 語源: ギリシャ語 Nikaia（勝利の女神ニケにちなむ）
+  - 英語の形容詞 nice とは関係ない。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Côte d'Azur** | コート・ダジュール | 町がある海岸。 | フランス語 |
+| **Nikaia** | ニカイア | 古代ギリシャでの名。 | ギリシャ語 |
+
+<a id="geneva"></a>
+### Geneva（ジュネーブ） ⚠️
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ジュネーブ（スイスの国際都市）
+
+- 📍 シーン: 国連機関、赤十字、レマン湖。「ジュネーブ条約」。
+- ⚠️ カタカナの罠: 「ジュネーブ」はフランス語 Genève から。英語では Geneva（ジェニーヴァ）。
+- 💬 例文: *Many international organizations are based in Geneva.* — 多くの国際機関がジュネーブに本部を置いている。
+- 📜 語源: ラテン語 Genava（ケルト語「河口」の説）
+  - 酒のジン（gin）の元の名 genever はネズの実のことで、別の語。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Genève** | ジュネーヴ | フランス語での名。 | フランス語 |
+| **Genf** | ゲンフ | ドイツ語での名。 | ドイツ語 |
+
+<a id="edinburgh"></a>
+### Edinburgh（エディンバラ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — エディンバラ（スコットランドの首都）
+
+- 📍 シーン: エディンバラ城、フェスティバル、ハリー・ポッター誕生の地。
+- 💬 例文: *Edinburgh Castle stands on an old volcano.* — エディンバラ城は古い火山の上に建っている。
+- 📜 語源: 古英語 Eidyn（ケルト語地名）+ burh「砦」
+  - burgh は「ボロ」と読む。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Auld Reekie** | オールド・リーキー | 「古いけむり」という愛称。 | スコットランド語 |
+| **Athens of the North** | 北のアテネ | 学問の町としての愛称。 | 英語 |
+
+<a id="alabama"></a>
+### Alabama（アラバマ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — アラバマ州（アメリカ南東部の州）
+
+- 📍 シーン: 公民権運動の地モンゴメリー、ロケットの町ハンツビル。州都はモンゴメリー。
+- 💬 例文: *Montgomery is the capital of Alabama.* — モンゴメリーはアラバマ州の州都だ。
+- 📜 語源: 先住民アラバマ族の名（「草を刈る者」の説）
+  - 1955年のバス・ボイコット運動はこの州で始まった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Heart of Dixie** | ディキシーの心臓 | 州の愛称。 | 英語 |
+| **AL** | AL（略号） | 郵便などで使う2文字の州の略号。 | Alabama の略 |
+
+<a id="illinois"></a>
+### Illinois（イリノイ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — イリノイ州（アメリカ中西部の州）
+
+- 📍 シーン: 最大の都市シカゴ。リンカーンが暮らした州。州都はスプリングフィールド。
+- 💬 例文: *Springfield is the capital of Illinois.* — スプリングフィールドはイリノイ州の州都だ。
+- 📜 語源: 先住民イリノイ族の名（フランス語経由）
+  - 最後の s は読まず「イリノイ」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Land of Lincoln** | リンカーンの地 | 州の愛称。 | 英語 |
+| **IL** | IL（略号） | 郵便などで使う2文字の州の略号。 | Illinois の略 |
+
+<a id="indiana"></a>
+### Indiana（インディアナ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — インディアナ州（アメリカ中西部の州）
+
+- 📍 シーン: インディ500（自動車レース）。州都はインディアナポリス。
+- 💬 例文: *Indianapolis is the capital of Indiana.* — インディアナポリスはインディアナ州の州都だ。
+- 📜 語源: Indian「先住民」+ 地名語尾 -a＝「先住民の土地」
+  - 州民は Hoosier（フージャー）と呼ばれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hoosier State** | フージャー州 | 州の愛称。 | 英語 |
+| **IN** | IN（略号） | 郵便などで使う2文字の州の略号。 | Indiana の略 |
+
+<a id="kansas"></a>
+### Kansas（カンザス）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — カンザス州（アメリカ中部の州）
+
+- 📍 シーン: 『オズの魔法使い』のドロシーの故郷。州都はトピカ。
+- 💬 例文: *Topeka is the capital of Kansas.* — トピカはカンザス州の州都だ。
+- 📜 語源: 先住民カンザ族「南風の人々」
+  - アメリカ本土の地理的な中心に近い。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sunflower State** | ヒマワリの州 | 州の愛称。 | 英語 |
+| **KS** | KS（略号） | 郵便などで使う2文字の州の略号。 | Kansas の略 |
+
+<a id="louisiana"></a>
+### Louisiana（ルイジアナ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ルイジアナ州（アメリカ南部の州）
+
+- 📍 シーン: ニューオーリンズ、ジャズ、ケイジャン料理。州都はバトンルージュ。
+- 💬 例文: *Baton Rouge is the capital of Louisiana.* — バトンルージュはルイジアナ州の州都だ。
+- 📜 語源: フランス王ルイ14世の名
+  - 1803年にナポレオンから買った広大なルイジアナ買収の一部。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pelican State** | ペリカンの州 | 州の愛称。 | 英語 |
+| **LA** | LA（略号） | 郵便などで使う2文字の州の略号。 | Louisiana の略 |
+
+<a id="massachusetts"></a>
+### Massachusetts（マサチューセッツ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — マサチューセッツ州（アメリカ北東部の州）
+
+- 📍 シーン: ボストン、ハーバード大学、MIT。州都はボストン。
+- 💬 例文: *Boston is the capital of Massachusetts.* — ボストンはマサチューセッツ州の州都だ。
+- 📜 語源: 先住民の言葉「大きな丘のそば」
+  - 1620年にメイフラワー号の清教徒が上陸した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bay State** | 湾の州 | 州の愛称。 | 英語 |
+| **MA** | MA（略号） | 郵便などで使う2文字の州の略号。 | Massachusetts の略 |
+
+<a id="michigan"></a>
+### Michigan（ミシガン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ミシガン州（アメリカ五大湖の州）
+
+- 📍 シーン: 自動車の町デトロイト。州都はランシング。
+- 💬 例文: *Lansing is the capital of Michigan.* — ランシングはミシガン州の州都だ。
+- 📜 語源: オジブウェ語 mishigami「大きな湖」
+  - 2つの半島から成り、五大湖のうち4つに接する。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Great Lakes State** | 五大湖の州 | 州の愛称。 | 英語 |
+| **MI** | MI（略号） | 郵便などで使う2文字の州の略号。 | Michigan の略 |
+
+<a id="new-jersey"></a>
+### New Jersey（ニュージャージー）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ニュージャージー州（アメリカ東部の州）
+
+- 📍 シーン: ニューヨークの対岸の州。州都はトレントン。
+- 💬 例文: *Trenton is the capital of New Jersey.* — トレントンはニュージャージー州の州都だ。
+- 📜 語源: 英仏海峡のジャージー島の名
+  - アメリカで人口密度が最も高い州。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Garden State** | 庭園の州 | 州の愛称。 | 英語 |
+| **NJ** | NJ（略号） | 郵便などで使う2文字の州の略号。 | New Jersey の略 |
+
+<a id="new-mexico"></a>
+### New Mexico（ニューメキシコ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ニューメキシコ州（アメリカ南西部の州）
+
+- 📍 シーン: アドビ（日干しれんが）の家、原爆の実験地。州都はサンタフェ。
+- 💬 例文: *Santa Fe is the capital of New Mexico.* — サンタフェはニューメキシコ州の州都だ。
+- 📜 語源: スペイン語 Nuevo México
+  - 州都サンタフェはアメリカで最も古い州都の一つ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Land of Enchantment** | 魅惑の地 | 州の愛称。 | 英語 |
+| **NM** | NM（略号） | 郵便などで使う2文字の州の略号。 | New Mexico の略 |
+
+<a id="ohio"></a>
+### Ohio（オハイオ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — オハイオ州（アメリカ中西部の州）
+
+- 📍 シーン: 大統領を多く出した州。州都はコロンバス。
+- 💬 例文: *Columbus is the capital of Ohio.* — コロンバスはオハイオ州の州都だ。
+- 📜 語源: セネカ語 ohiːyo「良い川」
+  - ライト兄弟の出身地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Buckeye State** | トチノキの州 | 州の愛称。 | 英語 |
+| **OH** | OH（略号） | 郵便などで使う2文字の州の略号。 | Ohio の略 |
+
+<a id="oregon"></a>
+### Oregon（オレゴン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — オレゴン州（アメリカ北西部の州）
+
+- 📍 シーン: ナイキ本社のあるポートランド、オレゴン・トレイル。州都はセーラム。
+- 💬 例文: *Salem is the capital of Oregon.* — セーラムはオレゴン州の州都だ。
+- 📜 語源: 語源不詳
+  - 西部開拓の道オレゴン・トレイルの終着点。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Beaver State** | ビーバーの州 | 州の愛称。 | 英語 |
+| **OR** | OR（略号） | 郵便などで使う2文字の州の略号。 | Oregon の略 |
+
+<a id="pennsylvania"></a>
+### Pennsylvania（ペンシルベニア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ペンシルベニア州（アメリカ東部の州）
+
+- 📍 シーン: 独立宣言のフィラデルフィア、自由の鐘。州都はハリスバーグ。
+- 💬 例文: *Harrisburg is the capital of Pennsylvania.* — ハリスバーグはペンシルベニア州の州都だ。
+- 📜 語源: William Penn（創設者の父の名）+ ラテン語 silva「森」＝「ペンの森」
+  - 独立宣言と合衆国憲法がこの州で作られた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Keystone State** | 要石の州 | 州の愛称。 | 英語 |
+| **PA** | PA（略号） | 郵便などで使う2文字の州の略号。 | Pennsylvania の略 |
+
+<a id="tennessee"></a>
+### Tennessee（テネシー）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — テネシー州（アメリカ南東部の州）
+
+- 📍 シーン: カントリー音楽のナッシュビル、エルビス・プレスリーのメンフィス。州都はナッシュビル。
+- 💬 例文: *Nashville is the capital of Tennessee.* — ナッシュビルはテネシー州の州都だ。
+- 📜 語源: チェロキー族の町タナシ（Tanasi）の名
+  - ジャック・ダニエルのウイスキーの産地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Volunteer State** | 志願兵の州 | 州の愛称。 | 英語 |
+| **TN** | TN（略号） | 郵便などで使う2文字の州の略号。 | Tennessee の略 |
+
+<a id="virginia"></a>
+### Virginia（バージニア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — バージニア州（アメリカ東部の州）
+
+- 📍 シーン: 最初の英国植民地ジェームズタウン。州都はリッチモンド。
+- 💬 例文: *Richmond is the capital of Virginia.* — リッチモンドはバージニア州の州都だ。
+- 📜 語源: エリザベス1世の呼び名「処女王（Virgin Queen）」
+  - ワシントンやジェファーソンなど多くの大統領の出身地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Old Dominion** | オールド・ドミニオン | 州の愛称。 | 英語 |
+| **VA** | VA（略号） | 郵便などで使う2文字の州の略号。 | Virginia の略 |
+
+<a id="quebec"></a>
+### Quebec（ケベック）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ケベック（カナダの都市）
+
+- 📍 シーン: フランス語圏の州と、城壁に囲まれた州都。
+- 💬 例文: *Quebec is a city in Canada.* — ケベックはカナダの都市だ。
+- 📜 語源: アルゴンキン語 kébec「川の狭い所」
+  - 北米で唯一城壁が残る町。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Québec** | ケベック | フランス語での名。 | フランス語 |
+| **New France** | ヌーベルフランス | 植民地時代の呼び名。 | 英語 |
+
+<a id="calgary"></a>
+### Calgary（カルガリー）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — カルガリー（カナダの都市）
+
+- 📍 シーン: ロッキー山脈の玄関口。1988年冬季五輪、カウボーイ祭りスタンピード。
+- 💬 例文: *Calgary is a city in Canada.* — カルガリーはカナダの都市だ。
+- 📜 語源: スコットランドの地名（ゲール語「湾の農場」の説）
+  - 毎年7月のスタンピードは世界最大級のロデオ大会。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Cowtown** | カウタウン | 牧場の町の愛称。 | 英語 |
+| **Alberta** | アルバータ | 町がある州。 | 王女の名 |
+
+<a id="detroit"></a>
+### Detroit（デトロイト）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — デトロイト（アメリカの都市）
+
+- 📍 シーン: 自動車の町、モータウン・レコード。
+- 💬 例文: *Detroit is a city in the United States.* — デトロイトはアメリカの都市だ。
+- 📜 語源: フランス語 détroit「海峡」
+  - フォード、GM、クライスラーの本拠地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Motor City** | モーターシティ | 愛称。 | 英語 |
+| **Motown** | モータウン | 愛称。音楽レーベル名にも。 | Motor + town |
+
+<a id="dallas"></a>
+### Dallas（ダラス）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ダラス（アメリカの都市）
+
+- 📍 シーン: ケネディ大統領が暗殺された町。
+- 💬 例文: *Dallas is a city in the United States.* — ダラスはアメリカの都市だ。
+- 📜 語源: 人名（副大統領ジョージ・ダラスの説）
+  - 1963年11月22日、ケネディ大統領がここで暗殺された。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Big D** | ビッグD | 愛称。 | 英語 |
+| **Texas** | テキサス | 町がある州。 | カド語「友」 |
+
+<a id="philadelphia"></a>
+### Philadelphia（フィラデルフィア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — フィラデルフィア（アメリカの都市）
+
+- 📍 シーン: 独立宣言が採択された独立記念館、自由の鐘、映画『ロッキー』。
+- 💬 例文: *Philadelphia is a city in the United States.* — フィラデルフィアはアメリカの都市だ。
+- 📜 語源: ギリシャ語 philos「愛」+ adelphos「兄弟」＝「兄弟愛の町」
+  - アメリカ独立の時の最初の首都。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **City of Brotherly Love** | 兄弟愛の町 | 名前の意味からの愛称。 | 英語 |
+| **Philly** | フィリー | くだけた略称。 | 英語 |
+
+<a id="new-orleans"></a>
+### New Orleans（ニューオーリンズ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ニューオーリンズ（アメリカの都市）
+
+- 📍 シーン: ジャズ発祥の地、マルディグラの祭り。
+- 💬 例文: *New Orleans is a city in the United States.* — ニューオーリンズはアメリカの都市だ。
+- 📜 語源: フランスの町オルレアン（Orléans）＋new
+  - フランス植民地時代に作られた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Big Easy** | ビッグ・イージー | のんびりした町の愛称。 | 英語 |
+| **NOLA** | ノーラ | 略称。 | New Orleans, Louisiana の頭文字 |
+
+<a id="san-diego"></a>
+### San Diego（サンディエゴ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — サンディエゴ（アメリカの都市）
+
+- 📍 シーン: メキシコ国境近くの軍港、動物園。
+- 💬 例文: *San Diego is a city in the United States.* — サンディエゴはアメリカの都市だ。
+- 📜 語源: スペイン語「聖ディエゴ（聖ディダクス）」
+  - カリフォルニアで最初にスペイン人が伝道所を建てた地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **America's Finest City** | アメリカで最も素晴らしい町 | 自称の愛称。 | 英語 |
+| **Diego** | ディエゴ | 町の名の元になった聖人名。 | スペイン語 |
+
+<a id="birmingham"></a>
+### Birmingham（バーミンガム）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — バーミンガム（イギリスの都市）
+
+- 📍 シーン: イギリス第2の都市。アメリカのアラバマ州にも同名の都市。
+- 💬 例文: *Birmingham is a city in the United Kingdom.* — バーミンガムはイギリスの都市だ。
+- 📜 語源: 古英語「ベオルマの一族の土地」
+  - 産業革命で「千の職業の町」と呼ばれた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Brum** | ブラム | くだけた愛称。 | 英語 |
+| **Brummie** | ブラミー | 町の人の呼び名。 | 英語 |
+
+<a id="saint-petersburg"></a>
+### Saint Petersburg（サンクトペテルブルク）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — サンクトペテルブルク（ロシアの都市）
+
+- 📍 シーン: エルミタージュ美術館、白夜。
+- 💬 例文: *Saint Petersburg is a city in Russia.* — サンクトペテルブルクはロシアの都市だ。
+- 📜 語源: ドイツ語風「聖ペテロの町」（ピョートル大帝が建設）
+  - ソ連時代はレニングラード（Leningrad）と呼ばれた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Leningrad** | レニングラード | ソ連時代の名。 | レーニン + ロシア語 grad「町」 |
+| **Petrograd** | ペトログラード | 1914〜1924年の名。 | ロシア語「ペテロの町」 |
+
+<a id="cologne"></a>
+### Cologne（ケルン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ケルン（ドイツの都市）
+
+- 📍 シーン: 巨大なケルン大聖堂。オーデコロンの町。
+- 💬 例文: *Cologne is a city in Germany.* — ケルンはドイツの都市だ。
+- 📜 語源: ラテン語 Colōnia「植民市」
+  - オーデコロン（eau de Cologne）は「ケルンの水」。ドイツ語では Köln。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Köln** | ケルン | ドイツ語での名。 | ドイツ語 |
+| **eau de Cologne** | オーデコロン | 町の名がついた香水。 | フランス語「ケルンの水」 |
+
+<a id="salzburg"></a>
+### Salzburg（ザルツブルク）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ザルツブルク（オーストリアの都市）
+
+- 📍 シーン: モーツァルトの生地、『サウンド・オブ・ミュージック』の舞台。
+- 💬 例文: *Salzburg is a city in Austria.* — ザルツブルクはオーストリアの都市だ。
+- 📜 語源: ドイツ語 Salz「塩」+ Burg「城」
+  - 近くの岩塩で栄えた「塩の城」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mozart city** | モーツァルトの町 | 愛称。 | 英語 |
+| **salt** | 塩 | 町の名前の由来。 | 古英語 sealt |
+
+<a id="zurich"></a>
+### Zurich（チューリッヒ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — チューリッヒ（スイスの都市）
+
+- 📍 シーン: スイス最大の都市、金融の町。
+- 💬 例文: *Zurich is a city in Switzerland.* — チューリッヒはスイスの都市だ。
+- 📜 語源: ラテン語 Turicum（語源不詳）
+  - ドイツ語では Zürich。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Zürich** | チューリッヒ | ドイツ語での名。 | ドイツ語 |
+| **Swiss franc** | スイスフラン | 町を支える通貨。 | 英語 |
+
+<a id="marseille"></a>
+### Marseille（マルセイユ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — マルセイユ（フランスの都市）
+
+- 📍 シーン: フランス最大の港町、ブイヤベース。
+- 💬 例文: *Marseille is a city in France.* — マルセイユはフランスの都市だ。
+- 📜 語源: ギリシャ語 Massalia（古代ギリシャの植民市）
+  - フランス国歌『ラ・マルセイエーズ』はこの町の義勇兵が広めた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Massalia** | マッサリア | 古代ギリシャでの名。 | ギリシャ語 |
+| **La Marseillaise** | ラ・マルセイエーズ | 町の名がついた国歌。 | フランス語 |
+
+<a id="pompeii"></a>
+### Pompeii（ポンペイ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ポンペイ（イタリアの古代都市遺跡）
+
+- 📍 シーン: 西暦79年のベスビオ火山の噴火で埋まった古代都市。
+- 💬 例文: *Pompeii was buried by a volcanic eruption in AD 79.* — ポンペイは西暦79年の火山の噴火で埋もれた。
+- 📜 語源: オスク語 pompe「5」の説
+  - 火山灰の下に当時の町がそのまま残った。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Vesuvius** | ベスビオ山 | 町を埋めた火山。 | ラテン語 |
+| **Herculaneum** | ヘルクラネウム | 同時に埋まった町。 | ヘラクレスの名 |
+
+<a id="alexandria"></a>
+### Alexandria（アレクサンドリア）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — アレクサンドリア（エジプトの港湾都市）
+
+- 📍 シーン: 古代の大図書館と大灯台。
+- 💬 例文: *Alexandria is a city in Egypt.* — アレクサンドリアはエジプトの都市だ。
+- 📜 語源: アレクサンドロス大王の名
+  - 大王が各地に建てた同名の町の中で最も有名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pharos** | ファロス | 古代の大灯台。フランス語 phare（灯台）の語源。 | ギリシャ語 |
+| **Library of Alexandria** | アレクサンドリア図書館 | 古代最大の図書館。 | 英語 |
+
+<a id="sparta"></a>
+### Sparta（スパルタ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — スパルタ（古代ギリシャの都市国家）
+
+- 📍 シーン: 厳しい教育で知られた古代ギリシャの都市国家。
+- 💬 例文: *Sparta was famous for its strong soldiers.* — スパルタは強い兵士で有名だった。
+- 📜 語源: ギリシャ語 Spartē（語源不詳）
+  - 「スパルタ教育」のもと。spartan は「質素で厳しい」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lacedaemon** | ラケダイモン | 古代の正式名。 | ギリシャ語 |
+| **spartan** | スパルタ式の | 厳しく質素な。 | Sparta + -an |
+
+<a id="ho-chi-minh-city"></a>
+### Ho Chi Minh City（ホーチミン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ホーチミン（ベトナムの都市）
+
+- 📍 シーン: ベトナム最大の都市。バイクの洪水、ベンタイン市場。
+- 💬 例文: *Ho Chi Minh City is a city in Vietnam.* — ホーチミンはベトナムの都市だ。
+- 📜 語源: 指導者ホー・チ・ミンの名
+  - 1976年までの名はサイゴン（Saigon）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Saigon** | サイゴン | 旧名。今も通称として使う。 | ベトナム語 |
+| **Hanoi** | ハノイ | 首都。 | ベトナム語 |
+
+<a id="kuala-lumpur"></a>
+### Kuala Lumpur（クアラルンプール）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — クアラルンプール（マレーシアの都市）
+
+- 📍 シーン: ペトロナス・ツインタワー。
+- 💬 例文: *Kuala Lumpur is a city in Malaysia.* — クアラルンプールはマレーシアの都市だ。
+- 📜 語源: マレー語 kuala「合流点」+ lumpur「泥」
+  - 2つの泥の川が合流する場所から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **KL** | ケーエル | 略称。 | 頭文字 |
+| **Putrajaya** | プトラジャヤ | 政府機能が移った新都市。 | マレー語 |
+
+<a id="cape-town"></a>
+### Cape Town（ケープタウン）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ケープタウン（南アフリカの都市）
+
+- 📍 シーン: テーブルマウンテン、喜望峰。
+- 💬 例文: *Cape Town is a city in South Africa.* — ケープタウンは南アフリカの都市だ。
+- 📜 語源: 英語「岬の町」
+  - 喜望峰（Cape of Good Hope）の近くにある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mother City** | マザーシティ | 南アフリカ最古の町としての愛称。 | 英語 |
+| **Cape of Good Hope** | 喜望峰 | 近くの岬。 | 英語 |
+
+<a id="nairobi"></a>
+### Nairobi（ナイロビ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — ナイロビ（ケニアの都市）
+
+- 📍 シーン: 市内に国立公園があるケニアの首都。
+- 💬 例文: *Nairobi is a city in Kenya.* — ナイロビはケニアの都市だ。
+- 📜 語源: マサイ語 Enkare Nairobi「冷たい水」
+  - 市のすぐそばでキリンやライオンが見られる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Green City in the Sun** | 太陽の中の緑の町 | 愛称。 | 英語 |
+| **Kenya** | ケニア | 町がある国。 | 山の名 |
+
+<a id="monte-carlo"></a>
+### Monte Carlo（モンテカルロ）
+
+**地名** / Lv.6 社会の話題 / CEFR B2 — モンテカルロ（モナコの都市）
+
+- 📍 シーン: カジノ、F1モナコGP。
+- 💬 例文: *Monte Carlo is a city in Monaco.* — モンテカルロはモナコの都市だ。
+- 📜 語源: イタリア語「カルロ（シャルル3世）の山」
+  - 数値計算の「モンテカルロ法」はカジノにちなむ名前。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Monaco** | モナコ | 地区がある国。 | ギリシャ語 |
+| **Monte Carlo method** | モンテカルロ法 | 乱数を使う計算法。 | 英語 |
+
 ## Lv.7 大人の日常語
 
 <a id="potion"></a>
@@ -46452,6 +53974,1603 @@
 | **musician** | 音楽家 | 音楽を演奏する人。 | ギリシャ語 mousikē |
 | **jazz musician** | ジャズ音楽家 | ジャズを演奏する人。 | jazz + musician |
 
+<a id="pyotr"></a>
+### Pyotr（ピョートル）
+
+**人名（ロシア語）** / Lv.7 大人の日常語 / CEFR B2 — 男性名（ロシア語形）。英語の Peter にあたる
+
+- 📍 シーン: ロシアを近代化したピョートル大帝、作曲家ピョートル・チャイコフスキー。
+- 💬 例文: *Pyotr Tchaikovsky composed Swan Lake.* — ピョートル・チャイコフスキーは『白鳥の湖』を作曲した。
+- 📜 語源: ギリシャ語 Petros → ロシア語 Пётр
+  - サンクトペテルブルクは「聖ペテロの町」で、ピョートル大帝が建てた。
+- 🌳 同じ語源の仲間: Petersburg（ペテルブルク）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Peter** | ピーター（英語） | 英語形。 | 同じギリシャ語から |
+| **Pedro** | ペドロ（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="pavel"></a>
+### Pavel（パーヴェル）
+
+**人名（ロシア語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（ロシア語・チェコ語形）。英語の Paul にあたる
+
+- 📍 シーン: 条件反射の研究者イワン・パブロフの名字は Pavel（パーヴェル）の子孫の意味。
+- 💬 例文: *Pavel is the Russian form of Paul.* — パーヴェルはポールのロシア語形だ。
+- 📜 語源: ラテン語 Paulus → ギリシャ語 Paulos → ロシア語 Павел
+  - 名字の Pavlov（パブロフ）は「パーヴェルの息子（子孫）」。
+- 🌳 同じ語源の仲間: Pavlov（パブロフ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Paul** | ポール（英語） | 英語形。 | 同じラテン語から |
+| **Paolo** | パオロ（イタリア語） | イタリア語形。 | 同じラテン語から |
+
+<a id="georg"></a>
+### Georg（ゲオルク）
+
+**人名（ドイツ語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（ドイツ語形）。英語の George にあたる
+
+- 📍 シーン: 作曲家ゲオルク・フリードリヒ・ヘンデル、哲学者ヘーゲル（Georg Hegel）。
+- 💬 例文: *Georg Friedrich Handel composed the Messiah.* — ゲオルク・フリードリヒ・ヘンデルは『メサイア』を作曲した。
+- 📜 語源: ギリシャ語 Geōrgios → ドイツ語 Georg
+  - ドイツ語では g が硬い「グ」「ゲ」の音のまま残った。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **George** | ジョージ（英語） | 英語形。 | 同じギリシャ語から |
+| **Jorge** | ホルヘ（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="guillaume"></a>
+### Guillaume（ギヨーム）
+
+**人名（フランス語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（フランス語形）。英語の William にあたる
+
+- 📍 シーン: 詩人ギヨーム・アポリネール。
+- 💬 例文: *Guillaume is the French form of William.* — ギヨームはウィリアムのフランス語形だ。
+- 📜 語源: ゲルマン語 Wilhelm → 古フランス語 Guillaume
+  - ゲルマン語の w がフランス語では gu に変わった（war → guerre と同じ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **William** | ウィリアム（英語） | 英語形。 | 同じゲルマン語から |
+| **Guglielmo** | グリエルモ（イタリア語） | イタリア語形。 | 同じゲルマン語から |
+
+<a id="guillermo"></a>
+### Guillermo（ギジェルモ）
+
+**人名（スペイン語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（スペイン語形）。英語の William にあたる
+
+- 📍 シーン: 映画監督ギレルモ・デル・トロ。
+- 💬 例文: *Guillermo del Toro directed The Shape of Water.* — ギレルモ・デル・トロは『シェイプ・オブ・ウォーター』を監督した。
+- 📜 語源: ゲルマン語 Wilhelm → スペイン語 Guillermo
+  - ll の読み方は地域で違い、「ギジェルモ」「ギレルモ」「ギシェルモ」と書かれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **William** | ウィリアム（英語） | 英語形。 | 同じゲルマン語から |
+| **Guillaume** | ギヨーム（フランス語） | フランス語形。 | 同じゲルマン語から |
+
+<a id="heinrich"></a>
+### Heinrich（ハインリヒ）
+
+**人名（ドイツ語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（ドイツ語形）。英語の Henry にあたる
+
+- 📍 シーン: 詩人ハインリヒ・ハイネ、トロイ遺跡を発掘したハインリヒ・シュリーマン。
+- 💬 例文: *Heinrich Schliemann searched for the lost city of Troy.* — ハインリヒ・シュリーマンは失われた都市トロイを探した。
+- 📜 語源: ゲルマン語 haim「家」+ rīk「支配者」
+  - ドイツ語 Heim は今も「家」、Reich は「国」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Henry** | ヘンリー（英語） | 英語形。 | 同じゲルマン語から |
+| **Enrico** | エンリコ（イタリア語） | イタリア語形。 | 同じゲルマン語から |
+
+<a id="enrico"></a>
+### Enrico（エンリコ）
+
+**人名（イタリア語）** / Lv.7 大人の日常語 / CEFR B2 — 男性名（イタリア語形）。英語の Henry にあたる
+
+- 📍 シーン: 物理学者エンリコ・フェルミ、テノール歌手エンリコ・カルーソー。
+- 💬 例文: *Enrico Fermi built the first nuclear reactor.* — エンリコ・フェルミは最初の原子炉を作った。
+- 📜 語源: ゲルマン語 Heimrich → イタリア語 Enrico
+  - 『クオーレ』の主人公もエンリコ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Henry** | ヘンリー（英語） | 英語形。 | 同じゲルマン語から |
+| **Heinrich** | ハインリヒ（ドイツ語） | ドイツ語形。 | 同じゲルマン語から |
+
+<a id="henrietta"></a>
+### Henrietta（ヘンリエッタ）
+
+**人名** / Lv.7 大人の日常語 / CEFR C1 — 女性名。Henry の女性形
+
+- 📍 シーン: 天文学者ヘンリエッタ・リービット。
+- 💬 例文: *Henrietta Leavitt found a way to measure distances to stars.* — ヘンリエッタ・リービットは星までの距離を測る方法を見つけた。
+- 📜 語源: フランス語 Henriette ← Henri + 指小辞 -ette
+  - フランス語では Henriette（アンリエット）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Harriet** | ハリエット | 英語化した女性形。 | Henriette の英語形 |
+| **Henry** | ヘンリー | 男性形。 | ゲルマン語 haim + rīk |
+
+<a id="ludwig"></a>
+### Ludwig（ルートヴィヒ）
+
+**人名（ドイツ語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（ドイツ語形）。英語の Louis にあたる
+
+- 📍 シーン: 作曲家ルートヴィヒ・ヴァン・ベートーヴェン、ノイシュヴァンシュタイン城を建てたルートヴィヒ2世。
+- 💬 例文: *Ludwig van Beethoven kept composing after he lost his hearing.* — ルートヴィヒ・ヴァン・ベートーヴェンは耳が聞こえなくなっても作曲を続けた。
+- 📜 語源: ゲルマン語 hlūd「名高い」+ wīg「戦い」
+  - 古い形がそのまま残った。英語の loud（大声の）と同じ語根。
+- 🌳 同じ語源の仲間: loud（大声の）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Louis** | ルイ（フランス語） | フランス語形。 | 同じゲルマン語から |
+| **Luigi** | ルイージ（イタリア語） | イタリア語形。 | 同じゲルマン語から |
+
+<a id="giuseppe"></a>
+### Giuseppe（ジュゼッペ）
+
+**人名（イタリア語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（イタリア語形）。英語の Joseph にあたる
+
+- 📍 シーン: イタリア統一の英雄ジュゼッペ・ガリバルディ、作曲家ジュゼッペ・ヴェルディ。
+- 💬 例文: *Giuseppe Verdi wrote the opera Aida.* — ジュゼッペ・ヴェルディはオペラ『アイーダ』を書いた。
+- 📜 語源: ヘブライ語 Yōsēf → ラテン語 Iōsēphus → イタリア語 Giuseppe
+  - 愛称は Beppe、Peppe。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Joseph** | ジョセフ（英語） | 英語形。 | 同じヘブライ語から |
+| **José** | ホセ（スペイン語） | スペイン語形。 | 同じヘブライ語から |
+
+<a id="elisabeth"></a>
+### Elisabeth（エリーザベト）
+
+**人名（ドイツ語）** / Lv.7 大人の日常語 / CEFR C1 — 女性名（ドイツ語形）。英語の Elizabeth にあたる
+
+- 📍 シーン: オーストリア皇后エリーザベト（シシィ）、ミュージカル『エリザベート』。
+- 💬 例文: *Empress Elisabeth of Austria was known as Sisi.* — オーストリア皇后エリーザベトはシシィと呼ばれた。
+- 📜 語源: ヘブライ語 Elīsheva → ギリシャ語 Elisabet → ドイツ語 Elisabeth
+  - 日本ではフランス語読みの「エリザベート」も広く使われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Elizabeth** | エリザベス（英語） | 英語形。 | 同じヘブライ語から |
+| **Elsa** | エルザ | ドイツ語の短い形。 | Elisabeth の短縮 |
+
+<a id="caterina"></a>
+### Caterina（カテリーナ）
+
+**人名（イタリア語）** / Lv.7 大人の日常語 / CEFR C1 — 女性名（イタリア語形）。英語の Catherine にあたる
+
+- 📍 シーン: シエナの聖カテリーナ。
+- 💬 例文: *Saint Caterina of Siena is a patron saint of Italy.* — シエナの聖カテリーナはイタリアの守護聖人の一人だ。
+- 📜 語源: ギリシャ語 Aikaterinē → イタリア語 Caterina
+  - イタリア語には th がないので Caterina。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Catherine** | キャサリン（英語） | 英語形。 | 同じギリシャ語から |
+| **Katharina** | カタリーナ（ドイツ語） | ドイツ語形。 | 同じギリシャ語から |
+
+<a id="ekaterina"></a>
+### Ekaterina（エカテリーナ）
+
+**人名（ロシア語）** / Lv.7 大人の日常語 / CEFR C1 — 女性名（ロシア語形）。英語の Catherine にあたる
+
+- 📍 シーン: ロシアの女帝エカテリーナ2世（大帝）。大黒屋光太夫が謁見した。
+- 💬 例文: *Empress Ekaterina II expanded the Russian Empire.* — 女帝エカテリーナ2世はロシア帝国の領土を広げた。
+- 📜 語源: ギリシャ語 Aikaterinē → ロシア語 Екатерина
+  - 英語では Catherine the Great と呼ばれる。愛称は Katya（カーチャ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Catherine** | キャサリン（英語） | 英語形。 | 同じギリシャ語から |
+| **Katharina** | カタリーナ（ドイツ語） | ドイツ語形。 | 同じギリシャ語から |
+
+<a id="alessandro"></a>
+### Alessandro（アレッサンドロ）
+
+**人名（イタリア語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（イタリア語形）。英語の Alexander にあたる
+
+- 📍 シーン: 電池を発明したアレッサンドロ・ボルタ（電圧の単位ボルトの由来）。
+- 💬 例文: *Alessandro Volta invented the first battery.* — アレッサンドロ・ボルタは最初の電池を発明した。
+- 📜 語源: ギリシャ語 Alexandros → イタリア語 Alessandro
+  - イタリア語では x が ss に変わる（Alexandros → Alessandro）。
+- 🌳 同じ語源の仲間: volt（ボルト）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Alexander** | アレクサンダー（英語） | 英語形。 | 同じギリシャ語から |
+| **Alejandro** | アレハンドロ（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="stefan"></a>
+### Stefan（シュテファン）
+
+**人名（ドイツ語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（ドイツ語・北欧・東欧形）。英語の Stephen にあたる
+
+- 📍 シーン: 作家シュテファン・ツヴァイク、ウィーンのシュテファン大聖堂。
+- 💬 例文: *St. Stephen's Cathedral in Vienna is called Stephansdom, after Saint Stefan.* — ウィーンの聖シュテファン大聖堂はシュテファンスドームと呼ばれる。
+- 📜 語源: ギリシャ語 Stephanos → ドイツ語 Stefan
+  - ドイツ語で st は「シュト」と読む。北欧では「ステファン」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Stephen** | スティーブン（英語） | 英語形。 | 同じギリシャ語から |
+| **Stéphane** | ステファン（フランス語） | フランス語形。 | 同じギリシャ語から |
+
+<a id="st-phane"></a>
+### Stéphane（ステファン）
+
+**人名（フランス語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（フランス語形）。英語の Stephen にあたる
+
+- 📍 シーン: 詩人ステファヌ・マラルメ。
+- 💬 例文: *Stéphane Mallarmé was a French poet.* — ステファヌ・マラルメはフランスの詩人だった。
+- 📜 語源: ギリシャ語 Stephanos → フランス語 Stéphane
+  - 古い形は Étienne（エティエンヌ）。同じ名前がフランス語で2通りに分かれた。
+- 🌳 同じ語源の仲間: Étienne（エティエンヌ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Stephen** | スティーブン（英語） | 英語形。 | 同じギリシャ語から |
+| **Stephanie** | ステファニー | 女性形。 | 同じギリシャ語から |
+
+<a id="esteban"></a>
+### Esteban（エステバン）
+
+**人名（スペイン語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（スペイン語形）。英語の Stephen にあたる
+
+- 📍 シーン: 中南米でよく聞く名前。
+- 💬 例文: *Esteban is the Spanish form of Stephen.* — エステバンはスティーブンのスペイン語形だ。
+- 📜 語源: ギリシャ語 Stephanos → スペイン語 Esteban
+  - スペイン語は s で始まる子音の前に e をつける（Spain → España、student → estudiante）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Stephen** | スティーブン（英語） | 英語形。 | 同じギリシャ語から |
+| **Stefan** | シュテファン（ドイツ語） | ドイツ語形。 | 同じギリシャ語から |
+
+<a id="andr-s"></a>
+### Andrés（アンドレス）
+
+**人名（スペイン語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（スペイン語形）。英語の Andrew にあたる
+
+- 📍 シーン: ギタリストのアンドレス・セゴビア。
+- 💬 例文: *Andrés Segovia made the classical guitar famous.* — アンドレス・セゴビアはクラシックギターを世に広めた。
+- 📜 語源: ギリシャ語 Andreas → スペイン語 Andrés
+  - アクセント記号のある e を強く読む。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Andrew** | アンドリュー（英語） | 英語形。 | 同じギリシャ語から |
+| **André** | アンドレ（フランス語） | フランス語形。 | 同じギリシャ語から |
+
+<a id="jakob"></a>
+### Jakob（ヤーコプ）
+
+**人名（ドイツ語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（ドイツ語形）。英語の Jacob にあたる
+
+- 📍 シーン: 数学者ヤーコプ・ベルヌーイ。
+- 💬 例文: *Jakob Bernoulli studied probability.* — ヤーコプ・ベルヌーイは確率を研究した。
+- 📜 語源: ヘブライ語 Yaʻaqōv → ドイツ語 Jakob
+  - 日本では「ヤコブ」とも書く。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jacob** | ジェイコブ（英語） | 英語形。 | 同じヘブライ語から |
+| **Giacomo** | ジャコモ（イタリア語） | イタリア語形。 | 同じヘブライ語から |
+
+<a id="jaime"></a>
+### Jaime（ハイメ）
+
+**人名（スペイン語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（スペイン語・ポルトガル語形）。英語の James にあたる
+
+- 📍 シーン: スペイン語圏の名前。
+- 💬 例文: *Jaime is the Spanish form of James.* — ハイメはジェームズのスペイン語形だ。
+- 📜 語源: ラテン語 Iacomus → スペイン語 Jaime
+  - 同じ James から、スペイン語には Jaime、Diego、Santiago、Jacobo と何通りもの形がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **James** | ジェームズ（英語） | 英語形。 | 同じラテン語から |
+| **Diego** | ディエゴ | スペイン語のもう一つの形。 | 同じヘブライ語から |
+
+<a id="giacomo"></a>
+### Giacomo（ジャコモ）
+
+**人名（イタリア語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（イタリア語形）。英語の James にあたる
+
+- 📍 シーン: 作曲家ジャコモ・プッチーニ、冒険家カサノヴァ（Giacomo Casanova）。
+- 💬 例文: *Giacomo Puccini composed Madama Butterfly.* — ジャコモ・プッチーニは『蝶々夫人』を作曲した。
+- 📜 語源: ラテン語 Iacomus → イタリア語 Giacomo
+  - 『蝶々夫人』は長崎が舞台のオペラ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **James** | ジェームズ（英語） | 英語形。 | 同じラテン語から |
+| **Jacques** | ジャック（フランス語） | フランス語形。 | 同じヘブライ語から |
+
+<a id="fran-oise"></a>
+### Françoise（フランソワーズ）
+
+**人名（フランス語）** / Lv.7 大人の日常語 / CEFR C1 — 女性名（フランス語）。François の女性形
+
+- 📍 シーン: 作家フランソワーズ・サガン（『悲しみよこんにちは』）。
+- 💬 例文: *Françoise Sagan wrote her first novel at eighteen.* — フランソワーズ・サガンは18歳で最初の小説を書いた。
+- 📜 語源: フランス語 François + 女性語尾 -e
+  - 英語の女性名 Frances（フランシス）にあたる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Frances** | フランシス（英語） | 英語の女性形。 | ラテン語 Francisca |
+| **Francesca** | フランチェスカ（イタリア語） | イタリア語の女性形。 | ラテン語 Francisca |
+
+<a id="antoine"></a>
+### Antoine（アントワーヌ）
+
+**人名（フランス語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（フランス語形）。英語の Anthony にあたる
+
+- 📍 シーン: 『星の王子さま』の作者アントワーヌ・ド・サン＝テグジュペリ。
+- 💬 例文: *Antoine de Saint-Exupéry wrote The Little Prince.* — アントワーヌ・ド・サン＝テグジュペリは『星の王子さま』を書いた。
+- 📜 語源: ラテン語 Antonius → フランス語 Antoine
+  - 化学者ラボアジエの名も Antoine。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Anthony** | アンソニー（英語） | 英語形。 | 同じラテン語から |
+| **Anton** | アントン（ドイツ語） | ドイツ語・ロシア語形。 | 同じラテン語から |
+
+<a id="christophe"></a>
+### Christophe（クリストフ）
+
+**人名（フランス語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（フランス語形）。英語の Christopher にあたる
+
+- 📍 シーン: ロマン・ロランの小説『ジャン・クリストフ』。
+- 💬 例文: *Christophe is the French form of Christopher.* — クリストフはクリストファーのフランス語形だ。
+- 📜 語源: ギリシャ語 Khristophoros → フランス語 Christophe
+  - ドイツ語では Christoph（クリストフ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Christopher** | クリストファー（英語） | 英語形。 | 同じギリシャ語から |
+| **Christoph** | クリストフ（ドイツ語） | ドイツ語形。 | 同じギリシャ語から |
+
+<a id="sonya"></a>
+### Sonya（ソーニャ）
+
+**人名（ロシア語）** / Lv.7 大人の日常語 / CEFR C1 — 女性名（ロシア語）。Sofya（ソフィア）の愛称
+
+- 📍 シーン: ドストエフスキー『罪と罰』のソーニャ。
+- 💬 例文: *Sonya is a kind young woman in Crime and Punishment.* — ソーニャは『罪と罰』に出てくる心優しい若い女性だ。
+- 📜 語源: ロシア語 Софья の愛称 Соня ← ギリシャ語 sophia
+  - Sonia、Sonja ともつづる。英語圏やドイツでも独立した名前になった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sophia** | ソフィア | もとの名前。 | ギリシャ語 sophia |
+| **Sophie** | ソフィー | フランス語形。 | ギリシャ語 sophia |
+
+<a id="h-l-ne"></a>
+### Hélène（エレーヌ）
+
+**人名（フランス語）** / Lv.7 大人の日常語 / CEFR C1 — 女性名（フランス語形）。英語の Helen にあたる
+
+- 📍 シーン: フランス語圏の女性名。
+- 💬 例文: *Hélène is the French form of Helen.* — エレーヌはヘレンのフランス語形だ。
+- 📜 語源: ギリシャ語 Helenē → フランス語 Hélène
+  - フランス語では h を読まない。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Helen** | ヘレン（英語） | 英語形。 | 同じギリシャ語から |
+| **Elena** | エレナ | 南欧の形。 | 同じギリシャ語から |
+
+<a id="marguerite"></a>
+### Marguerite（マルグリット）
+
+**人名（フランス語）** / Lv.7 大人の日常語 / CEFR C1 — 女性名（フランス語形）。英語の Margaret にあたる。普通名詞では「ヒナギク、マーガレット」
+
+- 📍 シーン: 作家マルグリット・デュラス。
+- 💬 例文: *Marguerite Duras wrote The Lover.* — マルグリット・デュラスは『愛人（ラマン）』を書いた。
+- 📜 語源: ギリシャ語 margaritēs「真珠」→ フランス語 Marguerite
+  - フランス語 marguerite は花の名前でもある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Margaret** | マーガレット（英語） | 英語形。 | 同じギリシャ語から |
+| **Margot** | マルゴ | フランス語の愛称形。 | Marguerite の愛称 |
+
+<a id="margot"></a>
+### Margot（マルゴ）
+
+**人名（フランス語）** / Lv.7 大人の日常語 / CEFR C1 — 女性名（フランス語）。Marguerite の愛称
+
+- 📍 シーン: 女優マーゴット・ロビー（英語読み）、王妃マルゴ。
+- 💬 例文: *Margot Robbie is an actress from Australia.* — マーゴット・ロビーはオーストラリア出身の女優だ。
+- 📜 語源: フランス語 Marguerite の愛称形
+  - 英語圏では「マーゴ」「マーゴット」と読む。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Marguerite** | マルグリット | もとの形。 | ギリシャ語 margaritēs |
+| **Greta** | グレタ | ドイツ語の短い形。 | Margareta の短縮 |
+
+<a id="richard-de"></a>
+### Richard（リヒャルト）
+
+**人名（ドイツ語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（ドイツ語での読み）。英語のリチャードと同じつづり
+
+- 📍 シーン: 作曲家リヒャルト・ワーグナー、リヒャルト・シュトラウス。
+- 💬 例文: *Richard Wagner composed The Ring of the Nibelung.* — リヒャルト・ワーグナーは『ニーベルングの指環』を作曲した。
+- 📜 語源: ゲルマン語 rīc + hard → ドイツ語 Richard
+  - ドイツ語では ch を「ヒ」と読むので「リヒャルト」。フランス語では「リシャール」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Richard** | リチャード（英語） | 同じつづりの英語読み。 | 同じゲルマン語から |
+| **Riccardo** | リッカルド（イタリア語） | イタリア語形。 | 同じゲルマン語から |
+
+<a id="hephaestus"></a>
+### Hephaestus（ヘパイストス）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — ヘパイストス（ギリシャ神話の鍛冶と火の神）
+
+- 📍 シーン: 神々の武器を作る鍛冶の神。
+- 💬 例文: *Hephaestus made weapons for the gods.* — ヘパイストスは神々のために武器を作った。
+- 📜 語源: ギリシャ語 Hēphaistos（語源不詳）
+  - アフロディテの夫。ローマ神話のウルカヌス（Vulcan）にあたり、volcano（火山）の語源に。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Vulcan** | ウルカヌス（ローマ神話） | ローマ神話で対応する神。 | ラテン語 Vulcānus |
+| **blacksmith** | 鍛冶屋 | 鉄を打つ職人。 | black + smith |
+
+<a id="dionysus"></a>
+### Dionysus（ディオニュソス）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — ディオニュソス（ギリシャ神話のぶどう酒と陶酔の神）
+
+- 📍 シーン: 酒と祭りの神。演劇の起源とも関わる。
+- 💬 例文: *Dionysus was the god of wine and festivals.* — ディオニュソスはぶどう酒と祭りの神だった。
+- 📜 語源: ギリシャ語 Dionȳsos（「ゼウスの子」などの説）
+  - 哲学者ニーチェは「アポロン的」と「ディオニュソス的」を対比した。ローマ神話のバッカス（Bacchus）にあたる。
+- 🌳 同じ語源の仲間: Dionysian（ディオニュソス的な）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bacchus** | バッカス（ローマ神話） | ローマ神話での呼び名。 | ギリシャ語 Bakkhos |
+| **god of wine** | 酒の神 | ぶどう酒をつかさどる神。 | 英語 |
+
+<a id="demeter"></a>
+### Demeter（デメテル）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — デメテル（ギリシャ神話の大地と農業の女神）
+
+- 📍 シーン: 娘ペルセポネが冥界にいる間は冬になる、という季節の神話。
+- 💬 例文: *Demeter was the goddess of the harvest.* — デメテルは収穫の女神だった。
+- 📜 語源: ギリシャ語 Dēmētēr（-mētēr は「母」）
+  - ローマ神話のケレス（Ceres）にあたり、cereal（穀物）の語源に。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ceres** | ケレス（ローマ神話） | ローマ神話で対応する女神。 | ラテン語 Cerēs |
+| **Persephone** | ペルセポネ | デメテルの娘。冥界の女王。 | ギリシャ語 Persephonē |
+
+<a id="prometheus"></a>
+### Prometheus（プロメテウス）
+
+**神話** / Lv.7 大人の日常語 / CEFR C1 — プロメテウス（人間に火を与えたティタン）
+
+- 📍 シーン: 映画『プロメテウス』。人間に知恵と技術を与えた英雄の象徴。
+- 💬 例文: *Prometheus stole fire from the gods and gave it to humans.* — プロメテウスは神々から火を盗んで人間に与えた。
+- 📜 語源: ギリシャ語 Promētheus「先に考える者」
+  - 罰として岩に縛られ、毎日ワシに肝臓を食べられた。弟はエピメテウス（後で考える者）。
+- 🌳 同じ語源の仲間: Promethean（大胆で独創的な）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Titan** | ティタン | プロメテウスの属する巨神族。 | ギリシャ語 Tītān |
+| **Pandora** | パンドラ | プロメテウスの弟の妻。 | ギリシャ語 Pandōra |
+
+<a id="psyche"></a>
+### Psyche（プシュケ）
+
+**神話** / Lv.7 大人の日常語 / CEFR C1 — プシュケ（エロスに愛された人間の女性。魂の象徴）
+
+- 📍 シーン: psychology（心理学）の psycho- の語源。
+- 💬 例文: *Psyche married Eros after many trials.* — プシュケは多くの試練の末にエロスと結ばれた。
+- 📜 語源: ギリシャ語 psūkhē「息、魂」
+  - 蝶の羽を持つ姿で描かれることがある（ギリシャ語で psūkhē は「蝶」も意味した）。
+- 🌳 同じ語源の仲間: psychology（心理学）、psychic（超能力の）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **soul** | 魂 | 心や生命のもと。 | 古英語 sāwol |
+| **Cupid and Psyche** | クピドとプシュケ | ローマの物語での呼び方。 | ラテン語 |
+
+<a id="helios"></a>
+### Helios（ヘリオス）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — ヘリオス（ギリシャ神話の太陽神）
+
+- 📍 シーン: 太陽の戦車で空をかける神。元素ヘリウム（helium）は太陽で発見された。
+- 💬 例文: *Helios drove the chariot of the sun across the sky.* — ヘリオスは太陽の戦車を走らせて空を渡った。
+- 📜 語源: ギリシャ語 hēlios「太陽」
+  - ローマ神話のソル（Sol）にあたる。heliocentric（太陽中心の）も同じ語。
+- 🌳 同じ語源の仲間: helium（ヘリウム）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sol** | ソル（ローマ神話） | ローマ神話の太陽神。 | ラテン語 sōl「太陽」 |
+| **Apollo** | アポロン | のちに太陽神とされた神。 | ギリシャ語 Apollōn |
+
+<a id="narcissus"></a>
+### Narcissus（ナルキッソス）
+
+**神話** / Lv.7 大人の日常語 / CEFR C1 — ナルキッソス（水に映る自分に恋した美少年）
+
+- 📍 シーン: narcissist（ナルシスト）の語源。スイセン（narcissus）の花の名前。
+- 💬 例文: *Narcissus fell in love with his own reflection.* — ナルキッソスは水に映った自分の姿に恋をした。
+- 📜 語源: ギリシャ語 Narkissos（narkē「しびれ」と結びつけられた）
+  - 死んだ場所にスイセンが咲いたという。
+- 🌳 同じ語源の仲間: narcissism（自己愛）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Echo** | エコー | ナルキッソスに恋した妖精。 | ギリシャ語 ēkhō |
+| **narcissist** | ナルシスト | 自分が大好きな人。 | Narcissus + -ist |
+
+<a id="odysseus"></a>
+### Odysseus（オデュッセウス）
+
+**神話** / Lv.7 大人の日常語 / CEFR C1 — オデュッセウス（トロイの木馬を考えた知将）
+
+- 📍 シーン: 叙事詩『オデュッセイア』の主人公。
+- 💬 例文: *Odysseus came up with the idea of the Trojan Horse.* — オデュッセウスはトロイの木馬を思いついた。
+- 📜 語源: ギリシャ語 Odysseus（語源不詳）
+  - 帰国までの10年の冒険から odyssey（長い旅）という語が生まれた。
+- 🌳 同じ語源の仲間: odyssey（長い旅）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ulysses** | ユリシーズ | ラテン語での名前。 | ラテン語 Ulixēs |
+| **Trojan Horse** | トロイの木馬 | 彼が考えた作戦。 | 英語 |
+
+<a id="perseus"></a>
+### Perseus（ペルセウス）
+
+**神話** / Lv.7 大人の日常語 / CEFR C1 — ペルセウス（メドゥーサを退治した英雄）
+
+- 📍 シーン: ペルセウス座流星群（Perseids）。
+- 💬 例文: *Perseus cut off Medusa's head.* — ペルセウスはメドゥーサの首を切り落とした。
+- 📜 語源: ギリシャ語 Perseus（語源不詳）
+  - 夏のペルセウス座流星群は、彼の星座の方角から流れる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Medusa** | メドゥーサ | ペルセウスが倒した怪物。 | ギリシャ語 Medousa |
+| **Andromeda** | アンドロメダ | ペルセウスが救った王女。 | ギリシャ語 Andromedē |
+
+<a id="juno"></a>
+### Juno（ジュノー）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — ユノ（ローマ神話の結婚の女神。ユピテルの妻）
+
+- 📍 シーン: 6月（June）の名前の由来。ジューンブライドの「ジューン」。
+- 💬 例文: *June is named after the goddess Juno.* — 6月は女神ユノにちなんで名づけられた。
+- 📜 語源: ラテン語 Iūnō（語源不詳）
+  - ギリシャ神話のヘラにあたる。結婚の守護神なので6月の花嫁は幸せになるという言い伝えが生まれた。
+- 🌳 同じ語源の仲間: June（6月）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hera** | ヘラ（ギリシャ神話） | ギリシャ神話で対応する女神。 | ギリシャ語 Hērā |
+| **queen of heaven** | 天の女王 | ユノの呼び名。 | 英語 |
+
+<a id="minerva"></a>
+### Minerva（ミネルヴァ）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — ミネルウァ（ローマ神話の知恵と工芸の女神）
+
+- 📍 シーン: 哲学者ヘーゲル「ミネルヴァのふくろうは夕暮れに飛び立つ」。
+- 💬 例文: *The owl of Minerva is a symbol of wisdom.* — ミネルウァのふくろうは知恵の象徴だ。
+- 📜 語源: ラテン語 Minerva（mens「心」と関連か）
+  - ギリシャ神話のアテナにあたる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Athena** | アテナ（ギリシャ神話） | ギリシャ神話で対応する女神。 | ギリシャ語 Athēnā |
+| **wisdom** | 知恵 | ものごとを正しく判断する力。 | 古英語 wīsdōm |
+
+<a id="vulcan"></a>
+### Vulcan（ウルカヌス）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — ウルカヌス（ローマ神話の火と鍛冶の神）
+
+- 📍 シーン: 『スター・トレック』のバルカン人の名前の由来。
+- 💬 例文: *The word volcano comes from Vulcan.* — volcano（火山）という語はウルカヌスから来ている。
+- 📜 語源: ラテン語 Vulcānus（語源不詳）
+  - 火山の中に鍛冶場があると考えられた。英語読みは「ヴァルカン」。
+- 🌳 同じ語源の仲間: volcano（火山）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hephaestus** | ヘパイストス（ギリシャ神話） | ギリシャ神話で対応する神。 | ギリシャ語 Hēphaistos |
+| **god of fire** | 火の神 | 火をつかさどる神。 | 英語 |
+
+<a id="freya"></a>
+### Freya（フレイヤ）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — フレイヤ（北欧神話の愛と美の女神）
+
+- 📍 シーン: ゲームや小説のキャラクター名。
+- 💬 例文: *Freya rides in a chariot pulled by cats.* — フレイヤは猫が引く車に乗る。
+- 📜 語源: 古ノルド語 Freyja「女主人」
+  - 金曜日（Friday）はオーディンの妻フリッグの日とされるが、フレイヤと混同されることも多い。
+- 🌳 同じ語源の仲間: Friday（金曜日）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Frigg** | フリッグ | オーディンの妻。よく混同される。 | 古ノルド語 Frigg |
+| **Venus** | ヴィーナス | ローマ神話の愛の女神。 | ラテン語 Venus |
+
+<a id="asgard"></a>
+### Asgard（アスガルド）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — アースガルズ（北欧神話の神々の国）
+
+- 📍 シーン: マーベル映画『マイティ・ソー』のアスガルド。
+- 💬 例文: *Odin ruled Asgard from his high seat.* — オーディンは高座からアースガルズを治めた。
+- 📜 語源: 古ノルド語 Ásgarðr「神々の囲い地」← áss「神」+ garðr「囲い」
+  - garðr は英語の garden、yard と同じ語。人間の世界はミズガルズ（Midgard）。
+- 🌳 同じ語源の仲間: garden（庭）、yard（庭）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Midgard** | ミズガルズ | 人間の世界。 | 古ノルド語 Miðgarðr「中の囲い」 |
+| **Valhalla** | ヴァルハラ | アースガルズにある館。 | 古ノルド語 Valhǫll |
+
+<a id="ragnarok"></a>
+### Ragnarok（ラグナロク）
+
+**神話** / Lv.7 大人の日常語 / CEFR C1 — ラグナロク（北欧神話の世界の終末、神々の黄昏）
+
+- 📍 シーン: 映画『マイティ・ソー バトルロイヤル』の原題。ワーグナー『神々の黄昏』。
+- 💬 例文: *At Ragnarok, the gods fight their final battle.* — ラグナロクで神々は最後の戦いをする。
+- 📜 語源: 古ノルド語 ragna rǫk「神々の運命」
+  - ragna røkkr「神々の黄昏」と解釈されて広まった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **apocalypse** | 黙示、終末 | 世界の終わり。 | ギリシャ語 apokalypsis「覆いを取ること」 |
+| **twilight of the gods** | 神々の黄昏 | ドイツ語 Götterdämmerung の英訳。 | 英語 |
+
+<a id="osiris"></a>
+### Osiris（オシリス）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — オシリス（古代エジプトの冥界の王、復活の神）
+
+- 📍 シーン: 弟セトに殺され、妻イシスによってよみがえった神。
+- 💬 例文: *Osiris became the king of the dead.* — オシリスは死者の王になった。
+- 📜 語源: エジプト語 wsjr（ギリシャ語 Osiris）
+  - 死と復活の神話は、ナイル川の毎年の洪水と実りに結びつけられた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Isis** | イシス | オシリスの妻。 | エジプト語 ꜣst |
+| **Horus** | ホルス | オシリスの息子。 | エジプト語 ḥr |
+
+<a id="isis"></a>
+### Isis（イシス）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — イシス（古代エジプトの母なる女神、魔術の女神）
+
+- 📍 シーン: 夫オシリスを復活させ、息子ホルスを守った女神。
+- 💬 例文: *Isis used magic to bring Osiris back to life.* — イシスは魔法を使ってオシリスをよみがえらせた。
+- 📜 語源: エジプト語 ꜣst「玉座」（ギリシャ語 Isis）
+  - ローマ帝国でも広く信仰された。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Osiris** | オシリス | イシスの夫。 | エジプト語 wsjr |
+| **mother goddess** | 母なる女神 | 母性をつかさどる女神。 | 英語 |
+
+<a id="horus"></a>
+### Horus（ホルス）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — ホルス（古代エジプトのはやぶさの頭をもつ天空の神）
+
+- 📍 シーン: 「ホルスの目」はお守りの図柄。
+- 💬 例文: *The Eye of Horus was a symbol of protection.* — ホルスの目は守りの象徴だった。
+- 📜 語源: エジプト語 ḥr「高い所にいる者」
+  - 父オシリスのかたきセトと戦い、片目を失ったという。ファラオはホルスの化身とされた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **falcon** | はやぶさ | ホルスの姿の鳥。 | ラテン語 falcō |
+| **Osiris** | オシリス | ホルスの父。 | エジプト語 wsjr |
+
+<a id="garuda"></a>
+### Garuda（ガルーダ）
+
+**神名** / Lv.7 大人の日常語 / CEFR C1 — ガルダ（インド神話の神鳥。ヴィシュヌの乗り物）
+
+- 📍 シーン: 仏教では迦楼羅（かるら）。インドネシアの国章、ガルーダ・インドネシア航空。
+- 💬 例文: *Garuda Indonesia is named after the mythical bird.* — ガルーダ・インドネシア航空は伝説の鳥にちなんで名づけられた。
+- 📜 語源: サンスクリット語 Garuḍa
+  - ヘビ（ナーガ）の天敵とされる。天狗の姿のもとになったという説もある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Karura** | 迦楼羅 | 日本での呼び名。 | サンスクリット語 Garuḍa の音訳 |
+| **phoenix** | 不死鳥 | 伝説の鳥。 | ギリシャ語 phoinix |
+
+<a id="gabriela"></a>
+### Gabriela（ガブリエラ）
+
+**人名（スペイン語）** / Lv.7 大人の日常語 / CEFR C1 — 女性名（スペイン語・ポルトガル語）。Gabriel の女性形
+
+- 📍 シーン: チリの詩人ガブリエラ・ミストラル（ノーベル文学賞）。
+- 💬 例文: *Gabriela Mistral won the Nobel Prize in Literature.* — ガブリエラ・ミストラルはノーベル文学賞を受賞した。
+- 📜 語源: スペイン語 Gabriel + 女性語尾 -a
+  - イタリア語では男性名 Gabriele（ガブリエーレ）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gabrielle** | ガブリエル（フランス語） | フランス語の女性形。 | Gabriel + -le |
+| **Gabriel** | ガブリエル | 男性形。 | ヘブライ語 Gavrīʼēl |
+
+<a id="raffaello"></a>
+### Raffaello（ラファエロ）
+
+**人名（イタリア語）** / Lv.7 大人の日常語 / CEFR C1 — 男性名（イタリア語形）。Raphael にあたる
+
+- 📍 シーン: ルネサンスの画家ラファエロ・サンティ（『アテナイの学堂』）。
+- 💬 例文: *Raffaello painted The School of Athens.* — ラファエロは『アテナイの学堂』を描いた。
+- 📜 語源: ヘブライ語 Rəfāʼēl → イタリア語 Raffaello
+  - 英語では Raphael と呼ばれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Raphael** | ラファエル | 英語形。 | 同じヘブライ語から |
+| **Rafael** | ラファエル（スペイン語） | スペイン語形。 | 同じヘブライ語から |
+
+<a id="leviathan"></a>
+### Leviathan（リヴァイアサン）
+
+**神話** / Lv.7 大人の日常語 / CEFR C1 — レヴィアタン（聖書の海の巨大な怪物）
+
+- 📍 シーン: ホッブズの政治哲学書『リヴァイアサン』、ゲームの海の召喚獣。
+- 💬 例文: *Hobbes compared the state to the Leviathan.* — ホッブズは国家をレヴィアタンにたとえた。
+- 📜 語源: ヘブライ語 Liwyāṯān（「とぐろを巻くもの」の意味か）
+  - 英語では「巨大なもの」のたとえにも使う。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Behemoth** | ベヒモス | 陸の巨大な怪物。 | ヘブライ語 bəhēmōṯ「獣たち」 |
+| **sea monster** | 海の怪物 | 海にすむ巨大な生き物。 | 英語 |
+
+<a id="slovenia"></a>
+### Slovenia（スロベニア）
+
+**地名** / Lv.7 大人の日常語 / CEFR B2 — スロベニア
+
+- 📍 シーン: 首都リュブリャナ、ブレッド湖。
+- 💬 例文: *Slovenia is a small country between Italy and Croatia.* — スロベニアはイタリアとクロアチアの間にある小さな国だ。
+- 📜 語源: スロベニア語 Slovenija ← スラヴ人
+  - スロバキアと名前が似ていて、国際会議で郵便物が取り違えられるという話も。
+- 🌳 同じ語源の仲間: Slovenian（スロベニアの）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Slovenija** | スロヴェニヤ | スロベニア語での国名。 | スロベニア語 |
+| **Slovakia** | スロバキア | 名前が似ている別の国。 | スロバキア語 Slovensko |
+
+<a id="latvia"></a>
+### Latvia（ラトビア）
+
+**地名** / Lv.7 大人の日常語 / CEFR B2 — ラトビア
+
+- 📍 シーン: バルト三国の一つ。首都リガ。
+- 💬 例文: *Riga is the capital of Latvia.* — リガはラトビアの首都だ。
+- 📜 語源: ラトビア語 Latvija ← ラトガリア人
+  - バルト語派のラトビア語を話す。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Latvija** | ラトヴィヤ | ラトビア語での国名。 | ラトビア語 |
+| **Baltic states** | バルト三国 | バルト海沿岸の3国。 | 英語 |
+
+<a id="lithuania"></a>
+### Lithuania（リトアニア）
+
+**地名** / Lv.7 大人の日常語 / CEFR B2 — リトアニア
+
+- 📍 シーン: 杉原千畝が「命のビザ」を発給したカウナスのある国。
+- 💬 例文: *Chiune Sugihara saved thousands of people in Lithuania.* — 杉原千畝はリトアニアで何千人もの人々を救った。
+- 📜 語源: リトアニア語 Lietuva（語源不詳。「雨」「川」の説）
+  - 中世には東欧の大国だった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lietuva** | リェトゥヴァ | リトアニア語での国名。 | リトアニア語 |
+| **Baltic states** | バルト三国 | バルト海沿岸の3国。 | 英語 |
+
+<a id="belarus"></a>
+### Belarus（ベラルーシ）
+
+**地名** / Lv.7 大人の日常語 / CEFR B2 — ベラルーシ
+
+- 📍 シーン: 首都ミンスク。
+- 💬 例文: *Belarus lies between Russia and Poland.* — ベラルーシはロシアとポーランドの間にある。
+- 📜 語源: ベラルーシ語 Bielaruś「白いルーシ」
+  - 以前は日本語で「白ロシア」と呼ばれた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **White Russia** | 白ロシア | 古い呼び名。 | 英語 |
+| **Byelorussia** | ベロルシア | ソ連時代の英語名。 | ロシア語 |
+
+<a id="cyprus"></a>
+### Cyprus（キプロス）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — キプロス
+
+- 📍 シーン: 地中海東部の島国。アフロディテ誕生の地とされる。
+- 💬 例文: *Cyprus is an island in the eastern Mediterranean.* — キプロスは地中海東部の島だ。
+- 📜 語源: ギリシャ語 Kypros（copper「銅」の語源）
+  - 古代に銅がとれたので、ラテン語 cuprum（銅）はこの島の名から。
+- 🌳 同じ語源の仲間: copper（銅）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kypros** | キプロス | ギリシャ語での名。 | ギリシャ語 Kypros |
+| **Kıbrıs** | クブルス | トルコ語での名。 | トルコ語 |
+
+<a id="brunei"></a>
+### Brunei（ブルネイ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ブルネイ
+
+- 📍 シーン: ボルネオ島北部の石油の豊かな王国。
+- 💬 例文: *Brunei is a small, rich country on Borneo.* — ブルネイはボルネオ島にある小さな豊かな国だ。
+- 📜 語源: マレー語 Brunei（語源不詳。サンスクリット語「航海者の地」の説）
+  - 島の名 Borneo（ボルネオ）もブルネイがなまったもの。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Borneo** | ボルネオ | 国がある島。ブルネイがなまった名。 | Brunei から |
+| **sultanate** | スルタン国 | スルタンが治める国。 | アラビア語 sulṭān |
+
+<a id="yemen"></a>
+### Yemen（イエメン）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — イエメン
+
+- 📍 シーン: コーヒーの「モカ」はイエメンの港町の名。
+- 💬 例文: *Mocha coffee is named after a port in Yemen.* — モカコーヒーはイエメンの港にちなんで名づけられた。
+- 📜 語源: アラビア語 al-Yaman「右側（南）」
+  - メッカから見て右（南）にあることから。
+- 🌳 同じ語源の仲間: mocha（モカ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Arabia Felix** | 幸福のアラビア | 古代ローマの呼び名。 | ラテン語 |
+| **Sanaa** | サヌア | 首都。 | アラビア語 |
+
+<a id="oman"></a>
+### Oman（オマーン）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — オマーン
+
+- 📍 シーン: アラビア半島の南東端の国。首都マスカット。
+- 💬 例文: *Oman is known for frankincense.* — オマーンは乳香で知られている。
+- 📜 語源: アラビア語 ʿUmān（語源不詳）
+  - 古くから海上交易で栄えた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sultanate of Oman** | オマーン国 | 正式な国名。 | 英語 |
+| **Muscat** | マスカット | 首都。 | アラビア語 |
+
+<a id="bahrain"></a>
+### Bahrain（バーレーン）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — バーレーン
+
+- 📍 シーン: ペルシャ湾の島国。F1 バーレーンGP。
+- 💬 例文: *Bahrain is an island country in the Persian Gulf.* — バーレーンはペルシャ湾の島国だ。
+- 📜 語源: アラビア語 al-Baḥrayn「二つの海」
+  - 島の真水と海の塩水の「二つの水」とする説がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gulf states** | 湾岸諸国 | ペルシャ湾岸の国々。 | 英語 |
+| **Manama** | マナーマ | 首都。 | アラビア語 |
+
+<a id="kuwait"></a>
+### Kuwait（クウェート）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — クウェート
+
+- 📍 シーン: 1990年のイラクによる侵攻と湾岸戦争。
+- 💬 例文: *Iraq invaded Kuwait in 1990.* — イラクは1990年にクウェートに侵攻した。
+- 📜 語源: アラビア語 kūt「砦」の指小形「小さな砦」
+  - 石油で豊かな国。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gulf states** | 湾岸諸国 | ペルシャ湾岸の国々。 | 英語 |
+| **Kuwait City** | クウェート市 | 首都。 | 英語 |
+
+<a id="armenia"></a>
+### Armenia（アルメニア）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — アルメニア
+
+- 📍 シーン: 世界で最初にキリスト教を国教にした国。首都エレバン。
+- 💬 例文: *Armenia was the first country to make Christianity its state religion.* — アルメニアはキリスト教を国教にした最初の国だった。
+- 📜 語源: ギリシャ語 Armenia（語源不詳）
+  - ノアの方舟がたどり着いたとされるアララト山がよく見える。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hayastan** | ハヤスタン | アルメニア語での国名。 | アルメニア語 |
+| **Caucasus** | コーカサス | この地域の呼び名。 | ギリシャ語 Kaukasos |
+
+<a id="somalia"></a>
+### Somalia（ソマリア）
+
+**地名** / Lv.7 大人の日常語 / CEFR B2 — ソマリア
+
+- 📍 シーン: 「アフリカの角」の先端の国。
+- 💬 例文: *Somalia has the longest coastline in mainland Africa.* — ソマリアはアフリカ大陸で最も長い海岸線をもつ。
+- 📜 語源: ソマリ人（Somali）の名
+  - 首都モガディシュ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Horn of Africa** | アフリカの角 | この地域の呼び名。 | 英語 |
+| **Mogadishu** | モガディシュ | 首都。 | 語源不詳 |
+
+<a id="uganda"></a>
+### Uganda（ウガンダ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ウガンダ
+
+- 📍 シーン: チャーチルが「アフリカの真珠」と呼んだ国。ビクトリア湖。
+- 💬 例文: *Uganda is called the Pearl of Africa.* — ウガンダはアフリカの真珠と呼ばれる。
+- 📜 語源: スワヒリ語 Buganda（ガンダ人の王国）
+  - 首都カンパラ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pearl of Africa** | アフリカの真珠 | 愛称。 | 英語 |
+| **Lake Victoria** | ビクトリア湖 | 国に接する大湖。 | 英語 |
+
+<a id="rwanda"></a>
+### Rwanda（ルワンダ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ルワンダ
+
+- 📍 シーン: 「千の丘の国」。1994年の大虐殺から復興した。
+- 💬 例文: *Rwanda is called the Land of a Thousand Hills.* — ルワンダは千の丘の国と呼ばれる。
+- 📜 語源: ルワンダ語 Rwanda（「広がる」の意味とされる）
+  - 首都キガリ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Land of a Thousand Hills** | 千の丘の国 | 愛称。 | 英語 |
+| **Kigali** | キガリ | 首都。 | ルワンダ語 |
+
+<a id="senegal"></a>
+### Senegal（セネガル）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — セネガル
+
+- 📍 シーン: パリ・ダカール・ラリーのゴール地ダカール。
+- 💬 例文: *Dakar is the capital of Senegal.* — ダカールはセネガルの首都だ。
+- 📜 語源: セネガル川の名から（語源不詳）
+  - アフリカ大陸の最西端の国。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Dakar** | ダカール | 首都。 | ウォロフ語 |
+| **West Africa** | 西アフリカ | この地域の呼び名。 | 英語 |
+
+<a id="mali"></a>
+### Mali（マリ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — マリ
+
+- 📍 シーン: 泥のモスクの町ジェンネ、伝説の町トンブクトゥ。
+- 💬 例文: *Timbuktu in Mali was once a great center of learning.* — マリのトンブクトゥはかつて学問の中心だった。
+- 📜 語源: 中世のマリ帝国（「カバ」または「王の住む所」の説）
+  - 14世紀の王マンサ・ムーサは史上最大の富豪と言われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Timbuktu** | トンブクトゥ | 古都。 | 語源不詳 |
+| **Bamako** | バマコ | 首都。 | バンバラ語「ワニの川」 |
+
+<a id="cameroon"></a>
+### Cameroon（カメルーン）
+
+**地名** / Lv.7 大人の日常語 / CEFR B2 — カメルーン
+
+- 📍 シーン: サッカーの強豪国。「アフリカの縮図」と呼ばれる。
+- 💬 例文: *Cameroon is called "Africa in miniature."* — カメルーンは「アフリカの縮図」と呼ばれる。
+- 📜 語源: ポルトガル語 Rio dos Camarões「エビの川」
+  - ポルトガル人が川でたくさんのエビを見たことから。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Africa in miniature** | アフリカの縮図 | 愛称。 | 英語 |
+| **Yaoundé** | ヤウンデ | 首都。 | 語源不詳 |
+
+<a id="angola"></a>
+### Angola（アンゴラ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — アンゴラ
+
+- 📍 シーン: ポルトガル語を話す産油国。
+- 💬 例文: *Angola is rich in oil and diamonds.* — アンゴラは石油とダイヤモンドが豊富だ。
+- 📜 語源: 王の称号 ngola の名から
+  - アンゴラウサギ（angora）はトルコのアンカラから来た語で、無関係。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Luanda** | ルアンダ | 首都。 | 語源不詳 |
+| **Lusophone Africa** | ポルトガル語圏アフリカ | ポルトガル語を話すアフリカ諸国。 | 英語 |
+
+<a id="zambia"></a>
+### Zambia（ザンビア）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ザンビア
+
+- 📍 シーン: ビクトリアの滝、銅の産地。
+- 💬 例文: *Victoria Falls is on the border of Zambia and Zimbabwe.* — ビクトリアの滝はザンビアとジンバブエの国境にある。
+- 📜 語源: ザンベジ川（Zambezi）の名から
+  - 旧英国植民地の北ローデシア。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Northern Rhodesia** | 北ローデシア | 植民地時代の名。 | 人名 Cecil Rhodes から |
+| **Lusaka** | ルサカ | 首都。 | 語源不詳 |
+
+<a id="zimbabwe"></a>
+### Zimbabwe（ジンバブエ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ジンバブエ
+
+- 📍 シーン: 石造りの遺跡グレート・ジンバブエ、ビクトリアの滝。
+- 💬 例文: *Zimbabwe means "houses of stone."* — ジンバブエは「石の家」という意味だ。
+- 📜 語源: ショナ語 dzimba dza mabwe「石の家々」
+  - 旧英国植民地の南ローデシア。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Rhodesia** | ローデシア | 独立前の名。 | 人名 Cecil Rhodes から |
+| **Harare** | ハラレ | 首都。 | ショナ語 |
+
+<a id="haiti"></a>
+### Haiti（ハイチ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ハイチ
+
+- 📍 シーン: 世界初の黒人共和国。
+- 💬 例文: *Haiti became independent from France in 1804.* — ハイチは1804年にフランスから独立した。
+- 📜 語源: タイノ語 Ayiti「山の多い土地」
+  - 奴隷の反乱によって独立した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ayiti** | アイティ | ハイチ語での国名。 | タイノ語 |
+| **Hispaniola** | イスパニョーラ島 | 国がある島。 | スペイン語「小さなスペイン」 |
+
+<a id="dominican-republic"></a>
+### Dominican Republic（ドミニカ共和国）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ドミニカ共和国
+
+- 📍 シーン: 野球選手を多く生む国。
+- 💬 例文: *Many baseball players come from the Dominican Republic.* — 多くの野球選手がドミニカ共和国出身だ。
+- 📜 語源: 首都サントドミンゴ（聖ドミニクス）の名から
+  - カリブの別の国ドミニカ国（Dominica）と区別する。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Santo Domingo** | サントドミンゴ | 首都。 | スペイン語「聖ドミニクス」 |
+| **Hispaniola** | イスパニョーラ島 | 国がある島。 | スペイン語 |
+
+<a id="paraguay"></a>
+### Paraguay（パラグアイ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — パラグアイ
+
+- 📍 シーン: 南米の内陸国。
+- 💬 例文: *Paraguay and Bolivia are landlocked countries in South America.* — パラグアイとボリビアは南米の内陸国だ。
+- 📜 語源: グアラニー語「〜の川」（パラグアイ川の名）
+  - スペイン語と先住民のグアラニー語が公用語。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Asunción** | アスンシオン | 首都。 | スペイン語「聖母被昇天」 |
+| **Guarani** | グアラニー | 先住民の言語。通貨の名にも。 | グアラニー語 |
+
+<a id="samoa"></a>
+### Samoa（サモア）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — サモア
+
+- 📍 シーン: ラグビー、タトゥーの伝統。
+- 💬 例文: *Samoa is famous for its rugby team.* — サモアはラグビーチームで有名だ。
+- 📜 語源: サモア語（「モア鳥の地」などの説）
+  - 2011年に日付変更線の西側に移り、1日飛ばした。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Apia** | アピア | 首都。 | サモア語 |
+| **Polynesia** | ポリネシア | この地域の呼び名。 | ギリシャ語「多くの島々」 |
+
+<a id="tonga"></a>
+### Tonga（トンガ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — トンガ
+
+- 📍 シーン: 南太平洋の王国。ラグビー、そろばん教育。
+- 💬 例文: *Tonga is the only kingdom in the Pacific.* — トンガは太平洋で唯一の王国だ。
+- 📜 語源: トンガ語 tonga「南」
+  - キャプテン・クックが Friendly Islands（友好諸島）と名づけた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Friendly Islands** | 友好諸島 | クックがつけた呼び名。 | 英語 |
+| **Nukuʻalofa** | ヌクアロファ | 首都。 | トンガ語「愛の住まい」 |
+
+<a id="caucasus"></a>
+### Caucasus（コーカサス）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — コーカサス（カフカス）地方・山脈
+
+- 📍 シーン: 黒海とカスピ海の間の山岳地帯。
+- 💬 例文: *The Caucasus Mountains lie between Europe and Asia.* — コーカサス山脈はヨーロッパとアジアの間にある。
+- 📜 語源: ギリシャ語 Kaukasos
+  - 白人を Caucasian（コーカソイド）と呼ぶのは18世紀の学説から。
+- 🌳 同じ語源の仲間: Caucasian（白人の）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kavkaz** | カフカス | ロシア語での呼び名。 | ロシア語 |
+| **Transcaucasia** | 南コーカサス | 山脈の南側の地域。 | ラテン語 |
+
+<a id="volga"></a>
+### Volga（ボルガ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ボルガ川（ヨーロッパ最長の川）
+
+- 📍 シーン: ロシアの母なる川。「ボルガの舟歌」。
+- 💬 例文: *The Volga is the longest river in Europe.* — ボルガ川はヨーロッパ最長の川だ。
+- 📜 語源: スラヴ語 vologa「湿気」の説
+  - カスピ海に注ぐ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mother Volga** | 母なるボルガ | ロシアでの愛称。 | 英語 |
+| **Caspian Sea** | カスピ海 | 川が注ぐ湖。 | 英語 |
+
+<a id="borneo"></a>
+### Borneo（ボルネオ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ボルネオ島
+
+- 📍 シーン: 世界で3番目に大きな島。オランウータンのすむ熱帯雨林。
+- 💬 例文: *Orangutans live in the rainforests of Borneo.* — オランウータンはボルネオの熱帯雨林に住んでいる。
+- 📜 語源: ブルネイ（Brunei）がなまったもの
+  - インドネシア・マレーシア・ブルネイの3か国に分かれている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kalimantan** | カリマンタン | インドネシア語での名。 | インドネシア語 |
+| **Brunei** | ブルネイ | 島の名前の元になった国。 | マレー語 |
+
+<a id="gibraltar"></a>
+### Gibraltar（ジブラルタル）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ジブラルタル（海峡、英国領の半島）
+
+- 📍 シーン: ヨーロッパとアフリカを隔てる海峡。
+- 💬 例文: *The Strait of Gibraltar separates Europe from Africa.* — ジブラルタル海峡はヨーロッパとアフリカを隔てている。
+- 📜 語源: アラビア語 Jabal Ṭāriq「ターリクの山」
+  - 711年にイベリア半島に上陸した将軍ターリクの名から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Rock of Gibraltar** | ジブラルタルの岩 | 有名な岩山。 | 英語 |
+| **Pillars of Hercules** | ヘラクレスの柱 | 古代の呼び名。 | 英語 |
+
+<a id="suez"></a>
+### Suez（スエズ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — スエズ（運河）
+
+- 📍 シーン: 地中海と紅海を結ぶスエズ運河。
+- 💬 例文: *The Suez Canal connects the Mediterranean and the Red Sea.* — スエズ運河は地中海と紅海を結んでいる。
+- 📜 語源: エジプトの町の名（アラビア語 as-Suways）
+  - 1869年に開通し、アフリカを回らずにアジアへ行けるようになった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Suez Canal** | スエズ運河 | 正式な呼び方。 | 英語 |
+| **Panama Canal** | パナマ運河 | もう一つの大運河。 | 英語 |
+
+<a id="riviera"></a>
+### Riviera（リビエラ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — リビエラ（地中海沿岸の保養地）
+
+- 📍 シーン: 南フランスのコート・ダジュール、イタリアのリビエラ。
+- 💬 例文: *The French Riviera is famous for its beaches.* — フランスのリビエラはビーチで有名だ。
+- 📜 語源: イタリア語 riviera「海岸」← ラテン語 rīpa「岸」
+  - river（川）と同じ語根。
+- 🌳 同じ語源の仲間: river（川）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Côte d'Azur** | コート・ダジュール | フランス語で「紺碧の海岸」。 | フランス語 |
+| **coast** | 海岸 | 海沿いの土地。 | ラテン語 costa「あばら」 |
+
+<a id="bavaria"></a>
+### Bavaria（バイエルン） ⚠️
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — バイエルン（ドイツ南部の州）
+
+- 📍 シーン: ミュンヘン、オクトーバーフェスト、ノイシュヴァンシュタイン城。
+- ⚠️ カタカナの罠: 日本語の「バイエルン」はドイツ語 Bayern から。英語では Bavaria。
+- 💬 例文: *Oktoberfest is held in Munich, Bavaria.* — オクトーバーフェストはバイエルンのミュンヘンで開かれる。
+- 📜 語源: ラテン語 Bavaria ← ドイツ語 Bayern（バイエルン人）
+  - 「バイエルン」はドイツ語、英語では Bavaria（ババリア）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bayern** | バイエルン | ドイツ語での名。 | ドイツ語 |
+| **Munich** | ミュンヘン | 州都。 | ドイツ語 München |
+
+<a id="tuscany"></a>
+### Tuscany（トスカーナ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — トスカーナ（イタリア中部の州）
+
+- 📍 シーン: フィレンツェ、ピサの斜塔、キャンティワイン。
+- 💬 例文: *Florence is the capital of Tuscany.* — フィレンツェはトスカーナの州都だ。
+- 📜 語源: ラテン語 Tuscī（エトルリア人）
+  - 標準イタリア語はトスカーナの方言がもとになった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Toscana** | トスカーナ | イタリア語での名。 | イタリア語 |
+| **Florence** | フィレンツェ | 州都。 | ラテン語 Florentia |
+
+<a id="transylvania"></a>
+### Transylvania（トランシルバニア）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — トランシルバニア（ルーマニア中部の地方）
+
+- 📍 シーン: 吸血鬼ドラキュラ伝説の舞台。
+- 💬 例文: *Dracula's castle is said to be in Transylvania.* — ドラキュラの城はトランシルバニアにあると言われる。
+- 📜 語源: ラテン語 trans「〜の向こう」+ silva「森」＝「森の向こう」
+  - silva は Sylvia（シルビア）、sylvan（森の）と同じ語。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Dracula** | ドラキュラ | 伝説の吸血鬼。 | ルーマニア語 drac「竜」 |
+| **Romania** | ルーマニア | 地方がある国。 | ラテン語 |
+
+<a id="kashmir"></a>
+### Kashmir（カシミール）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — カシミール（インド北部の山岳地方）
+
+- 📍 シーン: カシミヤ（cashmere）の毛織物の名前の由来。
+- 💬 例文: *Cashmere wool is named after Kashmir.* — カシミヤの毛はカシミールにちなんで名づけられた。
+- 📜 語源: サンスクリット語 Kaśmīra（語源不詳）
+  - インドとパキスタンが領有を争っている。
+- 🌳 同じ語源の仲間: cashmere（カシミヤ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cashmere** | カシミヤ | この地方の名から生まれた毛織物。 | Kashmir |
+| **Himalayas** | ヒマラヤ | 地方にある山脈。 | サンスクリット語 |
+
+<a id="connecticut"></a>
+### Connecticut（コネチカット）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — コネチカット州（アメリカ北東部の州）
+
+- 📍 シーン: イェール大学。州都はハートフォード。
+- 💬 例文: *Hartford is the capital of Connecticut.* — ハートフォードはコネチカット州の州都だ。
+- 📜 語源: モヒカン語 quinetucket「長い川のほとり」
+  - つづりの2つ目の c は読まない。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Constitution State** | 憲法の州 | 州の愛称。 | 英語 |
+| **CT** | CT（略号） | 郵便などで使う2文字の州の略号。 | Connecticut の略 |
+
+<a id="iowa"></a>
+### Iowa（アイオワ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — アイオワ州（アメリカ中西部の農業州）
+
+- 📍 シーン: トウモロコシ畑、大統領選の最初の党員集会。州都はデモイン。
+- 💬 例文: *Des Moines is the capital of Iowa.* — デモインはアイオワ州の州都だ。
+- 📜 語源: 先住民アイオワ族の名
+  - 大統領選挙の予備選が最初に行われる州として注目される。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hawkeye State** | ホークアイ州 | 州の愛称。 | 英語 |
+| **IA** | IA（略号） | 郵便などで使う2文字の州の略号。 | Iowa の略 |
+
+<a id="maine"></a>
+### Maine（メイン）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — メイン州（アメリカ北東端の州）
+
+- 📍 シーン: ロブスター、灯台。州都はオーガスタ。
+- 💬 例文: *Augusta is the capital of Maine.* — オーガスタはメイン州の州都だ。
+- 📜 語源: フランスの地方名、または「本土（mainland）」の説
+  - アメリカ本土で最も東にある州。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pine Tree State** | 松の木の州 | 州の愛称。 | 英語 |
+| **ME** | ME（略号） | 郵便などで使う2文字の州の略号。 | Maine の略 |
+
+<a id="maryland"></a>
+### Maryland（メリーランド）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — メリーランド州（アメリカ東部の州）
+
+- 📍 シーン: カニ料理、ボルチモア。州都はアナポリス。
+- 💬 例文: *Annapolis is the capital of Maryland.* — アナポリスはメリーランド州の州都だ。
+- 📜 語源: 英国王チャールズ1世の王妃ヘンリエッタ・マリア（Mary）の名
+  - 首都ワシントンD.C.に隣接する。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Old Line State** | オールドライン州 | 州の愛称。 | 英語 |
+| **MD** | MD（略号） | 郵便などで使う2文字の州の略号。 | Maryland の略 |
+
+<a id="minnesota"></a>
+### Minnesota（ミネソタ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ミネソタ州（アメリカ北部の州）
+
+- 📍 シーン: 「一万の湖の地」。州都はセントポール。
+- 💬 例文: *Saint Paul is the capital of Minnesota.* — セントポールはミネソタ州の州都だ。
+- 📜 語源: ダコタ語 mní sóta「くもった（空色の）水」
+  - 実際には1万以上の湖がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Land of 10,000 Lakes** | 一万の湖の地 | 州の愛称。 | 英語 |
+| **MN** | MN（略号） | 郵便などで使う2文字の州の略号。 | Minnesota の略 |
+
+<a id="missouri"></a>
+### Missouri（ミズーリ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ミズーリ州（アメリカ中部の州）
+
+- 📍 シーン: セントルイスのゲートウェイ・アーチ。州都はジェファーソンシティ。
+- 💬 例文: *Jefferson City is the capital of Missouri.* — ジェファーソンシティはミズーリ州の州都だ。
+- 📜 語源: 先住民ミズーリ族（「大きなカヌーの人々」の説）
+  - ミズーリ川はミシシッピ川の最大の支流。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Show-Me State** | 証明してみせろ州 | 州の愛称。 | 英語 |
+| **MO** | MO（略号） | 郵便などで使う2文字の州の略号。 | Missouri の略 |
+
+<a id="montana"></a>
+### Montana（モンタナ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — モンタナ州（アメリカ北西部の州）
+
+- 📍 シーン: イエローストーンの一部、グレイシャー国立公園。州都はヘレナ。
+- 💬 例文: *Helena is the capital of Montana.* — ヘレナはモンタナ州の州都だ。
+- 📜 語源: スペイン語 montaña「山」
+  - 名前は山だが、東部は広い平原。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Treasure State** | 宝の州 | 州の愛称。 | 英語 |
+| **MT** | MT（略号） | 郵便などで使う2文字の州の略号。 | Montana の略 |
+
+<a id="north-carolina"></a>
+### North Carolina（ノースカロライナ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ノースカロライナ州（アメリカ南東部の州）
+
+- 📍 シーン: ライト兄弟が初飛行したキティホーク。州都はローリー。
+- 💬 例文: *Raleigh is the capital of North Carolina.* — ローリーはノースカロライナ州の州都だ。
+- 📜 語源: ラテン語 Carolus（英国王チャールズ1世）の女性形
+  - 1903年にライト兄弟が人類初の動力飛行に成功した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Tar Heel State** | タールのかかと州 | 州の愛称。 | 英語 |
+| **NC** | NC（略号） | 郵便などで使う2文字の州の略号。 | North Carolina の略 |
+
+<a id="oklahoma"></a>
+### Oklahoma（オクラホマ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — オクラホマ州（アメリカ中南部の州）
+
+- 📍 シーン: ミュージカル『オクラホマ！』。州都はオクラホマシティ。
+- 💬 例文: *Oklahoma City is the capital of Oklahoma.* — オクラホマシティはオクラホマ州の州都だ。
+- 📜 語源: チョクトー語 okla「人々」+ humma「赤い」
+  - 多くの先住民の部族が移住させられた土地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sooner State** | スーナー州 | 州の愛称。 | 英語 |
+| **OK** | OK（略号） | 郵便などで使う2文字の州の略号。 | Oklahoma の略 |
+
+<a id="south-carolina"></a>
+### South Carolina（サウスカロライナ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — サウスカロライナ州（アメリカ南東部の州）
+
+- 📍 シーン: 南北戦争が始まったサムター要塞。州都はコロンビア。
+- 💬 例文: *Columbia is the capital of South Carolina.* — コロンビアはサウスカロライナ州の州都だ。
+- 📜 語源: ラテン語 Carolus（英国王チャールズ1世）の女性形
+  - ダンスのチャールストンは州の都市チャールストンの名から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Palmetto State** | パルメットヤシの州 | 州の愛称。 | 英語 |
+| **SC** | SC（略号） | 郵便などで使う2文字の州の略号。 | South Carolina の略 |
+
+<a id="utah"></a>
+### Utah（ユタ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ユタ州（アメリカ西部の州）
+
+- 📍 シーン: ソルトレイクシティ、アーチーズ国立公園。州都はソルトレイクシティ。
+- 💬 例文: *Salt Lake City is the capital of Utah.* — ソルトレイクシティはユタ州の州都だ。
+- 📜 語源: 先住民ユート族（「山の人々」の説）
+  - 2002年冬季五輪はソルトレイクシティで開かれた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Beehive State** | ミツバチの巣の州 | 州の愛称。 | 英語 |
+| **UT** | UT（略号） | 郵便などで使う2文字の州の略号。 | Utah の略 |
+
+<a id="memphis"></a>
+### Memphis（メンフィス）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — メンフィス（アメリカの都市）
+
+- 📍 シーン: エルビス・プレスリーの家グレースランド、ブルース。
+- 💬 例文: *Memphis is a city in the United States.* — メンフィスはアメリカの都市だ。
+- 📜 語源: 古代エジプトの都メンフィスの名から
+  - ミシシッピ川沿いの町をナイル川沿いの古都にたとえた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Graceland** | グレースランド | プレスリーの邸宅。 | 英語 |
+| **Tennessee** | テネシー | 町がある州。 | チェロキー語 |
+
+<a id="vladivostok"></a>
+### Vladivostok（ウラジオストク）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ウラジオストク（ロシアの都市）
+
+- 📍 シーン: シベリア鉄道の終点、日本に近いロシアの港町。
+- 💬 例文: *Vladivostok is a city in Russia.* — ウラジオストクはロシアの都市だ。
+- 📜 語源: ロシア語 vladi「支配せよ」+ vostok「東」
+  - 日本から一番近いヨーロッパとも言われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Trans-Siberian Railway** | シベリア鉄道 | 終点の町。 | 英語 |
+| **Far East** | 極東 | 町がある地域。 | 英語 |
+
+<a id="carthage"></a>
+### Carthage（カルタゴ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — カルタゴ（北アフリカの古代都市国家）
+
+- 📍 シーン: ハンニバルの国。ローマと戦ったポエニ戦争。
+- 💬 例文: *Carthage fought three wars against Rome.* — カルタゴはローマと3度戦った。
+- 📜 語源: フェニキア語 Qart-ḥadašt「新しい町」
+  - ローマに滅ぼされ、「カルタゴは滅ぼされねばならない」の言葉が残る。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hannibal** | ハンニバル | ゾウでアルプスを越えた将軍。 | フェニキア語 |
+| **Punic** | ポエニの | カルタゴの。 | ラテン語 Pūnicus |
+
+<a id="tel-aviv"></a>
+### Tel Aviv（テルアビブ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — テルアビブ（イスラエルの都市）
+
+- 📍 シーン: 地中海沿いの近代都市、ビーチ。
+- 💬 例文: *Tel Aviv is a city in Israel.* — テルアビブはイスラエルの都市だ。
+- 📜 語源: ヘブライ語 tel「丘（遺跡の丘）」+ aviv「春」
+  - ヘルツルの小説『古く新しい国』のヘブライ語訳の題名から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jaffa** | ヤッファ | 隣接する古い港町。 | ヘブライ語 |
+| **White City** | ホワイトシティ | 白い建物群からの愛称。 | 英語 |
+
+<a id="beirut"></a>
+### Beirut（ベイルート）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ベイルート（レバノンの首都）
+
+- 📍 シーン: 「中東のパリ」と呼ばれた町。
+- 💬 例文: *Beirut is the capital of Lebanon.* — ベイルートはレバノンの首都だ。
+- 📜 語源: フェニキア語 bʼrt「井戸」
+  - 内戦前は中東の金融と文化の中心だった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Paris of the Middle East** | 中東のパリ | 愛称。 | 英語 |
+| **Levant** | レバント | 町がある地方。 | フランス語 |
+
+<a id="brisbane"></a>
+### Brisbane（ブリスベン）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — ブリスベン（オーストラリアの都市）
+
+- 📍 シーン: 温暖な町、2032年夏季五輪の開催予定地。
+- 💬 例文: *Brisbane is a city in Australia.* — ブリスベンはオーストラリアの都市だ。
+- 📜 語源: 総督トマス・ブリスベンの名
+  - ゴールドコーストへの玄関口。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Brissie** | ブリシー | くだけた愛称。 | 英語 |
+| **Queensland** | クイーンズランド | 町がある州。 | 英語 |
+
+<a id="cusco"></a>
+### Cusco（クスコ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — クスコ（ペルーの都市）
+
+- 📍 シーン: インカ帝国の都、マチュピチュへの玄関口。
+- 💬 例文: *Cusco is a city in Peru.* — クスコはペルーの都市だ。
+- 📜 語源: ケチュア語 qusqu「へそ（中心）」
+  - 標高約3400mの高地にある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Cuzco** | クスコ | 別のつづり。 | スペイン語 |
+| **Machu Picchu** | マチュピチュ | 近くの遺跡。 | ケチュア語「古い峰」 |
+
+<a id="chernobyl"></a>
+### Chernobyl（チェルノブイリ）
+
+**地名** / Lv.7 大人の日常語 / CEFR C1 — チェルノブイリ（ウクライナの都市）
+
+- 📍 シーン: 1986年の原子力発電所事故。
+- 💬 例文: *Chernobyl is a city in Ukraine.* — チェルノブイリはウクライナの都市だ。
+- 📜 語源: ウクライナ語 Chornobyl（ヨモギの一種の名）
+  - ウクライナ語読みでは「チョルノービリ」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Chornobyl** | チョルノービリ | ウクライナ語での名。 | ウクライナ語 |
+| **Pripyat** | プリピャチ | 事故で無人になった近くの町。 | ウクライナ語 |
+
 ## Lv.8 ビジネス
 
 <a id="naive"></a>
@@ -52811,6 +61930,1218 @@
 | **element** | 元素 | 物質を作る基本成分。 | ラテン語 elementum |
 | **isotope** | 同位体 | 原子番号が同じで質量が違う原子。 | ギリシャ語 isos「同じ」+ topos「場所」 |
 
+<a id="wilhelmina"></a>
+### Wilhelmina（ウィルヘルミナ）
+
+**人名** / Lv.8 ビジネス / CEFR C1 — 女性名。Wilhelm（William）の女性形
+
+- 📍 シーン: オランダのウィルヘルミナ女王。
+- 💬 例文: *Queen Wilhelmina ruled the Netherlands for fifty years.* — ウィルヘルミナ女王は50年間オランダを治めた。
+- 📜 語源: ドイツ語・オランダ語 Wilhelm + 女性語尾 -ina
+  - 短い形は Mina、Willa、Wilma。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Wilma** | ウィルマ | 短くした女性名。 | Wilhelmina の短縮 |
+| **William** | ウィリアム | 男性形。 | ゲルマン語 wil + helm |
+
+<a id="crist-bal"></a>
+### Cristóbal（クリストバル）
+
+**人名（スペイン語）** / Lv.8 ビジネス / CEFR C1 — 男性名（スペイン語形）。英語の Christopher にあたる
+
+- 📍 シーン: スペインではコロンブスを Cristóbal Colón（クリストバル・コロン）と呼ぶ。
+- 💬 例文: *In Spanish, Columbus is called Cristóbal Colón.* — スペイン語でコロンブスはクリストバル・コロンと呼ばれる。
+- 📜 語源: ギリシャ語 Khristophoros → スペイン語 Cristóbal
+  - 国名コロンビア（Colombia）もコロンブスにちなむ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Christopher** | クリストファー（英語） | 英語形。 | 同じギリシャ語から |
+| **Christophe** | クリストフ（フランス語） | フランス語形。 | 同じギリシャ語から |
+
+<a id="riccardo"></a>
+### Riccardo（リッカルド）
+
+**人名（イタリア語）** / Lv.8 ビジネス / CEFR C1 — 男性名（イタリア語形）。英語の Richard にあたる
+
+- 📍 シーン: 指揮者リッカルド・ムーティ。
+- 💬 例文: *Riccardo Muti is a famous conductor.* — リッカルド・ムーティは有名な指揮者だ。
+- 📜 語源: ゲルマン語 Richard → イタリア語 Riccardo
+  - イタリア語は子音を重ねて強く読む（cc）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Richard** | リチャード（英語） | 英語形。 | 同じゲルマン語から |
+| **Ricardo** | リカルド（スペイン語） | スペイン語形。 | 同じゲルマン語から |
+
+<a id="filippo"></a>
+### Filippo（フィリッポ）
+
+**人名（イタリア語）** / Lv.8 ビジネス / CEFR C1 — 男性名（イタリア語形）。英語の Philip にあたる
+
+- 📍 シーン: ルネサンスの建築家フィリッポ・ブルネレスキ。
+- 💬 例文: *Filippo Brunelleschi built the great dome in Florence.* — フィリッポ・ブルネレスキはフィレンツェの大聖堂のドームを建てた。
+- 📜 語源: ギリシャ語 Philippos → イタリア語 Filippo
+  - イタリア語でも ph を f と書く。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Philip** | フィリップ（英語） | 英語形。 | 同じギリシャ語から |
+| **Felipe** | フェリペ（スペイン語） | スペイン語形。 | 同じギリシャ語から |
+
+<a id="persephone"></a>
+### Persephone（ペルセポネ）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — ペルセポネ（ギリシャ神話の冥界の女王。デメテルの娘）
+
+- 📍 シーン: ハデスにさらわれ、冥界のざくろを食べたため一年の一部を冥界で過ごす。
+- 💬 例文: *Persephone spends part of each year in the underworld.* — ペルセポネは毎年一時期を冥界で過ごす。
+- 📜 語源: ギリシャ語 Persephonē（語源不詳）
+  - 彼女が地上に戻ると春が来る、という季節の由来の神話。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Proserpina** | プロセルピナ（ローマ神話） | ローマ神話での呼び名。 | ラテン語 Prōserpina |
+| **Kore** | コレー | 「娘」を意味する呼び名。 | ギリシャ語 korē「少女」 |
+
+<a id="cronus"></a>
+### Cronus（クロノス）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — クロノス（ギリシャ神話のティタン族の王。ゼウスの父）
+
+- 📍 シーン: 自分の子を飲み込んだ神。ゴヤの絵『我が子を食らうサトゥルヌス』。
+- 💬 例文: *Cronus swallowed his children to keep his power.* — クロノスは権力を守るために自分の子どもたちを飲み込んだ。
+- 📜 語源: ギリシャ語 Kronos（語源不詳）
+  - 時間の神クロノス（Chronos）とは別の神だが、よく混同される。ローマ神話のサトゥルヌス（Saturn）にあたる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Saturn** | サトゥルヌス（ローマ神話） | ローマ神話で対応する神。土星の名前。 | ラテン語 Sāturnus |
+| **Kronos** | クロノス | 別のつづり。 | ギリシャ語 Kronos |
+
+<a id="selene"></a>
+### Selene（セレネ）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — セレネ（ギリシャ神話の月の女神）
+
+- 📍 シーン: 月探査機「かぐや」の正式名は SELENE（セレーネ）。
+- 💬 例文: *Selene drove the chariot of the moon at night.* — セレネは夜に月の戦車を走らせた。
+- 📜 語源: ギリシャ語 selēnē「月」
+  - 元素セレン（selenium）は月にちなんで名づけられた。ローマ神話のルナ（Luna）にあたる。
+- 🌳 同じ語源の仲間: selenium（セレン）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Luna** | ルナ（ローマ神話） | ローマ神話の月の女神。 | ラテン語 lūna「月」 |
+| **Artemis** | アルテミス | のちに月の女神とされた女神。 | ギリシャ語 Artemis |
+
+<a id="hypnos"></a>
+### Hypnos（ヒュプノス）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — ヒュプノス（ギリシャ神話の眠りの神）
+
+- 📍 シーン: hypnosis（催眠）の語源。
+- 💬 例文: *Hypnos was the god of sleep.* — ヒュプノスは眠りの神だった。
+- 📜 語源: ギリシャ語 hypnos「眠り」
+  - 死の神タナトスと双子。息子が夢の神モルペウス。
+- 🌳 同じ語源の仲間: hypnosis（催眠）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Morpheus** | モルペウス | 夢の神。ヒュプノスの息子。 | ギリシャ語 morphē「形」 |
+| **Thanatos** | タナトス | 死の神。ヒュプノスの双子。 | ギリシャ語 thanatos「死」 |
+
+<a id="morpheus"></a>
+### Morpheus（モルペウス）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — モルペウス（ギリシャ神話の夢の神）
+
+- 📍 シーン: 映画『マトリックス』のモーフィアス。
+- 💬 例文: *Morpheus shows people shapes in their dreams.* — モルペウスは夢の中で人々にさまざまな姿を見せる。
+- 📜 語源: ギリシャ語 morphē「形」
+  - 麻酔薬モルヒネ（morphine）はこの神の名から。
+- 🌳 同じ語源の仲間: morphine（モルヒネ）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hypnos** | ヒュプノス | 眠りの神。モルペウスの父。 | ギリシャ語 hypnos |
+| **dream** | 夢 | 眠っている間に見るもの。 | 古英語 drēam |
+
+<a id="ulysses"></a>
+### Ulysses（ユリシーズ）
+
+**神話** / Lv.8 ビジネス / CEFR C1 — ユリシーズ（オデュッセウスのラテン語名）
+
+- 📍 シーン: ジェイムズ・ジョイスの小説『ユリシーズ』。
+- 💬 例文: *James Joyce wrote a novel called Ulysses.* — ジェイムズ・ジョイスは『ユリシーズ』という小説を書いた。
+- 📜 語源: ラテン語 Ulixēs ← ギリシャ語 Odysseus（別の方言形）
+  - アメリカ大統領グラント（Ulysses S. Grant）の名前にもなった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Odysseus** | オデュッセウス | ギリシャ語での名前。 | ギリシャ語 Odysseus |
+| **odyssey** | 長い旅 | 彼の旅から生まれた語。 | ギリシャ語 Odysseia |
+
+<a id="orpheus"></a>
+### Orpheus（オルフェウス）
+
+**神話** / Lv.8 ビジネス / CEFR C1 — オルフェウス（竪琴の名手。冥界へ妻を迎えに行った）
+
+- 📍 シーン: オペラ『オルフェオとエウリディーチェ』、『天国と地獄』（地獄のオルフェ）。
+- 💬 例文: *Orpheus went to the underworld to bring back his wife.* — オルフェウスは妻を連れ戻すために冥界へ行った。
+- 📜 語源: ギリシャ語 Orpheus（語源不詳）
+  - 「振り返ってはいけない」という約束を破って妻を失う。日本神話のイザナギの話と似ている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Eurydice** | エウリュディケ | オルフェウスの妻。 | ギリシャ語 Eurydikē |
+| **lyre** | 竪琴 | 彼が弾いた楽器。 | ギリシャ語 lyra |
+
+<a id="oedipus"></a>
+### Oedipus（オイディプス）
+
+**神話** / Lv.8 ビジネス / CEFR C1 — オイディプス（知らずに父を殺し母と結婚したテーバイの王）
+
+- 📍 シーン: 精神分析の「エディプス・コンプレックス」。
+- 💬 例文: *Oedipus solved the riddle of the Sphinx.* — オイディプスはスフィンクスのなぞを解いた。
+- 📜 語源: ギリシャ語 Oidipous「はれた足」
+  - ソポクレスの悲劇『オイディプス王』で知られる。英語読みは「エディパス」。
+- 🌳 同じ語源の仲間: Oedipus complex（エディプス・コンプレックス）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Sphinx** | スフィンクス | オイディプスがなぞを解いた怪物。 | ギリシャ語 Sphinx |
+| **tragedy** | 悲劇 | 悲しい結末の劇。 | ギリシャ語 tragōidia |
+
+<a id="theseus"></a>
+### Theseus（テセウス）
+
+**神話** / Lv.8 ビジネス / CEFR C1 — テセウス（ミノタウロスを倒したアテネの英雄）
+
+- 📍 シーン: 哲学の「テセウスの船」のパラドックス。
+- 💬 例文: *Theseus used a ball of thread to find his way out.* — テセウスは糸玉を使って出口を見つけた。
+- 📜 語源: ギリシャ語 Thēseus（語源不詳）
+  - 部品を全部取り替えた船は同じ船か、という問いが「テセウスの船」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Minotaur** | ミノタウロス | テセウスが倒した怪物。 | ギリシャ語 Mīnōtauros |
+| **Ariadne** | アリアドネ | 糸玉を渡した王女。 | ギリシャ語 Ariadnē |
+
+<a id="ceres"></a>
+### Ceres（ケレス）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — ケレス（ローマ神話の農業の女神）。準惑星ケレス
+
+- 📍 シーン: 小惑星帯にある準惑星ケレス。
+- 💬 例文: *The word cereal comes from Ceres.* — cereal（穀物）という語はケレスから来ている。
+- 📜 語源: ラテン語 Cerēs（「育てる」と関連か）
+  - ギリシャ神話のデメテルにあたる。英語読みは「セリーズ」。
+- 🌳 同じ語源の仲間: cereal（穀物、シリアル）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Demeter** | デメテル（ギリシャ神話） | ギリシャ神話で対応する女神。 | ギリシャ語 Dēmētēr |
+| **harvest** | 収穫 | 作物を取り入れること。 | 古英語 hærfest |
+
+<a id="janus"></a>
+### Janus（ヤヌス）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — ヤヌス（ローマ神話の門と始まりの神。前後二つの顔をもつ）
+
+- 📍 シーン: 1月（January）の名前の由来。「二つの顔をもつ」のたとえ。
+- 💬 例文: *January is named after Janus, the god of beginnings.* — 1月は始まりの神ヤヌスにちなんで名づけられた。
+- 📜 語源: ラテン語 Iānus ← iānua「門、戸口」
+  - 過去と未来の両方を見る顔をもつ。Janus-faced は「二面性のある」。
+- 🌳 同じ語源の仲間: January（1月）、janitor（管理人）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **two-faced** | 裏表のある | 二つの顔をもつ。 | two + faced |
+| **gatekeeper** | 門番 | 門を守る者。 | gate + keeper |
+
+<a id="fortuna"></a>
+### Fortuna（フォルトゥナ）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — フォルトゥナ（ローマ神話の運命・幸運の女神）
+
+- 📍 シーン: 運命の車輪を回す女神。カール・オルフ『カルミナ・ブラーナ』の「おお、運命の女神よ」。
+- 💬 例文: *Fortuna turns the wheel of fortune.* — フォルトゥナは運命の車輪を回す。
+- 📜 語源: ラテン語 fortūna「運、幸運」← fors「偶然」
+  - fortune（幸運、財産）、fortunate（幸運な）はここから。
+- 🌳 同じ語源の仲間: fortune（幸運）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lady Luck** | 幸運の女神 | 運を人にたとえた言い方。 | 英語 |
+| **Tyche** | テュケ（ギリシャ神話） | ギリシャ神話の運命の女神。 | ギリシャ語 tykhē「運」 |
+
+<a id="yggdrasil"></a>
+### Yggdrasil（ユグドラシル）
+
+**神話** / Lv.8 ビジネス / CEFR C1 — ユグドラシル（北欧神話の九つの世界を支える世界樹）
+
+- 📍 シーン: ゲームや小説によく出てくる世界樹。
+- 💬 例文: *Yggdrasil connects the nine worlds.* — ユグドラシルは九つの世界をつなぐ。
+- 📜 語源: 古ノルド語 Yggdrasill「オーディンの馬」（Yggr はオーディンの別名）
+  - オーディンがこの木で首をつって知恵を得たことからの名という説がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **world tree** | 世界樹 | 世界を支える巨木。 | 英語 |
+| **ash tree** | トネリコ | ユグドラシルの木の種類。 | 古英語 æsc |
+
+<a id="fenrir"></a>
+### Fenrir（フェンリル）
+
+**神話** / Lv.8 ビジネス / CEFR C1 — フェンリル（北欧神話の巨大な狼。ロキの子）
+
+- 📍 シーン: ゲームの狼モンスター。
+- 💬 例文: *Fenrir will swallow Odin at the end of the world.* — 世界の終わりにフェンリルはオーディンを飲み込むという。
+- 📜 語源: 古ノルド語 Fenrir（「沼に住む者」の意味か）
+  - 神々は魔法のひもで縛ったが、テュールはその際に片手を失った。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **wolf** | 狼 | イヌ科の野生動物。 | 古英語 wulf |
+| **Loki** | ロキ | フェンリルの父。 | 古ノルド語 Loki |
+
+<a id="brahma"></a>
+### Brahma（ブラフマー）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — ブラフマー（ヒンドゥー教の創造神）
+
+- 📍 シーン: 仏教では梵天（ぼんてん）として日本に伝わった。
+- 💬 例文: *Brahma is the creator god in Hinduism.* — ブラフマーはヒンドゥー教の創造神だ。
+- 📜 語源: サンスクリット語 Brahmā ← brahman「宇宙の根本原理」
+  - ヴィシュヌ（維持）、シヴァ（破壊）と並ぶ三大神の一柱。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Vishnu** | ヴィシュヌ | 宇宙を維持する神。 | サンスクリット語 Viṣṇu |
+| **Bonten** | 梵天 | 日本での呼び名。 | サンスクリット語 Brahmā の音訳 |
+
+<a id="vishnu"></a>
+### Vishnu（ヴィシュヌ）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — ヴィシュヌ（ヒンドゥー教の世界を維持する神）
+
+- 📍 シーン: クリシュナやラーマはヴィシュヌの化身（アヴァターラ）とされる。
+- 💬 例文: *Vishnu takes many forms to protect the world.* — ヴィシュヌは世界を守るためにさまざまな姿をとる。
+- 📜 語源: サンスクリット語 Viṣṇu（語源不詳。「行き渡る者」の説）
+  - 化身を意味する avatar（アバター）はヴィシュヌ信仰の語。
+- 🌳 同じ語源の仲間: avatar（アバター）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Krishna** | クリシュナ | ヴィシュヌの化身。 | サンスクリット語 Kṛṣṇa「黒い」 |
+| **Shiva** | シヴァ | 破壊と再生の神。 | サンスクリット語 Śiva |
+
+<a id="indra"></a>
+### Indra（インドラ）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — インドラ（インド神話の雷と戦いの神）
+
+- 📍 シーン: 仏教では帝釈天（たいしゃくてん）として日本に伝わった。
+- 💬 例文: *Indra fought demons with his thunderbolt.* — インドラは雷の武器で悪魔と戦った。
+- 📜 語源: サンスクリット語 Indra（語源不詳）
+  - 古い神話では神々の王。柴又帝釈天は東京の名所。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Taishakuten** | 帝釈天 | 日本での呼び名。 | サンスクリット語 Śakra Devānām Indra の訳 |
+| **thunder god** | 雷神 | 雷をつかさどる神。 | 英語 |
+
+<a id="krishna"></a>
+### Krishna（クリシュナ）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — クリシュナ（ヒンドゥー教の神。ヴィシュヌの化身）
+
+- 📍 シーン: 聖典『バガヴァッド・ギーター』で教えを説く神。
+- 💬 例文: *Krishna teaches Arjuna in the Bhagavad Gita.* — クリシュナは『バガヴァッド・ギーター』でアルジュナに教えを説く。
+- 📜 語源: サンスクリット語 Kṛṣṇa「黒い、濃い青の」
+  - 青い肌で笛を吹く姿で描かれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Vishnu** | ヴィシュヌ | クリシュナがその化身とされる神。 | サンスクリット語 Viṣṇu |
+| **avatar** | 化身 | 神が姿を変えて現れたもの。 | サンスクリット語 avatāra「降りてくること」 |
+
+<a id="kali"></a>
+### Kali（カーリー）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — カーリー（ヒンドゥー教の破壊の女神）
+
+- 📍 シーン: 黒い肌で舌を出した恐ろしい姿の女神。コルカタ（カルカッタ）の名の由来とも。
+- 💬 例文: *Kali is a fierce goddess who destroys evil.* — カーリーは悪を滅ぼす恐ろしい女神だ。
+- 📜 語源: サンスクリット語 Kālī「黒い者、時の者」← kāla「時、黒」
+  - シヴァの妻の恐ろしい姿とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Durga** | ドゥルガー | 悪魔と戦う女神。 | サンスクリット語 Durgā「近づきがたい」 |
+| **Shiva** | シヴァ | カーリーの夫。 | サンスクリット語 Śiva |
+
+<a id="gilgamesh"></a>
+### Gilgamesh（ギルガメシュ）
+
+**神話** / Lv.8 ビジネス / CEFR C1 — ギルガメシュ（古代メソポタミアの英雄王）
+
+- 📍 シーン: 世界最古級の文学『ギルガメシュ叙事詩』の主人公。
+- 💬 例文: *The Epic of Gilgamesh is one of the oldest stories in the world.* — 『ギルガメシュ叙事詩』は世界最古の物語の一つだ。
+- 📜 語源: シュメール語 Bilgames（「祖先は英雄」などの説）
+  - 不老不死を求めて旅をする。大洪水の話がノアの方舟に似ている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Enkidu** | エンキドゥ | ギルガメシュの親友。 | シュメール語 |
+| **hero** | 英雄 | すぐれた勇者。 | ギリシャ語 hērōs |
+
+<a id="ishtar"></a>
+### Ishtar（イシュタル）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — イシュタル（古代メソポタミアの愛と戦いの女神）
+
+- 📍 シーン: バビロンのイシュタル門（ベルリンのペルガモン博物館に再現）。
+- 💬 例文: *The Ishtar Gate was the main entrance to Babylon.* — イシュタル門はバビロンの正門だった。
+- 📜 語源: アッカド語 Ištar
+  - シュメールではイナンナ（Inanna）と呼ばれた。金星の女神でもある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Inanna** | イナンナ | シュメールでの呼び名。 | シュメール語 |
+| **Venus** | ヴィーナス | 同じく金星と結びつく愛の女神。 | ラテン語 Venus |
+
+<a id="jehovah"></a>
+### Jehovah（エホバ）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — エホバ（旧約聖書の神の名 YHWH の読み方の一つ）
+
+- 📍 シーン: エホバの証人（Jehovah's Witnesses）。
+- 💬 例文: *Jehovah is one way of reading the Hebrew name of God.* — エホバはヘブライ語の神の名の読み方の一つだ。
+- 📜 語源: ヘブライ語 YHWH の子音に Adonai「主」の母音を当てた読み
+  - 神の名を口にしないよう「主」と読んだため、本来の発音は分からなくなった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Yahweh** | ヤハウェ | 学問的に推定された読み方。 | ヘブライ語 YHWH |
+| **the Lord** | 主 | 神の呼び名。 | 古英語 hlāford |
+
+<a id="yahweh"></a>
+### Yahweh（ヤハウェ）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — ヤハウェ（旧約聖書の神の名）
+
+- 📍 シーン: 聖書学で使われる神の名の読み方。
+- 💬 例文: *Scholars think the name was pronounced Yahweh.* — 学者たちはその名がヤハウェと発音されたと考えている。
+- 📜 語源: ヘブライ語 YHWH（「在る者」と関連か）
+  - 神の名の4文字 YHWH は「テトラグラマトン」と呼ばれる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Jehovah** | エホバ | 伝統的な読み方。 | ヘブライ語 YHWH |
+| **Elohim** | エロヒム | 聖書の神の別の呼び名。 | ヘブライ語 ʼĕlōhīm「神」 |
+
+<a id="beelzebub"></a>
+### Beelzebub（ベルゼブブ）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — ベルゼブブ（悪魔の一人。「ハエの王」）
+
+- 📍 シーン: ゲームや漫画の魔王の名前。ゴールディング『蝿の王』。
+- 💬 例文: *Beelzebub is sometimes called the Lord of the Flies.* — ベルゼブブは「ハエの王」と呼ばれることがある。
+- 📜 語源: ヘブライ語 Baʻal Zəḇūḇ「ハエの主」
+  - もとはペリシテ人の神バアルの呼び名を悪く言い換えたものとされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **demon** | 悪魔 | 悪霊。 | ギリシャ語 daimōn |
+| **Satan** | サタン | 悪魔の長。 | ヘブライ語 śāṭān |
+
+<a id="uriel"></a>
+### Uriel（ウリエル）
+
+**神名** / Lv.8 ビジネス / CEFR C1 — ウリエル（四大天使の一人とされる天使）
+
+- 📍 シーン: ゲームや小説の天使の名前。
+- 💬 例文: *Uriel is often listed as one of the four archangels.* — ウリエルはよく四大天使の一人に数えられる。
+- 📜 語源: ヘブライ語 ʼŪrīʼēl「神は私の光」
+  - ミカエル、ガブリエル、ラファエルと並べられることが多い。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **archangel** | 大天使 | 位の高い天使。 | ギリシャ語 arkhangelos |
+| **Michael** | ミカエル | 同じく大天使。 | ヘブライ語 Mīkhāʼēl |
+
+<a id="behemoth"></a>
+### Behemoth（ベヒモス）
+
+**神話** / Lv.8 ビジネス / CEFR C1 — ベヒモス（聖書の陸の巨大な怪物）
+
+- 📍 シーン: ゲームのモンスター。英語で「巨大な組織・もの」のたとえ。
+- 💬 例文: *The company became a behemoth of the tech industry.* — その会社はIT業界の巨人になった。
+- 📜 語源: ヘブライ語 bəhēmōṯ「獣たち」（複数形）
+  - 海のレヴィアタンと対になる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Leviathan** | レヴィアタン | 海の巨大な怪物。 | ヘブライ語 Liwyāṯān |
+| **giant** | 巨人 | とても大きなもの。 | ギリシャ語 gigas |
+
+<a id="bosnia-and-herzegovina"></a>
+### Bosnia and Herzegovina（ボスニア・ヘルツェゴビナ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ボスニア・ヘルツェゴビナ
+
+- 📍 シーン: 首都サラエボ。第一次世界大戦のきっかけとなったサラエボ事件の地。
+- 💬 例文: *Sarajevo is the capital of Bosnia and Herzegovina.* — サラエボはボスニア・ヘルツェゴビナの首都だ。
+- 📜 語源: Bosnia（ボスナ川から）+ Herzegovina（「公爵の土地」← ドイツ語 Herzog「公爵」）
+  - 1990年代に激しい内戦があった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bosnia** | ボスニア | 略した呼び名。 | ボスナ川の名から |
+| **Sarajevo** | サラエボ | 首都。 | トルコ語 saray「宮殿」 |
+
+<a id="montenegro"></a>
+### Montenegro（モンテネグロ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — モンテネグロ
+
+- 📍 シーン: アドリア海に面した小国。
+- 💬 例文: *Montenegro means "black mountain."* — モンテネグロは「黒い山」という意味だ。
+- 📜 語源: イタリア語（ベネチア語）monte negro「黒い山」
+  - 自国語では Crna Gora（ツルナ・ゴーラ、同じく「黒い山」）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Crna Gora** | ツルナ・ゴーラ | 自国語での国名。 | 「黒い山」 |
+| **Balkans** | バルカン | この地域の呼び名。 | トルコ語 balkan |
+
+<a id="north-macedonia"></a>
+### North Macedonia（北マケドニア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — 北マケドニア
+
+- 📍 シーン: アレクサンドロス大王の古代マケドニアとは別の地域が中心。
+- 💬 例文: *Macedonia changed its name to North Macedonia in 2019.* — マケドニアは2019年に国名を北マケドニアに変えた。
+- 📜 語源: ギリシャ語 Makedonia（語源不詳。「背の高い人々」の説）
+  - 隣国ギリシャとの国名をめぐる争いを解決するために改名した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Macedonia** | マケドニア | 旧国名・地域名。 | ギリシャ語 Makedonia |
+| **Skopje** | スコピエ | 首都。 | ラテン語 Scupi |
+
+<a id="albania"></a>
+### Albania（アルバニア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — アルバニア
+
+- 📍 シーン: 首都ティラナ。長く鎖国状態にあった。
+- 💬 例文: *Albania is on the coast of the Adriatic Sea.* — アルバニアはアドリア海の沿岸にある。
+- 📜 語源: 中世ラテン語 Albania（アルバノイ族の名）
+  - 自国語では Shqipëria（シュチパリア、「ワシの国」とされる）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Shqipëria** | シュチパリア | アルバニア語での国名。 | アルバニア語 |
+| **Balkans** | バルカン | この地域の呼び名。 | トルコ語 balkan |
+
+<a id="moldova"></a>
+### Moldova（モルドバ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — モルドバ
+
+- 📍 シーン: ルーマニアとウクライナにはさまれた内陸国。ワインの産地。
+- 💬 例文: *Moldova is famous for its wine cellars.* — モルドバはワインの貯蔵庫で有名だ。
+- 📜 語源: モルドバ川の名から
+  - ルーマニア語とほぼ同じ言語を話す。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Moldavia** | モルダビア | 歴史的な地方名。 | ラテン語化した形 |
+| **Romania** | ルーマニア | 言葉の近い隣国。 | ルーマニア語 România |
+
+<a id="andorra"></a>
+### Andorra（アンドラ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — アンドラ
+
+- 📍 シーン: フランスとスペインにはさまれたピレネー山中の小国。
+- 💬 例文: *Andorra is a tiny country in the Pyrenees.* — アンドラはピレネー山脈にある小さな国だ。
+- 📜 語源: 語源不詳（バスク語やアラビア語などの説）
+  - フランス大統領とスペインの司教が共同元首という珍しい国。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **principality** | 公国 | 大公が治める小さな国。 | ラテン語 prīncipālitās |
+| **Pyrenees** | ピレネー山脈 | 国がある山脈。 | ギリシャ語 Pyrēnē |
+
+<a id="liechtenstein"></a>
+### Liechtenstein（リヒテンシュタイン）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — リヒテンシュタイン
+
+- 📍 シーン: スイスとオーストリアの間の小国。切手で有名。
+- 💬 例文: *Liechtenstein has no army.* — リヒテンシュタインには軍隊がない。
+- 📜 語源: 君主家リヒテンシュタイン家の名（ドイツ語「明るい石」）
+  - 国名が君主の家名から来ている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **principality** | 公国 | 大公が治める小さな国。 | ラテン語 prīncipālitās |
+| **Alps** | アルプス | 国がある山脈。 | ラテン語 Alpēs |
+
+<a id="san-marino"></a>
+### San Marino（サンマリノ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — サンマリノ
+
+- 📍 シーン: イタリアの中にある世界最古の共和国とされる国。
+- 💬 例文: *San Marino is surrounded by Italy.* — サンマリノはイタリアに囲まれている。
+- 📜 語源: 聖マリヌス（Saint Marinus）の名から
+  - 301年に石工マリヌスが開いたと伝わる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Most Serene Republic** | 最も静穏なる共和国 | 正式名の一部。 | 英語 |
+| **enclave** | 飛び地 | 他国に囲まれた領土。 | フランス語 enclaver「囲む」 |
+
+<a id="azerbaijan"></a>
+### Azerbaijan（アゼルバイジャン）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — アゼルバイジャン
+
+- 📍 シーン: カスピ海沿岸の産油国。「火の国」。首都バクー。
+- 💬 例文: *Azerbaijan is called the Land of Fire.* — アゼルバイジャンは火の国と呼ばれる。
+- 📜 語源: 古代の地方名 Atropatene（将軍アトロパテスの名）
+  - 天然ガスが地面から燃え続ける場所がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Land of Fire** | 火の国 | 愛称。 | 英語 |
+| **Baku** | バクー | 首都。 | ペルシア語 |
+
+<a id="turkmenistan"></a>
+### Turkmenistan（トルクメニスタン）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — トルクメニスタン
+
+- 📍 シーン: 燃え続けるガスのクレーター「地獄の門」。
+- 💬 例文: *The Door to Hell is a burning crater in Turkmenistan.* — 「地獄の門」はトルクメニスタンにある燃えるクレーターだ。
+- 📜 語源: トルクメン人 + -stan「国」
+  - 永世中立国。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **-stan** | 〜スタン | 「国、土地」を表す語尾。 | ペルシア語 -stān |
+| **Central Asia** | 中央アジア | この地域の呼び名。 | 英語 |
+
+<a id="kyrgyzstan"></a>
+### Kyrgyzstan（キルギス）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — キルギス（キルギスタン）
+
+- 📍 シーン: 天山山脈、湖イシク・クル。
+- 💬 例文: *Kyrgyzstan is a mountainous country in Central Asia.* — キルギスは中央アジアの山がちな国だ。
+- 📜 語源: キルギス人（「40の部族」の説）+ -stan「国」
+  - 日本では「キルギス」と呼ぶのが普通。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kyrgyz Republic** | キルギス共和国 | 正式な国名。 | 英語 |
+| **Central Asia** | 中央アジア | この地域の呼び名。 | 英語 |
+
+<a id="tajikistan"></a>
+### Tajikistan（タジキスタン）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — タジキスタン
+
+- 📍 シーン: パミール高原、「世界の屋根」。
+- 💬 例文: *Most of Tajikistan is covered by mountains.* — タジキスタンの大部分は山に覆われている。
+- 📜 語源: タジク人 + -stan「国」
+  - 中央アジアで唯一ペルシア語系の言葉を話す。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **-stan** | 〜スタン | 「国、土地」を表す語尾。 | ペルシア語 -stān |
+| **Pamirs** | パミール | 国にある高原。 | 語源不詳 |
+
+<a id="south-sudan"></a>
+### South Sudan（南スーダン）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — 南スーダン
+
+- 📍 シーン: 2011年に独立した、世界で最も新しい国の一つ。
+- 💬 例文: *South Sudan became independent in 2011.* — 南スーダンは2011年に独立した。
+- 📜 語源: South「南の」+ Sudan
+  - 首都ジュバ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Juba** | ジュバ | 首都。 | 語源不詳 |
+| **Sudan** | スーダン | 分離前の国。 | アラビア語 |
+
+<a id="eritrea"></a>
+### Eritrea（エリトリア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — エリトリア
+
+- 📍 シーン: 紅海に面した国。1993年にエチオピアから独立。
+- 💬 例文: *Eritrea is on the coast of the Red Sea.* — エリトリアは紅海の沿岸にある。
+- 📜 語源: ギリシャ語 erythra thalassa「赤い海（紅海）」
+  - イタリアの植民地時代に名づけられた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Red Sea** | 紅海 | 国名の由来となった海。 | 英語 |
+| **Asmara** | アスマラ | 首都。 | ティグリニャ語 |
+
+<a id="djibouti"></a>
+### Djibouti（ジブチ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ジブチ
+
+- 📍 シーン: 紅海の入口にある小国。自衛隊の拠点がある。
+- 💬 例文: *Djibouti is a small country at the entrance to the Red Sea.* — ジブチは紅海の入口にある小さな国だ。
+- 📜 語源: 語源不詳（アファル語「皿」の説など）
+  - 首都も同じジブチ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Horn of Africa** | アフリカの角 | この地域の呼び名。 | 英語 |
+| **Red Sea** | 紅海 | 国が面する海。 | 英語 |
+
+<a id="niger"></a>
+### Niger（ニジェール）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ニジェール
+
+- 📍 シーン: サハラ砂漠南縁の国。ニジェール川が流れる。
+- 💬 例文: *Niger is named after the Niger River.* — ニジェールはニジェール川にちなんで名づけられた。
+- 📜 語源: トゥアレグ語 gher n-gheren「川の中の川」の説
+  - 隣のナイジェリアと同じ川の名前から。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Niger River** | ニジェール川 | 国名の元の川。 | トゥアレグ語の説 |
+| **Niamey** | ニアメ | 首都。 | 語源不詳 |
+
+<a id="mauritania"></a>
+### Mauritania（モーリタニア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — モーリタニア
+
+- 📍 シーン: 日本で食べるタコの多くが輸入される国。
+- 💬 例文: *Many octopuses eaten in Japan come from Mauritania.* — 日本で食べるタコの多くはモーリタニアから来ている。
+- 📜 語源: 古代ローマの属州 Mauretania（ムーア人の国）
+  - Moor（ムーア人）と同じ語源。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Moor** | ムーア人 | 北西アフリカのイスラム教徒。 | ラテン語 Maurus |
+| **Nouakchott** | ヌアクショット | 首都。 | ベルベル語 |
+
+<a id="guinea-country"></a>
+### Guinea（ギニア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ギニア
+
+- 📍 シーン: ボーキサイトの産地。
+- 💬 例文: *Guinea is rich in bauxite.* — ギニアはボーキサイトが豊富だ。
+- 📜 語源: ポルトガル語 Guiné（西アフリカ一帯の呼び名。ベルベル語「黒い人々」の説）
+  - 英国の旧金貨ギニー（guinea）はこの地の金で作られた。
+- 🌳 同じ語源の仲間: guinea（ギニー金貨）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Conakry** | コナクリ | 首都。 | 語源不詳 |
+| **Guinea-Bissau** | ギニアビサウ | 隣の別の国。 | Guinea + 首都ビサウ |
+
+<a id="liberia"></a>
+### Liberia（リベリア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — リベリア
+
+- 📍 シーン: アメリカの解放奴隷が建てた国。首都モンロビア。
+- 💬 例文: *Liberia was founded by freed slaves from America.* — リベリアはアメリカから来た解放奴隷によって建てられた。
+- 📜 語源: ラテン語 līber「自由な」
+  - 首都モンロビアは米大統領モンローにちなむ。
+- 🌳 同じ語源の仲間: liberty（自由）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Monrovia** | モンロビア | 首都。 | James Monroe の名から |
+| **land of the free** | 自由の国 | 国名の意味。 | 英語 |
+
+<a id="chad-country"></a>
+### Chad（チャド）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — チャド
+
+- 📍 シーン: サハラ砂漠とチャド湖。
+- 💬 例文: *Chad is named after Lake Chad.* — チャドはチャド湖にちなんで名づけられた。
+- 📜 語源: カヌリ語 tsâde「湖」
+  - 湖の名前が国名になった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lake Chad** | チャド湖 | 国名の元の湖。 | カヌリ語 |
+| **N'Djamena** | ンジャメナ | 首都。 | アラビア語「休息の地」 |
+
+<a id="mozambique"></a>
+### Mozambique（モザンビーク）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — モザンビーク
+
+- 📍 シーン: ポルトガル語を話すインド洋沿岸の国。
+- 💬 例文: *Mozambique is on the coast of the Indian Ocean.* — モザンビークはインド洋の沿岸にある。
+- 📜 語源: 島の支配者ムーサ・ビン・ビーク（Mussa Bin Bique）の名から
+  - 国旗にライフル銃が描かれている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Maputo** | マプト | 首都。 | 語源不詳 |
+| **Lusophone Africa** | ポルトガル語圏アフリカ | ポルトガル語を話すアフリカ諸国。 | 英語 |
+
+<a id="mauritius"></a>
+### Mauritius（モーリシャス）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — モーリシャス
+
+- 📍 シーン: インド洋の楽園、絶滅した鳥ドードーのすみか。
+- 💬 例文: *The dodo once lived on Mauritius.* — ドードーはかつてモーリシャスに住んでいた。
+- 📜 語源: オランダの総督マウリッツ（Maurits）の名から
+  - 作家マーク・トウェインが「神はモーリシャスをまねて天国を作った」と書いた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **dodo** | ドードー | 絶滅した飛べない鳥。 | ポルトガル語 doudo「ばか」 |
+| **Port Louis** | ポートルイス | 首都。 | フランス王ルイ15世から |
+
+<a id="seychelles"></a>
+### Seychelles（セーシェル）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — セーシェル
+
+- 📍 シーン: インド洋の島国。ゾウガメ、高級リゾート。
+- 💬 例文: *The Seychelles has beautiful white beaches.* — セーシェルには美しい白い砂浜がある。
+- 📜 語源: フランスの財務総監セシェル（Moreau de Séchelles）の名から
+  - 首都はビクトリア。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Victoria** | ビクトリア | 首都。 | 人名 |
+| **Indian Ocean** | インド洋 | 国がある海。 | 英語 |
+
+<a id="namibia"></a>
+### Namibia（ナミビア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ナミビア
+
+- 📍 シーン: 赤い砂丘のナミブ砂漠。
+- 💬 例文: *The Namib Desert in Namibia has huge red sand dunes.* — ナミビアのナミブ砂漠には巨大な赤い砂丘がある。
+- 📜 語源: ナミブ砂漠（ナマ語「広大な場所」）の名から
+  - 世界最古の砂漠とも言われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Namib** | ナミブ砂漠 | 国名の元になった砂漠。 | ナマ語 |
+| **Windhoek** | ウィントフック | 首都。 | アフリカーンス語「風の角」 |
+
+<a id="botswana"></a>
+### Botswana（ボツワナ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ボツワナ
+
+- 📍 シーン: カラハリ砂漠、ダイヤモンド、ゾウの多い国。
+- 💬 例文: *Botswana has more elephants than any other country.* — ボツワナにはほかのどの国よりも多くのゾウがいる。
+- 📜 語源: ツワナ人（Tswana）の国
+  - 独立後にダイヤモンドの発見で大きく発展した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kalahari** | カラハリ砂漠 | 国土の大半を占める砂漠。 | ツワナ語「大いなる渇き」 |
+| **Gaborone** | ハボローネ | 首都。 | 人名 |
+
+<a id="belize"></a>
+### Belize（ベリーズ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ベリーズ
+
+- 📍 シーン: 中米で唯一英語が公用語の国。グレート・ブルーホール。
+- 💬 例文: *English is the official language of Belize.* — ベリーズでは英語が公用語だ。
+- 📜 語源: ベリーズ川の名から（語源不詳）
+  - 旧名は英領ホンジュラス。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **British Honduras** | 英領ホンジュラス | 旧名。 | 英語 |
+| **Belmopan** | ベルモパン | 首都。 | Belize + Hopan |
+
+<a id="honduras"></a>
+### Honduras（ホンジュラス）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ホンジュラス
+
+- 📍 シーン: バナナの輸出国。マヤ遺跡コパン。
+- 💬 例文: *Honduras means "depths" in Spanish.* — ホンジュラスはスペイン語で「深み」という意味だ。
+- 📜 語源: スペイン語 honduras「深み」
+  - コロンブスが沖の深い海に苦労したことからとされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Tegucigalpa** | テグシガルパ | 首都。 | ナワトル語 |
+| **Central America** | 中米 | この地域の呼び名。 | 英語 |
+
+<a id="el-salvador"></a>
+### El Salvador（エルサルバドル）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — エルサルバドル
+
+- 📍 シーン: 中米で最も小さい国。コーヒーの産地。
+- 💬 例文: *El Salvador means "The Savior" in Spanish.* — エルサルバドルはスペイン語で「救世主」という意味だ。
+- 📜 語源: スペイン語 El Salvador「救い主（キリスト）」
+  - 首都サンサルバドル。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **San Salvador** | サンサルバドル | 首都。 | スペイン語「聖なる救い主」 |
+| **Central America** | 中米 | この地域の呼び名。 | 英語 |
+
+<a id="nicaragua"></a>
+### Nicaragua（ニカラグア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ニカラグア
+
+- 📍 シーン: 湖と火山の国。
+- 💬 例文: *Nicaragua has the largest lake in Central America.* — ニカラグアには中米最大の湖がある。
+- 📜 語源: 先住民の首長ニカラオ（Nicarao）+ スペイン語 agua「水」
+  - 首都マナグア。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Managua** | マナグア | 首都。 | 先住民の言葉 |
+| **Central America** | 中米 | この地域の呼び名。 | 英語 |
+
+<a id="barbados"></a>
+### Barbados（バルバドス）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — バルバドス
+
+- 📍 シーン: 歌手リアーナの出身地。
+- 💬 例文: *Rihanna was born in Barbados.* — リアーナはバルバドスで生まれた。
+- 📜 語源: ポルトガル語 barbados「ひげのある（者たち）」
+  - ひげのように垂れたイチジクの根からの名とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bridgetown** | ブリッジタウン | 首都。 | 英語 |
+| **Caribbean** | カリブ | この地域。 | カリブ族の名 |
+
+<a id="papua-new-guinea"></a>
+### Papua New Guinea（パプアニューギニア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — パプアニューギニア
+
+- 📍 シーン: 800以上の言語がある国。
+- 💬 例文: *More than 800 languages are spoken in Papua New Guinea.* — パプアニューギニアでは800以上の言語が話されている。
+- 📜 語源: マレー語 papuwah「縮れた（髪）」+ New Guinea（アフリカのギニアに似ていたことから）
+  - 世界で最も言語の多い国。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Port Moresby** | ポートモレスビー | 首都。 | 人名 |
+| **Melanesia** | メラネシア | この地域の呼び名。 | ギリシャ語「黒い島々」 |
+
+<a id="palau"></a>
+### Palau（パラオ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — パラオ
+
+- 📍 シーン: ダイビングの名所、元日本の委任統治領。
+- 💬 例文: *Many Japanese words are still used in Palau.* — パラオでは今も多くの日本語が使われている。
+- 📜 語源: パラオ語 Belau（語源不詳）
+  - 「ダイジョウブ」などの日本語由来の言葉が残っている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Belau** | ベラウ | パラオ語での国名。 | パラオ語 |
+| **Micronesia** | ミクロネシア | この地域の呼び名。 | ギリシャ語「小さな島々」 |
+
+<a id="micronesia"></a>
+### Micronesia（ミクロネシア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ミクロネシア（地域名、およびミクロネシア連邦）
+
+- 📍 シーン: 太平洋西部の小さな島々の地域。
+- 💬 例文: *Micronesia means "small islands."* — ミクロネシアは「小さな島々」という意味だ。
+- 📜 語源: ギリシャ語 mikros「小さい」+ nēsos「島」
+  - microscope（顕微鏡）と同じ mikros。
+- 🌳 同じ語源の仲間: micro-（小さい）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Federated States of Micronesia** | ミクロネシア連邦 | 国名。 | 英語 |
+| **Polynesia** | ポリネシア | となりの地域「多くの島々」。 | ギリシャ語 poly + nēsos |
+
+<a id="levant"></a>
+### Levant（レバント）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — レバント（地中海東岸地方）
+
+- 📍 シーン: シリア・レバノン・イスラエル・ヨルダンの一帯。
+- 💬 例文: *The Levant is an old name for the eastern Mediterranean.* — レバントは地中海東岸の古い呼び名だ。
+- 📜 語源: フランス語 levant「（日が）昇る」
+  - イタリアから見て日の昇る方角だったことから。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Middle East** | 中東 | より広い地域名。 | 英語 |
+| **Near East** | 近東 | 古い呼び名。 | 英語 |
+
+<a id="melanesia"></a>
+### Melanesia（メラネシア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — メラネシア（太平洋西南部の島々）
+
+- 📍 シーン: パプアニューギニア、フィジー、ソロモン諸島など。
+- 💬 例文: *Fiji is part of Melanesia.* — フィジーはメラネシアの一部だ。
+- 📜 語源: ギリシャ語 melas「黒い」+ nēsos「島」
+  - 住む人々の肌の色から名づけられた。melanin（メラニン）と同じ melas。
+- 🌳 同じ語源の仲間: melanin（メラニン）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Polynesia** | ポリネシア | 「多くの島々」の地域。 | ギリシャ語 |
+| **Micronesia** | ミクロネシア | 「小さな島々」の地域。 | ギリシャ語 |
+
+<a id="anatolia"></a>
+### Anatolia（アナトリア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — アナトリア（小アジア。トルコのアジア側）
+
+- 📍 シーン: カッパドキア、トロイ遺跡。
+- 💬 例文: *Most of Turkey lies in Anatolia.* — トルコの大部分はアナトリアにある。
+- 📜 語源: ギリシャ語 anatolē「日の出、東」
+  - 「東の地」という意味。トルコ語では Anadolu。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Asia Minor** | 小アジア | 古い呼び名。 | ラテン語 |
+| **Anadolu** | アナドル | トルコ語での名。 | トルコ語 |
+
+<a id="arkansas"></a>
+### Arkansas（アーカンソー）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — アーカンソー州（アメリカ南部の州）
+
+- 📍 シーン: ビル・クリントン元大統領の出身地。州都はリトルロック。
+- 💬 例文: *Little Rock is the capital of Arkansas.* — リトルロックはアーカンソー州の州都だ。
+- 📜 語源: 先住民の名（フランス語経由）
+  - つづりに反して最後の s は読まず「アーカンソー」。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Natural State** | 自然の州 | 州の愛称。 | 英語 |
+| **AR** | AR（略号） | 郵便などで使う2文字の州の略号。 | Arkansas の略 |
+
+<a id="delaware"></a>
+### Delaware（デラウェア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — デラウェア州（アメリカ東部の小さな州）
+
+- 📍 シーン: 合衆国憲法を最初に批准した州。州都はドーバー。
+- 💬 例文: *Dover is the capital of Delaware.* — ドーバーはデラウェア州の州都だ。
+- 📜 語源: 英国の総督デ・ラ・ウォール卿（Lord De La Warr）の名
+  - ぶどうの品種デラウェアは、オハイオ州にある同じ名前の町にちなむ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **First State** | 最初の州 | 州の愛称。 | 英語 |
+| **DE** | DE（略号） | 郵便などで使う2文字の州の略号。 | Delaware の略 |
+
+<a id="idaho"></a>
+### Idaho（アイダホ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — アイダホ州（アメリカ北西部の州）
+
+- 📍 シーン: ジャガイモの産地。州都はボイシ。
+- 💬 例文: *Boise is the capital of Idaho.* — ボイシはアイダホ州の州都だ。
+- 📜 語源: 語源不詳（先住民の言葉とされたが創作の説）
+  - アメリカのジャガイモの約3分の1を生産する。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gem State** | 宝石の州 | 州の愛称。 | 英語 |
+| **ID** | ID（略号） | 郵便などで使う2文字の州の略号。 | Idaho の略 |
+
+<a id="nebraska"></a>
+### Nebraska（ネブラスカ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ネブラスカ州（アメリカ中部の州）
+
+- 📍 シーン: 投資家ウォーレン・バフェットの住むオマハ。州都はリンカーン。
+- 💬 例文: *Lincoln is the capital of Nebraska.* — リンカーンはネブラスカ州の州都だ。
+- 📜 語源: オトー語「平らな水」（プラット川）
+  - 大平原の農業州。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Cornhusker State** | トウモロコシの皮むき州 | 州の愛称。 | 英語 |
+| **NE** | NE（略号） | 郵便などで使う2文字の州の略号。 | Nebraska の略 |
+
+<a id="new-hampshire"></a>
+### New Hampshire（ニューハンプシャー）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ニューハンプシャー州（アメリカ北東部の州）
+
+- 📍 シーン: 大統領予備選の最初の州。州都はコンコード。
+- 💬 例文: *Concord is the capital of New Hampshire.* — コンコードはニューハンプシャー州の州都だ。
+- 📜 語源: イングランドのハンプシャー州の名
+  - 州のモットーは Live Free or Die（自由か死か）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Granite State** | 花崗岩の州 | 州の愛称。 | 英語 |
+| **NH** | NH（略号） | 郵便などで使う2文字の州の略号。 | New Hampshire の略 |
+
+<a id="north-dakota"></a>
+### North Dakota（ノースダコタ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ノースダコタ州（アメリカ北部の州）
+
+- 📍 シーン: 広大な小麦畑。州都はビスマーク。
+- 💬 例文: *Bismarck is the capital of North Dakota.* — ビスマークはノースダコタ州の州都だ。
+- 📜 語源: ダコタ族の名（「友」）
+  - アメリカ本土で最も訪れる人が少ない州と言われる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Peace Garden State** | 平和の庭の州 | 州の愛称。 | 英語 |
+| **ND** | ND（略号） | 郵便などで使う2文字の州の略号。 | North Dakota の略 |
+
+<a id="rhode-island"></a>
+### Rhode Island（ロードアイランド）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ロードアイランド州（アメリカ北東部の最小の州）
+
+- 📍 シーン: アメリカで最も小さい州。州都はプロビデンス。
+- 💬 例文: *Providence is the capital of Rhode Island.* — プロビデンスはロードアイランド州の州都だ。
+- 📜 語源: オランダ語 roodt eylandt「赤い島」の説
+  - 名前に反して大部分は島ではない。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ocean State** | 海の州 | 州の愛称。 | 英語 |
+| **RI** | RI（略号） | 郵便などで使う2文字の州の略号。 | Rhode Island の略 |
+
+<a id="south-dakota"></a>
+### South Dakota（サウスダコタ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — サウスダコタ州（アメリカ北部の州）
+
+- 📍 シーン: 大統領の顔を彫ったラシュモア山。州都はピア。
+- 💬 例文: *Pierre is the capital of South Dakota.* — ピアはサウスダコタ州の州都だ。
+- 📜 語源: ダコタ族の名（「友」）
+  - 4人の大統領の顔が山肌に彫られている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mount Rushmore State** | ラシュモア山の州 | 州の愛称。 | 英語 |
+| **SD** | SD（略号） | 郵便などで使う2文字の州の略号。 | South Dakota の略 |
+
+<a id="vermont"></a>
+### Vermont（バーモント）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — バーモント州（アメリカ北東部の州）
+
+- 📍 シーン: メープルシロップ、ベン＆ジェリーズ。州都はモントピーリア。
+- 💬 例文: *Montpelier is the capital of Vermont.* — モントピーリアはバーモント州の州都だ。
+- 📜 語源: フランス語 vert mont「緑の山」
+  - アメリカで最もメープルシロップを作る州。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Green Mountain State** | 緑の山の州 | 州の愛称。 | 英語 |
+| **VT** | VT（略号） | 郵便などで使う2文字の州の略号。 | Vermont の略 |
+
+<a id="west-virginia"></a>
+### West Virginia（ウェストバージニア）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ウェストバージニア州（アメリカ東部の山の州）
+
+- 📍 シーン: ジョン・デンバーの歌『カントリー・ロード』。州都はチャールストン。
+- 💬 例文: *Charleston is the capital of West Virginia.* — チャールストンはウェストバージニア州の州都だ。
+- 📜 語源: West + Virginia
+  - 南北戦争中にバージニアから分かれてできた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Mountain State** | 山の州 | 州の愛称。 | 英語 |
+| **WV** | WV（略号） | 郵便などで使う2文字の州の略号。 | West Virginia の略 |
+
+<a id="wisconsin"></a>
+### Wisconsin（ウィスコンシン）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ウィスコンシン州（アメリカ五大湖の州）
+
+- 📍 シーン: チーズと乳製品。州都はマディソン。
+- 💬 例文: *Madison is the capital of Wisconsin.* — マディソンはウィスコンシン州の州都だ。
+- 📜 語源: 先住民の言葉（「赤い石の間を流れる川」などの説）
+  - ファンは頭にチーズ形の帽子をかぶる（cheesehead）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Badger State** | アナグマの州 | 州の愛称。 | 英語 |
+| **WI** | WI（略号） | 郵便などで使う2文字の州の略号。 | Wisconsin の略 |
+
+<a id="wyoming"></a>
+### Wyoming（ワイオミング）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ワイオミング州（アメリカ西部の州）
+
+- 📍 シーン: 世界初の国立公園イエローストーン。州都はシャイアン。
+- 💬 例文: *Cheyenne is the capital of Wyoming.* — シャイアンはワイオミング州の州都だ。
+- 📜 語源: デラウェア語「大きな平原」
+  - 人口がアメリカで最も少ない州。女性の参政権を最初に認めた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Equality State** | 平等の州 | 州の愛称。 | 英語 |
+| **WY** | WY（略号） | 郵便などで使う2文字の州の略号。 | Wyoming の略 |
+
+<a id="milwaukee"></a>
+### Milwaukee（ミルウォーキー）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — ミルウォーキー（アメリカの都市）
+
+- 📍 シーン: ビールの町、ハーレーダビッドソン本社。
+- 💬 例文: *Milwaukee is a city in the United States.* — ミルウォーキーはアメリカの都市だ。
+- 📜 語源: 先住民の言葉「良い土地」「集まる場所」の説
+  - ドイツ系移民が多く、ビール醸造で栄えた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Brew City** | ブリューシティ | ビールの町の愛称。 | 英語 |
+| **Wisconsin** | ウィスコンシン | 町がある州。 | 先住民の言葉 |
+
+<a id="karachi"></a>
+### Karachi（カラチ）
+
+**地名** / Lv.8 ビジネス / CEFR C1 — カラチ（パキスタンの都市）
+
+- 📍 シーン: パキスタン最大の都市・港。
+- 💬 例文: *Karachi is a city in Pakistan.* — カラチはパキスタンの都市だ。
+- 📜 語源: 漁村コラチ（Kolachi）の名
+  - 独立当初の首都だった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Islamabad** | イスラマバード | 今の首都。 | 「イスラムの町」 |
+| **City of Lights** | 光の町 | 愛称。 | 英語 |
+
 ## Lv.9 教養
 
 <a id="guild"></a>
@@ -57456,6 +67787,383 @@
 |---|---|---|---|
 | **blog** | ブログ | 略した形。 | weblog |
 | **diary** | 日記 | 日々の記録。 | ラテン語 diārium |
+
+<a id="guglielmo"></a>
+### Guglielmo（グリエルモ）
+
+**人名（イタリア語）** / Lv.9 教養 / CEFR C2 — 男性名（イタリア語形）。英語の William にあたる
+
+- 📍 シーン: 無線通信の発明者グリエルモ・マルコーニ。
+- 💬 例文: *Guglielmo Marconi sent the first radio signal across the Atlantic.* — グリエルモ・マルコーニは初めて大西洋を越えて無線信号を送った。
+- 📜 語源: ゲルマン語 Wilhelm → イタリア語 Guglielmo
+  - オペラ『ウィリアム・テル』はイタリア語で Guglielmo Tell。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **William** | ウィリアム（英語） | 英語形。 | 同じゲルマン語から |
+| **Wilhelm** | ヴィルヘルム（ドイツ語） | ドイツ語形。 | 同じゲルマン語から |
+
+<a id="thanatos"></a>
+### Thanatos（タナトス）
+
+**神名** / Lv.9 教養 / CEFR C2 — タナトス（ギリシャ神話の死の神）
+
+- 📍 シーン: 精神分析で「死への欲動」をタナトスと呼ぶ。
+- 💬 例文: *In Greek myth, Thanatos is death itself.* — ギリシャ神話でタナトスは死そのものだ。
+- 📜 語源: ギリシャ語 thanatos「死」
+  - euthanasia（安楽死）の -thanasia も同じ語。
+- 🌳 同じ語源の仲間: euthanasia（安楽死）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hypnos** | ヒュプノス | 眠りの神。タナトスの双子。 | ギリシャ語 hypnos「眠り」 |
+| **Grim Reaper** | 死神 | 鎌を持つ死神の姿。 | 英語 |
+
+<a id="wotan"></a>
+### Wotan（ヴォータン）
+
+**神名（ドイツ語）** / Lv.9 教養 / CEFR C2 — ヴォータン（ドイツでのオーディンの呼び名）
+
+- 📍 シーン: ワーグナー『ニーベルングの指環』の神々の長。
+- 💬 例文: *In Wagner's operas, Odin is called Wotan.* — ワーグナーのオペラでオーディンはヴォータンと呼ばれる。
+- 📜 語源: 古高ドイツ語 Wuotan ← ゲルマン祖語 *Wōdanaz
+  - 同じ神が北欧では Óðinn、英語圏では Woden、ドイツでは Wotan と呼ばれた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Odin** | オーディン | 北欧での呼び名。 | 古ノルド語 Óðinn |
+| **Woden** | ウォーデン | 古英語での呼び名。 | 古英語 Wōden |
+
+<a id="tyr"></a>
+### Tyr（テュール）
+
+**神名** / Lv.9 教養 / CEFR C2 — テュール（北欧神話の戦いと法の神）
+
+- 📍 シーン: 火曜日（Tuesday）の語源になった神。
+- 💬 例文: *Tuesday is named after the god Tyr.* — 火曜日はテュール神にちなんで名づけられた。
+- 📜 語源: 古ノルド語 Týr ← ゲルマン祖語 *Tīwaz（Zeus と同じ語根）
+  - 狼フェンリルに片手を食いちぎられた勇敢な神。古英語では Tīw。
+- 🌳 同じ語源の仲間: Tuesday（火曜日）
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Tiw** | ティウ（古英語） | 古英語での呼び名。 | 古英語 Tīw |
+| **Mars** | マルス | ローマで対応するとされた戦いの神。 | ラテン語 Mārs |
+
+<a id="amun"></a>
+### Amun（アメン）
+
+**神名** / Lv.9 教養 / CEFR C2 — アメン（古代エジプトの主神。テーベの守護神）
+
+- 📍 シーン: ツタンカーメン（Tutankhamun）は「アメンの生きた似姿」。
+- 💬 例文: *Tutankhamun's name includes the name of the god Amun.* — ツタンカーメンの名前にはアメン神の名が入っている。
+- 📜 語源: エジプト語 jmn「隠れた者」
+  - Amon、Amen ともつづる。ラーと合わさりアメン・ラーとして最高神になった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Amun-Ra** | アメン・ラー | ラーと合わさった形。 | エジプト語 |
+| **Ra** | ラー | 太陽神。 | エジプト語 rꜥ |
+
+<a id="thoth"></a>
+### Thoth（トート）
+
+**神名** / Lv.9 教養 / CEFR C2 — トート（古代エジプトの知恵と文字の神）
+
+- 📍 シーン: トキの頭をもつ書記の神。タロットの「トートのタロット」。
+- 💬 例文: *Thoth was the god of writing and wisdom.* — トートは文字と知恵の神だった。
+- 📜 語源: エジプト語 ḏḥwtj
+  - ギリシャではヘルメスと同一視された。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Hermes** | ヘルメス | ギリシャで同一視された神。 | ギリシャ語 Hermēs |
+| **scribe** | 書記 | 文字を書く役人。 | ラテン語 scrība |
+
+<a id="bastet"></a>
+### Bastet（バステト）
+
+**神名** / Lv.9 教養 / CEFR C2 — バステト（古代エジプトの猫の女神）
+
+- 📍 シーン: 猫の頭をもつ家庭と守りの女神。
+- 💬 例文: *Cats were sacred to the goddess Bastet.* — 猫は女神バステトにとって神聖な動物だった。
+- 📜 語源: エジプト語 bꜣstt
+  - 古代エジプトでは猫が大切にされ、ミイラにされることもあった。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **cat goddess** | 猫の女神 | 猫の姿の女神。 | 英語 |
+| **Sekhmet** | セクメト | ライオンの頭の女神。 | エジプト語 sḫmt「力ある者」 |
+
+<a id="tiamat"></a>
+### Tiamat（ティアマト）
+
+**神名** / Lv.9 教養 / CEFR C2 — ティアマト（古代バビロンの原初の海の女神）
+
+- 📍 シーン: ゲームのドラゴンの名前としても知られる。
+- 💬 例文: *Tiamat was the goddess of the salt sea.* — ティアマトは塩水の海の女神だった。
+- 📜 語源: アッカド語 tiāmtu「海」
+  - 竜の姿で描かれることが多い。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Marduk** | マルドゥク | ティアマトを倒した神。 | アッカド語 Marduk |
+| **dragon** | 竜 | 伝説の怪物。 | ギリシャ語 drakōn |
+
+<a id="kosovo"></a>
+### Kosovo（コソボ）
+
+**地名** / Lv.9 教養 / CEFR C1 — コソボ
+
+- 📍 シーン: 2008年にセルビアからの独立を宣言した。
+- 💬 例文: *Kosovo declared independence in 2008.* — コソボは2008年に独立を宣言した。
+- 📜 語源: セルビア語 kosovo polje「ツグミの野」← kos「ツグミ」
+  - 独立を認めていない国もある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kosova** | コソヴァ | アルバニア語での呼び名。 | アルバニア語 |
+| **Balkans** | バルカン | この地域の呼び名。 | トルコ語 balkan |
+
+<a id="timor-leste"></a>
+### Timor-Leste（東ティモール）
+
+**地名** / Lv.9 教養 / CEFR C1 — 東ティモール
+
+- 📍 シーン: 2002年に独立した21世紀最初の独立国。
+- 💬 例文: *Timor-Leste became independent in 2002.* — 東ティモールは2002年に独立した。
+- 📜 語源: マレー語 timur「東」+ ポルトガル語 leste「東」
+  - 「東」を意味する語が2つ重なった国名。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **East Timor** | イーストティモール | 英語での呼び名。 | 英語 |
+| **Timor** | ティモール島 | 国がある島。 | マレー語 timur「東」 |
+
+<a id="burundi"></a>
+### Burundi（ブルンジ）
+
+**地名** / Lv.9 教養 / CEFR C2 — ブルンジ
+
+- 📍 シーン: タンガニーカ湖に面した小国。
+- 💬 例文: *Burundi is a small country in East Africa.* — ブルンジは東アフリカの小さな国だ。
+- 📜 語源: ルンディ語 Burundi（ルンディ人の国）
+  - コーヒーが主な輸出品。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gitega** | ギテガ | 首都。 | ルンディ語 |
+| **Great Lakes** | 大湖地方 | アフリカ中東部の湖が多い地域。 | 英語 |
+
+<a id="gambia"></a>
+### Gambia（ガンビア）
+
+**地名** / Lv.9 教養 / CEFR C2 — ガンビア
+
+- 📍 シーン: ガンビア川沿いの細長い国。
+- 💬 例文: *The Gambia is the smallest country on mainland Africa.* — ガンビアはアフリカ大陸で最も小さい国だ。
+- 📜 語源: ガンビア川の名から
+  - 英語では The Gambia と冠詞をつける。セネガルに囲まれている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Banjul** | バンジュル | 首都。 | マンディンカ語 |
+| **Senegal** | セネガル | 周りを囲む国。 | セネガル川から |
+
+<a id="sierra-leone"></a>
+### Sierra Leone（シエラレオネ）
+
+**地名** / Lv.9 教養 / CEFR C2 — シエラレオネ
+
+- 📍 シーン: 首都フリータウン（解放奴隷の町）。
+- 💬 例文: *Sierra Leone means "lion mountains" in Portuguese.* — シエラレオネはポルトガル語で「ライオンの山々」という意味だ。
+- 📜 語源: ポルトガル語 Serra Leoa「ライオンの山脈」
+  - 雷の音がライオンのうなり声に聞こえたという説がある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Freetown** | フリータウン | 首都。 | free + town |
+| **Lion Mountains** | ライオンの山々 | 国名の意味。 | 英語 |
+
+<a id="burkina-faso"></a>
+### Burkina Faso（ブルキナファソ）
+
+**地名** / Lv.9 教養 / CEFR C2 — ブルキナファソ
+
+- 📍 シーン: 「高潔な人々の国」という意味の内陸国。
+- 💬 例文: *Burkina Faso means "land of honest people."* — ブルキナファソは「高潔な人々の国」という意味だ。
+- 📜 語源: モシ語 burkina「高潔な」+ ジュラ語 faso「祖国」
+  - 1984年までの国名はオートボルタ（Upper Volta）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Upper Volta** | オートボルタ | 旧国名。 | 英語 |
+| **Ouagadougou** | ワガドゥグー | 首都。 | モシ語 |
+
+<a id="togo"></a>
+### Togo（トーゴ）
+
+**地名** / Lv.9 教養 / CEFR C2 — トーゴ
+
+- 📍 シーン: 西アフリカの南北に細長い国。
+- 💬 例文: *Togo is a narrow country in West Africa.* — トーゴは西アフリカの細長い国だ。
+- 📜 語源: エウェ語 to「水」+ go「岸」＝「水辺」
+  - 首都ロメ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Lomé** | ロメ | 首都。 | エウェ語 |
+| **West Africa** | 西アフリカ | この地域の呼び名。 | 英語 |
+
+<a id="benin"></a>
+### Benin（ベナン）
+
+**地名** / Lv.9 教養 / CEFR C2 — ベナン
+
+- 📍 シーン: ブードゥー教の発祥地とされる。
+- 💬 例文: *Benin is thought to be the birthplace of voodoo.* — ベナンはブードゥー教の発祥地とされる。
+- 📜 語源: ベニン湾（中世のベニン王国の名）
+  - 1975年までの国名はダホメ（Dahomey）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Dahomey** | ダホメ | 旧国名。 | フォン語 |
+| **Porto-Novo** | ポルトノボ | 首都（ポルトガル語「新しい港」）。 | ポルトガル語 |
+
+<a id="central-african-republic"></a>
+### Central African Republic（中央アフリカ）
+
+**地名** / Lv.9 教養 / CEFR C2 — 中央アフリカ共和国
+
+- 📍 シーン: アフリカ大陸のほぼ中心にある内陸国。
+- 💬 例文: *The Central African Republic is in the heart of Africa.* — 中央アフリカ共和国はアフリカの中心にある。
+- 📜 語源: central「中央の」+ African + republic
+  - 首都バンギ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **CAR** | シーエーアール | 略称。 | 頭文字 |
+| **Bangui** | バンギ | 首都。 | 語源不詳 |
+
+<a id="gabon"></a>
+### Gabon（ガボン）
+
+**地名** / Lv.9 教養 / CEFR C2 — ガボン
+
+- 📍 シーン: 赤道直下の熱帯雨林の国。
+- 💬 例文: *Most of Gabon is covered by rainforest.* — ガボンの大部分は熱帯雨林に覆われている。
+- 📜 語源: ポルトガル語 gabão「フードつきの外套」（河口の形から）
+  - 首都リーブルビル（フランス語「自由の町」）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Libreville** | リーブルビル | 首都。 | フランス語「自由の町」 |
+| **rainforest** | 熱帯雨林 | 雨の多い森林。 | rain + forest |
+
+<a id="malawi"></a>
+### Malawi（マラウイ）
+
+**地名** / Lv.9 教養 / CEFR C2 — マラウイ
+
+- 📍 シーン: 「アフリカの温かい心」と呼ばれる国。マラウイ湖。
+- 💬 例文: *Malawi is called the Warm Heart of Africa.* — マラウイはアフリカの温かい心と呼ばれる。
+- 📜 語源: チェワ語 Maravi「炎」（湖面の光の説）
+  - 首都リロングウェ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Warm Heart of Africa** | アフリカの温かい心 | 愛称。 | 英語 |
+| **Lake Malawi** | マラウイ湖 | 国の大湖。 | 英語 |
+
+<a id="trinidad-and-tobago"></a>
+### Trinidad and Tobago（トリニダード・トバゴ）
+
+**地名** / Lv.9 教養 / CEFR C2 — トリニダード・トバゴ
+
+- 📍 シーン: スティールパン（ドラム缶楽器）の発祥地、カーニバル。
+- 💬 例文: *The steelpan was invented in Trinidad and Tobago.* — スティールパンはトリニダード・トバゴで発明された。
+- 📜 語源: スペイン語 Trinidad「三位一体」+ Tobago（タバコの説）
+  - 3つの峰が見えたので Trinidad と名づけたとされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Port of Spain** | ポートオブスペイン | 首都。 | 英語 |
+| **Caribbean** | カリブ | この地域。 | カリブ族の名 |
+
+<a id="guyana"></a>
+### Guyana（ガイアナ）
+
+**地名** / Lv.9 教養 / CEFR C2 — ガイアナ
+
+- 📍 シーン: 南米で唯一英語が公用語の国。
+- 💬 例文: *English is the official language of Guyana.* — ガイアナでは英語が公用語だ。
+- 📜 語源: 先住民の言葉で「多くの水の土地」
+  - 旧英領ギアナ。隣の仏領ギアナは今もフランス領。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **British Guiana** | 英領ギアナ | 旧名。 | 英語 |
+| **Georgetown** | ジョージタウン | 首都。 | 英国王ジョージ3世から |
+
+<a id="suriname"></a>
+### Suriname（スリナム）
+
+**地名** / Lv.9 教養 / CEFR C2 — スリナム
+
+- 📍 シーン: 南米で唯一オランダ語が公用語の国。
+- 💬 例文: *Dutch is the official language of Suriname.* — スリナムではオランダ語が公用語だ。
+- 📜 語源: 先住民のスリネン族の名から
+  - 17世紀、オランダはイギリスとの交換でスリナムを得て、代わりにニューアムステルダム（今のニューヨーク）を渡した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Dutch Guiana** | オランダ領ギアナ | 旧名。 | 英語 |
+| **Paramaribo** | パラマリボ | 首都。 | 先住民の言葉 |
+
+<a id="vanuatu"></a>
+### Vanuatu（バヌアツ）
+
+**地名** / Lv.9 教養 / CEFR C2 — バヌアツ
+
+- 📍 シーン: バンジージャンプの起源とされる儀式「ナゴール」。
+- 💬 例文: *Bungee jumping has its origins in Vanuatu.* — バンジージャンプの起源はバヌアツにある。
+- 📜 語源: 現地語 vanua「土地」+ tu「立つ」＝「立ち上がる国」
+  - 旧名ニューヘブリディーズ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **New Hebrides** | ニューヘブリディーズ | 旧名。 | 英語 |
+| **Port Vila** | ポートビラ | 首都。 | 英語 |
+
+<a id="solomon-islands"></a>
+### Solomon Islands（ソロモン諸島）
+
+**地名** / Lv.9 教養 / CEFR C2 — ソロモン諸島
+
+- 📍 シーン: 第二次世界大戦の激戦地ガダルカナル島。
+- 💬 例文: *Guadalcanal is one of the Solomon Islands.* — ガダルカナル島はソロモン諸島の一つだ。
+- 📜 語源: 旧約聖書のソロモン王の財宝伝説から
+  - スペインの探検家が黄金の島を期待して名づけた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Honiara** | ホニアラ | 首都。 | 現地語 |
+| **Guadalcanal** | ガダルカナル | 首都がある島。 | スペインの町の名 |
+
+<a id="tuvalu"></a>
+### Tuvalu（ツバル）
+
+**地名** / Lv.9 教養 / CEFR C2 — ツバル
+
+- 📍 シーン: 海面上昇で沈むおそれのある国。ドメイン名 .tv の収入。
+- 💬 例文: *Tuvalu earns money from its .tv internet domain.* — ツバルはインターネットのドメイン .tv で収入を得ている。
+- 📜 語源: ツバル語「8つが共に立つ」（8つの有人の島）
+  - 世界で4番目に小さい国。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Ellice Islands** | エリス諸島 | 旧名。 | 人名 |
+| **Funafuti** | フナフティ | 首都がある環礁。 | ツバル語 |
 
 ## Lv.10 マスター
 
@@ -62470,6 +73178,276 @@
 |---|---|---|---|
 | **femto** | フェムト | 10の−15乗。 | デンマーク語 femten「15」 |
 | **nano** | ナノ | 10の−9乗。 | ギリシャ語 nanos「小人」 |
+
+<a id="marduk"></a>
+### Marduk（マルドゥク）
+
+**神名** / Lv.10 マスター / CEFR C2 — マルドゥク（古代バビロンの主神）
+
+- 📍 シーン: 海の女神ティアマトを倒して世界を作ったとされる。
+- 💬 例文: *Marduk defeated Tiamat and created the world from her body.* — マルドゥクはティアマトを倒し、その体から世界を作った。
+- 📜 語源: アッカド語 Marduk（「太陽の子牛」の説）
+  - 叙事詩『エヌマ・エリシュ』に登場する。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Tiamat** | ティアマト | マルドゥクが倒した原初の海の女神。 | アッカド語 tiāmtu「海」 |
+| **Bel** | ベル | 「主」を意味する呼び名。 | アッカド語 bēlu「主」 |
+
+<a id="quetzalcoatl"></a>
+### Quetzalcoatl（ケツァルコアトル）
+
+**神名** / Lv.10 マスター / CEFR C2 — ケツァルコアトル（アステカ神話の羽毛のあるヘビの神）
+
+- 📍 シーン: メキシコの遺跡に刻まれた羽毛のヘビの神。
+- 💬 例文: *Quetzalcoatl was known as the Feathered Serpent.* — ケツァルコアトルは「羽毛のあるヘビ」として知られていた。
+- 📜 語源: ナワトル語 quetzalli「ケツァール鳥の羽」+ cōātl「ヘビ」
+  - 文化と知恵をもたらした神とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Feathered Serpent** | 羽毛のあるヘビ | この神の英語での呼び名。 | 英語 |
+| **Kukulkan** | ククルカン | マヤでの呼び名。 | マヤ語 |
+
+<a id="guinea-bissau"></a>
+### Guinea-Bissau（ギニアビサウ）
+
+**地名** / Lv.10 マスター / CEFR C2 — ギニアビサウ
+
+- 📍 シーン: ポルトガルの旧植民地。カシューナッツの産地。
+- 💬 例文: *Guinea-Bissau exports cashew nuts.* — ギニアビサウはカシューナッツを輸出している。
+- 📜 語源: Guinea + 首都ビサウ（Bissau）
+  - 同名の国と区別するため首都名をつけた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Guinea** | ギニア | 隣の同名の国。 | ポルトガル語 Guiné |
+| **Bissau** | ビサウ | 首都。 | 語源不詳 |
+
+<a id="equatorial-guinea"></a>
+### Equatorial Guinea（赤道ギニア）
+
+**地名** / Lv.10 マスター / CEFR C2 — 赤道ギニア
+
+- 📍 シーン: スペイン語が公用語のアフリカの国。
+- 💬 例文: *Spanish is an official language in Equatorial Guinea.* — 赤道ギニアではスペイン語が公用語の一つだ。
+- 📜 語源: equatorial「赤道の」+ Guinea
+  - 実際には赤道の少し北にある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Malabo** | マラボ | 首都。 | 人名から |
+| **equator** | 赤道 | 地球の真ん中の線。 | ラテン語 aequātor「等しくするもの」 |
+
+<a id="comoros"></a>
+### Comoros（コモロ）
+
+**地名** / Lv.10 マスター / CEFR C2 — コモロ
+
+- 📍 シーン: インド洋の火山島の国。シーラカンスが見つかった海。
+- 💬 例文: *Coelacanths have been found near the Comoros.* — シーラカンスはコモロの近くで見つかっている。
+- 📜 語源: アラビア語 qamar「月」
+  - イランイランの香料の産地。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Moroni** | モロニ | 首都。 | 語源不詳 |
+| **Moon Islands** | 月の島々 | 国名の意味。 | 英語 |
+
+<a id="cape-verde"></a>
+### Cape Verde（カーボベルデ）
+
+**地名** / Lv.10 マスター / CEFR C2 — カーボベルデ
+
+- 📍 シーン: 大西洋の島国。音楽「モルナ」。
+- 💬 例文: *Cape Verde is a group of islands in the Atlantic.* — カーボベルデは大西洋の島々だ。
+- 📜 語源: ポルトガル語 Cabo Verde「緑の岬」
+  - 国はポルトガル語名 Cabo Verde を正式としている。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Cabo Verde** | カボ・ヴェルデ | ポルトガル語での正式国名。 | ポルトガル語 |
+| **Praia** | プライア | 首都（「浜」）。 | ポルトガル語 |
+
+<a id="s-o-tom-and-pr-ncipe"></a>
+### São Tomé and Príncipe（サントメ・プリンシペ）
+
+**地名** / Lv.10 マスター / CEFR C2 — サントメ・プリンシペ
+
+- 📍 シーン: ギニア湾の2つの島から成る小国。カカオの産地。
+- 💬 例文: *São Tomé and Príncipe is one of Africa's smallest countries.* — サントメ・プリンシペはアフリカで最も小さい国の一つだ。
+- 📜 語源: ポルトガル語「聖トマス（島）と王子（島）」
+  - 聖トマスの日に発見されたので São Tomé。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **São Tomé** | サントメ | 首都・島の名。 | ポルトガル語「聖トマス」 |
+| **Gulf of Guinea** | ギニア湾 | 国がある湾。 | 英語 |
+
+<a id="lesotho"></a>
+### Lesotho（レソト）
+
+**地名** / Lv.10 マスター / CEFR C2 — レソト
+
+- 📍 シーン: 南アフリカに囲まれた山岳の王国。
+- 💬 例文: *Lesotho is completely surrounded by South Africa.* — レソトは南アフリカに完全に囲まれている。
+- 📜 語源: ソト人（Sotho）の国
+  - 国土全体が標高1000メートル以上にある。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kingdom in the Sky** | 天空の王国 | 愛称。 | 英語 |
+| **Maseru** | マセル | 首都。 | ソト語 |
+
+<a id="eswatini"></a>
+### Eswatini（エスワティニ）
+
+**地名** / Lv.10 マスター / CEFR C2 — エスワティニ（旧スワジランド）
+
+- 📍 シーン: 南部アフリカの王国。
+- 💬 例文: *Swaziland changed its name to Eswatini in 2018.* — スワジランドは2018年に国名をエスワティニに変えた。
+- 📜 語源: スワティ語 eSwatini「スワジ人の土地」
+  - 旧英語名は Swaziland。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Swaziland** | スワジランド | 旧国名。 | 英語 |
+| **Mbabane** | ムババーネ | 首都。 | 人名 |
+
+<a id="dominica"></a>
+### Dominica（ドミニカ国）
+
+**地名** / Lv.10 マスター / CEFR C2 — ドミニカ国
+
+- 📍 シーン: 「カリブの自然の島」と呼ばれる。
+- 💬 例文: *Dominica was named after the day of the week Columbus saw it.* — ドミニカ国はコロンブスが見つけた曜日にちなんで名づけられた。
+- 📜 語源: ラテン語 dominica「日曜日（主の日）」
+  - 日曜日に発見されたことから。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Nature Isle** | 自然の島 | 愛称。 | 英語 |
+| **Roseau** | ロゾー | 首都。 | フランス語「葦」 |
+
+<a id="grenada"></a>
+### Grenada（グレナダ）
+
+**地名** / Lv.10 マスター / CEFR C2 — グレナダ
+
+- 📍 シーン: ナツメグの産地「スパイスの島」。国旗にもナツメグ。
+- 💬 例文: *Grenada is known as the Island of Spice.* — グレナダは「スパイスの島」として知られている。
+- 📜 語源: スペインのグラナダ（Granada）の名から
+  - 1983年にアメリカ軍が侵攻した。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Island of Spice** | スパイスの島 | 愛称。 | 英語 |
+| **St. George's** | セントジョージズ | 首都。 | 英語 |
+
+<a id="saint-lucia"></a>
+### Saint Lucia（セントルシア）
+
+**地名** / Lv.10 マスター / CEFR C2 — セントルシア
+
+- 📍 シーン: 二つの尖った山ピトンズ。
+- 💬 例文: *Saint Lucia is named after Saint Lucy.* — セントルシアは聖ルチアにちなんで名づけられた。
+- 📜 語源: 聖ルチア（Lucia）の名から
+  - 女性の名前がついた唯一の国とされる。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Castries** | カストリーズ | 首都。 | 人名 |
+| **Caribbean** | カリブ | この地域。 | カリブ族の名 |
+
+<a id="antigua-and-barbuda"></a>
+### Antigua and Barbuda（アンティグア・バーブーダ）
+
+**地名** / Lv.10 マスター / CEFR C2 — アンティグア・バーブーダ
+
+- 📍 シーン: 「365のビーチの島」。
+- 💬 例文: *Antigua and Barbuda is said to have 365 beaches.* — アンティグア・バーブーダには365のビーチがあると言われる。
+- 📜 語源: スペイン語 antigua「古い」（セビリアの聖堂の聖母像の名）
+  - 首都セントジョンズ。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **St. John's** | セントジョンズ | 首都。 | 英語 |
+| **Caribbean** | カリブ | この地域。 | カリブ族の名 |
+
+<a id="saint-kitts-and-nevis"></a>
+### Saint Kitts and Nevis（セントクリストファー・ネイビス）
+
+**地名** / Lv.10 マスター / CEFR C2 — セントクリストファー・ネイビス
+
+- 📍 シーン: 南北アメリカで最も小さい国。
+- 💬 例文: *Saint Kitts and Nevis is the smallest country in the Americas.* — セントクリストファー・ネイビスは南北アメリカで最も小さい国だ。
+- 📜 語源: Saint Kitts ＝ Saint Christopher（聖クリストフォロス）の愛称
+  - Nevis はスペイン語 nieves「雪」（雲のかかった山から）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Saint Christopher** | セントクリストファー | 正式な島の名。 | 英語 |
+| **Basseterre** | バセテール | 首都。 | フランス語「低い土地」 |
+
+<a id="saint-vincent-and-the-grenadines"></a>
+### Saint Vincent and the Grenadines（セントビンセント・グレナディーン）
+
+**地名** / Lv.10 マスター / CEFR C2 — セントビンセント及びグレナディーン諸島
+
+- 📍 シーン: 映画『パイレーツ・オブ・カリビアン』のロケ地。
+- 💬 例文: *Saint Vincent and the Grenadines is a country of 32 islands.* — セントビンセント及びグレナディーン諸島は32の島から成る国だ。
+- 📜 語源: 聖ウィンケンティウス（Vincent）の祝日に発見された島 + グレナディーン諸島
+  - 首都キングスタウン。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Kingstown** | キングスタウン | 首都。 | 英語 |
+| **Grenadines** | グレナディーン諸島 | 国を構成する小島群。 | スペイン語 Granada から |
+
+<a id="kiribati"></a>
+### Kiribati（キリバス）
+
+**地名** / Lv.10 マスター / CEFR C2 — キリバス
+
+- 📍 シーン: 世界で最初に新年を迎える国の一つ。
+- 💬 例文: *Kiribati is one of the first countries to see the new year.* — キリバスは新年を最初に迎える国の一つだ。
+- 📜 語源: ギルバート諸島（Gilberts）の現地語読み
+  - 「キリバス」と読む（ti が「ス」の音）。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Gilbert Islands** | ギルバート諸島 | 旧名。 | 人名 |
+| **Tarawa** | タラワ | 首都がある環礁。 | 現地語 |
+
+<a id="nauru"></a>
+### Nauru（ナウル）
+
+**地名** / Lv.10 マスター / CEFR C2 — ナウル
+
+- 📍 シーン: リン鉱石で一時期とても豊かになった小さな島国。
+- 💬 例文: *Nauru is the smallest island country in the world.* — ナウルは世界で最も小さな島国だ。
+- 📜 語源: ナウル語 Anáoero（語源不詳）
+  - 公式な首都がない国。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Pleasant Island** | 心地よい島 | 昔の英語での呼び名。 | 英語 |
+| **phosphate** | リン鉱石 | かつての主要な資源。 | ギリシャ語 phōs「光」 |
+
+<a id="marshall-islands"></a>
+### Marshall Islands（マーシャル諸島）
+
+**地名** / Lv.10 マスター / CEFR C2 — マーシャル諸島
+
+- 📍 シーン: ビキニ環礁（水着ビキニの名前の由来）。
+- 💬 例文: *The bikini swimsuit was named after an atoll in the Marshall Islands.* — 水着のビキニはマーシャル諸島の環礁にちなんで名づけられた。
+- 📜 語源: 英国の船長ジョン・マーシャルの名から
+  - ビキニ環礁では核実験が行われた。
+
+| 別名・関連する名前 | 意味 | ニュアンスの違い | 語源 |
+|---|---|---|---|
+| **Bikini Atoll** | ビキニ環礁 | 有名な環礁。 | マーシャル語 |
+| **Majuro** | マジュロ | 首都。 | マーシャル語 |
 
 ## 似た単語セット
 
