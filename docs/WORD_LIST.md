@@ -2003,7 +2003,7 @@
 
 - 📍 シーン: ディズニープリンセス、お姫様。
 - 💬 例文: *The princess wore a beautiful dress.* — 王女は美しいドレスを着ていた。
-- 📜 語源: 古フランス語 princesse ← prince + -esse（女性形）
+- 📜 語源: 古フランス語 princesse ← prince「王子・君主」+ -esse（女性形）
   - -ess は女性を表す語尾（actress、lioness）。今はジェンダーに中立な言い方が好まれ、actress より actor が使われることも多い。
 - 🌳 同じ語源の仲間: prince（王子）
 
@@ -6787,7 +6787,7 @@
 
 - 📍 シーン: ふわふわパンケーキ、ホットケーキ（和製英語）。
 - 💬 例文: *We had pancakes with maple syrup.* — メープルシロップをかけたパンケーキを食べた。
-- 📜 語源: pan「平なべ」+ cake
+- 📜 語源: pan「平なべ」+ cake「焼き菓子」
   - 「フライパンで焼くケーキ」。日本の「ホットケーキ」は英語では pancake（hotcake も通じる）。
 - 🌳 同じ語源の仲間: pan（フライパン）
 
@@ -7855,7 +7855,7 @@
 
 - 📍 シーン: チョコレートパフェ、いちごパフェ。
 - 💬 例文: *She ordered a chocolate parfait.* — 彼女はチョコレートパフェを注文した。
-- 📜 語源: フランス語 parfait「完璧な」← ラテン語 perfectus
+- 📜 語源: フランス語 parfait「完璧な」← ラテン語 perfectus「完全な」
   - 「完璧なデザート」の意味。perfect と同じ語。英語の発音は「パーフェイ」。
 - 💎 語根: `fac / fic / fact / feit`（作る・行う）
 - 🌳 同じ語源の仲間: perfect（完璧な）
@@ -12602,7 +12602,7 @@
 
 - 📍 シーン: デザイナー、ウェブデザイン。
 - 💬 例文: *Who designed this building?* — この建物は誰が設計したの？
-- 📜 語源: ラテン語 dēsignāre「しるしをつける、指定する」← dē- + signum「しるし」
+- 📜 語源: ラテン語 dēsignāre「しるしをつける、指定する」← dē-「はっきりと」+ signum「しるし」
   - 「しるしを描いて示す」→ 設計図を描く。sign（しるし）、signal、designate（指定する）と同じ家族。
 - 💎 語根: `sign`（印）
 - 🌳 同じ語源の仲間: sign（しるし）、designate（指定する）
@@ -12878,7 +12878,7 @@
 - 📍 シーン: 大学の「レポート」提出、現地レポート。
 - ⚠️ カタカナの罠: 大学で出す「レポート（論述課題）」は英語では paper / essay / assignment が自然。report は「報告書・報道」の意味が中心。
 - 💬 例文: *The news reported heavy rain in the north.* — ニュースは北部の大雨を報じた。
-- 📜 語源: ラテン語 reportāre「運び戻す」← re- + portāre「運ぶ」
+- 📜 語源: ラテン語 reportāre「運び戻す」← re-「元へ」+ portāre「運ぶ」
   - 「（見たことを）持ち帰る」→ 報告。transport（輸送）、export（輸出）、sport も portāre の家族。
 - 💎 語根: `port`（運ぶ）
 - 🌳 同じ語源の仲間: reporter（記者）、transport（輸送）
@@ -13622,7 +13622,7 @@
 
 - 📍 シーン: 世界記録、レコード盤、録画。
 - 💬 例文: *She broke the world record.* — 彼女は世界記録を破った。
-- 📜 語源: ラテン語 recordārī「思い出す」← re- + cor「心」
+- 📜 語源: ラテン語 recordārī「思い出す」← re-「再び」+ cor「心」
   - 「心に呼び戻す」→ 書き留める → 記録。cor（心）は courage（勇気）、core とも関係がある。
 - 🌳 同じ語源の仲間: recorder（リコーダー、録音機）
 
@@ -13783,7 +13783,7 @@
 
 - 📍 シーン: テニスのラリー、自動車ラリー、決起集会。
 - 💬 例文: *Thousands of people joined the rally.* — 何千人もの人がその集会に参加した。
-- 📜 語源: フランス語 rallier「再び集める」← re- + allier「結びつける」
+- 📜 語源: フランス語 rallier「再び集める」← re-「再び」+ allier「結びつける」
   - 散らばった兵を「再び集める」→ 集会、持ち直す。テニスの打ち合いも「行ったり来たり続く」ことから。ally（同盟する）と同じ家族。
 - 🌳 同じ語源の仲間: ally（同盟国）
 
@@ -19414,7 +19414,7 @@
 
 - 📍 シーン: 写真コンテスト、ミスコン。
 - 💬 例文: *She won first prize in the piano contest.* — 彼女はピアノコンクールで1位をとった。
-- 📜 語源: ラテン語 contestārī「証人を立てて訴える」← con- + testis「証人」
+- 📜 語源: ラテン語 contestārī「証人を立てて訴える」← con-「共に」+ testis「証人」
   - もとは裁判で双方が証人を立てて争うこと。「争う」→「競い合う」に。testify（証言する）、protest（抗議する）も testis の家族。つづりは似ているが test（試験）は別の語源。
 - 🌳 同じ語源の仲間: testify（証言する）、protest（抗議する）
 
@@ -19673,7 +19673,7 @@
 
 - 📍 シーン: 無料サンプル、食品サンプル。
 - 💬 例文: *They gave out free samples of the new drink.* — 新しい飲み物の無料サンプルが配られた。
-- 📜 語源: example の頭音が落ちた形 ← 古フランス語 essample ← ラテン語 exemplum
+- 📜 語源: example の頭音が落ちた形 ← 古フランス語 essample ← ラテン語 exemplum「手本」
   - example（例）と同じ語。刺しゅうの見本布 sampler も同じ。
 - 🌳 同じ語源の仲間: example（例）
 
@@ -19803,7 +19803,7 @@
 
 - 📍 シーン: コスト削減、コスパ（コストパフォーマンス、和製英語）。
 - 💬 例文: *How much does it cost?* — それはいくらかかりますか？
-- 📜 語源: 古フランス語 coster ← ラテン語 cōnstāre「〜の値がつく、しっかり立つ」← con- + stāre「立つ」
+- 📜 語源: 古フランス語 coster ← ラテン語 cōnstāre「〜の値がつく、しっかり立つ」← con-「しっかり」+ stāre「立つ」
   - 「値段として立つ」。「コスパがいい」は英語では good value (for money)。
 - 💎 語根: `sta / stat / sist`（立つ）
 - 🌳 同じ語源の仲間: costly（高価な）
@@ -19933,7 +19933,7 @@
 
 - 📍 シーン: リピート再生、リピーター。
 - 💬 例文: *Could you repeat that, please?* — もう一度言っていただけますか？
-- 📜 語源: ラテン語 repetere「再び求める、くり返す」← re- + petere「求める、向かう」
+- 📜 語源: ラテン語 repetere「再び求める、くり返す」← re-「再び」+ petere「求める、向かう」
   - petere の家族には compete（競う＝共に求める）、appetite（食欲＝求める気持ち）、petition（請願）がある。
 - 🌳 同じ語源の仲間: repetition（くり返し）、compete（競う）、appetite（食欲）
 
@@ -20354,7 +20354,7 @@
 
 - 📍 シーン: ブログ更新、ブロガー。
 - 💬 例文: *She writes a blog about cooking.* — 彼女は料理のブログを書いている。
-- 📜 語源: weblog の略 ← web + log「記録」
+- 📜 語源: weblog の略 ← web「クモの巣、（インター）ネット」+ log「記録」
   - 1999年ごろに we blog（私たちはブログする）と冗談で区切られて広まった。log は航海日誌（丸太で速さを測った記録）から。
 - 🌳 同じ語源の仲間: blogger（ブロガー）、log（記録）
 
@@ -20370,7 +20370,7 @@
 
 - 📍 シーン: ログイン画面、ログインボーナス。
 - 💬 例文: *Enter your password to log in.* — ログインするにはパスワードを入力してください。
-- 📜 語源: log「記録する」+ in
+- 📜 語源: log「記録する」+ in「中へ」
   - 船の航海日誌（log）に名前を書きこむように、システムに記録を残して入ること。動詞は log in と2語。
 - 🌳 同じ語源の仲間: logout（ログアウト）、log（記録）
 
@@ -20739,7 +20739,7 @@
 
 - 📍 シーン: ガソリンスタンド、ガソリン代。
 - 💬 例文: *Gasoline prices went up again.* — ガソリンの値段がまた上がった。
-- 📜 語源: gas + -ol + -ine（19世紀の商標名から）
+- 📜 語源: gas「ガス、気体」+ -ol + -ine（19世紀の商標名から）
   - アメリカでは gas と略す。イギリスでは petrol。「ガソリンスタンド」は gas station（米）/ petrol station（英）。
 - 🌳 同じ語源の仲間: gas（ガス）
 
@@ -21062,7 +21062,7 @@
 
 - 📍 シーン: コンクリートの壁、具体的な例。
 - 💬 例文: *Can you give me a concrete example?* — 具体的な例を挙げてもらえますか？
-- 📜 語源: ラテン語 concrētus「固まった」← con- + crēscere「育つ」
+- 📜 語源: ラテン語 concrētus「固まった」← con-「一緒に」+ crēscere「育つ」
   - 「一緒に育って固まった」→ 形のある、具体的な → コンクリート。反対は abstract（抽象的な）。
 - 🌳 同じ語源の仲間: increase（増える・同じ crēscere）
 
@@ -27638,7 +27638,7 @@
 
 - 📍 シーン: フードデリバリー、宅配ピザ。
 - 💬 例文: *Free delivery on orders over 3,000 yen.* — 3000円以上のご注文で配達無料。
-- 📜 語源: 古フランス語 delivrer「自由にする、引き渡す」← ラテン語 dē- + līberāre「自由にする」
+- 📜 語源: 古フランス語 delivrer「自由にする、引き渡す」← ラテン語 dē-「離れて」+ līberāre「自由にする」
   - 「解き放つ」→「手放して相手に渡す」＝配達。赤ちゃんを「世に解き放つ」ことから出産の意味にもなる。liberty（自由）と同じ家族。
 - 🌳 同じ語源の仲間: deliver（配達する）、liberty（自由）
 
@@ -28015,7 +28015,7 @@
 - 📍 シーン: 「レシピをアレンジする」、アレンジ曲。
 - ⚠️ カタカナの罠: 日本語の「アレンジする」は「少し手を加えて変える」の意味で使うが、英語の arrange は「きちんと並べる・手配する」が中心。料理を自己流に変えるなら adapt / tweak / put my own twist on。
 - 💬 例文: *I arranged a meeting for next Monday.* — 来週月曜日に会議の手配をした。
-- 📜 語源: 古フランス語 arengier「列に並べる」← a- + rang「列」
+- 📜 語源: 古フランス語 arengier「列に並べる」← a-「〜へ」+ rang「列」
   - rank（列、地位）、range（並び、範囲）と同じ語根。音楽の「編曲」は音を並べ直すこと。
 - 🌳 同じ語源の仲間: arrangement（配置、手配）、range（範囲）、rank（地位）
 
@@ -28449,7 +28449,7 @@
 
 - 📍 シーン: 郵便ポスト、SNSへの投稿、次期社長のポスト。
 - 💬 例文: *I posted a photo on Instagram.* — インスタに写真を投稿した。
-- 📜 語源: 郵便・地位は イタリア語 posta「置かれた（中継地）」← ラテン語 positus。柱は古英語 post ← ラテン語 postis
+- 📜 語源: 郵便・地位は イタリア語 posta「置かれた（中継地）」← ラテン語 positus「置かれた」。柱は古英語 post ← ラテン語 postis「柱」
   - 昔、手紙を運ぶ馬を乗りつぐ中継地点を post と呼んだ。「柱」の post は別語源で、掲示板の柱に貼り出す → 投稿、につながった。郵便ポストは英語では mailbox（米）/ postbox（英）。
 - 🌳 同じ語源の仲間: postcard（はがき）、poster（ポスター）
 
@@ -28515,7 +28515,7 @@
 - 📍 シーン: 子どもが集める「シール」。
 - ⚠️ カタカナの罠: 貼って遊ぶ「シール」は英語では sticker。英語の seal は「封・印鑑・密封する」、または動物の「アザラシ」。
 - 💬 例文: *The letter was sealed with wax.* — 手紙はろうで封をされていた。
-- 📜 語源: 古フランス語 seel ← ラテン語 sigillum「小さなしるし」← signum
+- 📜 語源: 古フランス語 seel ← ラテン語 sigillum「小さなしるし」← signum「しるし」
   - sign（しるし）の家族。ろうに押す印章 → 封。動物のアザラシの seal は古英語 seolh から来た別の語。
 - 💎 語根: `sign`（印）
 - 🌳 同じ語源の仲間: sign（しるし）
@@ -28646,7 +28646,7 @@
 
 - 📍 シーン: 動画コンテンツ、デジタルコンテンツ。
 - 💬 例文: *The content of the speech was excellent.* — スピーチの内容はすばらしかった。
-- 📜 語源: ラテン語 contentum「含まれたもの」← continēre「含む」← con- + tenēre「保つ」
+- 📜 語源: ラテン語 contentum「含まれたもの」← continēre「含む」← con-「まとめて」+ tenēre「保つ」
   - contain（含む）と同じ語。アクセントを後ろに置く content（満足した）は「（欲が）内に保たれた」から。
 - 💎 語根: `ten / tain / tin`（保つ）
 - 🌳 同じ語源の仲間: contain（含む）、continent（大陸）
@@ -28663,7 +28663,7 @@
 
 - 📍 シーン: 英語ディベート大会、テレビ討論。
 - 💬 例文: *We had a debate about school uniforms.* — 制服について討論した。
-- 📜 語源: 古フランス語 debatre「打ち合う」← de- + battre「打つ」
+- 📜 語源: 古フランス語 debatre「打ち合う」← de-「すっかり」+ battre「打つ」
   - 「言葉で打ち合う」。battle（戦い）、battery（電池、砲列）と同じ battre の家族。
 - 🌳 同じ語源の仲間: battle（戦い）、combat（戦闘）
 
@@ -28890,7 +28890,7 @@
 
 - 📍 シーン: パフォーマンスが高いPC、路上パフォーマンス。
 - 💬 例文: *Her performance in the play was amazing.* — 劇での彼女の演技はすばらしかった。
-- 📜 語源: 古フランス語 parfournir「やりとげる」← par- + fournir「供給する」
+- 📜 語源: 古フランス語 parfournir「やりとげる」← par-「完全に」+ fournir「供給する」
   - 「最後までやりとげる」→ 演じる、成果。furnish（備えつける）と同じ家族。「パフォーマンス（見せかけの行動）」の意味は英語では a show / an act に近い。
 - 🌳 同じ語源の仲間: perform（演じる）、furnish（備えつける）
 
@@ -28988,7 +28988,7 @@
 
 - 📍 シーン: レスキュー隊、救助活動。
 - 💬 例文: *The firefighters rescued a cat from the roof.* — 消防士が屋根から猫を救出した。
-- 📜 語源: 古フランス語 rescoure ← ラテン語 re- + excutere「振り払う」
+- 📜 語源: 古フランス語 rescoure ← ラテン語 re-「再び」+ excutere「振り払う」
   - 「振りほどいて取り戻す」。つかまえている手を振り払って救い出すイメージ。
 - 🌳 同じ語源の仲間: rescuer（救助者）
 
@@ -29004,7 +29004,7 @@
 
 - 📍 シーン: 市場リサーチ、研究者。
 - 💬 例文: *She is doing research on climate change.* — 彼女は気候変動の研究をしている。
-- 📜 語源: 古フランス語 recercher「くまなく探す」← re- + cercher「探す」← ラテン語 circāre「ぐるぐる回る」
+- 📜 語源: 古フランス語 recercher「くまなく探す」← re-「くり返し」+ cercher「探す」← ラテン語 circāre「ぐるぐる回る」
   - 「ぐるりと探し回る」。search（探す）、circle（円）と同じ家族。
 - 🌳 同じ語源の仲間: search（探す）、circle（円）
 
@@ -29020,7 +29020,7 @@
 
 - 📍 シーン: 「先輩をリスペクトしてる」。
 - 💬 例文: *We should respect other people's opinions.* — 他人の意見を尊重すべきだ。
-- 📜 語源: ラテン語 respectus「振り返って見ること」← re- + specere「見る」
+- 📜 語源: ラテン語 respectus「振り返って見ること」← re-「後ろへ」+ specere「見る」
   - 「振り返って見る」→ 注目する → 敬う。in this respect（この点で）の「点」の意味もある。spectator（観客）、inspect も同じ家族。
 - 💎 語根: `spec / spic`（見る）
 - 🌳 同じ語源の仲間: respectful（礼儀正しい）、inspect（検査する）
@@ -29684,7 +29684,7 @@
 
 - 📍 シーン: ワイドショーのコメンテーター、スポーツ解説者。
 - 💬 例文: *The commentator explained the rules.* — 解説者がルールを説明した。
-- 📜 語源: commentate「解説する」+ -or ← comment
+- 📜 語源: commentate「解説する」+ -or ← comment「論評、解説」
   - comment と同じラテン語 commentum から。スポーツの実況解説もする。
 - 💎 語根: `ment / mind`（心）
 - 🌳 同じ語源の仲間: comment（コメント）
@@ -36684,7 +36684,7 @@
 
 - 📍 シーン: コンセプトカフェ、商品のコンセプト。
 - 💬 例文: *The concept of zero was a great invention.* — ゼロという概念は偉大な発明だった。
-- 📜 語源: ラテン語 conceptum「受け取られたもの」← concipere「受け取る、身ごもる」← con- + capere「取る」
+- 📜 語源: ラテン語 conceptum「受け取られたもの」← concipere「受け取る、身ごもる」← con-「すっかり」+ capere「取る」
   - 「心に受けとめたもの」＝考え。conceive（思いつく、身ごもる）と同じ語。capere「取る」の家族で、recipe（レシピ）や receive（受け取る）の親戚。
 - 💎 語根: `cap / cep / cip / ceiv`（取る・受け取る）
 - 🌳 同じ語源の仲間: conceive（思いつく）、conception（考え、受胎）
@@ -36701,7 +36701,7 @@
 
 - 📍 シーン: 「文脈（コンテクスト）で意味が変わる」。
 - 💬 例文: *You can guess the meaning from the context.* — 文脈から意味を推測できる。
-- 📜 語源: ラテン語 contextus「織り合わせ」← con- + texere「織る」
+- 📜 語源: ラテン語 contextus「織り合わせ」← con-「共に」+ texere「織る」
   - 「一緒に織りこまれたもの」。text（本文＝織られたもの）、textile（織物）、texture（手ざわり）も texere の家族。
 - 💎 語根: `text / tex`（織る）
 - 🌳 同じ語源の仲間: text（本文）、textile（織物）、texture（質感）
@@ -37094,7 +37094,7 @@
 
 - 📍 シーン: 記者会見（press conference）、学会。
 - 💬 例文: *She spoke at an international conference.* — 彼女は国際会議で講演した。
-- 📜 語源: 中世ラテン語 cōnferentia ← cōnferre「持ち寄る」← con- + ferre「運ぶ」
+- 📜 語源: 中世ラテン語 cōnferentia ← cōnferre「持ち寄る」← con-「共に」+ ferre「運ぶ」
   - 「意見を持ち寄る」。transfer（移す）、prefer（好む）、offer も ferre の家族。
 - 🌳 同じ語源の仲間: transfer（移す）、prefer（好む）
 
@@ -37142,7 +37142,7 @@
 
 - 📍 シーン: インフレ率、物価高。
 - 💬 例文: *Inflation is making everything more expensive.* — インフレで何もかも高くなっている。
-- 📜 語源: ラテン語 īnflātiō「ふくらませること」← in- + flāre「吹く」
+- 📜 語源: ラテン語 īnflātiō「ふくらませること」← in-「中へ」+ flāre「吹く」
   - 風船を吹いて「ふくらませる」ように、お金の量がふくらみ物価が上がること。flute（フルート＝吹く楽器）も flāre の家族。
 - 🌳 同じ語源の仲間: inflate（ふくらませる）、deflation（デフレ）
 
@@ -37238,7 +37238,7 @@
 
 - 📍 シーン: データのインポート、輸入品。
 - 💬 例文: *Japan imports a lot of food.* — 日本はたくさんの食料を輸入している。
-- 📜 語源: ラテン語 importāre「中へ運ぶ」← in- + portāre「運ぶ」
+- 📜 語源: ラテン語 importāre「中へ運ぶ」← in-「中へ」+ portāre「運ぶ」
   - 「港の中へ運ぶ」。important（重要な）も importāre の「（意味を）もたらす」から。
 - 💎 語根: `port`（運ぶ）
 - 🌳 同じ語源の仲間: important（重要な）
@@ -37255,7 +37255,7 @@
 
 - 📍 シーン: データのエクスポート、輸出産業。
 - 💬 例文: *The company exports cars to Europe.* — その会社はヨーロッパに車を輸出している。
-- 📜 語源: ラテン語 exportāre「外へ運ぶ」← ex- + portāre
+- 📜 語源: ラテン語 exportāre「外へ運ぶ」← ex-「外へ」+ portāre「運ぶ」
   - import の反対。port（港）を「出ていく」イメージ。
 - 💎 語根: `port`（運ぶ）
 - 🌳 同じ語源の仲間: import（輸入）
@@ -37887,7 +37887,7 @@
 
 - 📍 シーン: スタートアップ企業、ITベンチャー。
 - 💬 例文: *He left his job to join a startup.* — 彼は会社をやめて新興企業に入った。
-- 📜 語源: start「始める」+ up
+- 📜 語源: start「始める」+ up「上へ（立ち上げる）」
   - 「立ち上げたばかりの会社」。パソコンの「起動」も startup。
 - 🌳 同じ語源の仲間: start（始める）
 
@@ -38311,7 +38311,7 @@
 
 - 📍 シーン: 買い物のレシート、領収書。
 - 💬 例文: *Can I have a receipt, please?* — レシートをもらえますか？
-- 📜 語源: アングロ・フランス語 receite ← ラテン語 recepta「受け取ったもの」← recipere
+- 📜 語源: アングロ・フランス語 receite ← ラテン語 recepta「受け取ったもの」← recipere「受け取る」
   - receive、recipe と同じ語。p は発音しない（ラテン語のつづりをまねて後から入れた）。
 - 💎 語根: `cap / cep / cip / ceiv`（取る・受け取る）
 - 🌳 同じ語源の仲間: receive（受け取る）、recipe（レシピ）
@@ -38959,7 +38959,7 @@
 
 - 📍 シーン: ゲストハウス、ユースホステル。
 - 💬 例文: *We stayed at a cheap hostel in Paris.* — パリでは安いホステルに泊まった。
-- 📜 語源: 古フランス語 hostel「宿」← ラテン語 hospitāle
+- 📜 語源: 古フランス語 hostel「宿」← ラテン語 hospitāle「客をもてなす場所」
   - hotel と同じ語から分かれたもの。hospital、host と同じ hospes の家族。
 - 💎 語根: `hosp / host / hot`（客・もてなす人）
 - 🌳 同じ語源の仲間: hotel（ホテル）、hospital（病院）
@@ -38976,7 +38976,7 @@
 
 - 📍 シーン: 画像のモザイク、モザイクタイル。
 - 💬 例文: *The floor was decorated with a beautiful mosaic.* — 床は美しいモザイクで飾られていた。
-- 📜 語源: 中世ラテン語 mūsāicum「ミューズの（作品）」← ギリシャ語 mousa
+- 📜 語源: 中世ラテン語 mūsāicum「ミューズの（作品）」← ギリシャ語 mousa「ムーサ（芸術の女神ミューズ）」
   - 芸術の女神ミューズにささげられた装飾から、とされる。music、museum と同じ家族。映像の「モザイク処理」は英語では pixelation / blur。
 - 🌳 同じ語源の仲間: music（音楽）、museum（博物館）
 
@@ -47942,7 +47942,7 @@
 
 - 📍 シーン: 技術革新、イノベーションを起こす。
 - 💬 例文: *Smartphones were a major innovation.* — スマートフォンは大きな革新だった。
-- 📜 語源: ラテン語 innovāre「新しくする」← in- + novus「新しい」
+- 📜 語源: ラテン語 innovāre「新しくする」← in-「中へ」+ novus「新しい」
   - novus「新しい」の家族には novel（小説＝新しい話）、novice（新人）、renovate（改装する）、nova（新星）がある。英語の new とも同じ印欧語根。
 - 💎 語根: `nov`（新しい）
 - 🌳 同じ語源の仲間: novel（小説）、renovate（改装する）、novice（初心者）
@@ -48025,7 +48025,7 @@
 
 - 📍 シーン: 「結果にコミットする」。
 - 💬 例文: *Learning a language takes time and commitment.* — 語学の習得には時間と本気の取り組みが必要だ。
-- 📜 語源: commit「ゆだねる、約束する」← ラテン語 committere「まとめて送る、ゆだねる」← com- + mittere「送る」
+- 📜 語源: commit「ゆだねる、約束する」← ラテン語 committere「まとめて送る、ゆだねる」← com-「まとめて」+ mittere「送る」
   - 「すっかりゆだねる」→ 身をささげる、約束する。「罪を犯す（commit a crime）」も同じ語。mission、message と同じ mittere の家族。
 - 💎 語根: `mit / miss`（送る）
 - 🌳 同じ語源の仲間: commit（ゆだねる、犯す）、committee（委員会）
@@ -48058,7 +48058,7 @@
 
 - 📍 シーン: ダイバーシティ推進、生物多様性。
 - 💬 例文: *Our school values cultural diversity.* — 私たちの学校は文化の多様性を大切にしている。
-- 📜 語源: ラテン語 dīversitās ← dīversus「別々の方向に向いた」← dī- + vertere「向ける」
+- 📜 語源: ラテン語 dīversitās ← dīversus「別々の方向に向いた」← dī-「離れて」+ vertere「向ける」
   - 「別の方向を向いた」→ さまざまな。divert（そらす）、reverse（逆にする）、version（版）も vertere の家族。
 - 💎 語根: `vert / vers`（向ける・回す）
 - 🌳 同じ語源の仲間: diverse（多様な）、reverse（逆の）、version（版）
@@ -48202,7 +48202,7 @@
 
 - 📍 シーン: リマインダーメール、スマホのリマインダー。
 - 💬 例文: *I set a reminder on my phone.* — スマホにリマインダーを設定した。
-- 📜 語源: remind「思い出させる」+ -er ← re- + mind「心」
+- 📜 語源: remind「思い出させる」+ -er ← re-「再び」+ mind「心」
   - 「もう一度心に入れるもの」。
 - 🌳 同じ語源の仲間: remind（思い出させる）、mind（心）
 
@@ -48379,7 +48379,7 @@
 
 - 📍 シーン: 新商品（new product）、プロダクトデザイン。
 - 💬 例文: *This product is made in Japan.* — この製品は日本製だ。
-- 📜 語源: ラテン語 prōductum「生み出されたもの」← prōdūcere
+- 📜 語源: ラテン語 prōductum「生み出されたもの」← prōdūcere「前に導く、生み出す」
   - produce、producer と同じ家族。数学の「積」も product。
 - 🌳 同じ語源の仲間: produce（生産する）、production（生産）
 
@@ -49905,7 +49905,7 @@
 - 📍 シーン: 「コンプレックスがある」、商業施設（complex）。
 - ⚠️ カタカナの罠: 日本語の「コンプレックス」は「劣等感」の意味だが、英語で complex だけでは通じにくい。劣等感なら inferiority complex / insecurity。形容詞 complex は「複雑な」。
 - 💬 例文: *This is a very complex problem.* — これはとても複雑な問題だ。
-- 📜 語源: ラテン語 complexus「編み合わされた」← com- + plectere「編む」
+- 📜 語源: ラテン語 complexus「編み合わされた」← com-「共に」+ plectere「編む」
   - 「いくつも編み合わさった」→ 複雑な、複合体。心理学では「絡み合った感情のかたまり」。simple（一重の）の反対。
 - 🌳 同じ語源の仲間: complexity（複雑さ）
 
@@ -55769,7 +55769,7 @@
 
 - 📍 シーン: インクルーシブ教育、ダイバーシティ＆インクルージョン。
 - 💬 例文: *The school promotes the inclusion of all students.* — その学校はすべての生徒を受け入れることを進めている。
-- 📜 語源: ラテン語 inclūsiō ← inclūdere「閉じこめる、含める」← in- + claudere「閉じる」
+- 📜 語源: ラテン語 inclūsiō ← inclūdere「閉じこめる、含める」← in-「中に」+ claudere「閉じる」
   - include（含む）、exclude（締め出す）、close（閉じる）も claudere の家族。
 - 🌳 同じ語源の仲間: include（含む）、exclude（排除する）、close（閉じる）
 
@@ -55897,7 +55897,7 @@
 
 - 📍 シーン: 「心のレジリエンス」、災害に強いまちづくり。
 - 💬 例文: *Children often show amazing resilience.* — 子どもはしばしば驚くほどの回復力を見せる。
-- 📜 語源: ラテン語 resilīre「はね返る」← re- + salīre「跳ぶ」
+- 📜 語源: ラテン語 resilīre「はね返る」← re-「後ろへ」+ salīre「跳ぶ」
   - ばねのように「はね返る力」。salmon（サケ＝跳ねる魚）、assault（襲撃＝跳びかかる）も salīre の家族とされる。
 - 🌳 同じ語源の仲間: resilient（回復力のある）
 
@@ -56238,7 +56238,7 @@
 
 - 📍 シーン: コンバージョン率（CVR）、改宗。
 - 💬 例文: *The website's conversion rate went up.* — サイトの成約率が上がった。
-- 📜 語源: ラテン語 conversiō「向きを変えること」← convertere ← con- + vertere「回す」
+- 📜 語源: ラテン語 conversiō「向きを変えること」← convertere ← con-「すっかり」+ vertere「回す」
   - 閲覧者が「客に変わる」こと。reverse、version と同じ vertere の家族。
 - 💎 語根: `vert / vers`（向ける・回す）
 - 🌳 同じ語源の仲間: convert（変える）、version（版）
@@ -56271,7 +56271,7 @@
 
 - 📍 シーン: 顧客のリテンション、人材の定着。
 - 💬 例文: *Staff retention is a big problem for the company.* — 社員の定着は会社にとって大きな問題だ。
-- 📜 語源: ラテン語 retentiō「引き留めること」← retinēre ← re- + tenēre「保つ」
+- 📜 語源: ラテン語 retentiō「引き留めること」← retinēre ← re-「後ろへ」+ tenēre「保つ」
   - 「引き留めておく」。contain、maintain、sustainable と同じ tenēre の家族。
 - 💎 語根: `ten / tain / tin`（保つ）
 - 🌳 同じ語源の仲間: retain（保つ）、contain（含む）
@@ -56482,7 +56482,7 @@
 
 - 📍 シーン: キックオフミーティング、試合開始。
 - 💬 例文: *The kickoff is at 7 p.m.* — 試合開始は午後7時だ。
-- 📜 語源: kick「ける」+ off
+- 📜 語源: kick「ける」+ off「離れて（ボールを蹴り出す）」
   - サッカーでボールをけって試合を始めることから、プロジェクトの「始まり」に。
 - 🌳 同じ語源の仲間: kick（ける）
 
@@ -56658,7 +56658,7 @@
 
 - 📍 シーン: エグゼクティブクラス、経営幹部。
 - 💬 例文: *She is a senior executive at a bank.* — 彼女は銀行の上級幹部だ。
-- 📜 語源: ラテン語 exsequī「最後まで行う」← ex- + sequī「従う」
+- 📜 語源: ラテン語 exsequī「最後まで行う」← ex-「最後まで」+ sequī「従う」
   - 「最後までやりとげる（実行する）人」。execute（実行する）、sequence と同じ家族。
 - 🌳 同じ語源の仲間: execute（実行する）
 
@@ -56930,7 +56930,7 @@
 
 - 📍 シーン: データのバックアップ、バックアップ体制。
 - 💬 例文: *Always keep a backup of your files.* — ファイルのバックアップを必ずとっておいて。
-- 📜 語源: back「後ろ」+ up
+- 📜 語源: back「後ろ」+ up「しっかり（支える）」
   - 「後ろから支えるもの」→ 予備、支援。
 - 🌳 同じ語源の仲間: back（後ろ）
 
@@ -57204,7 +57204,7 @@
 
 - 📍 シーン: サーバーメンテナンス、車の整備。
 - 💬 例文: *The website is down for maintenance.* — サイトはメンテナンスのため停止中だ。
-- 📜 語源: 古フランス語 maintenir「手で保つ」← ラテン語 manū tenēre
+- 📜 語源: 古フランス語 maintenir「手で保つ」← ラテン語 manū「手で」+ tenēre「保つ」
   - 「手（manus）で保つ（tenēre）」。maintain の名詞形。manual、contain の両方の家族。
 - 💎 語根: `ten / tain / tin`（保つ）, `manu / man / main`（手）
 - 🌳 同じ語源の仲間: maintain（維持する）
@@ -57414,7 +57414,7 @@
 
 - 📍 シーン: 貨物コンテナ、保存容器。
 - 💬 例文: *Put the leftovers in a container.* — 残り物を容器に入れて。
-- 📜 語源: contain「含む」+ -er ← ラテン語 continēre ← con- + tenēre「保つ」
+- 📜 語源: contain「含む」+ -er ← ラテン語 continēre ← con-「まとめて」+ tenēre「保つ」
   - 「中に保つもの」。content、maintain と同じ tenēre の家族。
 - 💎 語根: `ten / tain / tin`（保つ）
 - 🌳 同じ語源の仲間: contain（含む）、content（中身）
@@ -63338,7 +63338,7 @@
 
 - 📍 シーン: 政治イデオロギー、左右の対立。
 - 💬 例文: *The two parties have very different ideologies.* — 2つの政党はまったく違う思想をもっている。
-- 📜 語源: フランス語 idéologie「観念の学」← ギリシャ語 idea + -logia
+- 📜 語源: フランス語 idéologie「観念の学」← ギリシャ語 idea「観念、考え」+ -logia「学問」
   - 18世紀末のフランスで作られた語。「イデオロギー」はドイツ語 Ideologie の読み。英語の発音は「アイディオロジー」。idea、logic と同じ家族。
 - 💎 語根: `log / logy`（言葉・理性）
 - 🌳 同じ語源の仲間: idea（考え）
@@ -63355,7 +63355,7 @@
 
 - 📍 シーン: ルネサンス美術、レオナルド・ダ・ヴィンチ。
 - 💬 例文: *The city is enjoying a cultural renaissance.* — その都市では文化の復興が進んでいる。
-- 📜 語源: フランス語 renaissance「再生」← renaître「生まれ変わる」← ラテン語 re- + nāscī「生まれる」
+- 📜 語源: フランス語 renaissance「再生」← renaître「生まれ変わる」← ラテン語 re-「再び」+ nāscī「生まれる」
   - 14〜16世紀、古代ギリシャ・ローマの文化が「生まれ変わった」時代。nature、native、naive と同じ nāscī の家族。
 - 💎 語根: `nat / nai`（生まれる）
 - 🌳 同じ語源の仲間: nature（自然）、native（生まれた土地の）
@@ -63436,7 +63436,7 @@
 
 - 📍 シーン: 〜へのアンチテーゼ、真逆。
 - 💬 例文: *Her style is the antithesis of his.* — 彼女のやり方は彼とまったく正反対だ。
-- 📜 語源: ギリシャ語 antithesis「反対に置くこと」← anti-「反対に」+ thesis
+- 📜 語源: ギリシャ語 antithesis「反対に置くこと」← anti-「反対に」+ thesis「置くこと、主張」
   - ヘーゲルの弁証法の「正・反・合」の「反」。英語では「正反対のもの」の意味でよく使う。
 - 🌳 同じ語源の仲間: thesis（命題）
 
@@ -63500,7 +63500,7 @@
 
 - 📍 シーン: 「シュールな笑い」、シュールレアリスム。
 - 💬 例文: *Meeting my hero was a surreal experience.* — 憧れの人に会えたのは夢のような体験だった。
-- 📜 語源: surrealism「超現実主義」から ← フランス語 sur-「超えた」+ réalisme
+- 📜 語源: surrealism「超現実主義」から ← フランス語 sur-「超えた」+ réalisme「写実主義」
   - 1920年代の芸術運動シュールレアリスム（ダリなど）から。日本語の「シュール」はここから来た語。
 - 🌳 同じ語源の仲間: surrealism（シュールレアリスム）、real（現実の）
 
@@ -63647,7 +63647,7 @@
 
 - 📍 シーン: エリート社員、エリート校。
 - 💬 例文: *He went to an elite university.* — 彼はエリート大学に通っていた。
-- 📜 語源: フランス語 élite「選ばれた者」← élire「選ぶ」← ラテン語 ēligere
+- 📜 語源: フランス語 élite「選ばれた者」← élire「選ぶ」← ラテン語 ēligere「選び出す」
   - elect（選ぶ）と同じ語。英語では集団を指すことが多い（the elite）。
 - 💎 語根: `leg / lect / lig`（読む・集める・選ぶ）
 - 🌳 同じ語源の仲間: elect（選ぶ）、eligible（資格のある）
@@ -64039,7 +64039,7 @@
 
 - 📍 シーン: マエストロ（指揮者）、料理の巨匠。
 - 💬 例文: *The maestro conducted the orchestra brilliantly.* — 巨匠はオーケストラを見事に指揮した。
-- 📜 語源: イタリア語 maestro「先生、名人」← ラテン語 magister
+- 📜 語源: イタリア語 maestro「先生、名人」← ラテン語 magister「先生、長」
   - master（名人）と同じ語。特に偉大な指揮者や音楽家を呼ぶ。
 - 🌳 同じ語源の仲間: master（名人）
 
@@ -64200,7 +64200,7 @@
 
 - 📍 シーン: 目の錯覚、イリュージョンマジック。
 - 💬 例文: *The picture creates an optical illusion.* — その絵は目の錯覚を起こす。
-- 📜 語源: ラテン語 illūsiō「あざけり、だまし」← illūdere「からかう」← in- + lūdere「遊ぶ」
+- 📜 語源: ラテン語 illūsiō「あざけり、だまし」← illūdere「からかう」← in-「〜に向かって」+ lūdere「遊ぶ」
   - 「目をからかうもの」。ludicrous（ばかげた）も lūdere の家族。
 - 🌳 同じ語源の仲間: illusionist（奇術師）
 
@@ -68750,7 +68750,7 @@
 
 - 📍 シーン: ワーグナーのライトモチーフ、作品を貫くテーマ。
 - 💬 例文: *Loneliness is a leitmotif in her novels.* — 孤独は彼女の小説にくり返し現れる主題だ。
-- 📜 語源: ドイツ語 Leitmotiv「導く動機」← leiten「導く」+ Motiv
+- 📜 語源: ドイツ語 Leitmotiv「導く動機」← leiten「導く」+ Motiv「動機、モチーフ」
   - ワーグナーのオペラで、人物や考えを表すくり返しの旋律。lead（導く）と同じ語根、motif と同じ語。
 - 💎 語根: `mov / mot / mob`（動かす）
 - 🌳 同じ語源の仲間: motif（モチーフ）
