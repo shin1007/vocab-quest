@@ -5516,7 +5516,7 @@
  },
  "application.katakana": {
   "lang": "ja",
-  "text": "アプリ",
+  "text": "アプリケーション",
   "tier": "core"
  },
  "application.meaning": {
@@ -27886,7 +27886,7 @@
  },
  "condominium.katakana": {
   "lang": "ja",
-  "text": "マンション",
+  "text": "分譲マンション",
   "tier": "core"
  },
  "condominium.meaning": {
@@ -34077,36 +34077,6 @@
  "decoration.word": {
   "lang": "en",
   "text": "decoration",
-  "tier": "core"
- },
- "deep-fried-food.example.en": {
-  "lang": "en",
-  "text": "I don't eat much deep-fried food.",
-  "tier": "core"
- },
- "deep-fried-food.example.ja": {
-  "lang": "ja",
-  "text": "揚げ物はあまり食べない。",
-  "tier": "core"
- },
- "deep-fried-food.katakana": {
-  "lang": "ja",
-  "text": "フライ",
-  "tier": "core"
- },
- "deep-fried-food.meaning": {
-  "lang": "ja",
-  "text": "揚げ物、フライ",
-  "tier": "core"
- },
- "deep-fried-food.story": {
-  "lang": "ja",
-  "text": "fry はラテン語 frigere「あぶる」から。",
-  "tier": "extended"
- },
- "deep-fried-food.word": {
-  "lang": "en",
-  "text": "deep-fried food",
   "tier": "core"
  },
  "deep.example.en": {
@@ -66286,7 +66256,7 @@
  },
  "juan.katakana": {
   "lang": "ja",
-  "text": "ファン",
+  "text": "フアン",
   "tier": "core"
  },
  "juan.meaning": {
@@ -66448,31 +66418,6 @@
   "lang": "en",
   "text": "jukebox",
   "tier": "core"
- },
- "jules.example.en": {
-  "lang": "en",
-  "text": "Jules Verne wrote Twenty Thousand Leagues Under the Seas.",
-  "tier": "core"
- },
- "jules.example.ja": {
-  "lang": "ja",
-  "text": "ジュール、ヴェルヌは『海底二万里』を書いた。",
-  "tier": "core"
- },
- "jules.katakana": {
-  "lang": "ja",
-  "text": "ジュール",
-  "tier": "core"
- },
- "jules.meaning": {
-  "lang": "ja",
-  "text": "男性名 フランス語形 。Julius にあたる",
-  "tier": "core"
- },
- "jules.story": {
-  "lang": "ja",
-  "text": "エネルギーの単位ジュール joule は英国の物理学者 Joule の名で、別の名前。",
-  "tier": "extended"
  },
  "julia.example.en": {
   "lang": "en",
@@ -95414,6 +95359,16 @@
   "text": "I had a bowl of rice.",
   "tier": "core"
  },
+ "pe.ban-bun.ban": {
+  "lang": "en",
+  "text": "The city will ban smoking in parks.",
+  "tier": "core"
+ },
+ "pe.ban-bun.bun": {
+  "lang": "en",
+  "text": "I ate a sweet bun for breakfast.",
+  "tier": "core"
+ },
  "pe.ban-van.ban": {
   "lang": "en",
   "text": "The city plans to ban smoking in parks.",
@@ -95504,6 +95459,16 @@
   "text": "You can vote at the age of 18.",
   "tier": "core"
  },
+ "pe.bolt-volt.bolt": {
+  "lang": "en",
+  "text": "Tighten the bolt with a wrench.",
+  "tier": "core"
+ },
+ "pe.bolt-volt.volt": {
+  "lang": "en",
+  "text": "This battery gives 9 volt power.",
+  "tier": "core"
+ },
  "pe.bought-boat.boat": {
   "lang": "en",
   "text": "We rowed a boat on the lake.",
@@ -95532,6 +95497,16 @@
  "pe.breath-breathe.breathe": {
   "lang": "en",
   "text": "Breathe slowly and relax.",
+  "tier": "core"
+ },
+ "pe.brunch-branch.branch": {
+  "lang": "en",
+  "text": "The bank has a branch near the station.",
+  "tier": "core"
+ },
+ "pe.brunch-branch.brunch": {
+  "lang": "en",
+  "text": "Let's have brunch on Sunday.",
   "tier": "core"
  },
  "pe.bus-bath.bath": {
@@ -95604,6 +95579,16 @@
   "text": "Crime is decreasing in this city.",
   "tier": "core"
  },
+ "pe.cloak-cloakroom.cloak": {
+  "lang": "en",
+  "text": "The wizard wore a long black cloak.",
+  "tier": "core"
+ },
+ "pe.cloak-cloakroom.cloakroom": {
+  "lang": "en",
+  "text": "You can leave your coat in the cloakroom.",
+  "tier": "core"
+ },
  "pe.close-clothes.close": {
   "lang": "en",
   "text": "Please close the window.",
@@ -95662,6 +95647,16 @@
  "pe.collect-correct.correct": {
   "lang": "en",
   "text": "Your answer is correct.",
+  "tier": "core"
+ },
+ "pe.colosseum-coliseum.coliseum": {
+  "lang": "en",
+  "text": "The concert was held at the city coliseum.",
+  "tier": "core"
+ },
+ "pe.colosseum-coliseum.colosseum": {
+  "lang": "en",
+  "text": "We visited the Colosseum in Rome.",
   "tier": "core"
  },
  "pe.complement-compliment.complement": {
@@ -95732,6 +95727,16 @@
  "pe.crown-clown.crown": {
   "lang": "en",
   "text": "The king wore a gold crown.",
+  "tier": "core"
+ },
+ "pe.curl-karl.Karl": {
+  "lang": "en",
+  "text": "Karl is a common name in Germany.",
+  "tier": "core"
+ },
+ "pe.curl-karl.curl": {
+  "lang": "en",
+  "text": "She likes to curl her hair.",
   "tier": "core"
  },
  "pe.curve-curb.curb": {
@@ -95944,6 +95949,16 @@
   "text": "They slept in a small hut in the mountains.",
   "tier": "core"
  },
+ "pe.heal-heel.heal": {
+  "lang": "en",
+  "text": "The cut will heal in a few days.",
+  "tier": "core"
+ },
+ "pe.heal-heel.heel": {
+  "lang": "en",
+  "text": "She wore shoes with a high heel.",
+  "tier": "core"
+ },
  "pe.hear-here.hear": {
   "lang": "en",
   "text": "Can you hear me?",
@@ -95992,6 +96007,16 @@
  "pe.industrial-industrious.industrious": {
   "lang": "en",
   "text": "She is an industrious student.",
+  "tier": "core"
+ },
+ "pe.jury-julie.Julie": {
+  "lang": "en",
+  "text": "Julie sings in a band.",
+  "tier": "core"
+ },
+ "pe.jury-julie.jury": {
+  "lang": "en",
+  "text": "The jury found him not guilty.",
   "tier": "core"
  },
  "pe.lack-luck.lack": {
@@ -96074,6 +96099,16 @@
   "text": "I live in a small town.",
   "tier": "core"
  },
+ "pe.liver-lever.lever": {
+  "lang": "en",
+  "text": "Pull the lever to open the door.",
+  "tier": "core"
+ },
+ "pe.liver-lever.liver": {
+  "lang": "en",
+  "text": "Alcohol can damage your liver.",
+  "tier": "core"
+ },
  "pe.liver-river.liver": {
   "lang": "en",
   "text": "Too much alcohol is bad for your liver.",
@@ -96154,6 +96189,16 @@
   "text": "They visited the royal palace.",
   "tier": "core"
  },
+ "pe.luck-rack.luck": {
+  "lang": "en",
+  "text": "Good luck on your test!",
+  "tier": "core"
+ },
+ "pe.luck-rack.rack": {
+  "lang": "en",
+  "text": "Put your bag on the rack above the seat.",
+  "tier": "core"
+ },
  "pe.mail-male.mail": {
   "lang": "en",
   "text": "Did you check your mail today?",
@@ -96162,6 +96207,16 @@
  "pe.mail-male.male": {
   "lang": "en",
   "text": "Is your cat male or female?",
+  "tier": "core"
+ },
+ "pe.main-maine.Maine": {
+  "lang": "en",
+  "text": "Maine is famous for lobsters.",
+  "tier": "core"
+ },
+ "pe.main-maine.main": {
+  "lang": "en",
+  "text": "What is the main reason?",
   "tier": "core"
  },
  "pe.match-much.match": {
@@ -96212,6 +96267,16 @@
  "pe.night-knight.night": {
   "lang": "en",
   "text": "The stars are bright tonight. I love the night.",
+  "tier": "core"
+ },
+ "pe.orc-oak.oak": {
+  "lang": "en",
+  "text": "The table is made of oak.",
+  "tier": "core"
+ },
+ "pe.orc-oak.orc": {
+  "lang": "en",
+  "text": "The hero fought an orc in the forest.",
   "tier": "core"
  },
  "pe.pair-pear.pair": {
@@ -96274,6 +96339,16 @@
   "text": "We pray for peace.",
   "tier": "core"
  },
+ "pe.pole-paul.Paul": {
+  "lang": "en",
+  "text": "Paul is my best friend.",
+  "tier": "core"
+ },
+ "pe.pole-paul.pole": {
+  "lang": "en",
+  "text": "The flag hangs from a tall pole.",
+  "tier": "core"
+ },
  "pe.precede-proceed.precede": {
   "lang": "en",
   "text": "A short speech will precede the concert.",
@@ -96312,6 +96387,16 @@
  "pe.ran-run.run": {
   "lang": "en",
   "text": "I run in the park every morning.",
+  "tier": "core"
+ },
+ "pe.reading-leading.leading": {
+  "lang": "en",
+  "text": "She is a leading expert on climate.",
+  "tier": "core"
+ },
+ "pe.reading-leading.reading": {
+  "lang": "en",
+  "text": "Reading is my favorite hobby.",
   "tier": "core"
  },
  "pe.respectable-respectful-respective.respectable": {
@@ -96539,6 +96624,16 @@
   "text": "The bridge is made of steel.",
   "tier": "core"
  },
+ "pe.stole-stall.stall": {
+  "lang": "en",
+  "text": "We bought fruit from a market stall.",
+  "tier": "core"
+ },
+ "pe.stole-stall.stole": {
+  "lang": "en",
+  "text": "She wrapped a silk stole around her shoulders.",
+  "tier": "core"
+ },
  "pe.successful-successive.successful": {
   "lang": "en",
   "text": "The event was very successful.",
@@ -96574,6 +96669,26 @@
   "text": "The train went through a tunnel.",
   "tier": "core"
  },
+ "pe.toll-thor.Thor": {
+  "lang": "en",
+  "text": "Thor carries a mighty hammer.",
+  "tier": "core"
+ },
+ "pe.toll-thor.toll": {
+  "lang": "en",
+  "text": "We paid a toll to use the highway.",
+  "tier": "core"
+ },
+ "pe.troll-trawl.trawl": {
+  "lang": "en",
+  "text": "The boat will trawl for fish all night.",
+  "tier": "core"
+ },
+ "pe.troll-trawl.troll": {
+  "lang": "en",
+  "text": "Don't feed the troll in the comments.",
+  "tier": "core"
+ },
  "pe.truck-track.track": {
   "lang": "en",
   "text": "The runners lined up on the track.",
@@ -96602,6 +96717,16 @@
  "pe.walk-work.work": {
   "lang": "en",
   "text": "I work at a bank in the city.",
+  "tier": "core"
+ },
+ "pe.wear-ware.ware": {
+  "lang": "en",
+  "text": "The shop sells kitchen ware.",
+  "tier": "core"
+ },
+ "pe.wear-ware.wear": {
+  "lang": "en",
+  "text": "I wear a uniform at work.",
   "tier": "core"
  },
  "pe.weather-whether.weather": {
@@ -104979,6 +105104,31 @@
   "text": "puzzle",
   "tier": "core"
  },
+ "pw.Julie": {
+  "lang": "en",
+  "text": "Julie",
+  "tier": "core"
+ },
+ "pw.Karl": {
+  "lang": "en",
+  "text": "Karl",
+  "tier": "core"
+ },
+ "pw.Maine": {
+  "lang": "en",
+  "text": "Maine",
+  "tier": "core"
+ },
+ "pw.Paul": {
+  "lang": "en",
+  "text": "Paul",
+  "tier": "core"
+ },
+ "pw.Thor": {
+  "lang": "en",
+  "text": "Thor",
+  "tier": "core"
+ },
  "pw.accept": {
   "lang": "en",
   "text": "accept",
@@ -105099,6 +105249,11 @@
   "text": "boat",
   "tier": "core"
  },
+ "pw.bolt": {
+  "lang": "en",
+  "text": "bolt",
+  "tier": "core"
+ },
  "pw.bought": {
   "lang": "en",
   "text": "bought",
@@ -105112,6 +105267,11 @@
  "pw.brake": {
   "lang": "en",
   "text": "brake",
+  "tier": "core"
+ },
+ "pw.branch": {
+  "lang": "en",
+  "text": "branch",
   "tier": "core"
  },
  "pw.break": {
@@ -105129,9 +105289,19 @@
   "text": "breathe",
   "tier": "core"
  },
+ "pw.brunch": {
+  "lang": "en",
+  "text": "brunch",
+  "tier": "core"
+ },
  "pw.bug": {
   "lang": "en",
   "text": "bug",
+  "tier": "core"
+ },
+ "pw.bun": {
+  "lang": "en",
+  "text": "bun",
   "tier": "core"
  },
  "pw.bus": {
@@ -105179,6 +105349,16 @@
   "text": "climb",
   "tier": "core"
  },
+ "pw.cloak": {
+  "lang": "en",
+  "text": "cloak",
+  "tier": "core"
+ },
+ "pw.cloakroom": {
+  "lang": "en",
+  "text": "cloakroom",
+  "tier": "core"
+ },
  "pw.close": {
   "lang": "en",
   "text": "close",
@@ -105214,9 +105394,19 @@
   "text": "coat",
   "tier": "core"
  },
+ "pw.coliseum": {
+  "lang": "en",
+  "text": "coliseum",
+  "tier": "core"
+ },
  "pw.collect": {
   "lang": "en",
   "text": "collect",
+  "tier": "core"
+ },
+ "pw.colosseum": {
+  "lang": "en",
+  "text": "colosseum",
   "tier": "core"
  },
  "pw.complement": {
@@ -105312,6 +105502,11 @@
  "pw.curb": {
   "lang": "en",
   "text": "curb",
+  "tier": "core"
+ },
+ "pw.curl": {
+  "lang": "en",
+  "text": "curl",
   "tier": "core"
  },
  "pw.curry": {
@@ -105524,6 +105719,11 @@
   "text": "hat",
   "tier": "core"
  },
+ "pw.heal": {
+  "lang": "en",
+  "text": "heal",
+  "tier": "core"
+ },
  "pw.hear": {
   "lang": "en",
   "text": "hear",
@@ -105532,6 +105732,11 @@
  "pw.heart": {
   "lang": "en",
   "text": "heart",
+  "tier": "core"
+ },
+ "pw.heel": {
+  "lang": "en",
+  "text": "heel",
   "tier": "core"
  },
  "pw.here": {
@@ -105599,6 +105804,11 @@
   "text": "invaluable",
   "tier": "core"
  },
+ "pw.jury": {
+  "lang": "en",
+  "text": "jury",
+  "tier": "core"
+ },
  "pw.knight": {
   "lang": "en",
   "text": "knight",
@@ -105639,9 +105849,19 @@
   "text": "lead",
   "tier": "core"
  },
+ "pw.leading": {
+  "lang": "en",
+  "text": "leading",
+  "tier": "core"
+ },
  "pw.leave": {
   "lang": "en",
   "text": "leave",
+  "tier": "core"
+ },
+ "pw.lever": {
+  "lang": "en",
+  "text": "lever",
   "tier": "core"
  },
  "pw.lice": {
@@ -105729,6 +105949,11 @@
   "text": "mail",
   "tier": "core"
  },
+ "pw.main": {
+  "lang": "en",
+  "text": "main",
+  "tier": "core"
+ },
  "pw.male": {
   "lang": "en",
   "text": "male",
@@ -105777,6 +106002,16 @@
  "pw.night": {
   "lang": "en",
   "text": "night",
+  "tier": "core"
+ },
+ "pw.oak": {
+  "lang": "en",
+  "text": "oak",
+  "tier": "core"
+ },
+ "pw.orc": {
+  "lang": "en",
+  "text": "orc",
   "tier": "core"
  },
  "pw.pair": {
@@ -105829,6 +106064,11 @@
   "text": "play",
   "tier": "core"
  },
+ "pw.pole": {
+  "lang": "en",
+  "text": "pole",
+  "tier": "core"
+ },
  "pw.pray": {
   "lang": "en",
   "text": "pray",
@@ -105869,6 +106109,11 @@
   "text": "quite",
   "tier": "core"
  },
+ "pw.rack": {
+  "lang": "en",
+  "text": "rack",
+  "tier": "core"
+ },
  "pw.raise": {
   "lang": "en",
   "text": "raise",
@@ -105887,6 +106132,11 @@
  "pw.read": {
   "lang": "en",
   "text": "read",
+  "tier": "core"
+ },
+ "pw.reading": {
+  "lang": "en",
+  "text": "reading",
   "tier": "core"
  },
  "pw.respectable": {
@@ -106074,6 +106324,11 @@
   "text": "staff",
   "tier": "core"
  },
+ "pw.stall": {
+  "lang": "en",
+  "text": "stall",
+  "tier": "core"
+ },
  "pw.stationary": {
   "lang": "en",
   "text": "stationary",
@@ -106092,6 +106347,11 @@
  "pw.steel": {
   "lang": "en",
   "text": "steel",
+  "tier": "core"
+ },
+ "pw.stole": {
+  "lang": "en",
+  "text": "stole",
   "tier": "core"
  },
  "pw.stuff": {
@@ -106154,9 +106414,24 @@
   "text": "through",
   "tier": "core"
  },
+ "pw.toll": {
+  "lang": "en",
+  "text": "toll",
+  "tier": "core"
+ },
  "pw.track": {
   "lang": "en",
   "text": "track",
+  "tier": "core"
+ },
+ "pw.trawl": {
+  "lang": "en",
+  "text": "trawl",
+  "tier": "core"
+ },
+ "pw.troll": {
+  "lang": "en",
+  "text": "troll",
   "tier": "core"
  },
  "pw.truck": {
@@ -106194,6 +106469,11 @@
   "text": "vest",
   "tier": "core"
  },
+ "pw.volt": {
+  "lang": "en",
+  "text": "volt",
+  "tier": "core"
+ },
  "pw.vote": {
   "lang": "en",
   "text": "vote",
@@ -106204,9 +106484,19 @@
   "text": "walk",
   "tier": "core"
  },
+ "pw.ware": {
+  "lang": "en",
+  "text": "ware",
+  "tier": "core"
+ },
  "pw.weak": {
   "lang": "en",
   "text": "weak",
+  "tier": "core"
+ },
+ "pw.wear": {
+  "lang": "en",
+  "text": "wear",
   "tier": "core"
  },
  "pw.weather": {
@@ -110801,7 +111091,7 @@
  },
  "rhine.katakana": {
   "lang": "ja",
-  "text": "ライン",
+  "text": "ライン川",
   "tier": "core"
  },
  "rhine.meaning": {
@@ -142654,11 +142944,6 @@
   "text": "frittata",
   "tier": "core"
  },
- "syn.fritter": {
-  "lang": "en",
-  "text": "fritter",
-  "tier": "core"
- },
  "syn.front": {
   "lang": "en",
   "text": "front",
@@ -161939,11 +162224,6 @@
   "text": "tempt",
   "tier": "core"
  },
- "syn.tempura": {
-  "lang": "en",
-  "text": "tempura",
-  "tier": "core"
- },
  "syn.ten-commandments": {
   "lang": "en",
   "text": "Ten Commandments",
@@ -168371,7 +168651,7 @@
  },
  "thailand.katakana": {
   "lang": "ja",
-  "text": "タイ",
+  "text": "タイ王国",
   "tier": "core"
  },
  "thailand.meaning": {

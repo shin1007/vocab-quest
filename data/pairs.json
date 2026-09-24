@@ -1040,5 +1040,149 @@
       { "word": "comprehensive", "ipa": "ˌkɑːmprɪˈhensɪv", "pos": "形容詞", "meaning": "包括的な、総合的な", "example": { "en": "The book gives a comprehensive guide to Japan.", "ja": "その本は日本の総合的な案内書だ。" } },
       { "word": "comprehensible", "ipa": "ˌkɑːmprɪˈhensəbəl", "pos": "形容詞", "meaning": "理解できる", "example": { "en": "His explanation was easily comprehensible.", "ja": "彼の説明はすぐに理解できた。" } }
     ]
+  },
+  {
+    "id": "troll-trawl", "kind": "vowel", "level": 5,
+    "point": "どちらも「トロール」。troll は /oʊ/（オウ）、trawl は /ɔː/（口を縦に開くオー）。",
+    "words": [
+      { "word": "troll", "ipa": "troʊl", "pos": "名詞", "meaning": "トロール（北欧の怪物）、ネットの荒らし", "example": { "en": "Don't feed the troll in the comments.", "ja": "コメント欄の荒らしを相手にするな。" } },
+      { "word": "trawl", "ipa": "trɔːl", "pos": "動詞・名詞", "meaning": "底引き網で漁をする、底引き網", "example": { "en": "The boat will trawl for fish all night.", "ja": "その船は一晩中底引き網で漁をする。" } }
+    ]
+  },
+  {
+    "id": "cloak-cloakroom", "kind": "derived", "level": 5,
+    "point": "日本語の「クローク」は荷物を預ける場所（英語では cloakroom）。英語の cloak は「マント」。",
+    "words": [
+      { "word": "cloak", "ipa": "kloʊk", "pos": "名詞", "meaning": "マント、外套", "example": { "en": "The wizard wore a long black cloak.", "ja": "魔法使いは長い黒いマントを着ていた。" } },
+      { "word": "cloakroom", "ipa": "ˈkloʊkruːm", "pos": "名詞", "meaning": "（ホテルや劇場の）クローク、手荷物預かり所", "example": { "en": "You can leave your coat in the cloakroom.", "ja": "コートはクロークに預けられます。" } }
+    ]
+  },
+  {
+    "id": "heal-heel", "kind": "homophone", "level": 4,
+    "point": "heal と heel は発音が同じ /hiːl/。heal は「治す」、heel は「かかと」。",
+    "words": [
+      { "word": "heal", "ipa": "hiːl", "pos": "動詞", "meaning": "（傷などを）治す、治る", "example": { "en": "The cut will heal in a few days.", "ja": "その切り傷は数日で治るだろう。" } },
+      { "word": "heel", "ipa": "hiːl", "pos": "名詞", "meaning": "かかと、（靴の）ヒール", "example": { "en": "She wore shoes with a high heel.", "ja": "彼女はかかとの高い靴をはいていた。" } }
+    ]
+  },
+  {
+    "id": "luck-rack", "kind": "lr", "level": 4,
+    "point": "luck は L で始まり母音は /ʌ/、rack は R で始まり母音は /æ/。子音も母音もちがう。",
+    "words": [
+      { "word": "luck", "ipa": "lʌk", "pos": "名詞", "meaning": "運", "example": { "en": "Good luck on your test!", "ja": "テストがんばってね！" } },
+      { "word": "rack", "ipa": "ræk", "pos": "名詞", "meaning": "（物をのせる）棚、ラック", "example": { "en": "Put your bag on the rack above the seat.", "ja": "かばんは座席の上の棚に置いてください。" } }
+    ]
+  },
+  {
+    "id": "orc-oak", "kind": "vowel", "level": 5,
+    "point": "orc は /ɔːr/（R の響きがある）、oak は /oʊ/（オウ）。",
+    "words": [
+      { "word": "orc", "ipa": "ɔːrk", "pos": "名詞", "meaning": "オーク（ファンタジーの怪物）", "example": { "en": "The hero fought an orc in the forest.", "ja": "英雄は森でオークと戦った。" } },
+      { "word": "oak", "ipa": "oʊk", "pos": "名詞", "meaning": "オーク（ナラ・カシの木）", "example": { "en": "The table is made of oak.", "ja": "そのテーブルはオーク材でできている。" } }
+    ]
+  },
+  {
+    "id": "bolt-volt", "kind": "bv", "level": 5,
+    "point": "bolt は B（唇を閉じる）、volt は V（下唇に歯を当てる）。",
+    "words": [
+      { "word": "bolt", "ipa": "boʊlt", "pos": "名詞", "meaning": "ボルト（ねじ）、稲妻", "example": { "en": "Tighten the bolt with a wrench.", "ja": "レンチでボルトを締めて。" } },
+      { "word": "volt", "ipa": "voʊlt", "pos": "名詞", "meaning": "ボルト（電圧の単位）", "example": { "en": "This battery gives 9 volt power.", "ja": "この電池は9ボルトの電力を出す。" } }
+    ]
+  },
+  {
+    "id": "colosseum-coliseum", "kind": "spelling", "level": 6,
+    "point": "Colosseum はローマの円形闘技場、coliseum は一般の大競技場（アメリカ式のつづり）。",
+    "words": [
+      { "word": "colosseum", "ipa": "ˌkɑːləˈsiːəm", "pos": "名詞", "meaning": "（ローマの）コロッセオ、円形闘技場", "example": { "en": "We visited the Colosseum in Rome.", "ja": "私たちはローマのコロッセオを訪れた。" } },
+      { "word": "coliseum", "ipa": "ˌkɑːləˈsiːəm", "pos": "名詞", "meaning": "大競技場、スタジアム", "example": { "en": "The concert was held at the city coliseum.", "ja": "コンサートは市の大競技場で開かれた。" } }
+    ]
+  },
+  {
+    "id": "ban-bun", "kind": "vowel", "level": 4,
+    "point": "ban は /æ/（口を横に開くア）、bun は /ʌ/（短いア）。",
+    "words": [
+      { "word": "ban", "ipa": "bæn", "pos": "名詞・動詞", "meaning": "禁止、禁止する", "example": { "en": "The city will ban smoking in parks.", "ja": "市は公園での喫煙を禁止する予定だ。" } },
+      { "word": "bun", "ipa": "bʌn", "pos": "名詞", "meaning": "丸いパン、お団子ヘア", "example": { "en": "I ate a sweet bun for breakfast.", "ja": "朝食に甘い丸パンを食べた。" } }
+    ]
+  },
+  {
+    "id": "liver-lever", "kind": "vowel", "level": 5,
+    "point": "liver は短い /ɪ/、lever は長い /iː/（イー）。",
+    "words": [
+      { "word": "liver", "ipa": "ˈlɪvər", "pos": "名詞", "meaning": "肝臓、レバー", "example": { "en": "Alcohol can damage your liver.", "ja": "アルコールは肝臓を傷めることがある。" } },
+      { "word": "lever", "ipa": "ˈliːvər", "pos": "名詞", "meaning": "てこ、レバー", "example": { "en": "Pull the lever to open the door.", "ja": "ドアを開けるにはレバーを引いて。" } }
+    ]
+  },
+  {
+    "id": "main-maine", "kind": "homophone", "level": 4,
+    "point": "main と Maine（アメリカの州）は発音が同じ /meɪn/。",
+    "words": [
+      { "word": "main", "ipa": "meɪn", "pos": "形容詞", "meaning": "主な", "example": { "en": "What is the main reason?", "ja": "主な理由は何ですか？" } },
+      { "word": "Maine", "ipa": "meɪn", "pos": "名詞", "meaning": "メイン州", "example": { "en": "Maine is famous for lobsters.", "ja": "メイン州はロブスターで有名だ。" } }
+    ]
+  },
+  {
+    "id": "pole-paul", "kind": "vowel", "level": 4,
+    "point": "pole は /oʊ/（オウ）、Paul は /ɔː/（口を縦に開くオー）。",
+    "words": [
+      { "word": "pole", "ipa": "poʊl", "pos": "名詞", "meaning": "棒、ポール、極", "example": { "en": "The flag hangs from a tall pole.", "ja": "旗は高いポールにかかっている。" } },
+      { "word": "Paul", "ipa": "pɔːl", "pos": "名詞", "meaning": "ポール（男性名）", "example": { "en": "Paul is my best friend.", "ja": "ポールは私の親友だ。" } }
+    ]
+  },
+  {
+    "id": "curl-karl", "kind": "vowel", "level": 5,
+    "point": "curl は /ɜːr/（口をあまり開けないアー）、Karl は /ɑːr/（口を大きく開けるアー）。",
+    "words": [
+      { "word": "curl", "ipa": "kɜːrl", "pos": "名詞・動詞", "meaning": "巻き毛、カールする", "example": { "en": "She likes to curl her hair.", "ja": "彼女は髪をカールするのが好きだ。" } },
+      { "word": "Karl", "ipa": "kɑːrl", "pos": "名詞", "meaning": "カール（ドイツの男性名）", "example": { "en": "Karl is a common name in Germany.", "ja": "カールはドイツでよくある名前だ。" } }
+    ]
+  },
+  {
+    "id": "wear-ware", "kind": "homophone", "level": 5,
+    "point": "wear と ware は発音が同じ /wer/。ware は software、kitchenware のように「製品」の意味で使う。",
+    "words": [
+      { "word": "wear", "ipa": "wer", "pos": "動詞", "meaning": "着ている、身につける", "example": { "en": "I wear a uniform at work.", "ja": "私は職場で制服を着ている。" } },
+      { "word": "ware", "ipa": "wer", "pos": "名詞", "meaning": "製品、〜製品", "example": { "en": "The shop sells kitchen ware.", "ja": "その店は台所用品を売っている。" } }
+    ]
+  },
+  {
+    "id": "jury-julie", "kind": "lr", "level": 5,
+    "point": "jury は R /ˈdʒʊri/、Julie は L /ˈdʒuːli/。",
+    "words": [
+      { "word": "jury", "ipa": "ˈdʒʊri", "pos": "名詞", "meaning": "陪審員団、審査員", "example": { "en": "The jury found him not guilty.", "ja": "陪審は彼を無罪とした。" } },
+      { "word": "Julie", "ipa": "ˈdʒuːli", "pos": "名詞", "meaning": "ジュリー（女性名）", "example": { "en": "Julie sings in a band.", "ja": "ジュリーはバンドで歌っている。" } }
+    ]
+  },
+  {
+    "id": "stole-stall", "kind": "vowel", "level": 5,
+    "point": "stole は /oʊ/（オウ）、stall は /ɔː/（口を縦に開くオー）。",
+    "words": [
+      { "word": "stole", "ipa": "stoʊl", "pos": "名詞", "meaning": "ストール（肩かけ）", "example": { "en": "She wrapped a silk stole around her shoulders.", "ja": "彼女は絹のストールを肩にかけた。" } },
+      { "word": "stall", "ipa": "stɔːl", "pos": "名詞", "meaning": "屋台、売店", "example": { "en": "We bought fruit from a market stall.", "ja": "私たちは市場の屋台で果物を買った。" } }
+    ]
+  },
+  {
+    "id": "brunch-branch", "kind": "vowel", "level": 4,
+    "point": "brunch は /ʌ/（短いア）、branch は /æ/（口を横に開くア）。",
+    "words": [
+      { "word": "brunch", "ipa": "brʌntʃ", "pos": "名詞", "meaning": "ブランチ（朝昼兼用の食事）", "example": { "en": "Let's have brunch on Sunday.", "ja": "日曜日にブランチを食べよう。" } },
+      { "word": "branch", "ipa": "bræntʃ", "pos": "名詞", "meaning": "枝、支店", "example": { "en": "The bank has a branch near the station.", "ja": "その銀行は駅の近くに支店がある。" } }
+    ]
+  },
+  {
+    "id": "reading-leading", "kind": "lr", "level": 4,
+    "point": "reading は R、leading は L で始まる。カタカナではどちらも「リーディング」。",
+    "words": [
+      { "word": "reading", "ipa": "ˈriːdɪŋ", "pos": "名詞", "meaning": "読書、読み取り", "example": { "en": "Reading is my favorite hobby.", "ja": "読書は私のいちばんの趣味だ。" } },
+      { "word": "leading", "ipa": "ˈliːdɪŋ", "pos": "形容詞", "meaning": "一流の、先頭の", "example": { "en": "She is a leading expert on climate.", "ja": "彼女は気候の一流の専門家だ。" } }
+    ]
+  },
+  {
+    "id": "toll-thor", "kind": "th", "level": 6,
+    "point": "toll は T /t/、Thor は TH /θ/（舌先を歯にあてる）。母音も /oʊ/ と /ɔːr/ でちがう。",
+    "words": [
+      { "word": "toll", "ipa": "toʊl", "pos": "名詞", "meaning": "通行料、犠牲者数", "example": { "en": "We paid a toll to use the highway.", "ja": "高速道路を使うのに通行料を払った。" } },
+      { "word": "Thor", "ipa": "θɔːr", "pos": "名詞", "meaning": "トール（北欧神話の雷神）", "example": { "en": "Thor carries a mighty hammer.", "ja": "トールは強力なハンマーを持っている。" } }
+    ]
   }
 ]

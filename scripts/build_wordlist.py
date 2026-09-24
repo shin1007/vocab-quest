@@ -191,11 +191,21 @@ def coverage():
 
 
 def katakana_clashes():
-    """カタカナが同じなのに、似た単語セットで一緒に練習できない語（bus と bath など）を返す"""
+    """カタカナが同じなのに、似た単語セットで一緒に練習できない語（bus と bath など）を返す
+
+    同じ名前の別の言語形（group が同じ Michel と Michelle）や、大文字・小文字だけがちがう同じつづりの語
+    （echo と神話の Echo）は、空所補充で区別できないのでセットにせず、選択肢にも一緒に出さない。
+    """
     groups = {}
     for w in WORDS:
-        groups.setdefault(re.sub(r"（.*）", "", w["katakana"]), []).append(w["word"])
+        groups.setdefault(re.sub(r"（.*）", "", w["katakana"]), []).append(w)
     together = {(a["word"], b["word"]) for p in PAIRS for a in p["words"] for b in p["words"] if a is not b}
+    for ws in groups.values():
+        for a in ws:
+            for b in ws:
+                if a is not b and (a["word"].lower() == b["word"].lower() or (a.get("group") and a.get("group") == b.get("group"))):
+                    together.add((a["word"], b["word"]))
+    groups = {kata: list(dict.fromkeys(w["word"] for w in ws)) for kata, ws in groups.items()}
     out = []
     for kata, words in groups.items():
         lonely = [a for a in words if len(words) > 1 and not any((a, b) in together for b in words if b != a)]

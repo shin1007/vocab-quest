@@ -399,7 +399,7 @@
   function distractors(w, n, filter = () => true) {
     // カタカナが同じ語（bus と bath の「バス」など）は正解と見分けられないので選択肢に出さない
     // 同じつづりの語（英語の Michael とドイツ語の Michael）や、同じ名前の別の言語形も正解と紛らわしいので除く
-    const ok = (x) => x.id !== w.id && plainKatakana(x) !== plainKatakana(w) && x.word !== w.word && !(w.group && x.group === w.group) && filter(x);
+    const ok = (x) => x.id !== w.id && plainKatakana(x) !== plainKatakana(w) && x.word.toLowerCase() !== w.word.toLowerCase() && !(w.group && x.group === w.group) && filter(x);
     const same = WORDS.filter((x) => ok(x) && courseOf(x) === courseOf(w));
     const other = WORDS.filter((x) => ok(x) && courseOf(x) !== courseOf(w));
     return [...shuffle(same), ...shuffle(other)].slice(0, n);
