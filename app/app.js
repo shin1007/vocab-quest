@@ -69,7 +69,7 @@
   const INTERVAL_DAYS = [0, 0, 1, 3, 7, 21]; // 習熟度ごとの次回出題までの日数
   const LEARNED = 3; // この習熟度以上を「定着」とみなす
   // レッスンは大きめの束にする。小分けより、多くの語を間をあけて何度も思い出すほうが定着する（Kornell 2009、Nakata & Webb 2016）
-  const LESSON_SIZE = 20;
+  const LESSON_SIZE = 50;
   const LESSON_GOAL = 2; // レッスン内でこの習熟度（翌日に復習）まで上げる
   const MAX_TRIES = 4; // 1回のレッスンで同じ語を出す上限（間違え続けても終われるように）
   const REQUEUE_GAP = { ok: 6, ng: 3 }; // もう一度出すまでにはさむ問題数（正解なら長め、間違いなら短め）
@@ -81,7 +81,7 @@
   const STORE_KEY = "vocab-quest-save-v3";
   const OLD_STORE_KEY = "vocab-quest-save-v2";
   // コースの分け方を変えたら上げる。レッスンの並びが変わるので、完了印（done）だけ消して単語ごとの習熟度は残す
-  const COURSE_VERSION = 3;
+  const COURSE_VERSION = 4;
 
   let WORDS = [];
   let ROOTS = [];
@@ -510,15 +510,18 @@
     renderQuestion();
   }
 
-  // 進み具合：復習・練習は問題ごと、レッスンは語ごと（LESSON_GOAL に届いた語が緑）
+  // 進み具合：復習・練習は問題ごと、レッスンは語ごと（LESSON_GOAL に届いた語が緑）。
+  // 語が多いとマスが細くなりすぎるので、STEP_MAX 語を超えたら1本のバーにする
+  const STEP_MAX = 20;
   function stepsHtml(s) {
     if (s.targets) {
       const now = s.questions[s.index].word;
       const cleared = s.targets.filter((w) => level(w.id) >= LESSON_GOAL).length;
+      const marks = s.targets.length > STEP_MAX
+        ? `<i class="ok fill" style="width:${(cleared / s.targets.length) * 100}%"></i>`
+        : s.targets.map((w) => `<i class="${level(w.id) >= LESSON_GOAL ? "ok" : w === now ? "now" : ""}"></i>`).join("");
       return html`
-        <div class="steps" aria-label="${cleared}語 / ${s.targets.length}語 クリア">
-          ${s.targets.map((w) => `<i class="${level(w.id) >= LESSON_GOAL ? "ok" : w === now ? "now" : ""}"></i>`).join("")}
-        </div>
+        <div class="steps" aria-label="${cleared}語 / ${s.targets.length}語 クリア">${marks}</div>
         <span class="count">${cleared}/${s.targets.length}</span>`;
     }
     return html`

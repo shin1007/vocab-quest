@@ -500,6 +500,7 @@ button.chip:active { transform: translateY(2px); }
 .steps i.now { background: var(--primary); animation: pulse 1.2s ease-in-out infinite; }
 .steps i.ok { background: var(--good-solid); }
 .steps i.ng { background: var(--bad-solid); }
+.steps i.fill { flex: none; transition: width .3s; }
 @keyframes pulse { 50% { opacity: .45; } }
 .count { font-family: var(--latin); font-weight: 800; font-style: italic; color: var(--on-bg); min-width: 44px; text-align: right; }
 .quiz-title { color: var(--on-bg-soft); margin: 8px 4px 14px; font-weight: 700; }
