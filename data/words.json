@@ -28155,5 +28155,243 @@
       { "word": "watch", "meaning": "じっと見る", "nuance": "動くものを見続ける。", "etymology": "古英語 wæccan" },
       { "word": "notice", "meaning": "気づく", "nuance": "目にとまる。", "etymology": "ラテン語 nōtitia" }
     ]
+  },
+  {
+    "id": "fast", "word": "fast", "katakana": "ファスト", "pos": "形容詞・副詞", "cefr": "A1", "level": 2,
+    "meaning": "速い／速く",
+    "scene": "「ファストフード」「ファストトラベル（ゲームの瞬間移動）」。first（ファースト）とはちがう語。",
+    "example": { "en": "He is a fast swimmer.", "ja": "彼は泳ぐのが速い。" },
+    "etymology": {
+      "origin": "古英語 fæst「しっかりした、固い」",
+      "story": "「しっかり」→「素早く、しっかりと」→「速い」。hold fast（しっかりつかむ）、fasten（締める）に古い意味が残る。断食の fast は別の語。"
+    },
+    "roots": [],
+    "family": ["fasten（締める）", "fast food（ファストフード）"],
+    "synonyms": [
+      { "word": "quick", "meaning": "すばやい", "nuance": "動作がすばやい。", "etymology": "古英語 cwic「生きている」" },
+      { "word": "rapid", "meaning": "急速な", "nuance": "変化などが速い。", "etymology": "ラテン語 rapidus" },
+      { "word": "first", "meaning": "最初の", "nuance": "カタカナが似た別の語。", "etymology": "古英語 fyrst" }
+    ]
+  },
+  {
+    "id": "first", "word": "first", "katakana": "ファースト", "pos": "形容詞", "cefr": "A1", "level": 1,
+    "meaning": "最初の、一番目の",
+    "scene": "「ファーストクラス」「ファーストキス」。fast（ファスト）とはちがう語。",
+    "example": { "en": "This is my first visit to Kyoto.", "ja": "京都に来るのは初めてだ。" },
+    "etymology": {
+      "origin": "古英語 fyrst「一番前の」",
+      "story": "fore（前の）の最上級にあたる語。first aid は「応急手当」。"
+    },
+    "roots": [],
+    "family": ["firstly（第一に）", "first aid（応急手当）"],
+    "synonyms": [
+      { "word": "initial", "meaning": "最初の", "nuance": "はじめの段階の。", "etymology": "ラテン語 initium「始まり」" },
+      { "word": "primary", "meaning": "第一の", "nuance": "主要な、最初の。", "etymology": "ラテン語 prīmus" },
+      { "word": "last", "meaning": "最後の", "nuance": "first の反対。", "etymology": "古英語 latost" }
+    ]
+  },
+  {
+    "id": "bowl", "word": "bowl", "katakana": "ボウル", "pos": "名詞", "cefr": "A2", "level": 3,
+    "meaning": "ボウル、どんぶり、深い器",
+    "scene": "「サラダボウル」「どんぶり」。ball（ボール）とは母音がちがう。",
+    "example": { "en": "She mixed the eggs in a bowl.", "ja": "彼女はボウルで卵を混ぜた。" },
+    "etymology": {
+      "origin": "古英語 bolla「丸い器」",
+      "story": "ボウリング（bowling）の bowl は「球を転がす」で、フランス語 boule（球）から来た別の語。"
+    },
+    "roots": [],
+    "family": ["bowling（ボウリング）"],
+    "synonyms": [
+      { "word": "dish", "meaning": "皿", "nuance": "料理を盛る器。", "etymology": "ラテン語 discus" },
+      { "word": "plate", "meaning": "平皿", "nuance": "平たい皿。", "etymology": "古フランス語 plate「平らな」" },
+      { "word": "ball", "meaning": "ボール", "nuance": "カタカナが似た別の語。", "etymology": "古ノルド語 bǫllr" }
+    ]
+  },
+  {
+    "id": "clown", "word": "clown", "katakana": "クラウン", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "道化師、ピエロ",
+    "scene": "サーカスの道化師。crown（王冠、クラウン）とは L と R がちがう。",
+    "example": { "en": "The clown juggled five balls.", "ja": "道化師はボールを5つ使ってジャグリングした。" },
+    "etymology": {
+      "origin": "語源不詳（16世紀。「田舎者」の意味だった）",
+      "story": "もとは「いなか者、無作法者」。そこから人を笑わせる役者の意味になった。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "jester", "meaning": "宮廷の道化師", "nuance": "王に仕える道化。", "etymology": "古フランス語 geste" },
+      { "word": "comedian", "meaning": "お笑い芸人", "nuance": "人を笑わせる人。", "etymology": "ギリシャ語 kōmōidía" },
+      { "word": "pierrot", "meaning": "ピエロ", "nuance": "白い顔の道化役。", "etymology": "フランス語 Pierrot（Pierre の愛称）" }
+    ]
+  },
+  {
+    "id": "ramp", "word": "ramp", "katakana": "ランプ", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "傾斜路、スロープ、（高速道路の）ランプ",
+    "scene": "車いす用の「スロープ」や、高速道路の出入口「ランプ」。lamp（明かり）とは L と R がちがう。",
+    "example": { "en": "Take the ramp to get onto the highway.", "ja": "ランプを通って高速道路に乗って。" },
+    "etymology": {
+      "origin": "古フランス語 ramper「よじ登る、はう」",
+      "story": "「よじ登る」から、上り下りする坂道の意味に。ramp up は「（生産などを）増やす」。"
+    },
+    "roots": [],
+    "family": ["ramp up（増やす）"],
+    "synonyms": [
+      { "word": "slope", "meaning": "坂、斜面", "nuance": "傾いた地面。", "etymology": "中英語 aslope" },
+      { "word": "incline", "meaning": "傾斜", "nuance": "かたい言い方。", "etymology": "ラテン語 inclīnāre" },
+      { "word": "lamp", "meaning": "明かり", "nuance": "L と R で意味がちがう。", "etymology": "ギリシャ語 lampás" }
+    ]
+  },
+  {
+    "id": "lover", "word": "lover", "katakana": "ラバー", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "恋人、愛好家",
+    "scene": "「ミュージックラバー（音楽好き）」。rubber（ゴム）も同じ「ラバー」。",
+    "example": { "en": "He is a big coffee lover.", "ja": "彼は大のコーヒー好きだ。" },
+    "etymology": {
+      "origin": "love「愛する」+ -er",
+      "story": "「〜好き」の意味でよく使う（a dog lover）。恋人の意味では少し古風・文学的。"
+    },
+    "roots": [],
+    "family": ["love（愛）"],
+    "synonyms": [
+      { "word": "fan", "meaning": "ファン", "nuance": "熱心な支持者。", "etymology": "fanatic の略" },
+      { "word": "partner", "meaning": "パートナー", "nuance": "恋人や配偶者。", "etymology": "古フランス語 parcener" },
+      { "word": "rubber", "meaning": "ゴム", "nuance": "L と R・B と V で意味がちがう。", "etymology": "rub「こする」+ -er" }
+    ]
+  },
+  {
+    "id": "clash", "word": "clash", "katakana": "クラッシュ", "pos": "名詞・動詞", "cefr": "C1", "level": 6,
+    "meaning": "衝突、対立、（色などの）不調和／ぶつかり合う",
+    "scene": "対戦ゲームのタイトルや「ぶつかり合い」。crash（衝突して壊れる）とは L と R がちがう。",
+    "example": { "en": "There was a clash between the two groups.", "ja": "二つのグループの間で衝突があった。" },
+    "etymology": {
+      "origin": "擬音語（16世紀〜。金属がぶつかる音）",
+      "story": "剣と剣がぶつかる「ガチャン」という音から。意見の対立や、色・予定がかち合うことにも使う。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "conflict", "meaning": "対立", "nuance": "意見や利害がぶつかる。", "etymology": "ラテン語 cōnflīgere" },
+      { "word": "battle", "meaning": "戦い", "nuance": "戦闘。", "etymology": "ラテン語 battuere「打つ」" },
+      { "word": "crash", "meaning": "衝突、墜落", "nuance": "L と R で意味がちがう。", "etymology": "擬音語" }
+    ]
+  },
+  {
+    "id": "liver", "word": "liver", "katakana": "レバー", "pos": "名詞", "cefr": "B2", "level": 5,
+    "meaning": "肝臓、（食べ物の）レバー",
+    "scene": "焼き鳥の「レバー」。river（川）とは L と R がちがう。",
+    "example": { "en": "Drinking too much can damage your liver.", "ja": "お酒の飲みすぎは肝臓を傷める。" },
+    "etymology": {
+      "origin": "古英語 lifer",
+      "story": "live（生きる）と関係があると考えられた時代もあったが、はっきりしない。"
+    },
+    "roots": [],
+    "family": [],
+    "synonyms": [
+      { "word": "organ", "meaning": "臓器", "nuance": "体の器官。", "etymology": "ギリシャ語 órganon「道具」" },
+      { "word": "kidney", "meaning": "腎臓", "nuance": "別の臓器。", "etymology": "中英語 kidenei" },
+      { "word": "river", "meaning": "川", "nuance": "L と R で意味がちがう。", "etymology": "ラテン語 rīpa「岸」" }
+    ]
+  },
+  {
+    "id": "night", "word": "night", "katakana": "ナイト", "pos": "名詞", "cefr": "A1", "level": 1,
+    "meaning": "夜",
+    "scene": "「ナイトプール」「ナイトゲーム」。knight（騎士）も同じ「ナイト」で、発音もまったく同じ。",
+    "example": { "en": "I study English every night.", "ja": "毎晩英語を勉強している。" },
+    "etymology": {
+      "origin": "古英語 niht",
+      "story": "gh は昔は「ヒ」のように発音していた。tonight（今夜）、midnight（真夜中）。"
+    },
+    "roots": [],
+    "family": ["tonight（今夜）", "midnight（真夜中）"],
+    "synonyms": [
+      { "word": "evening", "meaning": "夕方、晩", "nuance": "日が暮れてから寝るまで。", "etymology": "古英語 ǣfnung" },
+      { "word": "dark", "meaning": "暗やみ", "nuance": "夜の暗さ。", "etymology": "古英語 deorc" },
+      { "word": "knight", "meaning": "騎士", "nuance": "同じ発音の別の語。", "etymology": "古英語 cniht" }
+    ]
+  },
+  {
+    "id": "role", "word": "role", "katakana": "ロール", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "役割、役",
+    "scene": "RPG は role-playing game（役を演じるゲーム）。roll（転がる、巻いたもの）も同じ発音。",
+    "example": { "en": "She played an important role in the project.", "ja": "彼女はそのプロジェクトで重要な役割を果たした。" },
+    "etymology": {
+      "origin": "フランス語 rôle ← 古フランス語 rolle「巻物」",
+      "story": "役者のせりふが「巻物（roll）」に書かれていたことから「役」の意味に。つまり role と roll はもとは同じ語。"
+    },
+    "roots": [],
+    "family": ["role model（お手本になる人）", "role-playing（ロールプレイ）"],
+    "synonyms": [
+      { "word": "part", "meaning": "役", "nuance": "劇や仕事での役。", "etymology": "ラテン語 pars" },
+      { "word": "function", "meaning": "機能、役目", "nuance": "果たす働き。", "etymology": "ラテン語 fūnctiō" },
+      { "word": "roll", "meaning": "転がる、巻いたもの", "nuance": "同じ発音の別の語。", "etymology": "ラテン語 rotulus「小さな車輪」" }
+    ]
+  },
+  {
+    "id": "roll", "word": "roll", "katakana": "ロール", "pos": "動詞・名詞", "cefr": "A2", "level": 3,
+    "meaning": "転がる、（さいころを）振る／巻いたもの、ロールパン",
+    "scene": "「ロールケーキ」「ロールパン」、さいころを振る roll the dice。role（役割）も同じ発音。",
+    "example": { "en": "The ball rolled down the hill.", "ja": "ボールが坂を転がり落ちた。" },
+    "etymology": {
+      "origin": "古フランス語 roller ← ラテン語 rotulus「小さな車輪」← rota「車輪」",
+      "story": "rotate（回転する）と同じ語源。rock and roll の roll は「転がる、揺れる」。"
+    },
+    "roots": [],
+    "family": ["rotate（回転する）", "roller（ローラー）"],
+    "synonyms": [
+      { "word": "spin", "meaning": "回る", "nuance": "その場でくるくる回る。", "etymology": "古英語 spinnan" },
+      { "word": "turn", "meaning": "回る", "nuance": "向きを変える。", "etymology": "ラテン語 tornāre" },
+      { "word": "role", "meaning": "役割", "nuance": "同じ発音の別の語。", "etymology": "フランス語 rôle" }
+    ]
+  },
+  {
+    "id": "plain", "word": "plain", "katakana": "プレーン", "pos": "形容詞・名詞", "cefr": "B1", "level": 4,
+    "meaning": "ふつうの、飾りのない、わかりやすい／平原",
+    "scene": "「プレーンヨーグルト」「プレーンな服」。plane（飛行機）も同じ発音。",
+    "example": { "en": "I prefer plain white shirts.", "ja": "私は飾りのない白いシャツが好きだ。" },
+    "etymology": {
+      "origin": "古フランス語 plain ← ラテン語 plānus「平らな」",
+      "story": "「平ら」→「飾りのない」→「わかりやすい」。plan（計画）、plane（平面、飛行機）も同じ語源。"
+    },
+    "roots": [],
+    "family": ["explain（説明する＝平らにする）", "plan（計画）"],
+    "synonyms": [
+      { "word": "simple", "meaning": "簡単な、質素な", "nuance": "複雑でない。", "etymology": "ラテン語 simplex" },
+      { "word": "clear", "meaning": "明らかな", "nuance": "わかりやすい。", "etymology": "ラテン語 clārus" },
+      { "word": "plane", "meaning": "飛行機、平面", "nuance": "同じ発音の別の語。", "etymology": "ラテン語 plānum" }
+    ]
+  },
+  {
+    "id": "scene", "word": "scene", "katakana": "シーン", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "場面、光景、現場",
+    "scene": "「名シーン」「ラストシーン」。seen（see の過去分詞）も同じ発音。",
+    "example": { "en": "The last scene of the movie made me cry.", "ja": "映画のラストシーンで泣いた。" },
+    "etymology": {
+      "origin": "ギリシャ語 skēnḗ「テント、舞台の背景小屋」",
+      "story": "舞台裏の小屋 → 舞台 → 場面。scenery（景色）も同じ語源。"
+    },
+    "roots": [],
+    "family": ["scenery（景色）", "scenario（シナリオ）"],
+    "synonyms": [
+      { "word": "view", "meaning": "眺め", "nuance": "目に見える景色。", "etymology": "古フランス語 veue" },
+      { "word": "setting", "meaning": "舞台設定", "nuance": "物語の場所と時。", "etymology": "set + -ing" },
+      { "word": "seen", "meaning": "見られた", "nuance": "同じ発音の別の語（see の過去分詞）。", "etymology": "古英語 sēon" }
+    ]
+  },
+  {
+    "id": "site", "word": "site", "katakana": "サイト", "pos": "名詞", "cefr": "B1", "level": 4,
+    "meaning": "場所、用地、ウェブサイト",
+    "scene": "「ウェブサイト」「キャンプサイト」。sight（視力、光景）も同じ発音。",
+    "example": { "en": "This is the site of an old castle.", "ja": "ここは古い城の跡地だ。" },
+    "etymology": {
+      "origin": "ラテン語 situs「位置、置かれた場所」",
+      "story": "situation（状況＝置かれた場所）と同じ語源。website は「ウェブ上の場所」。"
+    },
+    "roots": [],
+    "family": ["website（ウェブサイト）", "situation（状況）"],
+    "synonyms": [
+      { "word": "place", "meaning": "場所", "nuance": "場所全般。", "etymology": "ラテン語 platea「広い通り」" },
+      { "word": "location", "meaning": "位置", "nuance": "ある所。", "etymology": "ラテン語 locus" },
+      { "word": "sight", "meaning": "光景、視力", "nuance": "同じ発音の別の語。", "etymology": "古英語 gesiht" }
+    ]
   }
 ]

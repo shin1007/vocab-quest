@@ -4529,6 +4529,36 @@
   "text": "bow",
   "tier": "core"
  },
+ "bowl.example.en": {
+  "lang": "en",
+  "text": "She mixed the eggs in a bowl.",
+  "tier": "core"
+ },
+ "bowl.example.ja": {
+  "lang": "ja",
+  "text": "彼女はボウルで卵を混ぜた。",
+  "tier": "core"
+ },
+ "bowl.katakana": {
+  "lang": "ja",
+  "text": "ボウル",
+  "tier": "core"
+ },
+ "bowl.meaning": {
+  "lang": "ja",
+  "text": "ボウル、どんぶり、深い器",
+  "tier": "core"
+ },
+ "bowl.story": {
+  "lang": "ja",
+  "text": "ボウリング bowling の bowl は「球を転がす」で、フランス語 boule 球 から来た別の語。",
+  "tier": "extended"
+ },
+ "bowl.word": {
+  "lang": "en",
+  "text": "bowl",
+  "tier": "core"
+ },
  "bowling.example.en": {
   "lang": "en",
   "text": "Let's go bowling after school.",
@@ -8099,6 +8129,36 @@
   "text": "claim",
   "tier": "core"
  },
+ "clash.example.en": {
+  "lang": "en",
+  "text": "There was a clash between the two groups.",
+  "tier": "core"
+ },
+ "clash.example.ja": {
+  "lang": "ja",
+  "text": "二つのグループの間で衝突があった。",
+  "tier": "core"
+ },
+ "clash.katakana": {
+  "lang": "ja",
+  "text": "クラッシュ",
+  "tier": "core"
+ },
+ "clash.meaning": {
+  "lang": "ja",
+  "text": "衝突、対立、 色などの 不調和／ぶつかり合う",
+  "tier": "core"
+ },
+ "clash.story": {
+  "lang": "ja",
+  "text": "剣と剣がぶつかる「ガチャン」という音から。意見の対立や、色、予定がかち合うことにも使う。",
+  "tier": "extended"
+ },
+ "clash.word": {
+  "lang": "en",
+  "text": "clash",
+  "tier": "core"
+ },
  "class.example.en": {
   "lang": "en",
   "text": "We have English class after lunch.",
@@ -8667,6 +8727,36 @@
  "cloud.word": {
   "lang": "en",
   "text": "cloud",
+  "tier": "core"
+ },
+ "clown.example.en": {
+  "lang": "en",
+  "text": "The clown juggled five balls.",
+  "tier": "core"
+ },
+ "clown.example.ja": {
+  "lang": "ja",
+  "text": "道化師はボールを5つ使ってジャグリングした。",
+  "tier": "core"
+ },
+ "clown.katakana": {
+  "lang": "ja",
+  "text": "クラウン",
+  "tier": "core"
+ },
+ "clown.meaning": {
+  "lang": "ja",
+  "text": "道化師、ピエロ",
+  "tier": "core"
+ },
+ "clown.story": {
+  "lang": "ja",
+  "text": "もとは「いなか者、無作法者」。そこから人を笑わせる役者の意味になった。",
+  "tier": "extended"
+ },
+ "clown.word": {
+  "lang": "en",
+  "text": "clown",
   "tier": "core"
  },
  "club.example.en": {
@@ -16379,6 +16469,36 @@
   "text": "fashion",
   "tier": "core"
  },
+ "fast.example.en": {
+  "lang": "en",
+  "text": "He is a fast swimmer.",
+  "tier": "core"
+ },
+ "fast.example.ja": {
+  "lang": "ja",
+  "text": "彼は泳ぐのが速い。",
+  "tier": "core"
+ },
+ "fast.katakana": {
+  "lang": "ja",
+  "text": "ファスト",
+  "tier": "core"
+ },
+ "fast.meaning": {
+  "lang": "ja",
+  "text": "速い／速く",
+  "tier": "core"
+ },
+ "fast.story": {
+  "lang": "ja",
+  "text": "「しっかり」、「素早く、しっかりと」、「速い」。hold fast しっかりつかむ 、fasten 締める に古い意味が残る。断食の fast は別の語。",
+  "tier": "extended"
+ },
+ "fast.word": {
+  "lang": "en",
+  "text": "fast",
+  "tier": "core"
+ },
  "feature.example.en": {
   "lang": "en",
   "text": "The new phone has some great features.",
@@ -16797,6 +16917,36 @@
  "firewall.word": {
   "lang": "en",
   "text": "firewall",
+  "tier": "core"
+ },
+ "first.example.en": {
+  "lang": "en",
+  "text": "This is my first visit to Kyoto.",
+  "tier": "core"
+ },
+ "first.example.ja": {
+  "lang": "ja",
+  "text": "京都に来るのは初めてだ。",
+  "tier": "core"
+ },
+ "first.katakana": {
+  "lang": "ja",
+  "text": "ファースト",
+  "tier": "core"
+ },
+ "first.meaning": {
+  "lang": "ja",
+  "text": "最初の、一番目の",
+  "tier": "core"
+ },
+ "first.story": {
+  "lang": "ja",
+  "text": "fore 前の の最上級にあたる語。first aid は「応急手当」。",
+  "tier": "extended"
+ },
+ "first.word": {
+  "lang": "en",
+  "text": "first",
   "tier": "core"
  },
  "fish.example.en": {
@@ -25499,6 +25649,36 @@
   "text": "live",
   "tier": "core"
  },
+ "liver.example.en": {
+  "lang": "en",
+  "text": "Drinking too much can damage your liver.",
+  "tier": "core"
+ },
+ "liver.example.ja": {
+  "lang": "ja",
+  "text": "お酒の飲みすぎは肝臓を傷める。",
+  "tier": "core"
+ },
+ "liver.katakana": {
+  "lang": "ja",
+  "text": "レバー",
+  "tier": "core"
+ },
+ "liver.meaning": {
+  "lang": "ja",
+  "text": "肝臓、 食べ物の レバー",
+  "tier": "core"
+ },
+ "liver.story": {
+  "lang": "ja",
+  "text": "live 生きる と関係があると考えられた時代もあったが、はっきりしない。",
+  "tier": "extended"
+ },
+ "liver.word": {
+  "lang": "en",
+  "text": "liver",
+  "tier": "core"
+ },
  "lizard.example.en": {
   "lang": "en",
   "text": "A small lizard ran across the wall.",
@@ -26067,6 +26247,36 @@
  "love.word": {
   "lang": "en",
   "text": "love",
+  "tier": "core"
+ },
+ "lover.example.en": {
+  "lang": "en",
+  "text": "He is a big coffee lover.",
+  "tier": "core"
+ },
+ "lover.example.ja": {
+  "lang": "ja",
+  "text": "彼は大のコーヒー好きだ。",
+  "tier": "core"
+ },
+ "lover.katakana": {
+  "lang": "ja",
+  "text": "ラバー",
+  "tier": "core"
+ },
+ "lover.meaning": {
+  "lang": "ja",
+  "text": "恋人、愛好家",
+  "tier": "core"
+ },
+ "lover.story": {
+  "lang": "ja",
+  "text": "「から好き」の意味でよく使う a dog lover 。恋人の意味では少し古風、文学的。",
+  "tier": "extended"
+ },
+ "lover.word": {
+  "lang": "en",
+  "text": "lover",
   "tier": "core"
  },
  "low.example.en": {
@@ -30179,6 +30389,36 @@
   "text": "nice",
   "tier": "core"
  },
+ "night.example.en": {
+  "lang": "en",
+  "text": "I study English every night.",
+  "tier": "core"
+ },
+ "night.example.ja": {
+  "lang": "ja",
+  "text": "毎晩英語を勉強している。",
+  "tier": "core"
+ },
+ "night.katakana": {
+  "lang": "ja",
+  "text": "ナイト",
+  "tier": "core"
+ },
+ "night.meaning": {
+  "lang": "ja",
+  "text": "夜",
+  "tier": "core"
+ },
+ "night.story": {
+  "lang": "ja",
+  "text": "gh は昔は「ヒ」のように発音していた。tonight 今夜 、midnight 真夜中 。",
+  "tier": "extended"
+ },
+ "night.word": {
+  "lang": "en",
+  "text": "night",
+  "tier": "core"
+ },
  "nihilism.example.en": {
   "lang": "en",
   "text": "The novel explores themes of nihilism.",
@@ -32749,6 +32989,16 @@
   "text": "There is a bug in this app.",
   "tier": "core"
  },
+ "pe.ball-bowl.ball": {
+  "lang": "en",
+  "text": "Throw the ball to me.",
+  "tier": "core"
+ },
+ "pe.ball-bowl.bowl": {
+  "lang": "en",
+  "text": "I had a bowl of rice.",
+  "tier": "core"
+ },
  "pe.ban-van.ban": {
   "lang": "en",
   "text": "The city plans to ban smoking in parks.",
@@ -32809,6 +33059,16 @@
   "text": "He wore a vest under his jacket.",
   "tier": "core"
  },
+ "pe.bird-bard.bard": {
+  "lang": "en",
+  "text": "The bard sang a song about the hero.",
+  "tier": "core"
+ },
+ "pe.bird-bard.bird": {
+  "lang": "en",
+  "text": "A bird built a nest in the tree.",
+  "tier": "core"
+ },
  "pe.bird-board.bird": {
   "lang": "en",
   "text": "A bird is singing in the tree.",
@@ -32839,6 +33099,16 @@
   "text": "I bought a new bike.",
   "tier": "core"
  },
+ "pe.brake-break.brake": {
+  "lang": "en",
+  "text": "Press the brake to stop the car.",
+  "tier": "core"
+ },
+ "pe.brake-break.break": {
+  "lang": "en",
+  "text": "Let's take a coffee break.",
+  "tier": "core"
+ },
  "pe.breath-breathe.breath": {
   "lang": "en",
   "text": "Take a deep breath.",
@@ -32847,6 +33117,16 @@
  "pe.breath-breathe.breathe": {
   "lang": "en",
   "text": "Breathe slowly and relax.",
+  "tier": "core"
+ },
+ "pe.bus-bath.bath": {
+  "lang": "en",
+  "text": "I take a bath every night.",
+  "tier": "core"
+ },
+ "pe.bus-bath.bus": {
+  "lang": "en",
+  "text": "I go to school by bus.",
   "tier": "core"
  },
  "pe.cap-cup.cap": {
@@ -32889,6 +33169,16 @@
   "text": "She has a childlike curiosity.",
   "tier": "core"
  },
+ "pe.clash-crash.clash": {
+  "lang": "en",
+  "text": "The two armies clash at dawn.",
+  "tier": "core"
+ },
+ "pe.clash-crash.crash": {
+  "lang": "en",
+  "text": "My computer might crash again.",
+  "tier": "core"
+ },
  "pe.climb-crime.climb": {
   "lang": "en",
   "text": "Let's climb Mt. Fuji this summer.",
@@ -32917,6 +33207,36 @@
  "pe.cloth-clothes.clothes": {
   "lang": "en",
   "text": "She bought some new clothes.",
+  "tier": "core"
+ },
+ "pe.cloth-cross.cloth": {
+  "lang": "en",
+  "text": "She cleaned the window with a cloth.",
+  "tier": "core"
+ },
+ "pe.cloth-cross.cross": {
+  "lang": "en",
+  "text": "Look both ways before you cross the street.",
+  "tier": "core"
+ },
+ "pe.club-crab.club": {
+  "lang": "en",
+  "text": "I joined the tennis club.",
+  "tier": "core"
+ },
+ "pe.club-crab.crab": {
+  "lang": "en",
+  "text": "We ate crab at the beach.",
+  "tier": "core"
+ },
+ "pe.coat-court.coat": {
+  "lang": "en",
+  "text": "Put on your coat. It's cold outside.",
+  "tier": "core"
+ },
+ "pe.coat-court.court": {
+  "lang": "en",
+  "text": "The players ran onto the court.",
   "tier": "core"
  },
  "pe.collect-correct.collect": {
@@ -32987,6 +33307,26 @@
  "pe.costume-custom.custom": {
   "lang": "en",
   "text": "It is a Japanese custom to take off your shoes.",
+  "tier": "core"
+ },
+ "pe.crown-clown.clown": {
+  "lang": "en",
+  "text": "The clown made the children laugh.",
+  "tier": "core"
+ },
+ "pe.crown-clown.crown": {
+  "lang": "en",
+  "text": "The king wore a gold crown.",
+  "tier": "core"
+ },
+ "pe.curve-curb.curb": {
+  "lang": "en",
+  "text": "He parked too close to the curb.",
+  "tier": "core"
+ },
+ "pe.curve-curb.curve": {
+  "lang": "en",
+  "text": "Slow down before the curve.",
   "tier": "core"
  },
  "pe.dairy-diary.dairy": {
@@ -33079,6 +33419,16 @@
   "text": "She works for a law firm.",
   "tier": "core"
  },
+ "pe.fast-first.fast": {
+  "lang": "en",
+  "text": "He is a very fast runner.",
+  "tier": "core"
+ },
+ "pe.fast-first.first": {
+  "lang": "en",
+  "text": "This is my first time in Japan.",
+  "tier": "core"
+ },
  "pe.fill-feel.feel": {
   "lang": "en",
   "text": "I feel happy today.",
@@ -33119,6 +33469,16 @@
   "text": "Fry the onions in oil.",
   "tier": "core"
  },
+ "pe.free-flea.flea": {
+  "lang": "en",
+  "text": "We bought old books at the flea market.",
+  "tier": "core"
+ },
+ "pe.free-flea.free": {
+  "lang": "en",
+  "text": "The drinks are free today.",
+  "tier": "core"
+ },
  "pe.full-fool.fool": {
   "lang": "en",
   "text": "Don't be a fool.",
@@ -33137,6 +33497,26 @@
  "pe.glass-grass.grass": {
   "lang": "en",
   "text": "Keep off the grass.",
+  "tier": "core"
+ },
+ "pe.glow-grow.glow": {
+  "lang": "en",
+  "text": "The stones glow in the dark.",
+  "tier": "core"
+ },
+ "pe.glow-grow.grow": {
+  "lang": "en",
+  "text": "Tomatoes grow well in the sun.",
+  "tier": "core"
+ },
+ "pe.hall-hole.hall": {
+  "lang": "en",
+  "text": "The concert hall was full.",
+  "tier": "core"
+ },
+ "pe.hall-hole.hole": {
+  "lang": "en",
+  "text": "The dog dug a hole in the garden.",
   "tier": "core"
  },
  "pe.hat-hut.hat": {
@@ -33209,6 +33589,16 @@
   "text": "Good luck on your test!",
   "tier": "core"
  },
+ "pe.lamp-ramp.lamp": {
+  "lang": "en",
+  "text": "Turn on the lamp on the desk.",
+  "tier": "core"
+ },
+ "pe.lamp-ramp.ramp": {
+  "lang": "en",
+  "text": "There is a ramp for wheelchairs.",
+  "tier": "core"
+ },
  "pe.later-latter.later": {
   "lang": "en",
   "text": "See you later.",
@@ -33269,6 +33659,26 @@
   "text": "I live in a small town.",
   "tier": "core"
  },
+ "pe.liver-river.liver": {
+  "lang": "en",
+  "text": "Too much alcohol is bad for your liver.",
+  "tier": "core"
+ },
+ "pe.liver-river.river": {
+  "lang": "en",
+  "text": "We had a picnic by the river.",
+  "tier": "core"
+ },
+ "pe.load-lord.load": {
+  "lang": "en",
+  "text": "It takes a minute to load the game data.",
+  "tier": "core"
+ },
+ "pe.load-lord.lord": {
+  "lang": "en",
+  "text": "The dark lord lives in the tower.",
+  "tier": "core"
+ },
  "pe.load-road.load": {
   "lang": "en",
   "text": "Help me load the boxes into the car.",
@@ -33299,6 +33709,16 @@
   "text": "Sorry, I have the wrong number.",
   "tier": "core"
  },
+ "pe.loot-route.loot": {
+  "lang": "en",
+  "text": "The loot from the boss was amazing.",
+  "tier": "core"
+ },
+ "pe.loot-route.route": {
+  "lang": "en",
+  "text": "Take the shortest route to the castle.",
+  "tier": "core"
+ },
  "pe.lose-loose.loose": {
   "lang": "en",
   "text": "These pants are too loose.",
@@ -33317,6 +33737,16 @@
  "pe.loyal-royal.royal": {
   "lang": "en",
   "text": "They visited the royal palace.",
+  "tier": "core"
+ },
+ "pe.mail-male.mail": {
+  "lang": "en",
+  "text": "Did you check your mail today?",
+  "tier": "core"
+ },
+ "pe.mail-male.male": {
+  "lang": "en",
+  "text": "Is your cat male or female?",
   "tier": "core"
  },
  "pe.match-much.match": {
@@ -33359,6 +33789,26 @@
   "text": "Open your mouth, please.",
   "tier": "core"
  },
+ "pe.night-knight.knight": {
+  "lang": "en",
+  "text": "The knight protected the princess.",
+  "tier": "core"
+ },
+ "pe.night-knight.night": {
+  "lang": "en",
+  "text": "The stars are bright tonight. I love the night.",
+  "tier": "core"
+ },
+ "pe.pair-pear.pair": {
+  "lang": "en",
+  "text": "I bought a new pair of shoes.",
+  "tier": "core"
+ },
+ "pe.pair-pear.pear": {
+  "lang": "en",
+  "text": "This pear is sweet and juicy.",
+  "tier": "core"
+ },
  "pe.peace-piece.peace": {
   "lang": "en",
   "text": "We hope for world peace.",
@@ -33387,6 +33837,16 @@
  "pe.personal-personnel.personnel": {
   "lang": "en",
   "text": "All personnel must wear ID cards.",
+  "tier": "core"
+ },
+ "pe.plain-plane.plain": {
+  "lang": "en",
+  "text": "I'd like plain yogurt, please.",
+  "tier": "core"
+ },
+ "pe.plain-plane.plane": {
+  "lang": "en",
+  "text": "The plane took off on time.",
   "tier": "core"
  },
  "pe.play-pray.play": {
@@ -33484,6 +33944,16 @@
   "text": "Prices rise every year.",
   "tier": "core"
  },
+ "pe.role-roll.role": {
+  "lang": "en",
+  "text": "In this game, you play the role of a knight.",
+  "tier": "core"
+ },
+ "pe.role-roll.roll": {
+  "lang": "en",
+  "text": "Roll the dice to start.",
+  "tier": "core"
+ },
  "pe.route-root.root": {
   "lang": "en",
   "text": "Money is the root of the problem.",
@@ -33492,6 +33962,46 @@
  "pe.route-root.route": {
   "lang": "en",
   "text": "This is the fastest route to the airport.",
+  "tier": "core"
+ },
+ "pe.rubber-lover.lover": {
+  "lang": "en",
+  "text": "She is a music lover.",
+  "tier": "core"
+ },
+ "pe.rubber-lover.rubber": {
+  "lang": "en",
+  "text": "These boots are made of rubber.",
+  "tier": "core"
+ },
+ "pe.sail-sale.sail": {
+  "lang": "en",
+  "text": "The pirates sail across the sea.",
+  "tier": "core"
+ },
+ "pe.sail-sale.sale": {
+  "lang": "en",
+  "text": "These shoes were on sale.",
+  "tier": "core"
+ },
+ "pe.sauce-source.sauce": {
+  "lang": "en",
+  "text": "This pasta sauce is delicious.",
+  "tier": "core"
+ },
+ "pe.sauce-source.source": {
+  "lang": "en",
+  "text": "What is the source of this news?",
+  "tier": "core"
+ },
+ "pe.scene-seen.scene": {
+  "lang": "en",
+  "text": "This is my favorite scene in the movie.",
+  "tier": "core"
+ },
+ "pe.scene-seen.seen": {
+  "lang": "en",
+  "text": "Have you seen my keys?",
   "tier": "core"
  },
  "pe.sea-see.sea": {
@@ -33564,6 +34074,16 @@
   "text": "Please sit down.",
   "tier": "core"
  },
+ "pe.site-sight.sight": {
+  "lang": "en",
+  "text": "The sunset was a beautiful sight.",
+  "tier": "core"
+ },
+ "pe.site-sight.site": {
+  "lang": "en",
+  "text": "Visit our site for more information.",
+  "tier": "core"
+ },
  "pe.son-sun.son": {
   "lang": "en",
   "text": "They have a son and a daughter.",
@@ -33614,6 +34134,16 @@
   "text": "They won three successive games.",
   "tier": "core"
  },
+ "pe.sweet-suite.suite": {
+  "lang": "en",
+  "text": "They stayed in a suite on the top floor.",
+  "tier": "core"
+ },
+ "pe.sweet-suite.sweet": {
+  "lang": "en",
+  "text": "This cake is too sweet for me.",
+  "tier": "core"
+ },
  "pe.through-though-thorough.thorough": {
   "lang": "en",
   "text": "The police did a thorough search.",
@@ -33627,6 +34157,16 @@
  "pe.through-though-thorough.through": {
   "lang": "en",
   "text": "The train went through a tunnel.",
+  "tier": "core"
+ },
+ "pe.truck-track.track": {
+  "lang": "en",
+  "text": "The runners lined up on the track.",
+  "tier": "core"
+ },
+ "pe.truck-track.truck": {
+  "lang": "en",
+  "text": "A big truck was parked outside.",
   "tier": "core"
  },
  "pe.valuable-invaluable.invaluable": {
@@ -34937,6 +35477,36 @@
  "placebo.word": {
   "lang": "en",
   "text": "placebo",
+  "tier": "core"
+ },
+ "plain.example.en": {
+  "lang": "en",
+  "text": "I prefer plain white shirts.",
+  "tier": "core"
+ },
+ "plain.example.ja": {
+  "lang": "ja",
+  "text": "私は飾りのない白いシャツが好きだ。",
+  "tier": "core"
+ },
+ "plain.katakana": {
+  "lang": "ja",
+  "text": "プレーン",
+  "tier": "core"
+ },
+ "plain.meaning": {
+  "lang": "ja",
+  "text": "ふつうの、飾りのない、わかりやすい／平原",
+  "tier": "core"
+ },
+ "plain.story": {
+  "lang": "ja",
+  "text": "「平ら」、「飾りのない」、「わかりやすい」。plan 計画 、plane 平面、飛行機 も同じ語源。",
+  "tier": "extended"
+ },
+ "plain.word": {
+  "lang": "en",
+  "text": "plain",
   "tier": "core"
  },
  "plan.example.en": {
@@ -37009,9 +37579,19 @@
   "text": "bag",
   "tier": "core"
  },
+ "pw.ball": {
+  "lang": "en",
+  "text": "ball",
+  "tier": "core"
+ },
  "pw.ban": {
   "lang": "en",
   "text": "ban",
+  "tier": "core"
+ },
+ "pw.bard": {
+  "lang": "en",
+  "text": "bard",
   "tier": "core"
  },
  "pw.base": {
@@ -37022,6 +37602,11 @@
  "pw.bat": {
   "lang": "en",
   "text": "bat",
+  "tier": "core"
+ },
+ "pw.bath": {
+  "lang": "en",
+  "text": "bath",
   "tier": "core"
  },
  "pw.belly": {
@@ -37059,6 +37644,21 @@
   "text": "bought",
   "tier": "core"
  },
+ "pw.bowl": {
+  "lang": "en",
+  "text": "bowl",
+  "tier": "core"
+ },
+ "pw.brake": {
+  "lang": "en",
+  "text": "brake",
+  "tier": "core"
+ },
+ "pw.break": {
+  "lang": "en",
+  "text": "break",
+  "tier": "core"
+ },
  "pw.breath": {
   "lang": "en",
   "text": "breath",
@@ -37072,6 +37672,11 @@
  "pw.bug": {
   "lang": "en",
   "text": "bug",
+  "tier": "core"
+ },
+ "pw.bus": {
+  "lang": "en",
+  "text": "bus",
   "tier": "core"
  },
  "pw.but": {
@@ -37104,6 +37709,11 @@
   "text": "childlike",
   "tier": "core"
  },
+ "pw.clash": {
+  "lang": "en",
+  "text": "clash",
+  "tier": "core"
+ },
  "pw.climb": {
   "lang": "en",
   "text": "climb",
@@ -37124,9 +37734,24 @@
   "text": "clothes",
   "tier": "core"
  },
+ "pw.clown": {
+  "lang": "en",
+  "text": "clown",
+  "tier": "core"
+ },
+ "pw.club": {
+  "lang": "en",
+  "text": "club",
+  "tier": "core"
+ },
  "pw.coast": {
   "lang": "en",
   "text": "coast",
+  "tier": "core"
+ },
+ "pw.coat": {
+  "lang": "en",
+  "text": "coat",
   "tier": "core"
  },
  "pw.collect": {
@@ -37189,9 +37814,34 @@
   "text": "costume",
   "tier": "core"
  },
+ "pw.court": {
+  "lang": "en",
+  "text": "court",
+  "tier": "core"
+ },
+ "pw.crab": {
+  "lang": "en",
+  "text": "crab",
+  "tier": "core"
+ },
+ "pw.crash": {
+  "lang": "en",
+  "text": "crash",
+  "tier": "core"
+ },
  "pw.crime": {
   "lang": "en",
   "text": "crime",
+  "tier": "core"
+ },
+ "pw.cross": {
+  "lang": "en",
+  "text": "cross",
+  "tier": "core"
+ },
+ "pw.crown": {
+  "lang": "en",
+  "text": "crown",
   "tier": "core"
  },
  "pw.cup": {
@@ -37199,9 +37849,19 @@
   "text": "cup",
   "tier": "core"
  },
+ "pw.curb": {
+  "lang": "en",
+  "text": "curb",
+  "tier": "core"
+ },
  "pw.curry": {
   "lang": "en",
   "text": "curry",
+  "tier": "core"
+ },
+ "pw.curve": {
+  "lang": "en",
+  "text": "curve",
   "tier": "core"
  },
  "pw.custom": {
@@ -37294,6 +37954,11 @@
   "text": "farm",
   "tier": "core"
  },
+ "pw.fast": {
+  "lang": "en",
+  "text": "fast",
+  "tier": "core"
+ },
  "pw.feel": {
   "lang": "en",
   "text": "feel",
@@ -37307,6 +37972,16 @@
  "pw.firm": {
   "lang": "en",
   "text": "firm",
+  "tier": "core"
+ },
+ "pw.first": {
+  "lang": "en",
+  "text": "first",
+  "tier": "core"
+ },
+ "pw.flea": {
+  "lang": "en",
+  "text": "flea",
   "tier": "core"
  },
  "pw.flight": {
@@ -37334,6 +38009,11 @@
   "text": "fool",
   "tier": "core"
  },
+ "pw.free": {
+  "lang": "en",
+  "text": "free",
+  "tier": "core"
+ },
  "pw.fright": {
   "lang": "en",
   "text": "fright",
@@ -37359,9 +38039,24 @@
   "text": "glass",
   "tier": "core"
  },
+ "pw.glow": {
+  "lang": "en",
+  "text": "glow",
+  "tier": "core"
+ },
  "pw.grass": {
   "lang": "en",
   "text": "grass",
+  "tier": "core"
+ },
+ "pw.grow": {
+  "lang": "en",
+  "text": "grow",
+  "tier": "core"
+ },
+ "pw.hall": {
+  "lang": "en",
+  "text": "hall",
   "tier": "core"
  },
  "pw.hat": {
@@ -37444,9 +38139,19 @@
   "text": "invaluable",
   "tier": "core"
  },
+ "pw.knight": {
+  "lang": "en",
+  "text": "knight",
+  "tier": "core"
+ },
  "pw.lack": {
   "lang": "en",
   "text": "lack",
+  "tier": "core"
+ },
+ "pw.lamp": {
+  "lang": "en",
+  "text": "lamp",
   "tier": "core"
  },
  "pw.later": {
@@ -37499,6 +38204,11 @@
   "text": "live",
   "tier": "core"
  },
+ "pw.liver": {
+  "lang": "en",
+  "text": "liver",
+  "tier": "core"
+ },
  "pw.load": {
   "lang": "en",
   "text": "load",
@@ -37519,9 +38229,24 @@
   "text": "loose",
   "tier": "core"
  },
+ "pw.loot": {
+  "lang": "en",
+  "text": "loot",
+  "tier": "core"
+ },
+ "pw.lord": {
+  "lang": "en",
+  "text": "lord",
+  "tier": "core"
+ },
  "pw.lose": {
   "lang": "en",
   "text": "lose",
+  "tier": "core"
+ },
+ "pw.lover": {
+  "lang": "en",
+  "text": "lover",
   "tier": "core"
  },
  "pw.low": {
@@ -37537,6 +38262,16 @@
  "pw.luck": {
   "lang": "en",
   "text": "luck",
+  "tier": "core"
+ },
+ "pw.mail": {
+  "lang": "en",
+  "text": "mail",
+  "tier": "core"
+ },
+ "pw.male": {
+  "lang": "en",
+  "text": "male",
   "tier": "core"
  },
  "pw.match": {
@@ -37579,9 +38314,24 @@
   "text": "much",
   "tier": "core"
  },
+ "pw.night": {
+  "lang": "en",
+  "text": "night",
+  "tier": "core"
+ },
+ "pw.pair": {
+  "lang": "en",
+  "text": "pair",
+  "tier": "core"
+ },
  "pw.peace": {
   "lang": "en",
   "text": "peace",
+  "tier": "core"
+ },
+ "pw.pear": {
+  "lang": "en",
+  "text": "pear",
   "tier": "core"
  },
  "pw.persecute": {
@@ -37602,6 +38352,16 @@
  "pw.piece": {
   "lang": "en",
   "text": "piece",
+  "tier": "core"
+ },
+ "pw.plain": {
+  "lang": "en",
+  "text": "plain",
+  "tier": "core"
+ },
+ "pw.plane": {
+  "lang": "en",
+  "text": "plane",
   "tier": "core"
  },
  "pw.play": {
@@ -37654,6 +38414,11 @@
   "text": "raise",
   "tier": "core"
  },
+ "pw.ramp": {
+  "lang": "en",
+  "text": "ramp",
+  "tier": "core"
+ },
  "pw.ran": {
   "lang": "en",
   "text": "ran",
@@ -37694,6 +38459,11 @@
   "text": "rise",
   "tier": "core"
  },
+ "pw.river": {
+  "lang": "en",
+  "text": "river",
+  "tier": "core"
+ },
  "pw.road": {
   "lang": "en",
   "text": "road",
@@ -37702,6 +38472,16 @@
  "pw.rock": {
   "lang": "en",
   "text": "rock",
+  "tier": "core"
+ },
+ "pw.role": {
+  "lang": "en",
+  "text": "role",
+  "tier": "core"
+ },
+ "pw.roll": {
+  "lang": "en",
+  "text": "roll",
   "tier": "core"
  },
  "pw.root": {
@@ -37719,9 +38499,34 @@
   "text": "royal",
   "tier": "core"
  },
+ "pw.rubber": {
+  "lang": "en",
+  "text": "rubber",
+  "tier": "core"
+ },
  "pw.run": {
   "lang": "en",
   "text": "run",
+  "tier": "core"
+ },
+ "pw.sail": {
+  "lang": "en",
+  "text": "sail",
+  "tier": "core"
+ },
+ "pw.sale": {
+  "lang": "en",
+  "text": "sale",
+  "tier": "core"
+ },
+ "pw.sauce": {
+  "lang": "en",
+  "text": "sauce",
+  "tier": "core"
+ },
+ "pw.scene": {
+  "lang": "en",
+  "text": "scene",
   "tier": "core"
  },
  "pw.sea": {
@@ -37737,6 +38542,11 @@
  "pw.see": {
   "lang": "en",
   "text": "see",
+  "tier": "core"
+ },
+ "pw.seen": {
+  "lang": "en",
+  "text": "seen",
   "tier": "core"
  },
  "pw.sensible": {
@@ -37764,6 +38574,11 @@
   "text": "sick",
   "tier": "core"
  },
+ "pw.sight": {
+  "lang": "en",
+  "text": "sight",
+  "tier": "core"
+ },
  "pw.sing": {
   "lang": "en",
   "text": "sing",
@@ -37779,9 +38594,19 @@
   "text": "sit",
   "tier": "core"
  },
+ "pw.site": {
+  "lang": "en",
+  "text": "site",
+  "tier": "core"
+ },
  "pw.son": {
   "lang": "en",
   "text": "son",
+  "tier": "core"
+ },
+ "pw.source": {
+  "lang": "en",
+  "text": "source",
   "tier": "core"
  },
  "pw.staff": {
@@ -37824,9 +38649,19 @@
   "text": "successive",
   "tier": "core"
  },
+ "pw.suite": {
+  "lang": "en",
+  "text": "suite",
+  "tier": "core"
+ },
  "pw.sun": {
   "lang": "en",
   "text": "sun",
+  "tier": "core"
+ },
+ "pw.sweet": {
+  "lang": "en",
+  "text": "sweet",
   "tier": "core"
  },
  "pw.thick": {
@@ -37857,6 +38692,16 @@
  "pw.through": {
   "lang": "en",
   "text": "through",
+  "tier": "core"
+ },
+ "pw.track": {
+  "lang": "en",
+  "text": "track",
+  "tier": "core"
+ },
+ "pw.truck": {
+  "lang": "en",
+  "text": "truck",
   "tier": "core"
  },
  "pw.uncle": {
@@ -38417,6 +39262,36 @@
  "rally.word": {
   "lang": "en",
   "text": "rally",
+  "tier": "core"
+ },
+ "ramp.example.en": {
+  "lang": "en",
+  "text": "Take the ramp to get onto the highway.",
+  "tier": "core"
+ },
+ "ramp.example.ja": {
+  "lang": "ja",
+  "text": "ランプを通って高速道路に乗って。",
+  "tier": "core"
+ },
+ "ramp.katakana": {
+  "lang": "ja",
+  "text": "ランプ",
+  "tier": "core"
+ },
+ "ramp.meaning": {
+  "lang": "ja",
+  "text": "傾斜路、スロープ、 高速道路の ランプ",
+  "tier": "core"
+ },
+ "ramp.story": {
+  "lang": "ja",
+  "text": "「よじ登る」から、上り下りする坂道の意味に。ramp up は「 生産などを 増やす」。",
+  "tier": "extended"
+ },
+ "ramp.word": {
+  "lang": "en",
+  "text": "ramp",
   "tier": "core"
  },
  "ranger.example.en": {
@@ -40549,6 +41424,66 @@
   "text": "rogue",
   "tier": "core"
  },
+ "role.example.en": {
+  "lang": "en",
+  "text": "She played an important role in the project.",
+  "tier": "core"
+ },
+ "role.example.ja": {
+  "lang": "ja",
+  "text": "彼女はそのプロジェクトで重要な役割を果たした。",
+  "tier": "core"
+ },
+ "role.katakana": {
+  "lang": "ja",
+  "text": "ロール",
+  "tier": "core"
+ },
+ "role.meaning": {
+  "lang": "ja",
+  "text": "役割、役",
+  "tier": "core"
+ },
+ "role.story": {
+  "lang": "ja",
+  "text": "役者のせりふが「巻物 roll 」に書かれていたことから「役」の意味に。つまり role と roll はもとは同じ語。",
+  "tier": "extended"
+ },
+ "role.word": {
+  "lang": "en",
+  "text": "role",
+  "tier": "core"
+ },
+ "roll.example.en": {
+  "lang": "en",
+  "text": "The ball rolled down the hill.",
+  "tier": "core"
+ },
+ "roll.example.ja": {
+  "lang": "ja",
+  "text": "ボールが坂を転がり落ちた。",
+  "tier": "core"
+ },
+ "roll.katakana": {
+  "lang": "ja",
+  "text": "ロール",
+  "tier": "core"
+ },
+ "roll.meaning": {
+  "lang": "ja",
+  "text": "転がる、 さいころを 振る／巻いたもの、ロールパン",
+  "tier": "core"
+ },
+ "roll.story": {
+  "lang": "ja",
+  "text": "rotate 回転する と同じ語源。rock and roll の roll は「転がる、揺れる」。",
+  "tier": "extended"
+ },
+ "roll.word": {
+  "lang": "en",
+  "text": "roll",
+  "tier": "core"
+ },
  "romance.example.en": {
   "lang": "en",
   "text": "It was a summer romance.",
@@ -41777,6 +42712,36 @@
  "scenario.word": {
   "lang": "en",
   "text": "scenario",
+  "tier": "core"
+ },
+ "scene.example.en": {
+  "lang": "en",
+  "text": "The last scene of the movie made me cry.",
+  "tier": "core"
+ },
+ "scene.example.ja": {
+  "lang": "ja",
+  "text": "映画のラストシーンで泣いた。",
+  "tier": "core"
+ },
+ "scene.katakana": {
+  "lang": "ja",
+  "text": "シーン",
+  "tier": "core"
+ },
+ "scene.meaning": {
+  "lang": "ja",
+  "text": "場面、光景、現場",
+  "tier": "core"
+ },
+ "scene.story": {
+  "lang": "ja",
+  "text": "舞台裏の小屋 、 舞台 、 場面。scenery 景色 も同じ語源。",
+  "tier": "extended"
+ },
+ "scene.word": {
+  "lang": "en",
+  "text": "scene",
   "tier": "core"
  },
  "scepter.example.en": {
@@ -43697,6 +44662,36 @@
  "siren.word": {
   "lang": "en",
   "text": "siren",
+  "tier": "core"
+ },
+ "site.example.en": {
+  "lang": "en",
+  "text": "This is the site of an old castle.",
+  "tier": "core"
+ },
+ "site.example.ja": {
+  "lang": "ja",
+  "text": "ここは古い城の跡地だ。",
+  "tier": "core"
+ },
+ "site.katakana": {
+  "lang": "ja",
+  "text": "サイト",
+  "tier": "core"
+ },
+ "site.meaning": {
+  "lang": "ja",
+  "text": "場所、用地、ウェブサイト",
+  "tier": "core"
+ },
+ "site.story": {
+  "lang": "ja",
+  "text": "situation 状況、置かれた場所 と同じ語源。website は「ウェブ上の場所」。",
+  "tier": "extended"
+ },
+ "site.word": {
+  "lang": "en",
+  "text": "site",
   "tier": "core"
  },
  "size.example.en": {
@@ -48669,6 +49664,11 @@
   "text": "balcony",
   "tier": "core"
  },
+ "syn.ball": {
+  "lang": "en",
+  "text": "ball",
+  "tier": "core"
+ },
  "syn.ballad": {
   "lang": "en",
   "text": "ballad",
@@ -50054,6 +51054,11 @@
   "text": "cleanse",
   "tier": "core"
  },
+ "syn.clear": {
+  "lang": "en",
+  "text": "clear",
+  "tier": "core"
+ },
  "syn.clearance": {
   "lang": "en",
   "text": "clearance",
@@ -50247,6 +51252,11 @@
  "syn.combo": {
   "lang": "en",
   "text": "combo",
+  "tier": "core"
+ },
+ "syn.comedian": {
+  "lang": "en",
+  "text": "comedian",
   "tier": "core"
  },
  "syn.comet": {
@@ -50457,6 +51467,11 @@
  "syn.confirm": {
   "lang": "en",
   "text": "confirm",
+  "tier": "core"
+ },
+ "syn.conflict": {
+  "lang": "en",
+  "text": "conflict",
   "tier": "core"
  },
  "syn.conformity": {
@@ -50772,6 +51787,11 @@
  "syn.crane": {
   "lang": "en",
   "text": "crane",
+  "tier": "core"
+ },
+ "syn.crash": {
+  "lang": "en",
+  "text": "crash",
   "tier": "core"
  },
  "syn.crater": {
@@ -52149,6 +53169,11 @@
   "text": "evaluation",
   "tier": "core"
  },
+ "syn.evening": {
+  "lang": "en",
+  "text": "evening",
+  "tier": "core"
+ },
  "syn.event": {
   "lang": "en",
   "text": "event",
@@ -52567,6 +53592,11 @@
  "syn.firm": {
   "lang": "en",
   "text": "firm",
+  "tier": "core"
+ },
+ "syn.first": {
+  "lang": "en",
+  "text": "first",
   "tier": "core"
  },
  "syn.fit": {
@@ -54154,6 +55184,11 @@
   "text": "incident",
   "tier": "core"
  },
+ "syn.incline": {
+  "lang": "en",
+  "text": "incline",
+  "tier": "core"
+ },
  "syn.inclusion": {
   "lang": "en",
   "text": "inclusion",
@@ -54217,6 +55252,11 @@
  "syn.inheritance": {
   "lang": "en",
   "text": "inheritance",
+  "tier": "core"
+ },
+ "syn.initial": {
+  "lang": "en",
+  "text": "initial",
   "tier": "core"
  },
  "syn.injury": {
@@ -54589,6 +55629,11 @@
   "text": "kid",
   "tier": "core"
  },
+ "syn.kidney": {
+  "lang": "en",
+  "text": "kidney",
+  "tier": "core"
+ },
  "syn.killer": {
   "lang": "en",
   "text": "killer",
@@ -54742,6 +55787,11 @@
  "syn.lass": {
   "lang": "en",
   "text": "lass",
+  "tier": "core"
+ },
+ "syn.last": {
+  "lang": "en",
+  "text": "last",
   "tier": "core"
  },
  "syn.latch": {
@@ -55037,6 +56087,11 @@
  "syn.lobster": {
   "lang": "en",
   "text": "lobster",
+  "tier": "core"
+ },
+ "syn.location": {
+  "lang": "en",
+  "text": "location",
   "tier": "core"
  },
  "syn.lock": {
@@ -56959,6 +58014,11 @@
   "text": "pierced earring",
   "tier": "core"
  },
+ "syn.pierrot": {
+  "lang": "en",
+  "text": "pierrot",
+  "tier": "core"
+ },
  "syn.pike": {
   "lang": "en",
   "text": "pike",
@@ -57014,6 +58074,11 @@
   "text": "pixie",
   "tier": "core"
  },
+ "syn.place": {
+  "lang": "en",
+  "text": "place",
+  "tier": "core"
+ },
  "syn.plain": {
   "lang": "en",
   "text": "plain",
@@ -57062,6 +58127,11 @@
  "syn.plastic": {
   "lang": "en",
   "text": "plastic",
+  "tier": "core"
+ },
+ "syn.plate": {
+  "lang": "en",
+  "text": "plate",
   "tier": "core"
  },
  "syn.platform": {
@@ -57357,6 +58427,11 @@
  "syn.priest": {
   "lang": "en",
   "text": "priest",
+  "tier": "core"
+ },
+ "syn.primary": {
+  "lang": "en",
+  "text": "primary",
   "tier": "core"
  },
  "syn.primate": {
@@ -57697,6 +58772,11 @@
  "syn.queue": {
   "lang": "en",
   "text": "queue",
+  "tier": "core"
+ },
+ "syn.quick": {
+  "lang": "en",
+  "text": "quick",
   "tier": "core"
  },
  "syn.quickness": {
@@ -58404,6 +59484,11 @@
   "text": "rival",
   "tier": "core"
  },
+ "syn.river": {
+  "lang": "en",
+  "text": "river",
+  "tier": "core"
+ },
  "syn.road": {
   "lang": "en",
   "text": "road",
@@ -58454,6 +59539,11 @@
   "text": "role",
   "tier": "core"
  },
+ "syn.roll": {
+  "lang": "en",
+  "text": "roll",
+  "tier": "core"
+ },
  "syn.room": {
   "lang": "en",
   "text": "room",
@@ -58502,6 +59592,11 @@
  "syn.rub": {
   "lang": "en",
   "text": "rub",
+  "tier": "core"
+ },
+ "syn.rubber": {
+  "lang": "en",
+  "text": "rubber",
   "tier": "core"
  },
  "syn.ruby": {
@@ -58869,6 +59964,11 @@
   "text": "see",
   "tier": "core"
  },
+ "syn.seen": {
+  "lang": "en",
+  "text": "seen",
+  "tier": "core"
+ },
  "syn.select": {
   "lang": "en",
   "text": "select",
@@ -59217,6 +60317,11 @@
  "syn.sigh": {
   "lang": "en",
   "text": "sigh",
+  "tier": "core"
+ },
+ "syn.sight": {
+  "lang": "en",
+  "text": "sight",
   "tier": "core"
  },
  "syn.sightseeing": {
@@ -61487,6 +62592,11 @@
  "syn.vicious-circle": {
   "lang": "en",
   "text": "vicious circle",
+  "tier": "core"
+ },
+ "syn.view": {
+  "lang": "en",
+  "text": "view",
   "tier": "core"
  },
  "syn.viewpoint": {

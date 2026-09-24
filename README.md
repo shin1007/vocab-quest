@@ -15,11 +15,11 @@
 | パス | 内容 |
 |---|---|
 | [`docs/UX_DESIGN.md`](docs/UX_DESIGN.md) | UX デザイン（学習の流れ、問題タイプ、習熟度と復習、ビジュアル、KPI） |
-| [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（1722語・類義語3839語・語根56種）— 語源・類義語つき、人が読む用 |
+| [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（1736語・類義語3881語・語根56種・似た単語130セット）— 語源・類義語つき、人が読む用 |
 | `data/words.json` | 単語データ（正本） |
 | `data/roots.json` | 語根ファミリーデータ |
 | `data/candidates.json` | 入れたいカタカナ語の候補（分野別）。未収録の語は `build_wordlist.py` の実行時に表示 |
-| `data/pairs.json` | 似た単語セット（母音・L/R・B/V・TH・同音語・つづり・派生語の7種類） |
+| `data/pairs.json` | 似た単語セット（母音・L/R・B/V・TH・同音語・つづり・派生語の7種類）。単語リストでカタカナが同じになる語（staff / stuff、bus / bath など）は必ずどこかのセットに入れる（`build_wordlist.py` が確認） |
 | `index.html`, `app/` | 動くプロトタイプ（依存なしの HTML/CSS/JS）。コース・テーマ・問題タイプ・習熟度の定義は `app/app.js` 冒頭、テーマの見た目は `app/style.css` |
 | `scripts/build_wordlist.py` | データ検証と `WORD_LIST.md` の生成 |
 | [`docs/VOICE_TTS.md`](docs/VOICE_TTS.md) | 日本語・英語の読み上げ音声の設計（声の素材とライセンス、エンジン選定、容量） |

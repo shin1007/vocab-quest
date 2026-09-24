@@ -175,6 +175,20 @@ def coverage():
             for cat, words in CANDIDATES["categories"].items()}
 
 
+def katakana_clashes():
+    """カタカナが同じなのに、似た単語セットで一緒に練習できない語（bus と bath など）を返す"""
+    groups = {}
+    for w in WORDS:
+        groups.setdefault(re.sub(r"（.*）", "", w["katakana"]), []).append(w["word"])
+    together = {(a["word"], b["word"]) for p in PAIRS for a in p["words"] for b in p["words"] if a is not b}
+    out = []
+    for kata, words in groups.items():
+        lonely = [a for a in words if len(words) > 1 and not any((a, b) in together for b in words if b != a)]
+        if lonely:
+            out.append(f"{kata}（{' / '.join(words)}）")
+    return out
+
+
 def main():
     errors = validate()
     if errors:
@@ -195,6 +209,10 @@ def main():
     for cat, words in missing.items():
         if words:
             print(f"  {cat}: {' '.join(words)}")
+    clashes = katakana_clashes()
+    print(f"カタカナが同じなのに似た単語セットがない組: {len(clashes)} 組")
+    for c in clashes:
+        print(f"  {c}")
 
 
 if __name__ == "__main__":

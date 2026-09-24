@@ -76,6 +76,8 @@
 
 母音が1つちがうだけの語（hat / hut）、カタカナにすると同じになる語（light / right、best / vest）、英検によく出るつづりの似た語（desert / dessert、adapt / adopt、affect / effect）を、2〜3語のセットで覚える。データは `data/pairs.json`。
 
+単語リストの中でカタカナが同じになる語（staff / stuff、bus / bath、coat / court、night / knight、role / roll など）は、かならずどれかのセットで一緒に練習できるようにする。`build_wordlist.py` が「カタカナが同じなのに似た単語セットがない組」を表示するので、0 組になるようにセットを足す。
+
 | 種類 | 例 | 練習 |
 |---|---|---|
 | 🗣️ 母音のちがい | hat / hut、ship / sheep、walk / work | 空所補充＋聞き取り |
@@ -267,7 +269,7 @@
 
 ### 今後の拡張案
 
-- 単語の追加（現在 1722 語）。ジャンルを問わず、日本語に定着しているカタカナ語を広く集める（ゲームの装備名・技名・モンスター名も含む）。候補は `data/candidates.json` に分野ごとに書き、`build_wordlist.py` が未収録の語を表示する
+- 単語の追加（現在 1736 語）。ジャンルを問わず、日本語に定着しているカタカナ語を広く集める（ゲームの装備名・技名・モンスター名も含む）。候補は `data/candidates.json` に分野ごとに書き、`build_wordlist.py` が未収録の語を表示する
 - 苦手な語だけを集めた練習（間違えた回数の多い語）
 - 発音チャレンジ（音声認識）
 - 語源データの出典欄（Online Etymology Dictionary、OED 等）の追加と監修
