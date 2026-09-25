@@ -14,6 +14,7 @@ WORDS = json.loads((ROOT / "data/words.json").read_text(encoding="utf-8"))
 ROOTS = json.loads((ROOT / "data/roots.json").read_text(encoding="utf-8"))
 PAIRS = json.loads((ROOT / "data/pairs.json").read_text(encoding="utf-8"))
 CANDIDATES = json.loads((ROOT / "data/candidates.json").read_text(encoding="utf-8"))
+DICT = json.loads((ROOT / "data/dictionary.json").read_text(encoding="utf-8"))
 PAIR_KINDS = {
     "vowel": "🗣️ 母音のちがい",
     "lr": "👅 L と R",
@@ -37,6 +38,14 @@ COURSES = {
 LANGS = {"fr": "フランス語", "de": "ドイツ語", "es": "スペイン語", "it": "イタリア語", "pt": "ポルトガル語",
          "nl": "オランダ語", "ru": "ロシア語", "pl": "ポーランド語", "cs": "チェコ語", "sv": "スウェーデン語",
          "ga": "アイルランド語", "he": "ヘブライ語", "la": "ラテン語", "el": "ギリシャ語"}
+# 辞書（data/dictionary.json）で使ってよい言語。LANGS に加えて、ここにある言語も使える（app/app.js の LANGS と同じ）
+DICT_LANGS = {**LANGS, "ar": "アラビア語", "fa": "ペルシャ語", "sa": "サンスクリット語", "hi": "ヒンディー語", "zh": "中国語",
+              "ko": "朝鮮語", "vi": "ベトナム語", "th": "タイ語", "id": "インドネシア語", "ms": "マレー語", "tl": "タガログ語",
+              "tr": "トルコ語", "fi": "フィンランド語", "da": "デンマーク語", "no": "ノルウェー語", "is": "アイスランド語",
+              "hu": "ハンガリー語", "uk": "ウクライナ語", "sw": "スワヒリ語", "rw": "キニヤルワンダ語", "haw": "ハワイ語",
+              "mi": "マオリ語", "qu": "ケチュア語", "ja": "日本語"}
+DICT_POS = {"名詞", "動詞", "形容詞", "副詞", "名詞・動詞", "名詞・形容詞", "名詞・副詞", "形容詞・副詞", "形容詞・動詞",
+            "句", "略語", "固有名詞", "間投詞", "接頭辞", "接尾辞", "前置詞"}
 # 固有名詞の品詞。類義語の代わりに「別名・関連する名前」を載せている
 PROPER = {"地名", "神名", "神話", "人名"}
 CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"]
@@ -106,6 +115,27 @@ def validate():
                 found = re.search(rf"\b{re.escape(y['word'])}\b", x["example"]["en"], re.I)
                 if (y is x) != bool(found):
                     errors.append(f"似た単語 {p['id']}: {x['word']} の例文に {y['word']} が{'ありません' if y is x else '入っています'}")
+    return errors + validate_dict()
+
+
+def validate_dict():
+    """辞書（data/dictionary.json）を確認する。カタカナ語を引くための軽いデータで、レッスンには出さない"""
+    errors = []
+    ids = set()
+    word_ids = {w["id"] for w in WORDS}
+    for d in DICT:
+        for key in ("id", "word", "katakana", "pos", "meaning"):
+            if not d.get(key):
+                errors.append(f"辞書 {d.get('id')}: {key} がありません")
+        if d.get("id") in ids:
+            errors.append(f"辞書: 重複した id {d.get('id')}")
+        ids.add(d.get("id"))
+        if d.get("pos") not in DICT_POS:
+            errors.append(f"辞書 {d.get('id')}: 不明な品詞 {d.get('pos')}")
+        if "lang" in d and d["lang"] not in DICT_LANGS:
+            errors.append(f"辞書 {d.get('id')}: 不明な lang {d['lang']}")
+        if "ref" in d and d["ref"] not in word_ids:
+            errors.append(f"辞書 {d.get('id')}: 単語帳にない ref {d['ref']}")
     return errors
 
 
@@ -118,6 +148,8 @@ def render():
         "",
         f"収録語数: **{len(WORDS)} 語**（類義語 {sum(len(w['synonyms']) for w in WORDS)} 語） / "
         f"語根ファミリー: **{len(ROOTS)} 種** / 似た単語セット: **{len(PAIRS)} セット**",
+        "",
+        f"このほか、アプリの単語帳の検索で引ける辞書（`data/dictionary.json`）に **{len(DICT)} 語** のカタカナ語を収録しています。",
         "",
         "レベル別: " + " / ".join(f"{COURSES[key].split()[0]} {sum(w['level'] == key for w in WORDS)}語" for key in COURSES),
         "",

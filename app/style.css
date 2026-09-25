@@ -639,6 +639,19 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
 .dex-item.new { background-color: var(--card-2); }
 .dex-item.new .w { color: var(--text-soft); }
 
+.dict { margin-top: 24px; }
+.dict-list { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 8px; }
+.dict-item {
+  display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; width: 100%; text-align: left; color: var(--text);
+  padding: 10px 12px; border-radius: var(--radius-sm); background: var(--card-solid);
+  border: var(--bw-sm) solid var(--edge); box-shadow: var(--shadow-sm);
+}
+.dict-item:active { transform: translateY(2px); }
+.dict-item .k { font-weight: 800; }
+.dict-item .w { font-family: var(--latin); font-weight: 700; text-align: right; word-break: break-word; }
+.dict-item .small { grid-column: 1 / -1; }
+.dict-item .m { grid-column: 1 / -1; font-size: .92rem; }
+
 .detail-head { text-align: left; padding-right: 44px; }
 .detail .display { font-family: var(--latin); font-size: 2.1rem; margin: 0; word-break: break-word; }
 .detail .meaning { font-size: 1.1rem; font-weight: 800; margin: 8px 0; }
