@@ -64,7 +64,7 @@ class Qwen3Design(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         written = []
         fakes = {
-            "torch": types.SimpleNamespace(bfloat16="bf16", manual_seed=lambda s: FakeQwen.calls.append(("seed", s))),
+            "torch": types.SimpleNamespace(bfloat16="bf16", float32="fp32", manual_seed=lambda s: FakeQwen.calls.append(("seed", s))),
             "soundfile": types.SimpleNamespace(write=lambda path, _wav, _sr: (written.append(path), Path(path).write_bytes(b""))),
             "qwen_tts": types.SimpleNamespace(Qwen3TTSModel=FakeQwen),
         }
@@ -87,6 +87,13 @@ class Qwen3Design(unittest.TestCase):
         self.assertIn(("design", "こんにちは", "Japanese", "anime voice actress"), FakeQwen.calls)
         self.assertEqual([Path(p).name for p in self.written], ["seed5.wav", "seed6.wav"])
         self.assertTrue((Path(self.tmp.name) / "design" / "navi" / "index.html").exists())
+
+    def test_dtype_is_configurable(self):
+        seen = []
+        with mock.patch.object(FakeQwen, "from_pretrained", classmethod(lambda cls, name, **kw: seen.append(kw) or cls())):
+            tts.qwen3_model("m1", {"device": "cpu", "dtype": "float32"})
+            tts.qwen3_model("m2", {})
+        self.assertEqual(seen, [{"device_map": "cpu", "dtype": "fp32"}, {"device_map": "cuda:0", "dtype": "bf16"}])
 
     def test_synth_reuses_clone_prompt(self):
         for text in ("potion", "ポーション"):
