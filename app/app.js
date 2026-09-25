@@ -85,6 +85,7 @@
     ta: { name: "タミル語", speech: "ta-IN" },
     eu: { name: "バスク語", speech: "eu-ES" },
     zu: { name: "ズールー語", speech: "zu-ZA" },
+    bn: { name: "ベンガル語", speech: "bn-BD" },
     ja: { name: "日本語", speech: "ja-JP" },
   };
   // 固有名詞の品詞。類義語の代わりに「別名・関連する名前」を載せている
