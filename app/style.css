@@ -458,7 +458,8 @@ button.chip:active { transform: translateY(2px); }
 .pair-words { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin: 10px 0 6px; }
 .pair-word { padding: 8px 10px; border-radius: var(--radius-sm); background: var(--card-2); border: var(--bw-sm) solid var(--edge); }
 .pair-word .en { font-family: var(--latin); font-size: 1.2rem; }
-.ipa { font-family: "Lucida Sans Unicode", "Arial Unicode MS", system-ui, sans-serif; }
+/* 発音記号。母音の上のアクセント記号（ǽ, ə́ など）がずれないよう、IPA 用に作られた Charis SIL を使う */
+.ipa { font-family: "Charis SIL", "Lucida Sans Unicode", "Arial Unicode MS", system-ui, sans-serif; }
 .pair-point { margin: 6px 0 8px; }
 .pair-examples summary { cursor: pointer; font-weight: 800; color: var(--text-soft); margin-bottom: 6px; }
 .pair-card .btn { margin-top: 6px; }

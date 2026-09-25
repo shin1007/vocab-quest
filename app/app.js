@@ -131,6 +131,17 @@
 
   // ---------- ユーティリティ ----------
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  // 発音記号を日本の辞書のような表記にする（ˈkænzəs → kǽnzəs）。データは IPA の強勢記号（ˈ ˌ）のまま持ち、
+  // 表示するときに強勢のある母音の上にアクセント記号（第1強勢は ´、第2強勢は `）を付ける。
+  // 強勢記号のない1音節語にも付ける（弱い ə だけの語と、英語以外の形の語は除く）
+  const IPA_V = "aeiouæɑɒɔəɛɜɪʊʌ";
+  const ipaText = (ipa, foreign = false) => ipa.split(" ").map((t) => {
+    if (!/[ˈˌ]/.test(t) && !foreign) {
+      const nuclei = t.match(new RegExp(`[${IPA_V}]+`, "g")) || [];
+      if (nuclei.length === 1 && nuclei[0] !== "ə") t = `ˈ${t}`;
+    }
+    return t.replace(new RegExp(`([ˈˌ])([^${IPA_V}]*)([${IPA_V}])`, "g"), (_, m, c, v) => c + v + (m === "ˈ" ? "\u0301" : "\u0300"));
+  }).join(" ");
   const shuffle = (arr) => {
     const a = arr.slice();
     for (let i = a.length - 1; i > 0; i--) {
@@ -674,7 +685,7 @@
         ${meter(level(w.id))}
       </div>
       <div class="fb-body">
-        <div class="row"><span class="word">${esc(w.word)}</span><span class="muted ipa">/${esc(w.ipa)}/</span><span class="muted">${esc(w.katakana)}</span>
+        <div class="row"><span class="word">${esc(w.word)}</span><span class="muted ipa">/${esc(ipaText(w.ipa, !!w.lang))}/</span><span class="muted">${esc(w.katakana)}</span>
           <span class="spacer"></span>${voiceButton(`${w.id}.word,${w.id}.meaning`)}</div>
         <div class="meaning">${esc(w.meaning)}</div>
         ${q.synonym ? `<div class="tip">🔀 <b>${esc(q.synonym.word)}</b>：${esc(q.synonym.nuance)}</div>` : ""}
@@ -877,7 +888,7 @@
             <h2 class="display">${esc(w.word)}</h2>
             ${voiceButton(`${w.id}.word`)}
           </div>
-          <div class="muted"><span class="ipa">/${esc(w.ipa)}/</span> ${esc(w.katakana)} ${voiceButton(`${w.id}.katakana`, "🔈")}</div>
+          <div class="muted"><span class="ipa">/${esc(ipaText(w.ipa, !!w.lang))}/</span> ${esc(w.katakana)} ${voiceButton(`${w.id}.katakana`, "🔈")}</div>
           <p class="meaning">${esc(w.meaning)} ${voiceButton(`${w.id}.meaning`, "🔈")}</p>
           <div class="row small">${meter(lv)}<span class="muted">${LEVELS[lv]}</span></div>
         </div>
@@ -953,7 +964,7 @@
   const pairLearned = () => PAIRS.filter((p) => level(pairKey(p)) >= LEARNED).length;
   const pairDue = () => PAIRS.filter((p) => isDue(pairKey(p)));
   const pairTip = (p) => html`
-    <div class="tip">👯 ${p.words.map((x) => `<b>${esc(x.word)}</b> <span class="ipa">/${esc(x.ipa)}/</span> ${esc(x.meaning)}`).join("<br>")}<br><span class="small">${esc(p.point)}</span></div>`;
+    <div class="tip">👯 ${p.words.map((x) => `<b>${esc(x.word)}</b> <span class="ipa">/${esc(ipaText(x.ipa))}/</span> ${esc(x.meaning)}`).join("<br>")}<br><span class="small">${esc(p.point)}</span></div>`;
   const pairFilter = { kind: "all" };
 
   function pairCard(p) {
@@ -969,7 +980,7 @@
           ${p.words.map((x) => html`
             <div class="pair-word">
               <div class="row"><b class="en">${esc(x.word)}</b>${voiceButton(pairWordKey(x), "🔈")}</div>
-              <div class="small muted ipa">/${esc(x.ipa)}/ ・ ${esc(x.pos)}</div>
+              <div class="small muted ipa">/${esc(ipaText(x.ipa))}/ ・ ${esc(x.pos)}</div>
               <div class="small">${esc(x.meaning)}</div>
             </div>`).join("")}
         </div>
