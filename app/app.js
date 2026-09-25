@@ -839,7 +839,7 @@
             <span class="k">${esc(d.katakana)}</span>
             <span class="w">${esc(d.word)}</span>
             <span class="small muted">${esc(d.pos)}${d.lang ? `・${esc(langName(d))}` : ""}${d.wasei ? "・和製英語" : ""}${d.ref ? "・📘単語帳にあり" : ""}</span>
-            <span class="m">${esc(d.meaning)}</span>
+            ${dictMeaning(d) ? `<span class="m">${esc(dictMeaning(d))}</span>` : ""}
           </button></li>`).join("")}</ul>
           ${hits.length > dictLimit ? `<button class="btn secondary small" id="dict-more">もっと見る（残り ${(hits.length - dictLimit).toLocaleString()} 件）</button>` : ""}` : `<p class="muted">辞書にも見つかりませんでした</p>`}`;
       box.querySelectorAll("[data-dict]").forEach((el) => el.addEventListener("click", () => openDictEntry(DICT.find((d) => d.id === el.dataset.dict))));
@@ -852,6 +852,12 @@
     drawGrid();
   }
 
+  // 意味が見出しのカタカナと同じ（アイシャドー → アイシャドー など）ときは出さない
+  function dictMeaning(d) {
+    const m = d.meaning.replace(/\s/g, "");
+    return d.katakana.split("／").some((k) => k.replace(/\s/g, "") === m) ? "" : d.meaning;
+  }
+
   // 辞書の項目。単語帳に同じ語があれば、そちらの詳しいページを開ける
   function openDictEntry(d) {
     const w = d.ref && byId[d.ref];
@@ -861,7 +867,7 @@
           <div class="small muted">📖 辞書 ・ ${esc(d.pos)}${d.lang ? `（${esc(langName(d))}）` : ""}</div>
           <h2 class="display">${esc(d.word)}</h2>
           <div class="muted">${esc(d.katakana)}</div>
-          <p class="meaning">${esc(d.meaning)}</p>
+          ${dictMeaning(d) ? `<p class="meaning">${esc(dictMeaning(d))}</p>` : ""}
         </div>
         ${d.wasei ? `<div class="tip warn">⚠️ 和製英語、または日本で独自に作られた・使われている語です。英語圏ではそのままでは通じないことがあります。</div>` : ""}
         ${w ? html`<section><button class="btn block" id="to-word">📘 単語帳の「${esc(w.word)}」を見る（例文・語源・類義語）</button></section>` : ""}

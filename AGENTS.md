@@ -17,7 +17,7 @@ AI エージェント（Claude Code、Codex など）がこのリポジトリで
 ## プロジェクトの要点
 
 - 依存なしの静的サイト（HTML/CSS/JS）。ビルド手順やパッケージマネージャーはない。
-- 単語データの正本は `data/*.json`。`docs/WORD_LIST.md` は生成物なので**手で編集しない**。
+- 単語データの正本は `data/*.json`。単語帳の検索で引ける辞書データは `data/dictionary.json`（1行1語、`build_wordlist.py` が検証する）。`docs/WORD_LIST.md` は生成物なので**手で編集しない**。
 - コース・テーマ・問題タイプ・習熟度の定義は `app/app.js` 冒頭、テーマの見た目は `app/style.css`。
 - 進捗は localStorage に保存される。保存形式を変えるときは `STORE_KEY` / `COURSE_VERSION` と移行処理（`app/app.js`）を確認し、既存ユーザーの進捗を壊さない。
 - 生成した音声（`/audio/`、`/tts/qa/`）はリポジトリに入れない。
@@ -49,6 +49,7 @@ python3 -m unittest discover -s scripts/tts         # 音声パイプライン�
 
 - レベル（`level`）は英検の級に対応する（1=5級 … 7=1級）。英語としての難しさで決め、ジャンルでは分けない。
 - カタカナが同じになる語（staff / stuff、bus / bath など）は、必ず `data/pairs.json` のどこかのセットに入れる（`build_wordlist.py` が確認する）。ただし、同じ名前の別の言語形（`group` が同じ Michel / Michelle など）と、大文字・小文字だけがちがう同じつづりの語（echo / 神話の Echo など）は空所補充で区別できないので、セットにしなくてよい。
+- 辞書データ（`data/dictionary.json`）の意味は独自に書く。imidas の見出し語は収録語のチェックリストとしてだけ使い、説明文を転載しない。JMdict（CC BY-SA 4.0）は意味の照合に使う。英語以外の語は `lang`、和製英語は `wasei: true` を付け、新しい言語コードは `app/app.js` の `LANGS` と `build_wordlist.py` の `DICT_LANGS` の両方に足す。
 - 語源は Online Etymology Dictionary などの一般的な説に基づいて書き、諸説ある語はその旨を書く。
 - README や `docs/` に書いてある語数などの数字が変わったら、あわせて更新する。
 
