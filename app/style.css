@@ -1,5 +1,5 @@
 /*
- * Vocab Quest のスタイル
+ * KATAkaNA BUILDER のスタイル
  * 見た目はテーマで切り替える（<html data-theme="…">）。機能はどのテーマでも同じ。
  *   stage  … ステージ：白〜パステル、半透明のカード、グラデーション（音楽ゲーム風）※既定
  *   pop    … ポップ：太いフチどり、固い影、ぷっくりボタン（カジュアル対戦ゲーム風）
@@ -309,7 +309,15 @@ h3 { font-size: 1.05rem; }
   padding: 10px 16px; max-width: 720px; margin: 0 auto;
 }
 .brand { font-family: var(--latin); font-weight: 800; font-size: 1.15rem; color: var(--on-bg); white-space: nowrap; }
-.brand span { margin-left: 3px; }
+/* タイトル「KATAkaNA BUILDER」：大文字だけ読むと KATANA。小さい ka と、刀身に見立てた下の線で刀らしさを出す */
+.brand { display: inline-flex; align-items: baseline; --blade: linear-gradient(90deg, #3a3d5c, #8b97b3 65%, #e4eaf5); }
+.brand .blade { position: relative; }
+.brand .blade small { font-size: .62em; letter-spacing: 0; margin: 0 .03em; }
+.brand .blade::after {
+  content: ""; position: absolute; left: -.1em; right: -.5em; bottom: -.14em; height: .2em;
+  background: var(--blade); clip-path: polygon(0 15%, 82% 0, 100% 50%, 82% 100%, 0 85%); transform: rotate(-2deg);
+}
+.brand .sub { margin-left: .45em; font-size: .62em; letter-spacing: .16em; }
 .hud { display: flex; gap: 6px; }
 .pill {
   display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; min-height: 32px;
@@ -730,10 +738,12 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
 }
 [data-theme="stage"] .display,
 [data-theme="stage"] .brand {
-  background: var(--title-fill); -webkit-background-clip: text; background-clip: text; color: transparent;
   filter: drop-shadow(0 2px 0 rgba(255, 255, 255, .9)) drop-shadow(0 6px 12px rgba(90, 110, 190, .18));
 }
 [data-theme="stage"] .brand { font-style: italic; letter-spacing: .04em; }
+/* 刀身の線（.blade::after）を出すため、文字のグラデーションは .brand でなく中の span ごとにかける */
+[data-theme="stage"] .brand > span,
+[data-theme="noble"] .brand > span { background: var(--title-fill); -webkit-background-clip: text; background-clip: text; color: transparent; }
 [data-theme="stage"] .section-title { display: flex; align-items: baseline; gap: 4px; }
 [data-theme="stage"] .section-title::before {
   content: ""; align-self: center; width: 6px; height: 22px; margin-right: 6px; border-radius: 3px;
@@ -770,7 +780,8 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
 [data-theme="pop"] .count {
   font-weight: 400; color: #fff; -webkit-text-stroke: 6px var(--ink); paint-order: stroke fill; text-shadow: 0 4px 0 var(--ink);
 }
-[data-theme="pop"] .brand span { color: #ffd23f; }
+[data-theme="pop"] .brand { --blade: var(--ink); }
+[data-theme="pop"] .brand .sub { color: #ffd23f; }
 [data-theme="pop"] .count { -webkit-text-stroke-width: 4px; text-shadow: none; font-style: normal; }
 [data-theme="pop"] .section-title .small { -webkit-text-stroke: 0; text-shadow: none; }
 [data-theme="pop"] .detail .display { font-family: var(--display); }
@@ -820,7 +831,9 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
   font-weight: 400; color: #fff; font-style: normal; text-shadow: 3px 3px 0 var(--neon), 6px 6px 0 #000;
   transform: skewX(-8deg); display: inline-block;
 }
-[data-theme="street"] .brand span { color: var(--neon); text-shadow: 3px 3px 0 #000; }
+[data-theme="street"] .brand { --blade: var(--neon); }
+[data-theme="street"] .brand .blade::after { bottom: -.4em; box-shadow: none; }
+[data-theme="street"] .brand .sub { color: var(--neon); text-shadow: 3px 3px 0 #000; }
 [data-theme="street"] .welcome .display, [data-theme="street"] .result .display { display: block; }
 [data-theme="street"] .section-title {
   display: inline-block; font-weight: 400; color: #0d0d0f; background: var(--neon); padding: 2px 14px 0;
@@ -830,7 +843,7 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
 [data-theme="street"] .card { border-left: 6px solid var(--area, var(--neon)); }
 [data-theme="street"] .card.feedback { border-left-width: 2px; }
 [data-theme="street"] .card::after {
-  content: "/// VQ"; position: absolute; top: 6px; right: 10px; font-family: var(--latin); font-weight: 900; font-style: italic;
+  content: "/// KB"; position: absolute; top: 6px; right: 10px; font-family: var(--latin); font-weight: 900; font-style: italic;
   font-size: .62rem; letter-spacing: .12em; color: var(--text-soft); opacity: .6; pointer-events: none;
 }
 [data-theme="street"] .modal-body .card::after, [data-theme="street"] .question::after, [data-theme="street"] .feedback::after { content: none; }
@@ -878,14 +891,14 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
 /* ---------- ノーブル ---------- */
 [data-theme="noble"] .display,
 [data-theme="noble"] .brand {
-  font-weight: 800; letter-spacing: .06em; background: var(--title-fill); -webkit-background-clip: text; background-clip: text; color: transparent;
+  font-weight: 800; letter-spacing: .06em;
   filter: drop-shadow(0 2px 6px rgba(0, 0, 0, .45));
 }
 [data-theme="noble"] .card .display,
 [data-theme="noble"] .modal-body .display {
   background: linear-gradient(180deg, #8a6a2c, #5b4418); -webkit-background-clip: text; background-clip: text; filter: none;
 }
-[data-theme="noble"] .brand { letter-spacing: .12em; }
+[data-theme="noble"] .brand { letter-spacing: .12em; --blade: var(--title-fill); }
 [data-theme="noble"] .section-title { display: flex; align-items: center; gap: 10px; color: #f3ead6; letter-spacing: .08em; font-weight: 800; }
 [data-theme="noble"] .section-title::before,
 [data-theme="noble"] .section-title::after { content: ""; height: 1px; background: linear-gradient(90deg, transparent, var(--gold)); flex: 0 0 22px; }

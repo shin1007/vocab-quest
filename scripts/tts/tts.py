@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Vocab Quest 音声パイプライン（事前生成・差分更新）
+"""KATAkaNA BUILDER 音声パイプライン（事前生成・差分更新）
 
   python3 scripts/tts/tts.py utterances              # data/*.json → tts/utterances.json（読み上げる文の一覧）
   python3 scripts/tts/tts.py estimate [--tier core]  # 容量と再生時間の見積もり
