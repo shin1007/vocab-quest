@@ -103,8 +103,8 @@
   const INTERVAL_DAYS = [0, 0, 1, 3, 7, 21]; // 習熟度ごとの次回出題までの日数
   const LEARNED = 3; // この習熟度以上を「定着」とみなす
   // 「次のn語」：まだ覚えていない語を、コースの並びの先頭から n 語ずつ出す。n はホームで選ぶ
-  const BATCH_OPTIONS = [10, 20, 30, 50];
-  const BATCH_SIZE = 20;
+  const BATCH_OPTIONS = [50, 100, 150, 200];
+  const BATCH_SIZE = 50;
   const STUDY_GOAL = 2; // 1回の学習でこの習熟度（翌日に復習）まで上げる
   const MAX_TRIES = 4; // 1回の学習で同じ語を出す上限（間違え続けても終われるように）
   const REQUEUE_GAP = { ok: 6, ng: 3 }; // もう一度出すまでにはさむ問題数（正解なら長め、間違いなら短め）
