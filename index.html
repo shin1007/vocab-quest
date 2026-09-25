@@ -23,7 +23,7 @@
     // 保存済みのテーマを描画前に当てる（ちらつき防止）。テーマの一覧は app.js の THEMES
     try {
       const t = JSON.parse(localStorage.getItem("vocab-quest-save-v3") || "{}").settings?.theme;
-      if (["stage", "pop", "street", "noble"].includes(t)) document.documentElement.dataset.theme = t;
+      if (["stage", "pop", "street", "noble", "wa"].includes(t)) document.documentElement.dataset.theme = t;
     } catch { /* 保存データが読めなければ既定のテーマ */ }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">

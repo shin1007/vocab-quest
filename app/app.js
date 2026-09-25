@@ -21,6 +21,7 @@
     pop: { name: "ポップ", desc: "太いフチどりのカジュアル", color: "#2a168f" },
     street: { name: "ストリート", desc: "黒×ネオンのステッカー", color: "#0d0d0f" },
     noble: { name: "ノーブル", desc: "紺と金のファンタジー", color: "#11162c" },
+    wa: { name: "和", desc: "和紙と藍・朱の和風", color: "#f4eee0" },
   };
   const QTYPES = {
     kata: "カタカナ → 英語",
