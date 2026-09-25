@@ -422,7 +422,9 @@ button.chip:active { transform: translateY(2px); }
 .stat-tile.hot { border-color: var(--hi); }
 .today .small.center { margin: 8px 0 0; }
 
-.next-lesson .btn { margin-top: 12px; }
+.goal-card { margin-top: 22px; }
+.goal-lesson { margin-top: 14px; padding-top: 12px; border-top: var(--bw-sm) dashed var(--edge); }
+.goal-lesson .btn { margin-top: 12px; }
 .ribbon {
   position: absolute; z-index: 2; top: -14px; left: 16px; padding: 0 14px; border-radius: 999px; line-height: 1.8;
   font-family: var(--latin); font-weight: 800; font-style: italic; font-size: .85rem; letter-spacing: .08em;
@@ -462,8 +464,8 @@ button.chip:active { transform: translateY(2px); }
   color: #fff; background: var(--area, var(--accent)); vertical-align: middle;
 }
 .detail-head .grade-chip { margin-right: 4px; }
-.level-card b { display: block; margin-bottom: 6px; }
-.level-card .bar { margin-bottom: 4px; }
+.goal-card .row b { display: block; margin-bottom: 6px; }
+.goal-card .row .bar { margin-bottom: 4px; }
 .level-up { display: grid; justify-items: center; gap: 4px; text-align: center; }
 /* 似た単語 */
 .chip-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0; }
@@ -476,7 +478,6 @@ button.chip:active { transform: translateY(2px); }
 .pair-examples summary { cursor: pointer; font-weight: 800; color: var(--text-soft); margin-bottom: 6px; }
 .pair-card .btn { margin-top: 6px; }
 .pair-sentence { display: block; font-family: var(--latin); font-size: 1.15rem; font-weight: 800; line-height: 1.5; margin-bottom: 6px; }
-.pairs-home .btn { margin-top: 12px; }
 .cefr { font-family: var(--latin); font-size: .68rem; font-weight: 800; padding: 0 6px; border-radius: 6px; background: var(--card-2); border: 1px solid var(--edge); margin-left: 4px; }
 .lesson .chev { font-size: 1.5rem; font-weight: 800; color: var(--text-soft); }
 .trivia p { margin: 4px 0 10px; }
@@ -745,7 +746,7 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
 /* ---------- ステージ ---------- */
 [data-theme="stage"] .card { backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
 /* カード左上の細いグラデーションライン */
-[data-theme="stage"] .card:not(.feedback):not(.next-lesson)::after {
+[data-theme="stage"] .card:not(.feedback):not(.goal-card)::after {
   content: ""; position: absolute; top: -1px; left: 22px; width: 56px; height: 4px; border-radius: 0 0 4px 4px;
   background: linear-gradient(90deg, #2fd3c3, #ff6fa8);
 }
@@ -780,7 +781,7 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
 [data-theme="stage"] .topic-badge { border: 0; box-shadow: 0 6px 14px color-mix(in srgb, var(--area) 45%, transparent); }
 [data-theme="stage"] .lesson .num { box-shadow: 0 3px 8px color-mix(in srgb, var(--area) 50%, transparent); }
 [data-theme="stage"] .ribbon { box-shadow: 0 4px 10px rgba(255, 111, 168, .35); }
-[data-theme="stage"] .next-lesson { background: linear-gradient(135deg, rgba(255, 255, 255, .88) 55%, color-mix(in srgb, var(--area) 22%, rgba(255, 255, 255, .88))); }
+[data-theme="stage"] .goal-card { background: linear-gradient(135deg, rgba(255, 255, 255, .88) 55%, color-mix(in srgb, var(--area) 22%, rgba(255, 255, 255, .88))); }
 [data-theme="stage"] .feedback .verdict { font-style: italic; letter-spacing: .04em; }
 [data-theme="stage"] .detail h4 { box-shadow: 0 3px 8px color-mix(in srgb, var(--area) 40%, transparent); }
 [data-theme="stage"] .modal-body { background: rgba(255, 255, 255, .96); backdrop-filter: blur(16px); }
@@ -829,7 +830,7 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
   content: ""; position: absolute; inset: 0 0 auto; height: 44px; border-radius: 19px 19px 0 0; opacity: .8; pointer-events: none;
   background: repeating-linear-gradient(-45deg, color-mix(in srgb, var(--area) 22%, #fff) 0 10px, #fff 10px 20px);
 }
-[data-theme="pop"] .next-lesson { background: linear-gradient(135deg, #fff 60%, color-mix(in srgb, var(--area) 30%, #fff)); }
+[data-theme="pop"] .goal-card { background: linear-gradient(135deg, #fff 60%, color-mix(in srgb, var(--area) 30%, #fff)); }
 [data-theme="pop"] .welcome { background: linear-gradient(160deg, #fff 55%, #ffe9f6); }
 [data-theme="pop"] .detail h4 { color: var(--ink); border: 2px solid var(--ink); }
 [data-theme="pop"] .detail h4 .speak { background: #fff; border: 2px solid var(--ink); }
