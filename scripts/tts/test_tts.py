@@ -1,5 +1,10 @@
 """python3 -m unittest discover -s scripts/tts"""
+import sys
+import tempfile
+import types
 import unittest
+from pathlib import Path
+from unittest import mock
 
 import tts
 
@@ -29,6 +34,67 @@ class TextRules(unittest.TestCase):
         for key in ("potion.word", "potion.meaning", "potion.katakana", "potion.example.en", "potion.example.ja", "syn.elixir"):
             self.assertEqual(items[key]["tier"], "core")
         self.assertEqual(items["potion.story"]["tier"], "extended")
+
+
+class FakeQwen:
+    """qwen_tts.Qwen3TTSModel の代わり。呼ばれ方だけを記録する。"""
+    calls = []
+
+    @classmethod
+    def from_pretrained(cls, name, **_kwargs):
+        cls.calls.append(("load", name))
+        return cls()
+
+    def generate_voice_design(self, text, language, instruct):
+        self.calls.append(("design", text, language, instruct))
+        return [[0.0]], 24000
+
+    def create_voice_clone_prompt(self, ref_audio, ref_text):
+        self.calls.append(("prompt", ref_audio, ref_text))
+        return "PROMPT"
+
+    def generate_voice_clone(self, text, language, voice_clone_prompt):
+        self.calls.append(("clone", text, language, voice_clone_prompt))
+        return [[0.0]], 24000
+
+
+class Qwen3Design(unittest.TestCase):
+    def setUp(self):
+        FakeQwen.calls = []
+        self.tmp = tempfile.TemporaryDirectory()
+        written = []
+        fakes = {
+            "torch": types.SimpleNamespace(bfloat16="bf16", manual_seed=lambda s: FakeQwen.calls.append(("seed", s))),
+            "soundfile": types.SimpleNamespace(write=lambda path, _wav, _sr: (written.append(path), Path(path).write_bytes(b""))),
+            "qwen_tts": types.SimpleNamespace(Qwen3TTSModel=FakeQwen),
+        }
+        self.written = written
+        self.voice = {
+            "name": "navi",
+            "lang_map": {"ja": "Japanese", "en": "English"},
+            "qwen3": {"model": "base", "ref_audio": "tts/voices/navi.ref.wav", "ref_text": "こんにちは",
+                      "design": {"model": "design", "instruct": "anime voice actress"}},
+        }
+        for patcher in (mock.patch.dict(sys.modules, fakes), mock.patch.dict(tts._QWEN, clear=True),
+                        mock.patch.dict(tts._QWEN_PROMPT, clear=True), mock.patch.object(tts, "TTS_DIR", Path(self.tmp.name)),
+                        mock.patch.object(tts, "ROOT", Path(self.tmp.name)), mock.patch.object(tts, "load_voice", lambda _n: self.voice)):
+            patcher.start()
+            self.addCleanup(patcher.stop)
+        self.addCleanup(self.tmp.cleanup)
+
+    def test_design_makes_candidates_with_ref_text(self):
+        tts.cmd_design(types.SimpleNamespace(voice="navi", count=2, seed=5))
+        self.assertIn(("design", "こんにちは", "Japanese", "anime voice actress"), FakeQwen.calls)
+        self.assertEqual([Path(p).name for p in self.written], ["seed5.wav", "seed6.wav"])
+        self.assertTrue((Path(self.tmp.name) / "design" / "navi" / "index.html").exists())
+
+    def test_synth_reuses_clone_prompt(self):
+        for text in ("potion", "ポーション"):
+            tts.synth_qwen3(self.voice, "en", text, Path(self.tmp.name) / f"{text}.wav")
+        prompts = [c for c in FakeQwen.calls if c[0] == "prompt"]
+        self.assertEqual(prompts, [("prompt", str(Path(self.tmp.name) / "tts/voices/navi.ref.wav"), "こんにちは")])
+        self.assertEqual([c for c in FakeQwen.calls if c[0] == "load"], [("load", "base")])
+        self.assertIn(("clone", "potion", "English", "PROMPT"), FakeQwen.calls)
 
 
 if __name__ == "__main__":

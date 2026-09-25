@@ -3,6 +3,7 @@
 
   python3 scripts/tts/tts.py utterances              # data/*.json → tts/utterances.json（読み上げる文の一覧）
   python3 scripts/tts/tts.py estimate [--tier core]  # 容量と再生時間の見積もり
+  python3 scripts/tts/tts.py design --voice NAME     # 声を文章で設計し、参照音声の候補を作る（Qwen3-TTS VoiceDesign）
   python3 scripts/tts/tts.py synth  --voice NAME     # 音声を生成（生成済みはスキップ）→ audio/NAME/
   python3 scripts/tts/tts.py qa     --voice NAME     # Whisper で聞き取り、読み間違いを検出（要 faster-whisper）
   python3 scripts/tts/tts.py review --voice NAME     # 耳で確認するための一覧ページ audio/NAME/review.html
@@ -163,26 +164,42 @@ def synth_command(voice, lang, text, wav_path):
         Path(text_file).unlink(missing_ok=True)
 
 
-_QWEN = None
+_QWEN = {}
 
 
-def synth_qwen3(voice, lang, text, wav_path):
-    """Qwen3-TTS（pip install qwen-tts）でボイスクローン。モデルは1回だけ読み込む（jobs は 1 にする）。"""
-    global _QWEN
-    import soundfile as sf
-    cfg = voice["qwen3"]
-    if _QWEN is None:
+def qwen3_model(name, cfg):
+    """Qwen3-TTS（pip install qwen-tts）のモデルを1回だけ読み込む（jobs は 1 にする）。"""
+    if name not in _QWEN:
         import torch
         from qwen_tts import Qwen3TTSModel
         kwargs = {"device_map": cfg.get("device", "cuda:0"), "dtype": torch.bfloat16}
         if cfg.get("attn_implementation"):
             kwargs["attn_implementation"] = cfg["attn_implementation"]
-        _QWEN = Qwen3TTSModel.from_pretrained(cfg["model"], **kwargs)
-    wavs, sr = _QWEN.generate_voice_clone(
+        _QWEN[name] = Qwen3TTSModel.from_pretrained(name, **kwargs)
+    return _QWEN[name]
+
+
+def resolve_path(path):
+    """声の設定に書くパスは、相対パスならリポジトリのルートからとみなす。"""
+    p = Path(path)
+    return p if p.is_absolute() else ROOT / p
+
+
+_QWEN_PROMPT = {}
+
+
+def synth_qwen3(voice, lang, text, wav_path):
+    """Qwen3-TTS でボイスクローン。参照音声から作る声の特徴は1回だけ計算して使い回す。"""
+    import soundfile as sf
+    cfg = voice["qwen3"]
+    model = qwen3_model(cfg["model"], cfg)
+    ref = str(resolve_path(cfg["ref_audio"]))
+    if ref not in _QWEN_PROMPT:
+        _QWEN_PROMPT[ref] = model.create_voice_clone_prompt(ref_audio=ref, ref_text=cfg["ref_text"])
+    wavs, sr = model.generate_voice_clone(
         text=text,
         language=voice.get("lang_map", {}).get(lang, lang),
-        ref_audio=cfg["ref_audio"],
-        ref_text=cfg["ref_text"],
+        voice_clone_prompt=_QWEN_PROMPT[ref],
     )
     sf.write(str(wav_path), wavs[0], sr)
 
@@ -332,6 +349,42 @@ def edit_distance(a, b):
     return prev[-1]
 
 
+def cmd_design(args):
+    """VoiceDesign で「声の説明文」から参照音声の候補を作る。
+
+    毎回ちがう声になるので、候補を並べて聞き比べ、気に入った1つを参照音声（qwen3.ref_audio）にする。
+    以後の synth はその参照音声のクローンで話すので、全音声が同じ声になる。
+    """
+    import soundfile as sf
+    import torch
+    voice = load_voice(args.voice)
+    cfg = voice["qwen3"]
+    design = cfg["design"]
+    model = qwen3_model(design.get("model", "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"), cfg)
+    out_dir = TTS_DIR / "design" / args.voice
+    out_dir.mkdir(parents=True, exist_ok=True)
+    rows = []
+    for i in range(args.count):
+        seed = args.seed + i
+        torch.manual_seed(seed)
+        wavs, sr = model.generate_voice_design(
+            text=cfg["ref_text"],
+            language=voice.get("lang_map", {}).get(design.get("lang", "ja"), design.get("lang", "ja")),
+            instruct=design["instruct"],
+        )
+        name = f"seed{seed}.wav"
+        sf.write(str(out_dir / name), wavs[0], sr)
+        rows.append(f'<tr><td>seed {seed}</td><td><audio controls preload=none src="{name}"></audio></td></tr>')
+        print(f"  {name}")
+    page = f"""<!doctype html><meta charset=utf-8><title>声の候補 {html.escape(args.voice)}</title>
+<style>body{{font-family:sans-serif;margin:2em}}td{{padding:.3em .8em}}</style>
+<h1>声の候補：{html.escape(args.voice)}</h1><p>{html.escape(design["instruct"])}</p>
+<p>気に入った候補を {html.escape(cfg["ref_audio"])} にコピーしてから synth を実行する。</p>
+<table>{"".join(rows)}</table>"""
+    (out_dir / "index.html").write_text(page, encoding="utf-8")
+    print(f"{args.count} 件 → {(out_dir / 'index.html').relative_to(ROOT)}")
+
+
 def cmd_qa(args):
     try:
         from faster_whisper import WhisperModel
@@ -409,6 +462,10 @@ def main():
     sub.add_parser("utterances")
     p = sub.add_parser("estimate")
     p.add_argument("--tier", choices=TIERS)
+    p = sub.add_parser("design")
+    p.add_argument("--voice", required=True)
+    p.add_argument("--count", type=int, default=8, help="作る候補の数")
+    p.add_argument("--seed", type=int, default=1, help="最初の候補の乱数シード（同じシードなら同じ声）")
     p = sub.add_parser("synth")
     p.add_argument("--voice", required=True)
     p.add_argument("--tier", action="append", choices=TIERS, help="省略時は声の設定の tiers（既定 core）")
@@ -426,7 +483,7 @@ def main():
     p = sub.add_parser("prune")
     p.add_argument("--voice", required=True)
     args = ap.parse_args()
-    {"utterances": cmd_utterances, "estimate": cmd_estimate, "synth": cmd_synth,
+    {"utterances": cmd_utterances, "estimate": cmd_estimate, "design": cmd_design, "synth": cmd_synth,
      "qa": cmd_qa, "review": cmd_review, "prune": cmd_prune}[args.cmd](args)
 
 
