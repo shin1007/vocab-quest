@@ -8,7 +8,7 @@
   * { margin: 0; box-sizing: border-box; }
   html, body { width: 1200px; height: 630px; overflow: hidden; }
   body {
-    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 36px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 44px;
     font-family: "M PLUS Rounded 1c", sans-serif; color: #3a3d5c;
     background:
       radial-gradient(55% 45% at 100% 0%, rgba(255, 128, 190, .38), transparent 70%),
@@ -17,15 +17,25 @@
       repeating-linear-gradient(-60deg, rgba(110, 150, 220, .08) 0 3px, transparent 3px 36px),
       linear-gradient(180deg, #f8fbff, #e8f0ff);
   }
-  .key { font-size: 120px; line-height: 1; filter: drop-shadow(0 10px 18px rgba(90, 110, 190, .25)); }
   .brand {
-    font-family: "Montserrat", sans-serif; font-style: italic; font-weight: 900; font-size: 136px;
-    letter-spacing: .04em; line-height: 1; padding: 0 .12em;
-    background: linear-gradient(90deg, #1fc2b2, #5a86ff 55%, #ff64a4);
-    -webkit-background-clip: text; background-clip: text; color: transparent;
+    font-family: "Montserrat", sans-serif; font-style: italic; font-weight: 900; font-size: 128px;
+    letter-spacing: .04em; line-height: 1; padding: 0 .12em .2em;
     filter: drop-shadow(0 3px 0 rgba(255, 255, 255, .9)) drop-shadow(0 10px 20px rgba(90, 110, 190, .22));
   }
-  .brand span { margin-left: .12em; }
+  .brand { display: inline-flex; align-items: baseline; }
+  /* 刀身の線（.blade::after）を出すため、文字のグラデーションは span ごとにかける */
+  .brand > span {
+    padding-right: .08em; background: linear-gradient(90deg, #1fc2b2, #5a86ff 55%, #ff64a4);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .brand .blade { position: relative; }
+  .brand .blade small { font-size: .62em; letter-spacing: 0; margin: 0 .03em; }
+  .brand .blade::after {
+    content: ""; position: absolute; left: -.1em; right: -.5em; bottom: -.14em; height: .2em;
+    background: linear-gradient(90deg, #3a3d5c, #8b97b3 65%, #e4eaf5);
+    clip-path: polygon(0 15%, 82% 0, 100% 50%, 82% 100%, 0 85%); transform: rotate(-2deg);
+  }
+  .brand .sub { margin-left: .45em; font-size: .62em; letter-spacing: .16em; }
   .tagline {
     font-size: 44px; font-weight: 800; padding: 16px 44px; border-radius: 999px;
     background: rgba(255, 255, 255, .85); border: 2px solid rgba(150, 170, 215, .45);
@@ -34,8 +44,7 @@
 </style>
 </head>
 <body>
-  <div class="key">🗝️</div>
-  <div class="brand">VOCAB<span>QUEST</span></div>
+  <div class="brand" aria-label="KATAkaNA BUILDER"><span class="blade">KATA<small>ka</small>NA</span><span class="sub">BUILDER</span></div>
   <div class="tagline">身の回りのカタカナ語から英単語を学ぶ</div>
 </body>
 </html>
