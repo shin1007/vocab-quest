@@ -42,8 +42,9 @@ python3 -m unittest discover -s scripts/tts         # 音声パイプライン�
 
 1. 入れたい語を `data/candidates.json` に書き足す（任意）
 2. `data/words.json`（必要なら `data/roots.json`・`data/pairs.json`）を編集する
-3. `python3 scripts/build_wordlist.py` を実行する
-4. 音声を使う場合は `python3 scripts/tts/tts.py utterances` を再実行して `tts/utterances.json` を更新する
+3. 新しい語には `python3 scripts/add_ipa.py` で発音記号（`ipa`）を入れる。辞書にない語と英語以外の形の語（`lang` のある語）は `scripts/ipa_manual.json` に書く
+4. `python3 scripts/build_wordlist.py` を実行する
+5. 音声を使う場合は `python3 scripts/tts/tts.py utterances` を再実行して `tts/utterances.json` を更新する
 
 注意点：
 

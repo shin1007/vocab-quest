@@ -24,6 +24,7 @@
 | `data/pairs.json` | 似た単語セット（母音・L/R・B/V・TH・同音語・つづり・派生語の7種類）。単語リストでカタカナが同じになる語（staff / stuff、bus / bath など）は必ずどこかのセットに入れる（`build_wordlist.py` が確認） |
 | `index.html`, `app/` | 動くプロトタイプ（依存なしの HTML/CSS/JS）。コース・テーマ・問題タイプ・習熟度の定義は `app/app.js` 冒頭、テーマの見た目は `app/style.css` |
 | `scripts/build_wordlist.py` | データ検証と `WORD_LIST.md` の生成 |
+| `scripts/add_ipa.py`, `scripts/ipa_manual.json` | 単語に発音記号（`ipa`、米音）を入れる。[CMU 発音辞書](https://github.com/cmusphinx/cmudict)から変換し、辞書にない語と英語以外の形の語は `ipa_manual.json` に手で書く |
 | `scripts/check_examples.py` | 例文の文法が級に合っているかの確認（5級〜3級。`build_wordlist.py` からも実行される） |
 | `scripts/find_candidates.py` | カタカナ語辞典（JMdict）から、未収録の外来語の候補を一覧にする |
 | [`docs/VOICE_TTS.md`](docs/VOICE_TTS.md) | 日本語・英語の読み上げ音声の設計（声の素材とライセンス、エンジン選定、容量） |
@@ -54,8 +55,9 @@ python3 scripts/tts/tts.py qa --voice tsukuyomi-gsv      # 読み間違いの検
 
 1. 入れたい語を `data/candidates.json` の分野に書き足す（任意）
 2. `data/words.json`（必要なら `data/roots.json`）を編集。新しい語の候補は `python3 scripts/find_candidates.py > candidates.tsv` で、カタカナ語辞典 [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html)（EDRDG、CC BY-SA 4.0）から、よく使われるのにまだ収録していない外来語を拾える。集英社 imidas の[「現代人のカタカナ語辞典」](https://imidas.jp/katakana.html)の見出し語も候補選びの参考にしている（辞典の説明文は転載せず、意味・例文・語源は独自に書く）
-3. `python3 scripts/build_wordlist.py` を実行（データの検証＋ `docs/WORD_LIST.md` の再生成＋候補のうち未収録の語の表示）
-4. 音声を使う場合は `python3 scripts/tts/tts.py utterances` と `synth` を再実行（変わった文だけ生成されます）
+3. 新しい語には `python3 scripts/add_ipa.py` で発音記号（`ipa`）を入れる（辞書にない語は `scripts/ipa_manual.json` に書き足す）
+4. `python3 scripts/build_wordlist.py` を実行（データの検証＋ `docs/WORD_LIST.md` の再生成＋候補のうち未収録の語の表示）
+5. 音声を使う場合は `python3 scripts/tts/tts.py utterances` と `synth` を再実行（変わった文だけ生成されます）
 
 1つの語が複数のモードに出てもかまいません（例：light は単語リストにも、似た単語セット light / right にも入っています）。
 
