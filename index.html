@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ja" data-theme="stage">
+<html lang="ja" data-theme="wa">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#eef4ff">
+  <meta name="theme-color" content="#121010">
   <title>KATAkaNA BUILDER</title>
   <meta name="description" content="身の回りのカタカナ語から英単語を学ぶ">
   <!-- SNS のリンクカード（画像は scripts/ogp/render.mjs で作る）。og:image は絶対 URL でないと表示されない -->
@@ -23,7 +23,7 @@
     // 保存済みのテーマを描画前に当てる（ちらつき防止）。テーマの一覧は app.js の THEMES
     try {
       const t = JSON.parse(localStorage.getItem("vocab-quest-save-v3") || "{}").settings?.theme;
-      if (["stage", "pop", "street", "noble", "wa"].includes(t)) document.documentElement.dataset.theme = t;
+      if (["wa", "stage", "pop", "street", "noble"].includes(t)) document.documentElement.dataset.theme = t;
     } catch { /* 保存データが読めなければ既定のテーマ */ }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,7 @@
     <div class="hud">
       <span class="pill" id="hud-streak" title="連続学習日数">🔥 0</span>
       <span class="pill" id="hud-learned" title="定着した単語">📘 0</span>
-      <button class="pill" id="theme-btn" aria-label="テーマを変える">🎨</button>
+      <button class="pill" id="settings-btn" aria-label="設定（テーマ・音声）">⚙️</button>
     </div>
   </header>
 

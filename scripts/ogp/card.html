@@ -1,45 +1,42 @@
 <!doctype html>
-<!-- SNS のリンクカード用画像（icons/ogp.png, 1200×630）の元。render.mjs で PNG にする -->
+<!-- SNS のリンクカード用画像（icons/ogp.png, 1200×630）の元。render.mjs で PNG にする。既定のテーマ「和」の見た目 -->
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&family=Montserrat:ital,wght@1,900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@800&family=Zen+Kaku+Gothic+New:wght@700&display=swap">
 <style>
   * { margin: 0; box-sizing: border-box; }
   html, body { width: 1200px; height: 630px; overflow: hidden; }
   body {
-    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 44px;
-    font-family: "M PLUS Rounded 1c", sans-serif; color: #3a3d5c;
+    position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 56px;
+    font-family: "Zen Kaku Gothic New", sans-serif; color: #f2ebdd;
     background:
-      radial-gradient(55% 45% at 100% 0%, rgba(255, 128, 190, .38), transparent 70%),
-      radial-gradient(50% 45% at 0% 25%, rgba(64, 220, 205, .36), transparent 70%),
-      radial-gradient(60% 50% at 50% 100%, rgba(140, 150, 255, .28), transparent 70%),
-      repeating-linear-gradient(-60deg, rgba(110, 150, 220, .08) 0 3px, transparent 3px 36px),
-      linear-gradient(180deg, #f8fbff, #e8f0ff);
+      linear-gradient(158deg, transparent calc(47% - 1px), rgba(255, 236, 214, .6) 47%, transparent calc(47% + 2px)),
+      linear-gradient(158deg, transparent 40%, rgba(210, 58, 44, .14) 47%, transparent 56%),
+      radial-gradient(60% 60% at 100% 0%, rgba(210, 58, 44, .38), transparent 70%),
+      radial-gradient(70% 70% at 0% 100%, rgba(0, 0, 0, .7), transparent 70%),
+      #121010;
   }
   .brand {
-    font-family: "Montserrat", sans-serif; font-style: italic; font-weight: 900; font-size: 128px;
-    letter-spacing: .04em; line-height: 1; padding: 0 .12em .2em;
-    filter: drop-shadow(0 3px 0 rgba(255, 255, 255, .9)) drop-shadow(0 10px 20px rgba(90, 110, 190, .22));
-  }
-  .brand { display: inline-flex; align-items: baseline; }
-  /* 刀身の線（.blade::after）を出すため、文字のグラデーションは span ごとにかける */
-  .brand > span {
-    padding-right: .08em; background: linear-gradient(90deg, #1fc2b2, #5a86ff 55%, #ff64a4);
-    -webkit-background-clip: text; background-clip: text; color: transparent;
+    display: inline-flex; align-items: center; font-family: "Shippori Mincho B1", serif; font-weight: 800; font-size: 120px;
+    letter-spacing: .06em; line-height: 1; text-shadow: 0 4px 24px rgba(0, 0, 0, .7);
   }
   .brand .blade { position: relative; }
   .brand .blade small { font-size: .62em; letter-spacing: 0; margin: 0 .03em; }
   .brand .blade::after {
-    content: ""; position: absolute; left: -.1em; right: -.5em; bottom: -.14em; height: .2em;
-    background: linear-gradient(90deg, #3a3d5c, #8b97b3 65%, #e4eaf5);
+    content: ""; position: absolute; left: -.1em; right: -.5em; bottom: -.18em; height: .16em;
+    background: linear-gradient(90deg, #5d6573, #c9d1dc 55%, #fff 88%, #fff);
     clip-path: polygon(0 15%, 82% 0, 100% 50%, 82% 100%, 0 85%); transform: rotate(-2deg);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, .5));
   }
-  .brand .sub { margin-left: .45em; font-size: .62em; letter-spacing: .16em; }
+  .brand .sub { margin-left: .45em; font-size: .5em; letter-spacing: .16em; }
+  .brand::after {
+    content: "刀"; margin-left: .45em; width: 1.4em; height: 1.4em; display: grid; place-items: center; text-shadow: none;
+    font-size: .5em; letter-spacing: 0; color: #fff; background: #d23a2c; border-radius: 4px; transform: rotate(-4deg);
+  }
   .tagline {
-    font-size: 44px; font-weight: 800; padding: 16px 44px; border-radius: 999px;
-    background: rgba(255, 255, 255, .85); border: 2px solid rgba(150, 170, 215, .45);
-    box-shadow: 0 10px 28px rgba(80, 100, 170, .14);
+    font-size: 40px; padding: 14px 44px 14px 36px; color: #231f1b; background: #f5efe2; letter-spacing: .06em;
+    border-left: 8px solid #d23a2c; clip-path: polygon(0 0, 100% 0, calc(100% - 18px) 100%, 0 100%);
   }
 </style>
 </head>
