@@ -87,6 +87,7 @@
     zu: { name: "ズールー語", speech: "zu-ZA" },
     bn: { name: "ベンガル語", speech: "bn-BD" },
     af: { name: "アフリカーンス語", speech: "af-ZA" },
+    ch: { name: "チャモロ語", speech: "ch-GU" },
     ja: { name: "日本語", speech: "ja-JP" },
   };
   // 固有名詞の品詞。類義語の代わりに「別名・関連する名前」を載せている
