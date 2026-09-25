@@ -113,12 +113,28 @@ Qwen3-TTS は学習が要らない。`pip install -U qwen-tts soundfile` のあ�
 
 ### 4.4 VoiceDesign で声を作る流れ（Qwen3-TTS）
 
-1. `pip install -U qwen-tts soundfile`（GPU 推奨。1.7B で VRAM 8GB 程度）
+1. `pip install -U qwen-tts soundfile`（GPU 推奨。1.7B で VRAM 8GB 程度。GPU の種類ごとの注意は §4.5）
 2. `tts/voices/navi-qwen3.json` の `qwen3.design.instruct`（声の説明）と `qwen3.ref_text`（候補に読ませる5〜10秒の文）を決める
 3. `python3 scripts/tts/tts.py design --voice navi-qwen3 --count 8` で候補を8つ作る → `tts/design/navi-qwen3/index.html` で聞き比べる
 4. 気に入った候補（例：`seed3.wav`）を `tts/voices/navi-qwen3.ref.wav` にコピーする。同じ `--seed` なら同じ声が出るので、シード番号も控えておく
 5. `python3 scripts/tts/tts.py synth --voice navi-qwen3 --only '^(potion|quest|tension)\.'` で数語だけ作り、英語が日本語なまりになっていないかを `qa` と耳で確認する（§4.2）
 6. 声を選び直したら `version` を上げてから全件を作り直す
+
+
+### 4.5 GPU の種類ごとの動かし方（Qwen3-TTS）
+
+| GPU | 方法 | 設定（`qwen3` の中） |
+|---|---|---|
+| NVIDIA | CUDA 版 PyTorch | そのまま（`device: "cuda:0"`） |
+| AMD Radeon RX 7000 / 9000（RDNA3・4） | **ROCm 版 PyTorch**。Linux でも Windows でも AMD 公式の wheel がある。先に ROCm 版 PyTorch を入れてから `qwen-tts` を入れる | そのまま。ROCm 版 PyTorch でも GPU の名前は `cuda:0` |
+| AMD Radeon RX 6000 以前 | Linux で ROCm を使う（公式サポート外で、`HSA_OVERRIDE_GFX_VERSION=10.3.0` などの指定が要ることがある）。動かなければ CPU | bfloat16 が遅い場合は `dtype: "float16"` |
+| なし（CPU） | 動くが遅い（1文あたり数十秒〜）。まず `--only` で数語だけ試す | `device: "cpu"`、`dtype: "float32"` |
+
+- `python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"` で `True` と Radeon の名前が出れば GPU で動く。
+- Windows の ROCm 版は音声のデコード部分が遅いという報告がある。遅すぎる場合は WSL2 か Linux で動かす。
+- `attn_implementation: "flash_attention_2"` は NVIDIA 用なので、Radeon では付けない。
+
+> 参照：[AMD ROCm on Radeon（インストール手順・対応表）](https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/index.html)／[Qwen3-TTS-ROCm（Radeon での動作例）](https://github.com/AIwork4me/Qwen3-TTS-ROCm)／[Windows で遅い件の報告](https://github.com/ROCm/TheRock/issues/3077)
 
 ---
 
