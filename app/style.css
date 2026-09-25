@@ -258,6 +258,73 @@
   --lv5: #a58be0;
 }
 
+[data-theme="wa"] {
+  color-scheme: light;
+  --sumi: #2b2622;
+  --shu: #c8372d;
+  --ai: #264a73;
+  --bg-color: #f4eee0;
+  --bg:
+    linear-gradient(180deg, rgba(244, 238, 224, .2), rgba(244, 238, 224, .85) 70%),
+    radial-gradient(circle at 100% 150%, #f4eee0 24%, #ebe2cc 24% 28%, #f4eee0 28% 36%, #ebe2cc 36% 40%, transparent 40%) 0 0 / 64px 32px,
+    radial-gradient(circle at 0 150%, #f4eee0 24%, #ebe2cc 24% 28%, #f4eee0 28% 36%, #ebe2cc 36% 40%, transparent 40%) 0 0 / 64px 32px,
+    radial-gradient(circle at 50% 100%, #ebe2cc 10%, #f4eee0 10% 23%, #ebe2cc 23% 30%, #f4eee0 30% 43%, #ebe2cc 43% 50%, #f4eee0 50% 63%, #ebe2cc 63% 71%, transparent 71%) 0 0 / 64px 32px,
+    radial-gradient(circle at 100% 50%, #ebe2cc 5%, #f4eee0 5% 15%, #ebe2cc 15% 20%, #f4eee0 20% 29%, #ebe2cc 29% 34%, #f4eee0 34% 44%, #ebe2cc 44% 49%, transparent 49%) 0 0 / 64px 32px,
+    radial-gradient(circle at 0 50%, #ebe2cc 5%, #f4eee0 5% 15%, #ebe2cc 15% 20%, #f4eee0 20% 29%, #ebe2cc 29% 34%, #f4eee0 34% 44%, #ebe2cc 44% 49%, transparent 49%) 0 0 / 64px 32px;
+  --text: #2b2622;
+  --text-soft: #6e655a;
+  --on-bg: #2b2622;
+  --on-bg-soft: #6e655a;
+  --card: #fffdf7;
+  --card-solid: #fffdf7;
+  --card-2: #f3ecdc;
+  --line: #e0d5bf;
+  --edge: #cfc2a6;
+  --bw: 1px;
+  --bw-sm: 1px;
+  --radius: 4px;
+  --radius-sm: 3px;
+  --shadow: 0 1px 0 rgba(43, 38, 34, .06), 0 8px 20px rgba(90, 70, 30, .08);
+  --shadow-sm: 0 2px 6px rgba(90, 70, 30, .1);
+  --primary: #264a73;
+  --primary-solid: #264a73;
+  --primary-text: #fff;
+  --good: #4f8a55;
+  --good-solid: #4f8a55;
+  --good-bg: #e6efdd;
+  --bad: #b8323a;
+  --bad-solid: #b8323a;
+  --bad-bg: #f6e1df;
+  --btn2: #fffdf7;
+  --accent: #c8372d;
+  --accent-text: #fff;
+  --hi: #c8372d;
+  --warn: #c77d1a;
+  --warn-bg: #f8ecd3;
+  --hint-bg: #f7f0dc;
+  --tabs-bg: rgba(255, 253, 247, .95);
+  --tab-active: #264a73;
+  --tab-active-text: #fff;
+  --input-bg: #fffdf7;
+  --burst: rgba(200, 55, 45, .3);
+  --display: "Shippori Mincho B1", "Hiragino Mincho ProN", serif;
+  --latin: "Shippori Mincho B1", serif;
+  --sans: "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+  --area-1: #5a9a6a;
+  --area-2: #3a9aae;
+  --area-3: #3d6f9e;
+  --area-4: #7d6ba6;
+  --area-5: #b8578b;
+  --area-6: #d0703c;
+  --area-7: #c8372d;
+  --lv0: #e0d5bf;
+  --lv1: #d27b7b;
+  --lv2: #d9a441;
+  --lv3: #6d9a5a;
+  --lv4: #3d7fa8;
+  --lv5: #7d6ba6;
+}
+
 /* ========== 共通 ========== */
 * { box-sizing: border-box; }
 html, body { margin: 0; }
@@ -715,8 +782,11 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
   .modal-body { border-bottom: var(--bw) solid var(--edge); border-radius: 28px; box-shadow: var(--shadow); }
 }
 
-@media (max-width: 380px) {
+/* タイトルが長いので、狭い画面では「定着した単語」の数をヘッダーから外す（ホームと記録には出る） */
+@media (max-width: 460px) {
   .hud #hud-learned { display: none; }
+}
+@media (max-width: 380px) {
   .dist-row { grid-template-columns: 100px 1fr 28px; }
   .dist-row.grade-row { grid-template-columns: 40px 1fr 52px; }
   .dist-label .small { display: none; }
@@ -940,3 +1010,42 @@ main > .toggle { color: var(--on-bg); margin-left: 4px; }
 [data-theme="noble"] .modal-body { border-color: var(--gold); box-shadow: 0 -10px 40px rgba(0, 0, 0, .5); }
 [data-theme="noble"] .prompt .big, [data-theme="noble"] .stat-tile b, [data-theme="noble"] .result-grid b { font-family: var(--display); }
 [data-theme="noble"] .welcome-art span { color: #b8914a; }
+
+/* ---------- 和（和紙に青海波、藍のボタン、朱の差し色、明朝の墨文字） ---------- */
+[data-theme="wa"] .display,
+[data-theme="wa"] .brand { font-weight: 800; letter-spacing: .06em; color: var(--sumi); }
+[data-theme="wa"] .brand { letter-spacing: .06em; align-items: center; }
+[data-theme="wa"] .brand .blade small { letter-spacing: 0; }
+/* 落款のような朱の角印 */
+[data-theme="wa"] .brand::after {
+  content: "刀"; margin-left: .5em; width: 1.5em; height: 1.5em; display: grid; place-items: center;
+  font-size: .72em; letter-spacing: 0; color: #fff; background: var(--shu); border-radius: 3px; transform: rotate(-4deg);
+}
+[data-theme="wa"] .section-title { display: flex; align-items: baseline; gap: 4px; letter-spacing: .08em; }
+[data-theme="wa"] .section-title::before {
+  content: ""; align-self: center; flex: none; width: 5px; height: 1.1em; margin-right: 8px; background: var(--shu); border-radius: 1px;
+}
+[data-theme="wa"] .card { border-top: 3px solid var(--ai); }
+[data-theme="wa"] .card.feedback { border-top-width: 1px; }
+[data-theme="wa"] .btn { border-radius: var(--radius-sm); letter-spacing: .1em; box-shadow: 0 3px 0 #16304f; }
+[data-theme="wa"] .btn.green { box-shadow: 0 3px 0 #35603a; }
+[data-theme="wa"] .btn.danger { box-shadow: 0 3px 0 #7d1f25; }
+[data-theme="wa"] .btn.secondary { border: 1px solid var(--edge); box-shadow: 0 2px 0 var(--edge); }
+[data-theme="wa"] .btn.ghost { border: 0; box-shadow: none; }
+[data-theme="wa"] .btn:active:not(:disabled) { transform: translateY(2px); box-shadow: 0 1px 0 #16304f; }
+[data-theme="wa"] .tabs { border-top: 3px solid var(--ai); }
+[data-theme="wa"] .pill, [data-theme="wa"] .steps { border-radius: var(--radius-sm); }
+[data-theme="wa"] .ribbon {
+  font-family: var(--display); font-style: normal; border-radius: 2px; letter-spacing: .2em; background: var(--shu); transform: rotate(-2deg);
+}
+[data-theme="wa"] .choice .key { border-radius: 2px; font-family: var(--display); }
+[data-theme="wa"] .choice:not(.correct):not(.wrong) .key { border-color: var(--shu); color: var(--shu); }
+[data-theme="wa"] .choice:hover:not(:disabled) .key { color: var(--primary-text); border-color: transparent; }
+[data-theme="wa"] .topic-badge { border-radius: 50%; border: 1px solid var(--edge); }
+[data-theme="wa"] .feedback .verdict { font-family: var(--display); letter-spacing: .12em; }
+[data-theme="wa"] .feedback .word, [data-theme="wa"] .detail .display,
+[data-theme="wa"] .prompt .big, [data-theme="wa"] .stat-tile b, [data-theme="wa"] .result-grid b { font-family: var(--display); }
+[data-theme="wa"] .detail h4 { border-radius: 2px; background: var(--ai); color: #fff; }
+[data-theme="wa"] .modal-body { border-top: 3px solid var(--shu); }
+[data-theme="wa"] .burst span { border-radius: 4px; box-shadow: 0 0 0 4px #fffdf7, 0 0 0 5px var(--shu), 0 12px 30px rgba(90, 70, 30, .25); }
+[data-theme="wa"] .welcome-art span { color: var(--shu); }
