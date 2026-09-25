@@ -16,13 +16,15 @@
   };
   const COURSE_ORDER = Object.keys(COURSES).sort((a, b) => a - b);
   // 見た目のテーマ（機能は共通）。CSS は app/style.css の [data-theme]
+  // 先頭が既定のテーマ
   const THEMES = {
+    wa: { name: "和", desc: "墨と朱と和紙。刀の一閃", color: "#121010" },
     stage: { name: "ステージ", desc: "パステル×グラデーション", color: "#eef4ff" },
     pop: { name: "ポップ", desc: "太いフチどりのカジュアル", color: "#2a168f" },
     street: { name: "ストリート", desc: "黒×ネオンのステッカー", color: "#0d0d0f" },
     noble: { name: "ノーブル", desc: "紺と金のファンタジー", color: "#11162c" },
-    wa: { name: "和", desc: "和紙と藍・朱の和風", color: "#f4eee0" },
   };
+  const DEFAULT_THEME = Object.keys(THEMES)[0];
   const QTYPES = {
     kata: "カタカナ → 英語",
     meaning: "英語 → 意味",
@@ -172,7 +174,7 @@
     return {
       cards: {}, streak: 0, lastDay: null,
       sessions: 0, answered: 0, correct: 0, welcomed: false,
-      settings: { autoVoice: true, theme: "stage", batch: BATCH_SIZE },
+      settings: { autoVoice: true, theme: DEFAULT_THEME, batch: BATCH_SIZE },
     };
   }
   function load() {
@@ -241,7 +243,7 @@
 
   // ---------- テーマ ----------
   function applyTheme() {
-    const t = THEMES[state.settings.theme] ? state.settings.theme : "stage";
+    const t = THEMES[state.settings.theme] ? state.settings.theme : DEFAULT_THEME;
     document.documentElement.dataset.theme = t;
     document.querySelector('meta[name="theme-color"]').content = THEMES[t].color;
   }
@@ -265,9 +267,35 @@
       onPick?.();
     }));
   }
-  function openThemes() {
-    $modalContent.innerHTML = html`<h2>🎨 テーマ</h2><p class="small muted">見た目だけが変わります。学習の記録はそのままです。</p>${themeOptions()}`;
+  // 右上の ⚙️ から開く設定（テーマ・音声・記録のリセット）
+  function openSettings() {
+    $modalContent.innerHTML = html`
+      <h2>⚙️ 設定</h2>
+      <section class="settings-section">
+        <h3>🎨 テーマ</h3>
+        <p class="small muted" style="margin:0">見た目だけが変わります。学習の記録はそのままです。</p>
+        ${themeOptions()}
+      </section>
+      <section class="settings-section">
+        <h3>🔊 音声</h3>
+        <label class="toggle"><input type="checkbox" id="auto-voice" ${state.settings.autoVoice ? "checked" : ""}><span></span> 問題と答えを自動で読み上げる</label>
+        <p class="small muted" style="margin:8px 0 0">声：${VOICE ? esc(VOICE.label) : "ブラウザ標準の読み上げ（音声ファイル未生成）"}</p>
+        ${VOICE?.credit ? `<p class="small muted" style="margin:4px 0 0">${esc(VOICE.credit)}</p>` : ""}
+      </section>
+      <section class="settings-section">
+        <h3>🗂️ 学習記録</h3>
+        <button class="btn danger block" id="reset">学習記録をリセット</button>
+      </section>`;
     bindThemeOptions($modalContent);
+    $modalContent.querySelector("#auto-voice").addEventListener("change", (e) => { state.settings.autoVoice = e.target.checked; save(); });
+    $modalContent.querySelector("#reset").addEventListener("click", () => {
+      if (!confirm("学習記録をすべて消しますか？ この操作は取り消せません。")) return;
+      state = defaultState();
+      save();
+      applyTheme();
+      closeModal();
+      go("home");
+    });
     openModal();
   }
 
@@ -1196,27 +1224,7 @@
           </div>`).join("")}
         <p class="small muted" style="margin:10px 0 0">正解するたびに1段階上がり、次の復習までの間隔が「当日 → 1日 → 3日 → 7日 → 21日」と伸びていきます。</p>
       </section>
-      <section class="card">
-        <h3>🎨 テーマ</h3>
-        <p class="small muted" style="margin:0">見た目だけが変わります。学習の記録はそのままです。</p>
-        ${themeOptions()}
-      </section>
-      <section class="card">
-        <h3>🔊 音声</h3>
-        <label class="toggle"><input type="checkbox" id="auto-voice" ${state.settings.autoVoice ? "checked" : ""}><span></span> 問題と答えを自動で読み上げる</label>
-        <p class="small muted" style="margin:8px 0 0">声：${VOICE ? esc(VOICE.label) : "ブラウザ標準の読み上げ（音声ファイル未生成）"}</p>
-        ${VOICE?.credit ? `<p class="small muted" style="margin:4px 0 0">${esc(VOICE.credit)}</p>` : ""}
-      </section>
-      <button class="btn danger block" id="reset">学習記録をリセット</button>`;
-    bindThemeOptions($view);
-    $view.querySelector("#auto-voice").addEventListener("change", (e) => { state.settings.autoVoice = e.target.checked; save(); });
-    $view.querySelector("#reset").addEventListener("click", () => {
-      if (!confirm("学習記録をすべて消しますか？ この操作は取り消せません。")) return;
-      state = defaultState();
-      save();
-      applyTheme();
-      go("home");
-    });
+      <p class="small center settings-hint">テーマ・音声・記録のリセットは、右上の ⚙️ 設定から。</p>`;
   }
 
   // ---------- 音声 ----------
@@ -1311,7 +1319,7 @@
     state = load();
     state.settings = { ...defaultState().settings, ...state.settings };
     applyTheme();
-    document.getElementById("theme-btn").addEventListener("click", openThemes);
+    document.getElementById("settings-btn").addEventListener("click", openSettings);
     document.querySelectorAll("#tabs button").forEach((b) => b.addEventListener("click", () => go(b.dataset.tab)));
     document.getElementById("modal-close").addEventListener("click", closeModal);
     $modal.addEventListener("click", (e) => { if (e.target === $modal) closeModal(); });
