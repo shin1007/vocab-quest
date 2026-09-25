@@ -3577,7 +3577,7 @@
   {"id": "esper", "word": "esper", "katakana": "エスパー", "pos": "名詞", "meaning": "超能力者", "wasei": true},
   {"id": "espionnage", "word": "espionnage", "katakana": "エスピオナージュ", "pos": "名詞", "meaning": "スパイ活動", "lang": "fr"},
   {"id": "esprit", "word": "esprit", "katakana": "エスプリ", "pos": "名詞", "meaning": "機知、精神", "lang": "fr"},
-  {"id": "esprit-2", "word": "ESPRIT 2", "katakana": "エスプリ2", "pos": "固有名詞", "meaning": "欧州情報技術研究開発戦略の第2期"},
+  {"id": "esprit-2-2", "word": "ESPRIT 2", "katakana": "エスプリ2", "pos": "固有名詞", "meaning": "欧州情報技術研究開発戦略の第2期"},
   {"id": "esprit-2", "word": "ESPRIT", "katakana": "エスプリ計画", "pos": "固有名詞", "meaning": "欧州情報技術研究開発戦略"},
   {"id": "espresso", "word": "espresso", "katakana": "エスプレッソ", "pos": "名詞", "meaning": "エスプレッソ", "lang": "it"},
   {"id": "espresso-bar", "word": "espresso bar", "katakana": "エスプレッソバー", "pos": "名詞", "meaning": "エスプレッソの店"},
