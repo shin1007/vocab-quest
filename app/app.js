@@ -103,7 +103,7 @@
   const INTERVAL_DAYS = [0, 0, 1, 3, 7, 21]; // 習熟度ごとの次回出題までの日数
   const LEARNED = 3; // この習熟度以上を「定着」とみなす
   // レッスンは大きめの束にする。小分けより、多くの語を間をあけて何度も思い出すほうが定着する（Kornell 2009、Nakata & Webb 2016）
-  const LESSON_SIZE = 50;
+  const LESSON_SIZE = 100;
   const LESSON_GOAL = 2; // レッスン内でこの習熟度（翌日に復習）まで上げる
   const MAX_TRIES = 4; // 1回のレッスンで同じ語を出す上限（間違え続けても終われるように）
   const REQUEUE_GAP = { ok: 6, ng: 3 }; // もう一度出すまでにはさむ問題数（正解なら長め、間違いなら短め）
@@ -115,7 +115,7 @@
   const STORE_KEY = "vocab-quest-save-v3";
   const OLD_STORE_KEY = "vocab-quest-save-v2";
   // コースの分け方を変えたら上げる。レッスンの並びが変わるので、完了印（done）だけ消して単語ごとの習熟度は残す
-  const COURSE_VERSION = 4;
+  const COURSE_VERSION = 5;
 
   let WORDS = [];
   let ROOTS = [];
@@ -291,15 +291,16 @@
     window.scrollTo(0, 0);
   }
 
-  // ---------- レベルの到達度 ----------
-  // 到達したレベル（8割定着）と、次のレベルまでの進み具合
-  function levelCard() {
+  // ---------- 目標と次のレッスン ----------
+  // 到達したレベル（8割定着）と次のレベルまでの進み具合に、おすすめのレッスンをまとめた1枚のカード
+  function goalCard(ls) {
     const reached = reachedCourse();
     const next = COURSE_ORDER[reached ? COURSE_ORDER.indexOf(reached) + 1 : 0];
     const { total, learned } = next ? courseLearned(next) : { total: 0, learned: 0 };
     const need = Math.max(0, Math.ceil(total * MASTERED) - learned);
     return html`
-      <section class="card level-card" style="--area:var(--area-${next || reached})">
+      <section class="card goal-card pop" style="--area:var(--area-${next || reached})">
+        <div class="ribbon">GOAL</div>
         <div class="row">
           ${badge(next || reached)}
           <div class="spacer">
@@ -311,6 +312,12 @@
               <b>全レベルクリア！ おめでとうございます</b>`}
           </div>
         </div>
+        ${ls ? html`
+          <div class="goal-lesson">
+            <div class="small muted">NEXT ・ ${esc(COURSES[ls.course].name)} レッスン ${ls.index + 1}（${ls.words.length}語）・ きょうの新しい語 あと${newLeftToday()}語</div>
+            <div class="lesson-words">${ls.words.slice(0, 4).map((w) => esc(plainKatakana(w))).join(" / ")}…</div>
+            <button class="btn block" data-lesson="${ls.key}">▶ ${state.done[ls.key] ? "練習する" : ls.words.some((w) => level(w.id)) ? "続きから" : "レッスンを始める"}</button>
+          </div>` : ""}
       </section>`;
   }
 
@@ -343,22 +350,7 @@
           <p class="small muted center">忘れかけた頃にもう一度思い出すと、長く記憶に残ります。</p>` : ""}
       </section>
 
-      ${levelCard()}
-      ${pairsHomeCard()}
-
-      ${next ? html`
-        <section class="card next-lesson pop" style="--area:var(--area-${next.course})">
-          <div class="ribbon">NEXT</div>
-          <div class="row">
-            ${badge(next.course)}
-            <div class="spacer">
-              <div class="small muted">${esc(COURSES[next.course].name)} ・ レッスン ${next.index + 1}</div>
-              <div class="lesson-words">${next.words.slice(0, 4).map((w) => esc(plainKatakana(w))).join(" / ")}…</div>
-            </div>
-          </div>
-          <div class="small muted">${next.words.length}語 ・ きょうの新しい語 あと${newLeftToday()}語</div>
-          <button class="btn block" data-lesson="${next.key}">▶ ${state.done[next.key] ? "練習する" : next.words.some((w) => level(w.id)) ? "続きから" : "レッスンを始める"}</button>
-        </section>` : ""}
+      ${goalCard(next)}
 
       <h2 class="section-title">レベル別コース</h2>
       <p class="small lead">レベルは英検の級にあわせたおおよその目安です。英語のつづり・意味の難しさで分けています。</p>
@@ -404,7 +396,6 @@
       startSession({ kind: "lesson", lesson: allLessons()[0] });
     });
     $view.querySelector("#review")?.addEventListener("click", () => startSession({ kind: "review" }));
-    $view.querySelector("#go-pairs").addEventListener("click", () => go("pairs"));
     $view.querySelectorAll("[data-lesson]").forEach((b) => b.addEventListener("click", () => {
       const [course, i] = b.dataset.lesson.split("-");
       openLesson(lessonsOf(course)[+i]);
@@ -989,21 +980,6 @@
           ${p.words.map((x) => `<p class="small"><i>${esc(x.example.en)}</i> ${voiceButton(pairExampleKey(p, x), "🔈")}<br><span class="muted">${esc(x.example.ja)}</span></p>`).join("")}
         </details>
         <button class="btn secondary small block" data-pair-practice="${p.id}">▶ このセットを練習</button>
-      </section>`;
-  }
-
-  function pairsHomeCard() {
-    const due = pairDue().length;
-    return html`
-      <section class="card pairs-home">
-        <div class="row">
-          <span class="topic-badge" style="--area:var(--area-6)">👯</span>
-          <div class="spacer">
-            <b>似た単語をセットで覚える</b>
-            <div class="small muted">hat / hut、light / right、desert / dessert など ${PAIRS.length} セット ・ 得意 ${pairLearned()}${due ? ` ・ 🔁 復習 ${due}` : ""}</div>
-          </div>
-        </div>
-        <button class="btn secondary block" id="go-pairs">👯 似た単語を見る</button>
       </section>`;
   }
 
