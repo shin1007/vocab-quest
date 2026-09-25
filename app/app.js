@@ -89,6 +89,7 @@
     af: { name: "アフリカーンス語", speech: "af-ZA" },
     ch: { name: "チャモロ語", speech: "ch-GU" },
     ku: { name: "クルド語", speech: "ku-TR" },
+    ur: { name: "ウルドゥー語", speech: "ur-PK" },
     ja: { name: "日本語", speech: "ja-JP" },
   };
   // 固有名詞の品詞。類義語の代わりに「別名・関連する名前」を載せている
