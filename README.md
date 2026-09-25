@@ -24,6 +24,7 @@
 | `data/pairs.json` | 似た単語セット（母音・L/R・B/V・TH・同音語・つづり・派生語の7種類）。単語リストでカタカナが同じになる語（staff / stuff、bus / bath など）は必ずどこかのセットに入れる（`build_wordlist.py` が確認） |
 | `index.html`, `app/` | 動くプロトタイプ（依存なしの HTML/CSS/JS）。コース・テーマ・問題タイプ・習熟度の定義は `app/app.js` 冒頭、テーマの見た目は `app/style.css` |
 | `scripts/build_wordlist.py` | データ検証と `WORD_LIST.md` の生成 |
+| `scripts/check_examples.py` | 例文の文法が級に合っているかの確認（5級〜3級。`build_wordlist.py` からも実行される） |
 | `scripts/find_candidates.py` | カタカナ語辞典（JMdict）から、未収録の外来語の候補を一覧にする |
 | [`docs/VOICE_TTS.md`](docs/VOICE_TTS.md) | 日本語・英語の読み上げ音声の設計（声の素材とライセンス、エンジン選定、容量） |
 | `scripts/tts/tts.py`, `tts/` | 音声の事前生成パイプライン（生成・差分更新・Whisper による品質確認） |

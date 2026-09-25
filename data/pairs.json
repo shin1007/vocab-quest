@@ -3,8 +3,8 @@
     "id": "hat-hut", "kind": "vowel", "level": 1,
     "point": "どちらもカタカナでは「ハット」。hat の a は口を横に大きく開いて「エ」に近い「ア」/æ/、hut の u は口をあまり開けずに短く「ア」/ʌ/。",
     "words": [
-      { "word": "hat", "ipa": "hæt", "pos": "名詞", "meaning": "（つばのある）帽子", "example": { "en": "He took off his hat and bowed.", "ja": "彼は帽子をとっておじぎをした。" } },
-      { "word": "hut", "ipa": "hʌt", "pos": "名詞", "meaning": "小屋", "example": { "en": "They slept in a small hut in the mountains.", "ja": "彼らは山の小さな小屋で眠った。" } }
+      { "word": "hat", "ipa": "hæt", "pos": "名詞", "meaning": "（つばのある）帽子", "example": { "en": "Take off your hat, please.", "ja": "帽子をとってください。" } },
+      { "word": "hut", "ipa": "hʌt", "pos": "名詞", "meaning": "小屋", "example": { "en": "There is a small hut in the mountains.", "ja": "山に小さな小屋がある。" } }
     ]
   },
   {
@@ -12,7 +12,7 @@
     "point": "cap は /æ/（口を横に開くア）、cup は /ʌ/（短くあいまいなア）。「キャップ」と「カップ」とカタカナでは書き分けられているのがヒント。",
     "words": [
       { "word": "cap", "ipa": "kæp", "pos": "名詞", "meaning": "（つばのある）帽子、ふた", "example": { "en": "Put the cap back on the bottle.", "ja": "びんのふたを閉めて。" } },
-      { "word": "cup", "ipa": "kʌp", "pos": "名詞", "meaning": "カップ、茶わん", "example": { "en": "Would you like a cup of tea?", "ja": "お茶を一杯いかがですか？" } }
+      { "word": "cup", "ipa": "kʌp", "pos": "名詞", "meaning": "カップ、茶わん", "example": { "en": "Do you want a cup of tea?", "ja": "お茶を一杯どう？" } }
     ]
   },
   {
@@ -36,7 +36,7 @@
     "point": "fan（ファン）は /æ/、fun（ファン）は /ʌ/。カタカナでは同じ「ファン」になってしまう代表例。",
     "words": [
       { "word": "fan", "ipa": "fæn", "pos": "名詞", "meaning": "ファン、扇風機", "example": { "en": "I'm a big fan of that singer.", "ja": "私はあの歌手の大ファンだ。" } },
-      { "word": "fun", "ipa": "fʌn", "pos": "名詞", "meaning": "楽しみ、楽しいこと", "example": { "en": "We had a lot of fun at the party.", "ja": "パーティーはとても楽しかった。" } }
+      { "word": "fun", "ipa": "fʌn", "pos": "名詞", "meaning": "楽しみ、楽しいこと", "example": { "en": "Let's have fun at the party!", "ja": "パーティーを楽しもう！" } }
     ]
   },
   {
@@ -83,7 +83,7 @@
     "id": "ankle-uncle", "kind": "vowel", "level": 3,
     "point": "ankle（足首）/æ/ と uncle（おじ）/ʌ/。「アンクル」と同じカタカナになる。",
     "words": [
-      { "word": "ankle", "ipa": "ˈæŋkəl", "pos": "名詞", "meaning": "足首", "example": { "en": "I hurt my ankle playing soccer.", "ja": "サッカーをしていて足首を痛めた。" } },
+      { "word": "ankle", "ipa": "ˈæŋkəl", "pos": "名詞", "meaning": "足首", "example": { "en": "I hurt my ankle in gym class.", "ja": "体育の授業で足首を痛めた。" } },
       { "word": "uncle", "ipa": "ˈʌŋkəl", "pos": "名詞", "meaning": "おじ", "example": { "en": "My uncle lives in Osaka.", "ja": "おじは大阪に住んでいる。" } }
     ]
   },
@@ -99,7 +99,7 @@
     "id": "ship-sheep", "kind": "vowel", "level": 1,
     "point": "ship の i は短く力を抜いた「イ」/ɪ/、sheep の ee は口を横に引いて長い「イー」/iː/。",
     "words": [
-      { "word": "ship", "ipa": "ʃɪp", "pos": "名詞", "meaning": "船", "example": { "en": "The ship sailed across the ocean.", "ja": "船は大海を渡った。" } },
+      { "word": "ship", "ipa": "ʃɪp", "pos": "名詞", "meaning": "船", "example": { "en": "Look at that big ship!", "ja": "あの大きな船を見て！" } },
       { "word": "sheep", "ipa": "ʃiːp", "pos": "名詞", "meaning": "羊", "example": { "en": "There are many sheep on the farm.", "ja": "その農場には羊がたくさんいる。" } }
     ]
   },
@@ -124,7 +124,7 @@
     "point": "sit /ɪ/（座る：動詞）と seat /iː/（座席：名詞）。",
     "words": [
       { "word": "sit", "ipa": "sɪt", "pos": "動詞", "meaning": "座る", "example": { "en": "Please sit down.", "ja": "どうぞお座りください。" } },
-      { "word": "seat", "ipa": "siːt", "pos": "名詞", "meaning": "座席", "example": { "en": "Is this seat taken?", "ja": "この席は空いていますか？" } }
+      { "word": "seat", "ipa": "siːt", "pos": "名詞", "meaning": "座席", "example": { "en": "Is this seat free?", "ja": "この席は空いていますか？" } }
     ]
   },
   {
@@ -188,7 +188,7 @@
     "point": "bought（buy の過去形）/ɔː/ と boat /oʊ/。",
     "words": [
       { "word": "bought", "ipa": "bɔːt", "pos": "動詞", "meaning": "買った（buy の過去形）", "example": { "en": "I bought a new bike.", "ja": "新しい自転車を買った。" } },
-      { "word": "boat", "ipa": "boʊt", "pos": "名詞", "meaning": "小舟、ボート", "example": { "en": "We rowed a boat on the lake.", "ja": "湖でボートをこいだ。" } }
+      { "word": "boat", "ipa": "boʊt", "pos": "名詞", "meaning": "小舟、ボート", "example": { "en": "We took a boat on the lake.", "ja": "私たちは湖でボートに乗った。" } }
     ]
   },
   {
@@ -563,7 +563,7 @@
     "id": "sea-see", "kind": "homophone", "level": 1,
     "point": "発音はどちらも /siː/。sea（海）と see（見える、会う）。",
     "words": [
-      { "word": "sea", "ipa": "siː", "pos": "名詞", "meaning": "海", "example": { "en": "We swam in the sea.", "ja": "海で泳いだ。" } },
+      { "word": "sea", "ipa": "siː", "pos": "名詞", "meaning": "海", "example": { "en": "We swim in the sea every summer.", "ja": "私たちは毎年夏に海で泳ぐ。" } },
       { "word": "see", "ipa": "siː", "pos": "動詞", "meaning": "見える、会う", "example": { "en": "Nice to see you again.", "ja": "また会えてうれしい。" } }
     ]
   },
@@ -580,7 +580,7 @@
     "point": "発音はどちらも /wiːk/。week（週）と weak（弱い）。",
     "words": [
       { "word": "week", "ipa": "wiːk", "pos": "名詞", "meaning": "週", "example": { "en": "I play tennis twice a week.", "ja": "週に2回テニスをする。" } },
-      { "word": "weak", "ipa": "wiːk", "pos": "形容詞", "meaning": "弱い", "example": { "en": "I felt weak after the long illness.", "ja": "長い病気のあとで体が弱っていた。" } }
+      { "word": "weak", "ipa": "wiːk", "pos": "形容詞", "meaning": "弱い", "example": { "en": "I felt weak and tired.", "ja": "体に力が入らず、疲れていた。" } }
     ]
   },
   {

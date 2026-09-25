@@ -9,6 +9,8 @@ import re
 import sys
 from pathlib import Path
 
+import check_examples
+
 ROOT = Path(__file__).resolve().parent.parent
 WORDS = json.loads((ROOT / "data/words.json").read_text(encoding="utf-8"))
 ROOTS = json.loads((ROOT / "data/roots.json").read_text(encoding="utf-8"))
@@ -116,6 +118,11 @@ def validate():
                 found = re.search(rf"\b{re.escape(y['word'])}\b", x["example"]["en"], re.I)
                 if (y is x) != bool(found):
                     errors.append(f"似た単語 {p['id']}: {x['word']} の例文に {y['word']} が{'ありません' if y is x else '入っています'}")
+    # 例文の文法が級に合っているか（5級〜3級。規則は scripts/check_examples.py）
+    for lv, key, en in check_examples.examples():
+        found = check_examples.problems(en, lv)
+        if found:
+            errors.append(f"例文 {key}（{COURSES[lv]}）: {'・'.join(found)} — {en}")
     return errors + validate_dict()
 
 

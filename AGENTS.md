@@ -48,6 +48,7 @@ python3 -m unittest discover -s scripts/tts         # 音声パイプライン�
 注意点：
 
 - レベル（`level`）は英検の級に対応する（1=5級 … 7=1級）。英語としての難しさで決め、ジャンルでは分けない。
+- 例文（`example`）の文法と語はその級に合わせる。5級は現在形・現在進行形・can・命令文まで、4級は過去形・未来・助動詞・不定詞・動名詞・比較・接続詞まで、3級は現在完了・受け身・関係代名詞まで。5級〜3級は `scripts/check_examples.py` の規則で確認する（`build_wordlist.py` が実行する）。誤検出のときは同じファイルの `OK` に足す。
 - カタカナが同じになる語（staff / stuff、bus / bath など）は、必ず `data/pairs.json` のどこかのセットに入れる（`build_wordlist.py` が確認する）。ただし、同じ名前の別の言語形（`group` が同じ Michel / Michelle など）と、大文字・小文字だけがちがう同じつづりの語（echo / 神話の Echo など）は空所補充で区別できないので、セットにしなくてよい。
 - 辞書データ（`data/dictionary.json`）の意味は独自に書く。imidas の見出し語は収録語のチェックリストとしてだけ使い、説明文を転載しない。JMdict（CC BY-SA 4.0）は意味の照合に使う。英語以外の語は `lang`、和製英語は `wasei: true` を付け、新しい言語コードは `app/app.js` の `LANGS` と `build_wordlist.py` の `DICT_LANGS` の両方に足す。
 - 語源は Online Etymology Dictionary などの一般的な説に基づいて書き、諸説ある語はその旨を書く。

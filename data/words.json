@@ -247,7 +247,7 @@
     "id": "knight", "word": "knight", "katakana": "ナイト", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "騎士",
     "scene": "盾と剣で仲間を守る職業（ジョブ）。",
-    "example": { "en": "The knight swore to protect the queen.", "ja": "騎士は女王を守ると誓った。" },
+    "example": { "en": "The knight fought to protect the queen.", "ja": "騎士は女王を守るために戦った。" },
     "etymology": {
       "origin": "古英語 cniht「少年・召使い」",
       "story": "「若い従者」→「主君に仕える戦士」→「騎士」と格上げされた。昔は k を発音していた（ドイツ語 Knecht「下男」と同源）。"
@@ -386,7 +386,7 @@
     "scene": "「999のダメージ！」",
     "gap": "英語の damage は主に「物」への損害。人の怪我には injury / hurt を使うのが自然。",
     "trapQuiz": {"question": "「足をけがした」の「けが」として自然な英語は？", "answer": "injury", "wrong": ["damage", "loss", "breakage"]},
-    "example": { "en": "The storm caused serious damage to the town.", "ja": "嵐は町に深刻な被害をもたらした。" },
+    "example": { "en": "The storm did a lot of damage to the town.", "ja": "嵐は町に大きな被害を与えた。" },
     "etymology": {
       "origin": "古フランス語 damage ← ラテン語 damnum「損失・罰金」",
       "story": "damn（呪う・のろわしい）、condemn（有罪とする）と同じ家族。"
@@ -523,7 +523,7 @@
     "id": "hero", "word": "hero", "katakana": "ヒーロー", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "英雄、主人公",
     "scene": "世界を救うヒーロー。",
-    "example": { "en": "The firefighter was hailed as a hero.", "ja": "その消防士は英雄とたたえられた。" },
+    "example": { "en": "Everyone called the firefighter a hero.", "ja": "みんながその消防士を英雄と呼んだ。" },
     "etymology": {
       "origin": "ギリシャ語 hērōs「半神の英雄」",
       "story": "ヘラクレスのような神と人の間の存在。女性形 heroine（ヒロイン）。"
@@ -591,7 +591,7 @@
     "id": "stage", "word": "stage", "katakana": "ステージ", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "舞台、段階",
     "scene": "「ステージ1-1」「最終ステージ」。",
-    "example": { "en": "The project is still in its early stages.", "ja": "そのプロジェクトはまだ初期段階だ。" },
+    "example": { "en": "The singer came out on the stage.", "ja": "歌手が舞台に出てきた。" },
     "etymology": {
       "origin": "古フランス語 estage「住まい・階」← ラテン語 stāre「立つ」",
       "story": "「立つ場所」→「階・段」→「舞台・段階」。status、station、obstacle と同じ stāre 家族。"
@@ -662,7 +662,7 @@
     "id": "system", "word": "system", "katakana": "システム", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "体系、仕組み、装置",
     "scene": "「システム、オールグリーン」。",
-    "example": { "en": "The ship's defense system is offline.", "ja": "船の防衛システムが停止している。" },
+    "example": { "en": "Our school has a new computer system.", "ja": "私たちの学校には新しいコンピューターシステムがある。" },
     "etymology": {
       "origin": "ギリシャ語 systēma「組み立てられた全体」← syn-「共に」+ histanai「立てる」",
       "story": "「一緒に立てたもの」。histanai はラテン語 stāre（立つ）と同じ祖先をもつので、stage や status の遠い親戚。"
@@ -1132,7 +1132,7 @@
     "id": "dog", "word": "dog", "katakana": "ドッグ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "犬",
     "scene": "ホットドッグ、ドッグフード、ドッグラン。",
-    "example": { "en": "My dog waits for me at the door every evening.", "ja": "うちの犬は毎晩ドアのところで私を待っている。" },
+    "example": { "en": "My dog waits for me at the door.", "ja": "うちの犬はドアのところで私を待っている。" },
     "etymology": {
       "origin": "古英語 docga（後期古英語、由来不明）",
       "story": "英語でもっとも有名な「語源がわからない単語」のひとつ。古英語で犬をふつうに表す語は hund で、docga はたくましい犬種を指す珍しい語だった。hund はのちに hound（猟犬）となり、dog が一般語の座を奪った。"
@@ -1149,7 +1149,7 @@
     "id": "cat", "word": "cat", "katakana": "キャット", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "猫",
     "scene": "キャットフード、キャットウォーク、ネコ型のキャラクター。",
-    "example": { "en": "The cat is sleeping in the sun on the sofa.", "ja": "猫がソファの上でひなたぼっこをして寝ている。" },
+    "example": { "en": "The cat is sleeping on the sofa.", "ja": "猫がソファの上で寝ている。" },
     "etymology": {
       "origin": "古英語 catt ← 後期ラテン語 cattus",
       "story": "ヨーロッパ中の言語に似た形（フランス語 chat、ドイツ語 Katze、スペイン語 gato）が広がっている。家ネコはエジプトから広まったため、北アフリカの言語が起源という説があるが確かではない。"
@@ -1198,7 +1198,7 @@
     "id": "lion", "word": "lion", "katakana": "ライオン", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "ライオン",
     "scene": "百獣の王。王家の紋章やチームのマスコット。",
-    "example": { "en": "The lion is often called the king of beasts.", "ja": "ライオンはよく百獣の王と呼ばれる。" },
+    "example": { "en": "Many lions live in Africa.", "ja": "たくさんのライオンがアフリカにすんでいる。" },
     "etymology": {
       "origin": "古フランス語 lion ← ラテン語 leō ← ギリシャ語 leōn",
       "story": "レオ（Leo・獅子座）や名前のレオン、レオナルドもこの語から。dandelion（タンポポ）はフランス語 dent de lion「ライオンの歯」で、ギザギザの葉をライオンの歯に見立てた名前。"
@@ -1214,7 +1214,7 @@
     "id": "tiger", "word": "tiger", "katakana": "タイガー", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "トラ",
     "scene": "タイガーマスク、野球チームの名前。",
-    "example": { "en": "The tiger moved silently through the tall grass.", "ja": "トラは背の高い草むらを音もなく進んだ。" },
+    "example": { "en": "The tiger was sleeping in the tall grass.", "ja": "トラは背の高い草むらで眠っていた。" },
     "etymology": {
       "origin": "ギリシャ語 tigris ← イラン系の言語（古代ペルシャ語 tigra-「鋭い」とする説）",
       "story": "「鋭い・速い」を意味する語から来たという説があり、中東を流れるティグリス川（Tigris）も「速い川」の意味で同じ語とされる。"
@@ -1262,7 +1262,7 @@
     "id": "apple", "word": "apple", "katakana": "アップル", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "リンゴ",
     "scene": "アップルパイ、アップルジュース。",
-    "example": { "en": "She packed an apple and a sandwich for lunch.", "ja": "彼女はお昼にリンゴとサンドイッチを詰めた。" },
+    "example": { "en": "I eat an apple every morning.", "ja": "私は毎朝りんごを1個食べる。" },
     "etymology": {
       "origin": "古英語 æppel ← ゲルマン祖語 *aplaz",
       "story": "古英語では「果物」全般を指す語でもあった。のどぼとけの Adam's apple は、アダムが禁断の果実をのどに詰まらせたという言い伝えから。ただし聖書には「リンゴ」とは書かれていない。"
@@ -1294,7 +1294,7 @@
     "id": "orange", "word": "orange", "katakana": "オレンジ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "オレンジ、オレンジ色",
     "scene": "オレンジジュース、オレンジ色の夕焼け。",
-    "example": { "en": "The sky turned orange as the sun went down.", "ja": "日が沈むにつれて空がオレンジ色になった。" },
+    "example": { "en": "This orange is very sweet.", "ja": "このオレンジはとても甘い。" },
     "etymology": {
       "origin": "サンスクリット語 nāraṅga → ペルシャ語 nārang → アラビア語 nāranj → 古フランス語 orenge",
       "story": "フランス語に入るとき、un norenge「ひとつのノレンジ」の n が冠詞に吸収されて une orenge になった（異分析という現象）。色の名前としての orange は果物より後。それまで英語には「オレンジ色」を表す基本語がなかった。"
@@ -1326,7 +1326,7 @@
     "id": "tomato", "word": "tomato", "katakana": "トマト", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "トマト",
     "scene": "トマトケチャップ、トマトソースのパスタ。",
-    "example": { "en": "We grew tomatoes in the garden this summer.", "ja": "今年の夏は庭でトマトを育てた。" },
+    "example": { "en": "We grow tomatoes in our garden.", "ja": "私たちは庭でトマトを育てている。" },
     "etymology": {
       "origin": "ナワトル語（アステカの言語）tomatl → スペイン語 tomate",
       "story": "トマトはアメリカ大陸原産。ヨーロッパでは長いあいだ有毒植物の仲間と疑われ、観賞用として育てられていた。chocolate（チョコレート）、avocado（アボカド）、chili（チリ）も同じナワトル語から来た。"
@@ -1358,7 +1358,7 @@
     "id": "coffee", "word": "coffee", "katakana": "コーヒー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "コーヒー",
     "scene": "朝のコーヒー、コーヒーショップ。",
-    "example": { "en": "Would you like some coffee?", "ja": "コーヒーはいかがですか？" },
+    "example": { "en": "Do you want some coffee?", "ja": "コーヒーはいる？" },
     "etymology": {
       "origin": "アラビア語 qahwa → トルコ語 kahve → イタリア語 caffè → 英語",
       "story": "アラビア語の qahwa はもとはワインを指したともいわれる。フランス語 café は飲み物だけでなく「コーヒーを飲む店」の意味にもなり、それが英語の café（カフェ）になった。caffeine（カフェイン）も同じ家族。"
@@ -1392,7 +1392,7 @@
     "scene": "「ジュース買ってくる」。自販機の甘い飲み物。",
     "gap": "日本語の「ジュース」は炭酸飲料も含む甘い飲み物全般を指すが、英語の juice は果物や野菜のしぼり汁（100%）のこと。コーラやサイダーは soda / soft drink。",
     "trapQuiz": {"question": "コーラやサイダーのような「甘い炭酸のジュース」を英語でいうと？", "answer": "soda / soft drink", "wrong": ["juice", "cider", "milk"]},
-    "example": { "en": "I squeezed fresh orange juice for breakfast.", "ja": "朝食用にオレンジをしぼって、しぼりたてのジュースを作った。" },
+    "example": { "en": "I drink orange juice every morning.", "ja": "私は毎朝オレンジジュースを飲む。" },
     "etymology": {
       "origin": "ラテン語 jūs「汁、スープ」→ 古フランス語 jus",
       "story": "もとは「煮汁・肉汁」の意味。今でも料理用語で肉汁を jus（ジュ）と呼ぶ。英語の口語では「電気・ガソリン（エネルギー源）」の意味にもなる。"
@@ -1409,7 +1409,7 @@
     "id": "cake", "word": "cake", "katakana": "ケーキ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "ケーキ",
     "scene": "誕生日ケーキ、ショートケーキ。",
-    "example": { "en": "We baked a chocolate cake for her birthday.", "ja": "私たちは彼女の誕生日にチョコレートケーキを焼いた。" },
+    "example": { "en": "Let's make a chocolate cake for Mom.", "ja": "お母さんにチョコレートケーキを作ろう。" },
     "etymology": {
       "origin": "古ノルド語 kaka ← ゲルマン祖語 *kakō",
       "story": "ヴァイキングの言葉から英語に入った。もとは平たく焼いたパンのような食べ物を指した。It's a piece of cake.（ケーキ一切れのように簡単）は「朝飯前」という決まり文句。"
@@ -1441,7 +1441,7 @@
     "id": "bread", "word": "bread", "katakana": "ブレッド", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "パン",
     "scene": "ガーリックブレッド、コーンブレッド。",
-    "example": { "en": "I buy fresh bread from the bakery every morning.", "ja": "私は毎朝パン屋で焼きたてのパンを買う。" },
+    "example": { "en": "I eat bread and eggs for breakfast.", "ja": "私は朝食にパンと卵を食べる。" },
     "etymology": {
       "origin": "古英語 brēad（もとは「かけら・ひと口」の意味とされる）",
       "story": "古英語でパンを表す本来の語は hlāf で、これが loaf（ひとかたまりのパン）になった。lord（主人）は hlāf-weard「パンの番人」、lady は hlǣf-dīge「パンをこねる人」が語源とされる。日本語の「パン」はポルトガル語 pão から。"
@@ -1473,7 +1473,7 @@
     "id": "chocolate", "word": "chocolate", "katakana": "チョコレート", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "チョコレート",
     "scene": "バレンタインのチョコ、ホットチョコレート。",
-    "example": { "en": "He gave her a box of chocolates.", "ja": "彼は彼女にチョコレートを一箱あげた。" },
+    "example": { "en": "This box of chocolates is for you.", "ja": "このチョコレートはあなたへのプレゼントだよ。" },
     "etymology": {
       "origin": "ナワトル語（アステカの言語）→ スペイン語 chocolate",
       "story": "アステカではカカオは苦い飲み物として飲まれ、豆はお金としても使われた。ナワトル語の xocolātl から来たとされるが、スペイン人が複数の語を組み合わせて作った語という説もあり、はっきりしない。"
@@ -1537,7 +1537,7 @@
     "id": "bed", "word": "bed", "katakana": "ベッド", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "ベッド、寝床",
     "scene": "ベッドタウン、ベッドルーム。",
-    "example": { "en": "It's late. Time to go to bed.", "ja": "もう遅いよ。寝る時間だ。" },
+    "example": { "en": "It's late. Go to bed now.", "ja": "もう遅いよ。もう寝なさい。" },
     "etymology": {
       "origin": "古英語 bedd ← ゲルマン祖語 *badja-",
       "story": "もとは「地面に掘ったくぼみ（寝る場所）」の意味だったとされる。花壇（flower bed）、川底（riverbed）のように「土台・くぼみ」の意味が今も残っている。「ベッドタウン」は和製英語で、英語では commuter town。"
@@ -1553,7 +1553,7 @@
     "id": "door", "word": "door", "katakana": "ドア", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "ドア、戸",
     "scene": "自動ドア、「どこでもドア」。",
-    "example": { "en": "Could you close the door, please?", "ja": "ドアを閉めていただけますか？" },
+    "example": { "en": "Someone is at the door.", "ja": "玄関にだれか来ているよ。" },
     "etymology": {
       "origin": "古英語 duru ← 印欧祖語 *dhwer-「戸口」",
       "story": "とても古い語で、ギリシャ語 thyra、ラテン語 forēs「扉」も同じ祖先。ラテン語 forīs「戸の外に」から foreign（外国の）、forest（森＝囲いの外の土地）が生まれたとされる。"
@@ -1569,7 +1569,7 @@
     "id": "window", "word": "window", "katakana": "ウインドウ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "窓、（パソコンの）ウインドウ",
     "scene": "ショーウインドウ、パソコン画面のウインドウ。",
-    "example": { "en": "Open the window to let some fresh air in.", "ja": "窓を開けて新鮮な空気を入れて。" },
+    "example": { "en": "Please open the window. It's hot.", "ja": "窓を開けてください。暑いです。" },
     "etymology": {
       "origin": "古ノルド語 vindauga ← vindr「風」+ auga「目」",
       "story": "「風の目」という意味。ヴァイキングの家の屋根にあいた、煙を出して風を通す穴のこと。ガラスのない時代の窓はまさに「風の通る目」だった。wind（風）と eye（目）が合体した語。"
@@ -1684,7 +1684,7 @@
     "id": "hotel", "word": "hotel", "katakana": "ホテル", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "ホテル",
     "scene": "ビジネスホテル、ホテルのロビー。",
-    "example": { "en": "We stayed at a hotel near the beach.", "ja": "私たちは浜辺近くのホテルに泊まった。" },
+    "example": { "en": "Our hotel is near the beach.", "ja": "私たちのホテルは浜辺の近くにある。" },
     "etymology": {
       "origin": "フランス語 hôtel ← 古フランス語 hostel ← ラテン語 hospes「客、もてなす主人」",
       "story": "hospital（病院）、hostel（ホステル）、host（主人）と同じ家族。もとはどれも「客をもてなす場所」。フランス語の hôtel de ville は「市役所」。"
@@ -1700,7 +1700,7 @@
     "id": "hospital", "word": "hospital", "katakana": "ホスピタル", "pos": "名詞", "cefr": "A1", "level": 2,
     "meaning": "病院",
     "scene": "ドラマの舞台の総合病院。ホスピタリティ（おもてなし）。",
-    "example": { "en": "She was taken to the hospital by ambulance.", "ja": "彼女は救急車で病院に運ばれた。" },
+    "example": { "en": "My father went to the hospital yesterday.", "ja": "父はきのう病院に行った。" },
     "etymology": {
       "origin": "ラテン語 hospitālis「客の、もてなしの」← hospes「客、主人」",
       "story": "中世には巡礼者や貧しい人を泊めてもてなす施設だった。そこから病人を世話する場所になった。hotel と同じ家族。"
@@ -1732,7 +1732,7 @@
     "id": "bank", "word": "bank", "katakana": "バンク", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "銀行、土手",
     "scene": "メガバンク、データバンク。",
-    "example": { "en": "I need to go to the bank to open an account.", "ja": "口座を作りに銀行に行かなくちゃ。" },
+    "example": { "en": "My mother works at a bank.", "ja": "母は銀行で働いている。" },
     "etymology": {
       "origin": "イタリア語 banca「長いす、台」← ゲルマン語 *bankiz",
       "story": "中世イタリアの両替商は広場の長い台（banca）で商売をした。店がつぶれると台を壊したことから bankrupt（破産した）＝「壊れた台」という語が生まれたとされる。bench（ベンチ）も同じ家族。「土手」の bank も同じゲルマン語から。"
@@ -1862,7 +1862,7 @@
     "id": "family", "word": "family", "katakana": "ファミリー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "家族",
     "scene": "ファミリーレストラン、ファミリーカー。",
-    "example": { "en": "I have a big family: four brothers and two sisters.", "ja": "うちは大家族で、兄弟が4人と姉妹が2人いる。" },
+    "example": { "en": "There are six people in my family.", "ja": "私の家族は6人だ。" },
     "etymology": {
       "origin": "ラテン語 familia「家の者たち」← famulus「召使い」",
       "story": "ローマ時代の familia は、血のつながった家族だけでなく、家に仕える召使いも含めた「一家の者全員」を指した。familiar（見慣れた、親しい）も同じ家族。"
@@ -1894,7 +1894,7 @@
     "id": "baby", "word": "baby", "katakana": "ベビー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "赤ちゃん",
     "scene": "ベビーカー（和製英語）、ベビーフェイス。",
-    "example": { "en": "The baby is sleeping, so please be quiet.", "ja": "赤ちゃんが寝ているので静かにしてね。" },
+    "example": { "en": "The baby is sleeping. Please be quiet.", "ja": "赤ちゃんが寝ているよ。静かにしてね。" },
     "etymology": {
       "origin": "中英語 babe ← 赤ちゃんの「バブバブ」という声を真似た語",
       "story": "赤ちゃんの声から自然に生まれた語とされる。「ベビーカー」は和製英語で、英語では stroller（米）や pushchair（英）。baby car は「おもちゃの小さな車」になってしまう。"
@@ -1910,7 +1910,7 @@
     "id": "star", "word": "star", "katakana": "スター", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "星、スター（人気者）",
     "scene": "スーパースター、星5つのレビュー。",
-    "example": { "en": "We saw thousands of stars in the night sky.", "ja": "夜空に何千もの星が見えた。" },
+    "example": { "en": "I can see many stars tonight.", "ja": "今夜は星がたくさん見える。" },
     "etymology": {
       "origin": "古英語 steorra ← 印欧祖語 *h₂stḗr-「星」",
       "story": "ラテン語 stella、ギリシャ語 astēr も同じ祖先。astēr からは astronaut（宇宙飛行士＝星の船乗り）や、disaster（災害＝星の巡りが悪い）が生まれた。"
@@ -1926,7 +1926,7 @@
     "id": "flower", "word": "flower", "katakana": "フラワー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "花",
     "scene": "フラワーショップ、ドライフラワー。",
-    "example": { "en": "He bought flowers for his mother.", "ja": "彼は母に花を買った。" },
+    "example": { "en": "He often buys flowers for his mother.", "ja": "彼はよくお母さんに花を買う。" },
     "etymology": {
       "origin": "古フランス語 flour ← ラテン語 flōs「花」",
       "story": "「いちばん良い部分」の意味もあり、小麦のいちばん良い部分＝ flour（小麦粉）はもともと同じ語だった。つづりが分かれたのは18世紀ごろ。florist（花屋）、Florida（花の地）も同じ家族。"
@@ -1942,7 +1942,7 @@
     "id": "tree", "word": "tree", "katakana": "ツリー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "木",
     "scene": "クリスマスツリー、スカイツリー。",
-    "example": { "en": "We sat in the shade of a big tree.", "ja": "私たちは大きな木の陰に座った。" },
+    "example": { "en": "There is a big tree in the park.", "ja": "公園に大きな木がある。" },
     "etymology": {
       "origin": "古英語 trēow ← 印欧祖語 *deru-「かたい、しっかりした、木」",
       "story": "true（真実の＝木のようにしっかりした）や trust（信頼）も同じ語根から来たとされる。ギリシャ語 drys「樫の木」も同源で、森の精霊ドリアード（dryad）の名前になった。"
@@ -2006,7 +2006,7 @@
     "id": "phone", "word": "phone", "katakana": "フォン", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "電話",
     "scene": "スマートフォン、ヘッドフォン、イヤフォン。",
-    "example": { "en": "Can I call you back? I'm on the other phone.", "ja": "かけ直してもいい？ 別の電話に出てるんだ。" },
+    "example": { "en": "Can I use your phone?", "ja": "電話を借りてもいい？" },
     "etymology": {
       "origin": "telephone の短縮形 ← ギリシャ語 tēle「遠く」+ phōnē「声、音」",
       "story": "「遠くの声」。phōnē は headphone、microphone（小さな音を大きくする）、symphony（音が一緒に鳴る）など「音」の語に広く残っている。"
@@ -2086,7 +2086,7 @@
     "id": "piano", "word": "piano", "katakana": "ピアノ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "ピアノ",
     "scene": "ピアノの発表会、グランドピアノ。",
-    "example": { "en": "She has played the piano since she was five.", "ja": "彼女は5歳のときからピアノを弾いている。" },
+    "example": { "en": "She plays the piano very well.", "ja": "彼女はピアノがとても上手だ。" },
     "etymology": {
       "origin": "イタリア語 pianoforte「弱くも強くも（弾ける）」の短縮形",
       "story": "それまでの鍵盤楽器チェンバロは、強く弾いても音量が変わらなかった。18世紀の新しい楽器は、弱く（piano）も強く（forte）も弾き分けられることから pianoforte と名づけられた。piano のもとの意味は「弱く」。"
@@ -2118,7 +2118,7 @@
     "id": "team", "word": "team", "katakana": "チーム", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "チーム",
     "scene": "チームワーク、チームメイト。",
-    "example": { "en": "Our team won the final match.", "ja": "私たちのチームが決勝戦に勝った。" },
+    "example": { "en": "Our team is very strong.", "ja": "私たちのチームはとても強い。" },
     "etymology": {
       "origin": "古英語 tēam「子孫、ひと組の引き具につないだ家畜」",
       "story": "もとは「同じ引き具につながれて荷車を引く牛や馬のひと組」。そこから「力を合わせて働く人の集まり」に。語源的には tow（引く）とつながっているとされる。"
@@ -2134,7 +2134,7 @@
     "id": "goal", "word": "goal", "katakana": "ゴール", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "目標、（球技の）ゴール",
     "scene": "「ゴール！」マラソンのゴール、人生の目標。",
-    "example": { "en": "My goal is to speak English fluently.", "ja": "私の目標は英語を流ちょうに話すことだ。" },
+    "example": { "en": "My goal is to speak English well.", "ja": "私の目標は英語を上手に話すことだ。" },
     "etymology": {
       "origin": "中英語 gol「境界、限界」（14世紀に一度だけ記録。語源は不明）",
       "story": "16世紀に「競走のゴール」の意味で広く使われるようになった。そこから「目指す点」＝目標に。語源ははっきりしない。"
@@ -2198,7 +2198,7 @@
     "id": "menu", "word": "menu", "katakana": "メニュー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "献立表、（画面の）メニュー",
     "scene": "レストランのメニュー、ゲームのメニュー画面。",
-    "example": { "en": "Could we see the menu, please?", "ja": "メニューを見せていただけますか？" },
+    "example": { "en": "Can I see the menu, please?", "ja": "メニューを見せてもらえますか？" },
     "etymology": {
       "origin": "フランス語 menu「細かい、小さい」← ラテン語 minūtus「小さくした」",
       "story": "料理の「細かい一覧表」という意味。minute（分・ごく小さい）、minor（小さいほうの）、mini（ミニ）も同じ家族。"
@@ -2230,7 +2230,7 @@
     "id": "salad", "word": "salad", "katakana": "サラダ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "サラダ",
     "scene": "ポテトサラダ、サラダバー。",
-    "example": { "en": "I'll have a salad with my pasta.", "ja": "パスタと一緒にサラダをお願いします。" },
+    "example": { "en": "I eat salad with my lunch every day.", "ja": "毎日お昼にサラダを食べる。" },
     "etymology": {
       "origin": "ラテン語系 herba salāta「塩をふった野菜」← sal「塩」",
       "story": "ローマ時代、生野菜に塩をかけて食べたことから。sauce（ソース）、salary（給料）、sausage（ソーセージ）も塩（sal）の家族。salary はローマ兵が塩を買うためのお金だったという説がある（確かではない）。"
@@ -2513,7 +2513,7 @@
     "id": "party", "word": "party", "katakana": "パーティー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "パーティー、政党、（一行の）仲間",
     "scene": "誕生日パーティー。RPGの「パーティー」（仲間の一行）も。",
-    "example": { "en": "We're having a party on Saturday. Can you come?", "ja": "土曜日にパーティーをするんだ。来られる？" },
+    "example": { "en": "We're having a party on Saturday.", "ja": "土曜日にパーティーをするよ。" },
     "etymology": {
       "origin": "古フランス語 partie「部分、分かれたもの」← ラテン語 partīre「分ける」",
       "story": "「全体から分かれた一部分」→ 同じ側に立つ人たち（政党、一行）→ 集まり（パーティー）。part（部分）、particle（粒子）、department（部門）も同じ家族。"
@@ -2675,7 +2675,7 @@
     "id": "sport", "word": "sport", "katakana": "スポーツ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "スポーツ、運動競技",
     "scene": "スポーツ大会、スポーツカー。",
-    "example": { "en": "Soccer is the most popular sport in the world.", "ja": "サッカーは世界でいちばん人気のあるスポーツだ。" },
+    "example": { "en": "What sport do you like?", "ja": "どんなスポーツが好き？" },
     "etymology": {
       "origin": "disport「気晴らしをする」の短縮形 ← 古フランス語 desporter「（仕事から）離れる」",
       "story": "dis-「離れて」+ portāre「運ぶ」＝「心を仕事から運び去る」→ 気晴らし・娯楽。そこから運動競技の意味になった。port（港）、transport（輸送する）も portāre の家族。"
@@ -2746,7 +2746,7 @@
     "id": "egg", "word": "egg", "katakana": "エッグ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "卵",
     "scene": "ハムエッグ、スクランブルエッグ、イースターエッグ。",
-    "example": { "en": "I had two eggs and toast for breakfast.", "ja": "朝食に卵2個とトーストを食べた。" },
+    "example": { "en": "I eat two eggs every morning.", "ja": "私は毎朝卵を2個食べる。" },
     "etymology": {
       "origin": "古ノルド語 egg ← ゲルマン祖語 *ajją",
       "story": "古英語には ǣg という別の形があり、中世にはヴァイキング由来の egg と、ey（複数形 eyren）が並んで使われていた。15世紀の印刷業者キャクストンが「北の人は egges、南の人は eyren と言って通じない」と嘆いた話が有名。"
@@ -2762,7 +2762,7 @@
     "id": "fish", "word": "fish", "katakana": "フィッシュ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "魚",
     "scene": "フィッシュバーガー、フィッシュアンドチップス。",
-    "example": { "en": "We caught three fish in the lake.", "ja": "湖で魚を3匹釣った。" },
+    "example": { "en": "We can catch fish in this lake.", "ja": "この湖では魚がとれる。" },
     "etymology": {
       "origin": "古英語 fisc ← ゲルマン祖語 *fiskaz",
       "story": "ラテン語 piscis（魚）と同じ祖先。英語の f とラテン語の p が対応する例（father と pater、foot と pēs）のひとつ。複数形も fish のままが基本。"
@@ -2795,7 +2795,7 @@
     "id": "cup", "word": "cup", "katakana": "カップ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "カップ、茶わん、優勝カップ",
     "scene": "カップラーメン、ワールドカップ。",
-    "example": { "en": "Would you like a cup of tea?", "ja": "お茶を一杯いかがですか？" },
+    "example": { "en": "Do you want a cup of tea?", "ja": "お茶を一杯どう？" },
     "etymology": {
       "origin": "古英語 cuppe ← 後期ラテン語 cuppa「杯」",
       "story": "cupboard（食器棚）はもとは「カップを置く板（board）」＝食器を並べる台のこと。発音は「カバード」。優勝杯の意味から、ワールドカップのように大会の名前にもなった。"
@@ -2907,7 +2907,7 @@
     "id": "book", "word": "book", "katakana": "ブック", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "本、予約する",
     "scene": "ブックカバー、ブックマーク（しおり・お気に入り）。",
-    "example": { "en": "I booked a table for two at the restaurant.", "ja": "レストランに2人分の席を予約した。" },
+    "example": { "en": "This book is very interesting.", "ja": "この本はとてもおもしろい。" },
     "etymology": {
       "origin": "古英語 bōc ← ゲルマン祖語 *bōks",
       "story": "ブナの木（beech）と同じ語とされ、昔のゲルマン人がブナの板に文字を刻んだことに由来するという説が有名（異論もある）。帳簿に名前を書きこむことから「予約する」の意味が生まれた。"
@@ -2939,7 +2939,7 @@
     "id": "happy", "word": "happy", "katakana": "ハッピー", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "幸せな、うれしい",
     "scene": "ハッピーエンド、ハッピーバースデー。",
-    "example": { "en": "I'm so happy to see you again!", "ja": "また会えてすごくうれしい！" },
+    "example": { "en": "I'm very happy today!", "ja": "今日はとてもうれしい！" },
     "etymology": {
       "origin": "中英語 hap「運、偶然」+ -y",
       "story": "もとは「運がよい」。happen（起こる＝偶然が生じる）、perhaps（たぶん＝偶然によって）、mishap（災難＝悪い運）も hap の家族。幸せは「運」から来ている。"
@@ -2974,7 +2974,7 @@
     "scene": "喫茶店の「モーニング（朝食セット）」、モーニングコール。",
     "gap": "喫茶店の「モーニング」は和製の略で、英語では breakfast set / breakfast special。「モーニングコール」も英語では wake-up call。",
     "trapQuiz": {"question": "ホテルで「モーニングコール」を頼みたい。英語でいうと？", "answer": "a wake-up call", "wrong": ["a morning call", "a morning service", "a good morning"]},
-    "example": { "en": "I jog every morning before school.", "ja": "私は毎朝、学校の前にジョギングをする。" },
+    "example": { "en": "I walk my dog every morning.", "ja": "私は毎朝犬の散歩をする。" },
     "etymology": {
       "origin": "中英語 morwening ← morn「朝」+ -ing（evening にならった形）",
       "story": "evening（夕方）の形をまねて作られた語。tomorrow（明日）は to + morrow「朝に」＝次の朝に、という意味だった。"
@@ -3008,7 +3008,7 @@
     "id": "watch", "word": "watch", "katakana": "ウォッチ", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "腕時計、じっと見る",
     "scene": "スマートウォッチ、バードウォッチング。",
-    "example": { "en": "We watched a movie last night.", "ja": "昨夜、映画を見た。" },
+    "example": { "en": "We watch TV after dinner.", "ja": "私たちは夕食のあとにテレビを見る。" },
     "etymology": {
       "origin": "古英語 wæccan「目を覚ましている、見張る」",
       "story": "wake（目を覚ます）と同じ語根。夜通し起きて「見張る」ことが原義で、そこから「見守る・じっと見る」に。見張りの交代時間を知らせる道具として懐中時計も watch と呼ばれた。"
@@ -3108,7 +3108,7 @@
     "scene": "「アイス食べたい」、アイスコーヒー。",
     "gap": "日本語の「アイス」はふつうアイスクリームのことだが、英語の ice は「氷」。アイスがほしいなら ice cream。I want ice. だと「氷がほしい」になる。",
     "trapQuiz": {"question": "「アイス（アイスクリーム）が食べたい」を英語でいうと？", "answer": "I want some ice cream.", "wrong": ["I want some ice.", "I want an ice.", "I want iced."]},
-    "example": { "en": "Can I have a glass of water with no ice?", "ja": "氷なしで水を一杯もらえますか？" },
+    "example": { "en": "Can I have some water with ice?", "ja": "氷の入った水をもらえますか？" },
     "etymology": {
       "origin": "古英語 īs ← ゲルマン祖語 *īsą",
       "story": "ドイツ語 Eis と同源（ドイツ語でも Eis だけでアイスクリームを指せる）。break the ice（氷を割る＝場をなごませる）は、凍った川の氷を割って船を通したことから。"
@@ -3236,7 +3236,7 @@
     "id": "dream", "word": "dream", "katakana": "ドリーム", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "夢（を見る）",
     "scene": "ドリームチーム、アメリカンドリーム。",
-    "example": { "en": "My dream is to become a pilot.", "ja": "私の夢はパイロットになることだ。" },
+    "example": { "en": "What is your dream?", "ja": "あなたの夢は何？" },
     "etymology": {
       "origin": "中英語 dreem。古英語 drēam は「喜び、音楽」の意味",
       "story": "古英語の drēam は「喜び・楽しい音」で、「夢」の意味はヴァイキングの言葉（古ノルド語 draumr）の影響で生まれたと考えられている。"
@@ -3253,7 +3253,7 @@
     "id": "smile", "word": "smile", "katakana": "スマイル", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "ほほえみ、ほほえむ",
     "scene": "スマイルマーク、「スマイル0円」。",
-    "example": { "en": "She smiled and waved at me.", "ja": "彼女はほほえんで私に手を振った。" },
+    "example": { "en": "She has a nice smile.", "ja": "彼女はすてきな笑顔をしている。" },
     "etymology": {
       "origin": "中英語 smilen ← スカンジナビア系の語（デンマーク語 smile）",
       "story": "古英語にはなく、13世紀ごろに北欧語から入ったとされる。それまで「笑う」は laugh（声を出して笑う）が中心だった。"
@@ -3285,7 +3285,7 @@
     "id": "fruit", "word": "fruit", "katakana": "フルーツ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "果物、成果",
     "scene": "フルーツパフェ、フルーツサンド。",
-    "example": { "en": "I try to eat fruit every day.", "ja": "毎日果物を食べるようにしている。" },
+    "example": { "en": "I eat fruit every day.", "ja": "私は毎日果物を食べる。" },
     "etymology": {
       "origin": "ラテン語 frūctus「楽しみ、収穫」← fruī「楽しむ、利用する」",
       "story": "「楽しんで味わうもの」＝収穫物。the fruit of your hard work（努力の成果）のように「成果」も表す。fructose（果糖）も同じ家族。"
@@ -3365,7 +3365,7 @@
     "id": "camp", "word": "camp", "katakana": "キャンプ", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "野営（する）、キャンプ",
     "scene": "オートキャンプ、プロ野球の春季キャンプ。",
-    "example": { "en": "We camped by the lake for two nights.", "ja": "湖のそばで2泊キャンプをした。" },
+    "example": { "en": "We camp by the lake every summer.", "ja": "私たちは毎年夏に湖のそばでキャンプをする。" },
     "etymology": {
       "origin": "ラテン語 campus「野原、平地」",
       "story": "ローマ軍が平地に陣を張ったことから「野営地」に。大学の敷地 campus、champion（野で戦う戦士）、campaign（野戦 → 組織的な運動）も同じ家族。"
@@ -3381,7 +3381,7 @@
     "id": "beach", "word": "beach", "katakana": "ビーチ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "浜辺",
     "scene": "ビーチバレー、ビーチサンダル。",
-    "example": { "en": "We played volleyball on the beach.", "ja": "私たちは浜辺でバレーボールをした。" },
+    "example": { "en": "Let's walk on the beach.", "ja": "浜辺を歩こう。" },
     "etymology": {
       "origin": "16世紀の英語 beche「小石、砂利」（由来ははっきりしない）",
       "story": "もとは浜辺の「小石・砂利」そのものを指し、そこから小石のある岸辺 → 浜辺全般に。古英語 bece「小川」と関係があるという説もある。"
@@ -3461,7 +3461,7 @@
     "id": "size", "word": "size", "katakana": "サイズ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "大きさ、サイズ",
     "scene": "フリーサイズ（和製英語）、Lサイズ。",
-    "example": { "en": "Do you have this in a smaller size?", "ja": "これのもっと小さいサイズはありますか？" },
+    "example": { "en": "What size is this shirt?", "ja": "このシャツは何サイズですか？" },
     "etymology": {
       "origin": "古フランス語 sise ← assise「定められた量」",
       "story": "もとは「決められた量・税・割り当て」のこと。そこから「規格の大きさ」になった。「フリーサイズ」は和製英語で、英語では one size fits all。"
@@ -3493,7 +3493,7 @@
     "id": "nature", "word": "nature", "katakana": "ネイチャー", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "自然、性質",
     "scene": "ネイチャーガイド、自然番組。",
-    "example": { "en": "It's human nature to want to be loved.", "ja": "愛されたいと思うのは人間の性（さが）だ。" },
+    "example": { "en": "We should protect nature.", "ja": "私たちは自然を守るべきだ。" },
     "etymology": {
       "origin": "ラテン語 nātūra「生まれつきの性質」← nāscī「生まれる」",
       "story": "「生まれたときからそなわっているもの」が原義。そこから「本来の性質」「自然界」に。native（生まれた土地の）、nation（国＝同じ生まれの人々）も同じ家族。"
@@ -3605,7 +3605,7 @@
     "id": "popular", "word": "popular", "katakana": "ポピュラー", "pos": "形容詞", "cefr": "A1", "level": 2,
     "meaning": "人気のある、大衆的な",
     "scene": "ポピュラー音楽（ポップス）。",
-    "example": { "en": "This song is very popular among teenagers.", "ja": "この歌は10代にとても人気がある。" },
+    "example": { "en": "This song is very popular with young people.", "ja": "この歌は若い人たちにとても人気がある。" },
     "etymology": {
       "origin": "ラテン語 populāris「民衆の」← populus「民衆」",
       "story": "「民衆の」→「民衆に好かれる」。people（人々）、population（人口）、public（公の）も同じ家族。pop music の pop は popular の略。"
@@ -3815,7 +3815,7 @@
     "id": "image", "word": "image", "katakana": "イメージ", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "像、画像、印象",
     "scene": "イメージアップ（和製英語）、イメージキャラクター。",
-    "example": { "en": "The company wants to improve its image.", "ja": "その会社はイメージをよくしたいと考えている。" },
+    "example": { "en": "This image is too small.", "ja": "この画像は小さすぎる。" },
     "etymology": {
       "origin": "ラテン語 imāgō「似姿、像」← imitārī「まねる」とされる",
       "story": "「まねて作った姿」。imitate（まねる）、imagine（想像する＝心に像を描く）も同じ家族。「イメージアップ」は和製英語で、英語では improve one's image。"
@@ -4750,7 +4750,7 @@
     "id": "hamburger", "word": "hamburger", "katakana": "ハンバーガー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "ハンバーガー、ひき肉",
     "scene": "ファストフード店のハンバーガー。",
-    "example": { "en": "I'll have a hamburger and fries.", "ja": "ハンバーガーとポテトをください。" },
+    "example": { "en": "I want a hamburger for lunch.", "ja": "お昼はハンバーガーがいいな。" },
     "etymology": {
       "origin": "Hamburg steak「ハンブルク風ステーキ」← ドイツの都市ハンブルク",
       "story": "ham（ハム）とは関係がなく、「ハンブルクの」という意味。ところが英語話者は ham + burger と区切って理解したため、cheeseburger のように -burger だけが独立して使われるようになった。日本語の「ハンバーグ」も同じ Hamburg から。"
@@ -4766,7 +4766,7 @@
     "id": "soup", "word": "soup", "katakana": "スープ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "スープ",
     "scene": "コーンスープ、スープカレー。",
-    "example": { "en": "This soup is too hot to eat.", "ja": "このスープは熱すぎて飲めない。" },
+    "example": { "en": "This soup is very hot.", "ja": "このスープはとても熱い。" },
     "etymology": {
       "origin": "フランス語 soupe「スープに浸したパン」← 後期ラテン語 suppa",
       "story": "もとはスープに浸して食べるパンのほうを指した。supper（夕食）は「スープを飲む（souper）」から来ていて、soup の親戚。英語ではスープは「飲む」ではなく eat soup と言うことが多い。"
@@ -4798,7 +4798,7 @@
     "id": "jam", "word": "jam", "katakana": "ジャム", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "ジャム、（交通の）渋滞",
     "scene": "イチゴジャム、ジャムセッション。",
-    "example": { "en": "We were stuck in a traffic jam for an hour.", "ja": "1時間渋滞にはまっていた。" },
+    "example": { "en": "We were in a traffic jam for an hour.", "ja": "1時間渋滞にはまっていた。" },
     "etymology": {
       "origin": "18世紀の英語。動詞 jam「ぎゅうぎゅう押しこむ」から",
       "story": "果物をつぶして押しこめたもの → ジャム、とされる。車がぎゅうぎゅうに詰まるのが traffic jam。即興演奏の jam session の jam も「押し合う」イメージから、という説がある。"
@@ -4830,7 +4830,7 @@
     "id": "bear", "word": "bear", "katakana": "ベア", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "クマ、耐える",
     "scene": "テディベア、ベアハッグ。",
-    "example": { "en": "A bear came out of the forest.", "ja": "森からクマが出てきた。" },
+    "example": { "en": "Look! There is a bear in the forest!", "ja": "見て！ 森にクマがいる！" },
     "etymology": {
       "origin": "古英語 bera ← ゲルマン祖語 *berô「茶色のもの」",
       "story": "クマの本当の名前を口にすると呼び寄せてしまう、というタブーから「茶色いやつ」と遠回しに呼んだのが始まりとする説が有名。brown（茶色）と同じ語根とされる。動詞 bear（耐える、産む）は別の語。"
@@ -4862,7 +4862,7 @@
     "id": "monkey", "word": "monkey", "katakana": "モンキー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "サル",
     "scene": "モンキーレンチ、「モンキー」の愛称。",
-    "example": { "en": "The monkey climbed up the tree.", "ja": "サルが木に登った。" },
+    "example": { "en": "The monkey is climbing the tree.", "ja": "サルが木に登っている。" },
     "etymology": {
       "origin": "中低地ドイツ語 Moneke（寓話のサルの子の名前）とされる",
       "story": "中世の動物寓話『狐のレナルド』に出てくるサルの子の名前から、という説がある。尾のある小型のサルが monkey、尾のない大型のサル（ゴリラ、チンパンジー）は ape と区別する。"
@@ -4926,7 +4926,7 @@
     "id": "calendar", "word": "calendar", "katakana": "カレンダー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "暦、カレンダー、予定表",
     "scene": "卓上カレンダー、アドベントカレンダー。",
-    "example": { "en": "I marked her birthday on the calendar.", "ja": "カレンダーに彼女の誕生日の印をつけた。" },
+    "example": { "en": "There is a calendar on the wall.", "ja": "壁にカレンダーがかかっている。" },
     "etymology": {
       "origin": "ラテン語 calendārium「貸付の帳簿」← kalendae「月の最初の日」",
       "story": "古代ローマでは毎月1日（kalendae）が借金の利子の支払日で、その日に神官が月の始まりを大声で告げた（calāre「呼ぶ」）とされる。"
@@ -4958,7 +4958,7 @@
     "id": "volleyball", "word": "volleyball", "katakana": "バレーボール", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "バレーボール",
     "scene": "部活のバレー、ビーチバレー。",
-    "example": { "en": "Our class won the volleyball tournament.", "ja": "私たちのクラスがバレーボール大会で優勝した。" },
+    "example": { "en": "We play volleyball after school.", "ja": "私たちは放課後にバレーボールをする。" },
     "etymology": {
       "origin": "volley「地面につく前に打ち返すこと」+ ball。1895年アメリカで考案",
       "story": "volley はフランス語 volée「飛ぶこと」← ラテン語 volāre「飛ぶ」から。ボールを落とさず空中で打ち合う競技。「一斉射撃」も volley。"
@@ -4974,7 +4974,7 @@
     "id": "basketball", "word": "basketball", "katakana": "バスケットボール", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "バスケットボール",
     "scene": "バスケ部、NBA。",
-    "example": { "en": "He is tall, so he's good at basketball.", "ja": "彼は背が高いので、バスケットボールが得意だ。" },
+    "example": { "en": "He is tall and good at basketball.", "ja": "彼は背が高くて、バスケットボールが得意だ。" },
     "etymology": {
       "origin": "basket「かご」+ ball。1891年アメリカのジェームズ・ネイスミスが考案",
       "story": "最初は体育館の手すりに桃を入れるかご（peach basket）を取りつけてゴールにした。入るたびにはしごでボールを取り出していたという。"
@@ -5022,7 +5022,7 @@
     "id": "violin", "word": "violin", "katakana": "バイオリン", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "バイオリン",
     "scene": "オーケストラのバイオリン。",
-    "example": { "en": "She has played the violin for ten years.", "ja": "彼女は10年間バイオリンを弾いている。" },
+    "example": { "en": "She plays the violin every day.", "ja": "彼女は毎日バイオリンを弾く。" },
     "etymology": {
       "origin": "イタリア語 violino「小さなヴィオラ」← viola",
       "story": "ヴィオラ（viola）より小さい楽器、の意味。逆に大きいのが violone で、その小さいもの violoncello が cello（チェロ）になった。つまりチェロの名前は「小さい大ヴィオラ」。"
@@ -5054,7 +5054,7 @@
     "id": "red", "word": "red", "katakana": "レッド", "pos": "形容詞・名詞", "cefr": "A1", "level": 1,
     "meaning": "赤（い）",
     "scene": "レッドカード、戦隊ヒーローのレッド。",
-    "example": { "en": "The traffic light turned red.", "ja": "信号が赤に変わった。" },
+    "example": { "en": "I have a red bike.", "ja": "私は赤い自転車を持っている。" },
     "etymology": {
       "origin": "古英語 rēad ← 印欧祖語 *h₁rewdʰ-「赤い」",
       "story": "とても古い語で、ラテン語 ruber（赤い）、ruby（ルビー）、rust（さび）も同じ語根とされる。赤字は in the red（帳簿で赤いインクを使ったことから）。"
@@ -5070,7 +5070,7 @@
     "id": "blue", "word": "blue", "katakana": "ブルー", "pos": "形容詞・名詞", "cefr": "A1", "level": 1,
     "meaning": "青（い）、憂うつな",
     "scene": "ブルーな気分、ブルーライト。",
-    "example": { "en": "I feel a bit blue today.", "ja": "今日はちょっと気分が沈んでいる。" },
+    "example": { "en": "The sky is blue today.", "ja": "今日は空が青い。" },
     "etymology": {
       "origin": "古フランス語 bleu ← フランク語 *blāo",
       "story": "古英語にも blǣwen という語があったが、フランス語経由の blue が広まった。「憂うつな」の意味は16世紀から。音楽のブルース（the blues）も「憂うつ」の意味から。"
@@ -5102,7 +5102,7 @@
     "id": "pink", "word": "pink", "katakana": "ピンク", "pos": "形容詞・名詞", "cefr": "A1", "level": 1,
     "meaning": "ピンク（の）",
     "scene": "ピンクのリボン、桜色。",
-    "example": { "en": "She wore a pink dress to the party.", "ja": "彼女はピンクのドレスでパーティーに来た。" },
+    "example": { "en": "Pink is my favorite color.", "ja": "ピンクは私の好きな色だ。" },
     "etymology": {
       "origin": "花の名前 pink（ナデシコ）から（17世紀）",
       "story": "先に「ナデシコ」の花を pink と呼んでいて、その花の色が色名になった。花の名の由来は、花びらのふちがギザギザに切れていること（pink「ぎざぎざに切る」）からとされる。"
@@ -5120,7 +5120,7 @@
     "scene": "ブラックコーヒー、「ブラック企業」。",
     "gap": "「ブラック企業」「ブラックバイト」は和製英語。英語で black company とは言わず、exploitative company などと表す。black を「ひどい・違法な」の意味で安易に使うのは避けたほうがよい。",
     "trapQuiz": {"question": "社員を酷使する「ブラック企業」に近い英語は？", "answer": "an exploitative company", "wrong": ["a black company", "a dark company", "a night company"]},
-    "example": { "en": "I'll have my coffee black, please.", "ja": "コーヒーはブラックでお願いします。" },
+    "example": { "en": "I have a black cat.", "ja": "私は黒い猫を飼っている。" },
     "etymology": {
       "origin": "古英語 blæc ← ゲルマン祖語 *blakaz「燃えた」",
       "story": "「焼けこげた」色、が原義とされる。フランス語 blanc（白）や英語 blank（空白）は「光る」を意味する似た語根から来ていて、黒と白がとなり合う語根から生まれたのはおもしろい偶然。"
@@ -5136,7 +5136,7 @@
     "id": "white", "word": "white", "katakana": "ホワイト", "pos": "形容詞・名詞", "cefr": "A1", "level": 1,
     "meaning": "白（い）",
     "scene": "ホワイトデー、ホワイトボード。",
-    "example": { "en": "Everything was white after the snow.", "ja": "雪のあと、あたり一面が真っ白だった。" },
+    "example": { "en": "Everything is white with snow.", "ja": "あたり一面、雪で真っ白だ。" },
     "etymology": {
       "origin": "古英語 hwīt ← ゲルマン祖語 *hwītaz",
       "story": "wheat（小麦）は「白いもの」＝白い粉になる穀物、という意味で、white と同じ語根。「ホワイトデー」は日本で生まれた記念日で、英語圏にはない。"
@@ -5201,7 +5201,7 @@
     "id": "nice", "word": "nice", "katakana": "ナイス", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "すてきな、親切な",
     "scene": "「ナイスシュート！」「ナイスアイデア」。",
-    "example": { "en": "It was nice of you to help me.", "ja": "手伝ってくれてありがとう（親切にしてくれて）。" },
+    "example": { "en": "She is a nice person.", "ja": "彼女はいい人だ。" },
     "etymology": {
       "origin": "古フランス語 nice「愚かな」← ラテン語 nescius「知らない」",
       "story": "もとは「無知な、愚かな」という悪い意味。そこから「内気な」「細かい」「上品な」と意味が変わり続け、18世紀ごろに今の「すてきな」になった。意味が大きく変わった語の代表例。"
@@ -5234,7 +5234,7 @@
     "id": "town", "word": "town", "katakana": "タウン", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "町",
     "scene": "タウン誌、ニュータウン、チャイナタウン。",
-    "example": { "en": "I grew up in a small town by the sea.", "ja": "私は海辺の小さな町で育った。" },
+    "example": { "en": "I live in a small town by the sea.", "ja": "私は海辺の小さな町に住んでいる。" },
     "etymology": {
       "origin": "古英語 tūn「囲い地、屋敷」",
       "story": "もとは「柵で囲った土地」。地名の -ton（Washington、Boston）はこの tūn で「〜の村・屋敷」の意味。"
@@ -5250,7 +5250,7 @@
     "id": "city", "word": "city", "katakana": "シティ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "都市、市",
     "scene": "シティホテル、シティボーイ。",
-    "example": { "en": "Tokyo is one of the largest cities in the world.", "ja": "東京は世界最大級の都市のひとつだ。" },
+    "example": { "en": "Tokyo is a very big city.", "ja": "東京はとても大きな都市だ。" },
     "etymology": {
       "origin": "古フランス語 cite ← ラテン語 cīvitās「市民であること、都市」← cīvis「市民」",
       "story": "建物より「市民の集まり」が原義。civil（市民の）、civilization（文明）も cīvis の家族。"
@@ -5346,7 +5346,7 @@
     "id": "power", "word": "power", "katakana": "パワー", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "力、権力、電力",
     "scene": "パワースポット、パワーアップ。",
-    "example": { "en": "The storm knocked out the power.", "ja": "嵐で停電した。" },
+    "example": { "en": "The power went out during the storm.", "ja": "嵐の間に停電した。" },
     "etymology": {
       "origin": "古フランス語 poeir「できる」← 俗ラテン語 potēre ← ラテン語 posse「できる」",
       "story": "「〜できること」が原義。possible（可能な）、potential（潜在的な）と同じ家族。「パワースポット」は和製英語。"
@@ -5394,7 +5394,7 @@
     "id": "club", "word": "club", "katakana": "クラブ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "クラブ、部、こん棒",
     "scene": "部活（club activities）、ゴルフクラブ、トランプのクラブ。",
-    "example": { "en": "I joined the tennis club.", "ja": "テニス部に入った。" },
+    "example": { "en": "I'm in the tennis club.", "ja": "私はテニス部に入っている。" },
     "etymology": {
       "origin": "古ノルド語 klubba「こん棒」",
       "story": "もとは「太い棒」。17世紀に「かたまり」→「人の集まり」＝会の意味が生まれた。ゴルフのクラブは「棒」の意味のまま。"
@@ -5410,7 +5410,7 @@
     "id": "drink", "word": "drink", "katakana": "ドリンク", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "飲み物、飲む",
     "scene": "ドリンクバー、ソフトドリンク。",
-    "example": { "en": "Would you like something to drink?", "ja": "何か飲み物はいかがですか？" },
+    "example": { "en": "Do you want a drink?", "ja": "何か飲む？" },
     "etymology": {
       "origin": "古英語 drincan ← ゲルマン祖語 *drinkaną",
       "story": "drink-drank-drunk と母音を変えて活用する古い動詞。名詞の drink だけで「お酒」を指すことも多い。"
@@ -5474,7 +5474,7 @@
     "id": "fork", "word": "fork", "katakana": "フォーク", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "フォーク、分かれ道",
     "scene": "ナイフとフォーク、フォークボール。",
-    "example": { "en": "Turn left at the fork in the road.", "ja": "道の分かれ目で左に曲がってください。" },
+    "example": { "en": "I eat cake with a fork.", "ja": "私はケーキをフォークで食べる。" },
     "etymology": {
       "origin": "古英語 forca ← ラテン語 furca「農業用の熊手」",
       "story": "もとは干し草をすくう大きなフォーク。食事用のフォークがヨーロッパで広まったのは17世紀ごろ。道が二股に分かれるのも fork。"
@@ -5618,7 +5618,7 @@
     "id": "boat", "word": "boat", "katakana": "ボート", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "小舟、ボート",
     "scene": "ボート部、手こぎボート。",
-    "example": { "en": "We rowed a boat on the lake.", "ja": "湖でボートをこいだ。" },
+    "example": { "en": "We can ride a boat on the lake.", "ja": "湖でボートに乗れる。" },
     "etymology": {
       "origin": "古英語 bāt ← ゲルマン祖語 *baitaz",
       "story": "be in the same boat（同じ舟に乗っている）は「同じ苦境にある」。miss the boat は「好機を逃す」。"
@@ -5650,7 +5650,7 @@
     "id": "lucky", "word": "lucky", "katakana": "ラッキー", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "運のよい",
     "scene": "「ラッキー！」ラッキーアイテム。",
-    "example": { "en": "You're lucky to have such good friends.", "ja": "そんないい友だちがいてきみは幸運だね。" },
+    "example": { "en": "You are very lucky!", "ja": "あなたはとても運がいいね！" },
     "etymology": {
       "origin": "luck「運」+ -y ← 中オランダ語 luc",
       "story": "賭け事の言葉として中世にオランダ語から入ったとされる。Good luck!（幸運を！）はもっともよく使うあいさつのひとつ。"
@@ -5666,7 +5666,7 @@
     "id": "easy", "word": "easy", "katakana": "イージー", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "簡単な、気楽な",
     "scene": "イージーミス（和製英語）、イージーモード。",
-    "example": { "en": "The test was easier than I expected.", "ja": "テストは思ったより簡単だった。" },
+    "example": { "en": "This test is very easy.", "ja": "このテストはとても簡単だ。" },
     "etymology": {
       "origin": "古フランス語 aisié「くつろいだ」← aise「気楽さ」",
       "story": "「くつろいだ」が原義。Take it easy.（気楽にね）にその意味が残る。「イージーミス」は和製英語で、英語では careless mistake。"
@@ -5682,7 +5682,7 @@
     "id": "hard", "word": "hard", "katakana": "ハード", "pos": "形容詞・副詞", "cefr": "A1", "level": 1,
     "meaning": "かたい、難しい、熱心に",
     "scene": "ハードな練習、ハードディスク。",
-    "example": { "en": "She studied hard for the exam.", "ja": "彼女は試験のために一生懸命勉強した。" },
+    "example": { "en": "She studies hard every day.", "ja": "彼女は毎日一生懸命勉強する。" },
     "etymology": {
       "origin": "古英語 heard ← ゲルマン祖語 *harduz",
       "story": "「かたい」→「難しい」「激しく」。hardly（ほとんど〜ない）は「かろうじて」から意味が変わった語で、hard（熱心に）とは意味がまったく違うので注意。"
@@ -5698,7 +5698,7 @@
     "id": "slow", "word": "slow", "katakana": "スロー", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "遅い、ゆっくりした",
     "scene": "スローモーション、スローライフ。",
-    "example": { "en": "Please speak more slowly.", "ja": "もっとゆっくり話してください。" },
+    "example": { "en": "This bus is very slow.", "ja": "このバスはとても遅い。" },
     "etymology": {
       "origin": "古英語 slāw「のろい、頭の働きが鈍い」",
       "story": "もとは「鈍い」の意味が中心だった。sloth（ナマケモノ、怠惰）は slow の名詞形。"
@@ -5730,7 +5730,7 @@
     "id": "top", "word": "top", "katakana": "トップ", "pos": "名詞・形容詞", "cefr": "A1", "level": 1,
     "meaning": "頂上、最高の",
     "scene": "トップニュース、トップアスリート。",
-    "example": { "en": "She was at the top of her class.", "ja": "彼女はクラスで一番だった。" },
+    "example": { "en": "We are at the top of the mountain.", "ja": "私たちは山の頂上にいる。" },
     "etymology": {
       "origin": "古英語 top「頂上、房」",
       "story": "もとは「髪の房（頭のてっぺん）」も指した。回るこま（spinning top）も top。"
@@ -5780,7 +5780,7 @@
     "scene": "ウエディングドレス、ドレスコード。",
     "gap": "日本語の「ワンピース」は英語では dress。英語で one-piece はふつう「ワンピース水着」。",
     "trapQuiz": {"question": "服の「ワンピース」を英語でいうと？", "answer": "a dress", "wrong": ["a one-piece", "a onepiece suit", "a skirt"]},
-    "example": { "en": "She got dressed quickly.", "ja": "彼女は急いで服を着た。" },
+    "example": { "en": "She is wearing a beautiful dress.", "ja": "彼女はきれいなワンピースを着ている。" },
     "etymology": {
       "origin": "古フランス語 dresser「まっすぐにする、整える」← ラテン語 dīrectus「まっすぐな」",
       "story": "「整える」が原義。サラダのドレッシング（dressing）も「料理を整える」もの。direct（まっすぐな）と同じ家族。"
@@ -5876,7 +5876,7 @@
     "id": "album", "word": "album", "katakana": "アルバム", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "アルバム（写真帳、音楽作品集）",
     "scene": "卒業アルバム、新作アルバム。",
-    "example": { "en": "The band released a new album.", "ja": "そのバンドは新しいアルバムを出した。" },
+    "example": { "en": "The band made a new album.", "ja": "そのバンドは新しいアルバムを作った。" },
     "etymology": {
       "origin": "ラテン語 album「白い板」← albus「白い」",
       "story": "古代ローマで、お知らせを書いて掲示した白い板。そこから「書きこむための白紙の帳面」→ 写真帳、レコードの作品集に。albino（アルビノ）も albus から。"
@@ -5924,7 +5924,7 @@
     "id": "center", "word": "center", "katakana": "センター", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "中心、施設",
     "scene": "ショッピングセンター、アイドルのセンター。",
-    "example": { "en": "There's a fountain in the center of the park.", "ja": "公園の真ん中に噴水がある。" },
+    "example": { "en": "There is a big tree in the center of the park.", "ja": "公園の中心に大きな木がある。" },
     "etymology": {
       "origin": "ギリシャ語 kentron「とがった先、コンパスの針」",
       "story": "円を描くときコンパスの針を刺す点＝中心。イギリスでは centre とつづる。concentrate（集中する＝中心に集める）も同じ家族。"
@@ -6196,7 +6196,7 @@
     "id": "model", "word": "model", "katakana": "モデル", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "模型、手本、ファッションモデル",
     "scene": "プラモデル、モデルチェンジ、ファッションモデル。",
-    "example": { "en": "He is a good role model for younger players.", "ja": "彼は若い選手のよい手本だ。" },
+    "example": { "en": "He made a model of a ship.", "ja": "彼は船の模型を作った。" },
     "etymology": {
       "origin": "イタリア語 modello ← ラテン語 modulus「小さな尺度」← modus「量、方法」",
       "story": "「基準の寸法」→ 見本・模型。mode（様式）、modest（控えめな＝度を守る）、module（部品）も同じ家族。"
@@ -6424,7 +6424,7 @@
     "id": "shower", "word": "shower", "katakana": "シャワー", "pos": "名詞", "cefr": "A1", "level": 2,
     "meaning": "シャワー、にわか雨",
     "scene": "朝シャワー、「シャワーを浴びる」。",
-    "example": { "en": "It's going to shower this afternoon.", "ja": "午後はにわか雨が降りそうだ。" },
+    "example": { "en": "I take a shower every morning.", "ja": "私は毎朝シャワーを浴びる。" },
     "etymology": {
       "origin": "古英語 scūr「にわか雨」",
       "story": "もとは「さっと降る雨」。浴びる設備の意味は19世紀から。赤ちゃんの誕生を祝ってプレゼントを「雨のように」贈る会を baby shower と言う。"
@@ -6602,7 +6602,7 @@
     "id": "lesson", "word": "lesson", "katakana": "レッスン", "pos": "名詞", "cefr": "A1", "level": 2,
     "meaning": "授業、けいこ、教訓",
     "scene": "ピアノのレッスン、教科書のレッスン1。",
-    "example": { "en": "That mistake taught me an important lesson.", "ja": "その失敗から大切な教訓を学んだ。" },
+    "example": { "en": "I have a piano lesson on Fridays.", "ja": "金曜日はピアノのレッスンがある。" },
     "etymology": {
       "origin": "古フランス語 leçon ← ラテン語 lēctiō「読むこと」← legere「読む」",
       "story": "もとは教会で「読み上げる聖書の一節」。lecture（講義）、legend（伝説）も legere の家族。"
@@ -6780,7 +6780,7 @@
     "id": "chat", "word": "chat", "katakana": "チャット", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
     "meaning": "おしゃべり（する）、チャット",
     "scene": "グループチャット、チャットボット。",
-    "example": { "en": "We chatted over coffee.", "ja": "コーヒーを飲みながらおしゃべりした。" },
+    "example": { "en": "We chatted for an hour after school.", "ja": "放課後に1時間おしゃべりした。" },
     "etymology": {
       "origin": "chatter「ぺちゃくちゃしゃべる」の短縮形（擬音語）",
       "story": "鳥がさえずるような音をまねた語。気楽な会話全般を指し、ネット上の文字の会話もこう呼ぶ。"
@@ -6862,7 +6862,7 @@
     "id": "cover", "word": "cover", "katakana": "カバー", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
     "meaning": "おおう、表紙、（曲の）カバー",
     "scene": "ブックカバー、カバー曲、ミスをカバーする。",
-    "example": { "en": "Can you cover for me while I'm away?", "ja": "留守の間、代わりをしてくれる？" },
+    "example": { "en": "She covered her face with her hands.", "ja": "彼女は両手で顔をおおった。" },
     "etymology": {
       "origin": "古フランス語 covrir ← ラテン語 cooperīre「すっかりおおう」",
       "story": "discover（発見する）は「おおいを取る」。recover（取り戻す）も同じ家族。"
@@ -9344,7 +9344,7 @@
     "id": "peach", "word": "peach", "katakana": "ピーチ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "桃",
     "scene": "ピーチジュース、ピーチ味。",
-    "example": { "en": "She peeled a peach for me.", "ja": "彼女は桃の皮をむいてくれた。" },
+    "example": { "en": "I like peaches very much.", "ja": "私は桃が大好きだ。" },
     "etymology": {
       "origin": "古フランス語 pesche ← ラテン語 persicum (mālum)「ペルシャの（りんご）」",
       "story": "桃は中国原産だが、ペルシャを経てヨーロッパに伝わったので「ペルシャの果物」と呼ばれた。口語で a peach は「すてきな人・もの」。"
@@ -9392,7 +9392,7 @@
     "id": "grape", "word": "grape", "katakana": "グレープ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "ぶどう",
     "scene": "グレープジュース、グレープフルーツ。",
-    "example": { "en": "We picked grapes at the farm.", "ja": "農園でぶどう狩りをした。" },
+    "example": { "en": "These grapes are very sweet.", "ja": "このぶどうはとても甘い。" },
     "etymology": {
       "origin": "古フランス語 grape「ぶどうの房」← graper「かぎでつむ」",
       "story": "もとは房をつむ「かぎ」から「ぶどうの房」に。grapefruit（グレープフルーツ）は、実がぶどうのように房になって実ることから。"
@@ -9552,7 +9552,7 @@
     "id": "toast", "word": "toast", "katakana": "トースト", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "トースト、乾杯",
     "scene": "バタートースト、「乾杯（トースト）の音頭」。",
-    "example": { "en": "Let's make a toast to the bride and groom!", "ja": "新郎新婦に乾杯しましょう！" },
+    "example": { "en": "I have toast and milk for breakfast.", "ja": "私は朝食にトーストと牛乳をとる。" },
     "etymology": {
       "origin": "古フランス語 toster「焼く」← ラテン語 tostus「焼いた」",
       "story": "昔、ワインに焼いたパンを入れて風味をつけたことから、グラスを上げる「乾杯」も toast と呼ぶようになったとされる。"
@@ -9616,7 +9616,7 @@
     "id": "koala", "word": "koala", "katakana": "コアラ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "コアラ",
     "scene": "オーストラリアのコアラ。",
-    "example": { "en": "Koalas sleep for up to 20 hours a day.", "ja": "コアラは1日に最大20時間眠る。" },
+    "example": { "en": "Koalas sleep about 20 hours a day.", "ja": "コアラは1日に約20時間眠る。" },
     "etymology": {
       "origin": "オーストラリア先住民の言語（ダルグ語 gula など）",
       "story": "先住民の言葉が英語風のつづりになった。「水を飲まない」という意味だとよく言われるが、根拠は薄いとされる。クマ（bear）ではなく有袋類。"
@@ -9730,7 +9730,7 @@
     "scene": "「トイレどこですか？」",
     "gap": "「トイレはどこですか」をアメリカで Where's the toilet? と聞くと「便器はどこ？」のように聞こえ、やや直接的。bathroom / restroom を使うのが自然（イギリスでは toilet / loo も一般的）。",
     "trapQuiz": {"question": "アメリカのレストランで「トイレはどこですか？」と上品に聞くなら？", "answer": "Where's the restroom?", "wrong": ["Where's the toilet room?", "Where's the WC toilet?", "Where's the bath?"]},
-    "example": { "en": "Excuse me, where's the restroom?", "ja": "すみません、お手洗いはどこですか？" },
+    "example": { "en": "Excuse me, where is the toilet?", "ja": "すみません、トイレはどこですか？" },
     "etymology": {
       "origin": "フランス語 toilette「小さな布（身支度用の布）」← toile「布」",
       "story": "身支度の布 → 身支度そのもの → 身支度をする部屋 → 便所、と意味が移った。今でも eau de toilette（オードトワレ）に「身支度」の意味が残る。"
@@ -9778,7 +9778,7 @@
     "id": "tape", "word": "tape", "katakana": "テープ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "テープ",
     "scene": "セロハンテープ、ガムテープ。",
-    "example": { "en": "I fixed the box with tape.", "ja": "箱をテープで留めた。" },
+    "example": { "en": "I closed the box with tape.", "ja": "箱をテープで閉じた。" },
     "etymology": {
       "origin": "古英語 tæppe「細長い布」",
       "story": "もとは布の細長いひも。録音用の磁気テープ、ゴールのテープなど「細長い帯」全般に。「ガムテープ」は和製英語で、英語では packing tape / duct tape。"
@@ -9794,7 +9794,7 @@
     "id": "hat", "word": "hat", "katakana": "ハット", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "（つばのある）帽子",
     "scene": "麦わら帽子（straw hat）、シルクハット。",
-    "example": { "en": "He took off his hat.", "ja": "彼は帽子をぬいだ。" },
+    "example": { "en": "He always wears a hat.", "ja": "彼はいつも帽子をかぶっている。" },
     "etymology": {
       "origin": "古英語 hætt ← ゲルマン祖語 *hattuz「頭をおおうもの」",
       "story": "hood（フード）と同じ語根。I take my hat off to you.（あなたに脱帽です）は「敬服します」。"
@@ -9842,7 +9842,7 @@
     "id": "belt", "word": "belt", "katakana": "ベルト", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "ベルト、帯",
     "scene": "シートベルト、ベルトコンベア。",
-    "example": { "en": "Fasten your seat belt.", "ja": "シートベルトを締めてください。" },
+    "example": { "en": "Wear your seat belt in the car.", "ja": "車ではシートベルトをしめて。" },
     "etymology": {
       "origin": "古英語 belt ← ラテン語 balteus「剣をつるす帯」",
       "story": "帯状の地域も belt（the Corn Belt「トウモロコシ地帯」）。柔道などの黒帯は black belt。"
@@ -10178,7 +10178,7 @@
     "id": "snow", "word": "snow", "katakana": "スノー", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "雪（が降る）",
     "scene": "スノーボード、スノーマン。",
-    "example": { "en": "It snowed a lot last night.", "ja": "昨夜は雪がたくさん降った。" },
+    "example": { "en": "The children are playing in the snow.", "ja": "子どもたちが雪の中で遊んでいる。" },
     "etymology": {
       "origin": "古英語 snāw ← 印欧祖語 *snóygʷʰos",
       "story": "ラテン語 nix（雪）とも同じ祖先。snowman は雪だるま。"
@@ -10226,7 +10226,7 @@
     "id": "fire", "word": "fire", "katakana": "ファイア", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "火、火事",
     "scene": "キャンプファイア、ファイアーワークス（花火）。",
-    "example": { "en": "The firefighters put out the fire.", "ja": "消防士が火を消した。" },
+    "example": { "en": "Don't play with fire.", "ja": "火遊びをしてはいけない。" },
     "etymology": {
       "origin": "古英語 fȳr ← 印欧祖語 *péh₂wr̥",
       "story": "ギリシャ語 pyr（火）と同じ祖先で、pyrotechnics（花火術）もその仲間。動詞 fire は「発射する」「クビにする」。"
@@ -10276,7 +10276,7 @@
     "scene": "シルバーアクセ、シルバーシート（和製英語）。",
     "gap": "「シルバーシート」「シルバー世代」のように「高齢者」の意味で silver を使うのは和製の用法。優先席は priority seat、高齢者は seniors / older people。",
     "trapQuiz": {"question": "電車の「シルバーシート（優先席）」を英語でいうと？", "answer": "priority seat", "wrong": ["silver seat", "senior silver", "gray seat"]},
-    "example": { "en": "Her hair turned silver.", "ja": "彼女の髪は銀色になった。" },
+    "example": { "en": "She has a silver ring.", "ja": "彼女は銀の指輪を持っている。" },
     "etymology": {
       "origin": "古英語 seolfor（ゲルマン語、さらに古い由来は不明）",
       "story": "silverware は銀の食器（今はナイフ・フォーク類全般）。silver lining（雲の銀のふち）は「希望の兆し」。"
@@ -10292,7 +10292,7 @@
     "id": "king", "word": "king", "katakana": "キング", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "王",
     "scene": "キングサイズ、トランプのキング。",
-    "example": { "en": "The king lived in a large castle.", "ja": "王は大きな城に住んでいた。" },
+    "example": { "en": "The king lives in a big castle.", "ja": "王は大きな城に住んでいる。" },
     "etymology": {
       "origin": "古英語 cyning ← ゲルマン祖語 *kuningaz「一族（kin）の長」",
       "story": "kin（親族）と同じ語根とされ、「一族を代表する者」。kingdom は「王国」。"
@@ -10308,7 +10308,7 @@
     "id": "queen", "word": "queen", "katakana": "クイーン", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "女王、王妃",
     "scene": "クイーンサイズ、トランプのクイーン。",
-    "example": { "en": "The queen waved to the crowd.", "ja": "女王は群衆に手を振った。" },
+    "example": { "en": "The queen is waving to the people.", "ja": "女王が人々に手を振っている。" },
     "etymology": {
       "origin": "古英語 cwēn「王の妻、女性」← 印欧祖語 *gʷḗn「女性」",
       "story": "ギリシャ語 gynē（女性：gynecology 婦人科）と同じ祖先。女王バチも queen bee。"
@@ -10602,7 +10602,7 @@
     "id": "kick", "word": "kick", "katakana": "キック", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
     "meaning": "ける",
     "scene": "キックボード、フリーキック。",
-    "example": { "en": "He kicked the ball into the goal.", "ja": "彼はボールをけってゴールに入れた。" },
+    "example": { "en": "He can kick the ball very far.", "ja": "彼はボールをとても遠くまでけることができる。" },
     "etymology": {
       "origin": "中英語 kiken（語源は不明）",
       "story": "kick off（試合を始める）から、kickoff（キックオフ）は「開始」の意味に。"
@@ -10634,7 +10634,7 @@
     "id": "dash", "word": "dash", "katakana": "ダッシュ", "pos": "名詞・動詞", "cefr": "B1", "level": 3,
     "meaning": "突進（する）、ダッシュ記号（—）",
     "scene": "「ダッシュで帰る」、スタートダッシュ。",
-    "example": { "en": "I have to dash. See you!", "ja": "急がなくちゃ。またね！" },
+    "example": { "en": "He dashed to the station.", "ja": "彼は駅まで走っていった。" },
     "etymology": {
       "origin": "中英語 dasshen「強く打つ」（北欧語起源とされる）",
       "story": "「勢いよくぶつける」→ 勢いよく走る。記号の「—」も dash。"
@@ -10666,7 +10666,7 @@
     "id": "rose", "word": "rose", "katakana": "ローズ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "バラ",
     "scene": "ローズティー、赤いバラ。",
-    "example": { "en": "He gave her a dozen red roses.", "ja": "彼は彼女に赤いバラを12本贈った。" },
+    "example": { "en": "These red roses are for you.", "ja": "この赤いバラをあなたに。" },
     "etymology": {
       "origin": "古英語 rōse ← ラテン語 rosa",
       "story": "色の名前（バラ色）にもなる。Every rose has its thorn.（どんなバラにもとげがある）は「完全なものはない」ということわざ。"
@@ -10682,7 +10682,7 @@
     "id": "tulip", "word": "tulip", "katakana": "チューリップ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "チューリップ",
     "scene": "チューリップ畑、オランダの花。",
-    "example": { "en": "Tulips bloom in spring.", "ja": "チューリップは春に咲く。" },
+    "example": { "en": "We have red tulips in our garden.", "ja": "うちの庭には赤いチューリップがある。" },
     "etymology": {
       "origin": "トルコ語 tülbent「ターバン」← ペルシャ語 dulband",
       "story": "花の形がターバンに似ていることから。17世紀のオランダでは球根の値段が高騰する「チューリップ・バブル」が起きた。"
@@ -10698,7 +10698,7 @@
     "id": "potato", "word": "potato", "katakana": "ポテト", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "じゃがいも",
     "scene": "フライドポテト（英語は fries）、ポテトチップス。",
-    "example": { "en": "I'll have fries with my burger.", "ja": "バーガーにはポテトをつけてください。" },
+    "example": { "en": "We grow potatoes on our farm.", "ja": "私たちは畑でじゃがいもを育てている。" },
     "etymology": {
       "origin": "スペイン語 patata ← タイノ語 batata「さつまいも」",
       "story": "もとはカリブの言葉で「さつまいも」。のちにじゃがいもを指すようになった。「フライドポテト」は英語では French fries（米）/ chips（英）。"
@@ -10730,7 +10730,7 @@
     "id": "corn", "word": "corn", "katakana": "コーン", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "（米）とうもろこし、（英）穀物",
     "scene": "コーンスープ、ポップコーン、コーンフレーク。",
-    "example": { "en": "We had grilled corn at the festival.", "ja": "お祭りで焼きとうもろこしを食べた。" },
+    "example": { "en": "We ate grilled corn at the festival.", "ja": "お祭りで焼きとうもろこしを食べた。" },
     "etymology": {
       "origin": "古英語 corn「穀物の粒」",
       "story": "もとは麦など穀物全般の「粒」。アメリカではとうもろこし（Indian corn）を指すようになった。アイスの「コーン」は cone（円すい）で別の語。"
@@ -10842,7 +10842,7 @@
     "id": "cabbage", "word": "cabbage", "katakana": "キャベツ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "キャベツ",
     "scene": "千切りキャベツ、ロールキャベツ。",
-    "example": { "en": "I shredded some cabbage for the salad.", "ja": "サラダ用にキャベツを千切りにした。" },
+    "example": { "en": "I cut some cabbage for the salad.", "ja": "サラダ用にキャベツを切った。" },
     "etymology": {
       "origin": "古北フランス語 caboche「頭」",
       "story": "丸い形を「頭」にたとえた。日本語の「キャベツ」は複数形 cabbages が聞き取られたものとされる。"
@@ -10874,7 +10874,7 @@
     "id": "pumpkin", "word": "pumpkin", "katakana": "パンプキン", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "かぼちゃ",
     "scene": "パンプキンパイ、ハロウィンのかぼちゃ。",
-    "example": { "en": "We carved a face into a pumpkin.", "ja": "かぼちゃに顔をくりぬいた。" },
+    "example": { "en": "We made a face on a pumpkin for Halloween.", "ja": "ハロウィンのためにかぼちゃに顔を作った。" },
     "etymology": {
       "origin": "フランス語 pompon ← ギリシャ語 pepōn「熟したうり」",
       "story": "語尾が英語で -kin（小さいもの）に変わった。英語の pumpkin はふつうオレンジ色の西洋かぼちゃ。日本のかぼちゃは kabocha squash とも言う。"
@@ -11066,7 +11066,7 @@
     "id": "cocoa", "word": "cocoa", "katakana": "ココア", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "ココア",
     "scene": "ホットココア、ココアパウダー。",
-    "example": { "en": "A cup of hot cocoa warms you up.", "ja": "温かいココアを飲むと体が温まる。" },
+    "example": { "en": "I drink hot cocoa on cold days.", "ja": "寒い日には温かいココアを飲む。" },
     "etymology": {
       "origin": "cacao のつづりが変わったもの ← ナワトル語 cacahuatl",
       "story": "18世紀にココヤシ（coconut）と混同されて cocoa というつづりになったとされる。chocolate と同じアステカの言葉から。"
@@ -11082,7 +11082,7 @@
     "id": "kangaroo", "word": "kangaroo", "katakana": "カンガルー", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "カンガルー",
     "scene": "オーストラリアのカンガルー。",
-    "example": { "en": "Kangaroos carry their babies in a pouch.", "ja": "カンガルーは袋に子どもを入れて運ぶ。" },
+    "example": { "en": "Kangaroos can jump very high.", "ja": "カンガルーはとても高く跳べる。" },
     "etymology": {
       "origin": "オーストラリア先住民のグーグ・イミディル語 gangurru",
       "story": "「わからない」という意味だという話が有名だが、これは俗説。実際はこの言語で大型のカンガルーの一種を指す語だったと確認されている。"
@@ -11210,7 +11210,7 @@
     "id": "cushion", "word": "cushion", "katakana": "クッション", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "クッション",
     "scene": "ソファのクッション、衝撃をやわらげるクッション材。",
-    "example": { "en": "She leaned back against the cushion.", "ja": "彼女はクッションにもたれた。" },
+    "example": { "en": "She sat on a big cushion.", "ja": "彼女は大きなクッションに座った。" },
     "etymology": {
       "origin": "古フランス語 coissin ← 俗ラテン語 coxīnum「腰を置くもの」← coxa「腰」",
       "story": "「腰の下に置くもの」が原義。動詞 cushion は「衝撃をやわらげる」。"
@@ -11294,7 +11294,7 @@
     "scene": "「スーパーで買い物」。",
     "gap": "日本語の「スーパー」は supermarket の略だが、英語で super だけでは「すごい、超〜」の意味になる。お店なら supermarket / grocery store。",
     "trapQuiz": {"question": "「スーパーに行ってくる」を英語でいうと？", "answer": "I'm going to the supermarket.", "wrong": ["I'm going to the super.", "I'm going to super shop.", "I'm going to the supper."]},
-    "example": { "en": "I buy groceries at the supermarket.", "ja": "スーパーで食料品を買う。" },
+    "example": { "en": "I buy food at the supermarket.", "ja": "私はスーパーで食べ物を買う。" },
     "etymology": {
       "origin": "super-「上の、超えた」+ market「市場」（1930年代アメリカ）",
       "story": "「超・市場」。セルフサービスの大型食料品店として広まった。"
@@ -11550,7 +11550,7 @@
     "id": "nurse", "word": "nurse", "katakana": "ナース", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "看護師",
     "scene": "ナースコール、ナースステーション。",
-    "example": { "en": "The nurse took my temperature.", "ja": "看護師さんが体温を測ってくれた。" },
+    "example": { "en": "My aunt is a nurse at a hospital.", "ja": "おばは病院の看護師だ。" },
     "etymology": {
       "origin": "古フランス語 norrice「乳母」← ラテン語 nūtrīre「養う」",
       "story": "もとは赤ちゃんに乳を与えて育てる「乳母」。そこから病人の世話をする人に。nutrition（栄養）、nourish（養う）も同じ家族。"
@@ -11566,7 +11566,7 @@
     "id": "chef", "word": "chef", "katakana": "シェフ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "料理長、シェフ",
     "scene": "三つ星シェフ、シェフのおすすめ。",
-    "example": { "en": "The chef recommended the fish.", "ja": "シェフは魚料理をすすめた。" },
+    "example": { "en": "The chef made a special dinner for us.", "ja": "シェフは私たちのために特別な夕食を作った。" },
     "etymology": {
       "origin": "フランス語 chef「長、かしら」← ラテン語 caput「頭」",
       "story": "chef de cuisine（台所の長）の略。chief（長）、captain と同じ caput「頭」の家族。"
@@ -11584,7 +11584,7 @@
     "scene": "タクシードライバー、プリンタードライバー。",
     "gap": "ねじを回す工具の「ドライバー」は英語では screwdriver。driver だけだとふつう「運転手」。",
     "trapQuiz": {"question": "ねじを回す工具の「ドライバー」を英語でいうと？", "answer": "screwdriver", "wrong": ["driver", "screw driver car", "turn driver"]},
-    "example": { "en": "The taxi driver knew a shortcut.", "ja": "タクシーの運転手は近道を知っていた。" },
+    "example": { "en": "My uncle is a taxi driver.", "ja": "おじはタクシーの運転手だ。" },
     "etymology": {
       "origin": "drive「追い立てる、運転する」+ -er ← 古英語 drīfan",
       "story": "家畜を「追い立てる人」→ 運転手。ソフトウェアのドライバーは機器を「動かすもの」。"
@@ -11600,7 +11600,7 @@
     "id": "singer", "word": "singer", "katakana": "シンガー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "歌手",
     "scene": "シンガーソングライター。",
-    "example": { "en": "She wants to be a singer.", "ja": "彼女は歌手になりたい。" },
+    "example": { "en": "She is a famous singer.", "ja": "彼女は有名な歌手だ。" },
     "etymology": {
       "origin": "sing「歌う」+ -er",
       "story": "singer-songwriter は「自分で曲を作って歌う人」。"
@@ -11618,7 +11618,7 @@
     "scene": "フリーWi-Fi、バリアフリー、フリーター（和製）。",
     "gap": "「フリーサイズ」「フリーダイヤル」は和製英語で、英語では one size fits all / toll-free number。英語の free は「自由な・無料の・〜のない（sugar-free）」。",
     "trapQuiz": {"question": "服の「フリーサイズ」を英語でいうと？", "answer": "one size fits all", "wrong": ["free size", "any size free", "size-free"]},
-    "example": { "en": "Admission is free for children.", "ja": "子どもの入場は無料です。" },
+    "example": { "en": "Are you free this afternoon?", "ja": "今日の午後はひま？" },
     "etymology": {
       "origin": "古英語 frēo「自由な」← ゲルマン祖語 *frijaz「愛される」",
       "story": "もとは「愛される家族の一員」＝奴隷ではない人。friend（友だち）と同じ語根。"
@@ -11796,7 +11796,7 @@
     "id": "sticker", "word": "sticker", "katakana": "ステッカー", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "ステッカー、シール",
     "scene": "車のステッカー、LINEのスタンプ（英語では sticker）。",
-    "example": { "en": "My laptop is covered in stickers.", "ja": "私のノートパソコンはシールだらけだ。" },
+    "example": { "en": "There are many stickers on my laptop.", "ja": "私のノートパソコンにはシールがたくさん貼ってある。" },
     "etymology": {
       "origin": "stick「貼りつける」+ -er",
       "story": "日本語の「シール」や「スタンプ」は英語では sticker と言う。"
@@ -12374,7 +12374,7 @@
     "id": "training", "word": "training", "katakana": "トレーニング", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "訓練、トレーニング",
     "scene": "筋トレ、研修（トレーニング）。",
-    "example": { "en": "New employees get two weeks of training.", "ja": "新入社員は2週間の研修を受ける。" },
+    "example": { "en": "Our team does training every morning.", "ja": "私たちのチームは毎朝トレーニングをする。" },
     "etymology": {
       "origin": "train「訓練する」+ -ing ← 古フランス語 trahiner「引く」",
       "story": "植物の枝を「引っぱって」形を整えることから「鍛える」に。train（列車）と同じ語。"
@@ -12824,7 +12824,7 @@
     "id": "surprise", "word": "surprise", "katakana": "サプライズ", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
     "meaning": "驚き、驚かせる",
     "scene": "サプライズパーティー、サプライズプレゼント。",
-    "example": { "en": "We threw her a surprise party.", "ja": "彼女のためにサプライズパーティーを開いた。" },
+    "example": { "en": "We had a surprise party for her.", "ja": "私たちは彼女のためにサプライズパーティーを開いた。" },
     "etymology": {
       "origin": "古フランス語 surprise「不意につかまえること」← sur-「上から」+ prendre「つかむ」",
       "story": "「上から不意につかむ」。prison（牢獄）、comprehend（理解する）も prendre（ラテン語 prehendere）の家族。"
@@ -12840,7 +12840,7 @@
     "id": "balloon", "word": "balloon", "katakana": "バルーン", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "風船、気球",
     "scene": "風船、熱気球（hot-air balloon）。",
-    "example": { "en": "The child let go of her balloon.", "ja": "子どもが風船を放してしまった。" },
+    "example": { "en": "Her red balloon flew up into the sky.", "ja": "彼女の赤い風船が空に飛んでいった。" },
     "etymology": {
       "origin": "イタリア語 ballone「大きな球」← balla「球」",
       "story": "「大きな球」。ball と同じ語根。"
@@ -12954,7 +12954,7 @@
     "id": "store", "word": "store", "katakana": "ストア", "pos": "名詞・動詞", "cefr": "A1", "level": 2,
     "meaning": "店、たくわえる",
     "scene": "アップストア、ストアの営業時間。",
-    "example": { "en": "I stored the photos on my computer.", "ja": "写真をパソコンに保存した。" },
+    "example": { "en": "I bought this bag at that store.", "ja": "このかばんはあの店で買った。" },
     "etymology": {
       "origin": "古フランス語 estor「たくわえ」← ラテン語 instaurāre「備える」",
       "story": "「たくわえ」→ たくわえた物を売る所＝店。storage（保管）も同じ語。"
@@ -13550,7 +13550,7 @@
     "id": "cloud", "word": "cloud", "katakana": "クラウド", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "雲、クラウド（ネット上の保存先）",
     "scene": "クラウドに保存、クラウドファンディング（crowd）。",
-    "example": { "en": "I back up my photos to the cloud.", "ja": "写真をクラウドにバックアップしている。" },
+    "example": { "en": "There are no clouds in the sky today.", "ja": "今日は空に雲がひとつもない。" },
     "etymology": {
       "origin": "古英語 clūd「岩のかたまり、丘」",
       "story": "もとは「岩のかたまり」で、もくもくした形から「雲」に。ネット上のサーバー群を雲にたとえて the cloud。「クラウドファンディング」の crowd（群衆）は別の語。"
@@ -13856,7 +13856,7 @@
     "id": "count", "word": "count", "katakana": "カウント", "pos": "動詞・名詞", "cefr": "A2", "level": 3,
     "meaning": "数える、重要である、伯爵",
     "scene": "カウントダウン、ボールカウント。",
-    "example": { "en": "Every vote counts.", "ja": "一票一票が大切だ。" },
+    "example": { "en": "Count to ten slowly.", "ja": "ゆっくり10まで数えて。" },
     "etymology": {
       "origin": "古フランス語 conter ← ラテン語 computāre「計算する」",
       "story": "computer、account と同じ家族。「伯爵」の count は別語源（ラテン語 comes「仲間」）。"
@@ -15150,7 +15150,7 @@
     "id": "magazine", "word": "magazine", "katakana": "マガジン", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "雑誌、弾倉",
     "scene": "ファッション雑誌、週刊誌。",
-    "example": { "en": "I read a fashion magazine at the salon.", "ja": "美容院でファッション雑誌を読んだ。" },
+    "example": { "en": "I read a fashion magazine every month.", "ja": "私は毎月ファッション雑誌を読む。" },
     "etymology": {
       "origin": "フランス語 magasin「倉庫」← アラビア語 makhāzin「倉庫（複数）」",
       "story": "「倉庫」→ 情報をたくさん「蓄えた」冊子。銃の弾倉の意味もある。フランス語の magasin は「店」。"
@@ -15232,7 +15232,7 @@
     "id": "leader", "word": "leader", "katakana": "リーダー", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "指導者、リーダー",
     "scene": "チームリーダー、世界のリーダー。",
-    "example": { "en": "She is a natural leader.", "ja": "彼女は生まれながらのリーダーだ。" },
+    "example": { "en": "She is the leader of our team.", "ja": "彼女は私たちのチームのリーダーだ。" },
     "etymology": {
       "origin": "lead「導く」+ -er ← 古英語 lǣdan",
       "story": "「先に立って導く人」。「リーダー（読本）」は reader で別の語。"
@@ -15956,7 +15956,7 @@
     "id": "business", "word": "business", "katakana": "ビジネス", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "商売、仕事、用事",
     "scene": "ビジネスマン、ビジネスクラス。",
-    "example": { "en": "It's none of your business.", "ja": "きみには関係ないことだ。" },
+    "example": { "en": "My father went to China on business.", "ja": "父は仕事で中国に行った。" },
     "etymology": {
       "origin": "古英語 bisignes「忙しさ」← bisig「忙しい」",
       "story": "busy（忙しい）+ -ness。「忙しくしていること」→ 仕事 → 商売。Mind your own business.（余計なお世話）も「自分の用事を気にしろ」。"
@@ -22304,7 +22304,7 @@
     "id": "salmon", "word": "salmon", "katakana": "サーモン", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "サケ",
     "scene": "サーモンの寿司、スモークサーモン。",
-    "example": { "en": "I had grilled salmon for dinner.", "ja": "夕食に焼き鮭を食べた。" },
+    "example": { "en": "I ate grilled salmon for dinner.", "ja": "夕食に焼き鮭を食べた。" },
     "etymology": {
       "origin": "古フランス語 saumon ← ラテン語 salmō（salīre「跳ぶ」とする説）",
       "story": "滝をさかのぼって「跳ねる魚」という説がある。l を発音しないのはフランス語経由のなごり（ラテン語をまねて後からつづりに戻した）。"
@@ -22354,7 +22354,7 @@
     "scene": "大型トラック、キッチンカー（food truck）。",
     "gap": "陸上競技の「トラック（走路）」は track で別の語。truck は「貨物自動車」。",
     "trapQuiz": {"question": "陸上競技場で走る「トラック」を英語でいうと？", "answer": "track", "wrong": ["truck", "trackk", "run truck"]},
-    "example": { "en": "A big truck was parked outside.", "ja": "外に大きなトラックがとまっていた。" },
+    "example": { "en": "A big truck stopped in front of my house.", "ja": "大きなトラックが家の前にとまった。" },
     "etymology": {
       "origin": "ギリシャ語 trokhos「車輪」← trekhein「走る」",
       "story": "もとは「小さな車輪」。イギリスでは lorry とも言う。food truck は移動販売車。"
@@ -22580,7 +22580,7 @@
     "id": "boxing", "word": "boxing", "katakana": "ボクシング", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "ボクシング",
     "scene": "ボクシングジム、世界チャンピオン。",
-    "example": { "en": "He trains in boxing every day.", "ja": "彼は毎日ボクシングの練習をしている。" },
+    "example": { "en": "He practices boxing every day.", "ja": "彼は毎日ボクシングを練習している。" },
     "etymology": {
       "origin": "box「殴る」+ -ing（中英語 box「打撃」、語源は不明）",
       "story": "箱の box とは別の語。Boxing Day（12月26日）の box は「贈り物の箱」から。"
@@ -23134,7 +23134,7 @@
     "id": "wolf", "word": "wolf", "katakana": "ウルフ", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "オオカミ",
     "scene": "序盤のフィールドで群れで出てくる定番モンスター。「ウルフカット」も。",
-    "example": { "en": "We heard a wolf howling at night.", "ja": "夜にオオカミの遠ぼえが聞こえた。" },
+    "example": { "en": "Wolves live in groups.", "ja": "オオカミは群れで暮らす。" },
     "etymology": {
       "origin": "古英語 wulf ← ゲルマン祖語 *wulfaz",
       "story": "複数形は wolves。ラテン語 lupus（オオカミ）とも遠い親戚で、lupine（オオカミのような）はそちらから。"
@@ -24341,7 +24341,7 @@
     "id": "thunder", "word": "thunder", "katakana": "サンダー", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "雷（の音）、雷鳴",
     "scene": "雷属性の魔法の基本。「サンダー」「サンダガ」などの呪文名に。",
-    "example": { "en": "The thunder was so loud that the dog hid under the bed.", "ja": "雷がとても大きくて、犬はベッドの下に隠れた。" },
+    "example": { "en": "The dog was afraid of the thunder.", "ja": "犬は雷をこわがっていた。" },
     "etymology": {
       "origin": "古英語 thunor",
       "story": "北欧神話の雷神トール（Thor）と同じ語源。Thursday（木曜日）は「トールの日」。"
@@ -26300,7 +26300,7 @@
     "id": "owl", "word": "owl", "katakana": "アウル", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "フクロウ",
     "scene": "夜の森の敵や、知恵のある案内役。night owl は「夜型の人」。",
-    "example": { "en": "I'm a night owl, so I work best at night.", "ja": "私は夜型なので夜のほうが仕事がはかどる。" },
+    "example": { "en": "Owls can see well at night.", "ja": "フクロウは夜でもよく見える。" },
     "etymology": {
       "origin": "古英語 ūle",
       "story": "鳴き声「ウー」をまねた語とされる。ギリシャ神話では知恵の女神アテナの鳥。"
@@ -26368,7 +26368,7 @@
     "id": "crab", "word": "crab", "katakana": "クラブ", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "カニ",
     "scene": "かたい甲羅とはさみの敵。クラブ（club）とはつづりも発音も違う。",
-    "example": { "en": "A crab walked sideways on the beach.", "ja": "浜辺でカニが横歩きしていた。" },
+    "example": { "en": "We found a small crab on the beach.", "ja": "浜辺で小さなカニを見つけた。" },
     "etymology": {
       "origin": "古英語 crabba",
       "story": "「引っかく」を意味するゲルマン語の語根から。星座のかに座は Cancer。"
@@ -26726,7 +26726,7 @@
     "id": "experience", "word": "experience", "katakana": "エクスペリエンス", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "経験",
     "scene": "敵を倒すともらえる「経験値（EXP）」。",
-    "example": { "en": "I got a lot of experience points from the boss.", "ja": "ボスからたくさん経験値をもらった。" },
+    "example": { "en": "Working abroad was a great experience.", "ja": "海外で働いたのはすばらしい経験だった。" },
     "etymology": {
       "origin": "ラテン語 experientia「試すこと」← experīrī「試す」",
       "story": "experiment（実験）、expert（専門家＝試した人）と同じ語源。"
@@ -27477,7 +27477,7 @@
     "id": "road", "word": "road", "katakana": "ロード", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "道路",
     "scene": "「ロードバイク」「ロードマップ」。load（荷物）も同じ「ロード」。",
-    "example": { "en": "Be careful when you cross the road.", "ja": "道路を渡るときは気をつけて。" },
+    "example": { "en": "This road is very busy.", "ja": "この道路はとても混んでいる。" },
     "etymology": {
       "origin": "古英語 rād「馬で行くこと」",
       "story": "ride（乗る）、raid（襲撃）と同じ語源。「馬で行く道」。"
@@ -27751,7 +27751,7 @@
     "id": "sea", "word": "sea", "katakana": "シー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "海",
     "scene": "「シーフード」「シーサーペント（海蛇）」。see（見る）も同じ「シー」。",
-    "example": { "en": "We swam in the sea.", "ja": "私たちは海で泳いだ。" },
+    "example": { "en": "We swim in the sea every summer.", "ja": "私たちは毎年夏に海で泳ぐ。" },
     "etymology": {
       "origin": "古英語 sǣ",
       "story": "ゲルマン語の古い語。ocean は大洋、sea はより小さな海や「海」一般。"
@@ -27819,7 +27819,7 @@
     "id": "think", "word": "think", "katakana": "シンク", "pos": "動詞", "cefr": "A1", "level": 1,
     "meaning": "考える、思う",
     "scene": "「シンクタンク（think tank）」。th は舌先を歯ではさむ音。sink とちがう。",
-    "example": { "en": "I think you are right.", "ja": "あなたは正しいと思う。" },
+    "example": { "en": "I think so, too.", "ja": "私もそう思う。" },
     "etymology": {
       "origin": "古英語 thencan",
       "story": "過去形 thought。thank（感謝する）ももとは「思う」と同じ語根。"
@@ -27888,7 +27888,7 @@
     "id": "work", "word": "work", "katakana": "ワーク", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
     "meaning": "働く、うまくいく／仕事、作品",
     "scene": "「ワークショップ」「チームワーク」。walk（歩く）と母音がちがう。",
-    "example": { "en": "My plan worked!", "ja": "私の計画はうまくいった！" },
+    "example": { "en": "I work at a cafe on weekends.", "ja": "私は週末にカフェで働いている。" },
     "etymology": {
       "origin": "古英語 weorc",
       "story": "energy（エネルギー）のギリシャ語 érgon と同じ印欧語の語根。「うまく働く」から「うまくいく」。"
@@ -28126,7 +28126,7 @@
     "id": "read", "word": "read", "katakana": "リード", "pos": "動詞", "cefr": "A1", "level": 1,
     "meaning": "読む",
     "scene": "「リーダー（reader、読む人）」。lead（導く）も同じ「リード」なので R の音に注意。",
-    "example": { "en": "I like to read before bed.", "ja": "寝る前に本を読むのが好きだ。" },
+    "example": { "en": "I read a book before bed.", "ja": "私は寝る前に本を読む。" },
     "etymology": {
       "origin": "古英語 rǣdan「助言する、解き明かす」",
       "story": "もとは「なぞを解き明かす」こと。過去形も read（発音はレッド）。riddle（なぞなぞ）と同じ語源。"
@@ -28143,7 +28143,7 @@
     "id": "see", "word": "see", "katakana": "シー", "pos": "動詞", "cefr": "A1", "level": 1,
     "meaning": "見る、見える、わかる、会う",
     "scene": "「シースルー（see-through）」。sea（海）も同じ「シー」。",
-    "example": { "en": "I see what you mean.", "ja": "言いたいことはわかるよ。" },
+    "example": { "en": "I can see Mt. Fuji from here.", "ja": "ここから富士山が見える。" },
     "etymology": {
       "origin": "古英語 sēon",
       "story": "過去形 saw、過去分詞 seen。I see.（なるほど）のように「わかる」の意味でもよく使う。"
@@ -28466,7 +28466,7 @@
     "id": "pin", "word": "pin", "katakana": "ピン", "pos": "名詞・動詞", "cefr": "A2", "level": 2,
     "meaning": "ピン、留め針、（ピンで）留める",
     "scene": "ヘアピン、画びょう、地図アプリの「ピン」。",
-    "example": { "en": "She pinned the map to the wall.", "ja": "彼女は地図を壁にピンで留めた。" },
+    "example": { "en": "She put a pin in the map.", "ja": "彼女は地図にピンを刺した。" },
     "etymology": {
       "origin": "古英語 pinn「くぎ、留め具」← ラテン語 pinna「羽根、先端」",
       "story": "「先のとがったもの」が核の意味。ボウリングのピンや、SNS で投稿を「ピン留め」するのもこの語。"
@@ -28500,7 +28500,7 @@
     "id": "chicken", "word": "chicken", "katakana": "チキン", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "鶏、鶏肉",
     "scene": "フライドチキン、チキンカレー。",
-    "example": { "en": "We had grilled chicken for lunch.", "ja": "昼食にグリルチキンを食べた。" },
+    "example": { "en": "We are having chicken for lunch.", "ja": "お昼はチキンだ。" },
     "etymology": {
       "origin": "古英語 cicen「ひな鳥」",
       "story": "もとは「ひよこ」。俗語で「臆病者」の意味もあり、You're chicken! は「弱虫！」。"
@@ -28517,7 +28517,7 @@
     "id": "beef", "word": "beef", "katakana": "ビーフ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "牛肉",
     "scene": "ビーフカレー、ローストビーフ。",
-    "example": { "en": "This beef is very tender.", "ja": "この牛肉はとてもやわらかい。" },
+    "example": { "en": "I like beef more than chicken.", "ja": "私は鶏肉より牛肉が好きだ。" },
     "etymology": {
       "origin": "古フランス語 boef「牛」← ラテン語 bōs",
       "story": "生きている牛は英語本来の cow / ox、料理になるとフランス語由来の beef。ノルマン人の支配者が肉を食べ、英国人の農民が牛を育てた名残といわれる。pork（豚）・mutton（羊）も同じパターン。"
@@ -28602,7 +28602,7 @@
     "id": "pipe", "word": "pipe", "katakana": "パイプ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "管、パイプ、（たばこの）パイプ",
     "scene": "水道管、パイプいす、パイプオルガン。",
-    "example": { "en": "A water pipe burst in the kitchen.", "ja": "台所の水道管が破裂した。" },
+    "example": { "en": "The water pipe in the kitchen broke.", "ja": "台所の水道管が壊れた。" },
     "etymology": {
       "origin": "古英語 pīpe「笛」← ラテン語 pīpāre「ピーピー鳴く」",
       "story": "もとは「笛」。音を出す管 → 管全般、へ。bagpipe（バグパイプ）は「袋のついた笛」。"
@@ -28619,7 +28619,7 @@
     "id": "rope", "word": "rope", "katakana": "ロープ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "綱、ロープ",
     "scene": "縄跳び（jump rope）、登山用ロープ。",
-    "example": { "en": "He climbed down the cliff with a rope.", "ja": "彼はロープでがけを降りた。" },
+    "example": { "en": "He climbed the tree with a rope.", "ja": "彼はロープを使って木に登った。" },
     "etymology": {
       "origin": "古英語 rāp",
       "story": "know the ropes は「（帆船の綱の扱いを知っている →）仕事のコツを知っている」。"
@@ -28670,7 +28670,7 @@
     "id": "skin", "word": "skin", "katakana": "スキン", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "皮膚、肌、（果物の）皮",
     "scene": "スキンケア、ゲームの「スキン」（見た目の着せかえ）。",
-    "example": { "en": "Wear sunscreen to protect your skin.", "ja": "肌を守るために日焼け止めを塗って。" },
+    "example": { "en": "Wear a hat to protect your skin.", "ja": "肌を守るために帽子をかぶって。" },
     "etymology": {
       "origin": "古ノルド語 skinn",
       "story": "北欧のバイキングが持ち込んだ語。英語本来の hide（獣の皮）と使い分けられるようになった。"
@@ -28738,7 +28738,7 @@
     "id": "peanut", "word": "peanut", "katakana": "ピーナッツ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "ピーナッツ、落花生",
     "scene": "ピーナッツバター、柿ピー。",
-    "example": { "en": "I'm allergic to peanuts.", "ja": "ピーナッツのアレルギーがあります。" },
+    "example": { "en": "My brother can't eat peanuts.", "ja": "弟はピーナッツが食べられない。" },
     "etymology": {
       "origin": "pea「豆」+ nut「木の実」",
       "story": "実は木の実ではなく豆の仲間なので pea（エンドウ豆）がつく。「わずかなお金」の意味で for peanuts（はした金で）とも言う。"
@@ -28772,7 +28772,7 @@
     "id": "parsley", "word": "parsley", "katakana": "パセリ", "pos": "名詞", "cefr": "B1", "level": 3,
     "meaning": "パセリ",
     "scene": "お皿の端の飾り、パセリのみじん切り。",
-    "example": { "en": "Sprinkle some chopped parsley on the soup.", "ja": "スープに刻んだパセリを散らして。" },
+    "example": { "en": "Put some parsley on the soup.", "ja": "スープにパセリをのせて。" },
     "etymology": {
       "origin": "ギリシャ語 petroselinon ← petra「岩」+ selinon「セリ」",
       "story": "「岩場に生えるセリ」の意味。petra は Peter（ペテロ＝岩）や petroleum（石油＝岩の油）と同じ語。"
@@ -28908,7 +28908,7 @@
     "id": "dot", "word": "dot", "katakana": "ドット", "pos": "名詞・動詞", "cefr": "A2", "level": 2,
     "meaning": "点、水玉、点を打つ",
     "scene": "水玉模様（polka dots）、ドット絵、URL の「ドット」。",
-    "example": { "en": "Her dress has white dots on a blue background.", "ja": "彼女のドレスは青地に白の水玉だ。" },
+    "example": { "en": "Her dress has white dots.", "ja": "彼女のドレスには白い水玉がある。" },
     "etymology": {
       "origin": "古英語 dott「（できものの）先」",
       "story": "「小さなこぶ」→「小さな点」。on the dot は「（時計の点ぴったり →）時間ぴったりに」。"
@@ -28925,7 +28925,7 @@
     "id": "dry", "word": "dry", "katakana": "ドライ", "pos": "形容詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "乾いた、乾かす、辛口の",
     "scene": "ドライヤー、ドライフルーツ、ドライな性格。",
-    "example": { "en": "Hang the towel outside to dry.", "ja": "タオルを外に干して乾かして。" },
+    "example": { "en": "My shirt is dry now.", "ja": "シャツはもう乾いている。" },
     "etymology": {
       "origin": "古英語 dryge",
       "story": "「ドライな人（割り切った人）」の意味は英語にはあまりない。英語の dry humor は「真顔で言う皮肉っぽいユーモア」。"
@@ -28959,7 +28959,7 @@
     "id": "heavy", "word": "heavy", "katakana": "ヘビー", "pos": "形容詞", "cefr": "A2", "level": 2,
     "meaning": "重い、激しい、大量の",
     "scene": "ヘビーユーザー、ヘビーメタル、ヘビーな話。",
-    "example": { "en": "This box is too heavy to carry.", "ja": "この箱は重すぎて運べない。" },
+    "example": { "en": "This box is very heavy.", "ja": "この箱はとても重い。" },
     "etymology": {
       "origin": "古英語 hefig ← hebban「持ち上げる」",
       "story": "heave（重いものを持ち上げる）の仲間で「持ち上げるのに力がいる」。heavy rain（大雨）、heavy traffic（渋滞）のように「量が多い」にも使う。"
@@ -28993,7 +28993,7 @@
     "id": "rich", "word": "rich", "katakana": "リッチ", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "金持ちの、豊かな、（味が）濃厚な",
     "scene": "リッチな気分、リッチな味わい。",
-    "example": { "en": "He became rich after selling his company.", "ja": "彼は会社を売って金持ちになった。" },
+    "example": { "en": "That man is very rich.", "ja": "あの男性はとてもお金持ちだ。" },
     "etymology": {
       "origin": "古英語 rīce「力のある、王国の」",
       "story": "もとは「力がある」。ドイツ語 Reich（国）と同じ語。rich soil（肥えた土）、rich in vitamins（ビタミン豊富）のようにも使う。"
@@ -29095,7 +29095,7 @@
     "id": "double", "word": "double", "katakana": "ダブル", "pos": "形容詞・名詞・動詞", "cefr": "A2", "level": 2,
     "meaning": "2倍の、二重の、2倍にする",
     "scene": "ダブルベッド、ダブルチーズバーガー。",
-    "example": { "en": "The price has doubled in a year.", "ja": "値段は1年で2倍になった。" },
+    "example": { "en": "The price doubled in a year.", "ja": "値段は1年で2倍になった。" },
     "etymology": {
       "origin": "ラテン語 duplus「2倍の」← duo「2」",
       "story": "duo（2人組）、duplicate（複製する）と同じ仲間。"
@@ -29112,7 +29112,7 @@
     "id": "triple", "word": "triple", "katakana": "トリプル", "pos": "形容詞・名詞・動詞", "cefr": "B1", "level": 3,
     "meaning": "3倍の、三重の",
     "scene": "トリプルアクセル、トリプルチーズ。",
-    "example": { "en": "Sales tripled last year.", "ja": "昨年、売上は3倍になった。" },
+    "example": { "en": "The price of the ticket tripled.", "ja": "チケットの値段は3倍になった。" },
     "etymology": {
       "origin": "ラテン語 triplus ← tri-「3」",
       "story": "tri- は「3」：triangle（三角形）、tricycle（三輪車）、trio（三人組）。"
@@ -29197,7 +29197,7 @@
     "id": "tube", "word": "tube", "katakana": "チューブ", "pos": "名詞", "cefr": "B1", "level": 3,
     "meaning": "管、チューブ、（英）地下鉄",
     "scene": "絵の具のチューブ、浮き輪（inner tube）、ロンドンの地下鉄。",
-    "example": { "en": "Squeeze the paint out of the tube.", "ja": "チューブから絵の具をしぼり出して。" },
+    "example": { "en": "I need a new tube of toothpaste.", "ja": "新しい歯みがき粉のチューブがいる。" },
     "etymology": {
       "origin": "ラテン語 tubus「管」",
       "story": "YouTube の tube は「テレビ」（昔のブラウン管 cathode-ray tube から）の俗称。"
@@ -29231,7 +29231,7 @@
     "id": "dryer", "word": "dryer", "katakana": "ドライヤー", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "乾燥機、ドライヤー",
     "scene": "ヘアドライヤー、洗濯乾燥機。",
-    "example": { "en": "My hair dryer is broken.", "ja": "ヘアドライヤーが壊れた。" },
+    "example": { "en": "My hair dryer broke.", "ja": "ヘアドライヤーが壊れた。" },
     "etymology": {
       "origin": "dry「乾かす」+ -er",
       "story": "hair dryer（髪用）、clothes dryer（衣類乾燥機）。つづり drier は「より乾いた」の意味にも使う。"
@@ -29316,7 +29316,7 @@
     "id": "yacht", "word": "yacht", "katakana": "ヨット", "pos": "名詞", "cefr": "B1", "level": 3,
     "meaning": "ヨット、（豪華な）大型船",
     "scene": "ヨットハーバー、セレブのクルーザー。",
-    "example": { "en": "They sailed around the bay on a yacht.", "ja": "彼らはヨットで湾を一周した。" },
+    "example": { "en": "They sailed around the island on a yacht.", "ja": "彼らはヨットで島のまわりを回った。" },
     "etymology": {
       "origin": "オランダ語 jaghte「追いかける船」← jagen「狩る」",
       "story": "つづりの ch は読まない［ヤット］。英語の yacht はエンジンつきの大型レジャー船も指し、日本の小さな「ヨット」は sailboat と言うことが多い。"
@@ -29333,7 +29333,7 @@
     "id": "canoe", "word": "canoe", "katakana": "カヌー", "pos": "名詞", "cefr": "B1", "level": 3,
     "meaning": "カヌー",
     "scene": "川下りのカヌー。",
-    "example": { "en": "We paddled a canoe down the river.", "ja": "カヌーをこいで川を下った。" },
+    "example": { "en": "We went down the river in a canoe.", "ja": "私たちはカヌーで川を下った。" },
     "etymology": {
       "origin": "スペイン語 canoa ← カリブ海の言語（アラワク語）",
       "story": "コロンブスがカリブ海で見た丸木舟の名前がヨーロッパに伝わった。"
@@ -29418,7 +29418,7 @@
     "id": "whistle", "word": "whistle", "katakana": "ホイッスル", "pos": "名詞・動詞", "cefr": "B1", "level": 3,
     "meaning": "笛、口笛（を吹く）",
     "scene": "試合終了のホイッスル、口笛。",
-    "example": { "en": "The referee blew the whistle.", "ja": "審判が笛を吹いた。" },
+    "example": { "en": "The teacher blew a whistle.", "ja": "先生が笛を吹いた。" },
     "etymology": {
       "origin": "古英語 hwistlian（擬音）",
       "story": "「ヒュー」という音から。whistleblower は「（不正の）内部告発者」。"
@@ -29588,7 +29588,7 @@
     "id": "touch", "word": "touch", "katakana": "タッチ", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
     "meaning": "触れる、さわる、タッチ、感動させる",
     "scene": "タッチパネル、スマホのタッチ操作。",
-    "example": { "en": "Don't touch the paintings.", "ja": "絵に触らないでください。" },
+    "example": { "en": "Don't touch the cake!", "ja": "ケーキにさわらないで！" },
     "etymology": {
       "origin": "古フランス語 tochier「さわる、たたく」（擬音由来とされる）",
       "story": "keep in touch（連絡を取り合う）、touching（感動的な）など、気持ちに「触れる」の意味もある。"
@@ -29690,7 +29690,7 @@
     "id": "bathroom", "word": "bathroom", "katakana": "バスルーム", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "浴室、（米）トイレ",
     "scene": "ホテルのバスルーム。",
-    "example": { "en": "May I use your bathroom?", "ja": "お手洗いを借りてもいいですか？" },
+    "example": { "en": "Where is the bathroom?", "ja": "お手洗いはどこですか？" },
     "etymology": {
       "origin": "bath「入浴」+ room「部屋」",
       "story": "アメリカでは浴室がなくても「トイレ」を遠回しに bathroom と言う。toilet を直接言うより上品。"
@@ -30013,7 +30013,7 @@
     "id": "wheel", "word": "wheel", "katakana": "ホイール", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "車輪、ハンドル",
     "scene": "アルミホイール、観覧車（Ferris wheel）。",
-    "example": { "en": "He was at the wheel when the accident happened.", "ja": "事故のとき彼が運転していた。" },
+    "example": { "en": "A bicycle has two wheels.", "ja": "自転車には車輪が2つある。" },
     "etymology": {
       "origin": "古英語 hwēol",
       "story": "cycle（回転）と同じ祖先で「回るもの」。「ハンドル」は英語では steering wheel（handle は取っ手）。"
@@ -30812,7 +30812,7 @@
     "id": "boyfriend", "word": "boyfriend", "katakana": "ボーイフレンド", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "彼氏、恋人（男性）",
     "scene": "「彼氏ができた」。",
-    "example": { "en": "She went to the movies with her boyfriend.", "ja": "彼女は彼氏と映画に行った。" },
+    "example": { "en": "Her boyfriend is very kind.", "ja": "彼女の彼氏はとても優しい。" },
     "etymology": {
       "origin": "boy「男の子」+ friend「友だち」",
       "story": "英語では単なる「男友だち」ではなく「恋人」の意味。ただの友だちなら a friend (who is a boy) と言う。"
@@ -31458,7 +31458,7 @@
     "id": "field", "word": "field", "katakana": "フィールド", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "野原、畑、競技場、分野",
     "scene": "サッカーフィールド、専門分野。",
-    "example": { "en": "What is your field of study?", "ja": "専攻は何ですか？" },
+    "example": { "en": "The cows are eating grass in the field.", "ja": "牛が野原で草を食べている。" },
     "etymology": {
       "origin": "古英語 feld「平らな土地」",
       "story": "「平地」→ 畑・競技場 →「分野」。field trip（遠足、校外学習）もよく使う。"
@@ -31509,7 +31509,7 @@
     "id": "film", "word": "film", "katakana": "フィルム", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
     "meaning": "フィルム、映画、撮影する",
     "scene": "カメラのフィルム、ラップフィルム。",
-    "example": { "en": "They filmed the scene in Kyoto.", "ja": "そのシーンは京都で撮影された。" },
+    "example": { "en": "This film was made in Kyoto.", "ja": "この映画は京都で撮影された。" },
     "etymology": {
       "origin": "古英語 filmen「薄い皮」",
       "story": "「薄い膜」→ 写真フィルム → 映画。英国では映画を film、米国では movie と言うことが多い。"
@@ -31526,7 +31526,7 @@
     "id": "face", "word": "face", "katakana": "フェイス", "pos": "名詞・動詞", "cefr": "A1", "level": 2,
     "meaning": "顔、表面、直面する",
     "scene": "フェイスパック、ポーカーフェイス。",
-    "example": { "en": "We must face the problem.", "ja": "私たちはその問題に向き合わなければならない。" },
+    "example": { "en": "Wash your face every morning.", "ja": "毎朝顔を洗いなさい。" },
     "etymology": {
       "origin": "古フランス語 face ← ラテン語 faciēs「外見」",
       "story": "動詞で「〜に向き合う、直面する」。surface（表面＝上の顔）も同じ語。lose face は「面目を失う」。"
@@ -32019,7 +32019,7 @@
     "id": "modern", "word": "modern", "katakana": "モダン", "pos": "形容詞", "cefr": "A2", "level": 3,
     "meaning": "現代の、近代的な",
     "scene": "モダンアート、モダンな建物。",
-    "example": { "en": "I like modern architecture.", "ja": "現代建築が好きだ。" },
+    "example": { "en": "I like modern art.", "ja": "私は現代美術が好きだ。" },
     "etymology": {
       "origin": "ラテン語 modernus ← modo「ちょうど今」",
       "story": "「ちょうど今の」という意味。mode（様式）とも関係する。modern history は「近代史」。"
@@ -32121,7 +32121,7 @@
     "id": "round", "word": "round", "katakana": "ラウンド", "pos": "名詞・形容詞", "cefr": "A2", "level": 3,
     "meaning": "丸い、一回り、（試合の）回",
     "scene": "ボクシングのラウンド、ラウンドテーブル。",
-    "example": { "en": "He was knocked out in the third round.", "ja": "彼は第3ラウンドでノックアウトされた。" },
+    "example": { "en": "He won in the third round.", "ja": "彼は3回戦で勝った。" },
     "etymology": {
       "origin": "古フランス語 roont ← ラテン語 rotundus「丸い」",
       "story": "rotate（回転する）と同じ仲間。It's my round. は「（飲み物を）おごる番だ」。"
@@ -32767,7 +32767,7 @@
     "id": "extra", "word": "extra", "katakana": "エクストラ", "pos": "形容詞・名詞", "cefr": "A2", "level": 3,
     "meaning": "余分な、追加の、エキストラ（役者）",
     "scene": "エクストラステージ、映画のエキストラ。",
-    "example": { "en": "Is there an extra charge for this?", "ja": "これには追加料金がかかりますか？" },
+    "example": { "en": "Can I have an extra pillow?", "ja": "枕をもう1つもらえますか？" },
     "etymology": {
       "origin": "extraordinary の短縮 ← ラテン語 extrā「外に」",
       "story": "「ふつうの外にある」→ 追加の。映画で背景にいる人も extra。"
@@ -37638,7 +37638,7 @@
     "id": "plant", "word": "plant", "katakana": "プラント", "pos": "名詞・動詞", "cefr": "A2", "level": 3,
     "meaning": "植物、工場、植える",
     "scene": "化学プラント、観葉植物。",
-    "example": { "en": "The company built a new power plant.", "ja": "会社は新しい発電所を建てた。" },
+    "example": { "en": "I water the plants every morning.", "ja": "私は毎朝植物に水をやる。" },
     "etymology": {
       "origin": "ラテン語 planta「若枝、苗」",
       "story": "「植える」→「植えつけたように据えた設備」→ 工場（power plant 発電所）。"
@@ -39459,7 +39459,7 @@
     "id": "air", "word": "air", "katakana": "エア", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "空気、空、放送",
     "scene": "エアコン、エアメール、「オンエア（放送中）」。",
-    "example": { "en": "Let's open the window and get some fresh air.", "ja": "窓を開けて新鮮な空気を入れよう。" },
+    "example": { "en": "The air is clean here.", "ja": "ここは空気がきれいだ。" },
     "etymology": {
       "origin": "ギリシャ語 āēr「空気」",
       "story": "by air は「飛行機で」、on the air は「放送中」。「エアギター」は「空中で弾くまね」。"
@@ -39544,7 +39544,7 @@
     "id": "wood", "word": "wood", "katakana": "ウッド", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "木材、（複数で）森、ウッド（ゴルフ）",
     "scene": "ウッドデッキ、ゴルフのウッド。",
-    "example": { "en": "The table is made of wood.", "ja": "そのテーブルは木でできている。" },
+    "example": { "en": "We need more wood for the fire.", "ja": "たき火にもっとまきが必要だ。" },
     "etymology": {
       "origin": "古英語 wudu",
       "story": "生えている木は tree、材料としての木は wood。複数形 woods は「森」。"
@@ -39578,7 +39578,7 @@
     "id": "end", "word": "end", "katakana": "エンド", "pos": "名詞・動詞", "cefr": "A1", "level": 2,
     "meaning": "終わり、端、目的、終える",
     "scene": "エンドロール、ハッピーエンド。",
-    "example": { "en": "The story has a happy ending, but this is not the end.", "ja": "物語はハッピーエンドだが、これで終わりではない。" },
+    "example": { "en": "Read the book to the end.", "ja": "その本を最後まで読んで。" },
     "etymology": {
       "origin": "古英語 ende",
       "story": "「目的」の意味もある：a means to an end（目的のための手段）。"
@@ -39952,7 +39952,7 @@
     "id": "opinion", "word": "opinion", "katakana": "オピニオン", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "意見、見解、世論",
     "scene": "オピニオンリーダー、世論（public opinion）。",
-    "example": { "en": "In my opinion, the plan is too risky.", "ja": "私の意見では、その計画は危険すぎる。" },
+    "example": { "en": "What's your opinion about this?", "ja": "これについてあなたの意見は？" },
     "etymology": {
       "origin": "ラテン語 opīniō ← opīnārī「思う」",
       "story": "in my opinion は「私の考えでは」。second opinion は「別の医師の意見」。"
@@ -40406,7 +40406,7 @@
     "id": "arm", "word": "arm", "katakana": "アーム", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "腕、腕木、アーム",
     "scene": "ロボットアーム、アームチェア。",
-    "example": { "en": "He broke his arm playing soccer.", "ja": "彼はサッカーで腕を折った。" },
+    "example": { "en": "He has long arms.", "ja": "彼は腕が長い。" },
     "etymology": {
       "origin": "古英語 earm「腕」",
       "story": "「武器」の arms（ラテン語 arma）とは別語源だが、つづりが同じになった。armchair はひじかけいす。"
@@ -40762,7 +40762,7 @@
     "id": "up", "word": "up", "katakana": "アップ", "pos": "副詞・形容詞・名詞", "cefr": "A1", "level": 1,
     "meaning": "上へ、上がって、上昇",
     "scene": "「給料アップ」「バージョンアップ」「アップで撮る」。",
-    "example": { "en": "Prices went up again.", "ja": "値段がまた上がった。" },
+    "example": { "en": "Stand up, please.", "ja": "立ってください。" },
     "etymology": {
       "origin": "古英語 upp",
       "story": "日本語の「〇〇アップ」は英語ではふつう動詞で言う：「給料アップ」は a raise / a pay rise。「アップ（の写真）」は close-up。"
@@ -41054,7 +41054,7 @@
     "id": "around", "word": "around", "katakana": "アラウンド", "pos": "前置詞・副詞", "cefr": "A1", "level": 1,
     "meaning": "〜のまわりに、およそ、あちこち",
     "scene": "「アラサー（around thirty）」。",
-    "example": { "en": "We walked around the lake.", "ja": "湖のまわりを歩いた。" },
+    "example": { "en": "We walk around the lake every morning.", "ja": "私たちは毎朝湖のまわりを歩く。" },
     "etymology": {
       "origin": "a-「〜に」+ round「円」",
       "story": "「アラサー」は和製の言い方で、英語では in my thirties や around thirty。"
@@ -41650,7 +41650,7 @@
     "id": "eleven", "word": "eleven", "katakana": "イレブン", "pos": "名詞・形容詞", "cefr": "A1", "level": 1,
     "meaning": "11、（サッカーの）イレブン",
     "scene": "サッカーチームの11人。",
-    "example": { "en": "The team's starting eleven was announced.", "ja": "チームの先発メンバー11人が発表された。" },
+    "example": { "en": "There are eleven players on a soccer team.", "ja": "サッカーのチームは11人だ。" },
     "etymology": {
       "origin": "古英語 endleofan「1つ残る」",
       "story": "10を数えたあと「1つ余る」という意味。twelve も「2つ余る」。"
@@ -42036,7 +42036,7 @@
     "id": "way", "word": "way", "katakana": "ウェイ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "道、方法、方向",
     "scene": "ゴーイングマイウェイ、ワンウェイ（一方通行）。",
-    "example": { "en": "This is the best way to learn English.", "ja": "これが英語を学ぶ一番の方法だ。" },
+    "example": { "en": "Is this the way to the station?", "ja": "駅へ行く道はこれですか？" },
     "etymology": {
       "origin": "古英語 weg",
       "story": "by the way（ところで）、No way!（ありえない！）など会話でよく使う。"
@@ -42712,7 +42712,7 @@
     "id": "ever", "word": "ever", "katakana": "エバー", "pos": "副詞", "cefr": "A2", "level": 2,
     "meaning": "かつて、これまでに、いつも",
     "scene": "エバーグリーン（常緑の、名作）、フォーエバー。",
-    "example": { "en": "Have you ever been to Paris?", "ja": "パリに行ったことはある？" },
+    "example": { "en": "Do you ever eat natto?", "ja": "納豆を食べることはある？" },
     "etymology": {
       "origin": "古英語 ǣfre",
       "story": "forever（永遠に）、evergreen（常緑の）。"
@@ -43384,7 +43384,7 @@
     "id": "olympics", "word": "Olympics", "katakana": "オリンピック", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "オリンピック（大会）",
     "scene": "夏季・冬季オリンピック。",
-    "example": { "en": "Tokyo hosted the Olympics in 2021.", "ja": "東京は2021年にオリンピックを開催した。" },
+    "example": { "en": "Tokyo held the Olympics in 2021.", "ja": "東京は2021年にオリンピックを開いた。" },
     "etymology": {
       "origin": "ギリシャの聖地オリュンピア（Olympia）の名前",
       "story": "古代オリンピックはゼウスの聖地で行われた。正式には the Olympic Games。"
@@ -43934,7 +43934,7 @@
     "id": "girlfriend", "word": "girlfriend", "katakana": "ガールフレンド", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "彼女、恋人（女性）、（女性から見た）女友だち",
     "scene": "「彼女ができた」。",
-    "example": { "en": "He introduced me to his girlfriend.", "ja": "彼は私に彼女を紹介した。" },
+    "example": { "en": "His girlfriend lives in Osaka.", "ja": "彼の彼女は大阪に住んでいる。" },
     "etymology": {
       "origin": "girl「女の子」+ friend「友だち」",
       "story": "男性が girlfriend と言うとふつう「恋人」。女性どうしでは「女友だち」の意味にもなる。"
@@ -45582,7 +45582,7 @@
     "id": "great", "word": "great", "katakana": "グレート", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "偉大な、大きな、すばらしい",
     "scene": "グレートバリアリーフ、「グレート！」。",
-    "example": { "en": "We had a great time.", "ja": "すばらしい時間を過ごした。" },
+    "example": { "en": "This is a great movie!", "ja": "これはすばらしい映画だ！" },
     "etymology": {
       "origin": "古英語 grēat「太い、粗い」",
       "story": "Great Britain の great は「大きいほうの（ブルターニュに対して）」。"
@@ -48086,7 +48086,7 @@
     "id": "thin", "word": "thin", "katakana": "シン", "pos": "形容詞", "cefr": "A2", "level": 2,
     "meaning": "薄い、細い、やせた",
     "scene": "シンクライアント、thin crust（薄生地のピザ）。",
-    "example": { "en": "She sliced the bread thin.", "ja": "彼女はパンを薄く切った。" },
+    "example": { "en": "She is tall and thin.", "ja": "彼女は背が高くてやせている。" },
     "etymology": {
       "origin": "古英語 þynne",
       "story": "thick（厚い）の反対。th の発音に注意（sin と区別）。"
@@ -49450,7 +49450,7 @@
     "id": "stick", "word": "stick", "katakana": "スティック", "pos": "名詞・動詞", "cefr": "A2", "level": 2,
     "meaning": "棒、スティック、突き刺す、くっつける",
     "scene": "スティックのり、ホッケーのスティック。",
-    "example": { "en": "Stick the stamp on the envelope.", "ja": "封筒に切手を貼って。" },
+    "example": { "en": "Stick this stamp on the letter.", "ja": "この切手を手紙に貼って。" },
     "etymology": {
       "origin": "古英語 sticca「棒」、stician「突き刺す」",
       "story": "名詞と動詞は同じ祖先。sticker（シール）、sticky（ねばねば）。"
@@ -49906,7 +49906,7 @@
     "id": "spring", "word": "spring", "katakana": "スプリング", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "春、ばね、泉、跳ねる",
     "scene": "春、ベッドのスプリング、温泉（hot spring）。",
-    "example": { "en": "Flowers bloom in spring.", "ja": "春には花が咲く。" },
+    "example": { "en": "We see many flowers in spring.", "ja": "春にはたくさんの花が見られる。" },
     "etymology": {
       "origin": "古英語 springan「跳ぶ、わき出る」",
       "story": "「わき出る」→ 泉、植物が芽吹く季節 → 春、跳ね返るもの → ばね。"
@@ -50830,7 +50830,7 @@
     "id": "tie", "word": "tie", "katakana": "タイ", "pos": "名詞・動詞", "cefr": "A2", "level": 2,
     "meaning": "ネクタイ、結ぶ、同点、きずな",
     "scene": "ネクタイ、タイ記録、タイブレーク。",
-    "example": { "en": "The game ended in a tie.", "ja": "試合は引き分けに終わった。" },
+    "example": { "en": "Can you tie your shoes?", "ja": "靴ひもを結べる？" },
     "etymology": {
       "origin": "古英語 tīgan「結ぶ」",
       "story": "「結ぶもの」→ ネクタイ、きずな、同点。family ties は「家族のきずな」。"
@@ -51766,7 +51766,7 @@
     "id": "tool", "word": "tool", "katakana": "ツール", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "道具、手段、ツール",
     "scene": "ツールボックス、便利ツール。",
-    "example": { "en": "Language is a tool for communication.", "ja": "言語はコミュニケーションの道具だ。" },
+    "example": { "en": "I need a tool to fix my bike.", "ja": "自転車を直すのに道具が必要だ。" },
     "etymology": {
       "origin": "古英語 tōl",
       "story": "toolbar（ツールバー）、toolkit（道具一式）。"
@@ -52186,7 +52186,7 @@
     "id": "ten", "word": "ten", "katakana": "テン", "pos": "名詞・形容詞", "cefr": "A1", "level": 1,
     "meaning": "10",
     "scene": "テンキー、トップテン。",
-    "example": { "en": "I'll be there in ten minutes.", "ja": "10分で行く。" },
+    "example": { "en": "Wait ten minutes, please.", "ja": "10分待ってください。" },
     "etymology": {
       "origin": "古英語 tīen",
       "story": "ラテン語 decem と同じ祖先。December はローマ暦の「10番目の月」。"
@@ -52234,7 +52234,7 @@
     "id": "daily", "word": "daily", "katakana": "デイリー", "pos": "形容詞・副詞・名詞", "cefr": "A2", "level": 3,
     "meaning": "毎日の、日々の、日刊紙",
     "scene": "デイリーニュース、日常生活（daily life）。",
-    "example": { "en": "Exercise is part of my daily routine.", "ja": "運動は日課の一部だ。" },
+    "example": { "en": "Walking is part of my daily life.", "ja": "散歩は私の毎日の生活の一部だ。" },
     "etymology": {
       "origin": "day + -ly",
       "story": "daily bread は「日々の糧」。"
@@ -52936,7 +52936,7 @@
     "id": "travel", "word": "travel", "katakana": "トラベル", "pos": "動詞・名詞", "cefr": "A1", "level": 1,
     "meaning": "旅行する、移動する、旅行",
     "scene": "トラベルグッズ、トラベルミステリー。",
-    "example": { "en": "I love to travel abroad.", "ja": "海外旅行が大好きだ。" },
+    "example": { "en": "My parents often travel to Hawaii.", "ja": "両親はよくハワイに旅行する。" },
     "etymology": {
       "origin": "travail「苦労」の変形 ← ラテン語 tripālium「拷問具」",
       "story": "昔の旅は「苦労」だったことから。"
@@ -53812,7 +53812,7 @@
     "id": "knee", "word": "knee", "katakana": "ニー", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "ひざ",
     "scene": "ニーハイソックス、ニーパッド。",
-    "example": { "en": "I hurt my knee playing soccer.", "ja": "サッカーでひざを痛めた。" },
+    "example": { "en": "I hurt my knee in the soccer game.", "ja": "サッカーの試合でひざを痛めた。" },
     "etymology": {
       "origin": "古英語 cnēo",
       "story": "k は発音しない。kneel（ひざまずく）も同じ語。"
@@ -53908,7 +53908,7 @@
     "id": "new", "word": "new", "katakana": "ニュー", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "新しい、新たな",
     "scene": "ニューモデル、ニューオープン（英語は newly opened）。",
-    "example": { "en": "I bought a new bike.", "ja": "新しい自転車を買った。" },
+    "example": { "en": "This is my new bike.", "ja": "これは私の新しい自転車だ。" },
     "etymology": {
       "origin": "古英語 nīwe",
       "story": "ラテン語 novus（新しい）と同じ祖先。「ニューオープン」は英語では newly opened / grand opening。"
@@ -56770,7 +56770,7 @@
     "id": "human", "word": "human", "katakana": "ヒューマン", "pos": "形容詞・名詞", "cefr": "A2", "level": 3,
     "meaning": "人間の、人間らしい、人間",
     "scene": "ヒューマンドラマ、ヒューマンエラー。",
-    "example": { "en": "To err is human.", "ja": "過ちは人の常。" },
+    "example": { "en": "Dogs understand human feelings.", "ja": "犬は人間の気持ちがわかる。" },
     "etymology": {
       "origin": "ラテン語 hūmānus",
       "story": "humane（人道的な）、humanity（人類）と同じ語。"
@@ -57140,7 +57140,7 @@
     "id": "people", "word": "people", "katakana": "ピープル", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "人々、国民、民族",
     "scene": "ピープル誌、「ピープル（人々）」。",
-    "example": { "en": "Many people came to the concert.", "ja": "多くの人がコンサートに来た。" },
+    "example": { "en": "There are many people in the park.", "ja": "公園にはたくさんの人がいる。" },
     "etymology": {
       "origin": "古フランス語 pueple ← ラテン語 populus「民衆」",
       "story": "popular（人気の）、public と同じ仲間。a people（数えられる）は「民族」。"
@@ -58220,7 +58220,7 @@
     "id": "football", "word": "football", "katakana": "フットボール", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "サッカー（英）、アメフト（米）",
     "scene": "ワールドカップ、アメフト。",
-    "example": { "en": "Football is the most popular sport in Britain.", "ja": "英国で一番人気のスポーツはサッカーだ。" },
+    "example": { "en": "Football is very popular in Britain.", "ja": "英国ではサッカーがとても人気だ。" },
     "etymology": {
       "origin": "foot「足」+ ball",
       "story": "国によって指すスポーツが違う：英国はサッカー、米国はアメフト。"
@@ -62760,7 +62760,7 @@
     "id": "million", "word": "million", "katakana": "ミリオン", "pos": "名詞・形容詞", "cefr": "A2", "level": 2,
     "meaning": "100万（の）",
     "scene": "ミリオンセラー、「ミリオンダラー」。",
-    "example": { "en": "The city has a population of two million.", "ja": "その市の人口は200万人だ。" },
+    "example": { "en": "About two million people live in this city.", "ja": "この市には約200万人が住んでいる。" },
     "etymology": {
       "origin": "イタリア語 milione「大きな千」← mille「千」",
       "story": "millionaire は「百万長者」。"
@@ -65256,7 +65256,7 @@
     "id": "lake", "word": "lake", "katakana": "レーク", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "湖",
     "scene": "レイクサイド、琵琶湖（Lake Biwa）。",
-    "example": { "en": "We went fishing on the lake.", "ja": "湖に釣りに行った。" },
+    "example": { "en": "We go fishing on the lake.", "ja": "私たちは湖に釣りに行く。" },
     "etymology": {
       "origin": "ラテン語 lacus「湖」",
       "story": "湖の名前では Lake を前につける：Lake Suwa。"
@@ -66082,7 +66082,7 @@
     "id": "worst", "word": "worst", "katakana": "ワースト", "pos": "形容詞・名詞", "cefr": "A2", "level": 2,
     "meaning": "最悪の、最もひどい",
     "scene": "ワースト記録、ワーストドレッサー。",
-    "example": { "en": "That was the worst movie I've ever seen.", "ja": "今まで見た中で最悪の映画だった。" },
+    "example": { "en": "It was the worst day of my life.", "ja": "人生で最悪の日だった。" },
     "etymology": {
       "origin": "古英語 wyrresta（bad の最上級）",
       "story": "at worst は「最悪でも」。"
@@ -66794,7 +66794,7 @@
     "id": "wonderful", "word": "wonderful", "katakana": "ワンダフル", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "すばらしい",
     "scene": "「ワンダフル！」。",
-    "example": { "en": "We had a wonderful time.", "ja": "すばらしい時間を過ごした。" },
+    "example": { "en": "This is a wonderful song.", "ja": "これはすばらしい歌だ。" },
     "etymology": {
       "origin": "wonder「驚き」+ -ful",
       "story": "「驚きに満ちた」→ すばらしい。"
@@ -66988,7 +66988,7 @@
     "id": "coffee-cup", "word": "coffee cup", "katakana": "コーヒーカップ", "pos": "名詞", "cefr": "A2", "level": 2,
     "meaning": "コーヒーカップ",
     "scene": "ソーサーつきのカップ。",
-    "example": { "en": "She put the coffee cup on the saucer.", "ja": "彼女はコーヒーカップをソーサーに置いた。" },
+    "example": { "en": "She put the coffee cup on the table.", "ja": "彼女はコーヒーカップをテーブルに置いた。" },
     "etymology": {
       "origin": "coffee + cup",
       "story": "遊園地の「コーヒーカップ」は英語では teacups ride。"
@@ -67222,7 +67222,7 @@
     "id": "all", "word": "all", "katakana": "オール", "pos": "形容詞・代名詞・副詞", "cefr": "A1", "level": 1,
     "meaning": "全部の、すべて、すっかり",
     "scene": "オールナイト、オールスター、「オールする（徹夜）」。",
-    "example": { "en": "All the students passed the test.", "ja": "生徒全員がテストに合格した。" },
+    "example": { "en": "All the students are in the classroom.", "ja": "生徒全員が教室にいる。" },
     "etymology": {
       "origin": "古英語 eall",
       "story": "「オールする（徹夜する）」は英語では pull an all-nighter。"
@@ -67588,7 +67588,7 @@
     "id": "japan", "word": "Japan", "katakana": "ジャパン", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "日本",
     "scene": "チームジャパン、メイド・イン・ジャパン。",
-    "example": { "en": "I was born in Japan.", "ja": "私は日本で生まれた。" },
+    "example": { "en": "I live in Japan.", "ja": "私は日本に住んでいる。" },
     "etymology": {
       "origin": "マレー語・中国語「日本（ジーペン）」→ ポルトガル語 Japão",
       "story": "小文字の japan は「漆器」の意味。"
@@ -67604,7 +67604,7 @@
     "id": "chinese", "word": "Chinese", "katakana": "チャイニーズ", "pos": "名詞・形容詞", "cefr": "A1", "level": 1,
     "meaning": "中国語、中国人、中国の",
     "scene": "チャイニーズレストラン。",
-    "example": { "en": "We had Chinese food for dinner.", "ja": "夕食に中華料理を食べた。" },
+    "example": { "en": "We often eat Chinese food.", "ja": "私たちはよく中華料理を食べる。" },
     "etymology": {
       "origin": "China + -ese",
       "story": "Chinese food は「中華料理」。"
@@ -67716,7 +67716,7 @@
     "id": "michael", "word": "Michael", "katakana": "マイケル", "pos": "人名", "cefr": "A1", "level": 1, "group": "michael",
     "meaning": "男性名（英語形）。もとの意味は「神に似た者は誰か」",
     "scene": "マイケル・ジャクソン、マイケル・ジョーダン。",
-    "example": { "en": "Michael is one of the most common boys' names in America.", "ja": "マイケルはアメリカで最もよくある男の子の名前の一つだ。" },
+    "example": { "en": "Michael is a popular name in America.", "ja": "マイケルはアメリカでよくある名前だ。" },
     "etymology": {
       "origin": "ヘブライ語 Mīkhāʼēl「誰が神（エル）に似ているか」",
       "story": "大天使ミカエルの名が各国に広まり、国ごとに読み方が変わった。愛称は Mike、Mikey、Mick。"
@@ -67781,7 +67781,7 @@
     "id": "michelle", "word": "Michelle", "katakana": "ミシェル", "pos": "人名", "cefr": "A2", "level": 3, "group": "michael",
     "meaning": "女性名。Michael（マイケル）の女性形",
     "scene": "ミシェル・オバマ元大統領夫人。ビートルズの曲「ミッシェル」。",
-    "example": { "en": "Michelle Obama wrote a best-selling memoir.", "ja": "ミシェル・オバマはベストセラーの回想録を書いた。" },
+    "example": { "en": "Michelle Obama was the First Lady of the United States.", "ja": "ミシェル・オバマはアメリカのファーストレディだった。" },
     "etymology": {
       "origin": "フランス語 Michel の女性形 Michèle ← ヘブライ語 Mīkhāʼēl",
       "story": "英語圏でも1960年代から人気の女性名に。"
@@ -67845,7 +67845,7 @@
     "id": "john", "word": "John", "katakana": "ジョン", "pos": "人名", "cefr": "A1", "level": 1, "group": "john",
     "meaning": "男性名（英語形）。もとの意味は「神は恵み深い」",
     "scene": "ジョン・レノン、ジョン万次郎。",
-    "example": { "en": "John Lennon was a member of the Beatles.", "ja": "ジョン・レノンはビートルズのメンバーだった。" },
+    "example": { "en": "My friend John lives in London.", "ja": "友だちのジョンはロンドンに住んでいる。" },
     "etymology": {
       "origin": "ヘブライ語 Yōḥānān「ヤハウェは恵み深い」→ ラテン語 Iohannes",
       "story": "洗礼者ヨハネと使徒ヨハネの名。世界で最も多くの言語形をもつ名前の一つ。女性形は Jane、Joan。"
@@ -67894,7 +67894,7 @@
     "id": "jane", "word": "Jane", "katakana": "ジェーン", "pos": "人名", "cefr": "A2", "level": 3, "group": "john",
     "meaning": "女性名（英語形）。John の女性形",
     "scene": "『ジェーン・エア』、名なしの女性を表す Jane Doe。",
-    "example": { "en": "Jane Austen wrote Pride and Prejudice.", "ja": "ジェーン・オースティンは『高慢と偏見』を書いた。" },
+    "example": { "en": "Jane Austen is a famous English writer.", "ja": "ジェーン・オースティンはイギリスの有名な作家だ。" },
     "etymology": {
       "origin": "古フランス語 Jehanne ← ラテン語 Iohanna",
       "story": "身元不明の男性は John Doe、女性は Jane Doe と呼ぶ。"
@@ -68134,7 +68134,7 @@
     "id": "paul", "word": "Paul", "katakana": "ポール", "pos": "人名", "cefr": "A1", "level": 1, "group": "paul",
     "meaning": "男性名（英語・フランス語形）。もとの意味は「小さい」",
     "scene": "ポール・マッカートニー、画家ポール・セザンヌ。",
-    "example": { "en": "Paul McCartney wrote many songs for the Beatles.", "ja": "ポール・マッカートニーはビートルズのために多くの曲を書いた。" },
+    "example": { "en": "Paul is my English teacher.", "ja": "ポールは私の英語の先生だ。" },
     "etymology": {
       "origin": "ラテン語 Paulus「小さい」",
       "story": "使徒パウロの名。フランス語でも同じつづりで「ポール」と読む。"
@@ -68230,7 +68230,7 @@
     "id": "george", "word": "George", "katakana": "ジョージ", "pos": "人名", "cefr": "A1", "level": 1, "group": "george",
     "meaning": "男性名（英語形）。もとの意味は「農夫」",
     "scene": "ジョージ・ワシントン、竜退治の聖ジョージ。",
-    "example": { "en": "George Washington was the first President of the United States.", "ja": "ジョージ・ワシントンはアメリカの初代大統領だった。" },
+    "example": { "en": "George is from Canada.", "ja": "ジョージはカナダ出身だ。" },
     "etymology": {
       "origin": "ギリシャ語 Geōrgios「農夫」← gē「大地」+ ergon「仕事」",
       "story": "竜を倒した聖ゲオルギウスはイングランドの守護聖人。アメリカのジョージア州は英国王ジョージ2世にちなむ。"
@@ -68326,7 +68326,7 @@
     "id": "charles", "word": "Charles", "katakana": "チャールズ", "pos": "人名", "cefr": "A2", "level": 2, "group": "charles",
     "meaning": "男性名（英語形）。もとの意味は「自由人、男」",
     "scene": "チャールズ・ダーウィン、英国王チャールズ3世。",
-    "example": { "en": "Charles Darwin wrote On the Origin of Species.", "ja": "チャールズ・ダーウィンは『種の起源』を書いた。" },
+    "example": { "en": "Charles Darwin was a famous scientist.", "ja": "チャールズ・ダーウィンは有名な科学者だった。" },
     "etymology": {
       "origin": "ゲルマン語 karl「自由人、男」→ ラテン語 Carolus",
       "story": "フランク王国のカール大帝（Charlemagne＝偉大なカール）で広まった。愛称は Charlie。"
@@ -68534,7 +68534,7 @@
     "id": "henry", "word": "Henry", "katakana": "ヘンリー", "pos": "人名", "cefr": "A2", "level": 3, "group": "henry",
     "meaning": "男性名（英語形）。もとの意味は「家の主」",
     "scene": "ヘンリー8世、ヘンリー・フォード。",
-    "example": { "en": "Henry Ford made cars that ordinary people could buy.", "ja": "ヘンリー・フォードは普通の人が買える車を作った。" },
+    "example": { "en": "Henry Ford made cars for everyone.", "ja": "ヘンリー・フォードはみんなが乗れる車を作った。" },
     "etymology": {
       "origin": "ゲルマン語 haim「家」+ rīk「支配者」",
       "story": "英国王やフランス王に多い名前。愛称は Harry（ハリー）、Hal。"
@@ -68806,7 +68806,7 @@
     "id": "mary", "word": "Mary", "katakana": "メアリー", "pos": "人名", "cefr": "A1", "level": 1, "group": "mary",
     "meaning": "女性名（英語形）。聖母マリアの名",
     "scene": "童謡『メリーさんのひつじ（Mary Had a Little Lamb）』、メアリー・ポピンズ。",
-    "example": { "en": "Mary had a little lamb.", "ja": "メリーさんはひつじを飼っていた。" },
+    "example": { "en": "Mary has a little lamb.", "ja": "メリーさんは小さな羊を飼っている。" },
     "etymology": {
       "origin": "ヘブライ語 Miryām → ギリシャ語 Maria → ラテン語 Maria",
       "story": "意味ははっきりせず「海のしずく」「愛される者」など諸説ある。愛称は Molly、Polly。"
@@ -68886,7 +68886,7 @@
     "id": "elizabeth", "word": "Elizabeth", "katakana": "エリザベス", "pos": "人名", "cefr": "A2", "level": 3, "group": "elizabeth",
     "meaning": "女性名（英語形）。もとの意味は「神は誓い」",
     "scene": "エリザベス女王、ジェーン・オースティン『高慢と偏見』のエリザベス。",
-    "example": { "en": "Queen Elizabeth II reigned for seventy years.", "ja": "エリザベス2世は70年間在位した。" },
+    "example": { "en": "Queen Elizabeth II was queen for seventy years.", "ja": "エリザベス2世は70年間女王だった。" },
     "etymology": {
       "origin": "ヘブライ語 Elīsheva「わが神は誓い」→ ギリシャ語 Elisabet",
       "story": "洗礼者ヨハネの母エリサベトの名。愛称が非常に多い：Liz、Beth、Betty、Eliza、Lisa、Elsie など。"
@@ -69078,7 +69078,7 @@
     "id": "anne", "word": "Anne", "katakana": "アン", "pos": "人名", "cefr": "A1", "level": 1, "group": "anne",
     "meaning": "女性名（英語形）。もとの意味は「恵み」",
     "scene": "『赤毛のアン』、『アンネの日記』のアンネ（ドイツ語・オランダ語読み）。",
-    "example": { "en": "Anne of Green Gables is loved by many Japanese readers.", "ja": "『赤毛のアン』は多くの日本の読者に愛されている。" },
+    "example": { "en": "Many Japanese people love Anne of Green Gables.", "ja": "多くの日本人が『赤毛のアン』を愛している。" },
     "etymology": {
       "origin": "ヘブライ語 Ḥannāh「恵み」→ ギリシャ語 Anna → フランス語 Anne",
       "story": "聖母マリアの母アンナの名。英語で e をつけると Anne、つけないと Ann。"
@@ -69126,7 +69126,7 @@
     "id": "hannah", "word": "Hannah", "katakana": "ハンナ", "pos": "人名", "cefr": "A2", "level": 3, "lang": "he", "group": "anne",
     "meaning": "女性名（ヘブライ語形）。Anne、Anna のもとの形",
     "scene": "旧約聖書で預言者サムエルの母ハンナ。英語圏でも人気。",
-    "example": { "en": "Hannah is also a palindrome, like Anna.", "ja": "ハンナも Anna と同じく回文だ。" },
+    "example": { "en": "Hannah is a popular name in America.", "ja": "ハンナはアメリカで人気のある名前だ。" },
     "etymology": {
       "origin": "ヘブライ語 Ḥannāh「恵み」",
       "story": "英語圏では近年とても人気の女性名。"
@@ -69174,7 +69174,7 @@
     "id": "alexander", "word": "Alexander", "katakana": "アレクサンダー", "pos": "人名", "cefr": "A2", "level": 3, "group": "alexander",
     "meaning": "男性名（英語・ドイツ語形）。もとの意味は「人々を守る者」",
     "scene": "アレクサンドロス大王（Alexander the Great）、電話を発明したグラハム・ベル（Alexander Graham Bell）。",
-    "example": { "en": "Alexander the Great built a huge empire.", "ja": "アレクサンダー大王は巨大な帝国を築いた。" },
+    "example": { "en": "Alexander the Great was a famous king.", "ja": "アレクサンドロス大王は有名な王だった。" },
     "etymology": {
       "origin": "ギリシャ語 Alexandros ← alexein「守る」+ anēr「男、人」",
       "story": "エジプトのアレクサンドリアは大王が築いた都市。愛称は Alex、Sandy、Sasha。"
@@ -69430,7 +69430,7 @@
     "id": "andrew", "word": "Andrew", "katakana": "アンドリュー", "pos": "人名", "cefr": "A2", "level": 3, "group": "andrew",
     "meaning": "男性名（英語形）。もとの意味は「男らしい」",
     "scene": "聖アンデレはスコットランドの守護聖人。ゴルフの聖地セント・アンドリュース。",
-    "example": { "en": "Saint Andrew is the patron saint of Scotland.", "ja": "聖アンドリューはスコットランドの守護聖人だ。" },
+    "example": { "en": "Andrew is a common name in Scotland.", "ja": "アンドリューはスコットランドでよくある名前だ。" },
     "etymology": {
       "origin": "ギリシャ語 Andreas ← anēr（andr-）「男」",
       "story": "英国旗の白い斜め十字は聖アンドリュー十字。愛称は Andy、Drew。"
@@ -69734,7 +69734,7 @@
     "id": "anthony", "word": "Anthony", "katakana": "アンソニー", "pos": "人名", "cefr": "A2", "level": 3, "group": "anthony",
     "meaning": "男性名（英語形）。ローマの氏族名アントニウスから",
     "scene": "俳優アンソニー・ホプキンス、マルクス・アントニウス（Mark Antony）。",
-    "example": { "en": "Anthony Hopkins won an Oscar for The Silence of the Lambs.", "ja": "アンソニー・ホプキンスは『羊たちの沈黙』でアカデミー賞を受賞した。" },
+    "example": { "en": "Anthony Hopkins is a famous actor from Wales.", "ja": "アンソニー・ホプキンスはウェールズ出身の有名な俳優だ。" },
     "etymology": {
       "origin": "ラテン語 Antonius（ローマの氏族名、語源不詳）",
       "story": "ギリシャ語 anthos「花」と結びつけられて h が入った。Antony ともつづる。愛称は Tony。"
@@ -69862,7 +69862,7 @@
     "id": "julia", "word": "Julia", "katakana": "ジュリア", "pos": "人名", "cefr": "A2", "level": 3, "group": "julius",
     "meaning": "女性名。Julius の女性形",
     "scene": "女優ジュリア・ロバーツ。",
-    "example": { "en": "Julia Roberts starred in Pretty Woman.", "ja": "ジュリア・ロバーツは『プリティ・ウーマン』に主演した。" },
+    "example": { "en": "Julia Roberts is a famous American actress.", "ja": "ジュリア・ロバーツはアメリカの有名な女優だ。" },
     "etymology": {
       "origin": "ラテン語 Iulia ← Iulius",
       "story": "ドイツ語では「ユリア」、スペイン語では Julia を「フリア」と読む。"
@@ -69894,7 +69894,7 @@
     "id": "juliet", "word": "Juliet", "katakana": "ジュリエット", "pos": "人名", "cefr": "A2", "level": 3, "group": "julius",
     "meaning": "女性名。Julia の愛称形",
     "scene": "シェイクスピア『ロミオとジュリエット』。",
-    "example": { "en": "Romeo and Juliet is a tragic love story.", "ja": "『ロミオとジュリエット』は悲しい恋の物語だ。" },
+    "example": { "en": "Romeo and Juliet is a sad love story.", "ja": "『ロミオとジュリエット』は悲しい恋の物語だ。" },
     "etymology": {
       "origin": "イタリア語 Giulietta ← Giulia + 指小辞 -etta",
       "story": "物語の舞台はイタリアのヴェローナ。フランス語では Juliette。"
@@ -70054,7 +70054,7 @@
     "id": "helen", "word": "Helen", "katakana": "ヘレン", "pos": "人名", "cefr": "A2", "level": 3, "group": "helen",
     "meaning": "女性名（英語形）。ギリシャ神話の美女ヘレネーの名",
     "scene": "ヘレン・ケラー、トロイのヘレン。",
-    "example": { "en": "Helen Keller learned to read and write though she could not see or hear.", "ja": "ヘレン・ケラーは目も耳も不自由だったが読み書きを学んだ。" },
+    "example": { "en": "Helen Keller learned to read though she could not see.", "ja": "ヘレン・ケラーは目が見えなかったが、字を読めるようになった。" },
     "etymology": {
       "origin": "ギリシャ語 Helenē（語源不詳。「たいまつ」「光」などの説）",
       "story": "トロイア戦争の原因となった美女ヘレネー。Ellen、Eleanor も同じ系統とされる。"
@@ -70278,7 +70278,7 @@
     "id": "philip", "word": "Philip", "katakana": "フィリップ", "pos": "人名", "cefr": "A2", "level": 3, "group": "philip",
     "meaning": "男性名（英語形）。もとの意味は「馬を愛する者」",
     "scene": "エディンバラ公フィリップ殿下。フィリピン（Philippines）はスペイン王フェリペ2世にちなむ。",
-    "example": { "en": "The Philippines were named after King Philip II of Spain.", "ja": "フィリピンはスペイン王フェリペ2世にちなんで名づけられた。" },
+    "example": { "en": "Prince Philip was the husband of Queen Elizabeth II.", "ja": "フィリップ殿下はエリザベス2世の夫だった。" },
     "etymology": {
       "origin": "ギリシャ語 Philippos ← philos「愛する」+ hippos「馬」",
       "story": "アレクサンドロス大王の父もフィリッポス2世。Phillip ともつづる。愛称は Phil。"
@@ -72102,7 +72102,7 @@
     "id": "eve-name", "word": "Eve", "katakana": "イブ", "pos": "人名", "cefr": "A2", "level": 3, "group": "eve",
     "meaning": "イブ（聖書で最初の女性）。女性名イブ",
     "scene": "アダムとイブ、禁断の果実。",
-    "example": { "en": "Eve ate the forbidden fruit in the Garden of Eden.", "ja": "イブはエデンの園で禁断の果実を食べた。" },
+    "example": { "en": "Eve was the first woman in the Bible.", "ja": "イブは聖書で最初の女性だ。" },
     "etymology": {
       "origin": "ヘブライ語 Ḥawwāh「生きる者、命」",
       "story": "クリスマス・イブの eve（前夜）とは別の語。"
@@ -72134,7 +72134,7 @@
     "id": "noah", "word": "Noah", "katakana": "ノア", "pos": "人名", "cefr": "A2", "level": 3,
     "meaning": "ノア（聖書で方舟を作り大洪水を生き延びた人物）。男性名ノア",
     "scene": "「ノアの方舟（Noah's Ark）」。英語圏で人気の男の子の名前。",
-    "example": { "en": "Noah built a huge ark to survive the flood.", "ja": "ノアは洪水を生き延びるために巨大な方舟を作った。" },
+    "example": { "en": "Noah built a big boat before the flood.", "ja": "ノアは大洪水の前に大きな船を作った。" },
     "etymology": {
       "origin": "ヘブライ語 Nōaḥ「休息、なぐさめ」",
       "story": "近年のアメリカで最も人気のある男の子の名前の一つ。"
@@ -72232,7 +72232,7 @@
     "scene": "首都ロンドン。サッカーやラグビーは4つの国が別々の代表で出場する。",
     "gap": "「イギリス」はポルトガル語 Inglês（イングランドの）から。英語で England というとイングランドだけを指し、スコットランドの人には失礼になることもある。国全体は the United Kingdom / the UK / Britain。",
     "trapQuiz": {"question": "スコットランドも含めた「イギリス」全体を英語で言うと？", "answer": "the United Kingdom", "wrong": ["England", "English", "Igirisu"]},
-    "example": { "en": "The United Kingdom is made up of four countries.", "ja": "イギリスは4つの国から成り立っている。" },
+    "example": { "en": "There are four countries in the United Kingdom.", "ja": "イギリスには4つの国がある。" },
     "etymology": {
       "origin": "正式名 the United Kingdom of Great Britain and Northern Ireland（グレートブリテンおよび北アイルランド連合王国）",
       "story": "1707年にイングランドとスコットランドが合同し、1801年にアイルランドが加わった（のちに北部のみ残る）。"
@@ -72248,7 +72248,7 @@
     "id": "britain", "word": "Britain", "katakana": "ブリテン", "pos": "地名", "cefr": "A2", "level": 3,
     "meaning": "イギリス（の通称）。グレートブリテン島",
     "scene": "「大英帝国（the British Empire）」、Brexit（ブレグジット＝ Britain + exit）。",
-    "example": { "en": "Britain voted to leave the European Union in 2016.", "ja": "イギリスは2016年にEU離脱を投票で決めた。" },
+    "example": { "en": "Britain is an island country like Japan.", "ja": "イギリスは日本のような島国だ。" },
     "etymology": {
       "origin": "ラテン語 Britannia ← ケルト系のブリトン人（Britons）",
       "story": "Great Britain はフランスのブルターニュ（小ブリテン）と区別するための呼び名。"
@@ -72282,7 +72282,7 @@
     "id": "scotland", "word": "Scotland", "katakana": "スコットランド", "pos": "地名", "cefr": "A2", "level": 2,
     "meaning": "スコットランド（イギリスを構成する国の一つ）",
     "scene": "バグパイプ、タータンチェック、スコッチウイスキー、ネス湖。",
-    "example": { "en": "Scotland has its own parliament.", "ja": "スコットランドには独自の議会がある。" },
+    "example": { "en": "Scotland is famous for its beautiful lakes.", "ja": "スコットランドは美しい湖で有名だ。" },
     "etymology": {
       "origin": "ラテン語 Scotia ← アイルランドから移り住んだスコット人（Scoti）",
       "story": "首都はエディンバラ。スコットランド語（ゲール語）では Alba（アルバ）。"
@@ -72330,7 +72330,7 @@
     "id": "ireland", "word": "Ireland", "katakana": "アイルランド", "pos": "地名", "cefr": "A2", "level": 3,
     "meaning": "アイルランド（島、およびアイルランド共和国）",
     "scene": "聖パトリックの祝日、ギネスビール、ケルト音楽。首都ダブリン。",
-    "example": { "en": "Ireland is called the Emerald Isle because it is so green.", "ja": "アイルランドは緑豊かなのでエメラルドの島と呼ばれる。" },
+    "example": { "en": "Ireland is a green country with many sheep.", "ja": "アイルランドは羊の多い緑の国だ。" },
     "etymology": {
       "origin": "古英語 Īraland ← アイルランド語 Ériu（女神の名）",
       "story": "アイルランド語では Éire（エール）。"
@@ -72364,7 +72364,7 @@
     "scene": "ビール、ソーセージ、サッカー、自動車。首都ベルリン。",
     "gap": "「ドイツ」はオランダ語 Duits（ドイツの）から。英語では Germany。英語の Dutch は「オランダの」なので注意。",
     "trapQuiz": {"question": "英語で「ドイツ」は？", "answer": "Germany", "wrong": ["Dutch", "Doitsu", "Deutch"]},
-    "example": { "en": "Germany is the largest economy in Europe.", "ja": "ドイツはヨーロッパ最大の経済大国だ。" },
+    "example": { "en": "Germany is famous for its cars.", "ja": "ドイツは車で有名だ。" },
     "etymology": {
       "origin": "ラテン語 Germānia（古代ローマ人がライン川の東の人々を呼んだ名）",
       "story": "ドイツ語では Deutschland、フランス語では Allemagne、ポーランド語では Niemcy と、国によって呼び名がまったく違う。"
@@ -72380,7 +72380,7 @@
     "id": "italy", "word": "Italy", "katakana": "イタリア", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "イタリア",
     "scene": "ピザ、パスタ、ローマ、ベネチア。",
-    "example": { "en": "Italy is shaped like a boot.", "ja": "イタリアは長靴のような形をしている。" },
+    "example": { "en": "Italy looks like a boot on the map.", "ja": "イタリアは地図で見ると長靴のような形だ。" },
     "etymology": {
       "origin": "ラテン語 Italia（半島南部の古い地名。「子牛の国」の説）",
       "story": "1861年に統一されるまで多くの国に分かれていた。"
@@ -72396,7 +72396,7 @@
     "id": "spain", "word": "Spain", "katakana": "スペイン", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "スペイン",
     "scene": "フラメンコ、パエリア、サグラダ・ファミリア。首都マドリード。",
-    "example": { "en": "Spain is famous for flamenco and paella.", "ja": "スペインはフラメンコとパエリアで有名だ。" },
+    "example": { "en": "Spain is famous for soccer.", "ja": "スペインはサッカーで有名だ。" },
     "etymology": {
       "origin": "ラテン語 Hispānia（語源不詳。フェニキア語「ウサギの島」の説）",
       "story": "スペイン語では España。Hispanic（スペイン語圏の）は Hispania から。"
@@ -72430,7 +72430,7 @@
     "scene": "チューリップ、風車、首都アムステルダム。",
     "gap": "「オランダ」はポルトガル語 Holanda から。英語では the Netherlands が正式で、Holland は2つの州だけを指す。オランダの人・言葉は Dutch。",
     "trapQuiz": {"question": "英語で「オランダの、オランダ人」は？", "answer": "Dutch", "wrong": ["Holland", "Olanda", "Netherlander only"]},
-    "example": { "en": "The Netherlands has many windmills and canals.", "ja": "オランダには風車と運河がたくさんある。" },
+    "example": { "en": "The Netherlands is famous for tulips.", "ja": "オランダはチューリップで有名だ。" },
     "etymology": {
       "origin": "オランダ語 Nederland「低い土地」",
       "story": "国土の約4分の1が海面より低い。首都はアムステルダムだが政府はハーグにある。"
@@ -72580,7 +72580,7 @@
     "id": "norway", "word": "Norway", "katakana": "ノルウェー", "pos": "地名", "cefr": "A2", "level": 3,
     "meaning": "ノルウェー",
     "scene": "フィヨルド、オーロラ、サーモン。首都オスロ。",
-    "example": { "en": "Norway is famous for its beautiful fjords.", "ja": "ノルウェーは美しいフィヨルドで有名だ。" },
+    "example": { "en": "Norway is a cold country in northern Europe.", "ja": "ノルウェーは北ヨーロッパの寒い国だ。" },
     "etymology": {
       "origin": "古ノルド語 Norðvegr「北への道」",
       "story": "海岸沿いの航路の名前が国名になった。"
@@ -72948,7 +72948,7 @@
     "id": "russia", "word": "Russia", "katakana": "ロシア", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "ロシア",
     "scene": "首都モスクワ、世界最大の国土。",
-    "example": { "en": "Russia is the largest country in the world.", "ja": "ロシアは世界最大の国だ。" },
+    "example": { "en": "Russia is a very big country.", "ja": "ロシアはとても大きな国だ。" },
     "etymology": {
       "origin": "中世ラテン語 Russia ← ルーシ（Rus'、東スラヴの国）",
       "story": "ルーシはスカンジナビアから来たバイキングの名とされる。"
@@ -73190,7 +73190,7 @@
     "scene": "トムヤムクン、ムエタイ、首都バンコク。",
     "gap": "日本語の「タイ」だけでは英語で通じない。国名は Thailand、形容詞・言語・人は Thai。",
     "trapQuiz": {"question": "英語で「タイ料理」は？", "answer": "Thai food", "wrong": ["Thailand food only", "Tie food", "Tai food"]},
-    "example": { "en": "Thailand was never colonized by a European country.", "ja": "タイはヨーロッパの国に植民地化されたことがない。" },
+    "example": { "en": "Thailand is a hot country in Asia.", "ja": "タイはアジアの暑い国だ。" },
     "etymology": {
       "origin": "タイ語 Prathet Thai「自由の国」",
       "story": "1939年までの国名は Siam（シャム）。シャム猫、シャム双生児の「シャム」。"
@@ -73350,7 +73350,7 @@
     "id": "india", "word": "India", "katakana": "インド", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "インド",
     "scene": "カレー、ヨガ、タージ・マハル。首都ニューデリー。",
-    "example": { "en": "India has the largest population in the world.", "ja": "インドは世界最大の人口をもつ。" },
+    "example": { "en": "Many people live in India.", "ja": "インドにはたくさんの人が住んでいる。" },
     "etymology": {
       "origin": "ギリシャ語 India ← インダス川（サンスクリット語 Sindhu「川」）",
       "story": "Hindu（ヒンドゥー）、Indus（インダス）も同じ Sindhu から。ヒンディー語では Bharat（バーラト）。"
@@ -74764,7 +74764,7 @@
     "id": "america", "word": "America", "katakana": "アメリカ", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "アメリカ（合衆国の通称）。南北アメリカ大陸",
     "scene": "「アメリカンドリーム」。大陸全体を the Americas とも言う。",
-    "example": { "en": "Columbus reached America in 1492.", "ja": "コロンブスは1492年にアメリカに到達した。" },
+    "example": { "en": "Many people in America speak Spanish.", "ja": "アメリカではたくさんの人がスペイン語を話す。" },
     "etymology": {
       "origin": "探検家アメリゴ・ヴェスプッチ（ラテン語 Americus Vespucius）の名から",
       "story": "新大陸が「アジアではない」と主張した探検家の名が大陸名になった。"
@@ -74780,7 +74780,7 @@
     "id": "canada", "word": "Canada", "katakana": "カナダ", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "カナダ",
     "scene": "メープルシロップ、ナイアガラの滝、首都オタワ。",
-    "example": { "en": "Canada is the second largest country in the world.", "ja": "カナダは世界で2番目に大きな国だ。" },
+    "example": { "en": "Canada is next to the United States.", "ja": "カナダはアメリカのとなりにある。" },
     "etymology": {
       "origin": "先住民イロコイ語 kanata「村」",
       "story": "探検家カルティエが「村」という言葉を土地の名前だと思ったことから。"
@@ -75244,7 +75244,7 @@
     "id": "brazil", "word": "Brazil", "katakana": "ブラジル", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "ブラジル",
     "scene": "サッカー、サンバ、アマゾン。首都ブラジリア。",
-    "example": { "en": "Brazil has won the World Cup five times.", "ja": "ブラジルはワールドカップで5回優勝している。" },
+    "example": { "en": "Brazil is very strong in soccer.", "ja": "ブラジルはサッカーがとても強い。" },
     "etymology": {
       "origin": "ポルトガル語 pau-brasil「ブラジルボク（赤い染料がとれる木）」← brasa「燃えさし」",
       "story": "木の名前が国名になった。ポルトガル語では Brasil。"
@@ -75580,7 +75580,7 @@
     "id": "asia", "word": "Asia", "katakana": "アジア", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "アジア",
     "scene": "アジア大会、東アジア、東南アジア。",
-    "example": { "en": "Asia is the largest continent.", "ja": "アジアは最大の大陸だ。" },
+    "example": { "en": "Japan is in Asia.", "ja": "日本はアジアにある。" },
     "etymology": {
       "origin": "ギリシャ語 Asia（アッシリア語 asu「日の出」の説）",
       "story": "もとはトルコ西部の地域名で、しだいに東の広い地域を指すようになった。"
@@ -76124,7 +76124,7 @@
     "id": "nile", "word": "Nile", "katakana": "ナイル", "pos": "地名", "cefr": "A2", "level": 3,
     "meaning": "ナイル川",
     "scene": "世界最長級の川。エジプト文明を育てた。",
-    "example": { "en": "The Nile flows north into the Mediterranean.", "ja": "ナイル川は北へ流れて地中海に注ぐ。" },
+    "example": { "en": "The Nile is the longest river in Africa.", "ja": "ナイル川はアフリカで一番長い川だ。" },
     "etymology": {
       "origin": "ギリシャ語 Neilos（語源不詳）",
       "story": "「エジプトはナイルの賜物」はヘロドトスの言葉。"
@@ -76284,7 +76284,7 @@
     "id": "grand-canyon", "word": "Grand Canyon", "katakana": "グランドキャニオン", "pos": "地名", "cefr": "A2", "level": 3,
     "meaning": "グランドキャニオン（アリゾナ州の大峡谷）",
     "scene": "コロラド川が作った巨大な谷。",
-    "example": { "en": "The Grand Canyon was carved by the Colorado River.", "ja": "グランドキャニオンはコロラド川によって削られた。" },
+    "example": { "en": "The Grand Canyon was made by the Colorado River.", "ja": "グランドキャニオンはコロラド川によってつくられた。" },
     "etymology": {
       "origin": "grand「壮大な」+ canyon「峡谷」← スペイン語 cañón「管」",
       "story": "深さ約1.6キロ、20億年分の地層が見られる。"
@@ -76300,7 +76300,7 @@
     "id": "hawaii", "word": "Hawaii", "katakana": "ハワイ", "pos": "地名", "cefr": "A1", "level": 1,
     "meaning": "ハワイ（アメリカの州、ハワイ諸島）",
     "scene": "ワイキキ、フラダンス、アロハシャツ。",
-    "example": { "en": "Hawaii became the 50th US state in 1959.", "ja": "ハワイは1959年にアメリカの50番目の州になった。" },
+    "example": { "en": "Hawaii has beautiful beaches.", "ja": "ハワイには美しい浜辺がある。" },
     "etymology": {
       "origin": "ハワイ語 Hawaiʻi（伝説の故郷 Hawaiki の説）",
       "story": "英語での発音は「ハワイイ」に近い。州都ホノルル。"
@@ -76814,7 +76814,7 @@
     "scene": "パルテノン神殿、古代民主政治、2004年五輪。",
     "gap": "「アテネ」はギリシャ語 Athēnai から。英語では Athens（アセンズ）。",
     "trapQuiz": {"question": "英語で「アテネ」は？", "answer": "Athens", "wrong": ["Athene only", "Athena", "Atene"]},
-    "example": { "en": "Democracy was born in ancient Athens.", "ja": "民主主義は古代アテネで生まれた。" },
+    "example": { "en": "Athens is the capital of Greece.", "ja": "アテネはギリシャの首都だ。" },
     "etymology": {
       "origin": "ギリシャ語 Athēnai（女神アテナの名から）",
       "story": "町の守護神の名前がそのまま町の名になった。"
@@ -76846,7 +76846,7 @@
     "id": "barcelona", "word": "Barcelona", "katakana": "バルセロナ", "pos": "地名", "cefr": "A2", "level": 3,
     "meaning": "バルセロナ（スペイン・カタルーニャの都市）",
     "scene": "サグラダ・ファミリア、ガウディ、FCバルセロナ。",
-    "example": { "en": "The Sagrada Família in Barcelona is still under construction.", "ja": "バルセロナのサグラダ・ファミリアはまだ建設中だ。" },
+    "example": { "en": "Barcelona is a beautiful city in Spain.", "ja": "バルセロナはスペインの美しい都市だ。" },
     "etymology": {
       "origin": "ラテン語 Barcino（カルタゴのバルカ家の名の説）",
       "story": "カタルーニャ語とスペイン語が話される。"
@@ -77222,7 +77222,7 @@
     "id": "los-angeles", "word": "Los Angeles", "katakana": "ロサンゼルス", "pos": "地名", "cefr": "A2", "level": 2,
     "meaning": "ロサンゼルス（アメリカ西海岸の大都市）",
     "scene": "ハリウッド、ビバリーヒルズ。略して LA。",
-    "example": { "en": "Hollywood is a district of Los Angeles.", "ja": "ハリウッドはロサンゼルスの一地区だ。" },
+    "example": { "en": "Hollywood is in Los Angeles.", "ja": "ハリウッドはロサンゼルスにある。" },
     "etymology": {
       "origin": "スペイン語 los ángeles「天使たち」",
       "story": "正式にはもっと長い「天使たちの女王の町」。"
@@ -77238,7 +77238,7 @@
     "id": "hollywood", "word": "Hollywood", "katakana": "ハリウッド", "pos": "地名", "cefr": "A2", "level": 3,
     "meaning": "ハリウッド（ロサンゼルスの地区。アメリカ映画界）",
     "scene": "ハリウッドサイン、アカデミー賞。",
-    "example": { "en": "Hollywood is the center of the American film industry.", "ja": "ハリウッドはアメリカ映画産業の中心だ。" },
+    "example": { "en": "Many movies are made in Hollywood.", "ja": "たくさんの映画がハリウッドで作られている。" },
     "etymology": {
       "origin": "holly「ヒイラギ」+ wood「森」",
       "story": "不動産開発業者の妻がつけた名前と言われる。"
@@ -79130,7 +79130,7 @@
     "id": "job", "word": "job", "katakana": "ジョブ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "仕事、職",
     "scene": "RPGの「ジョブ（職業）」システム、「ジョブチェンジ」。",
-    "example": { "en": "My sister got a new job at a bank.", "ja": "姉は銀行で新しい仕事についた。" },
+    "example": { "en": "My sister likes her new job.", "ja": "姉は新しい仕事が気に入っている。" },
     "etymology": {
       "origin": "16世紀の英語 jobbe「ひとかたまりの仕事」（語源ははっきりしない）",
       "story": "もとは「一回分の仕事・請負仕事」の意味。Good job!（よくやった！）はほめ言葉の定番。"
@@ -79181,7 +79181,7 @@
     "id": "question", "word": "question", "katakana": "クエスチョン", "pos": "名詞・動詞", "cefr": "A1", "level": 1,
     "meaning": "質問、問題、疑う",
     "scene": "「クエスチョンマーク（？）」、クイズ番組の「クエスチョン」。",
-    "example": { "en": "May I ask you a question?", "ja": "質問してもいいですか？" },
+    "example": { "en": "Can I ask you a question?", "ja": "質問してもいい？" },
     "etymology": {
       "origin": "古フランス語 question ← ラテン語 quaestiō「探求、尋問」← quaerere「探し求める」",
       "story": "quest（探求の旅）、request（頼む）と同じ仲間。「答えを探し求めること」が質問。"
@@ -79198,7 +79198,7 @@
     "id": "father", "word": "father", "katakana": "ファーザー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "父",
     "scene": "映画『ゴッドファーザー』、「ファーザーズデー（父の日）」。",
-    "example": { "en": "My father cooks dinner on Sundays.", "ja": "父は日曜日に夕食を作る。" },
+    "example": { "en": "My father gets up at six every day.", "ja": "父は毎日6時に起きる。" },
     "etymology": {
       "origin": "古英語 fæder ← インド・ヨーロッパ祖語 *ph₂tḗr",
       "story": "ラテン語 pater と同じ祖先。paternal（父の）、patriot（愛国者）も仲間。f と p の対応はグリムの法則の代表例。"
@@ -79283,7 +79283,7 @@
     "id": "funny", "word": "funny", "katakana": "ファニー", "pos": "形容詞", "cefr": "A1", "level": 1,
     "meaning": "おかしい、おもしろい、変な",
     "scene": "「ファニーフェイス（愛嬌のある顔）」。",
-    "example": { "en": "His joke was really funny.", "ja": "彼の冗談はすごくおもしろかった。" },
+    "example": { "en": "His jokes are really funny.", "ja": "彼の冗談はすごくおもしろい。" },
     "etymology": {
       "origin": "fun「楽しみ」+ -y（18世紀）",
       "story": "笑える意味だけでなく、It smells funny（変なにおいがする）のように「妙な」の意味もある。"
@@ -79351,7 +79351,7 @@
     "id": "stone", "word": "stone", "katakana": "ストーン", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "石",
     "scene": "「ローリング・ストーンズ」、ゲームの「〜ストーン」、カーリングの「ストーン」。",
-    "example": { "en": "He threw a stone into the river.", "ja": "彼は川に石を投げた。" },
+    "example": { "en": "Don't throw stones into the river.", "ja": "川に石を投げないで。" },
     "etymology": {
       "origin": "古英語 stān",
       "story": "ゲルマン語共通の古い語（ドイツ語 Stein）。イギリスでは体重の単位にもなる（1ストーン＝約6.35kg）。"
@@ -79368,7 +79368,7 @@
     "id": "finger", "word": "finger", "katakana": "フィンガー", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "（手の）指",
     "scene": "「フィンガーボウル」「ファイブフィンガー」。",
-    "example": { "en": "I cut my finger with a knife.", "ja": "ナイフで指を切った。" },
+    "example": { "en": "Count with your fingers.", "ja": "指で数えてみて。" },
     "etymology": {
       "origin": "古英語 finger（ゲルマン語で five と関係があるとする説がある）",
       "story": "親指は thumb、足の指は toe と別の語。「指が5本」から five と同じ語源という説もあるが、確かではない。"
@@ -79419,7 +79419,7 @@
     "id": "foot", "word": "foot", "katakana": "フット", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "足、フィート（約30cm）",
     "scene": "「フットサル」「フットワーク」「フットライト」。",
-    "example": { "en": "I hurt my foot playing soccer.", "ja": "サッカーをしていて足をけがした。" },
+    "example": { "en": "My foot hurts.", "ja": "足が痛い。" },
     "etymology": {
       "origin": "古英語 fōt ← インド・ヨーロッパ祖語 *pṓds",
       "story": "ラテン語 pēs（ped-）と同じ祖先で、pedal（ペダル）も親戚。複数形は feet。長さの単位（足の大きさ）にもなった。"
@@ -79555,7 +79555,7 @@
     "id": "umbrella", "word": "umbrella", "katakana": "アンブレラ", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "かさ",
     "scene": "ゲーム『バイオハザード』の「アンブレラ社」。",
-    "example": { "en": "Take an umbrella. It's going to rain.", "ja": "かさを持っていって。雨が降るよ。" },
+    "example": { "en": "Take an umbrella. It's raining.", "ja": "かさを持っていって。雨が降っているよ。" },
     "etymology": {
       "origin": "イタリア語 ombrella ← ラテン語 umbra「影」",
       "story": "もとは日よけの「小さな影」。日がさは parasol。umbrella term は「包括的な用語」。"
@@ -79572,7 +79572,7 @@
     "id": "homework", "word": "homework", "katakana": "ホームワーク", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "宿題",
     "scene": "学校の宿題。",
-    "example": { "en": "I finished my homework before dinner.", "ja": "夕食前に宿題を終えた。" },
+    "example": { "en": "I do my homework before dinner.", "ja": "私は夕食の前に宿題をする。" },
     "etymology": {
       "origin": "home「家」+ work「仕事」",
       "story": "「家でする仕事」。数えられない名詞なので a homework とは言わず、some homework と言う。"
@@ -79878,7 +79878,7 @@
     "id": "waiter", "word": "waiter", "katakana": "ウェイター", "pos": "名詞", "cefr": "A1", "level": 1,
     "meaning": "ウェイター、給仕",
     "scene": "レストランの店員。",
-    "example": { "en": "The waiter brought us the menu.", "ja": "ウェイターがメニューを持ってきた。" },
+    "example": { "en": "The waiter is bringing our food.", "ja": "ウェイターが料理を運んでくる。" },
     "etymology": {
       "origin": "wait「待つ、給仕する」+ -er",
       "story": "wait on（〜に給仕する）の「待機して仕える人」。女性は waitress だが、今は男女とも server と呼ぶことが増えた。"
@@ -80186,7 +80186,7 @@
     "id": "beauty", "word": "beauty", "katakana": "ビューティー", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "美しさ、美人",
     "scene": "「ビューティーサロン」、『美女と野獣（Beauty and the Beast）』。",
-    "example": { "en": "The beauty of the sunset took my breath away.", "ja": "夕日の美しさに息をのんだ。" },
+    "example": { "en": "We enjoyed the beauty of the mountains.", "ja": "私たちは山の美しさを楽しんだ。" },
     "etymology": {
       "origin": "古フランス語 biauté ← ラテン語 bellus「美しい」",
       "story": "beautiful は beauty + -ful。bellus はイタリア語 bello、フランス語 belle（ベル）の元。"
@@ -83207,7 +83207,7 @@
     "id": "spelling", "word": "spelling", "katakana": "スペリング", "pos": "名詞", "cefr": "A2", "level": 3,
     "meaning": "つづり",
     "scene": "英単語の「スペリングテスト」、「スペリング・ビー（つづり大会）」。",
-    "example": { "en": "Check your spelling before you hand it in.", "ja": "提出する前につづりを確認して。" },
+    "example": { "en": "Please check your spelling.", "ja": "つづりを確認してください。" },
     "etymology": {
       "origin": "spell「つづる」+ -ing",
       "story": "動詞 spell（つづる）は古フランス語 espeller「読み解く」から。「呪文」の spell（古英語 spel「話」）とは別の語。"
