@@ -1861,12 +1861,12 @@
  },
  "air.example.en": {
   "lang": "en",
-  "text": "Let's open the window and get some fresh air.",
+  "text": "The air is clean here.",
   "tier": "core"
  },
  "air.example.ja": {
   "lang": "ja",
-  "text": "窓を開けて新鮮な空気を入れよう。",
+  "text": "ここは空気がきれいだ。",
   "tier": "core"
  },
  "air.katakana": {
@@ -2191,12 +2191,12 @@
  },
  "album.example.en": {
   "lang": "en",
-  "text": "The band released a new album.",
+  "text": "The band made a new album.",
   "tier": "core"
  },
  "album.example.ja": {
   "lang": "ja",
-  "text": "そのバンドは新しいアルバムを出した。",
+  "text": "そのバンドは新しいアルバムを作った。",
   "tier": "core"
  },
  "album.katakana": {
@@ -2451,12 +2451,12 @@
  },
  "alexander.example.en": {
   "lang": "en",
-  "text": "Alexander the Great built a huge empire.",
+  "text": "Alexander the Great was a famous king.",
   "tier": "core"
  },
  "alexander.example.ja": {
   "lang": "ja",
-  "text": "アレクサンダー大王は巨大な帝国を築いた。",
+  "text": "アレクサンドロス大王は有名な王だった。",
   "tier": "core"
  },
  "alexander.katakana": {
@@ -2866,12 +2866,12 @@
  },
  "all.example.en": {
   "lang": "en",
-  "text": "All the students passed the test.",
+  "text": "All the students are in the classroom.",
   "tier": "core"
  },
  "all.example.ja": {
   "lang": "ja",
-  "text": "生徒全員がテストに合格した。",
+  "text": "生徒全員が教室にいる。",
   "tier": "core"
  },
  "all.katakana": {
@@ -3556,12 +3556,12 @@
  },
  "america.example.en": {
   "lang": "en",
-  "text": "Columbus reached America in 1492.",
+  "text": "Many people in America speak Spanish.",
   "tier": "core"
  },
  "america.example.ja": {
   "lang": "ja",
-  "text": "コロンブスは1492年にアメリカに到達した。",
+  "text": "アメリカではたくさんの人がスペイン語を話す。",
   "tier": "core"
  },
  "america.katakana": {
@@ -4311,12 +4311,12 @@
  },
  "andrew.example.en": {
   "lang": "en",
-  "text": "Saint Andrew is the patron saint of Scotland.",
+  "text": "Andrew is a common name in Scotland.",
   "tier": "core"
  },
  "andrew.example.ja": {
   "lang": "ja",
-  "text": "聖アンドリューはスコットランドの守護聖人だ。",
+  "text": "アンドリューはスコットランドでよくある名前だ。",
   "tier": "core"
  },
  "andrew.katakana": {
@@ -4691,12 +4691,12 @@
  },
  "anne.example.en": {
   "lang": "en",
-  "text": "Anne of Green Gables is loved by many Japanese readers.",
+  "text": "Many Japanese people love Anne of Green Gables.",
   "tier": "core"
  },
  "anne.example.ja": {
   "lang": "ja",
-  "text": "『赤毛のアン』は多くの日本の読者に愛されている。",
+  "text": "多くの日本人が『赤毛のアン』を愛している。",
   "tier": "core"
  },
  "anne.katakana": {
@@ -5016,12 +5016,12 @@
  },
  "anthony.example.en": {
   "lang": "en",
-  "text": "Anthony Hopkins won an Oscar for The Silence of the Lambs.",
+  "text": "Anthony Hopkins is a famous actor from Wales.",
   "tier": "core"
  },
  "anthony.example.ja": {
   "lang": "ja",
-  "text": "アンソニー、ホプキンスは『羊たちの沈黙』でアカデミー賞を受賞した。",
+  "text": "アンソニー、ホプキンスはウェールズ出身の有名な俳優だ。",
   "tier": "core"
  },
  "anthony.katakana": {
@@ -5626,12 +5626,12 @@
  },
  "apple.example.en": {
   "lang": "en",
-  "text": "She packed an apple and a sandwich for lunch.",
+  "text": "I eat an apple every morning.",
   "tier": "core"
  },
  "apple.example.ja": {
   "lang": "ja",
-  "text": "彼女はお昼にリンゴとサンドイッチを詰めた。",
+  "text": "私は毎朝りんごを1個食べる。",
   "tier": "core"
  },
  "apple.katakana": {
@@ -6406,12 +6406,12 @@
  },
  "arm.example.en": {
   "lang": "en",
-  "text": "He broke his arm playing soccer.",
+  "text": "He has long arms.",
   "tier": "core"
  },
  "arm.example.ja": {
   "lang": "ja",
-  "text": "彼はサッカーで腕を折った。",
+  "text": "彼は腕が長い。",
   "tier": "core"
  },
  "arm.katakana": {
@@ -6616,12 +6616,12 @@
  },
  "around.example.en": {
   "lang": "en",
-  "text": "We walked around the lake.",
+  "text": "We walk around the lake every morning.",
   "tier": "core"
  },
  "around.example.ja": {
   "lang": "ja",
-  "text": "湖のまわりを歩いた。",
+  "text": "私たちは毎朝湖のまわりを歩く。",
   "tier": "core"
  },
  "around.katakana": {
@@ -6946,12 +6946,12 @@
  },
  "asia.example.en": {
   "lang": "en",
-  "text": "Asia is the largest continent.",
+  "text": "Japan is in Asia.",
   "tier": "core"
  },
  "asia.example.ja": {
   "lang": "ja",
-  "text": "アジアは最大の大陸だ。",
+  "text": "日本はアジアにある。",
   "tier": "core"
  },
  "asia.katakana": {
@@ -7366,12 +7366,12 @@
  },
  "athens.example.en": {
   "lang": "en",
-  "text": "Democracy was born in ancient Athens.",
+  "text": "Athens is the capital of Greece.",
   "tier": "core"
  },
  "athens.example.ja": {
   "lang": "ja",
-  "text": "民主主義は古代アテネで生まれた。",
+  "text": "アテネはギリシャの首都だ。",
   "tier": "core"
  },
  "athens.katakana": {
@@ -8566,12 +8566,12 @@
  },
  "baby.example.en": {
   "lang": "en",
-  "text": "The baby is sleeping, so please be quiet.",
+  "text": "The baby is sleeping. Please be quiet.",
   "tier": "core"
  },
  "baby.example.ja": {
   "lang": "ja",
-  "text": "赤ちゃんが寝ているので静かにしてね。",
+  "text": "赤ちゃんが寝ているよ。静かにしてね。",
   "tier": "core"
  },
  "baby.katakana": {
@@ -9436,12 +9436,12 @@
  },
  "balloon.example.en": {
   "lang": "en",
-  "text": "The child let go of her balloon.",
+  "text": "Her red balloon flew up into the sky.",
   "tier": "core"
  },
  "balloon.example.ja": {
   "lang": "ja",
-  "text": "子どもが風船を放してしまった。",
+  "text": "彼女の赤い風船が空に飛んでいった。",
   "tier": "core"
  },
  "balloon.katakana": {
@@ -9676,12 +9676,12 @@
  },
  "bank.example.en": {
   "lang": "en",
-  "text": "I need to go to the bank to open an account.",
+  "text": "My mother works at a bank.",
   "tier": "core"
  },
  "bank.example.ja": {
   "lang": "ja",
-  "text": "口座を作りに銀行に行かなくちゃ。",
+  "text": "母は銀行で働いている。",
   "tier": "core"
  },
  "bank.katakana": {
@@ -9916,12 +9916,12 @@
  },
  "barcelona.example.en": {
   "lang": "en",
-  "text": "The Sagrada Família in Barcelona is still under construction.",
+  "text": "Barcelona is a beautiful city in Spain.",
   "tier": "core"
  },
  "barcelona.example.ja": {
   "lang": "ja",
-  "text": "バルセロナのサグラダ、ファミリアはまだ建設中だ。",
+  "text": "バルセロナはスペインの美しい都市だ。",
   "tier": "core"
  },
  "barcelona.katakana": {
@@ -10576,12 +10576,12 @@
  },
  "basketball.example.en": {
   "lang": "en",
-  "text": "He is tall, so he's good at basketball.",
+  "text": "He is tall and good at basketball.",
   "tier": "core"
  },
  "basketball.example.ja": {
   "lang": "ja",
-  "text": "彼は背が高いので、バスケットボールが得意だ。",
+  "text": "彼は背が高くて、バスケットボールが得意だ。",
   "tier": "core"
  },
  "basketball.katakana": {
@@ -10696,12 +10696,12 @@
  },
  "bathroom.example.en": {
   "lang": "en",
-  "text": "May I use your bathroom?",
+  "text": "Where is the bathroom?",
   "tier": "core"
  },
  "bathroom.example.ja": {
   "lang": "ja",
-  "text": "お手洗いを借りてもいいですか？",
+  "text": "お手洗いはどこですか？",
   "tier": "core"
  },
  "bathroom.katakana": {
@@ -10966,12 +10966,12 @@
  },
  "beach.example.en": {
   "lang": "en",
-  "text": "We played volleyball on the beach.",
+  "text": "Let's walk on the beach.",
   "tier": "core"
  },
  "beach.example.ja": {
   "lang": "ja",
-  "text": "私たちは浜辺でバレーボールをした。",
+  "text": "浜辺を歩こう。",
   "tier": "core"
  },
  "beach.katakana": {
@@ -11146,12 +11146,12 @@
  },
  "bear.example.en": {
   "lang": "en",
-  "text": "A bear came out of the forest.",
+  "text": "Look! There is a bear in the forest!",
   "tier": "core"
  },
  "bear.example.ja": {
   "lang": "ja",
-  "text": "森からクマが出てきた。",
+  "text": "見て！ 森にクマがいる！",
   "tier": "core"
  },
  "bear.katakana": {
@@ -11296,12 +11296,12 @@
  },
  "beauty.example.en": {
   "lang": "en",
-  "text": "The beauty of the sunset took my breath away.",
+  "text": "We enjoyed the beauty of the mountains.",
   "tier": "core"
  },
  "beauty.example.ja": {
   "lang": "ja",
-  "text": "夕日の美しさに息をのんだ。",
+  "text": "私たちは山の美しさを楽しんだ。",
   "tier": "core"
  },
  "beauty.katakana": {
@@ -11386,12 +11386,12 @@
  },
  "bed.example.en": {
   "lang": "en",
-  "text": "It's late. Time to go to bed.",
+  "text": "It's late. Go to bed now.",
   "tier": "core"
  },
  "bed.example.ja": {
   "lang": "ja",
-  "text": "もう遅いよ。寝る時間だ。",
+  "text": "もう遅いよ。もう寝なさい。",
   "tier": "core"
  },
  "bed.katakana": {
@@ -11476,12 +11476,12 @@
  },
  "beef.example.en": {
   "lang": "en",
-  "text": "This beef is very tender.",
+  "text": "I like beef more than chicken.",
   "tier": "core"
  },
  "beef.example.ja": {
   "lang": "ja",
-  "text": "この牛肉はとてもやわらかい。",
+  "text": "私は鶏肉より牛肉が好きだ。",
   "tier": "core"
  },
  "beef.katakana": {
@@ -11986,12 +11986,12 @@
  },
  "belt.example.en": {
   "lang": "en",
-  "text": "Fasten your seat belt.",
+  "text": "Wear your seat belt in the car.",
   "tier": "core"
  },
  "belt.example.ja": {
   "lang": "ja",
-  "text": "シートベルトを締めてください。",
+  "text": "車ではシートベルトをしめて。",
   "tier": "core"
  },
  "belt.katakana": {
@@ -13156,12 +13156,12 @@
  },
  "black.example.en": {
   "lang": "en",
-  "text": "I'll have my coffee black, please.",
+  "text": "I have a black cat.",
   "tier": "core"
  },
  "black.example.ja": {
   "lang": "ja",
-  "text": "コーヒーはブラックでお願いします。",
+  "text": "私は黒い猫を飼っている。",
   "tier": "core"
  },
  "black.katakana": {
@@ -13756,12 +13756,12 @@
  },
  "blue.example.en": {
   "lang": "en",
-  "text": "I feel a bit blue today.",
+  "text": "The sky is blue today.",
   "tier": "core"
  },
  "blue.example.ja": {
   "lang": "ja",
-  "text": "今日はちょっと気分が沈んでいる。",
+  "text": "今日は空が青い。",
   "tier": "core"
  },
  "blue.katakana": {
@@ -13936,12 +13936,12 @@
  },
  "boat.example.en": {
   "lang": "en",
-  "text": "We rowed a boat on the lake.",
+  "text": "We can ride a boat on the lake.",
   "tier": "core"
  },
  "boat.example.ja": {
   "lang": "ja",
-  "text": "湖でボートをこいだ。",
+  "text": "湖でボートに乗れる。",
   "tier": "core"
  },
  "boat.katakana": {
@@ -14506,12 +14506,12 @@
  },
  "book.example.en": {
   "lang": "en",
-  "text": "I booked a table for two at the restaurant.",
+  "text": "This book is very interesting.",
   "tier": "core"
  },
  "book.example.ja": {
   "lang": "ja",
-  "text": "レストランに2人分の席を予約した。",
+  "text": "この本はとてもおもしろい。",
   "tier": "core"
  },
  "book.katakana": {
@@ -15436,12 +15436,12 @@
  },
  "boxing.example.en": {
   "lang": "en",
-  "text": "He trains in boxing every day.",
+  "text": "He practices boxing every day.",
   "tier": "core"
  },
  "boxing.example.ja": {
   "lang": "ja",
-  "text": "彼は毎日ボクシングの練習をしている。",
+  "text": "彼は毎日ボクシングを練習している。",
   "tier": "core"
  },
  "boxing.katakana": {
@@ -15556,12 +15556,12 @@
  },
  "boyfriend.example.en": {
   "lang": "en",
-  "text": "She went to the movies with her boyfriend.",
+  "text": "Her boyfriend is very kind.",
   "tier": "core"
  },
  "boyfriend.example.ja": {
   "lang": "ja",
-  "text": "彼女は彼氏と映画に行った。",
+  "text": "彼女の彼氏はとても優しい。",
   "tier": "core"
  },
  "boyfriend.katakana": {
@@ -15976,12 +15976,12 @@
  },
  "brazil.example.en": {
   "lang": "en",
-  "text": "Brazil has won the World Cup five times.",
+  "text": "Brazil is very strong in soccer.",
   "tier": "core"
  },
  "brazil.example.ja": {
   "lang": "ja",
-  "text": "ブラジルはワールドカップで5回優勝している。",
+  "text": "ブラジルはサッカーがとても強い。",
   "tier": "core"
  },
  "brazil.katakana": {
@@ -16006,12 +16006,12 @@
  },
  "bread.example.en": {
   "lang": "en",
-  "text": "I buy fresh bread from the bakery every morning.",
+  "text": "I eat bread and eggs for breakfast.",
   "tier": "core"
  },
  "bread.example.ja": {
   "lang": "ja",
-  "text": "私は毎朝パン屋で焼きたてのパンを買う。",
+  "text": "私は朝食にパンと卵を食べる。",
   "tier": "core"
  },
  "bread.katakana": {
@@ -16336,12 +16336,12 @@
  },
  "britain.example.en": {
   "lang": "en",
-  "text": "Britain voted to leave the European Union in 2016.",
+  "text": "Britain is an island country like Japan.",
   "tier": "core"
  },
  "britain.example.ja": {
   "lang": "ja",
-  "text": "イギリスは2016年にEU離脱を投票で決めた。",
+  "text": "イギリスは日本のような島国だ。",
   "tier": "core"
  },
  "britain.katakana": {
@@ -17686,12 +17686,12 @@
  },
  "business.example.en": {
   "lang": "en",
-  "text": "It's none of your business.",
+  "text": "My father went to China on business.",
   "tier": "core"
  },
  "business.example.ja": {
   "lang": "ja",
-  "text": "きみには関係ないことだ。",
+  "text": "父は仕事で中国に行った。",
   "tier": "core"
  },
  "business.katakana": {
@@ -18106,12 +18106,12 @@
  },
  "cabbage.example.en": {
   "lang": "en",
-  "text": "I shredded some cabbage for the salad.",
+  "text": "I cut some cabbage for the salad.",
   "tier": "core"
  },
  "cabbage.example.ja": {
   "lang": "ja",
-  "text": "サラダ用にキャベツを千切りにした。",
+  "text": "サラダ用にキャベツを切った。",
   "tier": "core"
  },
  "cabbage.katakana": {
@@ -18466,12 +18466,12 @@
  },
  "cake.example.en": {
   "lang": "en",
-  "text": "We baked a chocolate cake for her birthday.",
+  "text": "Let's make a chocolate cake for Mom.",
   "tier": "core"
  },
  "cake.example.ja": {
   "lang": "ja",
-  "text": "私たちは彼女の誕生日にチョコレートケーキを焼いた。",
+  "text": "お母さんにチョコレートケーキを作ろう。",
   "tier": "core"
  },
  "cake.katakana": {
@@ -18556,12 +18556,12 @@
  },
  "calendar.example.en": {
   "lang": "en",
-  "text": "I marked her birthday on the calendar.",
+  "text": "There is a calendar on the wall.",
   "tier": "core"
  },
  "calendar.example.ja": {
   "lang": "ja",
-  "text": "カレンダーに彼女の誕生日の印をつけた。",
+  "text": "壁にカレンダーがかかっている。",
   "tier": "core"
  },
  "calendar.katakana": {
@@ -18946,12 +18946,12 @@
  },
  "camp.example.en": {
   "lang": "en",
-  "text": "We camped by the lake for two nights.",
+  "text": "We camp by the lake every summer.",
   "tier": "core"
  },
  "camp.example.ja": {
   "lang": "ja",
-  "text": "湖のそばで2泊キャンプをした。",
+  "text": "私たちは毎年夏に湖のそばでキャンプをする。",
   "tier": "core"
  },
  "camp.katakana": {
@@ -19126,12 +19126,12 @@
  },
  "canada.example.en": {
   "lang": "en",
-  "text": "Canada is the second largest country in the world.",
+  "text": "Canada is next to the United States.",
   "tier": "core"
  },
  "canada.example.ja": {
   "lang": "ja",
-  "text": "カナダは世界で2番目に大きな国だ。",
+  "text": "カナダはアメリカのとなりにある。",
   "tier": "core"
  },
  "canada.katakana": {
@@ -19336,12 +19336,12 @@
  },
  "canoe.example.en": {
   "lang": "en",
-  "text": "We paddled a canoe down the river.",
+  "text": "We went down the river in a canoe.",
   "tier": "core"
  },
  "canoe.example.ja": {
   "lang": "ja",
-  "text": "カヌーをこいで川を下った。",
+  "text": "私たちはカヌーで川を下った。",
   "tier": "core"
  },
  "canoe.katakana": {
@@ -21306,12 +21306,12 @@
  },
  "cat.example.en": {
   "lang": "en",
-  "text": "The cat is sleeping in the sun on the sofa.",
+  "text": "The cat is sleeping on the sofa.",
   "tier": "core"
  },
  "cat.example.ja": {
   "lang": "ja",
-  "text": "猫がソファの上でひなたぼっこをして寝ている。",
+  "text": "猫がソファの上で寝ている。",
   "tier": "core"
  },
  "cat.katakana": {
@@ -22101,12 +22101,12 @@
  },
  "center.example.en": {
   "lang": "en",
-  "text": "There's a fountain in the center of the park.",
+  "text": "There is a big tree in the center of the park.",
   "tier": "core"
  },
  "center.example.ja": {
   "lang": "ja",
-  "text": "公園の真ん中に噴水がある。",
+  "text": "公園の中心に大きな木がある。",
   "tier": "core"
  },
  "center.katakana": {
@@ -23146,12 +23146,12 @@
  },
  "charles.example.en": {
   "lang": "en",
-  "text": "Charles Darwin wrote On the Origin of Species.",
+  "text": "Charles Darwin was a famous scientist.",
   "tier": "core"
  },
  "charles.example.ja": {
   "lang": "ja",
-  "text": "チャールズ、ダーウィンは『種の起源』を書いた。",
+  "text": "チャールズ、ダーウィンは有名な科学者だった。",
   "tier": "core"
  },
  "charles.katakana": {
@@ -23356,12 +23356,12 @@
  },
  "chat.example.en": {
   "lang": "en",
-  "text": "We chatted over coffee.",
+  "text": "We chatted for an hour after school.",
   "tier": "core"
  },
  "chat.example.ja": {
   "lang": "ja",
-  "text": "コーヒーを飲みながらおしゃべりした。",
+  "text": "放課後に1時間おしゃべりした。",
   "tier": "core"
  },
  "chat.katakana": {
@@ -23716,12 +23716,12 @@
  },
  "chef.example.en": {
   "lang": "en",
-  "text": "The chef recommended the fish.",
+  "text": "The chef made a special dinner for us.",
   "tier": "core"
  },
  "chef.example.ja": {
   "lang": "ja",
-  "text": "シェフは魚料理をすすめた。",
+  "text": "シェフは私たちのために特別な夕食を作った。",
   "tier": "core"
  },
  "chef.katakana": {
@@ -23986,12 +23986,12 @@
  },
  "chicken.example.en": {
   "lang": "en",
-  "text": "We had grilled chicken for lunch.",
+  "text": "We are having chicken for lunch.",
   "tier": "core"
  },
  "chicken.example.ja": {
   "lang": "ja",
-  "text": "昼食にグリルチキンを食べた。",
+  "text": "お昼はチキンだ。",
   "tier": "core"
  },
  "chicken.katakana": {
@@ -24226,12 +24226,12 @@
  },
  "chinese.example.en": {
   "lang": "en",
-  "text": "We had Chinese food for dinner.",
+  "text": "We often eat Chinese food.",
   "tier": "core"
  },
  "chinese.example.ja": {
   "lang": "ja",
-  "text": "夕食に中華料理を食べた。",
+  "text": "私たちはよく中華料理を食べる。",
   "tier": "core"
  },
  "chinese.katakana": {
@@ -24316,12 +24316,12 @@
  },
  "chocolate.example.en": {
   "lang": "en",
-  "text": "He gave her a box of chocolates.",
+  "text": "This box of chocolates is for you.",
   "tier": "core"
  },
  "chocolate.example.ja": {
   "lang": "ja",
-  "text": "彼は彼女にチョコレートを一箱あげた。",
+  "text": "このチョコレートはあなたへのプレゼントだよ。",
   "tier": "core"
  },
  "chocolate.katakana": {
@@ -25056,12 +25056,12 @@
  },
  "city.example.en": {
   "lang": "en",
-  "text": "Tokyo is one of the largest cities in the world.",
+  "text": "Tokyo is a very big city.",
   "tier": "core"
  },
  "city.example.ja": {
   "lang": "ja",
-  "text": "東京は世界最大級の都市のひとつだ。",
+  "text": "東京はとても大きな都市だ。",
   "tier": "core"
  },
  "city.katakana": {
@@ -26376,12 +26376,12 @@
  },
  "cloud.example.en": {
   "lang": "en",
-  "text": "I back up my photos to the cloud.",
+  "text": "There are no clouds in the sky today.",
   "tier": "core"
  },
  "cloud.example.ja": {
   "lang": "ja",
-  "text": "写真をクラウドにバックアップしている。",
+  "text": "今日は空に雲がひとつもない。",
   "tier": "core"
  },
  "cloud.katakana": {
@@ -26436,12 +26436,12 @@
  },
  "club.example.en": {
   "lang": "en",
-  "text": "I joined the tennis club.",
+  "text": "I'm in the tennis club.",
   "tier": "core"
  },
  "club.example.ja": {
   "lang": "ja",
-  "text": "テニス部に入った。",
+  "text": "私はテニス部に入っている。",
   "tier": "core"
  },
  "club.katakana": {
@@ -26856,12 +26856,12 @@
  },
  "cocoa.example.en": {
   "lang": "en",
-  "text": "A cup of hot cocoa warms you up.",
+  "text": "I drink hot cocoa on cold days.",
   "tier": "core"
  },
  "cocoa.example.ja": {
   "lang": "ja",
-  "text": "温かいココアを飲むと体が温まる。",
+  "text": "寒い日には温かいココアを飲む。",
   "tier": "core"
  },
  "cocoa.katakana": {
@@ -26946,12 +26946,12 @@
  },
  "coffee-cup.example.en": {
   "lang": "en",
-  "text": "She put the coffee cup on the saucer.",
+  "text": "She put the coffee cup on the table.",
   "tier": "core"
  },
  "coffee-cup.example.ja": {
   "lang": "ja",
-  "text": "彼女はコーヒーカップをソーサーに置いた。",
+  "text": "彼女はコーヒーカップをテーブルに置いた。",
   "tier": "core"
  },
  "coffee-cup.katakana": {
@@ -27006,12 +27006,12 @@
  },
  "coffee.example.en": {
   "lang": "en",
-  "text": "Would you like some coffee?",
+  "text": "Do you want some coffee?",
   "tier": "core"
  },
  "coffee.example.ja": {
   "lang": "ja",
-  "text": "コーヒーはいかがですか？",
+  "text": "コーヒーはいる？",
   "tier": "core"
  },
  "coffee.katakana": {
@@ -30756,7 +30756,7 @@
  },
  "corn.example.en": {
   "lang": "en",
-  "text": "We had grilled corn at the festival.",
+  "text": "We ate grilled corn at the festival.",
   "tier": "core"
  },
  "corn.example.ja": {
@@ -31356,12 +31356,12 @@
  },
  "count.example.en": {
   "lang": "en",
-  "text": "Every vote counts.",
+  "text": "Count to ten slowly.",
   "tier": "core"
  },
  "count.example.ja": {
   "lang": "ja",
-  "text": "一票一票が大切だ。",
+  "text": "ゆっくり10まで数えて。",
   "tier": "core"
  },
  "count.katakana": {
@@ -31656,12 +31656,12 @@
  },
  "cover.example.en": {
   "lang": "en",
-  "text": "Can you cover for me while I'm away?",
+  "text": "She covered her face with her hands.",
   "tier": "core"
  },
  "cover.example.ja": {
   "lang": "ja",
-  "text": "留守の間、代わりをしてくれる？",
+  "text": "彼女は両手で顔をおおった。",
   "tier": "core"
  },
  "cover.katakana": {
@@ -31746,12 +31746,12 @@
  },
  "crab.example.en": {
   "lang": "en",
-  "text": "A crab walked sideways on the beach.",
+  "text": "We found a small crab on the beach.",
   "tier": "core"
  },
  "crab.example.ja": {
   "lang": "ja",
-  "text": "浜辺でカニが横歩きしていた。",
+  "text": "浜辺で小さなカニを見つけた。",
   "tier": "core"
  },
  "crab.katakana": {
@@ -33511,12 +33511,12 @@
  },
  "cup.example.en": {
   "lang": "en",
-  "text": "Would you like a cup of tea?",
+  "text": "Do you want a cup of tea?",
   "tier": "core"
  },
  "cup.example.ja": {
   "lang": "ja",
-  "text": "お茶を一杯いかがですか？",
+  "text": "お茶を一杯どう？",
   "tier": "core"
  },
  "cup.katakana": {
@@ -34021,12 +34021,12 @@
  },
  "cushion.example.en": {
   "lang": "en",
-  "text": "She leaned back against the cushion.",
+  "text": "She sat on a big cushion.",
   "tier": "core"
  },
  "cushion.example.ja": {
   "lang": "ja",
-  "text": "彼女はクッションにもたれた。",
+  "text": "彼女は大きなクッションに座った。",
   "tier": "core"
  },
  "cushion.katakana": {
@@ -34591,12 +34591,12 @@
  },
  "daily.example.en": {
   "lang": "en",
-  "text": "Exercise is part of my daily routine.",
+  "text": "Walking is part of my daily life.",
   "tier": "core"
  },
  "daily.example.ja": {
   "lang": "ja",
-  "text": "運動は日課の一部だ。",
+  "text": "散歩は私の毎日の生活の一部だ。",
   "tier": "core"
  },
  "daily.katakana": {
@@ -34681,12 +34681,12 @@
  },
  "damage.example.en": {
   "lang": "en",
-  "text": "The storm caused serious damage to the town.",
+  "text": "The storm did a lot of damage to the town.",
   "tier": "core"
  },
  "damage.example.ja": {
   "lang": "ja",
-  "text": "嵐は町に深刻な被害をもたらした。",
+  "text": "嵐は町に大きな被害を与えた。",
   "tier": "core"
  },
  "damage.katakana": {
@@ -34951,12 +34951,12 @@
  },
  "dash.example.en": {
   "lang": "en",
-  "text": "I have to dash. See you!",
+  "text": "He dashed to the station.",
   "tier": "core"
  },
  "dash.example.ja": {
   "lang": "ja",
-  "text": "急がなくちゃ。またね！",
+  "text": "彼は駅まで走っていった。",
   "tier": "core"
  },
  "dash.katakana": {
@@ -38306,12 +38306,12 @@
  },
  "dog.example.en": {
   "lang": "en",
-  "text": "My dog waits for me at the door every evening.",
+  "text": "My dog waits for me at the door.",
   "tier": "core"
  },
  "dog.example.ja": {
   "lang": "ja",
-  "text": "うちの犬は毎晩ドアのところで私を待っている。",
+  "text": "うちの犬はドアのところで私を待っている。",
   "tier": "core"
  },
  "dog.katakana": {
@@ -38756,12 +38756,12 @@
  },
  "door.example.en": {
   "lang": "en",
-  "text": "Could you close the door, please?",
+  "text": "Someone is at the door.",
   "tier": "core"
  },
  "door.example.ja": {
   "lang": "ja",
-  "text": "ドアを閉めていただけますか？",
+  "text": "玄関にだれか来ているよ。",
   "tier": "core"
  },
  "door.katakana": {
@@ -38906,12 +38906,12 @@
  },
  "dot.example.en": {
   "lang": "en",
-  "text": "Her dress has white dots on a blue background.",
+  "text": "Her dress has white dots.",
   "tier": "core"
  },
  "dot.example.ja": {
   "lang": "ja",
-  "text": "彼女のドレスは青地に白の水玉だ。",
+  "text": "彼女のドレスには白い水玉がある。",
   "tier": "core"
  },
  "dot.katakana": {
@@ -38936,7 +38936,7 @@
  },
  "double.example.en": {
   "lang": "en",
-  "text": "The price has doubled in a year.",
+  "text": "The price doubled in a year.",
   "tier": "core"
  },
  "double.example.ja": {
@@ -39356,12 +39356,12 @@
  },
  "dream.example.en": {
   "lang": "en",
-  "text": "My dream is to become a pilot.",
+  "text": "What is your dream?",
   "tier": "core"
  },
  "dream.example.ja": {
   "lang": "ja",
-  "text": "私の夢はパイロットになることだ。",
+  "text": "あなたの夢は何？",
   "tier": "core"
  },
  "dream.katakana": {
@@ -39386,12 +39386,12 @@
  },
  "dress.example.en": {
   "lang": "en",
-  "text": "She got dressed quickly.",
+  "text": "She is wearing a beautiful dress.",
   "tier": "core"
  },
  "dress.example.ja": {
   "lang": "ja",
-  "text": "彼女は急いで服を着た。",
+  "text": "彼女はきれいなワンピースを着ている。",
   "tier": "core"
  },
  "dress.katakana": {
@@ -39536,12 +39536,12 @@
  },
  "drink.example.en": {
   "lang": "en",
-  "text": "Would you like something to drink?",
+  "text": "Do you want a drink?",
   "tier": "core"
  },
  "drink.example.ja": {
   "lang": "ja",
-  "text": "何か飲み物はいかがですか？",
+  "text": "何か飲む？",
   "tier": "core"
  },
  "drink.katakana": {
@@ -39626,12 +39626,12 @@
  },
  "driver.example.en": {
   "lang": "en",
-  "text": "The taxi driver knew a shortcut.",
+  "text": "My uncle is a taxi driver.",
   "tier": "core"
  },
  "driver.example.ja": {
   "lang": "ja",
-  "text": "タクシーの運転手は近道を知っていた。",
+  "text": "おじはタクシーの運転手だ。",
   "tier": "core"
  },
  "driver.katakana": {
@@ -39836,12 +39836,12 @@
  },
  "dry.example.en": {
   "lang": "en",
-  "text": "Hang the towel outside to dry.",
+  "text": "My shirt is dry now.",
   "tier": "core"
  },
  "dry.example.ja": {
   "lang": "ja",
-  "text": "タオルを外に干して乾かして。",
+  "text": "シャツはもう乾いている。",
   "tier": "core"
  },
  "dry.katakana": {
@@ -39866,7 +39866,7 @@
  },
  "dryer.example.en": {
   "lang": "en",
-  "text": "My hair dryer is broken.",
+  "text": "My hair dryer broke.",
   "tier": "core"
  },
  "dryer.example.ja": {
@@ -40946,12 +40946,12 @@
  },
  "easy.example.en": {
   "lang": "en",
-  "text": "The test was easier than I expected.",
+  "text": "This test is very easy.",
   "tier": "core"
  },
  "easy.example.ja": {
   "lang": "ja",
-  "text": "テストは思ったより簡単だった。",
+  "text": "このテストはとても簡単だ。",
   "tier": "core"
  },
  "easy.katakana": {
@@ -41546,12 +41546,12 @@
  },
  "egg.example.en": {
   "lang": "en",
-  "text": "I had two eggs and toast for breakfast.",
+  "text": "I eat two eggs every morning.",
   "tier": "core"
  },
  "egg.example.ja": {
   "lang": "ja",
-  "text": "朝食に卵2個とトーストを食べた。",
+  "text": "私は毎朝卵を2個食べる。",
   "tier": "core"
  },
  "egg.katakana": {
@@ -42076,12 +42076,12 @@
  },
  "eleven.example.en": {
   "lang": "en",
-  "text": "The team's starting eleven was announced.",
+  "text": "There are eleven players on a soccer team.",
   "tier": "core"
  },
  "eleven.example.ja": {
   "lang": "ja",
-  "text": "チームの先発メンバー11人が発表された。",
+  "text": "サッカーのチームは11人だ。",
   "tier": "core"
  },
  "eleven.katakana": {
@@ -42221,12 +42221,12 @@
  },
  "elizabeth.example.en": {
   "lang": "en",
-  "text": "Queen Elizabeth II reigned for seventy years.",
+  "text": "Queen Elizabeth II was queen for seventy years.",
   "tier": "core"
  },
  "elizabeth.example.ja": {
   "lang": "ja",
-  "text": "エリザベス2世は70年間在位した。",
+  "text": "エリザベス2世は70年間女王だった。",
   "tier": "core"
  },
  "elizabeth.katakana": {
@@ -42756,12 +42756,12 @@
  },
  "end.example.en": {
   "lang": "en",
-  "text": "The story has a happy ending, but this is not the end.",
+  "text": "Read the book to the end.",
   "tier": "core"
  },
  "end.example.ja": {
   "lang": "ja",
-  "text": "物語はハッピーエンドだが、これで終わりではない。",
+  "text": "その本を最後まで読んで。",
   "tier": "core"
  },
  "end.katakana": {
@@ -44716,12 +44716,12 @@
  },
  "eve-name.example.en": {
   "lang": "en",
-  "text": "Eve ate the forbidden fruit in the Garden of Eden.",
+  "text": "Eve was the first woman in the Bible.",
   "tier": "core"
  },
  "eve-name.example.ja": {
   "lang": "ja",
-  "text": "イブはエデンの園で禁断の果実を食べた。",
+  "text": "イブは聖書で最初の女性だ。",
   "tier": "core"
  },
  "eve-name.katakana": {
@@ -44896,12 +44896,12 @@
  },
  "ever.example.en": {
   "lang": "en",
-  "text": "Have you ever been to Paris?",
+  "text": "Do you ever eat natto?",
   "tier": "core"
  },
  "ever.example.ja": {
   "lang": "ja",
-  "text": "パリに行ったことはある？",
+  "text": "納豆を食べることはある？",
   "tier": "core"
  },
  "ever.katakana": {
@@ -45226,12 +45226,12 @@
  },
  "experience.example.en": {
   "lang": "en",
-  "text": "I got a lot of experience points from the boss.",
+  "text": "Working abroad was a great experience.",
   "tier": "core"
  },
  "experience.example.ja": {
   "lang": "ja",
-  "text": "ボスからたくさん経験値をもらった。",
+  "text": "海外で働いたのはすばらしい経験だった。",
   "tier": "core"
  },
  "experience.katakana": {
@@ -45436,12 +45436,12 @@
  },
  "extra.example.en": {
   "lang": "en",
-  "text": "Is there an extra charge for this?",
+  "text": "Can I have an extra pillow?",
   "tier": "core"
  },
  "extra.example.ja": {
   "lang": "ja",
-  "text": "これには追加料金がかかりますか？",
+  "text": "枕をもう1つもらえますか？",
   "tier": "core"
  },
  "extra.katakana": {
@@ -45616,12 +45616,12 @@
  },
  "face.example.en": {
   "lang": "en",
-  "text": "We must face the problem.",
+  "text": "Wash your face every morning.",
   "tier": "core"
  },
  "face.example.ja": {
   "lang": "ja",
-  "text": "私たちはその問題に向き合わなければならない。",
+  "text": "毎朝顔を洗いなさい。",
   "tier": "core"
  },
  "face.katakana": {
@@ -46126,12 +46126,12 @@
  },
  "family.example.en": {
   "lang": "en",
-  "text": "I have a big family: four brothers and two sisters.",
+  "text": "There are six people in my family.",
   "tier": "core"
  },
  "family.example.ja": {
   "lang": "ja",
-  "text": "うちは大家族で、兄弟が4人と姉妹が2人いる。",
+  "text": "私の家族は6人だ。",
   "tier": "core"
  },
  "family.katakana": {
@@ -46666,12 +46666,12 @@
  },
  "father.example.en": {
   "lang": "en",
-  "text": "My father cooks dinner on Sundays.",
+  "text": "My father gets up at six every day.",
   "tier": "core"
  },
  "father.example.ja": {
   "lang": "ja",
-  "text": "父は日曜日に夕食を作る。",
+  "text": "父は毎日6時に起きる。",
   "tier": "core"
  },
  "father.katakana": {
@@ -47471,12 +47471,12 @@
  },
  "field.example.en": {
   "lang": "en",
-  "text": "What is your field of study?",
+  "text": "The cows are eating grass in the field.",
   "tier": "core"
  },
  "field.example.ja": {
   "lang": "ja",
-  "text": "専攻は何ですか？",
+  "text": "牛が野原で草を食べている。",
   "tier": "core"
  },
  "field.katakana": {
@@ -47826,12 +47826,12 @@
  },
  "film.example.en": {
   "lang": "en",
-  "text": "They filmed the scene in Kyoto.",
+  "text": "This film was made in Kyoto.",
   "tier": "core"
  },
  "film.example.ja": {
   "lang": "ja",
-  "text": "そのシーンは京都で撮影された。",
+  "text": "この映画は京都で撮影された。",
   "tier": "core"
  },
  "film.katakana": {
@@ -48066,12 +48066,12 @@
  },
  "finger.example.en": {
   "lang": "en",
-  "text": "I cut my finger with a knife.",
+  "text": "Count with your fingers.",
   "tier": "core"
  },
  "finger.example.ja": {
   "lang": "ja",
-  "text": "ナイフで指を切った。",
+  "text": "指で数えてみて。",
   "tier": "core"
  },
  "finger.katakana": {
@@ -48186,12 +48186,12 @@
  },
  "fire.example.en": {
   "lang": "en",
-  "text": "The firefighters put out the fire.",
+  "text": "Don't play with fire.",
   "tier": "core"
  },
  "fire.example.ja": {
   "lang": "ja",
-  "text": "消防士が火を消した。",
+  "text": "火遊びをしてはいけない。",
   "tier": "core"
  },
  "fire.katakana": {
@@ -48336,12 +48336,12 @@
  },
  "fish.example.en": {
   "lang": "en",
-  "text": "We caught three fish in the lake.",
+  "text": "We can catch fish in this lake.",
   "tier": "core"
  },
  "fish.example.ja": {
   "lang": "ja",
-  "text": "湖で魚を3匹釣った。",
+  "text": "この湖では魚がとれる。",
   "tier": "core"
  },
  "fish.katakana": {
@@ -49416,12 +49416,12 @@
  },
  "flower.example.en": {
   "lang": "en",
-  "text": "He bought flowers for his mother.",
+  "text": "He often buys flowers for his mother.",
   "tier": "core"
  },
  "flower.example.ja": {
   "lang": "ja",
-  "text": "彼は母に花を買った。",
+  "text": "彼はよくお母さんに花を買う。",
   "tier": "core"
  },
  "flower.katakana": {
@@ -49806,12 +49806,12 @@
  },
  "foot.example.en": {
   "lang": "en",
-  "text": "I hurt my foot playing soccer.",
+  "text": "My foot hurts.",
   "tier": "core"
  },
  "foot.example.ja": {
   "lang": "ja",
-  "text": "サッカーをしていて足をけがした。",
+  "text": "足が痛い。",
   "tier": "core"
  },
  "foot.katakana": {
@@ -49836,12 +49836,12 @@
  },
  "football.example.en": {
   "lang": "en",
-  "text": "Football is the most popular sport in Britain.",
+  "text": "Football is very popular in Britain.",
   "tier": "core"
  },
  "football.example.ja": {
   "lang": "ja",
-  "text": "英国で一番人気のスポーツはサッカーだ。",
+  "text": "英国ではサッカーがとても人気だ。",
   "tier": "core"
  },
  "football.katakana": {
@@ -50076,12 +50076,12 @@
  },
  "fork.example.en": {
   "lang": "en",
-  "text": "Turn left at the fork in the road.",
+  "text": "I eat cake with a fork.",
   "tier": "core"
  },
  "fork.example.ja": {
   "lang": "ja",
-  "text": "道の分かれ目で左に曲がってください。",
+  "text": "私はケーキをフォークで食べる。",
   "tier": "core"
  },
  "fork.katakana": {
@@ -51101,12 +51101,12 @@
  },
  "free.example.en": {
   "lang": "en",
-  "text": "Admission is free for children.",
+  "text": "Are you free this afternoon?",
   "tier": "core"
  },
  "free.example.ja": {
   "lang": "ja",
-  "text": "子どもの入場は無料です。",
+  "text": "今日の午後はひま？",
   "tier": "core"
  },
  "free.katakana": {
@@ -51881,12 +51881,12 @@
  },
  "fruit.example.en": {
   "lang": "en",
-  "text": "I try to eat fruit every day.",
+  "text": "I eat fruit every day.",
   "tier": "core"
  },
  "fruit.example.ja": {
   "lang": "ja",
-  "text": "毎日果物を食べるようにしている。",
+  "text": "私は毎日果物を食べる。",
   "tier": "core"
  },
  "fruit.katakana": {
@@ -52241,12 +52241,12 @@
  },
  "funny.example.en": {
   "lang": "en",
-  "text": "His joke was really funny.",
+  "text": "His jokes are really funny.",
   "tier": "core"
  },
  "funny.example.ja": {
   "lang": "ja",
-  "text": "彼の冗談はすごくおもしろかった。",
+  "text": "彼の冗談はすごくおもしろい。",
   "tier": "core"
  },
  "funny.katakana": {
@@ -54326,12 +54326,12 @@
  },
  "george.example.en": {
   "lang": "en",
-  "text": "George Washington was the first President of the United States.",
+  "text": "George is from Canada.",
   "tier": "core"
  },
  "george.example.ja": {
   "lang": "ja",
-  "text": "ジョージ、ワシントンはアメリカの初代大統領だった。",
+  "text": "ジョージはカナダ出身だ。",
   "tier": "core"
  },
  "george.katakana": {
@@ -54501,12 +54501,12 @@
  },
  "germany.example.en": {
   "lang": "en",
-  "text": "Germany is the largest economy in Europe.",
+  "text": "Germany is famous for its cars.",
   "tier": "core"
  },
  "germany.example.ja": {
   "lang": "ja",
-  "text": "ドイツはヨーロッパ最大の経済大国だ。",
+  "text": "ドイツは車で有名だ。",
   "tier": "core"
  },
  "germany.katakana": {
@@ -55116,12 +55116,12 @@
  },
  "girlfriend.example.en": {
   "lang": "en",
-  "text": "He introduced me to his girlfriend.",
+  "text": "His girlfriend lives in Osaka.",
   "tier": "core"
  },
  "girlfriend.example.ja": {
   "lang": "ja",
-  "text": "彼は私に彼女を紹介した。",
+  "text": "彼の彼女は大阪に住んでいる。",
   "tier": "core"
  },
  "girlfriend.katakana": {
@@ -55561,12 +55561,12 @@
  },
  "goal.example.en": {
   "lang": "en",
-  "text": "My goal is to speak English fluently.",
+  "text": "My goal is to speak English well.",
   "tier": "core"
  },
  "goal.example.ja": {
   "lang": "ja",
-  "text": "私の目標は英語を流ちょうに話すことだ。",
+  "text": "私の目標は英語を上手に話すことだ。",
   "tier": "core"
  },
  "goal.katakana": {
@@ -56341,12 +56341,12 @@
  },
  "grand-canyon.example.en": {
   "lang": "en",
-  "text": "The Grand Canyon was carved by the Colorado River.",
+  "text": "The Grand Canyon was made by the Colorado River.",
   "tier": "core"
  },
  "grand-canyon.example.ja": {
   "lang": "ja",
-  "text": "グランドキャニオンはコロラド川によって削られた。",
+  "text": "グランドキャニオンはコロラド川によってつくられた。",
   "tier": "core"
  },
  "grand-canyon.katakana": {
@@ -56431,12 +56431,12 @@
  },
  "grape.example.en": {
   "lang": "en",
-  "text": "We picked grapes at the farm.",
+  "text": "These grapes are very sweet.",
   "tier": "core"
  },
  "grape.example.ja": {
   "lang": "ja",
-  "text": "農園でぶどう狩りをした。",
+  "text": "このぶどうはとても甘い。",
   "tier": "core"
  },
  "grape.katakana": {
@@ -56761,12 +56761,12 @@
  },
  "great.example.en": {
   "lang": "en",
-  "text": "We had a great time.",
+  "text": "This is a great movie!",
   "tier": "core"
  },
  "great.example.ja": {
   "lang": "ja",
-  "text": "すばらしい時間を過ごした。",
+  "text": "これはすばらしい映画だ！",
   "tier": "core"
  },
  "great.katakana": {
@@ -58716,12 +58716,12 @@
  },
  "hamburger.example.en": {
   "lang": "en",
-  "text": "I'll have a hamburger and fries.",
+  "text": "I want a hamburger for lunch.",
   "tier": "core"
  },
  "hamburger.example.ja": {
   "lang": "ja",
-  "text": "ハンバーガーとポテトをください。",
+  "text": "お昼はハンバーガーがいいな。",
   "tier": "core"
  },
  "hamburger.katakana": {
@@ -59196,12 +59196,12 @@
  },
  "hannah.example.en": {
   "lang": "en",
-  "text": "Hannah is also a palindrome, like Anna.",
+  "text": "Hannah is a popular name in America.",
   "tier": "core"
  },
  "hannah.example.ja": {
   "lang": "ja",
-  "text": "ハンナも Anna と同じく回文だ。",
+  "text": "ハンナはアメリカで人気のある名前だ。",
   "tier": "core"
  },
  "hannah.katakana": {
@@ -59336,12 +59336,12 @@
  },
  "happy.example.en": {
   "lang": "en",
-  "text": "I'm so happy to see you again!",
+  "text": "I'm very happy today!",
   "tier": "core"
  },
  "happy.example.ja": {
   "lang": "ja",
-  "text": "また会えてすごくうれしい！",
+  "text": "今日はとてもうれしい！",
   "tier": "core"
  },
  "happy.katakana": {
@@ -59516,12 +59516,12 @@
  },
  "hard.example.en": {
   "lang": "en",
-  "text": "She studied hard for the exam.",
+  "text": "She studies hard every day.",
   "tier": "core"
  },
  "hard.example.ja": {
   "lang": "ja",
-  "text": "彼女は試験のために一生懸命勉強した。",
+  "text": "彼女は毎日一生懸命勉強する。",
   "tier": "core"
  },
  "hard.katakana": {
@@ -59846,12 +59846,12 @@
  },
  "hat.example.en": {
   "lang": "en",
-  "text": "He took off his hat.",
+  "text": "He always wears a hat.",
   "tier": "core"
  },
  "hat.example.ja": {
   "lang": "ja",
-  "text": "彼は帽子をぬいだ。",
+  "text": "彼はいつも帽子をかぶっている。",
   "tier": "core"
  },
  "hat.katakana": {
@@ -59936,12 +59936,12 @@
  },
  "hawaii.example.en": {
   "lang": "en",
-  "text": "Hawaii became the 50th US state in 1959.",
+  "text": "Hawaii has beautiful beaches.",
   "tier": "core"
  },
  "hawaii.example.ja": {
   "lang": "ja",
-  "text": "ハワイは1959年にアメリカの50番目の州になった。",
+  "text": "ハワイには美しい浜辺がある。",
   "tier": "core"
  },
  "hawaii.katakana": {
@@ -60746,12 +60746,12 @@
  },
  "heavy.example.en": {
   "lang": "en",
-  "text": "This box is too heavy to carry.",
+  "text": "This box is very heavy.",
   "tier": "core"
  },
  "heavy.example.ja": {
   "lang": "ja",
-  "text": "この箱は重すぎて運べない。",
+  "text": "この箱はとても重い。",
   "tier": "core"
  },
  "heavy.katakana": {
@@ -60981,12 +60981,12 @@
  },
  "helen.example.en": {
   "lang": "en",
-  "text": "Helen Keller learned to read and write though she could not see or hear.",
+  "text": "Helen Keller learned to read though she could not see.",
   "tier": "core"
  },
  "helen.example.ja": {
   "lang": "ja",
-  "text": "ヘレン、ケラーは目も耳も不自由だったが読み書きを学んだ。",
+  "text": "ヘレン、ケラーは目が見えなかったが、字を読めるようになった。",
   "tier": "core"
  },
  "helen.katakana": {
@@ -61481,12 +61481,12 @@
  },
  "henry.example.en": {
   "lang": "en",
-  "text": "Henry Ford made cars that ordinary people could buy.",
+  "text": "Henry Ford made cars for everyone.",
   "tier": "core"
  },
  "henry.example.ja": {
   "lang": "ja",
-  "text": "ヘンリー、フォードは普通の人が買える車を作った。",
+  "text": "ヘンリー、フォードはみんなが乗れる車を作った。",
   "tier": "core"
  },
  "henry.katakana": {
@@ -61691,12 +61691,12 @@
  },
  "hero.example.en": {
   "lang": "en",
-  "text": "The firefighter was hailed as a hero.",
+  "text": "Everyone called the firefighter a hero.",
   "tier": "core"
  },
  "hero.example.ja": {
   "lang": "ja",
-  "text": "その消防士は英雄とたたえられた。",
+  "text": "みんながその消防士を英雄と呼んだ。",
   "tier": "core"
  },
  "hero.katakana": {
@@ -62891,12 +62891,12 @@
  },
  "hollywood.example.en": {
   "lang": "en",
-  "text": "Hollywood is the center of the American film industry.",
+  "text": "Many movies are made in Hollywood.",
   "tier": "core"
  },
  "hollywood.example.ja": {
   "lang": "ja",
-  "text": "ハリウッドはアメリカ映画産業の中心だ。",
+  "text": "たくさんの映画がハリウッドで作られている。",
   "tier": "core"
  },
  "hollywood.katakana": {
@@ -63431,12 +63431,12 @@
  },
  "homework.example.en": {
   "lang": "en",
-  "text": "I finished my homework before dinner.",
+  "text": "I do my homework before dinner.",
   "tier": "core"
  },
  "homework.example.ja": {
   "lang": "ja",
-  "text": "夕食前に宿題を終えた。",
+  "text": "私は夕食の前に宿題をする。",
   "tier": "core"
  },
  "homework.katakana": {
@@ -64031,12 +64031,12 @@
  },
  "hospital.example.en": {
   "lang": "en",
-  "text": "She was taken to the hospital by ambulance.",
+  "text": "My father went to the hospital yesterday.",
   "tier": "core"
  },
  "hospital.example.ja": {
   "lang": "ja",
-  "text": "彼女は救急車で病院に運ばれた。",
+  "text": "父はきのう病院に行った。",
   "tier": "core"
  },
  "hospital.katakana": {
@@ -64211,12 +64211,12 @@
  },
  "hotel.example.en": {
   "lang": "en",
-  "text": "We stayed at a hotel near the beach.",
+  "text": "Our hotel is near the beach.",
   "tier": "core"
  },
  "hotel.example.ja": {
   "lang": "ja",
-  "text": "私たちは浜辺近くのホテルに泊まった。",
+  "text": "私たちのホテルは浜辺の近くにある。",
   "tier": "core"
  },
  "hotel.katakana": {
@@ -64481,12 +64481,12 @@
  },
  "human.example.en": {
   "lang": "en",
-  "text": "To err is human.",
+  "text": "Dogs understand human feelings.",
   "tier": "core"
  },
  "human.example.ja": {
   "lang": "ja",
-  "text": "過ちは人の常。",
+  "text": "犬は人間の気持ちがわかる。",
   "tier": "core"
  },
  "human.katakana": {
@@ -65141,12 +65141,12 @@
  },
  "ice.example.en": {
   "lang": "en",
-  "text": "Can I have a glass of water with no ice?",
+  "text": "Can I have some water with ice?",
   "tier": "core"
  },
  "ice.example.ja": {
   "lang": "ja",
-  "text": "氷なしで水を一杯もらえますか？",
+  "text": "氷の入った水をもらえますか？",
   "tier": "core"
  },
  "ice.katakana": {
@@ -65651,12 +65651,12 @@
  },
  "image.example.en": {
   "lang": "en",
-  "text": "The company wants to improve its image.",
+  "text": "This image is too small.",
   "tier": "core"
  },
  "image.example.ja": {
   "lang": "ja",
-  "text": "その会社はイメージをよくしたいと考えている。",
+  "text": "この画像は小さすぎる。",
   "tier": "core"
  },
  "image.katakana": {
@@ -66191,12 +66191,12 @@
  },
  "india.example.en": {
   "lang": "en",
-  "text": "India has the largest population in the world.",
+  "text": "Many people live in India.",
   "tier": "core"
  },
  "india.example.ja": {
   "lang": "ja",
-  "text": "インドは世界最大の人口をもつ。",
+  "text": "インドにはたくさんの人が住んでいる。",
   "tier": "core"
  },
  "india.katakana": {
@@ -67871,12 +67871,12 @@
  },
  "ireland.example.en": {
   "lang": "en",
-  "text": "Ireland is called the Emerald Isle because it is so green.",
+  "text": "Ireland is a green country with many sheep.",
   "tier": "core"
  },
  "ireland.example.ja": {
   "lang": "ja",
-  "text": "アイルランドは緑豊かなのでエメラルドの島と呼ばれる。",
+  "text": "アイルランドは羊の多い緑の国だ。",
   "tier": "core"
  },
  "ireland.katakana": {
@@ -68341,12 +68341,12 @@
  },
  "italy.example.en": {
   "lang": "en",
-  "text": "Italy is shaped like a boot.",
+  "text": "Italy looks like a boot on the map.",
   "tier": "core"
  },
  "italy.example.ja": {
   "lang": "ja",
-  "text": "イタリアは長靴のような形をしている。",
+  "text": "イタリアは地図で見ると長靴のような形だ。",
   "tier": "core"
  },
  "italy.katakana": {
@@ -68741,7 +68741,7 @@
  },
  "jam.example.en": {
   "lang": "en",
-  "text": "We were stuck in a traffic jam for an hour.",
+  "text": "We were in a traffic jam for an hour.",
   "tier": "core"
  },
  "jam.example.ja": {
@@ -68831,12 +68831,12 @@
  },
  "jane.example.en": {
   "lang": "en",
-  "text": "Jane Austen wrote Pride and Prejudice.",
+  "text": "Jane Austen is a famous English writer.",
   "tier": "core"
  },
  "jane.example.ja": {
   "lang": "ja",
-  "text": "ジェーン、オースティンは『高慢と偏見』を書いた。",
+  "text": "ジェーン、オースティンはイギリスの有名な作家だ。",
   "tier": "core"
  },
  "jane.katakana": {
@@ -68891,12 +68891,12 @@
  },
  "japan.example.en": {
   "lang": "en",
-  "text": "I was born in Japan.",
+  "text": "I live in Japan.",
   "tier": "core"
  },
  "japan.example.ja": {
   "lang": "ja",
-  "text": "私は日本で生まれた。",
+  "text": "私は日本に住んでいる。",
   "tier": "core"
  },
  "japan.katakana": {
@@ -69541,12 +69541,12 @@
  },
  "job.example.en": {
   "lang": "en",
-  "text": "My sister got a new job at a bank.",
+  "text": "My sister likes her new job.",
   "tier": "core"
  },
  "job.example.ja": {
   "lang": "ja",
-  "text": "姉は銀行で新しい仕事についた。",
+  "text": "姉は新しい仕事が気に入っている。",
   "tier": "core"
  },
  "job.katakana": {
@@ -69681,12 +69681,12 @@
  },
  "john.example.en": {
   "lang": "en",
-  "text": "John Lennon was a member of the Beatles.",
+  "text": "My friend John lives in London.",
   "tier": "core"
  },
  "john.example.ja": {
   "lang": "ja",
-  "text": "ジョン、レノンはビートルズのメンバーだった。",
+  "text": "友だちのジョンはロンドンに住んでいる。",
   "tier": "core"
  },
  "john.katakana": {
@@ -70231,12 +70231,12 @@
  },
  "juice.example.en": {
   "lang": "en",
-  "text": "I squeezed fresh orange juice for breakfast.",
+  "text": "I drink orange juice every morning.",
   "tier": "core"
  },
  "juice.example.ja": {
   "lang": "ja",
-  "text": "朝食用にオレンジをしぼって、しぼりたてのジュースを作った。",
+  "text": "私は毎朝オレンジジュースを飲む。",
   "tier": "core"
  },
  "juice.katakana": {
@@ -70321,12 +70321,12 @@
  },
  "julia.example.en": {
   "lang": "en",
-  "text": "Julia Roberts starred in Pretty Woman.",
+  "text": "Julia Roberts is a famous American actress.",
   "tier": "core"
  },
  "julia.example.ja": {
   "lang": "ja",
-  "text": "ジュリア、ロバーツは『プリティ、ウーマン』に主演した。",
+  "text": "ジュリア、ロバーツはアメリカの有名な女優だ。",
   "tier": "core"
  },
  "julia.katakana": {
@@ -70406,7 +70406,7 @@
  },
  "juliet.example.en": {
   "lang": "en",
-  "text": "Romeo and Juliet is a tragic love story.",
+  "text": "Romeo and Juliet is a sad love story.",
   "tier": "core"
  },
  "juliet.example.ja": {
@@ -70911,12 +70911,12 @@
  },
  "kangaroo.example.en": {
   "lang": "en",
-  "text": "Kangaroos carry their babies in a pouch.",
+  "text": "Kangaroos can jump very high.",
   "tier": "core"
  },
  "kangaroo.example.ja": {
   "lang": "ja",
-  "text": "カンガルーは袋に子どもを入れて運ぶ。",
+  "text": "カンガルーはとても高く跳べる。",
   "tier": "core"
  },
  "kangaroo.katakana": {
@@ -71651,12 +71651,12 @@
  },
  "kick.example.en": {
   "lang": "en",
-  "text": "He kicked the ball into the goal.",
+  "text": "He can kick the ball very far.",
   "tier": "core"
  },
  "kick.example.ja": {
   "lang": "ja",
-  "text": "彼はボールをけってゴールに入れた。",
+  "text": "彼はボールをとても遠くまでけることができる。",
   "tier": "core"
  },
  "kick.katakana": {
@@ -71981,12 +71981,12 @@
  },
  "king.example.en": {
   "lang": "en",
-  "text": "The king lived in a large castle.",
+  "text": "The king lives in a big castle.",
   "tier": "core"
  },
  "king.example.ja": {
   "lang": "ja",
-  "text": "王は大きな城に住んでいた。",
+  "text": "王は大きな城に住んでいる。",
   "tier": "core"
  },
  "king.katakana": {
@@ -72306,12 +72306,12 @@
  },
  "knee.example.en": {
   "lang": "en",
-  "text": "I hurt my knee playing soccer.",
+  "text": "I hurt my knee in the soccer game.",
   "tier": "core"
  },
  "knee.example.ja": {
   "lang": "ja",
-  "text": "サッカーでひざを痛めた。",
+  "text": "サッカーの試合でひざを痛めた。",
   "tier": "core"
  },
  "knee.katakana": {
@@ -72396,12 +72396,12 @@
  },
  "knight.example.en": {
   "lang": "en",
-  "text": "The knight swore to protect the queen.",
+  "text": "The knight fought to protect the queen.",
   "tier": "core"
  },
  "knight.example.ja": {
   "lang": "ja",
-  "text": "騎士は女王を守ると誓った。",
+  "text": "騎士は女王を守るために戦った。",
   "tier": "core"
  },
  "knight.katakana": {
@@ -72696,12 +72696,12 @@
  },
  "koala.example.en": {
   "lang": "en",
-  "text": "Koalas sleep for up to 20 hours a day.",
+  "text": "Koalas sleep about 20 hours a day.",
   "tier": "core"
  },
  "koala.example.ja": {
   "lang": "ja",
-  "text": "コアラは1日に最大20時間眠る。",
+  "text": "コアラは1日に約20時間眠る。",
   "tier": "core"
  },
  "koala.katakana": {
@@ -73146,12 +73146,12 @@
  },
  "lake.example.en": {
   "lang": "en",
-  "text": "We went fishing on the lake.",
+  "text": "We go fishing on the lake.",
   "tier": "core"
  },
  "lake.example.ja": {
   "lang": "ja",
-  "text": "湖に釣りに行った。",
+  "text": "私たちは湖に釣りに行く。",
   "tier": "core"
  },
  "lake.katakana": {
@@ -74136,12 +74136,12 @@
  },
  "leader.example.en": {
   "lang": "en",
-  "text": "She is a natural leader.",
+  "text": "She is the leader of our team.",
   "tier": "core"
  },
  "leader.example.ja": {
   "lang": "ja",
-  "text": "彼女は生まれながらのリーダーだ。",
+  "text": "彼女は私たちのチームのリーダーだ。",
   "tier": "core"
  },
  "leader.katakana": {
@@ -75006,12 +75006,12 @@
  },
  "lesson.example.en": {
   "lang": "en",
-  "text": "That mistake taught me an important lesson.",
+  "text": "I have a piano lesson on Fridays.",
   "tier": "core"
  },
  "lesson.example.ja": {
   "lang": "ja",
-  "text": "その失敗から大切な教訓を学んだ。",
+  "text": "金曜日はピアノのレッスンがある。",
   "tier": "core"
  },
  "lesson.katakana": {
@@ -76176,12 +76176,12 @@
  },
  "lion.example.en": {
   "lang": "en",
-  "text": "The lion is often called the king of beasts.",
+  "text": "Many lions live in Africa.",
   "tier": "core"
  },
  "lion.example.ja": {
   "lang": "ja",
-  "text": "ライオンはよく百獣の王と呼ばれる。",
+  "text": "たくさんのライオンがアフリカにすんでいる。",
   "tier": "core"
  },
  "lion.katakana": {
@@ -77856,12 +77856,12 @@
  },
  "los-angeles.example.en": {
   "lang": "en",
-  "text": "Hollywood is a district of Los Angeles.",
+  "text": "Hollywood is in Los Angeles.",
   "tier": "core"
  },
  "los-angeles.example.ja": {
   "lang": "ja",
-  "text": "ハリウッドはロサンゼルスの一地区だ。",
+  "text": "ハリウッドはロサンゼルスにある。",
   "tier": "core"
  },
  "los-angeles.katakana": {
@@ -78421,12 +78421,12 @@
  },
  "lucky.example.en": {
   "lang": "en",
-  "text": "You're lucky to have such good friends.",
+  "text": "You are very lucky!",
   "tier": "core"
  },
  "lucky.example.ja": {
   "lang": "ja",
-  "text": "そんないい友だちがいてきみは幸運だね。",
+  "text": "あなたはとても運がいいね！",
   "tier": "core"
  },
  "lucky.katakana": {
@@ -79246,12 +79246,12 @@
  },
  "magazine.example.en": {
   "lang": "en",
-  "text": "I read a fashion magazine at the salon.",
+  "text": "I read a fashion magazine every month.",
   "tier": "core"
  },
  "magazine.example.ja": {
   "lang": "ja",
-  "text": "美容院でファッション雑誌を読んだ。",
+  "text": "私は毎月ファッション雑誌を読む。",
   "tier": "core"
  },
  "magazine.katakana": {
@@ -81771,12 +81771,12 @@
  },
  "mary.example.en": {
   "lang": "en",
-  "text": "Mary had a little lamb.",
+  "text": "Mary has a little lamb.",
   "tier": "core"
  },
  "mary.example.ja": {
   "lang": "ja",
-  "text": "メリーさんはひつじを飼っていた。",
+  "text": "メリーさんは小さな羊を飼っている。",
   "tier": "core"
  },
  "mary.katakana": {
@@ -83901,12 +83901,12 @@
  },
  "menu.example.en": {
   "lang": "en",
-  "text": "Could we see the menu, please?",
+  "text": "Can I see the menu, please?",
   "tier": "core"
  },
  "menu.example.ja": {
   "lang": "ja",
-  "text": "メニューを見せていただけますか？",
+  "text": "メニューを見せてもらえますか？",
   "tier": "core"
  },
  "menu.katakana": {
@@ -84826,12 +84826,12 @@
  },
  "michael.example.en": {
   "lang": "en",
-  "text": "Michael is one of the most common boys' names in America.",
+  "text": "Michael is a popular name in America.",
   "tier": "core"
  },
  "michael.example.ja": {
   "lang": "ja",
-  "text": "マイケルはアメリカで最もよくある男の子の名前の一つだ。",
+  "text": "マイケルはアメリカでよくある名前だ。",
   "tier": "core"
  },
  "michael.katakana": {
@@ -84906,12 +84906,12 @@
  },
  "michelle.example.en": {
   "lang": "en",
-  "text": "Michelle Obama wrote a best-selling memoir.",
+  "text": "Michelle Obama was the First Lady of the United States.",
   "tier": "core"
  },
  "michelle.example.ja": {
   "lang": "ja",
-  "text": "ミシェル、オバマはベストセラーの回想録を書いた。",
+  "text": "ミシェル、オバマはアメリカのファーストレディだった。",
   "tier": "core"
  },
  "michelle.katakana": {
@@ -85616,12 +85616,12 @@
  },
  "million.example.en": {
   "lang": "en",
-  "text": "The city has a population of two million.",
+  "text": "About two million people live in this city.",
   "tier": "core"
  },
  "million.example.ja": {
   "lang": "ja",
-  "text": "その市の人口は200万人だ。",
+  "text": "この市には約200万人が住んでいる。",
   "tier": "core"
  },
  "million.katakana": {
@@ -87051,12 +87051,12 @@
  },
  "model.example.en": {
   "lang": "en",
-  "text": "He is a good role model for younger players.",
+  "text": "He made a model of a ship.",
   "tier": "core"
  },
  "model.example.ja": {
   "lang": "ja",
-  "text": "彼は若い選手のよい手本だ。",
+  "text": "彼は船の模型を作った。",
   "tier": "core"
  },
  "model.katakana": {
@@ -87171,12 +87171,12 @@
  },
  "modern.example.en": {
   "lang": "en",
-  "text": "I like modern architecture.",
+  "text": "I like modern art.",
   "tier": "core"
  },
  "modern.example.ja": {
   "lang": "ja",
-  "text": "現代建築が好きだ。",
+  "text": "私は現代美術が好きだ。",
   "tier": "core"
  },
  "modern.katakana": {
@@ -87711,12 +87711,12 @@
  },
  "monkey.example.en": {
   "lang": "en",
-  "text": "The monkey climbed up the tree.",
+  "text": "The monkey is climbing the tree.",
   "tier": "core"
  },
  "monkey.example.ja": {
   "lang": "ja",
-  "text": "サルが木に登った。",
+  "text": "サルが木に登っている。",
   "tier": "core"
  },
  "monkey.katakana": {
@@ -88401,12 +88401,12 @@
  },
  "morning.example.en": {
   "lang": "en",
-  "text": "I jog every morning before school.",
+  "text": "I walk my dog every morning.",
   "tier": "core"
  },
  "morning.example.ja": {
   "lang": "ja",
-  "text": "私は毎朝、学校の前にジョギングをする。",
+  "text": "私は毎朝犬の散歩をする。",
   "tier": "core"
  },
  "morning.katakana": {
@@ -90861,12 +90861,12 @@
  },
  "nature.example.en": {
   "lang": "en",
-  "text": "It's human nature to want to be loved.",
+  "text": "We should protect nature.",
   "tier": "core"
  },
  "nature.example.ja": {
   "lang": "ja",
-  "text": "愛されたいと思うのは人間の性 さが だ。",
+  "text": "私たちは自然を守るべきだ。",
   "tier": "core"
  },
  "nature.katakana": {
@@ -91701,12 +91701,12 @@
  },
  "netherlands.example.en": {
   "lang": "en",
-  "text": "The Netherlands has many windmills and canals.",
+  "text": "The Netherlands is famous for tulips.",
   "tier": "core"
  },
  "netherlands.example.ja": {
   "lang": "ja",
-  "text": "オランダには風車と運河がたくさんある。",
+  "text": "オランダはチューリップで有名だ。",
   "tier": "core"
  },
  "netherlands.katakana": {
@@ -92181,12 +92181,12 @@
  },
  "new.example.en": {
   "lang": "en",
-  "text": "I bought a new bike.",
+  "text": "This is my new bike.",
   "tier": "core"
  },
  "new.example.ja": {
   "lang": "ja",
-  "text": "新しい自転車を買った。",
+  "text": "これは私の新しい自転車だ。",
   "tier": "core"
  },
  "new.katakana": {
@@ -92511,12 +92511,12 @@
  },
  "nice.example.en": {
   "lang": "en",
-  "text": "It was nice of you to help me.",
+  "text": "She is a nice person.",
   "tier": "core"
  },
  "nice.example.ja": {
   "lang": "ja",
-  "text": "手伝ってくれてありがとう 親切にしてくれて 。",
+  "text": "彼女はいい人だ。",
   "tier": "core"
  },
  "nice.katakana": {
@@ -93071,12 +93071,12 @@
  },
  "nile.example.en": {
   "lang": "en",
-  "text": "The Nile flows north into the Mediterranean.",
+  "text": "The Nile is the longest river in Africa.",
   "tier": "core"
  },
  "nile.example.ja": {
   "lang": "ja",
-  "text": "ナイル川は北へ流れて地中海に注ぐ。",
+  "text": "ナイル川はアフリカで一番長い川だ。",
   "tier": "core"
  },
  "nile.katakana": {
@@ -93281,12 +93281,12 @@
  },
  "noah.example.en": {
   "lang": "en",
-  "text": "Noah built a huge ark to survive the flood.",
+  "text": "Noah built a big boat before the flood.",
   "tier": "core"
  },
  "noah.example.ja": {
   "lang": "ja",
-  "text": "ノアは洪水を生き延びるために巨大な方舟を作った。",
+  "text": "ノアは大洪水の前に大きな船を作った。",
   "tier": "core"
  },
  "noah.katakana": {
@@ -93941,12 +93941,12 @@
  },
  "norway.example.en": {
   "lang": "en",
-  "text": "Norway is famous for its beautiful fjords.",
+  "text": "Norway is a cold country in northern Europe.",
   "tier": "core"
  },
  "norway.example.ja": {
   "lang": "ja",
-  "text": "ノルウェーは美しいフィヨルドで有名だ。",
+  "text": "ノルウェーは北ヨーロッパの寒い国だ。",
   "tier": "core"
  },
  "norway.katakana": {
@@ -94331,12 +94331,12 @@
  },
  "nurse.example.en": {
   "lang": "en",
-  "text": "The nurse took my temperature.",
+  "text": "My aunt is a nurse at a hospital.",
   "tier": "core"
  },
  "nurse.example.ja": {
   "lang": "ja",
-  "text": "看護師さんが体温を測ってくれた。",
+  "text": "おばは病院の看護師だ。",
   "tier": "core"
  },
  "nurse.katakana": {
@@ -95321,12 +95321,12 @@
  },
  "olympics.example.en": {
   "lang": "en",
-  "text": "Tokyo hosted the Olympics in 2021.",
+  "text": "Tokyo held the Olympics in 2021.",
   "tier": "core"
  },
  "olympics.example.ja": {
   "lang": "ja",
-  "text": "東京は2021年にオリンピックを開催した。",
+  "text": "東京は2021年にオリンピックを開いた。",
   "tier": "core"
  },
  "olympics.katakana": {
@@ -95981,12 +95981,12 @@
  },
  "opinion.example.en": {
   "lang": "en",
-  "text": "In my opinion, the plan is too risky.",
+  "text": "What's your opinion about this?",
   "tier": "core"
  },
  "opinion.example.ja": {
   "lang": "ja",
-  "text": "私の意見では、その計画は危険すぎる。",
+  "text": "これについてあなたの意見は？",
   "tier": "core"
  },
  "opinion.katakana": {
@@ -96161,12 +96161,12 @@
  },
  "orange.example.en": {
   "lang": "en",
-  "text": "The sky turned orange as the sun went down.",
+  "text": "This orange is very sweet.",
   "tier": "core"
  },
  "orange.example.ja": {
   "lang": "ja",
-  "text": "日が沈むにつれて空がオレンジ色になった。",
+  "text": "このオレンジはとても甘い。",
   "tier": "core"
  },
  "orange.katakana": {
@@ -97241,12 +97241,12 @@
  },
  "owl.example.en": {
   "lang": "en",
-  "text": "I'm a night owl, so I work best at night.",
+  "text": "Owls can see well at night.",
   "tier": "core"
  },
  "owl.example.ja": {
   "lang": "ja",
-  "text": "私は夜型なので夜のほうが仕事がはかどる。",
+  "text": "フクロウは夜でもよく見える。",
   "tier": "core"
  },
  "owl.katakana": {
@@ -99781,12 +99781,12 @@
  },
  "parsley.example.en": {
   "lang": "en",
-  "text": "Sprinkle some chopped parsley on the soup.",
+  "text": "Put some parsley on the soup.",
   "tier": "core"
  },
  "parsley.example.ja": {
   "lang": "ja",
-  "text": "スープに刻んだパセリを散らして。",
+  "text": "スープにパセリをのせて。",
   "tier": "core"
  },
  "parsley.katakana": {
@@ -99991,12 +99991,12 @@
  },
  "party.example.en": {
   "lang": "en",
-  "text": "We're having a party on Saturday. Can you come?",
+  "text": "We're having a party on Saturday.",
   "tier": "core"
  },
  "party.example.ja": {
   "lang": "ja",
-  "text": "土曜日にパーティーをするんだ。来られる？",
+  "text": "土曜日にパーティーをするよ。",
   "tier": "core"
  },
  "party.katakana": {
@@ -100736,12 +100736,12 @@
  },
  "paul.example.en": {
   "lang": "en",
-  "text": "Paul McCartney wrote many songs for the Beatles.",
+  "text": "Paul is my English teacher.",
   "tier": "core"
  },
  "paul.example.ja": {
   "lang": "ja",
-  "text": "ポール、マッカートニーはビートルズのために多くの曲を書いた。",
+  "text": "ポールは私の英語の先生だ。",
   "tier": "core"
  },
  "paul.katakana": {
@@ -101001,7 +101001,7 @@
  },
  "pe.ankle-uncle.ankle": {
   "lang": "en",
-  "text": "I hurt my ankle playing soccer.",
+  "text": "I hurt my ankle in gym class.",
   "tier": "core"
  },
  "pe.ankle-uncle.uncle": {
@@ -101141,7 +101141,7 @@
  },
  "pe.bought-boat.boat": {
   "lang": "en",
-  "text": "We rowed a boat on the lake.",
+  "text": "We took a boat on the lake.",
   "tier": "core"
  },
  "pe.bought-boat.bought": {
@@ -101196,7 +101196,7 @@
  },
  "pe.cap-cup.cup": {
   "lang": "en",
-  "text": "Would you like a cup of tea?",
+  "text": "Do you want a cup of tea?",
   "tier": "core"
  },
  "pe.carry-curry.carry": {
@@ -101496,7 +101496,7 @@
  },
  "pe.fan-fun.fun": {
   "lang": "en",
-  "text": "We had a lot of fun at the party.",
+  "text": "Let's have fun at the party!",
   "tier": "core"
  },
  "pe.farm-firm.farm": {
@@ -101611,12 +101611,12 @@
  },
  "pe.hat-hut.hat": {
   "lang": "en",
-  "text": "He took off his hat and bowed.",
+  "text": "Take off your hat, please.",
   "tier": "core"
  },
  "pe.hat-hut.hut": {
   "lang": "en",
-  "text": "They slept in a small hut in the mountains.",
+  "text": "There is a small hut in the mountains.",
   "tier": "core"
  },
  "pe.heal-heel.heal": {
@@ -102176,7 +102176,7 @@
  },
  "pe.sea-see.sea": {
   "lang": "en",
-  "text": "We swam in the sea.",
+  "text": "We swim in the sea every summer.",
   "tier": "core"
  },
  "pe.sea-see.see": {
@@ -102201,7 +102201,7 @@
  },
  "pe.ship-sheep.ship": {
   "lang": "en",
-  "text": "The ship sailed across the ocean.",
+  "text": "Look at that big ship!",
   "tier": "core"
  },
  "pe.sick-thick.sick": {
@@ -102236,7 +102236,7 @@
  },
  "pe.sit-seat.seat": {
   "lang": "en",
-  "text": "Is this seat taken?",
+  "text": "Is this seat free?",
   "tier": "core"
  },
  "pe.sit-seat.sit": {
@@ -102411,7 +102411,7 @@
  },
  "pe.week-weak.weak": {
   "lang": "en",
-  "text": "I felt weak after the long illness.",
+  "text": "I felt weak and tired.",
   "tier": "core"
  },
  "pe.week-weak.week": {
@@ -102461,12 +102461,12 @@
  },
  "peach.example.en": {
   "lang": "en",
-  "text": "She peeled a peach for me.",
+  "text": "I like peaches very much.",
   "tier": "core"
  },
  "peach.example.ja": {
   "lang": "ja",
-  "text": "彼女は桃の皮をむいてくれた。",
+  "text": "私は桃が大好きだ。",
   "tier": "core"
  },
  "peach.katakana": {
@@ -102551,12 +102551,12 @@
  },
  "peanut.example.en": {
   "lang": "en",
-  "text": "I'm allergic to peanuts.",
+  "text": "My brother can't eat peanuts.",
   "tier": "core"
  },
  "peanut.example.ja": {
   "lang": "ja",
-  "text": "ピーナッツのアレルギーがあります。",
+  "text": "弟はピーナッツが食べられない。",
   "tier": "core"
  },
  "peanut.katakana": {
@@ -103176,12 +103176,12 @@
  },
  "people.example.en": {
   "lang": "en",
-  "text": "Many people came to the concert.",
+  "text": "There are many people in the park.",
   "tier": "core"
  },
  "people.example.ja": {
   "lang": "ja",
-  "text": "多くの人がコンサートに来た。",
+  "text": "公園にはたくさんの人がいる。",
   "tier": "core"
  },
  "people.katakana": {
@@ -104251,12 +104251,12 @@
  },
  "philip.example.en": {
   "lang": "en",
-  "text": "The Philippines were named after King Philip II of Spain.",
+  "text": "Prince Philip was the husband of Queen Elizabeth II.",
   "tier": "core"
  },
  "philip.example.ja": {
   "lang": "ja",
-  "text": "フィリピンはスペイン王フェリペ2世にちなんで名づけられた。",
+  "text": "フィリップ殿下はエリザベス2世の夫だった。",
   "tier": "core"
  },
  "philip.katakana": {
@@ -104426,12 +104426,12 @@
  },
  "phone.example.en": {
   "lang": "en",
-  "text": "Can I call you back? I'm on the other phone.",
+  "text": "Can I use your phone?",
   "tier": "core"
  },
  "phone.example.ja": {
   "lang": "ja",
-  "text": "かけ直してもいい？ 別の電話に出てるんだ。",
+  "text": "電話を借りてもいい？",
   "tier": "core"
  },
  "phone.katakana": {
@@ -104696,12 +104696,12 @@
  },
  "piano.example.en": {
   "lang": "en",
-  "text": "She has played the piano since she was five.",
+  "text": "She plays the piano very well.",
   "tier": "core"
  },
  "piano.example.ja": {
   "lang": "ja",
-  "text": "彼女は5歳のときからピアノを弾いている。",
+  "text": "彼女はピアノがとても上手だ。",
   "tier": "core"
  },
  "piano.katakana": {
@@ -105166,12 +105166,12 @@
  },
  "pin.example.en": {
   "lang": "en",
-  "text": "She pinned the map to the wall.",
+  "text": "She put a pin in the map.",
   "tier": "core"
  },
  "pin.example.ja": {
   "lang": "ja",
-  "text": "彼女は地図を壁にピンで留めた。",
+  "text": "彼女は地図にピンを刺した。",
   "tier": "core"
  },
  "pin.katakana": {
@@ -105376,12 +105376,12 @@
  },
  "pink.example.en": {
   "lang": "en",
-  "text": "She wore a pink dress to the party.",
+  "text": "Pink is my favorite color.",
   "tier": "core"
  },
  "pink.example.ja": {
   "lang": "ja",
-  "text": "彼女はピンクのドレスでパーティーに来た。",
+  "text": "ピンクは私の好きな色だ。",
   "tier": "core"
  },
  "pink.katakana": {
@@ -105466,12 +105466,12 @@
  },
  "pipe.example.en": {
   "lang": "en",
-  "text": "A water pipe burst in the kitchen.",
+  "text": "The water pipe in the kitchen broke.",
   "tier": "core"
  },
  "pipe.example.ja": {
   "lang": "ja",
-  "text": "台所の水道管が破裂した。",
+  "text": "台所の水道管が壊れた。",
   "tier": "core"
  },
  "pipe.katakana": {
@@ -106096,12 +106096,12 @@
  },
  "plant.example.en": {
   "lang": "en",
-  "text": "The company built a new power plant.",
+  "text": "I water the plants every morning.",
   "tier": "core"
  },
  "plant.example.ja": {
   "lang": "ja",
-  "text": "会社は新しい発電所を建てた。",
+  "text": "私は毎朝植物に水をやる。",
   "tier": "core"
  },
  "plant.katakana": {
@@ -107686,12 +107686,12 @@
  },
  "popular.example.en": {
   "lang": "en",
-  "text": "This song is very popular among teenagers.",
+  "text": "This song is very popular with young people.",
   "tier": "core"
  },
  "popular.example.ja": {
   "lang": "ja",
-  "text": "この歌は10代にとても人気がある。",
+  "text": "この歌は若い人たちにとても人気がある。",
   "tier": "core"
  },
  "popular.katakana": {
@@ -108286,12 +108286,12 @@
  },
  "potato.example.en": {
   "lang": "en",
-  "text": "I'll have fries with my burger.",
+  "text": "We grow potatoes on our farm.",
   "tier": "core"
  },
  "potato.example.ja": {
   "lang": "ja",
-  "text": "バーガーにはポテトをつけてください。",
+  "text": "私たちは畑でじゃがいもを育てている。",
   "tier": "core"
  },
  "potato.katakana": {
@@ -108526,12 +108526,12 @@
  },
  "power.example.en": {
   "lang": "en",
-  "text": "The storm knocked out the power.",
+  "text": "The power went out during the storm.",
   "tier": "core"
  },
  "power.example.ja": {
   "lang": "ja",
-  "text": "嵐で停電した。",
+  "text": "嵐の間に停電した。",
   "tier": "core"
  },
  "power.katakana": {
@@ -110896,12 +110896,12 @@
  },
  "pumpkin.example.en": {
   "lang": "en",
-  "text": "We carved a face into a pumpkin.",
+  "text": "We made a face on a pumpkin for Halloween.",
   "tier": "core"
  },
  "pumpkin.example.ja": {
   "lang": "ja",
-  "text": "かぼちゃに顔をくりぬいた。",
+  "text": "ハロウィンのためにかぼちゃに顔を作った。",
   "tier": "core"
  },
  "pumpkin.katakana": {
@@ -113101,12 +113101,12 @@
  },
  "queen.example.en": {
   "lang": "en",
-  "text": "The queen waved to the crowd.",
+  "text": "The queen is waving to the people.",
   "tier": "core"
  },
  "queen.example.ja": {
   "lang": "ja",
-  "text": "女王は群衆に手を振った。",
+  "text": "女王が人々に手を振っている。",
   "tier": "core"
  },
  "queen.katakana": {
@@ -113191,12 +113191,12 @@
  },
  "question.example.en": {
   "lang": "en",
-  "text": "May I ask you a question?",
+  "text": "Can I ask you a question?",
   "tier": "core"
  },
  "question.example.ja": {
   "lang": "ja",
-  "text": "質問してもいいですか？",
+  "text": "質問してもいい？",
   "tier": "core"
  },
  "question.katakana": {
@@ -114621,12 +114621,12 @@
  },
  "read.example.en": {
   "lang": "en",
-  "text": "I like to read before bed.",
+  "text": "I read a book before bed.",
   "tier": "core"
  },
  "read.example.ja": {
   "lang": "ja",
-  "text": "寝る前に本を読むのが好きだ。",
+  "text": "私は寝る前に本を読む。",
   "tier": "core"
  },
  "read.katakana": {
@@ -115431,12 +115431,12 @@
  },
  "red.example.en": {
   "lang": "en",
-  "text": "The traffic light turned red.",
+  "text": "I have a red bike.",
   "tier": "core"
  },
  "red.example.ja": {
   "lang": "ja",
-  "text": "信号が赤に変わった。",
+  "text": "私は赤い自転車を持っている。",
   "tier": "core"
  },
  "red.katakana": {
@@ -117941,12 +117941,12 @@
  },
  "rich.example.en": {
   "lang": "en",
-  "text": "He became rich after selling his company.",
+  "text": "That man is very rich.",
   "tier": "core"
  },
  "rich.example.ja": {
   "lang": "ja",
-  "text": "彼は会社を売って金持ちになった。",
+  "text": "あの男性はとてもお金持ちだ。",
   "tier": "core"
  },
  "rich.katakana": {
@@ -118416,12 +118416,12 @@
  },
  "road.example.en": {
   "lang": "en",
-  "text": "Be careful when you cross the road.",
+  "text": "This road is very busy.",
   "tier": "core"
  },
  "road.example.ja": {
   "lang": "ja",
-  "text": "道路を渡るときは気をつけて。",
+  "text": "この道路はとても混んでいる。",
   "tier": "core"
  },
  "road.katakana": {
@@ -119406,12 +119406,12 @@
  },
  "rope.example.en": {
   "lang": "en",
-  "text": "He climbed down the cliff with a rope.",
+  "text": "He climbed the tree with a rope.",
   "tier": "core"
  },
  "rope.example.ja": {
   "lang": "ja",
-  "text": "彼はロープでがけを降りた。",
+  "text": "彼はロープを使って木に登った。",
   "tier": "core"
  },
  "rope.katakana": {
@@ -119466,12 +119466,12 @@
  },
  "rose.example.en": {
   "lang": "en",
-  "text": "He gave her a dozen red roses.",
+  "text": "These red roses are for you.",
   "tier": "core"
  },
  "rose.example.ja": {
   "lang": "ja",
-  "text": "彼は彼女に赤いバラを12本贈った。",
+  "text": "この赤いバラをあなたに。",
   "tier": "core"
  },
  "rose.katakana": {
@@ -119616,12 +119616,12 @@
  },
  "round.example.en": {
   "lang": "en",
-  "text": "He was knocked out in the third round.",
+  "text": "He won in the third round.",
   "tier": "core"
  },
  "round.example.ja": {
   "lang": "ja",
-  "text": "彼は第3ラウンドでノックアウトされた。",
+  "text": "彼は3回戦で勝った。",
   "tier": "core"
  },
  "round.katakana": {
@@ -120186,12 +120186,12 @@
  },
  "russia.example.en": {
   "lang": "en",
-  "text": "Russia is the largest country in the world.",
+  "text": "Russia is a very big country.",
   "tier": "core"
  },
  "russia.example.ja": {
   "lang": "ja",
-  "text": "ロシアは世界最大の国だ。",
+  "text": "ロシアはとても大きな国だ。",
   "tier": "core"
  },
  "russia.katakana": {
@@ -120846,12 +120846,12 @@
  },
  "salad.example.en": {
   "lang": "en",
-  "text": "I'll have a salad with my pasta.",
+  "text": "I eat salad with my lunch every day.",
   "tier": "core"
  },
  "salad.example.ja": {
   "lang": "ja",
-  "text": "パスタと一緒にサラダをお願いします。",
+  "text": "毎日お昼にサラダを食べる。",
   "tier": "core"
  },
  "salad.katakana": {
@@ -120996,7 +120996,7 @@
  },
  "salmon.example.en": {
   "lang": "en",
-  "text": "I had grilled salmon for dinner.",
+  "text": "I ate grilled salmon for dinner.",
   "tier": "core"
  },
  "salmon.example.ja": {
@@ -122851,12 +122851,12 @@
  },
  "scotland.example.en": {
   "lang": "en",
-  "text": "Scotland has its own parliament.",
+  "text": "Scotland is famous for its beautiful lakes.",
   "tier": "core"
  },
  "scotland.example.ja": {
   "lang": "ja",
-  "text": "スコットランドには独自の議会がある。",
+  "text": "スコットランドは美しい湖で有名だ。",
   "tier": "core"
  },
  "scotland.katakana": {
@@ -123241,12 +123241,12 @@
  },
  "sea.example.en": {
   "lang": "en",
-  "text": "We swam in the sea.",
+  "text": "We swim in the sea every summer.",
   "tier": "core"
  },
  "sea.example.ja": {
   "lang": "ja",
-  "text": "私たちは海で泳いだ。",
+  "text": "私たちは毎年夏に海で泳ぐ。",
   "tier": "core"
  },
  "sea.katakana": {
@@ -123896,12 +123896,12 @@
  },
  "see.example.en": {
   "lang": "en",
-  "text": "I see what you mean.",
+  "text": "I can see Mt. Fuji from here.",
   "tier": "core"
  },
  "see.example.ja": {
   "lang": "ja",
-  "text": "言いたいことはわかるよ。",
+  "text": "ここから富士山が見える。",
   "tier": "core"
  },
  "see.katakana": {
@@ -126656,12 +126656,12 @@
  },
  "shower.example.en": {
   "lang": "en",
-  "text": "It's going to shower this afternoon.",
+  "text": "I take a shower every morning.",
   "tier": "core"
  },
  "shower.example.ja": {
   "lang": "ja",
-  "text": "午後はにわか雨が降りそうだ。",
+  "text": "私は毎朝シャワーを浴びる。",
   "tier": "core"
  },
  "shower.katakana": {
@@ -127526,12 +127526,12 @@
  },
  "silver.example.en": {
   "lang": "en",
-  "text": "Her hair turned silver.",
+  "text": "She has a silver ring.",
   "tier": "core"
  },
  "silver.example.ja": {
   "lang": "ja",
-  "text": "彼女の髪は銀色になった。",
+  "text": "彼女は銀の指輪を持っている。",
   "tier": "core"
  },
  "silver.katakana": {
@@ -127706,12 +127706,12 @@
  },
  "singer.example.en": {
   "lang": "en",
-  "text": "She wants to be a singer.",
+  "text": "She is a famous singer.",
   "tier": "core"
  },
  "singer.example.ja": {
   "lang": "ja",
-  "text": "彼女は歌手になりたい。",
+  "text": "彼女は有名な歌手だ。",
   "tier": "core"
  },
  "singer.katakana": {
@@ -128006,12 +128006,12 @@
  },
  "size.example.en": {
   "lang": "en",
-  "text": "Do you have this in a smaller size?",
+  "text": "What size is this shirt?",
   "tier": "core"
  },
  "size.example.ja": {
   "lang": "ja",
-  "text": "これのもっと小さいサイズはありますか？",
+  "text": "このシャツは何サイズですか？",
   "tier": "core"
  },
  "size.katakana": {
@@ -128396,12 +128396,12 @@
  },
  "skin.example.en": {
   "lang": "en",
-  "text": "Wear sunscreen to protect your skin.",
+  "text": "Wear a hat to protect your skin.",
   "tier": "core"
  },
  "skin.example.ja": {
   "lang": "ja",
-  "text": "肌を守るために日焼け止めを塗って。",
+  "text": "肌を守るために帽子をかぶって。",
   "tier": "core"
  },
  "skin.katakana": {
@@ -129326,12 +129326,12 @@
  },
  "slow.example.en": {
   "lang": "en",
-  "text": "Please speak more slowly.",
+  "text": "This bus is very slow.",
   "tier": "core"
  },
  "slow.example.ja": {
   "lang": "ja",
-  "text": "もっとゆっくり話してください。",
+  "text": "このバスはとても遅い。",
   "tier": "core"
  },
  "slow.katakana": {
@@ -129476,12 +129476,12 @@
  },
  "smile.example.en": {
   "lang": "en",
-  "text": "She smiled and waved at me.",
+  "text": "She has a nice smile.",
   "tier": "core"
  },
  "smile.example.ja": {
   "lang": "ja",
-  "text": "彼女はほほえんで私に手を振った。",
+  "text": "彼女はすてきな笑顔をしている。",
   "tier": "core"
  },
  "smile.katakana": {
@@ -129836,12 +129836,12 @@
  },
  "snow.example.en": {
   "lang": "en",
-  "text": "It snowed a lot last night.",
+  "text": "The children are playing in the snow.",
   "tier": "core"
  },
  "snow.example.ja": {
   "lang": "ja",
-  "text": "昨夜は雪がたくさん降った。",
+  "text": "子どもたちが雪の中で遊んでいる。",
   "tier": "core"
  },
  "snow.katakana": {
@@ -130811,12 +130811,12 @@
  },
  "soup.example.en": {
   "lang": "en",
-  "text": "This soup is too hot to eat.",
+  "text": "This soup is very hot.",
   "tier": "core"
  },
  "soup.example.ja": {
   "lang": "ja",
-  "text": "このスープは熱すぎて飲めない。",
+  "text": "このスープはとても熱い。",
   "tier": "core"
  },
  "soup.katakana": {
@@ -131231,12 +131231,12 @@
  },
  "spain.example.en": {
   "lang": "en",
-  "text": "Spain is famous for flamenco and paella.",
+  "text": "Spain is famous for soccer.",
   "tier": "core"
  },
  "spain.example.ja": {
   "lang": "ja",
-  "text": "スペインはフラメンコとパエリアで有名だ。",
+  "text": "スペインはサッカーで有名だ。",
   "tier": "core"
  },
  "spain.katakana": {
@@ -131861,12 +131861,12 @@
  },
  "spelling.example.en": {
   "lang": "en",
-  "text": "Check your spelling before you hand it in.",
+  "text": "Please check your spelling.",
   "tier": "core"
  },
  "spelling.example.ja": {
   "lang": "ja",
-  "text": "提出する前につづりを確認して。",
+  "text": "つづりを確認してください。",
   "tier": "core"
  },
  "spelling.katakana": {
@@ -132401,12 +132401,12 @@
  },
  "sport.example.en": {
   "lang": "en",
-  "text": "Soccer is the most popular sport in the world.",
+  "text": "What sport do you like?",
   "tier": "core"
  },
  "sport.example.ja": {
   "lang": "ja",
-  "text": "サッカーは世界でいちばん人気のあるスポーツだ。",
+  "text": "どんなスポーツが好き？",
   "tier": "core"
  },
  "sport.katakana": {
@@ -132641,12 +132641,12 @@
  },
  "spring.example.en": {
   "lang": "en",
-  "text": "Flowers bloom in spring.",
+  "text": "We see many flowers in spring.",
   "tier": "core"
  },
  "spring.example.ja": {
   "lang": "ja",
-  "text": "春には花が咲く。",
+  "text": "春にはたくさんの花が見られる。",
   "tier": "core"
  },
  "spring.katakana": {
@@ -133146,12 +133146,12 @@
  },
  "stage.example.en": {
   "lang": "en",
-  "text": "The project is still in its early stages.",
+  "text": "The singer came out on the stage.",
   "tier": "core"
  },
  "stage.example.ja": {
   "lang": "ja",
-  "text": "そのプロジェクトはまだ初期段階だ。",
+  "text": "歌手が舞台に出てきた。",
   "tier": "core"
  },
  "stage.katakana": {
@@ -133536,12 +133536,12 @@
  },
  "star.example.en": {
   "lang": "en",
-  "text": "We saw thousands of stars in the night sky.",
+  "text": "I can see many stars tonight.",
   "tier": "core"
  },
  "star.example.ja": {
   "lang": "ja",
-  "text": "夜空に何千もの星が見えた。",
+  "text": "今夜は星がたくさん見える。",
   "tier": "core"
  },
  "star.katakana": {
@@ -134341,12 +134341,12 @@
  },
  "stick.example.en": {
   "lang": "en",
-  "text": "Stick the stamp on the envelope.",
+  "text": "Stick this stamp on the letter.",
   "tier": "core"
  },
  "stick.example.ja": {
   "lang": "ja",
-  "text": "封筒に切手を貼って。",
+  "text": "この切手を手紙に貼って。",
   "tier": "core"
  },
  "stick.katakana": {
@@ -134371,12 +134371,12 @@
  },
  "sticker.example.en": {
   "lang": "en",
-  "text": "My laptop is covered in stickers.",
+  "text": "There are many stickers on my laptop.",
   "tier": "core"
  },
  "sticker.example.ja": {
   "lang": "ja",
-  "text": "私のノートパソコンはシールだらけだ。",
+  "text": "私のノートパソコンにはシールがたくさん貼ってある。",
   "tier": "core"
  },
  "sticker.katakana": {
@@ -134641,12 +134641,12 @@
  },
  "stone.example.en": {
   "lang": "en",
-  "text": "He threw a stone into the river.",
+  "text": "Don't throw stones into the river.",
   "tier": "core"
  },
  "stone.example.ja": {
   "lang": "ja",
-  "text": "彼は川に石を投げた。",
+  "text": "川に石を投げないで。",
   "tier": "core"
  },
  "stone.katakana": {
@@ -134851,12 +134851,12 @@
  },
  "store.example.en": {
   "lang": "en",
-  "text": "I stored the photos on my computer.",
+  "text": "I bought this bag at that store.",
   "tier": "core"
  },
  "store.example.ja": {
   "lang": "ja",
-  "text": "写真をパソコンに保存した。",
+  "text": "このかばんはあの店で買った。",
   "tier": "core"
  },
  "store.katakana": {
@@ -136861,12 +136861,12 @@
  },
  "supermarket.example.en": {
   "lang": "en",
-  "text": "I buy groceries at the supermarket.",
+  "text": "I buy food at the supermarket.",
   "tier": "core"
  },
  "supermarket.example.ja": {
   "lang": "ja",
-  "text": "スーパーで食料品を買う。",
+  "text": "私はスーパーで食べ物を買う。",
   "tier": "core"
  },
  "supermarket.katakana": {
@@ -137251,12 +137251,12 @@
  },
  "surprise.example.en": {
   "lang": "en",
-  "text": "We threw her a surprise party.",
+  "text": "We had a surprise party for her.",
   "tier": "core"
  },
  "surprise.example.ja": {
   "lang": "ja",
-  "text": "彼女のためにサプライズパーティーを開いた。",
+  "text": "私たちは彼女のためにサプライズパーティーを開いた。",
   "tier": "core"
  },
  "surprise.katakana": {
@@ -175831,12 +175831,12 @@
  },
  "system.example.en": {
   "lang": "en",
-  "text": "The ship's defense system is offline.",
+  "text": "Our school has a new computer system.",
   "tier": "core"
  },
  "system.example.ja": {
   "lang": "ja",
-  "text": "船の防衛システムが停止している。",
+  "text": "私たちの学校には新しいコンピューターシステムがある。",
   "tier": "core"
  },
  "system.katakana": {
@@ -176701,12 +176701,12 @@
  },
  "tape.example.en": {
   "lang": "en",
-  "text": "I fixed the box with tape.",
+  "text": "I closed the box with tape.",
   "tier": "core"
  },
  "tape.example.ja": {
   "lang": "ja",
-  "text": "箱をテープで留めた。",
+  "text": "箱をテープで閉じた。",
   "tier": "core"
  },
  "tape.katakana": {
@@ -177061,12 +177061,12 @@
  },
  "team.example.en": {
   "lang": "en",
-  "text": "Our team won the final match.",
+  "text": "Our team is very strong.",
   "tier": "core"
  },
  "team.example.ja": {
   "lang": "ja",
-  "text": "私たちのチームが決勝戦に勝った。",
+  "text": "私たちのチームはとても強い。",
   "tier": "core"
  },
  "team.katakana": {
@@ -177781,12 +177781,12 @@
  },
  "ten.example.en": {
   "lang": "en",
-  "text": "I'll be there in ten minutes.",
+  "text": "Wait ten minutes, please.",
   "tier": "core"
  },
  "ten.example.ja": {
   "lang": "ja",
-  "text": "10分で行く。",
+  "text": "10分待ってください。",
   "tier": "core"
  },
  "ten.katakana": {
@@ -178441,12 +178441,12 @@
  },
  "thailand.example.en": {
   "lang": "en",
-  "text": "Thailand was never colonized by a European country.",
+  "text": "Thailand is a hot country in Asia.",
   "tier": "core"
  },
  "thailand.example.ja": {
   "lang": "ja",
-  "text": "タイはヨーロッパの国に植民地化されたことがない。",
+  "text": "タイはアジアの暑い国だ。",
   "tier": "core"
  },
  "thailand.katakana": {
@@ -179011,12 +179011,12 @@
  },
  "thin.example.en": {
   "lang": "en",
-  "text": "She sliced the bread thin.",
+  "text": "She is tall and thin.",
   "tier": "core"
  },
  "thin.example.ja": {
   "lang": "ja",
-  "text": "彼女はパンを薄く切った。",
+  "text": "彼女は背が高くてやせている。",
   "tier": "core"
  },
  "thin.katakana": {
@@ -179071,12 +179071,12 @@
  },
  "think.example.en": {
   "lang": "en",
-  "text": "I think you are right.",
+  "text": "I think so, too.",
   "tier": "core"
  },
  "think.example.ja": {
   "lang": "ja",
-  "text": "あなたは正しいと思う。",
+  "text": "私もそう思う。",
   "tier": "core"
  },
  "think.katakana": {
@@ -179431,12 +179431,12 @@
  },
  "thunder.example.en": {
   "lang": "en",
-  "text": "The thunder was so loud that the dog hid under the bed.",
+  "text": "The dog was afraid of the thunder.",
   "tier": "core"
  },
  "thunder.example.ja": {
   "lang": "ja",
-  "text": "雷がとても大きくて、犬はベッドの下に隠れた。",
+  "text": "犬は雷をこわがっていた。",
   "tier": "core"
  },
  "thunder.katakana": {
@@ -179671,12 +179671,12 @@
  },
  "tie.example.en": {
   "lang": "en",
-  "text": "The game ended in a tie.",
+  "text": "Can you tie your shoes?",
   "tier": "core"
  },
  "tie.example.ja": {
   "lang": "ja",
-  "text": "試合は引き分けに終わった。",
+  "text": "靴ひもを結べる？",
   "tier": "core"
  },
  "tie.katakana": {
@@ -179701,12 +179701,12 @@
  },
  "tiger.example.en": {
   "lang": "en",
-  "text": "The tiger moved silently through the tall grass.",
+  "text": "The tiger was sleeping in the tall grass.",
   "tier": "core"
  },
  "tiger.example.ja": {
   "lang": "ja",
-  "text": "トラは背の高い草むらを音もなく進んだ。",
+  "text": "トラは背の高い草むらで眠っていた。",
   "tier": "core"
  },
  "tiger.katakana": {
@@ -180301,12 +180301,12 @@
  },
  "toast.example.en": {
   "lang": "en",
-  "text": "Let's make a toast to the bride and groom!",
+  "text": "I have toast and milk for breakfast.",
   "tier": "core"
  },
  "toast.example.ja": {
   "lang": "ja",
-  "text": "新郎新婦に乾杯しましょう！",
+  "text": "私は朝食にトーストと牛乳をとる。",
   "tier": "core"
  },
  "toast.katakana": {
@@ -180421,12 +180421,12 @@
  },
  "toilet.example.en": {
   "lang": "en",
-  "text": "Excuse me, where's the restroom?",
+  "text": "Excuse me, where is the toilet?",
   "tier": "core"
  },
  "toilet.example.ja": {
   "lang": "ja",
-  "text": "すみません、お手洗いはどこですか？",
+  "text": "すみません、トイレはどこですか？",
   "tier": "core"
  },
  "toilet.katakana": {
@@ -180601,12 +180601,12 @@
  },
  "tomato.example.en": {
   "lang": "en",
-  "text": "We grew tomatoes in the garden this summer.",
+  "text": "We grow tomatoes in our garden.",
   "tier": "core"
  },
  "tomato.example.ja": {
   "lang": "ja",
-  "text": "今年の夏は庭でトマトを育てた。",
+  "text": "私たちは庭でトマトを育てている。",
   "tier": "core"
  },
  "tomato.katakana": {
@@ -180811,12 +180811,12 @@
  },
  "tool.example.en": {
   "lang": "en",
-  "text": "Language is a tool for communication.",
+  "text": "I need a tool to fix my bike.",
   "tier": "core"
  },
  "tool.example.ja": {
   "lang": "ja",
-  "text": "言語はコミュニケーションの道具だ。",
+  "text": "自転車を直すのに道具が必要だ。",
   "tier": "core"
  },
  "tool.katakana": {
@@ -180991,12 +180991,12 @@
  },
  "top.example.en": {
   "lang": "en",
-  "text": "She was at the top of her class.",
+  "text": "We are at the top of the mountain.",
   "tier": "core"
  },
  "top.example.ja": {
   "lang": "ja",
-  "text": "彼女はクラスで一番だった。",
+  "text": "私たちは山の頂上にいる。",
   "tier": "core"
  },
  "top.katakana": {
@@ -181351,12 +181351,12 @@
  },
  "touch.example.en": {
   "lang": "en",
-  "text": "Don't touch the paintings.",
+  "text": "Don't touch the cake!",
   "tier": "core"
  },
  "touch.example.ja": {
   "lang": "ja",
-  "text": "絵に触らないでください。",
+  "text": "ケーキにさわらないで！",
   "tier": "core"
  },
  "touch.katakana": {
@@ -181681,12 +181681,12 @@
  },
  "town.example.en": {
   "lang": "en",
-  "text": "I grew up in a small town by the sea.",
+  "text": "I live in a small town by the sea.",
   "tier": "core"
  },
  "town.example.ja": {
   "lang": "ja",
-  "text": "私は海辺の小さな町で育った。",
+  "text": "私は海辺の小さな町に住んでいる。",
   "tier": "core"
  },
  "town.katakana": {
@@ -182191,12 +182191,12 @@
  },
  "training.example.en": {
   "lang": "en",
-  "text": "New employees get two weeks of training.",
+  "text": "Our team does training every morning.",
   "tier": "core"
  },
  "training.example.ja": {
   "lang": "ja",
-  "text": "新入社員は2週間の研修を受ける。",
+  "text": "私たちのチームは毎朝トレーニングをする。",
   "tier": "core"
  },
  "training.katakana": {
@@ -182521,12 +182521,12 @@
  },
  "travel.example.en": {
   "lang": "en",
-  "text": "I love to travel abroad.",
+  "text": "My parents often travel to Hawaii.",
   "tier": "core"
  },
  "travel.example.ja": {
   "lang": "ja",
-  "text": "海外旅行が大好きだ。",
+  "text": "両親はよくハワイに旅行する。",
   "tier": "core"
  },
  "travel.katakana": {
@@ -182701,12 +182701,12 @@
  },
  "tree.example.en": {
   "lang": "en",
-  "text": "We sat in the shade of a big tree.",
+  "text": "There is a big tree in the park.",
   "tier": "core"
  },
  "tree.example.ja": {
   "lang": "ja",
-  "text": "私たちは大きな木の陰に座った。",
+  "text": "公園に大きな木がある。",
   "tier": "core"
  },
  "tree.katakana": {
@@ -183241,12 +183241,12 @@
  },
  "triple.example.en": {
   "lang": "en",
-  "text": "Sales tripled last year.",
+  "text": "The price of the ticket tripled.",
   "tier": "core"
  },
  "triple.example.ja": {
   "lang": "ja",
-  "text": "昨年、売上は3倍になった。",
+  "text": "チケットの値段は3倍になった。",
   "tier": "core"
  },
  "triple.katakana": {
@@ -183571,12 +183571,12 @@
  },
  "truck.example.en": {
   "lang": "en",
-  "text": "A big truck was parked outside.",
+  "text": "A big truck stopped in front of my house.",
   "tier": "core"
  },
  "truck.example.ja": {
   "lang": "ja",
-  "text": "外に大きなトラックがとまっていた。",
+  "text": "大きなトラックが家の前にとまった。",
   "tier": "core"
  },
  "truck.katakana": {
@@ -183781,12 +183781,12 @@
  },
  "tube.example.en": {
   "lang": "en",
-  "text": "Squeeze the paint out of the tube.",
+  "text": "I need a new tube of toothpaste.",
   "tier": "core"
  },
  "tube.example.ja": {
   "lang": "ja",
-  "text": "チューブから絵の具をしぼり出して。",
+  "text": "新しい歯みがき粉のチューブがいる。",
   "tier": "core"
  },
  "tube.katakana": {
@@ -183871,12 +183871,12 @@
  },
  "tulip.example.en": {
   "lang": "en",
-  "text": "Tulips bloom in spring.",
+  "text": "We have red tulips in our garden.",
   "tier": "core"
  },
  "tulip.example.ja": {
   "lang": "ja",
-  "text": "チューリップは春に咲く。",
+  "text": "うちの庭には赤いチューリップがある。",
   "tier": "core"
  },
  "tulip.katakana": {
@@ -184891,12 +184891,12 @@
  },
  "umbrella.example.en": {
   "lang": "en",
-  "text": "Take an umbrella. It's going to rain.",
+  "text": "Take an umbrella. It's raining.",
   "tier": "core"
  },
  "umbrella.example.ja": {
   "lang": "ja",
-  "text": "かさを持っていって。雨が降るよ。",
+  "text": "かさを持っていって。雨が降っているよ。",
   "tier": "core"
  },
  "umbrella.katakana": {
@@ -185251,12 +185251,12 @@
  },
  "united-kingdom.example.en": {
   "lang": "en",
-  "text": "The United Kingdom is made up of four countries.",
+  "text": "There are four countries in the United Kingdom.",
   "tier": "core"
  },
  "united-kingdom.example.ja": {
   "lang": "ja",
-  "text": "イギリスは4つの国から成り立っている。",
+  "text": "イギリスには4つの国がある。",
   "tier": "core"
  },
  "united-kingdom.katakana": {
@@ -185461,12 +185461,12 @@
  },
  "up.example.en": {
   "lang": "en",
-  "text": "Prices went up again.",
+  "text": "Stand up, please.",
   "tier": "core"
  },
  "up.example.ja": {
   "lang": "ja",
-  "text": "値段がまた上がった。",
+  "text": "立ってください。",
   "tier": "core"
  },
  "up.katakana": {
@@ -187561,12 +187561,12 @@
  },
  "violin.example.en": {
   "lang": "en",
-  "text": "She has played the violin for ten years.",
+  "text": "She plays the violin every day.",
   "tier": "core"
  },
  "violin.example.ja": {
   "lang": "ja",
-  "text": "彼女は10年間バイオリンを弾いている。",
+  "text": "彼女は毎日バイオリンを弾く。",
   "tier": "core"
  },
  "violin.katakana": {
@@ -188311,12 +188311,12 @@
  },
  "volleyball.example.en": {
   "lang": "en",
-  "text": "Our class won the volleyball tournament.",
+  "text": "We play volleyball after school.",
   "tier": "core"
  },
  "volleyball.example.ja": {
   "lang": "ja",
-  "text": "私たちのクラスがバレーボール大会で優勝した。",
+  "text": "私たちは放課後にバレーボールをする。",
   "tier": "core"
  },
  "volleyball.katakana": {
@@ -188701,12 +188701,12 @@
  },
  "waiter.example.en": {
   "lang": "en",
-  "text": "The waiter brought us the menu.",
+  "text": "The waiter is bringing our food.",
   "tier": "core"
  },
  "waiter.example.ja": {
   "lang": "ja",
-  "text": "ウェイターがメニューを持ってきた。",
+  "text": "ウェイターが料理を運んでくる。",
   "tier": "core"
  },
  "waiter.katakana": {
@@ -189361,12 +189361,12 @@
  },
  "watch.example.en": {
   "lang": "en",
-  "text": "We watched a movie last night.",
+  "text": "We watch TV after dinner.",
   "tier": "core"
  },
  "watch.example.ja": {
   "lang": "ja",
-  "text": "昨夜、映画を見た。",
+  "text": "私たちは夕食のあとにテレビを見る。",
   "tier": "core"
  },
  "watch.katakana": {
@@ -189571,12 +189571,12 @@
  },
  "way.example.en": {
   "lang": "en",
-  "text": "This is the best way to learn English.",
+  "text": "Is this the way to the station?",
   "tier": "core"
  },
  "way.example.ja": {
   "lang": "ja",
-  "text": "これが英語を学ぶ一番の方法だ。",
+  "text": "駅へ行く道はこれですか？",
   "tier": "core"
  },
  "way.katakana": {
@@ -190351,12 +190351,12 @@
  },
  "wheel.example.en": {
   "lang": "en",
-  "text": "He was at the wheel when the accident happened.",
+  "text": "A bicycle has two wheels.",
   "tier": "core"
  },
  "wheel.example.ja": {
   "lang": "ja",
-  "text": "事故のとき彼が運転していた。",
+  "text": "自転車には車輪が2つある。",
   "tier": "core"
  },
  "wheel.katakana": {
@@ -190501,12 +190501,12 @@
  },
  "whistle.example.en": {
   "lang": "en",
-  "text": "The referee blew the whistle.",
+  "text": "The teacher blew a whistle.",
   "tier": "core"
  },
  "whistle.example.ja": {
   "lang": "ja",
-  "text": "審判が笛を吹いた。",
+  "text": "先生が笛を吹いた。",
   "tier": "core"
  },
  "whistle.katakana": {
@@ -190561,12 +190561,12 @@
  },
  "white.example.en": {
   "lang": "en",
-  "text": "Everything was white after the snow.",
+  "text": "Everything is white with snow.",
   "tier": "core"
  },
  "white.example.ja": {
   "lang": "ja",
-  "text": "雪のあと、あたり一面が真っ白だった。",
+  "text": "あたり一面、雪で真っ白だ。",
   "tier": "core"
  },
  "white.katakana": {
@@ -190946,12 +190946,12 @@
  },
  "window.example.en": {
   "lang": "en",
-  "text": "Open the window to let some fresh air in.",
+  "text": "Please open the window. It's hot.",
   "tier": "core"
  },
  "window.example.ja": {
   "lang": "ja",
-  "text": "窓を開けて新鮮な空気を入れて。",
+  "text": "窓を開けてください。暑いです。",
   "tier": "core"
  },
  "window.katakana": {
@@ -191486,12 +191486,12 @@
  },
  "wolf.example.en": {
   "lang": "en",
-  "text": "We heard a wolf howling at night.",
+  "text": "Wolves live in groups.",
   "tier": "core"
  },
  "wolf.example.ja": {
   "lang": "ja",
-  "text": "夜にオオカミの遠ぼえが聞こえた。",
+  "text": "オオカミは群れで暮らす。",
   "tier": "core"
  },
  "wolf.katakana": {
@@ -191546,12 +191546,12 @@
  },
  "wonderful.example.en": {
   "lang": "en",
-  "text": "We had a wonderful time.",
+  "text": "This is a wonderful song.",
   "tier": "core"
  },
  "wonderful.example.ja": {
   "lang": "ja",
-  "text": "すばらしい時間を過ごした。",
+  "text": "これはすばらしい歌だ。",
   "tier": "core"
  },
  "wonderful.katakana": {
@@ -191576,12 +191576,12 @@
  },
  "wood.example.en": {
   "lang": "en",
-  "text": "The table is made of wood.",
+  "text": "We need more wood for the fire.",
   "tier": "core"
  },
  "wood.example.ja": {
   "lang": "ja",
-  "text": "そのテーブルは木でできている。",
+  "text": "たき火にもっとまきが必要だ。",
   "tier": "core"
  },
  "wood.katakana": {
@@ -191696,12 +191696,12 @@
  },
  "work.example.en": {
   "lang": "en",
-  "text": "My plan worked!",
+  "text": "I work at a cafe on weekends.",
   "tier": "core"
  },
  "work.example.ja": {
   "lang": "ja",
-  "text": "私の計画はうまくいった！",
+  "text": "私は週末にカフェで働いている。",
   "tier": "core"
  },
  "work.katakana": {
@@ -192026,12 +192026,12 @@
  },
  "worst.example.en": {
   "lang": "en",
-  "text": "That was the worst movie I've ever seen.",
+  "text": "It was the worst day of my life.",
   "tier": "core"
  },
  "worst.example.ja": {
   "lang": "ja",
-  "text": "今まで見た中で最悪の映画だった。",
+  "text": "人生で最悪の日だった。",
   "tier": "core"
  },
  "worst.katakana": {
@@ -192381,12 +192381,12 @@
  },
  "yacht.example.en": {
   "lang": "en",
-  "text": "They sailed around the bay on a yacht.",
+  "text": "They sailed around the island on a yacht.",
   "tier": "core"
  },
  "yacht.example.ja": {
   "lang": "ja",
-  "text": "彼らはヨットで湾を一周した。",
+  "text": "彼らはヨットで島のまわりを回った。",
   "tier": "core"
  },
  "yacht.katakana": {
