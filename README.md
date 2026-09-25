@@ -15,7 +15,7 @@
 | パス | 内容 |
 |---|---|
 | [`docs/UX_DESIGN.md`](docs/UX_DESIGN.md) | UX デザイン（学習の流れ、問題タイプ、習熟度と復習、ビジュアル、KPI） |
-| [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（4825語・類義語10761語・語根56種・似た単語148セット）— 語源・類義語つき、人が読む用 |
+| [`docs/WORD_LIST.md`](docs/WORD_LIST.md) | 単語リスト（5123語・類義語11655語・語根56種・似た単語148セット）— 語源・類義語つき、人が読む用 |
 | `data/words.json` | 単語データ（正本） |
 | `data/roots.json` | 語根ファミリーデータ |
 | `data/candidates.json` | 入れたいカタカナ語の候補（分野別）。未収録の語は `build_wordlist.py` の実行時に表示 |
@@ -50,7 +50,7 @@ python3 scripts/tts/tts.py qa --voice tsukuyomi-gsv      # 読み間違いの検
 ## 単語を追加・修正するとき
 
 1. 入れたい語を `data/candidates.json` の分野に書き足す（任意）
-2. `data/words.json`（必要なら `data/roots.json`）を編集。新しい語の候補は `python3 scripts/find_candidates.py > candidates.tsv` で、カタカナ語辞典 [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html)（EDRDG、CC BY-SA 4.0）から、よく使われるのにまだ収録していない外来語を拾える
+2. `data/words.json`（必要なら `data/roots.json`）を編集。新しい語の候補は `python3 scripts/find_candidates.py > candidates.tsv` で、カタカナ語辞典 [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html)（EDRDG、CC BY-SA 4.0）から、よく使われるのにまだ収録していない外来語を拾える。集英社 imidas の[「現代人のカタカナ語辞典」](https://imidas.jp/katakana.html)の見出し語も候補選びの参考にしている（辞典の説明文は転載せず、意味・例文・語源は独自に書く）
 3. `python3 scripts/build_wordlist.py` を実行（データの検証＋ `docs/WORD_LIST.md` の再生成＋候補のうち未収録の語の表示）
 4. 音声を使う場合は `python3 scripts/tts/tts.py utterances` と `synth` を再実行（変わった文だけ生成されます）
 
