@@ -674,7 +674,7 @@
         ${meter(level(w.id))}
       </div>
       <div class="fb-body">
-        <div class="row"><span class="word">${esc(w.word)}</span><span class="muted">${esc(w.katakana)}</span>
+        <div class="row"><span class="word">${esc(w.word)}</span><span class="muted ipa">/${esc(w.ipa)}/</span><span class="muted">${esc(w.katakana)}</span>
           <span class="spacer"></span>${voiceButton(`${w.id}.word,${w.id}.meaning`)}</div>
         <div class="meaning">${esc(w.meaning)}</div>
         ${q.synonym ? `<div class="tip">🔀 <b>${esc(q.synonym.word)}</b>：${esc(q.synonym.nuance)}</div>` : ""}
@@ -877,7 +877,7 @@
             <h2 class="display">${esc(w.word)}</h2>
             ${voiceButton(`${w.id}.word`)}
           </div>
-          <div class="muted">${esc(w.katakana)} ${voiceButton(`${w.id}.katakana`, "🔈")}</div>
+          <div class="muted"><span class="ipa">/${esc(w.ipa)}/</span> ${esc(w.katakana)} ${voiceButton(`${w.id}.katakana`, "🔈")}</div>
           <p class="meaning">${esc(w.meaning)} ${voiceButton(`${w.id}.meaning`, "🔈")}</p>
           <div class="row small">${meter(lv)}<span class="muted">${LEVELS[lv]}</span></div>
         </div>

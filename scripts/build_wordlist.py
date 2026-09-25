@@ -52,7 +52,7 @@ DICT_POS = {"名詞", "動詞", "形容詞", "副詞", "名詞・動詞", "名�
 # 固有名詞の品詞。類義語の代わりに「別名・関連する名前」を載せている
 PROPER = {"地名", "神名", "神話", "人名"}
 CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"]
-REQUIRED = ["id", "word", "katakana", "pos", "cefr", "level", "meaning", "scene",
+REQUIRED = ["id", "word", "ipa", "katakana", "pos", "cefr", "level", "meaning", "scene",
             "example", "etymology", "roots", "family", "synonyms"]
 
 
@@ -180,6 +180,8 @@ def render():
             out += [
                 f'<a id="{w["id"]}"></a>',
                 f"### {w['word']}（{w['katakana']}）{trap}",
+                "",
+                f"/{w['ipa']}/",
                 "",
                 f"**{w['pos']}{'（' + LANGS[w['lang']] + '）' if 'lang' in w else ''}** / {COURSES[w['level']]} / CEFR {w['cefr']} — {w['meaning']}",
                 "",
