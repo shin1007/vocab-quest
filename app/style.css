@@ -459,6 +459,8 @@ button.chip:active { transform: translateY(2px); }
 .pair-word { padding: 8px 10px; border-radius: var(--radius-sm); background: var(--card-2); border: var(--bw-sm) solid var(--edge); }
 .pair-word .en { font-family: var(--latin); font-size: 1.2rem; }
 /* 発音記号。母音の上のアクセント記号（ǽ, ə́ など）がずれないよう、IPA 用に作られた Charis SIL を使う */
+/* 英語の音声ボタンと発音記号を1つにまとめ、間で改行しない */
+.say { display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
 .ipa { font-family: "Charis SIL", "Lucida Sans Unicode", "Arial Unicode MS", system-ui, sans-serif; }
 .pair-point { margin: 6px 0 8px; }
 .pair-examples summary { cursor: pointer; font-weight: 800; color: var(--text-soft); margin-bottom: 6px; }

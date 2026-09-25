@@ -887,17 +887,17 @@
           <div class="small muted"><span class="grade-chip">${esc(courseLabel(courseOf(w)))}</span> ${esc(w.pos)}${w.lang ? `（${esc(langName(w))}）` : ""}</div>
           <div class="row">
             <h2 class="display">${esc(w.word)}</h2>
-            ${voiceButton(`${w.id}.word`)}
+            <span class="say">${voiceButton(`${w.id}.word`)}<span class="ipa muted">/${esc(ipaText(w.ipa, !!w.lang))}/</span></span>
           </div>
-          <div class="muted"><span class="ipa">/${esc(ipaText(w.ipa, !!w.lang))}/</span> ${esc(w.katakana)} ${voiceButton(`${w.id}.katakana`, "🔈")}</div>
-          <p class="meaning">${esc(w.meaning)} ${voiceButton(`${w.id}.meaning`, "🔈")}</p>
+          <div class="muted">${esc(w.katakana)}</div>
+          <p class="meaning">${esc(w.meaning)}</p>
           <div class="row small">${meter(lv)}<span class="muted">${LEVELS[lv]}</span></div>
         </div>
 
         <section><h4>📍 シーン</h4>${esc(w.scene)}</section>
         ${w.gap ? `<section><h4>⚠️ カタカナの罠</h4><div class="tip warn">${esc(w.gap)}</div></section>` : ""}
-        <section><h4>💬 例文</h4><i>${esc(w.example.en)}</i> ${voiceButton(`${w.id}.example.en`, "🔈")}<br><span class="muted">${esc(w.example.ja)}</span> ${voiceButton(`${w.id}.example.ja`, "🔈")}</section>
-        <section><h4>📜 語源 ${voiceButton(`${w.id}.story`, "🔈")}</h4><b>${esc(w.etymology.origin)}</b><p style="margin:6px 0 0">${esc(w.etymology.story)}</p></section>
+        <section><h4>💬 例文</h4><i>${esc(w.example.en)}</i> ${voiceButton(`${w.id}.example.en`, "🔈")}<br><span class="muted">${esc(w.example.ja)}</span></section>
+        <section><h4>📜 語源</h4><b>${esc(w.etymology.origin)}</b><p style="margin:6px 0 0">${esc(w.etymology.story)}</p></section>
         ${roots.length ? `<section><h4>🧩 語根</h4>${roots.map((r) => `<span class="chip">${esc(r.form)}＝${esc(r.meaning)}</span>`).join("")}</section>` : ""}
         ${w.family.length ? `<section><h4>🌳 同じ語源の仲間</h4>${w.family.map((f) => `<span class="chip">${esc(f)}</span>`).join("")}</section>` : ""}
         ${pairsByWord[w.word] ? html`<section><h4>👯 まぎらわしい単語</h4>${pairsByWord[w.word].map((p) => `<button class="chip" data-pair="${p.id}">${p.words.map((x) => esc(x.word)).join(" / ")}</button>`).join("")}</section>` : ""}
