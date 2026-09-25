@@ -174,6 +174,9 @@ def qwen3_model(name, cfg):
         from qwen_tts import Qwen3TTSModel
         # AMD Radeon も ROCm 版 PyTorch なら "cuda:0" で動く。bfloat16 が遅い・使えない GPU や CPU では dtype を変える
         kwargs = {"device_map": cfg.get("device", "cuda:0"), "dtype": getattr(torch, cfg.get("dtype", "bfloat16"))}
+        if cfg.get("cudnn") is False:
+            # Windows の ROCm 版で MIOpen の畳み込みが極端に遅い場合の回避策（docs/VOICE_TTS.md §4.6）
+            torch.backends.cudnn.enabled = False
         if cfg.get("attn_implementation"):
             kwargs["attn_implementation"] = cfg["attn_implementation"]
         _QWEN[name] = Qwen3TTSModel.from_pretrained(name, **kwargs)
