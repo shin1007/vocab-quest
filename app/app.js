@@ -134,6 +134,7 @@
   // 発音記号を日本の辞書のような表記にする（ˈkænzəs → kǽnzəs）。データは IPA の強勢記号（ˈ ˌ）のまま持ち、
   // 表示するときに強勢のある母音の上にアクセント記号（第1強勢は ´、第2強勢は `）を付ける。
   // 強勢記号のない1音節語にも付ける（弱い ə だけの語と、英語以外の形の語は除く）
+  // scripts/build_wordlist.py の ipa_text も同じ変換をする（docs/WORD_LIST.md 用）
   const IPA_V = "aeiouæɑɒɔəɛɜɪʊʌ";
   const ipaText = (ipa, foreign = false) => ipa.split(" ").map((t) => {
     if (!/[ˈˌ]/.test(t) && !foreign) {
