@@ -396,18 +396,70 @@
     return [...spell, "etym", "syn", ...(w.trapQuiz ? ["trap"] : []), ...pair];
   }
 
-  function distractors(w, n, filter = () => true) {
+  // 錯乱肢は正解と「近い」語から選ぶ。見た目や種類の違いだけで消去できないようにする
+  // - 共通：同じ種類（一般の語／地名／人名／神名）を優先し、品詞・レベル・言語・語句かどうか・大文字始まりをそろえる
+  // - 英語を選ぶ問題（kata・etym・syn）：つづりが似た語（文字の並び・長さ・頭文字）を優先する
+  // - 意味を選ぶ問題（meaning）：意味の文の長さをそろえる。意味が重なる語や類義語は正解が2つになるので除く
+  const bigramCache = new Map();
+  const bigrams = (t) => {
+    if (!bigramCache.has(t)) bigramCache.set(t, new Set([...t].slice(1).map((c, i) => t[i] + c)));
+    return bigramCache.get(t);
+  };
+  const dice = (a, b) => {
+    const x = bigrams(a), y = bigrams(b);
+    if (!x.size || !y.size) return 0;
+    let n = 0;
+    for (const g of x) if (y.has(g)) n++;
+    return (2 * n) / (x.size + y.size);
+  };
+  const mainPos = (w) => w.pos.split("・")[0];
+  function closeness(w, x, by) {
+    let v = 0;
+    if (kindOf(x) === kindOf(w)) v += 6;
+    if (mainPos(x) === mainPos(w)) v += 2;
+    v -= Math.abs(x.level - w.level) * 0.7;
+    if (!x.lang === !w.lang) v += 1;
+    if (x.word.includes(" ") === w.word.includes(" ")) v += 1.5;
+    if ((x.word[0] === x.word[0].toUpperCase()) === (w.word[0] === w.word[0].toUpperCase())) v += 1.5;
+    if (by === "meaning") {
+      v -= Math.min(3, Math.abs(x.meaning.length - w.meaning.length) * 0.25);
+    } else {
+      const a = w.word.toLowerCase(), b = x.word.toLowerCase();
+      v += dice(a, b) * 6;
+      if (a[0] === b[0]) v += 1;
+      v -= Math.min(3, Math.abs(a.length - b.length) * 0.5);
+    }
+    return v;
+  }
+  const TOP = 16;
+  function distractors(w, n, filter = () => true, by = "word") {
     // カタカナが同じ語（bus と bath の「バス」など）は正解と見分けられないので選択肢に出さない
     // 同じつづりの語（英語の Michael とドイツ語の Michael）や、同じ名前の別の言語形も正解と紛らわしいので除く
-    const ok = (x) => x.id !== w.id && plainKatakana(x) !== plainKatakana(w) && x.word.toLowerCase() !== w.word.toLowerCase() && !(w.group && x.group === w.group) && filter(x);
-    const same = WORDS.filter((x) => ok(x) && courseOf(x) === courseOf(w));
-    const other = WORDS.filter((x) => ok(x) && courseOf(x) !== courseOf(w));
-    return [...shuffle(same), ...shuffle(other)].slice(0, n);
+    const syns = new Set(w.synonyms.map((s) => s.word.toLowerCase()));
+    const ok = (x) => x.id !== w.id && plainKatakana(x) !== plainKatakana(w) && x.word.toLowerCase() !== w.word.toLowerCase() && !(w.group && x.group === w.group) && filter(x)
+      && (by !== "meaning" || (!syns.has(x.word.toLowerCase()) && dice(x.meaning, w.meaning) < 0.4));
+    // 近い順の上位だけを残す（全語を並べかえると、200語の出題を作るときに遅くなる）。少しゆらして毎回同じ組み合わせにならないようにする
+    const top = [];
+    for (const x of WORDS) {
+      if (Math.abs(x.level - w.level) > 2 || !ok(x)) continue;
+      const v = closeness(w, x, by) + Math.random() * 1.5;
+      if (top.length === TOP && v <= top[TOP - 1][1]) continue;
+      top.splice(top.findIndex((t) => t[1] < v) >>> 0, 0, [x, v]);
+      if (top.length > TOP) top.pop();
+    }
+    const picked = [];
+    for (const x of top) {
+      // 錯乱肢どうしも見分けがつくように、同じカタカナ・同じ意味の語は1つだけにする
+      if (picked.some((y) => plainKatakana(y) === plainKatakana(x[0]) || y.meaning === x[0].meaning || y.word.toLowerCase() === x[0].word.toLowerCase())) continue;
+      picked.push(x[0]);
+      if (picked.length === n) break;
+    }
+    return picked;
   }
 
   function makeQuestion(w, type) {
     const q = { word: w, type, choices: null };
-    const wordChoices = (label, filter) => shuffle([w, ...distractors(w, 3, filter)]).map((x) => ({ label: label(x), correct: x.id === w.id, ref: x }));
+    const wordChoices = (label, filter, by) => shuffle([w, ...distractors(w, 3, filter, by)]).map((x) => ({ label: label(x), correct: x.id === w.id, ref: x }));
     switch (type) {
       case "kata":
         q.prompt = html`<span class="big">${esc(w.katakana)}</span><span class="scene">📍 ${esc(mask(w.scene, w))}</span>${w.lang ? `${langName(w)}での` : "英語での正しい"}つづりは？`;
@@ -417,7 +469,7 @@
       case "meaning":
         q.prompt = html`<span class="big en">${esc(w.word)}</span>${w.lang ? `（${langName(w)}）意味は？` : "英語での意味は？"}`;
         q.hint = `カタカナでは「${w.katakana}」。${w.scene}`;
-        q.choices = wordChoices((x) => x.meaning);
+        q.choices = wordChoices((x) => x.meaning, undefined, "meaning");
         break;
       case "spell":
         q.prompt = html`<span class="big">${esc(w.katakana)}</span>${esc(w.meaning)}<span class="scene">文字をタップしてつづりを完成させよう</span>`;
@@ -471,7 +523,8 @@
     session = {
       kind, course,
       title: kind === "review" ? "復習" : `${courses.length === 1 ? `${COURSES[courses[0]].name} ・ ` : ""}${plan.practice ? `${words.length}語の練習` : `次の${words.length}語`}`,
-      questions: words.map((w) => makeQuestion(w, pick(allowedTypes(w)))),
+      // 問題は出す直前に作る（その時点の習熟度で出題タイプを選び、200語でも始めるのを待たせない）
+      questions: words.map((w) => ({ word: w, pending: true })),
       // 次のn語（練習以外）は語ごとに STUDY_GOAL まで繰り返す。進み具合は語の数で見せる
       targets: plan && !plan.practice ? words : null,
       tries: {},
@@ -506,6 +559,8 @@
 
   function renderQuestion() {
     const s = session;
+    const w = s.questions[s.index].word;
+    if (s.questions[s.index].pending) s.questions[s.index] = makeQuestion(w, pick(allowedTypes(w)));
     const q = s.questions[s.index];
     // 出題文の読み上げ（答えがばれない物だけ）：カタカナ語、または意味を問う英単語
     const promptVoice = q.type === "kata" || q.type === "spell" ? `${q.word.id}.katakana` : q.type === "meaning" ? `${q.word.id}.word` : null;
@@ -601,7 +656,7 @@
     s.tries[w.id] = (s.tries[w.id] || 0) + 1;
     if (level(w.id) >= STUDY_GOAL || s.tries[w.id] >= MAX_TRIES) return;
     const at = Math.min(s.questions.length, s.index + 1 + (ok ? REQUEUE_GAP.ok : REQUEUE_GAP.ng));
-    s.questions.splice(at, 0, makeQuestion(w, pick(allowedTypes(w))));
+    s.questions.splice(at, 0, { word: w, pending: true });
   }
 
   function showFeedback(q, choice, ok) {
