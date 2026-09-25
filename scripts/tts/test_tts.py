@@ -64,7 +64,7 @@ class Qwen3Design(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         written = []
         fakes = {
-            "torch": types.SimpleNamespace(bfloat16="bf16", float32="fp32", manual_seed=lambda s: FakeQwen.calls.append(("seed", s))),
+            "torch": types.SimpleNamespace(bfloat16="bf16", float32="fp32", backends=types.SimpleNamespace(cudnn=types.SimpleNamespace(enabled=True)), manual_seed=lambda s: FakeQwen.calls.append(("seed", s))),
             "soundfile": types.SimpleNamespace(write=lambda path, _wav, _sr: (written.append(path), Path(path).write_bytes(b""))),
             "qwen_tts": types.SimpleNamespace(Qwen3TTSModel=FakeQwen),
         }
@@ -94,6 +94,9 @@ class Qwen3Design(unittest.TestCase):
             tts.qwen3_model("m1", {"device": "cpu", "dtype": "float32"})
             tts.qwen3_model("m2", {})
         self.assertEqual(seen, [{"device_map": "cpu", "dtype": "fp32"}, {"device_map": "cuda:0", "dtype": "bf16"}])
+        self.assertTrue(sys.modules["torch"].backends.cudnn.enabled)
+        tts.qwen3_model("m3", {"cudnn": False})
+        self.assertFalse(sys.modules["torch"].backends.cudnn.enabled)
 
     def test_synth_reuses_clone_prompt(self):
         for text in ("potion", "ポーション"):

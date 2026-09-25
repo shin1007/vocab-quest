@@ -3,3 +3,4 @@
 /tts/qa/
 /tts/design/
 __pycache__/
+.venv/

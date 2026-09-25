@@ -113,7 +113,7 @@ Qwen3-TTS は学習が要らない。`pip install -U qwen-tts soundfile` のあ�
 
 ### 4.4 VoiceDesign で声を作る流れ（Qwen3-TTS）
 
-1. `pip install -U qwen-tts soundfile`（GPU 推奨。1.7B で VRAM 8GB 程度。GPU の種類ごとの注意は §4.5）
+1. `pip install qwen-tts soundfile`（GPU 推奨。1.7B で VRAM 8GB 程度。GPU の種類ごとの注意は §4.5、Windows と Radeon の手順は §4.6）
 2. `tts/voices/navi-qwen3.json` の `qwen3.design.instruct`（声の説明）と `qwen3.ref_text`（候補に読ませる5〜10秒の文）を決める
 3. `python3 scripts/tts/tts.py design --voice navi-qwen3 --count 8` で候補を8つ作る → `tts/design/navi-qwen3/index.html` で聞き比べる
 4. 気に入った候補（例：`seed3.wav`）を `tts/voices/navi-qwen3.ref.wav` にコピーする。同じ `--seed` なら同じ声が出るので、シード番号も控えておく
@@ -126,15 +126,52 @@ Qwen3-TTS は学習が要らない。`pip install -U qwen-tts soundfile` のあ�
 | GPU | 方法 | 設定（`qwen3` の中） |
 |---|---|---|
 | NVIDIA | CUDA 版 PyTorch | そのまま（`device: "cuda:0"`） |
-| AMD Radeon RX 7000 / 9000（RDNA3・4） | **ROCm 版 PyTorch**。Linux でも Windows でも AMD 公式の wheel がある。先に ROCm 版 PyTorch を入れてから `qwen-tts` を入れる | そのまま。ROCm 版 PyTorch でも GPU の名前は `cuda:0` |
+| AMD Radeon RX 7000 / 9000（RDNA3・4） | **ROCm 版 PyTorch**。Linux でも Windows でも AMD 公式の wheel がある（Windows は §4.6）。先に ROCm 版 PyTorch を入れてから `qwen-tts` を入れる | そのまま。ROCm 版 PyTorch でも GPU の名前は `cuda:0` |
 | AMD Radeon RX 6000 以前 | Linux で ROCm を使う（公式サポート外で、`HSA_OVERRIDE_GFX_VERSION=10.3.0` などの指定が要ることがある）。動かなければ CPU | bfloat16 が遅い場合は `dtype: "float16"` |
 | なし（CPU） | 動くが遅い（1文あたり数十秒〜）。まず `--only` で数語だけ試す | `device: "cpu"`、`dtype: "float32"` |
 
 - `python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"` で `True` と Radeon の名前が出れば GPU で動く。
-- Windows の ROCm 版は音声のデコード部分が遅いという報告がある。遅すぎる場合は WSL2 か Linux で動かす。
 - `attn_implementation: "flash_attention_2"` は NVIDIA 用なので、Radeon では付けない。
 
 > 参照：[AMD ROCm on Radeon（インストール手順・対応表）](https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/index.html)／[Qwen3-TTS-ROCm（Radeon での動作例）](https://github.com/AIwork4me/Qwen3-TTS-ROCm)／[Windows で遅い件の報告](https://github.com/ROCm/TheRock/issues/3077)
+
+### 4.6 Windows ＋ Radeon の手順
+
+AMD 公式の Windows 版 PyTorch（ROCm 7.2.1）を使う。コマンドは PowerShell で実行する。
+
+**AMD が公式に対応している GPU**（Windows 11）：RX 9070 XT / 9070 / 9060 XT、RX 7900 XTX / 7700。
+ほかの RX 7000 シリーズ（7900 XT・7800 XT・7600 など）は一覧にないが、同じ世代なので動くことがある。まず下の手順3で確かめる。RX 6000 以前は Windows では動かないので、CPU で作る（§4.5）。
+
+1. 準備
+   - AMD のグラフィックドライバー（Adrenalin）を **26.2.2 以降**にする
+   - **Python 3.12** を入れる（AMD の wheel は 3.12 専用）
+   - ffmpeg を入れる：`winget install Gyan.FFmpeg`（入れたら PowerShell を開き直す）
+2. リポジトリのフォルダで仮想環境を作り、ROCm と PyTorch を入れる
+   ```powershell
+   py -3.12 -m venv .venv
+   .venv\Scripts\Activate.ps1
+   $r = "https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1"
+   pip install --no-cache-dir "$r/rocm_sdk_core-7.2.1-py3-none-win_amd64.whl" "$r/rocm_sdk_devel-7.2.1-py3-none-win_amd64.whl" "$r/rocm_sdk_libraries_custom-7.2.1-py3-none-win_amd64.whl" "$r/rocm-7.2.1.tar.gz"
+   pip install --no-cache-dir "$r/torch-2.9.1%2Brocm7.2.1-cp312-cp312-win_amd64.whl" "$r/torchaudio-2.9.1%2Brocm7.2.1-cp312-cp312-win_amd64.whl" "$r/torchvision-0.24.1%2Brocm7.2.1-cp312-cp312-win_amd64.whl"
+   ```
+3. Radeon が見えるか確かめる。`True` と Radeon の名前が出れば GPU で動く
+   ```powershell
+   python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+   ```
+4. Qwen3-TTS を入れる。**`-U` を付けない**（付けると ROCm 版の PyTorch が普通の版に置き換わることがある）。入れたあと、もう一度手順3を実行して `True` のままか確かめる
+   ```powershell
+   pip install qwen-tts soundfile
+   ```
+5. 声の候補を作る → §4.4 の手順3から。Windows では `python3` を `python` に読みかえる
+   ```powershell
+   python scripts/tts/tts.py design --voice navi-qwen3 --count 8
+   Copy-Item tts/design/navi-qwen3/seed3.wav tts/voices/navi-qwen3.ref.wav
+   python scripts/tts/tts.py synth --voice navi-qwen3 --only '^(potion|quest|tension)\.'
+   ```
+
+**遅いとき**：Windows の ROCm 版では、音声を波形にもどす部分が遅い（RX 9060 XT で再生時間の約12倍）という報告がある。事前生成なので、この速さでもゲーム内の音声（約12分）は数時間で作り終わる。もっと速くしたいときは、声の設定の `qwen3` に `"cudnn": false` を足して速くなるか試す（MIOpen を使わなくする）。それでも遅ければ WSL2 か Linux で動かす。
+
+> 参照：[AMD：Windows に PyTorch を入れる](https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/docs/install/installrad/windows/install-pytorch.html)／[Windows の対応 GPU](https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/docs/compatibility/compatibilityrad/windows/windows_compatibility.html)／[Windows で遅い件の報告](https://github.com/ROCm/TheRock/issues/3077)
 
 ---
 
