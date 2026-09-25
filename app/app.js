@@ -57,13 +57,47 @@
     he: { name: "ヘブライ語", speech: "he-IL" },
     la: { name: "ラテン語", speech: "it-IT" },
     el: { name: "ギリシャ語", speech: "el-GR" },
+    // 以下は辞書（dictionary.json）で使う言語
+    ar: { name: "アラビア語", speech: "ar-SA" },
+    fa: { name: "ペルシャ語", speech: "fa-IR" },
+    sa: { name: "サンスクリット語", speech: "hi-IN" },
+    hi: { name: "ヒンディー語", speech: "hi-IN" },
+    zh: { name: "中国語", speech: "zh-CN" },
+    ko: { name: "朝鮮語", speech: "ko-KR" },
+    vi: { name: "ベトナム語", speech: "vi-VN" },
+    th: { name: "タイ語", speech: "th-TH" },
+    id: { name: "インドネシア語", speech: "id-ID" },
+    ms: { name: "マレー語", speech: "ms-MY" },
+    tl: { name: "タガログ語", speech: "fil-PH" },
+    tr: { name: "トルコ語", speech: "tr-TR" },
+    fi: { name: "フィンランド語", speech: "fi-FI" },
+    da: { name: "デンマーク語", speech: "da-DK" },
+    no: { name: "ノルウェー語", speech: "nb-NO" },
+    is: { name: "アイスランド語", speech: "is-IS" },
+    hu: { name: "ハンガリー語", speech: "hu-HU" },
+    uk: { name: "ウクライナ語", speech: "uk-UA" },
+    sw: { name: "スワヒリ語", speech: "sw-KE" },
+    rw: { name: "キニヤルワンダ語", speech: "rw-RW" },
+    haw: { name: "ハワイ語", speech: "haw-US" },
+    mi: { name: "マオリ語", speech: "mi-NZ" },
+    qu: { name: "ケチュア語", speech: "es-PE" },
+    mn: { name: "モンゴル語", speech: "mn-MN" },
+    ta: { name: "タミル語", speech: "ta-IN" },
+    eu: { name: "バスク語", speech: "eu-ES" },
+    zu: { name: "ズールー語", speech: "zu-ZA" },
+    bn: { name: "ベンガル語", speech: "bn-BD" },
+    af: { name: "アフリカーンス語", speech: "af-ZA" },
+    ch: { name: "チャモロ語", speech: "ch-GU" },
+    ku: { name: "クルド語", speech: "ku-TR" },
+    ur: { name: "ウルドゥー語", speech: "ur-PK" },
+    ja: { name: "日本語", speech: "ja-JP" },
   };
   // 固有名詞の品詞。類義語の代わりに「別名・関連する名前」を載せている
   const PROPER = new Set(["地名", "神名", "神話", "人名"]);
   const KINDS = { common: "一般の語", 地名: "地名", 神名: "神名・神話", 人名: "人名" };
   const kindOf = (w) => (!PROPER.has(w.pos) ? "common" : w.pos === "神話" ? "神名" : w.pos);
   const synLabel = (w) => (PROPER.has(w.pos) ? "別名・関連する名前" : "類義語");
-  const langName = (w) => (w.lang ? LANGS[w.lang].name : "");
+  const langName = (w) => (w.lang ? LANGS[w.lang]?.name || w.lang : "");
   // 習熟度（0〜5）。間隔反復のボックスに対応する
   const LEVELS = ["未学習", "出会った", "覚えかけ", "定着中", "得意", "完璧"];
   const INTERVAL_DAYS = [0, 0, 1, 3, 7, 21]; // 習熟度ごとの次回出題までの日数
@@ -741,6 +775,17 @@
 
   // ---------- 単語帳 ----------
   const dexFilter = { q: "", course: "all", kind: "all", trap: false };
+  // 検索用に、ひらがなをカタカナにし、空白・中黒・ハイフンを除いて小文字にそろえる
+  const normalize = (t) => t.toLowerCase().replace(/[\u3041-\u3096]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60)).replace(/[\s・＝=\-‐]/g, "");
+  // 辞書（data/dictionary.json）。カタカナ語を引くための軽いデータで、レッスンには出さない。単語帳を開いたときに読み込む
+  let DICT = null;
+  let dictLoading = null;
+  function loadDict() {
+    dictLoading ||= fetch("data/dictionary.json").then((r) => r.json()).then((d) => {
+      DICT = d.map((x) => ({ ...x, key: normalize(`${x.word}|${x.katakana}|${x.meaning}`) }));
+    }).catch(() => { DICT = []; });
+    return dictLoading;
+  }
   function renderDex() {
     const found = WORDS.filter((w) => level(w.id) > 0).length;
     $view.innerHTML = html`
@@ -757,14 +802,16 @@
         </select>
       </div>
       <label class="toggle"><input type="checkbox" id="trap" ${dexFilter.trap ? "checked" : ""}><span></span> ⚠️ カタカナの罠だけ表示</label>
-      <div class="dex-grid" id="grid"></div>`;
+      <div class="dex-grid" id="grid"></div>
+      <div id="dict" class="dict"></div>`;
+    loadDict();
     const drawGrid = () => {
-      const q = dexFilter.q.trim().toLowerCase();
+      const q = normalize(dexFilter.q.trim());
       const list = WORDS.filter((w) =>
         (dexFilter.course === "all" || courseOf(w) === dexFilter.course) &&
         (dexFilter.kind === "all" || kindOf(w) === dexFilter.kind) &&
         (!dexFilter.trap || w.gap) &&
-        (!q || [w.word, w.katakana, w.meaning, ...w.synonyms.map((s) => s.word)].some((t) => t.toLowerCase().includes(q))));
+        (!q || [w.word, w.katakana, w.meaning, ...w.synonyms.map((s) => s.word)].some((t) => normalize(t).includes(q))));
       const grid = $view.querySelector("#grid");
       grid.innerHTML = list.length ? list.map((w) => html`
         <button class="dex-item ${level(w.id) ? "" : "new"}" data-detail="${w.id}" style="--area:var(--area-${courseOf(w)})">
@@ -772,14 +819,61 @@
           <span class="small muted">${esc(w.katakana)}${w.lang ? `・${esc(langName(w))}` : ""}</span>
           <span class="grade-chip">${esc(COURSES[courseOf(w)].name)}</span>
           ${meter(level(w.id))}
-        </button>`).join("") : `<p class="muted">見つかりませんでした</p>`;
+        </button>`).join("") : `<p class="muted">単語帳には見つかりませんでした</p>`;
       grid.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
+      drawDict(q);
     };
-    $view.querySelector("#q").addEventListener("input", (e) => { dexFilter.q = e.target.value; drawGrid(); });
+    // 検索語があるときは、単語帳の下に辞書の検索結果も出す
+    let dictLimit = 50;
+    const drawDict = (q) => {
+      const box = $view.querySelector("#dict");
+      if (!q) { box.innerHTML = `<p class="small muted">📖 検索すると、単語帳にない${DICT ? ` ${DICT.length.toLocaleString()} 語の` : ""}カタカナ語も辞書から引けます。</p>`; return; }
+      if (!DICT) { box.innerHTML = `<p class="small muted">📖 辞書を読み込んでいます…</p>`; loadDict().then(() => drawDict(normalize(dexFilter.q.trim()))); return; }
+      // 見出し語が検索語で始まるものを先に出す
+      const starts = (d) => normalize(d.katakana).split("／").some((k) => k.startsWith(q)) || normalize(d.word).startsWith(q);
+      const hits = DICT.filter((d) => d.key.includes(q)).sort((a, b) => starts(b) - starts(a));
+      box.innerHTML = html`
+        <h3 class="section-title">📖 辞書 <span class="small muted">${hits.length.toLocaleString()} 件</span></h3>
+        ${hits.length ? html`<ul class="dict-list">${hits.slice(0, dictLimit).map((d) => html`
+          <li><button class="dict-item" data-dict="${d.id}">
+            <span class="k">${esc(d.katakana)}</span>
+            <span class="w">${esc(d.word)}</span>
+            <span class="small muted">${esc(d.pos)}${d.lang ? `・${esc(langName(d))}` : ""}${d.wasei ? "・和製英語" : ""}${d.ref ? "・📘単語帳にあり" : ""}</span>
+            ${dictMeaning(d) ? `<span class="m">${esc(dictMeaning(d))}</span>` : ""}
+          </button></li>`).join("")}</ul>
+          ${hits.length > dictLimit ? `<button class="btn secondary small" id="dict-more">もっと見る（残り ${(hits.length - dictLimit).toLocaleString()} 件）</button>` : ""}` : `<p class="muted">辞書にも見つかりませんでした</p>`}`;
+      box.querySelectorAll("[data-dict]").forEach((el) => el.addEventListener("click", () => openDictEntry(DICT.find((d) => d.id === el.dataset.dict))));
+      box.querySelector("#dict-more")?.addEventListener("click", () => { dictLimit += 100; drawDict(q); });
+    };
+    $view.querySelector("#q").addEventListener("input", (e) => { dexFilter.q = e.target.value; dictLimit = 50; drawGrid(); });
     $view.querySelector("#course").addEventListener("change", (e) => { dexFilter.course = e.target.value; drawGrid(); });
     $view.querySelector("#kind").addEventListener("change", (e) => { dexFilter.kind = e.target.value; drawGrid(); });
     $view.querySelector("#trap").addEventListener("change", (e) => { dexFilter.trap = e.target.checked; drawGrid(); });
     drawGrid();
+  }
+
+  // 意味が見出しのカタカナと同じ（アイシャドー → アイシャドー など）ときは出さない
+  function dictMeaning(d) {
+    const m = d.meaning.replace(/\s/g, "");
+    return d.katakana.split("／").some((k) => k.replace(/\s/g, "") === m) ? "" : d.meaning;
+  }
+
+  // 辞書の項目。単語帳に同じ語があれば、そちらの詳しいページを開ける
+  function openDictEntry(d) {
+    const w = d.ref && byId[d.ref];
+    $modalContent.innerHTML = html`
+      <div class="detail">
+        <div class="detail-head">
+          <div class="small muted">📖 辞書 ・ ${esc(d.pos)}${d.lang ? `（${esc(langName(d))}）` : ""}</div>
+          <h2 class="display">${esc(d.word)}</h2>
+          <div class="muted">${esc(d.katakana)}</div>
+          ${dictMeaning(d) ? `<p class="meaning">${esc(dictMeaning(d))}</p>` : ""}
+        </div>
+        ${d.wasei ? `<div class="tip warn">⚠️ 和製英語、または日本で独自に作られた・使われている語です。英語圏ではそのままでは通じないことがあります。</div>` : ""}
+        ${w ? html`<section><button class="btn block" id="to-word">📘 単語帳の「${esc(w.word)}」を見る（例文・語源・類義語）</button></section>` : ""}
+      </div>`;
+    $modalContent.querySelector("#to-word")?.addEventListener("click", () => openDetail(w.id));
+    openModal();
   }
 
   function openDetail(id) {

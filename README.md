@@ -9,6 +9,7 @@
 - **類義語**のニュアンスと語源を比べる：potion / elixir / remedy / draught
 - **似た単語**をセットで覚える：hat / hut（母音）、light / right（L と R）、desert / dessert（つづり）など、英検でまちがえやすい語を聞きくらべ・空所補充で練習
 - **カタカナの罠**を見抜く：「テンション高い」は英語で *I'm so excited!*、「マンション」は *apartment*
+- **カタカナ語辞典**として引く：単語帳の検索から、学習用の単語に入っていないカタカナ語（約2万8千語、和製英語・英語以外の外来語・専門用語も含む）の元の語と意味を調べられる
 
 ## 中身
 
@@ -19,6 +20,7 @@
 | `data/words.json` | 単語データ（正本） |
 | `data/roots.json` | 語根ファミリーデータ |
 | `data/candidates.json` | 入れたいカタカナ語の候補（分野別）。未収録の語は `build_wordlist.py` の実行時に表示 |
+| `data/dictionary.json` | 辞書データ（28121語）。単語帳の検索で引ける軽いカタカナ語辞典。1行1語で、カタカナ・元の語・品詞・意味・言語（`lang`）・和製英語（`wasei`）・学習用の単語への参照（`ref`）を持つ |
 | `data/pairs.json` | 似た単語セット（母音・L/R・B/V・TH・同音語・つづり・派生語の7種類）。単語リストでカタカナが同じになる語（staff / stuff、bus / bath など）は必ずどこかのセットに入れる（`build_wordlist.py` が確認） |
 | `index.html`, `app/` | 動くプロトタイプ（依存なしの HTML/CSS/JS）。コース・テーマ・問題タイプ・習熟度の定義は `app/app.js` 冒頭、テーマの見た目は `app/style.css` |
 | `scripts/build_wordlist.py` | データ検証と `WORD_LIST.md` の生成 |
@@ -58,5 +60,7 @@ python3 scripts/tts/tts.py qa --voice tsukuyomi-gsv      # 読み間違いの検
 
 `python3 scripts/build_wordlist.py --check` で、生成物が最新かどうかを確認できます。
 
+> 辞書データの見出し語は集英社 imidas の[「現代人のカタカナ語辞典」](https://imidas.jp/katakana.html)を収録語のチェックリストとしてのみ使い、辞典の説明文は転載していません。意味は [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html)（© EDRDG、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)）の英訳と照らし合わせながら独自に書いています。
+>
 > 語源は Online Etymology Dictionary などの一般的な説に基づいていますが、諸説ある語はその旨を記載しています。
 > 公開前には専門家による監修を推奨します。
