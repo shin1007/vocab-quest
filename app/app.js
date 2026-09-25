@@ -102,20 +102,17 @@
   const LEVELS = ["未学習", "出会った", "覚えかけ", "定着中", "得意", "完璧"];
   const INTERVAL_DAYS = [0, 0, 1, 3, 7, 21]; // 習熟度ごとの次回出題までの日数
   const LEARNED = 3; // この習熟度以上を「定着」とみなす
-  // レッスンは大きめの束にする。小分けより、多くの語を間をあけて何度も思い出すほうが定着する（Kornell 2009、Nakata & Webb 2016）
-  const LESSON_SIZE = 100;
-  const LESSON_GOAL = 2; // レッスン内でこの習熟度（翌日に復習）まで上げる
-  const MAX_TRIES = 4; // 1回のレッスンで同じ語を出す上限（間違え続けても終われるように）
+  // 「次のn語」：まだ覚えていない語を、コースの並びの先頭から n 語ずつ出す。n はホームで選ぶ
+  const BATCH_OPTIONS = [10, 20, 30, 50];
+  const BATCH_SIZE = 20;
+  const STUDY_GOAL = 2; // 1回の学習でこの習熟度（翌日に復習）まで上げる
+  const MAX_TRIES = 4; // 1回の学習で同じ語を出す上限（間違え続けても終われるように）
   const REQUEUE_GAP = { ok: 6, ng: 3 }; // もう一度出すまでにはさむ問題数（正解なら長め、間違いなら短め）
   const REVIEW_SIZE = 20;
   const QUESTIONS_PER_SESSION = 8; // 似た単語の練習
-  const NEW_PER_DAY_OPTIONS = [10, 20, 30, 50, 100]; // 1日に新しく覚え始める語数の上限
-  const NEW_PER_DAY = 20;
   const DAY = 24 * 60 * 60 * 1000;
   const STORE_KEY = "vocab-quest-save-v3";
   const OLD_STORE_KEY = "vocab-quest-save-v2";
-  // コースの分け方を変えたら上げる。レッスンの並びが変わるので、完了印（done）だけ消して単語ごとの習熟度は残す
-  const COURSE_VERSION = 5;
 
   let WORDS = [];
   let ROOTS = [];
@@ -147,7 +144,7 @@
   const plainKatakana = (w) => w.katakana.replace(/（.*）/, "");
   const courseOf = (w) => String(w.level);
   const courseLabel = (c) => `${COURSES[c].name}「${COURSES[c].title}」`;
-  // 文字列から決まった数を作る（レッスン内の並びを毎回同じにしつつ、ジャンルが偏らないように混ぜる）
+  // 文字列から決まった数を作る（コース内の並びを毎回同じにしつつ、ジャンルが偏らないように混ぜる）
   const mixKey = (s) => [...s].reduce((h, c) => (Math.imul(h, 31) + c.charCodeAt(0)) | 0, 7);
   // 出題文から答えの単語（と派生形）を伏せる: equipment → equip も伏せる
   const mask = (text, w) => text.replace(new RegExp(`\\b${w.word.slice(0, 4)}[a-z]*`, "gi"), "＿＿＿");
@@ -160,10 +157,9 @@
   // ---------- セーブデータ ----------
   function defaultState() {
     return {
-      cards: {}, done: {}, courseVersion: COURSE_VERSION, streak: 0, lastDay: null,
+      cards: {}, streak: 0, lastDay: null,
       sessions: 0, answered: 0, correct: 0, welcomed: false,
-      newToday: { day: null, count: 0 }, // きょう新しく出会った語の数
-      settings: { autoVoice: true, theme: "stage", newPerDay: NEW_PER_DAY },
+      settings: { autoVoice: true, theme: "stage", batch: BATCH_SIZE },
     };
   }
   function load() {
@@ -171,9 +167,13 @@
       const raw = localStorage.getItem(STORE_KEY);
       if (raw) {
         const saved = JSON.parse(raw);
-        if (saved.courseVersion !== COURSE_VERSION) { saved.done = {}; saved.courseVersion = COURSE_VERSION; }
+        // レッスン制だったころの項目（完了印・コースの版・1日の上限）は使わないので捨てる。単語ごとの習熟度はそのまま
+        const { done, courseVersion, newToday, ...rest } = saved;
+        const { newPerDay, ...settings } = saved.settings || {};
         const base = defaultState();
-        return { ...base, ...saved, settings: { ...base.settings, ...saved.settings } };
+        const merged = { ...base, ...rest, settings: { ...base.settings, ...settings } };
+        if (!BATCH_OPTIONS.includes(merged.settings.batch)) merged.settings.batch = BATCH_SIZE;
+        return merged;
       }
       // 旧バージョン（RPG 版）のセーブから学習記録だけ引き継ぐ
       const old = JSON.parse(localStorage.getItem(OLD_STORE_KEY) || "null");
@@ -196,18 +196,10 @@
   const isDue = (id) => { const c = state.cards[id]; return c && c.level > 0 && c.due <= Date.now(); };
   const dueWords = () => WORDS.filter((w) => isDue(w.id));
   const learnedCount = () => WORDS.filter((w) => level(w.id) >= LEARNED).length;
-  // きょう新しく覚え始められる残りの語数
-  const newLeftToday = () => Math.max(0, state.settings.newPerDay - (state.newToday.day === todayKey() ? state.newToday.count : 0));
 
-  // ---------- レッスン ----------
-  // 各コースの単語をジャンルが混ざるように並べ、ほぼ均等に分けてレッスンにする
-  function lessonsOf(course) {
-    const words = WORDS.filter((w) => courseOf(w) === course).sort((a, b) => mixKey(a.id) - mixKey(b.id));
-    const count = Math.ceil(words.length / LESSON_SIZE);
-    const size = Math.ceil(words.length / count);
-    return Array.from({ length: count }, (_, i) => ({ course, index: i, key: `${course}-${i}`, words: words.slice(i * size, (i + 1) * size) }));
-  }
-  const allLessons = () => COURSE_ORDER.flatMap(lessonsOf);
+  // ---------- 次のn語 ----------
+  // 各コースの単語を、ジャンルが混ざるように並べる（id から決まる順なので毎回同じ）。似た語が固まると混同しやすい
+  const courseWords = (course) => WORDS.filter((w) => courseOf(w) === course).sort((a, b) => mixKey(a.id) - mixKey(b.id));
   const courseLearned = (c) => { const ws = WORDS.filter((w) => courseOf(w) === c); return { total: ws.length, learned: ws.filter((w) => level(w.id) >= LEARNED).length }; };
   // 「そのレベルの語を8割定着」を達成した一番上のレベル
   const MASTERED = 0.8;
@@ -221,25 +213,18 @@
     return reached;
   };
   const badge = (c, big = false) => `<span class="topic-badge grade${big ? " big" : ""}" style="--area:var(--area-${c})">${esc(COURSES[c].name)}</span>`;
-  const lessonProgress = (ls) => ls.words.reduce((n, w) => n + level(w.id), 0) / (ls.words.length * 5);
-  // レッスンで出す語：覚えかけの語（習熟度が LESSON_GOAL 未満か復習期限が来た語）＋きょうの上限までの新しい語。
-  // 全部の語が LESSON_GOAL に届いていれば、全語を1回ずつの練習にする
-  function lessonPlan(ls) {
-    const started = ls.words.filter((w) => level(w.id) > 0 && (level(w.id) < LESSON_GOAL || isDue(w.id)));
-    const fresh = ls.words.filter((w) => level(w.id) === 0);
-    const allowed = fresh.slice(0, newLeftToday());
-    const waiting = fresh.length - allowed.length; // 上限のため、あしたに回す新しい語
-    if (started.length || allowed.length) return { words: [...started, ...allowed], practice: false, waiting };
-    return { words: fresh.length ? [] : ls.words, practice: !fresh.length, waiting };
+  // 次に出す語：覚えかけの語（出会ったが習熟度 STUDY_GOAL 未満）を先に、足りない分をまだ出会っていない語で埋めて n 語。
+  // course を省くと、下のレベルから順に探す。全部の語が STUDY_GOAL に届いていれば、習熟度の低い語から n 語を練習する
+  function nextPlan(course = null) {
+    const words = course ? courseWords(course) : COURSE_ORDER.flatMap(courseWords);
+    const n = state.settings.batch;
+    const started = words.filter((w) => level(w.id) > 0 && level(w.id) < STUDY_GOAL);
+    const fresh = words.filter((w) => level(w.id) === 0);
+    const picked = [...started, ...fresh].slice(0, n);
+    if (picked.length) return { course, words: picked, practice: false, started: started.length, fresh: fresh.length };
+    return { course, words: [...words].sort((a, b) => level(a.id) - level(b.id)).slice(0, n), practice: true, started: 0, fresh: 0 };
   }
-  // おおよその問題数（1回で正解し続けた場合）
-  const planQuestions = (plan) => plan.practice ? plan.words.length : plan.words.reduce((n, w) => n + Math.max(1, LESSON_GOAL - level(w.id)), 0);
-  const lessonCleared = (ls) => ls.words.every((w) => level(w.id) >= LESSON_GOAL);
-  // おすすめ：まだ一度も終えていないレッスンの中で最初のもの。全部終えていれば習熟度が一番低いもの
-  function nextLesson() {
-    const all = allLessons();
-    return all.find((ls) => !state.done[ls.key]) || all.sort((a, b) => lessonProgress(a) - lessonProgress(b))[0];
-  }
+  const planLabel = (plan) => plan.practice ? `${plan.words.length}語を練習する` : `次の${plan.words.length}語を覚える`;
 
   // ---------- テーマ ----------
   function applyTheme() {
@@ -291,9 +276,9 @@
     window.scrollTo(0, 0);
   }
 
-  // ---------- 目標と次のレッスン ----------
-  // 到達したレベル（8割定着）と次のレベルまでの進み具合に、おすすめのレッスンをまとめた1枚のカード
-  function goalCard(ls) {
+  // ---------- 目標と次のn語 ----------
+  // 到達したレベル（8割定着）と次のレベルまでの進み具合に、次に覚える語をまとめた1枚のカード
+  function goalCard(plan) {
     const reached = reachedCourse();
     const next = COURSE_ORDER[reached ? COURSE_ORDER.indexOf(reached) + 1 : 0];
     const { total, learned } = next ? courseLearned(next) : { total: 0, learned: 0 };
@@ -312,11 +297,14 @@
               <b>全レベルクリア！ おめでとうございます</b>`}
           </div>
         </div>
-        ${ls ? html`
-          <div class="goal-lesson">
-            <div class="small muted">NEXT ・ ${esc(COURSES[ls.course].name)} レッスン ${ls.index + 1}（${ls.words.length}語）・ きょうの新しい語 あと${newLeftToday()}語</div>
-            <div class="lesson-words">${ls.words.slice(0, 4).map((w) => esc(plainKatakana(w))).join(" / ")}…</div>
-            <button class="btn block" data-lesson="${ls.key}">▶ ${state.done[ls.key] ? "練習する" : ls.words.some((w) => level(w.id)) ? "続きから" : "レッスンを始める"}</button>
+        ${plan.words.length ? html`
+          <div class="goal-next">
+            <div class="small muted">NEXT ・ ${esc(COURSES[courseOf(plan.words[0])].name)} ・ ${plan.practice ? "全部の語に出会いました。習熟度の低い語を練習します" : `まだ出会っていない語 あと${WORDS.filter((w) => courseOf(w) === courseOf(plan.words[0]) && !level(w.id)).length}語`}</div>
+            <div class="next-words">${plan.words.slice(0, 4).map((w) => esc(plainKatakana(w))).join(" / ")}…</div>
+            <div class="batch-pick" role="group" aria-label="1回に覚える語の数">
+              ${BATCH_OPTIONS.map((n) => `<button class="chip ${state.settings.batch === n ? "on" : ""}" data-batch="${n}" aria-pressed="${state.settings.batch === n}">${n}語</button>`).join("")}
+            </div>
+            <button class="btn block" data-study="">▶ ${planLabel(plan)}</button>
           </div>` : ""}
       </section>`;
   }
@@ -324,7 +312,7 @@
   // ---------- ホーム ----------
   function renderHome() {
     const due = dueWords();
-    const next = nextLesson();
+    const next = nextPlan();
     const trivia = pick(WORDS);
     $view.innerHTML = html`
       ${state.welcomed ? "" : html`
@@ -356,10 +344,10 @@
       <p class="small lead">レベルは英検の級にあわせたおおよその目安です。英語のつづり・意味の難しさで分けています。</p>
       ${COURSE_ORDER.map((k) => {
         const t = COURSES[k];
-        const lessons = lessonsOf(k);
-        const words = lessons.flatMap((l) => l.words);
+        const words = courseWords(k);
         if (!words.length) return "";
         const learned = words.filter((w) => level(w.id) >= LEARNED).length;
+        const plan = nextPlan(k);
         return html`
           <section class="card topic" style="--area:var(--area-${k})">
             <div class="topic-head">
@@ -367,20 +355,10 @@
               <div class="spacer"><h3>${esc(t.name)} ${esc(t.title)}</h3><div class="small muted">${esc(t.desc)} ・ ${words.length}語</div></div>
               ${ring(learned / words.length, `${learned}<small>/${words.length}</small>`)}
             </div>
-            <details class="lessons" ${next?.course === k ? "open" : ""}>
-            <summary>レッスン一覧（${lessons.filter((ls) => state.done[ls.key]).length}/${lessons.length} 完了）</summary>
-            <div class="lesson-list">
-              ${lessons.map((ls) => html`
-                <button class="lesson ${state.done[ls.key] ? "done" : ""}" data-lesson="${ls.key}">
-                  <span class="num">${state.done[ls.key] ? "✓" : ls.index + 1}</span>
-                  <span class="spacer">
-                    <span class="lesson-name">レッスン ${ls.index + 1}</span>
-                    ${bar(lessonProgress(ls))}
-                  </span>
-                  <span class="chev">›</span>
-                </button>`).join("")}
+            <div class="row">
+              <span class="small muted spacer">${plan.practice ? "全部の語に出会いました" : `まだ出会っていない語 ${plan.fresh}語${plan.started ? ` ・ 覚えかけ ${plan.started}語` : ""}`}</span>
+              <button class="btn secondary small" data-study="${k}">▶ ${planLabel(plan)}</button>
             </div>
-            </details>
           </section>`;
       }).join("")}
 
@@ -393,43 +371,16 @@
     $view.querySelector("#welcome-ok")?.addEventListener("click", () => {
       state.welcomed = true;
       save();
-      startSession({ kind: "lesson", lesson: allLessons()[0] });
+      startSession({ kind: "study" });
     });
     $view.querySelector("#review")?.addEventListener("click", () => startSession({ kind: "review" }));
-    $view.querySelectorAll("[data-lesson]").forEach((b) => b.addEventListener("click", () => {
-      const [course, i] = b.dataset.lesson.split("-");
-      openLesson(lessonsOf(course)[+i]);
+    $view.querySelectorAll("[data-study]").forEach((b) => b.addEventListener("click", () => startSession({ kind: "study", course: b.dataset.study || null })));
+    $view.querySelectorAll("[data-batch]").forEach((b) => b.addEventListener("click", () => {
+      state.settings.batch = +b.dataset.batch;
+      save();
+      renderHome();
     }));
     $view.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
-  }
-
-  function openLesson(ls) {
-    const t = COURSES[ls.course];
-    const learned = ls.words.filter((w) => level(w.id) >= LEARNED).length;
-    const plan = lessonPlan(ls);
-    $modalContent.innerHTML = html`
-      <div class="lesson-intro" style="--area:var(--area-${ls.course})">
-        ${badge(ls.course, true)}
-        <div class="small muted">${esc(courseLabel(ls.course))}</div>
-        <h2 class="display">レッスン ${ls.index + 1}</h2>
-        <p class="small muted">${learned}/${ls.words.length} 語が定着</p>
-        <ul class="word-rows">
-          ${ls.words.map((w) => html`
-            <li><button data-detail="${w.id}">
-              <span class="spacer"><b>${level(w.id) ? esc(w.word) : esc(plainKatakana(w))}</b>
-                <span class="small muted">${level(w.id) ? esc(plainKatakana(w)) : "？？？"}</span></span>
-              ${meter(level(w.id))}
-            </button></li>`).join("")}
-        </ul>
-        ${plan.waiting ? html`<p class="small muted">きょうの新しい語は あと${newLeftToday()}語。残りの${plan.waiting}語はあしたに回します。</p>` : ""}
-        ${plan.words.length ? html`
-          <p class="small muted">${plan.practice ? "全部の語を1回ずつ練習します。" : "まとめて出題し、覚えかけの語は少しあとにもう一度出します。途中でやめても、続きから再開できます。"}</p>
-          <button class="btn block" id="go">▶ ${plan.practice ? "練習する" : "始める"}（${plan.words.length}語・${planQuestions(plan)}問〜）</button>` : html`
-          <button class="btn block" disabled>きょうの新しい語は上限です</button>`}
-      </div>`;
-    $modalContent.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
-    $modalContent.querySelector("#go")?.addEventListener("click", () => { closeModal(); startSession({ kind: "lesson", lesson: ls }); });
-    openModal();
   }
 
   // ---------- 出題 ----------
@@ -511,20 +462,17 @@
 
   // ---------- 学習セッション ----------
   // 復習：期限が来た語から最大 REVIEW_SIZE 語を1回ずつ。
-  // レッスン：lessonPlan の語をまとめて出し、LESSON_GOAL に届くまで間をあけてもう一度出す（answer → requeue）
-  function startSession({ kind, lesson }) {
-    const plan = kind === "lesson" ? lessonPlan(lesson) : null;
+  // 次のn語：nextPlan の語をまとめて出し、STUDY_GOAL に届くまで間をあけてもう一度出す（answer → requeue）
+  function startSession({ kind, course = null }) {
+    const plan = kind === "study" ? nextPlan(course) : null;
     const words = shuffle(plan ? plan.words : dueWords()).slice(0, plan ? Infinity : REVIEW_SIZE);
-    if (!words.length) {
-      if (plan?.waiting) alert(`きょうの新しい語は上限（${state.settings.newPerDay}語）に達しました。続きはあした。上限は「記録」画面で変えられます。`);
-      go("home");
-      return;
-    }
+    if (!words.length) { go("home"); return; }
+    const courses = [...new Set(words.map(courseOf))];
     session = {
-      kind, lesson,
-      title: kind === "review" ? "復習" : `${COURSES[lesson.course].name} ・ レッスン ${lesson.index + 1}${plan.practice ? "（練習）" : ""}`,
+      kind, course,
+      title: kind === "review" ? "復習" : `${courses.length === 1 ? `${COURSES[courses[0]].name} ・ ` : ""}${plan.practice ? `${words.length}語の練習` : `次の${words.length}語`}`,
       questions: words.map((w) => makeQuestion(w, pick(allowedTypes(w)))),
-      // レッスン（練習以外）は語ごとに LESSON_GOAL まで繰り返す。進み具合は語の数で見せる
+      // 次のn語（練習以外）は語ごとに STUDY_GOAL まで繰り返す。進み具合は語の数で見せる
       targets: plan && !plan.practice ? words : null,
       tries: {},
       index: 0, correct: 0, results: [],
@@ -535,16 +483,16 @@
     renderQuestion();
   }
 
-  // 進み具合：復習・練習は問題ごと、レッスンは語ごと（LESSON_GOAL に届いた語が緑）。
+  // 進み具合：復習・練習は問題ごと、次のn語は語ごと（STUDY_GOAL に届いた語が緑）。
   // 語が多いとマスが細くなりすぎるので、STEP_MAX 語を超えたら1本のバーにする
   const STEP_MAX = 20;
   function stepsHtml(s) {
     if (s.targets) {
       const now = s.questions[s.index].word;
-      const cleared = s.targets.filter((w) => level(w.id) >= LESSON_GOAL).length;
+      const cleared = s.targets.filter((w) => level(w.id) >= STUDY_GOAL).length;
       const marks = s.targets.length > STEP_MAX
         ? `<i class="ok fill" style="width:${(cleared / s.targets.length) * 100}%"></i>`
-        : s.targets.map((w) => `<i class="${level(w.id) >= LESSON_GOAL ? "ok" : w === now ? "now" : ""}"></i>`).join("");
+        : s.targets.map((w) => `<i class="${level(w.id) >= STUDY_GOAL ? "ok" : w === now ? "now" : ""}"></i>`).join("");
       return html`
         <div class="steps" aria-label="${cleared}語 / ${s.targets.length}語 クリア">${marks}</div>
         <span class="count">${cleared}/${s.targets.length}</span>`;
@@ -627,10 +575,6 @@
 
     // 習熟度（間隔反復）
     const c = { ...card(w.id) };
-    if (!c.seen) {
-      const today = todayKey();
-      state.newToday = { day: today, count: (state.newToday.day === today ? state.newToday.count : 0) + 1 };
-    }
     c.seen = (c.seen || 0) + 1;
     if (ok) {
       c.correct = (c.correct || 0) + 1;
@@ -652,10 +596,10 @@
     showFeedback(q, choice, ok);
   }
 
-  // LESSON_GOAL に届いていない語を、数問あとにもう一度出す（別の語をはさむと思い出す間隔ができる）
+  // STUDY_GOAL に届いていない語を、数問あとにもう一度出す（別の語をはさむと思い出す間隔ができる）
   function requeue(s, w, ok) {
     s.tries[w.id] = (s.tries[w.id] || 0) + 1;
-    if (level(w.id) >= LESSON_GOAL || s.tries[w.id] >= MAX_TRIES) return;
+    if (level(w.id) >= STUDY_GOAL || s.tries[w.id] >= MAX_TRIES) return;
     const at = Math.min(s.questions.length, s.index + 1 + (ok ? REQUEUE_GAP.ok : REQUEUE_GAP.ng));
     s.questions.splice(at, 0, makeQuestion(w, pick(allowedTypes(w))));
   }
@@ -715,10 +659,9 @@
   function finishSession() {
     const s = session;
     if (!s.results.length) { go("home"); return; }
-    const complete = s.results.length === s.questions.length;
+    const complete = s.targets ? s.targets.every((w) => level(w.id) >= STUDY_GOAL) : s.results.length === s.questions.length;
     const welcomeBack = updateStreak();
     state.sessions++;
-    if (s.kind === "lesson" && (s.targets ? lessonCleared(s.lesson) : complete)) state.done[s.lesson.key] = true;
     save();
     renderHud();
 
@@ -737,7 +680,7 @@
       <div class="result">
         <div class="burst ${acc >= 0.7 ? "shine" : ""}"><span>${acc === 1 ? "🏆" : acc >= 0.7 ? "🎉" : "🌱"}</span></div>
         <h1 class="display">${headline}</h1>
-        <p class="muted">${esc(s.title)}${(s.targets ? lessonCleared(s.lesson) : complete) ? " 完了" : "（途中まで）"}</p>
+        <p class="muted">${esc(s.title)}${complete ? " 完了" : "（途中まで）"}</p>
         ${welcomeBack ? `<p class="small">おかえりなさい。また一緒に続けましょう。</p>` : ""}
         ${cleared ? html`<section class="card level-up pop" style="--area:var(--area-${cleared})">${badge(cleared, true)}<b>🏅 ${esc(courseLabel(cleared))}をクリア！</b><div class="small muted">このレベルの単語の8割が定着しました</div></section>` : ""}
         <section class="card result-grid pop">
@@ -752,13 +695,13 @@
           ${!newWords.length && !levelUps.length && !missed.length ? `<div class="small muted">次の復習で習熟度が上がります。</div>` : ""}
         </section>
         <div class="row">
-          ${s.kind === "lesson" ? `<button class="btn secondary" id="again">${lessonCleared(s.lesson) ? "もう一度" : "続きから"}</button>` : ""}
+          ${s.kind === "study" ? `<button class="btn secondary" id="again">▶ ${complete ? planLabel(nextPlan(s.course)) : "続きから"}</button>` : ""}
           <span class="spacer"></span>
           <button class="btn" id="home">ホームへ</button>
         </div>
       </div>`;
     $view.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
-    $view.querySelector("#again")?.addEventListener("click", () => startSession({ kind: "lesson", lesson: s.lesson }));
+    $view.querySelector("#again")?.addEventListener("click", () => startSession({ kind: "study", course: s.course }));
     $view.querySelector("#home").addEventListener("click", () => go("home"));
     session = null;
     window.scrollTo(0, 0);
@@ -768,7 +711,7 @@
   const dexFilter = { q: "", course: "all", kind: "all", trap: false };
   // 検索用に、ひらがなをカタカナにし、空白・中黒・ハイフンを除いて小文字にそろえる
   const normalize = (t) => t.toLowerCase().replace(/[\u3041-\u3096]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60)).replace(/[\s・＝=\-‐]/g, "");
-  // 辞書（data/dictionary.json）。カタカナ語を引くための軽いデータで、レッスンには出さない。単語帳を開いたときに読み込む
+  // 辞書（data/dictionary.json）。カタカナ語を引くための軽いデータで、学習には出さない。単語帳を開いたときに読み込む
   let DICT = null;
   let dictLoading = null;
   function loadDict() {
@@ -1150,15 +1093,14 @@
   function renderStats() {
     const dist = [0, 1, 2, 3, 4, 5].map((n) => WORDS.filter((w) => level(w.id) === n).length);
     const acc = state.answered ? state.correct / state.answered : 0;
-    const lessons = allLessons();
-    const doneLessons = lessons.filter((ls) => state.done[ls.key]).length;
+    const met = WORDS.filter((w) => level(w.id) > 0).length;
     $view.innerHTML = html`
       <h2 class="section-title">記録</h2>
       <section class="card result-grid">
         <div>${ring(learnedCount() / WORDS.length, `${learnedCount()}<small>/${WORDS.length}</small>`)}<span>定着した語</span></div>
         <div>${ring(acc, `${Math.round(acc * 100)}<small>%</small>`)}<span>正答率</span></div>
         <div><b>${state.streak}</b><span>🔥 連続日数</span></div>
-        <div><b>${doneLessons}<small>/${lessons.length}</small></b><span>完了レッスン</span></div>
+        <div><b>${met}<small>/${WORDS.length}</small></b><span>出会った語</span></div>
         <div><b>${state.sessions}</b><span>学習回数</span></div>
         <div><b>${state.answered}</b><span>回答数</span></div>
         <div><b>${pairLearned()}<small>/${PAIRS.length}</small></b><span>👯 似た単語</span></div>
@@ -1192,13 +1134,6 @@
         ${themeOptions()}
       </section>
       <section class="card">
-        <h3>🌱 1日に覚え始める語</h3>
-        <select id="new-per-day" class="setting-select" aria-label="1日に覚え始める語の数">
-          ${NEW_PER_DAY_OPTIONS.map((n) => `<option value="${n}" ${state.settings.newPerDay === n ? "selected" : ""}>${n}語${n === NEW_PER_DAY ? "（おすすめ）" : ""}</option>`).join("")}
-        </select>
-        <p class="small muted" style="margin:8px 0 0">新しい語を増やすほど、あとの復習も増えます（新しい語1つにつき、最初の数週間で4〜5回の復習）。復習をためずに続けられる数がおすすめです。</p>
-      </section>
-      <section class="card">
         <h3>🔊 音声</h3>
         <label class="toggle"><input type="checkbox" id="auto-voice" ${state.settings.autoVoice ? "checked" : ""}><span></span> 問題と答えを自動で読み上げる</label>
         <p class="small muted" style="margin:8px 0 0">声：${VOICE ? esc(VOICE.label) : "ブラウザ標準の読み上げ（音声ファイル未生成）"}</p>
@@ -1207,7 +1142,6 @@
       <button class="btn danger block" id="reset">学習記録をリセット</button>`;
     bindThemeOptions($view);
     $view.querySelector("#auto-voice").addEventListener("change", (e) => { state.settings.autoVoice = e.target.checked; save(); });
-    $view.querySelector("#new-per-day").addEventListener("change", (e) => { state.settings.newPerDay = +e.target.value; save(); });
     $view.querySelector("#reset").addEventListener("click", () => {
       if (!confirm("学習記録をすべて消しますか？ この操作は取り消せません。")) return;
       state = defaultState();
