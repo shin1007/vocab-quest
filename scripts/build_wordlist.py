@@ -55,6 +55,24 @@ CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"]
 REQUIRED = ["id", "word", "ipa", "katakana", "pos", "cefr", "level", "meaning", "scene",
             "example", "etymology", "roots", "family", "synonyms"]
 
+# 発音記号の表示用の母音（app/app.js の IPA_V と同じ）
+IPA_V = "aeiouæɑɒɔəɛɜɪʊʌ"
+
+
+def ipa_text(ipa, foreign=False):
+    """発音記号を日本の辞書のような表記にする（ˈkænzəs → kǽnzəs。app/app.js の ipaText と同じ）。
+    強勢のある母音の上にアクセント記号（第1強勢は ´、第2強勢は `）を付ける。
+    強勢記号のない1音節語にも付ける（弱い ə だけの語と、英語以外の形の語は除く）"""
+    out = []
+    for t in ipa.split(" "):
+        if not re.search("[ˈˌ]", t) and not foreign:
+            nuclei = re.findall(f"[{IPA_V}]+", t)
+            if len(nuclei) == 1 and nuclei[0] != "ə":
+                t = "ˈ" + t
+        out.append(re.sub(f"([ˈˌ])([^{IPA_V}]*)([{IPA_V}])",
+                          lambda m: m[2] + m[3] + ("\u0301" if m[1] == "ˈ" else "\u0300"), t))
+    return " ".join(out)
+
 
 def validate():
     errors = []
@@ -181,7 +199,7 @@ def render():
                 f'<a id="{w["id"]}"></a>',
                 f"### {w['word']}（{w['katakana']}）{trap}",
                 "",
-                f"/{w['ipa']}/",
+                f"/{ipa_text(w['ipa'], 'lang' in w)}/",
                 "",
                 f"**{w['pos']}{'（' + LANGS[w['lang']] + '）' if 'lang' in w else ''}** / {COURSES[w['level']]} / CEFR {w['cefr']} — {w['meaning']}",
                 "",
@@ -212,7 +230,7 @@ def render():
     for kind, label in PAIR_KINDS.items():
         out += [f"### {label}", "", "| レベル | 単語 | ここがちがう |", "|---|---|---|"]
         for p in sorted((p for p in PAIRS if p["kind"] == kind), key=lambda p: p["level"]):
-            ws = "<br>".join(f"**{x['word']}** /{x['ipa']}/ {x['meaning']}" for x in p["words"])
+            ws = "<br>".join(f"**{x['word']}** /{ipa_text(x['ipa'])}/ {x['meaning']}" for x in p["words"])
             out.append(f"| {COURSES[p['level']].split()[0]} | {ws} | {p['point']} |")
         out.append("")
 
