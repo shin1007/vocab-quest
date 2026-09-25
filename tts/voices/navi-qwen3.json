@@ -1,0 +1,21 @@
+{
+  "label": "ナビゲーター（Qwen3-TTS VoiceDesign で作ったオリジナルの声）",
+  "version": "qwen3-1.7b-design-2026-09-a",
+  "credit": "音声合成：Qwen3-TTS（Apache-2.0）",
+  "backend": "qwen3",
+  "qwen3": {
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "device": "cuda:0",
+    "ref_audio": "tts/voices/navi-qwen3.ref.wav",
+    "ref_text": "こんにちは！今日もいっしょに、英単語の冒険に出かけよう。ポーションは、魔法の飲み薬のことだよ。",
+    "design": {
+      "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "lang": "ja",
+      "instruct": "A professional Japanese anime voice actress in her early twenties, playing a cheerful game navigator character. Bright, clear mid-high pitch, friendly and energetic but not childish. Crisp articulation, natural and lively intonation, clean studio-quality recording with no background noise."
+    }
+  },
+  "lang_map": { "ja": "Japanese", "en": "English" },
+  "tiers": ["core"],
+  "formats": ["webm"],
+  "jobs": 1
+}

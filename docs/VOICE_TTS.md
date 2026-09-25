@@ -4,8 +4,8 @@
 
 | 項目 | 推奨 |
 |---|---|
-| 声の素材 | **つくよみちゃんコーパス**（無料・商用可・学習可、クレジット必須）。独自の声にしたい場合は自分で録音するか、声優に依頼（日英バイリンガルなら理想） |
-| 合成エンジン | **GPT-SoVITS v2Pro**（MIT）で追加学習 ／ **Qwen3-TTS**（Apache-2.0）の声のクローンを候補として**同じ参照音声で聞き比べ**、良い方を採用 |
+| 声の素材 | **声優っぽいオリジナルの声を Qwen3-TTS VoiceDesign で作る**（Apache-2.0・商用可・日英可、他人の声を使わないので権利の心配がない。§3.4）。次点は**つくよみちゃんコーパス**（無料・商用可・学習可、クレジット必須）。本物の声優の声なら声優に依頼（日英バイリンガルなら理想） |
+| 合成エンジン | **Qwen3-TTS**（Apache-2.0）で「設計した声」をクローンして日英とも話させる ／ つくよみちゃんを使う場合は **GPT-SoVITS v2Pro**（MIT）の追加学習とも**同じ参照音声で聞き比べ**、良い方を採用 |
 | 日英で同じ声にする方法 | 1人の話者で学習（またはクローン）し、その**同じモデルに日本語と英語の両方を話させる**（クロスリンガル合成） |
 | 生成方法 | **事前生成**（`scripts/tts/tts.py`）。文や声を変えた所だけ作り直す |
 | 形式・容量 | **Opus / WebM 24kbps モノラル**。ゲーム内で使う音声（519件・約12分）で **約2.8MB** |
@@ -59,6 +59,26 @@
 - **日本語と英語を両方話せる声優に日英それぞれ10〜30分ほど録音してもらう**のが、英語の発音品質では最良（§4.2）。有料になる点だけが難点。
 - 契約書に「音声合成モデルの学習・生成音声のアプリ内配布」を明記すること。
 
+### 3.4 Qwen3-TTS VoiceDesign で作るオリジナルの声（推奨）
+
+- 「20代前半のアニメ声優、明るいゲームのナビゲーター役」のように**声を文章で説明すると、その声を新しく作る**機能。実在の人の声を学習・複製しないので、声の権利者の許諾やクレジット条件がない。モデルは Apache-2.0 で商用利用できる。
+- 作った声を**参照音声**として保存し、以後は Base モデルのクローンで全音声を作る（「設計 → クローン」。公式の推奨手順）。VoiceDesign は呼ぶたびに声が変わるので、全文を VoiceDesign で直接作ってはいけない。
+- 同じ参照音声から日本語と英語の両方を話すので、**日英で同じ声**になる（要件3）。
+- 手順は §4.3。声の説明文は `tts/voices/navi-qwen3.json` の `qwen3.design.instruct`（英語で書くと指示が通りやすい）。
+- 注意点：
+  - 実在の声優・キャラクターの名前を説明文に入れて**そっくりな声を狙わない**（パブリシティ権・不正競争のおそれ）。「アニメ声優らしい」といった一般的な特徴だけを書く。
+  - 選んだ参照音声（`tts/voices/navi-qwen3.ref.wav`、数百KB）は**声そのもの**なので、なくすと同じ声を作り直せない。これだけはリポジトリに入れる。
+
+### 3.5 検討して外したもの
+
+| 候補 | 理由 |
+|---|---|
+| ずんだもん・四国めたんなどの ITA コーパス読み上げ音声（声優が収録） | 配布元（東北ずん子プロジェクト）の研究用データベースで、**商用目的の利用は事前承認が必要**。英語の音声もない |
+| VOICEVOX の各キャラクター | 日本語だけ。出力音声を別の音声合成の学習に使うことは各キャラクターの規約で制限されている |
+| ElevenLabs（有料プラン） | 商用可・日英同じ声で品質も高い（2026年2月に v3 の日本語が正式版）。ただし**月額課金が続き**、語を足すたびに API で作ることになる。無料プランは商用不可。自前の GPU がない場合の代案 |
+
+> 参照：[Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS)（[VoiceDesign モデル](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign)）／[東北ずん子 マルチモーダルデータベース](https://zunko.jp/multimodal_dev/login.php)／[ElevenLabs 利用規約](https://elevenlabs.io/terms-of-use)
+
 ---
 
 ## 4. 合成エンジン
@@ -90,6 +110,15 @@
 5. `python3 scripts/tts/tts.py synth --voice tsukuyomi-gsv`
 
 Qwen3-TTS は学習が要らない。`pip install -U qwen-tts soundfile` のあと、`tts/voices/tsukuyomi-qwen3.json` に参照音声と書き起こしを書いて `synth --voice tsukuyomi-qwen3` を実行する。
+
+### 4.4 VoiceDesign で声を作る流れ（Qwen3-TTS）
+
+1. `pip install -U qwen-tts soundfile`（GPU 推奨。1.7B で VRAM 8GB 程度）
+2. `tts/voices/navi-qwen3.json` の `qwen3.design.instruct`（声の説明）と `qwen3.ref_text`（候補に読ませる5〜10秒の文）を決める
+3. `python3 scripts/tts/tts.py design --voice navi-qwen3 --count 8` で候補を8つ作る → `tts/design/navi-qwen3/index.html` で聞き比べる
+4. 気に入った候補（例：`seed3.wav`）を `tts/voices/navi-qwen3.ref.wav` にコピーする。同じ `--seed` なら同じ声が出るので、シード番号も控えておく
+5. `python3 scripts/tts/tts.py synth --voice navi-qwen3 --only '^(potion|quest|tension)\.'` で数語だけ作り、英語が日本語なまりになっていないかを `qa` と耳で確認する（§4.2）
+6. 声を選び直したら `version` を上げてから全件を作り直す
 
 ---
 
@@ -159,7 +188,7 @@ data/words.json ──utterances──▶ tts/utterances.json ──synth──�
 
 ## 8. 次にやること
 
-1. つくよみちゃんコーパスで GPT-SoVITS を追加学習し、`tsukuyomi-gsv` で `synth --only '^(potion|quest|tension)\.'` のように数語だけ作る
-2. 同じ参照音声で `tsukuyomi-qwen3` も作り、`qa` と `review` で聞き比べてエンジンを決める
+1. `navi-qwen3` で VoiceDesign の候補を作り、声を決める（§4.4）
+2. 数語だけ作り、つくよみちゃん（`tsukuyomi-gsv` / `tsukuyomi-qwen3`）と `qa` と `review` で聞き比べて声を決める
 3. 決めたエンジンで全件を生成し、`qa` の結果を上から確認して `tts/lexicon.json` で読みを直す
 4. アプリにナビゲーターとして「つくよみちゃん」を登場させるか検討する（§3.2 の条件）
