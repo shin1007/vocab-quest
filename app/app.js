@@ -25,6 +25,7 @@
     noble: { name: "ノーブル", desc: "紺と金のファンタジー", color: "#11162c" },
   };
   const DEFAULT_THEME = Object.keys(THEMES)[0];
+  // 答える向き：英語を見て意味を答える（英→日）のは meaning だけ。ほかは英語を答える（日→英）問題
   const QTYPES = {
     kata: "カタカナ → 英語",
     meaning: "英語 → 意味",
@@ -105,6 +106,13 @@
   const LEVELS = ["未学習", "出会った", "覚えかけ", "定着中", "得意", "完璧"];
   const INTERVAL_DAYS = [0, 0, 1, 3, 7, 21]; // 習熟度ごとの次回出題までの日数
   const LEARNED = 3; // この習熟度以上を「定着」とみなす
+  // 答える向きを切りかえる習熟度。覚えたてのうちは英語を見て意味がわかる練習（英→日）もまぜ、
+  // 定着したら英語を答える練習（日→英）だけにする（受容から産出へ。Nation、Webb 2009）
+  const ANSWER_EN_FROM = LEARNED;
+  const answersMeaning = (type) => type === "meaning";
+  // 習熟度 lv の語に出す問題の向き（画面の説明に使う）
+  const directionNote = (lv) => (lv < ANSWER_EN_FROM ? "意味を答える問題と英語を答える問題" : "英語を答える問題だけ");
+  const DIRECTION_RULE = `「${LEVELS[ANSWER_EN_FROM - 1]}」までは英語を見て意味を答える問題もまぜ、「${LEVELS[ANSWER_EN_FROM]}」からは英語を答える問題だけを出します。`;
   // 「次のn語」：まだ覚えていない語を、コースの並びの先頭から n 語ずつ出す。n はホームで選ぶ
   const BATCH_OPTIONS = [50, 100, 150, 200];
   const BATCH_SIZE = 50;
@@ -432,8 +440,9 @@
     const pair = pairsByWord[w.word] ? ["pair"] : [];
     // つづり並べは英字だけの語に限る（gas station のような語句は文字タイルにしにくい）
     const spell = /^[A-Za-z]+$/.test(w.word) ? ["spell"] : [];
+    // 意味を答える問題（meaning）は ANSWER_EN_FROM 未満だけ
     if (lv <= 1) return ["kata", "meaning"];
-    if (lv === 2) return ["kata", "meaning", ...spell, "etym", ...pair];
+    if (lv < ANSWER_EN_FROM) return ["kata", "meaning", ...spell, "etym", ...pair];
     return [...spell, "etym", "syn", ...(w.trapQuiz ? ["trap"] : []), ...pair];
   }
 
@@ -612,7 +621,7 @@
       </div>
       <div class="small muted quiz-title">${esc(s.title)}</div>
       <section class="card question pop">
-        <div class="row"><span class="tag">${QTYPES[q.type]}</span><span class="spacer"></span>${promptVoice ? voiceButton(promptVoice) : ""}</div>
+        <div class="row"><span class="tag">${QTYPES[q.type]}</span><span class="dir small muted">${answersMeaning(q.type) ? "英→日：意味を答える" : "日→英：英語を答える"}</span><span class="spacer"></span>${promptVoice ? voiceButton(promptVoice) : ""}</div>
         <div class="prompt">${q.prompt}</div>
         <div id="hint"></div>
         ${q.type === "spell" ? html`
@@ -671,6 +680,7 @@
 
     // 習熟度（間隔反復）
     const c = { ...card(w.id) };
+    const before = c.level || 0;
     c.seen = (c.seen || 0) + 1;
     if (ok) {
       c.correct = (c.correct || 0) + 1;
@@ -689,7 +699,7 @@
     top.querySelector(".count").remove();
     top.querySelector("#quit").insertAdjacentHTML("afterend", stepsHtml(s));
     if (!s.targets) top.querySelector(`.steps i:nth-child(${s.index + 1})`).className = ok ? "ok" : "ng";
-    showFeedback(q, choice, ok);
+    showFeedback(q, choice, ok, before < ANSWER_EN_FROM && c.level >= ANSWER_EN_FROM);
   }
 
   // STUDY_GOAL に届いていない語を、数問あとにもう一度出す（別の語をはさむと思い出す間隔ができる）
@@ -700,7 +710,7 @@
     s.questions.splice(at, 0, { word: w, pending: true });
   }
 
-  function showFeedback(q, choice, ok) {
+  function showFeedback(q, choice, ok, switched = false) {
     const s = session;
     const w = q.word;
     const last = s.index >= s.questions.length - 1;
@@ -724,6 +734,7 @@
         ${!ok && q.type === "spell" && !choice.skipped ? `<div class="tip">✏️ あなたのつづり：<b>${esc(choice.label)}</b></div>` : ""}
         <div class="tip">📜 ${esc(w.etymology.origin)}<br>💡 ${esc(firstSentence)}</div>
         ${w.gap ? `<div class="tip warn">⚠️ ${esc(w.gap)}</div>` : ""}
+        ${switched ? `<div class="tip">🎯 「${LEVELS[ANSWER_EN_FROM]}」になりました。この語はこれから英語を答える問題だけで出ます。</div>` : ""}
         <div class="row" style="margin-top:14px">
           <button class="btn secondary" data-detail="${w.id}">📖 くわしく</button>
           <span class="spacer"></span>
@@ -920,7 +931,7 @@
           </div>
           <div class="muted">${esc(w.katakana)}</div>
           <p class="meaning">${esc(w.meaning)}</p>
-          <div class="row small">${meter(lv)}<span class="muted">${LEVELS[lv]}</span></div>
+          <div class="row small">${meter(lv)}<span class="muted">${LEVELS[lv]}・${directionNote(lv)}が出ます</span></div>
         </div>
 
         <section><h4>📍 シーン</h4>${esc(w.scene)}</section>
@@ -1222,7 +1233,7 @@
             ${bar(n / WORDS.length, `lv${i}`)}
             <span class="small num">${n}</span>
           </div>`).join("")}
-        <p class="small muted" style="margin:10px 0 0">正解するたびに1段階上がり、次の復習までの間隔が「当日 → 1日 → 3日 → 7日 → 21日」と伸びていきます。</p>
+        <p class="small muted" style="margin:10px 0 0">正解するたびに1段階上がり、次の復習までの間隔が「当日 → 1日 → 3日 → 7日 → 21日」と伸びていきます。${DIRECTION_RULE}</p>
       </section>
       <p class="small center settings-hint">テーマ・音声・記録のリセットは、右上の ⚙️ 設定から。</p>`;
   }

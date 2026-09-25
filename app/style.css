@@ -570,6 +570,7 @@ button.chip:active { transform: translateY(2px); }
   display: inline-block; padding: 2px 12px; border-radius: 999px; font-size: .8rem; font-weight: 800;
   background: var(--accent); color: var(--accent-text);
 }
+.question .dir { font-weight: 700; }
 .prompt { font-size: 1.05rem; margin: 10px 0 4px; font-weight: 700; }
 .prompt .big { display: block; font-family: var(--display); font-weight: 800; font-size: 2.1rem; line-height: 1.35; margin: 4px 0; word-break: break-word; }
 .prompt .big.en { font-family: var(--latin); letter-spacing: .01em; }
