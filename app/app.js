@@ -871,15 +871,19 @@
     if (q.type === "spell") $view.querySelector("#slots").classList.add(ok ? "correct" : "wrong");
     $view.querySelector("#helpers").hidden = true;
 
-    // 習熟度（間隔反復）
+    // 習熟度（間隔反復）。ヒントを見て正解したときは、上がり方を半分（+0.5）にする。
+    // 端数は c.hintCredit にカードごと貯め、1に達したら習熟度を1つ上げる（不正解で貯めた分はリセット）
     const c = { ...card(w.id) };
     const before = c.level || 0;
     c.seen = (c.seen || 0) + 1;
     if (ok) {
       c.correct = (c.correct || 0) + 1;
-      c.level = Math.min(5, (c.level || 0) + 1);
+      c.hintCredit = (c.hintCredit || 0) + (q.hinted ? 0.5 : 1);
+      while (c.hintCredit >= 1 && c.level < 5) { c.level++; c.hintCredit -= 1; }
+      if (c.level >= 5) c.hintCredit = 0;
     } else {
       c.level = Math.max(1, (c.level || 0) - 1);
+      c.hintCredit = 0;
     }
     c.due = Date.now() + INTERVAL_DAYS[c.level] * DAY;
     state.cards[w.id] = c;
@@ -927,6 +931,7 @@
         ${!ok && q.type === "spell" && !choice.skipped ? `<div class="tip">✏️ あなたのつづり：<b>${esc(choice.label)}</b></div>` : ""}
         <div class="tip">📜 ${esc(w.etymology.origin)}<br>💡 ${esc(firstSentence)}</div>
         ${w.gap ? `<div class="tip warn">⚠️ ${esc(w.gap)}</div>` : ""}
+        ${ok && q.hinted ? `<div class="tip">💡 ヒントを見て正解したので、習熟度の上がり方は半分です。また早めに出題されます。</div>` : ""}
         ${switched ? `<div class="tip">🎯 「${LEVELS[ANSWER_EN_FROM]}」になりました。この語はこれから英語を答える問題だけで出ます。</div>` : ""}
         <div class="row" style="margin-top:14px">
           <button class="btn secondary" data-detail="${w.id}">📖 くわしく</button>
@@ -1479,7 +1484,7 @@
             ${bar(n / WORDS.length, `lv${i}`)}
             <span class="small num">${n}</span>
           </div>`).join("")}
-        <p class="small muted" style="margin:10px 0 0">正解するたびに1段階上がり、次の復習までの間隔が「当日 → 1日 → 3日 → 7日 → 21日」と伸びていきます。${DIRECTION_RULE}</p>
+        <p class="small muted" style="margin:10px 0 0">正解するたびに1段階上がり、次の復習までの間隔が「当日 → 1日 → 3日 → 7日 → 21日」と伸びていきます。ヒントを見て正解したときは上がり方が半分です。${DIRECTION_RULE}</p>
       </section>
       <p class="small center settings-hint">テーマ・音声・記録のリセットは、右上の ⚙️ 設定から。</p>`;
   }
