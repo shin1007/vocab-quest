@@ -191,20 +191,21 @@
       settings: { autoVoice: true, autoNext: false, theme: DEFAULT_THEME, batch: BATCH_SIZE, review: REVIEW_SIZE, installLater: 0 },
     };
   }
+  // 保存された（この版の）セーブデータを、いまの形に正規化する。書き出したファイルの読み込みにも使う
+  function normalizeState(saved) {
+    // レッスン制だったころの項目（完了印・コースの版・1日の上限）は使わないので捨てる。単語ごとの習熟度はそのまま
+    const { done, courseVersion, newToday, ...rest } = saved;
+    const { newPerDay, ...settings } = saved.settings || {};
+    const base = defaultState();
+    const merged = { ...base, ...rest, settings: { ...base.settings, ...settings } };
+    if (!BATCH_OPTIONS.includes(merged.settings.batch)) merged.settings.batch = BATCH_SIZE;
+    if (!REVIEW_OPTIONS.includes(merged.settings.review)) merged.settings.review = REVIEW_SIZE;
+    return merged;
+  }
   function load() {
     try {
       const raw = localStorage.getItem(STORE_KEY);
-      if (raw) {
-        const saved = JSON.parse(raw);
-        // レッスン制だったころの項目（完了印・コースの版・1日の上限）は使わないので捨てる。単語ごとの習熟度はそのまま
-        const { done, courseVersion, newToday, ...rest } = saved;
-        const { newPerDay, ...settings } = saved.settings || {};
-        const base = defaultState();
-        const merged = { ...base, ...rest, settings: { ...base.settings, ...settings } };
-        if (!BATCH_OPTIONS.includes(merged.settings.batch)) merged.settings.batch = BATCH_SIZE;
-        if (!REVIEW_OPTIONS.includes(merged.settings.review)) merged.settings.review = REVIEW_SIZE;
-        return merged;
-      }
+      if (raw) return normalizeState(JSON.parse(raw));
       // 旧バージョン（RPG 版）のセーブから学習記録だけ引き継ぐ
       const old = JSON.parse(localStorage.getItem(OLD_STORE_KEY) || "null");
       if (!old) return defaultState();
@@ -307,12 +308,26 @@
       </section>
       <section class="settings-section">
         <h3>🗂️ 学習記録</h3>
+        <p class="small muted" style="margin:0 0 10px">記録はこの端末のブラウザだけに保存されます。機種変更やブラウザの入れかえの前、消えるのが心配なときは書き出しておいてください。</p>
+        <div class="row">
+          <button class="btn secondary" id="export">📤 書き出す</button>
+          <button class="btn secondary" id="import">📥 読み込む</button>
+        </div>
+        <input type="file" id="import-file" accept="application/json,.json" hidden>
+        <p class="small muted" style="margin:14px 0 6px">リセットする前にも、書き出しておくと安心です。</p>
         <button class="btn danger block" id="reset">学習記録をリセット</button>
       </section>`;
     bindThemeOptions($modalContent);
     $modalContent.querySelector("#auto-voice").addEventListener("change", (e) => { state.settings.autoVoice = e.target.checked; save(); });
     $modalContent.querySelector("#auto-next").addEventListener("change", (e) => { state.settings.autoNext = e.target.checked; save(); });
     $modalContent.querySelector("#install")?.addEventListener("click", promptInstall);
+    $modalContent.querySelector("#export").addEventListener("click", exportState);
+    $modalContent.querySelector("#import").addEventListener("click", () => $modalContent.querySelector("#import-file").click());
+    $modalContent.querySelector("#import-file").addEventListener("change", (e) => {
+      const file = e.target.files[0];
+      e.target.value = "";
+      if (file) importState(file);
+    });
     $modalContent.querySelector("#reset").addEventListener("click", () => {
       if (!confirm("学習記録をすべて消しますか？ この操作は取り消せません。")) return;
       state = defaultState();
@@ -322,6 +337,37 @@
       go("home");
     });
     openModal();
+  }
+
+  // 学習記録をJSONファイルとして書き出す（バックアップ・機種変更用）
+  function exportState() {
+    const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `katakana-builder-${todayKey().replaceAll("-", "")}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+  // 書き出したJSONファイルを読み込み、いまの記録を置きかえる
+  async function importState(file) {
+    let saved;
+    try {
+      saved = JSON.parse(await file.text());
+    } catch {
+      alert("ファイルを読み込めませんでした。KATAkaNA BUILDER で書き出した .json ファイルを選んでください。");
+      return;
+    }
+    if (!saved || typeof saved !== "object" || typeof saved.cards !== "object") {
+      alert("このファイルは KATAkaNA BUILDER の学習記録ではないようです。");
+      return;
+    }
+    if (!confirm("いまの学習記録を、読み込んだファイルの内容で置きかえます。よろしいですか？")) return;
+    state = normalizeState(saved);
+    save();
+    applyTheme();
+    hideModal();
+    go("home");
   }
 
   // ---------- HUD ----------
@@ -1514,6 +1560,8 @@
 
   // ---------- 起動 ----------
   async function init() {
+    // 容量がひっ迫したときに、この端末の学習記録を消されにくくする（ダメ元。対応ブラウザだけ。失敗しても何もしない）
+    try { navigator.storage?.persist?.(); } catch { /* 無視 */ }
     try {
       const [w, r, p] = await Promise.all([fetch("data/words.json"), fetch("data/roots.json"), fetch("data/pairs.json")]);
       WORDS = await w.json();
