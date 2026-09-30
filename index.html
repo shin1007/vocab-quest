@@ -19,6 +19,12 @@
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗡️</text></svg>">
+  <!-- ホーム画面に追加したときのアプリの情報（アイコンは scripts/ogp/render.mjs で作る） -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="KATAkaNA">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <script>
     // 保存済みのテーマを描画前に当てる（ちらつき防止）。テーマの一覧は app.js の THEMES
     try {
@@ -41,7 +47,9 @@
     </div>
   </header>
 
-  <main id="view" aria-live="polite"></main>
+  <main id="view"></main>
+  <!-- 正誤だけを読み上げる（画面全体を aria-live にすると、描き直すたびに全部読まれる） -->
+  <div id="sr-status" class="sr-only" aria-live="polite"></div>
 
   <nav class="tabs" id="tabs">
     <button data-tab="home" class="active"><span>🏠</span>ホーム</button>
@@ -52,7 +60,7 @@
   </nav>
 
   <div class="modal" id="modal" hidden>
-    <div class="modal-body" role="dialog" aria-modal="true">
+    <div class="modal-body" role="dialog" aria-modal="true" tabindex="-1">
       <button class="close" id="modal-close" aria-label="閉じる">✕</button>
       <div id="modal-content"></div>
     </div>

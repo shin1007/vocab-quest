@@ -57,5 +57,6 @@ python3 -m unittest discover -s scripts/tts         # 音声パイプライン�
 
 ## その他
 
-- OGP 画像は `node scripts/ogp/render.mjs` で `icons/ogp.png` に書き出す（Playwright が必要）。
+- OGP 画像とホーム画面のアイコンは `node scripts/ogp/render.mjs` で `icons/` に書き出す（Playwright が必要）。
+- オフライン用に `sw.js` が保存するファイルの一覧（`SHELL`）を変えたら、`CACHE` の番号を上げる。
 - 音声の設計は [`docs/VOICE_TTS.md`](docs/VOICE_TTS.md)、UX の設計は [`docs/UX_DESIGN.md`](docs/UX_DESIGN.md) を参照。

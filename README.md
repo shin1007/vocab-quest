@@ -23,6 +23,8 @@
 | `data/dictionary.json` | 辞書データ（28121語）。単語帳の検索で引ける軽いカタカナ語辞典。1行1語で、カタカナ・元の語・品詞・意味・言語（`lang`）・和製英語（`wasei`）・学習用の単語への参照（`ref`）を持つ |
 | `data/pairs.json` | 似た単語セット（母音・L/R・B/V・TH・同音語・つづり・派生語の7種類）。単語リストでカタカナが同じになる語（staff / stuff、bus / bath など）は必ずどこかのセットに入れる（`build_wordlist.py` が確認） |
 | `index.html`, `app/` | 動くプロトタイプ（依存なしの HTML/CSS/JS）。コース・テーマ・問題タイプ・習熟度の定義は `app/app.js` 冒頭、テーマの見た目は `app/style.css` |
+| `manifest.webmanifest`, `sw.js` | ホーム画面に追加したときのアプリの情報と、電波がなくても開けるようにするサービスワーカー |
+| `scripts/ogp/` | OGP 画像（`card.html`）とホーム画面のアイコン（`icon.html`）の元。`node scripts/ogp/render.mjs` で `icons/` に PNG を書き出す |
 | `scripts/build_wordlist.py` | データ検証と `WORD_LIST.md` の生成 |
 | `scripts/add_ipa.py`, `scripts/ipa_manual.json` | 単語に発音記号（`ipa`、米音）を入れる。[CMU 発音辞書](https://github.com/cmusphinx/cmudict)から変換し、辞書にない語と英語以外の形の語は `ipa_manual.json` に手で書く |
 | `scripts/check_examples.py` | 例文の文法が級に合っているかの確認（5級〜3級。`build_wordlist.py` からも実行される） |
