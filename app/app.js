@@ -123,6 +123,7 @@
   const REQUEUE_GAP = { ok: 6, ng: 3 }; // もう一度出すまでにはさむ問題数（正解なら長め、間違いなら短め）
   // 復習の1回の問題数。ホームの「きょうの学習」で選ぶ
   const REVIEW_OPTIONS = [10, 20, 50, 100];
+  const REVIEW_NUDGE = 50; // 復習がこれ以上たまっていたら、新しい語より先に復習を勧める
   const REVIEW_SIZE = 20;
   const AUTO_NEXT_MS = 1200; // 「正解なら自動で次へ」で、読み上げが終わってから次の問題に進むまでの時間
   const QUESTIONS_PER_SESSION = 8; // 似た単語の練習
@@ -226,6 +227,9 @@
   const level = (id) => card(id).level;
   const isDue = (id) => { const c = state.cards[id]; return c && c.level > 0 && c.due <= Date.now(); };
   const dueWords = () => WORDS.filter((w) => isDue(w.id));
+  // 明日の復習の見込み：いま復習期限が来ている語（今日中に片づけなければ明日もそのまま残る）＋
+  // これから覚えるn語（今回の学習で習熟度2に届けば、次の出題は1日後＝明日になる）。あくまで目安
+  const reviewForecast = (plan) => new Set([...dueWords().map((w) => w.id), ...plan.words.map((w) => w.id)]).size;
   const learnedCount = () => WORDS.filter((w) => level(w.id) >= LEARNED).length;
 
   // ---------- 次のn語 ----------
@@ -328,8 +332,29 @@
       e.target.value = "";
       if (file) importState(file);
     });
-    $modalContent.querySelector("#reset").addEventListener("click", () => {
-      if (!confirm("学習記録をすべて消しますか？ この操作は取り消せません。")) return;
+    $modalContent.querySelector("#reset").addEventListener("click", openResetConfirm);
+    openModal();
+  }
+
+  // リセットの確認画面。ブラウザ標準の confirm() ではなく、テーマに合わせた画面で確かめる
+  function openResetConfirm() {
+    $modalContent.innerHTML = html`
+      <h2>⚠️ 学習記録をリセット</h2>
+      <section class="settings-section">
+        <div class="tip warn">これまでの習熟度・連続日数・回答数などが、すべて消えます。<b>この操作は取り消せません。</b></div>
+        <p class="small muted" style="margin:14px 0 0">心配なときは、先に書き出しておけます。</p>
+        <div class="row" style="margin-top:10px">
+          <button class="btn secondary" id="export-before-reset">📤 先に書き出す</button>
+        </div>
+        <div class="row" style="margin-top:20px">
+          <button class="btn secondary" id="cancel-reset">キャンセル</button>
+          <span class="spacer"></span>
+          <button class="btn danger" id="confirm-reset">リセットする</button>
+        </div>
+      </section>`;
+    $modalContent.querySelector("#export-before-reset").addEventListener("click", exportState);
+    $modalContent.querySelector("#cancel-reset").addEventListener("click", openSettings);
+    $modalContent.querySelector("#confirm-reset").addEventListener("click", () => {
       state = defaultState();
       save();
       applyTheme();
@@ -508,6 +533,8 @@
             <div class="batch-pick" role="group" aria-label="1回に覚える語の数">
               ${BATCH_OPTIONS.map((n) => `<button class="chip ${state.settings.batch === n ? "on" : ""}" data-batch="${n}" aria-pressed="${state.settings.batch === n}">${n}語</button>`).join("")}
             </div>
+            ${plan.practice ? "" : html`
+              <p class="small muted" style="margin:8px 0 0">この${plan.words.length}語を覚えると、明日の復習は目安で約${reviewForecast(plan)}問になります。</p>`}
             <button class="btn block" data-study="">▶ ${planLabel(plan)}</button>
           </div>` : ""}
       </section>`;
@@ -548,7 +575,9 @@
               ${REVIEW_OPTIONS.map((n) => `<button class="chip ${state.settings.review === n ? "on" : ""}" data-review="${n}" aria-pressed="${state.settings.review === n}">${n}問</button>`).join("")}
             </div>` : ""}
           <button class="btn green block review-btn" id="review">🔁 復習する（${Math.min(due.length, state.settings.review)}問）</button>
-          <p class="small muted center">忘れかけた頃にもう一度思い出すと、長く記憶に残ります。</p>` : ""}
+          <p class="small muted center">${due.length >= REVIEW_NUDGE
+            ? `復習が${due.length}語たまっています。新しい語より先に復習をすませると、忘れにくくなります。`
+            : "忘れかけた頃にもう一度思い出すと、長く記憶に残ります。"}</p>` : ""}
       </section>
 
       ${installCard()}
