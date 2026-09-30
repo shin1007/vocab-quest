@@ -114,12 +114,17 @@
   const directionNote = (lv) => (lv < ANSWER_EN_FROM ? "意味を答える問題と英語を答える問題" : "英語を答える問題だけ");
   const DIRECTION_RULE = `「${LEVELS[ANSWER_EN_FROM - 1]}」までは英語を見て意味を答える問題もまぜ、「${LEVELS[ANSWER_EN_FROM]}」からは英語を答える問題だけを出します。`;
   // 「次のn語」：まだ覚えていない語を、コースの並びの先頭から n 語ずつ出す。n はホームで選ぶ
-  const BATCH_OPTIONS = [50, 100, 150, 200];
-  const BATCH_SIZE = 50;
+  // 少ない数（10・20語）は、はじめての人やすきま時間向け。初期値は 20語、最初の1回は FIRST_BATCH 語だけ
+  const BATCH_OPTIONS = [10, 20, 50, 100, 150, 200];
+  const BATCH_SIZE = 20;
+  const FIRST_BATCH = 10;
   const STUDY_GOAL = 2; // 1回の学習でこの習熟度（翌日に復習）まで上げる
   const MAX_TRIES = 4; // 1回の学習で同じ語を出す上限（間違え続けても終われるように）
   const REQUEUE_GAP = { ok: 6, ng: 3 }; // もう一度出すまでにはさむ問題数（正解なら長め、間違いなら短め）
+  // 復習の1回の問題数。ホームの「きょうの学習」で選ぶ
+  const REVIEW_OPTIONS = [10, 20, 50, 100];
   const REVIEW_SIZE = 20;
+  const AUTO_NEXT_MS = 1200; // 「正解なら自動で次へ」で、読み上げが終わってから次の問題に進むまでの時間
   const QUESTIONS_PER_SESSION = 8; // 似た単語の練習
   const DAY = 24 * 60 * 60 * 1000;
   const STORE_KEY = "vocab-quest-save-v3";
@@ -182,7 +187,8 @@
     return {
       cards: {}, streak: 0, lastDay: null,
       sessions: 0, answered: 0, correct: 0, welcomed: false,
-      settings: { autoVoice: true, theme: DEFAULT_THEME, batch: BATCH_SIZE },
+      // installLater: 「ホーム画面に追加」の案内を「あとで」で閉じた日時
+      settings: { autoVoice: true, autoNext: false, theme: DEFAULT_THEME, batch: BATCH_SIZE, review: REVIEW_SIZE, installLater: 0 },
     };
   }
   function load() {
@@ -196,6 +202,7 @@
         const base = defaultState();
         const merged = { ...base, ...rest, settings: { ...base.settings, ...settings } };
         if (!BATCH_OPTIONS.includes(merged.settings.batch)) merged.settings.batch = BATCH_SIZE;
+        if (!REVIEW_OPTIONS.includes(merged.settings.review)) merged.settings.review = REVIEW_SIZE;
         return merged;
       }
       // 旧バージョン（RPG 版）のセーブから学習記録だけ引き継ぐ
@@ -238,9 +245,8 @@
   const badge = (c, big = false) => `<span class="topic-badge grade${big ? " big" : ""}" style="--area:var(--area-${c})">${esc(COURSES[c].name)}</span>`;
   // 次に出す語：覚えかけの語（出会ったが習熟度 STUDY_GOAL 未満）を先に、足りない分をまだ出会っていない語で埋めて n 語。
   // course を省くと、下のレベルから順に探す。全部の語が STUDY_GOAL に届いていれば、習熟度の低い語から n 語を練習する
-  function nextPlan(course = null) {
+  function nextPlan(course = null, n = state.settings.batch) {
     const words = course ? courseWords(course) : COURSE_ORDER.flatMap(courseWords);
-    const n = state.settings.batch;
     const started = words.filter((w) => level(w.id) > 0 && level(w.id) < STUDY_GOAL);
     const fresh = words.filter((w) => level(w.id) === 0);
     const picked = [...started, ...fresh].slice(0, n);
@@ -291,17 +297,28 @@
         ${VOICE?.credit ? `<p class="small muted" style="margin:4px 0 0">${esc(VOICE.credit)}</p>` : ""}
       </section>
       <section class="settings-section">
+        <h3>⏩ 問題の進み方</h3>
+        <label class="toggle"><input type="checkbox" id="auto-next" ${state.settings.autoNext ? "checked" : ""}><span></span> 正解したら自動で次の問題へ</label>
+        <p class="small muted" style="margin:8px 0 0">読み上げが終わってから少しして進みます。まちがえたときは解説を読めるように止まります。</p>
+      </section>
+      <section class="settings-section">
+        <h3>📲 ホーム画面に追加</h3>
+        ${installHelp()}
+      </section>
+      <section class="settings-section">
         <h3>🗂️ 学習記録</h3>
         <button class="btn danger block" id="reset">学習記録をリセット</button>
       </section>`;
     bindThemeOptions($modalContent);
     $modalContent.querySelector("#auto-voice").addEventListener("change", (e) => { state.settings.autoVoice = e.target.checked; save(); });
+    $modalContent.querySelector("#auto-next").addEventListener("change", (e) => { state.settings.autoNext = e.target.checked; save(); });
+    $modalContent.querySelector("#install")?.addEventListener("click", promptInstall);
     $modalContent.querySelector("#reset").addEventListener("click", () => {
       if (!confirm("学習記録をすべて消しますか？ この操作は取り消せません。")) return;
       state = defaultState();
       save();
       applyTheme();
-      closeModal();
+      hideModal();
       go("home");
     });
     openModal();
@@ -313,8 +330,18 @@
     document.getElementById("hud-learned").textContent = `📘 ${learnedCount()}/${WORDS.length}`;
   }
 
-  // ---------- 画面切り替え ----------
-  function go(tab) {
+  // ---------- 画面切り替えと履歴 ----------
+  // スマホの「戻る」でアプリを離れてしまわないように、タブ・学習・モーダルを履歴に積む。
+  // 履歴の状態は { tab, session?, modal? }。「戻る」で popstate が来たら、いちばん上に開いているものを閉じる
+  let shownTab = "home";
+  const navState = () => history.state || { tab: "home" };
+  // nav: "push"（履歴を積む）・"replace"（今の履歴を置きかえる）・"none"（popstate から呼ぶとき）・
+  // "auto"（学習の結果やモーダルからは置きかえ、別のタブへは積む）
+  function go(tab, nav = "auto") {
+    if (nav === "auto") { const st = navState(); nav = st.session || st.modal || st.tab === tab ? "replace" : "push"; }
+    if (nav === "push") history.pushState({ tab }, "");
+    else if (nav === "replace") history.replaceState({ tab }, "");
+    shownTab = tab;
     stopVoice();
     session = null;
     pairSession = null;
@@ -324,6 +351,88 @@
     renderHud();
     window.scrollTo(0, 0);
   }
+
+  // 学習（集中モード）に入る。モーダルから始めたときや結果画面から続けるときは、その履歴を置きかえる
+  function enterSession() {
+    const st = navState();
+    const next = { tab: st.tab, session: true };
+    hideModal();
+    if (st.session || st.modal) history.replaceState(next, ""); else history.pushState(next, "");
+    document.body.classList.add("in-session");
+  }
+  const QUIT_MESSAGE = "学習をやめますか？ ここまでの記録は保存されます。";
+  function onPopState(e) {
+    const st = e.state || { tab: "home" };
+    if (!$modal.hidden && !st.modal) { hideModal(); return; }
+    // 「進む」で戻ってきたモーダルは開き直せないので、ただの履歴にする
+    if (st.modal && $modal.hidden) { history.replaceState({ tab: st.tab, session: st.session }, ""); return; }
+    const active = session || pairSession;
+    if (active && !st.session) {
+      // 学習中の「戻る」：答えた問題があれば、やめるか確かめる。やめないなら履歴を積み直す
+      if (!active.results.length) { go(st.tab, "none"); return; }
+      if (!confirm(QUIT_MESSAGE)) { history.pushState({ tab: st.tab, session: true }, ""); return; }
+      if (session) finishSession(); else finishPairSession();
+      return;
+    }
+    if (active) return;
+    const inSession = document.body.classList.contains("in-session");
+    if (st.session) {
+      if (inSession) return; // 結果画面のまま
+      // 「進む」で終わった学習の履歴に来たときは、ただのタブの履歴にする
+      history.replaceState({ tab: st.tab }, "");
+      if (st.tab !== shownTab) go(st.tab, "none");
+      return;
+    }
+    if (inSession || st.tab !== shownTab) { go(st.tab, "none"); return; }
+    // 学習から戻ったあとに残る、同じ画面の履歴は飛ばす
+    history.back();
+  }
+
+  // ---------- ホーム画面に追加（PWA） ----------
+  // Android などの Chrome は beforeinstallprompt で追加の画面を出せる。iOS はその仕組みがないので、共有ボタンからの手順を案内する
+  let installEvent = null;
+  const standalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  const isIOS = () => /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  const canInstall = () => !standalone() && (!!installEvent || isIOS());
+  const INSTALL_SNOOZE_DAYS = 14; // 「あとで」を押してから、ホームに案内を出さない日数
+  const IOS_STEPS = "共有ボタン（□に↑）から「ホーム画面に追加」を選んでください。";
+  function installHelp() {
+    if (standalone()) return `<p class="small muted" style="margin:0">ホーム画面から開いています。</p>`;
+    if (installEvent) return `<button class="btn block" id="install">📲 ホーム画面に追加する</button>`;
+    if (isIOS()) return `<p class="small" style="margin:0">${IOS_STEPS}</p>`;
+    return `<p class="small muted" style="margin:0">ブラウザのメニューから「ホーム画面に追加」または「アプリをインストール」を選んでください。</p>`;
+  }
+  // ホームの案内。1回学習してから出す（はじめは学習を始めるのを優先する）
+  function installCard() {
+    if (!canInstall() || state.sessions < 1 || Date.now() - state.settings.installLater < INSTALL_SNOOZE_DAYS * DAY) return "";
+    return html`
+      <section class="card install pop">
+        <div class="row"><span class="install-icon" aria-hidden="true">📲</span>
+          <div class="spacer"><b>ホーム画面に追加しませんか？</b>
+            <div class="small muted">アプリのようにワンタップで開けて、電波のないところでも学習できます。${isIOS() ? "学習の記録も消えにくくなります。" : ""}</div></div></div>
+        ${installEvent ? "" : `<p class="small" style="margin:10px 0 0">${IOS_STEPS}</p>`}
+        <div class="row" style="margin-top:12px">
+          <button class="btn ghost small" id="install-later">あとで</button><span class="spacer"></span>
+          ${installEvent ? `<button class="btn small" id="install">追加する</button>` : ""}
+        </div>
+      </section>`;
+  }
+  async function promptInstall() {
+    if (!installEvent) return;
+    const e = installEvent;
+    e.prompt();
+    await e.userChoice.catch(() => null);
+    installEvent = null;
+    refreshInstall();
+  }
+  // 案内の出し分けが変わったら、開いているホームや設定を描き直す
+  function refreshInstall() {
+    if (!state) return;
+    if (!$modal.hidden && $modalContent.querySelector("#auto-next")) openSettings();
+    else if ($modal.hidden && shownTab === "home" && !document.body.classList.contains("in-session")) renderHome();
+  }
+  window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); installEvent = e; refreshInstall(); });
+  window.addEventListener("appinstalled", () => { installEvent = null; refreshInstall(); });
 
   // ---------- 目標と次のn語 ----------
   // 到達したレベル（8割定着）と次のレベルまでの進み具合に、次に覚える語をまとめた1枚のカード
@@ -363,13 +472,18 @@
     const due = dueWords();
     const next = nextPlan();
     const trivia = pick(WORDS);
+    // いま学んでいるレベル（NEXT のレベル）とその次を開いておく
+    const cur = next.words.length ? courseOf(next.words[0]) : COURSE_ORDER[0];
+    const openCourses = COURSE_ORDER.slice(COURSE_ORDER.indexOf(cur), COURSE_ORDER.indexOf(cur) + 2);
+    const otherCourses = COURSE_ORDER.filter((k) => !openCourses.includes(k));
     $view.innerHTML = html`
       ${state.welcomed ? "" : html`
         <section class="card welcome pop">
           <div class="welcome-art" aria-hidden="true">🐶<span>→</span>dog</div>
           <h1 class="display">知ってるカタカナを<br>英語にしよう</h1>
           <p>ドッグ、キャット、ジュース、ポーション…。身の回りやゲーム・アニメでおなじみのことばを入り口に、<b>正しいつづり・意味・語源・類義語</b>まで身につけます。</p>
-          <button class="btn block" id="welcome-ok">はじめる</button>
+          <p class="small muted">まずは5級の${FIRST_BATCH}語から。数分で終わります。</p>
+          <button class="btn block" id="welcome-ok">はじめる（${FIRST_BATCH}語）</button>
         </section>`}
 
       <section class="card today pop">
@@ -383,33 +497,26 @@
           <div class="stat-tile ${due.length ? "hot" : ""}"><b>${due.length}</b><span>🔁 復習</span></div>
         </div>
         ${due.length ? html`
-          <button class="btn green block" id="review">🔁 復習する（${Math.min(due.length, REVIEW_SIZE)}問）</button>
+          ${due.length > REVIEW_OPTIONS[0] ? html`
+            <div class="batch-pick" role="group" aria-label="1回に復習する語の数">
+              ${REVIEW_OPTIONS.map((n) => `<button class="chip ${state.settings.review === n ? "on" : ""}" data-review="${n}" aria-pressed="${state.settings.review === n}">${n}問</button>`).join("")}
+            </div>` : ""}
+          <button class="btn green block review-btn" id="review">🔁 復習する（${Math.min(due.length, state.settings.review)}問）</button>
           <p class="small muted center">忘れかけた頃にもう一度思い出すと、長く記憶に残ります。</p>` : ""}
       </section>
+
+      ${installCard()}
 
       ${goalCard(next)}
 
       <h2 class="section-title">レベル別コース</h2>
       <p class="small lead">レベルは英検の級にあわせたおおよその目安です。英語のつづり・意味の難しさで分けています。</p>
-      ${COURSE_ORDER.map((k) => {
-        const t = COURSES[k];
-        const words = courseWords(k);
-        if (!words.length) return "";
-        const learned = words.filter((w) => level(w.id) >= LEARNED).length;
-        const plan = nextPlan(k);
-        return html`
-          <section class="card topic" style="--area:var(--area-${k})">
-            <div class="topic-head">
-              ${badge(k)}
-              <div class="spacer"><h3>${esc(t.name)} ${esc(t.title)}</h3><div class="small muted">${esc(t.desc)} ・ ${words.length}語</div></div>
-              ${ring(learned / words.length, `${learned}<small>/${words.length}</small>`)}
-            </div>
-            <div class="row">
-              <span class="small muted spacer">${plan.practice ? "全部の語に出会いました" : `まだ出会っていない語 ${plan.fresh}語${plan.started ? ` ・ 覚えかけ ${plan.started}語` : ""}`}</span>
-              <button class="btn secondary small" data-study="${k}">▶ ${planLabel(plan)}</button>
-            </div>
-          </section>`;
-      }).join("")}
+      ${openCourses.map(courseCard).join("")}
+      ${otherCourses.length ? html`
+        <details class="more-courses" id="more-courses" ${moreCoursesOpen ? "open" : ""}>
+          <summary>ほかのレベル（${otherCourses.map((k) => esc(COURSES[k].name)).join("・")}）</summary>
+          ${otherCourses.map(courseCard).join("")}
+        </details>` : ""}
 
       <section class="card trivia">
         <div class="small muted">💡 ことばの小ネタ</div>
@@ -420,9 +527,21 @@
     $view.querySelector("#welcome-ok")?.addEventListener("click", () => {
       state.welcomed = true;
       save();
-      startSession({ kind: "study" });
+      startSession({ kind: "study", size: FIRST_BATCH });
     });
     $view.querySelector("#review")?.addEventListener("click", () => startSession({ kind: "review" }));
+    $view.querySelectorAll("[data-review]").forEach((b) => b.addEventListener("click", () => {
+      state.settings.review = +b.dataset.review;
+      save();
+      renderHome();
+    }));
+    $view.querySelector("#install")?.addEventListener("click", promptInstall);
+    $view.querySelector("#install-later")?.addEventListener("click", () => {
+      state.settings.installLater = Date.now();
+      save();
+      renderHome();
+    });
+    $view.querySelector("#more-courses")?.addEventListener("toggle", (e) => { moreCoursesOpen = e.target.open; });
     $view.querySelectorAll("[data-study]").forEach((b) => b.addEventListener("click", () => startSession({ kind: "study", course: b.dataset.study || null })));
     $view.querySelectorAll("[data-batch]").forEach((b) => b.addEventListener("click", () => {
       state.settings.batch = +b.dataset.batch;
@@ -430,6 +549,28 @@
       renderHome();
     }));
     $view.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
+  }
+
+  // コースのカード。ホームでは、いま学んでいるレベルとその次だけを開いておき、ほかはたたむ
+  let moreCoursesOpen = false;
+  function courseCard(k) {
+    const t = COURSES[k];
+    const words = courseWords(k);
+    if (!words.length) return "";
+    const learned = words.filter((w) => level(w.id) >= LEARNED).length;
+    const plan = nextPlan(k);
+    return html`
+      <section class="card topic" style="--area:var(--area-${k})">
+        <div class="topic-head">
+          ${badge(k)}
+          <div class="spacer"><h3>${esc(t.name)} ${esc(t.title)}</h3><div class="small muted">${esc(t.desc)} ・ ${words.length}語</div></div>
+          ${ring(learned / words.length, `${learned}<small>/${words.length}</small>`)}
+        </div>
+        <div class="row">
+          <span class="small muted spacer">${plan.practice ? "全部の語に出会いました" : `まだ出会っていない語 ${plan.fresh}語${plan.started ? ` ・ 覚えかけ ${plan.started}語` : ""}`}</span>
+          <button class="btn secondary small" data-study="${k}">▶ ${planLabel(plan)}</button>
+        </div>
+      </section>`;
   }
 
   // ---------- 出題 ----------
@@ -563,16 +704,18 @@
   }
 
   // ---------- 学習セッション ----------
-  // 復習：期限が来た語から最大 REVIEW_SIZE 語を1回ずつ。
-  // 次のn語：nextPlan の語をまとめて出し、STUDY_GOAL に届くまで間をあけてもう一度出す（answer → requeue）
-  function startSession({ kind, course = null }) {
-    const plan = kind === "study" ? nextPlan(course) : null;
-    const words = shuffle(plan ? plan.words : dueWords()).slice(0, plan ? Infinity : REVIEW_SIZE);
+  // 復習：期限が来た語から、ホームで選んだ数（settings.review）までを1回ずつ。
+  // もう一度：結果画面で、間違えた語（retry）を1回ずつ。
+  // 次のn語：nextPlan の語をまとめて出し、STUDY_GOAL に届くまで間をあけてもう一度出す（answer → requeue）。size で語数を変えられる（はじめての1回）
+  function startSession({ kind, course = null, size, words: retry = [] }) {
+    const plan = kind === "study" ? nextPlan(course, size) : null;
+    const words = plan ? shuffle(plan.words) : kind === "retry" ? shuffle(retry) : shuffle(dueWords()).slice(0, state.settings.review);
     if (!words.length) { go("home"); return; }
     const courses = [...new Set(words.map(courseOf))];
+    pairSession = null;
     session = {
       kind, course,
-      title: kind === "review" ? "復習" : `${courses.length === 1 ? `${COURSES[courses[0]].name} ・ ` : ""}${plan.practice ? `${words.length}語の練習` : `次の${words.length}語`}`,
+      title: kind === "review" ? "復習" : kind === "retry" ? "間違えた語をもう一度" : `${courses.length === 1 ? `${COURSES[courses[0]].name} ・ ` : ""}${plan.practice ? `${words.length}語の練習` : `次の${words.length}語`}`,
       // 問題は出す直前に作る（その時点の習熟度で出題タイプを選び、200語でも始めるのを待たせない）
       questions: words.map((w) => ({ word: w, pending: true })),
       // 次のn語（練習以外）は語ごとに STUDY_GOAL まで繰り返す。進み具合は語の数で見せる
@@ -581,8 +724,9 @@
       index: 0, correct: 0, results: [],
       startLevels: Object.fromEntries(words.map((w) => [w.id, level(w.id)])),
       startReached: reachedCourse(),
+      welcomeBack: false,
     };
-    document.body.classList.add("in-session");
+    enterSession();
     renderQuestion();
   }
 
@@ -628,6 +772,7 @@
           <div class="spell-slots" id="slots">${q.word.word.split("").map(() => "<span></span>").join("")}</div>
           <div class="tiles">${q.letters.map((l, i) => `<button class="tile" data-i="${i}">${esc(l)}</button>`).join("")}</div>` : html`
           <div class="choices">${q.choices.map((c, i) => `<button class="choice" data-i="${i}"><span class="key">${"ABCD"[i]}</span><span>${esc(c.label)}</span></button>`).join("")}</div>`}
+        ${keyHint(q.type === "spell" ? "文字キーで入力 ・ Backspace で1文字もどす" : "1〜4 か A〜D で選ぶ ・ H でヒント")}
         <div class="helpers" id="helpers">
           <button class="btn secondary small" id="hint-btn">💡 ヒント</button>
           ${q.type === "spell" ? `<button class="btn secondary small" id="undo">↩ 1文字もどす</button>` : ""}
@@ -636,7 +781,7 @@
         </div>
       </section>`;
     $view.querySelector("#quit").addEventListener("click", () => {
-      if (!s.results.length || confirm("学習をやめますか？ ここまでの記録は保存されます。")) finishSession();
+      if (!s.results.length || confirm(QUIT_MESSAGE)) finishSession();
     });
     $view.querySelector("#hint-btn").addEventListener("click", (e) => {
       $view.querySelector("#hint").innerHTML = `<div class="tip">💡 ${esc(q.hint)}</div>`;
@@ -670,6 +815,8 @@
     const w = q.word;
     const ok = choice.correct;
     s.results.push({ word: w, ok });
+    // 連続日数は1問目に答えた時点で数える（途中で閉じても、その日の学習に入るように）
+    if (updateStreak()) s.welcomeBack = true;
     $view.querySelectorAll(".choice").forEach((el, i) => {
       el.disabled = true;
       if (q.choices[i].correct) el.classList.add("correct");
@@ -742,7 +889,7 @@
         </div>
       </div>`;
     $view.querySelector(".question").after(box);
-    if (state.settings.autoVoice) playVoice([`${w.id}.word`, `${w.id}.meaning`]);
+    announce(`${ok ? "正解" : choice.skipped ? "答え" : "不正解"}。${w.word}、${w.meaning}`);
     box.querySelector("[data-detail]").addEventListener("click", () => openDetail(w.id));
     const next = box.querySelector("#next");
     next.addEventListener("click", () => {
@@ -751,6 +898,34 @@
     });
     next.focus({ preventScroll: true });
     box.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    feedbackVoice(next, ok, [`${w.id}.word`, `${w.id}.meaning`]);
+  }
+
+  // 解説カードの読み上げと「正解なら自動で次へ」（設定）。読み上げが終わってから AUTO_NEXT_MS 待って進む。
+  // 待っているあいだに画面のどこかを触ったら（🔊・くわしく など）止める
+  function feedbackVoice(next, ok, keys) {
+    const voiced = state.settings.autoVoice ? playVoice(keys) : Promise.resolve();
+    if (!ok || !state.settings.autoNext) return;
+    let cancelled = false;
+    const cancel = () => { cancelled = true; next.classList.remove("auto"); };
+    document.addEventListener("pointerdown", cancel, { once: true });
+    voiced.then(() => {
+      if (cancelled || !next.isConnected) return;
+      next.style.setProperty("--auto-ms", `${AUTO_NEXT_MS}ms`);
+      next.classList.add("auto");
+      setTimeout(() => {
+        document.removeEventListener("pointerdown", cancel);
+        if (!cancelled && next.isConnected && $modal.hidden) next.click();
+      }, AUTO_NEXT_MS);
+    });
+  }
+  // キーボードで答えるときの案内（マウスのある画面だけに出す。CSS の .key-hint）
+  const keyHint = (text) => `<p class="key-hint small muted">⌨️ ${text} ・ Enter で次へ</p>`;
+  // スクリーンリーダーに正誤を伝える（画面全体ではなく、結果だけを読み上げる）
+  function announce(text) {
+    const el = document.getElementById("sr-status");
+    el.textContent = "";
+    setTimeout(() => { el.textContent = text; }, 50);
   }
 
   function updateStreak() {
@@ -767,7 +942,7 @@
     const s = session;
     if (!s.results.length) { go("home"); return; }
     const complete = s.targets ? s.targets.every((w) => level(w.id) >= STUDY_GOAL) : s.results.length === s.questions.length;
-    const welcomeBack = updateStreak();
+    const welcomeBack = s.welcomeBack;
     state.sessions++;
     save();
     renderHud();
@@ -801,13 +976,15 @@
           ${missed.length ? `<h4>🔁 もう一度確認したい語</h4><div>${chips(missed, false)}</div>` : ""}
           ${!newWords.length && !levelUps.length && !missed.length ? `<div class="small muted">次の復習で習熟度が上がります。</div>` : ""}
         </section>
+        ${missed.length ? `<button class="btn block retry-btn" id="retry">🔁 間違えた語をもう一度（${missed.length}語）</button>` : ""}
         <div class="row">
           ${s.kind === "study" ? `<button class="btn secondary" id="again">▶ ${complete ? planLabel(nextPlan(s.course)) : "続きから"}</button>` : ""}
           <span class="spacer"></span>
-          <button class="btn" id="home">ホームへ</button>
+          <button class="btn ${missed.length ? "secondary" : ""}" id="home">ホームへ</button>
         </div>
       </div>`;
     $view.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
+    $view.querySelector("#retry")?.addEventListener("click", () => startSession({ kind: "retry", words: missed }));
     $view.querySelector("#again")?.addEventListener("click", () => startSession({ kind: "study", course: s.course }));
     $view.querySelector("#home").addEventListener("click", () => go("home"));
     session = null;
@@ -958,16 +1135,36 @@
     openModal();
   }
 
+  // モーダルを開いているあいだは、うしろの画面を inert にしてフォーカスを閉じこめる。閉じたら開く前のボタンにフォーカスを戻す
   let onModalClose = null;
+  let modalOpener = null;
+  const $modalBody = $modal.querySelector(".modal-body");
+  const behindModal = () => [document.querySelector(".topbar"), $view, document.getElementById("tabs")];
   function openModal(onClose = null) {
     onModalClose = onClose;
-    $modal.hidden = false;
-    $modal.querySelector(".modal-body").scrollTop = 0;
+    if ($modal.hidden) {
+      modalOpener = document.activeElement;
+      history.pushState({ ...navState(), modal: true }, "");
+      $modal.hidden = false;
+      for (const el of behindModal()) el.inert = true;
+    }
+    $modalBody.scrollTop = 0;
+    $modalBody.setAttribute("aria-label", $modalContent.querySelector("h2")?.textContent.trim() || "くわしく");
+    $modalBody.focus({ preventScroll: true });
   }
+  // ✕・背景・Esc で閉じるときは履歴を1つ戻す（popstate で hideModal）
   function closeModal() {
+    if ($modal.hidden) return;
+    if (navState().modal) history.back();
+    else hideModal();
+  }
+  function hideModal() {
     if ($modal.hidden) return;
     stopVoice();
     $modal.hidden = true;
+    for (const el of behindModal()) el.inert = false;
+    if (modalOpener?.isConnected) modalOpener.focus({ preventScroll: true });
+    modalOpener = null;
     const cb = onModalClose;
     onModalClose = null;
     cb?.();
@@ -1072,7 +1269,7 @@
     const p = PAIRS.find((x) => x.id === id);
     if (!p) return;
     $modalContent.innerHTML = pairCard(p);
-    $modalContent.querySelector("[data-pair-practice]").addEventListener("click", () => { closeModal(); startPairSession([p]); });
+    $modalContent.querySelector("[data-pair-practice]").addEventListener("click", () => startPairSession([p]));
     openModal();
   }
 
@@ -1099,8 +1296,9 @@
       ? [...sets[0].words.map((x) => makePairQuestion(sets[0], x, "blank")),
         ...(PAIR_KINDS[sets[0].kind].listen ? [makePairQuestion(sets[0], pick(sets[0].words), "listen")] : [])]
       : sets.map((p) => makePairQuestion(p, pick(p.words), PAIR_KINDS[p.kind].listen && Math.random() < 0.5 ? "listen" : "blank"));
+    session = null;
     pairSession = { questions: shuffle(questions), index: 0, correct: 0, results: [] };
-    document.body.classList.add("in-session");
+    enterSession();
     renderPairQuestion();
   }
 
@@ -1120,9 +1318,10 @@
           ${q.type === "listen" ? voiceButton(pairWordKey(q.target)) : ""}</div>
         <div class="prompt">${q.prompt}</div>
         <div class="choices">${q.choices.map((c, i) => `<button class="choice" data-i="${i}"><span class="key">${"ABCD"[i]}</span><span>${esc(c.label)}</span></button>`).join("")}</div>
+        ${keyHint(`1〜${q.choices.length} か A〜${"ABCD"[q.choices.length - 1]} で選ぶ`)}
       </section>`;
     $view.querySelector("#quit").addEventListener("click", () => {
-      if (!s.results.length || confirm("練習をやめますか？ ここまでの記録は保存されます。")) finishPairSession();
+      if (!s.results.length || confirm(QUIT_MESSAGE)) finishPairSession();
     });
     $view.querySelectorAll(".choice").forEach((el) => el.addEventListener("click", () => answerPair(q, +el.dataset.i, el)));
     if (q.type === "listen") playVoice([pairWordKey(q.target)]);
@@ -1132,6 +1331,7 @@
     const s = pairSession;
     const ok = q.choices[i].correct;
     s.results.push(ok);
+    updateStreak();
     $view.querySelectorAll(".choice").forEach((el, j) => {
       el.disabled = true;
       if (q.choices[j].correct) el.classList.add("correct");
@@ -1161,7 +1361,7 @@
           <button class="btn ${ok ? "green" : ""}" id="next">${last ? "結果を見る" : "つぎへ ›"}</button></div>
       </div>`;
     $view.querySelector(".question").after(box);
-    if (state.settings.autoVoice) playVoice(q.set.words.map(pairWordKey));
+    announce(`${ok ? "正解" : "不正解"}。${q.target.word}、${q.target.meaning}`);
     const next = box.querySelector("#next");
     next.addEventListener("click", () => {
       if (last) finishPairSession();
@@ -1169,13 +1369,13 @@
     });
     next.focus({ preventScroll: true });
     box.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    feedbackVoice(next, ok, q.set.words.map(pairWordKey));
   }
 
   function finishPairSession() {
     const s = pairSession;
     pairSession = null;
     if (!s.results.length) { go("pairs"); return; }
-    updateStreak();
     state.sessions++;
     save();
     renderHud();
@@ -1334,14 +1534,45 @@
     document.querySelectorAll("#tabs button").forEach((b) => b.addEventListener("click", () => go(b.dataset.tab)));
     document.getElementById("modal-close").addEventListener("click", closeModal);
     $modal.addEventListener("click", (e) => { if (e.target === $modal) closeModal(); });
-    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
+    document.addEventListener("keydown", onKey);
+    history.replaceState({ tab: "home" }, "");
+    window.addEventListener("popstate", onPopState);
     document.addEventListener("click", (e) => {
       const b = e.target.closest("[data-voice]");
       if (b) playVoice(b.dataset.voice.split(","));
       const p = e.target.closest("[data-pair]");
       if (p) openPairSet(p.dataset.pair);
     });
-    go("home");
+    go("home", "none");
+    // オフラインでも開けるようにする（sw.js）
+    if ("serviceWorker" in navigator && location.protocol !== "file:") navigator.serviceWorker.register("sw.js").catch(() => {});
+  }
+
+  // キーボード操作：選択肢は 1〜4 / A〜D、つづりは文字キーと Backspace、ヒントは H、解説カードでは Enter / Space で次へ
+  function onKey(e) {
+    if (e.key === "Escape") { closeModal(); return; }
+    if (!$modal.hidden || e.ctrlKey || e.metaKey || e.altKey || e.isComposing) return;
+    if (e.target.closest?.("input, select, textarea")) return;
+    if (!document.body.classList.contains("in-session")) return;
+    const next = $view.querySelector("#next");
+    if (next) {
+      // ボタンにフォーカスがあるときは、ブラウザの動き（そのボタンを押す）にまかせる
+      if ((e.key === "Enter" || e.key === " ") && !e.target.closest?.("button")) { e.preventDefault(); next.click(); }
+      return;
+    }
+    if (e.repeat) return;
+    if ($view.querySelector(".tiles")) {
+      if (e.key === "Backspace") { e.preventDefault(); $view.querySelector("#undo")?.click(); return; }
+      const tile = [...$view.querySelectorAll(".tile:not(:disabled)")].find((t) => e.key.length === 1 && t.textContent.toLowerCase() === e.key.toLowerCase());
+      if (tile) { e.preventDefault(); tile.click(); }
+      return;
+    }
+    if (e.key.length !== 1) return;
+    const k = e.key.toLowerCase();
+    const i = "1234".includes(k) ? "1234".indexOf(k) : "abcd".indexOf(k);
+    const choice = i >= 0 && $view.querySelectorAll(".choice:not(:disabled)")[i];
+    if (choice) { e.preventDefault(); choice.click(); return; }
+    if (k === "h") $view.querySelector("#hint-btn:not(:disabled)")?.click();
   }
 
   init();

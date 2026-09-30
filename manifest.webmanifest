@@ -1,0 +1,17 @@
+{
+  "name": "KATAkaNA BUILDER",
+  "short_name": "KATAkaNA",
+  "description": "身の回りのカタカナ語から英単語を学ぶ",
+  "lang": "ja",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#121010",
+  "theme_color": "#121010",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

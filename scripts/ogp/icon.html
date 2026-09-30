@@ -1,0 +1,32 @@
+<!doctype html>
+<!-- ホーム画面のアイコン（icons/icon-*.png, apple-touch-icon.png）の元。render.mjs で PNG にする。既定のテーマ「和」の見た目。
+     ?safe=1 のときは、Android のマスク（丸・角丸）で切れないように、印を中央の安全な範囲（直径 80%）に収める -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@800&display=swap">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  html, body { width: 100vw; height: 100vh; overflow: hidden; }
+  body {
+    display: grid; place-items: center;
+    background:
+      linear-gradient(135deg, transparent calc(50% - .4vw), rgba(255, 236, 214, .55) 50%, transparent calc(50% + .6vw)),
+      linear-gradient(135deg, transparent 38%, rgba(210, 58, 44, .16) 50%, transparent 62%),
+      radial-gradient(70% 70% at 100% 0%, rgba(210, 58, 44, .45), transparent 70%),
+      radial-gradient(80% 80% at 0% 100%, rgba(0, 0, 0, .7), transparent 70%),
+      #121010;
+  }
+  .seal {
+    width: 58vw; height: 58vw; display: grid; place-items: center; border-radius: 4vw; transform: rotate(-4deg);
+    font-family: "Shippori Mincho B1", serif; font-weight: 800; font-size: 44vw; line-height: 1; color: #fff;
+    background: #d23a2c; box-shadow: 0 2vw 6vw rgba(0, 0, 0, .55), inset 0 0 0 1.4vw rgba(255, 255, 255, .18);
+  }
+  .safe .seal { width: 48vw; height: 48vw; font-size: 36vw; }
+</style>
+</head>
+<body>
+  <div class="seal">刀</div>
+  <script>if (new URLSearchParams(location.search).has("safe")) document.body.classList.add("safe");</script>
+</body>
+</html>
