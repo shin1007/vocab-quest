@@ -618,26 +618,26 @@ button.chip:active { transform: translateY(2px); }
 @keyframes bounce { 40% { transform: scale(1.03); } 70% { transform: scale(.99); } }
 @keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
 /* 正解したら錯乱肢を斬る（app.js の slashChoices）。元の選択肢は場所を取ったまま隠し、
-   上下に割れた複製2枚を重ねる。刀身（.slash-line）は一覧の上から下へ1回だけ走る */
+   左右に割れた複製2枚（clip-path は app.js が選択肢ごとに付ける）を重ねる。
+   刀身（.slash-line）はほぼ縦の1本で、一覧の上から下へ1回だけ伸びる */
 .choices.slashing { position: relative; }
 .choice.slashed { visibility: hidden; }
 .choice.cut { opacity: .4; }
-.choice.half { position: absolute; margin: 0; pointer-events: none; animation: var(--slash-ms) cubic-bezier(.2, .7, .3, 1) var(--delay) both; }
-.choice.half.upper { clip-path: polygon(0 0, 100% 0, 100% 30%, 0 70%); animation-name: cut-upper; }
-.choice.half.lower { clip-path: polygon(0 70%, 100% 30%, 100% 100%, 0 100%); animation-name: cut-lower; }
-@keyframes cut-upper { 0% { transform: none; opacity: 1; } to { transform: translate(-3px, -3px) rotate(-.6deg); opacity: .5; } }
-@keyframes cut-lower { 0% { transform: none; opacity: 1; } to { transform: translate(3px, 3px) rotate(.5deg); opacity: .5; } }
-.slash-line { position: absolute; pointer-events: none; z-index: 1; overflow: hidden; }
-.slash-line::before {
-  content: ""; position: absolute; left: -5%; top: 0; width: 110%; height: 3px; border-radius: 3px; transform-origin: center;
-  background: linear-gradient(90deg, transparent, #c9d1dc 20%, #fff 50%, #c9d1dc 80%, transparent);
+.choice.half { position: absolute; margin: 0; pointer-events: none; animation: var(--dur) cubic-bezier(.2, .7, .3, 1) var(--delay) both; }
+.choice.half.left { animation-name: cut-left; }
+.choice.half.right { animation-name: cut-right; }
+@keyframes cut-left { 0% { transform: none; opacity: 1; } to { transform: translateX(-5px) rotate(-.5deg); opacity: .5; } }
+@keyframes cut-right { 0% { transform: none; opacity: 1; } to { transform: translateX(5px) rotate(.5deg); opacity: .5; } }
+.slash-line {
+  position: absolute; pointer-events: none; z-index: 1; border-radius: 3px; transform: rotate(var(--angle));
+  background: linear-gradient(180deg, transparent, #c9d1dc 12%, #fff 60%, #fff);
   box-shadow: 0 0 0 1px rgba(40, 48, 64, .45), 0 0 10px 2px rgba(255, 255, 255, .9), 0 0 18px 5px rgba(120, 170, 255, .45);
-  animation: blade var(--slash-ms) linear both;
+  animation: blade var(--dur) cubic-bezier(.4, 0, .6, 1) both;
 }
 @keyframes blade {
-  0% { transform: translateY(-6px) rotate(var(--angle)); opacity: 1; }
-  85% { opacity: 1; }
-  to { transform: translateY(var(--travel, 100%)) rotate(var(--angle)); opacity: 0; }
+  0% { clip-path: inset(0 -20px 100% -20px); opacity: 1; }
+  80% { clip-path: inset(0 -20px 0 -20px); opacity: 1; }
+  to { clip-path: inset(0 -20px 0 -20px); opacity: 0; }
 }
 
 .spell-slots { display: flex; flex-wrap: wrap; gap: 5px; min-height: 52px; margin: 16px 0; justify-content: center; }
