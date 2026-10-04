@@ -622,12 +622,12 @@ button.chip:active { transform: translateY(2px); }
    刀身（.slash-line）はほぼ縦の1本で、一覧の上から下へ1回だけ伸びる */
 .choices.slashing { position: relative; }
 .choice.slashed { visibility: hidden; }
-.choice.cut { opacity: .4; }
+.choice.cut { opacity: .22; filter: grayscale(.6); }
 .choice.half { position: absolute; margin: 0; pointer-events: none; animation: var(--dur) cubic-bezier(.2, .7, .3, 1) var(--delay) both; }
 .choice.half.left { animation-name: cut-left; }
 .choice.half.right { animation-name: cut-right; }
-@keyframes cut-left { 0% { transform: none; opacity: 1; } to { transform: translateX(-5px) rotate(-.5deg); opacity: .5; } }
-@keyframes cut-right { 0% { transform: none; opacity: 1; } to { transform: translateX(5px) rotate(.5deg); opacity: .5; } }
+@keyframes cut-left { 0% { transform: none; opacity: 1; } to { transform: translateX(-5px) rotate(-.5deg); opacity: .22; filter: grayscale(.6); } }
+@keyframes cut-right { 0% { transform: none; opacity: 1; } to { transform: translateX(5px) rotate(.5deg); opacity: .22; filter: grayscale(.6); } }
 /* 刀の線は、両端が細く中ほどが太い弧（切っ先の鋭い一閃）。光は filter で形にそってにじませる。
    正解の選択肢は刀より手前に置き、線が重ならないようにする */
 .choices.slashing .choice.correct { position: relative; z-index: 2; }
