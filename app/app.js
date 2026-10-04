@@ -126,6 +126,7 @@
   const REVIEW_NUDGE = 50; // 復習がこれ以上たまっていたら、新しい語より先に復習を勧める
   const REVIEW_SIZE = 20;
   const AUTO_NEXT_MS = 1200; // 「正解なら自動で次へ」で、読み上げが終わってから次の問題に進むまでの時間
+  const SLASH = { ms: 420, stagger: 110 }; // 正解したときに錯乱肢を斬る演出：1つ分の長さと、次の選択肢を斬り始めるまでの間
   const QUESTIONS_PER_SESSION = 8; // 似た単語の練習
   const DAY = 24 * 60 * 60 * 1000;
   const STORE_KEY = "vocab-quest-save-v3";
@@ -919,13 +920,48 @@
     state.answered++;
     if (ok) { state.correct++; s.correct++; }
     save();
+    const slashed = ok && q.type !== "spell" ? slashChoices() : Promise.resolve();
     if (s.targets) requeue(s, w, ok);
     const top = $view.querySelector(".quiz-top");
     top.querySelector(".steps").remove();
     top.querySelector(".count").remove();
     top.querySelector("#quit").insertAdjacentHTML("afterend", stepsHtml(s));
     if (!s.targets) top.querySelector(`.steps i:nth-child(${s.index + 1})`).className = ok ? "ok" : "ng";
-    showFeedback(q, choice, ok, before < ANSWER_EN_FROM && c.level >= ANSWER_EN_FROM);
+    showFeedback(q, choice, ok, before < ANSWER_EN_FROM && c.level >= ANSWER_EN_FROM, slashed);
+  }
+
+  // 正解したら、残りの選択肢（錯乱肢）を刀で上から順に斬る。斬り終わったら解決する Promise を返す。
+  // 選択肢は残したまま、上下に割れた2枚（aria-hidden の複製）を重ねて見せる。動きを減らす設定では薄くするだけ
+  function slashChoices() {
+    const wrong = [...$view.querySelectorAll(".choice:not(.correct)")];
+    if (!wrong.length) return Promise.resolve();
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      wrong.forEach((el) => el.classList.add("cut"));
+      return Promise.resolve();
+    }
+    const box = wrong[0].parentElement;
+    box.classList.add("slashing");
+    wrong.forEach((el, i) => {
+      const { offsetLeft: x, offsetTop: y, offsetWidth: w, offsetHeight: h } = el;
+      const place = (node) => {
+        node.style.cssText += `left:${x}px;top:${y}px;width:${w}px;height:${h}px;--delay:${i * SLASH.stagger}ms;--slash-ms:${SLASH.ms}ms;`;
+        node.setAttribute("aria-hidden", "true");
+        box.append(node);
+        return node;
+      };
+      for (const part of ["upper", "lower"]) {
+        const half = el.cloneNode(true);
+        half.removeAttribute("data-i");
+        half.classList.add("half", part);
+        place(half);
+      }
+      // 刀身の光：選択肢の対角線（左下30%→右上70%の切り口）にそって走らせる
+      const line = place(document.createElement("i"));
+      line.className = "slash-line";
+      line.style.setProperty("--angle", `${-Math.atan2(h * 0.4, w)}rad`);
+      el.classList.add("slashed");
+    });
+    return new Promise((done) => setTimeout(done, SLASH.ms + (wrong.length - 1) * SLASH.stagger));
   }
 
   // STUDY_GOAL に届いていない語を、数問あとにもう一度出す（別の語をはさむと思い出す間隔ができる）
@@ -936,7 +972,7 @@
     s.questions.splice(at, 0, { word: w, pending: true });
   }
 
-  function showFeedback(q, choice, ok, switched = false) {
+  function showFeedback(q, choice, ok, switched = false, slashed = Promise.resolve()) {
     const s = session;
     const w = q.word;
     const last = s.index >= s.questions.length - 1;
@@ -977,14 +1013,19 @@
       else { s.index++; renderQuestion(); window.scrollTo(0, 0); }
     });
     next.focus({ preventScroll: true });
-    box.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    feedbackVoice(next, ok, [`${w.id}.word`, `${w.id}.meaning`]);
+    // 斬る演出が画面の外に出ないよう、解説カードへのスクロールと読み上げは斬り終わってから
+    slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
+    feedbackVoice(next, ok, [`${w.id}.word`, `${w.id}.meaning`], slashed);
   }
 
   // 解説カードの読み上げと「正解なら自動で次へ」（設定）。読み上げが終わってから AUTO_NEXT_MS 待って進む。
-  // 待っているあいだに画面のどこかを触ったら（🔊・くわしく など）止める
-  function feedbackVoice(next, ok, keys) {
-    const voiced = state.settings.autoVoice ? playVoice(keys) : Promise.resolve();
+  // 待っているあいだに画面のどこかを触ったら（🔊・くわしく など）止める。
+  // ready（錯乱肢を斬る演出）が終わるまで読み上げを待つ。そのあいだに別の音声が始まったり次の問題へ進んだりしたら読まない
+  function feedbackVoice(next, ok, keys, ready = Promise.resolve()) {
+    const token = voiceToken;
+    const voiced = ready.then(() => {
+      if (state.settings.autoVoice && token === voiceToken && next.isConnected) return playVoice(keys);
+    });
     if (!ok || !state.settings.autoNext) return;
     let cancelled = false;
     const cancel = () => { cancelled = true; next.classList.remove("auto"); };
@@ -1427,6 +1468,7 @@
     state.cards[key] = c;
     state.answered++;
     save();
+    const slashed = ok ? slashChoices() : Promise.resolve();
 
     const last = s.index >= s.questions.length - 1;
     const box = document.createElement("section");
@@ -1448,8 +1490,8 @@
       else { s.index++; renderPairQuestion(); window.scrollTo(0, 0); }
     });
     next.focus({ preventScroll: true });
-    box.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    feedbackVoice(next, ok, q.set.words.map(pairWordKey));
+    slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
+    feedbackVoice(next, ok, q.set.words.map(pairWordKey), slashed);
   }
 
   function finishPairSession() {
