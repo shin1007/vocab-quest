@@ -608,7 +608,7 @@ button.chip:active { transform: translateY(2px); }
 .choice:hover:not(:disabled) .key { background: var(--primary); color: var(--primary-text); border-color: transparent; }
 .choice:active:not(:disabled) { transform: translateY(2px); }
 .choice:disabled { cursor: default; }
-.choice.correct { background: var(--good-bg); border-color: var(--good-solid); animation: bounce .45s; }
+.choice.correct { background: color-mix(in srgb, var(--good-solid) 38%, var(--card-solid)); border-color: var(--good-solid); box-shadow: 0 0 0 2px var(--good-solid); animation: bounce .45s; }
 .choice.wrong { background: var(--bad-bg); border-color: var(--bad-solid); animation: shake .35s; }
 .choice.correct .key, .choice.wrong .key { font-size: 0; color: #fff; border-color: transparent; }
 .choice.correct .key { background: var(--good-solid); }
@@ -618,27 +618,26 @@ button.chip:active { transform: translateY(2px); }
 @keyframes bounce { 40% { transform: scale(1.03); } 70% { transform: scale(.99); } }
 @keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
 /* 正解したら錯乱肢を斬る（app.js の slashChoices）。元の選択肢は場所を取ったまま隠し、
-   上下に割れた複製2枚と刀身の光を重ねる。切り口は左下30%→右上70%の斜め線 */
+   上下に割れた複製2枚を重ねる。刀身（.slash-line）は一覧の上から下へ1回だけ走る */
 .choices.slashing { position: relative; }
 .choice.slashed { visibility: hidden; }
 .choice.cut { opacity: .4; }
 .choice.half { position: absolute; margin: 0; pointer-events: none; animation: var(--slash-ms) cubic-bezier(.2, .7, .3, 1) var(--delay) both; }
 .choice.half.upper { clip-path: polygon(0 0, 100% 0, 100% 30%, 0 70%); animation-name: cut-upper; }
 .choice.half.lower { clip-path: polygon(0 70%, 100% 30%, 100% 100%, 0 100%); animation-name: cut-lower; }
-@keyframes cut-upper { 0%, 40% { transform: none; opacity: 1; } to { transform: translate(-3px, -3px) rotate(-.6deg); opacity: .5; } }
-@keyframes cut-lower { 0%, 40% { transform: none; opacity: 1; } to { transform: translate(3px, 3px) rotate(.5deg); opacity: .5; } }
-.slash-line { position: absolute; pointer-events: none; z-index: 1; display: flex; align-items: center; justify-content: center; }
+@keyframes cut-upper { 0% { transform: none; opacity: 1; } to { transform: translate(-3px, -3px) rotate(-.6deg); opacity: .5; } }
+@keyframes cut-lower { 0% { transform: none; opacity: 1; } to { transform: translate(3px, 3px) rotate(.5deg); opacity: .5; } }
+.slash-line { position: absolute; pointer-events: none; z-index: 1; overflow: hidden; }
 .slash-line::before {
-  content: ""; flex: none; width: 115%; height: 3px; border-radius: 3px; transform: rotate(var(--angle));
-  background: linear-gradient(90deg, transparent, #c9d1dc 30%, #fff 85%, #fff);
+  content: ""; position: absolute; left: -5%; top: 0; width: 110%; height: 3px; border-radius: 3px; transform-origin: center;
+  background: linear-gradient(90deg, transparent, #c9d1dc 20%, #fff 50%, #c9d1dc 80%, transparent);
   box-shadow: 0 0 0 1px rgba(40, 48, 64, .45), 0 0 10px 2px rgba(255, 255, 255, .9), 0 0 18px 5px rgba(120, 170, 255, .45);
-  animation: blade calc(var(--slash-ms) * .55) ease-out var(--delay) both;
+  animation: blade var(--slash-ms) linear both;
 }
-/* 左端から右上へ走り抜けて消える */
 @keyframes blade {
-  0% { clip-path: inset(-20px 100% -20px 0); opacity: 1; }
-  70% { clip-path: inset(-20px 0 -20px 0); opacity: 1; }
-  to { clip-path: inset(-20px 0 -20px 0); opacity: 0; }
+  0% { transform: translateY(-6px) rotate(var(--angle)); opacity: 1; }
+  85% { opacity: 1; }
+  to { transform: translateY(var(--travel, 100%)) rotate(var(--angle)); opacity: 0; }
 }
 
 .spell-slots { display: flex; flex-wrap: wrap; gap: 5px; min-height: 52px; margin: 16px 0; justify-content: center; }
