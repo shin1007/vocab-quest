@@ -898,6 +898,7 @@
       if (q.choices[i].correct) el.classList.add("correct");
     });
     if (button && !ok) button.classList.add("wrong");
+    if (!ok) $view.querySelectorAll(".choice:not(.correct)").forEach((el) => el.classList.add("dim"));
     if (q.type === "spell") $view.querySelector("#slots").classList.add(ok ? "correct" : "wrong");
     $view.querySelector("#helpers").hidden = true;
 
@@ -1468,7 +1469,10 @@
       el.disabled = true;
       if (q.choices[j].correct) el.classList.add("correct");
     });
-    if (!ok) button.classList.add("wrong");
+    if (!ok) {
+      button.classList.add("wrong");
+      $view.querySelectorAll(".choice:not(.correct)").forEach((el) => el.classList.add("dim"));
+    }
     $view.querySelector(`.steps i:nth-child(${s.index + 1})`).className = ok ? "ok" : "ng";
     const key = pairKey(q.set);
     const c = { ...card(key) };
