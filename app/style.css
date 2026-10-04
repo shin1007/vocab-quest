@@ -628,11 +628,18 @@ button.chip:active { transform: translateY(2px); }
 .choice.half.right { animation-name: cut-right; }
 @keyframes cut-left { 0% { transform: none; opacity: 1; } to { transform: translateX(-5px) rotate(-.5deg); opacity: .5; } }
 @keyframes cut-right { 0% { transform: none; opacity: 1; } to { transform: translateX(5px) rotate(.5deg); opacity: .5; } }
+/* 刀の線は、両端が細く中ほどが太い弧（切っ先の鋭い一閃）。光は filter で形にそってにじませる。
+   正解の選択肢は刀より手前に置き、線が重ならないようにする */
+.choices.slashing .choice.correct { position: relative; z-index: 2; }
 .slash-line {
-  position: absolute; pointer-events: none; z-index: 1; border-radius: 3px; transform: rotate(var(--angle));
-  background: linear-gradient(180deg, transparent, #c9d1dc 12%, #fff 60%, #fff);
-  box-shadow: 0 0 0 1px rgba(40, 48, 64, .45), 0 0 10px 2px rgba(255, 255, 255, .9), 0 0 18px 5px rgba(120, 170, 255, .45);
+  position: absolute; pointer-events: none; z-index: 1; transform: rotate(var(--angle));
+  filter: drop-shadow(0 0 3px #fff) drop-shadow(0 0 9px rgba(120, 170, 255, .85));
   animation: blade var(--dur) cubic-bezier(.4, 0, .6, 1) both;
+}
+.slash-line::before {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .55), #fff 35%, #fff 65%, rgba(255, 255, 255, .55));
+  clip-path: polygon(38% 0, 62% 14%, 84% 38%, 94% 52%, 84% 68%, 62% 88%, 38% 100%, 52% 86%, 62% 68%, 66% 52%, 62% 36%, 52% 16%);
 }
 @keyframes blade {
   0% { clip-path: inset(0 -20px 100% -20px); opacity: 1; }
