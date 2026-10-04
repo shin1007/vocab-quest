@@ -3,128 +3,128 @@
     "id": "hat-hut", "kind": "vowel", "level": 1,
     "point": "どちらもカタカナでは「ハット」。hat の a は口を横に大きく開いて「エ」に近い「ア」/æ/、hut の u は口をあまり開けずに短く「ア」/ʌ/。",
     "words": [
-      { "word": "hat", "ipa": "hæt", "pos": "名詞", "meaning": "（つばのある）帽子", "example": { "en": "Take off your hat, please.", "ja": "帽子をとってください。" } },
-      { "word": "hut", "ipa": "hʌt", "pos": "名詞", "meaning": "小屋", "example": { "en": "There is a small hut in the mountains.", "ja": "山に小さな小屋がある。" } }
+      { "word": "hat", "ipa": "hæt", "pos": "名詞", "meaning": "（つばのある）帽子", "example": { "en": "The witch wears a big black hat.", "ja": "魔女は大きな黒い帽子をかぶっている。" } },
+      { "word": "hut", "ipa": "hʌt", "pos": "名詞", "meaning": "小屋", "example": { "en": "The hero finds a small hut.", "ja": "勇者は小さな小屋を見つける。" } }
     ]
   },
   {
     "id": "cap-cup", "kind": "vowel", "level": 1,
     "point": "cap は /æ/（口を横に開くア）、cup は /ʌ/（短くあいまいなア）。「キャップ」と「カップ」とカタカナでは書き分けられているのがヒント。",
     "words": [
-      { "word": "cap", "ipa": "kæp", "pos": "名詞", "meaning": "（つばのある）帽子、ふた", "example": { "en": "Put the cap back on the bottle.", "ja": "びんのふたを閉めて。" } },
-      { "word": "cup", "ipa": "kʌp", "pos": "名詞", "meaning": "カップ、茶わん", "example": { "en": "Do you want a cup of tea?", "ja": "お茶を一杯どう？" } }
+      { "word": "cap", "ipa": "kæp", "pos": "名詞", "meaning": "（つばのある）帽子、ふた", "example": { "en": "Put the cap on the potion bottle.", "ja": "回復薬のびんにふたをして。" } },
+      { "word": "cup", "ipa": "kʌp", "pos": "名詞", "meaning": "カップ、茶わん", "example": { "en": "The hero wins the cup in the final.", "ja": "主人公は決勝で優勝カップを勝ち取る。" } }
     ]
   },
   {
     "id": "cat-cut", "kind": "vowel", "level": 1,
     "point": "cat（キャット）は /æ/、cut（カット）は /ʌ/。つづりの a と u がそのまま音のちがい。",
     "words": [
-      { "word": "cat", "ipa": "kæt", "pos": "名詞", "meaning": "猫", "example": { "en": "The cat is sleeping on the sofa.", "ja": "猫がソファで寝ている。" } },
-      { "word": "cut", "ipa": "kʌt", "pos": "動詞", "meaning": "切る", "example": { "en": "Cut the cake into eight pieces.", "ja": "ケーキを8つに切って。" } }
+      { "word": "cat", "ipa": "kæt", "pos": "名詞", "meaning": "猫", "example": { "en": "The cat is a wizard's pet.", "ja": "その猫は魔法使いのペットだ。" } },
+      { "word": "cut", "ipa": "kʌt", "pos": "動詞", "meaning": "切る", "example": { "en": "The hero can cut a rock.", "ja": "勇者は岩を切れる。" } }
     ]
   },
   {
     "id": "bag-bug", "kind": "vowel", "level": 1,
     "point": "bag（バッグ）は /æ/、bug（バグ）は /ʌ/。カタカナでも「バッグ」「バグ」と別になっている。",
     "words": [
-      { "word": "bag", "ipa": "bæɡ", "pos": "名詞", "meaning": "かばん、袋", "example": { "en": "I left my bag on the train.", "ja": "電車にかばんを置き忘れた。" } },
-      { "word": "bug", "ipa": "bʌɡ", "pos": "名詞", "meaning": "虫、不具合", "example": { "en": "There is a bug in this app.", "ja": "このアプリには不具合がある。" } }
+      { "word": "bag", "ipa": "bæɡ", "pos": "名詞", "meaning": "かばん、袋", "example": { "en": "My bag is full of items.", "ja": "私のかばんはアイテムでいっぱいだ。" } },
+      { "word": "bug", "ipa": "bʌɡ", "pos": "名詞", "meaning": "虫、不具合", "example": { "en": "There is a bug in this game.", "ja": "このゲームにはバグがある。" } }
     ]
   },
   {
     "id": "fan-fun", "kind": "vowel", "level": 1,
     "point": "fan（ファン）は /æ/、fun（ファン）は /ʌ/。カタカナでは同じ「ファン」になってしまう代表例。",
     "words": [
-      { "word": "fan", "ipa": "fæn", "pos": "名詞", "meaning": "ファン、扇風機", "example": { "en": "I'm a big fan of that singer.", "ja": "私はあの歌手の大ファンだ。" } },
-      { "word": "fun", "ipa": "fʌn", "pos": "名詞", "meaning": "楽しみ、楽しいこと", "example": { "en": "Let's have fun at the party!", "ja": "パーティーを楽しもう！" } }
+      { "word": "fan", "ipa": "fæn", "pos": "名詞", "meaning": "ファン、扇風機", "example": { "en": "I'm a big fan of that idol.", "ja": "私はあのアイドルの大ファンだ。" } },
+      { "word": "fun", "ipa": "fʌn", "pos": "名詞", "meaning": "楽しみ、楽しいこと", "example": { "en": "Let's have fun at the anime event!", "ja": "アニメのイベントを楽しもう！" } }
     ]
   },
   {
     "id": "ran-run", "kind": "vowel", "level": 2,
     "point": "ran は run の過去形。ran /æ/ と run /ʌ/ は母音だけがちがう。",
     "words": [
-      { "word": "ran", "ipa": "ræn", "pos": "動詞", "meaning": "走った（run の過去形）", "example": { "en": "She ran to catch the bus.", "ja": "彼女はバスに乗ろうと走った。" } },
-      { "word": "run", "ipa": "rʌn", "pos": "動詞", "meaning": "走る、経営する", "example": { "en": "I run in the park every morning.", "ja": "私は毎朝公園で走る。" } }
+      { "word": "ran", "ipa": "ræn", "pos": "動詞", "meaning": "走った（run の過去形）", "example": { "en": "The ninja ran to the boss room.", "ja": "忍者はボス部屋へ走った。" } },
+      { "word": "run", "ipa": "rʌn", "pos": "動詞", "meaning": "走る、経営する", "example": { "en": "The heroes run to the castle every morning.", "ja": "勇者たちは毎朝城まで走る。" } }
     ]
   },
   {
     "id": "match-much", "kind": "vowel", "level": 2,
     "point": "match（マッチ）は /æ/、much（マッチ）は /ʌ/。カタカナは同じでも意味はまったく別。",
     "words": [
-      { "word": "match", "ipa": "mætʃ", "pos": "名詞", "meaning": "試合、マッチ", "example": { "en": "We won the soccer match.", "ja": "サッカーの試合に勝った。" } },
-      { "word": "much", "ipa": "mʌtʃ", "pos": "形容詞", "meaning": "たくさんの（数えられないもの）", "example": { "en": "I don't have much time.", "ja": "あまり時間がない。" } }
+      { "word": "match", "ipa": "mætʃ", "pos": "名詞", "meaning": "試合、マッチ", "example": { "en": "The hero won the final match.", "ja": "主人公は決勝の試合に勝った。" } },
+      { "word": "much", "ipa": "mʌtʃ", "pos": "形容詞", "meaning": "たくさんの（数えられないもの）", "example": { "en": "I don't have much HP.", "ja": "私はHPがあまりない。" } }
     ]
   },
   {
     "id": "bat-but", "kind": "vowel", "level": 2,
     "point": "bat /æ/ と but /ʌ/。but は弱く「バト」と短く読まれることが多い。",
     "words": [
-      { "word": "bat", "ipa": "bæt", "pos": "名詞", "meaning": "バット、コウモリ", "example": { "en": "He swung the bat hard.", "ja": "彼はバットを強く振った。" } },
-      { "word": "but", "ipa": "bʌt", "pos": "接続詞", "meaning": "しかし", "example": { "en": "I like tea, but my sister likes coffee.", "ja": "私は紅茶が好きだが、姉はコーヒーが好きだ。" } }
+      { "word": "bat", "ipa": "bæt", "pos": "名詞", "meaning": "バット、コウモリ", "example": { "en": "The hero swung the bat hard.", "ja": "主人公はバットを力いっぱい振った。" } },
+      { "word": "but", "ipa": "bʌt", "pos": "接続詞", "meaning": "しかし", "example": { "en": "The hero is small, but he is strong.", "ja": "勇者は小さいが、強い。" } }
     ]
   },
   {
     "id": "carry-curry", "kind": "vowel", "level": 3,
     "point": "carry（キャリー）/æ/ と curry（カレー）/ɜː/（米）。つづりの a と u に注目。",
     "words": [
-      { "word": "carry", "ipa": "ˈkæri", "pos": "動詞", "meaning": "運ぶ、持ち歩く", "example": { "en": "Can you help me carry this box?", "ja": "この箱を運ぶのを手伝ってくれる？" } },
-      { "word": "curry", "ipa": "ˈkɜːri", "pos": "名詞", "meaning": "カレー", "example": { "en": "We had curry and rice for dinner.", "ja": "夕食にカレーライスを食べた。" } }
+      { "word": "carry", "ipa": "ˈkæri", "pos": "動詞", "meaning": "運ぶ、持ち歩く", "example": { "en": "Can you help me carry this box, hero?", "ja": "この箱を運ぶのを手伝ってくれる、勇者？" } },
+      { "word": "curry", "ipa": "ˈkɜːri", "pos": "名詞", "meaning": "カレー", "example": { "en": "The party had curry and rice for dinner.", "ja": "パーティーは夕食にカレーライスを食べた。" } }
     ]
   },
   {
     "id": "lack-luck", "kind": "vowel", "level": 3,
     "point": "lack /æ/（欠けている）と luck /ʌ/（運）。「運がない」は lack of luck。",
     "words": [
-      { "word": "lack", "ipa": "læk", "pos": "名詞", "meaning": "不足、欠乏", "example": { "en": "The plan failed because of a lack of money.", "ja": "その計画はお金の不足で失敗した。" } },
-      { "word": "luck", "ipa": "lʌk", "pos": "名詞", "meaning": "運", "example": { "en": "Good luck on your test!", "ja": "テスト、がんばってね（幸運を）！" } }
+      { "word": "lack", "ipa": "læk", "pos": "名詞", "meaning": "不足、欠乏", "example": { "en": "The plan failed because of a lack of power.", "ja": "力が足りなかったので作戦は失敗した。" } },
+      { "word": "luck", "ipa": "lʌk", "pos": "名詞", "meaning": "運", "example": { "en": "Good luck on your final battle!", "ja": "最終決戦の幸運を祈る！" } }
     ]
   },
   {
     "id": "ankle-uncle", "kind": "vowel", "level": 3,
     "point": "ankle（足首）/æ/ と uncle（おじ）/ʌ/。「アンクル」と同じカタカナになる。",
     "words": [
-      { "word": "ankle", "ipa": "ˈæŋkəl", "pos": "名詞", "meaning": "足首", "example": { "en": "I hurt my ankle in gym class.", "ja": "体育の授業で足首を痛めた。" } },
-      { "word": "uncle", "ipa": "ˈʌŋkəl", "pos": "名詞", "meaning": "おじ", "example": { "en": "My uncle lives in Osaka.", "ja": "おじは大阪に住んでいる。" } }
+      { "word": "ankle", "ipa": "ˈæŋkəl", "pos": "名詞", "meaning": "足首", "example": { "en": "The hero hurt his ankle in the battle.", "ja": "勇者は戦いで足首をけがした。" } },
+      { "word": "uncle", "ipa": "ˈʌŋkəl", "pos": "名詞", "meaning": "おじ", "example": { "en": "The hero's uncle is a wise mage.", "ja": "勇者のおじは賢い魔法使いだ。" } }
     ]
   },
   {
     "id": "staff-stuff", "kind": "vowel", "level": 3,
     "point": "staff（職員）/æ/ と stuff（もの、こと）/ʌ/。英検でもよく出る。",
     "words": [
-      { "word": "staff", "ipa": "stæf", "pos": "名詞", "meaning": "職員、スタッフ", "example": { "en": "The hotel staff were very kind.", "ja": "ホテルの従業員はとても親切だった。" } },
-      { "word": "stuff", "ipa": "stʌf", "pos": "名詞", "meaning": "もの、こと（くだけた言い方）", "example": { "en": "I have a lot of stuff to do today.", "ja": "今日はやることがたくさんある。" } }
+      { "word": "staff", "ipa": "stæf", "pos": "名詞", "meaning": "職員、スタッフ", "example": { "en": "The staff at the maid cafe were very kind.", "ja": "メイド喫茶の店員たちはとても親切だった。" } },
+      { "word": "stuff", "ipa": "stʌf", "pos": "名詞", "meaning": "もの、こと（くだけた言い方）", "example": { "en": "I have a lot of stuff to do before the quest.", "ja": "クエストの前にやることがたくさんある。" } }
     ]
   },
   {
     "id": "ship-sheep", "kind": "vowel", "level": 1,
     "point": "ship の i は短く力を抜いた「イ」/ɪ/、sheep の ee は口を横に引いて長い「イー」/iː/。",
     "words": [
-      { "word": "ship", "ipa": "ʃɪp", "pos": "名詞", "meaning": "船", "example": { "en": "Look at that big ship!", "ja": "あの大きな船を見て！" } },
-      { "word": "sheep", "ipa": "ʃiːp", "pos": "名詞", "meaning": "羊", "example": { "en": "There are many sheep on the farm.", "ja": "その農場には羊がたくさんいる。" } }
+      { "word": "ship", "ipa": "ʃɪp", "pos": "名詞", "meaning": "船", "example": { "en": "Look at that big space ship!", "ja": "あの大きな宇宙船を見て！" } },
+      { "word": "sheep", "ipa": "ʃiːp", "pos": "名詞", "meaning": "羊", "example": { "en": "The elf has many sheep on her farm.", "ja": "エルフは農場にたくさんの羊を飼っている。" } }
     ]
   },
   {
     "id": "live-leave", "kind": "vowel", "level": 2,
     "point": "live /ɪ/（住む）と leave /iː/（去る、残す）。短い「イ」と長い「イー」。",
     "words": [
-      { "word": "live", "ipa": "lɪv", "pos": "動詞", "meaning": "住む、生きる", "example": { "en": "I live in a small town.", "ja": "私は小さな町に住んでいる。" } },
-      { "word": "leave", "ipa": "liːv", "pos": "動詞", "meaning": "去る、置いていく", "example": { "en": "Please leave a message.", "ja": "伝言を残してください。" } }
+      { "word": "live", "ipa": "lɪv", "pos": "動詞", "meaning": "住む、生きる", "example": { "en": "The witches live in a small house.", "ja": "魔女たちは小さな家に住んでいる。" } },
+      { "word": "leave", "ipa": "liːv", "pos": "動詞", "meaning": "去る、置いていく", "example": { "en": "Please leave a message after the battle.", "ja": "戦いのあとにメッセージを残してください。" } }
     ]
   },
   {
     "id": "fill-feel", "kind": "vowel", "level": 2,
     "point": "fill /ɪ/（満たす）と feel /iː/（感じる）。",
     "words": [
-      { "word": "fill", "ipa": "fɪl", "pos": "動詞", "meaning": "満たす、記入する", "example": { "en": "Fill the glass with water.", "ja": "グラスを水で満たして。" } },
-      { "word": "feel", "ipa": "fiːl", "pos": "動詞", "meaning": "感じる", "example": { "en": "I feel happy today.", "ja": "今日は幸せな気分だ。" } }
+      { "word": "fill", "ipa": "fɪl", "pos": "動詞", "meaning": "満たす、記入する", "example": { "en": "Fill the bottle with water, hero.", "ja": "びんに水を満たして、勇者。" } },
+      { "word": "feel", "ipa": "fiːl", "pos": "動詞", "meaning": "感じる", "example": { "en": "I feel the hero's power.", "ja": "勇者の力を感じる。" } }
     ]
   },
   {
     "id": "sit-seat", "kind": "vowel", "level": 2,
     "point": "sit /ɪ/（座る：動詞）と seat /iː/（座席：名詞）。",
     "words": [
-      { "word": "sit", "ipa": "sɪt", "pos": "動詞", "meaning": "座る", "example": { "en": "Please sit down.", "ja": "どうぞお座りください。" } },
-      { "word": "seat", "ipa": "siːt", "pos": "名詞", "meaning": "座席", "example": { "en": "Is this seat free?", "ja": "この席は空いていますか？" } }
+      { "word": "sit", "ipa": "sɪt", "pos": "動詞", "meaning": "座る", "example": { "en": "Please sit down at the round table.", "ja": "円卓に座ってください。" } },
+      { "word": "seat", "ipa": "siːt", "pos": "名詞", "meaning": "座席", "example": { "en": "Is this seat free, princess?", "ja": "この席は空いていますか、姫？" } }
     ]
   },
   {
@@ -132,70 +132,70 @@
     "point": "full の u は短い「ウ」/ʊ/、fool の oo は唇を丸めた長い「ウー」/uː/。",
     "words": [
       { "word": "full", "ipa": "fʊl", "pos": "形容詞", "meaning": "いっぱいの、満腹の", "example": { "en": "I'm full. I can't eat any more.", "ja": "おなかいっぱい。もう食べられない。" } },
-      { "word": "fool", "ipa": "fuːl", "pos": "名詞", "meaning": "ばか者", "example": { "en": "Don't be a fool.", "ja": "ばかなことはやめなさい。" } }
+      { "word": "fool", "ipa": "fuːl", "pos": "名詞", "meaning": "ばか者", "example": { "en": "Don't be a fool, hero.", "ja": "ばかなことはよせ、勇者。" } }
     ]
   },
   {
     "id": "walk-work", "kind": "vowel", "level": 2,
     "point": "walk は口を縦に開いた「オー」/ɔː/（l は読まない）、work は口をあまり開けずに舌を丸める「アー」/ɜːr/。日本人がとても混同しやすいペア。",
     "words": [
-      { "word": "walk", "ipa": "wɔːk", "pos": "動詞", "meaning": "歩く", "example": { "en": "I walk to school every day.", "ja": "毎日歩いて学校に行く。" } },
-      { "word": "work", "ipa": "wɜːrk", "pos": "動詞", "meaning": "働く、うまくいく", "example": { "en": "I work at a bank in the city.", "ja": "私は町の銀行で働いている。" } }
+      { "word": "walk", "ipa": "wɔːk", "pos": "動詞", "meaning": "歩く", "example": { "en": "The heroes walk to school every day.", "ja": "主人公たちは毎日歩いて学校へ行く。" } },
+      { "word": "work", "ipa": "wɜːrk", "pos": "動詞", "meaning": "働く、うまくいく", "example": { "en": "The elves work at the guild.", "ja": "エルフたちはギルドで働いている。" } }
     ]
   },
   {
     "id": "heart-hurt", "kind": "vowel", "level": 3,
     "point": "heart は口を大きく開けた「アー」/ɑːr/、hurt はこもった「アー」/ɜːr/。",
     "words": [
-      { "word": "heart", "ipa": "hɑːrt", "pos": "名詞", "meaning": "心臓、心", "example": { "en": "She has a kind heart.", "ja": "彼女は優しい心の持ち主だ。" } },
-      { "word": "hurt", "ipa": "hɜːrt", "pos": "動詞", "meaning": "傷つける、痛む", "example": { "en": "Did you hurt your leg?", "ja": "足をけがしたの？" } }
+      { "word": "heart", "ipa": "hɑːrt", "pos": "名詞", "meaning": "心臓、心", "example": { "en": "The hero has a kind heart.", "ja": "勇者はやさしい心を持っている。" } },
+      { "word": "hurt", "ipa": "hɜːrt", "pos": "動詞", "meaning": "傷つける、痛む", "example": { "en": "Did you hurt your leg in the battle?", "ja": "戦いで足をけがしたの？" } }
     ]
   },
   {
     "id": "farm-firm", "kind": "vowel", "level": 3,
     "point": "farm /ɑːr/（農場）と firm /ɜːr/（会社、かたい）。",
     "words": [
-      { "word": "farm", "ipa": "fɑːrm", "pos": "名詞", "meaning": "農場", "example": { "en": "They grow rice on their farm.", "ja": "彼らは自分の農場で米を育てている。" } },
-      { "word": "firm", "ipa": "fɜːrm", "pos": "名詞・形容詞", "meaning": "会社、かたい", "example": { "en": "She works for a law firm.", "ja": "彼女は法律事務所で働いている。" } }
+      { "word": "farm", "ipa": "fɑːrm", "pos": "名詞", "meaning": "農場", "example": { "en": "The elf grows rice on her farm.", "ja": "エルフは農場で米を育てている。" } },
+      { "word": "firm", "ipa": "fɜːrm", "pos": "名詞・形容詞", "meaning": "会社、かたい", "example": { "en": "The hero works for a game firm.", "ja": "主人公はゲーム会社で働いている。" } }
     ]
   },
   {
     "id": "bird-board", "kind": "vowel", "level": 3,
     "point": "bird はこもった「アー」/ɜːr/、board は口を丸めた「オー」/ɔːr/。",
     "words": [
-      { "word": "bird", "ipa": "bɜːrd", "pos": "名詞", "meaning": "鳥", "example": { "en": "A bird is singing in the tree.", "ja": "木で鳥が鳴いている。" } },
-      { "word": "board", "ipa": "bɔːrd", "pos": "名詞", "meaning": "板、掲示板", "example": { "en": "Write your name on the board.", "ja": "黒板に名前を書いて。" } }
+      { "word": "bird", "ipa": "bɜːrd", "pos": "名詞", "meaning": "鳥", "example": { "en": "A bird is singing in the tree.", "ja": "鳥が木の上で歌っている。" } },
+      { "word": "board", "ipa": "bɔːrd", "pos": "名詞", "meaning": "板、掲示板", "example": { "en": "The teacher drew a magic circle on the board.", "ja": "先生は黒板に魔法陣を描いた。" } }
     ]
   },
   {
     "id": "cost-coast", "kind": "vowel", "level": 3,
     "point": "cost は口を縦に開く短い「オ」/ɔː/、coast は「オウ」/oʊ/ と二重母音。",
     "words": [
-      { "word": "cost", "ipa": "kɔːst", "pos": "名詞・動詞", "meaning": "費用、（金額が）かかる", "example": { "en": "How much does it cost?", "ja": "いくらかかりますか？" } },
-      { "word": "coast", "ipa": "koʊst", "pos": "名詞", "meaning": "海岸", "example": { "en": "We drove along the coast.", "ja": "海岸沿いをドライブした。" } }
+      { "word": "cost", "ipa": "kɔːst", "pos": "名詞・動詞", "meaning": "費用、（金額が）かかる", "example": { "en": "How much does this rare card cost?", "ja": "このレアカードはいくらかかる？" } },
+      { "word": "coast", "ipa": "koʊst", "pos": "名詞", "meaning": "海岸", "example": { "en": "The party drove along the coast.", "ja": "パーティーは海岸沿いを車で走った。" } }
     ]
   },
   {
     "id": "law-low", "kind": "vowel", "level": 4,
     "point": "law は口を縦に開いた「オー」/ɔː/、low は「オウ」/oʊ/。カタカナの「ロー」では区別できない。",
     "words": [
-      { "word": "law", "ipa": "lɔː", "pos": "名詞", "meaning": "法律", "example": { "en": "Everyone must obey the law.", "ja": "誰もが法律を守らなければならない。" } },
-      { "word": "low", "ipa": "loʊ", "pos": "形容詞", "meaning": "低い", "example": { "en": "The price is very low.", "ja": "値段はとても安い。" } }
+      { "word": "law", "ipa": "lɔː", "pos": "名詞", "meaning": "法律", "example": { "en": "Everyone must obey the law in the kingdom.", "ja": "王国では誰もが法律に従わなければならない。" } },
+      { "word": "low", "ipa": "loʊ", "pos": "形容詞", "meaning": "低い", "example": { "en": "The hero's HP is very low.", "ja": "勇者のHPはとても少ない。" } }
     ]
   },
   {
     "id": "bought-boat", "kind": "vowel", "level": 3,
     "point": "bought（buy の過去形）/ɔː/ と boat /oʊ/。",
     "words": [
-      { "word": "bought", "ipa": "bɔːt", "pos": "動詞", "meaning": "買った（buy の過去形）", "example": { "en": "I bought a new bike.", "ja": "新しい自転車を買った。" } },
-      { "word": "boat", "ipa": "boʊt", "pos": "名詞", "meaning": "小舟、ボート", "example": { "en": "We took a boat on the lake.", "ja": "私たちは湖でボートに乗った。" } }
+      { "word": "bought", "ipa": "bɔːt", "pos": "動詞", "meaning": "買った（buy の過去形）", "example": { "en": "The hero bought a new sword.", "ja": "勇者は新しい剣を買った。" } },
+      { "word": "boat", "ipa": "boʊt", "pos": "名詞", "meaning": "小舟、ボート", "example": { "en": "The party took a boat to the island.", "ja": "パーティーは船で島へ向かった。" } }
     ]
   },
   {
     "id": "truck-track", "kind": "vowel", "level": 3,
     "point": "どちらもカタカナでは「トラック」。truck（貨物自動車）は /ʌ/ の短い「ア」、track（競技場のトラック、線路、曲）は /æ/ の「エ」に近い「ア」。",
     "words": [
-      { "word": "truck", "ipa": "trʌk", "pos": "名詞", "meaning": "トラック（貨物自動車）", "example": { "en": "A big truck was parked outside.", "ja": "大きなトラックが外に止まっていた。" } },
+      { "word": "truck", "ipa": "trʌk", "pos": "名詞", "meaning": "トラック（貨物自動車）", "example": { "en": "A big truck took the hero to another world.", "ja": "大きなトラックが勇者を異世界へ連れて行った。" } },
       { "word": "track", "ipa": "træk", "pos": "名詞", "meaning": "（陸上の）トラック、線路、（アルバムの）曲", "example": { "en": "The runners lined up on the track.", "ja": "走者たちはトラックに並んだ。" } }
     ]
   },
@@ -211,168 +211,168 @@
     "id": "load-lord", "kind": "vowel", "level": 4,
     "point": "どちらも「ロード」。load（荷物、読み込む）は「オウ」/oʊ/、lord（領主、支配者）は r のひびく /ɔːr/。road（道）も同じ「ロード」で、こちらは L と R のちがい。",
     "words": [
-      { "word": "load", "ipa": "loʊd", "pos": "動詞・名詞", "meaning": "読み込む、積む／荷物", "example": { "en": "It takes a minute to load the game data.", "ja": "ゲームデータの読み込みに少し時間がかかる。" } },
-      { "word": "lord", "ipa": "lɔːrd", "pos": "名詞", "meaning": "領主、支配者", "example": { "en": "The dark lord lives in the tower.", "ja": "闇の支配者は塔に住んでいる。" } }
+      { "word": "load", "ipa": "loʊd", "pos": "動詞・名詞", "meaning": "読み込む、積む／荷物", "example": { "en": "It takes a minute to load the game data.", "ja": "ゲームのデータを読み込むのに1分かかる。" } },
+      { "word": "lord", "ipa": "lɔːrd", "pos": "名詞", "meaning": "領主、支配者", "example": { "en": "The dark lord lives in the tower.", "ja": "闇の王は塔に住んでいる。" } }
     ]
   },
   {
     "id": "coat-court", "kind": "vowel", "level": 3,
     "point": "どちらも「コート」。coat（上着）は「オウ」/oʊ/、court（テニスなどのコート、裁判所）は r のひびく /ɔːr/。",
     "words": [
-      { "word": "coat", "ipa": "koʊt", "pos": "名詞", "meaning": "コート、上着", "example": { "en": "Put on your coat. It's cold outside.", "ja": "コートを着て。外は寒いよ。" } },
-      { "word": "court", "ipa": "kɔːrt", "pos": "名詞", "meaning": "（競技の）コート、裁判所", "example": { "en": "The players ran onto the court.", "ja": "選手たちがコートに駆け出した。" } }
+      { "word": "coat", "ipa": "koʊt", "pos": "名詞", "meaning": "コート、上着", "example": { "en": "Put on your coat, hero. It's cold outside.", "ja": "コートを着て、勇者。外は寒いよ。" } },
+      { "word": "court", "ipa": "kɔːrt", "pos": "名詞", "meaning": "（競技の）コート、裁判所", "example": { "en": "The hero ran onto the court.", "ja": "主人公はコートに走り出た。" } }
     ]
   },
   {
     "id": "hall-hole", "kind": "vowel", "level": 3,
     "point": "どちらも「ホール」。hall（会場、廊下）は口を縦に開く /ɔː/、hole（穴）は「オウ」/oʊ/。whole（全体の）は hole と同じ音。",
     "words": [
-      { "word": "hall", "ipa": "hɔːl", "pos": "名詞", "meaning": "ホール、会館、廊下", "example": { "en": "The concert hall was full.", "ja": "コンサートホールは満員だった。" } },
-      { "word": "hole", "ipa": "hoʊl", "pos": "名詞", "meaning": "穴", "example": { "en": "The dog dug a hole in the garden.", "ja": "犬が庭に穴を掘った。" } }
+      { "word": "hall", "ipa": "hɔːl", "pos": "名詞", "meaning": "ホール、会館、廊下", "example": { "en": "The idol's concert hall was full.", "ja": "アイドルのコンサートホールは満員だった。" } },
+      { "word": "hole", "ipa": "hoʊl", "pos": "名詞", "meaning": "穴", "example": { "en": "The hero fell into a hole in the dungeon.", "ja": "勇者はダンジョンの穴に落ちた。" } }
     ]
   },
   {
     "id": "sauce-source", "kind": "vowel", "level": 4,
     "point": "どちらも「ソース」。sauce（たれ、ソース）は /ɔː/ だけ、source（源、出どころ）は r がひびく /ɔːr/（アメリカ英語）。",
     "words": [
-      { "word": "sauce", "ipa": "sɔːs", "pos": "名詞", "meaning": "ソース、たれ", "example": { "en": "This pasta sauce is delicious.", "ja": "このパスタソースはおいしい。" } },
-      { "word": "source", "ipa": "sɔːrs", "pos": "名詞", "meaning": "源、出どころ、情報源", "example": { "en": "What is the source of this news?", "ja": "このニュースの情報源は何？" } }
+      { "word": "sauce", "ipa": "sɔːs", "pos": "名詞", "meaning": "ソース、たれ", "example": { "en": "This pasta sauce is delicious, princess.", "ja": "このパスタソースはおいしいですね、姫。" } },
+      { "word": "source", "ipa": "sɔːrs", "pos": "名詞", "meaning": "源、出どころ、情報源", "example": { "en": "What is the source of the boss's power?", "ja": "ボスの力の源は何だ？" } }
     ]
   },
   {
     "id": "fast-first", "kind": "vowel", "level": 3,
     "point": "どちらも「ファースト」。fast（速い）は /æ/（米）、first（最初の）は口をあまり開けない /ɜːr/。ファストフードは fast、ファーストクラスは first。",
     "words": [
-      { "word": "fast", "ipa": "fæst", "pos": "形容詞", "meaning": "速い", "example": { "en": "He is a very fast runner.", "ja": "彼はとても足が速い。" } },
-      { "word": "first", "ipa": "fɜːrst", "pos": "形容詞", "meaning": "最初の、一番目の", "example": { "en": "This is my first time in Japan.", "ja": "日本は今回が初めてです。" } }
+      { "word": "fast", "ipa": "fæst", "pos": "形容詞", "meaning": "速い", "example": { "en": "The ninja is a very fast runner.", "ja": "その忍者はとても足の速い走者だ。" } },
+      { "word": "first", "ipa": "fɜːrst", "pos": "形容詞", "meaning": "最初の、一番目の", "example": { "en": "This is my first time at an anime event.", "ja": "アニメイベントは初めてだ。" } }
     ]
   },
   {
     "id": "ball-bowl", "kind": "vowel", "level": 3,
     "point": "どちらも「ボール」。ball（球）は口を縦に開く /ɔː/、bowl（どんぶり、深い器）は「オウ」/oʊ/。サラダボウルは bowl。",
     "words": [
-      { "word": "ball", "ipa": "bɔːl", "pos": "名詞", "meaning": "ボール、球", "example": { "en": "Throw the ball to me.", "ja": "ボールをこっちに投げて。" } },
-      { "word": "bowl", "ipa": "boʊl", "pos": "名詞", "meaning": "ボウル、どんぶり", "example": { "en": "I had a bowl of rice.", "ja": "ご飯を一杯食べた。" } }
+      { "word": "ball", "ipa": "bɔːl", "pos": "名詞", "meaning": "ボール、球", "example": { "en": "Throw the ball to me, hero!", "ja": "ボールを投げて、勇者！" } },
+      { "word": "bowl", "ipa": "boʊl", "pos": "名詞", "meaning": "ボウル、どんぶり", "example": { "en": "The hero had a bowl of rice.", "ja": "勇者はごはんを一杯食べた。" } }
     ]
   },
   {
     "id": "light-right", "kind": "lr", "level": 1,
     "point": "L は舌先を上の歯ぐきにつけたまま「ル」、R は舌をどこにもつけずに奥へ丸める。light（光）と right（正しい、右）。",
     "words": [
-      { "word": "light", "ipa": "laɪt", "pos": "名詞", "meaning": "光、明かり", "example": { "en": "Turn on the light.", "ja": "電気をつけて。" } },
-      { "word": "right", "ipa": "raɪt", "pos": "形容詞", "meaning": "正しい、右の", "example": { "en": "You are right.", "ja": "きみの言うとおりだ。" } }
+      { "word": "light", "ipa": "laɪt", "pos": "名詞", "meaning": "光、明かり", "example": { "en": "The sword gives off a bright light.", "ja": "その剣は明るい光を放つ。" } },
+      { "word": "right", "ipa": "raɪt", "pos": "形容詞", "meaning": "正しい、右の", "example": { "en": "You are right, hero.", "ja": "君の言う通りだ、勇者。" } }
     ]
   },
   {
     "id": "rice-lice", "kind": "lr", "level": 2,
     "point": "rice（米）を L で言うと lice（シラミ）になってしまう、有名な例。",
     "words": [
-      { "word": "rice", "ipa": "raɪs", "pos": "名詞", "meaning": "米、ご飯", "example": { "en": "We eat rice every day.", "ja": "私たちは毎日ご飯を食べる。" } },
-      { "word": "lice", "ipa": "laɪs", "pos": "名詞", "meaning": "シラミ（louse の複数形）", "example": { "en": "The children had head lice.", "ja": "子どもたちの頭にシラミがいた。" } }
+      { "word": "rice", "ipa": "raɪs", "pos": "名詞", "meaning": "米、ご飯", "example": { "en": "The hero eats rice every day.", "ja": "勇者は毎日ご飯を食べる。" } },
+      { "word": "lice", "ipa": "laɪs", "pos": "名詞", "meaning": "シラミ（louse の複数形）", "example": { "en": "The stray cat had lice on its back.", "ja": "野良猫は背中にシラミがいた。" } }
     ]
   },
   {
     "id": "play-pray", "kind": "lr", "level": 2,
     "point": "play（遊ぶ、演奏する）と pray（祈る）。",
     "words": [
-      { "word": "play", "ipa": "pleɪ", "pos": "動詞", "meaning": "遊ぶ、演奏する", "example": { "en": "Let's play soccer after school.", "ja": "放課後サッカーをしよう。" } },
-      { "word": "pray", "ipa": "preɪ", "pos": "動詞", "meaning": "祈る", "example": { "en": "We pray for peace.", "ja": "私たちは平和を祈る。" } }
+      { "word": "play", "ipa": "pleɪ", "pos": "動詞", "meaning": "遊ぶ、演奏する", "example": { "en": "Let's play this game together.", "ja": "このゲームを一緒にやろう。" } },
+      { "word": "pray", "ipa": "preɪ", "pos": "動詞", "meaning": "祈る", "example": { "en": "The priests pray for peace.", "ja": "僧侶たちは平和を祈る。" } }
     ]
   },
   {
     "id": "glass-grass", "kind": "lr", "level": 2,
     "point": "glass（ガラス、コップ）と grass（草）。",
     "words": [
-      { "word": "glass", "ipa": "ɡlæs", "pos": "名詞", "meaning": "ガラス、コップ", "example": { "en": "Can I have a glass of water?", "ja": "水を一杯もらえますか？" } },
-      { "word": "grass", "ipa": "ɡræs", "pos": "名詞", "meaning": "草、芝生", "example": { "en": "Keep off the grass.", "ja": "芝生に入らないでください。" } }
+      { "word": "glass", "ipa": "ɡlæs", "pos": "名詞", "meaning": "ガラス、コップ", "example": { "en": "The hero drinks a glass of water.", "ja": "勇者は水をコップ一杯飲む。" } },
+      { "word": "grass", "ipa": "ɡræs", "pos": "名詞", "meaning": "草、芝生", "example": { "en": "The hero sleeps on the soft grass.", "ja": "勇者はやわらかい草の上で眠る。" } }
     ]
   },
   {
     "id": "lock-rock", "kind": "lr", "level": 2,
     "point": "lock（鍵をかける）と rock（岩、ロック音楽）。",
     "words": [
-      { "word": "lock", "ipa": "lɑːk", "pos": "動詞", "meaning": "鍵をかける", "example": { "en": "Don't forget to lock the door.", "ja": "ドアに鍵をかけるのを忘れないで。" } },
-      { "word": "rock", "ipa": "rɑːk", "pos": "名詞", "meaning": "岩、ロック", "example": { "en": "He sat on a big rock.", "ja": "彼は大きな岩に座った。" } }
+      { "word": "lock", "ipa": "lɑːk", "pos": "動詞", "meaning": "鍵をかける", "example": { "en": "Don't forget to lock the door, hero.", "ja": "扉に鍵をかけるのを忘れずに、勇者。" } },
+      { "word": "rock", "ipa": "rɑːk", "pos": "名詞", "meaning": "岩、ロック", "example": { "en": "The hero sits on a big rock.", "ja": "勇者は大きな岩に座る。" } }
     ]
   },
   {
     "id": "fly-fry", "kind": "lr", "level": 2,
     "point": "fly（飛ぶ）と fry（油で揚げる、炒める）。",
     "words": [
-      { "word": "fly", "ipa": "flaɪ", "pos": "動詞", "meaning": "飛ぶ", "example": { "en": "Birds fly south in winter.", "ja": "冬には鳥が南へ飛んでいく。" } },
-      { "word": "fry", "ipa": "fraɪ", "pos": "動詞", "meaning": "揚げる、炒める", "example": { "en": "Fry the onions in oil.", "ja": "たまねぎを油で炒めて。" } }
+      { "word": "fly", "ipa": "flaɪ", "pos": "動詞", "meaning": "飛ぶ", "example": { "en": "The dragon can fly very fast.", "ja": "ドラゴンはとても速く飛べる。" } },
+      { "word": "fry", "ipa": "fraɪ", "pos": "動詞", "meaning": "揚げる、炒める", "example": { "en": "Fry the onions in the pan.", "ja": "玉ねぎをフライパンでいためて。" } }
     ]
   },
   {
     "id": "long-wrong", "kind": "lr", "level": 2,
     "point": "long（長い）と wrong（まちがった）。wrong の w は読まない。",
     "words": [
-      { "word": "long", "ipa": "lɔːŋ", "pos": "形容詞", "meaning": "長い", "example": { "en": "She has long hair.", "ja": "彼女は髪が長い。" } },
-      { "word": "wrong", "ipa": "rɔːŋ", "pos": "形容詞", "meaning": "まちがった", "example": { "en": "Sorry, I have the wrong number.", "ja": "すみません、番号をまちがえました。" } }
+      { "word": "long", "ipa": "lɔːŋ", "pos": "形容詞", "meaning": "長い", "example": { "en": "The elf has long hair.", "ja": "エルフは長い髪をしている。" } },
+      { "word": "wrong", "ipa": "rɔːŋ", "pos": "形容詞", "meaning": "まちがった", "example": { "en": "Sorry, I have the wrong card.", "ja": "ごめん、カードを間違えた。" } }
     ]
   },
   {
     "id": "lead-read", "kind": "lr", "level": 3,
     "point": "lead（導く）と read（読む）。どちらも「リード」と読まれがち。",
     "words": [
-      { "word": "lead", "ipa": "liːd", "pos": "動詞", "meaning": "導く、率いる", "example": { "en": "She will lead the team.", "ja": "彼女がチームを率いる。" } },
-      { "word": "read", "ipa": "riːd", "pos": "動詞", "meaning": "読む", "example": { "en": "I read a book every night.", "ja": "毎晩本を読む。" } }
+      { "word": "lead", "ipa": "liːd", "pos": "動詞", "meaning": "導く、率いる", "example": { "en": "She will lead the party to the castle.", "ja": "彼女はパーティーを城へ導く。" } },
+      { "word": "read", "ipa": "riːd", "pos": "動詞", "meaning": "読む", "example": { "en": "I read manga every night.", "ja": "私は毎晩漫画を読む。" } }
     ]
   },
   {
     "id": "load-road", "kind": "lr", "level": 3,
     "point": "load（荷物、積む）と road（道路）。",
     "words": [
-      { "word": "load", "ipa": "loʊd", "pos": "名詞・動詞", "meaning": "積み荷、積む", "example": { "en": "Help me load the boxes into the car.", "ja": "箱を車に積むのを手伝って。" } },
-      { "word": "road", "ipa": "roʊd", "pos": "名詞", "meaning": "道路", "example": { "en": "Be careful when you cross the road.", "ja": "道を渡るときは気をつけて。" } }
+      { "word": "load", "ipa": "loʊd", "pos": "名詞・動詞", "meaning": "積み荷、積む", "example": { "en": "Help me load the boxes onto the wagon.", "ja": "箱を荷馬車に積むのを手伝って。" } },
+      { "word": "road", "ipa": "roʊd", "pos": "名詞", "meaning": "道路", "example": { "en": "Be careful when you cross the road, hero.", "ja": "道路をわたるときは気をつけて、勇者。" } }
     ]
   },
   {
     "id": "belly-berry", "kind": "lr", "level": 3,
     "point": "belly（おなか）と berry（ベリー、小さな実）。",
     "words": [
-      { "word": "belly", "ipa": "ˈbeli", "pos": "名詞", "meaning": "おなか", "example": { "en": "My belly is full.", "ja": "おなかがいっぱいだ。" } },
-      { "word": "berry", "ipa": "ˈberi", "pos": "名詞", "meaning": "ベリー、小さな実", "example": { "en": "I found a red berry in the forest.", "ja": "森で赤いベリーを見つけた。" } }
+      { "word": "belly", "ipa": "ˈbeli", "pos": "名詞", "meaning": "おなか", "example": { "en": "My belly is full of ramen.", "ja": "おなかがラーメンでいっぱいだ。" } },
+      { "word": "berry", "ipa": "ˈberi", "pos": "名詞", "meaning": "ベリー、小さな実", "example": { "en": "The elf found a red berry in the forest.", "ja": "エルフは森で赤い木の実を見つけた。" } }
     ]
   },
   {
     "id": "collect-correct", "kind": "lr", "level": 3,
     "point": "collect（集める）と correct（正しい、訂正する）。英検のリスニングでも要注意。",
     "words": [
-      { "word": "collect", "ipa": "kəˈlekt", "pos": "動詞", "meaning": "集める", "example": { "en": "I like to collect old coins.", "ja": "私は古いコインを集めるのが好きだ。" } },
-      { "word": "correct", "ipa": "kəˈrekt", "pos": "形容詞・動詞", "meaning": "正しい、訂正する", "example": { "en": "Your answer is correct.", "ja": "あなたの答えは正しい。" } }
+      { "word": "collect", "ipa": "kəˈlekt", "pos": "動詞", "meaning": "集める", "example": { "en": "I like to collect rare cards.", "ja": "私はレアカードを集めるのが好きだ。" } },
+      { "word": "correct", "ipa": "kəˈrekt", "pos": "形容詞・動詞", "meaning": "正しい、訂正する", "example": { "en": "Your answer is correct, hero.", "ja": "君の答えは正解だ、勇者。" } }
     ]
   },
   {
     "id": "alive-arrive", "kind": "lr", "level": 3,
     "point": "alive（生きている）と arrive（到着する）。",
     "words": [
-      { "word": "alive", "ipa": "əˈlaɪv", "pos": "形容詞", "meaning": "生きている", "example": { "en": "The fish is still alive.", "ja": "その魚はまだ生きている。" } },
-      { "word": "arrive", "ipa": "əˈraɪv", "pos": "動詞", "meaning": "到着する", "example": { "en": "We will arrive at noon.", "ja": "私たちは正午に着く予定だ。" } }
+      { "word": "alive", "ipa": "əˈlaɪv", "pos": "形容詞", "meaning": "生きている", "example": { "en": "The hero is still alive.", "ja": "勇者はまだ生きている。" } },
+      { "word": "arrive", "ipa": "əˈraɪv", "pos": "動詞", "meaning": "到着する", "example": { "en": "The party will arrive at noon.", "ja": "パーティーは正午に着く予定だ。" } }
     ]
   },
   {
     "id": "climb-crime", "kind": "lr", "level": 4,
     "point": "climb（登る。b は読まない）と crime（犯罪）。",
     "words": [
-      { "word": "climb", "ipa": "klaɪm", "pos": "動詞", "meaning": "登る", "example": { "en": "Let's climb Mt. Fuji this summer.", "ja": "今年の夏は富士山に登ろう。" } },
-      { "word": "crime", "ipa": "kraɪm", "pos": "名詞", "meaning": "犯罪", "example": { "en": "Crime is decreasing in this city.", "ja": "この市では犯罪が減っている。" } }
+      { "word": "climb", "ipa": "klaɪm", "pos": "動詞", "meaning": "登る", "example": { "en": "Let's climb the tower to the demon king's room.", "ja": "魔王の部屋まで塔をのぼろう。" } },
+      { "word": "crime", "ipa": "kraɪm", "pos": "名詞", "meaning": "犯罪", "example": { "en": "Crime is decreasing in the hero's city.", "ja": "勇者の街では犯罪が減っている。" } }
     ]
   },
   {
     "id": "flight-fright", "kind": "lr", "level": 4,
     "point": "flight（飛行、便）と fright（恐怖）。",
     "words": [
-      { "word": "flight", "ipa": "flaɪt", "pos": "名詞", "meaning": "（飛行機の）便、飛行", "example": { "en": "Our flight was delayed.", "ja": "私たちの便は遅れた。" } },
-      { "word": "fright", "ipa": "fraɪt", "pos": "名詞", "meaning": "恐怖、驚き", "example": { "en": "The loud noise gave me a fright.", "ja": "大きな音にぎょっとした。" } }
+      { "word": "flight", "ipa": "flaɪt", "pos": "名詞", "meaning": "（飛行機の）便、飛行", "example": { "en": "Our flight to the moon was delayed.", "ja": "月への便が遅れた。" } },
+      { "word": "fright", "ipa": "fraɪt", "pos": "名詞", "meaning": "恐怖、驚き", "example": { "en": "The loud noise gave the hero a fright.", "ja": "大きな音が勇者を驚かせた。" } }
     ]
   },
   {
     "id": "club-crab", "kind": "lr", "level": 3,
     "point": "どちらも「クラブ」。club（クラブ、こん棒）は L と /ʌ/、crab（カニ）は R と /æ/。音が2か所ちがう。",
     "words": [
-      { "word": "club", "ipa": "klʌb", "pos": "名詞", "meaning": "クラブ、部活、こん棒", "example": { "en": "I joined the tennis club.", "ja": "テニス部に入った。" } },
-      { "word": "crab", "ipa": "kræb", "pos": "名詞", "meaning": "カニ", "example": { "en": "We ate crab at the beach.", "ja": "浜辺でカニを食べた。" } }
+      { "word": "club", "ipa": "klʌb", "pos": "名詞", "meaning": "クラブ、部活、こん棒", "example": { "en": "I joined the anime club.", "ja": "私はアニメ部に入った。" } },
+      { "word": "crab", "ipa": "kræb", "pos": "名詞", "meaning": "カニ", "example": { "en": "The party ate crab on the beach.", "ja": "パーティーは浜辺でカニを食べた。" } }
     ]
   },
   {
@@ -387,40 +387,40 @@
     "id": "cloth-cross", "kind": "lr", "level": 3,
     "point": "どちらも「クロス」。cloth（布）は L で終わりが TH /θ/、cross（十字、横切る）は R で終わりが /s/。",
     "words": [
-      { "word": "cloth", "ipa": "klɔːθ", "pos": "名詞", "meaning": "布", "example": { "en": "She cleaned the window with a cloth.", "ja": "彼女は布で窓をふいた。" } },
-      { "word": "cross", "ipa": "krɔːs", "pos": "動詞・名詞", "meaning": "横切る／十字", "example": { "en": "Look both ways before you cross the street.", "ja": "通りを渡る前に左右を見て。" } }
+      { "word": "cloth", "ipa": "klɔːθ", "pos": "名詞", "meaning": "布", "example": { "en": "The maid cleaned the window with a cloth.", "ja": "メイドは布で窓をふいた。" } },
+      { "word": "cross", "ipa": "krɔːs", "pos": "動詞・名詞", "meaning": "横切る／十字", "example": { "en": "Look both ways before you cross the street.", "ja": "道をわたる前に左右を見て。" } }
     ]
   },
   {
     "id": "crown-clown", "kind": "lr", "level": 4,
     "point": "crown（王冠、クラウン）は R、clown（道化師、クラウン）は L。カタカナではどちらも「クラウン」。",
     "words": [
-      { "word": "crown", "ipa": "kraʊn", "pos": "名詞", "meaning": "王冠", "example": { "en": "The king wore a gold crown.", "ja": "王は金の王冠をかぶっていた。" } },
-      { "word": "clown", "ipa": "klaʊn", "pos": "名詞", "meaning": "道化師、ピエロ", "example": { "en": "The clown made the children laugh.", "ja": "道化師は子どもたちを笑わせた。" } }
+      { "word": "crown", "ipa": "kraʊn", "pos": "名詞", "meaning": "王冠", "example": { "en": "The king wore a gold crown.", "ja": "王様は金の冠をかぶっていた。" } },
+      { "word": "clown", "ipa": "klaʊn", "pos": "名詞", "meaning": "道化師、ピエロ", "example": { "en": "The clown made the children laugh.", "ja": "ピエロは子どもたちを笑わせた。" } }
     ]
   },
   {
     "id": "lamp-ramp", "kind": "lr", "level": 4,
     "point": "どちらも「ランプ」。lamp（明かり）は L、ramp（傾斜路、高速道路の出入口）は R。",
     "words": [
-      { "word": "lamp", "ipa": "læmp", "pos": "名詞", "meaning": "ランプ、電気スタンド", "example": { "en": "Turn on the lamp on the desk.", "ja": "机の電気スタンドをつけて。" } },
-      { "word": "ramp", "ipa": "ræmp", "pos": "名詞", "meaning": "傾斜路、スロープ", "example": { "en": "There is a ramp for wheelchairs.", "ja": "車いす用のスロープがある。" } }
+      { "word": "lamp", "ipa": "læmp", "pos": "名詞", "meaning": "ランプ、電気スタンド", "example": { "en": "Turn on the lamp on the desk, hero.", "ja": "机の上の明かりをつけて、勇者。" } },
+      { "word": "ramp", "ipa": "ræmp", "pos": "名詞", "meaning": "傾斜路、スロープ", "example": { "en": "There is a ramp up to the castle gate.", "ja": "城門へ上るスロープがある。" } }
     ]
   },
   {
     "id": "free-flea", "kind": "lr", "level": 4,
     "point": "「フリーマーケット」は flea market（ノミの市）で、free（無料の、自由な）ではない。free は R、flea（ノミ）は L。",
     "words": [
-      { "word": "free", "ipa": "friː", "pos": "形容詞", "meaning": "無料の、自由な、ひまな", "example": { "en": "The drinks are free today.", "ja": "今日は飲み物が無料だ。" } },
-      { "word": "flea", "ipa": "fliː", "pos": "名詞", "meaning": "ノミ（虫）", "example": { "en": "We bought old books at the flea market.", "ja": "フリーマーケットで古本を買った。" } }
+      { "word": "free", "ipa": "friː", "pos": "形容詞", "meaning": "無料の、自由な、ひまな", "example": { "en": "The drinks are free at the anime event today.", "ja": "今日のアニメイベントでは飲み物が無料だ。" } },
+      { "word": "flea", "ipa": "fliː", "pos": "名詞", "meaning": "ノミ（虫）", "example": { "en": "The hero bought a rare card at the flea market.", "ja": "勇者はフリーマーケットでレアカードを買った。" } }
     ]
   },
   {
     "id": "rubber-lover", "kind": "lr", "level": 4,
     "point": "どちらも「ラバー」。rubber（ゴム）は R と B、lover（恋人、愛好家）は L と V。",
     "words": [
-      { "word": "rubber", "ipa": "ˈrʌbər", "pos": "名詞", "meaning": "ゴム", "example": { "en": "These boots are made of rubber.", "ja": "このブーツはゴムでできている。" } },
-      { "word": "lover", "ipa": "ˈlʌvər", "pos": "名詞", "meaning": "恋人、愛好家", "example": { "en": "She is a music lover.", "ja": "彼女は音楽好きだ。" } }
+      { "word": "rubber", "ipa": "ˈrʌbər", "pos": "名詞", "meaning": "ゴム", "example": { "en": "The hero's boots are made of rubber.", "ja": "勇者のブーツはゴムでできている。" } },
+      { "word": "lover", "ipa": "ˈlʌvər", "pos": "名詞", "meaning": "恋人、愛好家", "example": { "en": "She is a big anime lover.", "ja": "彼女は大のアニメ好きだ。" } }
     ]
   },
   {
@@ -428,63 +428,63 @@
     "point": "clash（ぶつかり合う、対立）は L、crash（衝突する、壊れる）は R。どちらも「クラッシュ」。",
     "words": [
       { "word": "clash", "ipa": "klæʃ", "pos": "動詞・名詞", "meaning": "衝突する、対立する／ぶつかり合い", "example": { "en": "The two armies clash at dawn.", "ja": "二つの軍は夜明けにぶつかり合う。" } },
-      { "word": "crash", "ipa": "kræʃ", "pos": "動詞・名詞", "meaning": "衝突する、（PCが）落ちる／衝突", "example": { "en": "My computer might crash again.", "ja": "パソコンがまた落ちるかもしれない。" } }
+      { "word": "crash", "ipa": "kræʃ", "pos": "動詞・名詞", "meaning": "衝突する、（PCが）落ちる／衝突", "example": { "en": "My game might crash again.", "ja": "私のゲームがまたクラッシュするかもしれない。" } }
     ]
   },
   {
     "id": "liver-river", "kind": "lr", "level": 3,
     "point": "どちらも「リバー」。liver（肝臓、レバー）は L、river（川）は R。",
     "words": [
-      { "word": "liver", "ipa": "ˈlɪvər", "pos": "名詞", "meaning": "肝臓、レバー", "example": { "en": "Too much alcohol is bad for your liver.", "ja": "お酒の飲みすぎは肝臓に悪い。" } },
-      { "word": "river", "ipa": "ˈrɪvər", "pos": "名詞", "meaning": "川", "example": { "en": "We had a picnic by the river.", "ja": "川のそばでピクニックをした。" } }
+      { "word": "liver", "ipa": "ˈlɪvər", "pos": "名詞", "meaning": "肝臓、レバー", "example": { "en": "Too much cola is bad for your liver.", "ja": "コーラを飲みすぎると肝臓に悪い。" } },
+      { "word": "river", "ipa": "ˈrɪvər", "pos": "名詞", "meaning": "川", "example": { "en": "We had a picnic by the river.", "ja": "私たちは川のそばでピクニックをした。" } }
     ]
   },
   {
     "id": "glow-grow", "kind": "lr", "level": 4,
     "point": "glow（光る、輝き）は L、grow（育つ、成長する）は R。どちらも「グロウ」。",
     "words": [
-      { "word": "glow", "ipa": "ɡloʊ", "pos": "動詞", "meaning": "（ぼうっと）光る", "example": { "en": "The stones glow in the dark.", "ja": "その石は暗やみで光る。" } },
-      { "word": "grow", "ipa": "ɡroʊ", "pos": "動詞", "meaning": "育つ、育てる", "example": { "en": "Tomatoes grow well in the sun.", "ja": "トマトは日なたでよく育つ。" } }
+      { "word": "glow", "ipa": "ɡloʊ", "pos": "動詞", "meaning": "（ぼうっと）光る", "example": { "en": "The magic stones glow in the dark.", "ja": "魔法の石は暗闇で光る。" } },
+      { "word": "grow", "ipa": "ɡroʊ", "pos": "動詞", "meaning": "育つ、育てる", "example": { "en": "The magic beans grow well in the sun.", "ja": "魔法の豆は日なたでよく育つ。" } }
     ]
   },
   {
     "id": "best-vest", "kind": "bv", "level": 3,
     "point": "B は唇を閉じてはじく音、V は上の歯を下唇に軽く当てて出す音。best（最もよい）と vest（ベスト、チョッキ）。",
     "words": [
-      { "word": "best", "ipa": "best", "pos": "形容詞", "meaning": "最もよい", "example": { "en": "This is the best pizza in town.", "ja": "これは町で一番おいしいピザだ。" } },
-      { "word": "vest", "ipa": "vest", "pos": "名詞", "meaning": "ベスト、チョッキ", "example": { "en": "He wore a vest under his jacket.", "ja": "彼は上着の下にベストを着ていた。" } }
+      { "word": "best", "ipa": "best", "pos": "形容詞", "meaning": "最もよい", "example": { "en": "This is the best ramen in town.", "ja": "これは町で一番のラーメンだ。" } },
+      { "word": "vest", "ipa": "vest", "pos": "名詞", "meaning": "ベスト、チョッキ", "example": { "en": "The ninja wore a vest under his jacket.", "ja": "忍者は上着の下にベストを着ていた。" } }
     ]
   },
   {
     "id": "boat-vote", "kind": "bv", "level": 3,
     "point": "boat（ボート）と vote（投票する）。カタカナでは「ボート」で同じ。",
     "words": [
-      { "word": "boat", "ipa": "boʊt", "pos": "名詞", "meaning": "小舟、ボート", "example": { "en": "We took a boat to the island.", "ja": "船で島へ渡った。" } },
-      { "word": "vote", "ipa": "voʊt", "pos": "動詞・名詞", "meaning": "投票する、票", "example": { "en": "You can vote at the age of 18.", "ja": "18歳から投票できる。" } }
+      { "word": "boat", "ipa": "boʊt", "pos": "名詞", "meaning": "小舟、ボート", "example": { "en": "The party took a boat to the island.", "ja": "パーティーは船で島へ行った。" } },
+      { "word": "vote", "ipa": "voʊt", "pos": "動詞・名詞", "meaning": "投票する、票", "example": { "en": "The guild members vote for a new leader.", "ja": "ギルドの仲間は新しいリーダーに投票する。" } }
     ]
   },
   {
     "id": "base-vase", "kind": "bv", "level": 3,
     "point": "base（土台、基地）と vase（花びん）。",
     "words": [
-      { "word": "base", "ipa": "beɪs", "pos": "名詞", "meaning": "土台、基地、塁", "example": { "en": "The runner reached second base.", "ja": "ランナーは二塁に達した。" } },
-      { "word": "vase", "ipa": "veɪs", "pos": "名詞", "meaning": "花びん", "example": { "en": "She put the roses in a vase.", "ja": "彼女はバラを花びんに生けた。" } }
+      { "word": "base", "ipa": "beɪs", "pos": "名詞", "meaning": "土台、基地、塁", "example": { "en": "The hero reached second base.", "ja": "主人公は二塁に到達した。" } },
+      { "word": "vase", "ipa": "veɪs", "pos": "名詞", "meaning": "花びん", "example": { "en": "The princess put the roses in a vase.", "ja": "姫はバラを花びんに挿した。" } }
     ]
   },
   {
     "id": "ban-van", "kind": "bv", "level": 4,
     "point": "ban（禁止する）と van（ワゴン車）。",
     "words": [
-      { "word": "ban", "ipa": "bæn", "pos": "動詞・名詞", "meaning": "禁止する、禁止", "example": { "en": "The city plans to ban smoking in parks.", "ja": "市は公園での喫煙を禁止する予定だ。" } },
-      { "word": "van", "ipa": "væn", "pos": "名詞", "meaning": "ワゴン車、バン", "example": { "en": "They moved their things in a van.", "ja": "彼らはバンで荷物を運んだ。" } }
+      { "word": "ban", "ipa": "bæn", "pos": "動詞・名詞", "meaning": "禁止する、禁止", "example": { "en": "The guild plans to ban fighting in town.", "ja": "ギルドは町での戦闘を禁止する予定だ。" } },
+      { "word": "van", "ipa": "væn", "pos": "名詞", "meaning": "ワゴン車、バン", "example": { "en": "The idol's team moved their things in a van.", "ja": "アイドルのチームはバンで荷物を運んだ。" } }
     ]
   },
   {
     "id": "berry-very", "kind": "bv", "level": 2,
     "point": "berry（ベリー）と very（とても）。V を B で発音すると「ベリー」になってしまう。",
     "words": [
-      { "word": "berry", "ipa": "ˈberi", "pos": "名詞", "meaning": "ベリー、小さな実", "example": { "en": "This berry is sweet.", "ja": "このベリーは甘い。" } },
-      { "word": "very", "ipa": "ˈveri", "pos": "副詞", "meaning": "とても", "example": { "en": "It's very cold today.", "ja": "今日はとても寒い。" } }
+      { "word": "berry", "ipa": "ˈberi", "pos": "名詞", "meaning": "ベリー、小さな実", "example": { "en": "This berry heals HP.", "ja": "この木の実はHPを回復する。" } },
+      { "word": "very", "ipa": "ˈveri", "pos": "副詞", "meaning": "とても", "example": { "en": "The boss is very big.", "ja": "ボスはとても大きい。" } }
     ]
   },
   {
@@ -499,144 +499,144 @@
     "id": "sink-think", "kind": "th", "level": 3,
     "point": "TH は舌先を上の歯に軽く当てて息を出す音 /θ/。sink（沈む、流し）と think（考える）。",
     "words": [
-      { "word": "sink", "ipa": "sɪŋk", "pos": "動詞・名詞", "meaning": "沈む、流し台", "example": { "en": "Put the dishes in the sink.", "ja": "皿を流しに入れて。" } },
-      { "word": "think", "ipa": "θɪŋk", "pos": "動詞", "meaning": "考える、思う", "example": { "en": "I think it will rain.", "ja": "雨が降ると思う。" } }
+      { "word": "sink", "ipa": "sɪŋk", "pos": "動詞・名詞", "meaning": "沈む、流し台", "example": { "en": "The maid put the dishes in the sink.", "ja": "メイドは皿を流しに入れた。" } },
+      { "word": "think", "ipa": "θɪŋk", "pos": "動詞", "meaning": "考える、思う", "example": { "en": "I think the boss is weak.", "ja": "ボスは弱いと思う。" } }
     ]
   },
   {
     "id": "sick-thick", "kind": "th", "level": 3,
     "point": "sick（病気の）と thick（厚い）。",
     "words": [
-      { "word": "sick", "ipa": "sɪk", "pos": "形容詞", "meaning": "病気の", "example": { "en": "I was sick in bed yesterday.", "ja": "昨日は病気で寝ていた。" } },
-      { "word": "thick", "ipa": "θɪk", "pos": "形容詞", "meaning": "厚い、濃い", "example": { "en": "This book is very thick.", "ja": "この本はとても分厚い。" } }
+      { "word": "sick", "ipa": "sɪk", "pos": "形容詞", "meaning": "病気の", "example": { "en": "The hero was sick in bed yesterday.", "ja": "勇者は昨日具合が悪くて寝ていた。" } },
+      { "word": "thick", "ipa": "θɪk", "pos": "形容詞", "meaning": "厚い、濃い", "example": { "en": "This light novel is very thick.", "ja": "このライトノベルはとても厚い。" } }
     ]
   },
   {
     "id": "mouse-mouth", "kind": "th", "level": 2,
     "point": "mouse（ネズミ）/s/ と mouth（口）/θ/。",
     "words": [
-      { "word": "mouse", "ipa": "maʊs", "pos": "名詞", "meaning": "ネズミ、マウス", "example": { "en": "A mouse ran across the kitchen.", "ja": "ネズミが台所を走り抜けた。" } },
-      { "word": "mouth", "ipa": "maʊθ", "pos": "名詞", "meaning": "口", "example": { "en": "Open your mouth, please.", "ja": "口を開けてください。" } }
+      { "word": "mouse", "ipa": "maʊs", "pos": "名詞", "meaning": "ネズミ、マウス", "example": { "en": "A mouse ran across the castle.", "ja": "ネズミがお城を走りぬけた。" } },
+      { "word": "mouth", "ipa": "maʊθ", "pos": "名詞", "meaning": "口", "example": { "en": "Open your mouth, hero.", "ja": "口を開けて、勇者。" } }
     ]
   },
   {
     "id": "sing-thing", "kind": "th", "level": 2,
     "point": "sing（歌う）と thing（もの、こと）。",
     "words": [
-      { "word": "sing", "ipa": "sɪŋ", "pos": "動詞", "meaning": "歌う", "example": { "en": "She loves to sing.", "ja": "彼女は歌うのが大好きだ。" } },
-      { "word": "thing", "ipa": "θɪŋ", "pos": "名詞", "meaning": "もの、こと", "example": { "en": "That's a good thing.", "ja": "それはいいことだ。" } }
+      { "word": "sing", "ipa": "sɪŋ", "pos": "動詞", "meaning": "歌う", "example": { "en": "The idol loves to sing.", "ja": "そのアイドルは歌うことが大好きだ。" } },
+      { "word": "thing", "ipa": "θɪŋ", "pos": "名詞", "meaning": "もの、こと", "example": { "en": "That's a good thing, hero.", "ja": "それはいいことだ、勇者。" } }
     ]
   },
   {
     "id": "close-clothes", "kind": "th", "level": 3,
     "point": "close（閉める）は /z/、clothes（服）は /ðz/。clothes は「クロウズ」とほぼ同じに聞こえることも多い。",
     "words": [
-      { "word": "close", "ipa": "kloʊz", "pos": "動詞", "meaning": "閉める", "example": { "en": "Please close the window.", "ja": "窓を閉めてください。" } },
-      { "word": "clothes", "ipa": "kloʊðz", "pos": "名詞", "meaning": "服、衣類", "example": { "en": "I need to buy new clothes.", "ja": "新しい服を買わなくちゃ。" } }
+      { "word": "close", "ipa": "kloʊz", "pos": "動詞", "meaning": "閉める", "example": { "en": "Please close the door, hero.", "ja": "扉を閉めてください、勇者。" } },
+      { "word": "clothes", "ipa": "kloʊðz", "pos": "名詞", "meaning": "服、衣類", "example": { "en": "The cosplayer needs new clothes.", "ja": "コスプレイヤーは新しい服が必要だ。" } }
     ]
   },
   {
     "id": "bus-bath", "kind": "th", "level": 2,
     "point": "どちらも「バス」。bus（乗り物）は短い /ʌ/ と /s/、bath（おふろ）は /æ/ と舌を歯ではさむ /θ/。",
     "words": [
-      { "word": "bus", "ipa": "bʌs", "pos": "名詞", "meaning": "バス（乗り物）", "example": { "en": "I go to school by bus.", "ja": "バスで学校に行く。" } },
-      { "word": "bath", "ipa": "bæθ", "pos": "名詞", "meaning": "入浴、おふろ", "example": { "en": "I take a bath every night.", "ja": "毎晩おふろに入る。" } }
+      { "word": "bus", "ipa": "bʌs", "pos": "名詞", "meaning": "バス（乗り物）", "example": { "en": "The hero goes to school by bus.", "ja": "主人公はバスで学校へ行く。" } },
+      { "word": "bath", "ipa": "bæθ", "pos": "名詞", "meaning": "入浴、おふろ", "example": { "en": "The hero takes a bath every night.", "ja": "勇者は毎晩お風呂に入る。" } }
     ]
   },
   {
     "id": "hear-here", "kind": "homophone", "level": 1,
     "point": "発音はどちらも /hɪr/。hear（聞こえる）には ear（耳）が入っている、と覚える。",
     "words": [
-      { "word": "hear", "ipa": "hɪr", "pos": "動詞", "meaning": "聞こえる、聞く", "example": { "en": "Can you hear me?", "ja": "聞こえますか？" } },
-      { "word": "here", "ipa": "hɪr", "pos": "副詞", "meaning": "ここに、ここで", "example": { "en": "Come here, please.", "ja": "ここに来てください。" } }
+      { "word": "hear", "ipa": "hɪr", "pos": "動詞", "meaning": "聞こえる、聞く", "example": { "en": "Can you hear the hero's voice?", "ja": "勇者の声が聞こえる？" } },
+      { "word": "here", "ipa": "hɪr", "pos": "副詞", "meaning": "ここに、ここで", "example": { "en": "Come here, hero.", "ja": "こっちへ来て、勇者。" } }
     ]
   },
   {
     "id": "son-sun", "kind": "homophone", "level": 1,
     "point": "発音はどちらも /sʌn/。son（息子）と sun（太陽）。",
     "words": [
-      { "word": "son", "ipa": "sʌn", "pos": "名詞", "meaning": "息子", "example": { "en": "They have a son and a daughter.", "ja": "彼らには息子と娘がいる。" } },
-      { "word": "sun", "ipa": "sʌn", "pos": "名詞", "meaning": "太陽", "example": { "en": "The sun rises in the east.", "ja": "太陽は東から昇る。" } }
+      { "word": "son", "ipa": "sʌn", "pos": "名詞", "meaning": "息子", "example": { "en": "The king has a son and a daughter.", "ja": "王様には息子と娘がいる。" } },
+      { "word": "sun", "ipa": "sʌn", "pos": "名詞", "meaning": "太陽", "example": { "en": "The sun rises over the castle.", "ja": "太陽は城の上から昇る。" } }
     ]
   },
   {
     "id": "sea-see", "kind": "homophone", "level": 1,
     "point": "発音はどちらも /siː/。sea（海）と see（見える、会う）。",
     "words": [
-      { "word": "sea", "ipa": "siː", "pos": "名詞", "meaning": "海", "example": { "en": "We swim in the sea every summer.", "ja": "私たちは毎年夏に海で泳ぐ。" } },
-      { "word": "see", "ipa": "siː", "pos": "動詞", "meaning": "見える、会う", "example": { "en": "Nice to see you again.", "ja": "また会えてうれしい。" } }
+      { "word": "sea", "ipa": "siː", "pos": "名詞", "meaning": "海", "example": { "en": "The pirate ship is on the sea.", "ja": "海賊船は海の上にいる。" } },
+      { "word": "see", "ipa": "siː", "pos": "動詞", "meaning": "見える、会う", "example": { "en": "Nice to see you again, hero.", "ja": "また会えてうれしい、勇者。" } }
     ]
   },
   {
     "id": "right-write", "kind": "homophone", "level": 2,
     "point": "発音はどちらも /raɪt/。write（書く）の w は読まない。",
     "words": [
-      { "word": "right", "ipa": "raɪt", "pos": "形容詞", "meaning": "正しい、右の", "example": { "en": "Turn right at the corner.", "ja": "角を右に曲がって。" } },
-      { "word": "write", "ipa": "raɪt", "pos": "動詞", "meaning": "書く", "example": { "en": "Please write your name here.", "ja": "ここに名前を書いてください。" } }
+      { "word": "right", "ipa": "raɪt", "pos": "形容詞", "meaning": "正しい、右の", "example": { "en": "Turn right at the castle.", "ja": "城のところで右に曲がって。" } },
+      { "word": "write", "ipa": "raɪt", "pos": "動詞", "meaning": "書く", "example": { "en": "The mangaka will write a new story.", "ja": "漫画家は新しい物語を書くつもりだ。" } }
     ]
   },
   {
     "id": "week-weak", "kind": "homophone", "level": 2,
     "point": "発音はどちらも /wiːk/。week（週）と weak（弱い）。",
     "words": [
-      { "word": "week", "ipa": "wiːk", "pos": "名詞", "meaning": "週", "example": { "en": "I play tennis twice a week.", "ja": "週に2回テニスをする。" } },
-      { "word": "weak", "ipa": "wiːk", "pos": "形容詞", "meaning": "弱い", "example": { "en": "I felt weak and tired.", "ja": "体に力が入らず、疲れていた。" } }
+      { "word": "week", "ipa": "wiːk", "pos": "名詞", "meaning": "週", "example": { "en": "The event is this week.", "ja": "イベントは今週だ。" } },
+      { "word": "weak", "ipa": "wiːk", "pos": "形容詞", "meaning": "弱い", "example": { "en": "The slime is weak against fire.", "ja": "スライムは火に弱い。" } }
     ]
   },
   {
     "id": "meet-meat", "kind": "homophone", "level": 2,
     "point": "発音はどちらも /miːt/。meet（会う）と meat（肉）。",
     "words": [
-      { "word": "meet", "ipa": "miːt", "pos": "動詞", "meaning": "会う", "example": { "en": "Let's meet at the station.", "ja": "駅で会おう。" } },
-      { "word": "meat", "ipa": "miːt", "pos": "名詞", "meaning": "肉", "example": { "en": "I don't eat much meat.", "ja": "私はあまり肉を食べない。" } }
+      { "word": "meet", "ipa": "miːt", "pos": "動詞", "meaning": "会う", "example": { "en": "I meet my hero at the event.", "ja": "私はイベントで推しに会う。" } },
+      { "word": "meat", "ipa": "miːt", "pos": "名詞", "meaning": "肉", "example": { "en": "The hero loves meat.", "ja": "勇者は肉が大好きだ。" } }
     ]
   },
   {
     "id": "peace-piece", "kind": "homophone", "level": 3,
     "point": "発音はどちらも /piːs/。peace（平和）と piece（一切れ）。「a piece of pie（パイ一切れ）」と覚える。",
     "words": [
-      { "word": "peace", "ipa": "piːs", "pos": "名詞", "meaning": "平和", "example": { "en": "We hope for world peace.", "ja": "私たちは世界平和を願う。" } },
-      { "word": "piece", "ipa": "piːs", "pos": "名詞", "meaning": "一切れ、一個", "example": { "en": "Can I have a piece of cake?", "ja": "ケーキを一切れもらえる？" } }
+      { "word": "peace", "ipa": "piːs", "pos": "名詞", "meaning": "平和", "example": { "en": "The hero fought for world peace.", "ja": "勇者は世界の平和のために戦った。" } },
+      { "word": "piece", "ipa": "piːs", "pos": "名詞", "meaning": "一切れ、一個", "example": { "en": "The princess ate a piece of cake.", "ja": "姫はケーキを一切れ食べた。" } }
     ]
   },
   {
     "id": "whole-hole", "kind": "homophone", "level": 3,
     "point": "発音はどちらも /hoʊl/。whole（全体の）の w は読まない。",
     "words": [
-      { "word": "whole", "ipa": "hoʊl", "pos": "形容詞", "meaning": "全体の、まるごとの", "example": { "en": "He ate the whole pizza.", "ja": "彼はピザをまるごと一枚食べた。" } },
-      { "word": "hole", "ipa": "hoʊl", "pos": "名詞", "meaning": "穴", "example": { "en": "There's a hole in my sock.", "ja": "靴下に穴があいている。" } }
+      { "word": "whole", "ipa": "hoʊl", "pos": "形容詞", "meaning": "全体の、まるごとの", "example": { "en": "The hero ate the whole cake.", "ja": "勇者はケーキをまるごと食べた。" } },
+      { "word": "hole", "ipa": "hoʊl", "pos": "名詞", "meaning": "穴", "example": { "en": "There's a hole in the hero's sock.", "ja": "勇者の靴下に穴があいている。" } }
     ]
   },
   {
     "id": "flower-flour", "kind": "homophone", "level": 3,
     "point": "発音はほぼ同じ /ˈflaʊər/。flour（小麦粉）はもとは flower と同じ語で、小麦の「いちばん良い部分（花）」の意味だった。",
     "words": [
-      { "word": "flower", "ipa": "ˈflaʊər", "pos": "名詞", "meaning": "花", "example": { "en": "She gave me a flower.", "ja": "彼女は私に花をくれた。" } },
-      { "word": "flour", "ipa": "ˈflaʊər", "pos": "名詞", "meaning": "小麦粉", "example": { "en": "Mix the flour with milk.", "ja": "小麦粉を牛乳と混ぜて。" } }
+      { "word": "flower", "ipa": "ˈflaʊər", "pos": "名詞", "meaning": "花", "example": { "en": "The elf gave me a flower.", "ja": "エルフは私に花をくれた。" } },
+      { "word": "flour", "ipa": "ˈflaʊər", "pos": "名詞", "meaning": "小麦粉", "example": { "en": "The cook mixed the flour with milk.", "ja": "コックは小麦粉を牛乳と混ぜた。" } }
     ]
   },
   {
     "id": "steal-steel", "kind": "homophone", "level": 4,
     "point": "発音はどちらも /stiːl/。steal（盗む）と steel（鋼鉄）。",
     "words": [
-      { "word": "steal", "ipa": "stiːl", "pos": "動詞", "meaning": "盗む", "example": { "en": "Someone tried to steal my bike.", "ja": "誰かが私の自転車を盗もうとした。" } },
-      { "word": "steel", "ipa": "stiːl", "pos": "名詞", "meaning": "鋼鉄", "example": { "en": "The bridge is made of steel.", "ja": "その橋は鋼鉄でできている。" } }
+      { "word": "steal", "ipa": "stiːl", "pos": "動詞", "meaning": "盗む", "example": { "en": "The thief tried to steal the princess's jewel.", "ja": "盗賊は姫の宝石を盗もうとした。" } },
+      { "word": "steel", "ipa": "stiːl", "pos": "名詞", "meaning": "鋼鉄", "example": { "en": "The hero's sword is made of steel.", "ja": "勇者の剣は鋼鉄でできている。" } }
     ]
   },
   {
     "id": "weather-whether", "kind": "homophone", "level": 4,
     "point": "発音はほぼ同じ /ˈweðər/。weather（天気）と whether（〜かどうか）。英検の長文でもよく出る。",
     "words": [
-      { "word": "weather", "ipa": "ˈweðər", "pos": "名詞", "meaning": "天気", "example": { "en": "The weather is nice today.", "ja": "今日は天気がいい。" } },
-      { "word": "whether", "ipa": "ˈweðər", "pos": "接続詞", "meaning": "〜かどうか", "example": { "en": "I don't know whether he will come.", "ja": "彼が来るかどうかわからない。" } }
+      { "word": "weather", "ipa": "ˈweðər", "pos": "名詞", "meaning": "天気", "example": { "en": "The weather is nice today, hero.", "ja": "今日はいい天気だ、勇者。" } },
+      { "word": "whether", "ipa": "ˈweðər", "pos": "接続詞", "meaning": "〜かどうか", "example": { "en": "I don't know whether the boss will come.", "ja": "ボスが来るかどうかわからない。" } }
     ]
   },
   {
     "id": "route-root", "kind": "homophone", "level": 4,
     "point": "route は /ruːt/（米では /raʊt/ とも）、root は /ruːt/。route（道順）と root（根、根源）。",
     "words": [
-      { "word": "route", "ipa": "ruːt", "pos": "名詞", "meaning": "道順、ルート", "example": { "en": "This is the fastest route to the airport.", "ja": "これが空港への一番速い道順だ。" } },
-      { "word": "root", "ipa": "ruːt", "pos": "名詞", "meaning": "根、根源", "example": { "en": "Money is the root of the problem.", "ja": "お金が問題の根源だ。" } }
+      { "word": "route", "ipa": "ruːt", "pos": "名詞", "meaning": "道順、ルート", "example": { "en": "This is the fastest route to the castle.", "ja": "これは城への一番近いルートだ。" } },
+      { "word": "root", "ipa": "ruːt", "pos": "名詞", "meaning": "根、根源", "example": { "en": "Greed is the root of the problem.", "ja": "欲が問題の根源だ。" } }
     ]
   },
   {
@@ -651,24 +651,24 @@
     "id": "night-knight", "kind": "homophone", "level": 3,
     "point": "発音はどちらも /naɪt/。knight（騎士）の k は発音しない。",
     "words": [
-      { "word": "night", "ipa": "naɪt", "pos": "名詞", "meaning": "夜", "example": { "en": "The stars are bright tonight. I love the night.", "ja": "今夜は星が明るい。夜が大好きだ。" } },
-      { "word": "knight", "ipa": "naɪt", "pos": "名詞", "meaning": "騎士", "example": { "en": "The knight protected the princess.", "ja": "騎士は王女を守った。" } }
+      { "word": "night", "ipa": "naɪt", "pos": "名詞", "meaning": "夜", "example": { "en": "The ninja comes out at night.", "ja": "忍者は夜に姿を現す。" } },
+      { "word": "knight", "ipa": "naɪt", "pos": "名詞", "meaning": "騎士", "example": { "en": "The knight protected the princess.", "ja": "騎士は姫を守った。" } }
     ]
   },
   {
     "id": "sail-sale", "kind": "homophone", "level": 3,
     "point": "発音はどちらも /seɪl/。sale（セール、販売）と sail（帆、航海する）。",
     "words": [
-      { "word": "sale", "ipa": "seɪl", "pos": "名詞", "meaning": "販売、セール", "example": { "en": "These shoes were on sale.", "ja": "この靴はセールだった。" } },
-      { "word": "sail", "ipa": "seɪl", "pos": "動詞", "meaning": "航海する、船で行く", "example": { "en": "The pirates sail across the sea.", "ja": "海賊たちは海を渡っていく。" } }
+      { "word": "sale", "ipa": "seɪl", "pos": "名詞", "meaning": "販売、セール", "example": { "en": "This figure is on sale.", "ja": "このフィギュアはセール中だ。" } },
+      { "word": "sail", "ipa": "seɪl", "pos": "動詞", "meaning": "航海する、船で行く", "example": { "en": "The pirates sail across the sea.", "ja": "海賊たちは海をわたって航海する。" } }
     ]
   },
   {
     "id": "mail-male", "kind": "homophone", "level": 3,
     "point": "発音はどちらも /meɪl/。mail（郵便、メール）と male（男性の、オス）。",
     "words": [
-      { "word": "mail", "ipa": "meɪl", "pos": "名詞", "meaning": "郵便、メール", "example": { "en": "Did you check your mail today?", "ja": "今日メールを確認した？" } },
-      { "word": "male", "ipa": "meɪl", "pos": "形容詞・名詞", "meaning": "男性の、オスの／男性", "example": { "en": "Is your cat male or female?", "ja": "あなたの猫はオス、それともメス？" } }
+      { "word": "mail", "ipa": "meɪl", "pos": "名詞", "meaning": "郵便、メール", "example": { "en": "Did you check your mail today, hero?", "ja": "今日メールを確認した、勇者？" } },
+      { "word": "male", "ipa": "meɪl", "pos": "形容詞・名詞", "meaning": "男性の、オスの／男性", "example": { "en": "Is your cat male or female?", "ja": "君の猫はオス？メス？" } }
     ]
   },
   {
@@ -676,15 +676,15 @@
     "point": "発音はどちらも /roʊl/。role（役割）と roll（転がる、巻いたもの）。RPG は role-playing game、ロールケーキは roll cake。",
     "words": [
       { "word": "role", "ipa": "roʊl", "pos": "名詞", "meaning": "役割、役", "example": { "en": "In this game, you play the role of a knight.", "ja": "このゲームでは騎士の役を演じる。" } },
-      { "word": "roll", "ipa": "roʊl", "pos": "動詞・名詞", "meaning": "転がる、（さいころを）振る／巻いたもの", "example": { "en": "Roll the dice to start.", "ja": "さいころを振って始めよう。" } }
+      { "word": "roll", "ipa": "roʊl", "pos": "動詞・名詞", "meaning": "転がる、（さいころを）振る／巻いたもの", "example": { "en": "Roll the dice to start the game.", "ja": "さいころを振ってゲームを始めよう。" } }
     ]
   },
   {
     "id": "brake-break", "kind": "homophone", "level": 3,
     "point": "発音はどちらも /breɪk/。brake（ブレーキ）と break（壊す、休憩）。カタカナでは「ブレーキ」と「ブレイク」で書き分ける。",
     "words": [
-      { "word": "brake", "ipa": "breɪk", "pos": "名詞・動詞", "meaning": "ブレーキ／ブレーキをかける", "example": { "en": "Press the brake to stop the car.", "ja": "車を止めるにはブレーキを踏んで。" } },
-      { "word": "break", "ipa": "breɪk", "pos": "動詞・名詞", "meaning": "壊す／休憩", "example": { "en": "Let's take a coffee break.", "ja": "コーヒー休憩にしよう。" } }
+      { "word": "brake", "ipa": "breɪk", "pos": "名詞・動詞", "meaning": "ブレーキ／ブレーキをかける", "example": { "en": "Press the brake to stop the mecha.", "ja": "メカを止めるにはブレーキを踏め。" } },
+      { "word": "break", "ipa": "breɪk", "pos": "動詞・名詞", "meaning": "壊す／休憩", "example": { "en": "Let's take a break at the inn.", "ja": "宿屋で休憩しよう。" } }
     ]
   },
   {
@@ -692,38 +692,38 @@
     "point": "発音はどちらも /pleɪn/。plain（ふつうの、プレーンな、平原）と plane（飛行機、平面）。",
     "words": [
       { "word": "plain", "ipa": "pleɪn", "pos": "形容詞", "meaning": "ふつうの、飾りのない", "example": { "en": "I'd like plain yogurt, please.", "ja": "プレーンヨーグルトをお願いします。" } },
-      { "word": "plane", "ipa": "pleɪn", "pos": "名詞", "meaning": "飛行機", "example": { "en": "The plane took off on time.", "ja": "飛行機は時間どおりに離陸した。" } }
+      { "word": "plane", "ipa": "pleɪn", "pos": "名詞", "meaning": "飛行機", "example": { "en": "The plane took off from the space port.", "ja": "飛行機は宇宙港から飛び立った。" } }
     ]
   },
   {
     "id": "scene-seen", "kind": "homophone", "level": 4,
     "point": "発音はどちらも /siːn/。scene（場面、シーン）と seen（see の過去分詞）。",
     "words": [
-      { "word": "scene", "ipa": "siːn", "pos": "名詞", "meaning": "場面、シーン", "example": { "en": "This is my favorite scene in the movie.", "ja": "ここが映画で一番好きな場面だ。" } },
-      { "word": "seen", "ipa": "siːn", "pos": "動詞（過去分詞）", "meaning": "見た（see の過去分詞）", "example": { "en": "Have you seen my keys?", "ja": "私の鍵を見なかった？" } }
+      { "word": "scene", "ipa": "siːn", "pos": "名詞", "meaning": "場面、シーン", "example": { "en": "This is my favorite scene in the anime.", "ja": "これはアニメで一番好きなシーンだ。" } },
+      { "word": "seen", "ipa": "siːn", "pos": "動詞（過去分詞）", "meaning": "見た（see の過去分詞）", "example": { "en": "Have you seen my sword?", "ja": "私の剣を見なかった？" } }
     ]
   },
   {
     "id": "pair-pear", "kind": "homophone", "level": 3,
     "point": "発音はどちらも /per/。pair（ペア、一組）と pear（洋ナシ）。",
     "words": [
-      { "word": "pair", "ipa": "per", "pos": "名詞", "meaning": "一組、ペア", "example": { "en": "I bought a new pair of shoes.", "ja": "新しい靴を一足買った。" } },
-      { "word": "pear", "ipa": "per", "pos": "名詞", "meaning": "洋ナシ", "example": { "en": "This pear is sweet and juicy.", "ja": "この洋ナシは甘くてみずみずしい。" } }
+      { "word": "pair", "ipa": "per", "pos": "名詞", "meaning": "一組、ペア", "example": { "en": "The hero bought a new pair of boots.", "ja": "勇者は新しいブーツを一足買った。" } },
+      { "word": "pear", "ipa": "per", "pos": "名詞", "meaning": "洋ナシ", "example": { "en": "This pear is sweet and juicy.", "ja": "この梨は甘くてみずみずしい。" } }
     ]
   },
   {
     "id": "site-sight", "kind": "homophone", "level": 4,
     "point": "発音はどちらも /saɪt/。site（場所、ウェブサイト）と sight（視力、光景）。",
     "words": [
-      { "word": "site", "ipa": "saɪt", "pos": "名詞", "meaning": "場所、用地、ウェブサイト", "example": { "en": "Visit our site for more information.", "ja": "詳しくはサイトをご覧ください。" } },
-      { "word": "sight", "ipa": "saɪt", "pos": "名詞", "meaning": "視力、光景", "example": { "en": "The sunset was a beautiful sight.", "ja": "夕日は美しい光景だった。" } }
+      { "word": "site", "ipa": "saɪt", "pos": "名詞", "meaning": "場所、用地、ウェブサイト", "example": { "en": "Visit the official site for the new anime.", "ja": "新しいアニメの情報は公式サイトを見て。" } },
+      { "word": "sight", "ipa": "saɪt", "pos": "名詞", "meaning": "視力、光景", "example": { "en": "The sunset was a beautiful sight.", "ja": "夕焼けは美しい眺めだった。" } }
     ]
   },
   {
     "id": "quite-quiet", "kind": "spelling", "level": 3,
     "point": "quite（かなり）は1音節「クワイト」、quiet（静かな）は2音節「クワイエット」。e の位置に注目。",
     "words": [
-      { "word": "quite", "ipa": "kwaɪt", "pos": "副詞", "meaning": "かなり、まったく", "example": { "en": "The test was quite difficult.", "ja": "テストはかなり難しかった。" } },
+      { "word": "quite", "ipa": "kwaɪt", "pos": "副詞", "meaning": "かなり、まったく", "example": { "en": "The boss battle was quite difficult.", "ja": "ボス戦はかなり難しかった。" } },
       { "word": "quiet", "ipa": "ˈkwaɪət", "pos": "形容詞", "meaning": "静かな", "example": { "en": "Please be quiet in the library.", "ja": "図書館では静かにしてください。" } }
     ]
   },
@@ -731,15 +731,15 @@
     "id": "desert-dessert", "kind": "spelling", "level": 3,
     "point": "desert（砂漠）は前にアクセント、dessert（デザート）は後ろにアクセント。「s が2つ（sweet stuff）は甘いもの」と覚える。",
     "words": [
-      { "word": "desert", "ipa": "ˈdezərt", "pos": "名詞", "meaning": "砂漠", "example": { "en": "Camels can live in the desert.", "ja": "ラクダは砂漠で生きられる。" } },
-      { "word": "dessert", "ipa": "dɪˈzɜːrt", "pos": "名詞", "meaning": "デザート", "example": { "en": "What would you like for dessert?", "ja": "デザートは何にしますか？" } }
+      { "word": "desert", "ipa": "ˈdezərt", "pos": "名詞", "meaning": "砂漠", "example": { "en": "The hero crossed the hot desert.", "ja": "勇者は暑い砂漠を横切った。" } },
+      { "word": "dessert", "ipa": "dɪˈzɜːrt", "pos": "名詞", "meaning": "デザート", "example": { "en": "What would you like for dessert, princess?", "ja": "デザートは何がいいですか、姫？" } }
     ]
   },
   {
     "id": "lose-loose", "kind": "spelling", "level": 3,
     "point": "lose（失う、負ける）は /luːz/、loose（ゆるい）は /luːs/。o が1つか2つか。",
     "words": [
-      { "word": "lose", "ipa": "luːz", "pos": "動詞", "meaning": "失う、負ける", "example": { "en": "Don't lose your key.", "ja": "鍵をなくさないで。" } },
+      { "word": "lose", "ipa": "luːz", "pos": "動詞", "meaning": "失う、負ける", "example": { "en": "Don't lose your key, hero.", "ja": "鍵をなくさないで、勇者。" } },
       { "word": "loose", "ipa": "luːs", "pos": "形容詞", "meaning": "ゆるい", "example": { "en": "These pants are too loose.", "ja": "このズボンはゆるすぎる。" } }
     ]
   },
@@ -748,71 +748,71 @@
     "point": "cloth（布）は /klɔːθ/、clothes（服）は /kloʊðz/。clothes は常に複数扱い。",
     "words": [
       { "word": "cloth", "ipa": "klɔːθ", "pos": "名詞", "meaning": "布", "example": { "en": "Clean the table with a wet cloth.", "ja": "ぬれた布でテーブルをふいて。" } },
-      { "word": "clothes", "ipa": "kloʊðz", "pos": "名詞", "meaning": "服、衣類", "example": { "en": "She bought some new clothes.", "ja": "彼女は新しい服を何着か買った。" } }
+      { "word": "clothes", "ipa": "kloʊðz", "pos": "名詞", "meaning": "服、衣類", "example": { "en": "The idol bought some new clothes.", "ja": "アイドルは新しい服を買った。" } }
     ]
   },
   {
     "id": "breath-breathe", "kind": "spelling", "level": 4,
     "point": "breath（息：名詞）/breθ/ と breathe（呼吸する：動詞）/briːð/。e がつくと動詞。",
     "words": [
-      { "word": "breath", "ipa": "breθ", "pos": "名詞", "meaning": "息、呼吸", "example": { "en": "Take a deep breath.", "ja": "深呼吸して。" } },
-      { "word": "breathe", "ipa": "briːð", "pos": "動詞", "meaning": "呼吸する", "example": { "en": "Breathe slowly and relax.", "ja": "ゆっくり呼吸してリラックスして。" } }
+      { "word": "breath", "ipa": "breθ", "pos": "名詞", "meaning": "息、呼吸", "example": { "en": "Take a deep breath, hero.", "ja": "深呼吸して、勇者。" } },
+      { "word": "breathe", "ipa": "briːð", "pos": "動詞", "meaning": "呼吸する", "example": { "en": "Breathe slowly before the boss fight.", "ja": "ボス戦の前にゆっくり息をして。" } }
     ]
   },
   {
     "id": "advice-advise", "kind": "spelling", "level": 4,
     "point": "advice（助言：名詞）は /s/、advise（助言する：動詞）は /z/。c は名詞、s は動詞。",
     "words": [
-      { "word": "advice", "ipa": "ədˈvaɪs", "pos": "名詞", "meaning": "助言", "example": { "en": "Can I give you some advice?", "ja": "ちょっとアドバイスしてもいい？" } },
-      { "word": "advise", "ipa": "ədˈvaɪz", "pos": "動詞", "meaning": "助言する", "example": { "en": "I advise you to see a doctor.", "ja": "医者に診てもらうことをすすめます。" } }
+      { "word": "advice", "ipa": "ədˈvaɪs", "pos": "名詞", "meaning": "助言", "example": { "en": "Can I give you some advice, hero?", "ja": "助言をしてもいいかな、勇者？" } },
+      { "word": "advise", "ipa": "ədˈvaɪz", "pos": "動詞", "meaning": "助言する", "example": { "en": "I advise you to see a healer.", "ja": "ヒーラーに診てもらうことをすすめる。" } }
     ]
   },
   {
     "id": "rise-raise", "kind": "spelling", "level": 4,
     "point": "rise（上がる）は目的語をとらない、raise（上げる）は目的語をとる。raise your hand（手を挙げる）。",
     "words": [
-      { "word": "rise", "ipa": "raɪz", "pos": "動詞", "meaning": "上がる、昇る", "example": { "en": "Prices rise every year.", "ja": "物価は毎年上がる。" } },
-      { "word": "raise", "ipa": "reɪz", "pos": "動詞", "meaning": "上げる、育てる", "example": { "en": "Raise your hand if you know the answer.", "ja": "答えがわかったら手を挙げて。" } }
+      { "word": "rise", "ipa": "raɪz", "pos": "動詞", "meaning": "上がる、昇る", "example": { "en": "Our levels rise every day.", "ja": "私たちのレベルは毎日上がる。" } },
+      { "word": "raise", "ipa": "reɪz", "pos": "動詞", "meaning": "上げる、育てる", "example": { "en": "Raise your sword if you are ready.", "ja": "準備ができたら剣を掲げろ。" } }
     ]
   },
   {
     "id": "lie-lay", "kind": "spelling", "level": 4,
     "point": "lie（横になる）は目的語をとらず、lay（横たえる、置く）は目的語をとる。lie の過去形が lay なのでさらにまぎらわしい。",
     "words": [
-      { "word": "lie", "ipa": "laɪ", "pos": "動詞", "meaning": "横になる、うそをつく", "example": { "en": "Lie down and get some rest.", "ja": "横になって少し休んで。" } },
-      { "word": "lay", "ipa": "leɪ", "pos": "動詞", "meaning": "横たえる、置く、（卵を）産む", "example": { "en": "Hens lay eggs.", "ja": "めんどりは卵を産む。" } }
+      { "word": "lie", "ipa": "laɪ", "pos": "動詞", "meaning": "横になる、うそをつく", "example": { "en": "Lie down and rest at the inn, hero.", "ja": "宿屋で横になって休みなさい、勇者。" } },
+      { "word": "lay", "ipa": "leɪ", "pos": "動詞", "meaning": "横たえる、置く、（卵を）産む", "example": { "en": "Chickens lay eggs in the barn.", "ja": "ニワトリは納屋で卵を産む。" } }
     ]
   },
   {
     "id": "accept-except", "kind": "spelling", "level": 4,
     "point": "accept（受け入れる）は ac-、except（〜を除いて）は ex-（外に）。発音も似ているので文脈で見分ける。",
     "words": [
-      { "word": "accept", "ipa": "əkˈsept", "pos": "動詞", "meaning": "受け入れる", "example": { "en": "Please accept my apology.", "ja": "どうか私のおわびを受け入れてください。" } },
-      { "word": "except", "ipa": "ɪkˈsept", "pos": "前置詞", "meaning": "〜を除いて", "example": { "en": "Everyone came except Tom.", "ja": "トム以外はみんな来た。" } }
+      { "word": "accept", "ipa": "əkˈsept", "pos": "動詞", "meaning": "受け入れる", "example": { "en": "Please accept my apology, princess.", "ja": "私のお詫びを受け入れてください、姫。" } },
+      { "word": "except", "ipa": "ɪkˈsept", "pos": "前置詞", "meaning": "〜を除いて", "example": { "en": "Everyone came except the demon king.", "ja": "魔王以外は全員来た。" } }
     ]
   },
   {
     "id": "loyal-royal", "kind": "spelling", "level": 4,
     "point": "loyal（忠実な）と royal（王の）。L と R のちがいでもある。",
     "words": [
-      { "word": "loyal", "ipa": "ˈlɔɪəl", "pos": "形容詞", "meaning": "忠実な、誠実な", "example": { "en": "Dogs are loyal to their owners.", "ja": "犬は飼い主に忠実だ。" } },
-      { "word": "royal", "ipa": "ˈrɔɪəl", "pos": "形容詞", "meaning": "王の、王室の", "example": { "en": "They visited the royal palace.", "ja": "彼らは王宮を訪れた。" } }
+      { "word": "loyal", "ipa": "ˈlɔɪəl", "pos": "形容詞", "meaning": "忠実な、誠実な", "example": { "en": "The hero's dog is loyal to him.", "ja": "勇者の犬は彼に忠実だ。" } },
+      { "word": "royal", "ipa": "ˈrɔɪəl", "pos": "形容詞", "meaning": "王の、王室の", "example": { "en": "The party visited the royal palace.", "ja": "パーティーは王宮を訪れた。" } }
     ]
   },
   {
     "id": "dairy-diary", "kind": "spelling", "level": 4,
     "point": "dairy（乳製品）/ˈderi/ と diary（日記）/ˈdaɪəri/。i と a の順番が逆。",
     "words": [
-      { "word": "dairy", "ipa": "ˈderi", "pos": "名詞・形容詞", "meaning": "乳製品（の）", "example": { "en": "I can't eat dairy products.", "ja": "私は乳製品が食べられない。" } },
-      { "word": "diary", "ipa": "ˈdaɪəri", "pos": "名詞", "meaning": "日記", "example": { "en": "She writes in her diary every night.", "ja": "彼女は毎晩日記を書く。" } }
+      { "word": "dairy", "ipa": "ˈderi", "pos": "名詞・形容詞", "meaning": "乳製品（の）", "example": { "en": "The elf can't eat dairy products.", "ja": "エルフは乳製品が食べられない。" } },
+      { "word": "diary", "ipa": "ˈdaɪəri", "pos": "名詞", "meaning": "日記", "example": { "en": "The hero writes in his diary every night.", "ja": "勇者は毎晩日記を書く。" } }
     ]
   },
   {
     "id": "costume-custom", "kind": "spelling", "level": 4,
     "point": "costume（衣装）と custom（習慣）は、どちらもラテン語 cōnsuētūdō「慣れ」から分かれた兄弟語。",
     "words": [
-      { "word": "costume", "ipa": "ˈkɑːstuːm", "pos": "名詞", "meaning": "衣装、仮装", "example": { "en": "She made a costume for the school play.", "ja": "彼女は学校劇のための衣装を作った。" } },
-      { "word": "custom", "ipa": "ˈkʌstəm", "pos": "名詞", "meaning": "習慣、慣習", "example": { "en": "It is a Japanese custom to take off your shoes.", "ja": "靴を脱ぐのは日本の習慣だ。" } }
+      { "word": "costume", "ipa": "ˈkɑːstuːm", "pos": "名詞", "meaning": "衣装、仮装", "example": { "en": "She made a costume for the school anime play.", "ja": "彼女は学校のアニメ劇のために衣装を作った。" } },
+      { "word": "custom", "ipa": "ˈkʌstəm", "pos": "名詞", "meaning": "習慣、慣習", "example": { "en": "It is a custom in this village to take off your shoes.", "ja": "この村では靴を脱ぐのがしきたりだ。" } }
     ]
   },
   {
@@ -1061,16 +1061,16 @@
     "id": "heal-heel", "kind": "homophone", "level": 4,
     "point": "heal と heel は発音が同じ /hiːl/。heal は「治す」、heel は「かかと」。",
     "words": [
-      { "word": "heal", "ipa": "hiːl", "pos": "動詞", "meaning": "（傷などを）治す、治る", "example": { "en": "The cut will heal in a few days.", "ja": "その切り傷は数日で治るだろう。" } },
-      { "word": "heel", "ipa": "hiːl", "pos": "名詞", "meaning": "かかと、（靴の）ヒール", "example": { "en": "She wore shoes with a high heel.", "ja": "彼女はかかとの高い靴をはいていた。" } }
+      { "word": "heal", "ipa": "hiːl", "pos": "動詞", "meaning": "（傷などを）治す、治る", "example": { "en": "The healer's magic can heal the wound.", "ja": "ヒーラーの魔法は傷を治せる。" } },
+      { "word": "heel", "ipa": "hiːl", "pos": "名詞", "meaning": "かかと、（靴の）ヒール", "example": { "en": "The idol wore shoes with a high heel.", "ja": "アイドルは高いヒールの靴をはいていた。" } }
     ]
   },
   {
     "id": "luck-rack", "kind": "lr", "level": 4,
     "point": "luck は L で始まり母音は /ʌ/、rack は R で始まり母音は /æ/。子音も母音もちがう。",
     "words": [
-      { "word": "luck", "ipa": "lʌk", "pos": "名詞", "meaning": "運", "example": { "en": "Good luck on your test!", "ja": "テストがんばってね！" } },
-      { "word": "rack", "ipa": "ræk", "pos": "名詞", "meaning": "（物をのせる）棚、ラック", "example": { "en": "Put your bag on the rack above the seat.", "ja": "かばんは座席の上の棚に置いてください。" } }
+      { "word": "luck", "ipa": "lʌk", "pos": "名詞", "meaning": "運", "example": { "en": "Good luck in the final battle!", "ja": "最終決戦の幸運を祈る！" } },
+      { "word": "rack", "ipa": "ræk", "pos": "名詞", "meaning": "（物をのせる）棚、ラック", "example": { "en": "Put your bag on the rack above the seat.", "ja": "かばんを座席の上の棚に置いて。" } }
     ]
   },
   {
@@ -1101,8 +1101,8 @@
     "id": "ban-bun", "kind": "vowel", "level": 4,
     "point": "ban は /æ/（口を横に開くア）、bun は /ʌ/（短いア）。",
     "words": [
-      { "word": "ban", "ipa": "bæn", "pos": "名詞・動詞", "meaning": "禁止、禁止する", "example": { "en": "The city will ban smoking in parks.", "ja": "市は公園での喫煙を禁止する予定だ。" } },
-      { "word": "bun", "ipa": "bʌn", "pos": "名詞", "meaning": "丸いパン、お団子ヘア", "example": { "en": "I ate a sweet bun for breakfast.", "ja": "朝食に甘い丸パンを食べた。" } }
+      { "word": "ban", "ipa": "bæn", "pos": "名詞・動詞", "meaning": "禁止、禁止する", "example": { "en": "The guild will ban fighting in town.", "ja": "ギルドは町での戦闘を禁止する。" } },
+      { "word": "bun", "ipa": "bʌn", "pos": "名詞", "meaning": "丸いパン、お団子ヘア", "example": { "en": "The cat girl ate a sweet bun for breakfast.", "ja": "猫耳の少女は朝食に甘いパンを食べた。" } }
     ]
   },
   {
@@ -1117,7 +1117,7 @@
     "id": "main-maine", "kind": "homophone", "level": 4,
     "point": "main と Maine（アメリカの州）は発音が同じ /meɪn/。",
     "words": [
-      { "word": "main", "ipa": "meɪn", "pos": "形容詞", "meaning": "主な", "example": { "en": "What is the main reason?", "ja": "主な理由は何ですか？" } },
+      { "word": "main", "ipa": "meɪn", "pos": "形容詞", "meaning": "主な", "example": { "en": "What is the main reason for the quest?", "ja": "このクエストの主な理由は何だ？" } },
       { "word": "Maine", "ipa": "meɪn", "pos": "名詞", "meaning": "メイン州", "example": { "en": "Maine is famous for lobsters.", "ja": "メイン州はロブスターで有名だ。" } }
     ]
   },
@@ -1165,16 +1165,16 @@
     "id": "brunch-branch", "kind": "vowel", "level": 4,
     "point": "brunch は /ʌ/（短いア）、branch は /æ/（口を横に開くア）。",
     "words": [
-      { "word": "brunch", "ipa": "brʌntʃ", "pos": "名詞", "meaning": "ブランチ（朝昼兼用の食事）", "example": { "en": "Let's have brunch on Sunday.", "ja": "日曜日にブランチを食べよう。" } },
-      { "word": "branch", "ipa": "bræntʃ", "pos": "名詞", "meaning": "枝、支店", "example": { "en": "The bank has a branch near the station.", "ja": "その銀行は駅の近くに支店がある。" } }
+      { "word": "brunch", "ipa": "brʌntʃ", "pos": "名詞", "meaning": "ブランチ（朝昼兼用の食事）", "example": { "en": "Let's have brunch at the cafe on Sunday.", "ja": "日曜にカフェでブランチをしよう。" } },
+      { "word": "branch", "ipa": "bræntʃ", "pos": "名詞", "meaning": "枝、支店", "example": { "en": "The guild has a branch near the station.", "ja": "ギルドは駅の近くに支部がある。" } }
     ]
   },
   {
     "id": "reading-leading", "kind": "lr", "level": 4,
     "point": "reading は R、leading は L で始まる。カタカナではどちらも「リーディング」。",
     "words": [
-      { "word": "reading", "ipa": "ˈriːdɪŋ", "pos": "名詞", "meaning": "読書、読み取り", "example": { "en": "Reading is my favorite hobby.", "ja": "読書は私のいちばんの趣味だ。" } },
-      { "word": "leading", "ipa": "ˈliːdɪŋ", "pos": "形容詞", "meaning": "一流の、先頭の", "example": { "en": "She is a leading expert on climate.", "ja": "彼女は気候の一流の専門家だ。" } }
+      { "word": "reading", "ipa": "ˈriːdɪŋ", "pos": "名詞", "meaning": "読書、読み取り", "example": { "en": "Reading manga is my favorite hobby.", "ja": "漫画を読むのが私の一番の趣味だ。" } },
+      { "word": "leading", "ipa": "ˈliːdɪŋ", "pos": "形容詞", "meaning": "一流の、先頭の", "example": { "en": "She is a leading voice actress in Japan.", "ja": "彼女は日本を代表する声優だ。" } }
     ]
   },
   {
