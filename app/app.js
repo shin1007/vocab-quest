@@ -945,7 +945,7 @@
     const W = box.offsetWidth;
     const H = box.offsetHeight;
     const run = SLASH.ms * 0.6; // 刀が走る時間。残りは、割れて離れる時間
-    // 刀の線：一覧の中ほどを、右上から左下へわずかに傾けて通す（縦から約7度）
+    // 刀の線：一覧の中ほどを、右上から左下へわずかに傾けて通す（縦から約7度）。形は CSS で、両端が細く中ほどが太い弧にする
     const lean = H * 0.12;
     const cx = W * 0.55;
     const xAt = (y) => cx + lean / 2 - (lean * y) / H;
@@ -969,7 +969,7 @@
     const len = Math.hypot(H, lean);
     const blade = document.createElement("i");
     blade.className = "slash-line";
-    blade.style.cssText += style(cx - 1.5, (H - len) / 2, 3, len, 0, run) + `--angle:${Math.atan2(lean, H)}rad;`;
+    blade.style.cssText += style(cx - 11, (H - len) / 2, 22, len, 0, run) + `--angle:${Math.atan2(lean, H)}rad;`;
     blade.setAttribute("aria-hidden", "true");
     box.append(blade);
     return new Promise((done) => setTimeout(done, SLASH.ms));
