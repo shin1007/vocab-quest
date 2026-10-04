@@ -190,7 +190,7 @@
       cards: {}, streak: 0, lastDay: null,
       sessions: 0, answered: 0, correct: 0, welcomed: false,
       // installLater: 「ホーム画面に追加」の案内を「あとで」で閉じた日時
-      settings: { autoVoice: true, autoNext: false, theme: DEFAULT_THEME, batch: BATCH_SIZE, review: REVIEW_SIZE, installLater: 0 },
+      settings: { autoVoice: true, sfx: true, autoNext: false, theme: DEFAULT_THEME, batch: BATCH_SIZE, review: REVIEW_SIZE, installLater: 0 },
     };
   }
   // 保存された（この版の）セーブデータを、いまの形に正規化する。書き出したファイルの読み込みにも使う
@@ -299,6 +299,7 @@
       <section class="settings-section">
         <h3>🔊 音声</h3>
         <label class="toggle"><input type="checkbox" id="auto-voice" ${state.settings.autoVoice ? "checked" : ""}><span></span> 問題と答えを自動で読み上げる</label>
+        <label class="toggle" style="margin-top:8px"><input type="checkbox" id="sfx" ${state.settings.sfx ? "checked" : ""}><span></span> 正解・不正解の効果音を鳴らす（テーマごとに音が変わります）</label>
         <p class="small muted" style="margin:8px 0 0">声：${VOICE ? esc(VOICE.label) : "ブラウザ標準の読み上げ（音声ファイル未生成）"}</p>
         ${VOICE?.credit ? `<p class="small muted" style="margin:4px 0 0">${esc(VOICE.credit)}</p>` : ""}
       </section>
@@ -324,6 +325,7 @@
       </section>`;
     bindThemeOptions($modalContent);
     $modalContent.querySelector("#auto-voice").addEventListener("change", (e) => { state.settings.autoVoice = e.target.checked; save(); });
+    $modalContent.querySelector("#sfx").addEventListener("change", (e) => { state.settings.sfx = e.target.checked; save(); if (e.target.checked) sfx(true); });
     $modalContent.querySelector("#auto-next").addEventListener("change", (e) => { state.settings.autoNext = e.target.checked; save(); });
     $modalContent.querySelector("#install")?.addEventListener("click", promptInstall);
     $modalContent.querySelector("#export").addEventListener("click", exportState);
@@ -921,7 +923,8 @@
     state.answered++;
     if (ok) { state.correct++; s.correct++; }
     save();
-    const slashed = ok && q.type !== "spell" ? slashChoices() : Promise.resolve();
+    const sfxMs = sfx(ok);
+    const slashed = ok && q.type !== "spell" ? slashChoices() : wait(sfxMs);
     if (s.targets) requeue(s, w, ok);
     const top = $view.querySelector(".quiz-top");
     top.querySelector(".steps").remove();
@@ -1027,7 +1030,7 @@
     next.focus({ preventScroll: true });
     // 斬る演出が画面の外に出ないよう、解説カードへのスクロールと読み上げは斬り終わってから
     // 不正解で正解を選び直させるときは、選択肢が見えたままになるようスクロールしない
-    if (ok || !redoCorrect(next, [`${w.id}.word`, `${w.id}.meaning`], `${w.id}.word`)) {
+    if (ok || !redoCorrect(next, [`${w.id}.word`, `${w.id}.meaning`], `${w.id}.word`, slashed)) {
       slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
       feedbackVoice(next, ok, [`${w.id}.word`, `${w.id}.meaning`], slashed);
     }
@@ -1038,7 +1041,7 @@
   // 選択肢の問題でだけ働く（つづり問題は対象外）。選び直すまで「つぎへ」は押せない。
   // 正解の英語（first）はすぐに読み上げ、選び直したら keys をあらためて読み上げて解説へスクロールする。
   // 選択肢が見えたままになるよう、答えた直後はスクロールしない。対象の問題だったら true を返す
-  function redoCorrect(next, keys, first) {
+  function redoCorrect(next, keys, first, ready = Promise.resolve()) {
     const el = $view.querySelector(".choice.correct");
     if (!el) return false;
     // 問題を答えたときの click 処理を引き継がないよう、複製に置き換える
@@ -1064,7 +1067,8 @@
       $view.querySelector(".feedback")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
     again.focus({ preventScroll: true });
-    if (state.settings.autoVoice) playVoice([first]);
+    // 効果音が鳴り終わってから、正解の英語を読み上げる
+    ready.then(() => { if (state.settings.autoVoice && again.isConnected && again.classList.contains("redo")) playVoice([first]); });
     return true;
   }
 
@@ -1521,7 +1525,8 @@
     state.cards[key] = c;
     state.answered++;
     save();
-    const slashed = ok ? slashChoices() : Promise.resolve();
+    const sfxMs = sfx(ok);
+    const slashed = ok ? slashChoices() : wait(sfxMs);
 
     const last = s.index >= s.questions.length - 1;
     const box = document.createElement("section");
@@ -1543,7 +1548,7 @@
       else { s.index++; renderPairQuestion(); window.scrollTo(0, 0); }
     });
     next.focus({ preventScroll: true });
-    if (ok || !redoCorrect(next, q.set.words.map(pairWordKey), pairWordKey(q.target))) {
+    if (ok || !redoCorrect(next, q.set.words.map(pairWordKey), pairWordKey(q.target), slashed)) {
       slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
       feedbackVoice(next, ok, q.set.words.map(pairWordKey), slashed);
     }
@@ -1613,6 +1618,101 @@
         <p class="small muted" style="margin:10px 0 0">正解するたびに1段階上がり、次の復習までの間隔が「当日 → 1日 → 3日 → 7日 → 21日」と伸びていきます。ヒントを見て正解したときは上がり方が半分です。${DIRECTION_RULE}</p>
       </section>
       <p class="small center settings-hint">テーマ・音声・記録のリセットは、右上の ⚙️ 設定から。</p>`;
+  }
+
+  // ---------- 効果音 ----------
+  // 正解・不正解の短い効果音。音声ファイルは使わず WebAudio で鳴らし、テーマごとに音色を変える（設定でオフにできる）。
+  // どれも 0.5 秒前後までで、そのあとに英語の読み上げが始まる。鳴らした長さ(ms)を返す
+  const wait = (ms) => new Promise((done) => setTimeout(done, ms));
+  let audioCtx = null;
+  let sfxOut = null;
+  let noiseBuf = null;
+
+  function sfxContext() {
+    try {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        sfxOut = audioCtx.createGain();
+        sfxOut.gain.value = 0.7;
+        sfxOut.connect(audioCtx.destination);
+        noiseBuf = audioCtx.createBuffer(1, audioCtx.sampleRate, audioCtx.sampleRate);
+        const d = noiseBuf.getChannelData(0);
+        for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+      }
+      if (audioCtx.state === "suspended") audioCtx.resume();
+      return audioCtx;
+    } catch { return null; }
+  }
+
+  // 音程：f から to へ d 秒で動く。t 秒後に鳴らし始める
+  function tone(c, { type = "sine", f, to, t = 0, d = 0.2, g = 0.25 }) {
+    const o = c.createOscillator();
+    const v = c.createGain();
+    const t0 = c.currentTime + t;
+    o.type = type;
+    o.frequency.setValueAtTime(f, t0);
+    if (to) o.frequency.exponentialRampToValueAtTime(to, t0 + d);
+    v.gain.setValueAtTime(0.0001, t0);
+    v.gain.exponentialRampToValueAtTime(g, t0 + 0.01);
+    v.gain.exponentialRampToValueAtTime(0.0001, t0 + d);
+    o.connect(v).connect(sfxOut);
+    o.start(t0);
+    o.stop(t0 + d + 0.02);
+  }
+
+  // ノイズ（空を切る音）：フィルターの周波数が from から to へ動く
+  function whoosh(c, { type = "highpass", from, to, t = 0, d = 0.15, g = 0.3 }) {
+    const n = c.createBufferSource();
+    const fl = c.createBiquadFilter();
+    const v = c.createGain();
+    const t0 = c.currentTime + t;
+    n.buffer = noiseBuf;
+    fl.type = type;
+    fl.frequency.setValueAtTime(from, t0);
+    fl.frequency.exponentialRampToValueAtTime(to, t0 + d);
+    v.gain.setValueAtTime(0.0001, t0);
+    v.gain.exponentialRampToValueAtTime(g, t0 + 0.02);
+    v.gain.exponentialRampToValueAtTime(0.0001, t0 + d);
+    n.connect(fl).connect(v).connect(sfxOut);
+    n.start(t0);
+    n.stop(t0 + d + 0.02);
+  }
+
+  const arpeggio = (c, notes, o) => notes.forEach((f, i) => tone(c, { ...o, f, t: i * o.step }));
+
+  const SFX = {
+    // 和：正解は刀を抜き放つ「シャキーン」、不正解は低くやわらかい太鼓
+    wa: {
+      ok(c) { whoosh(c, { from: 2500, to: 9000, d: 0.16, g: 0.35 }); tone(c, { f: 2637, t: 0.05, d: 0.4, g: 0.08 }); tone(c, { f: 3951, t: 0.05, d: 0.3, g: 0.05 }); return 450; },
+      ng(c) { tone(c, { f: 180, to: 90, d: 0.28, g: 0.4 }); tone(c, { type: "triangle", f: 120, to: 70, d: 0.2, g: 0.2 }); return 300; },
+    },
+    // ステージ：きらきらしたチャイム
+    stage: {
+      ok(c) { arpeggio(c, [1047, 1319, 1568], { type: "triangle", step: 0.07, d: 0.25, g: 0.2 }); return 350; },
+      ng(c) { tone(c, { type: "triangle", f: 659, d: 0.22, g: 0.18 }); tone(c, { type: "triangle", f: 523, t: 0.12, d: 0.25, g: 0.18 }); return 350; },
+    },
+    // ポップ：はずむ「ピコッ」と、ふにゃっと下がる音
+    pop: {
+      ok(c) { tone(c, { type: "square", f: 520, to: 1040, d: 0.12, g: 0.14 }); tone(c, { f: 1560, t: 0.1, d: 0.15, g: 0.18 }); return 280; },
+      ng(c) { tone(c, { f: 380, to: 200, d: 0.28, g: 0.3 }); return 300; },
+    },
+    // ストリート：ゲーム機のようなピコピコ音
+    street: {
+      ok(c) { arpeggio(c, [523, 659, 784, 1047], { type: "square", step: 0.05, d: 0.07, g: 0.1 }); return 280; },
+      ng(c) { tone(c, { type: "sawtooth", f: 200, to: 90, d: 0.25, g: 0.12 }); return 280; },
+    },
+    // ノーブル：ハープのような澄んだ響きと、低くやわらかい鐘
+    noble: {
+      ok(c) { arpeggio(c, [784, 988, 1175], { step: 0.09, d: 0.38, g: 0.15 }); arpeggio(c, [1568, 1976, 2350], { step: 0.09, d: 0.25, g: 0.04 }); return 520; },
+      ng(c) { tone(c, { f: 294, d: 0.4, g: 0.2 }); tone(c, { f: 220, t: 0.1, d: 0.4, g: 0.15 }); return 500; },
+    },
+  };
+
+  function sfx(ok) {
+    if (!state.settings.sfx) return 0;
+    const c = sfxContext();
+    if (!c) return 0;
+    try { return (SFX[state.settings.theme] || SFX[DEFAULT_THEME])[ok ? "ok" : "ng"](c); } catch { return 0; }
   }
 
   // ---------- 音声 ----------
