@@ -126,7 +126,7 @@
   const REVIEW_NUDGE = 50; // 復習がこれ以上たまっていたら、新しい語より先に復習を勧める
   const REVIEW_SIZE = 20;
   const AUTO_NEXT_MS = 1200; // 「正解なら自動で次へ」で、読み上げが終わってから次の問題に進むまでの時間
-  const SLASH = { ms: 520 }; // 正解したときに錯乱肢を斬る演出：刀が一覧を上から下へ走る時間
+  const SLASH = { ms: 520 }; // 正解したときに錯乱肢を斬る演出：刀が走って錯乱肢が割れ終わるまでの全体の時間
   const QUESTIONS_PER_SESSION = 8; // 似た単語の練習
   const DAY = 24 * 60 * 60 * 1000;
   const STORE_KEY = "vocab-quest-save-v3";
@@ -930,9 +930,9 @@
     showFeedback(q, choice, ok, before < ANSWER_EN_FROM && c.level >= ANSWER_EN_FROM, slashed);
   }
 
-  // 正解したら、錯乱肢を刀の一太刀で斬る。刀身は選択肢の一覧を上から下へ1回だけ走り、通ったところの錯乱肢から割れる。
-  // 選択肢は残したまま、上下に割れた2枚（aria-hidden の複製）を重ねて見せる。斬り終わったら解決する Promise を返す。
-  // 動きを減らす設定では、錯乱肢を薄くするだけ
+  // 正解したら、錯乱肢を刀の一太刀で斬る。ほぼ縦の1本の線が選択肢の一覧を上から下へ走り、通ったところの錯乱肢が左右に割れる。
+  // 選択肢は残したまま、左右に割れた2枚（aria-hidden の複製）を重ねて見せる。全体で SLASH.ms ほど。
+  // 斬り終わったら解決する Promise を返す。動きを減らす設定では、錯乱肢を薄くするだけ
   function slashChoices() {
     const wrong = [...$view.querySelectorAll(".choice:not(.correct)")];
     if (!wrong.length) return Promise.resolve();
@@ -942,31 +942,37 @@
     }
     const box = wrong[0].parentElement;
     box.classList.add("slashing");
-    const total = box.offsetHeight;
-    const place = (node, x, y, w, h, delay) => {
-      node.style.cssText += `left:${x}px;top:${y}px;width:${w}px;height:${h}px;--delay:${Math.round(delay)}ms;--slash-ms:${SLASH.ms}ms;`;
-      node.setAttribute("aria-hidden", "true");
-      box.append(node);
-      return node;
-    };
+    const W = box.offsetWidth;
+    const H = box.offsetHeight;
+    const run = SLASH.ms * 0.6; // 刀が走る時間。残りは、割れて離れる時間
+    // 刀の線：一覧の中ほどを、右上から左下へわずかに傾けて通す（縦から約7度）
+    const lean = H * 0.12;
+    const cx = W * 0.55;
+    const xAt = (y) => cx + lean / 2 - (lean * y) / H;
+    const style = (x, y, w, h, delay, dur) => `left:${x}px;top:${y}px;width:${w}px;height:${h}px;--delay:${Math.round(delay)}ms;--dur:${Math.round(dur)}ms;`;
     wrong.forEach((el) => {
       const { offsetLeft: x, offsetTop: y, offsetWidth: w, offsetHeight: h } = el;
-      // 刀が選択肢の中心を通るころに割れる
-      const delay = ((y + h / 2) / total) * SLASH.ms;
-      for (const part of ["upper", "lower"]) {
+      const xt = xAt(y) - x;
+      const xb = xAt(y + h) - x;
+      const clip = { left: `polygon(0 0, ${xt}px 0, ${xb}px 100%, 0 100%)`, right: `polygon(${xt}px 0, 100% 0, 100% 100%, ${xb}px 100%)` };
+      for (const side of ["left", "right"]) {
         const half = el.cloneNode(true);
         half.removeAttribute("data-i");
-        half.classList.add("half", part);
-        place(half, x, y, w, h, delay);
+        half.classList.add("half", side);
+        // 刀が選択肢の中ほどを通ったときに割れ始める
+        half.style.cssText += style(x, y, w, h, ((y + h / 2) / H) * run, SLASH.ms - run) + `clip-path:${clip[side]};`;
+        half.setAttribute("aria-hidden", "true");
+        box.append(half);
       }
       el.classList.add("slashed");
     });
-    // 刀身：一覧の幅いっぱいの斜めの線を、上から下へ1回だけ動かす
-    const blade = place(document.createElement("i"), 0, 0, box.offsetWidth, total, 0);
+    const len = Math.hypot(H, lean);
+    const blade = document.createElement("i");
     blade.className = "slash-line";
-    blade.style.setProperty("--angle", `${-Math.atan2(36, box.offsetWidth)}rad`);
-    blade.style.setProperty("--travel", `${total}px`);
-    return new Promise((done) => setTimeout(done, SLASH.ms * 1.2));
+    blade.style.cssText += style(cx - 1.5, (H - len) / 2, 3, len, 0, run) + `--angle:${Math.atan2(lean, H)}rad;`;
+    blade.setAttribute("aria-hidden", "true");
+    box.append(blade);
+    return new Promise((done) => setTimeout(done, SLASH.ms));
   }
 
   // STUDY_GOAL に届いていない語を、数問あとにもう一度出す（別の語をはさむと思い出す間隔ができる）
