@@ -619,7 +619,7 @@ button.chip:active { transform: translateY(2px); }
 /* 不正解のあと、正解を選び直してもらう（app.js の redoCorrect） */
 .choice.redo { cursor: pointer; animation: redo-ring 1.1s ease-in-out infinite; }
 /* 「ここをタップ」の指マーク。選択肢の長さに左右されないよう、右端でなく先頭の記号（.key）の場所に出し、押すようにとんとん動かす */
-.choice.correct.redo .key::after { content: "👆"; font-size: 1.2rem; line-height: 1; }
+.choice.correct.redo .key::after { content: "👆"; font-size: 1.2rem; line-height: 1; position: relative; top: 3px; }
 .choice.redo .key { animation: redo-tap 1.1s ease-in-out infinite; }
 @keyframes redo-tap { 0%, 100% { transform: translateY(-2px); } 50% { transform: translateY(2px) scale(.92); } }
 .redo-msg { margin: 10px 0 0; text-align: center; font-weight: 700; font-size: .9rem; color: var(--text); }
