@@ -1026,15 +1026,19 @@
     });
     next.focus({ preventScroll: true });
     // 斬る演出が画面の外に出ないよう、解説カードへのスクロールと読み上げは斬り終わってから
-    slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
-    if (ok || !redoCorrect(next, [`${w.id}.word`, `${w.id}.meaning`])) feedbackVoice(next, ok, [`${w.id}.word`, `${w.id}.meaning`], slashed);
+    // 不正解で正解を選び直させるときは、選択肢が見えたままになるようスクロールしない
+    if (ok || !redoCorrect(next, [`${w.id}.word`, `${w.id}.meaning`], `${w.id}.word`)) {
+      slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
+      feedbackVoice(next, ok, [`${w.id}.word`, `${w.id}.meaning`], slashed);
+    }
   }
 
   // 不正解のあとの「正解を選び直す」ステップ。間違えたまま次へ進まず、解説を読んだうえで自分の手で正解を選び直すと、
   // 正しい答えを思い出して選ぶ経験が1回増えて定着しやすい。習熟度や正答数には数えない。
-  // 選択肢の問題でだけ働く（つづり問題は対象外）。選び直すまで「つぎへ」は押せず、選び直したら読み上げる。
-  // 対象の問題だったら true を返す（このとき読み上げは選び直したあとに回す）
-  function redoCorrect(next, keys) {
+  // 選択肢の問題でだけ働く（つづり問題は対象外）。選び直すまで「つぎへ」は押せない。
+  // 正解の英語（first）はすぐに読み上げ、選び直したら keys をあらためて読み上げて解説へスクロールする。
+  // 選択肢が見えたままになるよう、答えた直後はスクロールしない。対象の問題だったら true を返す
+  function redoCorrect(next, keys, first) {
     const el = $view.querySelector(".choice.correct");
     if (!el) return false;
     // 問題を答えたときの click 処理を引き継がないよう、複製に置き換える
@@ -1057,8 +1061,10 @@
       next.disabled = false;
       next.focus({ preventScroll: true });
       if (state.settings.autoVoice) playVoice(keys);
+      $view.querySelector(".feedback")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
     again.focus({ preventScroll: true });
+    if (state.settings.autoVoice) playVoice([first]);
     return true;
   }
 
@@ -1537,8 +1543,10 @@
       else { s.index++; renderPairQuestion(); window.scrollTo(0, 0); }
     });
     next.focus({ preventScroll: true });
-    slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
-    if (ok || !redoCorrect(next, q.set.words.map(pairWordKey))) feedbackVoice(next, ok, q.set.words.map(pairWordKey), slashed);
+    if (ok || !redoCorrect(next, q.set.words.map(pairWordKey), pairWordKey(q.target))) {
+      slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
+      feedbackVoice(next, ok, q.set.words.map(pairWordKey), slashed);
+    }
   }
 
   function finishPairSession() {
