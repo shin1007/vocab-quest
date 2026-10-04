@@ -616,6 +616,10 @@ button.chip:active { transform: translateY(2px); }
 .choice.wrong { animation: none; }
 .choice.wrong .key { background: var(--card-2); color: var(--text-soft); border: var(--bw-sm) solid var(--edge); }
 .choice.dim { opacity: .45; filter: grayscale(.6); }
+/* 不正解のあと、正解を選び直してもらう（app.js の redoCorrect） */
+.choice.redo { cursor: pointer; animation: redo-ring 1.1s ease-in-out infinite; }
+@keyframes redo-ring { 50% { box-shadow: 0 0 0 5px color-mix(in srgb, var(--good-solid) 35%, transparent); } }
+.redo-msg { margin: 10px 0 0; text-align: center; font-weight: 700; font-size: .9rem; color: var(--text); }
 .choice.correct .key::after { content: "✓"; font-size: .95rem; }
 .choice.wrong .key::after { content: "✗"; font-size: .95rem; }
 @keyframes bounce { 40% { transform: scale(1.03); } 70% { transform: scale(.99); } }
@@ -691,7 +695,8 @@ button.chip:active { transform: translateY(2px); }
   font-family: var(--display); font-weight: 800; font-size: 1.2rem; color: #fff;
 }
 .feedback.ok .verdict { background: var(--good); }
-.feedback.ng .verdict { background: var(--bad); }
+/* 不正解の帯は赤ではなく落ち着いた青灰色にして、責められている感じにしない */
+.feedback.ng .verdict { background: linear-gradient(105deg, #7c8ba8, #5b6a8a); }
 .fb-body { padding: 14px 16px 16px; }
 .feedback .word { font-family: var(--latin); font-weight: 800; font-size: 1.6rem; }
 .feedback .meaning { font-weight: 800; font-size: 1.05rem; }

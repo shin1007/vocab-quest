@@ -1027,7 +1027,39 @@
     next.focus({ preventScroll: true });
     // 斬る演出が画面の外に出ないよう、解説カードへのスクロールと読み上げは斬り終わってから
     slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
-    feedbackVoice(next, ok, [`${w.id}.word`, `${w.id}.meaning`], slashed);
+    if (ok || !redoCorrect(next, [`${w.id}.word`, `${w.id}.meaning`])) feedbackVoice(next, ok, [`${w.id}.word`, `${w.id}.meaning`], slashed);
+  }
+
+  // 不正解のあとの「正解を選び直す」ステップ。間違えたまま次へ進まず、解説を読んだうえで自分の手で正解を選び直すと、
+  // 正しい答えを思い出して選ぶ経験が1回増えて定着しやすい。習熟度や正答数には数えない。
+  // 選択肢の問題でだけ働く（つづり問題は対象外）。選び直すまで「つぎへ」は押せず、選び直したら読み上げる。
+  // 対象の問題だったら true を返す（このとき読み上げは選び直したあとに回す）
+  function redoCorrect(next, keys) {
+    const el = $view.querySelector(".choice.correct");
+    if (!el) return false;
+    // 問題を答えたときの click 処理を引き継がないよう、複製に置き換える
+    const again = el.cloneNode(true);
+    again.disabled = false;
+    again.classList.add("redo");
+    el.replaceWith(again);
+    const msg = document.createElement("p");
+    msg.className = "redo-msg";
+    msg.setAttribute("role", "status");
+    msg.textContent = "👆 もう一度、正解を選んでみよう";
+    again.parentElement.after(msg);
+    next.disabled = true;
+    again.addEventListener("click", () => {
+      again.disabled = true;
+      again.classList.remove("redo", "correct");
+      void again.offsetWidth; // 正解のバウンドをもう一度動かす
+      again.classList.add("correct");
+      msg.remove();
+      next.disabled = false;
+      next.focus({ preventScroll: true });
+      if (state.settings.autoVoice) playVoice(keys);
+    });
+    again.focus({ preventScroll: true });
+    return true;
   }
 
   // 解説カードの読み上げと「正解なら自動で次へ」（設定）。読み上げが終わってから AUTO_NEXT_MS 待って進む。
@@ -1506,7 +1538,7 @@
     });
     next.focus({ preventScroll: true });
     slashed.then(() => { if (box.isConnected) box.scrollIntoView({ behavior: "smooth", block: "nearest" }); });
-    feedbackVoice(next, ok, q.set.words.map(pairWordKey), slashed);
+    if (ok || !redoCorrect(next, q.set.words.map(pairWordKey))) feedbackVoice(next, ok, q.set.words.map(pairWordKey), slashed);
   }
 
   function finishPairSession() {
@@ -1693,6 +1725,15 @@
     if (!$modal.hidden || e.ctrlKey || e.metaKey || e.altKey || e.isComposing) return;
     if (e.target.closest?.("input, select, textarea")) return;
     if (!document.body.classList.contains("in-session")) return;
+    const redo = $view.querySelector(".choice.redo");
+    if (redo) {
+      // 正解の選び直し待ち：Enter / Space か、その選択肢の番号・文字キーで選べる
+      const idx = [...$view.querySelectorAll(".choice")].indexOf(redo);
+      const k = e.key.toLowerCase();
+      if (!e.target.closest?.("button") && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); redo.click(); }
+      else if (!e.repeat && (k === String(idx + 1) || k === "abcd"[idx])) { e.preventDefault(); redo.click(); }
+      return;
+    }
     const next = $view.querySelector("#next");
     if (next) {
       // ボタンにフォーカスがあるときは、ブラウザの動き（そのボタンを押す）にまかせる
