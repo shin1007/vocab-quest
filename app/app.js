@@ -126,7 +126,7 @@
   const REVIEW_NUDGE = 50; // 復習がこれ以上たまっていたら、新しい語より先に復習を勧める
   const REVIEW_SIZE = 20;
   const AUTO_NEXT_MS = 1200; // 「正解なら自動で次へ」で、読み上げが終わってから次の問題に進むまでの時間
-  const SLASH = { ms: 420, stagger: 110 }; // 正解したときに錯乱肢を斬る演出：1つ分の長さと、次の選択肢を斬り始めるまでの間
+  const SLASH = { ms: 520 }; // 正解したときに錯乱肢を斬る演出：刀が一覧を上から下へ走る時間
   const QUESTIONS_PER_SESSION = 8; // 似た単語の練習
   const DAY = 24 * 60 * 60 * 1000;
   const STORE_KEY = "vocab-quest-save-v3";
@@ -930,8 +930,9 @@
     showFeedback(q, choice, ok, before < ANSWER_EN_FROM && c.level >= ANSWER_EN_FROM, slashed);
   }
 
-  // 正解したら、残りの選択肢（錯乱肢）を刀で上から順に斬る。斬り終わったら解決する Promise を返す。
-  // 選択肢は残したまま、上下に割れた2枚（aria-hidden の複製）を重ねて見せる。動きを減らす設定では薄くするだけ
+  // 正解したら、錯乱肢を刀の一太刀で斬る。刀身は選択肢の一覧を上から下へ1回だけ走り、通ったところの錯乱肢から割れる。
+  // 選択肢は残したまま、上下に割れた2枚（aria-hidden の複製）を重ねて見せる。斬り終わったら解決する Promise を返す。
+  // 動きを減らす設定では、錯乱肢を薄くするだけ
   function slashChoices() {
     const wrong = [...$view.querySelectorAll(".choice:not(.correct)")];
     if (!wrong.length) return Promise.resolve();
@@ -941,27 +942,31 @@
     }
     const box = wrong[0].parentElement;
     box.classList.add("slashing");
-    wrong.forEach((el, i) => {
+    const total = box.offsetHeight;
+    const place = (node, x, y, w, h, delay) => {
+      node.style.cssText += `left:${x}px;top:${y}px;width:${w}px;height:${h}px;--delay:${Math.round(delay)}ms;--slash-ms:${SLASH.ms}ms;`;
+      node.setAttribute("aria-hidden", "true");
+      box.append(node);
+      return node;
+    };
+    wrong.forEach((el) => {
       const { offsetLeft: x, offsetTop: y, offsetWidth: w, offsetHeight: h } = el;
-      const place = (node) => {
-        node.style.cssText += `left:${x}px;top:${y}px;width:${w}px;height:${h}px;--delay:${i * SLASH.stagger}ms;--slash-ms:${SLASH.ms}ms;`;
-        node.setAttribute("aria-hidden", "true");
-        box.append(node);
-        return node;
-      };
+      // 刀が選択肢の中心を通るころに割れる
+      const delay = ((y + h / 2) / total) * SLASH.ms;
       for (const part of ["upper", "lower"]) {
         const half = el.cloneNode(true);
         half.removeAttribute("data-i");
         half.classList.add("half", part);
-        place(half);
+        place(half, x, y, w, h, delay);
       }
-      // 刀身の光：選択肢の対角線（左下30%→右上70%の切り口）にそって走らせる
-      const line = place(document.createElement("i"));
-      line.className = "slash-line";
-      line.style.setProperty("--angle", `${-Math.atan2(h * 0.4, w)}rad`);
       el.classList.add("slashed");
     });
-    return new Promise((done) => setTimeout(done, SLASH.ms + (wrong.length - 1) * SLASH.stagger));
+    // 刀身：一覧の幅いっぱいの斜めの線を、上から下へ1回だけ動かす
+    const blade = place(document.createElement("i"), 0, 0, box.offsetWidth, total, 0);
+    blade.className = "slash-line";
+    blade.style.setProperty("--angle", `${-Math.atan2(36, box.offsetWidth)}rad`);
+    blade.style.setProperty("--travel", `${total}px`);
+    return new Promise((done) => setTimeout(done, SLASH.ms * 1.2));
   }
 
   // STUDY_GOAL に届いていない語を、数問あとにもう一度出す（別の語をはさむと思い出す間隔ができる）
