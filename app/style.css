@@ -617,7 +617,13 @@ button.chip:active { transform: translateY(2px); }
 .choice.wrong .key { background: var(--card-2); color: var(--text-soft); border: var(--bw-sm) solid var(--edge); }
 .choice.dim { opacity: .45; filter: grayscale(.6); }
 /* 不正解のあと、正解を選び直してもらう（app.js の redoCorrect） */
-.choice.redo { cursor: pointer; animation: redo-ring 1.1s ease-in-out infinite; }
+.choice.redo { position: relative; cursor: pointer; animation: redo-ring 1.1s ease-in-out infinite; }
+/* 「ここをタップ」の指マーク。選択肢の右端で、押すようにとんとん動く */
+.choice.redo::after {
+  content: "👆"; position: absolute; right: 14px; top: 50%; font-size: 1.7rem; line-height: 1; pointer-events: none;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, .3)); animation: redo-tap 1.1s ease-in-out infinite;
+}
+@keyframes redo-tap { 0%, 100% { transform: translateY(-30%); } 50% { transform: translateY(-5%) scale(.92); } }
 @keyframes redo-ring { 50% { box-shadow: 0 0 0 5px color-mix(in srgb, var(--good-solid) 35%, transparent); } }
 .redo-msg { margin: 10px 0 0; text-align: center; font-weight: 700; font-size: .9rem; color: var(--text); }
 .choice.correct .key::after { content: "✓"; font-size: .95rem; }
