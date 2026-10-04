@@ -830,6 +830,7 @@
   }
 
   function renderQuestion() {
+    stopVoice(); // 前の問題の読み上げが、次の問題に入ってから流れないように
     const s = session;
     const w = s.questions[s.index].word;
     if (s.questions[s.index].pending) s.questions[s.index] = makeQuestion(w, pick(allowedTypes(w)));
@@ -924,7 +925,7 @@
     if (ok) { state.correct++; s.correct++; }
     save();
     const sfxMs = sfx(ok);
-    const slashed = ok && q.type !== "spell" ? slashChoices() : wait(sfxMs);
+    const slashed = ok && q.type !== "spell" ? slashChoices() : wait(sfxMs * 0.6);
     if (s.targets) requeue(s, w, ok);
     const top = $view.querySelector(".quiz-top");
     top.querySelector(".steps").remove();
@@ -976,7 +977,8 @@
     blade.style.cssText += style(cx - 11, (H - len) / 2, 22, len, 0, run) + `--angle:${Math.atan2(lean, H)}rad;`;
     blade.setAttribute("aria-hidden", "true");
     box.append(blade);
-    return new Promise((done) => setTimeout(done, SLASH.ms));
+    // 斬り終わる少し前（約7割）で次へ進め、読み上げを早めに始める
+    return wait(SLASH.ms * 0.7);
   }
 
   // STUDY_GOAL に届いていない語を、数問あとにもう一度出す（別の語をはさむと思い出す間隔ができる）
@@ -1114,6 +1116,7 @@
   }
 
   function finishSession() {
+    stopVoice();
     const s = session;
     if (!s.results.length) { go("home"); return; }
     const complete = s.targets ? s.targets.every((w) => level(w.id) >= STUDY_GOAL) : s.results.length === s.questions.length;
@@ -1478,6 +1481,7 @@
   }
 
   function renderPairQuestion() {
+    stopVoice();
     const s = pairSession;
     const q = s.questions[s.index];
     const k = PAIR_KINDS[q.set.kind];
@@ -1526,7 +1530,7 @@
     state.answered++;
     save();
     const sfxMs = sfx(ok);
-    const slashed = ok ? slashChoices() : wait(sfxMs);
+    const slashed = ok ? slashChoices() : wait(sfxMs * 0.6);
 
     const last = s.index >= s.questions.length - 1;
     const box = document.createElement("section");
@@ -1555,6 +1559,7 @@
   }
 
   function finishPairSession() {
+    stopVoice();
     const s = pairSession;
     pairSession = null;
     if (!s.results.length) { go("pairs"); return; }
