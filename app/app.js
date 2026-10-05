@@ -189,6 +189,8 @@
     return {
       cards: {}, streak: 0, lastDay: null,
       sessions: 0, answered: 0, correct: 0, welcomed: false,
+      // explained: 一度出した仕組みの説明（explainOnce のキー）
+      explained: {},
       // installLater: 「ホーム画面に追加」の案内を「あとで」で閉じた日時
       settings: { autoVoice: true, sfx: true, autoNext: false, theme: DEFAULT_THEME, batch: BATCH_SIZE, review: REVIEW_SIZE, installLater: 0 },
     };
@@ -231,6 +233,17 @@
   // 明日の復習の見込み：いま復習期限が来ている語（今日中に片づけなければ明日もそのまま残る）＋
   // これから覚えるn語（今回の学習で習熟度2に届けば、次の出題は1日後＝明日になる）。あくまで目安
   const reviewForecast = (plan) => new Set([...dueWords().map((w) => w.id), ...plan.words.map((w) => w.id)]).size;
+  // 仕組みの説明（習熟度の上がり方・復習の見込みなど）は毎回読むものではないので、最初の1回だけ出す。
+  // sticky のときは、語数の選択などで同じ画面を描き直しても急に消えないよう、ページを開いているあいだは出し続ける
+  const explainedNow = new Set();
+  function explainOnce(key, sticky = true) {
+    if (explainedNow.has(key)) return true;
+    if (state.explained[key]) return false;
+    state.explained = { ...state.explained, [key]: true };
+    save();
+    if (sticky) explainedNow.add(key);
+    return true;
+  }
   const learnedCount = () => WORDS.filter((w) => level(w.id) >= LEARNED).length;
 
   // ---------- 次のn語 ----------
@@ -510,7 +523,8 @@
 
   // ---------- 目標と次のn語 ----------
   // 到達したレベル（8割定着）と次のレベルまでの進み具合に、次に覚える語をまとめた1枚のカード
-  function goalCard(plan) {
+  // primary: ほかに先にやること（はじめる・復習）がなければ、NEXT のボタンを主役にする
+  function goalCard(plan, primary) {
     const reached = reachedCourse();
     const next = COURSE_ORDER[reached ? COURSE_ORDER.indexOf(reached) + 1 : 0];
     const { total, learned } = next ? courseLearned(next) : { total: 0, learned: 0 };
@@ -525,7 +539,7 @@
             ${next ? html`
               <b>${esc(courseLabel(next))}クリアまで あと${need}語</b>
               ${bar(learned / (total * MASTERED))}
-              <div class="small muted">${learned}/${total}語 定着（8割の${Math.ceil(total * MASTERED)}語でクリア）</div>` : html`
+              <div class="small muted">${learned}/${total}語 定着${explainOnce("clear") ? `（8割の${Math.ceil(total * MASTERED)}語でクリア）` : ""}</div>` : html`
               <b>全レベルクリア！ おめでとうございます</b>`}
           </div>
         </div>
@@ -536,9 +550,9 @@
             <div class="batch-pick" role="group" aria-label="1回に覚える語の数">
               ${BATCH_OPTIONS.map((n) => `<button class="chip ${state.settings.batch === n ? "on" : ""}" data-batch="${n}" aria-pressed="${state.settings.batch === n}">${n}語</button>`).join("")}
             </div>
-            ${plan.practice ? "" : html`
+            ${plan.practice || !explainOnce("forecast") ? "" : html`
               <p class="small muted" style="margin:8px 0 0">この${plan.words.length}語を覚えると、明日の復習は目安で約${reviewForecast(plan)}問になります。</p>`}
-            <button class="btn block" data-study="">▶ ${planLabel(plan)}</button>
+            <button class="btn ${primary ? "" : "secondary"} block" data-study="">▶ ${planLabel(plan)}</button>
           </div>` : ""}
       </section>`;
   }
@@ -567,28 +581,24 @@
           <h2 class="spacer">きょうの学習</h2>
           <span class="small muted">${todayKey().replaceAll("-", ".")}</span>
         </div>
-        <div class="today-grid">
-          <div class="stat-tile"><b>${state.streak}</b><span>🔥 連続日数</span></div>
-          <div class="stat-tile"><b>${learnedCount()}</b><span>📘 定着した語</span></div>
-          <div class="stat-tile ${due.length ? "hot" : ""}"><b>${due.length}</b><span>🔁 復習</span></div>
-        </div>
+        <div class="stat-tile today-due ${due.length ? "hot" : ""}"><b>${due.length}</b><span>🔁 ${due.length ? "語の復習があります" : "きょうの復習はありません"}</span></div>
         ${due.length ? html`
           ${due.length > REVIEW_OPTIONS[0] ? html`
             <div class="batch-pick" role="group" aria-label="1回に復習する語の数">
               ${REVIEW_OPTIONS.map((n) => `<button class="chip ${state.settings.review === n ? "on" : ""}" data-review="${n}" aria-pressed="${state.settings.review === n}">${n}問</button>`).join("")}
             </div>` : ""}
           <button class="btn green block review-btn" id="review">🔁 復習する（${Math.min(due.length, state.settings.review)}問）</button>
-          <p class="small muted center">${due.length >= REVIEW_NUDGE
-            ? `復習が${due.length}語たまっています。新しい語より先に復習をすませると、忘れにくくなります。`
-            : "忘れかけた頃にもう一度思い出すと、長く記憶に残ります。"}</p>` : ""}
+          ${due.length >= REVIEW_NUDGE
+            ? `<p class="small muted center">復習が${due.length}語たまっています。新しい語より先に復習をすませると、忘れにくくなります。</p>`
+            : explainOnce("review") ? `<p class="small muted center">忘れかけた頃にもう一度思い出すと、長く記憶に残ります。</p>` : ""}` : ""}
       </section>
 
       ${installCard()}
 
-      ${goalCard(next)}
+      ${goalCard(next, state.welcomed && !due.length)}
 
       <h2 class="section-title">レベル別コース</h2>
-      <p class="small lead">レベルは英検の級にあわせたおおよその目安です。英語のつづり・意味の難しさで分けています。</p>
+      ${explainOnce("levels") ? `<p class="small lead">レベルは英検の級にあわせたおおよその目安です。英語のつづり・意味の難しさで分けています。</p>` : ""}
       ${openCourses.map(courseCard).join("")}
       ${otherCourses.length ? html`
         <details class="more-courses" id="more-courses" ${moreCoursesOpen ? "open" : ""}>
@@ -621,6 +631,12 @@
     });
     $view.querySelector("#more-courses")?.addEventListener("toggle", (e) => { moreCoursesOpen = e.target.open; });
     $view.querySelectorAll("[data-study]").forEach((b) => b.addEventListener("click", () => startSession({ kind: "study", course: b.dataset.study || null })));
+    // コースのカードはカード全体がボタン。キーボードでも Enter／Space で始められるようにする
+    $view.querySelectorAll(".topic[data-study]").forEach((el) => el.addEventListener("keydown", (e) => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      e.preventDefault();
+      el.click();
+    }));
     $view.querySelectorAll("[data-batch]").forEach((b) => b.addEventListener("click", () => {
       state.settings.batch = +b.dataset.batch;
       save();
@@ -629,7 +645,8 @@
     $view.querySelectorAll("[data-detail]").forEach((el) => el.addEventListener("click", () => openDetail(el.dataset.detail)));
   }
 
-  // コースのカード。ホームでは、いま学んでいるレベルとその次だけを開いておき、ほかはたたむ
+  // コースのカード。ホームでは、いま学んでいるレベルとその次だけを開いておき、ほかはたたむ。
+  // 始めるボタンは NEXT の1つにしぼり、コースのカードはカード全体をタップしてそのコースの次のn語を始める
   let moreCoursesOpen = false;
   function courseCard(k) {
     const t = COURSES[k];
@@ -638,7 +655,7 @@
     const learned = words.filter((w) => level(w.id) >= LEARNED).length;
     const plan = nextPlan(k);
     return html`
-      <section class="card topic" style="--area:var(--area-${k})">
+      <section class="card topic" style="--area:var(--area-${k})" data-study="${k}" role="button" tabindex="0" aria-label="${esc(t.name)}：${planLabel(plan)}">
         <div class="topic-head">
           ${badge(k)}
           <div class="spacer"><h3>${esc(t.name)} ${esc(t.title)}</h3><div class="small muted">${esc(t.desc)} ・ ${words.length}語</div></div>
@@ -646,7 +663,7 @@
         </div>
         <div class="row">
           <span class="small muted spacer">${plan.practice ? "全部の語に出会いました" : `まだ出会っていない語 ${plan.fresh}語${plan.started ? ` ・ 覚えかけ ${plan.started}語` : ""}`}</span>
-          <button class="btn secondary small" data-study="${k}">▶ ${planLabel(plan)}</button>
+          <span class="topic-go" aria-hidden="true">›</span>
         </div>
       </section>`;
   }
@@ -844,7 +861,7 @@
       </div>
       <div class="small muted quiz-title">${esc(s.title)}</div>
       <section class="card question pop">
-        <div class="row"><span class="tag">${QTYPES[q.type]}</span><span class="dir small muted">${answersMeaning(q.type) ? "英→日：意味を答える" : "日→英：英語を答える"}</span><span class="spacer"></span>${promptVoice ? voiceButton(promptVoice) : ""}</div>
+        <div class="row"><span class="tag">${QTYPES[q.type]}</span>${explainOnce("direction") ? `<span class="dir small muted">${answersMeaning(q.type) ? "英→日：意味を答える" : "日→英：英語を答える"}</span>` : ""}<span class="spacer"></span>${promptVoice ? voiceButton(promptVoice) : ""}</div>
         <div class="prompt">${q.prompt}</div>
         <div id="hint"></div>
         ${q.type === "spell" ? html`
@@ -993,8 +1010,9 @@
     const s = session;
     const w = q.word;
     const last = s.index >= s.questions.length - 1;
+    // 解説は正誤で量を変える。正解なら意味と語源の1行だけ。不正解なら、まず選んだ語の意味・自分のつづりを見せ、
+    // カタカナの罠を添える（語源などは「くわしく」で見る）
     const wrongRef = !ok && choice.ref && choice.ref.id !== w.id ? choice.ref : null;
-    const firstSentence = w.etymology.story.split("。")[0] + "。";
     const box = document.createElement("section");
     box.className = `card feedback ${ok ? "ok" : "ng"} pop`;
     box.innerHTML = html`
@@ -1004,17 +1022,16 @@
         ${meter(level(w.id))}
       </div>
       <div class="fb-body">
+        ${wrongRef ? `<div class="tip">🤔 選んだ <b>${esc(wrongRef.word)}</b> は「${esc(wrongRef.meaning)}」</div>` : ""}
+        ${!ok && q.type === "spell" && !choice.skipped ? `<div class="tip">✏️ あなたのつづり：<b>${esc(choice.label)}</b></div>` : ""}
         <div class="row"><span class="word">${esc(w.word)}</span><span class="muted ipa">/${esc(ipaText(w.ipa, !!w.lang))}/</span><span class="muted">${esc(w.katakana)}</span>
           <span class="spacer"></span>${voiceButton(`${w.id}.word,${w.id}.meaning`)}</div>
         <div class="meaning">${esc(w.meaning)}</div>
         ${q.synonym ? `<div class="tip">🔀 <b>${esc(q.synonym.word)}</b>：${esc(q.synonym.nuance)}</div>` : ""}
         ${q.pairSet ? pairTip(q.pairSet) : ""}
-        ${wrongRef ? `<div class="tip">🤔 選んだ <b>${esc(wrongRef.word)}</b> は「${esc(wrongRef.meaning)}」</div>` : ""}
-        ${!ok && q.type === "spell" && !choice.skipped ? `<div class="tip">✏️ あなたのつづり：<b>${esc(choice.label)}</b></div>` : ""}
-        <div class="tip">📜 ${esc(w.etymology.origin)}<br>💡 ${esc(firstSentence)}</div>
-        ${w.gap ? `<div class="tip warn">⚠️ ${esc(w.gap)}</div>` : ""}
-        ${ok && q.hinted ? `<div class="tip">💡 ヒントを見て正解したので、習熟度の上がり方は半分です。また早めに出題されます。</div>` : ""}
-        ${switched ? `<div class="tip">🎯 「${LEVELS[ANSWER_EN_FROM]}」になりました。この語はこれから英語を答える問題だけで出ます。</div>` : ""}
+        ${ok ? `<div class="tip">📜 ${esc(w.etymology.origin)}</div>` : w.gap ? `<div class="tip warn">⚠️ ${esc(w.gap)}</div>` : ""}
+        ${ok && q.hinted && explainOnce("hintHalf", false) ? `<div class="tip">💡 ヒントを見て正解したので、習熟度の上がり方は半分です。また早めに出題されます。</div>` : ""}
+        ${switched && explainOnce("switched", false) ? `<div class="tip">🎯 「${LEVELS[ANSWER_EN_FROM]}」になりました。この語はこれから英語を答える問題だけで出ます。</div>` : ""}
         <div class="row" style="margin-top:14px">
           <button class="btn secondary" data-detail="${w.id}">📖 くわしく</button>
           <span class="spacer"></span>

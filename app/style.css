@@ -495,7 +495,6 @@ button.chip:active { transform: translateY(2px); }
 .welcome-art span { color: var(--hi); }
 
 .today h2 { font-size: 1.1rem; margin: 0; }
-.today-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 12px 0; }
 .stat-tile {
   display: flex; flex-direction: column; align-items: center; padding: 8px 4px; border-radius: var(--radius-sm);
   background: var(--card-2); border: var(--bw-sm) solid var(--edge);
@@ -503,6 +502,9 @@ button.chip:active { transform: translateY(2px); }
 .stat-tile b { font-family: var(--latin); font-weight: 800; font-size: 1.7rem; line-height: 1.2; }
 .stat-tile span { font-size: .72rem; font-weight: 700; color: var(--text-soft); white-space: nowrap; }
 .stat-tile.hot { border-color: var(--hi); }
+/* きょうの学習：復習の数だけを横長の枠に出す */
+.today-due { flex-direction: row; align-items: baseline; justify-content: center; gap: 8px; margin: 12px 0; }
+.today-due span { font-size: .85rem; }
 .today .small.center { margin: 8px 0 0; }
 
 .goal-card { margin-top: 22px; }
@@ -537,6 +539,9 @@ button.chip:active { transform: translateY(2px); }
   background: var(--area); border: var(--bw-sm) solid var(--edge);
 }
 .topic-badge.big { width: 76px; height: 76px; font-size: 2.4rem; border-radius: calc(var(--radius-sm) + 6px); margin: 0 auto 8px; }
+.topic[role="button"] { cursor: pointer; transition: transform .1s; }
+.topic[role="button"]:active { transform: scale(.98); }
+.topic-go { font-size: 1.6rem; font-weight: 800; line-height: 1; color: var(--text-soft); }
 .topic-head { position: relative; display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
 .topic-head h3 { margin: 0; font-size: 1.15rem; font-family: var(--display); }
 .topic-badge.grade { font-family: var(--latin); font-weight: 800; font-size: .95rem; color: #fff; letter-spacing: -.02em; }
